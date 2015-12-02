@@ -1,0 +1,5 @@
+CODE_DOMAIN,CODE_VALUE,CODE_DESC,uri,preflabel
+C_H_PLASTICITY_DEG,0,Non-plastic,http://registry.it.csiro.au/def/soils/plasticity-degree/non-plastic/,"""Non-Plastic""@en"
+C_H_PLASTICITY_DEG,1,Slightly plastic,http://registry.it.csiro.au/def/soils/plasticity-degree/slightly-plastic/,"""Slightly-Plastic""@en"
+C_H_PLASTICITY_DEG,2,Moderately plastic,http://registry.it.csiro.au/def/soils/plasticity-degree/moderately-plastic/,"""Moderately-Plastic""@en"
+C_H_PLASTICITY_DEG,3,Very plastic,http://registry.it.csiro.au/def/soils/plasticity-degree/very-plastic/,"""Very-Plastic""@en"

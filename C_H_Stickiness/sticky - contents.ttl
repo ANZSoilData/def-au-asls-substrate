@@ -1,0 +1,41 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sticky: <http://registry.it.csiro.au/def/soils/stickiness/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<moderately-sticky>
+  rdf:type skos:Concept ;
+  dct:description "Moderately sticky" ;
+  rdfs:label "Moderately sticky" ;
+  skos:definition "Moderately sticky" ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderately sticky"@en ;
+.
+<non-sticky>
+  rdf:type skos:Concept ;
+  dct:description "Non-sticky" ;
+  rdfs:label "Non-sticky" ;
+  skos:definition "Non-sticky" ;
+  skos:notation "0" ;
+  skos:prefLabel "Non-sticky"@en ;
+.
+<slightly-sticky>
+  rdf:type skos:Concept ;
+  dct:description "Slightly sticky" ;
+  rdfs:label "Slightly sticky" ;
+  skos:definition "Slightly sticky" ;
+  skos:notation "1" ;
+  skos:prefLabel "Slightly sticky"@en ;
+.
+<very-sticky>
+  rdf:type skos:Concept ;
+  dct:description "Very sticky" ;
+  rdfs:label "Very sticky" ;
+  skos:definition "Very sticky" ;
+  skos:notation "3" ;
+  skos:prefLabel "Very sticky"@en ;
+.

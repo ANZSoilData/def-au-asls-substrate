@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix plast_type: <http://registry.it.csiro.au/def/soils/plasticity-type/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix reg: <http://purl.org/linked-data/registry#> .
+
+<plasticity_type>:
+  rdf:type reg:Register ;
+  dc:source "natsoil CSIRO database - plasticity type table"^^xsd:string ;
+  dct:created "2015-11-30"^^xsd:date ;
+  dct:creator <mailto:xavier.butcher@csiro.au> ;
+  rdfs:comment "The type of plasticity refers to the degree to which the consistence and/or field texture properties of a soil suggest the amount of clay-sized particles it contains (Butler 1955). It may be identified by determining two field textures: one after an initial 1 to 2 minute working of the soil sample, and another after a prolonged 10 minute kneading. The change in field texture from the initial to the prolonged working of the soil sample indicates the type of plasticity."^^xsd:string ;
+  rdfs:label "Plasticity Type"^^xsd:string ;
+  rdfs:seeAlso "National Committee on Soil and Terrain (2009), ‘Australian soil and land survey field handbook (3rd edn).’ (CSIRO Publishing: Melbourne)"^^xsd:string ;
+  .

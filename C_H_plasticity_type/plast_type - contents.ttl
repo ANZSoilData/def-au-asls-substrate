@@ -1,0 +1,41 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix plast_type: <http://registry.it.csiro.au/def/soils/plasticity-type/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<normal-plasticity>
+  rdf:type skos:Concept ;
+  dct:description "Normal plasticity" ;
+  rdfs:label "Normal Plasticity" ;
+  skos:definition "Normal plasticity" ;
+  skos:notation "N" ;
+  skos:prefLabel "Normal Plasticity"@en ;
+.
+<strongly-subplastic>
+  rdf:type skos:Concept ;
+  dct:description "Strongly subplastic" ;
+  rdfs:label "Strongly Subplastic" ;
+  skos:definition "Strongly subplastic" ;
+  skos:notation "T" ;
+  skos:prefLabel "Strongly Subplastic"@en ;
+.
+<subplastic>
+  rdf:type skos:Concept ;
+  dct:description "Subplastic" ;
+  rdfs:label "Subplastic" ;
+  skos:definition "Subplastic" ;
+  skos:notation "U" ;
+  skos:prefLabel "Subplastic"@en ;
+.
+<superplastic>
+  rdf:type skos:Concept ;
+  dct:description "Superplastic" ;
+  rdfs:label "Superplastic" ;
+  skos:definition "Superplastic" ;
+  skos:notation "S" ;
+  skos:prefLabel "Superplastic"@en ;
+.

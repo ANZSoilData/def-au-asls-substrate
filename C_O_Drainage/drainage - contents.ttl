@@ -1,0 +1,57 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix drain: <http://registry.it.csiro.au/def/soils/drainage/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<imperfectly-drained>
+  rdf:type skos:Concept ;
+  dct:description "Imperfectly drained" ;
+  rdfs:label "Imperfectly drained" ;
+  skos:definition "Imperfectly drained" ;
+  skos:notation "3" ;
+  skos:prefLabel "Imperfectly drained"@en ;
+.
+<moderately-well-drained>
+  rdf:type skos:Concept ;
+  dct:description "Moderately well drained" ;
+  rdfs:label "Moderately well drained" ;
+  skos:definition "Moderately well drained" ;
+  skos:notation "4" ;
+  skos:prefLabel "Moderately well drained"@en ;
+.
+<poorly-drained>
+  rdf:type skos:Concept ;
+  dct:description "Poorly drained" ;
+  rdfs:label "Poorly drained" ;
+  skos:definition "Poorly drained" ;
+  skos:notation "2" ;
+  skos:prefLabel "Poorly drained"@en ;
+.
+<rapidly-drained>
+  rdf:type skos:Concept ;
+  dct:description "Rapidly drained" ;
+  rdfs:label "Rapidly drained" ;
+  skos:definition "Rapidly drained" ;
+  skos:notation "6" ;
+  skos:prefLabel "Rapidly drained"@en ;
+.
+<very-poorly-drained>
+  rdf:type skos:Concept ;
+  dct:description "Very poorly drained" ;
+  rdfs:label "Very poorly drained" ;
+  skos:definition "Very poorly drained" ;
+  skos:notation "1" ;
+  skos:prefLabel "Very poorly drained"@en ;
+.
+<well-drained>
+  rdf:type skos:Concept ;
+  dct:description "Well drained" ;
+  rdfs:label "Well drained" ;
+  skos:definition "Well drained" ;
+  skos:notation "5" ;
+  skos:prefLabel "Well drained"@en ;
+.

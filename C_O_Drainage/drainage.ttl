@@ -1,0 +1,73 @@
+# baseURI: http://registry.it.csiro.au/def/soils/drainage/
+# imports: http://purl.org/dc/elements/1.1/
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix drain: <http://registry.it.csiro.au/def/soils/drainage/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf123: <http://rdf123.umbc.edu/ns/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+drain:
+  rdf:type owl:Ontology ;
+  dc:source "natsoil CSIRO database - drainage table"^^xsd:string ;
+  dct:created "2015-12-02"^^xsd:date ;
+  dct:creator <mailto:xavier.butcher@csiro.au> ;
+  rdfs:comment "Drainage is a useful term to summarise local soil wetness conditions, that is, it provides a statement about soil and site drainage likely to occur in most years. It is affected by a number of attributes, both internal and external, that may act separately or together. Internal attributes include soil structure, texture, porosity, hydraulic conductivity, and water-holding capacity, while external attributes are source and quality of water, evapotranspiration, gradient and length of slope, and position in the landscape."^^xsd:string ;
+  rdfs:label "Drainage"^^xsd:string ;
+  rdfs:seeAlso "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
+  owl:imports dc: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+drain:imperfectly-drained
+  rdf:type skos:Concept ;
+  dct:description "Imperfectly drained" ;
+  rdfs:label "Imperfectly drained" ;
+  skos:definition "Imperfectly drained" ;
+  skos:notation "3" ;
+  skos:prefLabel "Imperfectly drained"@en ;
+.
+drain:moderately-well-drained
+  rdf:type skos:Concept ;
+  dct:description "Moderately well drained" ;
+  rdfs:label "Moderately well drained" ;
+  skos:definition "Moderately well drained" ;
+  skos:notation "4" ;
+  skos:prefLabel "Moderately well drained"@en ;
+.
+drain:poorly-drained
+  rdf:type skos:Concept ;
+  dct:description "Poorly drained" ;
+  rdfs:label "Poorly drained" ;
+  skos:definition "Poorly drained" ;
+  skos:notation "2" ;
+  skos:prefLabel "Poorly drained"@en ;
+.
+drain:rapidly-drained
+  rdf:type skos:Concept ;
+  dct:description "Rapidly drained" ;
+  rdfs:label "Rapidly drained" ;
+  skos:definition "Rapidly drained" ;
+  skos:notation "6" ;
+  skos:prefLabel "Rapidly drained"@en ;
+.
+drain:very-poorly-drained
+  rdf:type skos:Concept ;
+  dct:description "Very poorly drained" ;
+  rdfs:label "Very poorly drained" ;
+  skos:definition "Very poorly drained" ;
+  skos:notation "1" ;
+  skos:prefLabel "Very poorly drained"@en ;
+.
+drain:well-drained
+  rdf:type skos:Concept ;
+  dct:description "Well drained" ;
+  rdfs:label "Well drained" ;
+  skos:definition "Well drained" ;
+  skos:notation "5" ;
+  skos:prefLabel "Well drained"@en ;
+.

@@ -1,0 +1,57 @@
+# baseURI: http://registry.it.csiro.au/def/soils/plasticity-degree/
+# imports: http://purl.org/dc/elements/1.1/
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix plast_deg: <http://registry.it.csiro.au/def/soils/plasticity-degree/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf123: <http://rdf123.umbc.edu/ns/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+plast_deg:
+  rdf:type owl:Ontology ;
+  dc:source "natsoil CSIRO database - plasticity degree table"^^xsd:string ;
+  dct:created "2015-11-30"^^xsd:date ;
+  dct:creator <mailto:xavier.butcher@csiro.au> ;
+  rdfs:comment "Plasticity is the ability to change shape and retain the new shape after the stress is removed. The degree of plasticity given below applies only to normal plasticity. The degree of plasticity is determined at the soil moisture content used for field texturing, that is, just below sticky point. The soil is rolled between the palms of the hand and, if possible, 40 mm long rolls are formed. The rolls are dangled from the thumb and forefinger. Plasticity is determined on the behaviour of rolls of varying thickness."^^xsd:string ;
+  rdfs:label "Plasticity Degree"^^xsd:string ;
+  rdfs:seeAlso "National Committee on Soil and Terrain (2009), ‘Australian soil and land survey field handbook (3rd edn).’ (CSIRO Publishing: Melbourne)"^^xsd:string ;
+  owl:imports dc: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+plast_deg:moderately-plastic
+  rdf:type skos:Concept ;
+  dct:description "Moderately plastic" ;
+  rdfs:label "Moderately Plastic" ;
+  skos:definition "Moderately plastic" ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderately Plastic"@en ;
+.
+plast_deg:non-plastic
+  rdf:type skos:Concept ;
+  dct:description "Non-plastic" ;
+  rdfs:label "Non-Plastic" ;
+  skos:definition "Non-plastic" ;
+  skos:notation "0" ;
+  skos:prefLabel "Non-Plastic"@en ;
+.
+plast_deg:slightly-plastic
+  rdf:type skos:Concept ;
+  dct:description "Slightly plastic" ;
+  rdfs:label "Slightly Plastic" ;
+  skos:definition "Slightly plastic" ;
+  skos:notation "1" ;
+  skos:prefLabel "Slightly Plastic"@en ;
+.
+plast_deg:very-plastic
+  rdf:type skos:Concept ;
+  dct:description "Very plastic" ;
+  rdfs:label "Very Plastic" ;
+  skos:definition "Very plastic" ;
+  skos:notation "3" ;
+  skos:prefLabel "Very Plastic"@en ;
+.
