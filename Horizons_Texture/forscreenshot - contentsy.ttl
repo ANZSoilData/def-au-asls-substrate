@@ -1,29 +1,13 @@
-# baseURI: http://registry.it.csiro.au/def/soils/texture/
-# imports: http://purl.org/dc/elements/1.1/
-# imports: http://www.w3.org/2004/02/skos/core
-
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdf123: <http://rdf123.umbc.edu/ns/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix texture: <http://registry.it.csiro.au/def/soils/texture/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-texture:
-  rdf:type owl:Ontology ;
-  dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
-  dct:created "2015-11-27"^^xsd:date ;
-  dct:creator <mailto:xavier.butcher@csiro.au> ;
-  dct:description "Soil texture is determined by the size distribution of mineral particles finer than 2 mm, that is, only material that will pass a 2 mm sieve should be used in determination of field texture. Organic soils are discussed on pages 122&123. In Australia, field texture classes or field texture grades (Northcote 1979) are based on field determination of texture and not on laboratory determinations of particle size, as is done in USA for example (Soil Survey Staff 1975). There is only an approximate relationship between field texture and particle size distribution (see Marshall 1947), as factors other than clay, silt and sand content influence field texture."^^xsd:string ;
-  rdfs:comment "loaded from natsoil CSIRO database - texture table"^^xsd:string ;
-  rdfs:label "Field Texture"^^xsd:string ;
-  owl:imports dc: ;
-  owl:imports <http://www.w3.org/2004/02/skos/core> ;
-.
-texture:clay-loam
+<clay-loam>
   rdf:type skos:Concept ;
   dct:description "Clay loam" ;
   rdfs:label "Clay loam" ;
@@ -31,7 +15,7 @@ texture:clay-loam
   skos:notation "CL" ;
   skos:prefLabel "Clay loam"@en ;
 .
-texture:clay-loam-fine-sandy
+<clay-loam-fine-sandy>
   rdf:type skos:Concept ;
   dct:description "Clay loam fine sandy" ;
   rdfs:label "Clay loam fine sandy" ;
@@ -39,7 +23,7 @@ texture:clay-loam-fine-sandy
   skos:notation "CLFS" ;
   skos:prefLabel "Clay loam fine sandy"@en ;
 .
-texture:clay-loam-medium-sandy
+<clay-loam-medium-sandy>
   rdf:type skos:Concept ;
   dct:description "Clay loam medium sandy" ;
   rdfs:label "Clay loam medium sandy" ;
@@ -47,7 +31,7 @@ texture:clay-loam-medium-sandy
   skos:notation "CLMS" ;
   skos:prefLabel "Clay loam medium sandy"@en ;
 .
-texture:clay-loam-sandy
+<clay-loam-sandy>
   rdf:type skos:Concept ;
   dct:description "Clay loam sandy" ;
   rdfs:label "Clay loam sandy" ;
@@ -55,7 +39,7 @@ texture:clay-loam-sandy
   skos:notation "CLS" ;
   skos:prefLabel "Clay loam sandy"@en ;
 .
-texture:clayey-coarse-sand
+<clayey-coarse-sand>
   rdf:type skos:Concept ;
   dct:description "Clayey coarse sand" ;
   rdfs:label "Clayey coarse sand" ;
@@ -63,7 +47,7 @@ texture:clayey-coarse-sand
   skos:notation "CKS" ;
   skos:prefLabel "Clayey coarse sand"@en ;
 .
-texture:clayey-fine-sand
+<clayey-fine-sand>
   rdf:type skos:Concept ;
   dct:description "Clayey fine sand" ;
   rdfs:label "Clayey fine sand" ;
@@ -71,7 +55,7 @@ texture:clayey-fine-sand
   skos:notation "CFS" ;
   skos:prefLabel "Clayey fine sand"@en ;
 .
-texture:clayey-medium-sand
+<clayey-medium-sand>
   rdf:type skos:Concept ;
   dct:description "Clayey medium sand" ;
   rdfs:label "Clayey medium sand" ;
@@ -79,7 +63,7 @@ texture:clayey-medium-sand
   skos:notation "CMS" ;
   skos:prefLabel "Clayey medium sand"@en ;
 .
-texture:clayey-peat
+<clayey-peat>
   rdf:type skos:Concept ;
   dct:description "Clayey peat" ;
   rdfs:label "Clayey peat" ;
@@ -87,7 +71,7 @@ texture:clayey-peat
   skos:notation "CP" ;
   skos:prefLabel "Clayey peat"@en ;
 .
-texture:clayey-sand
+<clayey-sand>
   rdf:type skos:Concept ;
   dct:description "Clayey sand" ;
   rdfs:label "Clayey sand" ;
@@ -95,7 +79,7 @@ texture:clayey-sand
   skos:notation "CS" ;
   skos:prefLabel "Clayey sand"@en ;
 .
-texture:coarse-pure-sand
+<coarse-pure-sand>
   rdf:type skos:Concept ;
   dct:description "Coarse pure sand" ;
   rdfs:label "Coarse pure sand" ;
@@ -103,7 +87,7 @@ texture:coarse-pure-sand
   skos:notation "KSS" ;
   skos:prefLabel "Coarse pure sand"@en ;
 .
-texture:coarse-sand
+<coarse-sand>
   rdf:type skos:Concept ;
   dct:description "Coarse sand" ;
   rdfs:label "Coarse sand" ;
@@ -111,7 +95,7 @@ texture:coarse-sand
   skos:notation "KS" ;
   skos:prefLabel "Coarse sand"@en ;
 .
-texture:coarse-sandy-clay
+<coarse-sandy-clay>
   rdf:type skos:Concept ;
   dct:description "Coarse sandy clay" ;
   rdfs:label "Coarse sandy clay" ;
@@ -119,7 +103,7 @@ texture:coarse-sandy-clay
   skos:notation "KSC" ;
   skos:prefLabel "Coarse sandy clay"@en ;
 .
-texture:coarse-sandy-clay-loam
+<coarse-sandy-clay-loam>
   rdf:type skos:Concept ;
   dct:description "Coarse sandy clay loam" ;
   rdfs:label "Coarse sandy clay loam" ;
@@ -127,7 +111,7 @@ texture:coarse-sandy-clay-loam
   skos:notation "KSCL" ;
   skos:prefLabel "Coarse sandy clay loam"@en ;
 .
-texture:coarse-sandy-heavy-clay
+<coarse-sandy-heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Coarse sandy heavy clay" ;
   rdfs:label "Coarse sandy heavy clay" ;
@@ -135,7 +119,7 @@ texture:coarse-sandy-heavy-clay
   skos:notation "KSHC" ;
   skos:prefLabel "Coarse sandy heavy clay"@en ;
 .
-texture:coarse-sandy-light-clay
+<coarse-sandy-light-clay>
   rdf:type skos:Concept ;
   dct:description "Coarse sandy light clay" ;
   rdfs:label "Coarse sandy light clay" ;
@@ -143,7 +127,7 @@ texture:coarse-sandy-light-clay
   skos:notation "KSLC" ;
   skos:prefLabel "Coarse sandy light clay"@en ;
 .
-texture:coarse-sandy-light-medium-clay
+<coarse-sandy-light-medium-clay>
   rdf:type skos:Concept ;
   dct:description "Coarse sandy light medium clay" ;
   rdfs:label "Coarse sandy light medium clay" ;
@@ -151,7 +135,7 @@ texture:coarse-sandy-light-medium-clay
   skos:notation "KSLMC" ;
   skos:prefLabel "Coarse sandy light medium clay"@en ;
 .
-texture:coarse-sandy-loam
+<coarse-sandy-loam>
   rdf:type skos:Concept ;
   dct:description "Coarse sandy loam" ;
   rdfs:label "Coarse sandy loam" ;
@@ -159,7 +143,7 @@ texture:coarse-sandy-loam
   skos:notation "KSL" ;
   skos:prefLabel "Coarse sandy loam"@en ;
 .
-texture:coarse-sandy-medium-clay
+<coarse-sandy-medium-clay>
   rdf:type skos:Concept ;
   dct:description "Coarse sandy medium clay" ;
   rdfs:label "Coarse sandy medium clay" ;
@@ -167,7 +151,7 @@ texture:coarse-sandy-medium-clay
   skos:notation "KSMC" ;
   skos:prefLabel "Coarse sandy medium clay"@en ;
 .
-texture:coarse-sandy-medium-heavy-clay
+<coarse-sandy-medium-heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Coarse sandy medium heavy clay" ;
   rdfs:label "Coarse sandy medium heavy clay" ;
@@ -175,7 +159,7 @@ texture:coarse-sandy-medium-heavy-clay
   skos:notation "KSMHC" ;
   skos:prefLabel "Coarse sandy medium heavy clay"@en ;
 .
-texture:fibric-peat
+<fibric-peat>
   rdf:type skos:Concept ;
   dct:description "Fibric peat" ;
   rdfs:label "Fibric peat" ;
@@ -183,7 +167,7 @@ texture:fibric-peat
   skos:notation "IP" ;
   skos:prefLabel "Fibric peat"@en ;
 .
-texture:fine-pure-sand
+<fine-pure-sand>
   rdf:type skos:Concept ;
   dct:description "Fine pure sand" ;
   rdfs:label "Fine pure sand" ;
@@ -191,7 +175,7 @@ texture:fine-pure-sand
   skos:notation "FSS" ;
   skos:prefLabel "Fine pure sand"@en ;
 .
-texture:fine-sand
+<fine-sand>
   rdf:type skos:Concept ;
   dct:description "Fine sand" ;
   rdfs:label "Fine sand" ;
@@ -199,7 +183,7 @@ texture:fine-sand
   skos:notation "FS" ;
   skos:prefLabel "Fine sand"@en ;
 .
-texture:fine-sandy-clay
+<fine-sandy-clay>
   rdf:type skos:Concept ;
   dct:description "Fine sandy clay" ;
   rdfs:label "Fine sandy clay" ;
@@ -207,7 +191,7 @@ texture:fine-sandy-clay
   skos:notation "FSC" ;
   skos:prefLabel "Fine sandy clay"@en ;
 .
-texture:fine-sandy-clay-loam
+<fine-sandy-clay-loam>
   rdf:type skos:Concept ;
   dct:description "Fine sandy clay loam" ;
   rdfs:label "Fine sandy clay loam" ;
@@ -215,7 +199,7 @@ texture:fine-sandy-clay-loam
   skos:notation "FSCL" ;
   skos:prefLabel "Fine sandy clay loam"@en ;
 .
-texture:fine-sandy-heavy-clay
+<fine-sandy-heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Fine sandy heavy clay" ;
   rdfs:label "Fine sandy heavy clay" ;
@@ -223,7 +207,7 @@ texture:fine-sandy-heavy-clay
   skos:notation "FSHC" ;
   skos:prefLabel "Fine sandy heavy clay"@en ;
 .
-texture:fine-sandy-light-clay
+<fine-sandy-light-clay>
   rdf:type skos:Concept ;
   dct:description "Fine sandy light clay" ;
   rdfs:label "Fine sandy light clay" ;
@@ -231,7 +215,7 @@ texture:fine-sandy-light-clay
   skos:notation "FSLC" ;
   skos:prefLabel "Fine sandy light clay"@en ;
 .
-texture:fine-sandy-light-medium-clay
+<fine-sandy-light-medium-clay>
   rdf:type skos:Concept ;
   dct:description "Fine sandy light medium clay" ;
   rdfs:label "Fine sandy light medium clay" ;
@@ -239,7 +223,7 @@ texture:fine-sandy-light-medium-clay
   skos:notation "FSLMC" ;
   skos:prefLabel "Fine sandy light medium clay"@en ;
 .
-texture:fine-sandy-loam
+<fine-sandy-loam>
   rdf:type skos:Concept ;
   dct:description "Fine sandy loam" ;
   rdfs:label "Fine sandy loam" ;
@@ -247,7 +231,7 @@ texture:fine-sandy-loam
   skos:notation "FSL" ;
   skos:prefLabel "Fine sandy loam"@en ;
 .
-texture:fine-sandy-medium-clay
+<fine-sandy-medium-clay>
   rdf:type skos:Concept ;
   dct:description "Fine sandy medium clay" ;
   rdfs:label "Fine sandy medium clay" ;
@@ -255,7 +239,7 @@ texture:fine-sandy-medium-clay
   skos:notation "FSMC" ;
   skos:prefLabel "Fine sandy medium clay"@en ;
 .
-texture:fine-sandy-medium-heavy-clay
+<fine-sandy-medium-heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Fine sandy medium heavy clay" ;
   rdfs:label "Fine sandy medium heavy clay" ;
@@ -263,7 +247,7 @@ texture:fine-sandy-medium-heavy-clay
   skos:notation "FSMHC" ;
   skos:prefLabel "Fine sandy medium heavy clay"@en ;
 .
-texture:granular-peat
+<granular-peat>
   rdf:type skos:Concept ;
   dct:description "Granular peat" ;
   rdfs:label "Granular peat" ;
@@ -271,7 +255,7 @@ texture:granular-peat
   skos:notation "GP" ;
   skos:prefLabel "Granular peat"@en ;
 .
-texture:gravel
+<gravel>
   rdf:type skos:Concept ;
   dct:description "Gravel" ;
   rdfs:label "Gravel" ;
@@ -279,7 +263,7 @@ texture:gravel
   skos:notation "GR" ;
   skos:prefLabel "Gravel"@en ;
 .
-texture:heavy-clay
+<heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Heavy clay" ;
   rdfs:label "Heavy clay" ;
@@ -287,7 +271,7 @@ texture:heavy-clay
   skos:notation "HC" ;
   skos:prefLabel "Heavy clay"@en ;
 .
-texture:hemic-peat
+<hemic-peat>
   rdf:type skos:Concept ;
   dct:description "Hemic peat" ;
   rdfs:label "Hemic peat" ;
@@ -295,7 +279,7 @@ texture:hemic-peat
   skos:notation "HP" ;
   skos:prefLabel "Hemic peat"@en ;
 .
-texture:light-clay
+<light-clay>
   rdf:type skos:Concept ;
   dct:description "Light clay" ;
   rdfs:label "Light clay" ;
@@ -303,7 +287,7 @@ texture:light-clay
   skos:notation "LC" ;
   skos:prefLabel "Light clay"@en ;
 .
-texture:light-medium-clay
+<light-medium-clay>
   rdf:type skos:Concept ;
   dct:description "Light medium clay" ;
   rdfs:label "Light medium clay" ;
@@ -311,7 +295,7 @@ texture:light-medium-clay
   skos:notation "LMC" ;
   skos:prefLabel "Light medium clay"@en ;
 .
-texture:loam
+<loam>
   rdf:type skos:Concept ;
   dct:description "Loam" ;
   rdfs:label "Loam" ;
@@ -319,7 +303,7 @@ texture:loam
   skos:notation "L" ;
   skos:prefLabel "Loam"@en ;
 .
-texture:loamy-coarse-sand
+<loamy-coarse-sand>
   rdf:type skos:Concept ;
   dct:description "Loamy coarse sand" ;
   rdfs:label "Loamy coarse sand" ;
@@ -327,7 +311,7 @@ texture:loamy-coarse-sand
   skos:notation "LKS" ;
   skos:prefLabel "Loamy coarse sand"@en ;
 .
-texture:loamy-fine-sand
+<loamy-fine-sand>
   rdf:type skos:Concept ;
   dct:description "Loamy fine sand" ;
   rdfs:label "Loamy fine sand" ;
@@ -335,7 +319,7 @@ texture:loamy-fine-sand
   skos:notation "LFS" ;
   skos:prefLabel "Loamy fine sand"@en ;
 .
-texture:loamy-medium-sand
+<loamy-medium-sand>
   rdf:type skos:Concept ;
   dct:description "Loamy medium sand" ;
   rdfs:label "Loamy medium sand" ;
@@ -343,7 +327,7 @@ texture:loamy-medium-sand
   skos:notation "LMS" ;
   skos:prefLabel "Loamy medium sand"@en ;
 .
-texture:loamy-peat
+<loamy-peat>
   rdf:type skos:Concept ;
   dct:description "Loamy peat" ;
   rdfs:label "Loamy peat" ;
@@ -351,7 +335,7 @@ texture:loamy-peat
   skos:notation "LP" ;
   skos:prefLabel "Loamy peat"@en ;
 .
-texture:loamy-sand
+<loamy-sand>
   rdf:type skos:Concept ;
   dct:description "Loamy sand" ;
   rdfs:label "Loamy sand" ;
@@ -359,7 +343,7 @@ texture:loamy-sand
   skos:notation "LS" ;
   skos:prefLabel "Loamy sand"@en ;
 .
-texture:medium-clay
+<medium-clay>
   rdf:type skos:Concept ;
   dct:description "Medium clay" ;
   rdfs:label "Medium clay" ;
@@ -367,7 +351,7 @@ texture:medium-clay
   skos:notation "MC" ;
   skos:prefLabel "Medium clay"@en ;
 .
-texture:medium-heavy-clay
+<medium-heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Medium heavy clay" ;
   rdfs:label "Medium heavy clay" ;
@@ -375,7 +359,7 @@ texture:medium-heavy-clay
   skos:notation "MHC" ;
   skos:prefLabel "Medium heavy clay"@en ;
 .
-texture:medium-pure-sand
+<medium-pure-sand>
   rdf:type skos:Concept ;
   dct:description "Medium pure sand" ;
   rdfs:label "Medium pure sand" ;
@@ -383,7 +367,7 @@ texture:medium-pure-sand
   skos:notation "MSS" ;
   skos:prefLabel "Medium pure sand"@en ;
 .
-texture:medium-sand
+<medium-sand>
   rdf:type skos:Concept ;
   dct:description "Medium sand" ;
   rdfs:label "Medium sand" ;
@@ -391,7 +375,7 @@ texture:medium-sand
   skos:notation "MS" ;
   skos:prefLabel "Medium sand"@en ;
 .
-texture:medium-sandy-clay
+<medium-sandy-clay>
   rdf:type skos:Concept ;
   dct:description "Medium sandy clay" ;
   rdfs:label "Medium sandy clay" ;
@@ -399,7 +383,7 @@ texture:medium-sandy-clay
   skos:notation "MSC" ;
   skos:prefLabel "Medium sandy clay"@en ;
 .
-texture:medium-sandy-clay-loam
+<medium-sandy-clay-loam>
   rdf:type skos:Concept ;
   dct:description "Medium sandy clay loam" ;
   rdfs:label "Medium sandy clay loam" ;
@@ -407,7 +391,7 @@ texture:medium-sandy-clay-loam
   skos:notation "MSCL" ;
   skos:prefLabel "Medium sandy clay loam"@en ;
 .
-texture:medium-sandy-heavy-clay
+<medium-sandy-heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Medium sandy heavy clay" ;
   rdfs:label "Medium sandy heavy clay" ;
@@ -415,7 +399,7 @@ texture:medium-sandy-heavy-clay
   skos:notation "MSHC" ;
   skos:prefLabel "Medium sandy heavy clay"@en ;
 .
-texture:medium-sandy-light-clay
+<medium-sandy-light-clay>
   rdf:type skos:Concept ;
   dct:description "Medium sandy light clay" ;
   rdfs:label "Medium sandy light clay" ;
@@ -423,7 +407,7 @@ texture:medium-sandy-light-clay
   skos:notation "MSLC" ;
   skos:prefLabel "Medium sandy light clay"@en ;
 .
-texture:medium-sandy-light-medium-clay
+<medium-sandy-light-medium-clay>
   rdf:type skos:Concept ;
   dct:description "Medium sandy light medium clay" ;
   rdfs:label "Medium sandy light medium clay" ;
@@ -431,7 +415,7 @@ texture:medium-sandy-light-medium-clay
   skos:notation "MSLMC" ;
   skos:prefLabel "Medium sandy light medium clay"@en ;
 .
-texture:medium-sandy-loam
+<medium-sandy-loam>
   rdf:type skos:Concept ;
   dct:description "Medium sandy loam" ;
   rdfs:label "Medium sandy loam" ;
@@ -439,7 +423,7 @@ texture:medium-sandy-loam
   skos:notation "MSL" ;
   skos:prefLabel "Medium sandy loam"@en ;
 .
-texture:medium-sandy-medium-clay
+<medium-sandy-medium-clay>
   rdf:type skos:Concept ;
   dct:description "Medium sandy medium clay" ;
   rdfs:label "Medium sandy medium clay" ;
@@ -447,7 +431,7 @@ texture:medium-sandy-medium-clay
   skos:notation "MSMC" ;
   skos:prefLabel "Medium sandy medium clay"@en ;
 .
-texture:medium-sandy-medium-heavy-clay
+<medium-sandy-medium-heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Medium sandy medium heavy clay" ;
   rdfs:label "Medium sandy medium heavy clay" ;
@@ -455,7 +439,7 @@ texture:medium-sandy-medium-heavy-clay
   skos:notation "MSMHC" ;
   skos:prefLabel "Medium sandy medium heavy clay"@en ;
 .
-texture:pure-sand
+<pure-sand>
   rdf:type skos:Concept ;
   dct:description "Pure sand" ;
   rdfs:label "Pure sand" ;
@@ -463,7 +447,7 @@ texture:pure-sand
   skos:notation "SS" ;
   skos:prefLabel "Pure sand"@en ;
 .
-texture:sand
+<sand>
   rdf:type skos:Concept ;
   dct:description "Sand" ;
   rdfs:label "Sand" ;
@@ -471,7 +455,7 @@ texture:sand
   skos:notation "S" ;
   skos:prefLabel "Sand"@en ;
 .
-texture:sandy-clay
+<sandy-clay>
   rdf:type skos:Concept ;
   dct:description "Sandy clay" ;
   rdfs:label "Sandy clay" ;
@@ -479,7 +463,7 @@ texture:sandy-clay
   skos:notation "SC" ;
   skos:prefLabel "Sandy clay"@en ;
 .
-texture:sandy-clay-loam
+<sandy-clay-loam>
   rdf:type skos:Concept ;
   dct:description "Sandy clay loam" ;
   rdfs:label "Sandy clay loam" ;
@@ -487,7 +471,7 @@ texture:sandy-clay-loam
   skos:notation "SCL" ;
   skos:prefLabel "Sandy clay loam"@en ;
 .
-texture:sandy-clay-loam-fine-sand
+<sandy-clay-loam-fine-sand>
   rdf:type skos:Concept ;
   dct:description "Sandy clay loam fine sand"^^xsd:string ;
   rdfs:label "Sandy clay loam fine sand"^^xsd:string ;
@@ -495,7 +479,7 @@ texture:sandy-clay-loam-fine-sand
   skos:notation "SCLFS" ;
   skos:prefLabel "Sandy clay loam fine sand"@en ;
 .
-texture:sandy-heavy-clay
+<sandy-heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Sandy heavy clay" ;
   rdfs:label "Sandy heavy clay" ;
@@ -503,7 +487,7 @@ texture:sandy-heavy-clay
   skos:notation "SHC" ;
   skos:prefLabel "Sandy heavy clay"@en ;
 .
-texture:sandy-light-clay
+<sandy-light-clay>
   rdf:type skos:Concept ;
   dct:description "Sandy light clay" ;
   rdfs:label "Sandy light clay" ;
@@ -511,7 +495,7 @@ texture:sandy-light-clay
   skos:notation "SLC" ;
   skos:prefLabel "Sandy light clay"@en ;
 .
-texture:sandy-light-medium-clay
+<sandy-light-medium-clay>
   rdf:type skos:Concept ;
   dct:description "Sandy light medium clay" ;
   rdfs:label "Sandy light medium clay" ;
@@ -519,7 +503,7 @@ texture:sandy-light-medium-clay
   skos:notation "SLMC" ;
   skos:prefLabel "Sandy light medium clay"@en ;
 .
-texture:sandy-loam
+<sandy-loam>
   rdf:type skos:Concept ;
   dct:description "Sandy loam" ;
   rdfs:label "Sandy loam" ;
@@ -527,7 +511,7 @@ texture:sandy-loam
   skos:notation "SL" ;
   skos:prefLabel "Sandy loam"@en ;
 .
-texture:sandy-medium-clay
+<sandy-medium-clay>
   rdf:type skos:Concept ;
   dct:description "Sandy medium clay" ;
   rdfs:label "Sandy medium clay" ;
@@ -535,7 +519,7 @@ texture:sandy-medium-clay
   skos:notation "SMC" ;
   skos:prefLabel "Sandy medium clay"@en ;
 .
-texture:sandy-medium-heavy-clay
+<sandy-medium-heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Sandy medium heavy clay" ;
   rdfs:label "Sandy medium heavy clay" ;
@@ -543,7 +527,7 @@ texture:sandy-medium-heavy-clay
   skos:notation "SMHC" ;
   skos:prefLabel "Sandy medium heavy clay"@en ;
 .
-texture:sandy-peat
+<sandy-peat>
   rdf:type skos:Concept ;
   dct:description "Sandy peat" ;
   rdfs:label "Sandy peat" ;
@@ -551,7 +535,7 @@ texture:sandy-peat
   skos:notation "SP" ;
   skos:prefLabel "Sandy peat"@en ;
 .
-texture:sapric-peat
+<sapric-peat>
   rdf:type skos:Concept ;
   dct:description "Sapric Peat"^^xsd:string ;
   rdfs:label "Sapric Peat"^^xsd:string ;
@@ -559,7 +543,7 @@ texture:sapric-peat
   skos:notation "AP"^^xsd:string ;
   skos:prefLabel "Sapric Peat"^^xsd:string ;
 .
-texture:silty-clay
+<silty-clay>
   rdf:type skos:Concept ;
   dct:description "Silty clay" ;
   rdfs:label "Silty clay" ;
@@ -567,7 +551,7 @@ texture:silty-clay
   skos:notation "ZC" ;
   skos:prefLabel "Silty clay"@en ;
 .
-texture:silty-clay-loam
+<silty-clay-loam>
   rdf:type skos:Concept ;
   dct:description "Silty clay loam" ;
   rdfs:label "Silty clay loam" ;
@@ -575,7 +559,7 @@ texture:silty-clay-loam
   skos:notation "ZCL" ;
   skos:prefLabel "Silty clay loam"@en ;
 .
-texture:silty-heavy-clay
+<silty-heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Silty heavy clay" ;
   rdfs:label "Silty heavy clay" ;
@@ -583,7 +567,7 @@ texture:silty-heavy-clay
   skos:notation "ZHC" ;
   skos:prefLabel "Silty heavy clay"@en ;
 .
-texture:silty-light-clay
+<silty-light-clay>
   rdf:type skos:Concept ;
   dct:description "Silty light clay" ;
   rdfs:label "Silty light clay" ;
@@ -591,7 +575,7 @@ texture:silty-light-clay
   skos:notation "ZLC" ;
   skos:prefLabel "Silty light clay"@en ;
 .
-texture:silty-light-medium-clay
+<silty-light-medium-clay>
   rdf:type skos:Concept ;
   dct:description "Silty light medium clay" ;
   rdfs:label "Silty light medium clay" ;
@@ -599,7 +583,7 @@ texture:silty-light-medium-clay
   skos:notation "ZLMC" ;
   skos:prefLabel "Silty light medium clay"@en ;
 .
-texture:silty-loam
+<silty-loam>
   rdf:type skos:Concept ;
   dct:description "Silty loam" ;
   rdfs:label "Silty loam" ;
@@ -607,7 +591,7 @@ texture:silty-loam
   skos:notation "ZL" ;
   skos:prefLabel "Silty loam"@en ;
 .
-texture:silty-medium-clay
+<silty-medium-clay>
   rdf:type skos:Concept ;
   dct:description "Silty medium clay" ;
   rdfs:label "Silty medium clay" ;
@@ -615,7 +599,7 @@ texture:silty-medium-clay
   skos:notation "ZMC" ;
   skos:prefLabel "Silty medium clay"@en ;
 .
-texture:silty-medium-heavy-clay
+<silty-medium-heavy-clay>
   rdf:type skos:Concept ;
   dct:description "Silty medium heavy clay" ;
   rdfs:label "Silty medium heavy clay" ;
@@ -623,7 +607,7 @@ texture:silty-medium-heavy-clay
   skos:notation "ZMHC" ;
   skos:prefLabel "Silty medium heavy clay"@en ;
 .
-texture:stones
+<stones>
   rdf:type skos:Concept ;
   dct:description "Stones" ;
   rdfs:label "Stones" ;
@@ -631,7 +615,7 @@ texture:stones
   skos:notation "ST" ;
   skos:prefLabel "Stones"@en ;
 .
-texture:very-weak-clayey-coarse-sand
+<very-weak-clayey-coarse-sand>
   rdf:type skos:Concept ;
   dct:description "Very weak clayey coarse sand" ;
   rdfs:label "Very weak clayey coarse sand" ;
@@ -639,7 +623,7 @@ texture:very-weak-clayey-coarse-sand
   skos:notation "VWCKS" ;
   skos:prefLabel "Very weak clayey coarse sand"@en ;
 .
-texture:very-weak-clayey-fine-sand
+<very-weak-clayey-fine-sand>
   rdf:type skos:Concept ;
   dct:description "Very weak clayey fine sand" ;
   rdfs:label "Very weak clayey fine sand" ;
@@ -647,7 +631,7 @@ texture:very-weak-clayey-fine-sand
   skos:notation "VWCFS" ;
   skos:prefLabel "Very weak clayey fine sand"@en ;
 .
-texture:very-weak-clayey-medium-sand
+<very-weak-clayey-medium-sand>
   rdf:type skos:Concept ;
   dct:description "Very weak clayey medium sand" ;
   rdfs:label "Very weak clayey medium sand" ;
@@ -655,7 +639,7 @@ texture:very-weak-clayey-medium-sand
   skos:notation "VWCMS" ;
   skos:prefLabel "Very weak clayey medium sand"@en ;
 .
-texture:very-weak-clayey-sand
+<very-weak-clayey-sand>
   rdf:type skos:Concept ;
   dct:description "Very weak clayey sand" ;
   rdfs:label "Very weak clayey sand" ;
@@ -663,7 +647,7 @@ texture:very-weak-clayey-sand
   skos:notation "VWCS" ;
   skos:prefLabel "Very weak clayey sand"@en ;
 .
-texture:weak-clayey-coarse-sand
+<weak-clayey-coarse-sand>
   rdf:type skos:Concept ;
   dct:description "Weak clayey coarse sand" ;
   rdfs:label "Weak clayey coarse sand" ;
@@ -671,7 +655,7 @@ texture:weak-clayey-coarse-sand
   skos:notation "WCKS" ;
   skos:prefLabel "Weak clayey coarse sand"@en ;
 .
-texture:weak-clayey-fine-sand
+<weak-clayey-fine-sand>
   rdf:type skos:Concept ;
   dct:description "Weak clayey fine sand" ;
   rdfs:label "Weak clayey fine sand" ;
@@ -679,7 +663,7 @@ texture:weak-clayey-fine-sand
   skos:notation "WCFS" ;
   skos:prefLabel "Weak clayey fine sand"@en ;
 .
-texture:weak-clayey-medium-sand
+<weak-clayey-medium-sand>
   rdf:type skos:Concept ;
   dct:description "Weak clayey medium sand" ;
   rdfs:label "Weak clayey medium sand" ;
@@ -687,7 +671,7 @@ texture:weak-clayey-medium-sand
   skos:notation "WCMS" ;
   skos:prefLabel "Weak clayey medium sand"@en ;
 .
-texture:weak-clayey-sand
+<weak-clayey-sand>
   rdf:type skos:Concept ;
   dct:description "Weak clayey sand" ;
   rdfs:label "Weak clayey sand" ;

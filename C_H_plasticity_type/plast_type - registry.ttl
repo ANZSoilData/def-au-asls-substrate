@@ -9,12 +9,12 @@
 
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<plasticity_type>:
+<plast_type>
   rdf:type reg:Register ;
-  dc:source "natsoil CSIRO database - plasticity type table"^^xsd:string ;
-  dct:created "2015-11-30"^^xsd:date ;
+  rdfs:comment "loaded from natsoil CSIRO database - Plasticity Type table"^^xsd:string ;
+  dct:created "2015-12-07"^^xsd:date ;
   dct:creator <mailto:xavier.butcher@csiro.au> ;
-  rdfs:comment "The type of plasticity refers to the degree to which the consistence and/or field texture properties of a soil suggest the amount of clay-sized particles it contains (Butler 1955). It may be identified by determining two field textures: one after an initial 1 to 2 minute working of the soil sample, and another after a prolonged 10 minute kneading. The change in field texture from the initial to the prolonged working of the soil sample indicates the type of plasticity."^^xsd:string ;
+  dct:description "The type of plasticity refers to the degree to which the consistence and/or field texture properties of a soil suggest the amount of clay-sized particles it contains (Butler 1955). It may be identified by determining two field textures: one after an initial 1 to 2 minute working of the soil sample, and another after a prolonged 10 minute kneading. The change in field texture from the initial to the prolonged working of the soil sample indicates the type of plasticity."^^xsd:string ;
   rdfs:label "Plasticity Type"^^xsd:string ;
-  rdfs:seeAlso "National Committee on Soil and Terrain (2009), ‘Australian soil and land survey field handbook (3rd edn).’ (CSIRO Publishing: Melbourne)"^^xsd:string ;
-  .
+  dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
+.

@@ -8,13 +8,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 @prefix reg: <http://purl.org/linked-data/registry#> .
-
-<plasticity_degree>:
+ 
+<plast_deg>
   rdf:type reg:Register ;
-  dc:source "natsoil CSIRO database - plasticity degree table"^^xsd:string ;
-  dct:created "2015-11-30"^^xsd:date ;
+  rdfs:comment "loaded from natsoil CSIRO database - Plasticity Degree table"^^xsd:string ;
+  dct:created "2015-12-07"^^xsd:date ;
   dct:creator <mailto:xavier.butcher@csiro.au> ;
-  rdfs:comment "Plasticity is the ability to change shape and retain the new shape after the stress is removed. The degree of plasticity given below applies only to normal plasticity. The degree of plasticity is determined at the soil moisture content used for field texturing, that is, just below sticky point. The soil is rolled between the palms of the hand and, if possible, 40 mm long rolls are formed. The rolls are dangled from the thumb and forefinger. Plasticity is determined on the behaviour of rolls of varying thickness."^^xsd:string ;
+  dct:description "Plasticity is the ability to change shape and retain the new shape after the stress is removed. The degree of plasticity given below applies only to normal plasticity. The degree of plasticity is determined at the soil moisture content used for field texturing, that is, just below sticky point. The soil is rolled between the palms of the hand and, if possible, 40 mm long rolls are formed. The rolls are dangled from the thumb and forefinger. Plasticity is determined on the behaviour of rolls of varying thickness."^^xsd:string ;
   rdfs:label "Plasticity Degree"^^xsd:string ;
-  rdfs:seeAlso "National Committee on Soil and Terrain (2009), ‘Australian soil and land survey field handbook (3rd edn).’ (CSIRO Publishing: Melbourne)"^^xsd:string ;
- .
+  dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
+.

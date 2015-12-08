@@ -9,12 +9,12 @@
 
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-asc:
+<asc>
   rdf:type reg:Register ;
-  dc:source "natsoil CSIRO database - ASC table"^^xsd:string ;
-  dct:created "2015-12-01"^^xsd:date ;
+  rdfs:comment "loaded from natsoil CSIRO database - ASC table"^^xsd:string ;
+  dct:created "2015-12-07"^^xsd:date ;
   dct:creator <mailto:xavier.butcher@csiro.au> ;
-  rdfs:comment "The Australian Soil Classification is the industry standard when it comes to classifying soil types."^^xsd:string ;
+  dct:description "The Australian Soil Classification is the industry standard when it comes to classifying soil types."^^xsd:string ;
   rdfs:label "Australian Soil Classification (ASC)"^^xsd:string ;
-  rdfs:seeAlso "National Committee on Soil and Terrain (2009), \"Australian soil and land survey field handbook (3rd edn).\" (CSIRO Publishing: Melbourne)"^^xsd:string ;
+  dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
 .

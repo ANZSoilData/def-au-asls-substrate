@@ -5,16 +5,16 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<crack_width>:
+<crack_width>
   rdf:type reg:Register ;
-  dc:source "natsoil CSIRO database - crack width table"^^<http://www.w3.org/2001/XMLSchema#string> ;
-  dct:created "2015-11-30"^^<http://www.w3.org/2001/XMLSchema#date> ;
+  rdfs:comment "loaded from natsoil CSIRO database - Crack Width table"^^xsd:string ;
+  dct:created "2015-12-07"^^xsd:date ;
   dct:creator <mailto:xavier.butcher@csiro.au> ;
-  rdfs:comment "A crack is a general term for pore space and other openings in soils not occupied by solid mineral matter."^^<http://www.w3.org/2001/XMLSchema#string> ;
-  rdfs:label "Crack Width"^^<http://www.w3.org/2001/XMLSchema#string> ;
-  rdfs:seeAlso "National Committee on Soil and Terrain (2009), ‘Australian soil and land survey field handbook (3rd edn).’ (CSIRO Publishing: Melbourne)"^^<http://www.w3.org/2001/XMLSchema#string> ;
-  .
+  dct:description "A crack is a general term for pore space and other openings in soils not occupied by solid mineral matter."^^xsd:string ;
+  rdfs:label "Crack Width"^^xsd:string ;
+  dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
+.

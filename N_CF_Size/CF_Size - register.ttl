@@ -1,4 +1,4 @@
-@prefix asc_fam: <http://registry.it.csiro.au/def/soils/asc-family/> .
+@prefix cf_size: <http://registry.it.csiro.au/def/soils/cf-size/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -9,12 +9,12 @@
 
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<asc_fam>
+<cf_size>
   rdf:type reg:Register ;
-  rdfs:comment "loaded from natsoil CSIRO database - ASC Family table"^^xsd:string ;
+  rdfs:comment "loaded from natsoil CSIRO database - CF Size table"^^xsd:string ;
   dct:created "2015-12-07"^^xsd:date ;
   dct:creator <mailto:xavier.butcher@csiro.au> ;
-  dct:description "Australian Soil Classification (ASC) Family."^^xsd:string ;
-  rdfs:label "ASC Family"^^xsd:string ;
+  dct:description "CF stands for Coarse Fragment. CF is measured by assigning the sample a value based on the size of the particle."^^xsd:string ;
+  rdfs:label "CF Size"^^xsd:string ;
   dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
 .

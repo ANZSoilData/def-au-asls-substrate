@@ -9,12 +9,12 @@
 
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<texture-qualification>
+<qual>
   rdf:type reg:Register ;
-  dc:source "natsoil CSIRO database - texture qualification table"^^xsd:string ;
-  dct:created "2015-11-30"^^xsd:date ;
+  rdfs:comment "loaded from natsoil CSIRO database - Texture Qualification table"^^xsd:string ;
+  dct:created "2015-12-07"^^xsd:date ;
   dct:creator <mailto:xavier.butcher@csiro.au> ;
-  rdfs:comment "The non-clay field texture grades (clay loams and coarser) may be qualified according to whether they are at, or near, the light (lower clay content) or heavy (higher clay content) end of the range for that particular field texture grade. They can also be classified as Fibric or Sapric."^^xsd:string ;
-  rdfs:label "Field Texture Qualification"^^xsd:string ;
-  rdfs:seeAlso "National Committee on Soil and Terrain (2009), ‘Australian soil and land survey field handbook (3rd edn).’ (CSIRO Publishing: Melbourne)"^^xsd:string ;
+  dct:description "The non-clay field texture grades (clay loams and coarser) may be qualified according to whether they are at, or near, the light (lower clay content) or heavy (higher clay content) end of the range for that particular field texture grade. They can also be classified as Fibric or Sapric."^^xsd:string ;
+  rdfs:label "Texture Qualification"^^xsd:string ;
+  dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
 .

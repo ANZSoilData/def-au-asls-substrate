@@ -9,12 +9,12 @@
 
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-sticky:
+<sticky>
   rdf:type reg:Register ;
-  dc:source "natsoil CSIRO database - Stickiness table"^^xsd:string ;
-  dct:created "2015-12-01"^^xsd:date ;
+  rdfs:comment "loaded from natsoil CSIRO database - Stickiness table"^^xsd:string ;
+  dct:created "2015-12-07"^^xsd:date ;
   dct:creator <mailto:xavier.butcher@csiro.au> ;
-  rdfs:comment "Stickiness is determined on wet soil by pressing the wet sample between thumb and forefinger and then observing the adherence of the soil to the fingers."^^xsd:string ;
+  dct:description "Stickiness is determined on wet soil by pressing the wet sample between thumb and forefinger and then observing the adherence of the soil to the fingers."^^xsd:string ;
   rdfs:label "Stickiness"^^xsd:string ;
-  rdfs:seeAlso "National Committee on Soil and Terrain (2009), \"Australian soil and land survey field handbook (3rd edn)\". (CSIRO Publishing: Melbourne)"^^xsd:string ;
+  dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
 .
