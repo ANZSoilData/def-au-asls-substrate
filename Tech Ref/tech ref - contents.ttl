@@ -10,24 +10,24 @@
 <first-edition>
   rdf:type skos:Concept ;
   dct:description "Australian Soil and Land Survey, Field Handbook First Edition" ;
-  rdfs:label "'First Edition'@en" ;
+  rdfs:label 'First Edition'@en ;
   skos:definition "Australian Soil and Land Survey, Field Handbook First Edition" ;
   skos:notation "1" ;
-  skos:prefLabel "'First Edition'@en" ;
+  skos:prefLabel 'First Edition'@en ;
 .
 <second-edition>
   rdf:type skos:Concept ;
   dct:description "Australian Soil and Land Survey, Field Handbook Second Edition" ;
-  rdfs:label "'Second Edition'@en" ;
+  rdfs:label 'Second Edition'@en ;
   skos:definition "Australian Soil and Land Survey, Field Handbook Second Edition" ;
   skos:notation "2" ;
-  skos:prefLabel "'Second Edition'@en" ;
+  skos:prefLabel 'Second Edition'@en ;
 .
 <third-edition>
   rdf:type skos:Concept ;
   dct:description "Australian Soil and Land Survey, Field Handbook Third Edition" ;
-  rdfs:label "'Third Edition'@en" ;
+  rdfs:label 'Third Edition'@en ;
   skos:definition "Australian Soil and Land Survey, Field Handbook Third Edition" ;
   skos:notation "3" ;
-  skos:prefLabel "'Third Edition'@en" ;
+  skos:prefLabel 'Third Edition'@en ;
 .

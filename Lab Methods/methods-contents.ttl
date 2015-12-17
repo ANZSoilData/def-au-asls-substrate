@@ -1,30 +1,15 @@
-# baseURI: http://registry.it.csiro.au/def/soils/lab-methods/
-# imports: http://purl.org/dc/elements/1.1/
-# imports: http://www.w3.org/2004/02/skos/core
-
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix method: <http://registry.it.csiro.au/def/soils/lab-methods/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix qudt: <http://qudt.org/schema/qudt#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdf123: <http://rdf123.umbc.edu/ns> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix spin: <http://spinrdf.org/spin#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-method:
-  rdf:type owl:Ontology ;
-  dc:source "natsoil CSIRO database - Lab Methods table"^^xsd:string ;
-  dct:created "2015-12-17"^^xsd:date ;
-  dct:creator <mailto:xavier.butcher@csiro.au> ;
-  rdfs:comment "The different methods for examining the type and abundance of certain compounds."^^xsd:string ;
-  rdfs:label "Lab Methods"^^xsd:string ;
-  rdfs:seeAlso "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
-  owl:imports dc: ;
-  owl:imports <http://www.w3.org/2004/02/skos/core> ;
-.
+
 <http://registry.it.csiro.au/def/soils/lab-methods/2000-micron>
   rdf:type skos:Collection ;
   rdfs:label "2000 Micron"^^xsd:string ;

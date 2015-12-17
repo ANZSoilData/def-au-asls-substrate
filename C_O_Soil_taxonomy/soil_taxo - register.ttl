@@ -9,12 +9,12 @@
 
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-soil-taxo:
+<soil-taxo>
   rdf:type reg:Register ;
-  dc:source "natsoil CSIRO database - soil taxonomy table"^^xsd:string ;
-  dct:created "2015-12-02"^^xsd:date ;
+  rdfs:comment "loaded from natsoil CSIRO database - Soil Taxonomy table"^^xsd:string ;
+  dct:created "2015-12-07"^^xsd:date ;
   dct:creator <mailto:xavier.butcher@csiro.au> ;
-  rdfs:comment "The Australian Soil Classification (Isbell 1996) is recommended for use in Australian soil and land surveys. A complete class list and codes are given in this publication. 'Concepts and rationale of the Australian soil classification' (Isbell et al. 1997) is designed to be read in conjunction with the classification and gives the rationale for the establishment of various classes and diagnostic criteria."^^xsd:string ;
+  dct:description "The Australian Soil Classification (Isbell 1996) is recommended for use in Australian soil and land surveys. A complete class list and codes are given in this publication. 'Concepts and rationale of the Australian soil classification' (Isbell et al. 1997) is designed to be read in conjunction with the classification and gives the rationale for the establishment of various classes and diagnostic criteria."^^xsd:string ;
   rdfs:label "Soil Taxonomy"^^xsd:string ;
-  rdfs:seeAlso "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
+  dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
 .

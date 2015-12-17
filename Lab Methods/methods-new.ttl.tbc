@@ -8,15 +8,23 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://www.w3.org/2004/02/skos/core#Collection>
+  forms:keyProperties (
+      rdfs:label
+      <http://www.w3.org/2004/02/skos/core#member>
+      rdfs:comment
+      <http://www.w3.org/2004/02/skos/core#prefLabel>
+    ) ;
+.
 <http://www.w3.org/2004/02/skos/core#Concept>
   forms:keyProperties (
       rdfs:label
-      <http://qudt.org/schema/qudt#unit>
       <http://www.w3.org/2004/02/skos/core#notation>
       <http://www.w3.org/2004/02/skos/core#altLabel>
       <http://www.w3.org/2004/02/skos/core#definition>
       <http://www.w3.org/2004/02/skos/core#related>
       <http://www.w3.org/2004/02/skos/core#note>
       rdfs:comment
+      <http://purl.org/dc/terms/description>
     ) ;
 .
