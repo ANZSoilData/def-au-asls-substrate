@@ -1857,6 +1857,7 @@
   dct:description "Electrical conductivity or soluble salts - Total soluble salts %" ;
   qudt:unit qunit:Percent ;
   rdfs:label "3_C_B" ;
+  op:method method:electrical-conductivity
   skos:altLabel "EC" ;
   skos:definition "Electrical conductivity or soluble salts - Total soluble salts %" ;
   skos:notation "3_C_B" ;
@@ -1887,6 +1888,7 @@
   dct:description "Electrical conductivity or soluble salts - Total soluble salts %" ;
   qudt:unit qunit:Percent ;
   rdfs:label "3A_TSS" ;
+  op:method method:electrical-conductivity
   skos:altLabel "EC" ;
   skos:definition "Electrical conductivity or soluble salts - Total soluble salts %" ;
   skos:notation "3A_TSS" ;
@@ -2860,6 +2862,7 @@
   dct:description "Saturated Hydraulic Conductivity" ;
   qudt:unit eunit:MillimeterPerHour ;
   rdfs:label "P4_sat" ;
+  op:method method:hydraulic-conductivity
   skos:altLabel "K Sat" ;
   skos:definition "Saturated Hydraulic Conductivity" ;
   skos:notation "P4_sat" ;
@@ -2871,6 +2874,7 @@
   qudt:unit eunit:MillimeterPerHour ;
   rdfs:label "P4_sat_FH" ;
   skos:altLabel "K Sat" ;
+  op:method method:hydraulic-conductivity
   skos:definition "Modified Saturated Hydraulic Conductivity - falling head (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   skos:notation "P4_sat_FH" ;
   skos:prefLabel "P4_sat_FH"@en ;
@@ -2881,6 +2885,7 @@
   qudt:unit eunit:MillimeterPerHour ;
   rdfs:label "P4_sat_For" ;
   skos:altLabel "K Sat" ;
+  op:method method:hydraulic-conductivity
   skos:definition "Saturated Hydraulic Conductivity (Forrest et al, 1985)" ;
   skos:notation "P4_sat_For" ;
   skos:prefLabel "P4_sat_For"@en ;
@@ -2890,6 +2895,7 @@
   dct:description "Saturated Hydraulic Conductivity - Modified (no de-aired water) Loveday falling head method using 98mm diameter cores" ;
   qudt:unit eunit:MillimeterPerHour ;
   rdfs:label "P4_sat_LOV" ;
+  op:method method:hydraulic-conductivity
   skos:altLabel "K Sat" ;
   skos:definition "Saturated Hydraulic Conductivity - Modified (no de-aired water) Loveday falling head method using 98mm diameter cores" ;
   skos:notation "P4_sat_LOV" ;
@@ -2899,6 +2905,7 @@
   rdf:type skos:Concept ;
   dct:description "Saturated Hydraulic Conductivity (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   qudt:unit eunit:MillimeterPerHour ;
+  op:method method:hydraulic-conductivity
   rdfs:label "P4_sat_McK" ;
   skos:altLabel "K Sat" ;
   skos:definition "Saturated Hydraulic Conductivity (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
@@ -2911,6 +2918,7 @@
   qudt:unit eunit:MillimeterPerHour ;
   rdfs:label "P4D1" ;
   skos:altLabel "K Sat" ;
+  op:method method:hydraulic-conductivity
   skos:definition "Saturated Hydraulic Conductivity" ;
   skos:notation "P4D1" ;
   skos:prefLabel "P4D1"@en ;
@@ -3781,6 +3789,7 @@
   units:cubic-metres-per-cubic-metre ;
   rdfs:label "P3B_VL_01" ;
   skos:altLabel "0.1 BAR Moisture" ;
+  op:method method:volumetric
   skos:definition "0.1 BAR Moisture m3/m3 - Volumetric using suction plate" ;
   skos:notation "P3B_VL_01" ;
   skos:prefLabel "P3B_VL_01"@en ;
@@ -4350,6 +4359,7 @@
   dct:description "0.1 BAR Moisture g/g - Gravimetric  using suction plate" ;
   units:grams-per-gram ;
   rdfs:label "P3B_GV_01" ;
+  op:method method:gravimetric
   skos:altLabel "0.1 BAR Moisture" ;
   skos:definition "0.1 BAR Moisture g/g - Gravimetric  using suction plate" ;
   skos:notation "P3B_GV_01" ;
@@ -4499,6 +4509,7 @@
   qudt:unit qunit:Percent ;
   rdfs:label "7A3" ;
   skos:altLabel "Total Nitrogen" ;
+  op:method method:steam-distillation
   skos:definition "Total nitrogen (where nitrate > 20 mg N kg-1) - steam distillation" ;
   skos:notation "7A3" ;
   skos:prefLabel "7A3"@en ;
@@ -5000,6 +5011,7 @@
   qudt:unit eunit:MilligramsPerKilogram ;
   rdfs:label "9B2" ;
   skos:altLabel "Extractable P" ;
+  op:method method:automated-colour
   skos:definition "Bicarbonate-extractable phosphorus - automated colour" ;
   skos:notation "9B2" ;
   skos:prefLabel "9B2"@en ;
@@ -5010,6 +5022,7 @@
   qudt:unit eunit:MilligramsPerKilogram ;
   rdfs:label "9B2_COL" ;
   skos:altLabel "Extractable P" ;
+  op:method method:automated-colour
   skos:definition "Bicarbonate-extractable phosphorus - automated colour. Based on Colwell (1965). Method no longer recommended" ;
   skos:notation "9B2_COL" ;
   skos:prefLabel "9B2_COL"@en ;
@@ -5281,6 +5294,7 @@
   rdfs:label "9A1" ;
   skos:altLabel "Total P" ;
   skos:definition "Total phosphorus - X-ray fluorescence" ;
+  op:method method:x-ray-fluorescence
   skos:notation "9A1" ;
   skos:prefLabel "9A1"@en ;
 .
@@ -5770,6 +5784,7 @@
   qudt:unit eunit:MilligramsPerKilogram ;
   rdfs:label "10B1" ;
   skos:altLabel "Extractable S" ;
+  op:method method:manual-distillation
   skos:definition "Calcium phosphate-extractable sulfur - manual distillation" ;
   skos:notation "10B1" ;
   skos:prefLabel "10B1"@en ;
@@ -5891,6 +5906,7 @@
   qudt:unit qunit:Percent ;
   rdfs:label "P10_CF_FS" ;
   skos:altLabel "Fine sand" ;
+  op:method method:coventry-and-fett
   skos:definition "Fine sand (%) - Coventry and Fett pipette method" ;
   skos:notation "P10_CF_FS" ;
   skos:prefLabel "P10_CF_FS"@en ;
@@ -6158,6 +6174,7 @@
   qudt:unit qunit:Percent ;
   rdfs:label "P10_S_1" ;
   skos:altLabel "1 micron" ;
+  op:method method:sedigraph
   skos:definition "1 micron (cumulative %) - Sedigraph" ;
   skos:notation "P10_S_1" ;
   skos:prefLabel "P10_S_1"@en ;
@@ -6367,6 +6384,7 @@
   qudt:unit qunit:Percent ;
   rdfs:label "TE_CD_SI02" ;
   skos:altLabel "Total SiO2" ;
+  op:method method:citrate-dithionite-extraction
   skos:definition "Total Element SiO2 - by Citrate/Dithionite Extraction" ;
   skos:notation "TE_CD_SI02" ;
   skos:prefLabel "TE_CD_SI02"@en ;
@@ -6462,6 +6480,7 @@
   dct:description "Sulfate/SE - ion chromatography" ;
   qudt:unit eunit:MilliEquivalentPerLitre ;
   rdfs:label "14F5" ;
+  op:method method:ion-chromatography
   skos:altLabel "Sulfate/SE" ;
   skos:definition "Sulfate/SE - ion chromatography" ;
   skos:notation "14F5" ;
