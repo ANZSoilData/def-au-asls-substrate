@@ -13,7 +13,7 @@
 <method>
   rdf:type reg:Register ;
   dc:source "natsoil CSIRO database - Lab Methods table"^^xsd:string ;
-  dct:created "2015-12-17"^^xsd:date ;
+  dct:created "2016-01-05"^^xsd:date ;
   dct:creator <mailto:xavier.butcher@csiro.au> ;
   rdfs:comment "The different methods for examining the type and abundance of certain compounds."^^xsd:string ;
   rdfs:label "Lab Methods"^^xsd:string ;
