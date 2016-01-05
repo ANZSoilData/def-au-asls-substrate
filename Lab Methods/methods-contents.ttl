@@ -3,7 +3,7 @@
 @prefix method: <http://registry.it.csiro.au/def/soils/op-methods/> .
 @prefix op: <http://environment.data.gov.au/op#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix qudts: <http://qudt.org/schema/qudt#> .
+@prefix qudt: <http://qudt.org/schema/qudt#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -29,7 +29,7 @@
   rdf:type skos:Concept ;
   dct:description "1000-2000 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   qudt:unit qunit:Percent ;
-  op:method method:wet-sieving
+  op:method method:wet-sieving ;
   rdfs:label "PWS1-2mm" ;
   skos:altLabel "2000 micron" ;
   skos:definition "1000-2000 micron fraction (%) - Wet Sieving after chemical dispersion" ;
@@ -41,7 +41,7 @@
   dct:description "20-63 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   qudt:unit qunit:Percent ;
   rdfs:label "PWS20-63" ;
-  op:method method:wet-sieving
+  op:method method:wet-sieving ;
   skos:altLabel "2000 micron" ;
   skos:definition "20-63 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   skos:notation "PWS20-63" ;
@@ -52,7 +52,7 @@
   dct:description "212-425 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   qudt:unit qunit:Percent ;
   rdfs:label "PWS212-425" ;
-  op:method method:wet-sieving
+  op:method method:wet-sieving ;
   skos:altLabel "2000 micron" ;
   skos:definition "212-425 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   skos:notation "PWS212-425" ;
@@ -62,7 +62,7 @@
   rdf:type skos:Concept ;
   dct:description "425-1000  micron fraction (%) - Wet Sieving after chemical dispersion" ;
   qudt:unit qunit:Percent ;
-  op:method method:wet-sieving
+  op:method method:wet-sieving ;
   rdfs:label "PWS425-1mm" ;
   skos:altLabel "2000 micron" ;
   skos:definition "425-1000  micron fraction (%) - Wet Sieving after chemical dispersion" ;
