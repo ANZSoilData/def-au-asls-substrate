@@ -74,7 +74,7 @@
   dct:description "63-212 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   qudt:unit qunit:Percent ;
   rdfs:label "PWS63-212" ;
-  op:method method:wet-sieving
+  op:method method:wet-sieving ;
   skos:altLabel "2000 micron" ;
   skos:definition "63-212 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   skos:notation "PWS63-212" ;
@@ -93,7 +93,7 @@
   dct:description "Exchange acidity (hydrogen and aluminium) - meq per 100g of soil - By 1M KCl exch. acidity by titration to pH 8.4" ;
   qudt:unit eunit:MilliEquivalentPerHectoGram ;
   rdfs:label "15G_C" ;
-  op:method method:titration
+  op:method method:titration ;
   skos:altLabel "Exch. acidity (H+Al)" ;
   skos:definition "Exchange acidity (hydrogen and aluminium) - meq per 100g of soil - By 1M KCl exch. acidity by titration to pH 8.4" ;
   skos:notation "15G_C" ;
@@ -312,7 +312,7 @@
   dct:description "Exchangeable Al - by compulsive exchange, no pretreatment for soluble salts" ;
   qudt:unit eunit:MilliEquivalentPerHectoGram ;
   rdfs:label "15E1_AL" ;
-  op:method method:exchangeable-al
+  op:method method:exchangeable-al ;
   skos:altLabel "Exch. Al++" ;
   skos:definition "Exchangeable Al - by compulsive exchange, no pretreatment for soluble salts" ;
   skos:notation "15E1_AL" ;
@@ -348,7 +348,7 @@
   rdf:type skos:Concept ;
   dct:description "Allophane - X-Ray Diffraction" ;
   qudt:unit qunit:Percent ;
-  op:method method:x-ray-diffraction
+  op:method method:x-ray-diffraction ;
   rdfs:label "XRD_C_Ah" ;
   skos:altLabel "Allophane" ;
   skos:definition "Allophane - X-Ray Diffraction" ;
@@ -388,7 +388,7 @@
   rdf:type skos:Concept ;
   dct:description "Alunite - X-Ray Diffraction" ;
   qudt:unit qunit:Percent ;
-  op:method method:x-ray-diffraction
+  op:method method:x-ray-diffraction ;
   rdfs:label "XRD_C_At" ;
   skos:altLabel "Alunite" ;
   skos:definition "Alunite - X-Ray Diffraction" ;
@@ -433,7 +433,7 @@
   qudt:unit qunit:Percent ;
   rdfs:label "XRD_C_An" ;
   skos:altLabel "Anatase" ;
-  op:method method:x-ray-diffraction
+  op:method method:x-ray-diffraction ;
   skos:definition "Anatase - X-Ray Diffraction" ;
   skos:notation "XRD_C_An" ;
   skos:prefLabel "XRD_C_An"@en ;
@@ -450,7 +450,7 @@
   qudt:unit qunit:Percent ;
   rdfs:label "XRD_C_Ap" ;
   skos:altLabel "Apatite" ;
-  op:method method:x-ray-diffraction
+  op:method method:x-ray-diffraction ;
   skos:definition "Apatite - X-Ray Diffraction" ;
   skos:notation "XRD_C_Ap" ;
   skos:prefLabel "XRD_C_Ap"@en ;
@@ -466,7 +466,7 @@
   dct:description "Argonite - X-Ray Diffraction" ;
   qudt:unit qunit:Percent ;
   rdfs:label "XRD_C_Arg" ;
-  op:method method:x-ray-diffraction
+  op:method method:x-ray-diffraction ;
   skos:altLabel "Argonite" ;
   skos:definition "Argonite - X-Ray Diffraction" ;
   skos:notation "XRD_C_Arg" ;
@@ -529,9 +529,9 @@
   rdf:type skos:Concept ;
   dct:description "Beidellite - X-Ray Diffraction" ;
   qudt:unit qunit:Percent ;
-  op:method method:x-ray-diffraction
+  op:method method:x-ray-diffraction ;
   rdfs:label "XRD_C_Bd" ;
-  op:method method:x-ray-diffraction
+  op:method method:x-ray-diffraction ;
   skos:altLabel "Beidellite" ;
   skos:definition "Beidellite - X-Ray Diffraction" ;
   skos:notation "XRD_C_Bd" ;
@@ -555,7 +555,7 @@
   dct:description "Biotite - X-Ray Diffraction" ;
   qudt:unit qunit:Percent ;
   rdfs:label "XRD_C_Bt" ;
-  op:method method:x-ray-diffraction
+  op:method method:x-ray-diffraction ;
   skos:altLabel "Biotite" ;
   skos:definition "Biotite - X-Ray Diffraction" ;
   skos:notation "XRD_C_Bt" ;
@@ -645,7 +645,7 @@
   dct:description "Total organic carbon - high frequency induction furnace, volumetric" ;
   qudt:unit qunit:Percent ;
   rdfs:label "6B2" ;
-  op:method method:induction-furnace
+  op:method method:induction-furnace ;
   skos:altLabel "Organic carbon" ;
   skos:definition "Total organic carbon - high frequency induction furnace, volumetric" ;
   skos:notation "6B2" ;
@@ -954,7 +954,7 @@
   rdfs:label "XRD_C_Ct" ;
   skos:altLabel "Calcite" ;
   skos:definition "Calcite - X-Ray Diffraction" ;
-  op:method method:x-ray-diffraction
+  op:method method:x-ray-diffraction ;
   skos:notation "XRD_C_Ct" ;
   skos:prefLabel "XRD_C_Ct"@en ;
 .
@@ -974,6 +974,9 @@
   skos:member <ca-19> ;
   skos:member <ca-2> ;
   skos:member <ca-20> ;
+  skos:member <ca-21> ;
+  skos:member <ca-21> ;
+  skos:member <ca-21> ;
   skos:member <ca-21> ;
   skos:member <ca-3> ;
   skos:member <ca-4> ;
@@ -1334,7 +1337,7 @@
   dct:description "CEC - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   qudt:unit eunit:MilliEquivalentPerHectoGram ;
   rdfs:label "15B1_CEC" ;
-  op:method method:cec-measurement
+  op:method method:cec-measurement ;
   skos:altLabel "CEC" ;
   skos:definition "CEC - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   skos:notation "15B1_CEC" ;
@@ -1345,7 +1348,7 @@
   dct:description "CEC - 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   qudt:unit eunit:MilliEquivalentPerHectoGram ;
   rdfs:label "15B2_CEC" ;
-  op:method method:cec-measurement
+  op:method method:cec-measurement ;
   skos:altLabel "CEC" ;
   skos:definition "CEC - 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   skos:notation "15B2_CEC" ;
@@ -1857,7 +1860,7 @@
   dct:description "Electrical conductivity or soluble salts - Total soluble salts %" ;
   qudt:unit qunit:Percent ;
   rdfs:label "3_C_B" ;
-  op:method method:electrical-conductivity
+  op:method method:electrical-conductivity ;
   skos:altLabel "EC" ;
   skos:definition "Electrical conductivity or soluble salts - Total soluble salts %" ;
   skos:notation "3_C_B" ;
@@ -1888,7 +1891,7 @@
   dct:description "Electrical conductivity or soluble salts - Total soluble salts %" ;
   qudt:unit qunit:Percent ;
   rdfs:label "3A_TSS" ;
-  op:method method:electrical-conductivity
+  op:method method:electrical-conductivity ;
   skos:altLabel "EC" ;
   skos:definition "Electrical conductivity or soluble salts - Total soluble salts %" ;
   skos:notation "3A_TSS" ;
@@ -2322,7 +2325,7 @@
   rdf:type skos:Concept ;
   dct:description "Hydrogen Cation - meq per 100g of soil - 1M KCl Exch. acidity By titration to pH 8.4" ;
   qudt:unit eunit:MilliEquivalentPerHectoGram ;
-  op:method method:titration
+  op:method method:titration ;
   rdfs:label "15G_H" ;
   skos:altLabel "Exch. Acidity (H)" ;
   skos:definition "Hydrogen Cation - meq per 100g of soil - 1M KCl Exch. acidity By titration to pH 8.4" ;
@@ -2862,7 +2865,7 @@
   dct:description "Saturated Hydraulic Conductivity" ;
   qudt:unit eunit:MillimeterPerHour ;
   rdfs:label "P4_sat" ;
-  op:method method:hydraulic-conductivity
+  op:method method:hydraulic-conductivity ;
   skos:altLabel "K Sat" ;
   skos:definition "Saturated Hydraulic Conductivity" ;
   skos:notation "P4_sat" ;
@@ -2874,7 +2877,7 @@
   qudt:unit eunit:MillimeterPerHour ;
   rdfs:label "P4_sat_FH" ;
   skos:altLabel "K Sat" ;
-  op:method method:hydraulic-conductivity
+  op:method method:hydraulic-conductivity ;
   skos:definition "Modified Saturated Hydraulic Conductivity - falling head (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   skos:notation "P4_sat_FH" ;
   skos:prefLabel "P4_sat_FH"@en ;
@@ -2885,7 +2888,7 @@
   qudt:unit eunit:MillimeterPerHour ;
   rdfs:label "P4_sat_For" ;
   skos:altLabel "K Sat" ;
-  op:method method:hydraulic-conductivity
+  op:method method:hydraulic-conductivity ;
   skos:definition "Saturated Hydraulic Conductivity (Forrest et al, 1985)" ;
   skos:notation "P4_sat_For" ;
   skos:prefLabel "P4_sat_For"@en ;
@@ -2895,7 +2898,7 @@
   dct:description "Saturated Hydraulic Conductivity - Modified (no de-aired water) Loveday falling head method using 98mm diameter cores" ;
   qudt:unit eunit:MillimeterPerHour ;
   rdfs:label "P4_sat_LOV" ;
-  op:method method:hydraulic-conductivity
+  op:method method:hydraulic-conductivity ;
   skos:altLabel "K Sat" ;
   skos:definition "Saturated Hydraulic Conductivity - Modified (no de-aired water) Loveday falling head method using 98mm diameter cores" ;
   skos:notation "P4_sat_LOV" ;
@@ -2905,7 +2908,7 @@
   rdf:type skos:Concept ;
   dct:description "Saturated Hydraulic Conductivity (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   qudt:unit eunit:MillimeterPerHour ;
-  op:method method:hydraulic-conductivity
+  op:method method:hydraulic-conductivity ;
   rdfs:label "P4_sat_McK" ;
   skos:altLabel "K Sat" ;
   skos:definition "Saturated Hydraulic Conductivity (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
@@ -2918,7 +2921,7 @@
   qudt:unit eunit:MillimeterPerHour ;
   rdfs:label "P4D1" ;
   skos:altLabel "K Sat" ;
-  op:method method:hydraulic-conductivity
+  op:method method:hydraulic-conductivity ;
   skos:definition "Saturated Hydraulic Conductivity" ;
   skos:notation "P4D1" ;
   skos:prefLabel "P4D1"@en ;
@@ -2959,7 +2962,7 @@
   qudt:unit eunit:MilliEquivalentPerHectoGram ;
   rdfs:label "15B1_K" ;
   skos:altLabel "Exch. K++" ;
-  op:method method:cec-measurement
+  op:method method:cec-measurement ;
   skos:definition "Exchangeable bases and CEC - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   skos:notation "15B1_K" ;
   skos:prefLabel "15B1_K"@en ;
@@ -3789,7 +3792,7 @@
   units:cubic-metres-per-cubic-metre ;
   rdfs:label "P3B_VL_01" ;
   skos:altLabel "0.1 BAR Moisture" ;
-  op:method method:volumetric
+  op:method method:volumetric ;
   skos:definition "0.1 BAR Moisture m3/m3 - Volumetric using suction plate" ;
   skos:notation "P3B_VL_01" ;
   skos:prefLabel "P3B_VL_01"@en ;
@@ -4359,7 +4362,7 @@
   dct:description "0.1 BAR Moisture g/g - Gravimetric  using suction plate" ;
   units:grams-per-gram ;
   rdfs:label "P3B_GV_01" ;
-  op:method method:gravimetric
+  op:method method:gravimetric ;
   skos:altLabel "0.1 BAR Moisture" ;
   skos:definition "0.1 BAR Moisture g/g - Gravimetric  using suction plate" ;
   skos:notation "P3B_GV_01" ;
@@ -4509,7 +4512,7 @@
   qudt:unit qunit:Percent ;
   rdfs:label "7A3" ;
   skos:altLabel "Total Nitrogen" ;
-  op:method method:steam-distillation
+  op:method method:steam-distillation ;
   skos:definition "Total nitrogen (where nitrate > 20 mg N kg-1) - steam distillation" ;
   skos:notation "7A3" ;
   skos:prefLabel "7A3"@en ;
@@ -4720,7 +4723,7 @@
   qudt:unit eunit:MilliEquivalentPerHectoGram ;
   rdfs:label "15A1_NA" ;
   skos:altLabel "Exch. Na++" ;
-  op:method method:cec-measurement
+  op:method method:cec-measurement ;
   skos:definition "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   skos:notation "15A1_NA" ;
   skos:prefLabel "15A1_NA"@en ;
@@ -4751,7 +4754,7 @@
   qudt:unit eunit:MilliEquivalentPerHectoGram ;
   rdfs:label "15B1_NA" ;
   skos:altLabel "Exch. Na++" ;
-  op:method method:cec-measurement
+  op:method method:cec-measurement ;
   skos:definition "Exchangeable bases and CEC - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   skos:notation "15B1_NA" ;
   skos:prefLabel "15B1_NA"@en ;
@@ -5011,7 +5014,7 @@
   qudt:unit eunit:MilligramsPerKilogram ;
   rdfs:label "9B2" ;
   skos:altLabel "Extractable P" ;
-  op:method method:automated-colour
+  op:method method:automated-colour ;
   skos:definition "Bicarbonate-extractable phosphorus - automated colour" ;
   skos:notation "9B2" ;
   skos:prefLabel "9B2"@en ;
@@ -5022,7 +5025,7 @@
   qudt:unit eunit:MilligramsPerKilogram ;
   rdfs:label "9B2_COL" ;
   skos:altLabel "Extractable P" ;
-  op:method method:automated-colour
+  op:method method:automated-colour ;
   skos:definition "Bicarbonate-extractable phosphorus - automated colour. Based on Colwell (1965). Method no longer recommended" ;
   skos:notation "9B2_COL" ;
   skos:prefLabel "9B2_COL"@en ;
@@ -5294,7 +5297,7 @@
   rdfs:label "9A1" ;
   skos:altLabel "Total P" ;
   skos:definition "Total phosphorus - X-ray fluorescence" ;
-  op:method method:x-ray-fluorescence
+  op:method method:x-ray-fluorescence ;
   skos:notation "9A1" ;
   skos:prefLabel "9A1"@en ;
 .
@@ -5784,7 +5787,7 @@
   qudt:unit eunit:MilligramsPerKilogram ;
   rdfs:label "10B1" ;
   skos:altLabel "Extractable S" ;
-  op:method method:manual-distillation
+  op:method method:manual-distillation ;
   skos:definition "Calcium phosphate-extractable sulfur - manual distillation" ;
   skos:notation "10B1" ;
   skos:prefLabel "10B1"@en ;
@@ -5906,7 +5909,7 @@
   qudt:unit qunit:Percent ;
   rdfs:label "P10_CF_FS" ;
   skos:altLabel "Fine sand" ;
-  op:method method:coventry-and-fett
+  op:method method:coventry-and-fett ;
   skos:definition "Fine sand (%) - Coventry and Fett pipette method" ;
   skos:notation "P10_CF_FS" ;
   skos:prefLabel "P10_CF_FS"@en ;
@@ -6174,7 +6177,7 @@
   qudt:unit qunit:Percent ;
   rdfs:label "P10_S_1" ;
   skos:altLabel "1 micron" ;
-  op:method method:sedigraph
+  op:method method:sedigraph ;
   skos:definition "1 micron (cumulative %) - Sedigraph" ;
   skos:notation "P10_S_1" ;
   skos:prefLabel "P10_S_1"@en ;
@@ -6384,7 +6387,7 @@
   qudt:unit qunit:Percent ;
   rdfs:label "TE_CD_SI02" ;
   skos:altLabel "Total SiO2" ;
-  op:method method:citrate-dithionite-extraction
+  op:method method:citrate-dithionite-extraction ;
   skos:definition "Total Element SiO2 - by Citrate/Dithionite Extraction" ;
   skos:notation "TE_CD_SI02" ;
   skos:prefLabel "TE_CD_SI02"@en ;
@@ -6480,7 +6483,7 @@
   dct:description "Sulfate/SE - ion chromatography" ;
   qudt:unit eunit:MilliEquivalentPerLitre ;
   rdfs:label "14F5" ;
-  op:method method:ion-chromatography
+  op:method method:ion-chromatography ;
   skos:altLabel "Sulfate/SE" ;
   skos:definition "Sulfate/SE - ion chromatography" ;
   skos:notation "14F5" ;
