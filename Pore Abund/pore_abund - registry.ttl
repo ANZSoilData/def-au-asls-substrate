@@ -1,19 +1,19 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pore_abund: <http://registry.it.csiro.au/def/soils/pore-abundance/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix root_abund: <http://registry.it.csiro.au/def/soils/root-abundance/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<root_abund>
+<pore_abund>
   rdf:type reg:Register ;
-  rdfs:comment "loaded from natsoil CSIRO database - Root Abundance table"^^xsd:string ;
-  dct:created "2015-12-10"^^xsd:date ;
-  dct:creator <mailto:xavier.butcher@csiro.au> ;
-  dct:description "Amount of roots in a 100 square millimeter area."^^xsd:string ;
-  rdfs:label "Root Abundance"^^xsd:string ;
   dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
+  dcterms:created "2015-12-18"^^xsd:date ;
+  dcterms:creator <mailto:xavier.butcher@csiro.au> ;
+  dcterms:description "Pore abundancy is the frequency of fine and course macropores, in either 100 square millimetres or 0.01 square metres."^^xsd:string ;
+  rdfs:comment "loaded from natsoil CSIRO database - Pore Abundance table"^^xsd:string ;
+  rdfs:label "Pore Abundance"^^xsd:string ;
 .

@@ -3,17 +3,17 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix root_abund: <http://registry.it.csiro.au/def/soils/root-abundance/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix strg_class: <http://registry.it.csiro.au/def/soils/strg-class/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 
-<root_abund>
+<strg_class>
   rdf:type reg:Register ;
-  rdfs:comment "loaded from natsoil CSIRO database - Root Abundance table"^^xsd:string ;
-  dct:created "2015-12-10"^^xsd:date ;
-  dct:creator <mailto:xavier.butcher@csiro.au> ;
-  dct:description "Amount of roots in a 100 square millimeter area."^^xsd:string ;
-  rdfs:label "Root Abundance"^^xsd:string ;
   dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
+  dct:created "2015-12-18"^^xsd:date ;
+  dct:creator <mailto:xavier.butcher@csiro.au> ;
+  dct:description "This table shows the strength and toughness of the soil."^^xsd:string ;
+  rdfs:comment "loaded from natsoil CSIRO database - Strng Class table"^^xsd:string ;
+  rdfs:label "Strg Class"^^xsd:string ;
 .

@@ -3,17 +3,18 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix root_abund: <http://registry.it.csiro.au/def/soils/root-abundance/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix units: <http://registry.it.csiro.au/def/soils/lab-units/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix qudt: <http://qudt.org/vocab/unit#> .
 
-<root_abund>
+<units>
   rdf:type reg:Register ;
-  rdfs:comment "loaded from natsoil CSIRO database - Root Abundance table"^^xsd:string ;
-  dct:created "2015-12-10"^^xsd:date ;
-  dct:creator <mailto:xavier.butcher@csiro.au> ;
-  dct:description "Amount of roots in a 100 square millimeter area."^^xsd:string ;
-  rdfs:label "Root Abundance"^^xsd:string ;
   dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
+  dct:created "2015-12-22"^^xsd:date ;
+  dct:creator <mailto:xavier.butcher@csiro.au> ;
+  dct:description "Units of measure used in Lab Methods table."^^xsd:string ;
+  rdfs:comment "created based on units of measure from natsoil CSIRO database - Lab Methods table"^^xsd:string ;
+  rdfs:label "Units"^^xsd:string ;
 .

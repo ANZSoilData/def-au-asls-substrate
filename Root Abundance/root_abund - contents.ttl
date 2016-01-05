@@ -12,28 +12,38 @@
   skos:definition "Abundant" ;
   skos:notation "4" ;
   skos:prefLabel "Abundant"@en ;
+  dct:description "Abundant" ;
+  rdfs:label 'Abundant'@en ;
 .
 <common>
   rdf:type skos:Concept ;
   skos:definition "Common" ;
   skos:notation "2" ;
   skos:prefLabel "Common"@en ;
+  dct:description "Common" ;
+  rdfs:label 'Common'@en ;
 .
 <few>
   rdf:type skos:Concept ;
   skos:definition "Few" ;
   skos:notation "1" ;
   skos:prefLabel "Few"@en ;
+  dct:description "Few" ;
+  rdfs:label 'Few'@en ;
 .
 <many>
   rdf:type skos:Concept ;
   skos:definition "Many" ;
   skos:notation "3" ;
   skos:prefLabel "Many"@en ;
+  dct:description "Many" ;
+  rdfs:label 'Many'@en ;
 .
 <no-roots>
   rdf:type skos:Concept ;
   skos:definition "No roots" ;
   skos:notation "0" ;
   skos:prefLabel "No Roots"@en ;
+  dct:description "No Roots" ;
+  rdfs:label 'No Roots'@en ;
 .
