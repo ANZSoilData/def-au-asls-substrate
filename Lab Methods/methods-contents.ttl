@@ -3599,7 +3599,7 @@
 <moisture-10>
   rdf:type skos:Concept ;
   dct:description "0.5 BAR Moisture g/g - Gravimetric using suction plate" ;
-  units:grams-per-gram ;
+  qudt:unit qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B_GV_05" ;
   skos:altLabel "0.5 BAR Moisture" ;
   skos:definition "0.5 BAR Moisture g/g - Gravimetric using suction plate" ;
@@ -3609,7 +3609,7 @@
 <moisture-11>
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture g/g - Gravimetric using pressure plate" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B_GV_1" ;
   skos:altLabel "1 BAR Moisture" ;
   skos:definition "1 BAR Moisture g/g - Gravimetric using pressure plate" ;
@@ -3619,7 +3619,7 @@
 <moisture-12>
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture g/g - Gravimetric using pressure plate" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B_GV_15" ;
   skos:altLabel "15 BAR Moisture" ;
   skos:definition "15 BAR Moisture g/g - Gravimetric using pressure plate" ;
@@ -3629,7 +3629,7 @@
 <moisture-13>
   rdf:type skos:Concept ;
   dct:description "5 BAR Moisture g/g - Gravimetric using pressure plate" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B_GV_5" ;
   skos:altLabel "5 BAR Moisture" ;
   skos:definition "5 BAR Moisture g/g - Gravimetric using pressure plate" ;
@@ -3639,7 +3639,7 @@
 <moisture-14>
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture g/g - Gravimetric using suction plate" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B_GV_SAT" ;
   skos:altLabel "Saturated Moisture" ;
   skos:definition "Saturated Moisture g/g - Gravimetric using suction plate" ;
@@ -3759,7 +3759,7 @@
 <moisture-25>
   rdf:type skos:Concept ;
   dct:description "0.01 BAR Moisture m3/m3 - Volumetric using suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B_VL_001" ;
   skos:altLabel "0.01 BAR Moisture" ;
   skos:definition "0.01 BAR Moisture m3/m3 - Volumetric using suction plate" ;
@@ -3769,7 +3769,7 @@
 <moisture-26>
   rdf:type skos:Concept ;
   dct:description "0.03 BAR Moisture m3/m3 - Volumetric using suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B_VL_003" ;
   skos:altLabel "0.03 BAR Moisture" ;
   skos:definition "0.03 BAR Moisture m3/m3 - Volumetric using suction plate" ;
@@ -3779,7 +3779,7 @@
 <moisture-27>
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture m3/m3 - Volumetric using suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B_VL_005" ;
   skos:altLabel "0.05 BAR Moisture" ;
   skos:definition "0.05 BAR Moisture m3/m3 - Volumetric using suction plate" ;
@@ -3789,7 +3789,7 @@
 <moisture-28>
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture m3/m3 - Volumetric using suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B_VL_01" ;
   skos:altLabel "0.1 BAR Moisture" ;
   op:method method:volumetric ;
@@ -3800,7 +3800,7 @@
 <moisture-29>
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture m3/m3 - Volumetric using suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B_VL_03" ;
   skos:altLabel "0.3 BAR Moisture" ;
   skos:definition "0.3 BAR Moisture m3/m3 - Volumetric using suction plate" ;
@@ -3820,7 +3820,7 @@
 <moisture-30>
   rdf:type skos:Concept ;
   dct:description "0.5 BAR Moisture m3/m3 - Volumetric using suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B_VL_05" ;
   skos:altLabel "0.5 BAR Moisture" ;
   skos:definition "0.5 BAR Moisture m3/m3 - Volumetric using suction plate" ;
@@ -3830,7 +3830,7 @@
 <moisture-31>
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture m3/m3 - Volumetric using pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B_VL_1" ;
   skos:altLabel "1 BAR Moisture" ;
   skos:definition "1 BAR Moisture m3/m3 - Volumetric using pressure plate" ;
@@ -3840,7 +3840,7 @@
 <moisture-32>
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Volumetric using pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B_VL_15" ;
   skos:altLabel "15 BAR Moisture" ;
   skos:definition "15 BAR Moisture m3/m3 - Volumetric using pressure plate" ;
@@ -3850,7 +3850,7 @@
 <moisture-33>
   rdf:type skos:Concept ;
   dct:description "5 BAR Moisture m3/m3 - Volumetric using pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B_VL_5" ;
   skos:altLabel "5 BAR Moisture" ;
   skos:definition "5 BAR Moisture m3/m3 - Volumetric using pressure plate" ;
@@ -3860,7 +3860,7 @@
 <moisture-34>
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture m3/m3 - Volumetric using suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B_VL_SAT" ;
   skos:altLabel "Saturated Moisture" ;
   skos:definition "Saturated Moisture m3/m3 - Volumetric using suction plate" ;
@@ -3870,7 +3870,7 @@
 <moisture-35>
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture g/g - Gravimetric of ground sample (<2mm) using pressure plate" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B1GV_15" ;
   skos:altLabel "15 BAR Moisture" ;
   skos:definition "15 BAR Moisture g/g - Gravimetric of ground sample (<2mm) using pressure plate" ;
@@ -3880,7 +3880,7 @@
 <moisture-36>
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture m3/m3 - Volumetric using <2mm sample on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B1VL_1" ;
   skos:altLabel "1 BAR Moisture" ;
   skos:definition "1 BAR Moisture m3/m3 - Volumetric using <2mm sample on pressure plate" ;
@@ -3890,7 +3890,7 @@
 <moisture-37>
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Volumetric using <2mm sample on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B1VL_15" ;
   skos:altLabel "15 BAR Moisture" ;
   skos:definition "15 BAR Moisture m3/m3 - Volumetric using <2mm sample on pressure plate" ;
@@ -3900,7 +3900,7 @@
 <moisture-38>
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture m3/m3 - Gravimetric using disturbed sample on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B2GV_1" ;
   skos:altLabel "1 BAR Moisture" ;
   skos:definition "1 BAR Moisture m3/m3 - Gravimetric using disturbed sample on pressure plate" ;
@@ -3910,7 +3910,7 @@
 <moisture-39>
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Gravimetric using disturbed sample on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B2GV_15" ;
   skos:altLabel "15 BAR Moisture" ;
   skos:definition "15 BAR Moisture m3/m3 - Gravimetric using disturbed sample on pressure plate" ;
@@ -3930,7 +3930,7 @@
 <moisture-40>
   rdf:type skos:Concept ;
   dct:description "5 BAR Moisture m3/m3 - Gravimetric using disturbed sample on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B2GV_5" ;
   skos:altLabel "1 BAR Moisture" ;
   skos:definition "5 BAR Moisture m3/m3 - Gravimetric using disturbed sample on pressure plate" ;
@@ -3940,7 +3940,7 @@
 <moisture-41>
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B2VL_03" ;
   skos:altLabel "0.3 BAR Moisture" ;
   skos:definition "0.3 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
@@ -3950,7 +3950,7 @@
 <moisture-42>
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B2VL_1" ;
   skos:altLabel "1 BAR Moisture" ;
   skos:definition "1 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
@@ -3960,7 +3960,7 @@
 <moisture-43>
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B2VL_15" ;
   skos:altLabel "15 BAR Moisture" ;
   skos:definition "15 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
@@ -3970,7 +3970,7 @@
 <moisture-44>
   rdf:type skos:Concept ;
   dct:description "5 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B2VL_5" ;
   skos:altLabel "1 BAR Moisture" ;
   skos:definition "5 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
@@ -3980,7 +3980,7 @@
 <moisture-45>
   rdf:type skos:Concept ;
   dct:description "0.01 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLa001" ;
   skos:altLabel "0.05 BAR Moisture" ;
   skos:definition "0.01 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
@@ -3990,7 +3990,7 @@
 <moisture-46>
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLa005" ;
   skos:altLabel "0.05 BAR Moisture" ;
   skos:definition "0.05 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
@@ -4000,7 +4000,7 @@
 <moisture-47>
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLa01" ;
   skos:altLabel "0.1 BAR Moisture" ;
   skos:definition "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
@@ -4010,7 +4010,7 @@
 <moisture-48>
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLa03" ;
   skos:altLabel "0.05 BAR Moisture" ;
   skos:definition "0.3 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
@@ -4020,7 +4020,7 @@
 <moisture-49>
   rdf:type skos:Concept ;
   dct:description "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLa06" ;
   skos:altLabel "0.05 BAR Moisture" ;
   skos:definition "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
@@ -4030,7 +4030,7 @@
 <moisture-5>
   rdf:type skos:Concept ;
   dct:description "0.01 BAR Moisture g/g - Gravimetric using suction plate" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B_GV_001" ;
   skos:altLabel "0.01 BAR Moisture" ;
   skos:definition "0.01 BAR Moisture g/g - Gravimetric using suction plate" ;
@@ -4040,7 +4040,7 @@
 <moisture-50>
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLaSAT" ;
   skos:altLabel "Saturated Moisture" ;
   skos:definition "Saturated Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
@@ -4050,7 +4050,7 @@
 <moisture-51>
   rdf:type skos:Concept ;
   dct:description "0.01 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLb001" ;
   skos:altLabel "0.01 BAR Moisture" ;
   skos:definition "0.01 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
@@ -4060,7 +4060,7 @@
 <moisture-52>
   rdf:type skos:Concept ;
   dct:description "0.03 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLb003" ;
   skos:altLabel "0.03 BAR Moisture" ;
   skos:definition "0.03 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
@@ -4070,7 +4070,7 @@
 <moisture-53>
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLb005" ;
   skos:altLabel "0.05 BAR Moisture" ;
   skos:definition "0.05 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
@@ -4080,7 +4080,7 @@
 <moisture-54>
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLb01" ;
   skos:altLabel "0.1 BAR Moisture" ;
   skos:definition "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
@@ -4090,7 +4090,7 @@
 <moisture-55>
   rdf:type skos:Concept ;
   dct:description "0.33 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLb03" ;
   skos:altLabel "0.33 BAR Moisture" ;
   skos:definition "0.33 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
@@ -4100,7 +4100,7 @@
 <moisture-56>
   rdf:type skos:Concept ;
   dct:description "0.01 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLc001" ;
   skos:altLabel "0.01 BAR Moisture" ;
   skos:definition "0.01 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
@@ -4110,7 +4110,7 @@
 <moisture-57>
   rdf:type skos:Concept ;
   dct:description "0.03 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLc003" ;
   skos:altLabel "0.03 BAR Moisture" ;
   skos:definition "0.03 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
@@ -4120,7 +4120,7 @@
 <moisture-58>
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLc005" ;
   skos:altLabel "0.05 BAR Moisture" ;
   skos:definition "0.05 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
@@ -4130,7 +4130,7 @@
 <moisture-59>
   rdf:type skos:Concept ;
   dct:description "0.5 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLb05" ;
   skos:altLabel "0.5 BAR Moisture" ;
   skos:definition "0.5 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
@@ -4140,7 +4140,7 @@
 <moisture-6>
   rdf:type skos:Concept ;
   dct:description "0.03 BAR Moisture g/g - Gravimetric using suction plate" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B_GV_003" ;
   skos:altLabel "0.03 BAR Moisture" ;
   skos:definition "0.03 BAR Moisture g/g - Gravimetric using suction plate" ;
@@ -4150,7 +4150,7 @@
 <moisture-60>
   rdf:type skos:Concept ;
   dct:description "0.66 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLb06" ;
   skos:altLabel "0.66 BAR Moisture" ;
   skos:definition "0.66 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
@@ -4160,7 +4160,7 @@
 <moisture-61>
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLbSAT" ;
   skos:altLabel "Saturated Moisture" ;
   skos:definition "Saturated Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
@@ -4170,7 +4170,7 @@
 <moisture-62>
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLc01" ;
   skos:altLabel "0.1 BAR Moisture" ;
   skos:definition "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
@@ -4180,7 +4180,7 @@
 <moisture-63>
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLc03" ;
   skos:altLabel "0.3 BAR Moisture" ;
   skos:definition "0.3 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
@@ -4190,7 +4190,7 @@
 <moisture-64>
   rdf:type skos:Concept ;
   dct:description "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLc06" ;
   skos:altLabel "0.6 BAR Moisture" ;
   skos:definition "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
@@ -4200,7 +4200,7 @@
 <moisture-65>
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLcSAT" ;
   skos:altLabel "Saturated Moisture" ;
   skos:definition "Saturated Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
@@ -4210,7 +4210,7 @@
 <moisture-66>
   rdf:type skos:Concept ;
   dct:description "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLd06" ;
   skos:altLabel "0.6 BAR Moisture" ;
   skos:definition "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
@@ -4220,7 +4220,7 @@
 <moisture-67>
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLd1" ;
   skos:altLabel "1 BAR Moisture" ;
   skos:definition "1 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
@@ -4230,7 +4230,7 @@
 <moisture-68>
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLd15" ;
   skos:altLabel "15 BAR Moisture" ;
   skos:definition "15 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
@@ -4240,7 +4240,7 @@
 <moisture-69>
   rdf:type skos:Concept ;
   dct:description "3 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLd3" ;
   skos:altLabel "3 BAR Moisture" ;
   skos:definition "3 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
@@ -4250,7 +4250,7 @@
 <moisture-7>
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture g/g - Gravimetric using suction plate" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B_GV_005" ;
   skos:altLabel "0.05 BAR Moisture" ;
   skos:definition "0.05 BAR Moisture g/g - Gravimetric using suction plate" ;
@@ -4260,7 +4260,7 @@
 <moisture-70>
   rdf:type skos:Concept ;
   dct:description "5 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLd5" ;
   skos:altLabel "5 BAR Moisture" ;
   skos:definition "5 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
@@ -4270,7 +4270,7 @@
 <moisture-71>
   rdf:type skos:Concept ;
   dct:description "0.04 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLe004" ;
   skos:altLabel "0.04 BAR Moisture" ;
   skos:definition "0.04 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on suction plate" ;
@@ -4280,7 +4280,7 @@
 <moisture-72>
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLe01" ;
   skos:altLabel "0.1 BAR Moisture" ;
   skos:definition "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on suction plate" ;
@@ -4290,7 +4290,7 @@
 <moisture-73>
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on suction plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLe03" ;
   skos:altLabel "0.3 BAR Moisture" ;
   skos:definition "0.3 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on suction plate" ;
@@ -4300,7 +4300,7 @@
 <moisture-74>
   rdf:type skos:Concept ;
   dct:description "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLe06" ;
   skos:altLabel "0.6 BAR Moisture" ;
   skos:definition "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
@@ -4310,7 +4310,7 @@
 <moisture-75>
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLe15" ;
   skos:altLabel "15 BAR Moisture" ;
   skos:definition "15 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
@@ -4320,7 +4320,7 @@
 <moisture-76>
   rdf:type skos:Concept ;
   dct:description "2 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLe2" ;
   skos:altLabel "0.6 BAR Moisture" ;
   skos:definition "2 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
@@ -4330,7 +4330,7 @@
 <moisture-77>
   rdf:type skos:Concept ;
   dct:description "7 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B3VLe7" ;
   skos:altLabel "0.6 BAR Moisture" ;
   skos:definition "7 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
@@ -4340,7 +4340,7 @@
 <moisture-78>
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture g/g - Gravimetric of soil clods (Soil Survey Staff,1967)" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B4GV_01" ;
   skos:altLabel "0.1 BAR Moisture" ;
   skos:definition "0.1 BAR Moisture g/g - Gravimetric of soil clods (Soil Survey Staff,1967)" ;
@@ -4350,7 +4350,7 @@
 <moisture-79>
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture m3/m3 - Volumetric of soil clods (Soil Survey Staff,1967)" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B4VL_005" ;
   skos:altLabel "0.05 BAR Moisture" ;
   skos:definition "0.05 BAR Moisture m3/m3 - Volumetric of soil clods (Soil Survey Staff,1967)" ;
@@ -4360,7 +4360,7 @@
 <moisture-8>
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture g/g - Gravimetric  using suction plate" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B_GV_01" ;
   op:method method:gravimetric ;
   skos:altLabel "0.1 BAR Moisture" ;
@@ -4371,7 +4371,7 @@
 <moisture-80>
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture g/g - Gravimetric of soil clods (CSIRO Div. Of Soils TM 25/66)" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B5GV_01" ;
   skos:altLabel "0.1 BAR Moisture" ;
   skos:definition "0.1 BAR Moisture g/g - Gravimetric of soil clods (CSIRO Div. Of Soils TM 25/66)" ;
@@ -4381,7 +4381,7 @@
 <moisture-81>
   rdf:type skos:Concept ;
   dct:description "Drained Upper Limit (0.1 BAR) Moisture m3/m3 - Volumetric using APSRU in situ methodology" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B6VL_DUL" ;
   skos:altLabel "0.1 BAR Moisture" ;
   skos:definition "Drained Upper Limit (0.1 BAR) Moisture m3/m3 - Volumetric using APSRU in situ methodology" ;
@@ -4391,7 +4391,7 @@
 <moisture-82>
   rdf:type skos:Concept ;
   dct:description "Lower Limit (15 BAR) Moisture m3/m3 - Volumetric using APSRU in situ methodology" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B6VL_LL" ;
   skos:altLabel "15 BAR Moisture" ;
   skos:definition "Lower Limit (15 BAR) Moisture m3/m3 - Volumetric using APSRU in situ methodology" ;
@@ -4401,7 +4401,7 @@
 <moisture-83>
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture m3/m3 - Volumetric using APSRU in situ methodology" ;
-  units:cubic-metres-per-cubic-metre ;
+  qudt:unit eunit:cubic-metres-per-cubic-metre  ;
   rdfs:label "P3B6VL_SAT" ;
   skos:altLabel "Saturated Moisture" ;
   skos:definition "Saturated Moisture m3/m3 - Volumetric using APSRU in situ methodology" ;
@@ -4411,7 +4411,7 @@
 <moisture-9>
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture g/g - Gravimetric using suction plate" ;
-  units:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B_GV_03" ;
   skos:altLabel "0.3 BAR Moisture" ;
   skos:definition "0.3 BAR Moisture g/g - Gravimetric using suction plate" ;
