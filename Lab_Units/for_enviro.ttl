@@ -23,4 +23,4 @@
       qudt:quantityKind "<http://qudt.org/vocab/quantity#Concentration>, <http://registry.it.csiro.au/def/environment/unit/VolumePerVolume>" ;
       qudt:symbol 'm3/m3'^^xsd:string 
       dct:source <http://www.clw.csiro.au/aclep/documents/Sites_v2.zip> 
-      rdfs:seealso <http://codes.wmo.int/common/unit/_m3_m-3> .
+      rdfs:seeAlso <http://codes.wmo.int/common/unit/_m3_m-3> .
