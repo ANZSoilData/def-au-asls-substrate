@@ -3599,7 +3599,7 @@
 <moisture-10>
   rdf:type skos:Concept ;
   dct:description "0.5 BAR Moisture g/g - Gravimetric using suction plate" ;
-  qudt:unit qudt:unit eunit:grams-per-gram ;
+  qudt:unit eunit:grams-per-gram ;
   rdfs:label "P3B_GV_05" ;
   skos:altLabel "0.5 BAR Moisture" ;
   skos:definition "0.5 BAR Moisture g/g - Gravimetric using suction plate" ;
@@ -4782,7 +4782,7 @@
 <naf-1>
   rdf:type skos:Concept ;
   dct:description "pH of sodium fluoride suspension" ;
-  qudt:unit  ;
+  qudt:unit eunit:pH ;
   rdfs:label "4D1" ;
   skos:altLabel "pH (NaF)" ;
   skos:definition "pH of sodium fluoride suspension" ;
