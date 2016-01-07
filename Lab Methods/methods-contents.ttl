@@ -83,7 +83,6 @@
 <acl>
   rdf:type skos:Collection ;
   dct:description "Collection of laboratory methods for measuring acl" ;
-  dct:description "Collection of laboratory methods for measuring acl" ;
   rdfs:label "Exchange acidity"^^xsd:string ;
   skos:member <acl-1> ;
   skos:member <acl-2> ;
