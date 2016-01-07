@@ -15,17 +15,17 @@
 @prefix ogc: <http://www.opengis.net/def/nil/OGC/0/> .
 
 
-<http://registry.it.csiro.au/def/soils/lab-methods/2000-micron>
+<2000-micron>
   rdf:type skos:Collection ;
   rdfs:label "2000 Micron"^^xsd:string ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/2000-micron-1> ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/2000-micron-2> ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/2000-micron-3> ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/2000-micron-4> ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/2000-micron-5> ;
+  skos:member <2000-micron-1> ;
+  skos:member <2000-micron-2> ;
+  skos:member <2000-micron-3> ;
+  skos:member <2000-micron-4> ;
+  skos:member <2000-micron-5> ;
   skos:prefLabel "2000-micron" ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/2000-micron-1>
+<2000-micron-1>
   rdf:type skos:Concept ;
   dct:description "1000-2000 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   qudt:unit qunit:Percent ;
@@ -36,7 +36,7 @@
   skos:notation "PWS1-2mm" ;
   skos:prefLabel "PWS1-2mm"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/2000-micron-2>
+<2000-micron-2>
   rdf:type skos:Concept ;
   dct:description "20-63 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   qudt:unit qunit:Percent ;
@@ -47,7 +47,7 @@
   skos:notation "PWS20-63" ;
   skos:prefLabel "PWS20-63"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/2000-micron-3>
+<2000-micron-3>
   rdf:type skos:Concept ;
   dct:description "212-425 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   qudt:unit qunit:Percent ;
@@ -58,7 +58,7 @@
   skos:notation "PWS212-425" ;
   skos:prefLabel "PWS212-425"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/2000-micron-4>
+<2000-micron-4>
   rdf:type skos:Concept ;
   dct:description "425-1000  micron fraction (%) - Wet Sieving after chemical dispersion" ;
   qudt:unit qunit:Percent ;
@@ -69,7 +69,7 @@
   skos:notation "PWS425-1mm" ;
   skos:prefLabel "PWS425-1mm"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/2000-micron-5>
+<2000-micron-5>
   rdf:type skos:Concept ;
   dct:description "63-212 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   qudt:unit qunit:Percent ;
@@ -82,6 +82,8 @@
 .
 <acl>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring acl" ;
+  dct:description "Collection of laboratory methods for measuring acl" ;
   rdfs:label "Exchange acidity"^^xsd:string ;
   skos:member <acl-1> ;
   skos:member <acl-2> ;
@@ -121,6 +123,7 @@
 .
 <aec>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring aec" ;
   rdfs:label "Exchangeable bases , CEC and AEC by compulsive exchange"^^xsd:string ;
   skos:member <aec-1> ;
   skos:member <aec-2> ;
@@ -340,6 +343,7 @@
 .
 <allophane>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring allophane" ;
   rdfs:label "Allophane"^^xsd:string ;
   skos:member <allophane-1> ;
   skos:prefLabel "allophane" ;
@@ -357,6 +361,7 @@
 .
 <aluminium>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring aluminium" ;
   rdfs:label "Aluminium"^^xsd:string ;
   skos:member <al-1> ;
   skos:member <al-10> ;
@@ -380,6 +385,7 @@
 .
 <alunite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring alunite" ;
   rdfs:label "Alunite"^^xsd:string ;
   skos:member <alunite-1> ;
   skos:prefLabel "alunite" ;
@@ -397,6 +403,7 @@
 .
 <ammonium>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring ammonium" ;
   rdfs:label "Ammonium"^^xsd:string ;
   skos:member <nh4-1> ;
   skos:member <nh4-2> ;
@@ -406,6 +413,7 @@
 .
 <amphibole>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring amphibole" ;
   rdfs:label "Amphibole"^^xsd:string ;
   skos:member <amphibole-1> ;
   skos:prefLabel "amphibole" ;
@@ -423,6 +431,7 @@
 .
 <anatase>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring anatase" ;
   rdfs:label "Anatase"^^xsd:string ;
   skos:member <anatase-1> ;
   skos:prefLabel "anatase" ;
@@ -440,6 +449,7 @@
 .
 <apatite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring apatite" ;
   rdfs:label "Apatite"^^xsd:string ;
   skos:member <apatite-1> ;
   skos:prefLabel "apatite" ;
@@ -457,6 +467,7 @@
 .
 <argonite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring argonite" ;
   rdfs:label "Argonite"^^xsd:string ;
   skos:member <argonite-1> ;
   skos:prefLabel "argonite" ;
@@ -494,6 +505,7 @@
 .
 <bases>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring bases" ;
   rdfs:label "Bases"^^xsd:string ;
   skos:member <bases-1> ;
   skos:member <bases-2> ;
@@ -521,6 +533,7 @@
 .
 <beidellite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring beidellite" ;
   rdfs:label "Beidellite"^^xsd:string ;
   skos:member <beidellite-1> ;
   skos:prefLabel "beidellite" ;
@@ -539,6 +552,7 @@
 .
 <bicarbonate>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring bicarbonate" ;
   rdfs:label "Bicarbonate"^^xsd:string ;
   skos:member <hco3-1> ;
   skos:member <hco3-2> ;
@@ -546,6 +560,7 @@
 .
 <biotite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring biotite" ;
   rdfs:label "Biotite"^^xsd:string ;
   skos:member <biotite-1> ;
   skos:prefLabel "biotite" ;
@@ -563,6 +578,7 @@
 .
 <boehmite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring boehmite" ;
   rdfs:label "Boehmite"^^xsd:string ;
   skos:member <boehmite-1> ;
   skos:prefLabel "boehmite" ;
@@ -579,6 +595,7 @@
 .
 <boron>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring boron" ;
   rdfs:label "Boron"^^xsd:string ;
   skos:member <b-1> ;
   skos:member <b-2> ;
@@ -586,6 +603,7 @@
 .
 <bsp>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring bsp" ;
   rdfs:label "BSP"^^xsd:string ;
   skos:member <bsp-1> ;
   skos:prefLabel "bsp" ;
@@ -943,6 +961,7 @@
 .
 <calcite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring calcite" ;
   rdfs:label "Calcite"^^xsd:string ;
   skos:member <calcite-1> ;
   skos:prefLabel "calcite" ;
@@ -960,6 +979,7 @@
 .
 <calcium>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring calcium" ;
   rdfs:label "Calcium"^^xsd:string ;
   skos:member <ca-1> ;
   skos:member <ca-10> ;
@@ -989,12 +1009,14 @@
 .
 <calcium-carbonate>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring calcium-carbonate" ;
   rdfs:label "Calcium Carbonate"^^xsd:string ;
   skos:member <caco3-1> ;
   skos:prefLabel "calcium-carbonate" ;
 .
 <calcium-chloride>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring calcium-chloride" ;
   rdfs:label "Calcium Chloride"^^xsd:string ;
   skos:member <cacl2-1> ;
   skos:member <cacl2-2> ;
@@ -1044,6 +1066,7 @@
 .
 <carbon>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring carbon" ;
   rdfs:label "Carbon"^^xsd:string ;
   skos:member <c-1> ;
   skos:member <c-2> ;
@@ -1057,6 +1080,7 @@
 .
 <carbonate>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring carbonate" ;
   rdfs:label "Carbonate"^^xsd:string ;
   skos:member <co3-1> ;
   skos:member <co3-2> ;
@@ -1067,6 +1091,7 @@
 .
 <cations>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring cations" ;
   rdfs:label "Cations"^^xsd:string ;
   skos:member <cations-1> ;
   skos:member <cations-2> ;
@@ -1127,6 +1152,7 @@
 .
 <cec>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring cec" ;
   rdfs:label "CEC"^^xsd:string ;
   skos:member <cec-1> ;
   skos:member <cec-10> ;
@@ -1386,12 +1412,14 @@
 .
 <cec-hosk>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring cec-hosk" ;
   rdfs:label "CEC-Hosk"^^xsd:string ;
   skos:member <cec---hosk-1> ;
   skos:prefLabel "cec-hosk" ;
 .
 <chloride>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring chloride" ;
   rdfs:label "Chloride"^^xsd:string ;
   skos:member <cl-1> ;
   skos:member <cl-2> ;
@@ -1404,6 +1432,7 @@
 .
 <chlorite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring chlorite" ;
   rdfs:label "Chlorite"^^xsd:string ;
   skos:member <chlorite-1> ;
   skos:prefLabel "chlorite" ;
@@ -1420,6 +1449,7 @@
 .
 <chloritized>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring chloritized" ;
   rdfs:label "Chloritized"^^xsd:string ;
   skos:member <chloritized-1> ;
   skos:prefLabel "chloritized" ;
@@ -1506,6 +1536,7 @@
 .
 <clay>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring clay" ;
   rdfs:label "Clay"^^xsd:string ;
   skos:member <clay-1> ;
   skos:member <clay-2> ;
@@ -1638,6 +1669,7 @@
 .
 <cole>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring cole" ;
   rdfs:label "Cole"^^xsd:string ;
   skos:member <cole-1> ;
   skos:member <cole-2> ;
@@ -1676,12 +1708,14 @@
 .
 <copper>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring copper" ;
   rdfs:label "Copper"^^xsd:string ;
   skos:member <cu-1> ;
   skos:prefLabel "copper" ;
 .
 <corondum>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring corondum" ;
   rdfs:label "Corondum"^^xsd:string ;
   skos:member <corondum-1> ;
   skos:prefLabel "corondum" ;
@@ -1698,6 +1732,7 @@
 .
 <cristobalite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring cristobalite" ;
   rdfs:label "Cristobalite"^^xsd:string ;
   skos:member <cristobalite-1> ;
   skos:prefLabel "cristobalite" ;
@@ -1750,6 +1785,7 @@
 .
 <density>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring density" ;
   rdfs:label "Density"^^xsd:string ;
   skos:member <density-1> ;
   skos:member <density-2> ;
@@ -1799,6 +1835,7 @@
 .
 <dispersion>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring dispersion" ;
   rdfs:label "Dispersion"^^xsd:string ;
   skos:member <dispersion-1> ;
   skos:prefLabel "dispersion" ;
@@ -1815,6 +1852,7 @@
 .
 <dolomite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring dolomite" ;
   rdfs:label "Dolomite"^^xsd:string ;
   skos:member <dolomite-1> ;
   skos:prefLabel "dolomite" ;
@@ -1831,6 +1869,7 @@
 .
 <dravite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring dravite" ;
   rdfs:label "Dravite"^^xsd:string ;
   skos:member <dravite-1> ;
   skos:prefLabel "dravite" ;
@@ -1847,6 +1886,7 @@
 .
 <ec>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring ec" ;
   rdfs:label "EC"^^xsd:string ;
   skos:member <ec-1> ;
   skos:member <ec-2> ;
@@ -1909,6 +1949,7 @@
 .
 <electrical-conductivity>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring electrical-conductivity" ;
   rdfs:label "Electrical Conductivity"^^xsd:string ;
   skos:member <electrical-conductivity-1> ;
   skos:prefLabel "electrical-conductivity" ;
@@ -1925,6 +1966,7 @@
 .
 <esp>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring esp" ;
   rdfs:label "ESP"^^xsd:string ;
   skos:member <esp-1> ;
   skos:prefLabel "esp" ;
@@ -2121,6 +2163,7 @@
 .
 <feldspar>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring feldspar" ;
   rdfs:label "Feldspar"^^xsd:string ;
   skos:member <feldspar-1> ;
   skos:prefLabel "feldspar" ;
@@ -2137,6 +2180,7 @@
 .
 <feroxyhite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring feroxyhite" ;
   rdfs:label "Feroxyhite"^^xsd:string ;
   skos:member <feroxyhite-1> ;
   skos:prefLabel "feroxyhite" ;
@@ -2153,6 +2197,7 @@
 .
 <ferrihydrite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring ferrihydrite" ;
   rdfs:label "Ferrihydrite"^^xsd:string ;
   skos:member <ferrihydrite-1> ;
   skos:prefLabel "ferrihydrite" ;
@@ -2179,6 +2224,7 @@
 .
 <fluoride>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring fluoride" ;
   rdfs:label "Fluoride"^^xsd:string ;
   skos:member <f-1> ;
   skos:member <f-2> ;
@@ -2186,12 +2232,14 @@
 .
 <fluorite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring fluorite" ;
   rdfs:label "Fluorite"^^xsd:string ;
   skos:member <flourite-1> ;
   skos:prefLabel "fluorite" ;
 .
 <geothite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring geothite" ;
   rdfs:label "Geothite"^^xsd:string ;
   skos:member <geothite-1> ;
   skos:prefLabel "geothite" ;
@@ -2208,6 +2256,7 @@
 .
 <gibbsite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring gibbsite" ;
   rdfs:label "Gibbsite"^^xsd:string ;
   skos:member <gibbsite-1> ;
   skos:prefLabel "gibbsite" ;
@@ -2224,6 +2273,7 @@
 .
 <glauconite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring glauconite" ;
   rdfs:label "Glauconite"^^xsd:string ;
   skos:member <glauconite-1> ;
   skos:prefLabel "glauconite" ;
@@ -2240,6 +2290,7 @@
 .
 <gravel>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring gravel" ;
   rdfs:label "Gravel"^^xsd:string ;
   skos:member <gravel-1> ;
   skos:prefLabel "gravel" ;
@@ -2256,6 +2307,7 @@
 .
 <gypsum>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring gypsum" ;
   rdfs:label "Gypsum"^^xsd:string ;
   skos:member <gypsum-1> ;
   skos:member <gypsum-2> ;
@@ -2384,6 +2436,7 @@
 .
 <halite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring halite" ;
   rdfs:label "Halite"^^xsd:string ;
   skos:member <halite-1> ;
   skos:prefLabel "halite" ;
@@ -2400,6 +2453,7 @@
 .
 <halloysite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring halloysite" ;
   rdfs:label "Halloysite"^^xsd:string ;
   skos:member <halloysite-1> ;
   skos:member <halloysite-2> ;
@@ -2447,6 +2501,7 @@
 .
 <hematite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring hematite" ;
   rdfs:label "Hematite"^^xsd:string ;
   skos:member <hematite-1> ;
   skos:prefLabel "hematite" ;
@@ -2463,6 +2518,7 @@
 .
 <huntite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring huntite" ;
   rdfs:label "Huntite"^^xsd:string ;
   skos:member <huntite-1> ;
   skos:prefLabel "huntite" ;
@@ -2479,6 +2535,7 @@
 .
 <hydrogen>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring hydrogen" ;
   rdfs:label "Hydrogen"^^xsd:string ;
   skos:member <h-1> ;
   skos:member <h-2> ;
@@ -2490,12 +2547,14 @@
 .
 <hydrogen-peroxide>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring hydrogen-peroxide" ;
   rdfs:label "Hydrogen Peroxide"^^xsd:string ;
   skos:member <h2o2-1> ;
   skos:prefLabel "hydrogen-peroxide" ;
 .
 <ignition>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring ignition" ;
   rdfs:label "Ignition"^^xsd:string ;
   skos:member <ignition-1> ;
   skos:prefLabel "ignition" ;
@@ -2512,6 +2571,7 @@
 .
 <illite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring illite" ;
   rdfs:label "Illite"^^xsd:string ;
   skos:member <illite-1> ;
   skos:prefLabel "illite" ;
@@ -2528,6 +2588,7 @@
 .
 <ilmenite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring ilmenite" ;
   rdfs:label "Ilmenite"^^xsd:string ;
   skos:member <ilmenite-1> ;
   skos:prefLabel "ilmenite" ;
@@ -2544,6 +2605,7 @@
 .
 <imogolite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring imogolite" ;
   rdfs:label "Imogolite"^^xsd:string ;
   skos:member <imogolite-1> ;
   skos:prefLabel "imogolite" ;
@@ -2560,6 +2622,7 @@
 .
 <iron>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring iron" ;
   rdfs:label "Iron"^^xsd:string ;
   skos:member <fe-1> ;
   skos:member <fe-10> ;
@@ -2580,12 +2643,14 @@
 .
 <iron-oxide>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring iron-oxide" ;
   rdfs:label "Iron Oxide"^^xsd:string ;
   skos:member <fe2o3-1> ;
   skos:prefLabel "iron-oxide" ;
 .
 <jarosite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring jarosite" ;
   rdfs:label "Jarosite"^^xsd:string ;
   skos:member <jarosite-1> ;
   skos:prefLabel "jarosite" ;
@@ -2999,6 +3064,7 @@
 .
 <kaolin>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring kaolin" ;
   rdfs:label "Kaolin"^^xsd:string ;
   skos:member <kaolin-1> ;
   skos:member <kaolin-2> ;
@@ -3026,6 +3092,7 @@
 .
 <kaolinite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring kaolinite" ;
   rdfs:label "Kaolinite"^^xsd:string ;
   skos:member <kaolinite-1> ;
   skos:prefLabel "kaolinite" ;
@@ -3072,6 +3139,7 @@
 .
 <lepidocrosite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring lepidocrosite" ;
   rdfs:label "Lepidocrosite"^^xsd:string ;
   skos:member <lepidocrosite-1> ;
   skos:prefLabel "lepidocrosite" ;
@@ -3088,6 +3156,7 @@
 .
 <lime>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring lime" ;
   rdfs:label "Lime"^^xsd:string ;
   skos:member <cao-1> ;
   skos:member <cao-2> ;
@@ -3097,6 +3166,7 @@
 .
 <magnesite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring magnesite" ;
   rdfs:label "Magnesite"^^xsd:string ;
   skos:member <magnesite-1> ;
   skos:prefLabel "magnesite" ;
@@ -3113,6 +3183,7 @@
 .
 <magnesium>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring magnesium" ;
   rdfs:label "Magnesium"^^xsd:string ;
   skos:member <mg-1> ;
   skos:member <mg-10> ;
@@ -3139,6 +3210,7 @@
 .
 <magnetite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring magnetite" ;
   rdfs:label "Magnetite"^^xsd:string ;
   skos:member <magnetite-2> ;
   skos:prefLabel "magnetite" ;
@@ -3155,6 +3227,7 @@
 .
 <manganese>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring manganese" ;
   rdfs:label "Manganese"^^xsd:string ;
   skos:member <mn-1> ;
   skos:member <mn-2> ;
@@ -3169,6 +3242,7 @@
 .
 <meghemite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring meghemite" ;
   rdfs:label "Meghemite"^^xsd:string ;
   skos:member <meghemite-1> ;
   skos:prefLabel "meghemite" ;
@@ -3395,6 +3469,7 @@
 .
 <mica>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring mica" ;
   rdfs:label "Mica"^^xsd:string ;
   skos:member <mica-1> ;
   skos:prefLabel "mica" ;
@@ -3501,6 +3576,7 @@
 .
 <moisture>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring moisture" ;
   rdfs:label "Moisture"^^xsd:string ;
   skos:member <moisture-1> ;
   skos:member <moisture-10> ;
@@ -4420,6 +4496,7 @@
 .
 <monozite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring monozite" ;
   rdfs:label "Monozite"^^xsd:string ;
   skos:member <monozite-1> ;
   skos:prefLabel "monozite" ;
@@ -4436,6 +4513,7 @@
 .
 <montmorillonite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring montmorillonite" ;
   rdfs:label "Montmorillonite"^^xsd:string ;
   skos:member <montmorillonite-1> ;
   skos:prefLabel "montmorillonite" ;
@@ -4452,6 +4530,7 @@
 .
 <muscovite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring muscovite" ;
   rdfs:label "Muscovite"^^xsd:string ;
   skos:member <muscovite-1> ;
   skos:prefLabel "muscovite" ;
@@ -4831,6 +4910,7 @@
 .
 <nitrate>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring nitrate" ;
   rdfs:label "Nitrate"^^xsd:string ;
   skos:member <no3-1> ;
   skos:member <no3-2> ;
@@ -4842,6 +4922,7 @@
 .
 <nitrogen>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring nitrogen" ;
   rdfs:label "Nitrogen"^^xsd:string ;
   skos:member <n-1> ;
   skos:member <n-2> ;
@@ -4856,6 +4937,7 @@
 .
 <nitrogen-dioxide>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring nitrogen-dioxide" ;
   rdfs:label "Nitrogen Dioxide"^^xsd:string ;
   skos:member <no2-1> ;
   skos:prefLabel "nitrogen-dioxide" ;
@@ -4932,6 +5014,7 @@
 .
 <nontronite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring nontronite" ;
   rdfs:label "Nontronite"^^xsd:string ;
   skos:member <nontronite-1> ;
   skos:prefLabel "nontronite" ;
@@ -4948,6 +5031,7 @@
 .
 <olivine>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring olivine" ;
   rdfs:label "Olivine"^^xsd:string ;
   skos:member <olivine-1> ;
   skos:prefLabel "olivine" ;
@@ -4964,6 +5048,7 @@
 .
 <orthoclase>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring orthoclase" ;
   rdfs:label "Orthoclase"^^xsd:string ;
   skos:member <orthoclase-1> ;
   skos:prefLabel "orthoclase" ;
@@ -5323,6 +5408,7 @@
 .
 <pH>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring pH" ;
   rdfs:label "pH"^^xsd:string ;
   skos:member <ph-1> ;
   skos:member <ph-2> ;
@@ -5331,6 +5417,7 @@
 .
 <palygorskite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring palygorskite" ;
   rdfs:label "Palygorskite"^^xsd:string ;
   skos:member <palygorskite-1> ;
   skos:prefLabel "palygorskite" ;
@@ -5377,6 +5464,7 @@
 .
 <phlogopite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring phlogopite" ;
   rdfs:label "Phlogopite"^^xsd:string ;
   skos:member <phlogopite-1> ;
   skos:prefLabel "phlogopite" ;
@@ -5393,6 +5481,7 @@
 .
 <phosphate>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring phosphate" ;
   rdfs:label "Phosphate"^^xsd:string ;
   skos:member <po4-1> ;
   skos:member <po4-2> ;
@@ -5401,6 +5490,7 @@
 .
 <phosphorous>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring phosphorous" ;
   rdfs:label "Phosphorous"^^xsd:string ;
   skos:member <p-1> ;
   skos:member <p-10> ;
@@ -5440,6 +5530,7 @@
 .
 <plagioclase>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring plagioclase" ;
   rdfs:label "Plagioclase"^^xsd:string ;
   skos:member <plagioclase-1> ;
   skos:prefLabel "plagioclase" ;
@@ -5456,6 +5547,7 @@
 .
 <plombogummite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring plombogummite" ;
   rdfs:label "Plombogummite"^^xsd:string ;
   skos:member <plombogummite-1> ;
   skos:prefLabel "plombogummite" ;
@@ -5502,6 +5594,7 @@
 .
 <pore>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring pore" ;
   rdfs:label "Pore"^^xsd:string ;
   skos:member <pore-1> ;
   skos:prefLabel "pore" ;
@@ -5518,6 +5611,7 @@
 .
 <porosity>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring porosity" ;
   rdfs:label "Porosity"^^xsd:string ;
   skos:member <porosity-1> ;
   skos:member <porosity-2> ;
@@ -5556,6 +5650,7 @@
 .
 <potassium>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring potassium" ;
   rdfs:label "Potassium"^^xsd:string ;
   skos:member <k-1> ;
   skos:member <k-10> ;
@@ -5599,6 +5694,7 @@
 .
 <potassium-chloride>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring potassium-chloride" ;
   rdfs:label "Potassium Chloride"^^xsd:string ;
   skos:member <kcl-1> ;
   skos:member <kcl-2> ;
@@ -5607,12 +5703,14 @@
 .
 <potassium-oxide>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring potassium-oxide" ;
   rdfs:label "Potassium Oxide"^^xsd:string ;
   skos:member <k2o-1> ;
   skos:prefLabel "potassium-oxide" ;
 .
 <pseudorutile>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring pseudorutile" ;
   rdfs:label "Pseudorutile"^^xsd:string ;
   skos:member <pseudorutile-1> ;
   skos:prefLabel "pseudorutile" ;
@@ -5629,6 +5727,7 @@
 .
 <pyrophyllite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring pyrophyllite" ;
   rdfs:label "Pyrophyllite"^^xsd:string ;
   skos:member <pyrophyllite-1> ;
   skos:prefLabel "pyrophyllite" ;
@@ -5645,6 +5744,7 @@
 .
 <pyroxene>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring pyroxene" ;
   rdfs:label "Pyroxene"^^xsd:string ;
   skos:member <pyroxene-1> ;
   skos:prefLabel "pyroxene" ;
@@ -5661,6 +5761,7 @@
 .
 <quartz>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring quartz" ;
   rdfs:label "Quartz"^^xsd:string ;
   skos:member <quartz-1> ;
   skos:prefLabel "quartz" ;
@@ -5677,6 +5778,7 @@
 .
 <rutile>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring rutile" ;
   rdfs:label "Rutile"^^xsd:string ;
   skos:member <rutile-1> ;
   skos:prefLabel "rutile" ;
@@ -5804,6 +5906,7 @@
 .
 <sand>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring sand" ;
   rdfs:label "Sand"^^xsd:string ;
   skos:member <sand-1> ;
   skos:member <sand-10> ;
@@ -5986,6 +6089,7 @@
 .
 <saponite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring saponite" ;
   rdfs:label "Saponite"^^xsd:string ;
   skos:member <saponite-1> ;
   skos:member <saponite-2> ;
@@ -6013,6 +6117,7 @@
 .
 <saturation-extract>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring saturation-extract" ;
   rdfs:label "Saturation Extract"^^xsd:string ;
   skos:member <saturation-extract-1> ;
   skos:member <saturation-extract-2> ;
@@ -6062,6 +6167,7 @@
 .
 <sedigraph>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring sedigraph" ;
   rdfs:label "Sedigraph"^^xsd:string ;
   skos:member <sedigraph-1> ;
   skos:member <sedigraph-10> ;
@@ -6244,6 +6350,7 @@
 .
 <serpentine>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring serpentine" ;
   rdfs:label "Serpentine"^^xsd:string ;
   skos:member <serpentine-1> ;
   skos:prefLabel "serpentine" ;
@@ -6280,6 +6387,7 @@
 .
 <siderite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring siderite" ;
   rdfs:label "Siderite"^^xsd:string ;
   skos:member <siderite-1> ;
   skos:prefLabel "siderite" ;
@@ -6296,6 +6404,7 @@
 .
 <silicon>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring silicon" ;
   rdfs:label "Silicon"^^xsd:string ;
   skos:member <si-1> ;
   skos:member <si-2> ;
@@ -6303,6 +6412,7 @@
 .
 <silicon-dioxide>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring silicon-dioxide" ;
   rdfs:label "Silicon Dioxide"^^xsd:string ;
   skos:member <sio2-1> ;
   skos:member <sio2-2> ;
@@ -6312,6 +6422,7 @@
 .
 <silt>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring silt" ;
   rdfs:label "Silt"^^xsd:string ;
   skos:member <silt-1> ;
   skos:member <silt-2> ;
@@ -6424,6 +6535,7 @@
 .
 <smectite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring smectite" ;
   rdfs:label "Smectite"^^xsd:string ;
   skos:member <smectite-1> ;
   skos:prefLabel "smectite" ;
@@ -6491,6 +6603,7 @@
 .
 <sodium>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring sodium" ;
   rdfs:label "Sodium"^^xsd:string ;
   skos:member <na-1> ;
   skos:member <na-10> ;
@@ -6518,12 +6631,14 @@
 .
 <sodium-fluoride>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring sodium-fluoride" ;
   rdfs:label "Sodium Fluoride"^^xsd:string ;
   skos:member <naf-1> ;
   skos:prefLabel "sodium-fluoride" ;
 .
 <sphene>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring sphene" ;
   rdfs:label "Sphene"^^xsd:string ;
   skos:member <sphene-1> ;
   skos:prefLabel "sphene" ;
@@ -6540,6 +6655,7 @@
 .
 <sulfate>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring sulfate" ;
   rdfs:label "Sulfate"^^xsd:string ;
   skos:member <so4-1> ;
   skos:member <so4-2> ;
@@ -6550,6 +6666,7 @@
 .
 <sulfur>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring sulfur" ;
   rdfs:label "Sulfur"^^xsd:string ;
   skos:member <s-1> ;
   skos:member <s-10> ;
@@ -6566,6 +6683,7 @@
 .
 <talc>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring talc" ;
   rdfs:label "Talc"^^xsd:string ;
   skos:member <talc-1> ;
   skos:prefLabel "talc" ;
@@ -6622,6 +6740,7 @@
 .
 <titanium-dioxide>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring titanium-dioxide" ;
   rdfs:label "Titanium Dioxide"^^xsd:string ;
   skos:member <tio2-1> ;
   skos:member <tio2-2> ;
@@ -6631,6 +6750,7 @@
 .
 <tridymite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring tridymite" ;
   rdfs:label "Tridymite"^^xsd:string ;
   skos:member <tridymite-1> ;
   skos:prefLabel "tridymite" ;
@@ -6647,6 +6767,7 @@
 .
 <unidentified>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring unidentified" ;
   rdfs:label "Unidentified"^^xsd:string ;
   skos:member <unidentified-1> ;
   skos:prefLabel "unidentified" ;
@@ -6663,6 +6784,7 @@
 .
 <vermiculte>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring vermiculte" ;
   rdfs:label "Vermiculte"^^xsd:string ;
   skos:member <vermiculte-1> ;
   skos:prefLabel "vermiculte" ;
@@ -6679,6 +6801,7 @@
 .
 <water>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring water" ;
   rdfs:label "Water"^^xsd:string ;
   skos:member <h2o-1> ;
   skos:member <h2o-2> ;
@@ -6687,6 +6810,7 @@
 .
 <zeolite>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring zeolite" ;
   rdfs:label "Zeolite"^^xsd:string ;
   skos:member <zeolite-1> ;
   skos:prefLabel "zeolite" ;
@@ -6703,6 +6827,7 @@
 .
 <zinc>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring zinc" ;
   rdfs:label "Zinc"^^xsd:string ;
   skos:member <zn-1> ;
   skos:member <zn-2> ;
@@ -6714,6 +6839,7 @@
 .
 <zircon>
   rdf:type skos:Collection ;
+  dct:description "Collection of laboratory methods for measuring zircon" ;
   rdfs:label "Zircon"^^xsd:string ;
   skos:member <zircon-1> ;
   skos:prefLabel "zircon" ;
