@@ -7091,6 +7091,3 @@
       skos:notation "12B1_ZN" ;
       skos:prefLabel "12B1_ZN"@en .
 
-<http://registry.it.csiro.au/def/soils/lab-methods/>
-      rdf:type owl:Ontology ;
-      owl:imports <http://www.w3.org/2004/02/skos/core> .
