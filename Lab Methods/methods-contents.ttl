@@ -1177,7 +1177,7 @@
   skos:member <cec-9> ;
   skos:prefLabel "cec" ;
 .
-<cec---hosk-1>
+<cec-hosk-1>
   rdf:type skos:Concept ;
   dct:description "CEC - meq per 100g of soil - HOSK" ;
   qudt:unit eunit:MilliEquivalentPerHectoGram ;
