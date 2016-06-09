@@ -1,7 +1,6 @@
-# baseURI: http://resource.soilinformationstandards.org/classifier/aclep/soilsamplingmethod/
+# baseURI: http://www.anzsoil.org/def/au/soil/soil-sampling-method/
 # imports: http://purl.org/dc/elements/1.1/
 # imports: http://www.w3.org/2004/02/skos/core
-# prefix: sampling-type
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -9,11 +8,11 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdf123: <http://rdf123.umbc.edu/ns/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sampling-type: <http://resource.soilinformationstandards.org/classifier/aclep/soilsamplingmethod/> .
+@prefix sampling-method: <http://www.anzsoil.org/def/au/soil/soil-sampling-method/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-sampling-type:
+sampling-method:
   rdf:type owl:Ontology ;
   dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"^^xsd:string ;
   dct:created "2015-01-15"^^xsd:date ;
@@ -24,15 +23,18 @@ sampling-type:
   owl:imports dc: ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
 .
-sampling-type:augerboring
+sampling-method:auger-boring
   rdf:type skos:Concept ;
-  dct:description "x" ;
+  dct:description """An auger is a drilling device, or drill bit, that usually includes a rotating helical screw blade called a \"flighting\" to act as a screw conveyor to remove the drilled out material. The rotation of the blade causes the material to move out of the hole being drilled.
+An auger used for digging post holes is called an 'earth auger', 'handheld power earth drill', 'soil auger', or 'mechanized post hole digger'. This kind of auger can be a manually turned, handheld device, or powered by an electric motor or internal-combustion engine, possibly attached to a tractor (being provided with power by the tractor engine's power take-off as shown). Handheld augers can also be used for making holes for garden planting."""^^xsd:string ;
   rdfs:label "Auger boring" ;
-  skos:definition "x" ;
+  rdfs:seeAlso <https://en.wikipedia.org/wiki/Auger_(drill)> ;
+  skos:definition """An auger is a drilling device, or drill bit, that usually includes a rotating helical screw blade called a \"flighting\" to act as a screw conveyor to remove the drilled out material. The rotation of the blade causes the material to move out of the hole being drilled.
+An auger used for digging post holes is called an 'earth auger', 'handheld power earth drill', 'soil auger', or 'mechanized post hole digger'. This kind of auger can be a manually turned, handheld device, or powered by an electric motor or internal-combustion engine, possibly attached to a tractor (being provided with power by the tractor engine's power take-off as shown). Handheld augers can also be used for making holes for garden planting."""^^xsd:string ;
   skos:notation "A" ;
   skos:prefLabel "Auger boring"@en ;
 .
-sampling-type:existingverticalexposure
+sampling-method:existing-vertical-exposure
   rdf:type skos:Concept ;
   dct:description "x" ;
   rdfs:label "Existing vertical exposure" ;
@@ -40,7 +42,7 @@ sampling-type:existingverticalexposure
   skos:notation "E" ;
   skos:prefLabel "Existing vertical exposure"@en ;
 .
-sampling-type:outcrop
+sampling-method:outcrop
   rdf:type skos:Concept ;
   dct:description "x" ;
   rdfs:label "Outcrop" ;
@@ -48,7 +50,15 @@ sampling-type:outcrop
   skos:notation "O" ;
   skos:prefLabel "Outcrop"@en ;
 .
-sampling-type:soilpit
+sampling-method:relatively-undisturbed-soil-core
+  rdf:type skos:Concept ;
+  dct:description "x"^^xsd:string ;
+  rdfs:label "Relatively undisturbed soil core"^^xsd:string ;
+  skos:definition "x"^^xsd:string ;
+  skos:notation "C"^^xsd:string ;
+  skos:prefLabel "Relatively undisturbed soil core"^^xsd:string ;
+.
+sampling-method:soil-pit
   rdf:type skos:Concept ;
   dct:description "x" ;
   rdfs:label "Soil pit" ;
@@ -56,7 +66,7 @@ sampling-type:soilpit
   skos:notation "P" ;
   skos:prefLabel "Soil pit"@en ;
 .
-sampling-type:undisturbedsoilcore
+sampling-method:undisturbed-soil-core
   rdf:type skos:Concept ;
   dct:description "x" ;
   rdfs:label "Undisturbed soil core" ;
