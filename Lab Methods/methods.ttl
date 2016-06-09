@@ -1,11 +1,11 @@
-# baseURI: http://registry.it.csiro.au/def/soils/lab-methods
+# baseURI: http://www.anzsoil.org/def/au/soil/lab-method
 # imports: http://environment.data.gov.au/def/op
 # imports: http://purl.org/dc/elements/1.1/
 # imports: http://qudt.org/1.1/schema/qudt
 # imports: http://www.w3.org/2004/02/skos/core
 
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix method: <http://registry.it.csiro.au/def/soils/lab-methods/> .
+@prefix lab-method: <http://www.anzsoil.org/def/au/soil/lab-method/> .
 @prefix op: <http://environment.data.gov.au/def/op#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix qudt: <http://qudt.org/schema/qudt#> .
@@ -15,14 +15,14 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://registry.it.csiro.au/def/soils/lab-methods>
+<http://www.anzsoil.org/def/au/soil/lab-method>
   rdf:type owl:Ontology ;
   owl:imports <http://environment.data.gov.au/def/op> ;
   owl:imports <http://purl.org/dc/elements/1.1/> ;
   owl:imports <http://qudt.org/1.1/schema/qudt> ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/10A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/10A1>
   rdf:type skos:Concept ;
   dct:description "Total sulfur - X-ray fluorescence" ;
   dct:title "10A1" ;
@@ -33,7 +33,7 @@
   skos:note "%" ;
   skos:prefLabel "10A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/10A_HFplus>
+<http://www.anzsoil.org/def/au/soil/lab-method/10A_HFplus>
   rdf:type skos:Concept ;
   dct:description "Total element - S(%) - HF/HCl04 Digest" ;
   dct:title "10A_HF+" ;
@@ -44,7 +44,7 @@
   skos:note "%" ;
   skos:prefLabel "10A_HF+"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/10A_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/10A_NR>
   rdf:type skos:Concept ;
   dct:description "Total element - S(%) - Not recorded" ;
   dct:title "10A_NR" ;
@@ -55,7 +55,7 @@
   skos:note "%" ;
   skos:prefLabel "10A_NR"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/10B>
+<http://www.anzsoil.org/def/au/soil/lab-method/10B>
   rdf:type skos:Concept ;
   dct:description "Extractable sulfur(mg/kg) - Phosphate extractable sulfur" ;
   dct:title "10B" ;
@@ -66,7 +66,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "10B"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/10B1>
+<http://www.anzsoil.org/def/au/soil/lab-method/10B1>
   rdf:type skos:Concept ;
   dct:description "Calcium phosphate-extractable sulfur - manual distillation" ;
   dct:title "10B1" ;
@@ -77,7 +77,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "10B1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/10B2>
+<http://www.anzsoil.org/def/au/soil/lab-method/10B2>
   rdf:type skos:Concept ;
   dct:description "Calcium phosphate-extractable sulfur - automated distillation" ;
   dct:title "10B2" ;
@@ -88,7 +88,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "10B2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/10B3>
+<http://www.anzsoil.org/def/au/soil/lab-method/10B3>
   rdf:type skos:Concept ;
   dct:description "Calcium phosphate-extractable sulfur - ICPAES" ;
   dct:title "10B3" ;
@@ -99,7 +99,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "10B3"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/10B_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/10B_NR>
   rdf:type skos:Concept ;
   dct:description "Extractable sulfur(mg/kg) - Not recorded" ;
   dct:title "10B_NR" ;
@@ -110,7 +110,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "10B_NR"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/10C2>
+<http://www.anzsoil.org/def/au/soil/lab-method/10C2>
   rdf:type skos:Concept ;
   dct:description "0.25M KCl at 40 degrees celcius" ;
   dct:title "10C2" ;
@@ -121,7 +121,7 @@
   skos:note "%" ;
   skos:prefLabel "10C2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/10_BC>
+<http://www.anzsoil.org/def/au/soil/lab-method/10_BC>
   rdf:type skos:Concept ;
   dct:description "Bicarbonate-extractable sulfur. Keay, Menage and Dean (1972)" ;
   dct:title "10_BC" ;
@@ -132,7 +132,7 @@
   skos:note "?" ;
   skos:prefLabel "10_BC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/10_HCL>
+<http://www.anzsoil.org/def/au/soil/lab-method/10_HCL>
   rdf:type skos:Concept ;
   dct:description "Total element - S(%) - By boiling HCl" ;
   dct:title "10_HCL" ;
@@ -143,7 +143,7 @@
   skos:note "%" ;
   skos:prefLabel "10_HCL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/11A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/11A1>
   rdf:type skos:Concept ;
   dct:description "Total gypsum" ;
   dct:title "11A1" ;
@@ -154,7 +154,7 @@
   skos:note "%" ;
   skos:prefLabel "11A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12A1_AL>
+<http://www.anzsoil.org/def/au/soil/lab-method/12A1_AL>
   rdf:type skos:Concept ;
   dct:description "DTPA - extractable copper, zinc, manganese,aluminium and iron" ;
   dct:title "12A1_AL" ;
@@ -165,7 +165,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12A1_AL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12A1_CU>
+<http://www.anzsoil.org/def/au/soil/lab-method/12A1_CU>
   rdf:type skos:Concept ;
   dct:description "DTPA - extractable copper, zinc, manganese and iron" ;
   dct:title "12A1_CU" ;
@@ -176,7 +176,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12A1_CU"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12A1_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/12A1_FE>
   rdf:type skos:Concept ;
   dct:description "DTPA - extractable copper, zinc, manganese and iron" ;
   dct:title "12A1_FE" ;
@@ -187,7 +187,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12A1_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12A1_MN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12A1_MN>
   rdf:type skos:Concept ;
   dct:description "DTPA - extractable copper, zinc, manganese and iron" ;
   dct:title "12A1_MN" ;
@@ -198,7 +198,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12A1_MN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12A1_ZN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12A1_ZN>
   rdf:type skos:Concept ;
   op:objectOfInterest <http://registry.it.csiro.au/def/environment/object/zinc> ;
   op:propertyKind <http://registry.it.csiro.au/def/environment/property/zinc_concentration> ;
@@ -212,7 +212,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12A1_ZN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12B1_CU>
+<http://www.anzsoil.org/def/au/soil/lab-method/12B1_CU>
   rdf:type skos:Concept ;
   dct:description "Ammonium bicarbonate/EDTA - extractable copper" ;
   dct:title "12B1_CU" ;
@@ -223,7 +223,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12B1_CU"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12B1_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/12B1_FE>
   rdf:type skos:Concept ;
   dct:description "Ammonium bicarbonate/EDTA - extractable Iron" ;
   dct:title "12B1_FE" ;
@@ -234,7 +234,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12B1_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12B1_MN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12B1_MN>
   rdf:type skos:Concept ;
   dct:description "Ammonium bicarbonate/EDTA - extractable manganese" ;
   dct:title "12B1_MN" ;
@@ -245,7 +245,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12B1_MN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12B1_ZN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12B1_ZN>
   rdf:type skos:Concept ;
   dct:description "Ammonium bicarbonate/EDTA - extractable zinc" ;
   dct:title "12B1_ZN" ;
@@ -256,7 +256,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12B1_ZN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12C1>
+<http://www.anzsoil.org/def/au/soil/lab-method/12C1>
   rdf:type skos:Concept ;
   dct:description "Calcium chloride extractable boron - manual colour" ;
   dct:title "12C1" ;
@@ -267,7 +267,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12C1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12C2>
+<http://www.anzsoil.org/def/au/soil/lab-method/12C2>
   rdf:type skos:Concept ;
   dct:description "Calcium chloride extractable boron - ICPAES" ;
   dct:title "12C2" ;
@@ -278,7 +278,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12C2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_HCL_CU>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_HCL_CU>
   rdf:type skos:Concept ;
   dct:description "Total element - Cu(mg/kg) - Total acid(HCl)" ;
   dct:title "12_HCL_CU" ;
@@ -289,7 +289,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_HCL_CU"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_HCL_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_HCL_FE>
   rdf:type skos:Concept ;
   dct:description "Total element - Fe(%) - Total acid(HCl) extractable Fe" ;
   dct:title "12_HCL_FE" ;
@@ -300,7 +300,7 @@
   skos:note "%" ;
   skos:prefLabel "12_HCL_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_HCL_FEO>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_HCL_FEO>
   rdf:type skos:Concept ;
   dct:description "Total element - Fe(%) - Total acid(HCl) extractable Fe2O3" ;
   dct:title "12_HCL_FEO" ;
@@ -311,7 +311,7 @@
   skos:note "%" ;
   skos:prefLabel "12_HCL_FEO"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_HCL_MN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_HCL_MN>
   rdf:type skos:Concept ;
   dct:description "Total element - Mn(mg/kg) - Total acid(HCl)" ;
   dct:title "12_HCL_MN" ;
@@ -322,7 +322,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_HCL_MN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_HCL_ZN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_HCL_ZN>
   rdf:type skos:Concept ;
   dct:description "Total element - Zn(mg/kg) - Total acid(HCl)" ;
   dct:title "12_HCL_ZN" ;
@@ -333,7 +333,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_HCL_ZN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_HF_CU>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_HF_CU>
   rdf:type skos:Concept ;
   dct:description "Total element - Cu(mg/kg) - HF/HClO4 Digest" ;
   dct:title "12_HF_CU" ;
@@ -344,7 +344,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_HF_CU"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_HF_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_HF_FE>
   rdf:type skos:Concept ;
   dct:description "Total element - Fe(%) - HF/HClO4 Digest" ;
   dct:title "12_HF_FE" ;
@@ -355,7 +355,7 @@
   skos:note "%" ;
   skos:prefLabel "12_HF_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_HF_MN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_HF_MN>
   rdf:type skos:Concept ;
   dct:description "Total element - Mn(mg/kg) - HF/HClO4 Digest" ;
   dct:title "12_HF_MN" ;
@@ -366,7 +366,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_HF_MN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_HF_ZN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_HF_ZN>
   rdf:type skos:Concept ;
   dct:description "Total element - Zn(mg/kg) - HF/HClO4 Digest" ;
   dct:title "12_HF_ZN" ;
@@ -377,7 +377,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_HF_ZN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_HFplus_FEO>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_HFplus_FEO>
   rdf:type skos:Concept ;
   dct:description "Total element - Fe(%) - HF/HClO4 Digest(Fe2O3)" ;
   dct:title "12_HF+_FEO" ;
@@ -388,7 +388,7 @@
   skos:note "%" ;
   skos:prefLabel "12_HF+_FEO"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_NR_CU>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_NR_CU>
   rdf:type skos:Concept ;
   dct:description "Total element - Cu(mg/kg) - Not recorded" ;
   dct:title "12_NR_CU" ;
@@ -399,7 +399,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_NR_CU"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_NR_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_NR_FE>
   rdf:type skos:Concept ;
   dct:description "Total element - Fe(%) - Not recorded" ;
   dct:title "12_NR_FE" ;
@@ -410,7 +410,7 @@
   skos:note "%" ;
   skos:prefLabel "12_NR_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_NR_MN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_NR_MN>
   rdf:type skos:Concept ;
   dct:description "Total element - Mn(mg/kg) - Not recorded" ;
   dct:title "12_NR_MN" ;
@@ -421,7 +421,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_NR_MN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_NR_ZN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_NR_ZN>
   rdf:type skos:Concept ;
   dct:description "Total element - Zn(mg/kg) - Not recorded" ;
   dct:title "12_NR_ZN" ;
@@ -432,7 +432,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_NR_ZN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_XRF_CU>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_XRF_CU>
   rdf:type skos:Concept ;
   dct:description "Total element - Cu(mg/kg) - X-Ray Fuoresence" ;
   dct:title "12_XRF_CU" ;
@@ -443,7 +443,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_XRF_CU"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_XRF_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_XRF_FE>
   rdf:type skos:Concept ;
   dct:description "Total element - Fe(%) - X-Ray Fuoresence" ;
   dct:title "12_XRF_FE" ;
@@ -454,7 +454,7 @@
   skos:note "%" ;
   skos:prefLabel "12_XRF_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_XRF_FEO>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_XRF_FEO>
   rdf:type skos:Concept ;
   dct:description "Total element - Fe(%) - X-Ray Fuoresence(Fe2O3)" ;
   dct:title "12_XRF_FEO" ;
@@ -465,7 +465,7 @@
   skos:note "%" ;
   skos:prefLabel "12_XRF_FEO"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_XRF_MN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_XRF_MN>
   rdf:type skos:Concept ;
   dct:description "Total element - Mn(mg/kg) - X-Ray Fuoresence" ;
   dct:title "12_XRF_MN" ;
@@ -476,7 +476,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_XRF_MN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/12_XRF_ZN>
+<http://www.anzsoil.org/def/au/soil/lab-method/12_XRF_ZN>
   rdf:type skos:Concept ;
   dct:description "Total element - Zn(mg/kg) - X-Ray Fuoresence" ;
   dct:title "12_XRF_ZN" ;
@@ -487,7 +487,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "12_XRF_ZN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13A1_AL>
+<http://www.anzsoil.org/def/au/soil/lab-method/13A1_AL>
   rdf:type skos:Concept ;
   dct:description "Oxalate-extractable aluminium" ;
   dct:title "13A1_AL" ;
@@ -498,7 +498,7 @@
   skos:note "%" ;
   skos:prefLabel "13A1_AL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13A1_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/13A1_FE>
   rdf:type skos:Concept ;
   dct:description "Oxalate-extractable iron" ;
   dct:title "13A1_FE" ;
@@ -509,7 +509,7 @@
   skos:note "%" ;
   skos:prefLabel "13A1_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13A1_MN>
+<http://www.anzsoil.org/def/au/soil/lab-method/13A1_MN>
   rdf:type skos:Concept ;
   dct:description "Oxalate-extractable manganese" ;
   dct:title "13A1_MN" ;
@@ -520,7 +520,7 @@
   skos:note "%" ;
   skos:prefLabel "13A1_MN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13A1_SI>
+<http://www.anzsoil.org/def/au/soil/lab-method/13A1_SI>
   rdf:type skos:Concept ;
   dct:description "Oxalate-extractable silicon" ;
   dct:title "13A1_SI" ;
@@ -531,7 +531,7 @@
   skos:note "%" ;
   skos:prefLabel "13A1_SI"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13B1_AL>
+<http://www.anzsoil.org/def/au/soil/lab-method/13B1_AL>
   rdf:type skos:Concept ;
   dct:description "Pyrophosphate-extractable aluminium" ;
   dct:title "13B1_AL" ;
@@ -542,7 +542,7 @@
   skos:note "%" ;
   skos:prefLabel "13B1_AL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13B1_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/13B1_FE>
   rdf:type skos:Concept ;
   dct:description "Pyrophosphate-extractable iron" ;
   dct:title "13B1_FE" ;
@@ -553,7 +553,7 @@
   skos:note "%" ;
   skos:prefLabel "13B1_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13C1_AL>
+<http://www.anzsoil.org/def/au/soil/lab-method/13C1_AL>
   rdf:type skos:Concept ;
   dct:description "Citrate/dithionite-extractable iron, aluminium, Manganese and Silicon" ;
   dct:title "13C1_AL" ;
@@ -564,7 +564,7 @@
   skos:note "%" ;
   skos:prefLabel "13C1_AL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13C1_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/13C1_FE>
   rdf:type skos:Concept ;
   dct:description "Citrate/dithionite-extractable iron, aluminium, Manganese and Silicon" ;
   dct:title "13C1_FE" ;
@@ -575,7 +575,7 @@
   skos:note "%" ;
   skos:prefLabel "13C1_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13C1_FE203>
+<http://www.anzsoil.org/def/au/soil/lab-method/13C1_FE203>
   rdf:type skos:Concept ;
   dct:description "Extractable Fe(Free) % - Citrate/Dithionite Extractable Fe2O3" ;
   dct:title "13C1_FE203" ;
@@ -586,7 +586,7 @@
   skos:note "%" ;
   skos:prefLabel "13C1_FE203"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13C1_MN>
+<http://www.anzsoil.org/def/au/soil/lab-method/13C1_MN>
   rdf:type skos:Concept ;
   dct:description "Citrate/dithionite-extractable iron, aluminium, Manganese and Silicon" ;
   dct:title "13C1_MN" ;
@@ -597,7 +597,7 @@
   skos:note "%" ;
   skos:prefLabel "13C1_MN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13C1_SI>
+<http://www.anzsoil.org/def/au/soil/lab-method/13C1_SI>
   rdf:type skos:Concept ;
   dct:description "Citrate/dithionite-extractable iron, aluminium, Manganese and Silicon" ;
   dct:title "13C1_SI" ;
@@ -608,7 +608,7 @@
   skos:note "%" ;
   skos:prefLabel "13C1_SI"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13C_C_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/13C_C_FE>
   rdf:type skos:Concept ;
   dct:description "Extractable Fe(Free) % - Method recorded as C" ;
   dct:title "13C_C_FE" ;
@@ -619,7 +619,7 @@
   skos:note "%" ;
   skos:prefLabel "13C_C_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13_C_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/13_C_FE>
   rdf:type skos:Concept ;
   dct:description "Extractable Fe(%) - Method recorded as C" ;
   dct:title "13_C_FE" ;
@@ -630,7 +630,7 @@
   skos:note "%" ;
   skos:prefLabel "13_C_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13_NR_AL>
+<http://www.anzsoil.org/def/au/soil/lab-method/13_NR_AL>
   rdf:type skos:Concept ;
   dct:description "Extractable Al(%) - Not recorded" ;
   dct:title "13_NR_AL" ;
@@ -641,7 +641,7 @@
   skos:note "%" ;
   skos:prefLabel "13_NR_AL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13_NR_FE>
+<http://www.anzsoil.org/def/au/soil/lab-method/13_NR_FE>
   rdf:type skos:Concept ;
   dct:description "Extractable Fe(%) - Not recorded" ;
   dct:title "13_NR_FE" ;
@@ -652,7 +652,7 @@
   skos:note "%" ;
   skos:prefLabel "13_NR_FE"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/13_NR_MN>
+<http://www.anzsoil.org/def/au/soil/lab-method/13_NR_MN>
   rdf:type skos:Concept ;
   dct:description "Extractable Mn(%) - Not recorded" ;
   dct:title "13_NR_MN" ;
@@ -663,7 +663,7 @@
   skos:note "%" ;
   skos:prefLabel "13_NR_MN"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/1400>
+<http://www.anzsoil.org/def/au/soil/lab-method/1400>
   rdf:type skos:Concept ;
   dct:description "Chloride/SE - ion chromatography" ;
   dct:title "1400.0" ;
@@ -674,7 +674,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "1400"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14000>
+<http://www.anzsoil.org/def/au/soil/lab-method/14000>
   rdf:type skos:Concept ;
   dct:description "Chloride/SE - automated colour" ;
   dct:title "14000.0" ;
@@ -685,7 +685,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14000"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/14A1>
   rdf:type skos:Concept ;
   dct:description "Saturation extract - filter suction" ;
   dct:title "14A1" ;
@@ -696,7 +696,7 @@
   skos:note "-" ;
   skos:prefLabel "14A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14A2>
+<http://www.anzsoil.org/def/au/soil/lab-method/14A2>
   rdf:type skos:Concept ;
   dct:description "Saturation extract - automatic extractor" ;
   dct:title "14A2" ;
@@ -707,7 +707,7 @@
   skos:note "-" ;
   skos:prefLabel "14A2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14A3>
+<http://www.anzsoil.org/def/au/soil/lab-method/14A3>
   rdf:type skos:Concept ;
   dct:description "Saturation extract - centrifuge, closed system" ;
   dct:title "14A3" ;
@@ -718,7 +718,7 @@
   skos:note "-" ;
   skos:prefLabel "14A3"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14A4>
+<http://www.anzsoil.org/def/au/soil/lab-method/14A4>
   rdf:type skos:Concept ;
   dct:description "Saturation extract - centrifuge, Gillman" ;
   dct:title "14A4" ;
@@ -729,7 +729,7 @@
   skos:note "-" ;
   skos:prefLabel "14A4"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14B1>
+<http://www.anzsoil.org/def/au/soil/lab-method/14B1>
   rdf:type skos:Concept ;
   dct:description "Electrical conductivity/SE" ;
   dct:title "14B1" ;
@@ -740,7 +740,7 @@
   skos:note "dS/m" ;
   skos:prefLabel "14B1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14C1>
+<http://www.anzsoil.org/def/au/soil/lab-method/14C1>
   rdf:type skos:Concept ;
   dct:description "pH/SE" ;
   dct:title "14C1" ;
@@ -751,7 +751,7 @@
   skos:note "-" ;
   skos:prefLabel "14C1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14D1_BC>
+<http://www.anzsoil.org/def/au/soil/lab-method/14D1_BC>
   rdf:type skos:Concept ;
   dct:description "Bicarbonate/SE and carbonate/SE - potentiometric titration" ;
   dct:title "14D1_BC" ;
@@ -762,7 +762,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14D1_BC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14D1_C>
+<http://www.anzsoil.org/def/au/soil/lab-method/14D1_C>
   rdf:type skos:Concept ;
   dct:description "Bicarbonate/SE and carbonate/SE - potentiometric titration" ;
   dct:title "14D1_C" ;
@@ -773,7 +773,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14D1_C"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14D2_BC>
+<http://www.anzsoil.org/def/au/soil/lab-method/14D2_BC>
   rdf:type skos:Concept ;
   dct:description "Bicarbonate/SE and carbonate/SE - indicator method" ;
   dct:title "14D2_BC" ;
@@ -784,7 +784,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14D2_BC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14D2_C>
+<http://www.anzsoil.org/def/au/soil/lab-method/14D2_C>
   rdf:type skos:Concept ;
   dct:description "Bicarbonate/SE and carbonate/SE - indicator method" ;
   dct:title "14D2_C" ;
@@ -795,7 +795,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14D2_C"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14F1>
+<http://www.anzsoil.org/def/au/soil/lab-method/14F1>
   rdf:type skos:Concept ;
   dct:description "Sulfate/SE - ICPAES" ;
   dct:title "14F1" ;
@@ -806,7 +806,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14F1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14F2>
+<http://www.anzsoil.org/def/au/soil/lab-method/14F2>
   rdf:type skos:Concept ;
   dct:description "Sulfate/SE - turbidimetric" ;
   dct:title "14F2" ;
@@ -817,7 +817,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14F2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14F3>
+<http://www.anzsoil.org/def/au/soil/lab-method/14F3>
   rdf:type skos:Concept ;
   dct:description "Sulfate/SE - gravimetric" ;
   dct:title "14F3" ;
@@ -828,7 +828,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14F3"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14F4>
+<http://www.anzsoil.org/def/au/soil/lab-method/14F4>
   rdf:type skos:Concept ;
   dct:description "Sulfate/SE - automated colour" ;
   dct:title "14F4" ;
@@ -839,7 +839,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14F4"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14F5>
+<http://www.anzsoil.org/def/au/soil/lab-method/14F5>
   rdf:type skos:Concept ;
   dct:description "Sulfate/SE - ion chromatography" ;
   dct:title "14F5" ;
@@ -850,7 +850,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14F5"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14G1>
+<http://www.anzsoil.org/def/au/soil/lab-method/14G1>
   rdf:type skos:Concept ;
   dct:description "Fluoride/SE - specific ion electrode" ;
   dct:title "14G1" ;
@@ -861,7 +861,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14G1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14G2>
+<http://www.anzsoil.org/def/au/soil/lab-method/14G2>
   rdf:type skos:Concept ;
   dct:description "Fluoride/SE - ion chromatography" ;
   dct:title "14G2" ;
@@ -872,7 +872,7 @@
   skos:note "mequiv/L" ;
   skos:prefLabel "14G2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14H1_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/14H1_CA>
   rdf:type skos:Concept ;
   dct:description "Soluble bases/SE (Ca,Mg,K,Na)" ;
   dct:title "14H1_CA" ;
@@ -883,7 +883,7 @@
   skos:note "mg/L" ;
   skos:prefLabel "14H1_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14H1_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/14H1_K>
   rdf:type skos:Concept ;
   dct:description "Soluble bases/SE (Ca,Mg,K,Na)" ;
   dct:title "14H1_K" ;
@@ -894,7 +894,7 @@
   skos:note "mg/L" ;
   skos:prefLabel "14H1_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14H1_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/14H1_MG>
   rdf:type skos:Concept ;
   dct:description "Soluble bases/SE (Ca,Mg,K,Na)" ;
   dct:title "14H1_MG" ;
@@ -905,7 +905,7 @@
   skos:note "mg/L" ;
   skos:prefLabel "14H1_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/14H1_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/14H1_NA>
   rdf:type skos:Concept ;
   dct:description "Soluble bases/SE (Ca,Mg,K,Na)" ;
   dct:title "14H1_NA" ;
@@ -916,7 +916,7 @@
   skos:note "mg/L" ;
   skos:prefLabel "14H1_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A1_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A1_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   dct:title "15A1_CA" ;
@@ -927,7 +927,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A1_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A1_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A1_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   dct:title "15A1_K" ;
@@ -938,7 +938,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A1_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A1_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A1_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   dct:title "15A1_MG" ;
@@ -949,7 +949,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A1_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A1_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A1_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   dct:title "15A1_NA" ;
@@ -960,7 +960,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A1_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A2_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A2_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   dct:title "15A2_CA" ;
@@ -971,7 +971,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A2_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A2_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A2_CEC>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases- 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   dct:title "15A2_CEC" ;
@@ -982,7 +982,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A2_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A2_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A2_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases- 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   dct:title "15A2_K" ;
@@ -993,7 +993,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A2_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A2_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A2_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases- 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   dct:title "15A2_MG" ;
@@ -1004,7 +1004,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A2_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A2_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A2_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases- 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   dct:title "15A2_NA" ;
@@ -1015,7 +1015,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A2_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A3_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A3_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium chloride at pH 7.0, adjusted for soluble sodium" ;
   dct:title "15A3_CA" ;
@@ -1026,7 +1026,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A3_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A3_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A3_CEC>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases- 1M ammonium chloride at pH 7.0, adjusted for soluble sodium" ;
   dct:title "15A3_CEC" ;
@@ -1037,7 +1037,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A3_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A3_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A3_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases- 1M ammonium chloride at pH 7.0, adjusted for soluble sodium" ;
   dct:title "15A3_K" ;
@@ -1048,7 +1048,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A3_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A3_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A3_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases- 1M ammonium chloride at pH 7.0, adjusted for soluble sodium" ;
   dct:title "15A3_MG" ;
@@ -1059,7 +1059,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A3_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15A3_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15A3_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases- 1M ammonium chloride at pH 7.0, adjusted for soluble sodium" ;
   dct:title "15A3_NA" ;
@@ -1070,7 +1070,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15A3_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B1_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B1_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   dct:title "15B1_CA" ;
@@ -1081,7 +1081,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B1_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B1_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B1_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   dct:title "15B1_CEC" ;
@@ -1092,7 +1092,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B1_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B1_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B1_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   dct:title "15B1_K" ;
@@ -1103,7 +1103,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B1_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B1_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B1_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   dct:title "15B1_MG" ;
@@ -1114,7 +1114,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B1_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B1_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B1_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salts" ;
   dct:title "15B1_NA" ;
@@ -1125,7 +1125,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B1_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B2_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B2_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   dct:title "15B2_CA" ;
@@ -1136,7 +1136,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B2_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B2_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B2_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC - 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   dct:title "15B2_CEC" ;
@@ -1147,7 +1147,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B2_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B2_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B2_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   dct:title "15B2_K" ;
@@ -1158,7 +1158,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B2_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B2_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B2_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   dct:title "15B2_MG" ;
@@ -1169,7 +1169,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B2_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B2_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B2_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium chloride at pH 7.0, pretreatment for soluble salts" ;
   dct:title "15B2_NA" ;
@@ -1180,7 +1180,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B2_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B3_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B3_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium chloride at pH 7.0, adjusted for soluble sodium" ;
   dct:title "15B3_CA" ;
@@ -1191,7 +1191,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B3_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B3_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B3_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC - 1M ammonium chloride at pH 7.0, adjusted for soluble sodium" ;
   dct:title "15B3_CEC" ;
@@ -1202,7 +1202,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B3_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B3_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B3_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium chloride at pH 7.0, adjusted for soluble sodium" ;
   dct:title "15B3_K" ;
@@ -1213,7 +1213,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B3_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B3_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B3_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium chloride at pH 7.0, adjusted for soluble sodium" ;
   dct:title "15B3_MG" ;
@@ -1224,7 +1224,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B3_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15B3_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15B3_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium chloride at pH 7.0, adjusted for soluble sodium" ;
   dct:title "15B3_NA" ;
@@ -1235,7 +1235,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15B3_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15C1_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15C1_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - alcoholic 1M ammonium chloride at pH 8.5, pretreatment for soluble salts" ;
   dct:title "15C1_CA" ;
@@ -1246,7 +1246,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15C1_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15C1_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15C1_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC - alcoholic 1M ammonium chloride at pH 8.5, pretreatment for soluble salts" ;
   dct:title "15C1_CEC" ;
@@ -1257,7 +1257,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15C1_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15C1_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15C1_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - alcoholic 1M ammonium chloride at pH 8.5, pretreatment for soluble salts" ;
   dct:title "15C1_K" ;
@@ -1268,7 +1268,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15C1_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15C1_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15C1_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - alcoholic 1M ammonium chloride at pH 8.5, pretreatment for soluble salts" ;
   dct:title "15C1_MG" ;
@@ -1279,7 +1279,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15C1_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15C1_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15C1_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - alcoholic 1M ammonium chloride at pH 8.5, pretreatment for soluble salts" ;
   dct:title "15C1_NA" ;
@@ -1290,7 +1290,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15C1_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D1_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D1_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium acetate at pH 7.0, pretreatment for soluble salts; manual leach" ;
   dct:title "15D1_CA" ;
@@ -1301,7 +1301,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D1_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D1_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D1_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC - 1M ammonium acetate at pH 7.0, pretreatment for soluble salts; manual leach" ;
   dct:title "15D1_CEC" ;
@@ -1312,7 +1312,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D1_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D1_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D1_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium acetate at pH 7.0, pretreatment for soluble salts; manual leach" ;
   dct:title "15D1_K" ;
@@ -1323,7 +1323,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D1_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D1_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D1_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium acetate at pH 7.0, pretreatment for soluble salts; manual leach" ;
   dct:title "15D1_MG" ;
@@ -1334,7 +1334,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D1_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D1_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D1_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium acetate at pH 7.0, pretreatment for soluble salts; manual leach" ;
   dct:title "15D1_NA" ;
@@ -1345,7 +1345,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D1_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D2_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D2_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium acetate at pH 7.0, pretreatment for soluble salts; automatic extractor" ;
   dct:title "15D2_CA" ;
@@ -1356,7 +1356,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D2_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D2_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D2_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC - 1M ammonium acetate at pH 7.0, pretreatment for soluble salts; automatic extractor" ;
   dct:title "15D2_CEC" ;
@@ -1367,7 +1367,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D2_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D2_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D2_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium acetate at pH 7.0, pretreatment for soluble salts; mautomatic" ;
   dct:title "15D2_K" ;
@@ -1378,7 +1378,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D2_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D2_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D2_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium acetate at pH 7.0, pretreatment for soluble salts; mautomatic" ;
   dct:title "15D2_MG" ;
@@ -1389,7 +1389,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D2_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D2_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D2_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC - 1M ammonium acetate at pH 7.0, pretreatment for soluble salts; mautomatic" ;
   dct:title "15D2_NA" ;
@@ -1400,7 +1400,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D2_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D3_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D3_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) - 1M ammonium acetate at pH 7.0, rapid method with no pretreatment for soluble salts" ;
   dct:title "15D3_CA" ;
@@ -1411,7 +1411,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D3_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D3_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D3_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases - 1M ammonium acetate at pH 7.0, rapid method with no pretreatment for soluble salts" ;
   dct:title "15D3_K" ;
@@ -1422,7 +1422,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D3_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D3_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D3_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases - 1M ammonium acetate at pH 7.0, rapid method with no pretreatment for soluble salts" ;
   dct:title "15D3_MG" ;
@@ -1433,7 +1433,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D3_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15D3_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15D3_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases - 1M ammonium acetate at pH 7.0, rapid method with no pretreatment for soluble salts" ;
   dct:title "15D3_NA" ;
@@ -1444,7 +1444,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15D3_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E1_AEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E1_AEC>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases , CEC and AEC by compulsive exchange, no pretreatment for soluble salts" ;
   dct:title "15E1_AEC" ;
@@ -1455,7 +1455,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E1_AEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E1_AL>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E1_AL>
   rdf:type skos:Concept ;
   dct:description "Exchangeable Al - by compulsive exchange, no pretreatment for soluble salts" ;
   dct:title "15E1_AL" ;
@@ -1466,7 +1466,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E1_AL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E1_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E1_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) by compulsive exchange, no pretreatment for soluble salts" ;
   dct:title "15E1_CA" ;
@@ -1477,7 +1477,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E1_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E1_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E1_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC by compulsive exchange, no pretreatment for soluble salts" ;
   dct:title "15E1_CEC" ;
@@ -1488,7 +1488,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E1_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E1_H>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E1_H>
   rdf:type skos:Concept ;
   dct:description "Exchangeable H - by compulsive exchange, no pretreatment for soluble salts" ;
   dct:title "15E1_H" ;
@@ -1499,7 +1499,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E1_H"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E1_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E1_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, no pretreatment for soluble salts" ;
   dct:title "15E1_K" ;
@@ -1510,7 +1510,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E1_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E1_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E1_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, no pretreatment for soluble salts" ;
   dct:title "15E1_MG" ;
@@ -1521,7 +1521,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E1_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E1_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E1_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, no pretreatment for soluble salts" ;
   dct:title "15E1_NA" ;
@@ -1532,7 +1532,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E1_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E2_AEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E2_AEC>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, pretreatment for soluble salts" ;
   dct:title "15E2_AEC" ;
@@ -1543,7 +1543,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E2_AEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E2_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E2_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) by compulsive exchange, pretreatment for soluble salts" ;
   dct:title "15E2_CA" ;
@@ -1554,7 +1554,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E2_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E2_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E2_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC by compulsive exchange, pretreatment for soluble salts" ;
   dct:title "15E2_CEC" ;
@@ -1565,7 +1565,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E2_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E2_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E2_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, pretreatment for soluble salts" ;
   dct:title "15E2_K" ;
@@ -1576,7 +1576,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E2_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E2_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E2_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, pretreatment for soluble salts" ;
   dct:title "15E2_MG" ;
@@ -1587,7 +1587,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E2_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E2_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E2_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, pretreatment for soluble salts" ;
   dct:title "15E2_NA" ;
@@ -1598,7 +1598,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E2_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E3_AEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E3_AEC>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble sodium" ;
   dct:title "15E3_AEC" ;
@@ -1609,7 +1609,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E3_AEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E3_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E3_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+,Mg2+,Na+,K+) by compulsive exchange, adjusted for soluble sodium" ;
   dct:title "15E3_CA" ;
@@ -1620,7 +1620,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E3_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E3_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E3_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC by compulsive exchange, adjusted for soluble sodium" ;
   dct:title "15E3_CEC" ;
@@ -1631,7 +1631,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E3_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E3_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E3_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble sodium" ;
   dct:title "15E3_K" ;
@@ -1642,7 +1642,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E3_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E3_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E3_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble sodium" ;
   dct:title "15E3_MG" ;
@@ -1653,7 +1653,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E3_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15E3_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15E3_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble sodium" ;
   dct:title "15E3_NA" ;
@@ -1664,7 +1664,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15E3_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15F1_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15F1_CA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases by 0.01M silver-thiourea (AgTU)+, no pretreatment for soluble salts" ;
   dct:title "15F1_CA" ;
@@ -1675,7 +1675,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15F1_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15F1_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15F1_CEC>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases by 0.01m (AgTU)+, no pretreatment for soluble salts" ;
   dct:title "15F1_CEC" ;
@@ -1686,7 +1686,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15F1_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15F1_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15F1_K>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases by 0.01m (AgTU)+, no pretreatment for soluble salts" ;
   dct:title "15F1_K" ;
@@ -1697,7 +1697,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15F1_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15F1_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15F1_MG>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases by 0.01m (AgTU)+, no pretreatment for soluble salts" ;
   dct:title "15F1_MG" ;
@@ -1708,7 +1708,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15F1_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15F1_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15F1_NA>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases by 0.01m (AgTU)+, no pretreatment for soluble salts" ;
   dct:title "15F1_NA" ;
@@ -1719,7 +1719,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15F1_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15F2>
+<http://www.anzsoil.org/def/au/soil/lab-method/15F2>
   rdf:type skos:Concept ;
   dct:description "Exchangeable aluminium by 0.01m (AgTU)+" ;
   dct:title "15F2" ;
@@ -1730,7 +1730,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15F2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15F2_AL>
+<http://www.anzsoil.org/def/au/soil/lab-method/15F2_AL>
   rdf:type skos:Concept ;
   dct:description "Extractable Al(%) - Silver Thiorea" ;
   dct:title "15F2_AL" ;
@@ -1741,7 +1741,7 @@
   skos:note "%" ;
   skos:prefLabel "15F2_AL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15F3>
+<http://www.anzsoil.org/def/au/soil/lab-method/15F3>
   rdf:type skos:Concept ;
   dct:description "CEC by 0.01M silver-thiourea (AgTU)+" ;
   dct:title "15F3" ;
@@ -1752,7 +1752,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15F3"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15F4>
+<http://www.anzsoil.org/def/au/soil/lab-method/15F4>
   rdf:type skos:Concept ;
   dct:description "Exchangeable aluminium by 1M ammonium acetate (pH5.8). Abdullah and Riley (1966)." ;
   dct:title "15F4" ;
@@ -1763,7 +1763,7 @@
   skos:note "?" ;
   skos:prefLabel "15F4"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15G1>
+<http://www.anzsoil.org/def/au/soil/lab-method/15G1>
   rdf:type skos:Concept ;
   dct:description "Exchange acidity (hydrogen and aluminium) by 1M potassium chloride" ;
   dct:title "15G1" ;
@@ -1774,7 +1774,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15G1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15G1_AL>
+<http://www.anzsoil.org/def/au/soil/lab-method/15G1_AL>
   rdf:type skos:Concept ;
   dct:description "Aluminium Cation - meq per 100g of soil - 1M KCl Exch. Acidity By titration to pH 8.0" ;
   dct:title "15G1_AL" ;
@@ -1785,7 +1785,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15G1_AL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15G1_H>
+<http://www.anzsoil.org/def/au/soil/lab-method/15G1_H>
   rdf:type skos:Concept ;
   dct:description "Hydrogen Cation - meq per 100g of soil - 1M KCl Exch. Acidity By titration to pH 8.0" ;
   dct:title "15G1_H" ;
@@ -1796,7 +1796,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15G1_H"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15G_C>
+<http://www.anzsoil.org/def/au/soil/lab-method/15G_C>
   rdf:type skos:Concept ;
   dct:description "Exchange acidity (hydrogen and aluminium) - meq per 100g of soil - By 1M KCl exch. acidity by titration to pH 8.4" ;
   dct:title "15G_C" ;
@@ -1807,7 +1807,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15G_C"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15G_C_AL1>
+<http://www.anzsoil.org/def/au/soil/lab-method/15G_C_AL1>
   rdf:type skos:Concept ;
   dct:description "Exchangeable aluminium - meq per 100g of soil - Aluminium By difference of C and A or B" ;
   dct:title "15G_C_AL1" ;
@@ -1818,7 +1818,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15G_C_AL1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15G_C_AL2>
+<http://www.anzsoil.org/def/au/soil/lab-method/15G_C_AL2>
   rdf:type skos:Concept ;
   dct:description "Exchangeable aluminium - meq per 100g of soil - Aluminium By KCl extraction and detremination By AAS" ;
   dct:title "15G_C_AL2" ;
@@ -1829,7 +1829,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15G_C_AL2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15G_C_H1>
+<http://www.anzsoil.org/def/au/soil/lab-method/15G_C_H1>
   rdf:type skos:Concept ;
   dct:description "Exchangeable hydrogen - meq per 100g of soil - Hydrogen By back titration of A or B" ;
   dct:title "15G_C_H1" ;
@@ -1840,7 +1840,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15G_C_H1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15G_C_H2>
+<http://www.anzsoil.org/def/au/soil/lab-method/15G_C_H2>
   rdf:type skos:Concept ;
   dct:description "Exchangeable hydrogen  - meq per 100g of soil - Hydrogen By lime water, P-nitrophenol buffer at pH 7.0" ;
   dct:title "15G_C_H2" ;
@@ -1851,7 +1851,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15G_C_H2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15G_H>
+<http://www.anzsoil.org/def/au/soil/lab-method/15G_H>
   rdf:type skos:Concept ;
   dct:description "Hydrogen Cation - meq per 100g of soil - 1M KCl Exch. acidity By titration to pH 8.4" ;
   dct:title "15G_H" ;
@@ -1862,7 +1862,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15G_H"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15H1>
+<http://www.anzsoil.org/def/au/soil/lab-method/15H1>
   rdf:type skos:Concept ;
   dct:description "Exchange acidity by TEA" ;
   dct:title "15H1" ;
@@ -1873,7 +1873,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15H1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15I1>
+<http://www.anzsoil.org/def/au/soil/lab-method/15I1>
   rdf:type skos:Concept ;
   dct:description "CEC measurement - distillation of ammonium ions" ;
   dct:title "15I1" ;
@@ -1884,7 +1884,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15I1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15I2>
+<http://www.anzsoil.org/def/au/soil/lab-method/15I2>
   rdf:type skos:Concept ;
   dct:description "CEC measurement - automated determination of ammonium ions" ;
   dct:title "15I2" ;
@@ -1895,7 +1895,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15I2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15I3>
+<http://www.anzsoil.org/def/au/soil/lab-method/15I3>
   rdf:type skos:Concept ;
   dct:description "CEC measurement - automated determination of ammonium and chloride ions" ;
   dct:title "15I3" ;
@@ -1906,7 +1906,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15I3"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15I4>
+<http://www.anzsoil.org/def/au/soil/lab-method/15I4>
   rdf:type skos:Concept ;
   dct:description "CEC measurement - titration of ammonium and chloride ions" ;
   dct:title "15I4" ;
@@ -1917,7 +1917,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15I4"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15J1>
+<http://www.anzsoil.org/def/au/soil/lab-method/15J1>
   rdf:type skos:Concept ;
   dct:description "Effective CEC" ;
   dct:title "15J1" ;
@@ -1928,7 +1928,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15J1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15J_BASES>
+<http://www.anzsoil.org/def/au/soil/lab-method/15J_BASES>
   rdf:type skos:Concept ;
   dct:description "Sum of Bases" ;
   dct:title "15J_BASES" ;
@@ -1939,7 +1939,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15J_BASES"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15J_BASESS>
+<http://www.anzsoil.org/def/au/soil/lab-method/15J_BASESS>
   rdf:type skos:Concept ;
   dct:description "Sum of bases - 1M ammonium chloride at pH 7.0, no pretreatment for soluble salt, using leaching columns" ;
   dct:title "15J_BASESS" ;
@@ -1950,7 +1950,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15J_BASESS"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15J_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15J_CEC>
   rdf:type skos:Concept ;
   dct:description "Sum of Cations" ;
   dct:title "15J_CEC" ;
@@ -1961,7 +1961,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15J_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15J_H>
+<http://www.anzsoil.org/def/au/soil/lab-method/15J_H>
   rdf:type skos:Concept ;
   dct:description "Sum of Ex. cations + Ex. acidity - Sum of basic exch. cations and exch. (Hydrogen)" ;
   dct:title "15J_H" ;
@@ -1972,7 +1972,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15J_H"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15K1>
+<http://www.anzsoil.org/def/au/soil/lab-method/15K1>
   rdf:type skos:Concept ;
   dct:description "CEC - pH 8.2" ;
   dct:title "15K1" ;
@@ -1983,7 +1983,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15K1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15L1>
+<http://www.anzsoil.org/def/au/soil/lab-method/15L1>
   rdf:type skos:Concept ;
   dct:description "Base saturation percentage (BSP)" ;
   dct:title "15L1" ;
@@ -1994,7 +1994,7 @@
   skos:note "%" ;
   skos:prefLabel "15L1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15M1>
+<http://www.anzsoil.org/def/au/soil/lab-method/15M1>
   rdf:type skos:Concept ;
   dct:description "Cation ratio" ;
   dct:title "15M1" ;
@@ -2005,7 +2005,7 @@
   skos:note "-" ;
   skos:prefLabel "15M1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15N1>
+<http://www.anzsoil.org/def/au/soil/lab-method/15N1>
   rdf:type skos:Concept ;
   dct:description "Exchangeable sodium percentage (ESP)" ;
   dct:title "15N1" ;
@@ -2016,7 +2016,7 @@
   skos:note "%" ;
   skos:prefLabel "15N1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15O1>
+<http://www.anzsoil.org/def/au/soil/lab-method/15O1>
   rdf:type skos:Concept ;
   dct:description "Percenatge aluminium saturation" ;
   dct:title "15O1" ;
@@ -2027,7 +2027,7 @@
   skos:note "%" ;
   skos:prefLabel "15O1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_BASES>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_BASES>
   rdf:type skos:Concept ;
   dct:description "Sum of Ex. cations + Ex. acidity - Sum of basic exch. cations" ;
   dct:title "15_BASES" ;
@@ -2038,7 +2038,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_BASES"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_HSK_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_HSK_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC - meq per 100g of soil - HOSK" ;
   dct:title "15_HSK_CEC" ;
@@ -2049,7 +2049,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_HSK_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_NR>
   rdf:type skos:Concept ;
   dct:description "Sum of Ex. cations + Ex. acidity - Not recorded" ;
   dct:title "15_NR" ;
@@ -2060,7 +2060,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_NR"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_NR_AL>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_NR_AL>
   rdf:type skos:Concept ;
   dct:description "Exchangeable aluminium - method not recorded" ;
   dct:title "15_NR_AL" ;
@@ -2071,7 +2071,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_NR_AL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_NR_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_NR_CA>
   rdf:type skos:Concept ;
   dct:description "Exch. basic cations (Ca++) - meq per 100g of soil - Not recorded" ;
   dct:title "15_NR_CA" ;
@@ -2082,7 +2082,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_NR_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_NR_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_NR_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC - meq per 100g of soil - Not recorded" ;
   dct:title "15_NR_CEC" ;
@@ -2093,7 +2093,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_NR_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_NR_H>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_NR_H>
   rdf:type skos:Concept ;
   dct:description "Hydrogen Cation - meq per 100g of soil - Not recorded" ;
   dct:title "15_NR_H" ;
@@ -2104,7 +2104,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_NR_H"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_NR_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_NR_K>
   rdf:type skos:Concept ;
   dct:description "Exch. basic cations (K++) - meq per 100g of soil - Not recorded" ;
   dct:title "15_NR_K" ;
@@ -2115,7 +2115,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_NR_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_NR_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_NR_MG>
   rdf:type skos:Concept ;
   dct:description "Exch. basic cations (Mg++) - meq per 100g of soil - Not recorded" ;
   dct:title "15_NR_MG" ;
@@ -2126,7 +2126,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_NR_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_NR_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_NR_NA>
   rdf:type skos:Concept ;
   dct:description "Exch. basic cations (Na++) - meq per 100g of soil - Not recorded" ;
   dct:title "15_NR_NA" ;
@@ -2137,7 +2137,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_NR_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_UB_CA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_UB_CA>
   rdf:type skos:Concept ;
   dct:description "Exch. basic cations (Ca++) - meq per 100g of soil - 1M Ammonium Chloride Un-buffered" ;
   dct:title "15_UB_CA" ;
@@ -2148,7 +2148,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_UB_CA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_UB_CEC>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_UB_CEC>
   rdf:type skos:Concept ;
   dct:description "CEC - meq per 100g of soil - 1M Ammonium Chloride Un-buffered" ;
   dct:title "15_UB_CEC" ;
@@ -2159,7 +2159,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_UB_CEC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_UB_K>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_UB_K>
   rdf:type skos:Concept ;
   dct:description "Exch. basic cations (K++) - meq per 100g of soil - 1M Ammonium Chloride Un-buffered" ;
   dct:title "15_UB_K" ;
@@ -2170,7 +2170,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_UB_K"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_UB_MG>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_UB_MG>
   rdf:type skos:Concept ;
   dct:description "Exch. basic cations (Mg++) - meq per 100g of soil - 1M Ammonium Chloride Un-buffered" ;
   dct:title "15_UB_MG" ;
@@ -2181,7 +2181,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_UB_MG"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/15_UB_NA>
+<http://www.anzsoil.org/def/au/soil/lab-method/15_UB_NA>
   rdf:type skos:Concept ;
   dct:description "Exch. basic cations (Na++) - meq per 100g of soil - 1M Ammonium Chloride Un-buffered" ;
   dct:title "15_UB_NA" ;
@@ -2192,7 +2192,7 @@
   skos:note "meq/100g" ;
   skos:prefLabel "15_UB_NA"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/16A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/16A1>
   rdf:type skos:Concept ;
   dct:description "Calculated lime rate - from exchangeable aluminium" ;
   dct:title "16A1" ;
@@ -2203,7 +2203,7 @@
   skos:note "kg/ha 10cm" ;
   skos:prefLabel "16A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/16B1>
+<http://www.anzsoil.org/def/au/soil/lab-method/16B1>
   rdf:type skos:Concept ;
   dct:description "Calculated lime rate - Cregan" ;
   dct:title "16B1" ;
@@ -2214,7 +2214,7 @@
   skos:note "kg/ha 10cm" ;
   skos:prefLabel "16B1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/16C1>
+<http://www.anzsoil.org/def/au/soil/lab-method/16C1>
   rdf:type skos:Concept ;
   dct:description "Lime requirement - Mehlich single buffer" ;
   dct:title "16C1" ;
@@ -2225,7 +2225,7 @@
   skos:note "t/ha 20cm" ;
   skos:prefLabel "16C1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/16D1>
+<http://www.anzsoil.org/def/au/soil/lab-method/16D1>
   rdf:type skos:Concept ;
   dct:description "Lime requirement - Dunn titration curves" ;
   dct:title "16D1" ;
@@ -2236,7 +2236,7 @@
   skos:note "t/ha 20cm" ;
   skos:prefLabel "16D1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/17A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/17A1>
   rdf:type skos:Concept ;
   dct:description "Total potassium - X-ray fluorescence" ;
   dct:title "17A1" ;
@@ -2247,7 +2247,7 @@
   skos:note "%" ;
   skos:prefLabel "17A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/17A_HFplus>
+<http://www.anzsoil.org/def/au/soil/lab-method/17A_HFplus>
   rdf:type skos:Concept ;
   dct:description "Total element - K(%) - HF/HCl04 Digest" ;
   dct:title "17A_HF+" ;
@@ -2258,7 +2258,7 @@
   skos:note "%" ;
   skos:prefLabel "17A_HF+"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/17A_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/17A_NR>
   rdf:type skos:Concept ;
   dct:description "Total element - K(%) - Not recorded" ;
   dct:title "17A_NR" ;
@@ -2269,7 +2269,7 @@
   skos:note "%" ;
   skos:prefLabel "17A_NR"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/1800>
+<http://www.anzsoil.org/def/au/soil/lab-method/1800>
   rdf:type skos:Concept ;
   dct:description "Fluoride-extractable potassium (Bray 1-K) - AAS" ;
   dct:title "1800.0" ;
@@ -2280,7 +2280,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "1800"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/18A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/18A1>
   rdf:type skos:Concept ;
   dct:description "Bicarbonate-extractable potassium" ;
   dct:title "18A1" ;
@@ -2291,7 +2291,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "18A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/18B1>
+<http://www.anzsoil.org/def/au/soil/lab-method/18B1>
   rdf:type skos:Concept ;
   dct:description "Hydrochloric acid - extractable potassium" ;
   dct:title "18B1" ;
@@ -2302,7 +2302,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "18B1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/18B2>
+<http://www.anzsoil.org/def/au/soil/lab-method/18B2>
   rdf:type skos:Concept ;
   dct:description "Sulfuric acid (10%)- extractable potassium" ;
   dct:title "18B2" ;
@@ -2313,7 +2313,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "18B2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/19A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/19A1>
   rdf:type skos:Concept ;
   dct:description "Carbonates - rapid titration" ;
   dct:title "19A1" ;
@@ -2324,7 +2324,7 @@
   skos:note "%" ;
   skos:prefLabel "19A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/19B1>
+<http://www.anzsoil.org/def/au/soil/lab-method/19B1>
   rdf:type skos:Concept ;
   dct:description "Carbonates - manometric" ;
   dct:title "19B1" ;
@@ -2335,7 +2335,7 @@
   skos:note "%" ;
   skos:prefLabel "19B1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/19B_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/19B_NR>
   rdf:type skos:Concept ;
   dct:description "Calcium Carbonate (CaCO3) - Not recorded" ;
   dct:title "19B_NR" ;
@@ -2346,7 +2346,7 @@
   skos:note "%" ;
   skos:prefLabel "19B_NR"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/19_COL>
+<http://www.anzsoil.org/def/au/soil/lab-method/19_COL>
   rdf:type skos:Concept ;
   dct:description "Carbonates - Collins Calcimeter" ;
   dct:title "19_COL" ;
@@ -2357,7 +2357,7 @@
   skos:note "%" ;
   skos:prefLabel "19_COL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/2A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/2A1>
   rdf:type skos:Concept ;
   dct:description "Air-dry moisture content" ;
   dct:title "2A1" ;
@@ -2368,7 +2368,7 @@
   skos:note "%" ;
   skos:prefLabel "2A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/2B1>
+<http://www.anzsoil.org/def/au/soil/lab-method/2B1>
   rdf:type skos:Concept ;
   dct:description "As received moisture content" ;
   dct:title "2B1" ;
@@ -2379,7 +2379,7 @@
   skos:note "%" ;
   skos:prefLabel "2B1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/2C1>
+<http://www.anzsoil.org/def/au/soil/lab-method/2C1>
   rdf:type skos:Concept ;
   dct:description "Moisture content - 10 mm tension" ;
   dct:title "2C1" ;
@@ -2390,7 +2390,7 @@
   skos:note "%" ;
   skos:prefLabel "2C1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/2D1>
+<http://www.anzsoil.org/def/au/soil/lab-method/2D1>
   rdf:type skos:Concept ;
   dct:description "Moisture content - 1approximate saturation paste" ;
   dct:title "2D1" ;
@@ -2401,7 +2401,7 @@
   skos:note "%" ;
   skos:prefLabel "2D1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/2_LOI>
+<http://www.anzsoil.org/def/au/soil/lab-method/2_LOI>
   rdf:type skos:Concept ;
   dct:description "Loss on Ignition (%)" ;
   dct:title "2_LOI" ;
@@ -2412,7 +2412,7 @@
   skos:note "%" ;
   skos:prefLabel "2_LOI"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/3A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/3A1>
   rdf:type skos:Concept ;
   dct:description "EC of 1:5 soil/water extract" ;
   dct:title "3A1" ;
@@ -2423,7 +2423,7 @@
   skos:note "dS/m" ;
   skos:prefLabel "3A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/3A_C_2.5>
+<http://www.anzsoil.org/def/au/soil/lab-method/3A_C_2.5>
   rdf:type skos:Concept ;
   dct:description "EC of 1:2.5 soil/water extract" ;
   dct:title "3A_C_2.5" ;
@@ -2434,7 +2434,7 @@
   skos:note "dS/m" ;
   skos:prefLabel "3A_C_2.5"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/3A_TSS>
+<http://www.anzsoil.org/def/au/soil/lab-method/3A_TSS>
   rdf:type skos:Concept ;
   dct:description "Electrical conductivity or soluble salts - Total soluble salts %" ;
   dct:title "3A_TSS" ;
@@ -2445,7 +2445,7 @@
   skos:note "%" ;
   skos:prefLabel "3A_TSS"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/3_C_B>
+<http://www.anzsoil.org/def/au/soil/lab-method/3_C_B>
   rdf:type skos:Concept ;
   dct:description "Electrical conductivity or soluble salts - Total soluble salts %" ;
   dct:title "3_C_B" ;
@@ -2456,7 +2456,7 @@
   skos:note "%" ;
   skos:prefLabel "3_C_B"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/3_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/3_NR>
   rdf:type skos:Concept ;
   dct:description "Electrical conductivity or soluble salts - Not recorded" ;
   dct:title "3_NR" ;
@@ -2467,7 +2467,7 @@
   skos:note "?" ;
   skos:prefLabel "3_NR"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/40>
+<http://www.anzsoil.org/def/au/soil/lab-method/40>
   rdf:type skos:Concept ;
   dct:description "pH of hydrogen peroxide extract" ;
   dct:title "40.0" ;
@@ -2478,7 +2478,7 @@
   skos:note "-" ;
   skos:prefLabel "40"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/4A1>
   rdf:type skos:Concept ;
   dct:description "pH of 1:5 soil/water suspension" ;
   dct:title "4A1" ;
@@ -2489,7 +2489,7 @@
   skos:note "-" ;
   skos:prefLabel "4A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4A_C_1>
+<http://www.anzsoil.org/def/au/soil/lab-method/4A_C_1>
   rdf:type skos:Concept ;
   dct:description "pH of soil - pH of 1:1 soil/water suspension" ;
   dct:title "4A_C_1" ;
@@ -2500,7 +2500,7 @@
   skos:note "-" ;
   skos:prefLabel "4A_C_1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4A_C_2.5>
+<http://www.anzsoil.org/def/au/soil/lab-method/4A_C_2.5>
   rdf:type skos:Concept ;
   dct:description "pH of soil - pH of 1:2.5 soil/water suspension" ;
   dct:title "4A_C_2.5" ;
@@ -2511,7 +2511,7 @@
   skos:note "-" ;
   skos:prefLabel "4A_C_2.5"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4B1>
+<http://www.anzsoil.org/def/au/soil/lab-method/4B1>
   rdf:type skos:Concept ;
   dct:description "pH of 1:5 soil/0.01M calcium chloride extract - direct" ;
   dct:title "4B1" ;
@@ -2522,7 +2522,7 @@
   skos:note "-" ;
   skos:prefLabel "4B1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4B2>
+<http://www.anzsoil.org/def/au/soil/lab-method/4B2>
   rdf:type skos:Concept ;
   dct:description "pH of 1:5 soil/0.01M calcium chloride extract - following Method 4A1" ;
   dct:title "4B2" ;
@@ -2533,7 +2533,7 @@
   skos:note "-" ;
   skos:prefLabel "4B2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4B_C_2>
+<http://www.anzsoil.org/def/au/soil/lab-method/4B_C_2>
   rdf:type skos:Concept ;
   dct:description "pH of soil - pH of 1:2.5 Soil/0.1M CaCl2 suspension" ;
   dct:title "4B_C_2" ;
@@ -2544,7 +2544,7 @@
   skos:note "-" ;
   skos:prefLabel "4B_C_2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4B_C_2.5>
+<http://www.anzsoil.org/def/au/soil/lab-method/4B_C_2.5>
   rdf:type skos:Concept ;
   dct:description "pH of soil - pH of 1:2.5 Soil/0.1M CaCl2 suspension" ;
   dct:title "4B_C_2.5" ;
@@ -2555,7 +2555,7 @@
   skos:note "-" ;
   skos:prefLabel "4B_C_2.5"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4C1>
+<http://www.anzsoil.org/def/au/soil/lab-method/4C1>
   rdf:type skos:Concept ;
   dct:description "pH of 1:5 soil/1M potassium chloride extract - direct" ;
   dct:title "4C1" ;
@@ -2566,7 +2566,7 @@
   skos:note "-" ;
   skos:prefLabel "4C1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4C2>
+<http://www.anzsoil.org/def/au/soil/lab-method/4C2>
   rdf:type skos:Concept ;
   dct:description "pH of 1:5 soil/1M potassium chloride extract - following Method 4A1" ;
   dct:title "4C2" ;
@@ -2577,7 +2577,7 @@
   skos:note "-" ;
   skos:prefLabel "4C2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4C_C_1>
+<http://www.anzsoil.org/def/au/soil/lab-method/4C_C_1>
   rdf:type skos:Concept ;
   dct:description "pH of 1:1 soil/1M potassium chloride suspension" ;
   dct:title "4C_C_1" ;
@@ -2588,7 +2588,7 @@
   skos:note "-" ;
   skos:prefLabel "4C_C_1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4D1>
+<http://www.anzsoil.org/def/au/soil/lab-method/4D1>
   rdf:type skos:Concept ;
   dct:description "pH of sodium fluoride suspension" ;
   dct:title "4D1" ;
@@ -2599,7 +2599,7 @@
   skos:note "-" ;
   skos:prefLabel "4D1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4F1>
+<http://www.anzsoil.org/def/au/soil/lab-method/4F1>
   rdf:type skos:Concept ;
   dct:description "pH change" ;
   dct:title "4F1" ;
@@ -2610,7 +2610,7 @@
   skos:note "-" ;
   skos:prefLabel "4F1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/4_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/4_NR>
   rdf:type skos:Concept ;
   dct:description "pH of soil - Not recorded" ;
   dct:title "4_NR" ;
@@ -2621,7 +2621,7 @@
   skos:note "-" ;
   skos:prefLabel "4_NR"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/5A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/5A1>
   rdf:type skos:Concept ;
   dct:description "Chloride - 1:5 soil/water extract, potentiometric titration" ;
   dct:title "5A1" ;
@@ -2632,7 +2632,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "5A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/5A2>
+<http://www.anzsoil.org/def/au/soil/lab-method/5A2>
   rdf:type skos:Concept ;
   dct:description "Chloride - 1:5 soil/water extract, automated colour" ;
   dct:title "5A2" ;
@@ -2643,7 +2643,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "5A2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/5A_C_2.5>
+<http://www.anzsoil.org/def/au/soil/lab-method/5A_C_2.5>
   rdf:type skos:Concept ;
   dct:description "Chloride - 1:2.5 soil/water extract" ;
   dct:title "5A_C_2.5" ;
@@ -2654,7 +2654,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "5A_C_2.5"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/5_C_B>
+<http://www.anzsoil.org/def/au/soil/lab-method/5_C_B>
   rdf:type skos:Concept ;
   dct:description "Water soluble Chloride - Method recorded as B" ;
   dct:title "5_C_B" ;
@@ -2665,7 +2665,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "5_C_B"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/5_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/5_NR>
   rdf:type skos:Concept ;
   dct:description "Water soluble Chloride - Cl(%) - Not recordede" ;
   dct:title "5_NR" ;
@@ -2676,7 +2676,7 @@
   skos:note "%" ;
   skos:prefLabel "5_NR"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/6A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/6A1>
   rdf:type skos:Concept ;
   dct:description "Organic carbon - Walkley and Black" ;
   dct:title "6A1" ;
@@ -2687,7 +2687,7 @@
   skos:note "%" ;
   skos:prefLabel "6A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/6A1_UC>
+<http://www.anzsoil.org/def/au/soil/lab-method/6A1_UC>
   rdf:type skos:Concept ;
   dct:description "Organic carbon (%) - Uncorrected Walkley and Black method" ;
   dct:title "6A1_UC" ;
@@ -2698,7 +2698,7 @@
   skos:note "%" ;
   skos:prefLabel "6A1_UC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/6B1>
+<http://www.anzsoil.org/def/au/soil/lab-method/6B1>
   rdf:type skos:Concept ;
   dct:description "Total organic carbon - Heanes wet oxidation" ;
   dct:title "6B1" ;
@@ -2709,7 +2709,7 @@
   skos:note "%" ;
   skos:prefLabel "6B1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/6B2>
+<http://www.anzsoil.org/def/au/soil/lab-method/6B2>
   rdf:type skos:Concept ;
   dct:description "Total organic carbon - high frequency induction furnace, volumetric" ;
   dct:title "6B2" ;
@@ -2720,7 +2720,7 @@
   skos:note "%" ;
   skos:prefLabel "6B2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/6B3>
+<http://www.anzsoil.org/def/au/soil/lab-method/6B3>
   rdf:type skos:Concept ;
   dct:description "Total organic carbon - high frequency induction furnace, infrared" ;
   dct:title "6B3" ;
@@ -2731,7 +2731,7 @@
   skos:note "%" ;
   skos:prefLabel "6B3"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/6C1>
+<http://www.anzsoil.org/def/au/soil/lab-method/6C1>
   rdf:type skos:Concept ;
   dct:description "Pyrophosphate-extractable carbon" ;
   dct:title "6C1" ;
@@ -2742,7 +2742,7 @@
   skos:note "%" ;
   skos:prefLabel "6C1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/6Z>
+<http://www.anzsoil.org/def/au/soil/lab-method/6Z>
   rdf:type skos:Concept ;
   dct:description "Organic carbon (%) - Not recorded" ;
   dct:title "6Z" ;
@@ -2753,7 +2753,7 @@
   skos:note "%" ;
   skos:prefLabel "6Z"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/6_DC>
+<http://www.anzsoil.org/def/au/soil/lab-method/6_DC>
   rdf:type skos:Concept ;
   dct:description "Organic carbon (%) - Dry combustion" ;
   dct:title "6_DC" ;
@@ -2764,7 +2764,7 @@
   skos:note "%" ;
   skos:prefLabel "6_DC"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/7A1>
   rdf:type skos:Concept ;
   dct:description "Total nitrogen - semimicro Kjeldahl, steam distillation" ;
   dct:title "7A1" ;
@@ -2775,7 +2775,7 @@
   skos:note "%" ;
   skos:prefLabel "7A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7A2>
+<http://www.anzsoil.org/def/au/soil/lab-method/7A2>
   rdf:type skos:Concept ;
   dct:description "Total nitrogen - semimicro Kjeldahl , automated colour" ;
   dct:title "7A2" ;
@@ -2786,7 +2786,7 @@
   skos:note "%" ;
   skos:prefLabel "7A2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7A3>
+<http://www.anzsoil.org/def/au/soil/lab-method/7A3>
   rdf:type skos:Concept ;
   dct:description "Total nitrogen (where nitrate > 20 mg N kg-1) - steam distillation" ;
   dct:title "7A3" ;
@@ -2797,7 +2797,7 @@
   skos:note "%" ;
   skos:prefLabel "7A3"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7A4>
+<http://www.anzsoil.org/def/au/soil/lab-method/7A4>
   rdf:type skos:Concept ;
   dct:description "Total nitrogen (where nitrate > 20 mg N kg-1) - automated colour" ;
   dct:title "7A4" ;
@@ -2808,7 +2808,7 @@
   skos:note "%" ;
   skos:prefLabel "7A4"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7A5>
+<http://www.anzsoil.org/def/au/soil/lab-method/7A5>
   rdf:type skos:Concept ;
   dct:description "Total nitrogen - high frequency induction furnace, thermal conductivity" ;
   dct:title "7A5" ;
@@ -2819,7 +2819,7 @@
   skos:note "%" ;
   skos:prefLabel "7A5"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7B1>
+<http://www.anzsoil.org/def/au/soil/lab-method/7B1>
   rdf:type skos:Concept ;
   dct:description "Water soluble nitrate - automated colour" ;
   dct:title "7B1" ;
@@ -2830,7 +2830,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7B1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7C1>
+<http://www.anzsoil.org/def/au/soil/lab-method/7C1>
   rdf:type skos:Concept ;
   dct:description "Mineral nitrogen with 2M KCl - steam distillation" ;
   dct:title "7C1" ;
@@ -2841,7 +2841,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7C1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7C1a>
+<http://www.anzsoil.org/def/au/soil/lab-method/7C1a>
   rdf:type skos:Concept ;
   dct:description "Ammonium-N, in presence or absence of nitrite" ;
   dct:title "7C1a" ;
@@ -2852,7 +2852,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7C1a"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7C1b>
+<http://www.anzsoil.org/def/au/soil/lab-method/7C1b>
   rdf:type skos:Concept ;
   dct:description "(Nitrate+nitrite)-N, in presence of nitrite" ;
   dct:title "7C1b" ;
@@ -2863,7 +2863,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7C1b"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7C1c>
+<http://www.anzsoil.org/def/au/soil/lab-method/7C1c>
   rdf:type skos:Concept ;
   dct:description "(Ammonium+nitrate+nitrite)-N, in presence of nitrite" ;
   dct:title "7C1c" ;
@@ -2874,7 +2874,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7C1c"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7C1d>
+<http://www.anzsoil.org/def/au/soil/lab-method/7C1d>
   rdf:type skos:Concept ;
   dct:description "(Ammonium+nitrate)-N, in presence of nitrite" ;
   dct:title "7C1d" ;
@@ -2885,7 +2885,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7C1d"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7C1e>
+<http://www.anzsoil.org/def/au/soil/lab-method/7C1e>
   rdf:type skos:Concept ;
   dct:description "Nitrate-N, in presence of nitrite" ;
   dct:title "7C1e" ;
@@ -2896,7 +2896,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7C1e"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7C1f>
+<http://www.anzsoil.org/def/au/soil/lab-method/7C1f>
   rdf:type skos:Concept ;
   dct:description "Nitrate-N, in absence of nitrite" ;
   dct:title "7C1f" ;
@@ -2907,7 +2907,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7C1f"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7C1g>
+<http://www.anzsoil.org/def/au/soil/lab-method/7C1g>
   rdf:type skos:Concept ;
   dct:description "(Ammonium+nitrate)-N, in absence of nitrite" ;
   dct:title "7C1g" ;
@@ -2918,7 +2918,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7C1g"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7C1h>
+<http://www.anzsoil.org/def/au/soil/lab-method/7C1h>
   rdf:type skos:Concept ;
   dct:description "Nitrite-N" ;
   dct:title "7C1h" ;
@@ -2929,7 +2929,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7C1h"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7C2>
+<http://www.anzsoil.org/def/au/soil/lab-method/7C2>
   rdf:type skos:Concept ;
   dct:description "Mineral nitrogen with 2M KCl - automated colour" ;
   dct:title "7C2" ;
@@ -2940,7 +2940,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7C2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7C_CASO4>
+<http://www.anzsoil.org/def/au/soil/lab-method/7C_CASO4>
   rdf:type skos:Concept ;
   dct:description "CaSO4 extractable nitrate. O'Brien and Fiore (1962)" ;
   dct:title "7C_CASO4" ;
@@ -2951,7 +2951,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "7C_CASO4"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7D1>
+<http://www.anzsoil.org/def/au/soil/lab-method/7D1>
   rdf:type skos:Concept ;
   dct:description "CaSO4 extractable nitrate. O'Brien and Fiore (1962)" ;
   dct:title "7D1" ;
@@ -2962,7 +2962,7 @@
   skos:note "?" ;
   skos:prefLabel "7D1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7_C_B>
+<http://www.anzsoil.org/def/au/soil/lab-method/7_C_B>
   rdf:type skos:Concept ;
   dct:description "Total Nitrogen - method description not recorded" ;
   dct:title "7_C_B" ;
@@ -2973,7 +2973,7 @@
   skos:note "%" ;
   skos:prefLabel "7_C_B"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/7_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/7_NR>
   rdf:type skos:Concept ;
   dct:description "Total nitrogen (%) - Not recorded" ;
   dct:title "7_NR" ;
@@ -2984,7 +2984,7 @@
   skos:note "%" ;
   skos:prefLabel "7_NR"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/8A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/8A1>
   rdf:type skos:Concept ;
   dct:description "Total organic carbon/total nitrogen ratio" ;
   dct:title "8A1" ;
@@ -2995,7 +2995,7 @@
   skos:note "-" ;
   skos:prefLabel "8A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/90>
+<http://www.anzsoil.org/def/au/soil/lab-method/90>
   rdf:type skos:Concept ;
   dct:description "Fluoride-extractable phosphorus (Bray 1-P) - manual colour" ;
   dct:title "90.0" ;
@@ -3006,7 +3006,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "90"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/900>
+<http://www.anzsoil.org/def/au/soil/lab-method/900>
   rdf:type skos:Concept ;
   dct:description "Fluoride-extractable phosphorus (Bray 1-P) - automated colour" ;
   dct:title "900.0" ;
@@ -3017,7 +3017,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "900"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9A1>
+<http://www.anzsoil.org/def/au/soil/lab-method/9A1>
   rdf:type skos:Concept ;
   dct:description "Total phosphorus - X-ray fluorescence" ;
   dct:title "9A1" ;
@@ -3028,7 +3028,7 @@
   skos:note "%" ;
   skos:prefLabel "9A1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9A2>
+<http://www.anzsoil.org/def/au/soil/lab-method/9A2>
   rdf:type skos:Concept ;
   dct:description "Total phosphorus - sodium carbonate fusion" ;
   dct:title "9A2" ;
@@ -3039,7 +3039,7 @@
   skos:note "%" ;
   skos:prefLabel "9A2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9A3>
+<http://www.anzsoil.org/def/au/soil/lab-method/9A3>
   rdf:type skos:Concept ;
   dct:description "Total Phosphorus (ppm) - semimicro kjeldahl, automated colour" ;
   dct:title "9A3" ;
@@ -3050,7 +3050,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9A3"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9A_HCL>
+<http://www.anzsoil.org/def/au/soil/lab-method/9A_HCL>
   rdf:type skos:Concept ;
   dct:description "Total element - P(%) - By boiling HCl" ;
   dct:title "9A_HCL" ;
@@ -3061,7 +3061,7 @@
   skos:note "%" ;
   skos:prefLabel "9A_HCL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9A_HCLP2O5>
+<http://www.anzsoil.org/def/au/soil/lab-method/9A_HCLP2O5>
   rdf:type skos:Concept ;
   dct:description "Total element - P(%) - By boiling HCl(P2O5)" ;
   dct:title "9A_HCLP2O5" ;
@@ -3072,7 +3072,7 @@
   skos:note "%" ;
   skos:prefLabel "9A_HCLP2O5"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9A_HF+>
+<http://www.anzsoil.org/def/au/soil/lab-method/9A_HF+>
   rdf:type skos:Concept ;
   dct:description "Total element - P(%) - HF/HCl04 Digest" ;
   dct:title "9A_HF+" ;
@@ -3083,7 +3083,7 @@
   skos:note "%" ;
   skos:prefLabel "9A_HF+"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9A_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/9A_NR>
   rdf:type skos:Concept ;
   dct:description "Total element - P(%) - Not recorded" ;
   dct:title "9A_NR" ;
@@ -3094,7 +3094,7 @@
   skos:note "%" ;
   skos:prefLabel "9A_NR"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9B1>
+<http://www.anzsoil.org/def/au/soil/lab-method/9B1>
   rdf:type skos:Concept ;
   dct:description "Bicarbonate-extractable phosphorus - manual colour" ;
   dct:title "9B1" ;
@@ -3105,7 +3105,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9B1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9B2>
+<http://www.anzsoil.org/def/au/soil/lab-method/9B2>
   rdf:type skos:Concept ;
   dct:description "Bicarbonate-extractable phosphorus - automated colour" ;
   dct:title "9B2" ;
@@ -3116,7 +3116,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9B2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9B2_COL>
+<http://www.anzsoil.org/def/au/soil/lab-method/9B2_COL>
   rdf:type skos:Concept ;
   dct:description "Bicarbonate-extractable phosphorus - automated colour. Based on Colwell (1965). Method no longer recommended" ;
   dct:title "9B2_COL" ;
@@ -3127,7 +3127,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9B2_COL"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9BUFF_0>
+<http://www.anzsoil.org/def/au/soil/lab-method/9BUFF_0>
   rdf:type skos:Concept ;
   dct:description "Buffering Capacity by 0.01M CaCl2, solution of 0 ppm phosphorus added (CSIRO Div of Soil Tech Mem 63/1972)" ;
   dct:title "9BUFF_0" ;
@@ -3138,7 +3138,7 @@
   skos:note "-" ;
   skos:prefLabel "9BUFF_0"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9BUFF_0.5>
+<http://www.anzsoil.org/def/au/soil/lab-method/9BUFF_0.5>
   rdf:type skos:Concept ;
   dct:description "Buffering Capacity by 0.01M CaCl2, solution of 0.5 ppm phosphorus added (CSIRO Div of Soil Tech Mem 63/1972)" ;
   dct:title "9BUFF_0.5" ;
@@ -3149,7 +3149,7 @@
   skos:note "-" ;
   skos:prefLabel "9BUFF_0.5"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9BUFF_1>
+<http://www.anzsoil.org/def/au/soil/lab-method/9BUFF_1>
   rdf:type skos:Concept ;
   dct:description "Buffering Capacity by 0.01M CaCl2, solution of 1 ppm phosphorus added (CSIRO Div of Soil Tech Mem 63/1972)" ;
   dct:title "9BUFF_1" ;
@@ -3160,7 +3160,7 @@
   skos:note "-" ;
   skos:prefLabel "9BUFF_1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9BUFF_2>
+<http://www.anzsoil.org/def/au/soil/lab-method/9BUFF_2>
   rdf:type skos:Concept ;
   dct:description "Buffering Capacity by 0.01M CaCl2, solution of 2 ppm phosphorus added (CSIRO Div of Soil Tech Mem 63/1972)" ;
   dct:title "9BUFF_2" ;
@@ -3171,7 +3171,7 @@
   skos:note "-" ;
   skos:prefLabel "9BUFF_2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9BUFF_4>
+<http://www.anzsoil.org/def/au/soil/lab-method/9BUFF_4>
   rdf:type skos:Concept ;
   dct:description "Buffering Capacity by 0.01M CaCl2, solution of 4 ppm phosphorus added (CSIRO Div of Soil Tech Mem 63/1972)" ;
   dct:title "9BUFF_4" ;
@@ -3182,7 +3182,7 @@
   skos:note "-" ;
   skos:prefLabel "9BUFF_4"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9B_9C>
+<http://www.anzsoil.org/def/au/soil/lab-method/9B_9C>
   rdf:type skos:Concept ;
   dct:description "Available P (mg/kg) - Bicarbonate P - 0.5M NaHCO3 extractable" ;
   dct:title "9B_9C" ;
@@ -3193,7 +3193,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9B_9C"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9C1>
+<http://www.anzsoil.org/def/au/soil/lab-method/9C1>
   rdf:type skos:Concept ;
   dct:description "Olsen-extractable phosphorus - manual colour" ;
   dct:title "9C1" ;
@@ -3204,7 +3204,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9C1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9C2>
+<http://www.anzsoil.org/def/au/soil/lab-method/9C2>
   rdf:type skos:Concept ;
   dct:description "Olsen-extractable phosphorus - automated colour" ;
   dct:title "9C2" ;
@@ -3215,7 +3215,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9C2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9D1>
+<http://www.anzsoil.org/def/au/soil/lab-method/9D1>
   rdf:type skos:Concept ;
   dct:description "Lactate-extractable phosphorus - manual colour" ;
   dct:title "9D1" ;
@@ -3226,7 +3226,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9D1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9D2>
+<http://www.anzsoil.org/def/au/soil/lab-method/9D2>
   rdf:type skos:Concept ;
   dct:description "Lactate-extractable phosphorus - automated colour" ;
   dct:title "9D2" ;
@@ -3237,7 +3237,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9D2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9E>
+<http://www.anzsoil.org/def/au/soil/lab-method/9E>
   rdf:type skos:Concept ;
   dct:description "Available P (mg/kg) - Bray P" ;
   dct:title "9E" ;
@@ -3248,7 +3248,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9E"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9F1>
+<http://www.anzsoil.org/def/au/soil/lab-method/9F1>
   rdf:type skos:Concept ;
   dct:description "Calcium chloride-extractable phosphorus - manual colour" ;
   dct:title "9F1" ;
@@ -3259,7 +3259,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9F1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9F2>
+<http://www.anzsoil.org/def/au/soil/lab-method/9F2>
   rdf:type skos:Concept ;
   dct:description "Calcium chloride-extractable phosphorus - automated colour" ;
   dct:title "9F2" ;
@@ -3270,7 +3270,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9F2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9G1>
+<http://www.anzsoil.org/def/au/soil/lab-method/9G1>
   rdf:type skos:Concept ;
   dct:description "Acid-extractable phosphorus - manual colour" ;
   dct:title "9G1" ;
@@ -3281,7 +3281,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9G1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9G2>
+<http://www.anzsoil.org/def/au/soil/lab-method/9G2>
   rdf:type skos:Concept ;
   dct:description "Acid-extractable phosphorus - automated colour" ;
   dct:title "9G2" ;
@@ -3292,7 +3292,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9G2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9G_BSES>
+<http://www.anzsoil.org/def/au/soil/lab-method/9G_BSES>
   rdf:type skos:Concept ;
   dct:description "Available P (mg/kg) - Acid P - 0.005M H2SO4 (BSES)" ;
   dct:title "9G_BSES" ;
@@ -3303,7 +3303,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9G_BSES"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9H1>
+<http://www.anzsoil.org/def/au/soil/lab-method/9H1>
   rdf:type skos:Concept ;
   dct:description "Phosphate retention" ;
   dct:title "9H1" ;
@@ -3314,7 +3314,7 @@
   skos:note "%" ;
   skos:prefLabel "9H1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9H_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/9H_NR>
   rdf:type skos:Concept ;
   dct:description "Posphate retention % - Not recorded" ;
   dct:title "9H_NR" ;
@@ -3325,7 +3325,7 @@
   skos:note "%" ;
   skos:prefLabel "9H_NR"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9I1>
+<http://www.anzsoil.org/def/au/soil/lab-method/9I1>
   rdf:type skos:Concept ;
   dct:description "Phosphate sorption index" ;
   dct:title "9I1" ;
@@ -3336,7 +3336,7 @@
   skos:note "-" ;
   skos:prefLabel "9I1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9J1>
+<http://www.anzsoil.org/def/au/soil/lab-method/9J1>
   rdf:type skos:Concept ;
   dct:description "Phosphate sorption curve - manual colour" ;
   dct:title "9J1" ;
@@ -3347,7 +3347,7 @@
   skos:note "-" ;
   skos:prefLabel "9J1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9J2>
+<http://www.anzsoil.org/def/au/soil/lab-method/9J2>
   rdf:type skos:Concept ;
   dct:description "Phosphate sorption curve - automated colour" ;
   dct:title "9J2" ;
@@ -3358,7 +3358,7 @@
   skos:note "-" ;
   skos:prefLabel "9J2"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9M>
+<http://www.anzsoil.org/def/au/soil/lab-method/9M>
   rdf:type skos:Concept ;
   dct:description "Available P (mg/kg) - Mehlich P" ;
   dct:title "9M" ;
@@ -3369,7 +3369,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9M"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9R1>
+<http://www.anzsoil.org/def/au/soil/lab-method/9R1>
   rdf:type skos:Concept ;
   dct:description "Resin extractable phosphorus - automated colour (CSIRO Div of Soil Tech Mem 63/1972)" ;
   dct:title "9R1" ;
@@ -3380,7 +3380,7 @@
   skos:note "?" ;
   skos:prefLabel "9R1"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/9_NR>
+<http://www.anzsoil.org/def/au/soil/lab-method/9_NR>
   rdf:type skos:Concept ;
   dct:description "Available P (mg/kg) - Not recorded" ;
   dct:title "9_NR" ;
@@ -3391,7 +3391,7 @@
   skos:note "mg/kg" ;
   skos:prefLabel "9_NR"@en ;
 .
-method:M1a
+lab-method:M1a
   rdf:type skos:Concept ;
   dct:description "Sodium absorption ratio (SAR)" ;
   dct:title "M1a" ;
@@ -3402,7 +3402,7 @@ method:M1a
   skos:note "-" ;
   skos:prefLabel "M1a"@en ;
 .
-method:MIN_EC
+lab-method:MIN_EC
   rdf:type skos:Concept ;
   dct:description "Exchange Capacity - Minerology" ;
   dct:title "MIN_EC" ;
@@ -3413,7 +3413,7 @@ method:MIN_EC
   skos:note "?" ;
   skos:prefLabel "MIN_EC"@en ;
 .
-method:MIN_NR_K2O
+lab-method:MIN_NR_K2O
   rdf:type skos:Concept ;
   dct:description "Kaolin minerals" ;
   dct:title "MIN_NR_K2O" ;
@@ -3424,7 +3424,7 @@ method:MIN_NR_K2O
   skos:note "?" ;
   skos:prefLabel "MIN_NR_K2O"@en ;
 .
-method:P10A1_C
+lab-method:P10A1_C
   rdf:type skos:Concept ;
   dct:description "Clay (%) - Pipette" ;
   dct:title "P10A1_C" ;
@@ -3435,7 +3435,7 @@ method:P10A1_C
   skos:note "%" ;
   skos:prefLabel "P10A1_C"@en ;
 .
-method:P10A1_CS
+lab-method:P10A1_CS
   rdf:type skos:Concept ;
   dct:description "Coarse sand (%) - Pipette" ;
   dct:title "P10A1_CS" ;
@@ -3446,7 +3446,7 @@ method:P10A1_CS
   skos:note "%" ;
   skos:prefLabel "P10A1_CS"@en ;
 .
-method:P10A1_FS
+lab-method:P10A1_FS
   rdf:type skos:Concept ;
   dct:description "Fine sand (%) - Pipette" ;
   dct:title "P10A1_FS" ;
@@ -3457,7 +3457,7 @@ method:P10A1_FS
   skos:note "%" ;
   skos:prefLabel "P10A1_FS"@en ;
 .
-method:P10A1_Z
+lab-method:P10A1_Z
   rdf:type skos:Concept ;
   dct:description "Silt (%) - Pipette" ;
   dct:title "P10A1_Z" ;
@@ -3468,7 +3468,7 @@ method:P10A1_Z
   skos:note "%" ;
   skos:prefLabel "P10A1_Z"@en ;
 .
-method:P10_CF_C
+lab-method:P10_CF_C
   rdf:type skos:Concept ;
   dct:description "Clay (%) - Coventry and Fett pipette method" ;
   dct:title "P10_CF_C" ;
@@ -3479,7 +3479,7 @@ method:P10_CF_C
   skos:note "%" ;
   skos:prefLabel "P10_CF_C"@en ;
 .
-method:P10_CF_CS
+lab-method:P10_CF_CS
   rdf:type skos:Concept ;
   dct:description "Coarse sand (%) - Coventry and Fett pipette method" ;
   dct:title "P10_CF_CS" ;
@@ -3490,7 +3490,7 @@ method:P10_CF_CS
   skos:note "%" ;
   skos:prefLabel "P10_CF_CS"@en ;
 .
-method:P10_CF_FS
+lab-method:P10_CF_FS
   rdf:type skos:Concept ;
   dct:description "Fine sand (%) - Coventry and Fett pipette method" ;
   dct:title "P10_CF_FS" ;
@@ -3501,7 +3501,7 @@ method:P10_CF_FS
   skos:note "%" ;
   skos:prefLabel "P10_CF_FS"@en ;
 .
-method:P10_CF_S
+lab-method:P10_CF_S
   rdf:type skos:Concept ;
   dct:description "Sand (%) - Coventry and Fett pipette method" ;
   dct:title "P10_CF_S" ;
@@ -3512,7 +3512,7 @@ method:P10_CF_S
   skos:note "%" ;
   skos:prefLabel "P10_CF_S"@en ;
 .
-method:P10_CF_Z
+lab-method:P10_CF_Z
   rdf:type skos:Concept ;
   dct:description "Silt (%) - Coventry and Fett pipette method" ;
   dct:title "P10_CF_Z" ;
@@ -3523,7 +3523,7 @@ method:P10_CF_Z
   skos:note "%" ;
   skos:prefLabel "P10_CF_Z"@en ;
 .
-method:P10_GRAV
+lab-method:P10_GRAV
   rdf:type skos:Concept ;
   dct:description "Gravel (%)" ;
   dct:title "P10_GRAV" ;
@@ -3534,7 +3534,7 @@ method:P10_GRAV
   skos:note "%" ;
   skos:prefLabel "P10_GRAV"@en ;
 .
-method:P10_HYD_C
+lab-method:P10_HYD_C
   rdf:type skos:Concept ;
   dct:description "Clay (%) - Hydrometer Method" ;
   dct:title "P10_HYD_C" ;
@@ -3545,7 +3545,7 @@ method:P10_HYD_C
   skos:note "%" ;
   skos:prefLabel "P10_HYD_C"@en ;
 .
-method:P10_HYD_CS
+lab-method:P10_HYD_CS
   rdf:type skos:Concept ;
   dct:description "Coarse Sand (%) - Hydrometer Method" ;
   dct:title "P10_HYD_CS" ;
@@ -3556,7 +3556,7 @@ method:P10_HYD_CS
   skos:note "%" ;
   skos:prefLabel "P10_HYD_CS"@en ;
 .
-method:P10_HYD_FS
+lab-method:P10_HYD_FS
   rdf:type skos:Concept ;
   dct:description "Fine Sand (%) - Hydrometer Method" ;
   dct:title "P10_HYD_FS" ;
@@ -3567,7 +3567,7 @@ method:P10_HYD_FS
   skos:note "%" ;
   skos:prefLabel "P10_HYD_FS"@en ;
 .
-method:P10_HYD_S
+lab-method:P10_HYD_S
   rdf:type skos:Concept ;
   dct:description "Sand (%) - Hydrometer Method" ;
   dct:title "P10_HYD_S" ;
@@ -3578,7 +3578,7 @@ method:P10_HYD_S
   skos:note "%" ;
   skos:prefLabel "P10_HYD_S"@en ;
 .
-method:P10_HYD_Z
+lab-method:P10_HYD_Z
   rdf:type skos:Concept ;
   dct:description "Silt (%) - Hydrometer Method" ;
   dct:title "P10_HYD_Z" ;
@@ -3589,7 +3589,7 @@ method:P10_HYD_Z
   skos:note "%" ;
   skos:prefLabel "P10_HYD_Z"@en ;
 .
-method:P10_NR_C
+lab-method:P10_NR_C
   rdf:type skos:Concept ;
   dct:description "Clay (%) - Not recorded" ;
   dct:title "P10_NR_C" ;
@@ -3600,7 +3600,7 @@ method:P10_NR_C
   skos:note "%" ;
   skos:prefLabel "P10_NR_C"@en ;
 .
-method:P10_NR_CS
+lab-method:P10_NR_CS
   rdf:type skos:Concept ;
   dct:description "Coarse sand (%) - Not recorded" ;
   dct:title "P10_NR_CS" ;
@@ -3611,7 +3611,7 @@ method:P10_NR_CS
   skos:note "%" ;
   skos:prefLabel "P10_NR_CS"@en ;
 .
-method:P10_NR_FS
+lab-method:P10_NR_FS
   rdf:type skos:Concept ;
   dct:description "Fine sand (%) - Not recorded" ;
   dct:title "P10_NR_FS" ;
@@ -3622,7 +3622,7 @@ method:P10_NR_FS
   skos:note "%" ;
   skos:prefLabel "P10_NR_FS"@en ;
 .
-method:P10_NR_S
+lab-method:P10_NR_S
   rdf:type skos:Concept ;
   dct:description "Sand (%) - Not recorded" ;
   dct:title "P10_NR_S" ;
@@ -3633,7 +3633,7 @@ method:P10_NR_S
   skos:note "%" ;
   skos:prefLabel "P10_NR_S"@en ;
 .
-method:P10_NR_Z
+lab-method:P10_NR_Z
   rdf:type skos:Concept ;
   dct:description "Silt (%) - Not recorded" ;
   dct:title "P10_NR_Z" ;
@@ -3644,7 +3644,7 @@ method:P10_NR_Z
   skos:note "%" ;
   skos:prefLabel "P10_NR_Z"@en ;
 .
-method:P10_PB1_C
+lab-method:P10_PB1_C
   rdf:type skos:Concept ;
   dct:description "Clay (%) - Plummet balance (Acid digestion pretreatment)" ;
   dct:title "P10_PB1_C" ;
@@ -3655,7 +3655,7 @@ method:P10_PB1_C
   skos:note "%" ;
   skos:prefLabel "P10_PB1_C"@en ;
 .
-method:P10_PB1_CS
+lab-method:P10_PB1_CS
   rdf:type skos:Concept ;
   dct:description "Coarse sand (%) - Plummet balance (Acid digestion pretreatment)" ;
   dct:title "P10_PB1_CS" ;
@@ -3666,7 +3666,7 @@ method:P10_PB1_CS
   skos:note "%" ;
   skos:prefLabel "P10_PB1_CS"@en ;
 .
-method:P10_PB1_FS
+lab-method:P10_PB1_FS
   rdf:type skos:Concept ;
   dct:description "Fine sand (%) - Plummet balance (Acid digestion pretreatment)" ;
   dct:title "P10_PB1_FS" ;
@@ -3677,7 +3677,7 @@ method:P10_PB1_FS
   skos:note "%" ;
   skos:prefLabel "P10_PB1_FS"@en ;
 .
-method:P10_PB1_Z
+lab-method:P10_PB1_Z
   rdf:type skos:Concept ;
   dct:description "Silt (%) - Plummet balance (Acid digestion pretreatment)" ;
   dct:title "P10_PB1_Z" ;
@@ -3688,7 +3688,7 @@ method:P10_PB1_Z
   skos:note "%" ;
   skos:prefLabel "P10_PB1_Z"@en ;
 .
-method:P10_PB_C
+lab-method:P10_PB_C
   rdf:type skos:Concept ;
   dct:description "Clay (%) - Plummet balance" ;
   dct:title "P10_PB_C" ;
@@ -3699,7 +3699,7 @@ method:P10_PB_C
   skos:note "%" ;
   skos:prefLabel "P10_PB_C"@en ;
 .
-method:P10_PB_CS
+lab-method:P10_PB_CS
   rdf:type skos:Concept ;
   dct:description "Coarse sand (%) - Plummet balance" ;
   dct:title "P10_PB_CS" ;
@@ -3710,7 +3710,7 @@ method:P10_PB_CS
   skos:note "%" ;
   skos:prefLabel "P10_PB_CS"@en ;
 .
-method:P10_PB_FS
+lab-method:P10_PB_FS
   rdf:type skos:Concept ;
   dct:description "Fine sand (%) - Plummet balance" ;
   dct:title "P10_PB_FS" ;
@@ -3721,7 +3721,7 @@ method:P10_PB_FS
   skos:note "%" ;
   skos:prefLabel "P10_PB_FS"@en ;
 .
-method:P10_PB_S
+lab-method:P10_PB_S
   rdf:type skos:Concept ;
   dct:description "Sand (%) - Plummet balance" ;
   dct:title "P10_PB_S" ;
@@ -3732,7 +3732,7 @@ method:P10_PB_S
   skos:note "%" ;
   skos:prefLabel "P10_PB_S"@en ;
 .
-method:P10_PB_Z
+lab-method:P10_PB_Z
   rdf:type skos:Concept ;
   dct:description "Silt (%) - Plummet balance" ;
   dct:title "P10_PB_Z" ;
@@ -3743,7 +3743,7 @@ method:P10_PB_Z
   skos:note "%" ;
   skos:prefLabel "P10_PB_Z"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/P10_S_0.20>
+<http://www.anzsoil.org/def/au/soil/lab-method/P10_S_0.20>
   rdf:type skos:Concept ;
   dct:description "0.20 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_0.20" ;
@@ -3754,7 +3754,7 @@ method:P10_PB_Z
   skos:note "%" ;
   skos:prefLabel "P10_S_0.20"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/P10_S_0.48>
+<http://www.anzsoil.org/def/au/soil/lab-method/P10_S_0.48>
   rdf:type skos:Concept ;
   dct:description "0.48 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_0.48" ;
@@ -3765,7 +3765,7 @@ method:P10_PB_Z
   skos:note "%" ;
   skos:prefLabel "P10_S_0.48"@en ;
 .
-method:P10_S_1
+lab-method:P10_S_1
   rdf:type skos:Concept ;
   dct:description "1 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_1" ;
@@ -3776,7 +3776,7 @@ method:P10_S_1
   skos:note "%" ;
   skos:prefLabel "P10_S_1"@en ;
 .
-method:P10_S_1000
+lab-method:P10_S_1000
   rdf:type skos:Concept ;
   dct:description "1000 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_1000" ;
@@ -3787,7 +3787,7 @@ method:P10_S_1000
   skos:note "%" ;
   skos:prefLabel "P10_S_1000"@en ;
 .
-method:P10_S_125
+lab-method:P10_S_125
   rdf:type skos:Concept ;
   dct:description "125 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_125" ;
@@ -3798,7 +3798,7 @@ method:P10_S_125
   skos:note "%" ;
   skos:prefLabel "P10_S_125"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/P10_S_15.6>
+<http://www.anzsoil.org/def/au/soil/lab-method/P10_S_15.6>
   rdf:type skos:Concept ;
   dct:description "15.6 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_15.6" ;
@@ -3809,7 +3809,7 @@ method:P10_S_125
   skos:note "%" ;
   skos:prefLabel "P10_S_15.6"@en ;
 .
-method:P10_S_2
+lab-method:P10_S_2
   rdf:type skos:Concept ;
   dct:description "2 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_2" ;
@@ -3820,7 +3820,7 @@ method:P10_S_2
   skos:note "%" ;
   skos:prefLabel "P10_S_2"@en ;
 .
-method:P10_S_20
+lab-method:P10_S_20
   rdf:type skos:Concept ;
   dct:description "20 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_20" ;
@@ -3831,7 +3831,7 @@ method:P10_S_20
   skos:note "%" ;
   skos:prefLabel "P10_S_20"@en ;
 .
-method:P10_S_2000
+lab-method:P10_S_2000
   rdf:type skos:Concept ;
   dct:description "2000 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_2000" ;
@@ -3842,7 +3842,7 @@ method:P10_S_2000
   skos:note "%" ;
   skos:prefLabel "P10_S_2000"@en ;
 .
-method:P10_S_250
+lab-method:P10_S_250
   rdf:type skos:Concept ;
   dct:description "250 micron (cumlative %) - Sedigraph" ;
   dct:title "P10_S_250" ;
@@ -3853,7 +3853,7 @@ method:P10_S_250
   skos:note "%" ;
   skos:prefLabel "P10_S_250"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/P10_S_3.9>
+<http://www.anzsoil.org/def/au/soil/lab-method/P10_S_3.9>
   rdf:type skos:Concept ;
   dct:description "3.9 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_3.9" ;
@@ -3864,7 +3864,7 @@ method:P10_S_250
   skos:note "%" ;
   skos:prefLabel "P10_S_3.9"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/P10_S_31.2>
+<http://www.anzsoil.org/def/au/soil/lab-method/P10_S_31.2>
   rdf:type skos:Concept ;
   dct:description "31.2 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_31.2" ;
@@ -3875,7 +3875,7 @@ method:P10_S_250
   skos:note "%" ;
   skos:prefLabel "P10_S_31.2"@en ;
 .
-method:P10_S_500
+lab-method:P10_S_500
   rdf:type skos:Concept ;
   dct:description "500 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_500" ;
@@ -3886,7 +3886,7 @@ method:P10_S_500
   skos:note "%" ;
   skos:prefLabel "P10_S_500"@en ;
 .
-method:P10_S_53
+lab-method:P10_S_53
   rdf:type skos:Concept ;
   dct:description "53 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_53" ;
@@ -3897,7 +3897,7 @@ method:P10_S_53
   skos:note "%" ;
   skos:prefLabel "P10_S_53"@en ;
 .
-method:P10_S_63
+lab-method:P10_S_63
   rdf:type skos:Concept ;
   dct:description "63 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_63" ;
@@ -3908,7 +3908,7 @@ method:P10_S_63
   skos:note "%" ;
   skos:prefLabel "P10_S_63"@en ;
 .
-<http://registry.it.csiro.au/def/soils/lab-methods/P10_S_7.8>
+<http://www.anzsoil.org/def/au/soil/lab-method/P10_S_7.8>
   rdf:type skos:Concept ;
   dct:description "7.8 micron (cumulative %) - Sedigraph" ;
   dct:title "P10_S_7.8" ;
@@ -3919,7 +3919,7 @@ method:P10_S_63
   skos:note "%" ;
   skos:prefLabel "P10_S_7.8"@en ;
 .
-method:P3A1
+lab-method:P3A1
   rdf:type skos:Concept ;
   dct:description "Bulk density - g/cm3" ;
   dct:title "P3A1" ;
@@ -3930,7 +3930,7 @@ method:P3A1
   skos:note "g/cm3" ;
   skos:prefLabel "P3A1"@en ;
 .
-method:P3A1_CLOD
+lab-method:P3A1_CLOD
   rdf:type skos:Concept ;
   dct:description "Bulk density  g/cm3 - Clods at 0.1 Bar moisture content (McIntyre & Stirk, 1954, Aust. J. Agric. Res. 5:291-6)" ;
   dct:title "P3A1_CLOD" ;
@@ -3941,7 +3941,7 @@ method:P3A1_CLOD
   skos:note "g/cm3" ;
   skos:prefLabel "P3A1_CLOD"@en ;
 .
-method:P3A2
+lab-method:P3A2
   rdf:type skos:Concept ;
   dct:description "Macro Porosity %" ;
   dct:title "P3A2" ;
@@ -3952,7 +3952,7 @@ method:P3A2
   skos:note "%" ;
   skos:prefLabel "P3A2"@en ;
 .
-method:P3A2_McK
+lab-method:P3A2_McK
   rdf:type skos:Concept ;
   dct:description "Macro Porosity (%) as determined from McKenzie pore charts" ;
   dct:title "P3A2_McK" ;
@@ -3963,7 +3963,7 @@ method:P3A2_McK
   skos:note "%" ;
   skos:prefLabel "P3A2_McK"@en ;
 .
-method:P3A2_McKMP
+lab-method:P3A2_McKMP
   rdf:type skos:Concept ;
   dct:description "Maximum pore diameter (mm) as determined from McKenzie pore charts" ;
   dct:title "P3A2_McKMP" ;
@@ -3974,7 +3974,7 @@ method:P3A2_McKMP
   skos:note "%" ;
   skos:prefLabel "P3A2_McKMP"@en ;
 .
-method:P3A3
+lab-method:P3A3
   rdf:type skos:Concept ;
   dct:description "Total Porosity %" ;
   dct:title "P3A3" ;
@@ -3985,7 +3985,7 @@ method:P3A3
   skos:note "%" ;
   skos:prefLabel "P3A3"@en ;
 .
-method:P3A4
+lab-method:P3A4
   rdf:type skos:Concept ;
   dct:description "Particle Density g/cm3" ;
   dct:title "P3A4" ;
@@ -3996,7 +3996,7 @@ method:P3A4
   skos:note "g/cm3" ;
   skos:prefLabel "P3A4"@en ;
 .
-method:P3A_NR
+lab-method:P3A_NR
   rdf:type skos:Concept ;
   dct:description "Bulk density - Not recorded" ;
   dct:title "P3A_NR" ;
@@ -4007,7 +4007,7 @@ method:P3A_NR
   skos:note "g/cm3" ;
   skos:prefLabel "P3A_NR"@en ;
 .
-method:P3B1GV_15
+lab-method:P3B1GV_15
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture g/g - Gravimetric of ground sample (<2mm) using pressure plate" ;
   dct:title "P3B1GV_15" ;
@@ -4018,7 +4018,7 @@ method:P3B1GV_15
   skos:note "g/g" ;
   skos:prefLabel "P3B1GV_15"@en ;
 .
-method:P3B1VL_1
+lab-method:P3B1VL_1
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture m3/m3 - Volumetric using <2mm sample on pressure plate" ;
   dct:title "P3B1VL_1" ;
@@ -4029,7 +4029,7 @@ method:P3B1VL_1
   skos:note "m3/m3" ;
   skos:prefLabel "P3B1VL_1"@en ;
 .
-method:P3B1VL_15
+lab-method:P3B1VL_15
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Volumetric using <2mm sample on pressure plate" ;
   dct:title "P3B1VL_15" ;
@@ -4040,7 +4040,7 @@ method:P3B1VL_15
   skos:note "m3/m3" ;
   skos:prefLabel "P3B1VL_15"@en ;
 .
-method:P3B2GV_1
+lab-method:P3B2GV_1
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture m3/m3 - Gravimetric using disturbed sample on pressure plate" ;
   dct:title "P3B2GV_1" ;
@@ -4051,7 +4051,7 @@ method:P3B2GV_1
   skos:note "m3/m3" ;
   skos:prefLabel "P3B2GV_1"@en ;
 .
-method:P3B2GV_15
+lab-method:P3B2GV_15
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Gravimetric using disturbed sample on pressure plate" ;
   dct:title "P3B2GV_15" ;
@@ -4062,7 +4062,7 @@ method:P3B2GV_15
   skos:note "m3/m3" ;
   skos:prefLabel "P3B2GV_15"@en ;
 .
-method:P3B2GV_5
+lab-method:P3B2GV_5
   rdf:type skos:Concept ;
   dct:description "5 BAR Moisture m3/m3 - Gravimetric using disturbed sample on pressure plate" ;
   dct:title "P3B2GV_5" ;
@@ -4073,7 +4073,7 @@ method:P3B2GV_5
   skos:note "m3/m3" ;
   skos:prefLabel "P3B2GV_5"@en ;
 .
-method:P3B2VL_03
+lab-method:P3B2VL_03
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
   dct:title "P3B2VL_03" ;
@@ -4084,7 +4084,7 @@ method:P3B2VL_03
   skos:note "m3/m3" ;
   skos:prefLabel "P3B2VL_03"@en ;
 .
-method:P3B2VL_1
+lab-method:P3B2VL_1
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
   dct:title "P3B2VL_1" ;
@@ -4095,7 +4095,7 @@ method:P3B2VL_1
   skos:note "m3/m3" ;
   skos:prefLabel "P3B2VL_1"@en ;
 .
-method:P3B2VL_15
+lab-method:P3B2VL_15
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
   dct:title "P3B2VL_15" ;
@@ -4106,7 +4106,7 @@ method:P3B2VL_15
   skos:note "m3/m3" ;
   skos:prefLabel "P3B2VL_15"@en ;
 .
-method:P3B2VL_5
+lab-method:P3B2VL_5
   rdf:type skos:Concept ;
   dct:description "5 BAR Moisture m3/m3 - Volumetric using disturbed sample on pressure plate" ;
   dct:title "P3B2VL_5" ;
@@ -4117,7 +4117,7 @@ method:P3B2VL_5
   skos:note "m3/m3" ;
   skos:prefLabel "P3B2VL_5"@en ;
 .
-method:P3B3VLa001
+lab-method:P3B3VLa001
   rdf:type skos:Concept ;
   dct:description "0.01 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
   dct:title "P3B3VLa001" ;
@@ -4128,7 +4128,7 @@ method:P3B3VLa001
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLa001"@en ;
 .
-method:P3B3VLa005
+lab-method:P3B3VLa005
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
   dct:title "P3B3VLa005" ;
@@ -4139,7 +4139,7 @@ method:P3B3VLa005
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLa005"@en ;
 .
-method:P3B3VLa01
+lab-method:P3B3VLa01
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
   dct:title "P3B3VLa01" ;
@@ -4150,7 +4150,7 @@ method:P3B3VLa01
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLa01"@en ;
 .
-method:P3B3VLa03
+lab-method:P3B3VLa03
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
   dct:title "P3B3VLa03" ;
@@ -4161,7 +4161,7 @@ method:P3B3VLa03
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLa03"@en ;
 .
-method:P3B3VLa06
+lab-method:P3B3VLa06
   rdf:type skos:Concept ;
   dct:description "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
   dct:title "P3B3VLa06" ;
@@ -4172,7 +4172,7 @@ method:P3B3VLa06
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLa06"@en ;
 .
-method:P3B3VLaSAT
+lab-method:P3B3VLaSAT
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture m3/m3 - Volumetric using undisturbed 76mm diameter core on suction plate" ;
   dct:title "P3B3VLaSAT" ;
@@ -4183,7 +4183,7 @@ method:P3B3VLaSAT
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLaSAT"@en ;
 .
-method:P3B3VLb001
+lab-method:P3B3VLb001
   rdf:type skos:Concept ;
   dct:description "0.01 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P3B3VLb001" ;
@@ -4194,7 +4194,7 @@ method:P3B3VLb001
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLb001"@en ;
 .
-method:P3B3VLb003
+lab-method:P3B3VLb003
   rdf:type skos:Concept ;
   dct:description "0.03 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P3B3VLb003" ;
@@ -4205,7 +4205,7 @@ method:P3B3VLb003
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLb003"@en ;
 .
-method:P3B3VLb005
+lab-method:P3B3VLb005
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P3B3VLb005" ;
@@ -4216,7 +4216,7 @@ method:P3B3VLb005
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLb005"@en ;
 .
-method:P3B3VLb01
+lab-method:P3B3VLb01
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P3B3VLb01" ;
@@ -4227,7 +4227,7 @@ method:P3B3VLb01
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLb01"@en ;
 .
-method:P3B3VLb03
+lab-method:P3B3VLb03
   rdf:type skos:Concept ;
   dct:description "0.33 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P3B3VLb03" ;
@@ -4238,7 +4238,7 @@ method:P3B3VLb03
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLb03"@en ;
 .
-method:P3B3VLb05
+lab-method:P3B3VLb05
   rdf:type skos:Concept ;
   dct:description "0.5 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P3B3VLb05" ;
@@ -4249,7 +4249,7 @@ method:P3B3VLb05
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLb05"@en ;
 .
-method:P3B3VLb06
+lab-method:P3B3VLb06
   rdf:type skos:Concept ;
   dct:description "0.66 BAR Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P3B3VLb06" ;
@@ -4260,7 +4260,7 @@ method:P3B3VLb06
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLb06"@en ;
 .
-method:P3B3VLbSAT
+lab-method:P3B3VLbSAT
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture m3/m3 - Volumetric using undisturbed 73mm diameter and 75mm height core on suction plate taken from center of large core (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P3B3VLbSAT" ;
@@ -4271,7 +4271,7 @@ method:P3B3VLbSAT
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLbSAT"@en ;
 .
-method:P3B3VLc001
+lab-method:P3B3VLc001
   rdf:type skos:Concept ;
   dct:description "0.01 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
   dct:title "P3B3VLc001" ;
@@ -4282,7 +4282,7 @@ method:P3B3VLc001
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLc001"@en ;
 .
-method:P3B3VLc003
+lab-method:P3B3VLc003
   rdf:type skos:Concept ;
   dct:description "0.03 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
   dct:title "P3B3VLc003" ;
@@ -4293,7 +4293,7 @@ method:P3B3VLc003
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLc003"@en ;
 .
-method:P3B3VLc005
+lab-method:P3B3VLc005
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
   dct:title "P3B3VLc005" ;
@@ -4304,7 +4304,7 @@ method:P3B3VLc005
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLc005"@en ;
 .
-method:P3B3VLc01
+lab-method:P3B3VLc01
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
   dct:title "P3B3VLc01" ;
@@ -4315,7 +4315,7 @@ method:P3B3VLc01
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLc01"@en ;
 .
-method:P3B3VLc03
+lab-method:P3B3VLc03
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
   dct:title "P3B3VLc03" ;
@@ -4326,7 +4326,7 @@ method:P3B3VLc03
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLc03"@en ;
 .
-method:P3B3VLc06
+lab-method:P3B3VLc06
   rdf:type skos:Concept ;
   dct:description "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
   dct:title "P3B3VLc06" ;
@@ -4337,7 +4337,7 @@ method:P3B3VLc06
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLc06"@en ;
 .
-method:P3B3VLcSAT
+lab-method:P3B3VLcSAT
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture m3/m3 - Volumetric using undisturbed 98mm diameter core on suction plate" ;
   dct:title "P3B3VLcSAT" ;
@@ -4348,7 +4348,7 @@ method:P3B3VLcSAT
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLcSAT"@en ;
 .
-method:P3B3VLd06
+lab-method:P3B3VLd06
   rdf:type skos:Concept ;
   dct:description "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
   dct:title "P3B3VLd06" ;
@@ -4359,7 +4359,7 @@ method:P3B3VLd06
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLd06"@en ;
 .
-method:P3B3VLd1
+lab-method:P3B3VLd1
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
   dct:title "P3B3VLd1" ;
@@ -4370,7 +4370,7 @@ method:P3B3VLd1
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLd1"@en ;
 .
-method:P3B3VLd15
+lab-method:P3B3VLd15
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
   dct:title "P3B3VLd15" ;
@@ -4381,7 +4381,7 @@ method:P3B3VLd15
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLd15"@en ;
 .
-method:P3B3VLd3
+lab-method:P3B3VLd3
   rdf:type skos:Concept ;
   dct:description "3 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
   dct:title "P3B3VLd3" ;
@@ -4392,7 +4392,7 @@ method:P3B3VLd3
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLd3"@en ;
 .
-method:P3B3VLd5
+lab-method:P3B3VLd5
   rdf:type skos:Concept ;
   dct:description "5 BAR Moisture m3/m3 - Volumetric using undisturbed 48mm diameter and 15mm height core on pressure plate" ;
   dct:title "P3B3VLd5" ;
@@ -4403,7 +4403,7 @@ method:P3B3VLd5
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLd5"@en ;
 .
-method:P3B3VLe004
+lab-method:P3B3VLe004
   rdf:type skos:Concept ;
   dct:description "0.04 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on suction plate" ;
   dct:title "P3B3VLe004" ;
@@ -4414,7 +4414,7 @@ method:P3B3VLe004
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLe004"@en ;
 .
-method:P3B3VLe01
+lab-method:P3B3VLe01
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on suction plate" ;
   dct:title "P3B3VLe01" ;
@@ -4425,7 +4425,7 @@ method:P3B3VLe01
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLe01"@en ;
 .
-method:P3B3VLe03
+lab-method:P3B3VLe03
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on suction plate" ;
   dct:title "P3B3VLe03" ;
@@ -4436,7 +4436,7 @@ method:P3B3VLe03
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLe03"@en ;
 .
-method:P3B3VLe06
+lab-method:P3B3VLe06
   rdf:type skos:Concept ;
   dct:description "0.6 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
   dct:title "P3B3VLe06" ;
@@ -4447,7 +4447,7 @@ method:P3B3VLe06
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLe06"@en ;
 .
-method:P3B3VLe15
+lab-method:P3B3VLe15
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
   dct:title "P3B3VLe15" ;
@@ -4458,7 +4458,7 @@ method:P3B3VLe15
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLe15"@en ;
 .
-method:P3B3VLe2
+lab-method:P3B3VLe2
   rdf:type skos:Concept ;
   dct:description "2 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
   dct:title "P3B3VLe2" ;
@@ -4469,7 +4469,7 @@ method:P3B3VLe2
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLe2"@en ;
 .
-method:P3B3VLe7
+lab-method:P3B3VLe7
   rdf:type skos:Concept ;
   dct:description "7 BAR Moisture m3/m3 - Volumetric using undisturbed 60mm diameter and 34mm height core on pressure plate" ;
   dct:title "P3B3VLe7" ;
@@ -4480,7 +4480,7 @@ method:P3B3VLe7
   skos:note "m3/m3" ;
   skos:prefLabel "P3B3VLe7"@en ;
 .
-method:P3B4GV_01
+lab-method:P3B4GV_01
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture g/g - Gravimetric of soil clods (Soil Survey Staff,1967)" ;
   dct:title "P3B4GV_01" ;
@@ -4491,7 +4491,7 @@ method:P3B4GV_01
   skos:note "g/g" ;
   skos:prefLabel "P3B4GV_01"@en ;
 .
-method:P3B4VL_005
+lab-method:P3B4VL_005
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture m3/m3 - Volumetric of soil clods (Soil Survey Staff,1967)" ;
   dct:title "P3B4VL_005" ;
@@ -4502,7 +4502,7 @@ method:P3B4VL_005
   skos:note "m3/m3" ;
   skos:prefLabel "P3B4VL_005"@en ;
 .
-method:P3B5GV_01
+lab-method:P3B5GV_01
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture g/g - Gravimetric of soil clods (CSIRO Div. Of Soils TM 25/66)" ;
   dct:title "P3B5GV_01" ;
@@ -4513,7 +4513,7 @@ method:P3B5GV_01
   skos:note "g/g" ;
   skos:prefLabel "P3B5GV_01"@en ;
 .
-method:P3B6VL_DUL
+lab-method:P3B6VL_DUL
   rdf:type skos:Concept ;
   dct:description "Drained Upper Limit (0.1 BAR) Moisture m3/m3 - Volumetric using APSRU in situ methodology" ;
   dct:title "P3B6VL_DUL" ;
@@ -4524,7 +4524,7 @@ method:P3B6VL_DUL
   skos:note "m3/m3" ;
   skos:prefLabel "P3B6VL_DUL"@en ;
 .
-method:P3B6VL_LL
+lab-method:P3B6VL_LL
   rdf:type skos:Concept ;
   dct:description "Lower Limit (15 BAR) Moisture m3/m3 - Volumetric using APSRU in situ methodology" ;
   dct:title "P3B6VL_LL" ;
@@ -4535,7 +4535,7 @@ method:P3B6VL_LL
   skos:note "m3/m3" ;
   skos:prefLabel "P3B6VL_LL"@en ;
 .
-method:P3B6VL_SAT
+lab-method:P3B6VL_SAT
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture m3/m3 - Volumetric using APSRU in situ methodology" ;
   dct:title "P3B6VL_SAT" ;
@@ -4546,7 +4546,7 @@ method:P3B6VL_SAT
   skos:note "m3/m3" ;
   skos:prefLabel "P3B6VL_SAT"@en ;
 .
-method:P3B_GV_001
+lab-method:P3B_GV_001
   rdf:type skos:Concept ;
   dct:description "0.01 BAR Moisture g/g - Gravimetric using suction plate" ;
   dct:title "P3B_GV_001" ;
@@ -4557,7 +4557,7 @@ method:P3B_GV_001
   skos:note "g/g" ;
   skos:prefLabel "P3B_GV_001"@en ;
 .
-method:P3B_GV_003
+lab-method:P3B_GV_003
   rdf:type skos:Concept ;
   dct:description "0.03 BAR Moisture g/g - Gravimetric using suction plate" ;
   dct:title "P3B_GV_003" ;
@@ -4568,7 +4568,7 @@ method:P3B_GV_003
   skos:note "g/g" ;
   skos:prefLabel "P3B_GV_003"@en ;
 .
-method:P3B_GV_005
+lab-method:P3B_GV_005
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture g/g - Gravimetric using suction plate" ;
   dct:title "P3B_GV_005" ;
@@ -4579,7 +4579,7 @@ method:P3B_GV_005
   skos:note "g/g" ;
   skos:prefLabel "P3B_GV_005"@en ;
 .
-method:P3B_GV_01
+lab-method:P3B_GV_01
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture g/g - Gravimetric  using suction plate" ;
   dct:title "P3B_GV_01" ;
@@ -4590,7 +4590,7 @@ method:P3B_GV_01
   skos:note "g/g" ;
   skos:prefLabel "P3B_GV_01"@en ;
 .
-method:P3B_GV_03
+lab-method:P3B_GV_03
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture g/g - Gravimetric using suction plate" ;
   dct:title "P3B_GV_03" ;
@@ -4601,7 +4601,7 @@ method:P3B_GV_03
   skos:note "g/g" ;
   skos:prefLabel "P3B_GV_03"@en ;
 .
-method:P3B_GV_05
+lab-method:P3B_GV_05
   rdf:type skos:Concept ;
   dct:description "0.5 BAR Moisture g/g - Gravimetric using suction plate" ;
   dct:title "P3B_GV_05" ;
@@ -4612,7 +4612,7 @@ method:P3B_GV_05
   skos:note "g/g" ;
   skos:prefLabel "P3B_GV_05"@en ;
 .
-method:P3B_GV_1
+lab-method:P3B_GV_1
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture g/g - Gravimetric using pressure plate" ;
   dct:title "P3B_GV_1" ;
@@ -4623,7 +4623,7 @@ method:P3B_GV_1
   skos:note "g/g" ;
   skos:prefLabel "P3B_GV_1"@en ;
 .
-method:P3B_GV_15
+lab-method:P3B_GV_15
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture g/g - Gravimetric using pressure plate" ;
   dct:title "P3B_GV_15" ;
@@ -4634,7 +4634,7 @@ method:P3B_GV_15
   skos:note "g/g" ;
   skos:prefLabel "P3B_GV_15"@en ;
 .
-method:P3B_GV_5
+lab-method:P3B_GV_5
   rdf:type skos:Concept ;
   dct:description "5 BAR Moisture g/g - Gravimetric using pressure plate" ;
   dct:title "P3B_GV_5" ;
@@ -4645,7 +4645,7 @@ method:P3B_GV_5
   skos:note "g/g" ;
   skos:prefLabel "P3B_GV_5"@en ;
 .
-method:P3B_GV_SAT
+lab-method:P3B_GV_SAT
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture g/g - Gravimetric using suction plate" ;
   dct:title "P3B_GV_SAT" ;
@@ -4656,7 +4656,7 @@ method:P3B_GV_SAT
   skos:note "g/g" ;
   skos:prefLabel "P3B_GV_SAT"@en ;
 .
-method:P3B_NR_001
+lab-method:P3B_NR_001
   rdf:type skos:Concept ;
   dct:description "0.01 BAR Moisture % - Not recorded" ;
   dct:title "P3B_NR_001" ;
@@ -4667,7 +4667,7 @@ method:P3B_NR_001
   skos:note "%" ;
   skos:prefLabel "P3B_NR_001"@en ;
 .
-method:P3B_NR_003
+lab-method:P3B_NR_003
   rdf:type skos:Concept ;
   dct:description "0.03 BAR Moisture % - Not recorded" ;
   dct:title "P3B_NR_003" ;
@@ -4678,7 +4678,7 @@ method:P3B_NR_003
   skos:note "%" ;
   skos:prefLabel "P3B_NR_003"@en ;
 .
-method:P3B_NR_005
+lab-method:P3B_NR_005
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture % - Not recorded" ;
   dct:title "P3B_NR_005" ;
@@ -4689,7 +4689,7 @@ method:P3B_NR_005
   skos:note "%" ;
   skos:prefLabel "P3B_NR_005"@en ;
 .
-method:P3B_NR_01
+lab-method:P3B_NR_01
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture % - Not recorded" ;
   dct:title "P3B_NR_01" ;
@@ -4700,7 +4700,7 @@ method:P3B_NR_01
   skos:note "%" ;
   skos:prefLabel "P3B_NR_01"@en ;
 .
-method:P3B_NR_03
+lab-method:P3B_NR_03
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture % - Not recorded" ;
   dct:title "P3B_NR_03" ;
@@ -4711,7 +4711,7 @@ method:P3B_NR_03
   skos:note "%" ;
   skos:prefLabel "P3B_NR_03"@en ;
 .
-method:P3B_NR_05
+lab-method:P3B_NR_05
   rdf:type skos:Concept ;
   dct:description "0.5 BAR Moisture % - Not recorded" ;
   dct:title "P3B_NR_05" ;
@@ -4722,7 +4722,7 @@ method:P3B_NR_05
   skos:note "%" ;
   skos:prefLabel "P3B_NR_05"@en ;
 .
-method:P3B_NR_1
+lab-method:P3B_NR_1
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture % - Not recorded" ;
   dct:title "P3B_NR_1" ;
@@ -4733,7 +4733,7 @@ method:P3B_NR_1
   skos:note "%" ;
   skos:prefLabel "P3B_NR_1"@en ;
 .
-method:P3B_NR_15
+lab-method:P3B_NR_15
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture % - Not recorded" ;
   dct:title "P3B_NR_15" ;
@@ -4744,7 +4744,7 @@ method:P3B_NR_15
   skos:note "%" ;
   skos:prefLabel "P3B_NR_15"@en ;
 .
-method:P3B_NR_5
+lab-method:P3B_NR_5
   rdf:type skos:Concept ;
   dct:description "5 BAR Moisture % - Not recorded" ;
   dct:title "P3B_NR_5" ;
@@ -4755,7 +4755,7 @@ method:P3B_NR_5
   skos:note "%" ;
   skos:prefLabel "P3B_NR_5"@en ;
 .
-method:P3B_NR_SAT
+lab-method:P3B_NR_SAT
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture % - Not recorded" ;
   dct:title "P3B_NR_SAT" ;
@@ -4766,7 +4766,7 @@ method:P3B_NR_SAT
   skos:note "%" ;
   skos:prefLabel "P3B_NR_SAT"@en ;
 .
-method:P3B_VL_001
+lab-method:P3B_VL_001
   rdf:type skos:Concept ;
   dct:description "0.01 BAR Moisture m3/m3 - Volumetric using suction plate" ;
   dct:title "P3B_VL_001" ;
@@ -4777,7 +4777,7 @@ method:P3B_VL_001
   skos:note "m3/m3" ;
   skos:prefLabel "P3B_VL_001"@en ;
 .
-method:P3B_VL_003
+lab-method:P3B_VL_003
   rdf:type skos:Concept ;
   dct:description "0.03 BAR Moisture m3/m3 - Volumetric using suction plate" ;
   dct:title "P3B_VL_003" ;
@@ -4788,7 +4788,7 @@ method:P3B_VL_003
   skos:note "m3/m3" ;
   skos:prefLabel "P3B_VL_003"@en ;
 .
-method:P3B_VL_005
+lab-method:P3B_VL_005
   rdf:type skos:Concept ;
   dct:description "0.05 BAR Moisture m3/m3 - Volumetric using suction plate" ;
   dct:title "P3B_VL_005" ;
@@ -4799,7 +4799,7 @@ method:P3B_VL_005
   skos:note "m3/m3" ;
   skos:prefLabel "P3B_VL_005"@en ;
 .
-method:P3B_VL_01
+lab-method:P3B_VL_01
   rdf:type skos:Concept ;
   dct:description "0.1 BAR Moisture m3/m3 - Volumetric using suction plate" ;
   dct:title "P3B_VL_01" ;
@@ -4810,7 +4810,7 @@ method:P3B_VL_01
   skos:note "m3/m3" ;
   skos:prefLabel "P3B_VL_01"@en ;
 .
-method:P3B_VL_03
+lab-method:P3B_VL_03
   rdf:type skos:Concept ;
   dct:description "0.3 BAR Moisture m3/m3 - Volumetric using suction plate" ;
   dct:title "P3B_VL_03" ;
@@ -4821,7 +4821,7 @@ method:P3B_VL_03
   skos:note "m3/m3" ;
   skos:prefLabel "P3B_VL_03"@en ;
 .
-method:P3B_VL_05
+lab-method:P3B_VL_05
   rdf:type skos:Concept ;
   dct:description "0.5 BAR Moisture m3/m3 - Volumetric using suction plate" ;
   dct:title "P3B_VL_05" ;
@@ -4832,7 +4832,7 @@ method:P3B_VL_05
   skos:note "m3/m3" ;
   skos:prefLabel "P3B_VL_05"@en ;
 .
-method:P3B_VL_1
+lab-method:P3B_VL_1
   rdf:type skos:Concept ;
   dct:description "1 BAR Moisture m3/m3 - Volumetric using pressure plate" ;
   dct:title "P3B_VL_1" ;
@@ -4843,7 +4843,7 @@ method:P3B_VL_1
   skos:note "m3/m3" ;
   skos:prefLabel "P3B_VL_1"@en ;
 .
-method:P3B_VL_15
+lab-method:P3B_VL_15
   rdf:type skos:Concept ;
   dct:description "15 BAR Moisture m3/m3 - Volumetric using pressure plate" ;
   dct:title "P3B_VL_15" ;
@@ -4854,7 +4854,7 @@ method:P3B_VL_15
   skos:note "m3/m3" ;
   skos:prefLabel "P3B_VL_15"@en ;
 .
-method:P3B_VL_5
+lab-method:P3B_VL_5
   rdf:type skos:Concept ;
   dct:description "5 BAR Moisture m3/m3 - Volumetric using pressure plate" ;
   dct:title "P3B_VL_5" ;
@@ -4865,7 +4865,7 @@ method:P3B_VL_5
   skos:note "m3/m3" ;
   skos:prefLabel "P3B_VL_5"@en ;
 .
-method:P3B_VL_SAT
+lab-method:P3B_VL_SAT
   rdf:type skos:Concept ;
   dct:description "Saturated Moisture m3/m3 - Volumetric using suction plate" ;
   dct:title "P3B_VL_SAT" ;
@@ -4876,7 +4876,7 @@ method:P3B_VL_SAT
   skos:note "m3/m3" ;
   skos:prefLabel "P3B_VL_SAT"@en ;
 .
-method:P4D1
+lab-method:P4D1
   rdf:type skos:Concept ;
   dct:description "Saturated Hydraulic Conductivity" ;
   dct:title "P4D1" ;
@@ -4887,7 +4887,7 @@ method:P4D1
   skos:note "mm/hr" ;
   skos:prefLabel "P4D1"@en ;
 .
-method:P4_100DMcK
+lab-method:P4_100DMcK
   rdf:type skos:Concept ;
   dct:description "Unsaturated Hydraulic Conductivity - 100mm potential - Using disk permeameter with method CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996" ;
   dct:title "P4_100DMcK" ;
@@ -4898,7 +4898,7 @@ method:P4_100DMcK
   skos:note "mm/hr" ;
   skos:prefLabel "P4_100DMcK"@en ;
 .
-method:P4_100_McK
+lab-method:P4_100_McK
   rdf:type skos:Concept ;
   dct:description "Unsaturated Hydraulic Conductivity - 100mm potential (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P4_100_McK" ;
@@ -4909,7 +4909,7 @@ method:P4_100_McK
   skos:note "mm/hr" ;
   skos:prefLabel "P4_100_McK"@en ;
 .
-method:P4_10DMcK
+lab-method:P4_10DMcK
   rdf:type skos:Concept ;
   dct:description "Unsaturated Hydraulic Conductivity - 10mm potential - Using disk permeameter with method CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996" ;
   dct:title "P4_10DMcK" ;
@@ -4920,7 +4920,7 @@ method:P4_10DMcK
   skos:note "mm/hr" ;
   skos:prefLabel "P4_10DMcK"@en ;
 .
-method:P4_10_McK
+lab-method:P4_10_McK
   rdf:type skos:Concept ;
   dct:description "Unsaturated Hydraulic Conductivity - 10mm potential (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P4_10_McK" ;
@@ -4931,7 +4931,7 @@ method:P4_10_McK
   skos:note "mm/hr" ;
   skos:prefLabel "P4_10_McK"@en ;
 .
-method:P4_30DMcK
+lab-method:P4_30DMcK
   rdf:type skos:Concept ;
   dct:description "Unsaturated Hydraulic Conductivity - 30mm potential - Using disk permeameter with method CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996" ;
   dct:title "P4_30DMcK" ;
@@ -4942,7 +4942,7 @@ method:P4_30DMcK
   skos:note "mm/hr" ;
   skos:prefLabel "P4_30DMcK"@en ;
 .
-method:P4_30_LOV
+lab-method:P4_30_LOV
   rdf:type skos:Concept ;
   dct:description "Unsaturated Hydraulic Conductivity - 30mm potential Loveday falling head method using 98mm diameter cores" ;
   dct:title "P4_30_LOV" ;
@@ -4953,7 +4953,7 @@ method:P4_30_LOV
   skos:note "mm/hr" ;
   skos:prefLabel "P4_30_LOV"@en ;
 .
-method:P4_50DMcK
+lab-method:P4_50DMcK
   rdf:type skos:Concept ;
   dct:description "Unsaturated Hydraulic Conductivity - 50mm potential - Using disk permeameter with method CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996" ;
   dct:title "P4_50DMcK" ;
@@ -4964,7 +4964,7 @@ method:P4_50DMcK
   skos:note "mm/hr" ;
   skos:prefLabel "P4_50DMcK"@en ;
 .
-method:P4_50_McK
+lab-method:P4_50_McK
   rdf:type skos:Concept ;
   dct:description "Unsaturated Hydraulic Conductivity - 50mm potential (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P4_50_McK" ;
@@ -4975,7 +4975,7 @@ method:P4_50_McK
   skos:note "mm/hr" ;
   skos:prefLabel "P4_50_McK"@en ;
 .
-method:P4_sat
+lab-method:P4_sat
   rdf:type skos:Concept ;
   dct:description "Saturated Hydraulic Conductivity" ;
   dct:title "P4_sat" ;
@@ -4986,7 +4986,7 @@ method:P4_sat
   skos:note "mm/hr" ;
   skos:prefLabel "P4_sat"@en ;
 .
-method:P4_sat_FH
+lab-method:P4_sat_FH
   rdf:type skos:Concept ;
   dct:description "Modified Saturated Hydraulic Conductivity - falling head (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P4_sat_FH" ;
@@ -4997,7 +4997,7 @@ method:P4_sat_FH
   skos:note "mm/hr" ;
   skos:prefLabel "P4_sat_FH"@en ;
 .
-method:P4_sat_For
+lab-method:P4_sat_For
   rdf:type skos:Concept ;
   dct:description "Saturated Hydraulic Conductivity (Forrest et al, 1985)" ;
   dct:title "P4_sat_For" ;
@@ -5008,7 +5008,7 @@ method:P4_sat_For
   skos:note "mm/hr" ;
   skos:prefLabel "P4_sat_For"@en ;
 .
-method:P4_sat_LOV
+lab-method:P4_sat_LOV
   rdf:type skos:Concept ;
   dct:description "Saturated Hydraulic Conductivity - Modified (no de-aired water) Loveday falling head method using 98mm diameter cores" ;
   dct:title "P4_sat_LOV" ;
@@ -5019,7 +5019,7 @@ method:P4_sat_LOV
   skos:note "mm/hr" ;
   skos:prefLabel "P4_sat_LOV"@en ;
 .
-method:P4_sat_McK
+lab-method:P4_sat_McK
   rdf:type skos:Concept ;
   dct:description "Saturated Hydraulic Conductivity (CSIRO Div of Soil, DR 125, McKenzie and Jacquier, 1996)" ;
   dct:title "P4_sat_McK" ;
@@ -5030,7 +5030,7 @@ method:P4_sat_McK
   skos:note "mm/hr" ;
   skos:prefLabel "P4_sat_McK"@en ;
 .
-method:P5_COLE
+lab-method:P5_COLE
   rdf:type skos:Concept ;
   dct:description "Coefficient of Linear Extensibility (Grossman et al. 1968)" ;
   dct:title "P5_COLE" ;
@@ -5041,7 +5041,7 @@ method:P5_COLE
   skos:note "-" ;
   skos:prefLabel "P5_COLE"@en ;
 .
-method:P5_LS
+lab-method:P5_LS
   rdf:type skos:Concept ;
   dct:description "Linear shrinkage (Standards Association of Australia 1977. AS 1289 C4.1)" ;
   dct:title "P5_LS" ;
@@ -5052,7 +5052,7 @@ method:P5_LS
   skos:note "-" ;
   skos:prefLabel "P5_LS"@en ;
 .
-method:P5_LS_MOD
+lab-method:P5_LS_MOD
   rdf:type skos:Concept ;
   dct:description "Modified linear shrinkage (McKenzie, Jacquier and Ringrose-Voase, AJSR, 1994, 32, 931-8)" ;
   dct:title "P5_LS_MOD" ;
@@ -5063,7 +5063,7 @@ method:P5_LS_MOD
   skos:note "-" ;
   skos:prefLabel "P5_LS_MOD"@en ;
 .
-method:P6_LP
+lab-method:P6_LP
   rdf:type skos:Concept ;
   dct:description "Dispersion Index (Loveday and Pyle, 1973)" ;
   dct:title "P6_LP" ;
@@ -5074,7 +5074,7 @@ method:P6_LP
   skos:note "-" ;
   skos:prefLabel "P6_LP"@en ;
 .
-method:PWS1-2mm
+lab-method:PWS1-2mm
   rdf:type skos:Concept ;
   dct:description "1000-2000 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   dct:title "PWS1-2mm" ;
@@ -5085,7 +5085,7 @@ method:PWS1-2mm
   skos:note "%" ;
   skos:prefLabel "PWS1-2mm"@en ;
 .
-method:PWS20-63
+lab-method:PWS20-63
   rdf:type skos:Concept ;
   dct:description "20-63 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   dct:title "PWS20-63" ;
@@ -5096,7 +5096,7 @@ method:PWS20-63
   skos:note "%" ;
   skos:prefLabel "PWS20-63"@en ;
 .
-method:PWS212-425
+lab-method:PWS212-425
   rdf:type skos:Concept ;
   dct:description "212-425 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   dct:title "PWS212-425" ;
@@ -5107,7 +5107,7 @@ method:PWS212-425
   skos:note "%" ;
   skos:prefLabel "PWS212-425"@en ;
 .
-method:PWS425-1mm
+lab-method:PWS425-1mm
   rdf:type skos:Concept ;
   dct:description "425-1000  micron fraction (%) - Wet Sieving after chemical dispersion" ;
   dct:title "PWS425-1mm" ;
@@ -5118,7 +5118,7 @@ method:PWS425-1mm
   skos:note "%" ;
   skos:prefLabel "PWS425-1mm"@en ;
 .
-method:PWS63-212
+lab-method:PWS63-212
   rdf:type skos:Concept ;
   dct:description "63-212 micron fraction (%) - Wet Sieving after chemical dispersion" ;
   dct:title "PWS63-212" ;
@@ -5129,7 +5129,7 @@ method:PWS63-212
   skos:note "%" ;
   skos:prefLabel "PWS63-212"@en ;
 .
-method:TE_CD_AL
+lab-method:TE_CD_AL
   rdf:type skos:Concept ;
   dct:description "Total Element Al - by Citrate/Dithionite Extraction" ;
   dct:title "TE_CD_AL" ;
@@ -5140,7 +5140,7 @@ method:TE_CD_AL
   skos:note "%" ;
   skos:prefLabel "TE_CD_AL"@en ;
 .
-method:TE_CD_CA
+lab-method:TE_CD_CA
   rdf:type skos:Concept ;
   dct:description "Total Element Ca - by Citrate/Dithionite Extraction" ;
   dct:title "TE_CD_CA" ;
@@ -5151,7 +5151,7 @@ method:TE_CD_CA
   skos:note "%" ;
   skos:prefLabel "TE_CD_CA"@en ;
 .
-method:TE_CD_MG
+lab-method:TE_CD_MG
   rdf:type skos:Concept ;
   dct:description "Total Element Mg - by Citrate/Dithionite Extraction" ;
   dct:title "TE_CD_MG" ;
@@ -5162,7 +5162,7 @@ method:TE_CD_MG
   skos:note "%" ;
   skos:prefLabel "TE_CD_MG"@en ;
 .
-method:TE_CD_NA
+lab-method:TE_CD_NA
   rdf:type skos:Concept ;
   dct:description "Total Element Na - by Citrate/Dithionite Extraction" ;
   dct:title "TE_CD_NA" ;
@@ -5173,7 +5173,7 @@ method:TE_CD_NA
   skos:note "%" ;
   skos:prefLabel "TE_CD_NA"@en ;
 .
-method:TE_CD_SI02
+lab-method:TE_CD_SI02
   rdf:type skos:Concept ;
   dct:description "Total Element SiO2 - by Citrate/Dithionite Extraction" ;
   dct:title "TE_CD_SI02" ;
@@ -5184,7 +5184,7 @@ method:TE_CD_SI02
   skos:note "%" ;
   skos:prefLabel "TE_CD_SI02"@en ;
 .
-method:TE_CD_TI02
+lab-method:TE_CD_TI02
   rdf:type skos:Concept ;
   dct:description "Total Element TiO2 - by Citrate/Dithionite Extraction" ;
   dct:title "TE_CD_TI02" ;
@@ -5195,7 +5195,7 @@ method:TE_CD_TI02
   skos:note "%" ;
   skos:prefLabel "TE_CD_TI02"@en ;
 .
-method:TE_HFplusAL
+lab-method:TE_HFplusAL
   rdf:type skos:Concept ;
   dct:description "Total Element Al - by HF/HClO4 Digest" ;
   dct:title "TE_HF+AL" ;
@@ -5206,7 +5206,7 @@ method:TE_HFplusAL
   skos:note "%" ;
   skos:prefLabel "TE_HF+AL"@en ;
 .
-method:TE_HFplusCA
+lab-method:TE_HFplusCA
   rdf:type skos:Concept ;
   dct:description "Total Element Ca - by HF/HClO4 Digest" ;
   dct:title "TE_HF+CA" ;
@@ -5217,7 +5217,7 @@ method:TE_HFplusCA
   skos:note "%" ;
   skos:prefLabel "TE_HF+CA"@en ;
 .
-method:TE_HFplusNA
+lab-method:TE_HFplusNA
   rdf:type skos:Concept ;
   dct:description "Total Element Na - by HF/HClO4 Digest" ;
   dct:title "TE_HF+NA" ;
@@ -5228,7 +5228,7 @@ method:TE_HFplusNA
   skos:note "%" ;
   skos:prefLabel "TE_HF+NA"@en ;
 .
-method:TE_HFplusSIO2
+lab-method:TE_HFplusSIO2
   rdf:type skos:Concept ;
   dct:description "Total Element SiO2 - by HF/HClO4 Digest" ;
   dct:title "TE_HF+SIO2" ;
@@ -5239,7 +5239,7 @@ method:TE_HFplusSIO2
   skos:note "%" ;
   skos:prefLabel "TE_HF+SIO2"@en ;
 .
-method:TE_HFplusTIO2
+lab-method:TE_HFplusTIO2
   rdf:type skos:Concept ;
   dct:description "Total Element TiO2 - by HF/HClO4 Digest" ;
   dct:title "TE_HF+TIO2" ;
@@ -5250,7 +5250,7 @@ method:TE_HFplusTIO2
   skos:note "%" ;
   skos:prefLabel "TE_HF+TIO2"@en ;
 .
-method:TE_HFplus_MG
+lab-method:TE_HFplus_MG
   rdf:type skos:Concept ;
   dct:description "Total Element Mg - by HF/HClO4 Digest" ;
   dct:title "TE_HF+_MG" ;
@@ -5261,7 +5261,7 @@ method:TE_HFplus_MG
   skos:note "%" ;
   skos:prefLabel "TE_HF+_MG"@en ;
 .
-method:TE_NR_AL
+lab-method:TE_NR_AL
   rdf:type skos:Concept ;
   dct:description "Total Element Al - Not recorded" ;
   dct:title "TE_NR_AL" ;
@@ -5272,7 +5272,7 @@ method:TE_NR_AL
   skos:note "%" ;
   skos:prefLabel "TE_NR_AL"@en ;
 .
-method:TE_NR_CA
+lab-method:TE_NR_CA
   rdf:type skos:Concept ;
   dct:description "Total Element Ca - Not recorded" ;
   dct:title "TE_NR_CA" ;
@@ -5283,7 +5283,7 @@ method:TE_NR_CA
   skos:note "%" ;
   skos:prefLabel "TE_NR_CA"@en ;
 .
-method:TE_NR_MG
+lab-method:TE_NR_MG
   rdf:type skos:Concept ;
   dct:description "Total Element Mg - Not recorded" ;
   dct:title "TE_NR_MG" ;
@@ -5294,7 +5294,7 @@ method:TE_NR_MG
   skos:note "%" ;
   skos:prefLabel "TE_NR_MG"@en ;
 .
-method:TE_NR_NA
+lab-method:TE_NR_NA
   rdf:type skos:Concept ;
   dct:description "Total Element Na - Not recorded" ;
   dct:title "TE_NR_NA" ;
@@ -5305,7 +5305,7 @@ method:TE_NR_NA
   skos:note "%" ;
   skos:prefLabel "TE_NR_NA"@en ;
 .
-method:TE_NR_SI02
+lab-method:TE_NR_SI02
   rdf:type skos:Concept ;
   dct:description "Total Element SiO2 - Not recorded" ;
   dct:title "TE_NR_SI02" ;
@@ -5316,7 +5316,7 @@ method:TE_NR_SI02
   skos:note "%" ;
   skos:prefLabel "TE_NR_SI02"@en ;
 .
-method:TE_NR_TI02
+lab-method:TE_NR_TI02
   rdf:type skos:Concept ;
   dct:description "Total Element TiO2 - Not recorded" ;
   dct:title "TE_NR_TI02" ;
@@ -5327,7 +5327,7 @@ method:TE_NR_TI02
   skos:note "%" ;
   skos:prefLabel "TE_NR_TI02"@en ;
 .
-method:TE_XRFAL
+lab-method:TE_XRFAL
   rdf:type skos:Concept ;
   dct:description "Total Element Al - By XRF" ;
   dct:title "TE_XRFAL" ;
@@ -5338,7 +5338,7 @@ method:TE_XRFAL
   skos:note "%" ;
   skos:prefLabel "TE_XRFAL"@en ;
 .
-method:TE_XRFCA
+lab-method:TE_XRFCA
   rdf:type skos:Concept ;
   dct:description "Total Element Ca - By XRF" ;
   dct:title "TE_XRFCA" ;
@@ -5349,7 +5349,7 @@ method:TE_XRFCA
   skos:note "%" ;
   skos:prefLabel "TE_XRFCA"@en ;
 .
-method:TE_XRFNA
+lab-method:TE_XRFNA
   rdf:type skos:Concept ;
   dct:description "Total Element Na - By XRF" ;
   dct:title "TE_XRFNA" ;
@@ -5360,7 +5360,7 @@ method:TE_XRFNA
   skos:note "%" ;
   skos:prefLabel "TE_XRFNA"@en ;
 .
-method:TE_XRFSI02
+lab-method:TE_XRFSI02
   rdf:type skos:Concept ;
   dct:description "Total Element SiO2 - By XRF" ;
   dct:title "TE_XRFSI02" ;
@@ -5371,7 +5371,7 @@ method:TE_XRFSI02
   skos:note "%" ;
   skos:prefLabel "TE_XRFSI02"@en ;
 .
-method:TE_XRFTIO2
+lab-method:TE_XRFTIO2
   rdf:type skos:Concept ;
   dct:description "Total Element TiO2 - By XRF" ;
   dct:title "TE_XRFTIO2" ;
@@ -5382,7 +5382,7 @@ method:TE_XRFTIO2
   skos:note "%" ;
   skos:prefLabel "TE_XRFTIO2"@en ;
 .
-method:TE_XRF_MG
+lab-method:TE_XRF_MG
   rdf:type skos:Concept ;
   dct:description "Total Element Mg - By XRF" ;
   dct:title "TE_XRF_MG" ;
@@ -5393,7 +5393,7 @@ method:TE_XRF_MG
   skos:note "%" ;
   skos:prefLabel "TE_XRF_MG"@en ;
 .
-method:XRD_C_Ab
+lab-method:XRD_C_Ab
   rdf:type skos:Concept ;
   dct:description "Amphibole - X-Ray Diffraction" ;
   dct:title "XRD_C_Ab" ;
@@ -5404,7 +5404,7 @@ method:XRD_C_Ab
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ab"@en ;
 .
-method:XRD_C_Ah
+lab-method:XRD_C_Ah
   rdf:type skos:Concept ;
   dct:description "Allophane - X-Ray Diffraction" ;
   dct:title "XRD_C_Ah" ;
@@ -5415,7 +5415,7 @@ method:XRD_C_Ah
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ah"@en ;
 .
-method:XRD_C_An
+lab-method:XRD_C_An
   rdf:type skos:Concept ;
   dct:description "Anatase - X-Ray Diffraction" ;
   dct:title "XRD_C_An" ;
@@ -5426,7 +5426,7 @@ method:XRD_C_An
   skos:note "%" ;
   skos:prefLabel "XRD_C_An"@en ;
 .
-method:XRD_C_Ap
+lab-method:XRD_C_Ap
   rdf:type skos:Concept ;
   dct:description "Apatite - X-Ray Diffraction" ;
   dct:title "XRD_C_Ap" ;
@@ -5437,7 +5437,7 @@ method:XRD_C_Ap
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ap"@en ;
 .
-method:XRD_C_Arg
+lab-method:XRD_C_Arg
   rdf:type skos:Concept ;
   dct:description "Argonite - X-Ray Diffraction" ;
   dct:title "XRD_C_Arg" ;
@@ -5448,7 +5448,7 @@ method:XRD_C_Arg
   skos:note "%" ;
   skos:prefLabel "XRD_C_Arg"@en ;
 .
-method:XRD_C_At
+lab-method:XRD_C_At
   rdf:type skos:Concept ;
   dct:description "Alunite - X-Ray Diffraction" ;
   dct:title "XRD_C_At" ;
@@ -5459,7 +5459,7 @@ method:XRD_C_At
   skos:note "%" ;
   skos:prefLabel "XRD_C_At"@en ;
 .
-method:XRD_C_Bd
+lab-method:XRD_C_Bd
   rdf:type skos:Concept ;
   dct:description "Beidellite - X-Ray Diffraction" ;
   dct:title "XRD_C_Bd" ;
@@ -5470,7 +5470,7 @@ method:XRD_C_Bd
   skos:note "%" ;
   skos:prefLabel "XRD_C_Bd"@en ;
 .
-method:XRD_C_Bm
+lab-method:XRD_C_Bm
   rdf:type skos:Concept ;
   dct:description "Boehmite - X-Ray Diffraction" ;
   dct:title "XRD_C_Bm" ;
@@ -5481,7 +5481,7 @@ method:XRD_C_Bm
   skos:note "%" ;
   skos:prefLabel "XRD_C_Bm"@en ;
 .
-method:XRD_C_Bt
+lab-method:XRD_C_Bt
   rdf:type skos:Concept ;
   dct:description "Biotite - X-Ray Diffraction" ;
   dct:title "XRD_C_Bt" ;
@@ -5492,7 +5492,7 @@ method:XRD_C_Bt
   skos:note "%" ;
   skos:prefLabel "XRD_C_Bt"@en ;
 .
-method:XRD_C_Cb
+lab-method:XRD_C_Cb
   rdf:type skos:Concept ;
   dct:description "Cristobalite - X-Ray Diffraction" ;
   dct:title "XRD_C_Cb" ;
@@ -5503,7 +5503,7 @@ method:XRD_C_Cb
   skos:note "%" ;
   skos:prefLabel "XRD_C_Cb"@en ;
 .
-method:XRD_C_Ch
+lab-method:XRD_C_Ch
   rdf:type skos:Concept ;
   dct:description "Chlorite - X-Ray Diffraction" ;
   dct:title "XRD_C_Ch" ;
@@ -5514,7 +5514,7 @@ method:XRD_C_Ch
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ch"@en ;
 .
-method:XRD_C_Ch2
+lab-method:XRD_C_Ch2
   rdf:type skos:Concept ;
   dct:description "Chloritized 2:1 minerals - X-Ray Diffraction" ;
   dct:title "XRD_C_Ch2" ;
@@ -5525,7 +5525,7 @@ method:XRD_C_Ch2
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ch2"@en ;
 .
-method:XRD_C_Crn
+lab-method:XRD_C_Crn
   rdf:type skos:Concept ;
   dct:description "Corondum - X-Ray Diffraction" ;
   dct:title "XRD_C_Crn" ;
@@ -5536,7 +5536,7 @@ method:XRD_C_Crn
   skos:note "%" ;
   skos:prefLabel "XRD_C_Crn"@en ;
 .
-method:XRD_C_Ct
+lab-method:XRD_C_Ct
   rdf:type skos:Concept ;
   dct:description "Calcite - X-Ray Diffraction" ;
   dct:title "XRD_C_Ct" ;
@@ -5547,7 +5547,7 @@ method:XRD_C_Ct
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ct"@en ;
 .
-method:XRD_C_Dr
+lab-method:XRD_C_Dr
   rdf:type skos:Concept ;
   dct:description "Dravite - X-Ray Diffraction" ;
   dct:title "XRD_C_Dr" ;
@@ -5558,7 +5558,7 @@ method:XRD_C_Dr
   skos:note "%" ;
   skos:prefLabel "XRD_C_Dr"@en ;
 .
-method:XRD_C_Dt
+lab-method:XRD_C_Dt
   rdf:type skos:Concept ;
   dct:description "Dolomite - X-Ray Diffraction" ;
   dct:title "XRD_C_Dt" ;
@@ -5569,7 +5569,7 @@ method:XRD_C_Dt
   skos:note "%" ;
   skos:prefLabel "XRD_C_Dt"@en ;
 .
-method:XRD_C_Fd
+lab-method:XRD_C_Fd
   rdf:type skos:Concept ;
   dct:description "Feldspar - X-Ray Diffraction" ;
   dct:title "XRD_C_Fd" ;
@@ -5580,7 +5580,7 @@ method:XRD_C_Fd
   skos:note "%" ;
   skos:prefLabel "XRD_C_Fd"@en ;
 .
-method:XRD_C_Fh
+lab-method:XRD_C_Fh
   rdf:type skos:Concept ;
   dct:description "Ferrihydrite - X-Ray Diffraction" ;
   dct:title "XRD_C_Fh" ;
@@ -5591,7 +5591,7 @@ method:XRD_C_Fh
   skos:note "%" ;
   skos:prefLabel "XRD_C_Fh"@en ;
 .
-method:XRD_C_Fl
+lab-method:XRD_C_Fl
   rdf:type skos:Concept ;
   dct:description "Flourite - X-Ray Diffraction" ;
   dct:title "XRD_C_Fl" ;
@@ -5602,7 +5602,7 @@ method:XRD_C_Fl
   skos:note "%" ;
   skos:prefLabel "XRD_C_Fl"@en ;
 .
-method:XRD_C_Fo
+lab-method:XRD_C_Fo
   rdf:type skos:Concept ;
   dct:description "Feroxyhite - X-Ray Diffraction" ;
   dct:title "XRD_C_Fo" ;
@@ -5613,7 +5613,7 @@ method:XRD_C_Fo
   skos:note "%" ;
   skos:prefLabel "XRD_C_Fo"@en ;
 .
-method:XRD_C_Gb
+lab-method:XRD_C_Gb
   rdf:type skos:Concept ;
   dct:description "Gibbsite - X-Ray Diffraction" ;
   dct:title "XRD_C_Gb" ;
@@ -5624,7 +5624,7 @@ method:XRD_C_Gb
   skos:note "%" ;
   skos:prefLabel "XRD_C_Gb"@en ;
 .
-method:XRD_C_Gl
+lab-method:XRD_C_Gl
   rdf:type skos:Concept ;
   dct:description "Glauconite - X-Ray Diffraction" ;
   dct:title "XRD_C_Gl" ;
@@ -5635,7 +5635,7 @@ method:XRD_C_Gl
   skos:note "%" ;
   skos:prefLabel "XRD_C_Gl"@en ;
 .
-method:XRD_C_Gt
+lab-method:XRD_C_Gt
   rdf:type skos:Concept ;
   dct:description "Geothite - X-Ray Diffraction" ;
   dct:title "XRD_C_Gt" ;
@@ -5646,7 +5646,7 @@ method:XRD_C_Gt
   skos:note "%" ;
   skos:prefLabel "XRD_C_Gt"@en ;
 .
-method:XRD_C_Gy
+lab-method:XRD_C_Gy
   rdf:type skos:Concept ;
   dct:description "Gypsum - X-Ray Diffraction" ;
   dct:title "XRD_C_Gy" ;
@@ -5657,7 +5657,7 @@ method:XRD_C_Gy
   skos:note "%" ;
   skos:prefLabel "XRD_C_Gy"@en ;
 .
-method:XRD_C_Hl
+lab-method:XRD_C_Hl
   rdf:type skos:Concept ;
   dct:description "Halite - X-Ray Diffraction" ;
   dct:title "XRD_C_Hl" ;
@@ -5668,7 +5668,7 @@ method:XRD_C_Hl
   skos:note "%" ;
   skos:prefLabel "XRD_C_Hl"@en ;
 .
-method:XRD_C_Hm
+lab-method:XRD_C_Hm
   rdf:type skos:Concept ;
   dct:description "Hematite - X-Ray Diffraction" ;
   dct:title "XRD_C_Hm" ;
@@ -5679,7 +5679,7 @@ method:XRD_C_Hm
   skos:note "%" ;
   skos:prefLabel "XRD_C_Hm"@en ;
 .
-method:XRD_C_Hn
+lab-method:XRD_C_Hn
   rdf:type skos:Concept ;
   dct:description "Huntite - X-Ray Diffraction" ;
   dct:title "XRD_C_Hn" ;
@@ -5690,7 +5690,7 @@ method:XRD_C_Hn
   skos:note "%" ;
   skos:prefLabel "XRD_C_Hn"@en ;
 .
-method:XRD_C_Ht0
+lab-method:XRD_C_Ht0
   rdf:type skos:Concept ;
   dct:description "Halloysite (10 A`) - X-Ray Diffraction" ;
   dct:title "XRD_C_Ht0" ;
@@ -5701,7 +5701,7 @@ method:XRD_C_Ht0
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ht0"@en ;
 .
-method:XRD_C_Ht7
+lab-method:XRD_C_Ht7
   rdf:type skos:Concept ;
   dct:description "Halloysite (7 A`) - X-Ray Diffraction" ;
   dct:title "XRD_C_Ht7" ;
@@ -5712,7 +5712,7 @@ method:XRD_C_Ht7
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ht7"@en ;
 .
-method:XRD_C_Ig
+lab-method:XRD_C_Ig
   rdf:type skos:Concept ;
   dct:description "Imogolite - X-Ray Diffraction" ;
   dct:title "XRD_C_Ig" ;
@@ -5723,7 +5723,7 @@ method:XRD_C_Ig
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ig"@en ;
 .
-method:XRD_C_Il
+lab-method:XRD_C_Il
   rdf:type skos:Concept ;
   dct:description "Illite - X-Ray Diffraction" ;
   dct:title "XRD_C_Il" ;
@@ -5734,7 +5734,7 @@ method:XRD_C_Il
   skos:note "%" ;
   skos:prefLabel "XRD_C_Il"@en ;
 .
-method:XRD_C_Im
+lab-method:XRD_C_Im
   rdf:type skos:Concept ;
   dct:description "Ilmenite - X-Ray Diffraction" ;
   dct:title "XRD_C_Im" ;
@@ -5745,7 +5745,7 @@ method:XRD_C_Im
   skos:note "%" ;
   skos:prefLabel "XRD_C_Im"@en ;
 .
-method:XRD_C_Is
+lab-method:XRD_C_Is
   rdf:type skos:Concept ;
   dct:description "Interstratified clay minerals - X-Ray Diffraction" ;
   dct:title "XRD_C_Is" ;
@@ -5756,7 +5756,7 @@ method:XRD_C_Is
   skos:note "%" ;
   skos:prefLabel "XRD_C_Is"@en ;
 .
-method:XRD_C_Jr
+lab-method:XRD_C_Jr
   rdf:type skos:Concept ;
   dct:description "Jarosite - X-Ray Diffraction" ;
   dct:title "XRD_C_Jr" ;
@@ -5767,7 +5767,7 @@ method:XRD_C_Jr
   skos:note "%" ;
   skos:prefLabel "XRD_C_Jr"@en ;
 .
-method:XRD_C_K2O
+lab-method:XRD_C_K2O
   rdf:type skos:Concept ;
   dct:description "K2O - X-Ray Diffraction or Clay Fraction (air dry)" ;
   dct:title "XRD_C_K2O" ;
@@ -5778,7 +5778,7 @@ method:XRD_C_K2O
   skos:note "%" ;
   skos:prefLabel "XRD_C_K2O"@en ;
 .
-method:XRD_C_Ka
+lab-method:XRD_C_Ka
   rdf:type skos:Concept ;
   dct:description "Kaolin - X-Ray Diffraction" ;
   dct:title "XRD_C_Ka" ;
@@ -5789,7 +5789,7 @@ method:XRD_C_Ka
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ka"@en ;
 .
-method:XRD_C_Kt
+lab-method:XRD_C_Kt
   rdf:type skos:Concept ;
   dct:description "Kaolinite - X-Ray Diffraction" ;
   dct:title "XRD_C_Kt" ;
@@ -5800,7 +5800,7 @@ method:XRD_C_Kt
   skos:note "%" ;
   skos:prefLabel "XRD_C_Kt"@en ;
 .
-method:XRD_C_Lp
+lab-method:XRD_C_Lp
   rdf:type skos:Concept ;
   dct:description "Lepidocrosite - X-Ray Diffraction" ;
   dct:title "XRD_C_Lp" ;
@@ -5811,7 +5811,7 @@ method:XRD_C_Lp
   skos:note "%" ;
   skos:prefLabel "XRD_C_Lp"@en ;
 .
-method:XRD_C_Mh
+lab-method:XRD_C_Mh
   rdf:type skos:Concept ;
   dct:description "Meghemite - X-Ray Diffraction" ;
   dct:title "XRD_C_Mh" ;
@@ -5822,7 +5822,7 @@ method:XRD_C_Mh
   skos:note "%" ;
   skos:prefLabel "XRD_C_Mh"@en ;
 .
-method:XRD_C_Mi
+lab-method:XRD_C_Mi
   rdf:type skos:Concept ;
   dct:description "Mica - X-Ray Diffraction" ;
   dct:title "XRD_C_Mi" ;
@@ -5833,7 +5833,7 @@ method:XRD_C_Mi
   skos:note "%" ;
   skos:prefLabel "XRD_C_Mi"@en ;
 .
-method:XRD_C_Mm
+lab-method:XRD_C_Mm
   rdf:type skos:Concept ;
   dct:description "Montmorillonite - X-Ray Diffraction" ;
   dct:title "XRD_C_Mm" ;
@@ -5844,7 +5844,7 @@ method:XRD_C_Mm
   skos:note "%" ;
   skos:prefLabel "XRD_C_Mm"@en ;
 .
-method:XRD_C_Ms
+lab-method:XRD_C_Ms
   rdf:type skos:Concept ;
   dct:description "Magnesite - X-Ray Diffraction" ;
   dct:title "XRD_C_Ms" ;
@@ -5855,7 +5855,7 @@ method:XRD_C_Ms
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ms"@en ;
 .
-method:XRD_C_Mt
+lab-method:XRD_C_Mt
   rdf:type skos:Concept ;
   dct:description "Magnetite - X-Ray Diffraction" ;
   dct:title "XRD_C_Mt" ;
@@ -5866,7 +5866,7 @@ method:XRD_C_Mt
   skos:note "%" ;
   skos:prefLabel "XRD_C_Mt"@en ;
 .
-method:XRD_C_Mu
+lab-method:XRD_C_Mu
   rdf:type skos:Concept ;
   dct:description "Muscovite - X-Ray Diffraction" ;
   dct:title "XRD_C_Mu" ;
@@ -5877,7 +5877,7 @@ method:XRD_C_Mu
   skos:note "%" ;
   skos:prefLabel "XRD_C_Mu"@en ;
 .
-method:XRD_C_Mz
+lab-method:XRD_C_Mz
   rdf:type skos:Concept ;
   dct:description "Monozite - X-Ray Diffraction" ;
   dct:title "XRD_C_Mz" ;
@@ -5888,7 +5888,7 @@ method:XRD_C_Mz
   skos:note "%" ;
   skos:prefLabel "XRD_C_Mz"@en ;
 .
-method:XRD_C_Nt
+lab-method:XRD_C_Nt
   rdf:type skos:Concept ;
   dct:description "Nontronite - X-Ray Diffraction" ;
   dct:title "XRD_C_Nt" ;
@@ -5899,7 +5899,7 @@ method:XRD_C_Nt
   skos:note "%" ;
   skos:prefLabel "XRD_C_Nt"@en ;
 .
-method:XRD_C_Ol
+lab-method:XRD_C_Ol
   rdf:type skos:Concept ;
   dct:description "Olivine - X-Ray Diffraction" ;
   dct:title "XRD_C_Ol" ;
@@ -5910,7 +5910,7 @@ method:XRD_C_Ol
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ol"@en ;
 .
-method:XRD_C_Or
+lab-method:XRD_C_Or
   rdf:type skos:Concept ;
   dct:description "Orthoclase - X-Ray Diffraction" ;
   dct:title "XRD_C_Or" ;
@@ -5921,7 +5921,7 @@ method:XRD_C_Or
   skos:note "%" ;
   skos:prefLabel "XRD_C_Or"@en ;
 .
-method:XRD_C_Pg
+lab-method:XRD_C_Pg
   rdf:type skos:Concept ;
   dct:description "Plagioclase - X-Ray Diffraction" ;
   dct:title "XRD_C_Pg" ;
@@ -5932,7 +5932,7 @@ method:XRD_C_Pg
   skos:note "%" ;
   skos:prefLabel "XRD_C_Pg"@en ;
 .
-method:XRD_C_Pk
+lab-method:XRD_C_Pk
   rdf:type skos:Concept ;
   dct:description "Palygorskite - X-Ray Diffraction" ;
   dct:title "XRD_C_Pk" ;
@@ -5943,7 +5943,7 @@ method:XRD_C_Pk
   skos:note "%" ;
   skos:prefLabel "XRD_C_Pk"@en ;
 .
-method:XRD_C_Pl
+lab-method:XRD_C_Pl
   rdf:type skos:Concept ;
   dct:description "Plombogummite - X-Ray Diffraction" ;
   dct:title "XRD_C_Pl" ;
@@ -5954,7 +5954,7 @@ method:XRD_C_Pl
   skos:note "%" ;
   skos:prefLabel "XRD_C_Pl"@en ;
 .
-method:XRD_C_Pp
+lab-method:XRD_C_Pp
   rdf:type skos:Concept ;
   dct:description "Phlogopite - X-Ray Diffraction" ;
   dct:title "XRD_C_Pp" ;
@@ -5965,7 +5965,7 @@ method:XRD_C_Pp
   skos:note "%" ;
   skos:prefLabel "XRD_C_Pp"@en ;
 .
-method:XRD_C_Ps
+lab-method:XRD_C_Ps
   rdf:type skos:Concept ;
   dct:description "Pseudorutile - X-Ray Diffraction" ;
   dct:title "XRD_C_Ps" ;
@@ -5976,7 +5976,7 @@ method:XRD_C_Ps
   skos:note "%" ;
   skos:prefLabel "XRD_C_Ps"@en ;
 .
-method:XRD_C_Px
+lab-method:XRD_C_Px
   rdf:type skos:Concept ;
   dct:description "Pyroxene - X-Ray Diffraction" ;
   dct:title "XRD_C_Px" ;
@@ -5987,7 +5987,7 @@ method:XRD_C_Px
   skos:note "%" ;
   skos:prefLabel "XRD_C_Px"@en ;
 .
-method:XRD_C_Py
+lab-method:XRD_C_Py
   rdf:type skos:Concept ;
   dct:description "Pyrophyllite - X-Ray Diffraction" ;
   dct:title "XRD_C_Py" ;
@@ -5998,7 +5998,7 @@ method:XRD_C_Py
   skos:note "%" ;
   skos:prefLabel "XRD_C_Py"@en ;
 .
-method:XRD_C_Qz
+lab-method:XRD_C_Qz
   rdf:type skos:Concept ;
   dct:description "Quartz - X-Ray Diffraction" ;
   dct:title "XRD_C_Qz" ;
@@ -6009,7 +6009,7 @@ method:XRD_C_Qz
   skos:note "%" ;
   skos:prefLabel "XRD_C_Qz"@en ;
 .
-method:XRD_C_Rt
+lab-method:XRD_C_Rt
   rdf:type skos:Concept ;
   dct:description "Rutile - X-Ray Diffraction" ;
   dct:title "XRD_C_Rt" ;
@@ -6020,7 +6020,7 @@ method:XRD_C_Rt
   skos:note "%" ;
   skos:prefLabel "XRD_C_Rt"@en ;
 .
-method:XRD_C_Sd
+lab-method:XRD_C_Sd
   rdf:type skos:Concept ;
   dct:description "Siderite - X-Ray Diffraction" ;
   dct:title "XRD_C_Sd" ;
@@ -6031,7 +6031,7 @@ method:XRD_C_Sd
   skos:note "%" ;
   skos:prefLabel "XRD_C_Sd"@en ;
 .
-method:XRD_C_Sl
+lab-method:XRD_C_Sl
   rdf:type skos:Concept ;
   dct:description "Saponite - X-Ray Diffraction" ;
   dct:title "XRD_C_Sl" ;
@@ -6042,7 +6042,7 @@ method:XRD_C_Sl
   skos:note "%" ;
   skos:prefLabel "XRD_C_Sl"@en ;
 .
-method:XRD_C_Sp
+lab-method:XRD_C_Sp
   rdf:type skos:Concept ;
   dct:description "Saponite - X-Ray Diffraction" ;
   dct:title "XRD_C_Sp" ;
@@ -6053,7 +6053,7 @@ method:XRD_C_Sp
   skos:note "%" ;
   skos:prefLabel "XRD_C_Sp"@en ;
 .
-method:XRD_C_Spn
+lab-method:XRD_C_Spn
   rdf:type skos:Concept ;
   dct:description "Sphene - X-Ray Diffraction" ;
   dct:title "XRD_C_Spn" ;
@@ -6064,7 +6064,7 @@ method:XRD_C_Spn
   skos:note "%" ;
   skos:prefLabel "XRD_C_Spn"@en ;
 .
-method:XRD_C_Srp
+lab-method:XRD_C_Srp
   rdf:type skos:Concept ;
   dct:description "Serpentine - X-Ray Diffraction" ;
   dct:title "XRD_C_Srp" ;
@@ -6075,7 +6075,7 @@ method:XRD_C_Srp
   skos:note "%" ;
   skos:prefLabel "XRD_C_Srp"@en ;
 .
-method:XRD_C_St
+lab-method:XRD_C_St
   rdf:type skos:Concept ;
   dct:description "Smectite - X-Ray Diffraction" ;
   dct:title "XRD_C_St" ;
@@ -6086,7 +6086,7 @@ method:XRD_C_St
   skos:note "%" ;
   skos:prefLabel "XRD_C_St"@en ;
 .
-method:XRD_C_Tc
+lab-method:XRD_C_Tc
   rdf:type skos:Concept ;
   dct:description "Talc - Tourmaline - X-Ray Diffraction" ;
   dct:title "XRD_C_Tc" ;
@@ -6097,7 +6097,7 @@ method:XRD_C_Tc
   skos:note "%" ;
   skos:prefLabel "XRD_C_Tc"@en ;
 .
-method:XRD_C_Tr
+lab-method:XRD_C_Tr
   rdf:type skos:Concept ;
   dct:description "Tridymite - X-Ray Diffraction" ;
   dct:title "XRD_C_Tr" ;
@@ -6108,7 +6108,7 @@ method:XRD_C_Tr
   skos:note "%" ;
   skos:prefLabel "XRD_C_Tr"@en ;
 .
-method:XRD_C_Un
+lab-method:XRD_C_Un
   rdf:type skos:Concept ;
   dct:description "Unidentified - X-Ray Diffraction" ;
   dct:title "XRD_C_Un" ;
@@ -6119,7 +6119,7 @@ method:XRD_C_Un
   skos:note "%" ;
   skos:prefLabel "XRD_C_Un"@en ;
 .
-method:XRD_C_Vm
+lab-method:XRD_C_Vm
   rdf:type skos:Concept ;
   dct:description "Vermiculte - X-Ray Diffraction" ;
   dct:title "XRD_C_Vm" ;
@@ -6130,7 +6130,7 @@ method:XRD_C_Vm
   skos:note "%" ;
   skos:prefLabel "XRD_C_Vm"@en ;
 .
-method:XRD_C_Zi
+lab-method:XRD_C_Zi
   rdf:type skos:Concept ;
   dct:description "Zircon - X-Ray Diffraction" ;
   dct:title "XRD_C_Zi" ;
@@ -6141,7 +6141,7 @@ method:XRD_C_Zi
   skos:note "%" ;
   skos:prefLabel "XRD_C_Zi"@en ;
 .
-method:XRD_C_Zt
+lab-method:XRD_C_Zt
   rdf:type skos:Concept ;
   dct:description "Zeolite - X-Ray Diffraction" ;
   dct:title "XRD_C_Zt" ;
@@ -6152,19 +6152,19 @@ method:XRD_C_Zt
   skos:note "%" ;
   skos:prefLabel "XRD_C_Zt"@en ;
 .
-method:extractable-Al
+lab-method:extractable-Al
   rdf:type skos:Collection ;
   rdfs:label "Extractable Aluminium"^^xsd:string ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/12A1_AL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/13A1_AL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/13B1_AL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/13C1_AL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/13_NR_AL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/15F2_AL> ;
+  skos:member <http://www.anzsoil.org/def/au/soil/lab-method/12A1_AL> ;
+  skos:member <http://www.anzsoil.org/def/au/soil/lab-method/13A1_AL> ;
+  skos:member <http://www.anzsoil.org/def/au/soil/lab-method/13B1_AL> ;
+  skos:member <http://www.anzsoil.org/def/au/soil/lab-method/13C1_AL> ;
+  skos:member <http://www.anzsoil.org/def/au/soil/lab-method/13_NR_AL> ;
+  skos:member <http://www.anzsoil.org/def/au/soil/lab-method/15F2_AL> ;
   skos:prefLabel "Extractable Aluminium"^^xsd:string ;
 .
-method:extractable-Zn
+lab-method:extractable-Zn
   rdf:type skos:Collection ;
-  skos:member <http://registry.it.csiro.au/def/soils/lab-methods/12A1_ZN> ;
+  skos:member <http://www.anzsoil.org/def/au/soil/lab-method/12A1_ZN> ;
   skos:prefLabel "Extractable Zinc"^^xsd:string ;
 .
