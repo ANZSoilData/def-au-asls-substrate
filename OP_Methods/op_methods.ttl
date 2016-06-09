@@ -1,9 +1,9 @@
-# baseURI: http://registry.it.csiro.au/def/soils/op-units/
+# baseURI: http://registry.it.csiro.au/def/soils/op-methods/
 # imports: http://purl.org/dc/elements/1.1/
 # imports: http://www.w3.org/2004/02/skos/core
 
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix op: <http://registry.it.csiro.au/def/soils/op-units/> .
+@prefix op: <http://registry.it.csiro.au/def/soils/op-methods/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdf123: <http://rdf123.umbc.edu/ns/> .
