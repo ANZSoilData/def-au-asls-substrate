@@ -12,7 +12,6 @@
 <http://www.w3.org/2004/02/skos/core#Concept>
   forms:keyProperties (
       rdfs:label
-      rdfs:comment
       <http://purl.org/dc/terms/description>
       <http://www.w3.org/2004/02/skos/core#definition>
     ) ;
