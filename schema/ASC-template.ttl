@@ -1,179 +1,556 @@
+# baseURI: http://registry.it.csiro.au/def/soils/soil
+# imports: http://www.w3.org/2004/02/skos/core
+# prefix: soil
+
+@prefix asc: <http://registry.it.csiro.au/def/soils/asc/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/asoil/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix asc: <http://registry.it.csiro.au/def/soils/asc/> .
 @prefix soil: <http://registry.it.csiro.au/def/soils/soil#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-soil:ASC-template a owl:Ontology ; 
-	rdfs:comment "Initial thoughts about how to formalize the ASC in RDF" ;
-	dct:created "2016-11-03"^^xsd:date ;
-	dct:creator "Simon Cox" ;
-	dct:contributor "Linda Gregory".
-
-
-soil:order a owl:ObjectProperty ;
-	rdfs:domain soil:Classification ; 
-	rdfs:range soil:Order . 
-	
-soil:subOrder a owl:ObjectProperty ; 
-	rdfs:domain soil:Classification ;
-	rdfs:domain soil:Class . 
-
-soil:greatGroup a owl:ObjectProperty ; 
-	rdfs:domain soil:Classification ;
-	rdfs:domain soil:Class . 
-
-soil:subGroup a owl:ObjectProperty ; 
-	rdfs:domain soil:Classification ;
-	rdfs:domain soil:Class . 
-
-soil:fam-type1 a owl:ObjectProperty ; 
-	rdfs:domain soil:Classification ;
-	rdfs:domain soil:Family . 
-
-soil:fam-type2 a owl:ObjectProperty ; 
-	rdfs:domain soil:Classification ;
-	rdfs:domain soil:Family . 
-
-soil:fam-type3 a owl:ObjectProperty ; 
-	rdfs:domain soil:Classification ;
-	rdfs:domain soil:Family . 
-
-soil:fam-type4 a owl:ObjectProperty ; 
-	rdfs:domain soil:Classification ;
-	rdfs:domain soil:Family . 
-
-soil:fam-type5 a owl:ObjectProperty ; 
-	rdfs:domain soil:Classification ;
-	rdfs:domain soil:Family . 
-
-
-asc:TE a skos:Concept , soil:Order . 
-	skos:prefLabel "Tenosols" ;
-	skos:notation "TE" ;
-	skos:definition "This order is designed to embrace soils with generally only weak pedologic organisation apart from the A horizons. It encompasses a rather diverse range of soils, which are nevertheless widespread in many parts of Australia." ;
-	dct:description "This order is designed to embrace soils with generally only weak pedologic organisation apart from the A horizons. It encompasses a rather diverse range of soils, which are nevertheless widespread in many parts of Australia." ;
-	rdfs:label "Tenosols" ;
-	. 
-
-
-soil:Order rdfs:subClassOf skos:Concept ;
-	rdfs:comment "note that this concept is an alternative to the soil:Orders collection" ;
-	rdfs:comment """by having a choice of collection and concept we might be able to use 
-	some more skos predicates for the rules
-	"""
-	. 
-
-asc:AW a skos:Concept , soil:Class . 
-soil:Class rdfs:subClassOf skos:Concept .
-
-asc:DU a skos:Concept , soil:Class ;
-	skos:prefLabel "Paralithic" ;
-	skos:notation "DU" ;
-	skos:definition "some text" ;
-	dct:description "same text" ;
-	rdfs:label "Paralithic" ;
-	. 
-
-asc:AR a skos:Concept , soil:Class . 
-
-asc:A a skos:Concept , soil:Family . 
-soil:Family rdfs:subClassOf skos:Concept .
-
-asc:Orders a skos:Collection ;
-	skos:member asc:AN , asc:CA , asc:CH , asc: DE , asc:FE , asc:HY , asc: KA, asc:KU , asc: OR , asc:PO , asc: RU , asc:SO , asc:TE , asc:VE .
-	
-asc:TE-suborders a skos:Collection ;
-	skos:member asc:BF , asc:BE , asc:IL , asc:IM , asc:AW , asc:CY , asc:GZ , asc:IN, asc:IO , asc:IP , asc:IQ , asc:IR . 
-	
-asc:TE-BF-greatgroups a skos:Collection ;
-	skos:member asc:BJ , asc:GE , asc:EA, asc:DZ , asc:CZ , asc:DU .
-
-asc:TE-CY-greatgroups a skos:Collection ;
-	skos:member asc:BJ , asc:GE , asc:EA, asc:DZ , asc:CZ , asc:DU .
-
-asc:TE-BE-greatgroups a skos:Collection ;
-	skos:member asc:EA , asc:EM , asc:DZ, asc:EC , asc:AK , asc:HF , asc:AS , asc:BU , asc:IA , asc:CZ , asc:DU , asc:EL , asc:DD , asc:GF .
-
-asc:TE-IL-greatgroups a skos:Collection ;
-	skos:member asc:BJ , asc:EA , asc:EF , asc:EM , asc:DZ , asc:AP , asc:IA , asc:CZ , asc:DU , asc:GF .
-
-asc:TE-IM-greatgroups a skos:Collection ;
-	skos:member asc:BJ , asc:EM , asc:DZ , asc:BU , asc:AK , asc:HF , asc:AP , asc:CZ , asc:DU , asc:AO , asc:GF .
-
-asc:TE-AW-greatgroups a skos:Collection ;
-	skos:member asc:GE , asc:EA , asc:EM , asc:DZ , asc:BU , asc:CZ , asc:DU .
-
-asc:TE-GZ-greatgroups a skos:Collection ;
-	skos:member asc:FK , asc:BJ , asc:GE , asc:EA , asc:EM , asc:DZ , asc:IS , asc:EF , asc:BU , asc:AS , asc:AK , asc:HF , asc:AP , asc:IA , asc:CZ , asc:DU , asc:AO , asc:EL , asc:DD , asc:GF .
-
-asc:TE-IN-greatgroups a skos:Collection ;
-	skos:member asc:FK , asc:BJ , asc:GE , asc:EA , asc:EM , asc:DZ , asc:IS , asc:EF , asc:BU , asc:AS , asc:AK , asc:HF , asc:AP , asc:IA , asc:CZ , asc:DU , asc:AO , asc:EL , asc:DD , asc:GF .
-
-asc:TE-IO-greatgroups a skos:Collection ;
-	skos:member asc:FK , asc:BJ , asc:GE , asc:EA , asc:EM , asc:DZ , asc:IS , asc:EF , asc:BU , asc:AS , asc:AK , asc:HF , asc:AP , asc:IA , asc:CZ , asc:DU , asc:AO , asc:EL , asc:DD , asc:GF .
-
-asc:TE-IP-greatgroups a skos:Collection ;
-	skos:member asc:FK , asc:BJ , asc:GE , asc:EA , asc:EM , asc:DZ , asc:IS , asc:EF , asc:BU , asc:AS , asc:AK , asc:HF , asc:AP , asc:IA , asc:CZ , asc:DU , asc:AO , asc:EL , asc:DD , asc:GF .
-
-asc:TE-IQ-greatgroups a skos:Collection ;
-	skos:member asc:FK , asc:BJ , asc:GE , asc:EA , asc:EM , asc:DZ , asc:IS , asc:EF , asc:BU , asc:AS , asc:AK , asc:HF , asc:AP , asc:IA , asc:CZ , asc:DU , asc:AO , asc:EL , asc:DD , asc:GF .
-
-asc:TE-IR-greatgroups a skos:Collection ;
-	skos:member asc:FK , asc:BJ , asc:GE , asc:EA , asc:EM , asc:DZ , asc:IS , asc:EF , asc:BU , asc:AS , asc:AK , asc:HF , asc:AP , asc:IA , asc:CZ , asc:DU , asc:AO , asc:EL , asc:DD , asc:GF .
-
-asc:TE-BF-subgroups a skos:Collection ;
-	skos:member asc:DW , asc:CK , asc:DG , asc:DK .
-
-asc:TE-BE-subgroups a skos:Collection ;
-	skos:member asc:DW , asc:GY , asc:GU , asc:CK , asc:FU , asc:DG , asc:FV , asc:FC ,asc:DK .
-
-asc:TE-IL-subgroups a skos:Collection ;
-	skos:member asc:AY , asc:DC , asc:AT , asc:AI , asc:AR , asc:BC .
-
-asc:TE-IM-subgroups a skos:Collection ;
-	skos:member asc:DA , asc:FB , asc:CQ .
-
-asc:TE-AW-subgroups a skos:Collection ;
-	skos:member asc:DW , asc:GY , asc:GU , asc:CK , asc:FU , asc:DG , asc:FV , asc:FC ,asc:DK , asc:AI , asc:AR ,asc:BC .
-
-asc:TE-CY-subgroups a skos:Collection ;
-	skos:member asc:ID , asc:DR , asc:FF , asc:FG , asc:AI , asc:AR , asc:BC .
-
-asc:TE-GZ-subgroups a skos:Collection ;
-	skos:member asc:DW , asc:GY , asc:GU , asc:CK , asc:FU , asc:DG , asc:FV , asc:FC , asc:DK , asc:DC , asc:AI , asc:AR , asc:BC .
-
-asc:TE-IN-subgroups a skos:Collection ;
-	skos:member asc:ID , asc:DR , asc:FF , asc:FG , asc:DC , asc:AI , asc:AR , asc:BC .
-
-asc:TE-IO-subgroups a skos:Collection ;
-	skos:member asc:ID , asc:DR , asc:FF , asc:FG , asc:DC , asc:AI , asc:AR , asc:BC .
-
-asc:TE-IP-subgroups a skos:Collection ;
-	skos:member asc:ID , asc:DR , asc:FF , asc:FG , asc:DC , asc:AI , asc:AR , asc:BC .
-
-asc:TE-IQ-subgroups a skos:Collection ;
-	skos:member asc:ID , asc:DR , asc:FF , asc:FG , asc:DC , asc:AI , asc:AR , asc:BC .
-
-asc:TE-IR-subgroups a skos:Collection ;
-	skos:member asc:ID , asc:DR , asc:FF , asc:FG , asc:DC , asc:AI , asc:AR , asc:BC .
-
-
-
-
-ex:301-DLR-434 a soil:Classification;
-	soil:order asc:TE ;
-	soil:subOrder asc:AW ;
-	soil:greatGroup asc:DU ;
-	soil:subGroup asc:AR ;
-	soil:fam-type1 asc:A ;
-	soil:fam-type2 asc:E ;
-	soil:fam-type3 asc:M ;
-	soil:fam-type4 asc:M ;
-	soil:fam-type5 asc:U ;
+<http://example.org/asoil/301-DLR-434>
+  rdf:type soil:Classification ;
+  soil:fam-type1 asc:A ;
+  soil:fam-type2 asc:E ;
+  soil:fam-type3 asc:M ;
+  soil:fam-type4 asc:M ;
+  soil:fam-type5 asc:U ;
+  soil:greatGroup asc:DU ;
+  soil:order asc:TE ;
+  soil:subGroup asc:AR ;
+  soil:subOrder asc:AW ;
 .
-	
+asc:A
+  rdf:type soil:Family ;
+  rdf:type skos:Concept ;
+.
+asc:AR
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:AW
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:DU
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+  dct:description "same text" ;
+  rdfs:label "Paralithic" ;
+  skos:definition "some text" ;
+  skos:notation "DU" ;
+  skos:prefLabel "Paralithic" ;
+.
+asc:Orders
+  rdf:type skos:Collection ;
+  skos:member asc:AN ;
+  skos:member asc:CA ;
+  skos:member asc:CH ;
+  skos:member asc:DE ;
+  skos:member asc:FE ;
+  skos:member asc:HY ;
+  skos:member asc:KA ;
+  skos:member asc:KU ;
+  skos:member asc:OR ;
+  skos:member asc:PO ;
+  skos:member asc:RU ;
+  skos:member asc:SO ;
+  skos:member asc:TE ;
+  skos:member asc:VE ;
+.
+asc:TE
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
+  dct:description "This order is designed to embrace soils with generally only weak pedologic organisation apart from the A horizons. It encompasses a rather diverse range of soils, which are nevertheless widespread in many parts of Australia." ;
+  rdfs:label "Tenosols" ;
+  skos:definition "This order is designed to embrace soils with generally only weak pedologic organisation apart from the A horizons. It encompasses a rather diverse range of soils, which are nevertheless widespread in many parts of Australia." ;
+  skos:notation "TE" ;
+  skos:prefLabel "Tenosols" ;
+.
+asc:TE-AW-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EM ;
+  skos:member asc:GE ;
+.
+asc:TE-AW-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:CK ;
+  skos:member asc:DG ;
+  skos:member asc:DK ;
+  skos:member asc:DW ;
+  skos:member asc:FC ;
+  skos:member asc:FU ;
+  skos:member asc:FV ;
+  skos:member asc:GU ;
+  skos:member asc:GY ;
+.
+asc:TE-BE-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AS ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EC ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+.
+asc:TE-BE-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:CK ;
+  skos:member asc:DG ;
+  skos:member asc:DK ;
+  skos:member asc:DW ;
+  skos:member asc:FC ;
+  skos:member asc:FU ;
+  skos:member asc:FV ;
+  skos:member asc:GU ;
+  skos:member asc:GY ;
+.
+asc:TE-BF-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:BJ ;
+  skos:member asc:CZ ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:GE ;
+.
+asc:TE-BF-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:CK ;
+  skos:member asc:DG ;
+  skos:member asc:DK ;
+  skos:member asc:DW ;
+.
+asc:TE-CY-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:BJ ;
+  skos:member asc:CZ ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:GE ;
+.
+asc:TE-CY-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
+.
+asc:TE-GZ-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
+.
+asc:TE-GZ-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:CK ;
+  skos:member asc:DC ;
+  skos:member asc:DG ;
+  skos:member asc:DK ;
+  skos:member asc:DW ;
+  skos:member asc:FC ;
+  skos:member asc:FU ;
+  skos:member asc:FV ;
+  skos:member asc:GU ;
+  skos:member asc:GY ;
+.
+asc:TE-IL-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AP ;
+  skos:member asc:BJ ;
+  skos:member asc:CZ ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EM ;
+  skos:member asc:GF ;
+  skos:member asc:IA ;
+.
+asc:TE-IL-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:AT ;
+  skos:member asc:AY ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
+.
+asc:TE-IM-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EM ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+.
+asc:TE-IM-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:CQ ;
+  skos:member asc:DA ;
+  skos:member asc:FB ;
+.
+asc:TE-IN-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
+.
+asc:TE-IN-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
+.
+asc:TE-IO-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
+.
+asc:TE-IO-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
+.
+asc:TE-IP-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
+.
+asc:TE-IP-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
+.
+asc:TE-IQ-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
+.
+asc:TE-IQ-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
+.
+asc:TE-IR-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
+.
+asc:TE-IR-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
+.
+asc:TE-suborders
+  rdf:type skos:Collection ;
+  skos:member asc:AW ;
+  skos:member asc:BE ;
+  skos:member asc:BF ;
+  skos:member asc:CY ;
+  skos:member asc:GZ ;
+  skos:member asc:IL ;
+  skos:member asc:IM ;
+  skos:member asc:IN ;
+  skos:member asc:IO ;
+  skos:member asc:IP ;
+  skos:member asc:IQ ;
+  skos:member asc:IR ;
+.
+<http://registry.it.csiro.au/def/soils/soil>
+  rdf:type owl:Ontology ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+soil:ASC-template
+  rdf:type owl:Ontology ;
+  dct:contributor "Linda Gregory" ;
+  dct:created "2016-11-03"^^xsd:date ;
+  dct:creator "Simon Cox" ;
+  rdfs:comment "Initial thoughts about how to formalize the ASC in RDF" ;
+.
+soil:Class
+  rdf:type owl:Class ;
+  rdfs:comment """Currently soil:Class is range of
+soil:subOrder
+soil:greatGroup
+soil:subGroup""" ;
+  rdfs:subClassOf skos:Concept ;
+.
+soil:Classification
+  rdf:type owl:Class ;
+  rdfs:comment "An instance of a soil classification, applied to an actual profile (or sample)" ;
+  rdfs:comment "Check that these cardinalities are correct" ;
+  rdfs:subClassOf skos:Concept ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty soil:order ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty soil:fam-type1 ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty soil:fam-type2 ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty soil:fam-type3 ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty soil:fam-type4 ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty soil:fam-type5 ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty soil:greatGroup ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty soil:subGroup ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty soil:subOrder ;
+    ] ;
+.
+soil:Family
+  rdf:type owl:Class ;
+  rdfs:subClassOf skos:Concept ;
+.
+soil:Order
+  rdf:type owl:Class ;
+  rdfs:comment """by having a choice of collection and concept we might be able to use 
+	some more skos predicates for the rules
+	""" ;
+  rdfs:comment "note that this concept is an alternative to the soil:Orders collection" ;
+  rdfs:subClassOf skos:Concept ;
+.
+soil:fam-type1
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain soil:Classification ;
+  rdfs:range soil:Family ;
+.
+soil:fam-type2
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain soil:Classification ;
+  rdfs:range soil:Family ;
+.
+soil:fam-type3
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain soil:Classification ;
+  rdfs:range soil:Family ;
+.
+soil:fam-type4
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain soil:Classification ;
+  rdfs:range soil:Family ;
+.
+soil:fam-type5
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain soil:Classification ;
+  rdfs:range soil:Family ;
+.
+soil:greatGroup
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain soil:Classification ;
+  rdfs:range soil:Class ;
+.
+soil:order
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain soil:Classification ;
+  rdfs:range soil:Order ;
+.
+soil:subGroup
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain soil:Classification ;
+  rdfs:range soil:Class ;
+.
+soil:subOrder
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain soil:Classification ;
+  rdfs:range soil:Class ;
+.
