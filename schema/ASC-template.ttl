@@ -29,11 +29,115 @@ asc:A
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
 .
+asc:AI
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:AK
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:AN
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
+.
+asc:AO
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:AP
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
 asc:AR
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
 .
+asc:AS
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:AT
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
 asc:AW
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:AY
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:BC
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:BE
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:BF
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:BJ
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:BU
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:CA
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
+.
+asc:CH
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
+.
+asc:CK
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:CQ
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:CY
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:CZ
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:DA
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:DC
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:DD
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:DE
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
+.
+asc:DG
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:DK
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:DR
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
 .
@@ -45,6 +149,154 @@ asc:DU
   skos:definition "some text" ;
   skos:notation "DU" ;
   skos:prefLabel "Paralithic" ;
+.
+asc:DW
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:DZ
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:E
+  rdf:type soil:Family ;
+  rdf:type skos:Concept ;
+.
+asc:EA
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:EC
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:EF
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:EL
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:EM
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:FB
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:FC
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:FE
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
+.
+asc:FF
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:FG
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:FK
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:FU
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:FV
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:GE
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:GF
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:GU
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:GY
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:GZ
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:HF
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:HY
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
+.
+asc:IA
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:ID
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:IL
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:IM
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:IN
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:IO
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:IP
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:IQ
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:IR
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:IS
+  rdf:type soil:Class ;
+  rdf:type skos:Concept ;
+.
+asc:KA
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
+.
+asc:KU
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
+.
+asc:M
+  rdf:type soil:Family ;
+  rdf:type skos:Concept ;
+.
+asc:OR
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
 .
 asc:Orders
   rdf:type skos:Collection ;
@@ -62,6 +314,18 @@ asc:Orders
   skos:member asc:SO ;
   skos:member asc:TE ;
   skos:member asc:VE ;
+.
+asc:PO
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
+.
+asc:RU
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
+.
+asc:SO
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
 .
 asc:TE
   rdf:type soil:Order ;
@@ -426,6 +690,14 @@ asc:TE-suborders
   skos:member asc:IP ;
   skos:member asc:IQ ;
   skos:member asc:IR ;
+.
+asc:U
+  rdf:type soil:Family ;
+  rdf:type skos:Concept ;
+.
+asc:VE
+  rdf:type soil:Order ;
+  rdf:type skos:Concept ;
 .
 <http://registry.it.csiro.au/def/soils/soil>
   rdf:type owl:Ontology ;
