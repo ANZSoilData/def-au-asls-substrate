@@ -15,4 +15,14 @@
 .
 <http://example.org/asoil/301-DLR-434>
   rdf:type soil:Classification ;
+  soil:fam-type1 <http://registry.it.csiro.au/def/soils/asc/A> ;
+  soil:fam-type2 <http://registry.it.csiro.au/def/soils/asc/E> ;
+  soil:fam-type3 <http://registry.it.csiro.au/def/soils/asc/M> ;
+  soil:fam-type4 <http://registry.it.csiro.au/def/soils/asc/M> ;
+  soil:fam-type5 <http://registry.it.csiro.au/def/soils/asc/U> ;
+  soil:greatGroup <http://registry.it.csiro.au/def/soils/asc/DU> ;
+  soil:order <http://registry.it.csiro.au/def/soils/asc/TE> ;
+  soil:subGroup <http://registry.it.csiro.au/def/soils/asc/AR> ;
+  soil:subOrder <http://registry.it.csiro.au/def/soils/asc/AW> ;
+  rdfs:comment "Test instance" ;
 .

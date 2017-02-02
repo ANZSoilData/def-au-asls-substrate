@@ -93,6 +93,7 @@ asc:TE-suborders
 .
 <http://registry.it.csiro.au/def/soils/soil>
   rdf:type owl:Ontology ;
+  rdfs:comment "this is the 'schema' for soils classification" ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
 .
 soil:ASC-template

@@ -10,17 +10,6 @@
 @prefix soil: <http://registry.it.csiro.au/def/soils/soil#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://example.org/asoil/301-DLR-434>
-  soil:fam-type1 <http://registry.it.csiro.au/def/soils/asc/A> ;
-  soil:fam-type2 <http://registry.it.csiro.au/def/soils/asc/E> ;
-  soil:fam-type3 <http://registry.it.csiro.au/def/soils/asc/M> ;
-  soil:fam-type4 <http://registry.it.csiro.au/def/soils/asc/M> ;
-  soil:fam-type5 <http://registry.it.csiro.au/def/soils/asc/U> ;
-  soil:greatGroup <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  soil:order <http://registry.it.csiro.au/def/soils/asc/TE> ;
-  soil:subGroup <http://registry.it.csiro.au/def/soils/asc/AR> ;
-  soil:subOrder <http://registry.it.csiro.au/def/soils/asc/AW> ;
-.
 <http://registry.it.csiro.au/def/soils/asc>
   rdf:type owl:Ontology ;
   owl:imports <http://registry.it.csiro.au/def/soils/soil> ;
@@ -326,6 +315,7 @@
 <http://registry.it.csiro.au/def/soils/asc/SO>
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
+  rdfs:label "Sodosols" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/TE>
   rdf:type soil:Order ;
@@ -673,4 +663,5 @@
 <http://registry.it.csiro.au/def/soils/asc/VE>
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
+  rdfs:label "Vertosols" ;
 .
