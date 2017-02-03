@@ -333,6 +333,7 @@
 <http://registry.it.csiro.au/def/soils/asc/J>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
+  skos:definition "Peaty" ;
   skos:prefLabel "Peaty" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/K>
@@ -405,11 +406,29 @@
   skos:definition "Organic materials and aluminium, with or without iron" ;
   skos:prefLabel "Podosols" ;
 .
+<http://registry.it.csiro.au/def/soils/asc/Q>
+  rdf:type soil:Family ;
+  rdf:type skos:Concept ;
+  skos:definition "< 45% clay" ;
+  skos:prefLabel "Fine" ;
+.
+<http://registry.it.csiro.au/def/soils/asc/R>
+  rdf:type soil:Family ;
+  rdf:type skos:Concept ;
+  skos:definition "45 - 60% clay" ;
+  skos:prefLabel "Medium fine" ;
+.
 <http://registry.it.csiro.au/def/soils/asc/RU>
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   skos:definition "Minimal soil development" ;
   skos:prefLabel "Rudosols" ;
+.
+<http://registry.it.csiro.au/def/soils/asc/S>
+  rdf:type soil:Family ;
+  rdf:type skos:Concept ;
+  skos:definition "> 60% clay" ;
+  skos:prefLabel "Very fine" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/SO>
   rdf:type soil:Order ;
