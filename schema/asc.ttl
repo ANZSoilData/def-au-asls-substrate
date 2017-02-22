@@ -15,15 +15,30 @@
   owl:imports <http://registry.it.csiro.au/def/soils/soil> ;
   owl:versionInfo "Created with TopBraid Composer" ;
 .
+asc:OR-Family
+  rdf:type owl:Class ;
+  rdfs:subClassOf soil:Family ;
+.
+asc:T-OR
+  rdf:type asc:OR-Family ;
+  rdf:type soil:Family ;
+  rdf:type skos:Concept ;
+  skos:definition "< 0.25 m thickness of organic material" ;
+  skos:notation "T" ;
+  skos:prefLabel "Very thin" ;
+.
 <http://registry.it.csiro.au/def/soils/asc/A>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "< 0.1 m" ;
+  skos:definition "< 0.1 m A-horizon thickness" ;
+  skos:notation "A" ;
   skos:prefLabel "Thin" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/AI>
+  rdf:type <http://registry.it.csiro.au/def/soils/asc/TE-AW-subgroups> ;
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
+  skos:prefLabel "acidic" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/AK>
   rdf:type soil:Class ;
@@ -66,7 +81,8 @@
 <http://registry.it.csiro.au/def/soils/asc/B>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "0.1 - < 0.3 m" ;
+  skos:definition "0.1 - < 0.3 m A-horizon thickness" ;
+  skos:notation "B" ;
   skos:prefLabel "Medium" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/BC>
@@ -92,7 +108,8 @@
 <http://registry.it.csiro.au/def/soils/asc/C>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "0.3 - 0.6 m" ;
+  skos:definition "0.3 - 0.6 m A-horizon thickness" ;
+  skos:notation "C" ;
   skos:prefLabel "Thick" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/CA>
@@ -126,7 +143,8 @@
 <http://registry.it.csiro.au/def/soils/asc/D>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "> 0.6 m" ;
+  skos:definition "> 0.6 m A-horizon thickness" ;
+  skos:notation "D" ;
   skos:prefLabel "Very thick" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/DA>
@@ -180,6 +198,7 @@
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "<2 %" ;
+  skos:notation "E" ;
   skos:prefLabel "Non-gravelly" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/EA>
@@ -206,6 +225,7 @@
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "2 - <10 %" ;
+  skos:notation "F" ;
   skos:prefLabel "Slightly gravelly" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/FB>
@@ -246,6 +266,7 @@
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "10 - <20 %" ;
+  skos:notation "G" ;
   skos:prefLabel "Gravelly" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/GE>
@@ -272,6 +293,7 @@
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "20 - <50 %" ;
+  skos:notation "H" ;
   skos:prefLabel "Moderately gravelly" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/HF>
@@ -288,6 +310,7 @@
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition ">50 %" ;
+  skos:notation "I" ;
   skos:prefLabel "Very gravelly" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/IA>
@@ -334,12 +357,14 @@
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "Peaty" ;
+  skos:notation "J" ;
   skos:prefLabel "Peaty" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/K>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "S-LS-CS (up to 10% clay)" ;
+  skos:notation "K" ;
   skos:prefLabel "Sandy" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/KA>
@@ -358,24 +383,28 @@
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "SL-L (10-20% clay)" ;
+  skos:notation "L" ;
   skos:prefLabel "Loamy" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/M>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "SCL-CL (20-35% clay)" ;
+  skos:notation "M" ;
   skos:prefLabel "Clay loamy" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/N>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "ZL-ZCL (25-35% clay and silt 25% or more)" ;
+  skos:notation "N" ;
   skos:prefLabel "Silty" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/O>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "LC - MC - HC (> 35% clay)" ;
+  skos:notation "O" ;
   skos:prefLabel "Clayey" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/OR>
@@ -410,12 +439,14 @@
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "< 45% clay" ;
+  skos:notation "Q" ;
   skos:prefLabel "Fine" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/R>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "45 - 60% clay" ;
+  skos:notation "R" ;
   skos:prefLabel "Medium fine" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/RU>
@@ -428,6 +459,7 @@
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "> 60% clay" ;
+  skos:notation "S" ;
   skos:prefLabel "Very fine" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/SO>
@@ -440,7 +472,8 @@
 <http://registry.it.csiro.au/def/soils/asc/T>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "< 0.25 m" ;
+  skos:definition "< 0.25 m depth of soil" ;
+  skos:notation "T" ;
   skos:prefLabel "Very shallow" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/TE>
@@ -462,6 +495,9 @@
   skos:member <http://registry.it.csiro.au/def/soils/asc/GE> ;
 .
 <http://registry.it.csiro.au/def/soils/asc/TE-AW-subgroups>
+  rdf:type owl:Class ;
+  rdf:type skos:Collection ;
+  rdfs:subClassOf soil:Class ;
   skos:member <http://registry.it.csiro.au/def/soils/asc/AI> ;
   skos:member <http://registry.it.csiro.au/def/soils/asc/AR> ;
   skos:member <http://registry.it.csiro.au/def/soils/asc/BC> ;
@@ -786,12 +822,14 @@
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "0.25 - < 0.5 m" ;
+  skos:notation "U" ;
   skos:prefLabel "Shallow" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/V>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "0.5 - < 1.0 m" ;
+  skos:notation "V" ;
   skos:prefLabel "Moderate" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/VE>
@@ -805,17 +843,25 @@
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "1.0 - < 1.5 m" ;
+  skos:notation "W" ;
   skos:prefLabel "Deep" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/X>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "1.5 - 5 m" ;
+  skos:notation "X" ;
   skos:prefLabel "Very deep" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/Y>
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "> 5 m" ;
+  skos:notation "Y" ;
   skos:prefLabel "Giant" ;
+.
+soil:Classification
+  rdfs:comment "Exercise for Linda: figure out SPIN! " ;
+  rdfs:comment "This class definition constrains the cardinality of the the properties that can appear in an instance." ;
+  rdfs:comment "This class definition does NOT impose any rules on how the values may be combined; e.g. it does not express co-occurence constraints such as if Order=KA, then only certain families are permitted, etc. That kind of rule cannot be expressed in RDFS/OWL. It can probably be tested using the right SPARQL expressions or SPIN rules. " ;
 .

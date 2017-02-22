@@ -19,9 +19,6 @@ asc:Orders
 asc:TE-AW-greatgroups
   rdf:type skos:Collection ;
 .
-asc:TE-AW-subgroups
-  rdf:type skos:Collection ;
-.
 asc:TE-BE-greatgroups
   rdf:type skos:Collection ;
 .
