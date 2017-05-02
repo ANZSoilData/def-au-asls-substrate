@@ -200,11 +200,13 @@ OR Great Group: Soils in which the major part of the organic materials is strong
 <http://registry.it.csiro.au/def/soils/asc/BA>
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
+  skos:definition "Soils with a conspicuously bleached A2 horizon and a B horizon in which at least the lower part is sodic." ;
   skos:prefLabel "Bleached-sodic" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/BB>
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
+  skos:definition "Soils with a conspicuously bleached A2 horizon and a B horizon in which at least 0.3m has vertic properties." ;
   skos:prefLabel "Bleached-vertic" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/BC>
@@ -220,26 +222,31 @@ OR Great Group: Soils in which the major part of the organic materials is strong
 <http://registry.it.csiro.au/def/soils/asc/BE>
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
+  skos:definition "Other soils with a peaty, humose, melacic or melanic horizon. A conspicuously bleached A2 horizon is not present." ;
   skos:prefLabel "Chernic" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/BF>
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
+  skos:definition "Soils with a peaty, humose, melacic or melanic horizon, and are underlain within 0.5 m of the surface by a calcrete pan; hard unweathered rock or other hard materials; or partially weathered or decomposed rock or saprolite. An unbleached A2 horizon may be present between the dark surface horizons and the substrate material." ;
   skos:prefLabel "Chernic-leptic" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/BG>
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
+  skos:definition "Other soils with a clear or abrupt textural B horizon and the pH in the major part of the upper 0.2 m of the B2 horizon is not strongly acid." ;
   skos:prefLabel "Chromosolic" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/BH>
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
+  skos:definition "Soils with a massive or weakly structured surface crusty horizon 0.03 m or less thick, often of lighter texture (lower clay content) than the underlying pedal clay (blocky or polyhedral) which is not self-mulching." ;
   skos:prefLabel "Crusty" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/BI>
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
+  skos:definition "Other soils with a densipan present in the A2 horizon." ;
   skos:prefLabel "Densic" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/BJ>
@@ -250,6 +257,7 @@ OR Great Group: Soils in which the major part of the organic materials is strong
 <http://registry.it.csiro.au/def/soils/asc/BK>
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
+  skos:definition "Soils in which the upper 0.2 m of the B2 horizon (or the B2 horizon if it is less than 0.2 m thick) has a strong blocky or polyhedral structure in which average ped size is usually in the range of 5-20 mm. There is very weak adhesion between peds (when dry it is very easy to insert a spade into the upper B2 horizon). Salt contents are usually high, resulting in weak dry strength and a bulk density of about 1.3 t m-3 or less. In some soils the B2 horizons may be weakly subplastic. A common feature (but not diagnostic) of the overlying A horizons is the presence of a band of vesicular pores near the surface or on the underside of any surface flake." ;
   skos:prefLabel "Pedaric" ;
 .
 <http://registry.it.csiro.au/def/soils/asc/BL>
