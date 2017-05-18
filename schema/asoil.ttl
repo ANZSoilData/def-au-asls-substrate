@@ -11,7 +11,6 @@
 <http://example.org/asoil>
   rdf:type owl:Ontology ;
   owl:imports <http://registry.it.csiro.au/def/soils/asc> ;
-  owl:versionInfo "Created with TopBraid Composer" ;
 .
 <http://example.org/asoil/301-DLR-434>
   rdf:type soil:Classification ;
