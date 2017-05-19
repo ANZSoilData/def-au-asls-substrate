@@ -1,16 +1,18 @@
 # baseURI: http://example.org/asoil
 # imports: http://registry.it.csiro.au/def/soils/asc
+# imports: http://registry.it.csiro.au/def/soils/soil-classification
 
 @prefix asoil: <http://example.org/asoil/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix soil: <http://registry.it.csiro.au/def/soils/soil#> .
+@prefix soil: <http://registry.it.csiro.au/def/soils/soil-classification#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://example.org/asoil>
   rdf:type owl:Ontology ;
   owl:imports <http://registry.it.csiro.au/def/soils/asc> ;
+  owl:imports <http://registry.it.csiro.au/def/soils/soil-classification> ;
 .
 <http://example.org/asoil/301-DLR-434>
   rdf:type soil:Classification ;
