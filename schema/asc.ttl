@@ -79,13 +79,16 @@ asc:AH
   skos:prefLabel "Eutrophic" ;
 .
 asc:AI
-  rdf:type asc:TE-AW-subgroups ;
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
-  skos:definition """DE, FE, HY, KA  Subgroup: Other soils with a B2 horizon in which the major part is strongly acid.
+  rdfs:comment """DE, FE, HY, KA  Subgroup: Other soils with a B2 horizon in which the major part is strongly acid.
+OR Great Group: Soils in which the major part of the organic materials is strongly acid.
 RU Subgroup: The major part of the soil materials is strongly acid.
-TE Subgroup: Soils in which the major part of the solum is strongly acid.
-OR Great Group: Soils in which the major part of the organic materials is strongly acid.""" ;
+TE Subgroup: Soils in which the major part of the solum is strongly acid.""" ;
+  skos:definition "DE, FE, HY, KA  Subgroup: Other soils with a B2 horizon in which the major part is strongly acid." ;
+  skos:definition "OR Great Group: Soils in which the major part of the organic materials is strongly acid." ;
+  skos:definition "RU Subgroup: The major part of the soil materials is strongly acid." ;
+  skos:definition "TE Subgroup: Soils in which the major part of the solum is strongly acid." ;
   skos:notation "AI" ;
   skos:prefLabel "Acidic" ;
 .
@@ -445,217 +448,6 @@ asc:CZ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Lithic" ;
-.
-asc:Classes
-  rdf:type skos:Collection ;
-  skos:member asc:AA ;
-  skos:member asc:AB ;
-  skos:member asc:AC ;
-  skos:member asc:AD ;
-  skos:member asc:AE ;
-  skos:member asc:AF ;
-  skos:member asc:AG ;
-  skos:member asc:AH ;
-  skos:member asc:AI ;
-  skos:member asc:AJ ;
-  skos:member asc:AK ;
-  skos:member asc:AL ;
-  skos:member asc:AM ;
-  skos:member asc:AO ;
-  skos:member asc:AP ;
-  skos:member asc:AQ ;
-  skos:member asc:AR ;
-  skos:member asc:AS ;
-  skos:member asc:AT ;
-  skos:member asc:AU ;
-  skos:member asc:AV ;
-  skos:member asc:AW ;
-  skos:member asc:AX ;
-  skos:member asc:AY ;
-  skos:member asc:AZ ;
-  skos:member asc:BA ;
-  skos:member asc:BB ;
-  skos:member asc:BC ;
-  skos:member asc:BD ;
-  skos:member asc:BE ;
-  skos:member asc:BF ;
-  skos:member asc:BG ;
-  skos:member asc:BH ;
-  skos:member asc:BI ;
-  skos:member asc:BJ ;
-  skos:member asc:BK ;
-  skos:member asc:BL ;
-  skos:member asc:BN ;
-  skos:member asc:BP ;
-  skos:member asc:BR ;
-  skos:member asc:BT ;
-  skos:member asc:BU ;
-  skos:member asc:BV ;
-  skos:member asc:BW ;
-  skos:member asc:BX ;
-  skos:member asc:BY ;
-  skos:member asc:BZ ;
-  skos:member asc:CB ;
-  skos:member asc:CC ;
-  skos:member asc:CD ;
-  skos:member asc:CE ;
-  skos:member asc:CF ;
-  skos:member asc:CG ;
-  skos:member asc:CI ;
-  skos:member asc:CJ ;
-  skos:member asc:CK ;
-  skos:member asc:CL ;
-  skos:member asc:CM ;
-  skos:member asc:CN ;
-  skos:member asc:CO ;
-  skos:member asc:CP ;
-  skos:member asc:CQ ;
-  skos:member asc:CR ;
-  skos:member asc:CS ;
-  skos:member asc:CU ;
-  skos:member asc:CV ;
-  skos:member asc:CW ;
-  skos:member asc:CX ;
-  skos:member asc:CY ;
-  skos:member asc:CZ ;
-  skos:member asc:DA ;
-  skos:member asc:DB ;
-  skos:member asc:DC ;
-  skos:member asc:DD ;
-  skos:member asc:DF ;
-  skos:member asc:DG ;
-  skos:member asc:DH ;
-  skos:member asc:DI ;
-  skos:member asc:DJ ;
-  skos:member asc:DK ;
-  skos:member asc:DL ;
-  skos:member asc:DM ;
-  skos:member asc:DN ;
-  skos:member asc:DO ;
-  skos:member asc:DP ;
-  skos:member asc:DQ ;
-  skos:member asc:DR ;
-  skos:member asc:DT ;
-  skos:member asc:DU ;
-  skos:member asc:DV ;
-  skos:member asc:DW ;
-  skos:member asc:DX ;
-  skos:member asc:DY ;
-  skos:member asc:DZ ;
-  skos:member asc:EA ;
-  skos:member asc:EB ;
-  skos:member asc:EC ;
-  skos:member asc:ED ;
-  skos:member asc:EE ;
-  skos:member asc:EF ;
-  skos:member asc:EG ;
-  skos:member asc:EH ;
-  skos:member asc:EI ;
-  skos:member asc:EJ ;
-  skos:member asc:EK ;
-  skos:member asc:EL ;
-  skos:member asc:EM ;
-  skos:member asc:EN ;
-  skos:member asc:EO ;
-  skos:member asc:EP ;
-  skos:member asc:EQ ;
-  skos:member asc:ER ;
-  skos:member asc:ES ;
-  skos:member asc:ET ;
-  skos:member asc:EU ;
-  skos:member asc:EV ;
-  skos:member asc:EW ;
-  skos:member asc:EX ;
-  skos:member asc:EY ;
-  skos:member asc:EZ ;
-  skos:member asc:FB ;
-  skos:member asc:FC ;
-  skos:member asc:FD ;
-  skos:member asc:FF ;
-  skos:member asc:FG ;
-  skos:member asc:FJ ;
-  skos:member asc:FK ;
-  skos:member asc:FL ;
-  skos:member asc:FM ;
-  skos:member asc:FN ;
-  skos:member asc:FO ;
-  skos:member asc:FP ;
-  skos:member asc:FQ ;
-  skos:member asc:FR ;
-  skos:member asc:FS ;
-  skos:member asc:FU ;
-  skos:member asc:FV ;
-  skos:member asc:FW ;
-  skos:member asc:FX ;
-  skos:member asc:FY ;
-  skos:member asc:FZ ;
-  skos:member asc:GA ;
-  skos:member asc:GB ;
-  skos:member asc:GC ;
-  skos:member asc:GD ;
-  skos:member asc:GE ;
-  skos:member asc:GF ;
-  skos:member asc:GG ;
-  skos:member asc:GH ;
-  skos:member asc:GI ;
-  skos:member asc:GJ ;
-  skos:member asc:GK ;
-  skos:member asc:GL ;
-  skos:member asc:GM ;
-  skos:member asc:GN ;
-  skos:member asc:GO ;
-  skos:member asc:GP ;
-  skos:member asc:GQ ;
-  skos:member asc:GS ;
-  skos:member asc:GT ;
-  skos:member asc:GU ;
-  skos:member asc:GV ;
-  skos:member asc:GW ;
-  skos:member asc:GX ;
-  skos:member asc:GY ;
-  skos:member asc:GZ ;
-  skos:member asc:HA ;
-  skos:member asc:HB ;
-  skos:member asc:HC ;
-  skos:member asc:HD ;
-  skos:member asc:HE ;
-  skos:member asc:HF ;
-  skos:member asc:HG ;
-  skos:member asc:HH ;
-  skos:member asc:HI ;
-  skos:member asc:HJ ;
-  skos:member asc:HK ;
-  skos:member asc:HL ;
-  skos:member asc:HM ;
-  skos:member asc:HN ;
-  skos:member asc:HO ;
-  skos:member asc:HR ;
-  skos:member asc:HS ;
-  skos:member asc:HT ;
-  skos:member asc:HU ;
-  skos:member asc:HV ;
-  skos:member asc:HW ;
-  skos:member asc:HX ;
-  skos:member asc:HZ ;
-  skos:member asc:IA ;
-  skos:member asc:IB ;
-  skos:member asc:IC ;
-  skos:member asc:ID ;
-  skos:member asc:IE ;
-  skos:member asc:IF ;
-  skos:member asc:IG ;
-  skos:member asc:IH ;
-  skos:member asc:IJ ;
-  skos:member asc:IK ;
-  skos:member asc:IL ;
-  skos:member asc:IM ;
-  skos:member asc:IN ;
-  skos:member asc:IO ;
-  skos:member asc:IP ;
-  skos:member asc:IQ ;
-  skos:member asc:IR ;
-  skos:member asc:IS ;
-  skos:member asc:RU ;
 .
 asc:D
   rdf:type soil:Family ;
@@ -1047,39 +839,6 @@ asc:FZ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Endocalcareous" ;
-.
-asc:Familes
-  rdf:type skos:Collection ;
-  skos:member asc:A ;
-  skos:member asc:B ;
-  skos:member asc:C ;
-  skos:member asc:D ;
-  skos:member asc:E ;
-  skos:member asc:F ;
-  skos:member asc:G ;
-  skos:member asc:H ;
-  skos:member asc:I ;
-  skos:member asc:J ;
-  skos:member asc:K ;
-  skos:member asc:L ;
-  skos:member asc:M ;
-  skos:member asc:N ;
-  skos:member asc:O ;
-  skos:member asc:Q ;
-  skos:member asc:R ;
-  skos:member asc:S ;
-  skos:member asc:T ;
-  skos:member asc:T-OR ;
-  skos:member asc:U ;
-  skos:member asc:U-OR ;
-  skos:member asc:V ;
-  skos:member asc:V-OR ;
-  skos:member asc:W ;
-  skos:member asc:W-OR ;
-  skos:member asc:X ;
-  skos:member asc:X-OR ;
-  skos:member asc:Y ;
-  skos:member asc:Y-OR ;
 .
 asc:G
   rdf:type soil:Family ;
@@ -1498,26 +1257,14 @@ asc:OR
   skos:definition "Organic soils" ;
   skos:prefLabel "Organosols" ;
 .
-asc:OR-Family
-  rdf:type owl:Class ;
-  rdfs:subClassOf soil:Family ;
-.
-asc:Orders
+asc:OR-family
   rdf:type skos:Collection ;
-  skos:member asc:AN ;
-  skos:member asc:CA ;
-  skos:member asc:CH ;
-  skos:member asc:DE ;
-  skos:member asc:FE ;
-  skos:member asc:HY ;
-  skos:member asc:KA ;
-  skos:member asc:KU ;
-  skos:member asc:OR ;
-  skos:member asc:PO ;
-  skos:member asc:RU ;
-  skos:member asc:SO ;
-  skos:member asc:TE ;
-  skos:member asc:VE ;
+  skos:member asc:T-OR ;
+  skos:member asc:U-OR ;
+  skos:member asc:V-OR ;
+  skos:member asc:W-OR ;
+  skos:member asc:X-OR ;
+  skos:member asc:Y-OR ;
 .
 asc:PO
   rdf:type soil:Order ;
@@ -1569,7 +1316,6 @@ asc:T
   skos:prefLabel "Very shallow" ;
 .
 asc:T-OR
-  rdf:type asc:OR-Family ;
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "< 0.25 m Cumulative thickness of organic materials" ;
@@ -1949,7 +1695,6 @@ asc:U
   skos:prefLabel "Shallow" ;
 .
 asc:U-OR
-  rdf:type asc:OR-Family ;
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   rdfs:label "Thin" ;
@@ -1965,7 +1710,6 @@ asc:V
   skos:prefLabel "Moderate" ;
 .
 asc:V-OR
-  rdf:type asc:OR-Family ;
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   rdfs:label "Moderate" ;
@@ -1988,7 +1732,6 @@ asc:W
   skos:prefLabel "Deep" ;
 .
 asc:W-OR
-  rdf:type asc:OR-Family ;
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   rdfs:label "Thick" ;
@@ -2004,7 +1747,6 @@ asc:X
   skos:prefLabel "Very deep" ;
 .
 asc:X-OR
-  rdf:type asc:OR-Family ;
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   rdfs:label "Very thick" ;
@@ -2020,7 +1762,6 @@ asc:Y
   skos:prefLabel "Giant" ;
 .
 asc:Y-OR
-  rdf:type asc:OR-Family ;
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   rdfs:label "Giant" ;
