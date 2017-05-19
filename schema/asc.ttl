@@ -1,1299 +1,1545 @@
 # baseURI: http://registry.it.csiro.au/def/soils/asc
-# imports: http://registry.it.csiro.au/def/soils/soil
-# prefix: asc
+# imports: http://registry.it.csiro.au/def/soils/soil-classification
 
-@prefix asc: <http://registry.it.csiro.au/def/soils/asc#> .
+@prefix asc: <http://registry.it.csiro.au/def/soils/asc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix soil: <http://registry.it.csiro.au/def/soils/soil#> .
+@prefix soil: <http://registry.it.csiro.au/def/soils/soil-classification#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://registry.it.csiro.au/def/soils/asc>
   rdf:type owl:Ontology ;
-  owl:imports <http://registry.it.csiro.au/def/soils/soil> ;
-  owl:versionInfo "Created with TopBraid Composer" ;
+  dct:contributor <mailto:linda.gregory@csiro.au> ;
+  dct:created "2017-02-01"^^xsd:date ;
+  dct:creator <http://orcid.org/0000-0002-3884-3420> ;
+  dct:creator <mailto:simon.cox@csiro.au> ;
+  dct:modified "2017-05-19"^^xsd:date ;
+  dct:source """The Australian Soil Classification, second edition (2016). 
+CSIRO Publishing, Melbourne, Australia""" ;
+  rdfs:comment "This ontology provides sets of classifiers defined for the Australian Soil Classification. It uses classes for and a structure from the general soil-classification ontology.  " ;
+  rdfs:seeAlso <http://www.clw.csiro.au/aclep/asc_re_on_line_V2/soilkey.htm> ;
+  owl:imports <http://registry.it.csiro.au/def/soils/soil-classification> ;
+  skos:editorialNote "Work in progress" ;
 .
-asc:OR-Family
-  rdf:type owl:Class ;
-  rdfs:subClassOf soil:Family ;
-.
-asc:T-OR
-  rdf:type asc:OR-Family ;
-  rdf:type soil:Family ;
-  rdf:type skos:Concept ;
-  skos:definition "< 0.25 m Cumulative thickness of organic materials"^^xsd:string ;
-  skos:notation "T" ;
-  skos:prefLabel "Very thin" ;
-.
-<http://registry.it.csiro.au/def/soils/asc/A>
+asc:A
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "< 0.1 m A-horizon thickness" ;
   skos:notation "A" ;
   skos:prefLabel "Thin" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AA>
+asc:AA
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
-  skos:definition "The dominant colour class in the major part of the upper 0.5 m of the solum (or the major part of the entire solum if it is less than 0.5 m thick) is red."^^xsd:string ;
+  skos:definition "The dominant colour class in the major part of the upper 0.5 m of the solum (or the major part of the entire solum if it is less than 0.5 m thick) is red." ;
   skos:prefLabel "Red" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AB>
+asc:AB
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "The dominant colour class is brown." ;
   skos:prefLabel "Brown" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AC>
+asc:AC
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "The dominant colour class is yellow." ;
   skos:prefLabel "Yellow" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AD>
+asc:AD
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "The dominant colour class is grey." ;
   skos:prefLabel "Grey" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AE>
+asc:AE
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "The dominant colour class is black." ;
   skos:prefLabel "Black" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AF>
+asc:AF
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Many" ;
   skos:prefLabel "Dystrophic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AG>
+asc:AG
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Many" ;
   skos:prefLabel "Mesotrophic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AH>
+asc:AH
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Eutrophic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AI>
-  rdf:type <http://registry.it.csiro.au/def/soils/asc/TE-AW-subgroups> ;
+asc:AI
+  rdf:type asc:TE-AW-subgroups ;
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition """DE, FE, HY, KA  Subgroup: Other soils with a B2 horizon in which the major part is strongly acid.
 RU Subgroup: The major part of the soil materials is strongly acid.
 TE Subgroup: Soils in which the major part of the solum is strongly acid.
-OR Great Group: Soils in which the major part of the organic materials is strongly acid."""^^xsd:string ;
-  skos:notation "AI"^^xsd:string ;
+OR Great Group: Soils in which the major part of the organic materials is strongly acid.""" ;
+  skos:notation "AI" ;
   skos:prefLabel "Acidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AJ>
+asc:AJ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils in which the major part of the B2 horizon is strongly acid and mottled." ;
   skos:prefLabel "Acidic-mottled" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AK>
+asc:AK
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils which have andic properties and has formed in basaltic tephric materials that may be visibly stratified." ;
   skos:prefLabel "Andic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AL>
+asc:AL
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
-  skos:definition """Soils with free drainage, ie. rapidly drained. There is no restriction to through drainage in the B horizon or within the substrate. There is no perching of water within the B horizon or saturation due to a high ground water table. The B horizons are weakly coherent and porous. They are often brightly coloured, and lack evidence of seasonal reduction.""" ;
+  skos:definition "Soils with free drainage, ie. rapidly drained. There is no restriction to through drainage in the B horizon or within the substrate. There is no perching of water within the B horizon or saturation due to a high ground water table. The B horizons are weakly coherent and porous. They are often brightly coloured, and lack evidence of seasonal reduction." ;
   skos:prefLabel "Aeric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AM>
+asc:AM
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
-  skos:definition """Soils with long-term saturation in the B horizons. The saturation may be caused as in the semiaquic soils but the duration is of the order of months. The period of saturation is sufficient to reduce most iron compounds and move them out of the B horizon, hence Bh horizons are usually prominent.""" ;
+  skos:definition "Soils with long-term saturation in the B horizons. The saturation may be caused as in the semiaquic soils but the duration is of the order of months. The period of saturation is sufficient to reduce most iron compounds and move them out of the B horizon, hence Bh horizons are usually prominent." ;
   skos:prefLabel "Aquic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AN>
+asc:AN
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   skos:definition "Soils resulting from human activity" ;
   skos:prefLabel "Anthroposols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AO>
+asc:AO
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Arenic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AP>
+asc:AP
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Argic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AQ>
+asc:AQ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "The soil materials to a depth of 0.5 m are dominantly clay-sized." ;
   skos:prefLabel "Argillaceous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AR>
+asc:AR
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Basic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AS>
+asc:AS
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Bauxitic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AT>
+asc:AT
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils with a conspicuously bleached A2 horizon." ;
   skos:prefLabel "Bleached" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AU>
+asc:AU
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils with a conspicuously bleached A2 horizon and a B2 horizon in which the major part is strongly acid." ;
   skos:prefLabel "Bleached-acidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AV>
+asc:AV
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils with a conspicuously bleached A2 horizon and a ferric horizon within the solum." ;
   skos:prefLabel "Bleached-ferric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AW>
+asc:AW
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils with a conspicuously bleached A2 horizon, and are underlain within 0.5 m of the surface by a calcrete pan ; hard unweathered rock or other hard materials; or partially weathered or decomposed rock or saprolite." ;
   skos:prefLabel "Bleached-leptic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AX>
+asc:AX
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils with a conspicuously bleached A2 horizon and a B2 horizon in which the major part has an exchangeable Ca/Mg ratio of less than 0.1." ;
   skos:prefLabel "Bleached-magnesic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AY>
+asc:AY
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils with a conspicuously bleached A2 horizon and a manganic horizon within the solum." ;
   skos:prefLabel "Bleached-manganic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/AZ>
+asc:AZ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils with a conspicuously bleached A2 horizon and the major part of the B2 horizon is mottled." ;
   skos:prefLabel "Bleached-mottled" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/B>
+asc:B
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "0.1 - < 0.3 m A-horizon thickness" ;
   skos:notation "B" ;
   skos:prefLabel "Medium" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BA>
+asc:BA
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils with a conspicuously bleached A2 horizon and a B horizon in which at least the lower part is sodic." ;
   skos:prefLabel "Bleached-sodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BB>
+asc:BB
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils with a conspicuously bleached A2 horizon and a B horizon in which at least 0.3m has vertic properties." ;
   skos:prefLabel "Bleached-vertic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BC>
+asc:BC
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Calcareous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BD>
+asc:BD
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Calcic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BE>
+asc:BE
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Other soils with a peaty, humose, melacic or melanic horizon. A conspicuously bleached A2 horizon is not present." ;
   skos:prefLabel "Chernic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BF>
+asc:BF
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils with a peaty, humose, melacic or melanic horizon, and are underlain within 0.5 m of the surface by a calcrete pan; hard unweathered rock or other hard materials; or partially weathered or decomposed rock or saprolite. An unbleached A2 horizon may be present between the dark surface horizons and the substrate material." ;
   skos:prefLabel "Chernic-leptic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BG>
+asc:BG
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Other soils with a clear or abrupt textural B horizon and the pH in the major part of the upper 0.2 m of the B2 horizon is not strongly acid." ;
   skos:prefLabel "Chromosolic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BH>
+asc:BH
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils with a massive or weakly structured surface crusty horizon 0.03 m or less thick, often of lighter texture (lower clay content) than the underlying pedal clay (blocky or polyhedral) which is not self-mulching." ;
   skos:prefLabel "Crusty" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BI>
+asc:BI
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Other soils with a densipan present in the A2 horizon." ;
   skos:prefLabel "Densic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BJ>
+asc:BJ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Duric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BK>
+asc:BK
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:definition "Soils in which the upper 0.2 m of the B2 horizon (or the B2 horizon if it is less than 0.2 m thick) has a strong blocky or polyhedral structure in which average ped size is usually in the range of 5-20 mm. There is very weak adhesion between peds (when dry it is very easy to insert a spade into the upper B2 horizon). Salt contents are usually high, resulting in weak dry strength and a bulk density of about 1.3 t m-3 or less. In some soils the B2 horizons may be weakly subplastic. A common feature (but not diagnostic) of the overlying A horizons is the presence of a band of vesicular pores near the surface or on the underside of any surface flake." ;
   skos:prefLabel "Pedaric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BL>
+asc:BL
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Endoacidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BN>
+asc:BN
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Episodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BP>
+asc:BP
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Endohypersodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BR>
+asc:BR
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epihypersodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BT>
+asc:BT
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Extratidal" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BU>
+asc:BU
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Ferric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BV>
+asc:BV
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Arenaceous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BW>
+asc:BW
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Fibric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BX>
+asc:BX
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Fluvic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BY>
+asc:BY
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Fragic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/BZ>
+asc:BZ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Gypsic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/C>
+asc:C
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "0.3 - 0.6 m A-horizon thickness" ;
   skos:notation "C" ;
   skos:prefLabel "Thick" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CA>
+asc:CA
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   skos:definition "Soils with calcium carbonate" ;
   skos:prefLabel "Calcarosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CB>
+asc:CB
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Calcarosolic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CC>
+asc:CC
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Halic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CD>
+asc:CD
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Haplic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CE>
+asc:CE
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Hemic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CF>
+asc:CF
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Histic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CG>
+asc:CG
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CH>
+asc:CH
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   skos:definition "Soils with an abrupt increase in clay" ;
   skos:prefLabel "Chromosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CI>
+asc:CI
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humic/Humosesquic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CJ>
+asc:CJ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humic/Sesquic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CK>
+asc:CK
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humose" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CL>
+asc:CL
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humose-magnesic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CM>
+asc:CM
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humose-mottled" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CN>
+asc:CN
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humose-parapanic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CO>
+asc:CO
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humosesquic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CP>
+asc:CP
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Hypervescent" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CQ>
+asc:CQ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Hypercalcic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CR>
+asc:CR
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Hypernatric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CS>
+asc:CS
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Hypersalic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CU>
+asc:CU
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epihypersodic-epiacidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CV>
+asc:CV
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Hypocalcic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CW>
+asc:CW
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Intertidal" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CX>
+asc:CX
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Kurosolic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CY>
+asc:CY
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Leptic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/CZ>
+asc:CZ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Lithic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/D>
+asc:Classes
+  rdf:type skos:Collection ;
+  skos:member asc:AA ;
+  skos:member asc:AB ;
+  skos:member asc:AC ;
+  skos:member asc:AD ;
+  skos:member asc:AE ;
+  skos:member asc:AF ;
+  skos:member asc:AG ;
+  skos:member asc:AH ;
+  skos:member asc:AI ;
+  skos:member asc:AJ ;
+  skos:member asc:AK ;
+  skos:member asc:AL ;
+  skos:member asc:AM ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AQ ;
+  skos:member asc:AR ;
+  skos:member asc:AS ;
+  skos:member asc:AT ;
+  skos:member asc:AU ;
+  skos:member asc:AV ;
+  skos:member asc:AW ;
+  skos:member asc:AX ;
+  skos:member asc:AY ;
+  skos:member asc:AZ ;
+  skos:member asc:BA ;
+  skos:member asc:BB ;
+  skos:member asc:BC ;
+  skos:member asc:BD ;
+  skos:member asc:BE ;
+  skos:member asc:BF ;
+  skos:member asc:BG ;
+  skos:member asc:BH ;
+  skos:member asc:BI ;
+  skos:member asc:BJ ;
+  skos:member asc:BK ;
+  skos:member asc:BL ;
+  skos:member asc:BN ;
+  skos:member asc:BP ;
+  skos:member asc:BR ;
+  skos:member asc:BT ;
+  skos:member asc:BU ;
+  skos:member asc:BV ;
+  skos:member asc:BW ;
+  skos:member asc:BX ;
+  skos:member asc:BY ;
+  skos:member asc:BZ ;
+  skos:member asc:CB ;
+  skos:member asc:CC ;
+  skos:member asc:CD ;
+  skos:member asc:CE ;
+  skos:member asc:CF ;
+  skos:member asc:CG ;
+  skos:member asc:CI ;
+  skos:member asc:CJ ;
+  skos:member asc:CK ;
+  skos:member asc:CL ;
+  skos:member asc:CM ;
+  skos:member asc:CN ;
+  skos:member asc:CO ;
+  skos:member asc:CP ;
+  skos:member asc:CQ ;
+  skos:member asc:CR ;
+  skos:member asc:CS ;
+  skos:member asc:CU ;
+  skos:member asc:CV ;
+  skos:member asc:CW ;
+  skos:member asc:CX ;
+  skos:member asc:CY ;
+  skos:member asc:CZ ;
+  skos:member asc:DA ;
+  skos:member asc:DB ;
+  skos:member asc:DC ;
+  skos:member asc:DD ;
+  skos:member asc:DF ;
+  skos:member asc:DG ;
+  skos:member asc:DH ;
+  skos:member asc:DI ;
+  skos:member asc:DJ ;
+  skos:member asc:DK ;
+  skos:member asc:DL ;
+  skos:member asc:DM ;
+  skos:member asc:DN ;
+  skos:member asc:DO ;
+  skos:member asc:DP ;
+  skos:member asc:DQ ;
+  skos:member asc:DR ;
+  skos:member asc:DT ;
+  skos:member asc:DU ;
+  skos:member asc:DV ;
+  skos:member asc:DW ;
+  skos:member asc:DX ;
+  skos:member asc:DY ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EB ;
+  skos:member asc:EC ;
+  skos:member asc:ED ;
+  skos:member asc:EE ;
+  skos:member asc:EF ;
+  skos:member asc:EG ;
+  skos:member asc:EH ;
+  skos:member asc:EI ;
+  skos:member asc:EJ ;
+  skos:member asc:EK ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:EN ;
+  skos:member asc:EO ;
+  skos:member asc:EP ;
+  skos:member asc:EQ ;
+  skos:member asc:ER ;
+  skos:member asc:ES ;
+  skos:member asc:ET ;
+  skos:member asc:EU ;
+  skos:member asc:EV ;
+  skos:member asc:EW ;
+  skos:member asc:EX ;
+  skos:member asc:EY ;
+  skos:member asc:EZ ;
+  skos:member asc:FB ;
+  skos:member asc:FC ;
+  skos:member asc:FD ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:FJ ;
+  skos:member asc:FK ;
+  skos:member asc:FL ;
+  skos:member asc:FM ;
+  skos:member asc:FN ;
+  skos:member asc:FO ;
+  skos:member asc:FP ;
+  skos:member asc:FQ ;
+  skos:member asc:FR ;
+  skos:member asc:FS ;
+  skos:member asc:FU ;
+  skos:member asc:FV ;
+  skos:member asc:FW ;
+  skos:member asc:FX ;
+  skos:member asc:FY ;
+  skos:member asc:FZ ;
+  skos:member asc:GA ;
+  skos:member asc:GB ;
+  skos:member asc:GC ;
+  skos:member asc:GD ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:GG ;
+  skos:member asc:GH ;
+  skos:member asc:GI ;
+  skos:member asc:GJ ;
+  skos:member asc:GK ;
+  skos:member asc:GL ;
+  skos:member asc:GM ;
+  skos:member asc:GN ;
+  skos:member asc:GO ;
+  skos:member asc:GP ;
+  skos:member asc:GQ ;
+  skos:member asc:GS ;
+  skos:member asc:GT ;
+  skos:member asc:GU ;
+  skos:member asc:GV ;
+  skos:member asc:GW ;
+  skos:member asc:GX ;
+  skos:member asc:GY ;
+  skos:member asc:GZ ;
+  skos:member asc:HA ;
+  skos:member asc:HB ;
+  skos:member asc:HC ;
+  skos:member asc:HD ;
+  skos:member asc:HE ;
+  skos:member asc:HF ;
+  skos:member asc:HG ;
+  skos:member asc:HH ;
+  skos:member asc:HI ;
+  skos:member asc:HJ ;
+  skos:member asc:HK ;
+  skos:member asc:HL ;
+  skos:member asc:HM ;
+  skos:member asc:HN ;
+  skos:member asc:HO ;
+  skos:member asc:HR ;
+  skos:member asc:HS ;
+  skos:member asc:HT ;
+  skos:member asc:HU ;
+  skos:member asc:HV ;
+  skos:member asc:HW ;
+  skos:member asc:HX ;
+  skos:member asc:HZ ;
+  skos:member asc:IA ;
+  skos:member asc:IB ;
+  skos:member asc:IC ;
+  skos:member asc:ID ;
+  skos:member asc:IE ;
+  skos:member asc:IF ;
+  skos:member asc:IG ;
+  skos:member asc:IH ;
+  skos:member asc:IJ ;
+  skos:member asc:IK ;
+  skos:member asc:IL ;
+  skos:member asc:IM ;
+  skos:member asc:IN ;
+  skos:member asc:IO ;
+  skos:member asc:IP ;
+  skos:member asc:IQ ;
+  skos:member asc:IR ;
+  skos:member asc:IS ;
+  skos:member asc:RU ;
+.
+asc:D
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "> 0.6 m A-horizon thickness" ;
   skos:notation "D" ;
   skos:prefLabel "Very thick" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DA>
+asc:DA
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Lithocalcic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DB>
+asc:DB
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Magnesic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DC>
+asc:DC
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Manganic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DD>
+asc:DD
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Marly" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DE>
+asc:DE
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   skos:definition "Structured soils" ;
   skos:prefLabel "Dermosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DF>
+asc:DF
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Massive" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DG>
+asc:DG
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melacic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DH>
+asc:DH
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melacic-magnesic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DI>
+asc:DI
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melacic-mottled" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DJ>
+asc:DJ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melacic-parapanic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DK>
+asc:DK
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melanic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DL>
+asc:DL
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melanic-bleached" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DM>
+asc:DM
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melanic-mottled" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DN>
+asc:DN
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melanic-vertic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DO>
+asc:DO
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Mellic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DP>
+asc:DP
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Mesonatric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DQ>
+asc:DQ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Mottled" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DR>
+asc:DR
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Subhumose" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DT>
+asc:DT
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Oxyaquic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DU>
+asc:DU
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
-  <http://purl.org/dc/terms/description> "same text" ;
+  dct:description "same text" ;
   rdfs:label "Paralithic" ;
   skos:notation "DU" ;
   skos:prefLabel "Paralithic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DV>
+asc:DV
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Parapanic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DW>
+asc:DW
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Peaty" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DX>
+asc:DX
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Peaty-parapanic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DY>
+asc:DY
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Pedal" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/DZ>
+asc:DZ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Petrocalcic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/E>
+asc:E
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "<2 %" ;
   skos:notation "E" ;
   skos:prefLabel "Non-gravelly" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EA>
+asc:EA
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Petroferric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EB>
+asc:EB
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Pipey" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EC>
+asc:EC
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Placic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/ED>
+asc:ED
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Redoxic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EE>
+asc:EE
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Rendic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EF>
+asc:EF
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Reticulate" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EG>
+asc:EG
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Salic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EH>
+asc:EH
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Sapric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EI>
+asc:EI
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Self-mulching" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EJ>
+asc:EJ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Semiaquic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EK>
+asc:EK
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Sesquic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EL>
+asc:EL
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Shelly" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EM>
+asc:EM
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Silpanic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EN>
+asc:EN
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Snuffy" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EO>
+asc:EO
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Sodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EP>
+asc:EP
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Episodic-epiacidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EQ>
+asc:EQ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Sodosolic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/ER>
+asc:ER
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Stratic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/ES>
+asc:ES
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Subnatric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/ET>
+asc:ET
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Subplastic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EU>
+asc:EU
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Sulfidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EV>
+asc:EV
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Sulfuric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EW>
+asc:EW
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Supratidal" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EX>
+asc:EX
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Vertic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EY>
+asc:EY
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humose-bleached" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/EZ>
+asc:EZ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melacic-bleached" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/F>
+asc:F
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "2 - <10 %" ;
   skos:notation "F" ;
   skos:prefLabel "Slightly gravelly" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FB>
+asc:FB
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Supracalcic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FC>
+asc:FC
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melanic-calcareous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FD>
+asc:FD
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Natric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FE>
+asc:FE
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   skos:definition "Iron rich soils" ;
   skos:prefLabel "Ferrosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FF>
+asc:FF
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Submelacic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FG>
+asc:FG
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Submelanic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FJ>
+asc:FJ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Hypergypsic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FK>
+asc:FK
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Ferric-duric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FL>
+asc:FL
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Gypsic-subplastic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FM>
+asc:FM
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epicalcareous-epihypersodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FN>
+asc:FN
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Mottled-subnatric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FO>
+asc:FO
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Mottled-mesonatric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FP>
+asc:FP
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Mottled-hypernatric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FQ>
+asc:FQ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Dermosolic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FR>
+asc:FR
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Kandosolic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FS>
+asc:FS
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Terric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FU>
+asc:FU
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melacic-basic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FV>
+asc:FV
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melanic-acidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FW>
+asc:FW
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Faunic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FX>
+asc:FX
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Lutaceous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FY>
+asc:FY
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epicalcareous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/FZ>
+asc:FZ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Endocalcareous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/G>
+asc:Familes
+  rdf:type skos:Collection ;
+  skos:member asc:A ;
+  skos:member asc:B ;
+  skos:member asc:C ;
+  skos:member asc:D ;
+  skos:member asc:E ;
+  skos:member asc:F ;
+  skos:member asc:G ;
+  skos:member asc:H ;
+  skos:member asc:I ;
+  skos:member asc:J ;
+  skos:member asc:K ;
+  skos:member asc:L ;
+  skos:member asc:M ;
+  skos:member asc:N ;
+  skos:member asc:O ;
+  skos:member asc:Q ;
+  skos:member asc:R ;
+  skos:member asc:S ;
+  skos:member asc:T ;
+  skos:member asc:T-OR ;
+  skos:member asc:U ;
+  skos:member asc:U-OR ;
+  skos:member asc:V ;
+  skos:member asc:V-OR ;
+  skos:member asc:W ;
+  skos:member asc:W-OR ;
+  skos:member asc:X ;
+  skos:member asc:X-OR ;
+  skos:member asc:Y ;
+  skos:member asc:Y-OR ;
+.
+asc:G
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "10 - <20 %" ;
   skos:notation "G" ;
   skos:prefLabel "Gravelly" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GA>
+asc:GA
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epiacidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GB>
+asc:GB
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epicalcareous-endohypersodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GC>
+asc:GC
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melacic-reticulate" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GD>
+asc:GD
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Peaty-placic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GE>
+asc:GE
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Ferric-petroferric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GF>
+asc:GF
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Regolithic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GG>
+asc:GG
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Episodic-endoacidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GH>
+asc:GH
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Episodic-epicalcareous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GI>
+asc:GI
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Episodic-endocalcareous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GJ>
+asc:GJ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epicalcareous-endoacidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GK>
+asc:GK
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epiacidic-mottled" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GL>
+asc:GL
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Endoacidic-mottled" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GM>
+asc:GM
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Endocalcareous-endohypersodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GN>
+asc:GN
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epihypersodic-endoacidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GO>
+asc:GO
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epihypersodic-endocalcareous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GP>
+asc:GP
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Magnesic-natric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GQ>
+asc:GQ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Episodic-gypsic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GS>
+asc:GS
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epipedal" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GT>
+asc:GT
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Tenosolic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GU>
+asc:GU
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humose-calcareous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GV>
+asc:GV
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Lutic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GW>
+asc:GW
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Ferric-acidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GX>
+asc:GX
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Manganic-acidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GY>
+asc:GY
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humose-acidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/GZ>
+asc:GZ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Bleached-orthic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/H>
+asc:H
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "20 - <50 %" ;
   skos:notation "H" ;
   skos:prefLabel "Moderately gravelly" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HA>
+asc:HA
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Melanic-sodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HB>
+asc:HB
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Mottled-sodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HC>
+asc:HC
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Ferric-sodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HD>
+asc:HD
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Ruaceous" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HE>
+asc:HE
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Endocalcareous-mottled" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HF>
+asc:HF
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Tephric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HG>
+asc:HG
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Carbic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HH>
+asc:HH
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Clastic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HI>
+asc:HI
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Colluvic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HJ>
+asc:HJ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Lithosolic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HK>
+asc:HK
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Supravescent" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HL>
+asc:HL
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Episulfidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HM>
+asc:HM
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Episulfidic-petrocalcic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HN>
+asc:HN
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Densic-placic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HO>
+asc:HO
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Acidic-sodic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HR>
+asc:HR
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Cumulic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HS>
+asc:HS
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Hortic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HT>
+asc:HT
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Garbic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HU>
+asc:HU
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Urbic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HV>
+asc:HV
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Dredgic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HW>
+asc:HW
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Spolic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HX>
+asc:HX
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Scalpic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HY>
+asc:HY
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   skos:definition "Seasonally or permanently wet soils" ;
   skos:prefLabel "Hydrosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/HZ>
+asc:HZ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Ashy" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/I>
+asc:I
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition ">50 %" ;
   skos:notation "I" ;
   skos:prefLabel "Very gravelly" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IA>
+asc:IA
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Inceptic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IB>
+asc:IB
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Epibasic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IC>
+asc:IC
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Ceteric" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/ID>
+asc:ID
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Subpeaty" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IE>
+asc:IE
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Effervescent" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IF>
+asc:IF
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Folic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IG>
+asc:IG
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humosesquic/Sesquic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IH>
+asc:IH
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Humic/Alsilic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IJ>
+asc:IJ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Modic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IK>
+asc:IK
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Histic-sulfidic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IL>
+asc:IL
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Sesqui-nodular" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IM>
+asc:IM
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Calcenic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IN>
+asc:IN
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Red-orthic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IO>
+asc:IO
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Brown-orthic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IP>
+asc:IP
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Yellow-orthic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IQ>
+asc:IQ
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Grey-orthic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IR>
+asc:IR
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Black-orthic" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/IS>
+asc:IS
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
   skos:prefLabel "Ferric-reticulate" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/J>
+asc:J
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "Peaty" ;
   skos:notation "J" ;
   skos:prefLabel "Peaty" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/K>
+asc:K
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "S-LS-CS (up to 10% clay)" ;
   skos:notation "K" ;
   skos:prefLabel "Sandy" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/KA>
+asc:KA
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   skos:definition "Structureless soils" ;
   skos:prefLabel "Kandosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/KU>
+asc:KU
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   skos:definition "Acidic soils with an abrupt increase in clay" ;
   skos:prefLabel "Kurosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/L>
+asc:L
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "SL-L (10-20% clay)" ;
   skos:notation "L" ;
   skos:prefLabel "Loamy" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/M>
+asc:M
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "SCL-CL (20-35% clay)" ;
   skos:notation "M" ;
   skos:prefLabel "Clay loamy" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/N>
+asc:N
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "ZL-ZCL (25-35% clay and silt 25% or more)" ;
   skos:notation "N" ;
   skos:prefLabel "Silty" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/O>
+asc:O
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "LC - MC - HC (> 35% clay)" ;
   skos:notation "O" ;
   skos:prefLabel "Clayey" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/OR>
+asc:OR
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   skos:definition "Organic soils" ;
   skos:prefLabel "Organosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/Orders>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AN> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CH> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DE> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FE> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/HY> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/KA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/KU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/OR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/PO> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/RU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/SO> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/TE> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/VE> ;
+asc:OR-Family
+  rdf:type owl:Class ;
+  rdfs:subClassOf soil:Family ;
 .
-<http://registry.it.csiro.au/def/soils/asc/PO>
+asc:Orders
+  rdf:type skos:Collection ;
+  skos:member asc:AN ;
+  skos:member asc:CA ;
+  skos:member asc:CH ;
+  skos:member asc:DE ;
+  skos:member asc:FE ;
+  skos:member asc:HY ;
+  skos:member asc:KA ;
+  skos:member asc:KU ;
+  skos:member asc:OR ;
+  skos:member asc:PO ;
+  skos:member asc:RU ;
+  skos:member asc:SO ;
+  skos:member asc:TE ;
+  skos:member asc:VE ;
+.
+asc:PO
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   skos:definition "Organic materials and aluminium, with or without iron" ;
   skos:prefLabel "Podosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/Q>
+asc:Q
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "< 45% clay" ;
   skos:notation "Q" ;
   skos:prefLabel "Fine" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/R>
+asc:R
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "45 - 60% clay" ;
   skos:notation "R" ;
   skos:prefLabel "Medium fine" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/RU>
+asc:RU
   rdf:type soil:Class ;
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
@@ -1301,455 +1547,520 @@ OR Great Group: Soils in which the major part of the organic materials is strong
   skos:prefLabel "Rudosolic" ;
   skos:prefLabel "Rudosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/S>
+asc:S
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   skos:definition "> 60% clay" ;
   skos:notation "S" ;
   skos:prefLabel "Very fine" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/SO>
+asc:SO
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   rdfs:label "Sodosols" ;
   skos:definition "Soils high in sodium with an abrupt increase in clay" ;
   skos:prefLabel "Sodosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/T>
+asc:T
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "< 0.25 m Soil depth"^^xsd:string ;
+  skos:definition "< 0.25 m Soil depth" ;
   skos:notation "T" ;
   skos:prefLabel "Very shallow" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE>
+asc:T-OR
+  rdf:type asc:OR-Family ;
+  rdf:type soil:Family ;
+  rdf:type skos:Concept ;
+  skos:definition "< 0.25 m Cumulative thickness of organic materials" ;
+  skos:definition "< 0.25 m thickness of organic material" ;
+  skos:notation "T" ;
+  skos:prefLabel "Very thin" ;
+.
+asc:TE
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
-  <http://purl.org/dc/terms/description> "This order is designed to embrace soils with generally only weak pedologic organisation apart from the A horizons. It encompasses a rather diverse range of soils, which are nevertheless widespread in many parts of Australia." ;
+  dct:description "This order is designed to embrace soils with generally only weak pedologic organisation apart from the A horizons. It encompasses a rather diverse range of soils, which are nevertheless widespread in many parts of Australia." ;
   rdfs:label "Tenosols" ;
   skos:definition "Weakly developed soils" ;
   skos:notation "TE" ;
   skos:prefLabel "Tenosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-AW-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EM> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GE> ;
-.
-<http://registry.it.csiro.au/def/soils/asc/TE-AW-subgroups>
-  rdf:type owl:Class ;
+asc:TE-AW-greatgroups
   rdf:type skos:Collection ;
-  rdfs:subClassOf soil:Class ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AI> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DG> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DW> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FV> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GY> ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EM ;
+  skos:member asc:GE ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-BE-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AS> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DD> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EM> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/HF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IA> ;
+asc:TE-AW-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:CK ;
+  skos:member asc:DG ;
+  skos:member asc:DK ;
+  skos:member asc:DW ;
+  skos:member asc:FC ;
+  skos:member asc:FU ;
+  skos:member asc:FV ;
+  skos:member asc:GU ;
+  skos:member asc:GY ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-BE-subgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DG> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DW> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FV> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GY> ;
+asc:TE-BE-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AS ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EC ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-BF-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BJ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GE> ;
+asc:TE-BE-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:CK ;
+  skos:member asc:DG ;
+  skos:member asc:DK ;
+  skos:member asc:DW ;
+  skos:member asc:FC ;
+  skos:member asc:FU ;
+  skos:member asc:FV ;
+  skos:member asc:GU ;
+  skos:member asc:GY ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-BF-subgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DG> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DW> ;
+asc:TE-BF-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:BJ ;
+  skos:member asc:CZ ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:GE ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-CY-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BJ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GE> ;
+asc:TE-BF-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:CK ;
+  skos:member asc:DG ;
+  skos:member asc:DK ;
+  skos:member asc:DW ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-CY-subgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AI> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FG> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/ID> ;
+asc:TE-CY-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:BJ ;
+  skos:member asc:CZ ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:GE ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-GZ-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AO> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AP> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AS> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BJ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DD> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EM> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GE> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/HF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IS> ;
+asc:TE-CY-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-GZ-subgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AI> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DG> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DW> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FV> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GY> ;
+asc:TE-GZ-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IL-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AP> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BJ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EM> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IA> ;
+asc:TE-GZ-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:CK ;
+  skos:member asc:DC ;
+  skos:member asc:DG ;
+  skos:member asc:DK ;
+  skos:member asc:DW ;
+  skos:member asc:FC ;
+  skos:member asc:FU ;
+  skos:member asc:FV ;
+  skos:member asc:GU ;
+  skos:member asc:GY ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IL-subgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AI> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AT> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AY> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DC> ;
+asc:TE-IL-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AP ;
+  skos:member asc:BJ ;
+  skos:member asc:CZ ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EM ;
+  skos:member asc:GF ;
+  skos:member asc:IA ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IM-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AO> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AP> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BJ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EM> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/HF> ;
+asc:TE-IL-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:AT ;
+  skos:member asc:AY ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IM-subgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CQ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FB> ;
+asc:TE-IM-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EM ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IN-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AO> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AP> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AS> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BJ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DD> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EM> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GE> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/HF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IS> ;
+asc:TE-IM-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:CQ ;
+  skos:member asc:DA ;
+  skos:member asc:FB ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IN-subgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AI> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FG> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/ID> ;
+asc:TE-IN-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IO-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AO> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AP> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AS> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BJ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DD> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EM> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GE> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/HF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IS> ;
+asc:TE-IN-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IO-subgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AI> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FG> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/ID> ;
+asc:TE-IO-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IP-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AO> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AP> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AS> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BJ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DD> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EM> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GE> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/HF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IS> ;
+asc:TE-IO-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IP-subgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AI> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FG> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/ID> ;
+asc:TE-IP-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IQ-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AO> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AP> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AS> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BJ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DD> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EM> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GE> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/HF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IS> ;
+asc:TE-IP-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IQ-subgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AI> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FG> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/ID> ;
+asc:TE-IQ-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IR-greatgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AO> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AP> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AS> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BJ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DD> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DU> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/EM> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FK> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GE> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/HF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IA> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IS> ;
+asc:TE-IQ-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-IR-subgroups>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AI> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DC> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/DR> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/FG> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/ID> ;
+asc:TE-IR-greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AK ;
+  skos:member asc:AO ;
+  skos:member asc:AP ;
+  skos:member asc:AS ;
+  skos:member asc:BJ ;
+  skos:member asc:BU ;
+  skos:member asc:CZ ;
+  skos:member asc:DD ;
+  skos:member asc:DU ;
+  skos:member asc:DZ ;
+  skos:member asc:EA ;
+  skos:member asc:EF ;
+  skos:member asc:EL ;
+  skos:member asc:EM ;
+  skos:member asc:FK ;
+  skos:member asc:GE ;
+  skos:member asc:GF ;
+  skos:member asc:HF ;
+  skos:member asc:IA ;
+  skos:member asc:IS ;
 .
-<http://registry.it.csiro.au/def/soils/asc/TE-suborders>
-  skos:member <http://registry.it.csiro.au/def/soils/asc/AW> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BE> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/BF> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/CY> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/GZ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IL> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IM> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IN> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IO> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IP> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IQ> ;
-  skos:member <http://registry.it.csiro.au/def/soils/asc/IR> ;
+asc:TE-IR-subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:AI ;
+  skos:member asc:AR ;
+  skos:member asc:BC ;
+  skos:member asc:DC ;
+  skos:member asc:DR ;
+  skos:member asc:FF ;
+  skos:member asc:FG ;
+  skos:member asc:ID ;
 .
-<http://registry.it.csiro.au/def/soils/asc/U>
+asc:TE-suborders
+  rdf:type skos:Collection ;
+  skos:member asc:AW ;
+  skos:member asc:BE ;
+  skos:member asc:BF ;
+  skos:member asc:CY ;
+  skos:member asc:GZ ;
+  skos:member asc:IL ;
+  skos:member asc:IM ;
+  skos:member asc:IN ;
+  skos:member asc:IO ;
+  skos:member asc:IP ;
+  skos:member asc:IQ ;
+  skos:member asc:IR ;
+.
+asc:U
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "0.25 - < 0.5 m Soil depth"^^xsd:string ;
+  skos:definition "0.25 - < 0.5 m Soil depth" ;
   skos:notation "U" ;
   skos:prefLabel "Shallow" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/U-OR>
+asc:U-OR
   rdf:type asc:OR-Family ;
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   rdfs:label "Thin" ;
-  skos:definition "0.25 - < 0.5 m Cumulative thickness of organic materials"^^xsd:string ;
+  skos:definition "0.25 - < 0.5 m Cumulative thickness of organic materials" ;
   skos:notation "U" ;
-  skos:prefLabel "Thin"^^xsd:string ;
+  skos:prefLabel "Thin" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/V>
+asc:V
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "0.5 - < 1.0 m Soil depth"^^xsd:string ;
+  skos:definition "0.5 - < 1.0 m Soil depth" ;
   skos:notation "V" ;
   skos:prefLabel "Moderate" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/V-OR>
+asc:V-OR
   rdf:type asc:OR-Family ;
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   rdfs:label "Moderate" ;
-  skos:definition "0.5 - < 1.0 m Cumulative thickness of organic materials"^^xsd:string ;
+  skos:definition "0.5 - < 1.0 m Cumulative thickness of organic materials" ;
   skos:notation "V" ;
   skos:prefLabel "Moderate" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/VE>
+asc:VE
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
   rdfs:label "Vertosols" ;
   skos:definition "Shrink and swell clay soils" ;
   skos:prefLabel "Vertosols" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/W>
+asc:W
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "1.0 - < 1.5 m Soil depth"^^xsd:string ;
+  skos:definition "1.0 - < 1.5 m Soil depth" ;
   skos:notation "W" ;
   skos:prefLabel "Deep" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/W-OR>
+asc:W-OR
   rdf:type asc:OR-Family ;
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   rdfs:label "Thick" ;
-  skos:definition "1.0 - < 1.5 m Cumulative thickness of organic materials"^^xsd:string ;
+  skos:definition "1.0 - < 1.5 m Cumulative thickness of organic materials" ;
   skos:notation "W" ;
   skos:prefLabel "Thick" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/X>
+asc:X
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "1.5 - 5 m Soil depth"^^xsd:string ;
+  skos:definition "1.5 - 5 m Soil depth" ;
   skos:notation "X" ;
   skos:prefLabel "Very deep" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/X-OR>
+asc:X-OR
   rdf:type asc:OR-Family ;
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   rdfs:label "Very thick" ;
-  skos:definition "1.5 - 5 m Cumulative thickness of organic materials"^^xsd:string ;
+  skos:definition "1.5 - 5 m Cumulative thickness of organic materials" ;
   skos:notation "X" ;
   skos:prefLabel "Very thick" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/Y>
+asc:Y
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "> 5 m Soil depth"^^xsd:string ;
+  skos:definition "> 5 m Soil depth" ;
   skos:notation "Y" ;
   skos:prefLabel "Giant" ;
 .
-<http://registry.it.csiro.au/def/soils/asc/Y-OR>
+asc:Y-OR
   rdf:type asc:OR-Family ;
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
   rdfs:label "Giant" ;
-  skos:definition "> 5 m Cumulative thickness of organic materials"^^xsd:string ;
+  skos:definition "> 5 m Cumulative thickness of organic materials" ;
   skos:notation "Y" ;
   skos:prefLabel "Giant" ;
+.
+asc:greatgroups
+  rdf:type skos:Collection ;
+  skos:member asc:TE-AW-greatgroups ;
+  skos:member asc:TE-BE-greatgroups ;
+  skos:member asc:TE-BF-greatgroups ;
+  skos:member asc:TE-CY-greatgroups ;
+  skos:member asc:TE-GZ-greatgroups ;
+  skos:member asc:TE-IL-greatgroups ;
+  skos:member asc:TE-IM-greatgroups ;
+  skos:member asc:TE-IN-greatgroups ;
+  skos:member asc:TE-IO-greatgroups ;
+  skos:member asc:TE-IP-greatgroups ;
+  skos:member asc:TE-IQ-greatgroups ;
+  skos:member asc:TE-IR-greatgroups ;
+.
+asc:subgroups
+  rdf:type skos:Collection ;
+  skos:member asc:TE-AW-subgroups ;
+  skos:member asc:TE-BE-subgroups ;
+  skos:member asc:TE-BF-subgroups ;
+  skos:member asc:TE-CY-subgroups ;
+  skos:member asc:TE-GZ-subgroups ;
+  skos:member asc:TE-IL-subgroups ;
+  skos:member asc:TE-IM-subgroups ;
+  skos:member asc:TE-IN-subgroups ;
+  skos:member asc:TE-IO-subgroups ;
+  skos:member asc:TE-IP-subgroups ;
+  skos:member asc:TE-IQ-subgroups ;
+  skos:member asc:TE-IR-subgroups ;
+.
+asc:suborders
+  rdf:type skos:Collection ;
+  skos:member asc:TE-suborders ;
 .
 soil:Classification
   rdfs:comment "Exercise for Linda: figure out SPIN! " ;
