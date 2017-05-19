@@ -1,18 +1,28 @@
 # baseURI: http://registry.it.csiro.au/def/soils/asc
-# imports: http://registry.it.csiro.au/def/soils/soil
+# imports: http://registry.it.csiro.au/def/soils/soil-classification
 
 @prefix asc: <http://registry.it.csiro.au/def/soils/asc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix soil: <http://registry.it.csiro.au/def/soils/soil#> .
+@prefix soil: <http://registry.it.csiro.au/def/soils/soil-classification#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://registry.it.csiro.au/def/soils/asc>
   rdf:type owl:Ontology ;
-  owl:imports <http://registry.it.csiro.au/def/soils/soil> ;
-  owl:versionInfo "Created with TopBraid Composer" ;
+  dct:contributor <mailto:linda.gregory@csiro.au> ;
+  dct:created "2017-02-01"^^xsd:date ;
+  dct:creator <http://orcid.org/0000-0002-3884-3420> ;
+  dct:creator <mailto:simon.cox@csiro.au> ;
+  dct:modified "2017-05-19"^^xsd:date ;
+  dct:source """The Australian Soil Classification, second edition (2016). 
+CSIRO Publishing, Melbourne, Australia""" ;
+  rdfs:comment "This ontology provides sets of classifiers defined for the Australian Soil Classification. It uses classes for and a structure from the general soil-classification ontology.  " ;
+  rdfs:seeAlso <http://www.clw.csiro.au/aclep/asc_re_on_line_V2/soilkey.htm> ;
+  owl:imports <http://registry.it.csiro.au/def/soils/soil-classification> ;
+  skos:editorialNote "Work in progress" ;
 .
 asc:A
   rdf:type soil:Family ;
@@ -745,7 +755,7 @@ asc:DT
 asc:DU
   rdf:type soil:Class ;
   rdf:type skos:Concept ;
-  <http://purl.org/dc/terms/description> "same text" ;
+  dct:description "same text" ;
   rdfs:label "Paralithic" ;
   skos:notation "DU" ;
   skos:prefLabel "Paralithic" ;
@@ -1562,7 +1572,7 @@ asc:T-OR
 asc:TE
   rdf:type soil:Order ;
   rdf:type skos:Concept ;
-  <http://purl.org/dc/terms/description> "This order is designed to embrace soils with generally only weak pedologic organisation apart from the A horizons. It encompasses a rather diverse range of soils, which are nevertheless widespread in many parts of Australia." ;
+  dct:description "This order is designed to embrace soils with generally only weak pedologic organisation apart from the A horizons. It encompasses a rather diverse range of soils, which are nevertheless widespread in many parts of Australia." ;
   rdfs:label "Tenosols" ;
   skos:definition "Weakly developed soils" ;
   skos:notation "TE" ;

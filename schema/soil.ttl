@@ -1,22 +1,33 @@
-# baseURI: http://registry.it.csiro.au/def/soils/soil
-# imports: http://www.w3.org/2004/02/skos/core
+# baseURI: http://registry.it.csiro.au/def/soils/soil-classification
+# imports: http://purl.org/dc/elements/1.1/
 # prefix: soil
 
-@prefix asc: <http://registry.it.csiro.au/def/soils/asc/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix ex: <http://example.org/asoil/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix soil: <http://registry.it.csiro.au/def/soils/soil#> .
+@prefix soil: <http://registry.it.csiro.au/def/soils/soil-classification#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://registry.it.csiro.au/def/soils/soil>
+<http://registry.it.csiro.au/def/soils/soil-classification>
   rdf:type owl:Ontology ;
-  rdfs:comment "this is the 'schema' for soils classification" ;
-  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+  dct:contributor <mailto:linda.gregory@csiro.au> ;
+  dct:created "2017-02-01"^^xsd:date ;
+  dct:creator <http://orcid.org/0000-0002-3884-3420> ;
+  dct:creator <mailto:simon.cox@csiro.au> ;
+  dct:modified "2017-05-19"^^xsd:date ;
+  dct:source """The Australian Soil Classification, second edition (2016). 
+CSIRO Publishing, Melbourne, Australia""" ;
+  rdfs:comment """This ontology provides a 'schema' for soil classification. It defines classes for the classifiers used in a soil classification (orders, classes and families) and a structure for combining these in an individual soil classification.  
+
+The classification model is drawn from the Australian Soil Classification, but is believed to apply more generally. 
+
+An associated ontology contains the actual classifiers (concepts) from the Australian Soil Classification. """ ;
+  rdfs:seeAlso <http://www.clw.csiro.au/aclep/asc_re_on_line_V2/soilhome.htm> ;
+  owl:imports dc: ;
+  skos:editorialNote "Work in progress" ;
 .
 soil:ASC-template
   rdf:type owl:Ontology ;
