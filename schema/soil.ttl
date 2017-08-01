@@ -29,13 +29,6 @@ An associated ontology contains the actual classifiers (concepts) from the Austr
   owl:imports dc: ;
   skos:editorialNote "Work in progress" ;
 .
-soil:ASC-template
-  rdf:type owl:Ontology ;
-  dct:contributor "Linda Gregory" ;
-  dct:created "2016-11-03"^^xsd:date ;
-  dct:creator "Simon Cox" ;
-  rdfs:comment "Initial thoughts about how to formalize the ASC in RDF" ;
-.
 soil:Class
   rdf:type owl:Class ;
   rdfs:comment """Currently soil:Class is range of
