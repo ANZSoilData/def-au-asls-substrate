@@ -24,7 +24,7 @@ CSIRO Publishing, Melbourne, Australia""" ;
 
 The classification model is drawn from the Australian Soil Classification, but is believed to apply more generally. 
 
-An associated ontology contains the actual classifiers (concepts) from the Australian Soil Classification. """ ;
+An associated ontology contains the actual classifiers (concepts) from the Australian Soil Classification.  """ ;
   rdfs:seeAlso <http://www.clw.csiro.au/aclep/asc_re_on_line_V2/soilhome.htm> ;
   owl:imports dc: ;
   skos:editorialNote "Work in progress" ;
