@@ -1,5 +1,6 @@
 # baseURI: http://registry.it.csiro.au/def/soils/soil-classification
 # imports: http://purl.org/dc/elements/1.1/
+# imports: http://www.w3.org/2004/02/skos/core
 # prefix: soil
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -27,6 +28,7 @@ The classification model is drawn from the Australian Soil Classification, but i
 An associated ontology contains the actual classifiers (concepts) from the Australian Soil Classification.  """ ;
   rdfs:seeAlso <http://www.clw.csiro.au/aclep/asc_re_on_line_V2/soilhome.htm> ;
   owl:imports dc: ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
   skos:editorialNote "Work in progress" ;
 .
 soil:ASC-template
@@ -95,6 +97,21 @@ soil:Classification
       owl:onProperty soil:subOrder ;
     ] ;
 .
+soil:DefInContext
+  rdf:type owl:Class ;
+  rdfs:label "definition in context" ;
+  rdfs:subClassOf owl:Thing ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty soil:context ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty skos:definition ;
+    ] ;
+.
 soil:Family
   rdf:type owl:Class ;
   rdfs:subClassOf skos:Concept ;
@@ -106,6 +123,19 @@ soil:Order
 	""" ;
   rdfs:comment "note that this concept is an alternative to the soil:Orders collection" ;
   rdfs:subClassOf skos:Concept ;
+.
+soil:context
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain soil:DefInContext ;
+  rdfs:label "context" ;
+  rdfs:range [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          soil:Class
+          soil:Family
+          soil:Order
+        ) ;
+    ] ;
 .
 soil:fam-type1
   rdf:type owl:ObjectProperty ;
@@ -136,6 +166,18 @@ soil:greatGroup
   rdf:type owl:ObjectProperty ;
   rdfs:domain soil:Classification ;
   rdfs:range soil:Class ;
+.
+soil:hasDefInContext
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          soil:Class
+          soil:Family
+        ) ;
+    ] ;
+  rdfs:label "has definition in context" ;
+  rdfs:range soil:DefInContext ;
 .
 soil:order
   rdf:type owl:ObjectProperty ;
