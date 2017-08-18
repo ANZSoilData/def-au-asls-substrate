@@ -134,6 +134,41 @@ asc:AI
   dct:description "OR Great Group: Soils in which the major part of the organic materials is strongly acid." ;
   dct:description "RU Subgroup: The major part of the soil materials is strongly acid." ;
   dct:description "TE Subgroup: Soils in which the major part of the solum is strongly acid." ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:DE ;
+      skos:definition "Subgroup: Other soils with a B2 horizon in which the major part is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:FE ;
+      skos:definition "Subgroup: Other soils with a B2 horizon in which the major part is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:HY ;
+      skos:definition "Subgroup: Other soils with a B2 horizon in which the major part is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:KA ;
+      skos:definition "Subgroup: Other soils with a B2 horizon in which the major part is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:OR ;
+      skos:definition "Great Group: Soils in which the major part of the organic materials is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      skos:definition "Subgroup: The major part of the soil materials is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:TE ;
+      skos:definition "Subgroup: Soils in which the major part of the solum is strongly acid." ;
+    ] ;
   rdfs:comment """DE, FE, HY, KA,FE,DE,KA:  Subgroup: Other soils with a B2 horizon in which the major part is strongly acid.
 OR Great Group: Soils in which the major part of the organic materials is strongly acid.
 RU Subgroup: The major part of the soil materials is strongly acid.
