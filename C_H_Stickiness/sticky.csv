@@ -1,5 +1,0 @@
-CODE_DOMAIN,CODE_VALUE,CODE_DESC,uri,uri2,uri3,uri4,preflabel,preflabel2,preflabel3
-C_H_STICKINESS,0,Non-sticky,http://registry.it.csiro.au/def/soils/stickiness/,non-sticky,non-sticky,http://registry.it.csiro.au/def/soils/stickiness/non-sticky,"""",@en,"""Non-sticky""@en"
-C_H_STICKINESS,1,Slightly sticky,http://registry.it.csiro.au/def/soils/stickiness/,slightly sticky,slightly-sticky,http://registry.it.csiro.au/def/soils/stickiness/slightly-sticky,"""",@en,"""Slightly sticky""@en"
-C_H_STICKINESS,2,Moderately sticky,http://registry.it.csiro.au/def/soils/stickiness/,moderately sticky,moderately-sticky,http://registry.it.csiro.au/def/soils/stickiness/moderately-sticky,"""",@en,"""Moderately sticky""@en"
-C_H_STICKINESS,3,Very sticky,http://registry.it.csiro.au/def/soils/stickiness/,very sticky,very-sticky,http://registry.it.csiro.au/def/soils/stickiness/very-sticky,"""",@en,"""Very sticky""@en"

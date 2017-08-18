@@ -1,5 +1,0 @@
-CODE_DOMAIN,CODE_VALUE,CODE_DESC,uri,preflabel
-C_H_PLASTICITY_TYPE,N,Normal plasticity,http://registry.it.csiro.au/def/soils/plasticity-type/normal-plasticity/,"""Normal Plasticity""@en"
-C_H_PLASTICITY_TYPE,S,Superplastic,http://registry.it.csiro.au/def/soils/plasticity-type/superplastic/,"""Superplastic""@en"
-C_H_PLASTICITY_TYPE,T,Strongly subplastic,http://registry.it.csiro.au/def/soils/plasticity-type/strongly-subplastic/,"""Strongly Subplastic""@en"
-C_H_PLASTICITY_TYPE,U,Subplastic,http://registry.it.csiro.au/def/soils/plasticity-type/subplastic/,"""Subplastic""@en"
