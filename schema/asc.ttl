@@ -441,22 +441,7 @@ asc:AI
     ] ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
-      soil:context asc:DE ;
-      skos:definition "Subgroup: Other soils with a B2 horizon in which the major part is strongly acid." ;
-    ] ;
-  soil:hasDefInContext [
-      rdf:type soil:DefInContext ;
       soil:context asc:FE ;
-      skos:definition "Subgroup: Other soils with a B2 horizon in which the major part is strongly acid." ;
-    ] ;
-  soil:hasDefInContext [
-      rdf:type soil:DefInContext ;
-      soil:context asc:FE ;
-      skos:definition "Subgroup: Other soils with a B2 horizon in which the major part is strongly acid." ;
-    ] ;
-  soil:hasDefInContext [
-      rdf:type soil:DefInContext ;
-      soil:context asc:HY ;
       skos:definition "Subgroup: Other soils with a B2 horizon in which the major part is strongly acid." ;
     ] ;
   soil:hasDefInContext [
@@ -471,16 +456,6 @@ asc:AI
     ] ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
-      soil:context asc:KA ;
-      skos:definition "Subgroup: Other soils with a B2 horizon in which the major part is strongly acid." ;
-    ] ;
-  soil:hasDefInContext [
-      rdf:type soil:DefInContext ;
-      soil:context asc:OR ;
-      skos:definition "Great Group: Soils in which the major part of the organic materials is strongly acid." ;
-    ] ;
-  soil:hasDefInContext [
-      rdf:type soil:DefInContext ;
       soil:context asc:OR ;
       skos:definition "Great Group: Soils in which the major part of the organic materials is strongly acid." ;
     ] ;
@@ -488,16 +463,6 @@ asc:AI
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
       skos:definition "Subgroup: The major part of the soil materials is strongly acid." ;
-    ] ;
-  soil:hasDefInContext [
-      rdf:type soil:DefInContext ;
-      soil:context asc:RU ;
-      skos:definition "Subgroup: The major part of the soil materials is strongly acid." ;
-    ] ;
-  soil:hasDefInContext [
-      rdf:type soil:DefInContext ;
-      soil:context asc:TE ;
-      skos:definition "Subgroup: Soils in which the major part of the solum is strongly acid." ;
     ] ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
@@ -3957,7 +3922,7 @@ asc:GE
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      skos:definition "" ;
+      skos:definition "The soil material contains a ferric horizon and directly overlies ferricrete, petroreticulate or apetroferric horizon." ;
     ] ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
@@ -3966,7 +3931,7 @@ asc:GE
     ] ;
   rdfs:comment "RU,TE" ;
   owl:versionInfo "Version 1 (1996)" ;
-  skos:definition "RU The soil material contains a ferric horizon and directly overlies ferricrete, petroreticulate or apetroferric horizon." ;
+  skos:definition "RU: The soil material contains a ferric horizon and directly overlies ferricrete, petroreticulate or apetroferric horizon." ;
   skos:definition "TE: Soils with a ferric horizon and which overlie ferricrete, petroreticulate or petroferric horizon." ;
   skos:notation "GE" ;
   skos:prefLabel "Ferric-petroferric" ;
@@ -4162,11 +4127,30 @@ asc:GW
   rdf:type skos:Concept ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
-      soil:context asc:HY ;
-      skos:definition "" ;
+      soil:context asc:DE ;
+      skos:definition "Soils with a ferric horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
     ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:FE ;
+      skos:definition "Soils with a ferric horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:HY ;
+      skos:definition "Soils with a ferric horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:KA ;
+      skos:definition "Soils with a ferric horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+    ] ;
+  rdf:comment "HY,FE,DE,KA" ;
   owl:versionInfo "Version 1 (1996)" ;
-  skos:definition "HY,FE,DE,KA: Soils with a ferric horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+  skos:definition "DE: Soils with a ferric horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+  skos:definition "FE: Soils with a ferric horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+  skos:definition "HY: Soils with a ferric horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+  skos:definition "KA: Soils with a ferric horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
   skos:notation "GW" ;
   skos:prefLabel "Ferric-acidic" ;
 .
@@ -4175,11 +4159,24 @@ asc:GX
   rdf:type skos:Concept ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
-      soil:context asc:HY ;
-      skos:definition "" ;
+      soil:context asc:DE ;
+      skos:definition "Soils with a manganic horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
     ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:HY ;
+      skos:definition "Soils with a manganic horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:KA ;
+      skos:definition "Soils with a manganic horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+    ] ;
+  rdf:comment "HY,DE,KA" ;
   owl:versionInfo "Version 1 (1996)" ;
-  skos:definition "HY,DE,KA: Soils with a manganic horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+  skos:definition "DE: Soils with a manganic horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+  skos:definition "HY: Soils with a manganic horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
+  skos:definition "KA: Soils with a manganic horizon within the solum and a B2 horizon in which the major part is strongly acid." ;
   skos:notation "GX" ;
   skos:prefLabel "Manganic-acidic" ;
 .
@@ -4188,16 +4185,35 @@ asc:GY
   rdf:type skos:Concept ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
+      soil:context asc:DE ;
+      skos:definition "Soils with a humose horizon and the major part of the B2 horizon is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:FE ;
+      skos:definition "Soils with a humose horizon and the major part of the B2 horizon is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
       soil:context asc:HY ;
-      skos:definition "" ;
+      skos:definition "Soils with a humose horizon and the major part of the B2 horizon is strongly acid." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:KA ;
+      skos:definition "Soils with a humose horizon and the major part of the B2 horizon is strongly acid." ;
     ] ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:TE ;
       skos:definition "Soils with a humose horizon and the major part of the B horizon (if present) is strongly acid." ;
     ] ;
+  rdf:comment "HY,FE,DE,KA,TE" ;
   owl:versionInfo "Version 1 (1996)" ;
-  skos:definition "HY,FE,DE,KA: Soils with a humose horizon and the major part of the B2 horizon is strongly acid." ;
+  skos:definition "DE: Soils with a humose horizon and the major part of the B2 horizon is strongly acid." ;
+  skos:definition "FE: Soils with a humose horizon and the major part of the B2 horizon is strongly acid." ;
+  skos:definition "HY: Soils with a humose horizon and the major part of the B2 horizon is strongly acid." ;
+  skos:definition "KA: Soils with a humose horizon and the major part of the B2 horizon is strongly acid." ;
   skos:definition "TE: Soils with a humose horizon and the major part of the B horizon (if present) is strongly acid." ;
   skos:notation "GY" ;
   skos:prefLabel "Humose-acidic" ;
@@ -4210,6 +4226,7 @@ asc:GZ
       soil:context asc:TE ;
       skos:definition "Other soils with a conspicuously bleached A2 horizon." ;
     ] ;
+  rdf:comment "TE" ;
   owl:versionInfo "Version 1 (1996)" ;
   skos:definition "TE: Other soils with a conspicuously bleached A2 horizon." ;
   skos:notation "GZ" ;
@@ -4230,6 +4247,7 @@ asc:HA
       soil:context asc:DE ;
       skos:definition "Soils with a melanic horizon and a B horizon in which at least the lower part is sodic." ;
     ] ;
+  rdf:comment "DE" ;
   owl:versionInfo "Version 1 (1996)" ;
   skos:definition "DE: Soils with a melanic horizon and a B horizon in which at least the lower part is sodic." ;
   skos:notation "HA" ;
@@ -4240,11 +4258,18 @@ asc:HB
   rdf:type skos:Concept ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
-      soil:context asc:KU ;
-      skos:definition "" ;
+      soil:context asc:CH ;
+      skos:definition "Soils in which the major part of the B2 horizon is mottled and at least the lower part of the B horizon is sodic." ;
     ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:KA ;
+      skos:definition "Soils in which the major part of the B2 horizon is mottled and at least the lower part of the B horizon is sodic." ;
+    ] ;
+  rdf:comment "KU,CH,KA" ;
   owl:versionInfo "Version 1 (1996)" ;
-  skos:definition "KU,CH,KA:Soils in which the major part of the B2 horizon is mottled and at least the lower part of the B horizon is sodic." ;
+  skos:definition "CH: Soils in which the major part of the B2 horizon is mottled and at least the lower part of the B horizon is sodic." ;
+  skos:definition "KA: Soils in which the major part of the B2 horizon is mottled and at least the lower part of the B horizon is sodic." ;
   skos:notation "HB" ;
   skos:prefLabel "Mottled-sodic" ;
 .
@@ -4258,12 +4283,25 @@ asc:HC
     ] ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
-      soil:context asc:HY ;
-      skos:definition "" ;
+      soil:context asc:DE ;
+      skos:definition "Soils with a ferric horizon within the solum and a B horizon in which at least the lower part is sodic." ;
     ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:HY ;
+      skos:definition "Soils with a ferric horizon within the solum and a B horizon in which at least the lower part is sodic." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:KA ;
+      skos:definition "Soils with a ferric horizon within the solum and a B horizon in which at least the lower part is sodic." ;
+    ] ;
+  rdf:comment "CH,HY,DE,KA" ;
   owl:versionInfo "Version 1 (1996)" ;
   skos:definition "CH: Soils with a ferric horizon within the solum, and at least the lower part of the B horizon is sodic." ;
-  skos:definition "HY,DE,KA: Soils with a ferric horizon within the solum and a B horizon in which at least the lower part is sodic." ;
+  skos:definition "DE: Soils with a ferric horizon within the solum and a B horizon in which at least the lower part is sodic." ;
+  skos:definition "HY: Soils with a ferric horizon within the solum and a B horizon in which at least the lower part is sodic." ;
+  skos:definition "KA: Soils with a ferric horizon within the solum and a B horizon in which at least the lower part is sodic." ;
   skos:notation "HC" ;
   skos:prefLabel "Ferric-sodic" ;
 .
@@ -4397,11 +4435,23 @@ asc:HO
   rdf:type skos:Concept ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
+      soil:context asc:DE ;
+      skos:definition "Soils in which the major part of the B2 horizon is strongly acid and at least the lower part is sodic" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
       soil:context asc:HY ;
-      skos:definition "" ;
+      skos:definition "Soils in which the major part of the B2 horizon is strongly acid and at least the lower part is sodic" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:KA ;
+      skos:definition "Soils in which the major part of the B2 horizon is strongly acid and at least the lower part is sodic" ;
     ] ;
   owl:versionInfo "Version 1 (1996)" ;
-  skos:definition "HY,DE,KA: Soils in which the major part of the B2 horizon is strongly acid and at least the lower part is sodic" ;
+  skos:definition "DE: Soils in which the major part of the B2 horizon is strongly acid and at least the lower part is sodic" ;
+  skos:definition "HY: Soils in which the major part of the B2 horizon is strongly acid and at least the lower part is sodic" ;
+  skos:definition "KA: Soils in which the major part of the B2 horizon is strongly acid and at least the lower part is sodic" ;
   skos:notation "HO" ;
   skos:prefLabel "Acidic-sodic" ;
 .
@@ -4579,11 +4629,17 @@ asc:IE
   rdf:type skos:Concept ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
+      soil:context asc:CH ;
+      skos:definition "Soils with fine earth effervescence (1M HCl) throughout the solum." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
       soil:context asc:SO ;
-      skos:definition "" ;
+      skos:definition "Soils with fine earth effervescence (1M HCl) throughout the solum." ;
     ] ;
   owl:versionInfo "Version 1 (1996)" ;
-  skos:definition "SO,CH:Soils with fine earth effervescence (1M HCl) throughout the solum." ;
+  skos:definition "CH: Soils with fine earth effervescence (1M HCl) throughout the solum." ;
+  skos:definition "SO: Soils with fine earth effervescence (1M HCl) throughout the solum." ;
   skos:notation "IE" ;
   skos:prefLabel "Effervescent" ;
 .
@@ -4634,11 +4690,11 @@ asc:IL
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:TE ;
-      skos:definition "" ;
+      skos:definition "Soils with a ferric or bauxitic horizon (nodules or concretions) that is at least 0.2 m thick and occupies >50% of the solum depth. The solum depth excludes cemented layers." ;
     ] ;
   rdfs:comment "Genetically these soils are related to Podosols." ;
   owl:versionInfo "Version 1 Revised (2002)" ;
-  skos:definition "TE Soils with a ferric or bauxitic horizon (nodules or concretions) that is at least 0.2 m thick and occupies >50% of the solum depth. The solum depth excludes cemented layers." ;
+  skos:definition "TE: Soils with a ferric or bauxitic horizon (nodules or concretions) that is at least 0.2 m thick and occupies >50% of the solum depth. The solum depth excludes cemented layers." ;
   skos:notation "IL" ;
   skos:prefLabel "Sesqui-nodular" ;
 .
