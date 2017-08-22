@@ -661,7 +661,7 @@ asc:AO
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Suborder ;
       skos:definition " Soils in which at least the upper 0.5 m of the profile is not or only slightly gravelly (<10% >2mm) throughout, either loose or only weakly coherent both moist and dry, and the texture is sandy (ie. S-LS-CS, up to 10% clay). Aeolian cross-bedding may be present but there is little if any evidence of other stratification or buried soils." ;
     ] ;
   soil:hasDefInContext [
@@ -736,7 +736,7 @@ asc:AR
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Subgroup ;
       skos:definition "The soil materials are not calcareous and the major part is not strongly acid." ;
     ] ;
   soil:hasDefInContext [
@@ -766,7 +766,7 @@ asc:AS
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Soils in which the gravelly materials contain a bauxitic horizon." ;
     ] ;
   soil:hasDefInContext [
@@ -1142,8 +1142,14 @@ asc:BC
     ] ;
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
-      soil:context asc:RU ;
+      soil:context asc:OR ;
       soil:hasClassLevel soil:Unknown ;
+      skos:definition "Soils in which the major part of the organic materials is calcareous." ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasClassLevel soil:Subgroup ;
       skos:definition "At least some part of the soil materials is calcareous." ;
     ] ;
   soil:hasDefInContext [
@@ -1156,8 +1162,8 @@ asc:BC
   owl:versionInfo "Version 1 (1996)" ;
   skos:definition "FE: Soils in which at least some part of the B or the BC horizon is calcareous." ;
   skos:definition "HY: Soils in which at least some part of the B or the BC horizon is calcareous." ;
+  skos:definition "OR: Soils in which the major part of the organic materials is calcareous." ;
   skos:definition "RU: At least some part of the soil materials is calcareous." ;
-  skos:definition "Soils in which the major part of the organic materials is calcareous." ;
   skos:definition "TE: Other soils in which at least some part of the solum is calcareous." ;
   skos:inScheme asc: ;
   skos:notation "BC" ;
@@ -1317,7 +1323,7 @@ asc:BJ
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "The soil material directly overlies a red-brown hardpan." ;
     ] ;
   soil:hasDefInContext [
@@ -1524,7 +1530,7 @@ asc:BU
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Soils in which the gravelly materials contain a ferric horizon." ;
     ] ;
   soil:hasDefInContext [
@@ -1607,7 +1613,7 @@ asc:BX
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Soils in which the gravel consists dominantly of mostly rounded materials that have been transported by streams or by wave action." ;
     ] ;
   rdfs:comment "RU" ;
@@ -1663,7 +1669,7 @@ asc:BZ
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "A gypsic horizon occurs within the upper 0.5 m of the profile." ;
     ] ;
   soil:hasDefInContext [
@@ -1743,7 +1749,7 @@ asc:CC
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "The major part of the upper 0.5 m of the profile consists of materials dominated (>50%) by halite crystals." ;
     ] ;
   rdfs:comment "HY,RU" ;
@@ -2156,7 +2162,7 @@ asc:CS
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Suborder ;
       skos:definition "Soils that are highly saline (EC > 2 dSm-1; 1:5 H2O), often salt-encrusted, frequently stratified, but do not have a permanent or seasonal water table and do not show any evidence, such as mottling, of episodic wetting by groundwater." ;
     ] ;
   rdfs:comment "HY,RU" ;
@@ -2265,7 +2271,7 @@ asc:CY
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Suborder ;
       skos:definition "Other soils that are underlain within 0.5m of the surface by a calcrete pan; hard unweathered rock or other hard materials; or partially weathered or decomposed rock or saprolite." ;
     ] ;
   soil:hasDefInContext [
@@ -2300,7 +2306,7 @@ asc:CZ
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "The soil material directly overlies hard rock." ;
     ] ;
   soil:hasDefInContext [
@@ -3049,7 +3055,7 @@ asc:DU
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "The soil material directly overlies partially weathered or decomposed rock or saprolite." ;
     ] ;
   soil:hasDefInContext [
@@ -3196,7 +3202,7 @@ asc:DZ
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "The soil material directly overlies a calcrete pan." ;
     ] ;
   soil:hasDefInContext [
@@ -3276,7 +3282,7 @@ asc:EA
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "The soil material directly overlies ferricrete, petroreticulate, or a petroferric horizon." ;
     ] ;
   soil:hasDefInContext [
@@ -3547,7 +3553,7 @@ asc:EL
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Suborder ;
       skos:definition "Soils in which the profile, with the possible exception of the A horizon, is calcareous, either loose or only weakly coherent both moist and dry, and consists dominantly of sand-sized fragments of shells and other aquatic skeletons (identifiable under a 10x hand lens)." ;
     ] ;
   soil:hasDefInContext [
@@ -3707,7 +3713,7 @@ asc:ER
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Suborder ;
       skos:definition "Soils in which at least the upper 0.5m of the profile consists dominantly of unconsolidated mineral materials which are distinct, not or only slightly gravelly (<10% >2mm) sedimentary layers or buried soils but salinity is not high (EC<2 dSm-1; 1:5 H20)." ;
     ] ;
   rdfs:comment "RU" ;
@@ -3775,7 +3781,7 @@ asc:EU
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Soils in which sulfidic materials occur within the upper 1.5 m of the profile." ;
     ] ;
   soil:hasDefInContext [
@@ -3811,7 +3817,7 @@ asc:EV
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Soils in which sulfuric material (at least 15 cm thick) occurs within the upper 1.5m of the profile." ;
     ] ;
   soil:hasDefInContext [
@@ -4144,7 +4150,7 @@ asc:FJ
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Suborder ;
       skos:definition "Soils that are not highly saline (EC < 2 dSm-1; 1:5 H2O) and dominantly consist of gypsum crystals which are sand-sized or finer." ;
     ] ;
   rdfs:comment "CA,RU" ;
@@ -4515,7 +4521,7 @@ asc:GE
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "The soil material contains a ferric horizon and directly overlies ferricrete, petroreticulate or apetroferric horizon." ;
     ] ;
   soil:hasDefInContext [
@@ -4734,7 +4740,7 @@ asc:GV
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Suborder ;
       skos:definition "Soils in which at least the upper 0.5m of the profile consists dominantly of unconsolidated mineral materials which are not or only slightly gravelly (<10% >2mm). Aeolian cross-bedding may be present but there is little if any evidence of other stratification or buried soils. If the soil material is sandy (ie. S-LS-CS, up to 10% clay) it is coherent." ;
     ] ;
   owl:versionInfo "Version 1 (1996)" ;
@@ -4978,7 +4984,7 @@ asc:HF
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Soils in which the gravel consists dominantly of little-weathered tephric materials." ;
     ] ;
   soil:hasDefInContext [
@@ -5000,7 +5006,7 @@ asc:HG
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Suborder ;
       skos:definition "Soils in which the upper 0.5 m (or less if the profile is shallower) consists dominantly of carbic materials." ;
     ] ;
   owl:versionInfo "Version 1 (1996)" ;
@@ -5015,7 +5021,7 @@ asc:HH
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Suborder ;
       skos:definition "Soils in which at least the upper 0.5m of the profile consists dominantly of unconsolidated mineral materials which are gravelly (>10% >2mm). The gravel may occur as distinct layers, or be uniformly or irregularly distributed." ;
     ] ;
   owl:versionInfo "Version 1 (1996)" ;
@@ -5030,7 +5036,7 @@ asc:HI
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Soils in which the gravel consists of usually unsorted material with a wide size range. It is largely colluvial mass movement debris, including scree and talus, and landslide, mudflow and creep deposits." ;
     ] ;
   owl:versionInfo "Version 1 (1996)" ;
@@ -5045,7 +5051,7 @@ asc:HJ
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Other soils in which the unconsolidated mineral materials are dominated by gravel which mostly consists of rock or mineral fragments." ;
     ] ;
   owl:versionInfo "Version 1 (1996)" ;
@@ -5590,7 +5596,7 @@ asc:IW
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Soils in which both monosulfidic material and sulfuric material (at least 15 cm thick) occur within the upper 1.5m of the profile." ;
     ] ;
   soil:hasDefInContext [
@@ -5625,7 +5631,7 @@ asc:IX
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Soils in which both monosulfidic material and hypersulfidic material occur within the upper 1.5m of the profile." ;
     ] ;
   soil:hasDefInContext [
@@ -5674,7 +5680,7 @@ asc:IZ
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Other soils in which hypersulfidic material occurs within the upper 1.5m of the profile." ;
     ] ;
   soil:hasDefInContext [
@@ -5717,7 +5723,7 @@ asc:JA
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Soils in which both monosulfidic material and hyposulfidic material occur within the upper 1.5m of the profile." ;
     ] ;
   soil:hasDefInContext [
@@ -5766,7 +5772,7 @@ asc:JC
   soil:hasDefInContext [
       rdf:type soil:DefInContext ;
       soil:context asc:RU ;
-      soil:hasClassLevel soil:Unknown ;
+      soil:hasClassLevel soil:Great-group ;
       skos:definition "Other soils with hyposulfidic material within the upper 1.5m of the profile." ;
     ] ;
   soil:hasDefInContext [
