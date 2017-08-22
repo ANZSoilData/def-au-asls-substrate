@@ -29,12 +29,26 @@ An associated ontology contains the actual classifiers (concepts) from the Austr
   owl:imports dc: ;
   skos:editorialNote "Work in progress" ;
 .
+soil:A1horizonTexture
+  rdf:type soil:FamilyCriteria ;
+  rdfs:label "A1 horizon texture" ;
+  skos:broader soil:SurfaceAndA1horizonGravel ;
+.
+soil:A1horizonThickness
+  rdf:type soil:FamilyCriteria ;
+  rdfs:label "A1 horizon thickness" ;
+  skos:broader soil:SurfaceAndA1horizonGravel ;
+.
 soil:ASC-template
   rdf:type owl:Ontology ;
   dct:contributor "Linda Gregory" ;
   dct:created "2016-11-03"^^xsd:date ;
   dct:creator "Simon Cox" ;
   rdfs:comment "Initial thoughts about how to formalize the ASC in RDF" ;
+.
+soil:BhorizonTexture
+  rdf:type soil:FamilyCriteria ;
+  rdfs:label "B horizon maximum texture" ;
 .
 soil:Class
   rdf:type owl:Class ;
@@ -105,14 +119,34 @@ soil:DefInContext
   rdfs:label "definition in context" ;
   rdfs:subClassOf owl:Thing ;
   rdfs:subClassOf [
+      rdf:type owl:Class ;
+      owl:unionOf (
+          [
+            rdf:type owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty soil:hasFamilyCriteria ;
+          ]
+          [
+            rdf:type owl:Restriction ;
+            owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onProperty soil:hasClassLevel ;
+          ]
+        ) ;
+    ] ;
+  rdfs:subClassOf [
       rdf:type owl:Restriction ;
-      owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty soil:context ;
+      owl:allValuesFrom soil:ClassLevel ;
+      owl:onProperty soil:hasClassLevel ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom soil:FamilyCriteria ;
+      owl:onProperty soil:hasFamilyCriteria ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
       owl:cardinality "1"^^xsd:nonNegativeInteger ;
-      owl:onProperty soil:hasClassLevel ;
+      owl:onProperty soil:context ;
     ] ;
   rdfs:subClassOf [
       rdf:type owl:Restriction ;
@@ -122,6 +156,11 @@ soil:DefInContext
 .
 soil:Family
   rdf:type owl:Class ;
+  rdfs:subClassOf skos:Concept ;
+.
+soil:FamilyCriteria
+  rdf:type owl:Class ;
+  rdfs:label "Family criteria" ;
   rdfs:subClassOf skos:Concept ;
 .
 soil:Great-group
@@ -136,6 +175,18 @@ soil:Order
   rdfs:comment "note that this concept is an alternative to the soil:Orders collection" ;
   rdfs:subClassOf skos:Concept ;
 .
+soil:OrganicsNature
+  rdf:type soil:FamilyCriteria ;
+  rdfs:label "Nature of uppermost organic materials" ;
+.
+soil:OrganicsThickness
+  rdf:type soil:FamilyCriteria ;
+  rdfs:label "Cumulative thickness of organic materials" ;
+.
+soil:SoilDepth
+  rdf:type soil:FamilyCriteria ;
+  rdfs:label "Soil depth" ;
+.
 soil:Subgroup
   rdf:type soil:ClassLevel ;
   rdfs:label "Subgroup" ;
@@ -143,6 +194,17 @@ soil:Subgroup
 soil:Suborder
   rdf:type soil:ClassLevel ;
   rdfs:label "Suborder" ;
+.
+soil:SurfaceAndA1horizonGravel
+  rdf:type soil:FamilyCriteria ;
+  rdfs:label "Gravel of surface and A1 horizon" ;
+  skos:narrower soil:A1horizonTexture ;
+  skos:narrower soil:SurfaceSoilGravel ;
+.
+soil:SurfaceSoilGravel
+  rdf:type soil:FamilyCriteria ;
+  rdfs:label "Gravel of surface soil" ;
+  skos:broader soil:SurfaceAndA1horizonGravel ;
 .
 soil:Unknown
   rdf:type soil:ClassLevel ;
@@ -152,14 +214,7 @@ soil:context
   rdf:type owl:ObjectProperty ;
   rdfs:domain soil:DefInContext ;
   rdfs:label "context" ;
-  rdfs:range [
-      rdf:type owl:Class ;
-      owl:unionOf (
-          soil:Class
-          soil:Family
-          soil:Order
-        ) ;
-    ] ;
+  rdfs:range soil:Order ;
 .
 soil:fam-type1
   rdf:type owl:ObjectProperty ;
@@ -207,6 +262,12 @@ soil:hasDefInContext
     ] ;
   rdfs:label "has definition in context" ;
   rdfs:range soil:DefInContext ;
+.
+soil:hasFamilyCriteria
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain soil:DefInContext ;
+  rdfs:label "has family criteria" ;
+  rdfs:range soil:FamilyCriteria ;
 .
 soil:order
   rdf:type owl:ObjectProperty ;
