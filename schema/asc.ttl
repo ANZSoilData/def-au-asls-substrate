@@ -3241,6 +3241,12 @@ asc:DZ
 asc:E
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:SurfaceSoilGravel ;
+      skos:definition "<2 %" ;
+    ] ;
   skos:definition "<2 %" ;
   skos:inScheme asc: ;
   skos:notation "E" ;
@@ -3959,6 +3965,12 @@ asc:EZ
 asc:F
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:SurfaceSoilGravel ;
+      skos:definition "2 - <10 %" ;
+    ] ;
   skos:definition "2 - <10 %" ;
   skos:inScheme asc: ;
   skos:notation "F" ;
@@ -4439,6 +4451,12 @@ asc:FZ
 asc:G
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:SurfaceSoilGravel ;
+      skos:definition "10 - <20 %" ;
+    ] ;
   skos:definition "10 - <20 %" ;
   skos:inScheme asc: ;
   skos:notation "G" ;
@@ -4879,6 +4897,12 @@ asc:GZ
 asc:H
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:SurfaceSoilGravel ;
+      skos:definition "20 - <50 %" ;
+    ] ;
   skos:definition "20 - <50 %" ;
   skos:inScheme asc: ;
   skos:notation "H" ;
@@ -5261,6 +5285,12 @@ asc:HZ
 asc:I
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:SurfaceSoilGravel ;
+      skos:definition ">50 %" ;
+    ] ;
   skos:definition ">50 %" ;
   skos:inScheme asc: ;
   skos:notation "I" ;
@@ -5877,6 +5907,12 @@ asc:JI
 asc:K
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:A1horizonTexture ;
+      skos:definition "S-LS-CS (up to 10% clay)" ;
+    ] ;
   skos:definition "S-LS-CS (up to 10% clay)" ;
   skos:inScheme asc: ;
   skos:notation "K" ;
@@ -5927,6 +5963,12 @@ The relevance of sodicity in strongly acid soils is open to question as in theor
 asc:L
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:A1horizonTexture ;
+      skos:definition "SL-L (10-20% clay)" ;
+    ] ;
   skos:definition "SL-L (10-20% clay)" ;
   skos:inScheme asc: ;
   skos:notation "L" ;
@@ -5935,6 +5977,12 @@ asc:L
 asc:M
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:A1horizonTexture ;
+      skos:definition "SCL-CL (20-35% clay)" ;
+    ] ;
   skos:definition "SCL-CL (20-35% clay)" ;
   skos:inScheme asc: ;
   skos:notation "M" ;
@@ -5943,6 +5991,12 @@ asc:M
 asc:N
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:A1horizonTexture ;
+      skos:definition "ZL-ZCL (25-35% clay and silt 25% or more)" ;
+    ] ;
   skos:definition "ZL-ZCL (25-35% clay and silt 25% or more)" ;
   skos:inScheme asc: ;
   skos:notation "N" ;
@@ -5951,6 +6005,12 @@ asc:N
 asc:O
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:A1horizonTexture ;
+      skos:definition "LC - MC - HC (> 35% clay)" ;
+    ] ;
   skos:definition "LC - MC - HC (> 35% clay)" ;
   skos:inScheme asc: ;
   skos:notation "O" ;
@@ -5974,12 +6034,17 @@ The above definition is similar to definitions of organic soils in Soil Taxonomy
 .
 asc:OR-family
   rdf:type skos:Collection ;
-  skos:member asc:T-OR ;
-  skos:member asc:U-OR ;
-  skos:member asc:V-OR ;
-  skos:member asc:W-OR ;
-  skos:member asc:X-OR ;
-  skos:member asc:Y-OR ;
+  skos:member asc:X ;
+.
+asc:P
+  rdf:type soil:Family ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:OR ;
+      soil:hasFamilyCriteria soil:OrganicsNature ;
+      skos:definition "The term granular [P] is applied if there is a surface layer at least 0.2m thick which has a distinct granular or subangular blocky structure. This condition occurs in peat soils that have been either drained or drained and cultivated, and is also known as earth or ripened peat. In Australia it is known to occur with sapric peats, but it is uncertain if it occurs with hemic or fibric peats." ;
+    ] ;
+  rdfs:label "Granular" ;
 .
 asc:PO
   rdf:type soil:Order ;
@@ -6055,20 +6120,22 @@ Data from Loveday and Pyle (1973) and unpublished data available to the author s
 asc:T
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "< 0.25 m Soil depth" ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:OR ;
+      soil:hasFamilyCriteria soil:OrganicsThickness ;
+      skos:definition "< 0.25 m Cumulative thickness of organic materials" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "< 0.25 m Soil depth" ;
+    ] ;
+  skos:definition "< 0.25 m" ;
   skos:inScheme asc: ;
   skos:notation "T" ;
-  skos:prefLabel "Very shallow" ;
-.
-asc:T-OR
-  rdf:type soil:Family ;
-  rdf:type skos:Concept ;
-  skos:definition "< 0.25 m Cumulative thickness of organic materials" ;
-  skos:definition "< 0.25 m thickness of organic material" ;
-  skos:inScheme asc: ;
-  skos:notation "T" ;
-  skos:notation "T-OR" ;
-  skos:prefLabel "Very thin" ;
+  skos:prefLabel "Very shallow or very thin" ;
 .
 asc:TE
   rdf:type soil:Order ;
@@ -6465,35 +6532,35 @@ asc:TE-suborders
 asc:U
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "0.25 - < 0.5 m Soil depth" ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:OR ;
+      soil:hasFamilyCriteria soil:OrganicsThickness ;
+      skos:definition "0.25 - < 0.5 m" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:RU ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "0.25 - < 0.5 m Soil depth" ;
+    ] ;
+  skos:definition "0.25 - < 0.5 m" ;
   skos:inScheme asc: ;
   skos:notation "U" ;
-  skos:prefLabel "Shallow" ;
-.
-asc:U-OR
-  rdf:type soil:Family ;
-  rdf:type skos:Concept ;
-  skos:definition "0.25 - < 0.5 m Cumulative thickness of organic materials" ;
-  skos:inScheme asc: ;
-  skos:notation "U" ;
-  skos:notation "U-OR" ;
-  skos:prefLabel "Thin" ;
+  skos:prefLabel "Shallow or thin" ;
 .
 asc:V
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "0.5 - < 1.0 m Soil depth" ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:OR ;
+      soil:hasFamilyCriteria soil:OrganicsThickness ;
+      skos:definition "0.5 - < 1.0 m" ;
+    ] ;
+  skos:definition "0.5 - < 1.0 m" ;
   skos:inScheme asc: ;
   skos:notation "V" ;
-  skos:prefLabel "Moderate" ;
-.
-asc:V-OR
-  rdf:type soil:Family ;
-  rdf:type skos:Concept ;
-  skos:definition "0.5 - < 1.0 m Cumulative thickness of organic materials" ;
-  skos:inScheme asc: ;
-  skos:notation "V" ;
-  skos:notation "V-OR" ;
   skos:prefLabel "Moderate" ;
 .
 asc:VE
@@ -6516,32 +6583,27 @@ Because cracking, slickensides and lenticular peds are essentially used as evide
 asc:W
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "1.0 - < 1.5 m Soil depth" ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:OR ;
+      soil:hasFamilyCriteria soil:OrganicsThickness ;
+      skos:definition "1.0 - < 1.5 m" ;
+    ] ;
+  skos:definition "1.0 - < 1.5 m" ;
   skos:inScheme asc: ;
   skos:notation "W" ;
-  skos:prefLabel "Deep" ;
-.
-asc:W-OR
-  rdf:type soil:Family ;
-  rdf:type skos:Concept ;
-  skos:definition "1.0 - < 1.5 m Cumulative thickness of organic materials" ;
-  skos:inScheme asc: ;
-  skos:notation "W" ;
-  skos:notation "W-OR" ;
-  skos:prefLabel "Thick" ;
+  skos:prefLabel "Deep or thick" ;
 .
 asc:X
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "1.5 - 5 m Soil depth" ;
-  skos:inScheme asc: ;
-  skos:notation "X" ;
-  skos:prefLabel "Very deep" ;
-.
-asc:X-OR
-  rdf:type soil:Family ;
-  rdf:type skos:Concept ;
-  skos:definition "1.5 - 5 m Cumulative thickness of organic materials" ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:OR ;
+      soil:hasFamilyCriteria soil:OrganicsThickness ;
+      skos:definition "1.5 - 5 m" ;
+    ] ;
+  skos:definition "1.5 - 5 m" ;
   skos:inScheme asc: ;
   skos:notation "X" ;
   skos:notation "X-OR" ;
@@ -6550,18 +6612,75 @@ asc:X-OR
 asc:Y
   rdf:type soil:Family ;
   rdf:type skos:Concept ;
-  skos:definition "> 5 m Soil depth" ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:CA ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "> 5 m" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:CH ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "> 5 m" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:DE ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "> 5 m" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:FE ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "> 5 m" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:HY ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "> 5 m" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:KU ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "> 5 m" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:OR ;
+      soil:hasFamilyCriteria soil:OrganicsThickness ;
+      skos:definition "> 5 m" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:PO ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "> 5 m" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:SO ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "> 5 m" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:TE ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "> 5 m" ;
+    ] ;
+  soil:hasDefInContext [
+      rdf:type soil:DefInContext ;
+      soil:context asc:VE ;
+      soil:hasFamilyCriteria soil:SoilDepth ;
+      skos:definition "> 5 m" ;
+    ] ;
+  skos:definition "> 5 m" ;
   skos:inScheme asc: ;
   skos:notation "Y" ;
-  skos:prefLabel "Giant" ;
-.
-asc:Y-OR
-  rdf:type soil:Family ;
-  rdf:type skos:Concept ;
-  skos:definition "> 5 m Cumulative thickness of organic materials" ;
-  skos:inScheme asc: ;
-  skos:notation "Y" ;
-  skos:notation "Y-OR" ;
   skos:prefLabel "Giant" ;
 .
 asc:YY
@@ -6614,4 +6733,7 @@ soil:Classification
   rdfs:comment "Exercise for Linda: figure out SPIN! " ;
   rdfs:comment "This class definition constrains the cardinality of the the properties that can appear in an instance." ;
   rdfs:comment "This class definition does NOT impose any rules on how the values may be combined; e.g. it does not express co-occurence constraints such as if Order=KA, then only certain families are permitted, etc. That kind of rule cannot be expressed in RDFS/OWL. It can probably be tested using the right SPARQL expressions or SPIN rules. " ;
+.
+soil:hasFamilyCriteria
+  rdfs:range soil:FamilyCriteria ;
 .
