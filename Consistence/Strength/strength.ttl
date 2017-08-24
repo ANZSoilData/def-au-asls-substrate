@@ -93,7 +93,7 @@ consistence:weak
   rdfs:label "Weak" ;
   skos:definition "Small but significant force."^^xsd:string ;
   skos:notation "2" ;
-  skos:prefLabel "Rapidly drained"@en ;
+  skos:prefLabel "Weak"@en ;
 .
 <http://www.w3.org/2002/07/owl>
   dct:description """
