@@ -593,7 +593,7 @@ asc:AK
     ] ;
   rdfs:comment "TE" ;
   owl:versionInfo "Version 1 (1996)" ;
-  skos:definition "Soils which have andic properties and have formed in basaltic tephric materials that may be visibly stratified."^^xsd:string ;
+  skos:definition "TE: Soils which have andic properties and have formed in basaltic tephric materials that may be visibly stratified."^^xsd:string ;
   skos:inScheme asc: ;
   skos:notation "AK" ;
   skos:prefLabel "Andic" ;
