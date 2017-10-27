@@ -10,6 +10,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sp: <http://www.anzsoil.org/def/soil-profile/> .
+@prefix spin: <http://spinrdf.org/spin#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://www.anzsoil.org/def/soil-profile>
@@ -21,6 +22,8 @@
   dct:license <http://creativecommons.org/licences/by/4.0> ;
   dct:publisher <http://www.publish.csiro.au/> ;
   dct:rights "copyright CSIRO 2009, 2016. All rights reserved." ;
+  spin:imports <http://topbraid.org/spin/rdfsplus> ;
+  spin:imports <http://topbraid.org/spin/skosspin> ;
   rdfs:label "Soil Profile" ;
   rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
   owl:imports dc: ;
@@ -28,115 +31,137 @@
 .
 sp:boundary-distinctness
   rdf:type skos:Concept ;
-  rdfs:comment "N_H_BOUND_DISTINCT"^^xsd:string ;
-  rdfs:label "Boundary distinctness"^^xsd:string ;
-  skos:prefLabel "Boundary distinctness"^^xsd:string ;
+  rdfs:comment "N_H_BOUND_DISTINCT" ;
+  rdfs:label "Boundary distinctness" ;
+  skos:narrower sp:boundary-distinctness-A ;
+  skos:narrower sp:boundary-distinctness-C ;
+  skos:narrower sp:boundary-distinctness-D ;
+  skos:narrower sp:boundary-distinctness-G ;
+  skos:narrower sp:boundary-distinctness-S ;
+  skos:prefLabel "Boundary distinctness" ;
 .
 sp:boundary-distinctness-A
   rdf:type skos:Concept ;
-  dct:description "Width of boundary is 5-20 mm"^^xsd:string ;
-  rdfs:label "Abrupt"^^xsd:string ;
+  dct:description "Width of boundary is 5-20 mm" ;
+  rdfs:label "Abrupt" ;
   skos:broader sp:boundary-distinctness ;
-  skos:definition "Width of boundary is 5-20 mm"^^xsd:string ;
-  skos:notation "A"^^xsd:string ;
-  skos:prefLabel "Abrupt"^^xsd:string ;
+  skos:definition "Width of boundary is 5-20 mm" ;
+  skos:notation "A" ;
+  skos:prefLabel "Abrupt" ;
 .
 sp:boundary-distinctness-C
   rdf:type skos:Concept ;
-  dct:description "Width of boundary is 20-50 mm"^^xsd:string ;
-  rdfs:label "Clear"^^xsd:string ;
+  dct:description "Width of boundary is 20-50 mm" ;
+  rdfs:label "Clear" ;
   skos:broader sp:boundary-distinctness ;
-  skos:definition "Width of boundary is 20-50 mm"^^xsd:string ;
-  skos:notation "C"^^xsd:string ;
-  skos:prefLabel "Clear"^^xsd:string ;
+  skos:definition "Width of boundary is 20-50 mm" ;
+  skos:notation "C" ;
+  skos:prefLabel "Clear" ;
 .
 sp:boundary-distinctness-D
   rdf:type skos:Concept ;
-  dct:description "Width of boundary is >100 mm"^^xsd:string ;
-  rdfs:label "Diffuse"^^xsd:string ;
+  dct:description "Width of boundary is >100 mm" ;
+  rdfs:label "Diffuse" ;
   skos:broader sp:boundary-distinctness ;
-  skos:definition "Width of boundary is >100 mm"^^xsd:string ;
-  skos:notation "D"^^xsd:string ;
-  skos:prefLabel "Diffuse"^^xsd:string ;
+  skos:definition "Width of boundary is >100 mm" ;
+  skos:notation "D" ;
+  skos:prefLabel "Diffuse" ;
 .
 sp:boundary-distinctness-G
   rdf:type skos:Concept ;
-  dct:description "Width of boundary is 50-100 mm"^^xsd:string ;
-  rdfs:label "Gradual"^^xsd:string ;
+  dct:description "Width of boundary is 50-100 mm" ;
+  rdfs:label "Gradual" ;
   skos:broader sp:boundary-distinctness ;
-  skos:definition "Width of boundary is 50-100 mm"^^xsd:string ;
-  skos:notation "G"^^xsd:string ;
-  skos:prefLabel "Gradual"^^xsd:string ;
+  skos:definition "Width of boundary is 50-100 mm" ;
+  skos:notation "G" ;
+  skos:prefLabel "Gradual" ;
 .
 sp:boundary-distinctness-S
   rdf:type skos:Concept ;
-  dct:description "Width of boundary is <5 mm"^^xsd:string ;
-  rdfs:label "Sharp"^^xsd:string ;
+  dct:description "Width of boundary is <5 mm" ;
+  rdfs:label "Sharp" ;
   skos:broader sp:boundary-distinctness ;
-  skos:definition "Width of boundary is <5 mm"^^xsd:string ;
-  skos:notation "S"^^xsd:string ;
-  skos:prefLabel "Sharp"^^xsd:string ;
+  skos:definition "Width of boundary is <5 mm" ;
+  skos:notation "S" ;
+  skos:prefLabel "Sharp" ;
 .
 sp:boundary-distinctnesses
   rdf:type skos:Collection ;
-  rdfs:label "Boundary distinctnesses"^^xsd:string ;
+  rdfs:label "Boundary distinctnesses" ;
+  skos:member sp:boundary-distinctness ;
   skos:member sp:boundary-distinctness-A ;
   skos:member sp:boundary-distinctness-C ;
   skos:member sp:boundary-distinctness-D ;
   skos:member sp:boundary-distinctness-G ;
   skos:member sp:boundary-distinctness-S ;
-  skos:prefLabel "Boundary distinctnesses"^^xsd:string ;
+  skos:prefLabel "Boundary distinctnesses" ;
 .
 sp:boundary-shape
   rdf:type skos:Concept ;
-  rdfs:comment "H_BOUND_SHAPE"^^xsd:string ;
-  rdfs:label "Boundary shape"^^xsd:string ;
-  skos:prefLabel "Boundary shape"^^xsd:string ;
+  rdfs:comment "H_BOUND_SHAPE" ;
+  rdfs:label "Boundary shape" ;
+  skos:narrower sp:boundary-shape-B ;
+  skos:narrower sp:boundary-shape-I ;
+  skos:narrower sp:boundary-shape-S ;
+  skos:narrower sp:boundary-shape-T ;
+  skos:narrower sp:boundary-shape-W ;
+  skos:prefLabel "Boundary shape" ;
 .
 sp:boundary-shape-B
   rdf:type skos:Concept ;
-  dct:description "Discontinuous"^^xsd:string ;
-  rdfs:label "Broken"^^xsd:string ;
+  dct:description "Discontinuous" ;
+  rdfs:label "Broken" ;
   skos:broader sp:boundary-shape ;
-  skos:definition "Discontinuous"^^xsd:string ;
-  skos:notation "B"^^xsd:string ;
-  skos:prefLabel "Broken"^^xsd:string ;
+  skos:definition "Discontinuous" ;
+  skos:notation "B" ;
+  skos:prefLabel "Broken" ;
 .
 sp:boundary-shape-I
   rdf:type skos:Concept ;
-  dct:description "Undulations with depressions deeper than they are wide"^^xsd:string ;
-  rdfs:label "Irregular"^^xsd:string ;
+  dct:description "Undulations with depressions deeper than they are wide" ;
+  rdfs:label "Irregular" ;
   skos:broader sp:boundary-shape ;
-  skos:definition "Undulations with depressions deeper than they are wide"^^xsd:string ;
-  skos:notation "I"^^xsd:string ;
-  skos:prefLabel "Irregular"^^xsd:string ;
+  skos:definition "Undulations with depressions deeper than they are wide" ;
+  skos:notation "I" ;
+  skos:prefLabel "Irregular" ;
 .
 sp:boundary-shape-S
   rdf:type skos:Concept ;
-  dct:description "Almost a plane surface"^^xsd:string ;
-  rdfs:label "Smooth"^^xsd:string ;
+  dct:description "Almost a plane surface" ;
+  rdfs:label "Smooth" ;
   skos:broader sp:boundary-shape ;
-  skos:definition "Almost a plane surface"^^xsd:string ;
-  skos:notation "S"^^xsd:string ;
-  skos:prefLabel "Smooth"^^xsd:string ;
+  skos:definition "Almost a plane surface" ;
+  skos:notation "S" ;
+  skos:prefLabel "Smooth" ;
 .
 sp:boundary-shape-T
   rdf:type skos:Concept ;
-  dct:description "Depressions considerably deeper than they are wide"^^xsd:string ;
-  rdfs:label "Tongued"^^xsd:string ;
+  dct:description "Depressions considerably deeper than they are wide" ;
+  rdfs:label "Tongued" ;
   skos:broader sp:boundary-shape ;
-  skos:definition "Depressions considerably deeper than they are wide"^^xsd:string ;
-  skos:notation "T"^^xsd:string ;
-  skos:prefLabel "Tongued"^^xsd:string ;
+  skos:definition "Depressions considerably deeper than they are wide" ;
+  skos:notation "T" ;
+  skos:prefLabel "Tongued" ;
 .
 sp:boundary-shape-W
   rdf:type skos:Concept ;
-  dct:description "Undulations with depressions wider than they are deep"^^xsd:string ;
-  rdfs:label "Wavy"^^xsd:string ;
+  dct:description "Undulations with depressions wider than they are deep" ;
+  rdfs:label "Wavy" ;
   skos:broader sp:boundary-shape ;
-  skos:definition "Undulations with depressions wider than they are deep"^^xsd:string ;
-  skos:notation "W"^^xsd:string ;
-  skos:prefLabel "Wavy"^^xsd:string ;
+  skos:definition "Undulations with depressions wider than they are deep" ;
+  skos:notation "W" ;
+  skos:prefLabel "Wavy" ;
+.
+sp:boundary-shapes
+  rdf:type skos:Collection ;
+  rdfs:label "Boundary shapes" ;
+  skos:member sp:boundary-shape ;
+  skos:member sp:boundary-shape-B ;
+  skos:member sp:boundary-shape-I ;
+  skos:member sp:boundary-shape-S ;
+  skos:member sp:boundary-shape-T ;
+  skos:member sp:boundary-shape-W ;
+  skos:prefLabel "Boundary shapes" ;
 .
 sp:consistence-plasticity-degree
   rdf:type skos:Concept ;
@@ -192,6 +217,7 @@ sp:consistence-plasticity-degree-3
 sp:consistence-plasticity-degrees
   rdf:type skos:Collection ;
   rdfs:label "Plasticity Degrees" ;
+  skos:member sp:consistence-plasticity-degree ;
   skos:member sp:consistence-plasticity-degree-0 ;
   skos:member sp:consistence-plasticity-degree-1 ;
   skos:member sp:consistence-plasticity-degree-2 ;
@@ -248,6 +274,7 @@ sp:consistence-plasticity-type-U
 sp:consistence-plasticity-types
   rdf:type skos:Collection ;
   rdfs:label "Plasticity Types" ;
+  skos:member sp:consistence-plasticity-type ;
   skos:member sp:consistence-plasticity-type-N ;
   skos:member sp:consistence-plasticity-type-S ;
   skos:member sp:consistence-plasticity-type-T ;
@@ -304,6 +331,7 @@ sp:consistence-stickiness-3
 sp:consistence-stickinesses
   rdf:type skos:Collection ;
   rdfs:label "Stickinesses" ;
+  skos:member sp:consistence-stickiness ;
   skos:member sp:consistence-stickiness-0 ;
   skos:member sp:consistence-stickiness-1 ;
   skos:member sp:consistence-stickiness-2 ;
@@ -400,6 +428,7 @@ sp:consistence-strength-7
 sp:consistence-strengths
   rdf:type skos:Collection ;
   rdfs:label "Strengths" ;
+  skos:member sp:consistence-strength ;
   skos:member sp:consistence-strength-0 ;
   skos:member sp:consistence-strength-1 ;
   skos:member sp:consistence-strength-2 ;
@@ -480,6 +509,7 @@ sp:soilwater-drainage-6
 sp:soilwater-drainages
   rdf:type skos:Collection ;
   rdfs:label "Drainages" ;
+  skos:member sp:soilwater-drainage ;
   skos:member sp:soilwater-drainage-1 ;
   skos:member sp:soilwater-drainage-2 ;
   skos:member sp:soilwater-drainage-3 ;
@@ -490,66 +520,67 @@ sp:soilwater-drainages
 .
 sp:soilwater-permeabilities
   rdf:type skos:Collection ;
-  rdfs:label "Permeabilities"^^xsd:string ;
+  rdfs:label "Permeabilities" ;
+  skos:member sp:soilwater-permeability ;
   skos:member sp:soilwater-permeability-1 ;
   skos:member sp:soilwater-permeability-2 ;
   skos:member sp:soilwater-permeability-3 ;
   skos:member sp:soilwater-permeability-4 ;
-  skos:prefLabel "Permeabilities"^^xsd:string ;
+  skos:prefLabel "Permeabilities" ;
 .
 sp:soilwater-permeability
   rdf:type skos:Concept ;
   rdfs:comment "C_PERMEABILITY" ;
-  rdfs:label "Permeability"^^xsd:string ;
-  skos:definition "Permeability is independent of climate and drainage, and – as applied to a soil – is controlled by the potential to transmit water (saturated hydraulic conductivity, Ks) of the least permeable layer in the soil. Therefore it is inferred from attributes of the soil such as structure, texture, porosity, cracks and shrink–swell properties. The rate of transmission of water in the profile is based on the assumption that loss by evapotranspiration is minimal. The Ks ranges are compatible with those of Nowland in Canada, as reported by McKeague et al. (1982)."^^xsd:string ;
+  rdfs:label "Permeability" ;
+  skos:definition "Permeability is independent of climate and drainage, and – as applied to a soil – is controlled by the potential to transmit water (saturated hydraulic conductivity, Ks) of the least permeable layer in the soil. Therefore it is inferred from attributes of the soil such as structure, texture, porosity, cracks and shrink–swell properties. The rate of transmission of water in the profile is based on the assumption that loss by evapotranspiration is minimal. The Ks ranges are compatible with those of Nowland in Canada, as reported by McKeague et al. (1982)." ;
   skos:narrower sp:soilwater-permeability-1 ;
   skos:narrower sp:soilwater-permeability-2 ;
   skos:narrower sp:soilwater-permeability-3 ;
   skos:narrower sp:soilwater-permeability-4 ;
-  skos:prefLabel "Permeability"^^xsd:string ;
+  skos:prefLabel "Permeability" ;
 .
 sp:soilwater-permeability-1
   rdf:type skos:Concept ;
-  dct:description "Vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet."^^xsd:string ;
+  dct:description "Vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet." ;
   rdfs:comment """Ks range: <5 mm/day
-Drainage time: months"""^^xsd:string ;
-  rdfs:label "Very slowly permeable"^^xsd:string ;
+Drainage time: months""" ;
+  rdfs:label "Very slowly permeable" ;
   skos:broader sp:soilwater-permeability ;
-  skos:definition "Vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet."^^xsd:string ;
+  skos:definition "Vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet." ;
   skos:notation "1" ;
   skos:prefLabel "Very slowly permeable"@en ;
 .
 sp:soilwater-permeability-2
   rdf:type skos:Concept ;
-  dct:description "Vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral."^^xsd:string ;
+  dct:description "Vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral." ;
   rdfs:comment """Ks range: 5-50 mm/day
-Drainage time: weeks"""^^xsd:string ;
-  rdfs:label "Slowly permeable"^^xsd:string ;
+Drainage time: weeks""" ;
+  rdfs:label "Slowly permeable" ;
   skos:broader sp:soilwater-permeability ;
-  skos:definition "Vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral."^^xsd:string ;
-  skos:notation "2"^^xsd:string ;
+  skos:definition "Vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral." ;
+  skos:notation "2" ;
   skos:prefLabel "Slowly permeable"@en ;
 .
 sp:soilwater-permeability-3
   rdf:type skos:Concept ;
-  dct:description "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens."^^xsd:string ;
+  dct:description "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens." ;
   rdfs:comment """Ks range: 50-500 mm/day
-Drainage time: days"""^^xsd:string ;
-  rdfs:label "Moderately permeable"^^xsd:string ;
+Drainage time: days""" ;
+  rdfs:label "Moderately permeable" ;
   skos:broader sp:soilwater-permeability ;
-  skos:definition "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens."^^xsd:string ;
-  skos:notation "3"^^xsd:string ;
+  skos:definition "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens." ;
+  skos:notation "3" ;
   skos:prefLabel "Moderately permeable"@en ;
 .
 sp:soilwater-permeability-4
   rdf:type skos:Concept ;
-  dct:description "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable."^^xsd:string ;
+  dct:description "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable." ;
   rdfs:comment """Ks range: >500 mm/day
-Drainage time: hours"""^^xsd:string ;
-  rdfs:label "Highly permeable"^^xsd:string ;
+Drainage time: hours""" ;
+  rdfs:label "Highly permeable" ;
   skos:broader sp:soilwater-permeability ;
-  skos:definition "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable."^^xsd:string ;
-  skos:notation "4"^^xsd:string ;
+  skos:definition "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable." ;
+  skos:notation "4" ;
   skos:prefLabel "Highly permeable"@en ;
 .
 <http://www.w3.org/2002/07/owl>
