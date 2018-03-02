@@ -1,0 +1,571 @@
+# baseURI: http://www.anzsoil.org/def/soil-profile
+# imports: http://purl.org/dc/elements/1.1/
+# imports: http://www.w3.org/2004/02/skos/core
+
+# converted from soil-profile.ttl
+# s/sp:([\w\d-]+)/<$1>/g
+# and remove ontology element
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sp: <http://www.anzsoil.org/def/soil-profile/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<boundary-distinctness>
+  rdf:type skos:Concept ;
+  rdfs:comment "N_H_BOUND_DISTINCT" ;
+  rdfs:label "Boundary distinctness" ;
+  skos:narrower <boundary-distinctness-A> ;
+  skos:narrower <boundary-distinctness-C> ;
+  skos:narrower <boundary-distinctness-D> ;
+  skos:narrower <boundary-distinctness-G> ;
+  skos:narrower <boundary-distinctness-S> ;
+  skos:prefLabel "Boundary distinctness" ;
+.
+<boundary-distinctness-A>
+  rdf:type skos:Concept ;
+  dct:description "Width of boundary is 5-20 mm" ;
+  rdfs:label "Abrupt" ;
+  skos:broader <boundary-distinctness> ;
+  skos:definition "Width of boundary is 5-20 mm" ;
+  skos:notation "A" ;
+  skos:prefLabel "Abrupt" ;
+.
+<boundary-distinctness-C>
+  rdf:type skos:Concept ;
+  dct:description "Width of boundary is 20-50 mm" ;
+  rdfs:label "Clear" ;
+  skos:broader <boundary-distinctness> ;
+  skos:definition "Width of boundary is 20-50 mm" ;
+  skos:notation "C" ;
+  skos:prefLabel "Clear" ;
+.
+<boundary-distinctness-D>
+  rdf:type skos:Concept ;
+  dct:description "Width of boundary is >100 mm" ;
+  rdfs:label "Diffuse" ;
+  skos:broader <boundary-distinctness> ;
+  skos:definition "Width of boundary is >100 mm" ;
+  skos:notation "D" ;
+  skos:prefLabel "Diffuse" ;
+.
+<boundary-distinctness-G>
+  rdf:type skos:Concept ;
+  dct:description "Width of boundary is 50-100 mm" ;
+  rdfs:label "Gradual" ;
+  skos:broader <boundary-distinctness> ;
+  skos:definition "Width of boundary is 50-100 mm" ;
+  skos:notation "G" ;
+  skos:prefLabel "Gradual" ;
+.
+<boundary-distinctness-S>
+  rdf:type skos:Concept ;
+  dct:description "Width of boundary is <5 mm" ;
+  rdfs:label "Sharp" ;
+  skos:broader <boundary-distinctness> ;
+  skos:definition "Width of boundary is <5 mm" ;
+  skos:notation "S" ;
+  skos:prefLabel "Sharp" ;
+.
+<boundary-distinctnesses>
+  rdf:type skos:Collection ;
+  rdfs:label "Boundary distinctnesses" ;
+  skos:member <boundary-distinctness> ;
+  skos:member <boundary-distinctness-A> ;
+  skos:member <boundary-distinctness-C> ;
+  skos:member <boundary-distinctness-D> ;
+  skos:member <boundary-distinctness-G> ;
+  skos:member <boundary-distinctness-S> ;
+  skos:prefLabel "Boundary distinctnesses" ;
+.
+<boundary-shape>
+  rdf:type skos:Concept ;
+  rdfs:comment "H_BOUND_SHAPE" ;
+  rdfs:label "Boundary shape" ;
+  skos:narrower <boundary-shape-B> ;
+  skos:narrower <boundary-shape-I> ;
+  skos:narrower <boundary-shape-S> ;
+  skos:narrower <boundary-shape-T> ;
+  skos:narrower <boundary-shape-W> ;
+  skos:prefLabel "Boundary shape" ;
+.
+<boundary-shape-B>
+  rdf:type skos:Concept ;
+  dct:description "Discontinuous" ;
+  rdfs:label "Broken" ;
+  skos:broader <boundary-shape> ;
+  skos:definition "Discontinuous" ;
+  skos:notation "B" ;
+  skos:prefLabel "Broken" ;
+.
+<boundary-shape-I>
+  rdf:type skos:Concept ;
+  dct:description "Undulations with depressions deeper than they are wide" ;
+  rdfs:label "Irregular" ;
+  skos:broader <boundary-shape> ;
+  skos:definition "Undulations with depressions deeper than they are wide" ;
+  skos:notation "I" ;
+  skos:prefLabel "Irregular" ;
+.
+<boundary-shape-S>
+  rdf:type skos:Concept ;
+  dct:description "Almost a plane surface" ;
+  rdfs:label "Smooth" ;
+  skos:broader <boundary-shape> ;
+  skos:definition "Almost a plane surface" ;
+  skos:notation "S" ;
+  skos:prefLabel "Smooth" ;
+.
+<boundary-shape-T>
+  rdf:type skos:Concept ;
+  dct:description "Depressions considerably deeper than they are wide" ;
+  rdfs:label "Tongued" ;
+  skos:broader <boundary-shape> ;
+  skos:definition "Depressions considerably deeper than they are wide" ;
+  skos:notation "T" ;
+  skos:prefLabel "Tongued" ;
+.
+<boundary-shape-W>
+  rdf:type skos:Concept ;
+  dct:description "Undulations with depressions wider than they are deep" ;
+  rdfs:label "Wavy" ;
+  skos:broader <boundary-shape> ;
+  skos:definition "Undulations with depressions wider than they are deep" ;
+  skos:notation "W" ;
+  skos:prefLabel "Wavy" ;
+.
+<boundary-shapes>
+  rdf:type skos:Collection ;
+  rdfs:label "Boundary shapes" ;
+  skos:member <boundary-shape> ;
+  skos:member <boundary-shape-B> ;
+  skos:member <boundary-shape-I> ;
+  skos:member <boundary-shape-S> ;
+  skos:member <boundary-shape-T> ;
+  skos:member <boundary-shape-W> ;
+  skos:prefLabel "Boundary shapes" ;
+.
+<consistence-plasticity-degree>
+  rdf:type skos:Concept ;
+  rdfs:comment "C_H_PLASTICITY_DEGREE" ;
+  rdfs:label "Plasticity Degree" ;
+  skos:definition "Plasticity is the ability to change shape and retain the new shape after the stress is removed. The degree of plasticity given below applies only to normal plasticity. The degree of plasticity is determined at the soil moisture content used for field texturing, that is, just below sticky point. The soil is rolled between the palms of the hand and, if possible, 40 mm long rolls are formed. The rolls are dangled from the thumb and forefinger. Plasticity is determined on the behaviour of rolls of varying thickness." ;
+  skos:narrower <consistence-plasticity-degree-0> ;
+  skos:narrower <consistence-plasticity-degree-1> ;
+  skos:narrower <consistence-plasticity-degree-2> ;
+  skos:narrower <consistence-plasticity-degree-3> ;
+  skos:prefLabel "Plasticity Degree" ;
+.
+<consistence-plasticity-degree-0>
+  rdf:type skos:Concept ;
+  dct:description "Roll (40mm length x 6mm diameter) will not form." ;
+  rdfs:label "Non plastic" ;
+  skos:broader <consistence-plasticity-degree> ;
+  skos:definition "Roll (40mm length x 6mm diameter) will not form." ;
+  skos:notation "0" ;
+  skos:prefLabel "Non plastic"@en ;
+.
+<consistence-plasticity-degree-1>
+  rdf:type skos:Concept ;
+  dct:description """Roll (40mm length x 6mm diameter) will form and will support its own weight.
+Roll (40mm length x 4mm diameter) will form but will not support its own weight.""" ;
+  rdfs:label "Slightly plastic" ;
+  skos:broader <consistence-plasticity-degree> ;
+  skos:definition """Roll (40mm length x 6mm diameter) will form and will support its own weight.
+Roll (40mm length x 4mm diameter) will form but will not support its own weight.""" ;
+  skos:notation "1" ;
+  skos:prefLabel "Slightly plastic"@en ;
+.
+<consistence-plasticity-degree-2>
+  rdf:type skos:Concept ;
+  dct:description """Roll (40mm length x 4mm diameter) will form and will support its own weight.
+Roll (40mm length x 2mm diameter) will form but will not support its own weight.""" ;
+  rdfs:label "Moderately plastic" ;
+  skos:broader <consistence-plasticity-degree> ;
+  skos:definition """Roll (40mm length x 4mm diameter) will form and will support its own weight.
+Roll (40mm length x 2mm diameter) will form but will not support its own weight.""" ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderately plastic"@en ;
+.
+<consistence-plasticity-degree-3>
+  rdf:type skos:Concept ;
+  dct:description "Roll (40mm length x 2mm diameter) will form and will support its own weight." ;
+  rdfs:label "Very plastic" ;
+  skos:broader <consistence-plasticity-degree> ;
+  skos:definition "Roll (40mm length x 2mm diameter) will form and will support its own weight." ;
+  skos:notation "3" ;
+  skos:prefLabel "Very plastic"@en ;
+.
+<consistence-plasticity-degrees>
+  rdf:type skos:Collection ;
+  rdfs:label "Plasticity Degrees" ;
+  skos:member <consistence-plasticity-degree> ;
+  skos:member <consistence-plasticity-degree-0> ;
+  skos:member <consistence-plasticity-degree-1> ;
+  skos:member <consistence-plasticity-degree-2> ;
+  skos:member <consistence-plasticity-degree-3> ;
+  skos:prefLabel "Plasticity Degrees" ;
+.
+<consistence-plasticity-type>
+  rdf:type skos:Concept ;
+  rdfs:comment "C_H_PLASTICITY_TYPE" ;
+  rdfs:label "Plasticity Type" ;
+  skos:definition "The type of plasticity refers to the degree to which the consistence and/or field texture properties of a soil suggest the amount of clay-sized particles it contains (Butler 1955). It may be identified by determining two field textures: one after an initial 1 to 2 minute working of the soil sample, and another after a prolonged 10 minute kneading. The change in field texture from the initial to the prolonged working of the soil sample indicates the type of plasticity." ;
+  skos:narrower <consistence-plasticity-type-N> ;
+  skos:narrower <consistence-plasticity-type-S> ;
+  skos:narrower <consistence-plasticity-type-T> ;
+  skos:narrower <consistence-plasticity-type-U> ;
+  skos:prefLabel "Plasticity Type" ;
+.
+<consistence-plasticity-type-N>
+  rdf:type skos:Concept ;
+  dct:description "Negligible change." ;
+  rdfs:label "Normal plasticity" ;
+  skos:broader <consistence-plasticity-type> ;
+  skos:definition "Negligible change." ;
+  skos:notation "N" ;
+  skos:prefLabel "Normal plasticity"@en ;
+.
+<consistence-plasticity-type-S>
+  rdf:type skos:Concept ;
+  dct:description "Decreases one or more field texture groups of Northcote (1979)." ;
+  rdfs:label "Superplastic" ;
+  skos:broader <consistence-plasticity-type> ;
+  skos:definition "Decreases one or more field texture groups of Northcote (1979)." ;
+  skos:notation "S" ;
+  skos:prefLabel "Superplastic"@en ;
+.
+<consistence-plasticity-type-T>
+  rdf:type skos:Concept ;
+  dct:description "Increases two or more field texture groups." ;
+  rdfs:label "Stongly subplastic" ;
+  skos:broader <consistence-plasticity-type> ;
+  skos:definition "Increases two or more field texture groups." ;
+  skos:notation "T" ;
+  skos:prefLabel "Stongly subplastic"@en ;
+.
+<consistence-plasticity-type-U>
+  rdf:type skos:Concept ;
+  dct:description "Increases one to two field texture groups." ;
+  rdfs:label "Subplastic" ;
+  skos:broader <consistence-plasticity-type> ;
+  skos:definition "Increases one to two field texture groups." ;
+  skos:notation "U" ;
+  skos:prefLabel "Subplastic"@en ;
+.
+<consistence-plasticity-types>
+  rdf:type skos:Collection ;
+  rdfs:label "Plasticity Types" ;
+  skos:member <consistence-plasticity-type> ;
+  skos:member <consistence-plasticity-type-N> ;
+  skos:member <consistence-plasticity-type-S> ;
+  skos:member <consistence-plasticity-type-T> ;
+  skos:member <consistence-plasticity-type-U> ;
+  skos:prefLabel "Plasticity Types" ;
+.
+<consistence-stickiness>
+  rdf:type skos:Concept ;
+  rdfs:comment "C_H_STICKINESS" ;
+  rdfs:label "Stickiness" ;
+  skos:definition "Stickiness is determined on wet soil by pressing the wet sample between thumb and forefinger and then observing the adherence of the soil to the fingers." ;
+  skos:narrower <consistence-stickiness-0> ;
+  skos:narrower <consistence-stickiness-1> ;
+  skos:narrower <consistence-stickiness-2> ;
+  skos:narrower <consistence-stickiness-3> ;
+  skos:prefLabel "Stickiness" ;
+.
+<consistence-stickiness-0>
+  rdf:type skos:Concept ;
+  dct:description "Little of no soil adheres." ;
+  rdfs:label "Non-sticky" ;
+  skos:broader <consistence-stickiness> ;
+  skos:definition "Little or no soil adheres." ;
+  skos:notation "0" ;
+  skos:prefLabel "Non-sticky"@en ;
+.
+<consistence-stickiness-1>
+  rdf:type skos:Concept ;
+  dct:description "Soil adheres to thumb and forefinger but is not stretched notably and comes off rather cleanly." ;
+  rdfs:label "Slightly sticky" ;
+  skos:broader <consistence-stickiness> ;
+  skos:definition "Soil adheres to thumb and forefinger but is not stretched notably and comes off rather cleanly." ;
+  skos:notation "1" ;
+  skos:prefLabel "Slightly sticky"@en ;
+.
+<consistence-stickiness-2>
+  rdf:type skos:Concept ;
+  dct:description "Soil adheres to thumb and forefinger and tends to stretch rather than pull free of fingers." ;
+  rdfs:label "Moderately sticky" ;
+  skos:broader <consistence-stickiness> ;
+  skos:definition "Soil adheres to thumb and forefinger and tends to stretch rather than pull free of fingers." ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderately sticky"@en ;
+.
+<consistence-stickiness-3>
+  rdf:type skos:Concept ;
+  dct:description "Soil adheres strongly to thumb and forefinger and stretches notably." ;
+  rdfs:label "Very sticky" ;
+  skos:broader <consistence-stickiness> ;
+  skos:definition "Soil adheres strongly to thumb and forefinger and stretches notably." ;
+  skos:notation "3" ;
+  skos:prefLabel "Very sticky"@en ;
+.
+<consistence-stickinesses>
+  rdf:type skos:Collection ;
+  rdfs:label "Stickinesses" ;
+  skos:member <consistence-stickiness> ;
+  skos:member <consistence-stickiness-0> ;
+  skos:member <consistence-stickiness-1> ;
+  skos:member <consistence-stickiness-2> ;
+  skos:member <consistence-stickiness-3> ;
+  skos:prefLabel "Stickinesses" ;
+.
+<consistence-strength>
+  rdf:type skos:Concept ;
+  rdfs:comment "C_STRG_CLASS" ;
+  rdfs:label "Strength" ;
+  skos:definition "Strength of soil is the resistance to breaking or deformation. Stength is determined by the force just sufficient to break or deform a 20 mm diameter piece of soil when a compressive shearing force is applied between thumb and forefinger. The 20 mm piece of soil may be a ped, part of a ped, a compound ped or a fragment." ;
+  skos:narrower <consistence-strength-0> ;
+  skos:narrower <consistence-strength-1> ;
+  skos:narrower <consistence-strength-2> ;
+  skos:narrower <consistence-strength-3> ;
+  skos:narrower <consistence-strength-4> ;
+  skos:narrower <consistence-strength-5> ;
+  skos:narrower <consistence-strength-6> ;
+  skos:narrower <consistence-strength-7> ;
+  skos:prefLabel "Strength" ;
+.
+<consistence-strength-0>
+  rdf:type skos:Concept ;
+  dct:description "No force required. Separate particles such as loose sands." ;
+  rdfs:label "Loose" ;
+  skos:broader <consistence-strength> ;
+  skos:definition "No force required. Separate particles such as loose sands." ;
+  skos:notation "0" ;
+  skos:prefLabel "Loose"@en ;
+.
+<consistence-strength-1>
+  rdf:type skos:Concept ;
+  dct:description "Very small force, almost nil." ;
+  rdfs:label "Very weak" ;
+  skos:broader <consistence-strength> ;
+  skos:definition "Very small force, almost nil." ;
+  skos:notation "1" ;
+  skos:prefLabel "Very weak"@en ;
+.
+<consistence-strength-2>
+  rdf:type skos:Concept ;
+  dct:description "Small but significant force." ;
+  rdfs:label "Weak" ;
+  skos:broader <consistence-strength> ;
+  skos:definition "Small but significant force." ;
+  skos:notation "2" ;
+  skos:prefLabel "Weak"@en ;
+.
+<consistence-strength-3>
+  rdf:type skos:Concept ;
+  dct:description "Moderate or firm force." ;
+  rdfs:label "Firm" ;
+  skos:broader <consistence-strength> ;
+  skos:definition "Moderate or firm force." ;
+  skos:notation "3" ;
+  skos:prefLabel "Firm"@en ;
+.
+<consistence-strength-4>
+  rdf:type skos:Concept ;
+  dct:description "Strong force but within power of thumb and forefinger." ;
+  rdfs:label "Very Firm" ;
+  skos:broader <consistence-strength> ;
+  skos:definition "Strong force but within power of thumb and forefinger." ;
+  skos:notation "4" ;
+  skos:prefLabel "Very Firm"@en ;
+.
+<consistence-strength-5>
+  rdf:type skos:Concept ;
+  dct:description "Beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with small force." ;
+  rdfs:label "Strong" ;
+  skos:broader <consistence-strength> ;
+  skos:definition "Beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with small force." ;
+  skos:notation "5" ;
+  skos:prefLabel "Strong"@en ;
+.
+<consistence-strength-6>
+  rdf:type skos:Concept ;
+  dct:description "Crushes underfoot on hard, flat surface with full body weight applied slowly." ;
+  rdfs:label "Very Strong" ;
+  skos:broader <consistence-strength> ;
+  skos:definition "Crushes underfoot on hard, flat surface with full body weight applied slowly." ;
+  skos:notation "6" ;
+  skos:prefLabel "Very Strong"@en ;
+.
+<consistence-strength-7>
+  rdf:type skos:Concept ;
+  dct:description "Cannot be crushed underfoot by full body weight applied slowly." ;
+  rdfs:label "Rigid" ;
+  skos:broader <consistence-strength> ;
+  skos:definition "Cannot be crushed underfoot by full body weight applied slowly." ;
+  skos:notation "7" ;
+  skos:prefLabel "Rigid"@en ;
+.
+<consistence-strengths>
+  rdf:type skos:Collection ;
+  rdfs:label "Strengths" ;
+  skos:member <consistence-strength> ;
+  skos:member <consistence-strength-0> ;
+  skos:member <consistence-strength-1> ;
+  skos:member <consistence-strength-2> ;
+  skos:member <consistence-strength-3> ;
+  skos:member <consistence-strength-4> ;
+  skos:member <consistence-strength-5> ;
+  skos:member <consistence-strength-6> ;
+  skos:member <consistence-strength-7> ;
+  skos:prefLabel "Strengths" ;
+.
+<soilwater-drainage>
+  rdf:type skos:Concept ;
+  rdfs:comment "C_O_DRAINAGE" ;
+  rdfs:label "Drainage" ;
+  skos:definition "Drainage is a useful term to summarise local soil wetness conditions, that is, it provides a statement about soil and site drainage likely to occur in most years. It is affected by a number of attributes, both internal and external, that may act separately or together. Internal attributes include soil structure, texture, porosity, hydraulic conductivity, and water-holding capacity, while external attributes are source and quality of water, evapotranspiration, gradient and length of slope, and position in the landscape." ;
+  skos:narrower <soilwater-drainage-1> ;
+  skos:narrower <soilwater-drainage-2> ;
+  skos:narrower <soilwater-drainage-3> ;
+  skos:narrower <soilwater-drainage-4> ;
+  skos:narrower <soilwater-drainage-5> ;
+  skos:narrower <soilwater-drainage-6> ;
+  skos:prefLabel "Drainage" ;
+.
+<soilwater-drainage-1>
+  rdf:type skos:Concept ;
+  dct:description "Water is removed from the soil so slowly that the water table remains at or near the surface for most of the year. Surface flow, groundwater and subsurface flow are major sources of water, although precipitation may be important where there is a perched water table and precipitation exceeds evapotranspiration. Soils have a wide range in texture and depth, and often occur in depressed sites. Strong gleying and accumulation of surface organic matter are usually features of most soils." ;
+  rdfs:label "Very poorly drained" ;
+  skos:broader <soilwater-drainage> ;
+  skos:definition "Water is removed from the soil so slowly that the water table remains at or near the surface for most of the year. Surface flow, groundwater and subsurface flow are major sources of water, although precipitation may be important where there is a perched water table and precipitation exceeds evapotranspiration. Soils have a wide range in texture and depth, and often occur in depressed sites. Strong gleying and accumulation of surface organic matter are usually features of most soils." ;
+  skos:notation "1" ;
+  skos:prefLabel "Very poorly drained"@en ;
+.
+<soilwater-drainage-2>
+  rdf:type skos:Concept ;
+  dct:description "Water is removed very slowly in relation to supply. Subsurface and/or groundwater flow, as well as precipitation, may be a significant water source. Seasonal ponding, resulting from runon and insufficient outfall, also occurs. A perched water table may be present. Soils have a wide range in texture and depth; many have horizons that are gleyed, mottled, or possess orange or rusty linings of root channels. All horizons remain wet for periods of several months." ;
+  rdfs:label "Poorly drained" ;
+  skos:broader <soilwater-drainage> ;
+  skos:definition "Water is removed very slowly in relation to supply. Subsurface and/or groundwater flow, as well as precipitation, may be a significant water source. Seasonal ponding, resulting from runon and insufficient outfall, also occurs. A perched water table may be present. Soils have a wide range in texture and depth; many have horizons that are gleyed, mottled, or possess orange or rusty linings of root channels. All horizons remain wet for periods of several months." ;
+  skos:notation "2" ;
+  skos:prefLabel "Poorly drained"@en ;
+.
+<soilwater-drainage-3>
+  rdf:type skos:Concept ;
+  dct:description "Water is removed only slowly in relation to supply. Precipitation is the main source if available water storage capacity is high, but subsurface flow and/or groundwater contribute as available water storage capacity decreases. Soils have a wide range in texture and depth. Some horizons may be mottled and/or have orange or rusty linings of root channels, and are wet for several weeks." ;
+  rdfs:label "Imperfectly drained" ;
+  skos:broader <soilwater-drainage> ;
+  skos:definition "Water is removed only slowly in relation to supply. Precipitation is the main source if available water storage capacity is high, but subsurface flow and/or groundwater contribute as available water storage capacity decreases. Soils have a wide range in texture and depth. Some horizons may be mottled and/or have orange or rusty linings of root channels, and are wet for several weeks." ;
+  skos:notation "3" ;
+  skos:prefLabel "Imperfectly drained"@en ;
+.
+<soilwater-drainage-4>
+  rdf:type skos:Concept ;
+  dct:description "Water is removed from the soil somewhat slowly in relation to supply, due to low permeability, shallow water table, lack of gradient, or some combination of these. Soils are usually medium to fine in texture. Significant additions of water by subsurface flow are necessary in coarse-textured soils. Some horizons may remain wet for as long as one week after water addition." ;
+  rdfs:label "Moderately well drained" ;
+  skos:broader <soilwater-drainage> ;
+  skos:definition "Water is removed from the soil somewhat slowly in relation to supply, due to low permeability, shallow water table, lack of gradient, or some combination of these. Soils are usually medium to fine in texture. Significant additions of water by subsurface flow are necessary in coarse-textured soils. Some horizons may remain wet for as long as one week after water addition." ;
+  skos:notation "4" ;
+  skos:prefLabel "Moderately well drained"@en ;
+.
+<soilwater-drainage-5>
+  rdf:type skos:Concept ;
+  dct:description "Water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying, moderately permeable material or laterally as subsurface flow. The soils are often medium in texture. Some horizons may remain wet for several days after water addition." ;
+  rdfs:label "Well drained" ;
+  skos:broader <soilwater-drainage> ;
+  skos:definition "Water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying, moderately permeable material or laterally as subsurface flow. The soils are often medium in texture. Some horizons may remain wet for several days after water addition." ;
+  skos:notation "5" ;
+  skos:prefLabel "Well drained"@en ;
+.
+<soilwater-drainage-6>
+  rdf:type skos:Concept ;
+  dct:description "Water is removed from the soil rapidly in relation to supply. Excess water flows downward rapidly if underlying material is highly permeable. There may be rapid subsurface lateral flow during heavy rainfall provided there is a steep gradient. Soils are usually coarse-textured, or shallow, or both. No horizon is normally wet for more than several hours after water addition." ;
+  rdfs:label "Rapidly drained" ;
+  skos:broader <soilwater-drainage> ;
+  skos:definition "Water is removed from the soil rapidly in relation to supply. Excess water flows downward rapidly if underlying material is highly permeable. There may be rapid subsurface lateral flow during heavy rainfall provided there is a steep gradient. Soils are usually coarse-textured, or shallow, or both. No horizon is normally wet for more than several hours after water addition." ;
+  skos:notation "6" ;
+  skos:prefLabel "Rapidly drained"@en ;
+.
+<soilwater-drainages>
+  rdf:type skos:Collection ;
+  rdfs:label "Drainages" ;
+  skos:member <soilwater-drainage> ;
+  skos:member <soilwater-drainage-1> ;
+  skos:member <soilwater-drainage-2> ;
+  skos:member <soilwater-drainage-3> ;
+  skos:member <soilwater-drainage-4> ;
+  skos:member <soilwater-drainage-5> ;
+  skos:member <soilwater-drainage-6> ;
+  skos:prefLabel "Drainages" ;
+.
+<soilwater-permeabilities>
+  rdf:type skos:Collection ;
+  rdfs:label "Permeabilities" ;
+  skos:member <soilwater-permeability> ;
+  skos:member <soilwater-permeability-1> ;
+  skos:member <soilwater-permeability-2> ;
+  skos:member <soilwater-permeability-3> ;
+  skos:member <soilwater-permeability-4> ;
+  skos:prefLabel "Permeabilities" ;
+.
+<soilwater-permeability>
+  rdf:type skos:Concept ;
+  rdfs:comment "C_PERMEABILITY" ;
+  rdfs:label "Permeability" ;
+  skos:definition "Permeability is independent of climate and drainage, and – as applied to a soil – is controlled by the potential to transmit water (saturated hydraulic conductivity, Ks) of the least permeable layer in the soil. Therefore it is inferred from attributes of the soil such as structure, texture, porosity, cracks and shrink–swell properties. The rate of transmission of water in the profile is based on the assumption that loss by evapotranspiration is minimal. The Ks ranges are compatible with those of Nowland in Canada, as reported by McKeague et al. (1982)." ;
+  skos:narrower <soilwater-permeability-1> ;
+  skos:narrower <soilwater-permeability-2> ;
+  skos:narrower <soilwater-permeability-3> ;
+  skos:narrower <soilwater-permeability-4> ;
+  skos:prefLabel "Permeability" ;
+.
+<soilwater-permeability-1>
+  rdf:type skos:Concept ;
+  dct:description "Vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet." ;
+  rdfs:comment """Ks range: <5 mm/day
+Drainage time: months""" ;
+  rdfs:label "Very slowly permeable" ;
+  skos:broader <soilwater-permeability> ;
+  skos:definition "Vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet." ;
+  skos:notation "1" ;
+  skos:prefLabel "Very slowly permeable"@en ;
+.
+<soilwater-permeability-2>
+  rdf:type skos:Concept ;
+  dct:description "Vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral." ;
+  rdfs:comment """Ks range: 5-50 mm/day
+Drainage time: weeks""" ;
+  rdfs:label "Slowly permeable" ;
+  skos:broader <soilwater-permeability> ;
+  skos:definition "Vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral." ;
+  skos:notation "2" ;
+  skos:prefLabel "Slowly permeable"@en ;
+.
+<soilwater-permeability-3>
+  rdf:type skos:Concept ;
+  dct:description "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens." ;
+  rdfs:comment """Ks range: 50-500 mm/day
+Drainage time: days""" ;
+  rdfs:label "Moderately permeable" ;
+  skos:broader <soilwater-permeability> ;
+  skos:definition "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens." ;
+  skos:notation "3" ;
+  skos:prefLabel "Moderately permeable"@en ;
+.
+<soilwater-permeability-4>
+  rdf:type skos:Concept ;
+  dct:description "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable." ;
+  rdfs:comment """Ks range: >500 mm/day
+Drainage time: hours""" ;
+  rdfs:label "Highly permeable" ;
+  skos:broader <soilwater-permeability> ;
+  skos:definition "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable." ;
+  skos:notation "4" ;
+  skos:prefLabel "Highly permeable"@en ;
+.
