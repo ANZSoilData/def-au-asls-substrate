@@ -492,6 +492,26 @@ sp:field-texture-CFS
   skos:notation "CFS" ;
   skos:prefLabel "Clayey fine sand"@en ;
 .
+sp:field-texture-CFS-heavy
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  rdfs:comment "Approximate clay content (%): 5 - 10%" ;
+  rdfs:label "Heavy clayey fine sand" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  skos:notation "CFS+" ;
+  skos:prefLabel "Heavy clayey fine sand"@en ;
+.
+sp:field-texture-CFS-light
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  rdfs:comment "Approximate clay content (%): 5 - 10%" ;
+  rdfs:label "Light clayey fine sand" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  skos:notation "CFS-" ;
+  skos:prefLabel "Light clayey fine sand"@en ;
+.
 sp:field-texture-CKS
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
@@ -502,7 +522,17 @@ sp:field-texture-CKS
   skos:notation "CKS" ;
   skos:prefLabel "Clayey coarse sand"@en ;
 .
-sp:field-texture-CKS-
+sp:field-texture-CKS-heavy
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  rdfs:comment "Approximate clay content (%): 5 - 10%" ;
+  rdfs:label "Heavy clayey coarse sand" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  skos:notation "CKS+" ;
+  skos:prefLabel "heavy clayey coarse sand"@en ;
+.
+sp:field-texture-CKS-light
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 5 - 10%" ;
@@ -524,6 +554,26 @@ sp:field-texture-CL
   skos:notation "CL" ;
   skos:prefLabel "Clay loam"@en ;
 .
+sp:field-texture-CL-heavy
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
+  rdfs:comment "Approximate clay content (%): 30 - 35%" ;
+  rdfs:label "Heavy clay Loam" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
+  skos:notation "CL+" ;
+  skos:prefLabel "Heavy clay loam"@en ;
+.
+sp:field-texture-CL-light
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
+  rdfs:comment "Approximate clay content (%): 30 - 35%" ;
+  rdfs:label "Light clay Loam" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
+  skos:notation "CL-" ;
+  skos:prefLabel "Light clay loam"@en ;
+.
 sp:field-texture-CLFS
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
@@ -533,6 +583,26 @@ sp:field-texture-CLFS
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "CLFS" ;
   skos:prefLabel "Clay loam, fine sandy"@en ;
+.
+sp:field-texture-CLFS-heavy
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  rdfs:comment "Approximate clay content (%): 30 - 35%" ;
+  rdfs:label "Heavy clay loam, fine sandy" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  skos:notation "CLFS+" ;
+  skos:prefLabel "Heavy clay loam, fine sandy"@en ;
+.
+sp:field-texture-CLFS-light
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  rdfs:comment "Approximate clay content (%): 30 - 35%" ;
+  rdfs:label "Light clay loam, fine sandy" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  skos:notation "CLFS-" ;
+  skos:prefLabel "Light clay loam, fine sandy"@en ;
 .
 sp:field-texture-CLKS
   rdf:type skos:Concept ;
@@ -544,6 +614,26 @@ sp:field-texture-CLKS
   skos:notation "CLKS" ;
   skos:prefLabel "Clay loam, coarse sandy"@en ;
 .
+sp:field-texture-CLKS-heavy
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  rdfs:comment "Approximate clay content (%): 30 - 35%" ;
+  rdfs:label "Heavy clay loam, coarse sandy" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  skos:notation "CLKS+" ;
+  skos:prefLabel "Heavy clay loam, coarse sandy"@en ;
+.
+sp:field-texture-CLKS-light
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  rdfs:comment "Approximate clay content (%): 30 - 35%" ;
+  rdfs:label "Light clay loam, coarse sandy" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  skos:notation "CLKS-" ;
+  skos:prefLabel "Light clay loam, coarse sandy"@en ;
+.
 sp:field-texture-CLS
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
@@ -553,6 +643,26 @@ sp:field-texture-CLS
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:notation "CLS" ;
   skos:prefLabel "Clay loam sandy"@en ;
+.
+sp:field-texture-CLS-heavy
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
+  rdfs:comment "Approximate clay content (%): 30 - 35%" ;
+  rdfs:label "Heavy clay loam sandy" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
+  skos:notation "CLS+" ;
+  skos:prefLabel "Heavy clay loam sandy"@en ;
+.
+sp:field-texture-CLS-light
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
+  rdfs:comment "Approximate clay content (%): 30 - 35%" ;
+  rdfs:label "Light clay loam sandy" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
+  skos:notation "CLS-" ;
+  skos:prefLabel "Light clay loam sandy"@en ;
 .
 sp:field-texture-CP
   rdf:type skos:Concept ;
@@ -573,7 +683,17 @@ sp:field-texture-CS
   skos:notation "CS" ;
   skos:prefLabel "Clayey sand"@en ;
 .
-sp:field-texture-CS-
+sp:field-texture-CS-heavy
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
+  rdfs:comment "Approximate clay content (%): 5 - 10%" ;
+  rdfs:label "Heavy clayey sand" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
+  skos:notation "CS+" ;
+  skos:prefLabel "Heavy clayey sand"@en ;
+.
+sp:field-texture-CS-light
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
   rdfs:comment "Approximate clay content (%): 5 - 10%" ;
@@ -603,6 +723,26 @@ sp:field-texture-FSCL
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "FSCL" ;
   skos:prefLabel "Fine sandy clay loam"@en ;
+.
+sp:field-texture-FSCL-heavy
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  rdfs:comment "Approximate clay content (%): 20 - 30%" ;
+  rdfs:label "Heavy fine sandy clay loam" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  skos:notation "FSCL+" ;
+  skos:prefLabel "Heavy fine sandy clay loam"@en ;
+.
+sp:field-texture-FSCL-light
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  rdfs:comment "Approximate clay content (%): 20 - 30%" ;
+  rdfs:label "Light fine sandy clay loam" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  skos:notation "FSCL-" ;
+  skos:prefLabel "Light fine sandy clay loam"@en ;
 .
 sp:field-texture-FSL
   rdf:type skos:Concept ;
@@ -674,6 +814,26 @@ sp:field-texture-KSCL
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "KSCL" ;
   skos:prefLabel "Coarse sandy clay loam"@en ;
+.
+sp:field-texture-KSCL-heavy
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  rdfs:comment "Approximate clay content (%): 20 - 30%" ;
+  rdfs:label "Heavy coarse sandy clay loam" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  skos:notation "KSCL+" ;
+  skos:prefLabel "Heavy coarse sandy clay loam"@en ;
+.
+sp:field-texture-KSCL-light
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  rdfs:comment "Approximate clay content (%): 20 - 30%" ;
+  rdfs:label "Light coarse sandy clay loam" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  skos:notation "KSCL-" ;
+  skos:prefLabel "Light coarse sandy clay loam"@en ;
 .
 sp:field-texture-KSL
   rdf:type skos:Concept ;
@@ -753,12 +913,12 @@ sp:field-texture-LS
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:narrower sp:field-texture-LFS ;
   skos:narrower sp:field-texture-LKS ;
-  skos:narrower sp:field-texture-LSA ;
-  skos:narrower sp:field-texture-LSI ;
+  skos:narrower sp:field-texture-LS-A ;
+  skos:narrower sp:field-texture-LS-I ;
   skos:notation "LS" ;
   skos:prefLabel "Loamy sand"@en ;
 .
-sp:field-texture-LSA
+sp:field-texture-LS-A
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   rdfs:comment """Approximate clay content (%): about 5%
@@ -770,7 +930,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:notation "LSA" ;
   skos:prefLabel "Sapric loamy sand"@en ;
 .
-sp:field-texture-LSI
+sp:field-texture-LS-I
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   rdfs:comment """Approximate clay content (%): about 5%
@@ -811,12 +971,12 @@ sp:field-texture-S
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
   skos:narrower sp:field-texture-FS ;
   skos:narrower sp:field-texture-KS ;
-  skos:narrower sp:field-texture-SA ;
-  skos:narrower sp:field-texture-SI ;
+  skos:narrower sp:field-texture-S-A ;
+  skos:narrower sp:field-texture-S-I ;
   skos:notation "S" ;
   skos:prefLabel "Sand"@en ;
 .
-sp:field-texture-SA
+sp:field-texture-S-A
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
   rdfs:comment """Approximate clay content (%): commonly less than 5%
@@ -828,38 +988,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:notation "SA" ;
   skos:prefLabel "Sapric sand"@en ;
 .
-sp:field-texture-SCL
-  rdf:type skos:Concept ;
-  dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
-  rdfs:comment "Approximate clay content (%): 20 - 30%" ;
-  rdfs:label "Sandy clay loam" ;
-  skos:broader sp:field-texture ;
-  skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
-  skos:notation "SCL" ;
-  skos:prefLabel "Sandy clay loam"@en ;
-.
-<http://www.anzsoil.org/def/soil-profile/field-texture-SCL+>
-  rdf:type skos:Concept ;
-  dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
-  rdfs:comment "Approximate clay content (%): 20 - 30%" ;
-  rdfs:label "Heavy sandy clay loam" ;
-  skos:broader sp:field-texture ;
-  skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
-  skos:notation "SCL+" ;
-  skos:prefLabel "Heavy sandy clay loam"@en ;
-.
-sp:field-texture-SCL-
-  rdf:type skos:Concept ;
-  dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
-  rdfs:comment "Approximate clay content (%): 20 - 30%" ;
-  rdfs:label "Light sandy clay loam" ;
-  skos:broader sp:field-texture ;
-  skos:broader sp:field-texture-SCL ;
-  skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
-  skos:notation "SCL-" ;
-  skos:prefLabel "Light sandy clay loam"@en ;
-.
-sp:field-texture-SI
+sp:field-texture-S-I
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
   rdfs:comment """Approximate clay content (%): commonly less than 5%
@@ -870,6 +999,37 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
   skos:notation "SI" ;
   skos:prefLabel "Fibric sand"@en ;
+.
+sp:field-texture-SCL
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
+  rdfs:comment "Approximate clay content (%): 20 - 30%" ;
+  rdfs:label "Sandy clay loam" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
+  skos:notation "SCL" ;
+  skos:prefLabel "Sandy clay loam"@en ;
+.
+sp:field-texture-SCL-heavy
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
+  rdfs:comment "Approximate clay content (%): 20 - 30%" ;
+  rdfs:label "Heavy sandy clay loam" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
+  skos:notation "SCL+" ;
+  skos:prefLabel "Heavy sandy clay loam"@en ;
+.
+sp:field-texture-SCL-light
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
+  rdfs:comment "Approximate clay content (%): 20 - 30%" ;
+  rdfs:label "Light sandy clay loam" ;
+  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-SCL ;
+  skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
+  skos:notation "SCL-" ;
+  skos:prefLabel "Light sandy clay loam"@en ;
 .
 sp:field-texture-SL
   rdf:type skos:Concept ;
@@ -900,6 +1060,26 @@ sp:field-texture-ZCL
   skos:notation "ZCL" ;
   skos:prefLabel "Silty clay loam"@en ;
 .
+sp:field-texture-ZCL-heavy
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
+  rdfs:comment "Approximate clay content (%): 30 - 35% and with silt 25% or more" ;
+  rdfs:label "Heavy silty clay loam" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
+  skos:notation "ZCL+" ;
+  skos:prefLabel "Heavy silty clay loam"@en ;
+.
+sp:field-texture-ZCL-light
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
+  rdfs:comment "Approximate clay content (%): 30 - 35% and with silt 25% or more" ;
+  rdfs:label "Light silty clay loam" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
+  skos:notation "ZCL-" ;
+  skos:prefLabel "Light silty clay loam"@en ;
+.
 sp:field-texture-ZL
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
@@ -915,18 +1095,36 @@ sp:field-texture-mineral-soils
   rdfs:label "Field texture mineral soils" ;
   skos:member sp:field-texture ;
   skos:member sp:field-texture-CFS ;
+  skos:member sp:field-texture-CFS-heavy ;
+  skos:member sp:field-texture-CFS-light ;
   skos:member sp:field-texture-CKS ;
+  skos:member sp:field-texture-CKS-heavy ;
+  skos:member sp:field-texture-CKS-light ;
   skos:member sp:field-texture-CL ;
+  skos:member sp:field-texture-CL-heavy ;
+  skos:member sp:field-texture-CL-light ;
   skos:member sp:field-texture-CLFS ;
+  skos:member sp:field-texture-CLFS-heavy ;
+  skos:member sp:field-texture-CLFS-light ;
   skos:member sp:field-texture-CLKS ;
+  skos:member sp:field-texture-CLKS-heavy ;
+  skos:member sp:field-texture-CLKS-light ;
   skos:member sp:field-texture-CLS ;
+  skos:member sp:field-texture-CLS-heavy ;
+  skos:member sp:field-texture-CLS-light ;
   skos:member sp:field-texture-CS ;
+  skos:member sp:field-texture-CS-heavy ;
+  skos:member sp:field-texture-CS-light ;
   skos:member sp:field-texture-FS ;
   skos:member sp:field-texture-FSCL ;
+  skos:member sp:field-texture-FSCL-heavy ;
+  skos:member sp:field-texture-FSCL-light ;
   skos:member sp:field-texture-FSL ;
   skos:member sp:field-texture-HC ;
   skos:member sp:field-texture-KS ;
   skos:member sp:field-texture-KSCL ;
+  skos:member sp:field-texture-KSCL-heavy ;
+  skos:member sp:field-texture-KSCL-light ;
   skos:member sp:field-texture-KSL ;
   skos:member sp:field-texture-L ;
   skos:member sp:field-texture-LC ;
@@ -934,12 +1132,20 @@ sp:field-texture-mineral-soils
   skos:member sp:field-texture-LKS ;
   skos:member sp:field-texture-LMC ;
   skos:member sp:field-texture-LS ;
+  skos:member sp:field-texture-LS-A ;
+  skos:member sp:field-texture-LS-I ;
   skos:member sp:field-texture-MC ;
   skos:member sp:field-texture-MHC ;
   skos:member sp:field-texture-S ;
+  skos:member sp:field-texture-S-A ;
+  skos:member sp:field-texture-S-I ;
   skos:member sp:field-texture-SCL ;
+  skos:member sp:field-texture-SCL-heavy ;
+  skos:member sp:field-texture-SCL-light ;
   skos:member sp:field-texture-SL ;
   skos:member sp:field-texture-ZCL ;
+  skos:member sp:field-texture-ZCL-heavy ;
+  skos:member sp:field-texture-ZCL-light ;
   skos:member sp:field-texture-ZL ;
   skos:prefLabel "Field texture mineral soils" ;
 .
