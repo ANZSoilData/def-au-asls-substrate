@@ -443,10 +443,22 @@ sp:field-texture
   rdfs:comment "C_H_TEXTURE; Adapted from Northcote (1979). The clay percentages must not be used to determine a field texture, that is, do not use them to convert a laboratory particle size value to a field texture grade. Similarly, do not adjust a field texture grade when laboratory particle size data become available." ;
   rdfs:label "Field texture" ;
   skos:definition "Field texture is a measure of the behaviour of a small handful of soil when moistened and kneaded into a ball and then pressed out between thumb and forefinger. The recommended field texture grades are characterised by the behaviour of the moist bolus. The approximate percentage content of clay (particles less than 0.002 mm in diameter) and silt (particles between 0.02 and 0.002 mm in diameter) are used as a guide." ;
-  skos:narrower sp:field-texture-C ;
+  skos:narrower sp:field-texture-CL ;
+  skos:narrower sp:field-texture-CLS ;
+  skos:narrower sp:field-texture-CS ;
+  skos:narrower sp:field-texture-HC ;
   skos:narrower sp:field-texture-L ;
+  skos:narrower sp:field-texture-LC ;
+  skos:narrower sp:field-texture-LMC ;
+  skos:narrower sp:field-texture-LS ;
+  skos:narrower sp:field-texture-MC ;
+  skos:narrower sp:field-texture-MHC ;
   skos:narrower sp:field-texture-P ;
   skos:narrower sp:field-texture-S ;
+  skos:narrower sp:field-texture-SCL ;
+  skos:narrower sp:field-texture-SL ;
+  skos:narrower sp:field-texture-ZCL ;
+  skos:narrower sp:field-texture-ZL ;
   skos:prefLabel "Field texture"@en ;
 .
 sp:field-texture-AP
@@ -458,15 +470,6 @@ sp:field-texture-AP
   skos:definition "Strongly to completely decomposed organic material. Plant remains vary from few being identifiable to completely amorphous." ;
   skos:notation "AP" ;
   skos:prefLabel "Sapric peat"@en ;
-.
-sp:field-texture-C
-  rdf:type skos:Concept ;
-  rdfs:label "Clay soil" ;
-  skos:narrower sp:field-texture-HC ;
-  skos:narrower sp:field-texture-LC ;
-  skos:narrower sp:field-texture-LMC ;
-  skos:narrower sp:field-texture-MC ;
-  skos:narrower sp:field-texture-MHC ;
 .
 sp:field-texture-CFS
   rdf:type skos:Concept ;
@@ -543,11 +546,6 @@ sp:field-texture-CL
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
   skos:narrower sp:field-texture-CL-heavy ;
   skos:narrower sp:field-texture-CL-light ;
-  skos:narrower sp:field-texture-CLFS ;
-  skos:narrower sp:field-texture-CLKS ;
-  skos:narrower sp:field-texture-CLS ;
-  skos:narrower sp:field-texture-SCL ;
-  skos:narrower sp:field-texture-ZCL ;
   skos:notation "CL" ;
   skos:prefLabel "Clay loam"@en ;
 .
@@ -640,6 +638,8 @@ sp:field-texture-CLS
   rdfs:label "Clay loam sandy" ;
   skos:broader sp:field-texture ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
+  skos:narrower sp:field-texture-CLFS ;
+  skos:narrower sp:field-texture-CLKS ;
   skos:narrower sp:field-texture-CLS-heavy ;
   skos:narrower sp:field-texture-CLS-light ;
   skos:notation "CLS" ;
@@ -857,9 +857,6 @@ sp:field-texture-L
   rdfs:label "Loam" ;
   skos:broader sp:field-texture ;
   skos:definition "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
-  skos:narrower sp:field-texture-CL ;
-  skos:narrower sp:field-texture-SL ;
-  skos:narrower sp:field-texture-ZL ;
   skos:notation "L" ;
   skos:prefLabel "Loam"@en ;
 .
@@ -972,7 +969,7 @@ sp:field-texture-MHC
 .
 sp:field-texture-P
   rdf:type skos:Concept ;
-  rdfs:label "Peat soil" ;
+  rdfs:label "Peat" ;
   skos:narrower sp:field-texture-AP ;
   skos:narrower sp:field-texture-CP ;
   skos:narrower sp:field-texture-GP ;
@@ -988,10 +985,8 @@ sp:field-texture-S
   rdfs:label "Sand" ;
   skos:broader sp:field-texture ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
-  skos:narrower sp:field-texture-CS ;
   skos:narrower sp:field-texture-FS ;
   skos:narrower sp:field-texture-KS ;
-  skos:narrower sp:field-texture-LS ;
   skos:narrower sp:field-texture-S-A ;
   skos:narrower sp:field-texture-S-I ;
   skos:notation "S" ;
@@ -1119,7 +1114,6 @@ sp:field-texture-mineral-soils
   rdf:type skos:Collection ;
   rdfs:label "Field texture mineral soils" ;
   skos:member sp:field-texture ;
-  skos:member sp:field-texture-C ;
   skos:member sp:field-texture-CFS ;
   skos:member sp:field-texture-CFS-heavy ;
   skos:member sp:field-texture-CFS-light ;
