@@ -452,7 +452,7 @@ sp:field-texture-AP
   dct:description "Strongly to completely decomposed organic material. Plant remains vary from few being identifiable to completely amorphous." ;
   rdfs:comment "humified peat" ;
   rdfs:label "Sapric peat" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-Organic ;
   skos:definition "Strongly to completely decomposed organic material. Plant remains vary from few being identifiable to completely amorphous." ;
   skos:notation "AP" ;
   skos:prefLabel "Sapric peat"@en ;
@@ -462,7 +462,7 @@ sp:field-texture-CFS
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 5 - 10%" ;
   rdfs:label "Clayey fine sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:narrower sp:field-texture-CFS-heavy ;
   skos:narrower sp:field-texture-CFS-light ;
@@ -474,7 +474,8 @@ sp:field-texture-CFS-heavy
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 5 - 10%" ;
   rdfs:label "Heavy clayey fine sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CFS ;
+  skos:broader sp:field-texture-CS-heavy ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "CFS+" ;
   skos:prefLabel "Heavy clayey fine sand"@en ;
@@ -484,7 +485,8 @@ sp:field-texture-CFS-light
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 5 - 10%" ;
   rdfs:label "Light clayey fine sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CFS ;
+  skos:broader sp:field-texture-CS-light ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "CFS-" ;
   skos:prefLabel "Light clayey fine sand"@en ;
@@ -494,7 +496,7 @@ sp:field-texture-CKS
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 5 - 10%" ;
   rdfs:label "Clayey coarse sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:narrower sp:field-texture-CKS-heavy ;
   skos:narrower sp:field-texture-CKS-light ;
@@ -506,7 +508,8 @@ sp:field-texture-CKS-heavy
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 5 - 10%" ;
   rdfs:label "Heavy clayey coarse sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CKS ;
+  skos:broader sp:field-texture-CS-heavy ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "CKS+" ;
   skos:prefLabel "Heavy clayey coarse sand"@en ;
@@ -516,9 +519,8 @@ sp:field-texture-CKS-light
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 5 - 10%" ;
   rdfs:label "Light clayey coarse sand" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-CKS ;
-  skos:broader sp:field-texture-CS ;
+  skos:broader sp:field-texture-CS-light ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "CKS-" ;
   skos:prefLabel "Light clayey coarse sand"@en ;
@@ -528,7 +530,7 @@ sp:field-texture-CL
   dct:description "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Clay Loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
   skos:narrower sp:field-texture-CL-A ;
   skos:narrower sp:field-texture-CL-I ;
@@ -543,7 +545,7 @@ sp:field-texture-CL-A
   rdfs:comment """Approximate clay content (%): 30 - 35%
 Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens.""" ;
   rdfs:label "Sapric clay Loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CL ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
   skos:notation "CLA" ;
   skos:prefLabel "Sapric clay loam"@en ;
@@ -554,7 +556,7 @@ sp:field-texture-CL-I
   rdfs:comment """Approximate clay content (%): 30 - 35%
 Organic and fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remain visible to naked eye or easily visible with ×10 hand lens.""" ;
   rdfs:label "Fibric clay Loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CL ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
   skos:notation "CLI" ;
   skos:prefLabel "Fibric clay loam"@en ;
@@ -564,7 +566,7 @@ sp:field-texture-CL-heavy
   dct:description "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Heavy clay Loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CL ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
   skos:notation "CL+" ;
   skos:prefLabel "Heavy clay loam"@en ;
@@ -574,7 +576,7 @@ sp:field-texture-CL-light
   dct:description "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Light clay Loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CL ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
   skos:notation "CL-" ;
   skos:prefLabel "Light clay loam"@en ;
@@ -584,7 +586,7 @@ sp:field-texture-CLFS
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Clay loam, fine sandy" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:narrower sp:field-texture-CLFS-A ;
   skos:narrower sp:field-texture-CLFS-I ;
@@ -599,8 +601,7 @@ sp:field-texture-CLFS-A
   rdfs:comment """Approximate clay content (%): 30 - 35%
 Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens.""" ;
   rdfs:label "Sapric clay loam, fine sandy" ;
-  skos:broader sp:field-texture ;
-  skos:broader sp:field-texture-CLS ;
+  skos:broader sp:field-texture-CLFS ;
   skos:broader sp:field-texture-CLS-A ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:notation "CLFSA" ;
@@ -612,8 +613,7 @@ sp:field-texture-CLFS-I
   rdfs:comment """Approximate clay content (%): 30 - 35%
 Organic and fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remain visible to naked eye or easily visible with ×10 hand lens.""" ;
   rdfs:label "Fibric clay loam, fine sandy" ;
-  skos:broader sp:field-texture ;
-  skos:broader sp:field-texture-CLS ;
+  skos:broader sp:field-texture-CLFS ;
   skos:broader sp:field-texture-CLS-I ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:notation "CLFSI" ;
@@ -624,7 +624,8 @@ sp:field-texture-CLFS-heavy
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Heavy clay loam, fine sandy" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CLFS ;
+  skos:broader sp:field-texture-CLS-heavy ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "CLFS+" ;
   skos:prefLabel "Heavy clay loam, fine sandy"@en ;
@@ -634,7 +635,8 @@ sp:field-texture-CLFS-light
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Light clay loam, fine sandy" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CLFS ;
+  skos:broader sp:field-texture-CLS-light ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "CLFS-" ;
   skos:prefLabel "Light clay loam, fine sandy"@en ;
@@ -644,7 +646,7 @@ sp:field-texture-CLKS
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Clay loam, coarse sandy" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:narrower sp:field-texture-CLKS-A ;
   skos:narrower sp:field-texture-CLKS-I ;
@@ -659,8 +661,7 @@ sp:field-texture-CLKS-A
   rdfs:comment """Approximate clay content (%): 30 - 35%
 Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens.""" ;
   rdfs:label "Sapric clay loam, coarse sandy" ;
-  skos:broader sp:field-texture ;
-  skos:broader sp:field-texture-CLS ;
+  skos:broader sp:field-texture-CLKS ;
   skos:broader sp:field-texture-CLS-A ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:notation "CLKS-A" ;
@@ -672,8 +673,7 @@ sp:field-texture-CLKS-I
   rdfs:comment """Approximate clay content (%): 30 - 35%
 Organic and fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remain visible to naked eye or easily visible with ×10 hand lens.""" ;
   rdfs:label "Fibric clay loam, coarse sandy" ;
-  skos:broader sp:field-texture ;
-  skos:broader sp:field-texture-CLS ;
+  skos:broader sp:field-texture-CLKS ;
   skos:broader sp:field-texture-CLS-I ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:notation "CLKS-I" ;
@@ -684,7 +684,8 @@ sp:field-texture-CLKS-heavy
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Heavy clay loam, coarse sandy" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CLKS ;
+  skos:broader sp:field-texture-CLS-heavy ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "CLKS+" ;
   skos:prefLabel "Heavy clay loam, coarse sandy"@en ;
@@ -694,7 +695,8 @@ sp:field-texture-CLKS-light
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Light clay loam, coarse sandy" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CLKS ;
+  skos:broader sp:field-texture-CLS-light ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "CLKS-" ;
   skos:prefLabel "Light clay loam, coarse sandy"@en ;
@@ -704,7 +706,7 @@ sp:field-texture-CLS
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Clay loam, sandy" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:narrower sp:field-texture-CLFS ;
   skos:narrower sp:field-texture-CLKS ;
@@ -721,7 +723,6 @@ sp:field-texture-CLS-A
   rdfs:comment """Approximate clay content (%): 30 - 35%
 Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens.""" ;
   rdfs:label "Sapric clay loam, sandy" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:narrower sp:field-texture-CLFS-A ;
@@ -735,7 +736,6 @@ sp:field-texture-CLS-I
   rdfs:comment """Approximate clay content (%): 30 - 35%
 Organic and fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remain visible to naked eye or easily visible with ×10 hand lens.""" ;
   rdfs:label "Fibric clay loam, sandy" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:narrower sp:field-texture-CLFS-I ;
@@ -748,7 +748,7 @@ sp:field-texture-CLS-heavy
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Heavy clay loam, sandy" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:narrower sp:field-texture-CLFS-heavy ;
   skos:narrower sp:field-texture-CLKS-heavy ;
@@ -760,7 +760,7 @@ sp:field-texture-CLS-light
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   rdfs:comment "Approximate clay content (%): 30 - 35%" ;
   rdfs:label "Light clay loam, sandy" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:narrower sp:field-texture-CLFS-light ;
   skos:narrower sp:field-texture-CLKS-light ;
@@ -771,7 +771,7 @@ sp:field-texture-CP
   rdf:type skos:Concept ;
   dct:description "Organic soils where: bolus has obvious fine mineral particle content, is sticky when wet, and is coherent." ;
   rdfs:label "Clayey peat" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-Organic ;
   skos:definition "Organic soils where: bolus has obvious fine mineral particle content, is sticky when wet, and is coherent." ;
   skos:notation "CP" ;
   skos:prefLabel "Clayey peat"@en ;
@@ -781,7 +781,7 @@ sp:field-texture-CS
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
   rdfs:comment "Approximate clay content (%): 5 - 10%" ;
   rdfs:label "Clayey sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
   skos:narrower sp:field-texture-CFS ;
   skos:narrower sp:field-texture-CKS ;
@@ -795,7 +795,7 @@ sp:field-texture-CS-heavy
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
   rdfs:comment "Approximate clay content (%): 5 - 10%" ;
   rdfs:label "Heavy clayey sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
   skos:narrower sp:field-texture-CFS-heavy ;
   skos:narrower sp:field-texture-CKS-heavy ;
@@ -807,7 +807,7 @@ sp:field-texture-CS-light
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
   rdfs:comment "Approximate clay content (%): 5 - 10%" ;
   rdfs:label "Light clayey sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-CS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
   skos:narrower sp:field-texture-CFS-light ;
   skos:narrower sp:field-texture-CKS-light ;
@@ -819,7 +819,6 @@ sp:field-texture-FS
   dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): commonly less than 5%" ;
   rdfs:label "Fine sand" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:narrower sp:field-texture-FS-A ;
@@ -832,8 +831,8 @@ sp:field-texture-FS-A
   dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): commonly less than 5%" ;
   rdfs:label "Sapric fine sand" ;
-  skos:broader sp:field-texture ;
-  skos:broader sp:field-texture-S ;
+  skos:broader sp:field-texture-FS ;
+  skos:broader sp:field-texture-S-A ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "FSA" ;
   skos:prefLabel "Sapric fine sand"@en ;
@@ -843,8 +842,8 @@ sp:field-texture-FS-I
   dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): commonly less than 5%" ;
   rdfs:label "Fibric fine sand" ;
-  skos:broader sp:field-texture ;
-  skos:broader sp:field-texture-S ;
+  skos:broader sp:field-texture-FS ;
+  skos:broader sp:field-texture-S-I ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "FSI" ;
   skos:prefLabel "Fibric fine sand"@en ;
@@ -854,7 +853,7 @@ sp:field-texture-FSCL
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Fine sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:narrower sp:field-texture-FSCL-A ;
   skos:narrower sp:field-texture-FSCL-I ;
@@ -868,7 +867,8 @@ sp:field-texture-FSCL-A
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Sapric fine sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSCL ;
+  skos:broader sp:field-texture-SCL-A ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "FSCLA" ;
   skos:prefLabel "Sapric fine sandy clay loam"@en ;
@@ -878,7 +878,8 @@ sp:field-texture-FSCL-I
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Fibric fine sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSCL ;
+  skos:broader sp:field-texture-SCL-I ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "FSCLI" ;
   skos:prefLabel "Fibric fine sandy clay loam"@en ;
@@ -888,7 +889,8 @@ sp:field-texture-FSCL-heavy
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Heavy fine sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSCL ;
+  skos:broader sp:field-texture-SCL-heavy ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "FSCL+" ;
   skos:prefLabel "Heavy fine sandy clay loam"@en ;
@@ -898,7 +900,8 @@ sp:field-texture-FSCL-light
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Light fine sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSCL ;
+  skos:broader sp:field-texture-SCL-light ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "FSCL-" ;
   skos:prefLabel "Light fine sandy clay loam"@en ;
@@ -908,7 +911,7 @@ sp:field-texture-FSHC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fine sandy heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSHC-A ;
   skos:narrower sp:field-texture-FSHC-I ;
@@ -920,7 +923,8 @@ sp:field-texture-FSHC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric fine sandy heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSHC ;
+  skos:broader sp:field-texture-HC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "FSHCA" ;
   skos:prefLabel "Sapric fine sandy heavy clay"@en ;
@@ -930,7 +934,8 @@ sp:field-texture-FSHC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric fine sandy heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSHC ;
+  skos:broader sp:field-texture-HC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "FSHCI" ;
   skos:prefLabel "Fibric fine sandy heavy clay"@en ;
@@ -940,7 +945,7 @@ sp:field-texture-FSL
   dct:description "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 10 - 20%" ;
   rdfs:label "Fine sandy loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-SL ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:narrower sp:field-texture-FSL-A ;
   skos:narrower sp:field-texture-FSL-I ;
@@ -952,7 +957,8 @@ sp:field-texture-FSL-A
   dct:description "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 10 - 20%" ;
   rdfs:label "Sapric fine sandy loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSL ;
+  skos:broader sp:field-texture-SL-A ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "FSLA" ;
   skos:prefLabel "Sapric fine sandy loam"@en ;
@@ -962,7 +968,8 @@ sp:field-texture-FSL-I
   dct:description "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): 10 - 20%" ;
   rdfs:label "Fibric fine sandy loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSL ;
+  skos:broader sp:field-texture-SL-I ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:notation "FSLI" ;
   skos:prefLabel "Fibric fine sandy loam"@en ;
@@ -972,7 +979,7 @@ sp:field-texture-FSLC
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Fine sandy light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:narrower sp:field-texture-FSLC-A ;
   skos:narrower sp:field-texture-FSLC-I ;
@@ -984,7 +991,8 @@ sp:field-texture-FSLC-A
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Sapric fine sandy light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSLC ;
+  skos:broader sp:field-texture-LC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:notation "FSLCA" ;
   skos:prefLabel "Sapric fine sandy light clay"@en ;
@@ -994,7 +1002,8 @@ sp:field-texture-FSLC-I
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Fibric fine sandy light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSLC ;
+  skos:broader sp:field-texture-LC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:notation "FSLCI" ;
   skos:prefLabel "Fibric fine sandy light clay"@en ;
@@ -1004,7 +1013,7 @@ sp:field-texture-FSLMC
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Fine sandy light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:narrower sp:field-texture-FSLMC-A ;
   skos:narrower sp:field-texture-FSLMC-I ;
@@ -1016,7 +1025,8 @@ sp:field-texture-FSLMC-A
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Sapric fine sandy light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSLMC ;
+  skos:broader sp:field-texture-LMC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:notation "FSLMCA" ;
   skos:prefLabel "Sapric fine sandy light medium clay"@en ;
@@ -1026,7 +1036,8 @@ sp:field-texture-FSLMC-I
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Fibric fine sandy light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSLMC ;
+  skos:broader sp:field-texture-LMC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:notation "FSLMCI" ;
   skos:prefLabel "Fibric fine sandy light medium clay"@en ;
@@ -1036,7 +1047,7 @@ sp:field-texture-FSMC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Fine sandy medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSMC-A ;
   skos:narrower sp:field-texture-FSMC-I ;
@@ -1048,7 +1059,8 @@ sp:field-texture-FSMC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Sapric fine sandy medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSMC ;
+  skos:broader sp:field-texture-MC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "FSMCA" ;
   skos:prefLabel "Sapric fine sandy medium clay"@en ;
@@ -1058,7 +1070,8 @@ sp:field-texture-FSMC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Fibric fine sandy medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSMC ;
+  skos:broader sp:field-texture-MC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "FSMCI" ;
   skos:prefLabel "Fibric fine sandy medium clay"@en ;
@@ -1068,7 +1081,7 @@ sp:field-texture-FSMHC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fine sandy medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSMHC-A ;
   skos:narrower sp:field-texture-FSMHC-I ;
@@ -1080,7 +1093,8 @@ sp:field-texture-FSMHC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric fine sandy medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSMHC ;
+  skos:broader sp:field-texture-MHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "FSMHCA" ;
   skos:prefLabel "Sapric fine sandy medium heavy clay"@en ;
@@ -1090,7 +1104,8 @@ sp:field-texture-FSMHC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric fine sandy medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-FSMHC ;
+  skos:broader sp:field-texture-MHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "FSMHCI" ;
   skos:prefLabel "Fibric fine sandy medium heavy clay"@en ;
@@ -1100,7 +1115,7 @@ sp:field-texture-GP
   dct:description "Dominantly decomposed organic material, which has dried irreversibly to fine granules through exposure and drying and/or cultivation. Granules are approximately 1–2 mm in diameter and have granular or subangular blocky structure." ;
   rdfs:comment "On drying, peat may change irreversibly." ;
   rdfs:label "Granular peat" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-Organic ;
   skos:definition "Dominantly decomposed organic material, which has dried irreversibly to fine granules through exposure and drying and/or cultivation. Granules are approximately 1–2 mm in diameter and have granular or subangular blocky structure." ;
   skos:notation "GP" ;
   skos:prefLabel "Granular peat"@en ;
@@ -1110,7 +1125,7 @@ sp:field-texture-HC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSHC ;
   skos:narrower sp:field-texture-HC-A ;
@@ -1126,7 +1141,7 @@ sp:field-texture-HC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSHC-A ;
   skos:narrower sp:field-texture-KSHC-A ;
@@ -1140,7 +1155,7 @@ sp:field-texture-HC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSHC-I ;
   skos:narrower sp:field-texture-KSHC-I ;
@@ -1154,7 +1169,7 @@ sp:field-texture-HP
   dct:description "Moderately to well decomposed organic material. Plant remains vary from most being difficult to identify to most being unidentifiable. It is intermediate in degree of decomposition between the less decomposed fibric peat and the more decomposed sapric peat." ;
   rdfs:comment "Semi-fibrous peat" ;
   rdfs:label "Hemic peat" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-Organic ;
   skos:definition "Moderately to well decomposed organic material. Plant remains vary from most being difficult to identify to most being unidentifiable. It is intermediate in degree of decomposition between the less decomposed fibric peat and the more decomposed sapric peat." ;
   skos:notation "HP" ;
   skos:prefLabel "Hemic peat"@en ;
@@ -1164,7 +1179,7 @@ sp:field-texture-IP
   dct:description "Undecomposed or weakly decomposed organic material. Plant remains are distinct and readily identifiable." ;
   rdfs:comment "Fibrous peat" ;
   rdfs:label "Fibric peat" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-Organic ;
   skos:definition "Undecomposed or weakly decomposed organic material. Plant remains are distinct and readily identifiable." ;
   skos:notation "IP" ;
   skos:prefLabel "Fibric peat"@en ;
@@ -1174,7 +1189,6 @@ sp:field-texture-KS
   dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): commonly less than 5%" ;
   rdfs:label "Coarse sand" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:narrower sp:field-texture-KS-A ;
@@ -1187,8 +1201,8 @@ sp:field-texture-KS-A
   dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): commonly less than 5%" ;
   rdfs:label "Sapric coarse sand" ;
-  skos:broader sp:field-texture ;
-  skos:broader sp:field-texture-S ;
+  skos:broader sp:field-texture-KS ;
+  skos:broader sp:field-texture-S-A ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "KSA" ;
   skos:prefLabel "Sapric coarse sand"@en ;
@@ -1198,9 +1212,8 @@ sp:field-texture-KS-I
   dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): commonly less than 5%" ;
   rdfs:label "Fibric coarse sand" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-KS ;
-  skos:broader sp:field-texture-S ;
+  skos:broader sp:field-texture-S-I ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "KSI" ;
   skos:prefLabel "Fibric coarse sand"@en ;
@@ -1210,7 +1223,7 @@ sp:field-texture-KSCL
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Coarse sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:narrower sp:field-texture-KSCL-A ;
   skos:narrower sp:field-texture-KSCL-I ;
@@ -1224,7 +1237,8 @@ sp:field-texture-KSCL-A
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Sapric coarse sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSCL ;
+  skos:broader sp:field-texture-SCL-A ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "KSCLA" ;
   skos:prefLabel "Sapric coarse sandy clay loam"@en ;
@@ -1234,7 +1248,8 @@ sp:field-texture-KSCL-I
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Fibric coarse sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSCL ;
+  skos:broader sp:field-texture-SCL-I ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "KSCLI" ;
   skos:prefLabel "Fibric coarse sandy clay loam"@en ;
@@ -1244,7 +1259,8 @@ sp:field-texture-KSCL-heavy
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Heavy coarse sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSCL ;
+  skos:broader sp:field-texture-SCL-heavy ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "KSCL+" ;
   skos:prefLabel "Heavy coarse sandy clay loam"@en ;
@@ -1254,7 +1270,8 @@ sp:field-texture-KSCL-light
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Light coarse sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSCL ;
+  skos:broader sp:field-texture-SCL-light ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "KSCL-" ;
   skos:prefLabel "Light coarse sandy clay loam"@en ;
@@ -1264,7 +1281,7 @@ sp:field-texture-KSHC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Coarse sandy heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-KSHC-A ;
   skos:narrower sp:field-texture-KSHC-I ;
@@ -1276,7 +1293,8 @@ sp:field-texture-KSHC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric coarse sandy heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC-A ;
+  skos:broader sp:field-texture-KSHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "KSHCA" ;
   skos:prefLabel "Sapric coarse sandy heavy clay"@en ;
@@ -1286,7 +1304,8 @@ sp:field-texture-KSHC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric coarse sandy heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC-I ;
+  skos:broader sp:field-texture-KSHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "KSHCI" ;
   skos:prefLabel "Fibric coarse sandy heavy clay"@en ;
@@ -1296,7 +1315,7 @@ sp:field-texture-KSL
   dct:description "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 10 - 20%" ;
   rdfs:label "Coarse sandy loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-SL ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:narrower sp:field-texture-KSL-A ;
   skos:narrower sp:field-texture-KSL-I ;
@@ -1308,7 +1327,8 @@ sp:field-texture-KSL-A
   dct:description "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 10 - 20%" ;
   rdfs:label "Sapric coarse sandy loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSL ;
+  skos:broader sp:field-texture-SL-A ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "KSLA" ;
   skos:prefLabel "Sapric coarse sandy loam"@en ;
@@ -1318,7 +1338,8 @@ sp:field-texture-KSL-I
   dct:description "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): 10 - 20%" ;
   rdfs:label "Fibric coarse sandy loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSL ;
+  skos:broader sp:field-texture-SL-I ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "KSLI" ;
   skos:prefLabel "Fibric coarse sandy loam"@en ;
@@ -1328,7 +1349,7 @@ sp:field-texture-KSLC
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Coarse sandy light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:narrower sp:field-texture-KSLC-A ;
   skos:narrower sp:field-texture-KSLC-I ;
@@ -1340,7 +1361,8 @@ sp:field-texture-KSLC-A
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Sapric coarse sandy light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSLC ;
+  skos:broader sp:field-texture-LC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:notation "KSLCA" ;
   skos:prefLabel "Sapric coarse sandy light clay"@en ;
@@ -1350,7 +1372,8 @@ sp:field-texture-KSLC-I
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Fibric coarse sandy light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSLC ;
+  skos:broader sp:field-texture-LC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:notation "KSLCI" ;
   skos:prefLabel "Fibric coarse sandy light clay"@en ;
@@ -1360,7 +1383,7 @@ sp:field-texture-KSLMC
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Coarse sandy light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:narrower sp:field-texture-KSLMC-A ;
   skos:narrower sp:field-texture-KSLMC-I ;
@@ -1372,7 +1395,8 @@ sp:field-texture-KSLMC-A
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Sapric coarse sandy light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSLMC ;
+  skos:broader sp:field-texture-LMC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:notation "KSLMCA" ;
   skos:prefLabel "Sapric coarse sandy light medium clay"@en ;
@@ -1382,7 +1406,8 @@ sp:field-texture-KSLMC-I
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Fibric coarse sandy light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSLMC ;
+  skos:broader sp:field-texture-LMC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:notation "KSLMCI" ;
   skos:prefLabel "Fibric coarse sandy light medium clay"@en ;
@@ -1392,7 +1417,7 @@ sp:field-texture-KSMC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Coarse sandy medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-KSMC-A ;
   skos:narrower sp:field-texture-KSMC-I ;
@@ -1404,7 +1429,8 @@ sp:field-texture-KSMC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Sapric coarse sandy medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSMC ;
+  skos:broader sp:field-texture-MC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "KSMCA" ;
   skos:prefLabel "Sapric coarse sandy medium clay"@en ;
@@ -1414,7 +1440,8 @@ sp:field-texture-KSMC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Fibric coarse sandy medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSMC ;
+  skos:broader sp:field-texture-MC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "KSMCI" ;
   skos:prefLabel "Fibric coarse sandy medium clay"@en ;
@@ -1424,7 +1451,7 @@ sp:field-texture-KSMHC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Coarse sandy medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-KSMHC-A ;
   skos:narrower sp:field-texture-KSMHC-I ;
@@ -1436,7 +1463,8 @@ sp:field-texture-KSMHC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric coarse sandy medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSMHC ;
+  skos:broader sp:field-texture-MHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "KSMHCA" ;
   skos:prefLabel "Sapric coarse sandy medium heavy clay"@en ;
@@ -1446,7 +1474,8 @@ sp:field-texture-KSMHC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric coarse sandy medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KSMHC ;
+  skos:broader sp:field-texture-MHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "KSMHCI" ;
   skos:prefLabel "Fibric coarse sandy medium heavy clay"@en ;
@@ -1456,7 +1485,7 @@ sp:field-texture-L
   dct:description "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
   rdfs:comment "Approximate clay content (%): about 25%" ;
   rdfs:label "Loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
   skos:narrower sp:field-texture-L-A ;
   skos:narrower sp:field-texture-L-I ;
@@ -1469,7 +1498,7 @@ sp:field-texture-L-A
   rdfs:comment """Approximate clay content (%): about 25%
 Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens.""" ;
   rdfs:label "Sapric loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-L ;
   skos:definition "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
   skos:notation "LA" ;
   skos:prefLabel "Sapric loam"@en ;
@@ -1480,7 +1509,7 @@ sp:field-texture-L-I
   rdfs:comment """Approximate clay content (%): about 25%
 Organic and fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remain visible to naked eye or easily visible with ×10 hand lens.""" ;
   rdfs:label "Fibric loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-L ;
   skos:definition "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
   skos:notation "LI" ;
   skos:prefLabel "Fibric loam"@en ;
@@ -1490,7 +1519,7 @@ sp:field-texture-LC
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:narrower sp:field-texture-FSLC ;
   skos:narrower sp:field-texture-KSLC ;
@@ -1506,7 +1535,7 @@ sp:field-texture-LC-A
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Sapric light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:narrower sp:field-texture-FSLC-A ;
   skos:narrower sp:field-texture-KSLC-A ;
@@ -1520,7 +1549,7 @@ sp:field-texture-LC-I
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Fibric light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:narrower sp:field-texture-FSLC-I ;
   skos:narrower sp:field-texture-KSLC-I ;
@@ -1534,7 +1563,7 @@ sp:field-texture-LFS
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   rdfs:comment "Approximate clay content (%): about 5%" ;
   rdfs:label "Loamy fine sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:narrower sp:field-texture-LFS-A ;
   skos:narrower sp:field-texture-LFS-I ;
@@ -1547,9 +1576,7 @@ sp:field-texture-LFS-A
   rdfs:comment """Approximate clay content (%): about 5%
 Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens.""" ;
   rdfs:label "Sapric loamy fine sand" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-LFS ;
-  skos:broader sp:field-texture-LS ;
   skos:broader sp:field-texture-LS-A ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:notation "LFSA" ;
@@ -1561,8 +1588,8 @@ sp:field-texture-LFS-I
   rdfs:comment """Approximate clay content (%): about 5%
 Organic and fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remain visible to naked eye or easily visible with ×10 hand lens.""" ;
   rdfs:label "Fibric loamy fine sand" ;
-  skos:broader sp:field-texture ;
-  skos:broader sp:field-texture-LS ;
+  skos:broader sp:field-texture-LFS ;
+  skos:broader sp:field-texture-LS-I ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:notation "LFSI" ;
   skos:prefLabel "Fibric loamy fine sand"@en ;
@@ -1572,7 +1599,7 @@ sp:field-texture-LKS
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   rdfs:comment "Approximate clay content (%): about 5%" ;
   rdfs:label "Loamy coarse sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:narrower sp:field-texture-LKS-A ;
   skos:narrower sp:field-texture-LKS-I ;
@@ -1585,9 +1612,7 @@ sp:field-texture-LKS-A
   rdfs:comment """Approximate clay content (%): about 5%
 Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens.""" ;
   rdfs:label "Sapric loamy coarse sand" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-LKS ;
-  skos:broader sp:field-texture-LS ;
   skos:broader sp:field-texture-LS-A ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:notation "LKSA" ;
@@ -1599,8 +1624,8 @@ sp:field-texture-LKS-I
   rdfs:comment """Approximate clay content (%): about 5%
 Organic and fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remain visible to naked eye or easily visible with ×10 hand lens.""" ;
   rdfs:label "Fibric loamy coarse sand" ;
-  skos:broader sp:field-texture ;
-  skos:broader sp:field-texture-LS ;
+  skos:broader sp:field-texture-LKS ;
+  skos:broader sp:field-texture-LS-I ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:notation "LKSI" ;
   skos:prefLabel "Fibric loamy coarse sand"@en ;
@@ -1610,7 +1635,7 @@ sp:field-texture-LMC
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:narrower sp:field-texture-FSLMC ;
   skos:narrower sp:field-texture-KSLMC ;
@@ -1626,7 +1651,7 @@ sp:field-texture-LMC-A
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Sapric light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:narrower sp:field-texture-FSLMC-A ;
   skos:narrower sp:field-texture-KSLMC-A ;
@@ -1640,7 +1665,7 @@ sp:field-texture-LMC-I
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Fibric light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:narrower sp:field-texture-FSLMC-I ;
   skos:narrower sp:field-texture-KSLMC-I ;
@@ -1653,7 +1678,7 @@ sp:field-texture-LP
   rdf:type skos:Concept ;
   dct:description "Organic soils where: bolus has obvious mineral particle content but no obvious sandiness to touch and is smooth, non-sticky when wet, and weakly coherent." ;
   rdfs:label "Loamy peat" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-Organic ;
   skos:definition "Organic soils where: bolus has obvious mineral particle content but no obvious sandiness to touch and is smooth, non-sticky when wet, and weakly coherent." ;
   skos:notation "LP" ;
   skos:prefLabel "Loamy peat"@en ;
@@ -1663,7 +1688,7 @@ sp:field-texture-LS
   dct:description "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   rdfs:comment "Approximate clay content (%): about 5%" ;
   rdfs:label "Loamy sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:narrower sp:field-texture-LFS ;
   skos:narrower sp:field-texture-LKS ;
@@ -1678,7 +1703,6 @@ sp:field-texture-LS-A
   rdfs:comment """Approximate clay content (%): about 5%
 Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens.""" ;
   rdfs:label "Sapric loamy sand" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-LS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:narrower sp:field-texture-LFS-A ;
@@ -1692,7 +1716,6 @@ sp:field-texture-LS-I
   rdfs:comment """Approximate clay content (%): about 5%
 Organic and fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remain visible to naked eye or easily visible with ×10 hand lens.""" ;
   rdfs:label "Fibric loamy sand" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-LS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:narrower sp:field-texture-LFS-I ;
@@ -1705,7 +1728,7 @@ sp:field-texture-MC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSMC ;
   skos:narrower sp:field-texture-KSMC ;
@@ -1721,7 +1744,7 @@ sp:field-texture-MC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Sapric medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSMC-A ;
   skos:narrower sp:field-texture-KSMC-A ;
@@ -1735,7 +1758,7 @@ sp:field-texture-MC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Fibric medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSMC-I ;
   skos:narrower sp:field-texture-KSMC-I ;
@@ -1749,7 +1772,7 @@ sp:field-texture-MHC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSMHC ;
   skos:narrower sp:field-texture-KSMHC ;
@@ -1765,7 +1788,8 @@ sp:field-texture-MHC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MHC ;
+  skos:broader sp:field-texture-MHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSMHC-A ;
   skos:narrower sp:field-texture-KSMHC-A ;
@@ -1780,7 +1804,8 @@ sp:field-texture-MHC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MHC ;
+  skos:broader sp:field-texture-MHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSMHC-I ;
   skos:narrower sp:field-texture-KSMHC-I ;
@@ -1794,6 +1819,7 @@ sp:field-texture-Organic
   rdf:type skos:Concept ;
   dct:description "Organic soils do not have textural grades, as soil texture is determined by the size of mineral particles finer than 2 mm (NCST). In a sense, organic soils do have a texture related to the plant materials from which they formed and the degree of decomposition, exposure and drying. These field texture names may be used to characterise materials that on field examination are considered to be clearly dominated by organic matter. Peats may be assessed by examining the degree of decomposition and distinctness of plant remains. This work is adapted from Soil Survey Staff (1975) and Avery (1980)." ;
   rdfs:label "Organic field textures" ;
+  skos:broader sp:field-texture ;
   skos:definition "Organic soils do not have textural grades, as soil texture is determined by the size of mineral particles finer than 2 mm (NCST). In a sense, organic soils do have a texture related to the plant materials from which they formed and the degree of decomposition, exposure and drying. These field texture names may be used to characterise materials that on field examination are considered to be clearly dominated by organic matter. Peats may be assessed by examining the degree of decomposition and distinctness of plant remains. This work is adapted from Soil Survey Staff (1975) and Avery (1980)." ;
   skos:narrower sp:field-texture-AP ;
   skos:narrower sp:field-texture-CP ;
@@ -1808,7 +1834,7 @@ sp:field-texture-S
   dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
   rdfs:comment "Approximate clay content (%): commonly less than 5%" ;
   rdfs:label "Sand" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
   skos:narrower sp:field-texture-FS ;
   skos:narrower sp:field-texture-KS ;
@@ -1823,7 +1849,6 @@ sp:field-texture-S-A
   rdfs:comment """Approximate clay content (%): commonly less than 5%
 Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens.""" ;
   rdfs:label "Sapric sand" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
   skos:narrower sp:field-texture-FS-A ;
@@ -1837,7 +1862,6 @@ sp:field-texture-S-I
   rdfs:comment """Approximate clay content (%): commonly less than 5%
 Organic and fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remain visible to naked eye or easily visible with ×10 hand lens.""" ;
   rdfs:label "Fibric sand" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
   skos:narrower sp:field-texture-FS-I ;
@@ -1850,7 +1874,7 @@ sp:field-texture-SCL
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
   skos:narrower sp:field-texture-FSCL ;
   skos:narrower sp:field-texture-KSCL ;
@@ -1866,7 +1890,7 @@ sp:field-texture-SCL-A
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Sapric sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
   skos:narrower sp:field-texture-FSCL-A ;
   skos:narrower sp:field-texture-KSCL-A ;
@@ -1878,7 +1902,7 @@ sp:field-texture-SCL-I
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Fibric sandy clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
   skos:narrower sp:field-texture-FSCL-I ;
   skos:narrower sp:field-texture-KSCL-I ;
@@ -1890,7 +1914,6 @@ sp:field-texture-SCL-heavy
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Heavy sandy clay loam" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
   skos:narrower sp:field-texture-FSCL-heavy ;
@@ -1903,7 +1926,6 @@ sp:field-texture-SCL-light
   dct:description "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
   rdfs:comment "Approximate clay content (%): 20 - 30%" ;
   rdfs:label "Light sandy clay loam" ;
-  skos:broader sp:field-texture ;
   skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
   skos:narrower sp:field-texture-FSCL-light ;
@@ -1916,7 +1938,7 @@ sp:field-texture-SHC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sandy heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-SHC-A ;
   skos:narrower sp:field-texture-SHC-I ;
@@ -1928,7 +1950,8 @@ sp:field-texture-SHC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric sandy heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC-A ;
+  skos:broader sp:field-texture-SHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "SHCA" ;
   skos:prefLabel "Sapric sandy heavy clay"@en ;
@@ -1938,7 +1961,8 @@ sp:field-texture-SHC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric sandy heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC-I ;
+  skos:broader sp:field-texture-SHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "SHCI" ;
   skos:prefLabel "Fibric sandy heavy clay"@en ;
@@ -1948,7 +1972,7 @@ sp:field-texture-SL
   dct:description "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible." ;
   rdfs:comment "Approximate clay content (%): 10 - 20%" ;
   rdfs:label "Sandy loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible." ;
   skos:narrower sp:field-texture-FSL ;
   skos:narrower sp:field-texture-KSL ;
@@ -1962,7 +1986,7 @@ sp:field-texture-SL-A
   dct:description "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible." ;
   rdfs:comment "Approximate clay content (%): 10 - 20%" ;
   rdfs:label "Sapric sandy loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-SL ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible." ;
   skos:narrower sp:field-texture-FSL-A ;
   skos:narrower sp:field-texture-KSL-A ;
@@ -1974,7 +1998,7 @@ sp:field-texture-SL-I
   dct:description "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible." ;
   rdfs:comment "Approximate clay content (%): 10 - 20%" ;
   rdfs:label "Fibric sandy loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-SL ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible." ;
   skos:narrower sp:field-texture-FSL-I ;
   skos:narrower sp:field-texture-KSL-I ;
@@ -1986,7 +2010,7 @@ sp:field-texture-SLC
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Sandy light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:narrower sp:field-texture-SLC-A ;
   skos:narrower sp:field-texture-SLC-I ;
@@ -1998,7 +2022,8 @@ sp:field-texture-SLC-A
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Sapric sandy light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LC-A ;
+  skos:broader sp:field-texture-SLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:notation "SLCA" ;
   skos:prefLabel "Sapric sandy light clay"@en ;
@@ -2008,7 +2033,8 @@ sp:field-texture-SLC-I
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Fibric sandy light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LC-I ;
+  skos:broader sp:field-texture-SLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:notation "SLCI" ;
   skos:prefLabel "Fibric sandy light clay"@en ;
@@ -2018,7 +2044,7 @@ sp:field-texture-SLMC
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Sandy light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:narrower sp:field-texture-SLMC-A ;
   skos:narrower sp:field-texture-SLMC-I ;
@@ -2030,7 +2056,8 @@ sp:field-texture-SLMC-A
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Sapric sandy light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LMC-A ;
+  skos:broader sp:field-texture-SLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:notation "SLMCA" ;
   skos:prefLabel "Sapric sandy light medium clay"@en ;
@@ -2040,7 +2067,8 @@ sp:field-texture-SLMC-I
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Fibric sandy light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LMC-I ;
+  skos:broader sp:field-texture-SLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:notation "SLMCI" ;
   skos:prefLabel "Fibric sandy light medium clay"@en ;
@@ -2050,7 +2078,7 @@ sp:field-texture-SMC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Sandy medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-SMC-A ;
   skos:narrower sp:field-texture-SMC-I ;
@@ -2062,7 +2090,8 @@ sp:field-texture-SMC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Sapric sandy medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MC-A ;
+  skos:broader sp:field-texture-SMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "SMCA" ;
   skos:prefLabel "Sapric sandy medium clay"@en ;
@@ -2072,7 +2101,8 @@ sp:field-texture-SMC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Fibric sandy medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MC-I ;
+  skos:broader sp:field-texture-SMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "SMCI" ;
   skos:prefLabel "Fibric sandy medium clay"@en ;
@@ -2082,7 +2112,7 @@ sp:field-texture-SMHC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sandy medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-SMHC-A ;
   skos:narrower sp:field-texture-SMHC-I ;
@@ -2094,7 +2124,8 @@ sp:field-texture-SMHC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric sandy medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MHC-A ;
+  skos:broader sp:field-texture-SMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "SMHCA" ;
   skos:prefLabel "Sapric sandy medium heavy clay"@en ;
@@ -2104,7 +2135,8 @@ sp:field-texture-SMHC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric sandy medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MHC-I ;
+  skos:broader sp:field-texture-SMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "SMHCI" ;
   skos:prefLabel "Fibric sandy medium heavy clay"@en ;
@@ -2113,7 +2145,7 @@ sp:field-texture-SP
   rdf:type skos:Concept ;
   dct:description "Organic soil where: bolus is sandy to touch." ;
   rdfs:label "Sandy peat" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-Organic ;
   skos:definition "Organic soil where: bolus is sandy to touch." ;
   skos:notation "SP" ;
   skos:prefLabel "Sandy peat"@en ;
@@ -2123,7 +2155,7 @@ sp:field-texture-ZCL
   dct:description "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   rdfs:comment "Approximate clay content (%): 30 - 35% and with silt 25% or more" ;
   rdfs:label "Silty clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   skos:narrower sp:field-texture-ZCL-A ;
   skos:narrower sp:field-texture-ZCL-I ;
@@ -2137,7 +2169,7 @@ sp:field-texture-ZCL-A
   dct:description "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   rdfs:comment "Approximate clay content (%): 30 - 35% and with silt 25% or more" ;
   rdfs:label "Sapric silty clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-ZCL ;
   skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   skos:notation "ZCLA" ;
   skos:prefLabel "Sapric silty clay loam"@en ;
@@ -2147,7 +2179,7 @@ sp:field-texture-ZCL-I
   dct:description "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   rdfs:comment "Approximate clay content (%): 30 - 35% and with silt 25% or more" ;
   rdfs:label "Fibric silty clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-ZCL ;
   skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   skos:notation "ZCLI" ;
   skos:prefLabel "Fibric silty clay loam"@en ;
@@ -2157,7 +2189,7 @@ sp:field-texture-ZCL-heavy
   dct:description "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   rdfs:comment "Approximate clay content (%): 30 - 35% and with silt 25% or more" ;
   rdfs:label "Heavy silty clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-ZCL ;
   skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   skos:notation "ZCL+" ;
   skos:prefLabel "Heavy silty clay loam"@en ;
@@ -2167,7 +2199,7 @@ sp:field-texture-ZCL-light
   dct:description "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   rdfs:comment "Approximate clay content (%): 30 - 35% and with silt 25% or more" ;
   rdfs:label "Light silty clay loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-ZCL ;
   skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   skos:notation "ZCL-" ;
   skos:prefLabel "Light silty clay loam"@en ;
@@ -2177,7 +2209,7 @@ sp:field-texture-ZHC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Silty heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-ZHC-A ;
   skos:narrower sp:field-texture-ZHC-I ;
@@ -2189,7 +2221,8 @@ sp:field-texture-ZHC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric silty heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC-A ;
+  skos:broader sp:field-texture-ZHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "ZHCA" ;
   skos:prefLabel "Sapric silty heavy clay"@en ;
@@ -2199,7 +2232,8 @@ sp:field-texture-ZHC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric silty heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-HC-I ;
+  skos:broader sp:field-texture-ZHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "ZHCI" ;
   skos:prefLabel "Fibric silty heavy clay"@en ;
@@ -2209,7 +2243,7 @@ sp:field-texture-ZL
   dct:description "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
   rdfs:comment "Approximate clay content (%): about 25% and with silt 25% or more." ;
   rdfs:label "Silty loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-mineral ;
   skos:definition "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
   skos:narrower sp:field-texture-ZL-A ;
   skos:narrower sp:field-texture-ZL-I ;
@@ -2221,7 +2255,7 @@ sp:field-texture-ZL-A
   dct:description "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
   rdfs:comment "Approximate clay content (%): about 25% and with silt 25% or more." ;
   rdfs:label "Sapric silty loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-ZL ;
   skos:definition "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
   skos:notation "ZLA" ;
   skos:prefLabel "Sapric silty loam"@en ;
@@ -2231,7 +2265,7 @@ sp:field-texture-ZL-I
   dct:description "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
   rdfs:comment "Approximate clay content (%): about 25% and with silt 25% or more." ;
   rdfs:label "Fibric silty loam" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-ZL ;
   skos:definition "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
   skos:notation "ZLI" ;
   skos:prefLabel "Fibric silty loam"@en ;
@@ -2241,7 +2275,7 @@ sp:field-texture-ZLC
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Silty light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:narrower sp:field-texture-ZLC-A ;
   skos:narrower sp:field-texture-ZLC-I ;
@@ -2253,7 +2287,8 @@ sp:field-texture-ZLC-A
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Sapric silty light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LC-A ;
+  skos:broader sp:field-texture-ZLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:notation "ZLCA" ;
   skos:prefLabel "Sapric silty light clay"@en ;
@@ -2263,7 +2298,8 @@ sp:field-texture-ZLC-I
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Fibric silty light clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LC-I ;
+  skos:broader sp:field-texture-ZLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:notation "ZLCI" ;
   skos:prefLabel "Fibric silty light clay"@en ;
@@ -2273,7 +2309,7 @@ sp:field-texture-ZLMC
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Silty light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:narrower sp:field-texture-ZLMC-A ;
   skos:narrower sp:field-texture-ZLMC-I ;
@@ -2285,7 +2321,8 @@ sp:field-texture-ZLMC-A
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Sapric silty light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LMC-A ;
+  skos:broader sp:field-texture-ZLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:notation "ZLMCA" ;
   skos:prefLabel "Sapric silty light medium clay"@en ;
@@ -2295,7 +2332,8 @@ sp:field-texture-ZLMC-I
   dct:description "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Fibric silty light medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-LMC-I ;
+  skos:broader sp:field-texture-ZLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:notation "ZLMCI" ;
   skos:prefLabel "Fibric silty light medium clay"@en ;
@@ -2305,7 +2343,7 @@ sp:field-texture-ZMC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Silty medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-ZMC-A ;
   skos:narrower sp:field-texture-ZMC-I ;
@@ -2317,7 +2355,8 @@ sp:field-texture-ZMC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Sapric silty medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MC-A ;
+  skos:broader sp:field-texture-ZMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "ZMCA" ;
   skos:prefLabel "Sapric silty medium clay"@en ;
@@ -2327,7 +2366,8 @@ sp:field-texture-ZMC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Fibric silty medium clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MC-I ;
+  skos:broader sp:field-texture-ZMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "ZMCI" ;
   skos:prefLabel "Fibric silty medium clay"@en ;
@@ -2337,7 +2377,7 @@ sp:field-texture-ZMHC
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Silty medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-ZMHC-A ;
   skos:narrower sp:field-texture-ZMHC-I ;
@@ -2349,7 +2389,8 @@ sp:field-texture-ZMHC-A
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric silty medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MHC-A ;
+  skos:broader sp:field-texture-ZMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "ZMHCA" ;
   skos:prefLabel "Sapric silty medium heavy clay"@en ;
@@ -2359,7 +2400,8 @@ sp:field-texture-ZMHC-I
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric silty medium heavy clay" ;
-  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-MHC-I ;
+  skos:broader sp:field-texture-ZMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "ZMHCI" ;
   skos:prefLabel "Fibric silty medium heavy clay"@en ;
@@ -2367,6 +2409,7 @@ sp:field-texture-ZMHC-I
 sp:field-texture-mineral
   rdf:type skos:Concept ;
   rdfs:label "Mineral field texture grades" ;
+  skos:broader sp:field-texture ;
   skos:narrower sp:field-texture-CL ;
   skos:narrower sp:field-texture-CLS ;
   skos:narrower sp:field-texture-CS ;
