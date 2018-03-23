@@ -598,7 +598,7 @@ sp:field-texture-CLFS-A
   dct:description "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   rdfs:comment """Approximate clay content (%): 30 - 35%
 Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens.""" ;
-  rdfs:label "Sapric clay loam, cfine sandy" ;
+  rdfs:label "Sapric clay loam, fine sandy" ;
   skos:broader sp:field-texture ;
   skos:broader sp:field-texture-CLS ;
   skos:broader sp:field-texture-CLS-A ;
@@ -1043,7 +1043,7 @@ sp:field-texture-FSMHC
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
-  rdfs:label "Fine sady medium heavy clay" ;
+  rdfs:label "Fine sandy medium heavy clay" ;
   skos:broader sp:field-texture ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:narrower sp:field-texture-FSMHC-A ;
@@ -1055,7 +1055,7 @@ sp:field-texture-FSMHC-A
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
-  rdfs:label "Sapric fine sady medium heavy clay" ;
+  rdfs:label "Sapric fine sandy medium heavy clay" ;
   skos:broader sp:field-texture ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "FSMHCA" ;
@@ -1065,7 +1065,7 @@ sp:field-texture-FSMHC-I
   rdf:type skos:Concept ;
   dct:description "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   rdfs:comment "Approximate clay content (%): 50% or more" ;
-  rdfs:label "Fibric fine sady medium heavy clay" ;
+  rdfs:label "Fibric fine sandy medium heavy clay" ;
   skos:broader sp:field-texture ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "FSMHCI" ;
