@@ -1397,7 +1397,7 @@ sp:field-texture-KSMC
   skos:narrower sp:field-texture-KSMC-A ;
   skos:narrower sp:field-texture-KSMC-I ;
   skos:notation "KSMC" ;
-  skos:prefLabel "Course sandy medium clay"@en ;
+  skos:prefLabel "Coarse sandy medium clay"@en ;
 .
 sp:field-texture-KSMC-A
   rdf:type skos:Concept ;
