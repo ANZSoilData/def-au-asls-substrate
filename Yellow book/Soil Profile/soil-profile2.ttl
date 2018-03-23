@@ -37,6 +37,7 @@ sp:boundary-distinctness
   skos:narrower sp:boundary-distinctness-G ;
   skos:narrower sp:boundary-distinctness-S ;
   skos:prefLabel "Boundary distinctness" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:boundary-distinctness-A
   rdf:type skos:Concept ;
@@ -104,6 +105,7 @@ sp:boundary-shape
   skos:narrower sp:boundary-shape-T ;
   skos:narrower sp:boundary-shape-W ;
   skos:prefLabel "Boundary shape" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:boundary-shape-B
   rdf:type skos:Concept ;
@@ -171,6 +173,7 @@ sp:consistence-plasticity-degree
   skos:narrower sp:consistence-plasticity-degree-2 ;
   skos:narrower sp:consistence-plasticity-degree-3 ;
   skos:prefLabel "Plasticity Degree" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:consistence-plasticity-degree-0
   rdf:type skos:Concept ;
@@ -232,6 +235,7 @@ sp:consistence-plasticity-type
   skos:narrower sp:consistence-plasticity-type-T ;
   skos:narrower sp:consistence-plasticity-type-U ;
   skos:prefLabel "Plasticity Type" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:consistence-plasticity-type-N
   rdf:type skos:Concept ;
@@ -289,6 +293,7 @@ sp:consistence-stickiness
   skos:narrower sp:consistence-stickiness-2 ;
   skos:narrower sp:consistence-stickiness-3 ;
   skos:prefLabel "Stickiness" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:consistence-stickiness-0
   rdf:type skos:Concept ;
@@ -350,6 +355,7 @@ sp:consistence-strength
   skos:narrower sp:consistence-strength-6 ;
   skos:narrower sp:consistence-strength-7 ;
   skos:prefLabel "Strength" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:consistence-strength-0
   rdf:type skos:Concept ;
@@ -446,6 +452,7 @@ sp:field-texture
   skos:narrower sp:field-texture-Organic ;
   skos:narrower sp:field-texture-mineral ;
   skos:prefLabel "Field texture"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:field-texture-AP
   rdf:type skos:Concept ;
@@ -2548,6 +2555,7 @@ sp:horizon
   skos:narrower sp:horizon-r ;
   skos:narrower sp:horizon-transitional ;
   skos:prefLabel "Horizon" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-a
   rdf:type skos:Concept ;
@@ -2756,7 +2764,6 @@ sp:horizon-suffix-b
   dct:description "Used for buried soil horizons. Used in mineral soils only. The suffix is written last, for example 2B2b." ;
   rdfs:comment "This suffix should only be used according to the definition of buried soils ." ;
   rdfs:label "Horizon suffix b" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for buried soil horizons. Used in mineral soils only. The suffix is written last, for example 2B2b." ;
   skos:notation "b" ;
   skos:prefLabel "Horizon suffix b"@en ;
@@ -2765,7 +2772,6 @@ sp:horizon-suffix-c
   rdf:type skos:Concept ;
   dct:description "Used for horizons with accumulation of concretions or nodules of iron and/or aluminium and/or manganese, as in B2c." ;
   rdfs:label "Horizon suffix c" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for horizons with accumulation of concretions or nodules of iron and/or aluminium and/or manganese, as in B2c." ;
   skos:notation "c" ;
   skos:prefLabel "Horizon suffix c"@en ;
@@ -2774,7 +2780,6 @@ sp:horizon-suffix-d
   rdf:type skos:Concept ;
   dct:description "Used for densipans. Very fine, sandy, earthy pan." ;
   rdfs:label "Horizon suffix d" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for densipans. Very fine, sandy, earthy pan." ;
   skos:notation "d" ;
   skos:prefLabel "Horizon suffix d"@en ;
@@ -2783,7 +2788,6 @@ sp:horizon-suffix-e
   rdf:type skos:Concept ;
   dct:description "Used for conspicuously bleached horizons, for example A2e." ;
   rdfs:label "Horizon suffix e" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for conspicuously bleached horizons, for example A2e." ;
   skos:notation "e" ;
   skos:prefLabel "Horizon suffix e"@en ;
@@ -2792,7 +2796,6 @@ sp:horizon-suffix-f
   rdf:type skos:Concept ;
   dct:description "Used when faunal accumulation, such as worm casts, dominates certain A1 horizons, for example A1f in some soils under rainforest." ;
   rdfs:label "Horizon suffix f" ;
-  skos:broader sp:horizon ;
   skos:definition "Used when faunal accumulation, such as worm casts, dominates certain A1 horizons, for example A1f in some soils under rainforest." ;
   skos:notation "f" ;
   skos:prefLabel "Horizon suffix f"@en ;
@@ -2801,7 +2804,6 @@ sp:horizon-suffix-g
   rdf:type skos:Concept ;
   dct:description "Indicates strong gleying, as in B2g. Gleying is indicative of permanent or periodic intense reduction due to wetness; it is characterised by greyish, bluish or greenish colours, generally of low chroma. Mottling may be prominent; mottles may have reddish hues and higher chromas if oxidising conditions occur periodically. Roots may have rusty or yellowish outlines; hence horizons such as A1g can occur." ;
   rdfs:label "Horizon suffix g" ;
-  skos:broader sp:horizon ;
   skos:definition "Indicates strong gleying, as in B2g. Gleying is indicative of permanent or periodic intense reduction due to wetness; it is characterised by greyish, bluish or greenish colours, generally of low chroma. Mottling may be prominent; mottles may have reddish hues and higher chromas if oxidising conditions occur periodically. Roots may have rusty or yellowish outlines; hence horizons such as A1g can occur." ;
   skos:notation "g" ;
   skos:prefLabel "Horizon suffix g"@en ;
@@ -2810,7 +2812,6 @@ sp:horizon-suffix-h
   rdf:type skos:Concept ;
   dct:description "Used where horizons contain accumulation of amorphous, organic matter – aluminium complexes in which iron contents are very low. The dominantly organic matter – aluminium  complexes occur as discrete pellets between clean sand grains or completely fill the voids; occasionally they may coat sand grains. Such horizons may be soft or cemented and form the characteristic B horizon of poorly drained soils known as podzols or Podosols." ;
   rdfs:label "Horizon suffix h" ;
-  skos:broader sp:horizon ;
   skos:definition "Used where horizons contain accumulation of amorphous, organic matter – aluminium complexes in which iron contents are very low. The dominantly organic matter – aluminium  complexes occur as discrete pellets between clean sand grains or completely fill the voids; occasionally they may coat sand grains. Such horizons may be soft or cemented and form the characteristic B horizon of poorly drained soils known as podzols or Podosols." ;
   skos:notation "h" ;
   skos:prefLabel "Horizon suffix h"@en ;
@@ -2819,7 +2820,6 @@ sp:horizon-suffix-j
   rdf:type skos:Concept ;
   dct:description "Used for sporadically bleached horizons, for example A2j." ;
   rdfs:label "Horizon suffix j" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for sporadically bleached horizons, for example A2j." ;
   skos:notation "j" ;
   skos:prefLabel "Horizon suffix j"@en ;
@@ -2829,7 +2829,6 @@ sp:horizon-suffix-k
   dct:description "Used for horizons with accumulation of carbonates, commonly calcium carbonate, as in B2k." ;
   rdfs:comment "This suffix is usually recorded only if there is a common or larger abundance of these segregations. Horizons with few (2–10%) or very few (<2%) segregations are not usually given these horizon notations. This suffix indicates relative accumulations compared with other horizons. Thus in a soil with no carbonate except for one horizon with few segregations, this horizon could be designated with a suffix ‘k’, for example B22tk. However, in a soil with few segregations of carbonate throughout, no horizon would be given the suffix ‘k’ unless it had common or more segregations, that is, a relatively larger amount than adjacent horizons." ;
   rdfs:label "Horizon suffix k" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for horizons with accumulation of carbonates, commonly calcium carbonate, as in B2k." ;
   skos:notation "k" ;
   skos:prefLabel "Horizon suffix k"@en ;
@@ -2838,7 +2837,6 @@ sp:horizon-suffix-m
   rdf:type skos:Concept ;
   dct:description "Used for horizons with strong cementation or induration. It is confined to irreversibly cemented horizons that are essentially continuous (more than 90%) though they may be fractured." ;
   rdfs:label "Horizon suffix m" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for horizons with strong cementation or induration. It is confined to irreversibly cemented horizons that are essentially continuous (more than 90%) though they may be fractured." ;
   skos:notation "m" ;
   skos:prefLabel "Horizon suffix m"@en ;
@@ -2847,7 +2845,6 @@ sp:horizon-suffix-p
   rdf:type skos:Concept ;
   dct:description "Used for horizons where ploughing, tillage practices or other disturbance by humans has occurred, for example deep ripping. This suffix is used only with A, as in Ap2. Where the plough layer clearly includes what was once B horizon and it is no longer possible to infer with any reliability what the texture and depth of the A horizon was, the plough layer is designated Ap." ;
   rdfs:label "Horizon suffix p" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for horizons where ploughing, tillage practices or other disturbance by humans has occurred, for example deep ripping. This suffix is used only with A, as in Ap2. Where the plough layer clearly includes what was once B horizon and it is no longer possible to infer with any reliability what the texture and depth of the A horizon was, the plough layer is designated Ap." ;
   skos:notation "p" ;
   skos:prefLabel "Horizon suffix p"@en ;
@@ -2856,7 +2853,6 @@ sp:horizon-suffix-q
   rdf:type skos:Concept ;
   dct:description "Used for horizons with accumulation of secondary silica. If silica cementation is continuous or nearly continuous, ‘qm’ is used." ;
   rdfs:label "Horizon suffix q" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for horizons with accumulation of secondary silica. If silica cementation is continuous or nearly continuous, ‘qm’ is used." ;
   skos:notation "q" ;
   skos:prefLabel "Horizon suffix q"@en ;
@@ -2865,7 +2861,6 @@ sp:horizon-suffix-r
   rdf:type skos:Concept ;
   dct:description "Used for horizons with layers of weathered rock (including saprolite) that, although consolidated, can be dug with hand tools." ;
   rdfs:label "Horizon suffix r" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for horizons with layers of weathered rock (including saprolite) that, although consolidated, can be dug with hand tools." ;
   skos:notation "r" ;
   skos:prefLabel "Horizon suffix r"@en ;
@@ -2874,7 +2869,6 @@ sp:horizon-suffix-s
   rdf:type skos:Concept ;
   dct:description "Used for horizons with an accumulation of sesquioxide – organic matter complexes in which iron is dominant relative to aluminium. These complexes coat sand grains, occur as discrete pellets, or, with moderate amounts of iron, may fill voids forming cemented patches. The content of organic matter is variable and its distribution is often irregular. The suffix ‘s’ is often used in combination with ‘h’ (as in Bhs) where both organic and iron components are significant; s or Bhs horizons may be soft or hard and form the characteristic B horizon of free-draining podzols or Podosols." ;
   rdfs:label "Horizon suffix s" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for horizons with an accumulation of sesquioxide – organic matter complexes in which iron is dominant relative to aluminium. These complexes coat sand grains, occur as discrete pellets, or, with moderate amounts of iron, may fill voids forming cemented patches. The content of organic matter is variable and its distribution is often irregular. The suffix ‘s’ is often used in combination with ‘h’ (as in Bhs) where both organic and iron components are significant; s or Bhs horizons may be soft or hard and form the characteristic B horizon of free-draining podzols or Podosols." ;
   skos:notation "s" ;
   skos:prefLabel "Horizon suffix s"@en ;
@@ -2883,7 +2877,6 @@ sp:horizon-suffix-t
   rdf:type skos:Concept ;
   dct:description "Used for horizons with accumulation of silicate clay (from German ton, clay). Different mechanisms (such as illuviation, formation in situ) may be responsible for the clay accumulation, but these may be difficult to confirm. This suffix is used only with the B, for example B2t, to indicate the nature of the B." ;
   rdfs:label "Horizon suffix t" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for horizons with accumulation of silicate clay (from German ton, clay). Different mechanisms (such as illuviation, formation in situ) may be responsible for the clay accumulation, but these may be difficult to confirm. This suffix is used only with the B, for example B2t, to indicate the nature of the B." ;
   skos:notation "t" ;
   skos:prefLabel "Horizon suffix t"@en ;
@@ -2892,7 +2885,6 @@ sp:horizon-suffix-w
   rdf:type skos:Concept ;
   dct:description "Used where development of colour and/or structure, or both, in the B horizon is observed, with little or no accumulation of sesquioxide – organic matter complexes." ;
   rdfs:label "Horizon suffix w" ;
-  skos:broader sp:horizon ;
   skos:definition "Used where development of colour and/or structure, or both, in the B horizon is observed, with little or no accumulation of sesquioxide – organic matter complexes." ;
   skos:notation "w" ;
   skos:prefLabel "Horizon suffix w"@en ;
@@ -2901,7 +2893,6 @@ sp:horizon-suffix-x
   rdf:type skos:Concept ;
   dct:description "Used for fragipans or earthy pans. A horizon with high bulk density relative to the horizon above, seemingly cemented when dry, but showing a moderate to weak cementation when moist." ;
   rdfs:label "Horizon suffix x" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for fragipans or earthy pans. A horizon with high bulk density relative to the horizon above, seemingly cemented when dry, but showing a moderate to weak cementation when moist." ;
   skos:notation "x" ;
   skos:prefLabel "Horizon suffix x"@en ;
@@ -2911,7 +2902,6 @@ sp:horizon-suffix-y
   dct:description "Used for horizons with accumulation of calcium sulphate (gypsum), as in B21, B22." ;
   rdfs:comment "This suffix is usually recorded only if there is a common or larger abundance of these segregations. Horizons with few (2–10%) or very few (<2%) segregations are not usually given these horizon notations. This suffix indicates relative accumulations compared with other horizons. Thus in a soil with no carbonate except for one horizon with few segregations, this horizon could be designated with a suffix ‘k’, for example B22tk. However, in a soil with few segregations of carbonate throughout, no horizon would be given the suffix ‘k’ unless it had common or more segregations, that is, a relatively larger amount than adjacent horizons." ;
   rdfs:label "Horizon suffix y" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for horizons with accumulation of calcium sulphate (gypsum), as in B21, B22." ;
   skos:notation "y" ;
   skos:prefLabel "Horizon suffix y"@en ;
@@ -2920,7 +2910,6 @@ sp:horizon-suffix-z
   rdf:type skos:Concept ;
   dct:description "Used for horizons with accumulation of salts more soluble than calcium sulphate and calcium carbonate." ;
   rdfs:label "Horizon suffix z" ;
-  skos:broader sp:horizon ;
   skos:definition "Used for horizons with accumulation of salts more soluble than calcium sulphate and calcium carbonate." ;
   skos:notation "z" ;
   skos:prefLabel "Horizon suffix z"@en ;
@@ -2997,6 +2986,7 @@ sp:soilwater-drainage
   skos:narrower sp:soilwater-drainage-5 ;
   skos:narrower sp:soilwater-drainage-6 ;
   skos:prefLabel "Drainage" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-drainage-1
   rdf:type skos:Concept ;
@@ -3084,6 +3074,7 @@ sp:soilwater-permeability
   skos:narrower sp:soilwater-permeability-3 ;
   skos:narrower sp:soilwater-permeability-4 ;
   skos:prefLabel "Permeability" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-permeability-1
   rdf:type skos:Concept ;
