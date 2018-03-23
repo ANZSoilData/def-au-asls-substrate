@@ -161,6 +161,54 @@ sp:boundary-shapes
   skos:member sp:boundary-shape-W ;
   skos:prefLabel "Boundary shapes" ;
 .
+sp:coarse-fragments-distribution
+  rdf:type skos:Concept ;
+  dct:description "Coarse fragments may occur thoughout the profile." ;
+  rdfs:comment "C_CF_DISTRIBUTION" ;
+  rdfs:label "Coarse fragments distribution" ;
+  skos:definition "Coarse fragments may occur thoughout the profile." ;
+  skos:narrower sp:coarse-fragments-distribution-D ;
+  skos:narrower sp:coarse-fragments-distribution-R ;
+  skos:narrower sp:coarse-fragments-distribution-S ;
+  skos:narrower sp:coarse-fragments-distribution-U ;
+  skos:prefLabel "Coarse fragments distribution" ;
+.
+sp:coarse-fragments-distribution-D
+  rdf:type skos:Concept ;
+  dct:description "fragments are scattered randomly throughout the soil and may be of mixed origin." ;
+  rdfs:comment "C_CF_DISTRIBUTION" ;
+  rdfs:label "Dispersed" ;
+  skos:definition "fragments are scattered randomly throughout the soil and may be of mixed origin." ;
+  skos:notation "D" ;
+  skos:prefLabel "Dispersed" ;
+.
+sp:coarse-fragments-distribution-R
+  rdf:type skos:Concept ;
+  dct:description "all fragments are remnants of the underlying bedrock but their orientation is not related to the joint or bedding planes of the bedrock." ;
+  rdfs:comment "C_CF_DISTRIBUTION" ;
+  rdfs:label "Reoriented" ;
+  skos:definition "all fragments are remnants of the underlying bedrock but their orientation is not related to the joint or bedding planes of the bedrock." ;
+  skos:notation "R" ;
+  skos:prefLabel "Reoriented" ;
+.
+sp:coarse-fragments-distribution-S
+  rdf:type skos:Concept ;
+  dct:description "fragments occur in bands, usually parallel with the soil surface (excluding those parallel with joint or bedding planes of the bedrock). They may include materials other than those from the underlying bedrock." ;
+  rdfs:comment "C_CF_DISTRIBUTION" ;
+  rdfs:label "Stratisfied" ;
+  skos:definition "fragments occur in bands, usually parallel with the soil surface (excluding those parallel with joint or bedding planes of the bedrock). They may include materials other than those from the underlying bedrock." ;
+  skos:notation "S" ;
+  skos:prefLabel "Stratisfied" ;
+.
+sp:coarse-fragments-distribution-U
+  rdf:type skos:Concept ;
+  dct:description "all fragments are remnants of the underlying bedrock and their orientation closely parallels that of the joint or bedding planes of the bedrock." ;
+  rdfs:comment "C_CF_DISTRIBUTION" ;
+  rdfs:label "Undisturbed" ;
+  skos:definition "all fragments are remnants of the underlying bedrock and their orientation closely parallels that of the joint or bedding planes of the bedrock." ;
+  skos:notation "U" ;
+  skos:prefLabel "Undisturbed" ;
+.
 sp:consistence-plasticity-degree
   rdf:type skos:Concept ;
   rdfs:comment "C_H_PLASTICITY_DEGREE" ;
