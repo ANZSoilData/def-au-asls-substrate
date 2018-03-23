@@ -21,6 +21,6 @@
   dct:rights "copyright CSIRO 2009, 2016. All rights reserved." ;
   rdfs:label "Soil Profile" ;
   rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
-  ui:hierarchyChildProperty   skos:member ;
-  ui:hierarchyRootType        skos:Collection ;
+  ui:hierarchyChildProperty   skos:narrower ;
+  ui:hierarchyRootProperty    skos:topConceptOf ;
 .
