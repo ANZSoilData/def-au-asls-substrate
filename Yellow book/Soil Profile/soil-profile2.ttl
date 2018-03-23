@@ -509,7 +509,7 @@ sp:field-texture-CKS-heavy
   skos:broader sp:field-texture ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:notation "CKS+" ;
-  skos:prefLabel "heavy clayey coarse sand"@en ;
+  skos:prefLabel "Heavy clayey coarse sand"@en ;
 .
 sp:field-texture-CKS-light
   rdf:type skos:Concept ;
@@ -822,8 +822,32 @@ sp:field-texture-FS
   skos:broader sp:field-texture ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  skos:narrower sp:field-texture-FS-A ;
+  skos:narrower sp:field-texture-FS-I ;
   skos:notation "FS" ;
   skos:prefLabel "Fine sand"@en ;
+.
+sp:field-texture-FS-A
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  rdfs:comment "Approximate clay content (%): commonly less than 5%" ;
+  rdfs:label "Sapric fine sand" ;
+  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-S ;
+  skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  skos:notation "FSA" ;
+  skos:prefLabel "Sapric fine sand"@en ;
+.
+sp:field-texture-FS-I
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  rdfs:comment "Approximate clay content (%): commonly less than 5%" ;
+  rdfs:label "Fibric fine sand" ;
+  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-S ;
+  skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
+  skos:notation "FSI" ;
+  skos:prefLabel "Fibric fine sand"@en ;
 .
 sp:field-texture-FSCL
   rdf:type skos:Concept ;
@@ -1153,8 +1177,33 @@ sp:field-texture-KS
   skos:broader sp:field-texture ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  skos:narrower sp:field-texture-KS-A ;
+  skos:narrower sp:field-texture-KS-I ;
   skos:notation "KS" ;
   skos:prefLabel "Coarse sand"@en ;
+.
+sp:field-texture-KS-A
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  rdfs:comment "Approximate clay content (%): commonly less than 5%" ;
+  rdfs:label "Sapric coarse sand" ;
+  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-S ;
+  skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  skos:notation "KSA" ;
+  skos:prefLabel "Sapric coarse sand"@en ;
+.
+sp:field-texture-KS-I
+  rdf:type skos:Concept ;
+  dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  rdfs:comment "Approximate clay content (%): commonly less than 5%" ;
+  rdfs:label "Fibric coarse sand" ;
+  skos:broader sp:field-texture ;
+  skos:broader sp:field-texture-KS ;
+  skos:broader sp:field-texture-S ;
+  skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
+  skos:notation "KSI" ;
+  skos:prefLabel "Fibric coarse sand"@en ;
 .
 sp:field-texture-KSCL
   rdf:type skos:Concept ;
@@ -1358,7 +1407,7 @@ sp:field-texture-KSMC-A
   skos:broader sp:field-texture ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "KSMCA" ;
-  skos:prefLabel "Sapric course sandy medium clay"@en ;
+  skos:prefLabel "Sapric coarse sandy medium clay"@en ;
 .
 sp:field-texture-KSMC-I
   rdf:type skos:Concept ;
@@ -1368,7 +1417,7 @@ sp:field-texture-KSMC-I
   skos:broader sp:field-texture ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:notation "KSMCI" ;
-  skos:prefLabel "Fibric course sandy medium clay"@en ;
+  skos:prefLabel "Fibric coarse sandy medium clay"@en ;
 .
 sp:field-texture-KSMHC
   rdf:type skos:Concept ;
@@ -1777,6 +1826,8 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:broader sp:field-texture ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
+  skos:narrower sp:field-texture-FS-A ;
+  skos:narrower sp:field-texture-KS-A ;
   skos:notation "SA" ;
   skos:prefLabel "Sapric sand"@en ;
 .
@@ -1789,6 +1840,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader sp:field-texture ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
+  skos:narrower sp:field-texture-FS-I ;
+  skos:narrower sp:field-texture-KS-I ;
   skos:notation "SI" ;
   skos:prefLabel "Fibric sand"@en ;
 .
