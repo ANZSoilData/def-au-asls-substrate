@@ -178,7 +178,7 @@ sp:coarse-fragments
 .
 sp:coarse-fragments-abundance
   rdf:type skos:Concept ;
-  dct:description "<http://anzsoil.org/resources/yellowbook/Figure11.pdf>" ;
+  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure11.png\" /></p>"^^rdf:HTML ;
   rdfs:comment "N_CF_ABUN: The percentage is estimated by eye using the charts in the yellow book for comparison." ;
   rdfs:label "Abundance of coarse fragments" ;
   skos:definition "The percentage of coarse fragments." ;
