@@ -326,6 +326,133 @@ sp:coarse-fragments-lithology
   skos:prefLabel "Lithology of coarse fragments" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
+sp:coarse-fragments-lithology-AC
+  rdf:type skos:Concept ;
+  dct:description "Alcrete (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Alcrete" ;
+  skos:altLabel "Bauxite" ;
+  skos:definition "Alcrete (Sedimentary rock, chemical or organic)" ;
+  skos:notation "AC" ;
+  skos:prefLabel "Alcrete" ;
+.
+sp:coarse-fragments-lithology-AD
+  rdf:type skos:Concept ;
+  dct:description "Adamellite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Adamellite" ;
+  skos:definition "Adamellite (Igneous rock)" ;
+  skos:notation "AD" ;
+  skos:prefLabel "Adamellite" ;
+.
+sp:coarse-fragments-lithology-AF
+  rdf:type skos:Concept ;
+  dct:description "Ash (fine)  (Unconsolidated material)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Ash (fine)" ;
+  skos:definition "Ash (fine)  (Unconsolidated material)" ;
+  skos:notation "AF" ;
+  skos:prefLabel "Ash (fine)" ;
+.
+sp:coarse-fragments-lithology-AG
+  rdf:type skos:Concept ;
+  dct:description "Agglomerate (Sedimentary rock, pyroclastic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Agglomerate" ;
+  skos:definition "Agglomerate (Sedimentary rock, pyroclastic)" ;
+  skos:notation "AG" ;
+  skos:prefLabel "Agglomerate" ;
+.
+sp:coarse-fragments-lithology-AH
+  rdf:type skos:Concept ;
+  dct:description "Anhydrite (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Anhydrite" ;
+  skos:definition "Anhydrite (Sedimentary rock, chemical or organic)" ;
+  skos:notation "AH" ;
+  skos:prefLabel "Anhydrite" ;
+.
+sp:coarse-fragments-lithology-AM
+  rdf:type skos:Concept ;
+  dct:description "Amphibolite (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Amphibolite" ;
+  skos:definition "Amphibolite (Metamorphic rock)" ;
+  skos:notation "AM" ;
+  skos:prefLabel "Amphibolite" ;
+.
+sp:coarse-fragments-lithology-AN
+  rdf:type skos:Concept ;
+  dct:description "Andesite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Andesite" ;
+  skos:definition "Andesite (Igneous rock)" ;
+  skos:notation "AN" ;
+  skos:prefLabel "Andesite" ;
+.
+sp:coarse-fragments-lithology-AP
+  rdf:type skos:Concept ;
+  dct:description "Aplite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Aplite" ;
+  skos:definition "Aplite (Igneous rock)" ;
+  skos:notation "AP" ;
+  skos:prefLabel "Aplite" ;
+.
+sp:coarse-fragments-lithology-AR
+  rdf:type skos:Concept ;
+  dct:description "Arkose (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Arkose" ;
+  skos:definition "Arkose (Sedimentary rock, detrital)" ;
+  skos:notation "AR" ;
+  skos:prefLabel "Arkose" ;
+.
+sp:coarse-fragments-lithology-AS
+  rdf:type skos:Concept ;
+  dct:description "Ash (sandy)  (Unconsolidated material)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Ash (sandy)" ;
+  skos:definition "Ash (sandy) (Unconsolidated material)" ;
+  skos:notation "AS" ;
+  skos:prefLabel "Ash (sandy)" ;
+.
+sp:coarse-fragments-lithology-BA
+  rdf:type skos:Concept ;
+  dct:description "Basalt (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Basalt" ;
+  skos:definition "Basalt (Igneous rock)" ;
+  skos:notation "BA" ;
+  skos:prefLabel "Basalt" ;
+.
+sp:coarse-fragments-lithology-BB
+  rdf:type skos:Concept ;
+  dct:description "Bombs (volcanic) (Unconsolidated material)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Bombs" ;
+  skos:definition "Bombs (volcanic) (Unconsolidated material)" ;
+  skos:notation "BB" ;
+  skos:prefLabel "Bombs" ;
+.
+sp:coarse-fragments-lithology-BR
+  rdf:type skos:Concept ;
+  dct:description "Breccia (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Breccia" ;
+  skos:definition "Breccia (Sedimentary rock, detrital)" ;
+  skos:notation "BR" ;
+  skos:prefLabel "Breccia" ;
+.
+sp:coarse-fragments-lithology-C
+  rdf:type skos:Concept ;
+  dct:description "Clay (Unconsolidated material)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Clay" ;
+  skos:definition "Clay (Unconsolidated material)" ;
+  skos:notation "C" ;
+  skos:prefLabel "Clay" ;
+.
 sp:coarse-fragments-lithology-CC
   rdf:type skos:Concept ;
   dct:description "Charcoal" ;
@@ -334,6 +461,186 @@ sp:coarse-fragments-lithology-CC
   skos:definition "Charcoal" ;
   skos:notation "CC" ;
   skos:prefLabel "Charcoal" ;
+.
+sp:coarse-fragments-lithology-CG
+  rdf:type skos:Concept ;
+  dct:description "Conglomerate (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Conglomerate" ;
+  skos:definition "Conglomerate (Sedimentary rock, detrital)" ;
+  skos:notation "CG" ;
+  skos:prefLabel "Conglomerate" ;
+.
+sp:coarse-fragments-lithology-CH
+  rdf:type skos:Concept ;
+  dct:description "Chert (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Chert" ;
+  skos:definition "Chert (Sedimentary rock, chemical or organic)" ;
+  skos:notation "CH" ;
+  skos:prefLabel "Chert" ;
+.
+sp:coarse-fragments-lithology-CO
+  rdf:type skos:Concept ;
+  dct:description "Coal (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Coal" ;
+  skos:definition "Coal (Sedimentary rock, chemical or organic)" ;
+  skos:notation "CO" ;
+  skos:prefLabel "Coal" ;
+.
+sp:coarse-fragments-lithology-CU
+  rdf:type skos:Concept ;
+  dct:description "Consolidated rock (Unidentified)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Consolidated rock" ;
+  skos:definition "Consolidated rock (Unidentified)" ;
+  skos:notation "CU" ;
+  skos:prefLabel "Consolidated rock" ;
+.
+sp:coarse-fragments-lithology-DI
+  rdf:type skos:Concept ;
+  dct:description "Diorite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Diorite" ;
+  skos:definition "Diorite (Igneous rock)" ;
+  skos:notation "DI" ;
+  skos:prefLabel "Diorite" ;
+.
+sp:coarse-fragments-lithology-DM
+  rdf:type skos:Concept ;
+  dct:description "Dolomite (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Dolomite" ;
+  skos:definition "Dolomite (Sedimentary rock, detrital)" ;
+  skos:notation "DM" ;
+  skos:prefLabel "Dolomite" ;
+.
+sp:coarse-fragments-lithology-DR
+  rdf:type skos:Concept ;
+  dct:description "Dolerite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Dolerite" ;
+  skos:definition "Dolerite (Igneous rock)" ;
+  skos:notation "DR" ;
+  skos:prefLabel "Dolerite" ;
+.
+sp:coarse-fragments-lithology-FC
+  rdf:type skos:Concept ;
+  dct:description "Ferricrete (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Ferricrete" ;
+  skos:definition "Ferricrete (Sedimentary rock, chemical or organic)" ;
+  skos:notation "FC" ;
+  skos:prefLabel "Ferricrete" ;
+.
+sp:coarse-fragments-lithology-GA
+  rdf:type skos:Concept ;
+  dct:description "Gabbro (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Gabbro" ;
+  skos:definition "Gabbro (Igneous rock)" ;
+  skos:notation "GA" ;
+  skos:prefLabel "Gabbro" ;
+.
+sp:coarse-fragments-lithology-GD
+  rdf:type skos:Concept ;
+  dct:description "Granodiorite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Granodiorite" ;
+  skos:definition "Granodiorite (Igneous rock)" ;
+  skos:notation "GD" ;
+  skos:prefLabel "Granodiorite" ;
+.
+sp:coarse-fragments-lithology-GE
+  rdf:type skos:Concept ;
+  dct:description "Greenstone (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Greenstone" ;
+  skos:definition "Greenstone (Metamorphic rock)" ;
+  skos:notation "GE" ;
+  skos:prefLabel "Greenstone" ;
+.
+sp:coarse-fragments-lithology-GN
+  rdf:type skos:Concept ;
+  dct:description "Granite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Granite" ;
+  skos:definition "Granite (Igneous rock)" ;
+  skos:notation "GN" ;
+  skos:prefLabel "Granite" ;
+.
+sp:coarse-fragments-lithology-GR
+  rdf:type skos:Concept ;
+  dct:description "Granulite (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Granulite" ;
+  skos:definition "Granulite (Metamorphic rock)" ;
+  skos:notation "GR" ;
+  skos:prefLabel "Granulite" ;
+.
+sp:coarse-fragments-lithology-GS
+  rdf:type skos:Concept ;
+  dct:description "Gneiss (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Gneiss" ;
+  skos:definition "Gneiss (Metamorphic rock)" ;
+  skos:notation "GS" ;
+  skos:prefLabel "Gneiss" ;
+.
+sp:coarse-fragments-lithology-GV
+  rdf:type skos:Concept ;
+  dct:description "Gravel (Unconsolidated material)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Gravel" ;
+  skos:definition "Gravel (Unconsolidated material)" ;
+  skos:notation "GV" ;
+  skos:prefLabel "Gravel" ;
+.
+sp:coarse-fragments-lithology-GW
+  rdf:type skos:Concept ;
+  dct:description "Graywacke (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Graywacke" ;
+  skos:definition "Graywacke (Sedimentary rock, detrital)" ;
+  skos:notation "GW" ;
+  skos:prefLabel "Graywacke" ;
+.
+sp:coarse-fragments-lithology-GY
+  rdf:type skos:Concept ;
+  dct:description "Gypsum (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Gypsum" ;
+  skos:definition "Gypsum (Sedimentary rock, chemical or organic)" ;
+  skos:notation "GY" ;
+  skos:prefLabel "Gypsum" ;
+.
+sp:coarse-fragments-lithology-HA
+  rdf:type skos:Concept ;
+  dct:description "Halite (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Halite" ;
+  skos:definition "Halite (Sedimentary rock, chemical or organic)" ;
+  skos:notation "HA" ;
+  skos:prefLabel "Halite" ;
+.
+sp:coarse-fragments-lithology-HO
+  rdf:type skos:Concept ;
+  dct:description "Hornfels (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Hornfels" ;
+  skos:definition "Hornfels (Metamorphic rock)" ;
+  skos:notation "HO" ;
+  skos:prefLabel "Hornfels" ;
+.
+sp:coarse-fragments-lithology-IG
+  rdf:type skos:Concept ;
+  dct:description "Igneous rock (Unidentified)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Igneous rock" ;
+  skos:definition "Igneous rock (Unidentified)" ;
+  skos:notation "IG" ;
+  skos:prefLabel "Igneous rock" ;
 .
 sp:coarse-fragments-lithology-IS
   rdf:type skos:Concept ;
@@ -344,6 +651,87 @@ sp:coarse-fragments-lithology-IS
   skos:notation "IS" ;
   skos:prefLabel "Ironstone" ;
 .
+sp:coarse-fragments-lithology-JA
+  rdf:type skos:Concept ;
+  dct:description "Jasper (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Jasper" ;
+  skos:definition "Jasper (Sedimentary rock, chemical or organic)" ;
+  skos:notation "JA" ;
+  skos:prefLabel "Jasper" ;
+.
+sp:coarse-fragments-lithology-KA
+  rdf:type skos:Concept ;
+  dct:description "Calcarenite (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcarenite" ;
+  skos:definition "Calcarenite (Sedimentary rock, detrital)" ;
+  skos:notation "KA" ;
+  skos:prefLabel "Calcarenite" ;
+.
+sp:coarse-fragments-lithology-KC
+  rdf:type skos:Concept ;
+  dct:description "Calcrete (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcrete" ;
+  skos:definition "Calcrete (Sedimentary rock, chemical or organic)" ;
+  skos:notation "KC" ;
+  skos:prefLabel "Calcrete" ;
+.
+sp:coarse-fragments-lithology-KL
+  rdf:type skos:Concept ;
+  dct:description "Calcilutite (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcilutite" ;
+  skos:definition "Calcilutite (Sedimentary rock, detrital)" ;
+  skos:notation "KL" ;
+  skos:prefLabel "Calcilutite" ;
+.
+sp:coarse-fragments-lithology-KM
+  rdf:type skos:Concept ;
+  dct:description "Calcareous mudstone (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcareous mudstone" ;
+  skos:definition "Calcareous mudstone (Sedimentary rock, detrital)" ;
+  skos:notation "KM" ;
+  skos:prefLabel "Calcareous mudstone" ;
+.
+sp:coarse-fragments-lithology-KR
+  rdf:type skos:Concept ;
+  dct:description "Calcirudite (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcirudite" ;
+  skos:definition "Calcirudite (Sedimentary rock, detrital)" ;
+  skos:notation "KR" ;
+  skos:prefLabel "Calcirudite" ;
+.
+sp:coarse-fragments-lithology-KS
+  rdf:type skos:Concept ;
+  dct:description "Calcareous sand (Unconsolidated material)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcareous sand" ;
+  skos:definition "Calcareous sand (Unconsolidated material)" ;
+  skos:notation "KS" ;
+  skos:prefLabel "Calcareous sand" ;
+.
+sp:coarse-fragments-lithology-LC
+  rdf:type skos:Concept ;
+  dct:description "Silcrete (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Silcrete" ;
+  skos:definition "Silcrete (Sedimentary rock, chemical or organic)" ;
+  skos:notation "LC" ;
+  skos:prefLabel "Silcrete" ;
+.
+sp:coarse-fragments-lithology-LI
+  rdf:type skos:Concept ;
+  dct:description "Limestone (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Limestone" ;
+  skos:definition "Limestone (Sedimentary rock, detrital)" ;
+  skos:notation "LI" ;
+  skos:prefLabel "Limestone" ;
+.
 sp:coarse-fragments-lithology-M
   rdf:type skos:Concept ;
   dct:description "Lithology is same as the substrate material" ;
@@ -352,6 +740,87 @@ sp:coarse-fragments-lithology-M
   skos:definition "Lithology is same as the substrate material" ;
   skos:notation "M" ;
   skos:prefLabel "Same as substrate material" ;
+.
+sp:coarse-fragments-lithology-MB
+  rdf:type skos:Concept ;
+  dct:description "Marble (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Marble" ;
+  skos:definition "Marble (Metamorphic rock)" ;
+  skos:notation "MB" ;
+  skos:prefLabel "Marble" ;
+.
+sp:coarse-fragments-lithology-MD
+  rdf:type skos:Concept ;
+  dct:description "Microdiorite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Microdiorite" ;
+  skos:definition "Microdiorite (Igneous rock)" ;
+  skos:notation "MD" ;
+  skos:prefLabel "Microdiorite" ;
+.
+sp:coarse-fragments-lithology-ME
+  rdf:type skos:Concept ;
+  dct:description "Metamorphic rock (Unidentified)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Metamorphic rock" ;
+  skos:definition "Metamorphic rock (Unidentified)" ;
+  skos:notation "ME" ;
+  skos:prefLabel "Metamorphic rock" ;
+.
+sp:coarse-fragments-lithology-MG
+  rdf:type skos:Concept ;
+  dct:description "Microgranite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Microgranite" ;
+  skos:definition "Microgranite (Igneous rock)" ;
+  skos:notation "MG" ;
+  skos:prefLabel "Microgranite" ;
+.
+sp:coarse-fragments-lithology-MI
+  rdf:type skos:Concept ;
+  dct:description "Migmatite (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Migmatite" ;
+  skos:definition "Migmatite (Metamorphic rock)" ;
+  skos:notation "MI" ;
+  skos:prefLabel "Migmatite" ;
+.
+sp:coarse-fragments-lithology-ML
+  rdf:type skos:Concept ;
+  dct:description "Marl (Unconsolidated material)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Marl" ;
+  skos:definition "Marl (Unconsolidated material)" ;
+  skos:notation "ML" ;
+  skos:prefLabel "Marl" ;
+.
+sp:coarse-fragments-lithology-MS
+  rdf:type skos:Concept ;
+  dct:description "Microsyenite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Microsyenite" ;
+  skos:definition "Microsyenite (Igneous rock)" ;
+  skos:notation "MS" ;
+  skos:prefLabel "Microsyenite" ;
+.
+sp:coarse-fragments-lithology-MU
+  rdf:type skos:Concept ;
+  dct:description "Mudstone (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Mudstone" ;
+  skos:definition "Mudstone (Sedimentary rock, detrital)" ;
+  skos:notation "MU" ;
+  skos:prefLabel "Mudstone" ;
+.
+sp:coarse-fragments-lithology-MY
+  rdf:type skos:Concept ;
+  dct:description "Mylonite (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Mylonite" ;
+  skos:definition "Mylonite (Metamorphic rock)" ;
+  skos:notation "MY" ;
+  skos:prefLabel "Mylonite" ;
 .
 sp:coarse-fragments-lithology-OT
   rdf:type skos:Concept ;
@@ -371,6 +840,60 @@ sp:coarse-fragments-lithology-OW
   skos:notation "OW" ;
   skos:prefLabel "Opalised wood" ;
 .
+sp:coarse-fragments-lithology-PC
+  rdf:type skos:Concept ;
+  dct:description "Porcellanite (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Porcellanite" ;
+  skos:definition "Porcellanite (Sedimentary rock, chemical or organic)" ;
+  skos:notation "PC" ;
+  skos:prefLabel "Porcellanite" ;
+.
+sp:coarse-fragments-lithology-PE
+  rdf:type skos:Concept ;
+  dct:description "Peridotite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Peridotite" ;
+  skos:definition "Peridotite (Igneous rock)" ;
+  skos:notation "PE" ;
+  skos:prefLabel "Peridotite" ;
+.
+sp:coarse-fragments-lithology-PG
+  rdf:type skos:Concept ;
+  dct:description "Pegmatite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Pegmatite" ;
+  skos:definition "Pegmatite (Igneous rock)" ;
+  skos:notation "PG" ;
+  skos:prefLabel "Pegmatite" ;
+.
+sp:coarse-fragments-lithology-PH
+  rdf:type skos:Concept ;
+  dct:description "Phyllite (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Phyllite" ;
+  skos:definition "Phyllite (Metamorphic rock)" ;
+  skos:notation "PH" ;
+  skos:prefLabel "Phyllite" ;
+.
+sp:coarse-fragments-lithology-PL
+  rdf:type skos:Concept ;
+  dct:description "Phonolite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Phonolite" ;
+  skos:definition "Phonolite (Igneous rock)" ;
+  skos:notation "PL" ;
+  skos:prefLabel "Phonolite" ;
+.
+sp:coarse-fragments-lithology-PO
+  rdf:type skos:Concept ;
+  dct:description "Porphyry (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Porphyry" ;
+  skos:definition "Porphyry (Igneous rock)" ;
+  skos:notation "PO" ;
+  skos:prefLabel "Porphyry" ;
+.
 sp:coarse-fragments-lithology-PU
   rdf:type skos:Concept ;
   dct:description "Pumice" ;
@@ -379,6 +902,51 @@ sp:coarse-fragments-lithology-PU
   skos:definition "Pumice" ;
   skos:notation "PU" ;
   skos:prefLabel "Pumice" ;
+.
+sp:coarse-fragments-lithology-PY
+  rdf:type skos:Concept ;
+  dct:description "Pyroxenite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Pyroxenite" ;
+  skos:definition "Pyroxenite (Igneous rock)" ;
+  skos:notation "PY" ;
+  skos:prefLabel "Pyroxenite" ;
+.
+sp:coarse-fragments-lithology-QP
+  rdf:type skos:Concept ;
+  dct:description "Quartz porphyry (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Quartz porphyry" ;
+  skos:definition "Quartz porphyry (Igneous rock)" ;
+  skos:notation "QP" ;
+  skos:prefLabel "Quartz porphyry" ;
+.
+sp:coarse-fragments-lithology-QS
+  rdf:type skos:Concept ;
+  dct:description "Quartz sandstone (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Quartz sandstone" ;
+  skos:definition "Quartz sandstone (Sedimentary rock, detrital)" ;
+  skos:notation "QS" ;
+  skos:prefLabel "Quartz sandstone" ;
+.
+sp:coarse-fragments-lithology-QU
+  rdf:type skos:Concept ;
+  dct:description "Quartzite (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Quartzite" ;
+  skos:definition "Quartzite (Metamorphic rock)" ;
+  skos:notation "QU" ;
+  skos:prefLabel "Quartzite" ;
+.
+sp:coarse-fragments-lithology-QZ
+  rdf:type skos:Concept ;
+  dct:description "Quartz (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Quartz" ;
+  skos:definition "Quartz (Igneous rock)" ;
+  skos:notation "QZ" ;
+  skos:prefLabel "Quartz" ;
 .
 sp:coarse-fragments-lithology-R
   rdf:type skos:Concept ;
@@ -389,6 +957,87 @@ sp:coarse-fragments-lithology-R
   skos:notation "R" ;
   skos:prefLabel "Same as rock outcrop" ;
 .
+sp:coarse-fragments-lithology-RB
+  rdf:type skos:Concept ;
+  dct:description "Red-brown hardpan (Sedimentary rock, chemical or organic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Red-brown hardpan" ;
+  skos:definition "Red-brown hardpan (Sedimentary rock, chemical or organic)" ;
+  skos:notation "RB" ;
+  skos:prefLabel "Red-brown hardpan" ;
+.
+sp:coarse-fragments-lithology-RH
+  rdf:type skos:Concept ;
+  dct:description "Rhyolite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Rhyolite" ;
+  skos:definition "Rhyolite (Igneous rock)" ;
+  skos:notation "RH" ;
+  skos:prefLabel "Rhyolite" ;
+.
+sp:coarse-fragments-lithology-S
+  rdf:type skos:Concept ;
+  dct:description "Sand (Unconsolidated material)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Sand" ;
+  skos:definition "Sand (Unconsolidated material)" ;
+  skos:notation "S" ;
+  skos:prefLabel "Sand" ;
+.
+sp:coarse-fragments-lithology-SA
+  rdf:type skos:Concept ;
+  dct:description "Sandstone (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Sandstone" ;
+  skos:definition "Sandstone (Sedimentary rock, detrital)" ;
+  skos:notation "SA" ;
+  skos:prefLabel "Sandstone" ;
+.
+sp:coarse-fragments-lithology-SD
+  rdf:type skos:Concept ;
+  dct:description "Detrital sedimetary rock (Unidentified)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Detrital sedimetary rock" ;
+  skos:definition "Detrital sedimetary rock (Unidentified)" ;
+  skos:notation "SD" ;
+  skos:prefLabel "Detrital sedimetary rock" ;
+.
+sp:coarse-fragments-lithology-SH
+  rdf:type skos:Concept ;
+  dct:description "Shale (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Shale" ;
+  skos:definition "Shale (Igneous rock)" ;
+  skos:notation "SH" ;
+  skos:prefLabel "Shale" ;
+.
+sp:coarse-fragments-lithology-SK
+  rdf:type skos:Concept ;
+  dct:description "Scoria (Unconsolidated material)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Scoria" ;
+  skos:definition "Scoria (Unconsolidated material)" ;
+  skos:notation "SK" ;
+  skos:prefLabel "Scoria" ;
+.
+sp:coarse-fragments-lithology-SL
+  rdf:type skos:Concept ;
+  dct:description "Slate (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Slate" ;
+  skos:definition "Slate (Sedimentary rock, detrital)" ;
+  skos:notation "SL" ;
+  skos:prefLabel "Slate" ;
+.
+sp:coarse-fragments-lithology-SR
+  rdf:type skos:Concept ;
+  dct:description "Serpentinite (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Serpentinite" ;
+  skos:definition "Serpentinite (Igneous rock)" ;
+  skos:notation "SR" ;
+  skos:prefLabel "Serpentinite" ;
+.
 sp:coarse-fragments-lithology-SS
   rdf:type skos:Concept ;
   dct:description "Shells" ;
@@ -397,6 +1046,87 @@ sp:coarse-fragments-lithology-SS
   skos:definition "Shells" ;
   skos:notation "SS" ;
   skos:prefLabel "Shells" ;
+.
+sp:coarse-fragments-lithology-ST
+  rdf:type skos:Concept ;
+  dct:description "Schist (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Schist" ;
+  skos:definition "Schist (Metamorphic rock)" ;
+  skos:notation "ST" ;
+  skos:prefLabel "Schist" ;
+.
+sp:coarse-fragments-lithology-SY
+  rdf:type skos:Concept ;
+  dct:description "Syenite (Metamorphic rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Syenite" ;
+  skos:definition "Syenite (Metamorphic rock)" ;
+  skos:notation "SY" ;
+  skos:prefLabel "Syenite" ;
+.
+sp:coarse-fragments-lithology-TR
+  rdf:type skos:Concept ;
+  dct:description "Trachyte (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Trachyte" ;
+  skos:definition "Trachyte (Igneous rock)" ;
+  skos:notation "TR" ;
+  skos:prefLabel "Trachyte" ;
+.
+sp:coarse-fragments-lithology-TU
+  rdf:type skos:Concept ;
+  dct:description "Tuff (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Tuff" ;
+  skos:definition "Tuff (Igneous rock)" ;
+  skos:notation "TU" ;
+  skos:prefLabel "Tuff" ;
+.
+sp:coarse-fragments-lithology-UC
+  rdf:type skos:Concept ;
+  dct:description "Unconsolidated material (Unidentified)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Unconsolidated material" ;
+  skos:definition "Unconsolidated material (Unidentified)" ;
+  skos:notation "UC" ;
+  skos:prefLabel "Unconsolidated material" ;
+.
+sp:coarse-fragments-lithology-VB
+  rdf:type skos:Concept ;
+  dct:description "Volcanic breccia (Sedimentary rock, pyroclastic)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Volcanic breccia" ;
+  skos:definition "Volcanic breccia (Sedimentary rock, pyroclastic)" ;
+  skos:notation "VB" ;
+  skos:prefLabel "Volcanic breccia" ;
+.
+sp:coarse-fragments-lithology-VG
+  rdf:type skos:Concept ;
+  dct:description "Volcanic glass (Igneous rock)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Volcanic glass" ;
+  skos:definition "Volcanic glass (Igneous rock)" ;
+  skos:notation "VG" ;
+  skos:prefLabel "Volcanic glass" ;
+.
+sp:coarse-fragments-lithology-Z
+  rdf:type skos:Concept ;
+  dct:description "Silt (Sedimentary rock, detrital)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Silt" ;
+  skos:definition "Silt (Sedimentary rock, detrital)" ;
+  skos:notation "Z" ;
+  skos:prefLabel "Silt" ;
+.
+sp:coarse-fragments-lithology-ZS
+  rdf:type skos:Concept ;
+  dct:description "Siltstone (Unconsolidated material)" ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Siltstone" ;
+  skos:definition "Siltstone (Unconsolidated material)" ;
+  skos:notation "ZS" ;
+  skos:prefLabel "Siltstone" ;
 .
 sp:coarse-fragments-shape
   rdf:type skos:Concept ;
