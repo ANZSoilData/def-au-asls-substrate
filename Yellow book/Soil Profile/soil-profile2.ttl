@@ -314,14 +314,95 @@ sp:coarse-fragments-lithology
   rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Lithology of coarse fragments" ;
   skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop.   Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed.. Some coarse fragments are commonly encountered that are not directly related to the substrate material.   " ;
+  skos:narrower sp:coarse-fragments-lithology-AC ;
+  skos:narrower sp:coarse-fragments-lithology-AD ;
+  skos:narrower sp:coarse-fragments-lithology-AF ;
+  skos:narrower sp:coarse-fragments-lithology-AG ;
+  skos:narrower sp:coarse-fragments-lithology-AH ;
+  skos:narrower sp:coarse-fragments-lithology-AM ;
+  skos:narrower sp:coarse-fragments-lithology-AN ;
+  skos:narrower sp:coarse-fragments-lithology-AP ;
+  skos:narrower sp:coarse-fragments-lithology-AR ;
+  skos:narrower sp:coarse-fragments-lithology-AS ;
+  skos:narrower sp:coarse-fragments-lithology-BA ;
+  skos:narrower sp:coarse-fragments-lithology-BB ;
+  skos:narrower sp:coarse-fragments-lithology-BR ;
+  skos:narrower sp:coarse-fragments-lithology-C ;
   skos:narrower sp:coarse-fragments-lithology-CC ;
+  skos:narrower sp:coarse-fragments-lithology-CG ;
+  skos:narrower sp:coarse-fragments-lithology-CH ;
+  skos:narrower sp:coarse-fragments-lithology-CO ;
+  skos:narrower sp:coarse-fragments-lithology-CU ;
+  skos:narrower sp:coarse-fragments-lithology-DI ;
+  skos:narrower sp:coarse-fragments-lithology-DM ;
+  skos:narrower sp:coarse-fragments-lithology-DR ;
+  skos:narrower sp:coarse-fragments-lithology-FC ;
+  skos:narrower sp:coarse-fragments-lithology-GA ;
+  skos:narrower sp:coarse-fragments-lithology-GD ;
+  skos:narrower sp:coarse-fragments-lithology-GE ;
+  skos:narrower sp:coarse-fragments-lithology-GN ;
+  skos:narrower sp:coarse-fragments-lithology-GR ;
+  skos:narrower sp:coarse-fragments-lithology-GS ;
+  skos:narrower sp:coarse-fragments-lithology-GV ;
+  skos:narrower sp:coarse-fragments-lithology-GW ;
+  skos:narrower sp:coarse-fragments-lithology-GY ;
+  skos:narrower sp:coarse-fragments-lithology-HA ;
+  skos:narrower sp:coarse-fragments-lithology-HO ;
+  skos:narrower sp:coarse-fragments-lithology-IG ;
   skos:narrower sp:coarse-fragments-lithology-IS ;
+  skos:narrower sp:coarse-fragments-lithology-JA ;
+  skos:narrower sp:coarse-fragments-lithology-KA ;
+  skos:narrower sp:coarse-fragments-lithology-KC ;
+  skos:narrower sp:coarse-fragments-lithology-KL ;
+  skos:narrower sp:coarse-fragments-lithology-KM ;
+  skos:narrower sp:coarse-fragments-lithology-KR ;
+  skos:narrower sp:coarse-fragments-lithology-KS ;
+  skos:narrower sp:coarse-fragments-lithology-LC ;
+  skos:narrower sp:coarse-fragments-lithology-LI ;
   skos:narrower sp:coarse-fragments-lithology-M ;
+  skos:narrower sp:coarse-fragments-lithology-MB ;
+  skos:narrower sp:coarse-fragments-lithology-MD ;
+  skos:narrower sp:coarse-fragments-lithology-ME ;
+  skos:narrower sp:coarse-fragments-lithology-MG ;
+  skos:narrower sp:coarse-fragments-lithology-MI ;
+  skos:narrower sp:coarse-fragments-lithology-ML ;
+  skos:narrower sp:coarse-fragments-lithology-MS ;
+  skos:narrower sp:coarse-fragments-lithology-MU ;
+  skos:narrower sp:coarse-fragments-lithology-MY ;
   skos:narrower sp:coarse-fragments-lithology-OT ;
   skos:narrower sp:coarse-fragments-lithology-OW ;
+  skos:narrower sp:coarse-fragments-lithology-PC ;
+  skos:narrower sp:coarse-fragments-lithology-PE ;
+  skos:narrower sp:coarse-fragments-lithology-PG ;
+  skos:narrower sp:coarse-fragments-lithology-PH ;
+  skos:narrower sp:coarse-fragments-lithology-PL ;
+  skos:narrower sp:coarse-fragments-lithology-PO ;
   skos:narrower sp:coarse-fragments-lithology-PU ;
+  skos:narrower sp:coarse-fragments-lithology-PY ;
+  skos:narrower sp:coarse-fragments-lithology-QP ;
+  skos:narrower sp:coarse-fragments-lithology-QS ;
+  skos:narrower sp:coarse-fragments-lithology-QU ;
+  skos:narrower sp:coarse-fragments-lithology-QZ ;
   skos:narrower sp:coarse-fragments-lithology-R ;
+  skos:narrower sp:coarse-fragments-lithology-RB ;
+  skos:narrower sp:coarse-fragments-lithology-RH ;
+  skos:narrower sp:coarse-fragments-lithology-S ;
+  skos:narrower sp:coarse-fragments-lithology-SA ;
+  skos:narrower sp:coarse-fragments-lithology-SD ;
+  skos:narrower sp:coarse-fragments-lithology-SH ;
+  skos:narrower sp:coarse-fragments-lithology-SK ;
+  skos:narrower sp:coarse-fragments-lithology-SL ;
+  skos:narrower sp:coarse-fragments-lithology-SR ;
   skos:narrower sp:coarse-fragments-lithology-SS ;
+  skos:narrower sp:coarse-fragments-lithology-ST ;
+  skos:narrower sp:coarse-fragments-lithology-SY ;
+  skos:narrower sp:coarse-fragments-lithology-TR ;
+  skos:narrower sp:coarse-fragments-lithology-TU ;
+  skos:narrower sp:coarse-fragments-lithology-UC ;
+  skos:narrower sp:coarse-fragments-lithology-VB ;
+  skos:narrower sp:coarse-fragments-lithology-VG ;
+  skos:narrower sp:coarse-fragments-lithology-Z ;
+  skos:narrower sp:coarse-fragments-lithology-ZS ;
   skos:note "This concept should be expanded to include all codes from substrate material lithology.  A direct  match." ;
   skos:prefLabel "Lithology of coarse fragments" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -4352,6 +4433,290 @@ Drainage time: hours""" ;
   skos:definition "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable." ;
   skos:notation "4" ;
   skos:prefLabel "Highly permeable"@en ;
+.
+sp:structure
+  rdf:type skos:Concept ;
+  dc:description """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
+Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature.""" ;
+  rdfs:label "Structure" ;
+  skos:definition """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
+Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature.""" ;
+  skos:narrower sp:structure-pedality-grade ;
+  skos:narrower sp:structure-pedality-size ;
+  skos:narrower sp:structure-pedality-type ;
+  skos:prefLabel "Structure" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-grade
+  rdf:type skos:Concept ;
+  dct:description "Grade of pedality is the degree of development and distinctness of peds. In virtually all material that has structure, the surface of individual peds will differ in some way from the interior of peds. The degree of development expresses the relative difference between the strength of cohesion within peds and the strength of adhesion between adjacent peds. Determination of grade of structure in the field depends on the proportion of peds that hold together as entire peds when displaced and also on the ease with which the soil separates into discrete peds. Grade of pedality varies with the soil water status. It is important to record the soil water status of the described profile, and it is desirable that the grade of pedality be described at the soil water status most common for the horizon." ;
+  rdfs:comment "C_STR_PED_GRADE" ;
+  rdfs:label "Grade of pedality" ;
+  skos:definition "Grade of pedality is the degree of development and distinctness of peds. In virtually all material that has structure, the surface of individual peds will differ in some way from the interior of peds. The degree of development expresses the relative difference between the strength of cohesion within peds and the strength of adhesion between adjacent peds. Determination of grade of structure in the field depends on the proportion of peds that hold together as entire peds when displaced and also on the ease with which the soil separates into discrete peds. Grade of pedality varies with the soil water status. It is important to record the soil water status of the described profile, and it is desirable that the grade of pedality be described at the soil water status most common for the horizon." ;
+  skos:narrower sp:structure-pedality-grade-G ;
+  skos:narrower sp:structure-pedality-grade-M ;
+  skos:narrower sp:structure-pedality-grade-S ;
+  skos:narrower sp:structure-pedality-grade-V ;
+  skos:narrower sp:structure-pedality-grade-W ;
+  skos:prefLabel "Grade of pedality" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-grade-G
+  rdf:type skos:Concept ;
+  dct:description "loose, incoherent* mass of individual particles. When displaced, soil separates into ultimate particles." ;
+  rdfs:comment "Apedal soil (no observable peds)" ;
+  rdfs:label "Single grain" ;
+  skos:definition "loose, incoherent* mass of individual particles. When displaced, soil separates into ultimate particles." ;
+  skos:notation "G" ;
+  skos:prefLabel "Single grain" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-grade-M
+  rdf:type skos:Concept ;
+  dct:description "peds well-formed and evident but not distinct in undisplaced soil. Adhesion between peds is usually firm or stronger. When displaced, more than one-third of the soil material consists of entire peds, the remainder consisting of broken peds, fragments and ultimate particles." ;
+  rdfs:comment "Pedal soil (observable peds)" ;
+  rdfs:label "Moderate" ;
+  skos:definition "peds well-formed and evident but not distinct in undisplaced soil. Adhesion between peds is usually firm or stronger. When displaced, more than one-third of the soil material consists of entire peds, the remainder consisting of broken peds, fragments and ultimate particles." ;
+  skos:notation "M" ;
+  skos:prefLabel "Moderate" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-grade-S
+  rdf:type skos:Concept ;
+  dct:description "peds quite distinct in undisplaced soil. Adhesion between peds is usually firm or weaker. When displaced, more than two-thirds of the soil material consists of entire peds." ;
+  rdfs:comment "Pedal soil (observable peds)" ;
+  rdfs:label "Strong" ;
+  skos:definition "peds quite distinct in undisplaced soil. Adhesion between peds is usually firm or weaker. When displaced, more than two-thirds of the soil material consists of entire peds." ;
+  skos:notation "S" ;
+  skos:prefLabel "Strong" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-grade-V
+  rdf:type skos:Concept ;
+  dct:description "coherent†. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles." ;
+  rdfs:comment "Apedal soil (no observable peds)" ;
+  rdfs:label "Massive" ;
+  skos:definition "coherent†. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles." ;
+  skos:notation "V" ;
+  skos:prefLabel "Massive" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-grade-W
+  rdf:type skos:Concept ;
+  dct:description "peds indistinct and barely observable in undisplaced soil. When displaced, up to one-third of the soil material consists of peds, the remainder consisting of variable amounts of fragments and ultimate particles." ;
+  rdfs:comment "Pedal soil (observable peds)" ;
+  rdfs:label "Weak" ;
+  skos:definition "peds indistinct and barely observable in undisplaced soil. When displaced, up to one-third of the soil material consists of peds, the remainder consisting of variable amounts of fragments and ultimate particles." ;
+  skos:notation "W" ;
+  skos:prefLabel "Weak" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-size
+  rdf:type skos:Concept ;
+  dct:description "The average least dimension of peds is used to determine the class interval. The least dimension is the vertical dimension for platy structure; the horizontal dimension for prismatic, columnar, blocky and polyhedral peds; the maximum separation of convex faces for lenticular peds; and the diameter for granular peds." ;
+  rdfs:comment "N_STR_PED_SIZE" ;
+  rdfs:label "Size of peds" ;
+  skos:definition "Figure 17" ;
+  skos:narrower sp:structure-pedality-size-1 ;
+  skos:narrower sp:structure-pedality-size-2 ;
+  skos:narrower sp:structure-pedality-size-3 ;
+  skos:narrower sp:structure-pedality-size-4 ;
+  skos:narrower sp:structure-pedality-size-5 ;
+  skos:narrower sp:structure-pedality-size-6 ;
+  skos:narrower sp:structure-pedality-size-7 ;
+  skos:narrower sp:structure-pedality-size-8 ;
+  skos:narrower sp:structure-pedality-size-9 ;
+  skos:prefLabel "Size of peds" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-size-1
+  rdf:type skos:Concept ;
+  dc:description "<2 mm" ;
+  dct:description "<2 mm" ;
+  rdfs:label "<2 mm" ;
+  skos:definition "<2 mm" ;
+  skos:notation "1" ;
+  skos:prefLabel "1" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-size-2
+  rdf:type skos:Concept ;
+  dc:description "2-5 mm" ;
+  dct:description "2-5 mm" ;
+  rdfs:label "2-5 mm" ;
+  skos:definition "2-5 mm" ;
+  skos:notation "2" ;
+  skos:prefLabel "2" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-size-3
+  rdf:type skos:Concept ;
+  dc:description "5-10 mm" ;
+  dct:description "5-10 mm" ;
+  rdfs:label "5-10 mm" ;
+  skos:definition "5-10 mm" ;
+  skos:notation "3" ;
+  skos:prefLabel "3" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-size-4
+  rdf:type skos:Concept ;
+  dc:description "10-20 mm" ;
+  dct:description "10-20 mm" ;
+  rdfs:label "10-20 mm" ;
+  skos:definition "10-20 mm" ;
+  skos:notation "4" ;
+  skos:prefLabel "4" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-size-5
+  rdf:type skos:Concept ;
+  dc:description "20-50 mm" ;
+  dct:description "20-50 mm" ;
+  rdfs:label "20-50 mm" ;
+  skos:definition "20-50 mm" ;
+  skos:notation "5" ;
+  skos:prefLabel "5" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-size-6
+  rdf:type skos:Concept ;
+  dc:description "50-100 mm" ;
+  dct:description "50-100 mm" ;
+  rdfs:label "50-100 mm" ;
+  skos:definition "50-100 mm" ;
+  skos:notation "6" ;
+  skos:prefLabel "6" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-size-7
+  rdf:type skos:Concept ;
+  dc:description "100-200 mm" ;
+  dct:description "100-200 mm" ;
+  rdfs:label "100-200 mm" ;
+  skos:definition "100-200 mm" ;
+  skos:notation "7" ;
+  skos:prefLabel "7" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-size-8
+  rdf:type skos:Concept ;
+  dc:description "200-500 mm" ;
+  dct:description "200-500 mm" ;
+  rdfs:label "200-500 mm" ;
+  skos:definition "200-500 mm" ;
+  skos:notation "8" ;
+  skos:prefLabel "8" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-size-9
+  rdf:type skos:Concept ;
+  dc:description ">500 mm" ;
+  dct:description ">500 mm" ;
+  rdfs:label ">500 mm" ;
+  skos:definition ">500 mm" ;
+  skos:notation "9" ;
+  skos:prefLabel "9" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-type
+  rdf:type skos:Concept ;
+  dct:description "The types of structure are illustrated in diagrammatic form." ;
+  rdfs:comment "C_STR_PED_TYPE" ;
+  rdfs:label "Type of pedality" ;
+  skos:definition "Figure 17" ;
+  skos:narrower sp:structure-pedality-type-AB ;
+  skos:narrower sp:structure-pedality-type-CA ;
+  skos:narrower sp:structure-pedality-type-CO ;
+  skos:narrower sp:structure-pedality-type-GR ;
+  skos:narrower sp:structure-pedality-type-LE ;
+  skos:narrower sp:structure-pedality-type-PL ;
+  skos:narrower sp:structure-pedality-type-PO ;
+  skos:narrower sp:structure-pedality-type-PR ;
+  skos:narrower sp:structure-pedality-type-SB ;
+  skos:prefLabel "Type of pedality" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-type-AB
+  rdf:type skos:Concept ;
+  dct:description "Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular.	Angular blocky	Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular." ;
+  rdfs:label "Angular blocky" ;
+  skos:definition "Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular.	Angular blocky	Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular." ;
+  skos:notation "AB" ;
+  skos:prefLabel "Angular blocky" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-type-CA
+  rdf:type skos:Concept ;
+  dct:description "Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps.	Cast	Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps." ;
+  rdfs:label "Cast" ;
+  skos:definition "Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps.	Cast	Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps." ;
+  skos:notation "CA" ;
+  skos:prefLabel "Cast" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-type-CO
+  rdf:type skos:Concept ;
+  dct:description "Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops.	Columnar	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops." ;
+  rdfs:label "Columnar" ;
+  skos:definition "Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops.	Columnar	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops." ;
+  skos:notation "CO" ;
+  skos:prefLabel "Columnar" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-type-GR
+  rdf:type skos:Concept ;
+  dct:description "Spheroidal with limited accommodation to the faces of surrounding peds.	Granular	Spheroidal with limited accommodation to the faces of surrounding peds." ;
+  rdfs:label "Granular" ;
+  skos:definition "Spheroidal with limited accommodation to the faces of surrounding peds.	Granular	Spheroidal with limited accommodation to the faces of surrounding peds." ;
+  skos:notation "GR" ;
+  skos:prefLabel "Granular" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-type-LE
+  rdf:type skos:Concept ;
+  dct:description "Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute.	Lenticular	Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute." ;
+  rdfs:label "Lenticular" ;
+  skos:definition "Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute.	Lenticular	Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute." ;
+  skos:notation "LE" ;
+  skos:prefLabel "Lenticular" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-type-PL
+  rdf:type skos:Concept ;
+  dct:description "Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds.	Platy	Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds." ;
+  rdfs:label "Platy" ;
+  skos:definition "Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds.	Platy	Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds." ;
+  skos:notation "PL" ;
+  skos:prefLabel "Platy" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-type-PO
+  rdf:type skos:Concept ;
+  dct:description "Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular.	Polyhedral	Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular." ;
+  rdfs:label "Polyhedral" ;
+  skos:definition "Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular.	Polyhedral	Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular." ;
+  skos:notation "PO" ;
+  skos:prefLabel "Polyhedral" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-type-PR
+  rdf:type skos:Concept ;
+  dct:description "Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular.	Prismatic	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular." ;
+  rdfs:label "Prismatic" ;
+  skos:definition "Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular.	Prismatic	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular." ;
+  skos:notation "PR" ;
+  skos:prefLabel "Prismatic" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:structure-pedality-type-SB
+  rdf:type skos:Concept ;
+  dct:description "Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded.	Subangular blocky	Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded." ;
+  rdfs:label "Subangular blocky" ;
+  skos:definition "Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded.	Subangular blocky	Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded." ;
+  skos:notation "SB" ;
+  skos:prefLabel "Subangular blocky" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 <http://www.w3.org/2002/07/owl>
   dct:description """
