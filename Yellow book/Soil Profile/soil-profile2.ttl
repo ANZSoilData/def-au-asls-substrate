@@ -257,10 +257,10 @@ sp:coarse-fragments-abundance-6
 .
 sp:coarse-fragments-distribution
   rdf:type skos:Concept ;
-  dct:description "Coarse fragments may occur thoughout the profile." ;
+  dct:description "Coarse fragments may occur throughout the profile." ;
   rdfs:comment "C_CF_DISTRIBUTION" ;
   rdfs:label "Coarse fragments distribution" ;
-  skos:definition "Coarse fragments may occur thoughout the profile." ;
+  skos:definition "Coarse fragments may occur throughout the profile." ;
   skos:narrower sp:coarse-fragments-distribution-D ;
   skos:narrower sp:coarse-fragments-distribution-R ;
   skos:narrower sp:coarse-fragments-distribution-S ;
@@ -1076,12 +1076,12 @@ sp:coarse-fragments-lithology-SA
 .
 sp:coarse-fragments-lithology-SD
   rdf:type skos:Concept ;
-  dct:description "Detrital sedimetary rock (Unidentified)" ;
+  dct:description "Detrital sedimentary rock (Unidentified)" ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Detrital sedimetary rock" ;
-  skos:definition "Detrital sedimetary rock (Unidentified)" ;
+  rdfs:label "Detrital sedimentary rock" ;
+  skos:definition "Detrital sedimentary rock (Unidentified)" ;
   skos:notation "SD" ;
-  skos:prefLabel "Detrital sedimetary rock" ;
+  skos:prefLabel "Detrital sedimentary rock" ;
 .
 sp:coarse-fragments-lithology-SH
   rdf:type skos:Concept ;
@@ -1572,11 +1572,11 @@ sp:consistence-plasticity-type-S
 sp:consistence-plasticity-type-T
   rdf:type skos:Concept ;
   dct:description "Increases two or more field texture groups." ;
-  rdfs:label "Stongly subplastic" ;
+  rdfs:label "Strongly subplastic" ;
   skos:broader sp:consistence-plasticity-type ;
   skos:definition "Increases two or more field texture groups." ;
   skos:notation "T" ;
-  skos:prefLabel "Stongly subplastic"@en ;
+  skos:prefLabel "Strongly subplastic"@en ;
 .
 sp:consistence-plasticity-type-U
   rdf:type skos:Concept ;
@@ -1659,7 +1659,7 @@ sp:consistence-strength
   rdf:type skos:Concept ;
   rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Strength" ;
-  skos:definition "Strength of soil is the resistance to breaking or deformation. Stength is determined by the force just sufficient to break or deform a 20 mm diameter piece of soil when a compressive shearing force is applied between thumb and forefinger. The 20 mm piece of soil may be a ped, part of a ped, a compound ped or a fragment." ;
+  skos:definition "Strength of soil is the resistance to breaking or deformation. Strength is determined by the force just sufficient to break or deform a 20 mm diameter piece of soil when a compressive shearing force is applied between thumb and forefinger. The 20 mm piece of soil may be a ped, part of a ped, a compound ped or a fragment." ;
   skos:narrower sp:consistence-strength-0 ;
   skos:narrower sp:consistence-strength-1 ;
   skos:narrower sp:consistence-strength-2 ;
@@ -1763,8 +1763,8 @@ sp:field-texture
   rdfs:comment "C_H_TEXTURE; Adapted from Northcote (1979). The clay percentages must not be used to determine a field texture, that is, do not use them to convert a laboratory particle size value to a field texture grade. Similarly, do not adjust a field texture grade when laboratory particle size data become available." ;
   rdfs:label "Field texture" ;
   skos:definition "Field texture is a measure of the behaviour of a small handful of soil when moistened and kneaded into a ball and then pressed out between thumb and forefinger. The recommended field texture grades are characterised by the behaviour of the moist bolus. The approximate percentage content of clay (particles less than 0.002 mm in diameter) and silt (particles between 0.02 and 0.002 mm in diameter) are used as a guide." ;
-  skos:narrower sp:field-texture-Organic ;
   skos:narrower sp:field-texture-mineral ;
+  skos:narrower sp:field-texture-organic ;
   skos:prefLabel "Field texture"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
@@ -1773,7 +1773,7 @@ sp:field-texture-AP
   dct:description "Strongly to completely decomposed organic material. Plant remains vary from few being identifiable to completely amorphous." ;
   rdfs:comment "humified peat" ;
   rdfs:label "Sapric peat" ;
-  skos:broader sp:field-texture-Organic ;
+  skos:broader sp:field-texture-organic ;
   skos:definition "Strongly to completely decomposed organic material. Plant remains vary from few being identifiable to completely amorphous." ;
   skos:notation "AP" ;
   skos:prefLabel "Sapric peat"@en ;
@@ -2092,7 +2092,7 @@ sp:field-texture-CP
   rdf:type skos:Concept ;
   dct:description "Organic soils where: bolus has obvious fine mineral particle content, is sticky when wet, and is coherent." ;
   rdfs:label "Clayey peat" ;
-  skos:broader sp:field-texture-Organic ;
+  skos:broader sp:field-texture-organic ;
   skos:definition "Organic soils where: bolus has obvious fine mineral particle content, is sticky when wet, and is coherent." ;
   skos:notation "CP" ;
   skos:prefLabel "Clayey peat"@en ;
@@ -2436,7 +2436,7 @@ sp:field-texture-GP
   dct:description "Dominantly decomposed organic material, which has dried irreversibly to fine granules through exposure and drying and/or cultivation. Granules are approximately 1–2 mm in diameter and have granular or subangular blocky structure." ;
   rdfs:comment "On drying, peat may change irreversibly." ;
   rdfs:label "Granular peat" ;
-  skos:broader sp:field-texture-Organic ;
+  skos:broader sp:field-texture-organic ;
   skos:definition "Dominantly decomposed organic material, which has dried irreversibly to fine granules through exposure and drying and/or cultivation. Granules are approximately 1–2 mm in diameter and have granular or subangular blocky structure." ;
   skos:notation "GP" ;
   skos:prefLabel "Granular peat"@en ;
@@ -2490,7 +2490,7 @@ sp:field-texture-HP
   dct:description "Moderately to well decomposed organic material. Plant remains vary from most being difficult to identify to most being unidentifiable. It is intermediate in degree of decomposition between the less decomposed fibric peat and the more decomposed sapric peat." ;
   rdfs:comment "Semi-fibrous peat" ;
   rdfs:label "Hemic peat" ;
-  skos:broader sp:field-texture-Organic ;
+  skos:broader sp:field-texture-organic ;
   skos:definition "Moderately to well decomposed organic material. Plant remains vary from most being difficult to identify to most being unidentifiable. It is intermediate in degree of decomposition between the less decomposed fibric peat and the more decomposed sapric peat." ;
   skos:notation "HP" ;
   skos:prefLabel "Hemic peat"@en ;
@@ -2500,7 +2500,7 @@ sp:field-texture-IP
   dct:description "Undecomposed or weakly decomposed organic material. Plant remains are distinct and readily identifiable." ;
   rdfs:comment "Fibrous peat" ;
   rdfs:label "Fibric peat" ;
-  skos:broader sp:field-texture-Organic ;
+  skos:broader sp:field-texture-organic ;
   skos:definition "Undecomposed or weakly decomposed organic material. Plant remains are distinct and readily identifiable." ;
   skos:notation "IP" ;
   skos:prefLabel "Fibric peat"@en ;
@@ -2999,7 +2999,7 @@ sp:field-texture-LP
   rdf:type skos:Concept ;
   dct:description "Organic soils where: bolus has obvious mineral particle content but no obvious sandiness to touch and is smooth, non-sticky when wet, and weakly coherent." ;
   rdfs:label "Loamy peat" ;
-  skos:broader sp:field-texture-Organic ;
+  skos:broader sp:field-texture-organic ;
   skos:definition "Organic soils where: bolus has obvious mineral particle content but no obvious sandiness to touch and is smooth, non-sticky when wet, and weakly coherent." ;
   skos:notation "LP" ;
   skos:prefLabel "Loamy peat"@en ;
@@ -3135,20 +3135,6 @@ sp:field-texture-MHC-I
   skos:narrower sp:field-texture-ZMHC-I ;
   skos:notation "MHCI" ;
   skos:prefLabel "Fibric medium heavy clay"@en ;
-.
-sp:field-texture-Organic
-  rdf:type skos:Concept ;
-  dct:description "Organic soils do not have textural grades, as soil texture is determined by the size of mineral particles finer than 2 mm (NCST). In a sense, organic soils do have a texture related to the plant materials from which they formed and the degree of decomposition, exposure and drying. These field texture names may be used to characterise materials that on field examination are considered to be clearly dominated by organic matter. Peats may be assessed by examining the degree of decomposition and distinctness of plant remains. This work is adapted from Soil Survey Staff (1975) and Avery (1980)." ;
-  rdfs:label "Organic field textures" ;
-  skos:broader sp:field-texture ;
-  skos:definition "Organic soils do not have textural grades, as soil texture is determined by the size of mineral particles finer than 2 mm (NCST). In a sense, organic soils do have a texture related to the plant materials from which they formed and the degree of decomposition, exposure and drying. These field texture names may be used to characterise materials that on field examination are considered to be clearly dominated by organic matter. Peats may be assessed by examining the degree of decomposition and distinctness of plant remains. This work is adapted from Soil Survey Staff (1975) and Avery (1980)." ;
-  skos:narrower sp:field-texture-AP ;
-  skos:narrower sp:field-texture-CP ;
-  skos:narrower sp:field-texture-GP ;
-  skos:narrower sp:field-texture-HP ;
-  skos:narrower sp:field-texture-IP ;
-  skos:narrower sp:field-texture-LP ;
-  skos:narrower sp:field-texture-SP ;
 .
 sp:field-texture-S
   rdf:type skos:Concept ;
@@ -3466,7 +3452,7 @@ sp:field-texture-SP
   rdf:type skos:Concept ;
   dct:description "Organic soil where: bolus is sandy to touch." ;
   rdfs:label "Sandy peat" ;
-  skos:broader sp:field-texture-Organic ;
+  skos:broader sp:field-texture-organic ;
   skos:definition "Organic soil where: bolus is sandy to touch." ;
   skos:notation "SP" ;
   skos:prefLabel "Sandy peat"@en ;
@@ -3806,6 +3792,20 @@ sp:field-texture-mineral-soils
   skos:member sp:field-texture-ZL ;
   skos:prefLabel "Field texture mineral soils" ;
 .
+sp:field-texture-organic
+  rdf:type skos:Concept ;
+  dct:description "Organic soils do not have textural grades, as soil texture is determined by the size of mineral particles finer than 2 mm (NCST). In a sense, organic soils do have a texture related to the plant materials from which they formed and the degree of decomposition, exposure and drying. These field texture names may be used to characterise materials that on field examination are considered to be clearly dominated by organic matter. Peats may be assessed by examining the degree of decomposition and distinctness of plant remains. This work is adapted from Soil Survey Staff (1975) and Avery (1980)." ;
+  rdfs:label "Organic field textures" ;
+  skos:broader sp:field-texture ;
+  skos:definition "Organic soils do not have textural grades, as soil texture is determined by the size of mineral particles finer than 2 mm (NCST). In a sense, organic soils do have a texture related to the plant materials from which they formed and the degree of decomposition, exposure and drying. These field texture names may be used to characterise materials that on field examination are considered to be clearly dominated by organic matter. Peats may be assessed by examining the degree of decomposition and distinctness of plant remains. This work is adapted from Soil Survey Staff (1975) and Avery (1980)." ;
+  skos:narrower sp:field-texture-AP ;
+  skos:narrower sp:field-texture-CP ;
+  skos:narrower sp:field-texture-GP ;
+  skos:narrower sp:field-texture-HP ;
+  skos:narrower sp:field-texture-IP ;
+  skos:narrower sp:field-texture-LP ;
+  skos:narrower sp:field-texture-SP ;
+.
 sp:field-texture-organic-soils
   rdf:type skos:Collection ;
   rdfs:label "Field texture organic soils" ;
@@ -3816,8 +3816,8 @@ sp:field-texture-organic-soils
   skos:member sp:field-texture-HP ;
   skos:member sp:field-texture-IP ;
   skos:member sp:field-texture-LP ;
-  skos:member sp:field-texture-Organic ;
   skos:member sp:field-texture-SP ;
+  skos:member sp:field-texture-organic ;
   skos:prefLabel "Field texture organic soils" ;
 .
 sp:field-textures
@@ -4288,8 +4288,62 @@ sp:horizons
   skos:member sp:horizon-transitional ;
   skos:prefLabel "Horizons" ;
 .
+sp:observation-type
+  rdf:type skos:Concept ;
+  dct:description "The soil profile may be described using several types of observation." ;
+  rdfs:comment "C_O_TYPE" ;
+  rdfs:label "Observation type" ;
+  skos:definition "The soil profile may be described using several types of observation." ;
+  skos:narrower sp:observation-type-A ;
+  skos:narrower sp:observation-type-C ;
+  skos:narrower sp:observation-type-E ;
+  skos:narrower sp:observation-type-P ;
+  skos:prefLabel "Observation type" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:observation-type-A
+  rdf:type skos:Concept ;
+  dct:description "Auger boring is used to describe the soil profile." ;
+  rdfs:comment "C_O_TYPE" ;
+  rdfs:label "Auger boring" ;
+  skos:definition "Auger boring is used to describe the soil profile." ;
+  skos:notation "A" ;
+  skos:prefLabel "Auger boring" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:observation-type-C
+  rdf:type skos:Concept ;
+  dct:description "The profile is described from a soil core that it relatively undisturbed." ;
+  rdfs:comment "C_O_TYPE" ;
+  rdfs:label "Relatively undisturbed soil core" ;
+  skos:definition "The profile is described from a soil core that it relatively undisturbed." ;
+  skos:notation "C" ;
+  skos:prefLabel "Relatively undisturbed soil core" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:observation-type-E
+  rdf:type skos:Concept ;
+  dct:description "An existing vertical exposure (e.g. road cutting) can be used to describe the soil profile." ;
+  rdfs:comment "C_O_TYPE" ;
+  rdfs:label "Existing vertical exposure" ;
+  skos:definition "An existing vertical exposure (e.g. road cutting) can be used to describe the soil profile." ;
+  skos:notation "E" ;
+  skos:prefLabel "Existing vertical exposure" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:observation-type-P
+  rdf:type skos:Concept ;
+  dct:description "The soil pit is one of several types of observation used to describe the soil profile." ;
+  rdfs:comment "C_O_TYPE" ;
+  rdfs:label "Soil pit" ;
+  skos:definition "The soil pit is one of several types of observation used to describe the soil profile." ;
+  skos:notation "P" ;
+  skos:prefLabel "Soil pit" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
 sp:soilwater-drainage
   rdf:type skos:Concept ;
+  dct:description "Drainage is a useful term to summarise local soil wetness conditions, that is, it provides a statement about soil and site drainage likely to occur in most years. It is affected by a number of attributes, both internal and external, that may act separately or together. Internal attributes include soil structure, texture, porosity, hydraulic conductivity, and water-holding capacity, while external attributes are source and quality of water, evapotranspiration, gradient and length of slope, and position in the landscape." ;
   rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Drainage" ;
   skos:definition "Drainage is a useful term to summarise local soil wetness conditions, that is, it provides a statement about soil and site drainage likely to occur in most years. It is affected by a number of attributes, both internal and external, that may act separately or together. Internal attributes include soil structure, texture, porosity, hydraulic conductivity, and water-holding capacity, while external attributes are source and quality of water, evapotranspiration, gradient and length of slope, and position in the landscape." ;
@@ -4380,6 +4434,7 @@ sp:soilwater-permeabilities
 .
 sp:soilwater-permeability
   rdf:type skos:Concept ;
+  dct:description "Permeability is independent of climate and drainage, and – as applied to a soil – is controlled by the potential to transmit water (saturated hydraulic conductivity, Ks) of the least permeable layer in the soil. Therefore it is inferred from attributes of the soil such as structure, texture, porosity, cracks and shrink–swell properties. The rate of transmission of water in the profile is based on the assumption that loss by evapotranspiration is minimal. The Ks ranges are compatible with those of Nowland in Canada, as reported by McKeague et al. (1982)." ;
   rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Permeability" ;
   skos:definition "Permeability is independent of climate and drainage, and – as applied to a soil – is controlled by the potential to transmit water (saturated hydraulic conductivity, Ks) of the least permeable layer in the soil. Therefore it is inferred from attributes of the soil such as structure, texture, porosity, cracks and shrink–swell properties. The rate of transmission of water in the profile is based on the assumption that loss by evapotranspiration is minimal. The Ks ranges are compatible with those of Nowland in Canada, as reported by McKeague et al. (1982)." ;
@@ -4438,6 +4493,8 @@ sp:structure
   rdf:type skos:Concept ;
   dc:description """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
 Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature.""" ;
+  dct:description """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
+Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature.""" ;
   rdfs:label "Structure" ;
   skos:definition """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
 Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature.""" ;
@@ -4493,10 +4550,10 @@ sp:structure-pedality-grade-S
 .
 sp:structure-pedality-grade-V
   rdf:type skos:Concept ;
-  dct:description "coherent†. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles." ;
+  dct:description "coherent. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles." ;
   rdfs:comment "Apedal soil (no observable peds)" ;
   rdfs:label "Massive" ;
-  skos:definition "coherent†. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles." ;
+  skos:definition "coherent. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles." ;
   skos:notation "V" ;
   skos:prefLabel "Massive" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
