@@ -3866,7 +3866,9 @@ sp:horizon
   skos:narrower sp:horizon-d ;
   skos:narrower sp:horizon-o ;
   skos:narrower sp:horizon-p ;
+  skos:narrower sp:horizon-prefix ;
   skos:narrower sp:horizon-r ;
+  skos:narrower sp:horizon-suffix ;
   skos:narrower sp:horizon-transitional ;
   skos:prefLabel "Horizon" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -4064,6 +4066,18 @@ sp:horizon-p2
   skos:notation "P2" ;
   skos:prefLabel "P2 horizon"@en ;
 .
+sp:horizon-prefix
+  rdf:type skos:Concept ;
+  dct:description """Where obvious contrasts in lithology exist between different horizons in the soil profile, or between the soil profile and the underlying lithology, the different lithologic layers are given a numeric prefix (Figure 13).
+Each layer may consist of one or more horizons. The different layers are numbered from the top downward. The upper layer is not numbered 1, this being understood. Numbering starts with the second layer, which is designated 2. Even though a layer below material 3, for example, is similar to material 2, it is designated 4 in the sequence (see Profiles C and D in Figure 13). Discrimination of lithological discontinuities from soil horizon boundaries will depend in each case upon the degree of pedological organisation and the contrast between lithological units (see, for example, Profiles C and D in Figure 13).
+Where lithologic discontinuities are suspected in the profile but there is no clear evidence, either the numeric prefix should not be used or a query should be added to indicate doubt. It is better used only where there is clear evidence. Whether the numeric prefix is used or not, the horizon naming, with appropriate suffixes, remains the same, as illustrated in the examples in Figure 13.""" ;
+  rdfs:label "Lithologic discontinuity" ;
+  skos:broader sp:horizon ;
+  skos:definition """Where obvious contrasts in lithology exist between different horizons in the soil profile, or between the soil profile and the underlying lithology, the different lithologic layers are given a numeric prefix (Figure 13).
+Each layer may consist of one or more horizons. The different layers are numbered from the top downward. The upper layer is not numbered 1, this being understood. Numbering starts with the second layer, which is designated 2. Even though a layer below material 3, for example, is similar to material 2, it is designated 4 in the sequence (see Profiles C and D in Figure 13). Discrimination of lithological discontinuities from soil horizon boundaries will depend in each case upon the degree of pedological organisation and the contrast between lithological units (see, for example, Profiles C and D in Figure 13).
+Where lithologic discontinuities are suspected in the profile but there is no clear evidence, either the numeric prefix should not be used or a query should be added to indicate doubt. It is better used only where there is clear evidence. Whether the numeric prefix is used or not, the horizon naming, with appropriate suffixes, remains the same, as illustrated in the examples in Figure 13.""" ;
+  skos:prefLabel "Lithologic discontinuity" ;
+.
 sp:horizon-r
   rdf:type skos:Concept ;
   dct:description "These horizons consist of continuous masses (not boulders) of moderately strong to very strong rock (excluding pans) such as bedrock. R horizons may have cracks but these are few enough and/or fine enough that few roots penetrate and there is no significant displacement of rock. It is usually too strong to dig with hand tools, even when moist." ;
@@ -4072,6 +4086,33 @@ sp:horizon-r
   skos:definition "These horizons consist of continuous masses (not boulders) of moderately strong to very strong rock (excluding pans) such as bedrock. R horizons may have cracks but these are few enough and/or fine enough that few roots penetrate and there is no significant displacement of rock. It is usually too strong to dig with hand tools, even when moist." ;
   skos:notation "R" ;
   skos:prefLabel "R Horizon" ;
+.
+sp:horizon-suffix
+  rdf:type skos:Concept ;
+  dct:description "The horizon's alphabetic suffix is used to further define the horizon. It always comes after the numeric subdivision except for suffix p, where the number always follows the letter (e.g. Ap2)." ;
+  rdfs:label "Horizon suffix" ;
+  skos:broader sp:horizon ;
+  skos:definition "The horizon's alphabetic suffix is used to further define the horizon. It always comes after the numeric subdivision except for suffix p, where the number always follows the letter (e.g. Ap2)." ;
+  skos:narrower sp:horizon-suffix-b ;
+  skos:narrower sp:horizon-suffix-c ;
+  skos:narrower sp:horizon-suffix-d ;
+  skos:narrower sp:horizon-suffix-e ;
+  skos:narrower sp:horizon-suffix-f ;
+  skos:narrower sp:horizon-suffix-g ;
+  skos:narrower sp:horizon-suffix-h ;
+  skos:narrower sp:horizon-suffix-j ;
+  skos:narrower sp:horizon-suffix-k ;
+  skos:narrower sp:horizon-suffix-m ;
+  skos:narrower sp:horizon-suffix-p ;
+  skos:narrower sp:horizon-suffix-q ;
+  skos:narrower sp:horizon-suffix-r ;
+  skos:narrower sp:horizon-suffix-s ;
+  skos:narrower sp:horizon-suffix-t ;
+  skos:narrower sp:horizon-suffix-w ;
+  skos:narrower sp:horizon-suffix-x ;
+  skos:narrower sp:horizon-suffix-y ;
+  skos:narrower sp:horizon-suffix-z ;
+  skos:prefLabel "Horizon suffix" ;
 .
 sp:horizon-suffix-b
   rdf:type skos:Concept ;
@@ -4157,9 +4198,12 @@ sp:horizon-suffix-m
 .
 sp:horizon-suffix-p
   rdf:type skos:Concept ;
-  dct:description "Used for horizons where ploughing, tillage practices or other disturbance by humans has occurred, for example deep ripping. This suffix is used only with A, as in Ap2. Where the plough layer clearly includes what was once B horizon and it is no longer possible to infer with any reliability what the texture and depth of the A horizon was, the plough layer is designated Ap." ;
+  dct:description """Used for horizons where ploughing, tillage practices or other disturbance by humans has occurred, for example deep ripping. This suffix is used only with A, as in Ap2. Where the plough layer clearly includes what was once B horizon and it is no longer possible to infer with any reliability what the texture and depth of the A horizon was, the plough layer is designated Ap.
+An Ap horizon may be subdivided into subhorizons (e.g. Ap1, Ap2).""" ;
+  rdfs:comment "An Ap2 horizon is not the same as an A2 horizon but a subdivision equivalent to A12." ;
   rdfs:label "Horizon suffix p" ;
-  skos:definition "Used for horizons where ploughing, tillage practices or other disturbance by humans has occurred, for example deep ripping. This suffix is used only with A, as in Ap2. Where the plough layer clearly includes what was once B horizon and it is no longer possible to infer with any reliability what the texture and depth of the A horizon was, the plough layer is designated Ap." ;
+  skos:definition """Used for horizons where ploughing, tillage practices or other disturbance by humans has occurred, for example deep ripping. This suffix is used only with A, as in Ap2. Where the plough layer clearly includes what was once B horizon and it is no longer possible to infer with any reliability what the texture and depth of the A horizon was, the plough layer is designated Ap.
+An Ap horizon may be subdivided into subhorizons (e.g. Ap1, Ap2).""" ;
   skos:notation "p" ;
   skos:prefLabel "Horizon suffix p"@en ;
 .
@@ -4287,6 +4331,69 @@ sp:horizons
   skos:member sp:horizon-suffix-z ;
   skos:member sp:horizon-transitional ;
   skos:prefLabel "Horizons" ;
+.
+sp:mottle
+  rdf:type skos:Concept ;
+  dct:description "Mottles are spots, blotches or streaks of subdominant colours different from the matrix colour and also different from the colour of the ped surface. Segregations of pedogenic origin are not considered to be mottles and are recorded elsewhere (page 146). Colour patterns due to biological or mechanical mixing and inclusions of weathered substrate material are described separately." ;
+  rdfs:comment "As horizon notation is deduced from the profile description data (Northcote 1979) and in some instances laboratory data, record it after the profile is described. Horizons may be difficult to name, but should be named in the field. Opinions formed at the time of description are useful for later reference." ;
+  rdfs:label "Mottles" ;
+  skos:definition "Mottles are spots, blotches or streaks of subdominant colours different from the matrix colour and also different from the colour of the ped surface. Segregations of pedogenic origin are not considered to be mottles and are recorded elsewhere (page 146). Colour patterns due to biological or mechanical mixing and inclusions of weathered substrate material are described separately." ;
+  skos:narrower sp:mottle-type ;
+  skos:prefLabel "Mottles" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-type
+  rdf:type skos:Concept ;
+  dct:description "The type of mottle can suggest the origin of the mottles." ;
+  rdfs:comment "C_MOTT_TYPE" ;
+  rdfs:label "Mottle type" ;
+  skos:definition "The type of mottle can suggest the origin of the mottles." ;
+  skos:narrower sp:mottle-type-M ;
+  skos:narrower sp:mottle-type-X ;
+  skos:narrower sp:mottle-type-Y ;
+  skos:narrower sp:mottle-type-Z ;
+  skos:prefLabel "Mottle type" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-type-M
+  rdf:type skos:Concept ;
+  dct:description "Mottles" ;
+  rdfs:comment "C_MOTT_TYPE" ;
+  rdfs:label "Mottles" ;
+  skos:definition "Mottles" ;
+  skos:notation "M" ;
+  skos:prefLabel "Mottles" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-type-X
+  rdf:type skos:Concept ;
+  dct:description "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts." ;
+  rdfs:comment "C_MOTT_TYPE" ;
+  rdfs:label "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts." ;
+  skos:definition "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts." ;
+  skos:notation "X" ;
+  skos:prefLabel "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts." ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-type-Y
+  rdf:type skos:Concept ;
+  dct:description "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons." ;
+  rdfs:comment "C_MOTT_TYPE" ;
+  rdfs:label "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons." ;
+  skos:definition "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons." ;
+  skos:notation "Y" ;
+  skos:prefLabel "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons." ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-type-Z
+  rdf:type skos:Concept ;
+  dct:description "Colour patterns due to inclusions of weathered substrate material." ;
+  rdfs:comment "C_MOTT_TYPE" ;
+  rdfs:label "Colour patterns due to inclusions of weathered substrate material." ;
+  skos:definition "Colour patterns due to inclusions of weathered substrate material." ;
+  skos:notation "Z" ;
+  skos:prefLabel "Colour patterns due to inclusions of weathered substrate material." ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:observation-type
   rdf:type skos:Concept ;
