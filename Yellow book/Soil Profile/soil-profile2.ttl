@@ -4335,11 +4335,313 @@ sp:horizons
 sp:mottle
   rdf:type skos:Concept ;
   dct:description "Mottles are spots, blotches or streaks of subdominant colours different from the matrix colour and also different from the colour of the ped surface. Segregations of pedogenic origin are not considered to be mottles and are recorded elsewhere (page 146). Colour patterns due to biological or mechanical mixing and inclusions of weathered substrate material are described separately." ;
-  rdfs:comment "As horizon notation is deduced from the profile description data (Northcote 1979) and in some instances laboratory data, record it after the profile is described. Horizons may be difficult to name, but should be named in the field. Opinions formed at the time of description are useful for later reference." ;
   rdfs:label "Mottles" ;
   skos:definition "Mottles are spots, blotches or streaks of subdominant colours different from the matrix colour and also different from the colour of the ped surface. Segregations of pedogenic origin are not considered to be mottles and are recorded elsewhere (page 146). Colour patterns due to biological or mechanical mixing and inclusions of weathered substrate material are described separately." ;
+  skos:narrower sp:mottle-abundance ;
+  skos:narrower sp:mottle-boundary ;
+  skos:narrower sp:mottle-colour ;
+  skos:narrower sp:mottle-contrast ;
+  skos:narrower sp:mottle-size ;
   skos:narrower sp:mottle-type ;
   skos:prefLabel "Mottles" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-abundance
+  rdf:type skos:Concept ;
+  dct:description "The percentage of mottles is estimated by eye using the chart in Figure 11 (ASLSFH3Ed) for comparison. " ;
+  rdfs:comment "N_MOTT_ABUN" ;
+  rdfs:label "Mottle abundance" ;
+  skos:definition "The percentage of mottles is estimated by eye using the chart in Figure 11 (ASLSFH3Ed) for comparison. " ;
+  skos:narrower sp:mottle-abundance-0 ;
+  skos:narrower sp:mottle-abundance-1 ;
+  skos:narrower sp:mottle-abundance-2 ;
+  skos:narrower sp:mottle-abundance-3 ;
+  skos:narrower sp:mottle-abundance-4 ;
+  skos:prefLabel "Mottle abundance"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-abundance-0
+  rdf:type skos:Concept ;
+  dct:description "0%" ;
+  rdfs:comment "N_MOTT_ABUN" ;
+  rdfs:label "No mottles or other colour patterns" ;
+  skos:definition "0%" ;
+  skos:notation "0" ;
+  skos:prefLabel "No mottles or other colour patterns"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-abundance-1
+  rdf:type skos:Concept ;
+  dct:description "<2%" ;
+  rdfs:comment "N_MOTT_ABUN" ;
+  rdfs:label "Very few" ;
+  skos:definition "<2%" ;
+  skos:notation "1" ;
+  skos:prefLabel "Very few"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-abundance-2
+  rdf:type skos:Concept ;
+  dct:description "2-10%" ;
+  rdfs:comment "N_MOTT_ABUN" ;
+  rdfs:label "Few" ;
+  skos:definition "2-10%" ;
+  skos:notation "2" ;
+  skos:prefLabel "Few"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-abundance-3
+  rdf:type skos:Concept ;
+  dct:description "10-20%" ;
+  rdfs:comment "N_MOTT_ABUN" ;
+  rdfs:label "Common" ;
+  skos:definition "10-20%" ;
+  skos:notation "3" ;
+  skos:prefLabel "Common"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-abundance-4
+  rdf:type skos:Concept ;
+  dct:description "20-50%" ;
+  rdfs:comment "N_MOTT_ABUN" ;
+  rdfs:label "Many" ;
+  skos:definition "20-50%" ;
+  skos:notation "4" ;
+  skos:prefLabel "Many"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-boundary
+  rdf:type skos:Concept ;
+  dct:description "Mottle boundary distinctness" ;
+  rdfs:comment "C_MOTT_BOUN_DISTINCT" ;
+  rdfs:label "Mottle boundary distinctness" ;
+  skos:definition "Mottle boundary distinctness" ;
+  skos:narrower sp:mottle-boundary-C ;
+  skos:narrower sp:mottle-boundary-D ;
+  skos:narrower sp:mottle-boundary-S ;
+  skos:prefLabel "Mottle boundary distinctness"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-boundary-C
+  rdf:type skos:Concept ;
+  dct:description "colour transition over less than 2 mm" ;
+  rdfs:comment "C_MOTT_BOUN_DISTINCT" ;
+  rdfs:label "Clear" ;
+  skos:definition "colour transition over less than 2 mm" ;
+  skos:notation "C" ;
+  skos:prefLabel "Clear"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-boundary-D
+  rdf:type skos:Concept ;
+  dct:description "colour transition over 2 mm or more" ;
+  rdfs:comment "C_MOTT_BOUN_DISTINCT" ;
+  rdfs:label "Diffuse" ;
+  skos:definition "colour transition over 2 mm or more" ;
+  skos:notation "D" ;
+  skos:prefLabel "Diffuse"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-boundary-S
+  rdf:type skos:Concept ;
+  dct:description "knife-edge boundary between colours" ;
+  rdfs:comment "C_MOTT_BOUN_DISTINCT" ;
+  rdfs:label "Sharp" ;
+  skos:definition "knife-edge boundary between colours" ;
+  skos:notation "S" ;
+  skos:prefLabel "Sharp"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-colour
+  rdf:type skos:Concept ;
+  dct:description "This should be described in terms of Munsell or Revised Standard Soil colours, but abbreviated forms can be used" ;
+  rdfs:comment "C_MOTT_COLOUR" ;
+  rdfs:label "Mottle colour" ;
+  skos:definition "This should be described in terms of Munsell or Revised Standard Soil colours, but abbreviated forms can be used" ;
+  skos:narrower sp:mottle-colour-B ;
+  skos:narrower sp:mottle-colour-D ;
+  skos:narrower sp:mottle-colour-G ;
+  skos:narrower sp:mottle-colour-L ;
+  skos:narrower sp:mottle-colour-O ;
+  skos:narrower sp:mottle-colour-P ;
+  skos:narrower sp:mottle-colour-R ;
+  skos:narrower sp:mottle-colour-Y ;
+  skos:prefLabel "Mottle colour"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-colour-B
+  rdf:type skos:Concept ;
+  dct:description "Brown" ;
+  rdfs:comment "C_MOTT_COLOUR" ;
+  rdfs:label "Brown" ;
+  skos:definition "Brown" ;
+  skos:notation "B" ;
+  skos:prefLabel "Brown"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-colour-D
+  rdf:type skos:Concept ;
+  dct:description "values 3 or less and chromas 2 or less for all hues" ;
+  rdfs:comment "C_MOTT_COLOUR" ;
+  rdfs:label "Dark" ;
+  skos:definition "values 3 or less and chromas 2 or less for all hues" ;
+  skos:notation "D" ;
+  skos:prefLabel "Dark"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-colour-G
+  rdf:type skos:Concept ;
+  dct:description "Grey" ;
+  rdfs:comment "C_MOTT_COLOUR" ;
+  rdfs:label "Grey" ;
+  skos:definition "Grey" ;
+  skos:notation "G" ;
+  skos:prefLabel "Grey"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-colour-L
+  rdf:type skos:Concept ;
+  dct:description "gley charts only" ;
+  rdfs:comment "C_MOTT_COLOUR" ;
+  rdfs:label "Gley" ;
+  skos:definition "gley charts only" ;
+  skos:notation "L" ;
+  skos:prefLabel "Gley"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-colour-O
+  rdf:type skos:Concept ;
+  dct:description "Orange" ;
+  rdfs:comment "C_MOTT_COLOUR" ;
+  rdfs:label "Orange" ;
+  skos:definition "Orange" ;
+  skos:notation "O" ;
+  skos:prefLabel "Orange"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-colour-P
+  rdf:type skos:Concept ;
+  dct:description "values 7 or more and chromas 2 or less for all hues" ;
+  rdfs:comment "C_MOTT_COLOUR" ;
+  rdfs:label "Pale" ;
+  skos:definition "values 7 or more and chromas 2 or less for all hues" ;
+  skos:notation "P" ;
+  skos:prefLabel "Pale"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-colour-R
+  rdf:type skos:Concept ;
+  dct:description "Red" ;
+  rdfs:comment "C_MOTT_COLOUR" ;
+  rdfs:label "Red" ;
+  skos:definition "Red" ;
+  skos:notation "R" ;
+  skos:prefLabel "Red"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-colour-Y
+  rdf:type skos:Concept ;
+  dct:description "Yellow" ;
+  rdfs:comment "C_MOTT_COLOUR" ;
+  rdfs:label "Yellow" ;
+  skos:definition "Yellow" ;
+  skos:notation "Y" ;
+  skos:prefLabel "Yellow"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-contrast
+  rdf:type skos:Concept ;
+  dct:description "Mottle contrast" ;
+  rdfs:comment "C_CONTRAST" ;
+  rdfs:label "Mottle contrast" ;
+  skos:definition "Mottle contrast" ;
+  skos:narrower sp:mottle-contrast-D ;
+  skos:narrower sp:mottle-contrast-F ;
+  skos:narrower sp:mottle-contrast-P ;
+  skos:prefLabel "Mottle contrast"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-contrast-D
+  rdf:type skos:Concept ;
+  dct:description "readily evident although not striking" ;
+  rdfs:comment "C_CONTRAST" ;
+  rdfs:label "Distinct" ;
+  skos:definition "readily evident although not striking" ;
+  skos:notation "D" ;
+  skos:prefLabel "Distinct"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-contrast-F
+  rdf:type skos:Concept ;
+  dct:description "indistinct; evident only on close examination" ;
+  rdfs:comment "C_CONTRAST" ;
+  rdfs:label "Faint" ;
+  skos:definition "indistinct; evident only on close examination" ;
+  skos:notation "F" ;
+  skos:prefLabel "Faint"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-contrast-P
+  rdf:type skos:Concept ;
+  dct:description "striking and conspicuous" ;
+  rdfs:comment "C_CONTRAST" ;
+  rdfs:label "Prominent" ;
+  skos:definition "striking and conspicuous" ;
+  skos:notation "P" ;
+  skos:prefLabel "Prominent"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-size
+  rdf:type skos:Concept ;
+  dct:description "Measure mottle size (mm) along the greatest dimension, except in streaks or linear forms where width is measured." ;
+  rdfs:comment "N_MOTT_SIZE" ;
+  rdfs:label "Mottle size" ;
+  skos:definition "Measure mottle size (mm) along the greatest dimension, except in streaks or linear forms where width is measured." ;
+  skos:narrower sp:mottle-size-1 ;
+  skos:narrower sp:mottle-size-2 ;
+  skos:narrower sp:mottle-size-3 ;
+  skos:narrower sp:mottle-size-4 ;
+  skos:prefLabel "Mottle size"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-size-1
+  rdf:type skos:Concept ;
+  dct:description "<5 mm" ;
+  rdfs:comment "N_MOTT_SIZE" ;
+  rdfs:label "Fine" ;
+  skos:definition "<5 mm" ;
+  skos:notation "1" ;
+  skos:prefLabel "Fine"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-size-2
+  rdf:type skos:Concept ;
+  dct:description "5-15 mm" ;
+  rdfs:comment "N_MOTT_SIZE" ;
+  rdfs:label "Medium" ;
+  skos:definition "5-15 mm" ;
+  skos:notation "2" ;
+  skos:prefLabel "Medium"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-size-3
+  rdf:type skos:Concept ;
+  dct:description "15-30 mm" ;
+  rdfs:comment "N_MOTT_SIZE" ;
+  rdfs:label "Coarse" ;
+  skos:definition "15-30 mm" ;
+  skos:notation "3" ;
+  skos:prefLabel "Coarse"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:mottle-size-4
+  rdf:type skos:Concept ;
+  dct:description ">30 mm" ;
+  rdfs:comment "N_MOTT_SIZE" ;
+  rdfs:label "Very coarse" ;
+  skos:definition ">30 mm" ;
+  skos:notation "4" ;
+  skos:prefLabel "Very coarse"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:mottle-type
@@ -4352,7 +4654,7 @@ sp:mottle-type
   skos:narrower sp:mottle-type-X ;
   skos:narrower sp:mottle-type-Y ;
   skos:narrower sp:mottle-type-Z ;
-  skos:prefLabel "Mottle type" ;
+  skos:prefLabel "Mottle type"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:mottle-type-M
@@ -4362,37 +4664,37 @@ sp:mottle-type-M
   rdfs:label "Mottles" ;
   skos:definition "Mottles" ;
   skos:notation "M" ;
-  skos:prefLabel "Mottles" ;
+  skos:prefLabel "Mottles"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:mottle-type-X
   rdf:type skos:Concept ;
-  dct:description "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts." ;
+  dct:description "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts" ;
   rdfs:comment "C_MOTT_TYPE" ;
-  rdfs:label "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts." ;
-  skos:definition "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts." ;
+  rdfs:label "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts" ;
+  skos:definition "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts" ;
   skos:notation "X" ;
-  skos:prefLabel "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts." ;
+  skos:prefLabel "Colour patterns due to biological mixing of soil material from other horizons, for example worm casts"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:mottle-type-Y
   rdf:type skos:Concept ;
-  dct:description "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons." ;
+  dct:description "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons" ;
   rdfs:comment "C_MOTT_TYPE" ;
-  rdfs:label "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons." ;
-  skos:definition "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons." ;
+  rdfs:label "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons" ;
+  skos:definition "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons" ;
   skos:notation "Y" ;
-  skos:prefLabel "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons." ;
+  skos:prefLabel "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:mottle-type-Z
   rdf:type skos:Concept ;
-  dct:description "Colour patterns due to inclusions of weathered substrate material." ;
+  dct:description "Colour patterns due to inclusions of weathered substrate material" ;
   rdfs:comment "C_MOTT_TYPE" ;
-  rdfs:label "Colour patterns due to inclusions of weathered substrate material." ;
-  skos:definition "Colour patterns due to inclusions of weathered substrate material." ;
+  rdfs:label "Colour patterns due to inclusions of weathered substrate material" ;
+  skos:definition "Colour patterns due to inclusions of weathered substrate material" ;
   skos:notation "Z" ;
-  skos:prefLabel "Colour patterns due to inclusions of weathered substrate material." ;
+  skos:prefLabel "Colour patterns due to inclusions of weathered substrate material"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:observation-type
