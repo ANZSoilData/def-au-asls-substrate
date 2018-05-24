@@ -1491,6 +1491,7 @@ sp:consistence
 .
 sp:consistence-plasticity-degree
   rdf:type skos:Concept ;
+  dct:description "Plasticity is the ability to change shape and retain the new shape after the stress is removed. The degree of plasticity given below applies only to normal plasticity. The degree of plasticity is determined at the soil moisture content used for field texturing, that is, just below sticky point. The soil is rolled between the palms of the hand and, if possible, 40 mm long rolls are formed. The rolls are dangled from the thumb and forefinger. Plasticity is determined on the behaviour of rolls of varying thickness." ;
   rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Plasticity Degree" ;
   skos:definition "Plasticity is the ability to change shape and retain the new shape after the stress is removed. The degree of plasticity given below applies only to normal plasticity. The degree of plasticity is determined at the soil moisture content used for field texturing, that is, just below sticky point. The soil is rolled between the palms of the hand and, if possible, 40 mm long rolls are formed. The rolls are dangled from the thumb and forefinger. Plasticity is determined on the behaviour of rolls of varying thickness." ;
@@ -1553,6 +1554,7 @@ sp:consistence-plasticity-degrees
 .
 sp:consistence-plasticity-type
   rdf:type skos:Concept ;
+  dct:description "The type of plasticity refers to the degree to which the consistence and/or field texture properties of a soil suggest the amount of clay-sized particles it contains (Butler 1955). It may be identified by determining two field textures: one after an initial 1 to 2 minute working of the soil sample, and another after a prolonged 10 minute kneading. The change in field texture from the initial to the prolonged working of the soil sample indicates the type of plasticity." ;
   rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Plasticity Type" ;
   skos:definition "The type of plasticity refers to the degree to which the consistence and/or field texture properties of a soil suggest the amount of clay-sized particles it contains (Butler 1955). It may be identified by determining two field textures: one after an initial 1 to 2 minute working of the soil sample, and another after a prolonged 10 minute kneading. The change in field texture from the initial to the prolonged working of the soil sample indicates the type of plasticity." ;
@@ -1611,6 +1613,7 @@ sp:consistence-plasticity-types
 .
 sp:consistence-stickiness
   rdf:type skos:Concept ;
+  dct:description "Stickiness is determined on wet soil by pressing the wet sample between thumb and forefinger and then observing the adherence of the soil to the fingers." ;
   rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Stickiness" ;
   skos:definition "Stickiness is determined on wet soil by pressing the wet sample between thumb and forefinger and then observing the adherence of the soil to the fingers." ;
@@ -1669,9 +1672,26 @@ sp:consistence-stickinesses
 .
 sp:consistence-strength
   rdf:type skos:Concept ;
+  dct:description """Strength of soil is the resistance to breaking or deformation. Strength is determined by the force just sufficient to break or deform a 20 mm diameter piece of soil when a compressive shearing force is applied between thumb and forefinger. The 20 mm piece of soil may be a ped, part of a ped, a compound ped or a fragment.
+
+Forces 0 to 5 are equivalent to the following dry consistence classes in the ‘USDA Soil Survey Manual’ (Soil Survey Staff 1951):
+0	Loose	
+1	Soft	
+2	Slightly hard	
+3	Hard
+4	Very hard
+5	Extremely hard""" ;
   rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Strength" ;
-  skos:definition "Strength of soil is the resistance to breaking or deformation. Strength is determined by the force just sufficient to break or deform a 20 mm diameter piece of soil when a compressive shearing force is applied between thumb and forefinger. The 20 mm piece of soil may be a ped, part of a ped, a compound ped or a fragment." ;
+  skos:definition """Strength of soil is the resistance to breaking or deformation. Strength is determined by the force just sufficient to break or deform a 20 mm diameter piece of soil when a compressive shearing force is applied between thumb and forefinger. The 20 mm piece of soil may be a ped, part of a ped, a compound ped or a fragment.
+
+Forces 0 to 5 are equivalent to the following dry consistence classes in the ‘USDA Soil Survey Manual’ (Soil Survey Staff 1951):
+0	Loose	
+1	Soft	
+2	Slightly hard	
+3	Hard
+4	Very hard
+5	Extremely hard""" ;
   skos:narrower sp:consistence-strength-0 ;
   skos:narrower sp:consistence-strength-1 ;
   skos:narrower sp:consistence-strength-2 ;
@@ -4829,6 +4849,73 @@ sp:observation-type-P
   skos:definition "The soil pit is one of several types of observation used to describe the soil profile." ;
   skos:notation "P" ;
   skos:prefLabel "Soil pit" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans
+  rdf:type skos:Concept ;
+  dct:description "A pan is an indurated and/or cemented soil horizon" ;
+  rdfs:label "Pans" ;
+  skos:definition "A pan is an indurated and/or cemented soil horizon" ;
+  skos:narrower sp:pans-cementation ;
+  skos:prefLabel "Pans" ;
+.
+sp:pans-cementation
+  rdf:type skos:Concept ;
+  dct:description "Place a 30 mm diameter piece of the pan in water for 1 hour. If it slakes, it is uncemented; if not, it is cemented. The degree of cementation is assessed on the following scale after the 1 hour soaking in water." ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
+  rdfs:label "Cementation of pan" ;
+  skos:definition "Place a 30 mm diameter piece of the pan in water for 1 hour. If it slakes, it is uncemented; if not, it is cemented. The degree of cementation is assessed on the following scale after the 1 hour soaking in water." ;
+  skos:narrower sp:pans-cementation-0 ;
+  skos:narrower sp:pans-cementation-1 ;
+  skos:narrower sp:pans-cementation-2 ;
+  skos:narrower sp:pans-cementation-3 ;
+  skos:narrower sp:pans-cementation-4 ;
+  skos:prefLabel "Cementation of pan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-cementation-0
+  rdf:type skos:Concept ;
+  dct:description "Slakes" ;
+  rdfs:label "Uncemented" ;
+  skos:definition "Slakes" ;
+  skos:notation "0" ;
+  skos:prefLabel "Uncemented" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-cementation-1
+  rdf:type skos:Concept ;
+  dct:description "can be crushed between thumb and forefinger" ;
+  rdfs:label "Weakly cemented" ;
+  skos:definition "can be crushed between thumb and forefinger" ;
+  skos:notation "1" ;
+  skos:prefLabel "Weakly cemented" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-cementation-2
+  rdf:type skos:Concept ;
+  dct:description "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with weight of average person (80 kg) applied slowly." ;
+  rdfs:label "Moderately cemented" ;
+  skos:definition "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with weight of average person (80 kg) applied slowly." ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderately cemented" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-cementation-3
+  rdf:type skos:Concept ;
+  dct:description "cannot be crushed underfoot by weight of average man applied slowly. Can be broken by hammer." ;
+  rdfs:label "Strongly cemented" ;
+  skos:definition "cannot be crushed underfoot by weight of average man applied slowly. Can be broken by hammer." ;
+  skos:notation "3" ;
+  skos:prefLabel "Strongly cemented" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-cementation-4
+  rdf:type skos:Concept ;
+  dct:description "cannot be broken by hammer, or only with extreme difficulty" ;
+  rdfs:label "Very strongly cemented" ;
+  skos:definition "cannot be broken by hammer, or only with extreme difficulty" ;
+  skos:notation "4" ;
+  skos:prefLabel "Very strongly cemented" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:roots
