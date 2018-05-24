@@ -4750,6 +4750,132 @@ sp:observation-type-P
   skos:prefLabel "Soil pit" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
+sp:roots
+  rdf:type skos:Concept ;
+  dc:description "Record the presence of roots observed in each horizon in areas 100 mm square on a cleaned exposure face." ;
+  dct:description "Record the presence of roots observed in each horizon in areas 100 mm square on a cleaned exposure face." ;
+  rdfs:label "Roots" ;
+  skos:definition "Record the presence of roots observed in each horizon in areas 100 mm square on a cleaned exposure face." ;
+  skos:narrower sp:roots-abundance ;
+  skos:narrower sp:roots-size ;
+  skos:prefLabel "Roots" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:roots-abundance
+  rdf:type skos:Concept ;
+  dct:description "Number of roots per 0.01 m2 (100 mm × 100 mm)" ;
+  rdfs:comment "N_ROOT_ABUN" ;
+  rdfs:label "Root abundance" ;
+  skos:definition "Number of roots per 0.01 m2 (100 mm × 100 mm)" ;
+  skos:narrower sp:roots-abundance-0 ;
+  skos:narrower sp:roots-abundance-1 ;
+  skos:narrower sp:roots-abundance-2 ;
+  skos:narrower sp:roots-abundance-3 ;
+  skos:narrower sp:roots-abundance-4 ;
+  skos:prefLabel "Root abundance" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:roots-abundance-0
+  rdf:type skos:Concept ;
+  dct:description "0" ;
+  rdfs:label "No roots" ;
+  skos:definition "0" ;
+  skos:notation "0" ;
+  skos:prefLabel "No roots"@en ;
+.
+sp:roots-abundance-1
+  rdf:type skos:Concept ;
+  dct:description """1 - 10 very fine and fine roots 
+Or
+1 - 2 medium and coarse roots""" ;
+  rdfs:label "Few" ;
+  skos:definition """1 - 10 very fine and fine roots 
+Or
+1 - 2 medium and coarse roots""" ;
+  skos:notation "1" ;
+  skos:prefLabel "Few"@en ;
+.
+sp:roots-abundance-2
+  rdf:type skos:Concept ;
+  dct:description """10 - 25 very fine and fine roots 
+Or
+2 - 5 medium and coarse roots""" ;
+  rdfs:label "Common" ;
+  skos:definition """10 - 25 very fine and fine roots 
+Or
+2 - 5 medium and coarse roots""" ;
+  skos:notation "2" ;
+  skos:prefLabel "Common"@en ;
+.
+sp:roots-abundance-3
+  rdf:type skos:Concept ;
+  dct:description """25 - 200 very fine and fine roots 
+Or
+> 5 medium and coarse roots""" ;
+  rdfs:label "Many" ;
+  skos:definition """25 - 200 very fine and fine roots 
+Or
+> 5 medium and coarse roots""" ;
+  skos:notation "3" ;
+  skos:prefLabel "Many"@en ;
+.
+sp:roots-abundance-4
+  rdf:type skos:Concept ;
+  dct:description """> 200 very fine and fine roots 
+Or
+> 5 medium and coarse roots""" ;
+  rdfs:label "Abundant" ;
+  skos:definition """> 200 very fine and fine roots 
+Or
+> 5 medium and coarse roots""" ;
+  skos:notation "4" ;
+  skos:prefLabel "Abundant"@en ;
+.
+sp:roots-size
+  rdf:type skos:Concept ;
+  dct:description "The size (diameter) of roots observed in the horizon in mm" ;
+  rdfs:comment "N_ROOT_SIZE" ;
+  rdfs:label "Root size" ;
+  skos:definition "The size (diameter) of roots observed in the horizon in mm" ;
+  skos:narrower sp:roots-size-1 ;
+  skos:narrower sp:roots-size-2 ;
+  skos:narrower sp:roots-size-3 ;
+  skos:narrower sp:roots-size-4 ;
+  skos:prefLabel "Root size" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:roots-size-1
+  rdf:type skos:Concept ;
+  dct:description "<1 mm" ;
+  rdfs:label "Very fine" ;
+  skos:definition "<1 mm" ;
+  skos:notation "1" ;
+  skos:prefLabel "Very fine"@en ;
+.
+sp:roots-size-2
+  rdf:type skos:Concept ;
+  dct:description "1 - 2 mm" ;
+  rdfs:label "Fine" ;
+  skos:definition "1 - 2 mm" ;
+  skos:notation "2" ;
+  skos:prefLabel "Fine"@en ;
+.
+sp:roots-size-3
+  rdf:type skos:Concept ;
+  dct:description "2 - 5 mm" ;
+  rdfs:label "Medium" ;
+  skos:definition "2 - 5 mm" ;
+  skos:notation "3" ;
+  skos:prefLabel "Medium"@en ;
+.
+sp:roots-size-4
+  rdf:type skos:Concept ;
+  dct:description ">5 mm" ;
+  rdfs:label "Coarse" ;
+  skos:definition ">5 mm" ;
+  skos:notation "4" ;
+  skos:prefLabel "Coarse"@en ;
+.
 sp:soilwater-drainage
   rdf:type skos:Concept ;
   dct:description "Drainage is a useful term to summarise local soil wetness conditions, that is, it provides a statement about soil and site drainage likely to occur in most years. It is affected by a number of attributes, both internal and external, that may act separately or together. Internal attributes include soil structure, texture, porosity, hydraulic conductivity, and water-holding capacity, while external attributes are source and quality of water, evapotranspiration, gradient and length of slope, and position in the landscape." ;
