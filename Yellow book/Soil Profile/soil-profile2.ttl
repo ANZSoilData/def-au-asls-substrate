@@ -1477,6 +1477,18 @@ sp:coarse-fragments-strength-W
   skos:notation "W" ;
   skos:prefLabel "Weak rock" ;
 .
+sp:consistence
+  rdf:type skos:Concept ;
+  dct:description "Consistence refers to the strength of cohesion and adhesion in soil. Strength will vary according to soil water status. Note that soil water status must be recorded with strength" ;
+  rdfs:label "Consistence" ;
+  skos:definition "Consistence refers to the strength of cohesion and adhesion in soil. Strength will vary according to soil water status. Note that soil water status must be recorded with strength" ;
+  skos:narrower sp:consistence-plasticity-degree ;
+  skos:narrower sp:consistence-plasticity-type ;
+  skos:narrower sp:consistence-stickiness ;
+  skos:narrower sp:consistence-strength ;
+  skos:prefLabel "Consistence" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
 sp:consistence-plasticity-degree
   rdf:type skos:Concept ;
   rdfs:comment "C_H_PLASTICITY_DEGREE" ;
@@ -1756,6 +1768,75 @@ sp:consistence-strengths
   skos:member sp:consistence-strength-6 ;
   skos:member sp:consistence-strength-7 ;
   skos:prefLabel "Strengths" ;
+.
+sp:effervescence
+  rdf:type skos:Concept ;
+  dct:description "Effervescence of carbonate in fine earth using two or three drops of 1-molar HCl" ;
+  rdfs:label "Effervescence" ;
+  skos:definition "Effervescence of carbonate in fine earth using two or three drops of 1-molar HCl" ;
+  skos:narrower sp:effervescence-H ;
+  skos:narrower sp:effervescence-M ;
+  skos:narrower sp:effervescence-N ;
+  skos:narrower sp:effervescence-S ;
+  skos:narrower sp:effervescence-V ;
+  skos:prefLabel "Effervescence" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:effervescence-H
+  rdf:type skos:Concept ;
+  dct:description "moderate visible effervescence" ;
+  rdfs:label "Highly calcareous" ;
+  skos:definition "moderate visible effervescence" ;
+  skos:notation "H" ;
+  skos:prefLabel "Highly calcareous"@en ;
+.
+sp:effervescence-M
+  rdf:type skos:Concept ;
+  dct:description "audible and slightly visible effervescence" ;
+  rdfs:label "Moderately calcareous" ;
+  skos:definition "audible and slightly visible effervescence" ;
+  skos:notation "M" ;
+  skos:prefLabel "Moderately calcareous"@en ;
+.
+sp:effervescence-N
+  rdf:type skos:Concept ;
+  dct:description "no audible or visible effervescence" ;
+  rdfs:label "Non-calcareous" ;
+  skos:definition "no audible or visible effervescence" ;
+  skos:notation "N" ;
+  skos:prefLabel "Non-calcareous"@en ;
+.
+sp:effervescence-S
+  rdf:type skos:Concept ;
+  dct:description "slightly audible but no visible effervescence" ;
+  rdfs:label "Slightly calcareous" ;
+  skos:definition "slightly audible but no visible effervescence" ;
+  skos:notation "S" ;
+  skos:prefLabel "Slightly calcareous"@en ;
+.
+sp:effervescence-V
+  rdf:type skos:Concept ;
+  dct:description "strong visible effervescence" ;
+  rdfs:label "Very highly calcareous" ;
+  skos:definition "strong visible effervescence" ;
+  skos:notation "V" ;
+  skos:prefLabel "Very highly calcareous"@en ;
+.
+sp:field-ph
+  rdf:type skos:Concept ;
+  dct:description """pH is determined in the field using a field pH kit based on the specifications of Raupach and Tucker (1959). Estimate to 0.5 of a unit. Portable pH meters may also be used.
+Record depth at which pH is determined, in metres.
+pH may be measured either:
+•	by horizons, or
+•	where horizons are thick (greater than 0.5 m) and horizon boundaries are diffuse, at selected intervals down the profile. This system gives useful data in some soils when important pH changes may occur independently of visible horizon changes, for instance the change from alkaline to strongly acid conditions in some cracking clays.""" ;
+  rdfs:label "Field pH" ;
+  skos:definition """pH is determined in the field using a field pH kit based on the specifications of Raupach and Tucker (1959). Estimate to 0.5 of a unit. Portable pH meters may also be used.
+Record depth at which pH is determined, in metres.
+pH may be measured either:
+•	by horizons, or
+•	where horizons are thick (greater than 0.5 m) and horizon boundaries are diffuse, at selected intervals down the profile. This system gives useful data in some soils when important pH changes may occur independently of visible horizon changes, for instance the change from alkaline to strongly acid conditions in some cracking clays.""" ;
+  skos:prefLabel "Field pH" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:field-texture
   rdf:type skos:Concept ;
@@ -4875,6 +4956,431 @@ sp:roots-size-4
   skos:definition ">5 mm" ;
   skos:notation "4" ;
   skos:prefLabel "Coarse"@en ;
+.
+sp:segregations
+  rdf:type skos:Concept ;
+  dct:description """Discrete segregations that have accumulated in the soil because of the concentration of some constituent, usually by chemical or biological action.
+Segregations may be relict or formed in situ by current pedogenic processes.""" ;
+  rdfs:label "Segregations of pedogenic origin" ;
+  skos:definition """Discrete segregations that have accumulated in the soil because of the concentration of some constituent, usually by chemical or biological action.
+Segregations may be relict or formed in situ by current pedogenic processes.""" ;
+  skos:narrower sp:segregations-abundance ;
+  skos:narrower sp:segregations-form ;
+  skos:narrower sp:segregations-magnetic ;
+  skos:narrower sp:segregations-nature ;
+  skos:narrower sp:segregations-size ;
+  skos:narrower sp:segregations-strength ;
+  skos:prefLabel "Segregations of pedogenic origin" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:segregations-abundance
+  rdf:type skos:Concept ;
+  dct:description "Abundance of segregations. Use figure 11 as a guide" ;
+  rdfs:comment "N_SEG_ABUN" ;
+  rdfs:label "Abundance of segregations" ;
+  skos:definition "Abundance of segregations. Use figure 11 as a guide" ;
+  skos:narrower sp:segregations-abundance-0 ;
+  skos:narrower sp:segregations-abundance-1 ;
+  skos:narrower sp:segregations-abundance-2 ;
+  skos:narrower sp:segregations-abundance-3 ;
+  skos:narrower sp:segregations-abundance-4 ;
+  skos:narrower sp:segregations-abundance-5 ;
+  skos:prefLabel "Abundance of segregations" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:segregations-abundance-0
+  rdf:type skos:Concept ;
+  dct:description "0" ;
+  rdfs:label "No segregations" ;
+  skos:definition "0" ;
+  skos:notation "0" ;
+  skos:prefLabel "No segregations"@en ;
+.
+sp:segregations-abundance-1
+  rdf:type skos:Concept ;
+  dct:description "< 2%" ;
+  rdfs:label "Very few" ;
+  skos:definition "< 2%" ;
+  skos:notation "1" ;
+  skos:prefLabel "Very few"@en ;
+.
+sp:segregations-abundance-2
+  rdf:type skos:Concept ;
+  dct:description "2 - 10%" ;
+  rdfs:label "Few" ;
+  skos:definition "2 - 10%" ;
+  skos:notation "2" ;
+  skos:prefLabel "Few"@en ;
+.
+sp:segregations-abundance-3
+  rdf:type skos:Concept ;
+  dct:description "10 - 20%" ;
+  rdfs:label "Common" ;
+  skos:definition "10 - 20%" ;
+  skos:notation "3" ;
+  skos:prefLabel "Common"@en ;
+.
+sp:segregations-abundance-4
+  rdf:type skos:Concept ;
+  dct:description "20 - 50%" ;
+  rdfs:label "Many" ;
+  skos:definition "20 - 50%" ;
+  skos:notation "4" ;
+  skos:prefLabel "Many"@en ;
+.
+sp:segregations-abundance-5
+  rdf:type skos:Concept ;
+  dct:description "> 50%" ;
+  rdfs:label "Very many" ;
+  skos:definition "> 50%" ;
+  skos:notation "5" ;
+  skos:prefLabel "Very many"@en ;
+.
+sp:segregations-form
+  rdf:type skos:Concept ;
+  dct:description "Form of segregations" ;
+  rdfs:comment "C_SEG_FORM" ;
+  rdfs:label "Form of segregations" ;
+  skos:definition "Form of segregations" ;
+  skos:narrower sp:segregations-form-C ;
+  skos:narrower sp:segregations-form-F ;
+  skos:narrower sp:segregations-form-L ;
+  skos:narrower sp:segregations-form-N ;
+  skos:narrower sp:segregations-form-R ;
+  skos:narrower sp:segregations-form-S ;
+  skos:narrower sp:segregations-form-T ;
+  skos:narrower sp:segregations-form-V ;
+  skos:narrower sp:segregations-form-X ;
+  skos:prefLabel "Form of segregations" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:segregations-form-C
+  rdf:type skos:Concept ;
+  dct:description "Spheroidal mineral aggregates. Crudely concentric internal fabric can be seen with naked eye. Includes pisoliths and ooliths" ;
+  rdfs:label "Concretions" ;
+  skos:definition "Spheroidal mineral aggregates. Crudely concentric internal fabric can be seen with naked eye. Includes pisoliths and ooliths" ;
+  skos:notation "C" ;
+  skos:prefLabel "Concretions"@en ;
+.
+sp:segregations-form-F
+  rdf:type skos:Concept ;
+  dct:description "broken pieces of segregations" ;
+  rdfs:label "Fragments" ;
+  skos:definition "broken pieces of segregations" ;
+  skos:notation "F" ;
+  skos:prefLabel "Fragments"@en ;
+.
+sp:segregations-form-L
+  rdf:type skos:Concept ;
+  dct:description "planar, plate-like or sheet-like segregations" ;
+  rdfs:label "Laminae" ;
+  skos:definition "planar, plate-like or sheet-like segregations" ;
+  skos:notation "L" ;
+  skos:prefLabel "Laminae"@en ;
+.
+sp:segregations-form-N
+  rdf:type skos:Concept ;
+  dct:description "irregular, rounded mineral aggregates. No concentric or symmetric internal fabric. Can have hollow interior" ;
+  rdfs:label "Nodules" ;
+  skos:definition "irregular, rounded mineral aggregates. No concentric or symmetric internal fabric. Can have hollow interior" ;
+  skos:notation "N" ;
+  skos:prefLabel "Nodules"@en ;
+.
+sp:segregations-form-R
+  rdf:type skos:Concept ;
+  dct:description "linings of former or current root channels" ;
+  rdfs:label "Root linings" ;
+  skos:definition "linings of former or current root channels" ;
+  skos:notation "R" ;
+  skos:prefLabel "Root linings"@en ;
+.
+sp:segregations-form-S
+  rdf:type skos:Concept ;
+  dct:description "finely divided soft segregations. They contrast with surrounding soil in colour and composition but are not easily separated as discrete bodies. Boundaries may be clearly defined or diffuse" ;
+  rdfs:label "Soft segregations" ;
+  skos:definition "finely divided soft segregations. They contrast with surrounding soil in colour and composition but are not easily separated as discrete bodies. Boundaries may be clearly defined or diffuse" ;
+  skos:notation "S" ;
+  skos:prefLabel "Soft segregations"@en ;
+.
+sp:segregations-form-T
+  rdf:type skos:Concept ;
+  dct:description "medium or coarser (>2 mm wide) tube-like segregations, which may or may not be hollow" ;
+  rdfs:label "Tubules" ;
+  skos:definition "medium or coarser (>2 mm wide) tube-like segregations, which may or may not be hollow" ;
+  skos:notation "T" ;
+  skos:prefLabel "Tubules"@en ;
+.
+sp:segregations-form-V
+  rdf:type skos:Concept ;
+  dct:description "fine (<2 mm wide) linear segregations" ;
+  rdfs:label "Veins" ;
+  skos:definition "fine (<2 mm wide) linear segregations" ;
+  skos:notation "V" ;
+  skos:prefLabel "Veins"@en ;
+.
+sp:segregations-form-X
+  rdf:type skos:Concept ;
+  dct:description "single or complex clusters of crystals visible with naked eye or ×10 hand lens" ;
+  rdfs:label "Crystals" ;
+  skos:definition "single or complex clusters of crystals visible with naked eye or ×10 hand lens" ;
+  skos:notation "X" ;
+  skos:prefLabel "Crystals"@en ;
+.
+sp:segregations-magnetic
+  rdf:type skos:Concept ;
+  dct:description "attraction onto surface of hand-held magnet" ;
+  rdfs:comment "C_SEG_MAGNETIC_ATTR" ;
+  rdfs:label "Magnetic attributes of segregations" ;
+  skos:definition "attraction onto surface of hand-held magnet" ;
+  skos:narrower sp:segregations-magnetic-M ;
+  skos:narrower sp:segregations-magnetic-N ;
+  skos:prefLabel "Magnetic attributes of segregations" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:segregations-magnetic-M
+  rdf:type skos:Concept ;
+  dct:description "attracted onto surface of hand-held magnet" ;
+  rdfs:label "Magnetic" ;
+  skos:definition "attracted onto surface of hand-held magnet" ;
+  skos:notation "M" ;
+  skos:prefLabel "Magnetic"@en ;
+.
+sp:segregations-magnetic-N
+  rdf:type skos:Concept ;
+  dct:description "not attracted onto surface of hand-held magnet" ;
+  rdfs:label "Non-magnetic" ;
+  skos:definition "not attracted onto surface of hand-held magnet" ;
+  skos:notation "N" ;
+  skos:prefLabel "Non-magnetic"@en ;
+.
+sp:segregations-nature
+  rdf:type skos:Concept ;
+  dct:description "Nature of segregations" ;
+  rdfs:comment "C_SEG_NATURE" ;
+  rdfs:label "Nature of segregations" ;
+  skos:definition "Nature of segregations" ;
+  skos:narrower sp:segregations-nature-A ;
+  skos:narrower sp:segregations-nature-E ;
+  skos:narrower sp:segregations-nature-F ;
+  skos:narrower sp:segregations-nature-G ;
+  skos:narrower sp:segregations-nature-H ;
+  skos:narrower sp:segregations-nature-K ;
+  skos:narrower sp:segregations-nature-L ;
+  skos:narrower sp:segregations-nature-M ;
+  skos:narrower sp:segregations-nature-N ;
+  skos:narrower sp:segregations-nature-O ;
+  skos:narrower sp:segregations-nature-S ;
+  skos:narrower sp:segregations-nature-U ;
+  skos:narrower sp:segregations-nature-Y ;
+  skos:narrower sp:segregations-nature-Z ;
+  skos:prefLabel "Nature of segregations" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:segregations-nature-A
+  rdf:type skos:Concept ;
+  dct:description "Aluminous (aluminium)" ;
+  rdfs:label "Aluminous" ;
+  skos:definition "Aluminous (aluminium)" ;
+  skos:notation "A" ;
+  skos:prefLabel "Aluminous"@en ;
+.
+sp:segregations-nature-E
+  rdf:type skos:Concept ;
+  dct:description "Earthy (dominantly non-clayey)" ;
+  rdfs:label "Earthy" ;
+  skos:definition "Earthy (dominantly non-clayey)" ;
+  skos:notation "E" ;
+  skos:prefLabel "Earthy"@en ;
+.
+sp:segregations-nature-F
+  rdf:type skos:Concept ;
+  dct:description "Ferruginous (iron)" ;
+  rdfs:label "Ferruginous" ;
+  skos:definition "Ferruginous (iron)" ;
+  skos:notation "F" ;
+  skos:prefLabel "Ferruginous"@en ;
+.
+sp:segregations-nature-G
+  rdf:type skos:Concept ;
+  dct:description "Ferruginous–organic (iron – organic matter)" ;
+  rdfs:label "Ferruginous–organic" ;
+  skos:definition "Ferruginous–organic (iron – organic matter)" ;
+  skos:notation "G" ;
+  skos:prefLabel "Ferruginous–organic"@en ;
+.
+sp:segregations-nature-H
+  rdf:type skos:Concept ;
+  dct:description "Organic (humified, well-decomposed organic matter)" ;
+  rdfs:label "Organic" ;
+  skos:definition "Organic (humified, well-decomposed organic matter)" ;
+  skos:notation "H" ;
+  skos:prefLabel "Organic"@en ;
+.
+sp:segregations-nature-K
+  rdf:type skos:Concept ;
+  dct:description "Calcareous (carbonate)" ;
+  rdfs:label "Calcareous" ;
+  skos:definition "Calcareous (carbonate)" ;
+  skos:notation "K" ;
+  skos:prefLabel "Calcareous"@en ;
+.
+sp:segregations-nature-L
+  rdf:type skos:Concept ;
+  dct:description "Argillaceous (clayey)" ;
+  rdfs:label "Argillaceous" ;
+  skos:definition "Argillaceous (clayey)" ;
+  skos:notation "L" ;
+  skos:prefLabel "Argillaceous"@en ;
+.
+sp:segregations-nature-M
+  rdf:type skos:Concept ;
+  dct:description "Manganiferous (manganese)" ;
+  rdfs:label "Manganiferous" ;
+  skos:definition "Manganiferous (manganese)" ;
+  skos:notation "M" ;
+  skos:prefLabel "Manganiferous"@en ;
+.
+sp:segregations-nature-N
+  rdf:type skos:Concept ;
+  dct:description "Ferromanganiferous (iron–manganese)" ;
+  rdfs:label "Ferromanganiferous" ;
+  skos:definition "Ferromanganiferous (iron–manganese)" ;
+  skos:notation "N" ;
+  skos:prefLabel "Ferromanganiferous"@en ;
+.
+sp:segregations-nature-O
+  rdf:type skos:Concept ;
+  dct:description "Other" ;
+  rdfs:label "Other" ;
+  skos:definition "Other" ;
+  skos:notation "O" ;
+  skos:prefLabel "Other"@en ;
+.
+sp:segregations-nature-S
+  rdf:type skos:Concept ;
+  dct:description "Sulphurous (sulphur), for example in acid sulphate soils" ;
+  rdfs:label "Sulphurous" ;
+  skos:definition "Sulphurous (sulphur), for example in acid sulphate soils" ;
+  skos:notation "S" ;
+  skos:prefLabel "Sulphurous"@en ;
+.
+sp:segregations-nature-U
+  rdf:type skos:Concept ;
+  dct:description "Unidentified" ;
+  rdfs:label "Unidentified" ;
+  skos:definition "Unidentified" ;
+  skos:notation "U" ;
+  skos:prefLabel "Unidentified"@en ;
+.
+sp:segregations-nature-Y
+  rdf:type skos:Concept ;
+  dct:description "Gypseous (gypsum)" ;
+  rdfs:label "Gypseous" ;
+  skos:definition "Gypseous (gypsum)" ;
+  skos:notation "Y" ;
+  skos:prefLabel "Gypseous"@en ;
+.
+sp:segregations-nature-Z
+  rdf:type skos:Concept ;
+  dct:description "Saline (visible salt)" ;
+  rdfs:label "Saline" ;
+  skos:definition "Saline (visible salt)" ;
+  skos:notation "Z" ;
+  skos:prefLabel "Saline" ;
+.
+sp:segregations-size
+  rdf:type skos:Concept ;
+  dct:description "Approximately equidimensional segregations (concretions, nodules) are measured in the greatest dimension. Segregations where one dimension is much greater than the other two (tubules, root linings, veins, laminae) are measured in the least dimension" ;
+  rdfs:comment "N_SEG_SIZE" ;
+  rdfs:label "Size of segregations" ;
+  skos:definition "Approximately equidimensional segregations (concretions, nodules) are measured in the greatest dimension. Segregations where one dimension is much greater than the other two (tubules, root linings, veins, laminae) are measured in the least dimension" ;
+  skos:narrower sp:segregations-size-1 ;
+  skos:narrower sp:segregations-size-2 ;
+  skos:narrower sp:segregations-size-3 ;
+  skos:narrower sp:segregations-size-4 ;
+  skos:narrower sp:segregations-size-5 ;
+  skos:prefLabel "Size of segregations" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:segregations-size-1
+  rdf:type skos:Concept ;
+  dct:description "< 2mm" ;
+  rdfs:label "Fine" ;
+  skos:definition "< 2mm" ;
+  skos:notation "1" ;
+  skos:prefLabel "Fine"@en ;
+.
+sp:segregations-size-2
+  rdf:type skos:Concept ;
+  dct:description "2 - 6mm" ;
+  rdfs:label "Medium" ;
+  skos:definition "2 - 6mm" ;
+  skos:notation "2" ;
+  skos:prefLabel "Medium"@en ;
+.
+sp:segregations-size-3
+  rdf:type skos:Concept ;
+  dct:description "6 - 20mm" ;
+  rdfs:label "Coarse" ;
+  skos:definition "6 - 20mm" ;
+  skos:notation "3" ;
+  skos:prefLabel "Coarse"@en ;
+.
+sp:segregations-size-4
+  rdf:type skos:Concept ;
+  dct:description "20 - 60mm" ;
+  rdfs:label "Very coarse" ;
+  skos:definition "20 - 60mm" ;
+  skos:notation "4" ;
+  skos:prefLabel "Very coarse"@en ;
+.
+sp:segregations-size-5
+  rdf:type skos:Concept ;
+  dct:description "> 60mm" ;
+  rdfs:label "Extremely coarse" ;
+  skos:definition "> 60mm" ;
+  skos:notation "5" ;
+  skos:prefLabel "Extremely coarse"@en ;
+.
+sp:segregations-strength
+  rdf:type skos:Concept ;
+  dct:description "Strength may be recorded where appropriate" ;
+  rdfs:comment "C_SEG_STRENGTH" ;
+  rdfs:label "Strength of segregations" ;
+  skos:definition "Strength may be recorded where appropriate" ;
+  skos:narrower sp:segregations-strength-1 ;
+  skos:narrower sp:segregations-strength-2 ;
+  skos:prefLabel "Strength of segregations" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:segregations-strength-1
+  rdf:type skos:Concept ;
+  dct:description "can be broken between thumb and forefinger" ;
+  rdfs:label "Weak" ;
+  skos:definition "can be broken between thumb and forefinger" ;
+  skos:notation "1" ;
+  skos:prefLabel "Weak"@en ;
+.
+sp:segregations-strength-2
+  rdf:type skos:Concept ;
+  dct:description "cannot be broken between thumb and forefinger" ;
+  rdfs:label "Strong" ;
+  skos:definition "cannot be broken between thumb and forefinger" ;
+  skos:notation "2" ;
+  skos:prefLabel "Strong"@en ;
+.
+sp:soilwater
+  rdf:type skos:Concept ;
+  dct:description """Traditional approaches to soil drainage do not adequately differentiate between hydrological setting and permeability of the material of the profile. For example, a very permeable, coarse-textured soil occurring in a wet depression would have to be classed as very poorly drained. Hence there is a need to consider permeability, which refers to the potential of a soil to transmit water internally, and drainage, which refers to the rapidity and extent of water removal from the soil profile or site. Both these aspects of internal drainage may be difficult to assess in the field, and cannot be based solely on profile morphology. Mottling may, but not always, reflect drainage status, since mottling may be a relict feature. Vegetation and topography may be useful guides.
+These concepts of permeability and drainage are largely based on Canada Soil Survey Committee (1978).""" ;
+  rdfs:label "Soil water regime" ;
+  skos:definition """Traditional approaches to soil drainage do not adequately differentiate between hydrological setting and permeability of the material of the profile. For example, a very permeable, coarse-textured soil occurring in a wet depression would have to be classed as very poorly drained. Hence there is a need to consider permeability, which refers to the potential of a soil to transmit water internally, and drainage, which refers to the rapidity and extent of water removal from the soil profile or site. Both these aspects of internal drainage may be difficult to assess in the field, and cannot be based solely on profile morphology. Mottling may, but not always, reflect drainage status, since mottling may be a relict feature. Vegetation and topography may be useful guides.
+These concepts of permeability and drainage are largely based on Canada Soil Survey Committee (1978).
+""" ;
+  skos:narrower sp:soilwater-drainage ;
+  skos:narrower sp:soilwater-permeability ;
+  skos:prefLabel "Soil water regime" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-drainage
   rdf:type skos:Concept ;
