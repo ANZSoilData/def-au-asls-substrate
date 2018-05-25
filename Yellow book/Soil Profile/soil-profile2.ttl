@@ -4857,6 +4857,9 @@ sp:pans
   rdfs:label "Pans" ;
   skos:definition "A pan is an indurated and/or cemented soil horizon" ;
   skos:narrower sp:pans-cementation ;
+  skos:narrower sp:pans-continuity ;
+  skos:narrower sp:pans-structure ;
+  skos:narrower sp:pans-type ;
   skos:prefLabel "Pans" ;
 .
 sp:pans-cementation
@@ -4916,6 +4919,274 @@ sp:pans-cementation-4
   skos:definition "cannot be broken by hammer, or only with extreme difficulty" ;
   skos:notation "4" ;
   skos:prefLabel "Very strongly cemented" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-continuity
+  rdf:type skos:Concept ;
+  dct:description "Continuity of pan" ;
+  rdfs:comment "C_PAN_CONTINUITY" ;
+  rdfs:label "Continuity of pan" ;
+  skos:definition "Continuity of pan" ;
+  skos:narrower sp:pans-continuity-B ;
+  skos:narrower sp:pans-continuity-C ;
+  skos:narrower sp:pans-continuity-D ;
+  skos:prefLabel "Continuity of pan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-continuity-B
+  rdf:type skos:Concept ;
+  dct:description "broken by cracks and fragments are disoriented" ;
+  rdfs:label "Broken" ;
+  skos:definition "broken by cracks and fragments are disoriented" ;
+  skos:notation "B" ;
+  skos:prefLabel "Broken" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-continuity-C
+  rdf:type skos:Concept ;
+  dct:description "extends as a layer with little or no break across 1 m or more" ;
+  rdfs:label "Continuous" ;
+  skos:definition "extends as a layer with little or no break across 1 m or more" ;
+  skos:notation "C" ;
+  skos:prefLabel "Continuous" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-continuity-D
+  rdf:type skos:Concept ;
+  dct:description "broken by cracks but original orientation of fragments is preserved" ;
+  rdfs:label "Discontinuous" ;
+  skos:definition "broken by cracks but original orientation of fragments is preserved" ;
+  skos:notation "D" ;
+  skos:prefLabel "Disontinuous" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-structure
+  rdf:type skos:Concept ;
+  dct:description "Structure of pan" ;
+  rdfs:comment "C_PAN_STRUCTURE" ;
+  rdfs:label "Structure of pan" ;
+  skos:definition "Structure of pan" ;
+  skos:narrower sp:pans-structure-C ;
+  skos:narrower sp:pans-structure-L ;
+  skos:narrower sp:pans-structure-N ;
+  skos:narrower sp:pans-structure-R ;
+  skos:narrower sp:pans-structure-S ;
+  skos:narrower sp:pans-structure-V ;
+  skos:prefLabel "Structure of pan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-structure-C
+  rdf:type skos:Concept ;
+  dct:description "spheroidal concretions cemented together" ;
+  rdfs:label "Concretionary" ;
+  skos:definition "spheroidal concretions cemented together" ;
+  skos:notation "C" ;
+  skos:prefLabel "Concretionary" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-structure-L
+  rdf:type skos:Concept ;
+  dct:description "plate-like units cemented together" ;
+  rdfs:label "Platy" ;
+  skos:definition "plate-like units cemented together" ;
+  skos:notation "L" ;
+  skos:prefLabel "Platy" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-structure-N
+  rdf:type skos:Concept ;
+  dct:description "nodules of irregular shape cemented together" ;
+  rdfs:label "Nodular" ;
+  skos:definition "nodules of irregular shape cemented together" ;
+  skos:notation "N" ;
+  skos:prefLabel "Nodular" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-structure-R
+  rdf:type skos:Concept ;
+  dct:description "worm-like structure and/or cavities" ;
+  rdfs:label "Vermicular" ;
+  skos:definition "worm-like structure and/or cavities" ;
+  skos:notation "R" ;
+  skos:prefLabel "Vermicular" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-structure-S
+  rdf:type skos:Concept ;
+  dct:description "sponge-like structure having large pores, which may or may not be filled with softer material" ;
+  rdfs:label "Vesicular" ;
+  skos:definition "sponge-like structure having large pores, which may or may not be filled with softer material" ;
+  skos:notation "S" ;
+  skos:prefLabel "Vesicular" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-structure-V
+  rdf:type skos:Concept ;
+  dct:description "no recognisable structure" ;
+  rdfs:label "Massive" ;
+  skos:definition "no recognisable structure" ;
+  skos:notation "V" ;
+  skos:prefLabel "Massive" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type
+  rdf:type skos:Concept ;
+  dct:description "Type of pan" ;
+  rdfs:comment "C_PAN_TYPE" ;
+  rdfs:label "Type of pan" ;
+  skos:definition "Type of pan" ;
+  skos:narrower sp:pans-type-A ;
+  skos:narrower sp:pans-type-C ;
+  skos:narrower sp:pans-type-D ;
+  skos:narrower sp:pans-type-E ;
+  skos:narrower sp:pans-type-F ;
+  skos:narrower sp:pans-type-I ;
+  skos:narrower sp:pans-type-K ;
+  skos:narrower sp:pans-type-L ;
+  skos:narrower sp:pans-type-M ;
+  skos:narrower sp:pans-type-N ;
+  skos:narrower sp:pans-type-O ;
+  skos:narrower sp:pans-type-R ;
+  skos:narrower sp:pans-type-T ;
+  skos:narrower sp:pans-type-V ;
+  skos:narrower sp:pans-type-Z ;
+  skos:prefLabel "Type of pan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-A
+  rdf:type skos:Concept ;
+  dct:description "indurated material rich in aluminium hydroxides. Commonly consists of cemented pisoliths and usually known as bauxite" ;
+  rdfs:label "Alcrete" ;
+  skos:altLabel "Bauxite" ;
+  skos:definition "indurated material rich in aluminium hydroxides. Commonly consists of cemented pisoliths and usually known as bauxite" ;
+  skos:notation "A" ;
+  skos:prefLabel "Alcrete" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-C
+  rdf:type skos:Concept ;
+  dct:description "horizon relatively high in organic matter but low in iron. It is relatively thick and weakly to strongly cemented by aluminium and usually becomes progressively more cemented with depth. It is usually relatively uniform in appearance laterally. It is commonly the B horizon of humus podzols, where it is often known as coffee rock or sandrock" ;
+  rdfs:label "Organic pan" ;
+  skos:definition "horizon relatively high in organic matter but low in iron. It is relatively thick and weakly to strongly cemented by aluminium and usually becomes progressively more cemented with depth. It is usually relatively uniform in appearance laterally. It is commonly the B horizon of humus podzols, where it is often known as coffee rock or sandrock" ;
+  skos:notation "C" ;
+  skos:prefLabel "Organic pan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-D
+  rdf:type skos:Concept ;
+  dct:description "earthy pan so cemented by silica that dry fragments do not slake in water and are always brittle, even after prolonged wetting. (Described by Soil Survey Staff (1975).)" ;
+  rdfs:label "Duripan" ;
+  skos:definition "earthy pan so cemented by silica that dry fragments do not slake in water and are always brittle, even after prolonged wetting. (Described by Soil Survey Staff (1975).)" ;
+  skos:notation "D" ;
+  skos:prefLabel "Duripan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-E
+  rdf:type skos:Concept ;
+  dct:description "indurated material rich in hydrated oxides of iron (usually goethite and hematite) occurring as cemented nodules and/or concretions, or as massive sheets. This material has been commonly referred to in local usage around Australia as laterite, duricrust or ironstone" ;
+  rdfs:label "Ferricrete" ;
+  skos:definition "indurated material rich in hydrated oxides of iron (usually goethite and hematite) occurring as cemented nodules and/or concretions, or as massive sheets. This material has been commonly referred to in local usage around Australia as laterite, duricrust or ironstone" ;
+  skos:notation "E" ;
+  skos:prefLabel "Ferricrete" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-F
+  rdf:type skos:Concept ;
+  dct:description "earthy pan, which is usually loamy. A dry fragment slakes in water. A wet fragment does not slake in water but has moderate or weak brittleness. Fragipans are more stable on exposure than overlying or underlying horizons. (Described by Soil Survey Staff (1975).)" ;
+  rdfs:label "Fragipan" ;
+  skos:definition "earthy pan, which is usually loamy. A dry fragment slakes in water. A wet fragment does not slake in water but has moderate or weak brittleness. Fragipans are more stable on exposure than overlying or underlying horizons. (Described by Soil Survey Staff (1975).)" ;
+  skos:notation "F" ;
+  skos:prefLabel "Fragipan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-I
+  rdf:type skos:Concept ;
+  dct:description "commonly thin (2–10 mm), black to dark reddish pan cemented by iron, iron and manganese, or iron – organic matter complexes. Rarely 40 mm thick. Has wavy or convolute form and usually occurs as a single pan. This is a placic horizon (described by Soil Survey Staff (1975))" ;
+  rdfs:label "Thin ironpan" ;
+  skos:definition "commonly thin (2–10 mm), black to dark reddish pan cemented by iron, iron and manganese, or iron – organic matter complexes. Rarely 40 mm thick. Has wavy or convolute form and usually occurs as a single pan. This is a placic horizon (described by Soil Survey Staff (1975))" ;
+  skos:notation "I" ;
+  skos:prefLabel "Thin ironpan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-K
+  rdf:type skos:Concept ;
+  dct:description "any cemented, terrestrial carbonate accumulation that may vary significantly in morphology and degree of cementation. Also known as carbonate pan, calcareous pan, caliche, kunkar, secondary limestone, travertine. All show slight to strong effervescence with 1-molar HCl" ;
+  rdfs:label "Calcrete" ;
+  skos:definition "any cemented, terrestrial carbonate accumulation that may vary significantly in morphology and degree of cementation. Also known as carbonate pan, calcareous pan, caliche, kunkar, secondary limestone, travertine. All show slight to strong effervescence with 1-molar HCl" ;
+  skos:notation "K" ;
+  skos:prefLabel "Calcrete" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-L
+  rdf:type skos:Concept ;
+  dct:description "strongly indurated siliceous material cemented by, and largely composed of, forms of silica, including quartz, chalcedony, opal and chert" ;
+  rdfs:label "Silcrete" ;
+  skos:definition "strongly indurated siliceous material cemented by, and largely composed of, forms of silica, including quartz, chalcedony, opal and chert" ;
+  skos:notation "L" ;
+  skos:prefLabel "Silcrete" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-M
+  rdf:type skos:Concept ;
+  dct:description "indurated material dominated by oxides of manganese" ;
+  rdfs:label "Manganiferous pan" ;
+  skos:definition "indurated material dominated by oxides of manganese" ;
+  skos:notation "M" ;
+  skos:prefLabel "Manganiferous pan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-N
+  rdf:type skos:Concept ;
+  dct:description "earthy pan, which is very fine sandy (0.02–0.05 mm). Fragments, both wet and dry, slake in water. Densipans are less stable on exposure than overlying or underlying horizons. (Described by Smith et al. (1975).)" ;
+  rdfs:label "Densipan" ;
+  skos:definition "earthy pan, which is very fine sandy (0.02–0.05 mm). Fragments, both wet and dry, slake in water. Densipans are less stable on exposure than overlying or underlying horizons. (Described by Smith et al. (1975).)" ;
+  skos:notation "N" ;
+  skos:prefLabel "Densipan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-O
+  rdf:type skos:Concept ;
+  dct:description "Other pans" ;
+  rdfs:label "Other pans" ;
+  skos:definition "Other pans" ;
+  skos:notation "O" ;
+  skos:prefLabel "Other pans" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-R
+  rdf:type skos:Concept ;
+  dct:description "earthy pan, which is normally reddish brown to red with dense yet porous appearance; it is very hard, has an irregular laminar cleavage and some vertical cracks, and varies from less than 0.3 m to over 30 m thick. Other variable features are bedded and unsorted sand and gravel lenses; wavy black veinings, probably manganiferous; and, less commonly, off-white veins of calcium carbonate. (The presence of calcium carbonate is not common and the red-brown hardpan in which it occurs may be relatively brittle and finely laminar.) The red-brown hardpan is usually present below the soil profile and is not a feature of any particular soil group. (It has some similarity with other silica pans such as duripans of arid climates). In many instances, it is not known if the red-brown hardpan is a paleosol or a cemented sediment (Wright 1983). If thought to be the latter, it may be described as a substrate material " ;
+  rdfs:label "Red-brown hardpan" ;
+  skos:definition "earthy pan, which is normally reddish brown to red with dense yet porous appearance; it is very hard, has an irregular laminar cleavage and some vertical cracks, and varies from less than 0.3 m to over 30 m thick. Other variable features are bedded and unsorted sand and gravel lenses; wavy black veinings, probably manganiferous; and, less commonly, off-white veins of calcium carbonate. (The presence of calcium carbonate is not common and the red-brown hardpan in which it occurs may be relatively brittle and finely laminar.) The red-brown hardpan is usually present below the soil profile and is not a feature of any particular soil group. (It has some similarity with other silica pans such as duripans of arid climates). In many instances, it is not known if the red-brown hardpan is a paleosol or a cemented sediment (Wright 1983). If thought to be the latter, it may be described as a substrate material " ;
+  skos:notation "R" ;
+  skos:prefLabel "Red-brown hardpan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-T
+  rdf:type skos:Concept ;
+  dct:description "horizon strongly cemented by iron and organic matter. It has marked local variability in colour, both laterally and vertically. It may occur in the B horizon of podzols" ;
+  rdfs:label "Ortstein" ;
+  skos:definition "horizon strongly cemented by iron and organic matter. It has marked local variability in colour, both laterally and vertically. It may occur in the B horizon of podzols" ;
+  skos:notation "T" ;
+  skos:prefLabel "Ortstein" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-V
+  rdf:type skos:Concept ;
+  dct:description "subsurface soil horizon having higher bulk density, lower total porosity, and lower permeability to both air and water than horizons directly above and below as a result of cultivation practices. (After Morse et al. 1987.)" ;
+  rdfs:label "Cultivation pan" ;
+  skos:definition "subsurface soil horizon having higher bulk density, lower total porosity, and lower permeability to both air and water than horizons directly above and below as a result of cultivation practices. (After Morse et al. 1987.)" ;
+  skos:notation "V" ;
+  skos:prefLabel "Cultivation pan" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:pans-type-Z
+  rdf:type skos:Concept ;
+  dct:description "Zero of no pan" ;
+  rdfs:label "Zero of no pan" ;
+  skos:definition "Zero of no pan" ;
+  skos:notation "Z" ;
+  skos:prefLabel "Zero of no pan" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:roots
@@ -5902,6 +6173,412 @@ sp:structure-pedality-type-SB
   skos:notation "SB" ;
   skos:prefLabel "Subangular blocky" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:surfacecondition
+  rdf:type skos:Concept ;
+  dct:description "Many surface soils have a characteristic appearance when dry. Because surface conditions are often relevant to the use of the soil and indicative of particular kinds of soil, every effort should be made to observe the surface condition in the dry state. The surface conditions are not necessarily mutually exclusive" ;
+  rdfs:label "Condition of surface soil when dry" ;
+  skos:definition "Many surface soils have a characteristic appearance when dry. Because surface conditions are often relevant to the use of the soil and indicative of particular kinds of soil, every effort should be made to observe the surface condition in the dry state. The surface conditions are not necessarily mutually exclusive" ;
+  skos:narrower sp:surfacecondition-C ;
+  skos:narrower sp:surfacecondition-F ;
+  skos:narrower sp:surfacecondition-G ;
+  skos:narrower sp:surfacecondition-H ;
+  skos:narrower sp:surfacecondition-L ;
+  skos:narrower sp:surfacecondition-M ;
+  skos:narrower sp:surfacecondition-O ;
+  skos:narrower sp:surfacecondition-P ;
+  skos:narrower sp:surfacecondition-R ;
+  skos:narrower sp:surfacecondition-S ;
+  skos:narrower sp:surfacecondition-T ;
+  skos:narrower sp:surfacecondition-X ;
+  skos:narrower sp:surfacecondition-Y ;
+  skos:narrower sp:surfacecondition-Z ;
+  skos:prefLabel "Condition of surface soil when dry" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:surfacecondition-C
+  rdf:type skos:Concept ;
+  dct:description "distinct surface layer, often laminated, ranging in thickness from a few millimetres to a few tens of millimetres, which is hard and brittle when dry and cannot be readily separated from, and lifted off, the underlying soil material" ;
+  rdfs:label "Surface crust" ;
+  skos:definition "distinct surface layer, often laminated, ranging in thickness from a few millimetres to a few tens of millimetres, which is hard and brittle when dry and cannot be readily separated from, and lifted off, the underlying soil material" ;
+  skos:notation "C" ;
+  skos:prefLabel "Surface crust"@en ;
+.
+sp:surfacecondition-F
+  rdf:type skos:Concept ;
+  dct:description "coherent mass of individual particles or aggregates. Surface disturbed or indented by moderate pressure of forefinger" ;
+  rdfs:label "Firm" ;
+  skos:definition "coherent mass of individual particles or aggregates. Surface disturbed or indented by moderate pressure of forefinger" ;
+  skos:notation "F" ;
+  skos:note "Coherent means that two-thirds of the soil material, whether composed of peds or not, will remain united at the given moisture state unless force is applied" ;
+  skos:prefLabel "Firm"@en ;
+.
+sp:surfacecondition-G
+  rdf:type skos:Concept ;
+  dct:description "cracks at least 5 mm wide and extending upwards to the surface or to the base of any plough layer or thin (<0.03 m) surface horizon" ;
+  rdfs:label "Cracking" ;
+  skos:definition "cracks at least 5 mm wide and extending upwards to the surface or to the base of any plough layer or thin (<0.03 m) surface horizon" ;
+  skos:notation "G" ;
+  skos:prefLabel "Cracking"@en ;
+.
+sp:surfacecondition-H
+  rdf:type skos:Concept ;
+  dct:description "compact, hard, apparently apedal condition forms on drying but softens on wetting. When dry, the material is hard below any surface crust or flake that may occur, and is not disturbed or indented by pressure of forefinger" ;
+  rdfs:label "Hard setting" ;
+  skos:definition "compact, hard, apparently apedal condition forms on drying but softens on wetting. When dry, the material is hard below any surface crust or flake that may occur, and is not disturbed or indented by pressure of forefinger" ;
+  skos:notation "H" ;
+  skos:prefLabel "Hard setting"@en ;
+.
+sp:surfacecondition-L
+  rdf:type skos:Concept ;
+  dct:description "incoherent mass of individual particles or aggregates. Surface easily disturbed by pressure of forefinger" ;
+  rdfs:label "Loose" ;
+  skos:definition "incoherent mass of individual particles or aggregates. Surface easily disturbed by pressure of forefinger" ;
+  skos:notation "L" ;
+  skos:note "Incoherent means that less than two-thirds of the soil material, whether composed of peds or not, will remain united at the given moisture state without very small force (force 1, see ‘Consistence’) having been applied" ;
+  skos:prefLabel "Loose"@en ;
+.
+sp:surfacecondition-M
+  rdf:type skos:Concept ;
+  dct:description "strongly pedal loose surface mulch forms on wetting and drying. Peds commonly less than 5 mm in least dimension" ;
+  rdfs:label "Self-mulching" ;
+  skos:definition "strongly pedal loose surface mulch forms on wetting and drying. Peds commonly less than 5 mm in least dimension" ;
+  skos:notation "M" ;
+  skos:prefLabel "Self-mulching"@en ;
+.
+sp:surfacecondition-O
+  rdf:type skos:Concept ;
+  dct:description "Other" ;
+  rdfs:label "Other" ;
+  skos:definition "Other" ;
+  skos:notation "O" ;
+  skos:prefLabel "Other"@en ;
+.
+sp:surfacecondition-P
+  rdf:type skos:Concept ;
+  dct:description "soil that has been extensively trampled under wet conditions by hoofed animals" ;
+  rdfs:label "Poached" ;
+  skos:definition "soil that has been extensively trampled under wet conditions by hoofed animals" ;
+  skos:notation "P" ;
+  skos:prefLabel "Poached"@en ;
+.
+sp:surfacecondition-R
+  rdf:type skos:Concept ;
+  dct:description "effect of cultivation is obvious" ;
+  rdfs:label "Recently cultivated" ;
+  skos:definition "effect of cultivation is obvious" ;
+  skos:notation "R" ;
+  skos:prefLabel "Recently cultivated"@en ;
+.
+sp:surfacecondition-S
+  rdf:type skos:Concept ;
+  dct:description "coherent mass of individual particles or aggregates. Surface easily disturbed by pressure of forefinger" ;
+  rdfs:label "Soft" ;
+  skos:definition "coherent mass of individual particles or aggregates. Surface easily disturbed by pressure of forefinger" ;
+  skos:notation "S" ;
+  skos:note "Coherent means that two-thirds of the soil material, whether composed of peds or not, will remain united at the given moisture state unless force is applied" ;
+  skos:prefLabel "Soft"@en ;
+.
+sp:surfacecondition-T
+  rdf:type skos:Concept ;
+  dct:description "soil that has been extensively trampled under dry conditions by hoofed animals" ;
+  rdfs:label "Trampled" ;
+  skos:definition "soil that has been extensively trampled under dry conditions by hoofed animals" ;
+  skos:notation "T" ;
+  skos:prefLabel "Trampled"@en ;
+.
+sp:surfacecondition-X
+  rdf:type skos:Concept ;
+  dct:description "thin, massive surface layer, usually less than 10 mm thick, which on drying separates from, and can be readily lifted off, the soil below. It usually consists mainly of dispersed clay, and may become increasingly fragile as the soil dries" ;
+  rdfs:label "Surface flake" ;
+  skos:definition "thin, massive surface layer, usually less than 10 mm thick, which on drying separates from, and can be readily lifted off, the soil below. It usually consists mainly of dispersed clay, and may become increasingly fragile as the soil dries" ;
+  skos:notation "X" ;
+  skos:prefLabel "Surface flake"@en ;
+.
+sp:surfacecondition-Y
+  rdf:type skos:Concept ;
+  dct:description "thin, more or less continuous crust of biologically stabilised soil material usually due to algae, liverworts and mosses" ;
+  rdfs:label "Cryptogam surface" ;
+  skos:definition "thin, more or less continuous crust of biologically stabilised soil material usually due to algae, liverworts and mosses" ;
+  skos:notation "Y" ;
+  skos:prefLabel "Cryptogam surface"@en ;
+.
+sp:surfacecondition-Z
+  rdf:type skos:Concept ;
+  dct:description "surface has visible salt, or salinity is evident from the absence or nature of the vegetation or from soil consistence. These conditions are characterised by their notable difference from adjacent non-saline areas" ;
+  rdfs:label "Saline" ;
+  skos:definition "surface has visible salt, or salinity is evident from the absence or nature of the vegetation or from soil consistence. These conditions are characterised by their notable difference from adjacent non-saline areas" ;
+  skos:notation "Z" ;
+  skos:prefLabel "Saline"@en ;
+.
+sp:voids
+  rdf:type skos:Concept ;
+  dc:description "This is a general term for pore space and other openings in soils not occupied by solid mineral matter. The most important are cracks (planar voids) and pores, which are approximately circular in cross-section" ;
+  dct:description "This is a general term for pore space and other openings in soils not occupied by solid mineral matter. The most important are cracks (planar voids) and pores, which are approximately circular in cross-section" ;
+  rdfs:label "Voids" ;
+  skos:definition "This is a general term for pore space and other openings in soils not occupied by solid mineral matter. The most important are cracks (planar voids) and pores, which are approximately circular in cross-section" ;
+  skos:narrower sp:voids-cracks ;
+  skos:narrower sp:voids-macropores ;
+  skos:narrower sp:voids-micropores ;
+  skos:prefLabel "Voids" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-cracks
+  rdf:type skos:Concept ;
+  dct:description "Planar voids" ;
+  rdfs:label "Cracks" ;
+  skos:definition "Planar voids" ;
+  skos:prefLabel "Cracks" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-cracks-1
+  rdf:type skos:Concept ;
+  dc:description "<5 mm" ;
+  dct:description "<5 mm" ;
+  rdfs:label "Fine" ;
+  skos:definition "<5 mm" ;
+  skos:notation "1" ;
+  skos:prefLabel "Fine" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-cracks-2
+  rdf:type skos:Concept ;
+  dc:description "5 - 10 mm" ;
+  dct:description "5 - 10 mm" ;
+  rdfs:label "Medium" ;
+  skos:definition "5 - 10 mm" ;
+  skos:notation "2" ;
+  skos:prefLabel "Medium" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-cracks-3
+  rdf:type skos:Concept ;
+  dc:description "10–20 mm" ;
+  dct:description "10–20 mm" ;
+  rdfs:label "Coarse" ;
+  skos:definition "10–20 mm" ;
+  skos:notation "3" ;
+  skos:prefLabel "Coarse" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-cracks-4
+  rdf:type skos:Concept ;
+  dc:description "20–50 mm" ;
+  dct:description "20–50 mm" ;
+  rdfs:label "Very coarse" ;
+  skos:definition "20–50 mm" ;
+  skos:notation "4" ;
+  skos:prefLabel "Very coarse" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-cracks-5
+  rdf:type skos:Concept ;
+  dc:description "20–50 mm" ;
+  dct:description "20–50 mm" ;
+  rdfs:label "Extremely coarse" ;
+  skos:definition "20–50 mm" ;
+  skos:notation "5" ;
+  skos:prefLabel "Extremely coarse" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores
+  rdf:type skos:Concept ;
+  dct:description "voids that are approximately circular in cross-section and greater than 0.075 mm diameter" ;
+  rdfs:label "Macropores" ;
+  skos:definition "voids that are approximately circular in cross-section and greater than 0.075 mm diameter" ;
+  skos:narrower sp:voids-macropores-abundance ;
+  skos:narrower sp:voids-macropores-diameter ;
+  skos:note "Only macropores can be seen with the naked eye" ;
+  skos:prefLabel "Macropores" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-abundance
+  rdf:type skos:Concept ;
+  dct:description "abundance of macropores based relevant to the diameter of the macropores" ;
+  rdfs:comment "N_PORE_ABUN" ;
+  rdfs:label "Abundance of macropores" ;
+  skos:definition "abundance of macropores based relevant to the diameter of the macropores" ;
+  skos:narrower sp:voids-macropores-abundance-0 ;
+  skos:narrower sp:voids-macropores-abundance-1 ;
+  skos:narrower sp:voids-macropores-abundance-2 ;
+  skos:narrower sp:voids-macropores-abundance-3 ;
+  skos:narrower sp:voids-macropores-abundance-4 ;
+  skos:narrower sp:voids-macropores-abundance-5 ;
+  skos:narrower sp:voids-macropores-abundance-6 ;
+  skos:prefLabel "Abundance of macropores" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-abundance-0
+  rdf:type skos:Concept ;
+  dc:description "No fine, very fine, medium or coarse macropores" ;
+  dct:description "No fine, very fine, medium or coarse macropores" ;
+  rdfs:label "No fine, very fine, medium or coarse macropores" ;
+  skos:definition "No fine, very fine, medium or coarse macropores" ;
+  skos:notation "0" ;
+  skos:prefLabel "No fine, very fine, medium or coarse macropores" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-abundance-1
+  rdf:type skos:Concept ;
+  dc:description "<1 per 100 mm2 of diameter less than 2mm" ;
+  dct:description "<1 per 100 mm2 of diameter less than 2mm" ;
+  rdfs:label "Few fine or very fine macropores" ;
+  skos:definition "<1 per 100 mm2 of diameter less than 2mm" ;
+  skos:notation "1" ;
+  skos:prefLabel "Few fine or very fine macropores" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-abundance-2
+  rdf:type skos:Concept ;
+  dc:description "1–5 per 100 mm2 of diameter less than 2mm" ;
+  dct:description "1–5 per 100 mm2 of diameter less than 2mm" ;
+  rdfs:label "Common fine or very fine macropores" ;
+  skos:definition "1–5 per 100 mm2 of diameter less than 2mm" ;
+  skos:notation "2" ;
+  skos:prefLabel "Common fine or very fine macropores" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-abundance-3
+  rdf:type skos:Concept ;
+  dc:description ">5 per 100 mm2 of diameter less than 2mm" ;
+  dct:description ">5 per 100 mm2 of diameter less than 2mm" ;
+  rdfs:label "Many fine or very fine macropores" ;
+  skos:definition ">5 per 100 mm2 of diameter less than 2mm" ;
+  skos:notation "3" ;
+  skos:prefLabel "Many fine or very fine macropores" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-abundance-4
+  rdf:type skos:Concept ;
+  dc:description "<1 per 0.01 m2 of diameter greater than 2mm" ;
+  dct:description "<1 per 0.01 m2 of diameter greater than 2mm" ;
+  rdfs:label "Few medium or coarse macropores" ;
+  skos:definition "<1 per 0.01 m2 of diameter greater than 2mm" ;
+  skos:notation "4" ;
+  skos:prefLabel "Few medium or coarse macropores" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-abundance-5
+  rdf:type skos:Concept ;
+  dc:description "1–5 per 0.01 m2 of diameter greater than 2mm" ;
+  dct:description "1–5 per 0.01 m2 of diameter greater than 2mm" ;
+  rdfs:label "Common medium or coarse macropores" ;
+  skos:definition "1–5 per 0.01 m2 of diameter greater than 2mm" ;
+  skos:notation "5" ;
+  skos:prefLabel "Common medium or coarse macropores" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-abundance-6
+  rdf:type skos:Concept ;
+  dc:description ">5 per 0.01 m2 of diameter greater than 2mm" ;
+  dct:description ">5 per 0.01 m2 of diameter greater than 2mm" ;
+  rdfs:label "Many medium or coarse macropores" ;
+  skos:definition ">5 per 0.01 m2 of diameter greater than 2mm" ;
+  skos:notation "6" ;
+  skos:prefLabel "Many medium or coarse macropores" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-diameter
+  rdf:type skos:Concept ;
+  dct:description "Diameter of macropores Use Figure 18 as a guide to average diameter" ;
+  rdfs:comment "N_PORE_DIAMETER" ;
+  rdfs:label "Diameter of macropores" ;
+  skos:definition "Diameter of macropores Use Figure 18 as a guide to average diameter" ;
+  skos:narrower sp:voids-macropores-diameter-1 ;
+  skos:narrower sp:voids-macropores-diameter-2 ;
+  skos:narrower sp:voids-macropores-diameter-3 ;
+  skos:narrower sp:voids-macropores-diameter-4 ;
+  skos:prefLabel "Diameter of macropores" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-diameter-1
+  rdf:type skos:Concept ;
+  dc:description "0.075–1 mm" ;
+  dct:description "0.075–1 mm" ;
+  rdfs:label "Very fine" ;
+  skos:definition "0.075–1 m" ;
+  skos:notation "1" ;
+  skos:note "Use Figure 18 as a guide to average diameter" ;
+  skos:prefLabel "Very fine" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-diameter-2
+  rdf:type skos:Concept ;
+  dc:description "1–2 mm" ;
+  dct:description "1–2 mm" ;
+  rdfs:label "Fine" ;
+  skos:definition "1–2 mm" ;
+  skos:notation "2" ;
+  skos:note "Use Figure 18 as a guide to average diameter" ;
+  skos:prefLabel "Fine" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-diameter-3
+  rdf:type skos:Concept ;
+  dc:description "2–5 mm" ;
+  dct:description "2–5 mm" ;
+  rdfs:label "Medium" ;
+  skos:definition "2–5 mm" ;
+  skos:notation "3" ;
+  skos:note "Use Figure 18 as a guide to average diameter" ;
+  skos:prefLabel "Medium" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-macropores-diameter-4
+  rdf:type skos:Concept ;
+  dc:description ">5 mm" ;
+  dct:description ">5 mm" ;
+  rdfs:label "Coarse" ;
+  skos:definition ">5 mm" ;
+  skos:notation "4" ;
+  skos:note "Use Figure 18 as a guide to average diameter" ;
+  skos:prefLabel "Coarse" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-micropores
+  rdf:type skos:Concept ;
+  dct:description "voids that are approximately circular in cross-section and less than 0.075 mm diameter" ;
+  rdfs:label "Micropores" ;
+  skos:definition "voids that are approximately circular in cross-section and less than 0.075 mm diameter" ;
+  skos:note "Only macropores can be seen with the naked eye" ;
+  skos:prefLabel "Micropores" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:waterrepellence
+  rdf:type skos:Concept ;
+  dct:description "Water repellence of some soils, usually sandy, is caused by a series of long-chain polymethylene waxes, made up of acids, alcohols and esters, attached to the sand grains (Ma’shum et al. 1988). These soils occur Australia-wide but are more widespread in southern Australia (Wetherby 1984, McGhie and Posner 1980). Degree of repellence is assessed by determining the concentration of ethanol required to wet the sand in 10 seconds (King 1981). An abbreviated form of this method is recommended for routine field situations" ;
+  rdfs:label "Water repellence" ;
+  skos:definition "Water repellence of some soils, usually sandy, is caused by a series of long-chain polymethylene waxes, made up of acids, alcohols and esters, attached to the sand grains (Ma’shum et al. 1988). These soils occur Australia-wide but are more widespread in southern Australia (Wetherby 1984, McGhie and Posner 1980). Degree of repellence is assessed by determining the concentration of ethanol required to wet the sand in 10 seconds (King 1981). An abbreviated form of this method is recommended for routine field situations" ;
+  skos:narrower sp:waterrepellence-N ;
+  skos:narrower sp:waterrepellence-R ;
+  skos:narrower sp:waterrepellence-S ;
+  skos:note "Soil temperature at testing should be between 15ºC and 25ºC. Higher temperatures will increase, and lower decrease, rates of absorption. Industrial-grade methylated spirits, available from chemists, at a concentration of 23.9 ml per 200 ml water can be substituted for the 2-molar ethanol to obtain approximate values" ;
+  skos:prefLabel "Water repellence" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:waterrepellence-N
+  rdf:type skos:Concept ;
+  dct:description "water is absorbed into soil in 10 seconds or less" ;
+  rdfs:label "Non water repellent" ;
+  skos:definition "water is absorbed into soil in 10 seconds or less" ;
+  skos:notation "N" ;
+  skos:prefLabel "Non water repellent"@en ;
+.
+sp:waterrepellence-R
+  rdf:type skos:Concept ;
+  dct:description "water takes greater than 10 seconds and 2-molar ethanol takes 10 seconds or less to be absorbed into soil" ;
+  rdfs:label "Water repellent" ;
+  skos:definition "water takes greater than 10 seconds and 2-molar ethanol takes 10 seconds or less to be absorbed into soil" ;
+  skos:notation "R" ;
+  skos:prefLabel "Water repellent"@en ;
+.
+sp:waterrepellence-S
+  rdf:type skos:Concept ;
+  dct:description "2-molar ethanol takes greater than 10 seconds to be absorbed into soil" ;
+  rdfs:label "Strongly water repellent" ;
+  skos:definition "2-molar ethanol takes greater than 10 seconds to be absorbed into soil" ;
+  skos:notation "S" ;
+  skos:prefLabel "Strongly water repellent"@en ;
 .
 <http://www.w3.org/2002/07/owl>
   dct:description """
