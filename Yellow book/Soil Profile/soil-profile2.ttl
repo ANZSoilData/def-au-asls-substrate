@@ -4151,7 +4151,11 @@ sp:field-textures
 sp:horizon
   rdf:type skos:Concept ;
   dct:description "A soil horizon is a layer of soil, approximately parallel to the land surface, with morphological properties different from layers below and/or above it. Tongues of material from one horizon may penetrate into adjacent horizons." ;
-  rdfs:comment "As horizon notation is deduced from the profile description data (Northcote 1979) and in some instances laboratory data, record it after the profile is described. Horizons may be difficult to name, but should be named in the field. Opinions formed at the time of description are useful for later reference." ;
+  rdfs:comment """As horizon notation is deduced from the profile description data (Northcote 1979) and in some instances laboratory data, record it after the profile is described. Horizons may be difficult to name, but should be named in the field. Opinions formed at the time of description are useful for later reference.
+Cracking clays
+The A and B horizons in cracking clays are defined and recognised on the basis of structure rather than colour (McDonald 1977).
+The A horizon in cracking clays may be structured or massive. The structural A horizon is the granular, subangular blocky, angular blocky or polyhedral surface horizon where ped faces are not accommodated and have irregular coarse voids between them. This is exemplified in soils with a self-mulching surface. The A horizon structure is unstable only in the sense that relatively rapid wetting and drying continually creates new peds and voids.
+The B horizon is the coarse angular blocky and/or lenticular horizon where ped faces are all accommodated and usually have only narrow planar voids between them. The B horizon structure is stable because of relatively slow wetting and drying. The B horizon will usually occur within 200 mm of the surface, but the structural change must be confirmed using a spade or exposure to examine the soil. The boundary may often be gradual or diffuse, but can be clear or abrupt.""" ;
   rdfs:label "Horizon" ;
   skos:definition "A soil horizon is a layer of soil, approximately parallel to the land surface, with morphological properties different from layers below and/or above it. Tongues of material from one horizon may penetrate into adjacent horizons." ;
   skos:narrower sp:horizon-a ;
@@ -4163,6 +4167,7 @@ sp:horizon
   skos:narrower sp:horizon-p ;
   skos:narrower sp:horizon-prefix ;
   skos:narrower sp:horizon-r ;
+  skos:narrower sp:horizon-subdivision ;
   skos:narrower sp:horizon-suffix ;
   skos:narrower sp:horizon-transitional ;
   skos:prefLabel "Horizon" ;
@@ -4234,6 +4239,7 @@ sp:horizon-b2
 •	an illuvial, residual or other concentration of silicate clay, or iron, aluminium or humus, either alone or in combination
 •	maximum development of pedologic organisation* as evidenced by a different structure and/or consistence, and/or stronger colours than the A horizons above or any horizon immediately below.
 It may be divided into subhorizons, for example B21, B22, B23.""" ;
+  rdfs:comment "Pedologic organisation is a broad term used to include all changes in soil material resulting from the effect of physical, chemical and biologic processes, that is, soil formation. Results of these processes include horizonation, colour differences, presence of pedality, and texture and/or consistence changes" ;
   rdfs:label "B2 horizon" ;
   skos:broader sp:horizon-b ;
   skos:definition """Horizon in which the dominant feature is one or more of the following:
@@ -4301,6 +4307,16 @@ sp:horizon-d
   skos:definition "Considered to be any soil material below the solum that is unlike the solum in its general character, is not C horizon, and cannot be given reliable horizon designation as with ‘Buried soils’ or ‘Lithologic discontinuities’. Thus a D horizon may be recognised by the contrast in pedologic organisation between it and the overlying horizons." ;
   skos:notation "D" ;
   skos:prefLabel "D Horizon" ;
+.
+sp:horizon-depth
+  rdf:type skos:Concept ;
+  dct:description """The upper and lower depths, in metres, of each horizon are measured from the soil surface, excluding O horizons. O horizon depths are measured above the mineral soil surface, for example O1 0.12–0.10 m, O2 0.1–0.0 m.
+A scaled horizon diagram may be useful where horizons are irregular.""" ;
+  rdfs:label "Depth of Horizons" ;
+  skos:broader sp:horizon ;
+  skos:definition """The upper and lower depths, in metres, of each horizon are measured from the soil surface, excluding O horizons. O horizon depths are measured above the mineral soil surface, for example O1 0.12–0.10 m, O2 0.1–0.0 m.
+A scaled horizon diagram may be useful where horizons are irregular.""" ;
+  skos:prefLabel "Depth of Horizons" ;
 .
 sp:horizon-o
   rdf:type skos:Concept ;
@@ -4381,6 +4397,18 @@ sp:horizon-r
   skos:definition "These horizons consist of continuous masses (not boulders) of moderately strong to very strong rock (excluding pans) such as bedrock. R horizons may have cracks but these are few enough and/or fine enough that few roots penetrate and there is no significant displacement of rock. It is usually too strong to dig with hand tools, even when moist." ;
   skos:notation "R" ;
   skos:prefLabel "R Horizon" ;
+.
+sp:horizon-subdivision
+  rdf:type skos:Concept ;
+  dct:description """All horizon subdivisions are numbered consecutively from the top of each horizon downward, as in A11, A12, A2, B21, B22, B23. The numeric suffix always precedes the alphabetic suffix except with the alphabetic suffix ‘p’ where the number always follows the letter.
+The above horizon nomenclature will cover most soils, but there will be instances where there are buried soils (pedologic discontinuities) (Figure 14) and also where a profile has formed on what are obviously different parent materials (lithologic discontinuities) (Figure 13). Where there are buried soils and it is not possible to identify reliably the horizon as A or B, then these are D horizons, for example Profile E, Figure 13.
+""" ;
+  rdfs:label "Subdivision of horizons" ;
+  skos:broader sp:horizon ;
+  skos:definition """All horizon subdivisions are numbered consecutively from the top of each horizon downward, as in A11, A12, A2, B21, B22, B23. The numeric suffix always precedes the alphabetic suffix except with the alphabetic suffix ‘p’ where the number always follows the letter.
+The above horizon nomenclature will cover most soils, but there will be instances where there are buried soils (pedologic discontinuities) (Figure 14) and also where a profile has formed on what are obviously different parent materials (lithologic discontinuities) (Figure 13). Where there are buried soils and it is not possible to identify reliably the horizon as A or B, then these are D horizons, for example Profile E, Figure 13.
+""" ;
+  skos:prefLabel "Subdivision of horizons" ;
 .
 sp:horizon-suffix
   rdf:type skos:Concept ;
