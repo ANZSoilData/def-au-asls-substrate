@@ -1789,6 +1789,200 @@ sp:consistence-strengths
   skos:member sp:consistence-strength-7 ;
   skos:prefLabel "Strengths" ;
 .
+sp:cutans
+  rdf:type skos:Concept ;
+  dct:description """A cutan is a modification of the texture, structure or fabric at natural surfaces in soil materials; it arises from concentration of particular soil constitutents or in situ modification of the plasma. Cutans comprise any of the component substances of the soil material (Brewer 1964).
+Cutans may be observed in the field (a ×10 hand lens is usually necessary) but their nature is often difficult to determine unless a thin section is made. Hence the following simple classification.""" ;
+  rdfs:label "Cutans" ;
+  skos:definition """A cutan is a modification of the texture, structure or fabric at natural surfaces in soil materials; it arises from concentration of particular soil constitutents or in situ modification of the plasma. Cutans comprise any of the component substances of the soil material (Brewer 1964).
+Cutans may be observed in the field (a ×10 hand lens is usually necessary) but their nature is often difficult to determine unless a thin section is made. Hence the following simple classification.""" ;
+  skos:narrower sp:cutans-abundance ;
+  skos:narrower sp:cutans-distinctness ;
+  skos:narrower sp:cutans-type ;
+  skos:prefLabel "Cutans" ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-abundance
+  rdf:type skos:Concept ;
+  dct:description "Abundance of cutans" ;
+  rdfs:comment "N_CUTAN_ABUN" ;
+  rdfs:label "Abundance of cutans" ;
+  skos:definition "Abundance of cutans" ;
+  skos:narrower sp:cutans-abundance-0 ;
+  skos:narrower sp:cutans-abundance-1 ;
+  skos:narrower sp:cutans-abundance-2 ;
+  skos:narrower sp:cutans-abundance-3 ;
+  skos:prefLabel "Abundance of cutans"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-abundance-0
+  rdf:type skos:Concept ;
+  dct:description "0" ;
+  rdfs:comment "N_CUTAN_ABUN" ;
+  rdfs:label "No cutans" ;
+  skos:definition "0" ;
+  skos:notation "0" ;
+  skos:prefLabel "No cutans"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-abundance-1
+  rdf:type skos:Concept ;
+  dct:description "<10% of ped faces or pore walls with cutans" ;
+  rdfs:comment "N_CUTAN_ABUN" ;
+  rdfs:label "Few" ;
+  skos:definition "<10% of ped faces or pore walls with cutans" ;
+  skos:notation "1" ;
+  skos:prefLabel "Few"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-abundance-2
+  rdf:type skos:Concept ;
+  dct:description "10–50% of ped faces or pore walls with cutans" ;
+  rdfs:comment "N_CUTAN_ABUN" ;
+  rdfs:label "Common" ;
+  skos:definition "10–50% of ped faces or pore walls with cutans" ;
+  skos:notation "2" ;
+  skos:prefLabel "Common"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-abundance-3
+  rdf:type skos:Concept ;
+  dct:description ">50% of ped faces or pore walls with cutans" ;
+  rdfs:comment "N_CUTAN_ABUN" ;
+  rdfs:label "Many" ;
+  skos:definition ">50% of ped faces or pore walls with cutans" ;
+  skos:notation "3" ;
+  skos:prefLabel "Many"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-distinctness
+  rdf:type skos:Concept ;
+  dct:description "Distinctness of cutans" ;
+  rdfs:comment "C_CUTAN_DISTINCT" ;
+  rdfs:label "Cutan distinctness refers to the ease and certainty with which a cutan is identified. Distinctness relates to thickness and to the colour contrast with the adjacent material; it may change markedly with moisture content" ;
+  skos:definition "Distinctness of cutans" ;
+  skos:narrower sp:cutans-distinctness-D ;
+  skos:narrower sp:cutans-distinctness-F ;
+  skos:narrower sp:cutans-distinctness-P ;
+  skos:prefLabel "Cutan distinctness refers to the ease and certainty with which a cutan is identified. Distinctness relates to thickness and to the colour contrast with the adjacent material; it may change markedly with moisture content"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-distinctness-D
+  rdf:type skos:Concept ;
+  dct:description "can be detected without magnification. Contrast with adjacent material is evident in colour, texture or other properties" ;
+  rdfs:comment "C_CUTAN_DISTINCT" ;
+  rdfs:label "Distinct" ;
+  skos:definition "can be detected without magnification. Contrast with adjacent material is evident in colour, texture or other properties" ;
+  skos:notation "D" ;
+  skos:prefLabel "Distinct"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-distinctness-F
+  rdf:type skos:Concept ;
+  dct:description "evident only on close examination with ×10 magnification. Little contrast with adjacent material" ;
+  rdfs:comment "C_CUTAN_DISTINCT" ;
+  rdfs:label "Faint" ;
+  skos:definition "evident only on close examination with ×10 magnification. Little contrast with adjacent material" ;
+  skos:notation "F" ;
+  skos:prefLabel "Faint"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-distinctness-P
+  rdf:type skos:Concept ;
+  dct:description "conspicuous without magnification when compared with a surface broken through the soil. Colour, texture or some other property contrasts sharply with properties of the adjacent material, or the feature is thick enough to be conspicuous" ;
+  rdfs:comment "C_CUTAN_DISTINCT" ;
+  rdfs:label "Prominent" ;
+  skos:definition "conspicuous without magnification when compared with a surface broken through the soil. Colour, texture or some other property contrasts sharply with properties of the adjacent material, or the feature is thick enough to be conspicuous" ;
+  skos:notation "P" ;
+  skos:prefLabel "Prominent"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-type
+  rdf:type skos:Concept ;
+  dct:description "Types of cutans" ;
+  rdfs:comment "C_CUTAN_TYPE" ;
+  rdfs:label "Types of cutans" ;
+  skos:definition "Types of cutans" ;
+  skos:narrower sp:cutans-type-C ;
+  skos:narrower sp:cutans-type-K ;
+  skos:narrower sp:cutans-type-M ;
+  skos:narrower sp:cutans-type-O ;
+  skos:narrower sp:cutans-type-S ;
+  skos:narrower sp:cutans-type-U ;
+  skos:narrower sp:cutans-type-Z ;
+  skos:prefLabel "Types of cutans"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-type-C
+  rdf:type skos:Concept ;
+  dct:description "coatings of clay often different in colour from the matrix of the ped. They are frequently difficult to distinguish from stress cutans, which are not true coatings" ;
+  rdfs:comment "C_CUTAN_TYPE" ;
+  rdfs:label "Clay skins" ;
+  skos:definition "coatings of clay often different in colour from the matrix of the ped. They are frequently difficult to distinguish from stress cutans, which are not true coatings" ;
+  skos:notation "C" ;
+  skos:prefLabel "Clay skins"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-type-K
+  rdf:type skos:Concept ;
+  dct:description "stress cutans with smooth striations or grooves" ;
+  rdfs:comment "C_CUTAN_TYPE" ;
+  rdfs:label "Slickensides" ;
+  skos:definition "stress cutans with smooth striations or grooves" ;
+  skos:notation "K" ;
+  skos:prefLabel "Slickensides"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-type-M
+  rdf:type skos:Concept ;
+  dct:description "coatings of manganese oxides or hydroxides. The material may have a glazed appearance and is very dark brown to black" ;
+  rdfs:comment "C_CUTAN_TYPE" ;
+  rdfs:label "Mangans" ;
+  skos:definition "coatings of manganese oxides or hydroxides. The material may have a glazed appearance and is very dark brown to black" ;
+  skos:notation "M" ;
+  skos:prefLabel "Mangans"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-type-O
+  rdf:type skos:Concept ;
+  dct:description "may be composed of iron oxides, organic matter, calcium carbonate or gypsum" ;
+  rdfs:comment "C_CUTAN_TYPE" ;
+  rdfs:label "Other cutans" ;
+  skos:definition "may be composed of iron oxides, organic matter, calcium carbonate or gypsum" ;
+  skos:notation "O" ;
+  skos:prefLabel "Other cutans"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-type-S
+  rdf:type skos:Concept ;
+  dct:description "in situ modifications of natural surfaces in soil materials due to differential forces such as shearing. They are not true coatings" ;
+  rdfs:comment "C_CUTAN_TYPE" ;
+  rdfs:label "Stress cutans" ;
+  skos:definition "in situ modifications of natural surfaces in soil materials due to differential forces such as shearing. They are not true coatings" ;
+  skos:notation "S" ;
+  skos:prefLabel "Stress cutans"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-type-U
+  rdf:type skos:Concept ;
+  dct:description "nature of cutans cannot be determined" ;
+  rdfs:comment "C_CUTAN_TYPE" ;
+  rdfs:label "Unspecified" ;
+  skos:definition "nature of cutans cannot be determined" ;
+  skos:notation "U" ;
+  skos:prefLabel "Unspecified"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-type-Z
+  rdf:type skos:Concept ;
+  dct:description "Zero or no cutans" ;
+  rdfs:comment "C_CUTAN_TYPE" ;
+  rdfs:label "Zero or no cutans" ;
+  skos:definition "Zero or no cutans" ;
+  skos:notation "Z" ;
+  skos:prefLabel "Zero or no cutans"@en ;
+  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
 sp:effervescence
   rdf:type skos:Concept ;
   dct:description "Effervescence of carbonate in fine earth using two or three drops of 1-molar HCl" ;
