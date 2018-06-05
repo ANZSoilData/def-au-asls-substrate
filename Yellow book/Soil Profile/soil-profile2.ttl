@@ -196,10 +196,10 @@ sp:coarse-fragments-distribution-U
 .
 sp:coarse-fragments-lithology
   rdf:type skos:Concept ;
-  dct:description "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop.   Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed.. Some coarse fragments are commonly encountered that are not directly related to the substrate material.   " ;
+  dct:description "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop.   Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.   " ;
   rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Lithology of coarse fragments" ;
-  skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop.   Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed.. Some coarse fragments are commonly encountered that are not directly related to the substrate material.   " ;
+  skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop.   Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.   " ;
   skos:narrower sp:coarse-fragments-lithology-AC ;
   skos:narrower sp:coarse-fragments-lithology-AD ;
   skos:narrower sp:coarse-fragments-lithology-AF ;
@@ -289,7 +289,7 @@ sp:coarse-fragments-lithology
   skos:narrower sp:coarse-fragments-lithology-VG ;
   skos:narrower sp:coarse-fragments-lithology-Z ;
   skos:narrower sp:coarse-fragments-lithology-ZS ;
-  skos:note "This concept should be expanded to include all codes from substrate material lithology.  A direct  match." ;
+  skos:note "This concept should be expanded to include all codes from substrate material lithology.  A direct match." ;
   skos:prefLabel "Lithology of coarse fragments" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
@@ -1712,10 +1712,10 @@ sp:consistence-strengths
 .
 sp:cutans
   rdf:type skos:Concept ;
-  dct:description """A cutan is a modification of the texture, structure or fabric at natural surfaces in soil materials; it arises from concentration of particular soil constitutents or in situ modification of the plasma. Cutans comprise any of the component substances of the soil material (Brewer 1964).
+  dct:description """A cutan is a modification of the texture, structure or fabric at natural surfaces in soil materials; it arises from concentration of particular soil constituents or in situ modification of the plasma. Cutans comprise any of the component substances of the soil material (Brewer 1964).
 Cutans may be observed in the field (a ×10 hand lens is usually necessary) but their nature is often difficult to determine unless a thin section is made. Hence the following simple classification.""" ;
   rdfs:label "Cutans" ;
-  skos:definition """A cutan is a modification of the texture, structure or fabric at natural surfaces in soil materials; it arises from concentration of particular soil constitutents or in situ modification of the plasma. Cutans comprise any of the component substances of the soil material (Brewer 1964).
+  skos:definition """A cutan is a modification of the texture, structure or fabric at natural surfaces in soil materials; it arises from concentration of particular soil constituents or in situ modification of the plasma. Cutans comprise any of the component substances of the soil material (Brewer 1964).
 Cutans may be observed in the field (a ×10 hand lens is usually necessary) but their nature is often difficult to determine unless a thin section is made. Hence the following simple classification.""" ;
   skos:narrower sp:cutans-abundance ;
   skos:narrower sp:cutans-distinctness ;
@@ -5285,7 +5285,7 @@ sp:pans-continuity-D
   rdfs:label "Discontinuous" ;
   skos:definition "broken by cracks but original orientation of fragments is preserved" ;
   skos:notation "D" ;
-  skos:prefLabel "Disontinuous" ;
+  skos:prefLabel "Discontinuous" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure
