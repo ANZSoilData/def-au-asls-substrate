@@ -27,6 +27,10 @@
   owl:imports dc: ;
   owl:imports <http://www.w3.org/2004/02/skos/core> ;
 .
+sp:boundaries-between-horizons
+  rdf:type skos:Collection ;
+  rdfs:label "Boundaries between horizons" ;
+.
 sp:boundary-distinctnesses
   rdf:type skos:Collection ;
   rdfs:label "Boundary distinctnesses" ;
@@ -61,6 +65,10 @@ sp:coarse-fragments
   skos:narrower sp:coarse-fragments-size ;
   skos:narrower sp:coarse-fragments-strength ;
   skos:prefLabel "Coarse fragments" ;
+.
+sp:coarse-fragments-
+  rdf:type skos:Collection ;
+  rdfs:label "Coarse-fragments" ;
 .
 sp:coarse-fragments-abundance
   rdf:type skos:Concept ;
@@ -1398,6 +1406,14 @@ sp:colour-stat-M
   skos:prefLabel "Moist" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
+sp:colours
+  rdf:type skos:Collection ;
+  rdfs:label "Colours" ;
+.
+sp:conditions-of-surface-soil-when-dry
+  rdf:type skos:Collection ;
+  rdfs:label "Conditions of surface soil when dry" ;
+.
 sp:consistence
   rdf:type skos:Concept ;
   dct:description "Consistence refers to the strength of cohesion and adhesion in soil. Strength will vary according to soil water status. Note that soil water status must be recorded with strength" ;
@@ -1710,6 +1726,10 @@ sp:consistence-strengths
   skos:member sp:consistence-strength-7 ;
   skos:prefLabel "Strengths" ;
 .
+sp:consistences
+  rdf:type skos:Collection ;
+  rdfs:label "Consistences" ;
+.
 sp:cutans
   rdf:type skos:Concept ;
   dct:description """A cutan is a modification of the texture, structure or fabric at natural surfaces in soil materials; it arises from concentration of particular soil constituents or in situ modification of the plasma. Cutans comprise any of the component substances of the soil material (Brewer 1964).
@@ -1722,6 +1742,10 @@ Cutans may be observed in the field (a ×10 hand lens is usually necessary) but 
   skos:narrower sp:cutans-type ;
   skos:prefLabel "Cutans" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:cutans-
+  rdf:type skos:Collection ;
+  rdfs:label "Cutans" ;
 .
 sp:cutans-abundance
   rdf:type skos:Concept ;
@@ -1914,6 +1938,18 @@ The purpose of recording this depth is to include in the soil description those 
   skos:prefLabel "Depth to R horizon or strongly cemented pan" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
+sp:depths-of-horizons
+  rdf:type skos:Collection ;
+  rdfs:label "Depths of horizons" ;
+.
+sp:depths-to-r-horizon
+  rdf:type skos:Collection ;
+  rdfs:label "Depths to R horizon of strongly cemented pan" ;
+.
+sp:effervecences-of-carbonate-in-fine-earth
+  rdf:type skos:Collection ;
+  rdfs:label "Effervescence of carbonate in fine earth " ;
+.
 sp:effervescence
   rdf:type skos:Concept ;
   dct:description "Effervescence of carbonate in fine earth using two or three drops of 1-molar HCl" ;
@@ -2018,6 +2054,10 @@ sp:fabric-S
   skos:prefLabel "Smooth-ped" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
+sp:fabrics
+  rdf:type skos:Collection ;
+  rdfs:label "Fabrics" ;
+.
 sp:field-ph
   rdf:type skos:Concept ;
   dct:description """pH is determined in the field using a field pH kit based on the specifications of Raupach and Tucker (1959). Estimate to 0.5 of a unit. Portable pH meters may also be used.
@@ -2033,6 +2073,10 @@ pH may be measured either:
 •	where horizons are thick (greater than 0.5 m) and horizon boundaries are diffuse, at selected intervals down the profile. This system gives useful data in some soils when important pH changes may occur independently of visible horizon changes, for instance the change from alkaline to strongly acid conditions in some cracking clays.""" ;
   skos:prefLabel "Field pH" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:field-phs
+  rdf:type skos:Collection ;
+  rdfs:label "Field pH" ;
 .
 sp:field-texture
   rdf:type skos:Concept ;
@@ -4720,7 +4764,6 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 sp:horizons
   rdf:type skos:Collection ;
   rdfs:label "Horizons" ;
-  skos:member sp:horizon ;
   skos:member sp:horizon-a ;
   skos:member sp:horizon-a1 ;
   skos:member sp:horizon-a2 ;
@@ -5126,6 +5169,10 @@ sp:mottle-type-Z
   skos:prefLabel "Colour patterns due to inclusions of weathered substrate material"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
+sp:mottles-and-other-colour-patterns
+  rdf:type skos:Collection ;
+  rdfs:label "Mottles and other colour patterns" ;
+.
 sp:observation-type
   rdf:type skos:Concept ;
   dct:description "The soil profile may be described using several types of observation." ;
@@ -5189,6 +5236,10 @@ sp:pans
   skos:narrower sp:pans-structure ;
   skos:narrower sp:pans-type ;
   skos:prefLabel "Pans" ;
+.
+sp:pans-
+  rdf:type skos:Collection ;
+  rdfs:label "Pans" ;
 .
 sp:pans-cementation
   rdf:type skos:Concept ;
@@ -5527,6 +5578,10 @@ sp:roots
   skos:narrower sp:roots-size ;
   skos:prefLabel "Roots" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:roots-
+  rdf:type skos:Collection ;
+  rdfs:label "Roots" ;
 .
 sp:roots-abundance
   rdf:type skos:Concept ;
@@ -5974,6 +6029,10 @@ sp:segregations-nature-Z
   skos:notation "Z" ;
   skos:prefLabel "Saline" ;
 .
+sp:segregations-of-pedogenic-origin
+  rdf:type skos:Collection ;
+  rdfs:label "Segregations of pedogenic origin" ;
+.
 sp:segregations-size
   rdf:type skos:Concept ;
   dct:description "Approximately equidimensional segregations (concretions, nodules) are measured in the greatest dimension. Segregations where one dimension is much greater than the other two (tubules, root linings, veins, laminae) are measured in the least dimension" ;
@@ -6054,6 +6113,14 @@ sp:segregations-strength-2
   skos:definition "cannot be broken between thumb and forefinger" ;
   skos:notation "2" ;
   skos:prefLabel "Strong"@en ;
+.
+sp:soil-water-regimes
+  rdf:type skos:Collection ;
+  rdfs:label "Soil water regimes" ;
+.
+sp:soil-water-status
+  rdf:type skos:Collection ;
+  rdfs:label "Soil water statuses" ;
 .
 sp:soilwater
   rdf:type skos:Concept ;
@@ -6625,6 +6692,10 @@ sp:structure-pedality-type-SB
   skos:prefLabel "Subangular blocky" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
+sp:structures
+  rdf:type skos:Collection ;
+  rdfs:label "Structures" ;
+.
 sp:surfacecondition
   rdf:type skos:Concept ;
   dct:description "Many surface soils have a characteristic appearance when dry. Because surface conditions are often relevant to the use of the soil and indicative of particular kinds of soil, every effort should be made to observe the surface condition in the dry state. The surface conditions are not necessarily mutually exclusive" ;
@@ -6762,6 +6833,14 @@ sp:surfacecondition-Z
   skos:notation "Z" ;
   skos:prefLabel "Saline"@en ;
 .
+sp:types-of-soil-observation
+  rdf:type skos:Collection ;
+  rdfs:label "Types of soil observation" ;
+  skos:member sp:observation-type-A ;
+  skos:member sp:observation-type-C ;
+  skos:member sp:observation-type-E ;
+  skos:member sp:observation-type-P ;
+.
 sp:voids
   rdf:type skos:Concept ;
   dc:description "This is a general term for pore space and other openings in soils not occupied by solid mineral matter. The most important are cracks (planar voids) and pores, which are approximately circular in cross-section" ;
@@ -6773,6 +6852,10 @@ sp:voids
   skos:narrower sp:voids-micropores ;
   skos:prefLabel "Voids" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:voids-
+  rdf:type skos:Collection ;
+  rdfs:label "Voids" ;
 .
 sp:voids-cracks
   rdf:type skos:Concept ;
@@ -6994,6 +7077,10 @@ sp:voids-micropores
   skos:note "Only macropores can be seen with the naked eye" ;
   skos:prefLabel "Micropores" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
+.
+sp:water-repellences
+  rdf:type skos:Collection ;
+  rdfs:label "Water repellences" ;
 .
 sp:waterrepellence
   rdf:type skos:Concept ;
