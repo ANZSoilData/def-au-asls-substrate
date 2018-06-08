@@ -1,5 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ldp:   <http://www.w3.org/ns/ldp#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -12,15 +13,19 @@
 
 <soil-profile>
   rdf:type reg:Register , ldp:Container ;
-  dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)" ;
+  dct:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)" ;
   dct:created "2017-10-26"^^xsd:date ;
+  dct:modified "2018-06-07"^^xsd:date ;
   dct:creator <mailto:asris@csiro.au> ;
-  dct:description "A soil profile is a vertical section of a soil from the soil surface through all its horizons to parent material, other consolidated substrate material or selected depth in unconsolidated material." ;
+  dct:contributor <http://registry.it.csiro.au/sandbox/csiro/person/Simon-Cox> ;
+  dct:contributor <http://registry.it.csiro.au/sandbox/csiro/person/Linda-Gregory> ;
+  dct:description """<p>A soil profile is a vertical section of a soil from the soil surface through all its horizons to parent material, other consolidated substrate material or selected depth in unconsolidated material.</p>
+  <p>This register contains representations of the classifiers described in the <i>Australian soil and land survey field handbook (3rd edn)</i>. Each classifier is denoted by a distinct URI. These can be used to tag data so that unambiguous comparisons may be made. </p>"""^^rdf:HTML ;
   dct:license <http://creativecommons.org/licences/by/4.0> ;
   dct:publisher <http://www.publish.csiro.au/> ;
-  dct:rights "copyright CSIRO 2009, 2016. All rights reserved." ;
-  rdfs:label "Soil Profile" ;
+  dct:rights "copyright CSIRO 2009, 2016, 2018. All rights reserved." ;
+  rdfs:label "Soil Profile classifiers" ;
   rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
-  ui:hierarchyChildProperty   skos:narrower ;
-  ui:hierarchyRootProperty    skos:topConceptOf ;
+  ui:hierarchyChildProperty   skos:member ;
+  ui:hierarchyRootProperty    ui:topMemberOf ;
 .
