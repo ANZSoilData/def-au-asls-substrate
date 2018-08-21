@@ -74,7 +74,7 @@ sp:coarse-fragments
   skos:member sp:coarse-fragments-shape ;
   skos:member sp:coarse-fragments-size ;
   skos:member sp:coarse-fragments-strength ;
-  skos:prefLabel "Coarse fragments" ;
+  skos:prefLabel "Coarse fragments"@en ;
 .
 sp:coarse-fragments-abundance
   rdf:type skos:Collection ;
@@ -90,7 +90,7 @@ sp:coarse-fragments-abundance
   skos:member sp:coarse-fragments-abundance-4 ;
   skos:member sp:coarse-fragments-abundance-5 ;
   skos:member sp:coarse-fragments-abundance-6 ;
-  skos:prefLabel "Abundance of coarse fragments" ;
+  skos:prefLabel "Abundance of coarse fragments"@en ;
 .
 sp:coarse-fragments-abundance-0
   rdf:type skos:Concept ;
@@ -100,7 +100,7 @@ sp:coarse-fragments-abundance-0
   rdfs:label "No coarse fragments" ;
   skos:definition "0%" ;
   skos:notation "0" ;
-  skos:prefLabel "No coarse fragments" ;
+  skos:prefLabel "No coarse fragments"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-abundance-1
@@ -111,7 +111,7 @@ sp:coarse-fragments-abundance-1
   rdfs:label "Very slightly or very few, for example very slightly fine gravelly; very few small pebbles" ;
   skos:definition "<2%" ;
   skos:notation "1" ;
-  skos:prefLabel "Very slightly or very few, for example very slightly fine gravelly; very few small pebbles" ;
+  skos:prefLabel "Very slightly or very few, for example very slightly fine gravelly; very few small pebbles"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-abundance-2
@@ -122,7 +122,7 @@ sp:coarse-fragments-abundance-2
   rdfs:label "Slightly or few, for example slightly stony; few stones" ;
   skos:definition "2-10%" ;
   skos:notation "2" ;
-  skos:prefLabel "Slightly or few, for example slightly stony; few stones" ;
+  skos:prefLabel "Slightly or few, for example slightly stony; few stones"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-abundance-3
@@ -133,7 +133,7 @@ sp:coarse-fragments-abundance-3
   rdfs:label "No qualifier or common, for example medium gravelly; stony, common medium pebbles; common stones" ;
   skos:definition "10-20%" ;
   skos:notation "3" ;
-  skos:prefLabel "No qualifier or common, for example medium gravelly; stony, common medium pebbles; common stones" ;
+  skos:prefLabel "No qualifier or common, for example medium gravelly; stony, common medium pebbles; common stones"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-abundance-4
@@ -144,7 +144,7 @@ sp:coarse-fragments-abundance-4
   rdfs:label "Moderately or many" ;
   skos:definition "20-50%" ;
   skos:notation "4" ;
-  skos:prefLabel "Moderately or many" ;
+  skos:prefLabel "Moderately or many"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-abundance-5
@@ -155,7 +155,7 @@ sp:coarse-fragments-abundance-5
   rdfs:label "Very or abundant" ;
   skos:definition "50-90%" ;
   skos:notation "5" ;
-  skos:prefLabel "Very or abundant" ;
+  skos:prefLabel "Very or abundant"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-abundance-6
@@ -166,7 +166,7 @@ sp:coarse-fragments-abundance-6
   rdfs:label "Extremely or very abundant" ;
   skos:definition ">90%" ;
   skos:notation "6" ;
-  skos:prefLabel "Extremely or very abundant" ;
+  skos:prefLabel "Extremely or very abundant"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-distribution
@@ -180,7 +180,7 @@ sp:coarse-fragments-distribution
   skos:member sp:coarse-fragments-distribution-R ;
   skos:member sp:coarse-fragments-distribution-S ;
   skos:member sp:coarse-fragments-distribution-U ;
-  skos:prefLabel "Coarse fragments distribution" ;
+  skos:prefLabel "Coarse fragments distribution"@en ;
 .
 sp:coarse-fragments-distribution-D
   rdf:type skos:Concept ;
@@ -190,7 +190,7 @@ sp:coarse-fragments-distribution-D
   rdfs:label "Dispersed" ;
   skos:definition "fragments are scattered randomly throughout the soil and may be of mixed origin." ;
   skos:notation "D" ;
-  skos:prefLabel "Dispersed" ;
+  skos:prefLabel "Dispersed"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-distribution-R
@@ -201,7 +201,7 @@ sp:coarse-fragments-distribution-R
   rdfs:label "Reoriented" ;
   skos:definition "all fragments are remnants of the underlying bedrock but their orientation is not related to the joint or bedding planes of the bedrock." ;
   skos:notation "R" ;
-  skos:prefLabel "Reoriented" ;
+  skos:prefLabel "Reoriented"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-distribution-S
@@ -212,7 +212,7 @@ sp:coarse-fragments-distribution-S
   rdfs:label "Stratified" ;
   skos:definition "fragments occur in bands, usually parallel with the soil surface (excluding those parallel with joint or bedding planes of the bedrock). They may include materials other than those from the underlying bedrock." ;
   skos:notation "S" ;
-  skos:prefLabel "Stratified" ;
+  skos:prefLabel "Stratified"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-distribution-U
@@ -223,7 +223,7 @@ sp:coarse-fragments-distribution-U
   rdfs:label "Undisturbed" ;
   skos:definition "all fragments are remnants of the underlying bedrock and their orientation closely parallels that of the joint or bedding planes of the bedrock." ;
   skos:notation "U" ;
-  skos:prefLabel "Undisturbed" ;
+  skos:prefLabel "Undisturbed"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology
@@ -322,7 +322,7 @@ sp:coarse-fragments-lithology
   skos:member sp:coarse-fragments-lithology-VG ;
   skos:member sp:coarse-fragments-lithology-Z ;
   skos:member sp:coarse-fragments-lithology-ZS ;
-  skos:prefLabel "Lithology of coarse fragments" ;
+  skos:prefLabel "Lithology of coarse fragments"@en ;
 .
 sp:coarse-fragments-lithology-AC
   rdf:type skos:Concept ;
@@ -330,10 +330,10 @@ sp:coarse-fragments-lithology-AC
   ui:isMemberOf sp:coarse-fragments-lithology ;
   rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Alcrete" ;
-  skos:altLabel "Bauxite" ;
+  skos:altLabel "Bauxite"@en ;
   skos:definition "Alcrete (Sedimentary rock, chemical or organic)" ;
   skos:notation "AC" ;
-  skos:prefLabel "Alcrete" ;
+  skos:prefLabel "Alcrete"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-AD
@@ -344,7 +344,7 @@ sp:coarse-fragments-lithology-AD
   rdfs:label "Adamellite" ;
   skos:definition "Adamellite (Igneous rock)" ;
   skos:notation "AD" ;
-  skos:prefLabel "Adamellite" ;
+  skos:prefLabel "Adamellite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-AF
@@ -355,7 +355,7 @@ sp:coarse-fragments-lithology-AF
   rdfs:label "Ash (fine)" ;
   skos:definition "Ash (fine)  (Unconsolidated material)" ;
   skos:notation "AF" ;
-  skos:prefLabel "Ash (fine)" ;
+  skos:prefLabel "Ash (fine)"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-AG
@@ -366,7 +366,7 @@ sp:coarse-fragments-lithology-AG
   rdfs:label "Agglomerate" ;
   skos:definition "Agglomerate (Sedimentary rock, pyroclastic)" ;
   skos:notation "AG" ;
-  skos:prefLabel "Agglomerate" ;
+  skos:prefLabel "Agglomerate"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-AH
@@ -377,7 +377,7 @@ sp:coarse-fragments-lithology-AH
   rdfs:label "Anhydrite" ;
   skos:definition "Anhydrite (Sedimentary rock, chemical or organic)" ;
   skos:notation "AH" ;
-  skos:prefLabel "Anhydrite" ;
+  skos:prefLabel "Anhydrite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-AM
@@ -388,7 +388,7 @@ sp:coarse-fragments-lithology-AM
   rdfs:label "Amphibolite" ;
   skos:definition "Amphibolite (Metamorphic rock)" ;
   skos:notation "AM" ;
-  skos:prefLabel "Amphibolite" ;
+  skos:prefLabel "Amphibolite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-AN
@@ -399,7 +399,7 @@ sp:coarse-fragments-lithology-AN
   rdfs:label "Andesite" ;
   skos:definition "Andesite (Igneous rock)" ;
   skos:notation "AN" ;
-  skos:prefLabel "Andesite" ;
+  skos:prefLabel "Andesite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-AP
@@ -410,7 +410,7 @@ sp:coarse-fragments-lithology-AP
   rdfs:label "Aplite" ;
   skos:definition "Aplite (Igneous rock)" ;
   skos:notation "AP" ;
-  skos:prefLabel "Aplite" ;
+  skos:prefLabel "Aplite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-AR
@@ -421,7 +421,7 @@ sp:coarse-fragments-lithology-AR
   rdfs:label "Arkose" ;
   skos:definition "Arkose (Sedimentary rock, detrital)" ;
   skos:notation "AR" ;
-  skos:prefLabel "Arkose" ;
+  skos:prefLabel "Arkose"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-AS
@@ -432,7 +432,7 @@ sp:coarse-fragments-lithology-AS
   rdfs:label "Ash (sandy)" ;
   skos:definition "Ash (sandy) (Unconsolidated material)" ;
   skos:notation "AS" ;
-  skos:prefLabel "Ash (sandy)" ;
+  skos:prefLabel "Ash (sandy)"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-BA
@@ -443,7 +443,7 @@ sp:coarse-fragments-lithology-BA
   rdfs:label "Basalt" ;
   skos:definition "Basalt (Igneous rock)" ;
   skos:notation "BA" ;
-  skos:prefLabel "Basalt" ;
+  skos:prefLabel "Basalt"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-BB
@@ -454,7 +454,7 @@ sp:coarse-fragments-lithology-BB
   rdfs:label "Bombs" ;
   skos:definition "Bombs (volcanic) (Unconsolidated material)" ;
   skos:notation "BB" ;
-  skos:prefLabel "Bombs" ;
+  skos:prefLabel "Bombs"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-BR
@@ -465,7 +465,7 @@ sp:coarse-fragments-lithology-BR
   rdfs:label "Breccia" ;
   skos:definition "Breccia (Sedimentary rock, detrital)" ;
   skos:notation "BR" ;
-  skos:prefLabel "Breccia" ;
+  skos:prefLabel "Breccia"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-C
@@ -476,7 +476,7 @@ sp:coarse-fragments-lithology-C
   rdfs:label "Clay" ;
   skos:definition "Clay (Unconsolidated material)" ;
   skos:notation "C" ;
-  skos:prefLabel "Clay" ;
+  skos:prefLabel "Clay"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-CC
@@ -487,7 +487,7 @@ sp:coarse-fragments-lithology-CC
   rdfs:label "Charcoal" ;
   skos:definition "Charcoal" ;
   skos:notation "CC" ;
-  skos:prefLabel "Charcoal" ;
+  skos:prefLabel "Charcoal"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-CG
@@ -498,7 +498,7 @@ sp:coarse-fragments-lithology-CG
   rdfs:label "Conglomerate" ;
   skos:definition "Conglomerate (Sedimentary rock, detrital)" ;
   skos:notation "CG" ;
-  skos:prefLabel "Conglomerate" ;
+  skos:prefLabel "Conglomerate"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-CH
@@ -509,7 +509,7 @@ sp:coarse-fragments-lithology-CH
   rdfs:label "Chert" ;
   skos:definition "Chert (Sedimentary rock, chemical or organic)" ;
   skos:notation "CH" ;
-  skos:prefLabel "Chert" ;
+  skos:prefLabel "Chert"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-CO
@@ -520,7 +520,7 @@ sp:coarse-fragments-lithology-CO
   rdfs:label "Coal" ;
   skos:definition "Coal (Sedimentary rock, chemical or organic)" ;
   skos:notation "CO" ;
-  skos:prefLabel "Coal" ;
+  skos:prefLabel "Coal"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-CU
@@ -531,7 +531,7 @@ sp:coarse-fragments-lithology-CU
   rdfs:label "Consolidated rock" ;
   skos:definition "Consolidated rock (Unidentified)" ;
   skos:notation "CU" ;
-  skos:prefLabel "Consolidated rock" ;
+  skos:prefLabel "Consolidated rock"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-DI
@@ -542,7 +542,7 @@ sp:coarse-fragments-lithology-DI
   rdfs:label "Diorite" ;
   skos:definition "Diorite (Igneous rock)" ;
   skos:notation "DI" ;
-  skos:prefLabel "Diorite" ;
+  skos:prefLabel "Diorite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-DM
@@ -553,7 +553,7 @@ sp:coarse-fragments-lithology-DM
   rdfs:label "Dolomite" ;
   skos:definition "Dolomite (Sedimentary rock, detrital)" ;
   skos:notation "DM" ;
-  skos:prefLabel "Dolomite" ;
+  skos:prefLabel "Dolomite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-DR
@@ -564,7 +564,7 @@ sp:coarse-fragments-lithology-DR
   rdfs:label "Dolerite" ;
   skos:definition "Dolerite (Igneous rock)" ;
   skos:notation "DR" ;
-  skos:prefLabel "Dolerite" ;
+  skos:prefLabel "Dolerite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-FC
@@ -575,7 +575,7 @@ sp:coarse-fragments-lithology-FC
   rdfs:label "Ferricrete" ;
   skos:definition "Ferricrete (Sedimentary rock, chemical or organic)" ;
   skos:notation "FC" ;
-  skos:prefLabel "Ferricrete" ;
+  skos:prefLabel "Ferricrete"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-GA
@@ -586,7 +586,7 @@ sp:coarse-fragments-lithology-GA
   rdfs:label "Gabbro" ;
   skos:definition "Gabbro (Igneous rock)" ;
   skos:notation "GA" ;
-  skos:prefLabel "Gabbro" ;
+  skos:prefLabel "Gabbro"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-GD
@@ -597,7 +597,7 @@ sp:coarse-fragments-lithology-GD
   rdfs:label "Granodiorite" ;
   skos:definition "Granodiorite (Igneous rock)" ;
   skos:notation "GD" ;
-  skos:prefLabel "Granodiorite" ;
+  skos:prefLabel "Granodiorite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-GE
@@ -608,7 +608,7 @@ sp:coarse-fragments-lithology-GE
   rdfs:label "Greenstone" ;
   skos:definition "Greenstone (Metamorphic rock)" ;
   skos:notation "GE" ;
-  skos:prefLabel "Greenstone" ;
+  skos:prefLabel "Greenstone"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-GN
@@ -619,7 +619,7 @@ sp:coarse-fragments-lithology-GN
   rdfs:label "Granite" ;
   skos:definition "Granite (Igneous rock)" ;
   skos:notation "GN" ;
-  skos:prefLabel "Granite" ;
+  skos:prefLabel "Granite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-GR
@@ -630,7 +630,7 @@ sp:coarse-fragments-lithology-GR
   rdfs:label "Granulite" ;
   skos:definition "Granulite (Metamorphic rock)" ;
   skos:notation "GR" ;
-  skos:prefLabel "Granulite" ;
+  skos:prefLabel "Granulite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-GS
@@ -641,7 +641,7 @@ sp:coarse-fragments-lithology-GS
   rdfs:label "Gneiss" ;
   skos:definition "Gneiss (Metamorphic rock)" ;
   skos:notation "GS" ;
-  skos:prefLabel "Gneiss" ;
+  skos:prefLabel "Gneiss"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-GV
@@ -652,7 +652,7 @@ sp:coarse-fragments-lithology-GV
   rdfs:label "Gravel" ;
   skos:definition "Gravel (Unconsolidated material)" ;
   skos:notation "GV" ;
-  skos:prefLabel "Gravel" ;
+  skos:prefLabel "Gravel"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-GW
@@ -663,7 +663,7 @@ sp:coarse-fragments-lithology-GW
   rdfs:label "Graywacke" ;
   skos:definition "Graywacke (Sedimentary rock, detrital)" ;
   skos:notation "GW" ;
-  skos:prefLabel "Graywacke" ;
+  skos:prefLabel "Graywacke"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-GY
@@ -674,7 +674,7 @@ sp:coarse-fragments-lithology-GY
   rdfs:label "Gypsum" ;
   skos:definition "Gypsum (Sedimentary rock, chemical or organic)" ;
   skos:notation "GY" ;
-  skos:prefLabel "Gypsum" ;
+  skos:prefLabel "Gypsum"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-HA
@@ -685,7 +685,7 @@ sp:coarse-fragments-lithology-HA
   rdfs:label "Halite" ;
   skos:definition "Halite (Sedimentary rock, chemical or organic)" ;
   skos:notation "HA" ;
-  skos:prefLabel "Halite" ;
+  skos:prefLabel "Halite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-HO
@@ -696,7 +696,7 @@ sp:coarse-fragments-lithology-HO
   rdfs:label "Hornfels" ;
   skos:definition "Hornfels (Metamorphic rock)" ;
   skos:notation "HO" ;
-  skos:prefLabel "Hornfels" ;
+  skos:prefLabel "Hornfels"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-IG
@@ -707,7 +707,7 @@ sp:coarse-fragments-lithology-IG
   rdfs:label "Igneous rock" ;
   skos:definition "Igneous rock (Unidentified)" ;
   skos:notation "IG" ;
-  skos:prefLabel "Igneous rock" ;
+  skos:prefLabel "Igneous rock"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-IS
@@ -718,7 +718,7 @@ sp:coarse-fragments-lithology-IS
   rdfs:label "Ironstone" ;
   skos:definition "Ironstone (where not considered of pedogenic origin)" ;
   skos:notation "IS" ;
-  skos:prefLabel "Ironstone" ;
+  skos:prefLabel "Ironstone"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-JA
@@ -729,7 +729,7 @@ sp:coarse-fragments-lithology-JA
   rdfs:label "Jasper" ;
   skos:definition "Jasper (Sedimentary rock, chemical or organic)" ;
   skos:notation "JA" ;
-  skos:prefLabel "Jasper" ;
+  skos:prefLabel "Jasper"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-KA
@@ -740,7 +740,7 @@ sp:coarse-fragments-lithology-KA
   rdfs:label "Calcarenite" ;
   skos:definition "Calcarenite (Sedimentary rock, detrital)" ;
   skos:notation "KA" ;
-  skos:prefLabel "Calcarenite" ;
+  skos:prefLabel "Calcarenite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-KC
@@ -751,7 +751,7 @@ sp:coarse-fragments-lithology-KC
   rdfs:label "Calcrete" ;
   skos:definition "Calcrete (Sedimentary rock, chemical or organic)" ;
   skos:notation "KC" ;
-  skos:prefLabel "Calcrete" ;
+  skos:prefLabel "Calcrete"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-KL
@@ -762,7 +762,7 @@ sp:coarse-fragments-lithology-KL
   rdfs:label "Calcilutite" ;
   skos:definition "Calcilutite (Sedimentary rock, detrital)" ;
   skos:notation "KL" ;
-  skos:prefLabel "Calcilutite" ;
+  skos:prefLabel "Calcilutite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-KM
@@ -773,7 +773,7 @@ sp:coarse-fragments-lithology-KM
   rdfs:label "Calcareous mudstone" ;
   skos:definition "Calcareous mudstone (Sedimentary rock, detrital)" ;
   skos:notation "KM" ;
-  skos:prefLabel "Calcareous mudstone" ;
+  skos:prefLabel "Calcareous mudstone"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-KR
@@ -784,7 +784,7 @@ sp:coarse-fragments-lithology-KR
   rdfs:label "Calcirudite" ;
   skos:definition "Calcirudite (Sedimentary rock, detrital)" ;
   skos:notation "KR" ;
-  skos:prefLabel "Calcirudite" ;
+  skos:prefLabel "Calcirudite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-KS
@@ -795,7 +795,7 @@ sp:coarse-fragments-lithology-KS
   rdfs:label "Calcareous sand" ;
   skos:definition "Calcareous sand (Unconsolidated material)" ;
   skos:notation "KS" ;
-  skos:prefLabel "Calcareous sand" ;
+  skos:prefLabel "Calcareous sand"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-LC
@@ -806,7 +806,7 @@ sp:coarse-fragments-lithology-LC
   rdfs:label "Silcrete" ;
   skos:definition "Silcrete (Sedimentary rock, chemical or organic)" ;
   skos:notation "LC" ;
-  skos:prefLabel "Silcrete" ;
+  skos:prefLabel "Silcrete"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-LI
@@ -817,7 +817,7 @@ sp:coarse-fragments-lithology-LI
   rdfs:label "Limestone" ;
   skos:definition "Limestone (Sedimentary rock, detrital)" ;
   skos:notation "LI" ;
-  skos:prefLabel "Limestone" ;
+  skos:prefLabel "Limestone"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-M
@@ -828,7 +828,7 @@ sp:coarse-fragments-lithology-M
   rdfs:label "Same as substrate material" ;
   skos:definition "Lithology is same as the substrate material" ;
   skos:notation "M" ;
-  skos:prefLabel "Same as substrate material" ;
+  skos:prefLabel "Same as substrate material"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-MB
@@ -839,7 +839,7 @@ sp:coarse-fragments-lithology-MB
   rdfs:label "Marble" ;
   skos:definition "Marble (Metamorphic rock)" ;
   skos:notation "MB" ;
-  skos:prefLabel "Marble" ;
+  skos:prefLabel "Marble"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-MD
@@ -850,7 +850,7 @@ sp:coarse-fragments-lithology-MD
   rdfs:label "Microdiorite" ;
   skos:definition "Microdiorite (Igneous rock)" ;
   skos:notation "MD" ;
-  skos:prefLabel "Microdiorite" ;
+  skos:prefLabel "Microdiorite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-ME
@@ -861,7 +861,7 @@ sp:coarse-fragments-lithology-ME
   rdfs:label "Metamorphic rock" ;
   skos:definition "Metamorphic rock (Unidentified)" ;
   skos:notation "ME" ;
-  skos:prefLabel "Metamorphic rock" ;
+  skos:prefLabel "Metamorphic rock"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-MG
@@ -872,7 +872,7 @@ sp:coarse-fragments-lithology-MG
   rdfs:label "Microgranite" ;
   skos:definition "Microgranite (Igneous rock)" ;
   skos:notation "MG" ;
-  skos:prefLabel "Microgranite" ;
+  skos:prefLabel "Microgranite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-MI
@@ -883,7 +883,7 @@ sp:coarse-fragments-lithology-MI
   rdfs:label "Migmatite" ;
   skos:definition "Migmatite (Metamorphic rock)" ;
   skos:notation "MI" ;
-  skos:prefLabel "Migmatite" ;
+  skos:prefLabel "Migmatite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-ML
@@ -894,7 +894,7 @@ sp:coarse-fragments-lithology-ML
   rdfs:label "Marl" ;
   skos:definition "Marl (Unconsolidated material)" ;
   skos:notation "ML" ;
-  skos:prefLabel "Marl" ;
+  skos:prefLabel "Marl"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-MS
@@ -905,7 +905,7 @@ sp:coarse-fragments-lithology-MS
   rdfs:label "Microsyenite" ;
   skos:definition "Microsyenite (Igneous rock)" ;
   skos:notation "MS" ;
-  skos:prefLabel "Microsyenite" ;
+  skos:prefLabel "Microsyenite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-MU
@@ -916,7 +916,7 @@ sp:coarse-fragments-lithology-MU
   rdfs:label "Mudstone" ;
   skos:definition "Mudstone (Sedimentary rock, detrital)" ;
   skos:notation "MU" ;
-  skos:prefLabel "Mudstone" ;
+  skos:prefLabel "Mudstone"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-MY
@@ -927,7 +927,7 @@ sp:coarse-fragments-lithology-MY
   rdfs:label "Mylonite" ;
   skos:definition "Mylonite (Metamorphic rock)" ;
   skos:notation "MY" ;
-  skos:prefLabel "Mylonite" ;
+  skos:prefLabel "Mylonite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-OT
@@ -938,7 +938,7 @@ sp:coarse-fragments-lithology-OT
   rdfs:label "Other" ;
   skos:definition "Other" ;
   skos:notation "OT" ;
-  skos:prefLabel "Other" ;
+  skos:prefLabel "Other"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-OW
@@ -949,7 +949,7 @@ sp:coarse-fragments-lithology-OW
   rdfs:label "Opalised wood" ;
   skos:definition "Opalised wood" ;
   skos:notation "OW" ;
-  skos:prefLabel "Opalised wood" ;
+  skos:prefLabel "Opalised wood"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-PC
@@ -960,7 +960,7 @@ sp:coarse-fragments-lithology-PC
   rdfs:label "Porcellanite" ;
   skos:definition "Porcellanite (Sedimentary rock, chemical or organic)" ;
   skos:notation "PC" ;
-  skos:prefLabel "Porcellanite" ;
+  skos:prefLabel "Porcellanite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-PE
@@ -971,7 +971,7 @@ sp:coarse-fragments-lithology-PE
   rdfs:label "Peridotite" ;
   skos:definition "Peridotite (Igneous rock)" ;
   skos:notation "PE" ;
-  skos:prefLabel "Peridotite" ;
+  skos:prefLabel "Peridotite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-PG
@@ -982,7 +982,7 @@ sp:coarse-fragments-lithology-PG
   rdfs:label "Pegmatite" ;
   skos:definition "Pegmatite (Igneous rock)" ;
   skos:notation "PG" ;
-  skos:prefLabel "Pegmatite" ;
+  skos:prefLabel "Pegmatite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-PH
@@ -993,7 +993,7 @@ sp:coarse-fragments-lithology-PH
   rdfs:label "Phyllite" ;
   skos:definition "Phyllite (Metamorphic rock)" ;
   skos:notation "PH" ;
-  skos:prefLabel "Phyllite" ;
+  skos:prefLabel "Phyllite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-PL
@@ -1004,7 +1004,7 @@ sp:coarse-fragments-lithology-PL
   rdfs:label "Phonolite" ;
   skos:definition "Phonolite (Igneous rock)" ;
   skos:notation "PL" ;
-  skos:prefLabel "Phonolite" ;
+  skos:prefLabel "Phonolite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-PO
@@ -1015,7 +1015,7 @@ sp:coarse-fragments-lithology-PO
   rdfs:label "Porphyry" ;
   skos:definition "Porphyry (Igneous rock)" ;
   skos:notation "PO" ;
-  skos:prefLabel "Porphyry" ;
+  skos:prefLabel "Porphyry"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-PU
@@ -1026,7 +1026,7 @@ sp:coarse-fragments-lithology-PU
   rdfs:label "Pumice" ;
   skos:definition "Pumice" ;
   skos:notation "PU" ;
-  skos:prefLabel "Pumice" ;
+  skos:prefLabel "Pumice"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-PY
@@ -1037,7 +1037,7 @@ sp:coarse-fragments-lithology-PY
   rdfs:label "Pyroxenite" ;
   skos:definition "Pyroxenite (Igneous rock)" ;
   skos:notation "PY" ;
-  skos:prefLabel "Pyroxenite" ;
+  skos:prefLabel "Pyroxenite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-QP
@@ -1048,7 +1048,7 @@ sp:coarse-fragments-lithology-QP
   rdfs:label "Quartz porphyry" ;
   skos:definition "Quartz porphyry (Igneous rock)" ;
   skos:notation "QP" ;
-  skos:prefLabel "Quartz porphyry" ;
+  skos:prefLabel "Quartz porphyry"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-QS
@@ -1059,7 +1059,7 @@ sp:coarse-fragments-lithology-QS
   rdfs:label "Quartz sandstone" ;
   skos:definition "Quartz sandstone (Sedimentary rock, detrital)" ;
   skos:notation "QS" ;
-  skos:prefLabel "Quartz sandstone" ;
+  skos:prefLabel "Quartz sandstone"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-QU
@@ -1070,7 +1070,7 @@ sp:coarse-fragments-lithology-QU
   rdfs:label "Quartzite" ;
   skos:definition "Quartzite (Metamorphic rock)" ;
   skos:notation "QU" ;
-  skos:prefLabel "Quartzite" ;
+  skos:prefLabel "Quartzite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-QZ
@@ -1081,7 +1081,7 @@ sp:coarse-fragments-lithology-QZ
   rdfs:label "Quartz" ;
   skos:definition "Quartz (Igneous rock)" ;
   skos:notation "QZ" ;
-  skos:prefLabel "Quartz" ;
+  skos:prefLabel "Quartz"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-R
@@ -1092,7 +1092,7 @@ sp:coarse-fragments-lithology-R
   rdfs:label "Same as rock outcrop" ;
   skos:definition "Lithology is same as the rock outcrop" ;
   skos:notation "R" ;
-  skos:prefLabel "Same as rock outcrop" ;
+  skos:prefLabel "Same as rock outcrop"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-RB
@@ -1103,7 +1103,7 @@ sp:coarse-fragments-lithology-RB
   rdfs:label "Red-brown hardpan" ;
   skos:definition "Red-brown hardpan (Sedimentary rock, chemical or organic)" ;
   skos:notation "RB" ;
-  skos:prefLabel "Red-brown hardpan" ;
+  skos:prefLabel "Red-brown hardpan"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-RH
@@ -1114,7 +1114,7 @@ sp:coarse-fragments-lithology-RH
   rdfs:label "Rhyolite" ;
   skos:definition "Rhyolite (Igneous rock)" ;
   skos:notation "RH" ;
-  skos:prefLabel "Rhyolite" ;
+  skos:prefLabel "Rhyolite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-S
@@ -1125,7 +1125,7 @@ sp:coarse-fragments-lithology-S
   rdfs:label "Sand" ;
   skos:definition "Sand (Unconsolidated material)" ;
   skos:notation "S" ;
-  skos:prefLabel "Sand" ;
+  skos:prefLabel "Sand"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-SA
@@ -1136,7 +1136,7 @@ sp:coarse-fragments-lithology-SA
   rdfs:label "Sandstone" ;
   skos:definition "Sandstone (Sedimentary rock, detrital)" ;
   skos:notation "SA" ;
-  skos:prefLabel "Sandstone" ;
+  skos:prefLabel "Sandstone"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-SD
@@ -1147,7 +1147,7 @@ sp:coarse-fragments-lithology-SD
   rdfs:label "Detrital sedimentary rock" ;
   skos:definition "Detrital sedimentary rock (Unidentified)" ;
   skos:notation "SD" ;
-  skos:prefLabel "Detrital sedimentary rock" ;
+  skos:prefLabel "Detrital sedimentary rock"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-SH
@@ -1158,7 +1158,7 @@ sp:coarse-fragments-lithology-SH
   rdfs:label "Shale" ;
   skos:definition "Shale (Igneous rock)" ;
   skos:notation "SH" ;
-  skos:prefLabel "Shale" ;
+  skos:prefLabel "Shale"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-SK
@@ -1169,7 +1169,7 @@ sp:coarse-fragments-lithology-SK
   rdfs:label "Scoria" ;
   skos:definition "Scoria (Unconsolidated material)" ;
   skos:notation "SK" ;
-  skos:prefLabel "Scoria" ;
+  skos:prefLabel "Scoria"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-SL
@@ -1180,7 +1180,7 @@ sp:coarse-fragments-lithology-SL
   rdfs:label "Slate" ;
   skos:definition "Slate (Sedimentary rock, detrital)" ;
   skos:notation "SL" ;
-  skos:prefLabel "Slate" ;
+  skos:prefLabel "Slate"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-SR
@@ -1191,7 +1191,7 @@ sp:coarse-fragments-lithology-SR
   rdfs:label "Serpentinite" ;
   skos:definition "Serpentinite (Igneous rock)" ;
   skos:notation "SR" ;
-  skos:prefLabel "Serpentinite" ;
+  skos:prefLabel "Serpentinite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-SS
@@ -1202,7 +1202,7 @@ sp:coarse-fragments-lithology-SS
   rdfs:label "Shells" ;
   skos:definition "Shells" ;
   skos:notation "SS" ;
-  skos:prefLabel "Shells" ;
+  skos:prefLabel "Shells"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-ST
@@ -1213,7 +1213,7 @@ sp:coarse-fragments-lithology-ST
   rdfs:label "Schist" ;
   skos:definition "Schist (Metamorphic rock)" ;
   skos:notation "ST" ;
-  skos:prefLabel "Schist" ;
+  skos:prefLabel "Schist"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-SY
@@ -1224,7 +1224,7 @@ sp:coarse-fragments-lithology-SY
   rdfs:label "Syenite" ;
   skos:definition "Syenite (Metamorphic rock)" ;
   skos:notation "SY" ;
-  skos:prefLabel "Syenite" ;
+  skos:prefLabel "Syenite"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-TR
@@ -1235,7 +1235,7 @@ sp:coarse-fragments-lithology-TR
   rdfs:label "Trachyte" ;
   skos:definition "Trachyte (Igneous rock)" ;
   skos:notation "TR" ;
-  skos:prefLabel "Trachyte" ;
+  skos:prefLabel "Trachyte"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-TU
@@ -1246,7 +1246,7 @@ sp:coarse-fragments-lithology-TU
   rdfs:label "Tuff" ;
   skos:definition "Tuff (Igneous rock)" ;
   skos:notation "TU" ;
-  skos:prefLabel "Tuff" ;
+  skos:prefLabel "Tuff"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-UC
@@ -1257,7 +1257,7 @@ sp:coarse-fragments-lithology-UC
   rdfs:label "Unconsolidated material" ;
   skos:definition "Unconsolidated material (Unidentified)" ;
   skos:notation "UC" ;
-  skos:prefLabel "Unconsolidated material" ;
+  skos:prefLabel "Unconsolidated material"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-VB
@@ -1268,7 +1268,7 @@ sp:coarse-fragments-lithology-VB
   rdfs:label "Volcanic breccia" ;
   skos:definition "Volcanic breccia (Sedimentary rock, pyroclastic)" ;
   skos:notation "VB" ;
-  skos:prefLabel "Volcanic breccia" ;
+  skos:prefLabel "Volcanic breccia"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-VG
@@ -1279,7 +1279,7 @@ sp:coarse-fragments-lithology-VG
   rdfs:label "Volcanic glass" ;
   skos:definition "Volcanic glass (Igneous rock)" ;
   skos:notation "VG" ;
-  skos:prefLabel "Volcanic glass" ;
+  skos:prefLabel "Volcanic glass"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-Z
@@ -1290,7 +1290,7 @@ sp:coarse-fragments-lithology-Z
   rdfs:label "Silt" ;
   skos:definition "Silt (Sedimentary rock, detrital)" ;
   skos:notation "Z" ;
-  skos:prefLabel "Silt" ;
+  skos:prefLabel "Silt"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-lithology-ZS
@@ -1301,7 +1301,7 @@ sp:coarse-fragments-lithology-ZS
   rdfs:label "Siltstone" ;
   skos:definition "Siltstone (Unconsolidated material)" ;
   skos:notation "ZS" ;
-  skos:prefLabel "Siltstone" ;
+  skos:prefLabel "Siltstone"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape
@@ -1323,7 +1323,7 @@ sp:coarse-fragments-shape
   skos:member sp:coarse-fragments-shape-U ;
   skos:member sp:coarse-fragments-shape-UP ;
   skos:member sp:coarse-fragments-shape-UT ;
-  skos:prefLabel "Shape of coarse fragments" ;
+  skos:prefLabel "Shape of coarse fragments"@en ;
 .
 sp:coarse-fragments-shape-A
   rdf:type skos:Concept ;
@@ -1333,7 +1333,7 @@ sp:coarse-fragments-shape-A
   rdfs:label "Angular" ;
   skos:definition "Angular shape as determined from visual guide" ;
   skos:notation "A" ;
-  skos:prefLabel "Angular" ;
+  skos:prefLabel "Angular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape-AP
@@ -1344,7 +1344,7 @@ sp:coarse-fragments-shape-AP
   rdfs:label "Angular platy" ;
   skos:definition "Angular platy shape as determined from visual guide" ;
   skos:notation "AP" ;
-  skos:prefLabel "Angular platy" ;
+  skos:prefLabel "Angular platy"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape-AT
@@ -1355,7 +1355,7 @@ sp:coarse-fragments-shape-AT
   rdfs:label "Angular tabular" ;
   skos:definition "Angular tabular shape as determined from visual guide" ;
   skos:notation "AT" ;
-  skos:prefLabel "Angular tabular" ;
+  skos:prefLabel "Angular tabular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape-R
@@ -1366,7 +1366,7 @@ sp:coarse-fragments-shape-R
   rdfs:label "Rounded" ;
   skos:definition "Rounded shape as determined from visual guide" ;
   skos:notation "R" ;
-  skos:prefLabel "Rounded" ;
+  skos:prefLabel "Rounded"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape-RP
@@ -1377,7 +1377,7 @@ sp:coarse-fragments-shape-RP
   rdfs:label "Rounded platy" ;
   skos:definition "Rounded platy shape as determined from visual guide" ;
   skos:notation "RP" ;
-  skos:prefLabel "Rounded platy" ;
+  skos:prefLabel "Rounded platy"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape-RT
@@ -1388,7 +1388,7 @@ sp:coarse-fragments-shape-RT
   rdfs:label "Rounded tabular" ;
   skos:definition "Rounded tabular shape as determined from visual guide" ;
   skos:notation "RT" ;
-  skos:prefLabel "Rounded tabular" ;
+  skos:prefLabel "Rounded tabular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape-S
@@ -1399,7 +1399,7 @@ sp:coarse-fragments-shape-S
   rdfs:label "Subangular" ;
   skos:definition "Subangular shape as determined from visual guide" ;
   skos:notation "S" ;
-  skos:prefLabel "Subangular" ;
+  skos:prefLabel "Subangular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape-SP
@@ -1410,7 +1410,7 @@ sp:coarse-fragments-shape-SP
   rdfs:label "Subangular platy" ;
   skos:definition "Subangular platy shape as determined from visual guide" ;
   skos:notation "SP" ;
-  skos:prefLabel "Subangular platy" ;
+  skos:prefLabel "Subangular platy"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape-ST
@@ -1421,7 +1421,7 @@ sp:coarse-fragments-shape-ST
   rdfs:label "Subangular tabular" ;
   skos:definition "Subangular tabular shape as determined from visual guide" ;
   skos:notation "ST" ;
-  skos:prefLabel "Subangular tabular" ;
+  skos:prefLabel "Subangular tabular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape-U
@@ -1432,7 +1432,7 @@ sp:coarse-fragments-shape-U
   rdfs:label "Subrounded" ;
   skos:definition "Subrounded shape as determined from visual guide" ;
   skos:notation "U" ;
-  skos:prefLabel "Subrounded" ;
+  skos:prefLabel "Subrounded"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape-UP
@@ -1443,7 +1443,7 @@ sp:coarse-fragments-shape-UP
   rdfs:label "Subrounded platy" ;
   skos:definition "Subrounded platy shape as determined from visual guide" ;
   skos:notation "UP" ;
-  skos:prefLabel "Subrounded platy" ;
+  skos:prefLabel "Subrounded platy"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-shape-UT
@@ -1454,7 +1454,7 @@ sp:coarse-fragments-shape-UT
   rdfs:label "Subrounded tabular" ;
   skos:definition "Subrounded tabular shape as determined from visual guide" ;
   skos:notation "UT" ;
-  skos:prefLabel "Subrounded tabular" ;
+  skos:prefLabel "Subrounded tabular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-size
@@ -1472,7 +1472,7 @@ sp:coarse-fragments-size
   skos:member sp:coarse-fragments-size-6 ;
   skos:member sp:coarse-fragments-size-7 ;
   skos:note "Note that in preparing soils for laboratory analysis, the greater than 2mm size fraction is commonly recorded as 'gravel'." ;
-  skos:prefLabel "Size of coarse fragments" ;
+  skos:prefLabel "Size of coarse fragments"@en ;
 .
 sp:coarse-fragments-size-1
   rdf:type skos:Concept ;
@@ -1482,7 +1482,7 @@ sp:coarse-fragments-size-1
   rdfs:label "Fine gravelly or small pebbles" ;
   skos:definition "2-6 mm" ;
   skos:notation "1" ;
-  skos:prefLabel "Fine gravelly or small pebbles" ;
+  skos:prefLabel "Fine gravelly or small pebbles"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-size-2
@@ -1493,7 +1493,7 @@ sp:coarse-fragments-size-2
   rdfs:label "Medium gravelly or medium pebbles" ;
   skos:definition "6-20 mm" ;
   skos:notation "2" ;
-  skos:prefLabel "Medium gravelly or medium pebbles" ;
+  skos:prefLabel "Medium gravelly or medium pebbles"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-size-3
@@ -1504,7 +1504,7 @@ sp:coarse-fragments-size-3
   rdfs:label "Coarse gravelly or large pebbles" ;
   skos:definition "20-60 mm" ;
   skos:notation "3" ;
-  skos:prefLabel "Coarse gravelly or large pebbles" ;
+  skos:prefLabel "Coarse gravelly or large pebbles"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-size-4
@@ -1515,7 +1515,7 @@ sp:coarse-fragments-size-4
   rdfs:label "Cobbly or cobbles" ;
   skos:definition "60-200 mm" ;
   skos:notation "4" ;
-  skos:prefLabel "Cobbly or cobbles" ;
+  skos:prefLabel "Cobbly or cobbles"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-size-5
@@ -1526,7 +1526,7 @@ sp:coarse-fragments-size-5
   rdfs:label "Stony or stones" ;
   skos:definition "200-600 mm" ;
   skos:notation "5" ;
-  skos:prefLabel "Stony or stones" ;
+  skos:prefLabel "Stony or stones"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-size-6
@@ -1537,7 +1537,7 @@ sp:coarse-fragments-size-6
   rdfs:label "Bouldery or boulders" ;
   skos:definition "600-2000 mm" ;
   skos:notation "6" ;
-  skos:prefLabel "Bouldery or boulders" ;
+  skos:prefLabel "Bouldery or boulders"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-size-7
@@ -1548,7 +1548,7 @@ sp:coarse-fragments-size-7
   rdfs:label "Large boulders" ;
   skos:definition ">2000 mm" ;
   skos:notation "7" ;
-  skos:prefLabel "Large boulders" ;
+  skos:prefLabel "Large boulders"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-strength
@@ -1564,7 +1564,7 @@ sp:coarse-fragments-strength
   skos:member sp:coarse-fragments-strength-VW ;
   skos:member sp:coarse-fragments-strength-W ;
   skos:note "These will be exact match to material strength in substrate chapter" ;
-  skos:prefLabel "Strength of coarse fragments" ;
+  skos:prefLabel "Strength of coarse fragments"@en ;
 .
 sp:coarse-fragments-strength-M
   rdf:type skos:Concept ;
@@ -1574,7 +1574,7 @@ sp:coarse-fragments-strength-M
   rdfs:label "Moderately strong rock" ;
   skos:definition "50-100 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil or slight mark, Pick:indents shallowly, Hammer (single blow):Breaks readily into a few large and some small fragments" ;
   skos:notation "M" ;
-  skos:prefLabel "Moderately strong rock" ;
+  skos:prefLabel "Moderately strong rock"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-strength-S
@@ -1585,7 +1585,7 @@ sp:coarse-fragments-strength-S
   rdfs:label "Strong rock" ;
   skos:definition "100-200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Breaks into one or two large fragments" ;
   skos:notation "S" ;
-  skos:prefLabel "Strong rock" ;
+  skos:prefLabel "Strong rock"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-strength-VS
@@ -1596,7 +1596,7 @@ sp:coarse-fragments-strength-VS
   rdfs:label "Very strong rock" ;
   skos:definition ">200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Nil" ;
   skos:notation "VS" ;
-  skos:prefLabel "Very strong rock" ;
+  skos:prefLabel "Very strong rock"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-strength-VW
@@ -1607,7 +1607,7 @@ sp:coarse-fragments-strength-VW
   rdfs:label "Very weak rock" ;
   skos:definition "1-25 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Deep cut, Pick:crumbles, Hammer (single blow):Flattened or powdered" ;
   skos:notation "VW" ;
-  skos:prefLabel "Very weak rock" ;
+  skos:prefLabel "Very weak rock"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:coarse-fragments-strength-W
@@ -1618,7 +1618,7 @@ sp:coarse-fragments-strength-W
   rdfs:label "Weak rock" ;
   skos:definition "25-50 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Shallow cut or scratch, Pick:indents deeply, Hammer (single blow):Shattered into many small fragments" ;
   skos:notation "W" ;
-  skos:prefLabel "Weak rock" ;
+  skos:prefLabel "Weak rock"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:colour
@@ -1638,7 +1638,7 @@ The soil colour is measured on the surface of a freshly broken aggregate of mois
 Dry colours may also be recorded.""" ;
   skos:member sp:colour-stat-D ;
   skos:member sp:colour-stat-M ;
-  skos:prefLabel "Colour" ;
+  skos:prefLabel "Colour"@en ;
 .
 sp:colour-stat-D
   rdf:type skos:Concept ;
@@ -1646,7 +1646,7 @@ sp:colour-stat-D
   rdfs:comment "C_MOISTURE_STAT; Moisture status for colour description" ;
   rdfs:label "Dry" ;
   skos:notation "D" ;
-  skos:prefLabel "Dry" ;
+  skos:prefLabel "Dry"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:colour-stat-M
@@ -1655,7 +1655,7 @@ sp:colour-stat-M
   rdfs:comment "C_MOISTURE_STAT; Moisture status for colour description" ;
   rdfs:label "Moist" ;
   skos:notation "M" ;
-  skos:prefLabel "Moist" ;
+  skos:prefLabel "Moist"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:condition-of-surface-soil-when-dry
@@ -1678,7 +1678,7 @@ sp:condition-of-surface-soil-when-dry
   skos:member sp:surfacecondition-X ;
   skos:member sp:surfacecondition-Y ;
   skos:member sp:surfacecondition-Z ;
-  skos:prefLabel "Condition of surface soil when dry" ;
+  skos:prefLabel "Condition of surface soil when dry"@en ;
 .
 sp:consistence
   rdf:type skos:Collection ;
@@ -1694,7 +1694,7 @@ sp:consistence
   skos:narrower sp:consistence-plasticity-type ;
   skos:narrower sp:consistence-stickiness ;
   skos:narrower sp:consistence-strength ;
-  skos:prefLabel "Consistence" ;
+  skos:prefLabel "Consistence"@en ;
 .
 sp:consistence-plasticity-degree
   rdf:type skos:Collection ;
@@ -1708,7 +1708,7 @@ sp:consistence-plasticity-degree
   skos:member sp:consistence-plasticity-degree-1 ;
   skos:member sp:consistence-plasticity-degree-2 ;
   skos:member sp:consistence-plasticity-degree-3 ;
-  skos:prefLabel "Plasticity Degree" ;
+  skos:prefLabel "Plasticity Degree"@en ;
 .
 sp:consistence-plasticity-degree-0
   rdf:type skos:Concept ;
@@ -1770,7 +1770,7 @@ sp:consistence-plasticity-type
   skos:member sp:consistence-plasticity-type-S ;
   skos:member sp:consistence-plasticity-type-T ;
   skos:member sp:consistence-plasticity-type-U ;
-  skos:prefLabel "Plasticity Type" ;
+  skos:prefLabel "Plasticity Type"@en ;
 .
 sp:consistence-plasticity-type-N
   rdf:type skos:Concept ;
@@ -1828,7 +1828,7 @@ sp:consistence-stickiness
   skos:member sp:consistence-stickiness-1 ;
   skos:member sp:consistence-stickiness-2 ;
   skos:member sp:consistence-stickiness-3 ;
-  skos:prefLabel "Stickiness" ;
+  skos:prefLabel "Stickiness"@en ;
 .
 sp:consistence-stickiness-0
   rdf:type skos:Concept ;
@@ -1906,7 +1906,7 @@ Forces 0 to 5 are equivalent to the following dry consistence classes in the ‘
   skos:member sp:consistence-strength-5 ;
   skos:member sp:consistence-strength-6 ;
   skos:member sp:consistence-strength-7 ;
-  skos:prefLabel "Strength" ;
+  skos:prefLabel "Strength"@en ;
 .
 sp:consistence-strength-0
   rdf:type skos:Concept ;
@@ -2007,7 +2007,7 @@ Cutans may be observed in the field (a ×10 hand lens is usually necessary) but 
   skos:member sp:cutans-abundance ;
   skos:member sp:cutans-distinctness ;
   skos:member sp:cutans-type ;
-  skos:prefLabel "Cutans" ;
+  skos:prefLabel "Cutans"@en ;
 .
 sp:cutans-abundance
   rdf:type skos:Collection ;
@@ -2212,7 +2212,7 @@ A scaled horizon diagram may be useful where horizons are irregular.""" ;
   rdfs:label "Depth of Horizons" ;
   skos:definition """The upper and lower depths, in metres, of each horizon are measured from the soil surface, excluding O horizons. O horizon depths are measured above the mineral soil surface, for example O1 0.120.10 m, O2 0.10.0 m.
 A scaled horizon diagram may be useful where horizons are irregular.""" ;
-  skos:prefLabel "Depth of Horizons" ;
+  skos:prefLabel "Depth of Horizons"@en ;
 .
 sp:depth-to-r-horizon
   rdf:type skos:Collection ;
@@ -2222,7 +2222,7 @@ The purpose of recording this depth is to include in the soil description those 
   rdfs:label "Depth to R horizon or strongly cemented pan" ;
   skos:definition """Give depth to R horizon or strongly cemented pan in metres.
 The purpose of recording this depth is to include in the soil description those materials that may be relatively easily moved by earth-moving equipment or may be relatively easily penetrated by roots. Strong or very strong rock or pan that may require ripping or blasting to move, and/or has little or no root penetration, is excluded""" ;
-  skos:prefLabel "Depth to R horizon or strongly cemented pan" ;
+  skos:prefLabel "Depth to R horizon or strongly cemented pan"@en ;
 .
 sp:effervescence-H
   rdf:type skos:Concept ;
@@ -2291,7 +2291,7 @@ sp:effervescence-of-carbonate-in-fine-earth
   skos:member sp:effervescence-N ;
   skos:member sp:effervescence-S ;
   skos:member sp:effervescence-V ;
-  skos:prefLabel "Effervescence of carbonate in fine earth" ;
+  skos:prefLabel "Effervescence of carbonate in fine earth"@en ;
 .
 sp:fabric
   rdf:type skos:Collection ;
@@ -2306,7 +2306,7 @@ Fabric describes the appearance of the soil material (under ×10 hand lens). Dif
   skos:member sp:fabric-G ;
   skos:member sp:fabric-R ;
   skos:member sp:fabric-S ;
-  skos:prefLabel "Fabric" ;
+  skos:prefLabel "Fabric"@en ;
 .
 sp:fabric-E
   rdf:type skos:Concept ;
@@ -2314,10 +2314,10 @@ sp:fabric-E
   ui:isMemberOf sp:fabric ;
   rdfs:comment "C_FAB_TYPE" ;
   rdfs:label "Earthy" ;
-  skos:altLabel "Porous" ;
+  skos:altLabel "Porous"@en ;
   skos:definition "The soil material is coherent and characterised by the presence of pores (voids) and few, if any, peds. Ultimate soil particles (sand grains, for example) are coated with oxides and/or clays and are arranged (clumped) around the pores." ;
   skos:notation "E" ;
-  skos:prefLabel "Earthy" ;
+  skos:prefLabel "Earthy"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:fabric-G
@@ -2328,7 +2328,7 @@ sp:fabric-G
   rdfs:label "Sandy (grains prominent)" ;
   skos:definition "The soil material is coherent, with few, if any, peds. The closely packed sand grains provide the characteristic appearance of the soil mass." ;
   skos:notation "G" ;
-  skos:prefLabel "Sandy" ;
+  skos:prefLabel "Sandy"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:fabric-R
@@ -2339,7 +2339,7 @@ sp:fabric-R
   rdfs:label "Rough-ped" ;
   skos:definition "Peds are evident, and characteristically more than 50% of the peds are rough-faced, that is, they have relatively porous surfaces. (Rough-faced peds generally have less clearly defined faces than smooth-faced peds and the pedality of the soil may be questioned. However, if the soil mass is pressed gently, the characteristic size and shape of the soil aggregates will confirm its pedality.) Granular peds with common or many macropores are always rough-faced, but this condition varies in other ped forms." ;
   skos:notation "R" ;
-  skos:prefLabel "Rough-ped" ;
+  skos:prefLabel "Rough-ped"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:fabric-S
@@ -2350,7 +2350,7 @@ sp:fabric-S
   rdfs:label "Smooth-ped" ;
   skos:definition "Peds are evident, and characteristically more than 50% of them are dense and smooth-faced, although the degree of lustre may vary." ;
   skos:notation "S" ;
-  skos:prefLabel "Smooth-ped" ;
+  skos:prefLabel "Smooth-ped"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:field-ph
@@ -2367,7 +2367,7 @@ Record depth at which pH is determined, in metres.
 pH may be measured either:
 •	by horizons, or
 •	where horizons are thick (greater than 0.5 m) and horizon boundaries are diffuse, at selected intervals down the profile. This system gives useful data in some soils when important pH changes may occur independently of visible horizon changes, for instance the change from alkaline to strongly acid conditions in some cracking clays.""" ;
-  skos:prefLabel "Field pH" ;
+  skos:prefLabel "Field pH"@en ;
 .
 sp:field-texture
   rdf:type skos:Collection ;
@@ -2386,7 +2386,7 @@ sp:field-texture-AP
   ui:isMemberOf sp:field-texture-organic ;
   rdfs:comment "Organic soil" ;
   rdfs:label "Sapric peat" ;
-  skos:altLabel "humified peat" ;
+  skos:altLabel "humified peat"@en ;
   skos:definition "strongly to completely decomposed organic material. Plant remains vary from few being identifiable to completely amorphous." ;
   skos:notation "AP" ;
   skos:prefLabel "Sapric peat"@en ;
@@ -3186,7 +3186,7 @@ sp:field-texture-HP
   ui:isMemberOf sp:field-texture-organic ;
   rdfs:comment "Organic soil" ;
   rdfs:label "Hemic peat" ;
-  skos:altLabel "Semi-fibrous peat" ;
+  skos:altLabel "Semi-fibrous peat"@en ;
   skos:definition "moderately to well decomposed organic material. Plant remains vary from most being difficult to identify to most being unidentifiable. It is intermediate in degree of decomposition between the less decomposed fibric peat and the more decomposed sapric peat." ;
   skos:notation "HP" ;
   skos:prefLabel "Hemic peat"@en ;
@@ -3198,7 +3198,7 @@ sp:field-texture-IP
   ui:isMemberOf sp:field-texture-organic ;
   rdfs:comment "Organic soil" ;
   rdfs:label "Fibric peat" ;
-  skos:altLabel "Fibrous peat" ;
+  skos:altLabel "Fibrous peat"@en ;
   skos:definition "undecomposed or weakly decomposed organic material. Plant remains are distinct and readily identifiable." ;
   skos:notation "IP" ;
   skos:prefLabel "Fibric peat"@en ;
@@ -4664,7 +4664,7 @@ sp:horizon-boundary
   rdfs:label "Boundaries between horizons" ;
   skos:narrower sp:horizon-boundary-distinctness ;
   skos:narrower sp:horizon-boundary-shape ;
-  skos:prefLabel "Boundaries between horizons" ;
+  skos:prefLabel "Boundaries between horizons"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-boundary-distinctness
@@ -4678,7 +4678,7 @@ sp:horizon-boundary-distinctness
   skos:member sp:horizon-boundary-distinctness-D ;
   skos:member sp:horizon-boundary-distinctness-G ;
   skos:member sp:horizon-boundary-distinctness-S ;
-  skos:prefLabel "Boundary distinctness" ;
+  skos:prefLabel "Boundary distinctness"@en ;
 .
 sp:horizon-boundary-distinctness-A
   rdf:type skos:Concept ;
@@ -4687,7 +4687,7 @@ sp:horizon-boundary-distinctness-A
   rdfs:label "Abrupt" ;
   skos:definition "width of boundary is 5-20 mm." ;
   skos:notation "A" ;
-  skos:prefLabel "Abrupt" ;
+  skos:prefLabel "Abrupt"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-boundary-distinctness-C
@@ -4697,7 +4697,7 @@ sp:horizon-boundary-distinctness-C
   rdfs:label "Clear" ;
   skos:definition "width of boundary is 20-50 mm." ;
   skos:notation "C" ;
-  skos:prefLabel "Clear" ;
+  skos:prefLabel "Clear"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-boundary-distinctness-D
@@ -4707,7 +4707,7 @@ sp:horizon-boundary-distinctness-D
   rdfs:label "Diffuse" ;
   skos:definition "width of boundary is >100 mm." ;
   skos:notation "D" ;
-  skos:prefLabel "Diffuse" ;
+  skos:prefLabel "Diffuse"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-boundary-distinctness-G
@@ -4717,7 +4717,7 @@ sp:horizon-boundary-distinctness-G
   rdfs:label "Gradual" ;
   skos:definition "width of boundary is 50-100 mm." ;
   skos:notation "G" ;
-  skos:prefLabel "Gradual" ;
+  skos:prefLabel "Gradual"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-boundary-distinctness-S
@@ -4727,7 +4727,7 @@ sp:horizon-boundary-distinctness-S
   rdfs:label "Sharp" ;
   skos:definition "width of boundary is <5 mm." ;
   skos:notation "S" ;
-  skos:prefLabel "Sharp" ;
+  skos:prefLabel "Sharp"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-boundary-shape
@@ -4741,7 +4741,7 @@ sp:horizon-boundary-shape
   skos:member sp:horizon-boundary-shape-S ;
   skos:member sp:horizon-boundary-shape-T ;
   skos:member sp:horizon-boundary-shape-W ;
-  skos:prefLabel "Boundary shape" ;
+  skos:prefLabel "Boundary shape"@en ;
 .
 sp:horizon-boundary-shape-B
   rdf:type skos:Concept ;
@@ -4750,7 +4750,7 @@ sp:horizon-boundary-shape-B
   rdfs:label "Broken" ;
   skos:definition "discontinuous." ;
   skos:notation "B" ;
-  skos:prefLabel "Broken" ;
+  skos:prefLabel "Broken"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-boundary-shape-I
@@ -4760,7 +4760,7 @@ sp:horizon-boundary-shape-I
   rdfs:label "Irregular" ;
   skos:definition "undulations with depressions deeper than they are wide." ;
   skos:notation "I" ;
-  skos:prefLabel "Irregular" ;
+  skos:prefLabel "Irregular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-boundary-shape-S
@@ -4770,7 +4770,7 @@ sp:horizon-boundary-shape-S
   rdfs:label "Smooth" ;
   skos:definition "almost a plane surface." ;
   skos:notation "S" ;
-  skos:prefLabel "Smooth" ;
+  skos:prefLabel "Smooth"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-boundary-shape-T
@@ -4780,7 +4780,7 @@ sp:horizon-boundary-shape-T
   rdfs:label "Tongued" ;
   skos:definition "depressions considerably deeper than they are wide." ;
   skos:notation "T" ;
-  skos:prefLabel "Tongued" ;
+  skos:prefLabel "Tongued"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-boundary-shape-W
@@ -4790,7 +4790,7 @@ sp:horizon-boundary-shape-W
   rdfs:label "Wavy" ;
   skos:definition "undulations with depressions wider than they are deep." ;
   skos:notation "W" ;
-  skos:prefLabel "Wavy" ;
+  skos:prefLabel "Wavy"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-b
@@ -5014,7 +5014,7 @@ sp:horizon-suffixes
   skos:member sp:horizon-suffix-x ;
   skos:member sp:horizon-suffix-y ;
   skos:member sp:horizon-suffix-z ;
-  skos:prefLabel "Horizon suffixes" ;
+  skos:prefLabel "Horizon suffixes"@en ;
 .
 sp:horizons
   rdf:type skos:Collection ;
@@ -5040,7 +5040,7 @@ The B horizon is the coarse angular blocky and/or lenticular horizon where ped f
   skos:member sp:horizons-prefix ;
   skos:member sp:horizons-subdivision ;
   skos:member sp:horizons-transitional ;
-  skos:prefLabel "Horizons" ;
+  skos:prefLabel "Horizons"@en ;
 .
 sp:horizons-A
   rdf:type skos:Concept ;
@@ -5052,7 +5052,7 @@ sp:horizons-A
   skos:narrower sp:horizon-A2 ;
   skos:narrower sp:horizon-A3 ;
   skos:notation "A" ;
-  skos:prefLabel "A Horizons" ;
+  skos:prefLabel "A Horizons"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizons-B
@@ -5065,7 +5065,7 @@ sp:horizons-B
   skos:narrower sp:horizon-B2 ;
   skos:narrower sp:horizon-B3 ;
   skos:notation "B" ;
-  skos:prefLabel "B Horizons" ;
+  skos:prefLabel "B Horizons"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizons-C
@@ -5075,7 +5075,7 @@ sp:horizons-C
   rdfs:label "C Horizons" ;
   skos:definition "These are layers below the solum (AB profile) of consolidated or unconsolidated material, usually partially weathered, little affected by pedogenic processes, and either like or unlike the material from which the solum presumably formed. The C horizon lacks properties characteristic of O, P, A, B or D horizons. It is recognised by its lack of pedological development and/or the presence of geologic organisation frequently expressed as sedimentary laminae or as ghost rock structure as in saprolite. C horizons include consolidated rock and sediments that, when moist, can be dug with hand tools. Rock strength is generally weak or weaker. Because of their nature, C horizons may alternatively be described as substrate." ;
   skos:notation "C" ;
-  skos:prefLabel "C Horizons" ;
+  skos:prefLabel "C Horizons"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizons-D
@@ -5085,7 +5085,7 @@ sp:horizons-D
   rdfs:label "D Horizons" ;
   skos:definition "These are considered to be any soil material below the solum that is unlike the solum in its general character, is not C horizon, and cannot be given reliable horizon designation as with ‘Buried soils’ or ‘Lithologic discontinuities’. Thus a D horizon may be recognised by the contrast in pedologic organisation between it and the overlying horizons." ;
   skos:notation "D" ;
-  skos:prefLabel "D Horizons" ;
+  skos:prefLabel "D Horizons"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizons-O
@@ -5097,7 +5097,7 @@ sp:horizons-O
   skos:narrower sp:horizon-O1 ;
   skos:narrower sp:horizon-O2 ;
   skos:notation "O" ;
-  skos:prefLabel "O Horizons" ;
+  skos:prefLabel "O Horizons"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizons-P
@@ -5110,7 +5110,7 @@ sp:horizons-P
   skos:narrower sp:horizon-P1 ;
   skos:narrower sp:horizon-P2 ;
   skos:notation "P" ;
-  skos:prefLabel "P Horizons" ;
+  skos:prefLabel "P Horizons"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizons-R
@@ -5120,7 +5120,7 @@ sp:horizons-R
   rdfs:label "R Horizons" ;
   skos:definition "These horizons consist of continuous masses (not boulders) of moderately strong to very strong rock (excluding pans) such as bedrock. R horizons may have cracks but these are few enough and/or fine enough that few roots penetrate and there is no significant displacement of rock. It is usually too strong to dig with hand tools, even when moist." ;
   skos:notation "R" ;
-  skos:prefLabel "R Horizons" ;
+  skos:prefLabel "R Horizons"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizons-bleached
@@ -5151,7 +5151,7 @@ Sporadically bleached: bleach occurs:
 •	irregularly through the horizon
 •	as blotches, often less than 6 mm thick, at the interface of horizons, most commonly A and B horizons
 •	as nests of bleached grains of soil material at the interface of horizons, most commonly A and B horizons, when no other evidence of a bleached horizon may occur.""" ;
-  skos:prefLabel "Bleached horizons" ;
+  skos:prefLabel "Bleached horizons"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizons-prefix
@@ -5162,7 +5162,7 @@ sp:horizons-prefix
   skos:definition """Where obvious contrasts in lithology exist between different horizons in the soil profile, or between the soil profile and the underlying lithology, the different lithologic layers are given a numeric prefix (Figure 13).
 Each layer may consist of one or more horizons. The different layers are numbered from the top downward. The upper layer is not numbered 1, this being understood. Numbering starts with the second layer, which is designated 2. Even though a layer below material 3, for example, is similar to material 2, it is designated 4 in the sequence (see Profiles C and D in Figure 13). Discrimination of lithological discontinuities from soil horizon boundaries will depend in each case upon the degree of pedological organisation and the contrast between lithological units (see, for example, Profiles C and D in Figure 13).
 Where lithologic discontinuities are suspected in the profile but there is no clear evidence, either the numeric prefix should not be used or a query should be added to indicate doubt. It is better used only where there is clear evidence. Whether the numeric prefix is used or not, the horizon naming, with appropriate suffixes, remains the same, as illustrated in the examples in Figure 13.""" ;
-  skos:prefLabel "Lithologic discontinuity" ;
+  skos:prefLabel "Lithologic discontinuity"@en ;
 .
 sp:horizons-subdivision
   rdf:type skos:Collection ;
@@ -5174,7 +5174,7 @@ The above horizon nomenclature will cover most soils, but there will be instance
   skos:definition """All horizon subdivisions are numbered consecutively from the top of each horizon downward, as in A11, A12, A2, B21, B22, B23. The numeric suffix always precedes the alphabetic suffix except with the alphabetic suffix ‘p’ where the number always follows the letter.
 The above horizon nomenclature will cover most soils, but there will be instances where there are buried soils (pedologic discontinuities) (Figure 14) and also where a profile has formed on what are obviously different parent materials (lithologic discontinuities) (Figure 13). Where there are buried soils and it is not possible to identify reliably the horizon as A or B, then these are D horizons, for example Profile E, Figure 13.
 """ ;
-  skos:prefLabel "Subdivision of horizons" ;
+  skos:prefLabel "Subdivision of horizons"@en ;
 .
 sp:horizons-transitional
   rdf:type skos:Collection ;
@@ -5190,7 +5190,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 •	transitional horizons in which distinct parts have recognisable properties of two kinds of horizons indicated by capital letters (Soil Survey Staff 1990).
 
 The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of the individual parts of at least one of the components are surrounded by the other. The first symbol is that of the horizon that makes up the greater volume.""" ;
-  skos:prefLabel "Transitional horizons" ;
+  skos:prefLabel "Transitional horizons"@en ;
 .
 sp:mottle-abundance
   rdf:type skos:Collection ;
@@ -5579,7 +5579,7 @@ sp:mottles-and-other-colour-patterns
   skos:member sp:mottle-constrasts ;
   skos:member sp:mottle-sizes ;
   skos:member sp:mottle-types ;
-  skos:prefLabel "Mottles and other colour patterns" ;
+  skos:prefLabel "Mottles and other colour patterns"@en ;
 .
 sp:observation-type-A
   rdf:type skos:Concept ;
@@ -5589,7 +5589,7 @@ sp:observation-type-A
   rdfs:label "Auger boring" ;
   skos:definition "Auger boring is used to describe the soil profile." ;
   skos:notation "A" ;
-  skos:prefLabel "Auger boring" ;
+  skos:prefLabel "Auger boring"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:observation-type-C
@@ -5600,7 +5600,7 @@ sp:observation-type-C
   rdfs:label "Relatively undisturbed soil core" ;
   skos:definition "The profile is described from a soil core that it relatively undisturbed." ;
   skos:notation "C" ;
-  skos:prefLabel "Relatively undisturbed soil core" ;
+  skos:prefLabel "Relatively undisturbed soil core"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:observation-type-E
@@ -5611,7 +5611,7 @@ sp:observation-type-E
   rdfs:label "Existing vertical exposure" ;
   skos:definition "An existing vertical exposure (e.g. road cutting) can be used to describe the soil profile." ;
   skos:notation "E" ;
-  skos:prefLabel "Existing vertical exposure" ;
+  skos:prefLabel "Existing vertical exposure"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:observation-type-P
@@ -5622,7 +5622,7 @@ sp:observation-type-P
   rdfs:label "Soil pit" ;
   skos:definition "The soil pit is one of several types of observation used to describe the soil profile." ;
   skos:notation "P" ;
-  skos:prefLabel "Soil pit" ;
+  skos:prefLabel "Soil pit"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans
@@ -5635,7 +5635,7 @@ sp:pans
   skos:member sp:pans-continuity ;
   skos:member sp:pans-structure ;
   skos:member sp:pans-type ;
-  skos:prefLabel "Pans" ;
+  skos:prefLabel "Pans"@en ;
 .
 sp:pans-cementation
   rdf:type skos:Collection ;
@@ -5649,7 +5649,7 @@ sp:pans-cementation
   skos:member sp:pans-cementation-2 ;
   skos:member sp:pans-cementation-3 ;
   skos:member sp:pans-cementation-4 ;
-  skos:prefLabel "Cementation of pan" ;
+  skos:prefLabel "Cementation of pan"@en ;
 .
 sp:pans-cementation-0
   rdf:type skos:Concept ;
@@ -5659,7 +5659,7 @@ sp:pans-cementation-0
   rdfs:label "Uncemented" ;
   skos:definition "slakes." ;
   skos:notation "0" ;
-  skos:prefLabel "Uncemented" ;
+  skos:prefLabel "Uncemented"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-cementation-1
@@ -5670,7 +5670,7 @@ sp:pans-cementation-1
   rdfs:label "Weakly cemented" ;
   skos:definition "can be crushed between thumb and forefinger." ;
   skos:notation "1" ;
-  skos:prefLabel "Weakly cemented" ;
+  skos:prefLabel "Weakly cemented"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-cementation-2
@@ -5681,7 +5681,7 @@ sp:pans-cementation-2
   rdfs:label "Moderately cemented" ;
   skos:definition "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with weight of average person (80 kg) applied slowly." ;
   skos:notation "2" ;
-  skos:prefLabel "Moderately cemented" ;
+  skos:prefLabel "Moderately cemented"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-cementation-3
@@ -5692,7 +5692,7 @@ sp:pans-cementation-3
   rdfs:label "Strongly cemented" ;
   skos:definition "cannot be crushed underfoot by weight of average man applied slowly. Can be broken by hammer." ;
   skos:notation "3" ;
-  skos:prefLabel "Strongly cemented" ;
+  skos:prefLabel "Strongly cemented"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-cementation-4
@@ -5703,7 +5703,7 @@ sp:pans-cementation-4
   rdfs:label "Very strongly cemented" ;
   skos:definition "cannot be broken by hammer, or only with extreme difficulty." ;
   skos:notation "4" ;
-  skos:prefLabel "Very strongly cemented" ;
+  skos:prefLabel "Very strongly cemented"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-continuity
@@ -5716,7 +5716,7 @@ sp:pans-continuity
   skos:member sp:pans-continuity-B ;
   skos:member sp:pans-continuity-C ;
   skos:member sp:pans-continuity-D ;
-  skos:prefLabel "Continuity of pan" ;
+  skos:prefLabel "Continuity of pan"@en ;
 .
 sp:pans-continuity-B
   rdf:type skos:Concept ;
@@ -5725,7 +5725,7 @@ sp:pans-continuity-B
   rdfs:label "Broken" ;
   skos:definition "broken by cracks and fragments are disoriented." ;
   skos:notation "B" ;
-  skos:prefLabel "Broken" ;
+  skos:prefLabel "Broken"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-continuity-C
@@ -5735,7 +5735,7 @@ sp:pans-continuity-C
   rdfs:label "Continuous" ;
   skos:definition "extends as a layer with little or no break across 1 m or more." ;
   skos:notation "C" ;
-  skos:prefLabel "Continuous" ;
+  skos:prefLabel "Continuous"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-continuity-D
@@ -5745,7 +5745,7 @@ sp:pans-continuity-D
   rdfs:label "Discontinuous" ;
   skos:definition "broken by cracks but original orientation of fragments is preserved." ;
   skos:notation "D" ;
-  skos:prefLabel "Discontinuous" ;
+  skos:prefLabel "Discontinuous"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure
@@ -5761,7 +5761,7 @@ sp:pans-structure
   skos:member sp:pans-structure-R ;
   skos:member sp:pans-structure-S ;
   skos:member sp:pans-structure-V ;
-  skos:prefLabel "Structure of pan" ;
+  skos:prefLabel "Structure of pan"@en ;
 .
 sp:pans-structure-C
   rdf:type skos:Concept ;
@@ -5770,7 +5770,7 @@ sp:pans-structure-C
   rdfs:label "Concretionary" ;
   skos:definition "spheroidal concretions cemented together." ;
   skos:notation "C" ;
-  skos:prefLabel "Concretionary" ;
+  skos:prefLabel "Concretionary"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure-L
@@ -5780,7 +5780,7 @@ sp:pans-structure-L
   rdfs:label "Platy" ;
   skos:definition "plate-like units cemented together." ;
   skos:notation "L" ;
-  skos:prefLabel "Platy" ;
+  skos:prefLabel "Platy"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure-N
@@ -5790,7 +5790,7 @@ sp:pans-structure-N
   rdfs:label "Nodular" ;
   skos:definition "nodules of irregular shape cemented together." ;
   skos:notation "N" ;
-  skos:prefLabel "Nodular" ;
+  skos:prefLabel "Nodular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure-R
@@ -5800,7 +5800,7 @@ sp:pans-structure-R
   rdfs:label "Vermicular" ;
   skos:definition "worm-like structure and/or cavities." ;
   skos:notation "R" ;
-  skos:prefLabel "Vermicular" ;
+  skos:prefLabel "Vermicular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure-S
@@ -5810,7 +5810,7 @@ sp:pans-structure-S
   rdfs:label "Vesicular" ;
   skos:definition "sponge-like structure having large pores, which may or may not be filled with softer material." ;
   skos:notation "S" ;
-  skos:prefLabel "Vesicular" ;
+  skos:prefLabel "Vesicular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure-V
@@ -5820,7 +5820,7 @@ sp:pans-structure-V
   rdfs:label "Massive" ;
   skos:definition "no recognisable structure." ;
   skos:notation "V" ;
-  skos:prefLabel "Massive" ;
+  skos:prefLabel "Massive"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type
@@ -5845,17 +5845,17 @@ sp:pans-type
   skos:member sp:pans-type-T ;
   skos:member sp:pans-type-V ;
   skos:member sp:pans-type-Z ;
-  skos:prefLabel "Type of pan" ;
+  skos:prefLabel "Type of pan"@en ;
 .
 sp:pans-type-A
   rdf:type skos:Concept ;
   dct:description "indurated material rich in aluminium hydroxides. Commonly consists of cemented pisoliths and usually known as bauxite." ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Alcrete" ;
-  skos:altLabel "Bauxite" ;
+  skos:altLabel "Bauxite"@en ;
   skos:definition "indurated material rich in aluminium hydroxides. Commonly consists of cemented pisoliths and usually known as bauxite." ;
   skos:notation "A" ;
-  skos:prefLabel "Alcrete" ;
+  skos:prefLabel "Alcrete"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-C
@@ -5865,7 +5865,7 @@ sp:pans-type-C
   rdfs:label "Organic pan" ;
   skos:definition "horizon relatively high in organic matter but low in iron. It is relatively thick and weakly to strongly cemented by aluminium and usually becomes progressively more cemented with depth. It is usually relatively uniform in appearance laterally. It is commonly the B horizon of humus podzols, where it is often known as coffee rock or sandrock." ;
   skos:notation "C" ;
-  skos:prefLabel "Organic pan" ;
+  skos:prefLabel "Organic pan"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-D
@@ -5875,7 +5875,7 @@ sp:pans-type-D
   rdfs:label "Duripan" ;
   skos:definition "earthy pan so cemented by silica that dry fragments do not slake in water and are always brittle, even after prolonged wetting. (Described by Soil Survey Staff 1975.)" ;
   skos:notation "D" ;
-  skos:prefLabel "Duripan" ;
+  skos:prefLabel "Duripan"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-E
@@ -5885,7 +5885,7 @@ sp:pans-type-E
   rdfs:label "Ferricrete" ;
   skos:definition "indurated material rich in hydrated oxides of iron (usually goethite and hematite) occurring as cemented nodules and/or concretions, or as massive sheets. This material has been commonly referred to in local usage around Australia as laterite, duricrust or ironstone." ;
   skos:notation "E" ;
-  skos:prefLabel "Ferricrete" ;
+  skos:prefLabel "Ferricrete"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-F
@@ -5895,7 +5895,7 @@ sp:pans-type-F
   rdfs:label "Fragipan" ;
   skos:definition "earthy pan, which is usually loamy. A dry fragment slakes in water. A wet fragment does not slake in water but has moderate or weak brittleness. Fragipans are more stable on exposure than overlying or underlying horizons. (Described by Soil Survey Staff 1975.)" ;
   skos:notation "F" ;
-  skos:prefLabel "Fragipan" ;
+  skos:prefLabel "Fragipan"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-I
@@ -5905,7 +5905,7 @@ sp:pans-type-I
   rdfs:label "Thin ironpan" ;
   skos:definition "commonly thin (2–10 mm), black to dark reddish pan cemented by iron, iron and manganese, or iron – organic matter complexes. Rarely 40 mm thick. Has wavy or convolute form and usually occurs as a single pan. This is a placic horizon (described by Soil Survey Staff 1975.)" ;
   skos:notation "I" ;
-  skos:prefLabel "Thin ironpan" ;
+  skos:prefLabel "Thin ironpan"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-K
@@ -5915,7 +5915,7 @@ sp:pans-type-K
   rdfs:label "Calcrete" ;
   skos:definition "any cemented, terrestrial carbonate accumulation that may vary significantly in morphology and degree of cementation. Also known as carbonate pan, calcareous pan, caliche, kunkar, secondary limestone, travertine. All show slight to strong effervescence with 1 Molar HCl." ;
   skos:notation "K" ;
-  skos:prefLabel "Calcrete" ;
+  skos:prefLabel "Calcrete"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-L
@@ -5925,7 +5925,7 @@ sp:pans-type-L
   rdfs:label "Silcrete" ;
   skos:definition "strongly indurated siliceous material cemented by, and largely composed of, forms of silica, including quartz, chalcedony, opal and chert." ;
   skos:notation "L" ;
-  skos:prefLabel "Silcrete" ;
+  skos:prefLabel "Silcrete"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-M
@@ -5935,7 +5935,7 @@ sp:pans-type-M
   rdfs:label "Manganiferous pan" ;
   skos:definition "indurated material dominated by oxides of manganese." ;
   skos:notation "M" ;
-  skos:prefLabel "Manganiferous pan" ;
+  skos:prefLabel "Manganiferous pan"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-N
@@ -5945,7 +5945,7 @@ sp:pans-type-N
   rdfs:label "Densipan" ;
   skos:definition "earthy pan, which is very fine sandy (0.02–0.05 mm). Fragments, both wet and dry, slake in water. Densipans are less stable on exposure than overlying or underlying horizons. (Described by Smith et al. 1975.)" ;
   skos:notation "N" ;
-  skos:prefLabel "Densipan" ;
+  skos:prefLabel "Densipan"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-O
@@ -5955,7 +5955,7 @@ sp:pans-type-O
   rdfs:label "Other pans" ;
   skos:definition "Other pans" ;
   skos:notation "O" ;
-  skos:prefLabel "Other pans" ;
+  skos:prefLabel "Other pans"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-R
@@ -5965,7 +5965,7 @@ sp:pans-type-R
   rdfs:label "Red-brown hardpan" ;
   skos:definition "earthy pan, which is normally reddish brown to red with dense yet porous appearance; it is very hard, has an irregular laminar cleavage and some vertical cracks, and varies from less than 0.3 m to over 30 m thick. Other variable features are bedded and unsorted sand and gravel lenses; wavy black veinings, probably manganiferous; and, less commonly, off-white veins of calcium carbonate. (The presence of calcium carbonate is not common and the red-brown hardpan in which it occurs may be relatively brittle and finely laminar.) The red-brown hardpan is usually present below the soil profile and is not a feature of any particular soil group. (It has some similarity with other silica pans such as duripans of arid climates). In many instances, it is not known if the red-brown hardpan is a paleosol or a cemented sediment (Wright 1983). If thought to be the latter, it may be described as a substrate material. " ;
   skos:notation "R" ;
-  skos:prefLabel "Red-brown hardpan" ;
+  skos:prefLabel "Red-brown hardpan"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-T
@@ -5975,7 +5975,7 @@ sp:pans-type-T
   rdfs:label "Ortstein" ;
   skos:definition "horizon strongly cemented by iron and organic matter. It has marked local variability in colour, both laterally and vertically. It may occur in the B horizon of podzols." ;
   skos:notation "T" ;
-  skos:prefLabel "Ortstein" ;
+  skos:prefLabel "Ortstein"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-V
@@ -5985,7 +5985,7 @@ sp:pans-type-V
   rdfs:label "Cultivation pan" ;
   skos:definition "subsurface soil horizon having higher bulk density, lower total porosity, and lower permeability to both air and water than horizons directly above and below as a result of cultivation practices. (After Morse et al. 1987.)" ;
   skos:notation "V" ;
-  skos:prefLabel "Cultivation pan" ;
+  skos:prefLabel "Cultivation pan"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-Z
@@ -5995,7 +5995,7 @@ sp:pans-type-Z
   rdfs:label "Zero or no pan" ;
   skos:definition "Zero or no pan" ;
   skos:notation "Z" ;
-  skos:prefLabel "Zero or no pan" ;
+  skos:prefLabel "Zero or no pan"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:roots
@@ -6006,7 +6006,7 @@ sp:roots
   skos:definition "Record the presence of roots observed in each horizon in areas 100 mm square on a cleaned exposure face." ;
   skos:member sp:roots-abundance ;
   skos:member sp:roots-size ;
-  skos:prefLabel "Roots" ;
+  skos:prefLabel "Roots"@en ;
 .
 sp:roots-abundance
   rdf:type skos:Collection ;
@@ -6020,7 +6020,7 @@ sp:roots-abundance
   skos:member sp:roots-abundance-2 ;
   skos:member sp:roots-abundance-3 ;
   skos:member sp:roots-abundance-4 ;
-  skos:prefLabel "Root abundance" ;
+  skos:prefLabel "Root abundance"@en ;
 .
 sp:roots-abundance-0
   rdf:type skos:Concept ;
@@ -6099,7 +6099,7 @@ sp:roots-size
   skos:member sp:roots-size-2 ;
   skos:member sp:roots-size-3 ;
   skos:member sp:roots-size-4 ;
-  skos:prefLabel "Root size" ;
+  skos:prefLabel "Root size"@en ;
 .
 sp:roots-size-1
   rdf:type skos:Concept ;
@@ -6154,7 +6154,7 @@ sp:segregations-abundance
   skos:member sp:segregations-abundance-3 ;
   skos:member sp:segregations-abundance-4 ;
   skos:member sp:segregations-abundance-5 ;
-  skos:prefLabel "Abundance of segregations" ;
+  skos:prefLabel "Abundance of segregations"@en ;
 .
 sp:segregations-abundance-0
   rdf:type skos:Concept ;
@@ -6238,7 +6238,7 @@ sp:segregations-form
   skos:member sp:segregations-form-T ;
   skos:member sp:segregations-form-V ;
   skos:member sp:segregations-form-X ;
-  skos:prefLabel "Form of segregations" ;
+  skos:prefLabel "Form of segregations"@en ;
 .
 sp:segregations-form-C
   rdf:type skos:Concept ;
@@ -6348,7 +6348,7 @@ sp:segregations-magnetic
   skos:definition "attraction onto surface of hand-held magnet" ;
   skos:member sp:segregations-magnetic-M ;
   skos:member sp:segregations-magnetic-N ;
-  skos:prefLabel "Magnetic attributes of segregations" ;
+  skos:prefLabel "Magnetic attributes of segregations"@en ;
 .
 sp:segregations-magnetic-M
   rdf:type skos:Concept ;
@@ -6393,7 +6393,7 @@ sp:segregations-nature
   skos:member sp:segregations-nature-U ;
   skos:member sp:segregations-nature-Y ;
   skos:member sp:segregations-nature-Z ;
-  skos:prefLabel "Nature of segregations" ;
+  skos:prefLabel "Nature of segregations"@en ;
 .
 sp:segregations-nature-A
   rdf:type skos:Concept ;
@@ -6546,7 +6546,7 @@ sp:segregations-nature-Z
   rdfs:label "Saline" ;
   skos:definition "Saline (visible salt)" ;
   skos:notation "Z" ;
-  skos:prefLabel "Saline" ;
+  skos:prefLabel "Saline"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:segregations-of-pedogenic-origin
@@ -6563,7 +6563,7 @@ Segregations may be relict or formed in situ by current pedogenic processes.""" 
   skos:member sp:segregations-nature ;
   skos:member sp:segregations-size ;
   skos:member sp:segregations-strength ;
-  skos:prefLabel "Segregations of pedogenic origin" ;
+  skos:prefLabel "Segregations of pedogenic origin"@en ;
 .
 sp:segregations-size
   rdf:type skos:Collection ;
@@ -6577,7 +6577,7 @@ sp:segregations-size
   skos:member sp:segregations-size-3 ;
   skos:member sp:segregations-size-4 ;
   skos:member sp:segregations-size-5 ;
-  skos:prefLabel "Size of segregations" ;
+  skos:prefLabel "Size of segregations"@en ;
 .
 sp:segregations-size-1
   rdf:type skos:Concept ;
@@ -6643,7 +6643,7 @@ sp:segregations-strength
   skos:definition "Strength may be recorded where appropriate" ;
   skos:member sp:segregations-strength-1 ;
   skos:member sp:segregations-strength-2 ;
-  skos:prefLabel "Strength of segregations" ;
+  skos:prefLabel "Strength of segregations"@en ;
 .
 sp:segregations-strength-1
   rdf:type skos:Concept ;
@@ -6678,7 +6678,7 @@ These concepts of permeability and drainage are largely based on Canada Soil Sur
   skos:member sp:soilwater-drainage ;
   skos:member sp:soilwater-permeability ;
   skos:member sp:soilwater-status ;
-  skos:prefLabel "Soil water regime" ;
+  skos:prefLabel "Soil water regime"@en ;
 .
 sp:soilwater-drainage
   rdf:type skos:Collection ;
@@ -6693,7 +6693,7 @@ sp:soilwater-drainage
   skos:member sp:soilwater-drainage-4 ;
   skos:member sp:soilwater-drainage-5 ;
   skos:member sp:soilwater-drainage-6 ;
-  skos:prefLabel "Drainage" ;
+  skos:prefLabel "Drainage"@en ;
 .
 sp:soilwater-drainage-1
   rdf:type skos:Concept ;
@@ -6772,7 +6772,7 @@ sp:soilwater-permeability
   skos:member sp:soilwater-permeability-2 ;
   skos:member sp:soilwater-permeability-3 ;
   skos:member sp:soilwater-permeability-4 ;
-  skos:prefLabel "Permeability" ;
+  skos:prefLabel "Permeability"@en ;
 .
 sp:soilwater-permeability-1
   rdf:type skos:Concept ;
@@ -6858,7 +6858,7 @@ Wet is at, or exceeding, field capacity. Will wet and/or stick to fingers when m
   skos:member sp:soilwater-status-M ;
   skos:member sp:soilwater-status-T ;
   skos:member sp:soilwater-status-W ;
-  skos:prefLabel "Soil water status" ;
+  skos:prefLabel "Soil water status"@en ;
 .
 sp:soilwater-status-D
   rdf:type skos:Concept ;
@@ -6959,7 +6959,7 @@ Soil structure can only be described reliably in a relatively fresh vertical exp
   skos:member sp:structure-pedality-grade ;
   skos:member sp:structure-pedality-size ;
   skos:member sp:structure-pedality-type ;
-  skos:prefLabel "Structure" ;
+  skos:prefLabel "Structure"@en ;
 .
 sp:structure-artificial
   rdf:type skos:Collection ;
@@ -6969,7 +6969,7 @@ sp:structure-artificial
   skos:definition "Cultivated horizons (Ap horizons) often consist of artificial aggregates formed by cultivation or work being done on the soil. The distinction between artificial aggregates and peds can be difficult. In cultivated horizons, where the pedologist is confident the aggregates are natural peds they should be recorded as such. If the pedologist is doubtful, or the aggregates are obviously artificial, they should be recorded as clods or fragments." ;
   skos:member sp:structure-artificial-CL ;
   skos:member sp:structure-artificial-FR ;
-  skos:prefLabel "Artificial aggregates" ;
+  skos:prefLabel "Artificial aggregates"@en ;
 .
 sp:structure-artificial-CL
   rdf:type skos:Concept ;
@@ -6978,7 +6978,7 @@ sp:structure-artificial-CL
   rdfs:label "Clod" ;
   skos:definition "artificial aggregate with diameter 100 mm or more." ;
   skos:notation "CL" ;
-  skos:prefLabel "Clod" ;
+  skos:prefLabel "Clod"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-artificial-FR
@@ -6988,7 +6988,7 @@ sp:structure-artificial-FR
   rdfs:label "Fragment" ;
   skos:definition "artificial aggregate with diameter less than 100 mm." ;
   skos:notation "FR" ;
-  skos:prefLabel "Fragment" ;
+  skos:prefLabel "Fragment"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-compound
@@ -7009,7 +7009,7 @@ The order of peds and relationship of one to the other is important and may be d
 1	Largest peds (in the type of soil observation described), parting to
 2	Next size peds, parting to
 3	Next size peds, ... and further, if required, to the primary ped.""" ;
-  skos:prefLabel "Compound pedality" ;
+  skos:prefLabel "Compound pedality"@en ;
 .
 sp:structure-pedality-grade
   rdf:type skos:Collection ;
@@ -7023,7 +7023,7 @@ sp:structure-pedality-grade
   skos:member sp:structure-pedality-grade-S ;
   skos:member sp:structure-pedality-grade-V ;
   skos:member sp:structure-pedality-grade-W ;
-  skos:prefLabel "Grade of pedality" ;
+  skos:prefLabel "Grade of pedality"@en ;
 .
 sp:structure-pedality-grade-G
   rdf:type skos:Concept ;
@@ -7034,7 +7034,7 @@ sp:structure-pedality-grade-G
   rdfs:label "Single grain" ;
   skos:definition "loose, incoherent* mass of individual particles. When displaced, soil separates into ultimate particles." ;
   skos:notation "G" ;
-  skos:prefLabel "Single grain" ;
+  skos:prefLabel "Single grain"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-grade-M
@@ -7045,7 +7045,7 @@ sp:structure-pedality-grade-M
   rdfs:label "Moderate" ;
   skos:definition "peds well-formed and evident but not distinct in undisplaced soil. Adhesion between peds is usually firm or stronger. When displaced, more than one-third of the soil material consists of entire peds, the remainder consisting of broken peds, fragments and ultimate particles." ;
   skos:notation "M" ;
-  skos:prefLabel "Moderate" ;
+  skos:prefLabel "Moderate"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-grade-S
@@ -7056,7 +7056,7 @@ sp:structure-pedality-grade-S
   rdfs:label "Strong" ;
   skos:definition "peds quite distinct in undisplaced soil. Adhesion between peds is usually firm or weaker. When displaced, more than two-thirds of the soil material consists of entire peds." ;
   skos:notation "S" ;
-  skos:prefLabel "Strong" ;
+  skos:prefLabel "Strong"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-grade-V
@@ -7068,7 +7068,7 @@ sp:structure-pedality-grade-V
   rdfs:label "Massive" ;
   skos:definition "coherent*. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles." ;
   skos:notation "V" ;
-  skos:prefLabel "Massive" ;
+  skos:prefLabel "Massive"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-grade-W
@@ -7079,7 +7079,7 @@ sp:structure-pedality-grade-W
   rdfs:label "Weak" ;
   skos:definition "peds indistinct and barely observable in undisplaced soil. When displaced, up to one-third of the soil material consists of peds, the remainder consisting of variable amounts of fragments and ultimate particles." ;
   skos:notation "W" ;
-  skos:prefLabel "Weak" ;
+  skos:prefLabel "Weak"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-size
@@ -7098,7 +7098,7 @@ sp:structure-pedality-size
   skos:member sp:structure-pedality-size-7 ;
   skos:member sp:structure-pedality-size-8 ;
   skos:member sp:structure-pedality-size-9 ;
-  skos:prefLabel "Size of peds" ;
+  skos:prefLabel "Size of peds"@en ;
 .
 sp:structure-pedality-size-1
   rdf:type skos:Concept ;
@@ -7108,7 +7108,7 @@ sp:structure-pedality-size-1
   rdfs:label "< 2 mm" ;
   skos:definition "< 2 mm" ;
   skos:notation "1" ;
-  skos:prefLabel "< 2 mm" ;
+  skos:prefLabel "< 2 mm"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-size-2
@@ -7119,7 +7119,7 @@ sp:structure-pedality-size-2
   rdfs:label "2-5 mm" ;
   skos:definition "2-5 mm" ;
   skos:notation "2" ;
-  skos:prefLabel "2-5 mm" ;
+  skos:prefLabel "2-5 mm"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-size-3
@@ -7130,7 +7130,7 @@ sp:structure-pedality-size-3
   rdfs:label "5-10 mm" ;
   skos:definition "5-10 mm" ;
   skos:notation "3" ;
-  skos:prefLabel "5-10 mm" ;
+  skos:prefLabel "5-10 mm"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-size-4
@@ -7141,7 +7141,7 @@ sp:structure-pedality-size-4
   rdfs:label "10-20 mm" ;
   skos:definition "10-20 mm" ;
   skos:notation "4" ;
-  skos:prefLabel "10-20 mm" ;
+  skos:prefLabel "10-20 mm"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-size-5
@@ -7152,7 +7152,7 @@ sp:structure-pedality-size-5
   rdfs:label "20-50 mm" ;
   skos:definition "20-50 mm" ;
   skos:notation "5" ;
-  skos:prefLabel "20-50 mm" ;
+  skos:prefLabel "20-50 mm"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-size-6
@@ -7163,7 +7163,7 @@ sp:structure-pedality-size-6
   rdfs:label "50-100 mm" ;
   skos:definition "50-100 mm" ;
   skos:notation "6" ;
-  skos:prefLabel "50-100 mm" ;
+  skos:prefLabel "50-100 mm"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-size-7
@@ -7174,7 +7174,7 @@ sp:structure-pedality-size-7
   rdfs:label "100-200 mm" ;
   skos:definition "100-200 mm" ;
   skos:notation "7" ;
-  skos:prefLabel "100-200 mm" ;
+  skos:prefLabel "100-200 mm"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-size-8
@@ -7185,7 +7185,7 @@ sp:structure-pedality-size-8
   rdfs:label "200-500 mm" ;
   skos:definition "200-500 mm" ;
   skos:notation "8" ;
-  skos:prefLabel "200-500 mm" ;
+  skos:prefLabel "200-500 mm"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-size-9
@@ -7196,7 +7196,7 @@ sp:structure-pedality-size-9
   rdfs:label "> 500 mm" ;
   skos:definition "> 500 mm" ;
   skos:notation "9" ;
-  skos:prefLabel "> 500 mm" ;
+  skos:prefLabel "> 500 mm"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type
@@ -7215,7 +7215,7 @@ sp:structure-pedality-type
   skos:member sp:structure-pedality-type-PO ;
   skos:member sp:structure-pedality-type-PR ;
   skos:member sp:structure-pedality-type-SB ;
-  skos:prefLabel "Type of pedality" ;
+  skos:prefLabel "Type of pedality"@en ;
 .
 sp:structure-pedality-type-AB
   rdf:type skos:Concept ;
@@ -7224,7 +7224,7 @@ sp:structure-pedality-type-AB
   rdfs:label "Angular blocky" ;
   skos:definition "soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular.	Angular blocky	Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular." ;
   skos:notation "AB" ;
-  skos:prefLabel "Angular blocky" ;
+  skos:prefLabel "Angular blocky"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-CA
@@ -7234,7 +7234,7 @@ sp:structure-pedality-type-CA
   rdfs:label "Cast" ;
   skos:definition "faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps.	Cast	Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps." ;
   skos:notation "CA" ;
-  skos:prefLabel "Cast" ;
+  skos:prefLabel "Cast"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-CO
@@ -7244,7 +7244,7 @@ sp:structure-pedality-type-CO
   rdfs:label "Columnar" ;
   skos:definition "soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops.	Columnar	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops." ;
   skos:notation "CO" ;
-  skos:prefLabel "Columnar" ;
+  skos:prefLabel "Columnar"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-GR
@@ -7254,7 +7254,7 @@ sp:structure-pedality-type-GR
   rdfs:label "Granular" ;
   skos:definition "spheroidal with limited accommodation to the faces of surrounding peds.	Granular	Spheroidal with limited accommodation to the faces of surrounding peds." ;
   skos:notation "GR" ;
-  skos:prefLabel "Granular" ;
+  skos:prefLabel "Granular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-LE
@@ -7264,7 +7264,7 @@ sp:structure-pedality-type-LE
   rdfs:label "Lenticular" ;
   skos:definition "soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute.	Lenticular	Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute." ;
   skos:notation "LE" ;
-  skos:prefLabel "Lenticular" ;
+  skos:prefLabel "Lenticular"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-PL
@@ -7274,7 +7274,7 @@ sp:structure-pedality-type-PL
   rdfs:label "Platy" ;
   skos:definition "soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds.	Platy	Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds." ;
   skos:notation "PL" ;
-  skos:prefLabel "Platy" ;
+  skos:prefLabel "Platy"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-PO
@@ -7284,7 +7284,7 @@ sp:structure-pedality-type-PO
   rdfs:label "Polyhedral" ;
   skos:definition "soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular.	Polyhedral	Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular." ;
   skos:notation "PO" ;
-  skos:prefLabel "Polyhedral" ;
+  skos:prefLabel "Polyhedral"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-PR
@@ -7294,7 +7294,7 @@ sp:structure-pedality-type-PR
   rdfs:label "Prismatic" ;
   skos:definition "soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular.	Prismatic	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular." ;
   skos:notation "PR" ;
-  skos:prefLabel "Prismatic" ;
+  skos:prefLabel "Prismatic"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-SB
@@ -7304,7 +7304,7 @@ sp:structure-pedality-type-SB
   rdfs:label "Subangular blocky" ;
   skos:definition "soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded.	Subangular blocky	Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded." ;
   skos:notation "SB" ;
-  skos:prefLabel "Subangular blocky" ;
+  skos:prefLabel "Subangular blocky"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:surfacecondition-C
@@ -7461,7 +7461,7 @@ sp:types-of-soil-observation
   skos:member sp:observation-type-C ;
   skos:member sp:observation-type-E ;
   skos:member sp:observation-type-P ;
-  skos:prefLabel "Observation type" ;
+  skos:prefLabel "Observation type"@en ;
 .
 sp:voids
   rdf:type skos:Collection ;
@@ -7472,7 +7472,7 @@ sp:voids
   skos:member sp:voids-cracks ;
   skos:member sp:voids-macropores ;
   skos:member sp:voids-micropores ;
-  skos:prefLabel "Voids" ;
+  skos:prefLabel "Voids"@en ;
 .
 sp:voids-cracks
   rdf:type skos:Collection ;
@@ -7485,7 +7485,7 @@ sp:voids-cracks
   skos:member sp:voids-cracks-3 ;
   skos:member sp:voids-cracks-4 ;
   skos:member sp:voids-cracks-5 ;
-  skos:prefLabel "Cracks" ;
+  skos:prefLabel "Cracks"@en ;
 .
 sp:voids-cracks-1
   rdf:type skos:Concept ;
@@ -7495,7 +7495,7 @@ sp:voids-cracks-1
   rdfs:label "Fine" ;
   skos:definition "<5 mm" ;
   skos:notation "1" ;
-  skos:prefLabel "Fine" ;
+  skos:prefLabel "Fine"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-cracks-2
@@ -7506,7 +7506,7 @@ sp:voids-cracks-2
   rdfs:label "Medium" ;
   skos:definition "5 - 10 mm" ;
   skos:notation "2" ;
-  skos:prefLabel "Medium" ;
+  skos:prefLabel "Medium"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-cracks-3
@@ -7517,7 +7517,7 @@ sp:voids-cracks-3
   rdfs:label "Coarse" ;
   skos:definition "10–20 mm" ;
   skos:notation "3" ;
-  skos:prefLabel "Coarse" ;
+  skos:prefLabel "Coarse"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-cracks-4
@@ -7528,7 +7528,7 @@ sp:voids-cracks-4
   rdfs:label "Very coarse" ;
   skos:definition "20–50 mm" ;
   skos:notation "4" ;
-  skos:prefLabel "Very coarse" ;
+  skos:prefLabel "Very coarse"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-cracks-5
@@ -7539,7 +7539,7 @@ sp:voids-cracks-5
   rdfs:label "Extremely coarse" ;
   skos:definition "20–50 mm" ;
   skos:notation "5" ;
-  skos:prefLabel "Extremely coarse" ;
+  skos:prefLabel "Extremely coarse"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-macropores
@@ -7551,7 +7551,7 @@ sp:voids-macropores
   skos:member sp:voids-macropores-abundance ;
   skos:member sp:voids-macropores-diameter ;
   skos:note "Only macropores can be seen with the naked eye" ;
-  skos:prefLabel "Macropores" ;
+  skos:prefLabel "Macropores"@en ;
 .
 sp:voids-macropores-abundance
   rdf:type skos:Collection ;
@@ -7567,7 +7567,7 @@ sp:voids-macropores-abundance
   skos:member sp:voids-macropores-abundance-4 ;
   skos:member sp:voids-macropores-abundance-5 ;
   skos:member sp:voids-macropores-abundance-6 ;
-  skos:prefLabel "Abundance of macropores" ;
+  skos:prefLabel "Abundance of macropores"@en ;
 .
 sp:voids-macropores-abundance-0
   rdf:type skos:Concept ;
@@ -7577,7 +7577,7 @@ sp:voids-macropores-abundance-0
   rdfs:label "No fine, very fine, medium or coarse macropores" ;
   skos:definition "No fine, very fine, medium or coarse macropores" ;
   skos:notation "0" ;
-  skos:prefLabel "No fine, very fine, medium or coarse macropores" ;
+  skos:prefLabel "No fine, very fine, medium or coarse macropores"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-macropores-abundance-1
@@ -7588,7 +7588,7 @@ sp:voids-macropores-abundance-1
   rdfs:label "Few fine or very fine macropores" ;
   skos:definition "<1 per 100 mm2 of diameter less than 2mm" ;
   skos:notation "1" ;
-  skos:prefLabel "Few fine or very fine macropores" ;
+  skos:prefLabel "Few fine or very fine macropores"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-macropores-abundance-2
@@ -7599,7 +7599,7 @@ sp:voids-macropores-abundance-2
   rdfs:label "Common fine or very fine macropores" ;
   skos:definition "1–5 per 100 mm2 of diameter less than 2mm" ;
   skos:notation "2" ;
-  skos:prefLabel "Common fine or very fine macropores" ;
+  skos:prefLabel "Common fine or very fine macropores"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-macropores-abundance-3
@@ -7610,7 +7610,7 @@ sp:voids-macropores-abundance-3
   rdfs:label "Many fine or very fine macropores" ;
   skos:definition ">5 per 100 mm2 of diameter less than 2mm" ;
   skos:notation "3" ;
-  skos:prefLabel "Many fine or very fine macropores" ;
+  skos:prefLabel "Many fine or very fine macropores"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-macropores-abundance-4
@@ -7621,7 +7621,7 @@ sp:voids-macropores-abundance-4
   rdfs:label "Few medium or coarse macropores" ;
   skos:definition "<1 per 0.01 m2 of diameter greater than 2mm" ;
   skos:notation "4" ;
-  skos:prefLabel "Few medium or coarse macropores" ;
+  skos:prefLabel "Few medium or coarse macropores"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-macropores-abundance-5
@@ -7632,7 +7632,7 @@ sp:voids-macropores-abundance-5
   rdfs:label "Common medium or coarse macropores" ;
   skos:definition "1–5 per 0.01 m2 of diameter greater than 2mm" ;
   skos:notation "5" ;
-  skos:prefLabel "Common medium or coarse macropores" ;
+  skos:prefLabel "Common medium or coarse macropores"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-macropores-abundance-6
@@ -7643,7 +7643,7 @@ sp:voids-macropores-abundance-6
   rdfs:label "Many medium or coarse macropores" ;
   skos:definition ">5 per 0.01 m2 of diameter greater than 2mm" ;
   skos:notation "6" ;
-  skos:prefLabel "Many medium or coarse macropores" ;
+  skos:prefLabel "Many medium or coarse macropores"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-macropores-diameter
@@ -7657,7 +7657,7 @@ sp:voids-macropores-diameter
   skos:member sp:voids-macropores-diameter-2 ;
   skos:member sp:voids-macropores-diameter-3 ;
   skos:member sp:voids-macropores-diameter-4 ;
-  skos:prefLabel "Diameter of macropores" ;
+  skos:prefLabel "Diameter of macropores"@en ;
 .
 sp:voids-macropores-diameter-1
   rdf:type skos:Concept ;
@@ -7668,7 +7668,7 @@ sp:voids-macropores-diameter-1
   skos:definition "0.075–1 m" ;
   skos:notation "1" ;
   skos:note "Use Figure 18 as a guide to average diameter" ;
-  skos:prefLabel "Very fine" ;
+  skos:prefLabel "Very fine"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-macropores-diameter-2
@@ -7680,7 +7680,7 @@ sp:voids-macropores-diameter-2
   skos:definition "1–2 mm" ;
   skos:notation "2" ;
   skos:note "Use Figure 18 as a guide to average diameter" ;
-  skos:prefLabel "Fine" ;
+  skos:prefLabel "Fine"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-macropores-diameter-3
@@ -7692,7 +7692,7 @@ sp:voids-macropores-diameter-3
   skos:definition "2–5 mm" ;
   skos:notation "3" ;
   skos:note "Use Figure 18 as a guide to average diameter" ;
-  skos:prefLabel "Medium" ;
+  skos:prefLabel "Medium"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-macropores-diameter-4
@@ -7704,7 +7704,7 @@ sp:voids-macropores-diameter-4
   skos:definition ">5 mm" ;
   skos:notation "4" ;
   skos:note "Use Figure 18 as a guide to average diameter" ;
-  skos:prefLabel "Coarse" ;
+  skos:prefLabel "Coarse"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:voids-micropores
@@ -7714,7 +7714,7 @@ sp:voids-micropores
   rdfs:label "Micropores" ;
   skos:definition "voids that are approximately circular in cross-section and less than 0.075 mm diameter" ;
   skos:note "Only macropores can be seen with the naked eye" ;
-  skos:prefLabel "Micropores" ;
+  skos:prefLabel "Micropores"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:water-repellence
@@ -7727,7 +7727,7 @@ sp:water-repellence
   skos:member sp:water-repellence-R ;
   skos:member sp:water-repellence-S ;
   skos:note "Soil temperature at testing should be between 15ºC and 25ºC. Higher temperatures will increase, and lower decrease, rates of absorption. Industrial-grade methylated spirits, available from chemists, at a concentration of 23.9 ml per 200 ml water can be substituted for the 2-molar ethanol to obtain approximate values." ;
-  skos:prefLabel "Water repellence" ;
+  skos:prefLabel "Water repellence"@en ;
 .
 sp:water-repellence-N
   rdf:type skos:Concept ;
