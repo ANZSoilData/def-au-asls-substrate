@@ -6677,7 +6677,6 @@ These concepts of permeability and drainage are largely based on Canada Soil Sur
 These concepts of permeability and drainage are largely based on Canada Soil Survey Committee (1978).""" ;
   skos:member sp:soilwater-drainage ;
   skos:member sp:soilwater-permeability ;
-  skos:member sp:soilwater-status ;
   skos:prefLabel "Soil water regime"@en ;
 .
 sp:soilwater-drainage
@@ -6844,7 +6843,7 @@ Dry is below wilting point. Material becomes darker or has lower colour value wh
 Moderately moist is the drier half of the available moisture range.
 Moist is the wetter half of the available moisture range.
 Wet is at, or exceeding, field capacity. Will wet and/or stick to fingers when moulded.""" ;
-  ui:isMemberOf sp:soil-water-regime ;
+  ui:topMemberOf sp: ;
   rdfs:label "Soil water status" ;
   skos:definition """Give soil water status of the soil at the time of description.
 It may also be relevant to note the weather conditions immediately prior to examination of the soil if these are known, for example a soil may be wet because of local rain or from seepage.
