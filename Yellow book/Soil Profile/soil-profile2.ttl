@@ -78,7 +78,7 @@ sp:coarse-fragments
 .
 sp:coarse-fragments-abundance
   rdf:type skos:Collection ;
-  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure11.png\" /></p>"^^rdf:HTML ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure11.png\" /></p>"^^rdf:HTML ;
   ui:isMemberOf sp:coarse-fragments ;
   rdfs:comment "The percentage is estimated by eye using the charts in the yellow book for comparison. N_CF_ABUN" ;
   rdfs:label "Abundance of coarse fragments" ;
@@ -1306,7 +1306,7 @@ sp:coarse-fragments-lithology-ZS
 .
 sp:coarse-fragments-shape
   rdf:type skos:Collection ;
-  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure12.png\" /></p>" ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure12.png\" /></p>" ;
   ui:isMemberOf sp:coarse-fragments ;
   rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Shape of coarse fragments" ;
@@ -2400,8 +2400,6 @@ sp:field-texture-CFS
   skos:broader sp:field-texture-CS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
-  skos:member sp:field-texture-CFS-heavy ;
-  skos:member sp:field-texture-CFS-light ;
   skos:narrower sp:field-texture-CFS-heavy ;
   skos:narrower sp:field-texture-CFS-light ;
   skos:notation "CFS" ;
@@ -2439,8 +2437,6 @@ sp:field-texture-CKS
   skos:broader sp:field-texture-CS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
-  skos:member sp:field-texture-CKS-heavy ;
-  skos:member sp:field-texture-CKS-light ;
   skos:narrower sp:field-texture-CKS-heavy ;
   skos:narrower sp:field-texture-CKS-light ;
   skos:notation "CKS" ;
@@ -2539,10 +2535,6 @@ sp:field-texture-CLFS
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
-  skos:member sp:field-texture-CLFS-A ;
-  skos:member sp:field-texture-CLFS-I ;
-  skos:member sp:field-texture-CLFS-heavy ;
-  skos:member sp:field-texture-CLFS-light ;
   skos:narrower sp:field-texture-CLFS-A ;
   skos:narrower sp:field-texture-CLFS-I ;
   skos:narrower sp:field-texture-CLFS-heavy ;
@@ -2608,10 +2600,6 @@ sp:field-texture-CLKS
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
-  skos:member sp:field-texture-CLKS-A ;
-  skos:member sp:field-texture-CLKS-I ;
-  skos:member sp:field-texture-CLKS-heavy ;
-  skos:member sp:field-texture-CLKS-light ;
   skos:narrower sp:field-texture-CLKS-A ;
   skos:narrower sp:field-texture-CLKS-I ;
   skos:narrower sp:field-texture-CLKS-heavy ;
@@ -2695,8 +2683,6 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
-  skos:member sp:field-texture-CLFS-A ;
-  skos:member sp:field-texture-CLKS-A ;
   skos:narrower sp:field-texture-CLFS-A ;
   skos:narrower sp:field-texture-CLKS-A ;
   skos:notation "CLS-A" ;
@@ -2711,8 +2697,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
-  skos:member sp:field-texture-CLFS-I ;
-  skos:member sp:field-texture-CLKS-I ;
   skos:narrower sp:field-texture-CLFS-I ;
   skos:narrower sp:field-texture-CLKS-I ;
   skos:notation "CLS-I" ;
@@ -2726,8 +2710,6 @@ sp:field-texture-CLS-heavy
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
-  skos:member sp:field-texture-CLFS-heavy ;
-  skos:member sp:field-texture-CLKS-heavy ;
   skos:narrower sp:field-texture-CLFS-heavy ;
   skos:narrower sp:field-texture-CLKS-heavy ;
   skos:notation "CLS+" ;
@@ -2741,8 +2723,6 @@ sp:field-texture-CLS-light
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
-  skos:member sp:field-texture-CLFS-light ;
-  skos:member sp:field-texture-CLKS-light ;
   skos:narrower sp:field-texture-CLFS-light ;
   skos:narrower sp:field-texture-CLKS-light ;
   skos:notation "CLS-" ;
@@ -4517,7 +4497,7 @@ sp:field-texture-ZMHC-I
 .
 sp:field-texture-mineral
   rdf:type skos:Collection ;
-  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure16.png\" /></p>" ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure16.png\" /></p>" ;
   ui:isMemberOf sp:field-texture ;
   rdfs:label "Mineral field texture grades" ;
   skos:member sp:field-texture-CL ;
@@ -4795,7 +4775,7 @@ sp:horizon-boundary-shape-W
 .
 sp:horizon-suffix-b
   rdf:type skos:Concept ;
-  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure14.png\" /></p>" ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure14.png\" /></p>" ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:comment "Where there are buried soils, and it is possible to designate reliably the horizon nomenclature in the buried profiles, the buried horizons are given the suffix ‘b’ which is written last. Number the different soils from the top downward. The upper soil, or modern soil, is not numbered 1, this being understood. Two examples are given in Figure 14" ;
   rdfs:label "Horizon suffix b" ;
@@ -5156,7 +5136,7 @@ Sporadically bleached: bleach occurs:
 .
 sp:horizons-prefix
   rdf:type skos:Collection ;
-  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure13.png\" /></p>" ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure13.png\" /></p>" ;
   ui:isMemberOf sp:horizons ;
   rdfs:label "Lithologic discontinuity" ;
   skos:definition """Where obvious contrasts in lithology exist between different horizons in the soil profile, or between the soil profile and the underlying lithology, the different lithologic layers are given a numeric prefix (Figure 13).
@@ -6143,7 +6123,7 @@ sp:roots-size-4
 .
 sp:segregations-abundance
   rdf:type skos:Collection ;
-  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure11.png\" /></p>" ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure11.png\" /></p>" ;
   ui:isMemberOf sp:segregations-of-pedogenic-origin ;
   rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Abundance of segregations" ;
@@ -6667,37 +6647,25 @@ sp:segregations-strength-2
   skos:prefLabel "Strong"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soil-water-regime
-  rdf:type skos:Collection ;
-  dct:description """Traditional approaches to soil drainage do not adequately differentiate between hydrological setting and permeability of the material of the profile. For example, a very permeable, coarse-textured soil occurring in a wet depression would have to be classed as very poorly drained. Hence there is a need to consider permeability, which refers to the potential of a soil to transmit water internally, and drainage, which refers to the rapidity and extent of water removal from the soil profile or site. Both these aspects of internal drainage may be difficult to assess in the field, and cannot be based solely on profile morphology. Mottling may, but not always, reflect drainage status, since mottling may be a relict feature. Vegetation and topography may be useful guides.
-These concepts of permeability and drainage are largely based on Canada Soil Survey Committee (1978).""" ;
-  ui:topMemberOf sp: ;
-  rdfs:label "Soil water regime" ;
-  skos:definition """Traditional approaches to soil drainage do not adequately differentiate between hydrological setting and permeability of the material of the profile. For example, a very permeable, coarse-textured soil occurring in a wet depression would have to be classed as very poorly drained. Hence there is a need to consider permeability, which refers to the potential of a soil to transmit water internally, and drainage, which refers to the rapidity and extent of water removal from the soil profile or site. Both these aspects of internal drainage may be difficult to assess in the field, and cannot be based solely on profile morphology. Mottling may, but not always, reflect drainage status, since mottling may be a relict feature. Vegetation and topography may be useful guides.
-These concepts of permeability and drainage are largely based on Canada Soil Survey Committee (1978).""" ;
-  skos:member sp:soilwater-drainage ;
-  skos:member sp:soilwater-permeability ;
-  skos:prefLabel "Soil water regime"@en ;
-.
-sp:soilwater-drainage
+sp:soil-water-drainage
   rdf:type skos:Collection ;
   dct:description "Drainage is a useful term to summarise local soil wetness conditions, that is, it provides a statement about soil and site drainage likely to occur in most years. It is affected by a number of attributes, both internal and external, that may act separately or together. Internal attributes include soil structure, texture, porosity, hydraulic conductivity, and water-holding capacity, while external attributes are source and quality of water, evapotranspiration, gradient and length of slope, and position in the landscape." ;
   ui:isMemberOf sp:soil-water-regime ;
   rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Drainage" ;
   skos:definition "Drainage is a useful term to summarise local soil wetness conditions, that is, it provides a statement about soil and site drainage likely to occur in most years. It is affected by a number of attributes, both internal and external, that may act separately or together. Internal attributes include soil structure, texture, porosity, hydraulic conductivity, and water-holding capacity, while external attributes are source and quality of water, evapotranspiration, gradient and length of slope, and position in the landscape." ;
-  skos:member sp:soilwater-drainage-1 ;
-  skos:member sp:soilwater-drainage-2 ;
-  skos:member sp:soilwater-drainage-3 ;
-  skos:member sp:soilwater-drainage-4 ;
-  skos:member sp:soilwater-drainage-5 ;
-  skos:member sp:soilwater-drainage-6 ;
+  skos:member sp:soil-water-drainage-1 ;
+  skos:member sp:soil-water-drainage-2 ;
+  skos:member sp:soil-water-drainage-3 ;
+  skos:member sp:soil-water-drainage-4 ;
+  skos:member sp:soil-water-drainage-5 ;
+  skos:member sp:soil-water-drainage-6 ;
   skos:prefLabel "Drainage"@en ;
 .
-sp:soilwater-drainage-1
+sp:soil-water-drainage-1
   rdf:type skos:Concept ;
   dct:description "water is removed from the soil so slowly that the water table remains at or near the surface for most of the year. Surface flow, groundwater and subsurface flow are major sources of water, although precipitation may be important where there is a perched water table and precipitation exceeds evapotranspiration. Soils have a wide range in texture and depth, and often occur in depressed sites. Strong gleying and accumulation of surface organic matter are usually features of most soils." ;
-  ui:isMemberOf sp:soilwater-drainage ;
+  ui:isMemberOf sp:soil-water-drainage ;
   rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Very poorly drained" ;
   skos:definition "water is removed from the soil so slowly that the water table remains at or near the surface for most of the year. Surface flow, groundwater and subsurface flow are major sources of water, although precipitation may be important where there is a perched water table and precipitation exceeds evapotranspiration. Soils have a wide range in texture and depth, and often occur in depressed sites. Strong gleying and accumulation of surface organic matter are usually features of most soils." ;
@@ -6705,10 +6673,10 @@ sp:soilwater-drainage-1
   skos:prefLabel "Very poorly drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-drainage-2
+sp:soil-water-drainage-2
   rdf:type skos:Concept ;
   dct:description "water is removed very slowly in relation to supply. Subsurface and/or groundwater flow, as well as precipitation, may be a significant water source. Seasonal ponding, resulting from runon and insufficient outfall, also occurs. A perched water table may be present. Soils have a wide range in texture and depth; many have horizons that are gleyed, mottled, or possess orange or rusty linings of root channels. All horizons remain wet for periods of several months." ;
-  ui:isMemberOf sp:soilwater-drainage ;
+  ui:isMemberOf sp:soil-water-drainage ;
   rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Poorly drained" ;
   skos:definition "water is removed very slowly in relation to supply. Subsurface and/or groundwater flow, as well as precipitation, may be a significant water source. Seasonal ponding, resulting from runon and insufficient outfall, also occurs. A perched water table may be present. Soils have a wide range in texture and depth; many have horizons that are gleyed, mottled, or possess orange or rusty linings of root channels. All horizons remain wet for periods of several months." ;
@@ -6716,10 +6684,10 @@ sp:soilwater-drainage-2
   skos:prefLabel "Poorly drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-drainage-3
+sp:soil-water-drainage-3
   rdf:type skos:Concept ;
   dct:description "water is removed only slowly in relation to supply. Precipitation is the main source if available water storage capacity is high, but subsurface flow and/or groundwater contribute as available water storage capacity decreases. Soils have a wide range in texture and depth. Some horizons may be mottled and/or have orange or rusty linings of root channels, and are wet for several weeks." ;
-  ui:isMemberOf sp:soilwater-drainage ;
+  ui:isMemberOf sp:soil-water-drainage ;
   rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Imperfectly drained" ;
   skos:definition "water is removed only slowly in relation to supply. Precipitation is the main source if available water storage capacity is high, but subsurface flow and/or groundwater contribute as available water storage capacity decreases. Soils have a wide range in texture and depth. Some horizons may be mottled and/or have orange or rusty linings of root channels, and are wet for several weeks." ;
@@ -6727,10 +6695,10 @@ sp:soilwater-drainage-3
   skos:prefLabel "Imperfectly drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-drainage-4
+sp:soil-water-drainage-4
   rdf:type skos:Concept ;
   dct:description "water is removed from the soil somewhat slowly in relation to supply, due to low permeability, shallow water table, lack of gradient, or some combination of these. Soils are usually medium to fine in texture. Significant additions of water by subsurface flow are necessary in coarse-textured soils. Some horizons may remain wet for as long as one week after water addition." ;
-  ui:isMemberOf sp:soilwater-drainage ;
+  ui:isMemberOf sp:soil-water-drainage ;
   rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Moderately well drained" ;
   skos:definition "water is removed from the soil somewhat slowly in relation to supply, due to low permeability, shallow water table, lack of gradient, or some combination of these. Soils are usually medium to fine in texture. Significant additions of water by subsurface flow are necessary in coarse-textured soils. Some horizons may remain wet for as long as one week after water addition." ;
@@ -6738,10 +6706,10 @@ sp:soilwater-drainage-4
   skos:prefLabel "Moderately well drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-drainage-5
+sp:soil-water-drainage-5
   rdf:type skos:Concept ;
   dct:description "water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying, moderately permeable material or laterally as subsurface flow. The soils are often medium in texture. Some horizons may remain wet for several days after water addition." ;
-  ui:isMemberOf sp:soilwater-drainage ;
+  ui:isMemberOf sp:soil-water-drainage ;
   rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Well drained" ;
   skos:definition "water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying, moderately permeable material or laterally as subsurface flow. The soils are often medium in texture. Some horizons may remain wet for several days after water addition." ;
@@ -6749,10 +6717,10 @@ sp:soilwater-drainage-5
   skos:prefLabel "Well drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-drainage-6
+sp:soil-water-drainage-6
   rdf:type skos:Concept ;
   dct:description "water is removed from the soil rapidly in relation to supply. Excess water flows downward rapidly if underlying material is highly permeable. There may be rapid subsurface lateral flow during heavy rainfall provided there is a steep gradient. Soils are usually coarse-textured, or shallow, or both. No horizon is normally wet for more than several hours after water addition." ;
-  ui:isMemberOf sp:soilwater-drainage ;
+  ui:isMemberOf sp:soil-water-drainage ;
   rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Rapidly drained" ;
   skos:definition "water is removed from the soil rapidly in relation to supply. Excess water flows downward rapidly if underlying material is highly permeable. There may be rapid subsurface lateral flow during heavy rainfall provided there is a steep gradient. Soils are usually coarse-textured, or shallow, or both. No horizon is normally wet for more than several hours after water addition." ;
@@ -6760,25 +6728,25 @@ sp:soilwater-drainage-6
   skos:prefLabel "Rapidly drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-permeability
+sp:soil-water-permeability
   rdf:type skos:Collection ;
   dct:description "Permeability is independent of climate and drainage, and – as applied to a soil – is controlled by the potential to transmit water (saturated hydraulic conductivity, Ks) of the least permeable layer in the soil. Therefore it is inferred from attributes of the soil such as structure, texture, porosity, cracks and shrink–swell properties. The rate of transmission of water in the profile is based on the assumption that loss by evapotranspiration is minimal. The Ks ranges are compatible with those of Nowland in Canada, as reported by McKeague et al. (1982)." ;
   ui:isMemberOf sp:soil-water-regime ;
   rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Permeability" ;
   skos:definition "Permeability is independent of climate and drainage, and – as applied to a soil – is controlled by the potential to transmit water (saturated hydraulic conductivity, Ks) of the least permeable layer in the soil. Therefore it is inferred from attributes of the soil such as structure, texture, porosity, cracks and shrink–swell properties. The rate of transmission of water in the profile is based on the assumption that loss by evapotranspiration is minimal. The Ks ranges are compatible with those of Nowland in Canada, as reported by McKeague et al. (1982)." ;
-  skos:member sp:soilwater-permeability-1 ;
-  skos:member sp:soilwater-permeability-2 ;
-  skos:member sp:soilwater-permeability-3 ;
-  skos:member sp:soilwater-permeability-4 ;
+  skos:member sp:soil-water-permeability-1 ;
+  skos:member sp:soil-water-permeability-2 ;
+  skos:member sp:soil-water-permeability-3 ;
+  skos:member sp:soil-water-permeability-4 ;
   skos:prefLabel "Permeability"@en ;
 .
-sp:soilwater-permeability-1
+sp:soil-water-permeability-1
   rdf:type skos:Concept ;
   dct:description """vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet.
 Ks range: <5 mm/day
 Drainage time: months""" ;
-  ui:isMemberOf sp:soilwater-permeability ;
+  ui:isMemberOf sp:soil-water-permeability ;
   rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Very slowly permeable" ;
   skos:definition """vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet.
@@ -6788,12 +6756,12 @@ Drainage time: months""" ;
   skos:prefLabel "Very slowly permeable"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-permeability-2
+sp:soil-water-permeability-2
   rdf:type skos:Concept ;
   dct:description """vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral.
 Ks range: 5-50 mm/day
 Drainage time: weeks""" ;
-  ui:isMemberOf sp:soilwater-permeability ;
+  ui:isMemberOf sp:soil-water-permeability ;
   rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Slowly permeable" ;
   skos:definition """vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral.
@@ -6803,12 +6771,12 @@ Drainage time: weeks""" ;
   skos:prefLabel "Slowly permeable"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-permeability-3
+sp:soil-water-permeability-3
   rdf:type skos:Concept ;
   dct:description """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens.
 Ks range: 50-500 mm/day
 Drainage time: days""" ;
-  ui:isMemberOf sp:soilwater-permeability ;
+  ui:isMemberOf sp:soil-water-permeability ;
   rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Moderately permeable" ;
   skos:definition """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens.
@@ -6818,12 +6786,12 @@ Drainage time: days""" ;
   skos:prefLabel "Moderately permeable"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-permeability-4
+sp:soil-water-permeability-4
   rdf:type skos:Concept ;
   dct:description """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable.
 Ks range: >500 mm/day
 Drainage time: hours""" ;
-  ui:isMemberOf sp:soilwater-permeability ;
+  ui:isMemberOf sp:soil-water-permeability ;
   rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Highly permeable" ;
   skos:definition """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable.
@@ -6833,7 +6801,19 @@ Drainage time: hours""" ;
   skos:prefLabel "Highly permeable"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-status
+sp:soil-water-regime
+  rdf:type skos:Collection ;
+  dct:description """Traditional approaches to soil drainage do not adequately differentiate between hydrological setting and permeability of the material of the profile. For example, a very permeable, coarse-textured soil occurring in a wet depression would have to be classed as very poorly drained. Hence there is a need to consider permeability, which refers to the potential of a soil to transmit water internally, and drainage, which refers to the rapidity and extent of water removal from the soil profile or site. Both these aspects of internal drainage may be difficult to assess in the field, and cannot be based solely on profile morphology. Mottling may, but not always, reflect drainage status, since mottling may be a relict feature. Vegetation and topography may be useful guides.
+These concepts of permeability and drainage are largely based on Canada Soil Survey Committee (1978).""" ;
+  ui:topMemberOf sp: ;
+  rdfs:label "Soil water regime" ;
+  skos:definition """Traditional approaches to soil drainage do not adequately differentiate between hydrological setting and permeability of the material of the profile. For example, a very permeable, coarse-textured soil occurring in a wet depression would have to be classed as very poorly drained. Hence there is a need to consider permeability, which refers to the potential of a soil to transmit water internally, and drainage, which refers to the rapidity and extent of water removal from the soil profile or site. Both these aspects of internal drainage may be difficult to assess in the field, and cannot be based solely on profile morphology. Mottling may, but not always, reflect drainage status, since mottling may be a relict feature. Vegetation and topography may be useful guides.
+These concepts of permeability and drainage are largely based on Canada Soil Survey Committee (1978).""" ;
+  skos:member sp:soil-water-drainage ;
+  skos:member sp:soil-water-permeability ;
+  skos:prefLabel "Soil water regime"@en ;
+.
+sp:soil-water-status
   rdf:type skos:Collection ;
   dct:description """Give soil water status of the soil at the time of description.
 It may also be relevant to note the weather conditions immediately prior to examination of the soil if these are known, for example a soil may be wet because of local rain or from seepage.
@@ -6853,13 +6833,13 @@ Dry is below wilting point. Material becomes darker or has lower colour value wh
 Moderately moist is the drier half of the available moisture range.
 Moist is the wetter half of the available moisture range.
 Wet is at, or exceeding, field capacity. Will wet and/or stick to fingers when moulded.""" ;
-  skos:member sp:soilwater-status-D ;
-  skos:member sp:soilwater-status-M ;
-  skos:member sp:soilwater-status-T ;
-  skos:member sp:soilwater-status-W ;
+  skos:member sp:soil-water-status-D ;
+  skos:member sp:soil-water-status-M ;
+  skos:member sp:soil-water-status-T ;
+  skos:member sp:soil-water-status-W ;
   skos:prefLabel "Soil water status"@en ;
 .
-sp:soilwater-status-D
+sp:soil-water-status-D
   rdf:type skos:Concept ;
   dct:description """Dry is below wilting point. Material becomes darker or has lower colour value when moistened.
 
@@ -6867,7 +6847,7 @@ Behaviour of soils subjected to field test.
 Sands, sandy loams: will flow through fingers or fragments will powder.
 Loams: will not ball when squeezed in hand. Fragments will powder.
 Clay loams, clays: will not ball when squeezed in hand. Fragments will break to smaller fragments or peds.""" ;
-  ui:isMemberOf sp:soilwater-status ;
+  ui:isMemberOf sp:soil-water-status ;
   rdfs:comment "These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point." ;
   rdfs:label "Dry" ;
   skos:definition """Dry is below wilting point. Material becomes darker or has lower colour value when moistened.
@@ -6880,7 +6860,7 @@ Clay loams, clays: will not ball when squeezed in hand. Fragments will break to 
   skos:prefLabel "Dry"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-status-M
+sp:soil-water-status-M
   rdf:type skos:Concept ;
   dct:description """Moist is the wetter half of the available moisture range.
 
@@ -6888,7 +6868,7 @@ Behaviour of soils subjected to field test.
 Sands, sandy loams: forms weak ball but breaks easily.
 Loams: will ball. Will not ribbon.
 Clay loams, clays: will ball. Will ribbon easily.""" ;
-  ui:isMemberOf sp:soilwater-status ;
+  ui:isMemberOf sp:soil-water-status ;
   rdfs:comment "These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point." ;
   rdfs:label "Moist" ;
   skos:definition """Moist is the wetter half of the available moisture range.
@@ -6901,7 +6881,7 @@ Clay loams, clays: will ball. Will ribbon easily.""" ;
   skos:prefLabel "Moist"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-status-T
+sp:soil-water-status-T
   rdf:type skos:Concept ;
   dct:description """Moderately moist is the drier half of the available moisture range.
 
@@ -6909,7 +6889,7 @@ Behaviour of soils subjected to field test.
 Sands, sandy loams: appears dry. Ball will not hold together.
 Loams: forms crumbly ball on squeezing in hand.
 Clay loams, clays: will ball. Will not ribbon.""" ;
-  ui:isMemberOf sp:soilwater-status ;
+  ui:isMemberOf sp:soil-water-status ;
   rdfs:comment "These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point." ;
   rdfs:label "Moderately moist" ;
   skos:definition """Moderately moist is the drier half of the available moisture range.
@@ -6922,7 +6902,7 @@ Clay loams, clays: will ball. Will not ribbon.""" ;
   skos:prefLabel "Moderately moist"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:soilwater-status-W
+sp:soil-water-status-W
   rdf:type skos:Concept ;
   dct:description """Wet is at, or exceeding, field capacity. Will wet and/or stick to fingers when moulded.
 
@@ -6930,7 +6910,7 @@ Behaviour of soils subjected to field test.
 Sands, sandy loams: ball leaves wet outline on hand when squeezed, or is wetter.
 Loams: ball leaves wet outline on hand when squeezed, or is wetter. Sticky.
 Clay loams, clays: ball leaves wet outline on hand when squeezed, or is wetter. Sticky.""" ;
-  ui:isMemberOf sp:soilwater-status ;
+  ui:isMemberOf sp:soil-water-status ;
   rdfs:comment "These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point." ;
   rdfs:label "Wet" ;
   skos:definition """Wet is at, or exceeding, field capacity. Will wet and/or stick to fingers when moulded.
@@ -7647,7 +7627,7 @@ sp:voids-macropores-abundance-6
 .
 sp:voids-macropores-diameter
   rdf:type skos:Collection ;
-  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure18.png\" /></p>" ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure18.png\" /></p>" ;
   ui:isMemberOf sp:voids-macropores ;
   rdfs:comment "N_PORE_DIAMETER" ;
   rdfs:label "Diameter of macropores" ;
