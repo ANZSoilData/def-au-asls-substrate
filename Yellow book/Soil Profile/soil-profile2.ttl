@@ -1643,7 +1643,7 @@ Dry colours may also be recorded.""" ;
 sp:colour-stat-D
   rdf:type skos:Concept ;
   ui:isMemberOf sp:colour ;
-  rdfs:comment "Moisture status for colour description" ;
+  rdfs:comment "C_MOISTURE_STAT; Moisture status for colour description" ;
   rdfs:label "Dry" ;
   skos:notation "D" ;
   skos:prefLabel "Dry" ;
@@ -1652,7 +1652,7 @@ sp:colour-stat-D
 sp:colour-stat-M
   rdf:type skos:Concept ;
   ui:isMemberOf sp:colour ;
-  rdfs:comment "Moisture status for colour description" ;
+  rdfs:comment "C_MOISTURE_STAT; Moisture status for colour description" ;
   rdfs:label "Moist" ;
   skos:notation "M" ;
   skos:prefLabel "Moist" ;
@@ -1714,6 +1714,7 @@ sp:consistence-plasticity-degree-0
   rdf:type skos:Concept ;
   dct:description "Roll (40mm length x 6mm diameter) will not form." ;
   ui:isMemberOf sp:consistence-plasticity-degree ;
+  rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Non-plastic" ;
   skos:definition "Roll (40mm length x 6mm diameter) will not form." ;
   skos:notation "0" ;
@@ -1725,6 +1726,7 @@ sp:consistence-plasticity-degree-1
   dct:description """Roll (40mm length x 6mm diameter) will form and will support its own weight.
 Roll (40mm length x 4mm diameter) will form but will not support its own weight.""" ;
   ui:isMemberOf sp:consistence-plasticity-degree ;
+  rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Slightly plastic" ;
   skos:definition """Roll (40mm length x 6mm diameter) will form and will support its own weight.
 Roll (40mm length x 4mm diameter) will form but will not support its own weight.""" ;
@@ -1737,6 +1739,7 @@ sp:consistence-plasticity-degree-2
   dct:description """Roll (40mm length x 4mm diameter) will form and will support its own weight.
 Roll (40mm length x 2mm diameter) will form but will not support its own weight.""" ;
   ui:isMemberOf sp:consistence-plasticity-degree ;
+  rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Moderately plastic" ;
   skos:definition """Roll (40mm length x 4mm diameter) will form and will support its own weight.
 Roll (40mm length x 2mm diameter) will form but will not support its own weight.""" ;
@@ -1748,6 +1751,7 @@ sp:consistence-plasticity-degree-3
   rdf:type skos:Concept ;
   dct:description "Roll (40mm length x 2mm diameter) will form and will support its own weight." ;
   ui:isMemberOf sp:consistence-plasticity-degree ;
+  rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Very plastic" ;
   skos:definition "Roll (40mm length x 2mm diameter) will form and will support its own weight." ;
   skos:notation "3" ;
@@ -1772,6 +1776,7 @@ sp:consistence-plasticity-type-N
   rdf:type skos:Concept ;
   dct:description "negligible change." ;
   ui:isMemberOf sp:consistence-plasticity-type ;
+  rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Normal plasticity" ;
   skos:definition "negligible change." ;
   skos:notation "N" ;
@@ -1782,6 +1787,7 @@ sp:consistence-plasticity-type-S
   rdf:type skos:Concept ;
   dct:description "decreases one or more field texture groups of Northcote (1979)." ;
   ui:isMemberOf sp:consistence-plasticity-type ;
+  rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Superplastic" ;
   skos:definition "decreases one or more field texture groups of Northcote (1979)." ;
   skos:notation "S" ;
@@ -1792,6 +1798,7 @@ sp:consistence-plasticity-type-T
   rdf:type skos:Concept ;
   dct:description "increases two or more field texture groups." ;
   ui:isMemberOf sp:consistence-plasticity-type ;
+  rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Strongly subplastic" ;
   skos:definition "increases two or more field texture groups." ;
   skos:notation "T" ;
@@ -1802,6 +1809,7 @@ sp:consistence-plasticity-type-U
   rdf:type skos:Concept ;
   dct:description "ncreases one to two field texture groups." ;
   ui:isMemberOf sp:consistence-plasticity-type ;
+  rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Subplastic" ;
   skos:definition "increases one to two field texture groups." ;
   skos:notation "U" ;
@@ -1826,6 +1834,7 @@ sp:consistence-stickiness-0
   rdf:type skos:Concept ;
   dct:description "little or no soil adheres." ;
   ui:isMemberOf sp:consistence-stickiness ;
+  rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Non-sticky" ;
   skos:definition "little or no soil adheres." ;
   skos:notation "0" ;
@@ -1836,6 +1845,7 @@ sp:consistence-stickiness-1
   rdf:type skos:Concept ;
   dct:description "soil adheres to thumb and forefinger but is not stretched notably and comes off rather cleanly." ;
   ui:isMemberOf sp:consistence-stickiness ;
+  rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Slightly sticky" ;
   skos:definition "soil adheres to thumb and forefinger but is not stretched notably and comes off rather cleanly." ;
   skos:notation "1" ;
@@ -1846,6 +1856,7 @@ sp:consistence-stickiness-2
   rdf:type skos:Concept ;
   dct:description "soil adheres to thumb and forefinger and tends to stretch rather than pull free of fingers." ;
   ui:isMemberOf sp:consistence-stickiness ;
+  rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Moderately sticky" ;
   skos:definition "soil adheres to thumb and forefinger and tends to stretch rather than pull free of fingers." ;
   skos:notation "2" ;
@@ -1856,6 +1867,7 @@ sp:consistence-stickiness-3
   rdf:type skos:Concept ;
   dct:description "soil adheres strongly to thumb and forefinger and stretches notably." ;
   ui:isMemberOf sp:consistence-stickiness ;
+  rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Very sticky" ;
   skos:definition "soil adheres strongly to thumb and forefinger and stretches notably." ;
   skos:notation "3" ;
@@ -1900,6 +1912,7 @@ sp:consistence-strength-0
   rdf:type skos:Concept ;
   dct:description "no force required. Separate particles such as loose sands." ;
   ui:isMemberOf sp:consistence-strength ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Loose" ;
   skos:definition "no force required. Separate particles such as loose sands." ;
   skos:notation "0" ;
@@ -1910,6 +1923,7 @@ sp:consistence-strength-1
   rdf:type skos:Concept ;
   dct:description "very small force, almost nil." ;
   ui:isMemberOf sp:consistence-strength ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Very weak" ;
   skos:definition "very small force, almost nil." ;
   skos:notation "1" ;
@@ -1920,6 +1934,7 @@ sp:consistence-strength-2
   rdf:type skos:Concept ;
   dct:description "small but significant force." ;
   ui:isMemberOf sp:consistence-strength ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Weak" ;
   skos:definition "small but significant force." ;
   skos:notation "2" ;
@@ -1930,6 +1945,7 @@ sp:consistence-strength-3
   rdf:type skos:Concept ;
   dct:description "moderate or firm force." ;
   ui:isMemberOf sp:consistence-strength ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Firm" ;
   skos:definition "moderate or firm force." ;
   skos:notation "3" ;
@@ -1940,6 +1956,7 @@ sp:consistence-strength-4
   rdf:type skos:Concept ;
   dct:description "strong force but within power of thumb and forefinger." ;
   ui:isMemberOf sp:consistence-strength ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Very Firm" ;
   skos:definition "strong force but within power of thumb and forefinger." ;
   skos:notation "4" ;
@@ -1950,6 +1967,7 @@ sp:consistence-strength-5
   rdf:type skos:Concept ;
   dct:description "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with small force." ;
   ui:isMemberOf sp:consistence-strength ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Strong" ;
   skos:definition "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with small force." ;
   skos:notation "5" ;
@@ -1960,6 +1978,7 @@ sp:consistence-strength-6
   rdf:type skos:Concept ;
   dct:description "crushes underfoot on hard, flat surface with full body weight applied slowly." ;
   ui:isMemberOf sp:consistence-strength ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Very Strong" ;
   skos:definition "crushes underfoot on hard, flat surface with full body weight applied slowly." ;
   skos:notation "6" ;
@@ -1970,6 +1989,7 @@ sp:consistence-strength-7
   rdf:type skos:Concept ;
   dct:description "cannot be crushed underfoot by full body weight applied slowly." ;
   ui:isMemberOf sp:consistence-strength ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Rigid" ;
   skos:definition "cannot be crushed underfoot by full body weight applied slowly." ;
   skos:notation "7" ;
@@ -2208,6 +2228,7 @@ sp:effervescence-H
   rdf:type skos:Concept ;
   dct:description "moderate visible effervescence." ;
   ui:isMemberOf sp:effervescence-of-carbonate-in-fine-earth ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Highly calcareous" ;
   skos:definition "moderate visible effervescence." ;
   skos:notation "H" ;
@@ -2218,6 +2239,7 @@ sp:effervescence-M
   rdf:type skos:Concept ;
   dct:description "audible and slightly visible effervescence." ;
   ui:isMemberOf sp:effervescence-of-carbonate-in-fine-earth ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Moderately calcareous" ;
   skos:definition "audible and slightly visible effervescence." ;
   skos:notation "M" ;
@@ -2228,6 +2250,7 @@ sp:effervescence-N
   rdf:type skos:Concept ;
   dct:description "no audible or visible effervescence." ;
   ui:isMemberOf sp:effervescence-of-carbonate-in-fine-earth ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Non-calcareous" ;
   skos:definition "no audible or visible effervescence." ;
   skos:notation "N" ;
@@ -2238,6 +2261,7 @@ sp:effervescence-S
   rdf:type skos:Concept ;
   dct:description "slightly audible but no visible effervescence." ;
   ui:isMemberOf sp:effervescence-of-carbonate-in-fine-earth ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Slightly calcareous" ;
   skos:definition "slightly audible but no visible effervescence." ;
   skos:notation "S" ;
@@ -2248,6 +2272,7 @@ sp:effervescence-V
   rdf:type skos:Concept ;
   dct:description "strong visible effervescence." ;
   ui:isMemberOf sp:effervescence-of-carbonate-in-fine-earth ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Very highly calcareous" ;
   skos:definition "strong visible effervescence." ;
   skos:notation "V" ;
@@ -2258,6 +2283,7 @@ sp:effervescence-of-carbonate-in-fine-earth
   rdf:type skos:Collection ;
   dct:description "Effervescence of carbonate in fine earth using two or three drops of 1-molar HCl." ;
   ui:topMemberOf sp: ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Effervescence of carbonate in fine earth" ;
   skos:definition "Effervescence of carbonate in fine earth using two or three drops of 1-molar HCl." ;
   skos:member sp:effervescence-H ;
@@ -2272,6 +2298,7 @@ sp:fabric
   dct:description """The definition of soil fabric in Australia is incomplete. The following description is adapted from Northcote (1979).
 Fabric describes the appearance of the soil material (under ×10 hand lens). Differences in fabric are associated with the presence or absence of peds, the lustre or lack of lustre of the ped surfaces, and the presence, size and arrangement of pores (voids) in the soil mass. The descriptions given below apply primarily to B horizons.""" ;
   ui:topMemberOf sp: ;
+  rdfs:comment "C_FAB_TYPE" ;
   rdfs:label "Fabric" ;
   skos:definition """The definition of soil fabric in Australia is incomplete. The following description is adapted from Northcote (1979).
 Fabric describes the appearance of the soil material (under ×10 hand lens). Differences in fabric are associated with the presence or absence of peds, the lustre or lack of lustre of the ped surfaces, and the presence, size and arrangement of pores (voids) in the soil mass. The descriptions given below apply primarily to B horizons.""" ;
@@ -2285,6 +2312,7 @@ sp:fabric-E
   rdf:type skos:Concept ;
   dct:description "The soil material is coherent and characterised by the presence of pores (voids) and few, if any, peds. Ultimate soil particles (sand grains, for example) are coated with oxides and/or clays and are arranged (clumped) around the pores." ;
   ui:isMemberOf sp:fabric ;
+  rdfs:comment "C_FAB_TYPE" ;
   rdfs:label "Earthy" ;
   skos:altLabel "Porous" ;
   skos:definition "The soil material is coherent and characterised by the presence of pores (voids) and few, if any, peds. Ultimate soil particles (sand grains, for example) are coated with oxides and/or clays and are arranged (clumped) around the pores." ;
@@ -2296,10 +2324,10 @@ sp:fabric-G
   rdf:type skos:Concept ;
   dct:description "The soil material is coherent, with few, if any, peds. The closely packed sand grains provide the characteristic appearance of the soil mass." ;
   ui:isMemberOf sp:fabric ;
-  rdfs:label "Sandy" ;
+  rdfs:comment "C_FAB_TYPE" ;
+  rdfs:label "Sandy (grains prominent)" ;
   skos:definition "The soil material is coherent, with few, if any, peds. The closely packed sand grains provide the characteristic appearance of the soil mass." ;
   skos:notation "G" ;
-  skos:note "grains prominent" ;
   skos:prefLabel "Sandy" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
@@ -2307,6 +2335,7 @@ sp:fabric-R
   rdf:type skos:Concept ;
   dct:description "Peds are evident, and characteristically more than 50% of the peds are rough-faced, that is, they have relatively porous surfaces. (Rough-faced peds generally have less clearly defined faces than smooth-faced peds and the pedality of the soil may be questioned. However, if the soil mass is pressed gently, the characteristic size and shape of the soil aggregates will confirm its pedality.) Granular peds with common or many macropores are always rough-faced, but this condition varies in other ped forms." ;
   ui:isMemberOf sp:fabric ;
+  rdfs:comment "C_FAB_TYPE" ;
   rdfs:label "Rough-ped" ;
   skos:definition "Peds are evident, and characteristically more than 50% of the peds are rough-faced, that is, they have relatively porous surfaces. (Rough-faced peds generally have less clearly defined faces than smooth-faced peds and the pedality of the soil may be questioned. However, if the soil mass is pressed gently, the characteristic size and shape of the soil aggregates will confirm its pedality.) Granular peds with common or many macropores are always rough-faced, but this condition varies in other ped forms." ;
   skos:notation "R" ;
@@ -2317,6 +2346,7 @@ sp:fabric-S
   rdf:type skos:Concept ;
   dct:description "Peds are evident, and characteristically more than 50% of them are dense and smooth-faced, although the degree of lustre may vary." ;
   ui:isMemberOf sp:fabric ;
+  rdfs:comment "C_FAB_TYPE" ;
   rdfs:label "Smooth-ped" ;
   skos:definition "Peds are evident, and characteristically more than 50% of them are dense and smooth-faced, although the degree of lustre may vary." ;
   skos:notation "S" ;
@@ -2352,11 +2382,12 @@ sp:field-texture
 .
 sp:field-texture-AP
   rdf:type skos:Concept ;
-  dct:description "Strongly to completely decomposed organic material. Plant remains vary from few being identifiable to completely amorphous." ;
+  dct:description "strongly to completely decomposed organic material. Plant remains vary from few being identifiable to completely amorphous." ;
   ui:isMemberOf sp:field-texture-organic ;
-  rdfs:comment "humified peat" ;
+  rdfs:comment "Organic soil" ;
   rdfs:label "Sapric peat" ;
-  skos:definition "Strongly to completely decomposed organic material. Plant remains vary from few being identifiable to completely amorphous." ;
+  skos:altLabel "humified peat" ;
+  skos:definition "strongly to completely decomposed organic material. Plant remains vary from few being identifiable to completely amorphous." ;
   skos:notation "AP" ;
   skos:prefLabel "Sapric peat"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -2719,10 +2750,11 @@ sp:field-texture-CLS-light
 .
 sp:field-texture-CP
   rdf:type skos:Concept ;
-  dct:description "Organic soils where: bolus has obvious fine mineral particle content, is sticky when wet, and is coherent." ;
+  dct:description "bolus has obvious fine mineral particle content, is sticky when wet, and is coherent." ;
   ui:isMemberOf sp:field-texture-organic ;
+  rdfs:comment "Organic soil" ;
   rdfs:label "Clayey peat" ;
-  skos:definition "Organic soils where: bolus has obvious fine mineral particle content, is sticky when wet, and is coherent." ;
+  skos:definition "bolus has obvious fine mineral particle content, is sticky when wet, and is coherent." ;
   skos:notation "CP" ;
   skos:prefLabel "Clayey peat"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -3092,11 +3124,11 @@ sp:field-texture-FSMHC-I
 .
 sp:field-texture-GP
   rdf:type skos:Concept ;
-  dct:description "Dominantly decomposed organic material, which has dried irreversibly to fine granules through exposure and drying and/or cultivation. Granules are approximately 1–2 mm in diameter and have granular or subangular blocky structure." ;
+  dct:description "dominantly decomposed organic material, which has dried irreversibly to fine granules through exposure and drying and/or cultivation. Granules are approximately 1–2 mm in diameter and have granular or subangular blocky structure." ;
   ui:isMemberOf sp:field-texture-organic ;
-  rdfs:comment "On drying, peat may change irreversibly." ;
+  rdfs:comment "Organic soil; On drying, peat may change irreversibly." ;
   rdfs:label "Granular peat" ;
-  skos:definition "Dominantly decomposed organic material, which has dried irreversibly to fine granules through exposure and drying and/or cultivation. Granules are approximately 1–2 mm in diameter and have granular or subangular blocky structure." ;
+  skos:definition "dominantly decomposed organic material, which has dried irreversibly to fine granules through exposure and drying and/or cultivation. Granules are approximately 1–2 mm in diameter and have granular or subangular blocky structure." ;
   skos:notation "GP" ;
   skos:prefLabel "Granular peat"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -3150,22 +3182,24 @@ sp:field-texture-HC-I
 .
 sp:field-texture-HP
   rdf:type skos:Concept ;
-  dct:description "Moderately to well decomposed organic material. Plant remains vary from most being difficult to identify to most being unidentifiable. It is intermediate in degree of decomposition between the less decomposed fibric peat and the more decomposed sapric peat." ;
+  dct:description "moderately to well decomposed organic material. Plant remains vary from most being difficult to identify to most being unidentifiable. It is intermediate in degree of decomposition between the less decomposed fibric peat and the more decomposed sapric peat." ;
   ui:isMemberOf sp:field-texture-organic ;
-  rdfs:comment "Semi-fibrous peat" ;
+  rdfs:comment "Organic soil" ;
   rdfs:label "Hemic peat" ;
-  skos:definition "Moderately to well decomposed organic material. Plant remains vary from most being difficult to identify to most being unidentifiable. It is intermediate in degree of decomposition between the less decomposed fibric peat and the more decomposed sapric peat." ;
+  skos:altLabel "Semi-fibrous peat" ;
+  skos:definition "moderately to well decomposed organic material. Plant remains vary from most being difficult to identify to most being unidentifiable. It is intermediate in degree of decomposition between the less decomposed fibric peat and the more decomposed sapric peat." ;
   skos:notation "HP" ;
   skos:prefLabel "Hemic peat"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:field-texture-IP
   rdf:type skos:Concept ;
-  dct:description "Undecomposed or weakly decomposed organic material. Plant remains are distinct and readily identifiable." ;
+  dct:description "undecomposed or weakly decomposed organic material. Plant remains are distinct and readily identifiable." ;
   ui:isMemberOf sp:field-texture-organic ;
-  rdfs:comment "Fibrous peat" ;
+  rdfs:comment "Organic soil" ;
   rdfs:label "Fibric peat" ;
-  skos:definition "Undecomposed or weakly decomposed organic material. Plant remains are distinct and readily identifiable." ;
+  skos:altLabel "Fibrous peat" ;
+  skos:definition "undecomposed or weakly decomposed organic material. Plant remains are distinct and readily identifiable." ;
   skos:notation "IP" ;
   skos:prefLabel "Fibric peat"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -3703,10 +3737,11 @@ sp:field-texture-LMC-I
 .
 sp:field-texture-LP
   rdf:type skos:Concept ;
-  dct:description "Organic soils where: bolus has obvious mineral particle content but no obvious sandiness to touch and is smooth, non-sticky when wet, and weakly coherent." ;
+  dct:description "bolus has obvious mineral particle content but no obvious sandiness to touch and is smooth, non-sticky when wet, and weakly coherent." ;
   ui:isMemberOf sp:field-texture-organic ;
+  rdfs:comment "Organic soil" ;
   rdfs:label "Loamy peat" ;
-  skos:definition "Organic soils where: bolus has obvious mineral particle content but no obvious sandiness to touch and is smooth, non-sticky when wet, and weakly coherent." ;
+  skos:definition "bolus has obvious mineral particle content but no obvious sandiness to touch and is smooth, non-sticky when wet, and weakly coherent." ;
   skos:notation "LP" ;
   skos:prefLabel "Loamy peat"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -4192,10 +4227,11 @@ sp:field-texture-SMHC-I
 .
 sp:field-texture-SP
   rdf:type skos:Concept ;
-  dct:description "Organic soil where: bolus is sandy to touch." ;
+  dct:description "bolus is sandy to touch." ;
   ui:isMemberOf sp:field-texture-organic ;
+  rdfs:comment "Organic soil" ;
   rdfs:label "Sandy peat" ;
-  skos:definition "Organic soil where: bolus is sandy to touch." ;
+  skos:definition "bolus is sandy to touch." ;
   skos:notation "SP" ;
   skos:prefLabel "Sandy peat"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -4759,114 +4795,114 @@ sp:horizon-boundary-shape-W
 .
 sp:horizon-suffix-b
   rdf:type skos:Concept ;
-  dct:description "Used for buried soil horizons. Used in mineral soils only. The suffix is written last, for example 2B2b." ;
+  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure14.png\" /></p>" ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:comment "Where there are buried soils, and it is possible to designate reliably the horizon nomenclature in the buried profiles, the buried horizons are given the suffix ‘b’ which is written last. Number the different soils from the top downward. The upper soil, or modern soil, is not numbered 1, this being understood. Two examples are given in Figure 14" ;
   rdfs:label "Horizon suffix b" ;
-  skos:definition "Used for buried soil horizons. Used in mineral soils only. The suffix is written last, for example 2B2b." ;
+  skos:definition "used for buried soil horizons. Used in mineral soils only. The suffix is written last, for example 2B2b." ;
   skos:notation "b" ;
   skos:prefLabel "Horizon suffix b"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-c
   rdf:type skos:Concept ;
-  dct:description "Used for horizons with accumulation of concretions or nodules of iron and/or aluminium and/or manganese, as in B2c." ;
+  dct:description "used for horizons with accumulation of concretions or nodules of iron and/or aluminium and/or manganese, as in B2c." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix c" ;
-  skos:definition "Used for horizons with accumulation of concretions or nodules of iron and/or aluminium and/or manganese, as in B2c." ;
+  skos:definition "used for horizons with accumulation of concretions or nodules of iron and/or aluminium and/or manganese, as in B2c." ;
   skos:notation "c" ;
   skos:prefLabel "Horizon suffix c"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-d
   rdf:type skos:Concept ;
-  dct:description "Used for densipans. Very fine, sandy, earthy pan." ;
+  dct:description "used for densipans. Very fine, sandy, earthy pan." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix d" ;
-  skos:definition "Used for densipans. Very fine, sandy, earthy pan." ;
+  skos:definition "used for densipans. Very fine, sandy, earthy pan." ;
   skos:notation "d" ;
   skos:prefLabel "Horizon suffix d"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-e
   rdf:type skos:Concept ;
-  dct:description "Used for conspicuously bleached horizons, for example A2e." ;
+  dct:description "used for conspicuously bleached horizons, for example A2e." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix e" ;
-  skos:definition "Used for conspicuously bleached horizons, for example A2e." ;
+  skos:definition "used for conspicuously bleached horizons, for example A2e." ;
   skos:notation "e" ;
   skos:prefLabel "Horizon suffix e"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-f
   rdf:type skos:Concept ;
-  dct:description "Used when faunal accumulation, such as worm casts, dominates certain A1 horizons, for example A1f in some soils under rainforest." ;
+  dct:description "used when faunal accumulation, such as worm casts, dominates certain A1 horizons, for example A1f in some soils under rainforest." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix f" ;
-  skos:definition "Used when faunal accumulation, such as worm casts, dominates certain A1 horizons, for example A1f in some soils under rainforest." ;
+  skos:definition "used when faunal accumulation, such as worm casts, dominates certain A1 horizons, for example A1f in some soils under rainforest." ;
   skos:notation "f" ;
   skos:prefLabel "Horizon suffix f"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-g
   rdf:type skos:Concept ;
-  dct:description "Indicates strong gleying, as in B2g. Gleying is indicative of permanent or periodic intense reduction due to wetness; it is characterised by greyish, bluish or greenish colours, generally of low chroma. Mottling may be prominent; mottles may have reddish hues and higher chromas if oxidising conditions occur periodically. Roots may have rusty or yellowish outlines; hence horizons such as A1g can occur." ;
+  dct:description "indicates strong gleying, as in B2g. Gleying is indicative of permanent or periodic intense reduction due to wetness; it is characterised by greyish, bluish or greenish colours, generally of low chroma. Mottling may be prominent; mottles may have reddish hues and higher chromas if oxidising conditions occur periodically. Roots may have rusty or yellowish outlines; hence horizons such as A1g can occur." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix g" ;
-  skos:definition "Indicates strong gleying, as in B2g. Gleying is indicative of permanent or periodic intense reduction due to wetness; it is characterised by greyish, bluish or greenish colours, generally of low chroma. Mottling may be prominent; mottles may have reddish hues and higher chromas if oxidising conditions occur periodically. Roots may have rusty or yellowish outlines; hence horizons such as A1g can occur." ;
+  skos:definition "indicates strong gleying, as in B2g. Gleying is indicative of permanent or periodic intense reduction due to wetness; it is characterised by greyish, bluish or greenish colours, generally of low chroma. Mottling may be prominent; mottles may have reddish hues and higher chromas if oxidising conditions occur periodically. Roots may have rusty or yellowish outlines; hence horizons such as A1g can occur." ;
   skos:notation "g" ;
   skos:prefLabel "Horizon suffix g"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-h
   rdf:type skos:Concept ;
-  dct:description "Used where horizons contain accumulation of amorphous, organic matter – aluminium complexes in which iron contents are very low. The dominantly organic matter – aluminium  complexes occur as discrete pellets between clean sand grains or completely fill the voids; occasionally they may coat sand grains. Such horizons may be soft or cemented and form the characteristic B horizon of poorly drained soils known as podzols or Podosols." ;
+  dct:description "used where horizons contain accumulation of amorphous, organic matter – aluminium complexes in which iron contents are very low. The dominantly organic matter – aluminium  complexes occur as discrete pellets between clean sand grains or completely fill the voids; occasionally they may coat sand grains. Such horizons may be soft or cemented and form the characteristic B horizon of poorly drained soils known as podzols or Podosols." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix h" ;
-  skos:definition "Used where horizons contain accumulation of amorphous, organic matter – aluminium complexes in which iron contents are very low. The dominantly organic matter – aluminium  complexes occur as discrete pellets between clean sand grains or completely fill the voids; occasionally they may coat sand grains. Such horizons may be soft or cemented and form the characteristic B horizon of poorly drained soils known as podzols or Podosols." ;
+  skos:definition "used where horizons contain accumulation of amorphous, organic matter – aluminium complexes in which iron contents are very low. The dominantly organic matter – aluminium  complexes occur as discrete pellets between clean sand grains or completely fill the voids; occasionally they may coat sand grains. Such horizons may be soft or cemented and form the characteristic B horizon of poorly drained soils known as podzols or Podosols." ;
   skos:notation "h" ;
   skos:prefLabel "Horizon suffix h"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-j
   rdf:type skos:Concept ;
-  dct:description "Used for sporadically bleached horizons, for example A2j." ;
+  dct:description "used for sporadically bleached horizons, for example A2j." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix j" ;
-  skos:definition "Used for sporadically bleached horizons, for example A2j." ;
+  skos:definition "used for sporadically bleached horizons, for example A2j." ;
   skos:notation "j" ;
   skos:prefLabel "Horizon suffix j"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-k
   rdf:type skos:Concept ;
-  dct:description "Used for horizons with accumulation of carbonates, commonly calcium carbonate, as in B2k." ;
+  dct:description "used for horizons with accumulation of carbonates, commonly calcium carbonate, as in B2k." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:comment "This suffix is usually recorded only if there is a common or larger abundance of these segregations. Horizons with few (2–10%) or very few (<2%) segregations are not usually given these horizon notations. This suffix indicates relative accumulations compared with other horizons. Thus in a soil with no carbonate except for one horizon with few segregations, this horizon could be designated with a suffix ‘k’, for example B22tk. However, in a soil with few segregations of carbonate throughout, no horizon would be given the suffix ‘k’ unless it had common or more segregations, that is, a relatively larger amount than adjacent horizons." ;
   rdfs:label "Horizon suffix k" ;
-  skos:definition "Used for horizons with accumulation of carbonates, commonly calcium carbonate, as in B2k." ;
+  skos:definition "used for horizons with accumulation of carbonates, commonly calcium carbonate, as in B2k." ;
   skos:notation "k" ;
   skos:prefLabel "Horizon suffix k"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-m
   rdf:type skos:Concept ;
-  dct:description "Used for horizons with strong cementation or induration. It is confined to irreversibly cemented horizons that are essentially continuous (more than 90%) though they may be fractured." ;
+  dct:description "used for horizons with strong cementation or induration. It is confined to irreversibly cemented horizons that are essentially continuous (more than 90%) though they may be fractured." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix m" ;
-  skos:definition "Used for horizons with strong cementation or induration. It is confined to irreversibly cemented horizons that are essentially continuous (more than 90%) though they may be fractured." ;
+  skos:definition "used for horizons with strong cementation or induration. It is confined to irreversibly cemented horizons that are essentially continuous (more than 90%) though they may be fractured." ;
   skos:notation "m" ;
   skos:prefLabel "Horizon suffix m"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-p
   rdf:type skos:Concept ;
-  dct:description """Used for horizons where ploughing, tillage practices or other disturbance by humans has occurred, for example deep ripping. This suffix is used only with A, as in Ap2. Where the plough layer clearly includes what was once B horizon and it is no longer possible to infer with any reliability what the texture and depth of the A horizon was, the plough layer is designated Ap.
+  dct:description """used for horizons where ploughing, tillage practices or other disturbance by humans has occurred, for example deep ripping. This suffix is used only with A, as in Ap2. Where the plough layer clearly includes what was once B horizon and it is no longer possible to infer with any reliability what the texture and depth of the A horizon was, the plough layer is designated Ap.
 An Ap horizon may be subdivided into subhorizons (e.g. Ap1, Ap2).""" ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:comment "An Ap2 horizon is not the same as an A2 horizon but a subdivision equivalent to A12." ;
   rdfs:label "Horizon suffix p" ;
-  skos:definition """Used for horizons where ploughing, tillage practices or other disturbance by humans has occurred, for example deep ripping. This suffix is used only with A, as in Ap2. Where the plough layer clearly includes what was once B horizon and it is no longer possible to infer with any reliability what the texture and depth of the A horizon was, the plough layer is designated Ap.
+  skos:definition """used for horizons where ploughing, tillage practices or other disturbance by humans has occurred, for example deep ripping. This suffix is used only with A, as in Ap2. Where the plough layer clearly includes what was once B horizon and it is no longer possible to infer with any reliability what the texture and depth of the A horizon was, the plough layer is designated Ap.
 An Ap horizon may be subdivided into subhorizons (e.g. Ap1, Ap2).""" ;
   skos:notation "p" ;
   skos:prefLabel "Horizon suffix p"@en ;
@@ -4874,81 +4910,81 @@ An Ap horizon may be subdivided into subhorizons (e.g. Ap1, Ap2).""" ;
 .
 sp:horizon-suffix-q
   rdf:type skos:Concept ;
-  dct:description "Used for horizons with accumulation of secondary silica. If silica cementation is continuous or nearly continuous, ‘qm’ is used." ;
+  dct:description "used for horizons with accumulation of secondary silica. If silica cementation is continuous or nearly continuous, ‘qm’ is used." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix q" ;
-  skos:definition "Used for horizons with accumulation of secondary silica. If silica cementation is continuous or nearly continuous, ‘qm’ is used." ;
+  skos:definition "used for horizons with accumulation of secondary silica. If silica cementation is continuous or nearly continuous, ‘qm’ is used." ;
   skos:notation "q" ;
   skos:prefLabel "Horizon suffix q"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-r
   rdf:type skos:Concept ;
-  dct:description "Used for horizons with layers of weathered rock (including saprolite) that, although consolidated, can be dug with hand tools." ;
+  dct:description "used for horizons with layers of weathered rock (including saprolite) that, although consolidated, can be dug with hand tools." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix r" ;
-  skos:definition "Used for horizons with layers of weathered rock (including saprolite) that, although consolidated, can be dug with hand tools." ;
+  skos:definition "used for horizons with layers of weathered rock (including saprolite) that, although consolidated, can be dug with hand tools." ;
   skos:notation "r" ;
   skos:prefLabel "Horizon suffix r"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-s
   rdf:type skos:Concept ;
-  dct:description "Used for horizons with an accumulation of sesquioxide – organic matter complexes in which iron is dominant relative to aluminium. These complexes coat sand grains, occur as discrete pellets, or, with moderate amounts of iron, may fill voids forming cemented patches. The content of organic matter is variable and its distribution is often irregular. The suffix ‘s’ is often used in combination with ‘h’ (as in Bhs) where both organic and iron components are significant; s or Bhs horizons may be soft or hard and form the characteristic B horizon of free-draining podzols or Podosols." ;
+  dct:description "used for horizons with an accumulation of sesquioxide – organic matter complexes in which iron is dominant relative to aluminium. These complexes coat sand grains, occur as discrete pellets, or, with moderate amounts of iron, may fill voids forming cemented patches. The content of organic matter is variable and its distribution is often irregular. The suffix ‘s’ is often used in combination with ‘h’ (as in Bhs) where both organic and iron components are significant; s or Bhs horizons may be soft or hard and form the characteristic B horizon of free-draining podzols or Podosols." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix s" ;
-  skos:definition "Used for horizons with an accumulation of sesquioxide – organic matter complexes in which iron is dominant relative to aluminium. These complexes coat sand grains, occur as discrete pellets, or, with moderate amounts of iron, may fill voids forming cemented patches. The content of organic matter is variable and its distribution is often irregular. The suffix ‘s’ is often used in combination with ‘h’ (as in Bhs) where both organic and iron components are significant; s or Bhs horizons may be soft or hard and form the characteristic B horizon of free-draining podzols or Podosols." ;
+  skos:definition "used for horizons with an accumulation of sesquioxide – organic matter complexes in which iron is dominant relative to aluminium. These complexes coat sand grains, occur as discrete pellets, or, with moderate amounts of iron, may fill voids forming cemented patches. The content of organic matter is variable and its distribution is often irregular. The suffix ‘s’ is often used in combination with ‘h’ (as in Bhs) where both organic and iron components are significant; s or Bhs horizons may be soft or hard and form the characteristic B horizon of free-draining podzols or Podosols." ;
   skos:notation "s" ;
   skos:prefLabel "Horizon suffix s"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-t
   rdf:type skos:Concept ;
-  dct:description "Used for horizons with accumulation of silicate clay (from German ton, clay). Different mechanisms (such as illuviation, formation in situ) may be responsible for the clay accumulation, but these may be difficult to confirm. This suffix is used only with the B, for example B2t, to indicate the nature of the B." ;
+  dct:description "used for horizons with accumulation of silicate clay (from German ton, clay). Different mechanisms (such as illuviation, formation in situ) may be responsible for the clay accumulation, but these may be difficult to confirm. This suffix is used only with the B, for example B2t, to indicate the nature of the B." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix t" ;
-  skos:definition "Used for horizons with accumulation of silicate clay (from German ton, clay). Different mechanisms (such as illuviation, formation in situ) may be responsible for the clay accumulation, but these may be difficult to confirm. This suffix is used only with the B, for example B2t, to indicate the nature of the B." ;
+  skos:definition "used for horizons with accumulation of silicate clay (from German ton, clay). Different mechanisms (such as illuviation, formation in situ) may be responsible for the clay accumulation, but these may be difficult to confirm. This suffix is used only with the B, for example B2t, to indicate the nature of the B." ;
   skos:notation "t" ;
   skos:prefLabel "Horizon suffix t"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-w
   rdf:type skos:Concept ;
-  dct:description "Used where development of colour and/or structure, or both, in the B horizon is observed, with little or no accumulation of sesquioxide – organic matter complexes." ;
+  dct:description "used where development of colour and/or structure, or both, in the B horizon is observed, with little or no accumulation of sesquioxide – organic matter complexes." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix w" ;
-  skos:definition "Used where development of colour and/or structure, or both, in the B horizon is observed, with little or no accumulation of sesquioxide – organic matter complexes." ;
+  skos:definition "used where development of colour and/or structure, or both, in the B horizon is observed, with little or no accumulation of sesquioxide – organic matter complexes." ;
   skos:notation "w" ;
   skos:prefLabel "Horizon suffix w"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-x
   rdf:type skos:Concept ;
-  dct:description "Used for fragipans or earthy pans. A horizon with high bulk density relative to the horizon above, seemingly cemented when dry, but showing a moderate to weak cementation when moist." ;
+  dct:description "used for fragipans or earthy pans. A horizon with high bulk density relative to the horizon above, seemingly cemented when dry, but showing a moderate to weak cementation when moist." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix x" ;
-  skos:definition "Used for fragipans or earthy pans. A horizon with high bulk density relative to the horizon above, seemingly cemented when dry, but showing a moderate to weak cementation when moist." ;
+  skos:definition "used for fragipans or earthy pans. A horizon with high bulk density relative to the horizon above, seemingly cemented when dry, but showing a moderate to weak cementation when moist." ;
   skos:notation "x" ;
   skos:prefLabel "Horizon suffix x"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-y
   rdf:type skos:Concept ;
-  dct:description "Used for horizons with accumulation of calcium sulphate (gypsum), as in B21, B22." ;
+  dct:description "used for horizons with accumulation of calcium sulphate (gypsum), as in B21, B22." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:comment "This suffix is usually recorded only if there is a common or larger abundance of these segregations. Horizons with few (2–10%) or very few (<2%) segregations are not usually given these horizon notations. This suffix indicates relative accumulations compared with other horizons. Thus in a soil with no carbonate except for one horizon with few segregations, this horizon could be designated with a suffix ‘k’, for example B22tk. However, in a soil with few segregations of carbonate throughout, no horizon would be given the suffix ‘k’ unless it had common or more segregations, that is, a relatively larger amount than adjacent horizons." ;
   rdfs:label "Horizon suffix y" ;
-  skos:definition "Used for horizons with accumulation of calcium sulphate (gypsum), as in B21, B22." ;
+  skos:definition "used for horizons with accumulation of calcium sulphate (gypsum), as in B21, B22." ;
   skos:notation "y" ;
   skos:prefLabel "Horizon suffix y"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:horizon-suffix-z
   rdf:type skos:Concept ;
-  dct:description "Used for horizons with accumulation of salts more soluble than calcium sulphate and calcium carbonate." ;
+  dct:description "used for horizons with accumulation of salts more soluble than calcium sulphate and calcium carbonate." ;
   ui:isMemberOf sp:horizon-suffixes ;
   rdfs:label "Horizon suffix z" ;
-  skos:definition "Used for horizons with accumulation of salts more soluble than calcium sulphate and calcium carbonate." ;
+  skos:definition "used for horizons with accumulation of salts more soluble than calcium sulphate and calcium carbonate." ;
   skos:notation "z" ;
   skos:prefLabel "Horizon suffix z"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5120,9 +5156,7 @@ Sporadically bleached: bleach occurs:
 .
 sp:horizons-prefix
   rdf:type skos:Collection ;
-  dct:description """Where obvious contrasts in lithology exist between different horizons in the soil profile, or between the soil profile and the underlying lithology, the different lithologic layers are given a numeric prefix (Figure 13).
-Each layer may consist of one or more horizons. The different layers are numbered from the top downward. The upper layer is not numbered 1, this being understood. Numbering starts with the second layer, which is designated 2. Even though a layer below material 3, for example, is similar to material 2, it is designated 4 in the sequence (see Profiles C and D in Figure 13). Discrimination of lithological discontinuities from soil horizon boundaries will depend in each case upon the degree of pedological organisation and the contrast between lithological units (see, for example, Profiles C and D in Figure 13).
-Where lithologic discontinuities are suspected in the profile but there is no clear evidence, either the numeric prefix should not be used or a query should be added to indicate doubt. It is better used only where there is clear evidence. Whether the numeric prefix is used or not, the horizon naming, with appropriate suffixes, remains the same, as illustrated in the examples in Figure 13.""" ;
+  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure13.png\" /></p>" ;
   ui:isMemberOf sp:horizons ;
   rdfs:label "Lithologic discontinuity" ;
   skos:definition """Where obvious contrasts in lithology exist between different horizons in the soil profile, or between the soil profile and the underlying lithology, the different lithologic layers are given a numeric prefix (Figure 13).
@@ -5283,11 +5317,11 @@ sp:mottle-colour-B
 .
 sp:mottle-colour-D
   rdf:type skos:Concept ;
-  dct:description "values 3 or less and chromas 2 or less for all hues" ;
+  dct:description "values 3 or less and chromas 2 or less for all hues." ;
   ui:isMemberOf sp:mottle-colours ;
   rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Dark" ;
-  skos:definition "values 3 or less and chromas 2 or less for all hues" ;
+  skos:definition "values 3 or less and chromas 2 or less for all hues." ;
   skos:notation "D" ;
   skos:prefLabel "Dark"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5305,11 +5339,11 @@ sp:mottle-colour-G
 .
 sp:mottle-colour-L
   rdf:type skos:Concept ;
-  dct:description "gley charts only" ;
+  dct:description "gley charts only." ;
   ui:isMemberOf sp:mottle-colours ;
   rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Gley" ;
-  skos:definition "gley charts only" ;
+  skos:definition "gley charts only." ;
   skos:notation "L" ;
   skos:prefLabel "Gley"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5327,11 +5361,11 @@ sp:mottle-colour-O
 .
 sp:mottle-colour-P
   rdf:type skos:Concept ;
-  dct:description "values 7 or more and chromas 2 or less for all hues" ;
+  dct:description "values 7 or more and chromas 2 or less for all hues." ;
   ui:isMemberOf sp:mottle-colours ;
   rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Pale" ;
-  skos:definition "values 7 or more and chromas 2 or less for all hues" ;
+  skos:definition "values 7 or more and chromas 2 or less for all hues." ;
   skos:notation "P" ;
   skos:prefLabel "Pale"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5388,33 +5422,33 @@ sp:mottle-constrasts
 .
 sp:mottle-contrast-D
   rdf:type skos:Concept ;
-  dct:description "readily evident although not striking" ;
+  dct:description "readily evident although not striking." ;
   ui:isMemberOf sp:mottle-constrasts ;
   rdfs:comment "C_CONTRAST" ;
   rdfs:label "Distinct" ;
-  skos:definition "readily evident although not striking" ;
+  skos:definition "readily evident although not striking." ;
   skos:notation "D" ;
   skos:prefLabel "Distinct"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:mottle-contrast-F
   rdf:type skos:Concept ;
-  dct:description "indistinct; evident only on close examination" ;
+  dct:description "indistinct; evident only on close examination." ;
   ui:isMemberOf sp:mottle-constrasts ;
   rdfs:comment "C_CONTRAST" ;
   rdfs:label "Faint" ;
-  skos:definition "indistinct; evident only on close examination" ;
+  skos:definition "indistinct; evident only on close examination." ;
   skos:notation "F" ;
   skos:prefLabel "Faint"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:mottle-contrast-P
   rdf:type skos:Concept ;
-  dct:description "striking and conspicuous" ;
+  dct:description "striking and conspicuous." ;
   ui:isMemberOf sp:mottle-constrasts ;
   rdfs:comment "C_CONTRAST" ;
   rdfs:label "Prominent" ;
-  skos:definition "striking and conspicuous" ;
+  skos:definition "striking and conspicuous." ;
   skos:notation "P" ;
   skos:prefLabel "Prominent"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5499,22 +5533,22 @@ sp:mottle-type-X
 .
 sp:mottle-type-Y
   rdf:type skos:Concept ;
-  dct:description "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons" ;
+  dct:description "Colour patterns due to mechanical mixing of soil material from other horizons (e.g.  inclusions of B horizon material in Ap horizons)." ;
   ui:isMemberOf sp:mottle-types ;
   rdfs:comment "C_MOTT_TYPE" ;
   rdfs:label "Mottle type Y" ;
-  skos:definition "Colour patterns due to mechanical mixing of soil material from other horizons, for example inclusions of B horizon material in Ap horizons" ;
+  skos:definition "Colour patterns due to mechanical mixing of soil material from other horizons (e.g.  inclusions of B horizon material in Ap horizons)." ;
   skos:notation "Y" ;
   skos:prefLabel "Mottle type Y"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:mottle-type-Z
   rdf:type skos:Concept ;
-  dct:description "Colour patterns due to inclusions of weathered substrate material" ;
+  dct:description "Colour patterns due to inclusions of weathered substrate material." ;
   ui:isMemberOf sp:mottle-types ;
   rdfs:comment "C_MOTT_TYPE" ;
   rdfs:label "Mottle type Z" ;
-  skos:definition "Colour patterns due to inclusions of weathered substrate material" ;
+  skos:definition "Colour patterns due to inclusions of weathered substrate material." ;
   skos:notation "Z" ;
   skos:prefLabel "Mottle type Z"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5593,10 +5627,10 @@ sp:observation-type-P
 .
 sp:pans
   rdf:type skos:Collection ;
-  dct:description "A pan is an indurated and/or cemented soil horizon" ;
+  dct:description "A pan is an indurated and/or cemented soil horizon." ;
   ui:topMemberOf sp: ;
   rdfs:label "Pans" ;
-  skos:definition "A pan is an indurated and/or cemented soil horizon" ;
+  skos:definition "A pan is an indurated and/or cemented soil horizon." ;
   skos:member sp:pans-cementation ;
   skos:member sp:pans-continuity ;
   skos:member sp:pans-structure ;
@@ -5619,20 +5653,22 @@ sp:pans-cementation
 .
 sp:pans-cementation-0
   rdf:type skos:Concept ;
-  dct:description "Slakes" ;
+  dct:description "slakes." ;
   ui:isMemberOf sp:pans-cementation ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
   rdfs:label "Uncemented" ;
-  skos:definition "Slakes" ;
+  skos:definition "slakes." ;
   skos:notation "0" ;
   skos:prefLabel "Uncemented" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-cementation-1
   rdf:type skos:Concept ;
-  dct:description "can be crushed between thumb and forefinger" ;
+  dct:description "can be crushed between thumb and forefinger." ;
   ui:isMemberOf sp:pans-cementation ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
   rdfs:label "Weakly cemented" ;
-  skos:definition "can be crushed between thumb and forefinger" ;
+  skos:definition "can be crushed between thumb and forefinger." ;
   skos:notation "1" ;
   skos:prefLabel "Weakly cemented" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5641,6 +5677,7 @@ sp:pans-cementation-2
   rdf:type skos:Concept ;
   dct:description "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with weight of average person (80 kg) applied slowly." ;
   ui:isMemberOf sp:pans-cementation ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
   rdfs:label "Moderately cemented" ;
   skos:definition "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with weight of average person (80 kg) applied slowly." ;
   skos:notation "2" ;
@@ -5651,6 +5688,7 @@ sp:pans-cementation-3
   rdf:type skos:Concept ;
   dct:description "cannot be crushed underfoot by weight of average man applied slowly. Can be broken by hammer." ;
   ui:isMemberOf sp:pans-cementation ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
   rdfs:label "Strongly cemented" ;
   skos:definition "cannot be crushed underfoot by weight of average man applied slowly. Can be broken by hammer." ;
   skos:notation "3" ;
@@ -5659,10 +5697,11 @@ sp:pans-cementation-3
 .
 sp:pans-cementation-4
   rdf:type skos:Concept ;
-  dct:description "cannot be broken by hammer, or only with extreme difficulty" ;
+  dct:description "cannot be broken by hammer, or only with extreme difficulty." ;
   ui:isMemberOf sp:pans-cementation ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
   rdfs:label "Very strongly cemented" ;
-  skos:definition "cannot be broken by hammer, or only with extreme difficulty" ;
+  skos:definition "cannot be broken by hammer, or only with extreme difficulty." ;
   skos:notation "4" ;
   skos:prefLabel "Very strongly cemented" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5681,30 +5720,30 @@ sp:pans-continuity
 .
 sp:pans-continuity-B
   rdf:type skos:Concept ;
-  dct:description "broken by cracks and fragments are disoriented" ;
+  dct:description "broken by cracks and fragments are disoriented." ;
   ui:isMemberOf sp:pans-continuity ;
   rdfs:label "Broken" ;
-  skos:definition "broken by cracks and fragments are disoriented" ;
+  skos:definition "broken by cracks and fragments are disoriented." ;
   skos:notation "B" ;
   skos:prefLabel "Broken" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-continuity-C
   rdf:type skos:Concept ;
-  dct:description "extends as a layer with little or no break across 1 m or more" ;
+  dct:description "extends as a layer with little or no break across 1 m or more." ;
   ui:isMemberOf sp:pans-continuity ;
   rdfs:label "Continuous" ;
-  skos:definition "extends as a layer with little or no break across 1 m or more" ;
+  skos:definition "extends as a layer with little or no break across 1 m or more." ;
   skos:notation "C" ;
   skos:prefLabel "Continuous" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-continuity-D
   rdf:type skos:Concept ;
-  dct:description "broken by cracks but original orientation of fragments is preserved" ;
+  dct:description "broken by cracks but original orientation of fragments is preserved." ;
   ui:isMemberOf sp:pans-continuity ;
   rdfs:label "Discontinuous" ;
-  skos:definition "broken by cracks but original orientation of fragments is preserved" ;
+  skos:definition "broken by cracks but original orientation of fragments is preserved." ;
   skos:notation "D" ;
   skos:prefLabel "Discontinuous" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5726,60 +5765,60 @@ sp:pans-structure
 .
 sp:pans-structure-C
   rdf:type skos:Concept ;
-  dct:description "spheroidal concretions cemented together" ;
+  dct:description "spheroidal concretions cemented together." ;
   ui:isMemberOf sp:pans-structure ;
   rdfs:label "Concretionary" ;
-  skos:definition "spheroidal concretions cemented together" ;
+  skos:definition "spheroidal concretions cemented together." ;
   skos:notation "C" ;
   skos:prefLabel "Concretionary" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure-L
   rdf:type skos:Concept ;
-  dct:description "plate-like units cemented together" ;
+  dct:description "plate-like units cemented together." ;
   ui:isMemberOf sp:pans-structure ;
   rdfs:label "Platy" ;
-  skos:definition "plate-like units cemented together" ;
+  skos:definition "plate-like units cemented together." ;
   skos:notation "L" ;
   skos:prefLabel "Platy" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure-N
   rdf:type skos:Concept ;
-  dct:description "nodules of irregular shape cemented together" ;
+  dct:description "nodules of irregular shape cemented together." ;
   ui:isMemberOf sp:pans-structure ;
   rdfs:label "Nodular" ;
-  skos:definition "nodules of irregular shape cemented together" ;
+  skos:definition "nodules of irregular shape cemented together." ;
   skos:notation "N" ;
   skos:prefLabel "Nodular" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure-R
   rdf:type skos:Concept ;
-  dct:description "worm-like structure and/or cavities" ;
+  dct:description "worm-like structure and/or cavities." ;
   ui:isMemberOf sp:pans-structure ;
   rdfs:label "Vermicular" ;
-  skos:definition "worm-like structure and/or cavities" ;
+  skos:definition "worm-like structure and/or cavities." ;
   skos:notation "R" ;
   skos:prefLabel "Vermicular" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure-S
   rdf:type skos:Concept ;
-  dct:description "sponge-like structure having large pores, which may or may not be filled with softer material" ;
+  dct:description "sponge-like structure having large pores, which may or may not be filled with softer material." ;
   ui:isMemberOf sp:pans-structure ;
   rdfs:label "Vesicular" ;
-  skos:definition "sponge-like structure having large pores, which may or may not be filled with softer material" ;
+  skos:definition "sponge-like structure having large pores, which may or may not be filled with softer material." ;
   skos:notation "S" ;
   skos:prefLabel "Vesicular" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-structure-V
   rdf:type skos:Concept ;
-  dct:description "no recognisable structure" ;
+  dct:description "no recognisable structure." ;
   ui:isMemberOf sp:pans-structure ;
   rdfs:label "Massive" ;
-  skos:definition "no recognisable structure" ;
+  skos:definition "no recognisable structure." ;
   skos:notation "V" ;
   skos:prefLabel "Massive" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5810,101 +5849,101 @@ sp:pans-type
 .
 sp:pans-type-A
   rdf:type skos:Concept ;
-  dct:description "indurated material rich in aluminium hydroxides. Commonly consists of cemented pisoliths and usually known as bauxite" ;
+  dct:description "indurated material rich in aluminium hydroxides. Commonly consists of cemented pisoliths and usually known as bauxite." ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Alcrete" ;
   skos:altLabel "Bauxite" ;
-  skos:definition "indurated material rich in aluminium hydroxides. Commonly consists of cemented pisoliths and usually known as bauxite" ;
+  skos:definition "indurated material rich in aluminium hydroxides. Commonly consists of cemented pisoliths and usually known as bauxite." ;
   skos:notation "A" ;
   skos:prefLabel "Alcrete" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-C
   rdf:type skos:Concept ;
-  dct:description "horizon relatively high in organic matter but low in iron. It is relatively thick and weakly to strongly cemented by aluminium and usually becomes progressively more cemented with depth. It is usually relatively uniform in appearance laterally. It is commonly the B horizon of humus podzols, where it is often known as coffee rock or sandrock" ;
+  dct:description "horizon relatively high in organic matter but low in iron. It is relatively thick and weakly to strongly cemented by aluminium and usually becomes progressively more cemented with depth. It is usually relatively uniform in appearance laterally. It is commonly the B horizon of humus podzols, where it is often known as coffee rock or sandrock." ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Organic pan" ;
-  skos:definition "horizon relatively high in organic matter but low in iron. It is relatively thick and weakly to strongly cemented by aluminium and usually becomes progressively more cemented with depth. It is usually relatively uniform in appearance laterally. It is commonly the B horizon of humus podzols, where it is often known as coffee rock or sandrock" ;
+  skos:definition "horizon relatively high in organic matter but low in iron. It is relatively thick and weakly to strongly cemented by aluminium and usually becomes progressively more cemented with depth. It is usually relatively uniform in appearance laterally. It is commonly the B horizon of humus podzols, where it is often known as coffee rock or sandrock." ;
   skos:notation "C" ;
   skos:prefLabel "Organic pan" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-D
   rdf:type skos:Concept ;
-  dct:description "earthy pan so cemented by silica that dry fragments do not slake in water and are always brittle, even after prolonged wetting. (Described by Soil Survey Staff (1975).)" ;
+  dct:description "earthy pan so cemented by silica that dry fragments do not slake in water and are always brittle, even after prolonged wetting. (Described by Soil Survey Staff 1975.)" ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Duripan" ;
-  skos:definition "earthy pan so cemented by silica that dry fragments do not slake in water and are always brittle, even after prolonged wetting. (Described by Soil Survey Staff (1975).)" ;
+  skos:definition "earthy pan so cemented by silica that dry fragments do not slake in water and are always brittle, even after prolonged wetting. (Described by Soil Survey Staff 1975.)" ;
   skos:notation "D" ;
   skos:prefLabel "Duripan" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-E
   rdf:type skos:Concept ;
-  dct:description "indurated material rich in hydrated oxides of iron (usually goethite and hematite) occurring as cemented nodules and/or concretions, or as massive sheets. This material has been commonly referred to in local usage around Australia as laterite, duricrust or ironstone" ;
+  dct:description "indurated material rich in hydrated oxides of iron (usually goethite and hematite) occurring as cemented nodules and/or concretions, or as massive sheets. This material has been commonly referred to in local usage around Australia as laterite, duricrust or ironstone." ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Ferricrete" ;
-  skos:definition "indurated material rich in hydrated oxides of iron (usually goethite and hematite) occurring as cemented nodules and/or concretions, or as massive sheets. This material has been commonly referred to in local usage around Australia as laterite, duricrust or ironstone" ;
+  skos:definition "indurated material rich in hydrated oxides of iron (usually goethite and hematite) occurring as cemented nodules and/or concretions, or as massive sheets. This material has been commonly referred to in local usage around Australia as laterite, duricrust or ironstone." ;
   skos:notation "E" ;
   skos:prefLabel "Ferricrete" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-F
   rdf:type skos:Concept ;
-  dct:description "earthy pan, which is usually loamy. A dry fragment slakes in water. A wet fragment does not slake in water but has moderate or weak brittleness. Fragipans are more stable on exposure than overlying or underlying horizons. (Described by Soil Survey Staff (1975).)" ;
+  dct:description "earthy pan, which is usually loamy. A dry fragment slakes in water. A wet fragment does not slake in water but has moderate or weak brittleness. Fragipans are more stable on exposure than overlying or underlying horizons. (Described by Soil Survey Staff 1975.)" ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Fragipan" ;
-  skos:definition "earthy pan, which is usually loamy. A dry fragment slakes in water. A wet fragment does not slake in water but has moderate or weak brittleness. Fragipans are more stable on exposure than overlying or underlying horizons. (Described by Soil Survey Staff (1975).)" ;
+  skos:definition "earthy pan, which is usually loamy. A dry fragment slakes in water. A wet fragment does not slake in water but has moderate or weak brittleness. Fragipans are more stable on exposure than overlying or underlying horizons. (Described by Soil Survey Staff 1975.)" ;
   skos:notation "F" ;
   skos:prefLabel "Fragipan" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-I
   rdf:type skos:Concept ;
-  dct:description "commonly thin (2–10 mm), black to dark reddish pan cemented by iron, iron and manganese, or iron – organic matter complexes. Rarely 40 mm thick. Has wavy or convolute form and usually occurs as a single pan. This is a placic horizon (described by Soil Survey Staff (1975))" ;
+  dct:description "commonly thin (2–10 mm), black to dark reddish pan cemented by iron, iron and manganese, or iron – organic matter complexes. Rarely 40 mm thick. Has wavy or convolute form and usually occurs as a single pan. This is a placic horizon (described by Soil Survey Staff 1975.)" ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Thin ironpan" ;
-  skos:definition "commonly thin (2–10 mm), black to dark reddish pan cemented by iron, iron and manganese, or iron – organic matter complexes. Rarely 40 mm thick. Has wavy or convolute form and usually occurs as a single pan. This is a placic horizon (described by Soil Survey Staff (1975))" ;
+  skos:definition "commonly thin (2–10 mm), black to dark reddish pan cemented by iron, iron and manganese, or iron – organic matter complexes. Rarely 40 mm thick. Has wavy or convolute form and usually occurs as a single pan. This is a placic horizon (described by Soil Survey Staff 1975.)" ;
   skos:notation "I" ;
   skos:prefLabel "Thin ironpan" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-K
   rdf:type skos:Concept ;
-  dct:description "any cemented, terrestrial carbonate accumulation that may vary significantly in morphology and degree of cementation. Also known as carbonate pan, calcareous pan, caliche, kunkar, secondary limestone, travertine. All show slight to strong effervescence with 1-molar HCl" ;
+  dct:description "any cemented, terrestrial carbonate accumulation that may vary significantly in morphology and degree of cementation. Also known as carbonate pan, calcareous pan, caliche, kunkar, secondary limestone, travertine. All show slight to strong effervescence with 1 Molar HCl." ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Calcrete" ;
-  skos:definition "any cemented, terrestrial carbonate accumulation that may vary significantly in morphology and degree of cementation. Also known as carbonate pan, calcareous pan, caliche, kunkar, secondary limestone, travertine. All show slight to strong effervescence with 1-molar HCl" ;
+  skos:definition "any cemented, terrestrial carbonate accumulation that may vary significantly in morphology and degree of cementation. Also known as carbonate pan, calcareous pan, caliche, kunkar, secondary limestone, travertine. All show slight to strong effervescence with 1 Molar HCl." ;
   skos:notation "K" ;
   skos:prefLabel "Calcrete" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-L
   rdf:type skos:Concept ;
-  dct:description "strongly indurated siliceous material cemented by, and largely composed of, forms of silica, including quartz, chalcedony, opal and chert" ;
+  dct:description "strongly indurated siliceous material cemented by, and largely composed of, forms of silica, including quartz, chalcedony, opal and chert." ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Silcrete" ;
-  skos:definition "strongly indurated siliceous material cemented by, and largely composed of, forms of silica, including quartz, chalcedony, opal and chert" ;
+  skos:definition "strongly indurated siliceous material cemented by, and largely composed of, forms of silica, including quartz, chalcedony, opal and chert." ;
   skos:notation "L" ;
   skos:prefLabel "Silcrete" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-M
   rdf:type skos:Concept ;
-  dct:description "indurated material dominated by oxides of manganese" ;
+  dct:description "indurated material dominated by oxides of manganese." ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Manganiferous pan" ;
-  skos:definition "indurated material dominated by oxides of manganese" ;
+  skos:definition "indurated material dominated by oxides of manganese." ;
   skos:notation "M" ;
   skos:prefLabel "Manganiferous pan" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-N
   rdf:type skos:Concept ;
-  dct:description "earthy pan, which is very fine sandy (0.02–0.05 mm). Fragments, both wet and dry, slake in water. Densipans are less stable on exposure than overlying or underlying horizons. (Described by Smith et al. (1975).)" ;
+  dct:description "earthy pan, which is very fine sandy (0.02–0.05 mm). Fragments, both wet and dry, slake in water. Densipans are less stable on exposure than overlying or underlying horizons. (Described by Smith et al. 1975.)" ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Densipan" ;
-  skos:definition "earthy pan, which is very fine sandy (0.02–0.05 mm). Fragments, both wet and dry, slake in water. Densipans are less stable on exposure than overlying or underlying horizons. (Described by Smith et al. (1975).)" ;
+  skos:definition "earthy pan, which is very fine sandy (0.02–0.05 mm). Fragments, both wet and dry, slake in water. Densipans are less stable on exposure than overlying or underlying horizons. (Described by Smith et al. 1975.)" ;
   skos:notation "N" ;
   skos:prefLabel "Densipan" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5921,20 +5960,20 @@ sp:pans-type-O
 .
 sp:pans-type-R
   rdf:type skos:Concept ;
-  dct:description "earthy pan, which is normally reddish brown to red with dense yet porous appearance; it is very hard, has an irregular laminar cleavage and some vertical cracks, and varies from less than 0.3 m to over 30 m thick. Other variable features are bedded and unsorted sand and gravel lenses; wavy black veinings, probably manganiferous; and, less commonly, off-white veins of calcium carbonate. (The presence of calcium carbonate is not common and the red-brown hardpan in which it occurs may be relatively brittle and finely laminar.) The red-brown hardpan is usually present below the soil profile and is not a feature of any particular soil group. (It has some similarity with other silica pans such as duripans of arid climates). In many instances, it is not known if the red-brown hardpan is a paleosol or a cemented sediment (Wright 1983). If thought to be the latter, it may be described as a substrate material " ;
+  dct:description "earthy pan, which is normally reddish brown to red with dense yet porous appearance; it is very hard, has an irregular laminar cleavage and some vertical cracks, and varies from less than 0.3 m to over 30 m thick. Other variable features are bedded and unsorted sand and gravel lenses; wavy black veinings, probably manganiferous; and, less commonly, off-white veins of calcium carbonate. (The presence of calcium carbonate is not common and the red-brown hardpan in which it occurs may be relatively brittle and finely laminar.) The red-brown hardpan is usually present below the soil profile and is not a feature of any particular soil group. (It has some similarity with other silica pans such as duripans of arid climates). In many instances, it is not known if the red-brown hardpan is a paleosol or a cemented sediment (Wright 1983). If thought to be the latter, it may be described as a substrate material. " ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Red-brown hardpan" ;
-  skos:definition "earthy pan, which is normally reddish brown to red with dense yet porous appearance; it is very hard, has an irregular laminar cleavage and some vertical cracks, and varies from less than 0.3 m to over 30 m thick. Other variable features are bedded and unsorted sand and gravel lenses; wavy black veinings, probably manganiferous; and, less commonly, off-white veins of calcium carbonate. (The presence of calcium carbonate is not common and the red-brown hardpan in which it occurs may be relatively brittle and finely laminar.) The red-brown hardpan is usually present below the soil profile and is not a feature of any particular soil group. (It has some similarity with other silica pans such as duripans of arid climates). In many instances, it is not known if the red-brown hardpan is a paleosol or a cemented sediment (Wright 1983). If thought to be the latter, it may be described as a substrate material " ;
+  skos:definition "earthy pan, which is normally reddish brown to red with dense yet porous appearance; it is very hard, has an irregular laminar cleavage and some vertical cracks, and varies from less than 0.3 m to over 30 m thick. Other variable features are bedded and unsorted sand and gravel lenses; wavy black veinings, probably manganiferous; and, less commonly, off-white veins of calcium carbonate. (The presence of calcium carbonate is not common and the red-brown hardpan in which it occurs may be relatively brittle and finely laminar.) The red-brown hardpan is usually present below the soil profile and is not a feature of any particular soil group. (It has some similarity with other silica pans such as duripans of arid climates). In many instances, it is not known if the red-brown hardpan is a paleosol or a cemented sediment (Wright 1983). If thought to be the latter, it may be described as a substrate material. " ;
   skos:notation "R" ;
   skos:prefLabel "Red-brown hardpan" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:pans-type-T
   rdf:type skos:Concept ;
-  dct:description "horizon strongly cemented by iron and organic matter. It has marked local variability in colour, both laterally and vertically. It may occur in the B horizon of podzols" ;
+  dct:description "horizon strongly cemented by iron and organic matter. It has marked local variability in colour, both laterally and vertically. It may occur in the B horizon of podzols." ;
   ui:isMemberOf sp:pans-type ;
   rdfs:label "Ortstein" ;
-  skos:definition "horizon strongly cemented by iron and organic matter. It has marked local variability in colour, both laterally and vertically. It may occur in the B horizon of podzols" ;
+  skos:definition "horizon strongly cemented by iron and organic matter. It has marked local variability in colour, both laterally and vertically. It may occur in the B horizon of podzols." ;
   skos:notation "T" ;
   skos:prefLabel "Ortstein" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -5951,17 +5990,16 @@ sp:pans-type-V
 .
 sp:pans-type-Z
   rdf:type skos:Concept ;
-  dct:description "Zero of no pan" ;
+  dct:description "Zero or no pan" ;
   ui:isMemberOf sp:pans-type ;
-  rdfs:label "Zero of no pan" ;
-  skos:definition "Zero of no pan" ;
+  rdfs:label "Zero or no pan" ;
+  skos:definition "Zero or no pan" ;
   skos:notation "Z" ;
-  skos:prefLabel "Zero of no pan" ;
+  skos:prefLabel "Zero or no pan" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:roots
   rdf:type skos:Collection ;
-  dc:description "Record the presence of roots observed in each horizon in areas 100 mm square on a cleaned exposure face." ;
   dct:description "Record the presence of roots observed in each horizon in areas 100 mm square on a cleaned exposure face." ;
   ui:topMemberOf sp: ;
   rdfs:label "Roots" ;
@@ -6105,11 +6143,11 @@ sp:roots-size-4
 .
 sp:segregations-abundance
   rdf:type skos:Collection ;
-  dct:description "Abundance of segregations. Use figure 11 as a guide" ;
+  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure11.png\" /></p>" ;
   ui:isMemberOf sp:segregations-of-pedogenic-origin ;
   rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Abundance of segregations" ;
-  skos:definition "Abundance of segregations. Use figure 11 as a guide" ;
+  skos:definition "Abundance of segregations. Use figure 11 as a guide." ;
   skos:member sp:segregations-abundance-0 ;
   skos:member sp:segregations-abundance-1 ;
   skos:member sp:segregations-abundance-2 ;
@@ -6122,6 +6160,7 @@ sp:segregations-abundance-0
   rdf:type skos:Concept ;
   dct:description "0" ;
   ui:isMemberOf sp:segregations-abundance ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "No segregations" ;
   skos:definition "0" ;
   skos:notation "0" ;
@@ -6132,6 +6171,7 @@ sp:segregations-abundance-1
   rdf:type skos:Concept ;
   dct:description "< 2%" ;
   ui:isMemberOf sp:segregations-abundance ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Very few" ;
   skos:definition "< 2%" ;
   skos:notation "1" ;
@@ -6142,6 +6182,7 @@ sp:segregations-abundance-2
   rdf:type skos:Concept ;
   dct:description "2 - 10%" ;
   ui:isMemberOf sp:segregations-abundance ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Few" ;
   skos:definition "2 - 10%" ;
   skos:notation "2" ;
@@ -6152,6 +6193,7 @@ sp:segregations-abundance-3
   rdf:type skos:Concept ;
   dct:description "10 - 20%" ;
   ui:isMemberOf sp:segregations-abundance ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Common" ;
   skos:definition "10 - 20%" ;
   skos:notation "3" ;
@@ -6162,6 +6204,7 @@ sp:segregations-abundance-4
   rdf:type skos:Concept ;
   dct:description "20 - 50%" ;
   ui:isMemberOf sp:segregations-abundance ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Many" ;
   skos:definition "20 - 50%" ;
   skos:notation "4" ;
@@ -6172,6 +6215,7 @@ sp:segregations-abundance-5
   rdf:type skos:Concept ;
   dct:description "> 50%" ;
   ui:isMemberOf sp:segregations-abundance ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Very many" ;
   skos:definition "> 50%" ;
   skos:notation "5" ;
@@ -6198,90 +6242,99 @@ sp:segregations-form
 .
 sp:segregations-form-C
   rdf:type skos:Concept ;
-  dct:description "Spheroidal mineral aggregates. Crudely concentric internal fabric can be seen with naked eye. Includes pisoliths and ooliths" ;
+  dct:description "spheroidal mineral aggregates. Crudely concentric internal fabric can be seen with naked eye. Includes pisoliths and ooliths." ;
   ui:isMemberOf sp:segregations-form ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Concretions" ;
-  skos:definition "Spheroidal mineral aggregates. Crudely concentric internal fabric can be seen with naked eye. Includes pisoliths and ooliths" ;
+  skos:definition "spheroidal mineral aggregates. Crudely concentric internal fabric can be seen with naked eye. Includes pisoliths and ooliths." ;
   skos:notation "C" ;
   skos:prefLabel "Concretions"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:segregations-form-F
   rdf:type skos:Concept ;
-  dct:description "broken pieces of segregations" ;
+  dct:description "broken pieces of segregations." ;
   ui:isMemberOf sp:segregations-form ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Fragments" ;
-  skos:definition "broken pieces of segregations" ;
+  skos:definition "broken pieces of segregations." ;
   skos:notation "F" ;
   skos:prefLabel "Fragments"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:segregations-form-L
   rdf:type skos:Concept ;
-  dct:description "planar, plate-like or sheet-like segregations" ;
+  dct:description "planar, plate-like or sheet-like segregations." ;
   ui:isMemberOf sp:segregations-form ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Laminae" ;
-  skos:definition "planar, plate-like or sheet-like segregations" ;
+  skos:definition "planar, plate-like or sheet-like segregations." ;
   skos:notation "L" ;
   skos:prefLabel "Laminae"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:segregations-form-N
   rdf:type skos:Concept ;
-  dct:description "irregular, rounded mineral aggregates. No concentric or symmetric internal fabric. Can have hollow interior" ;
+  dct:description "irregular, rounded mineral aggregates. No concentric or symmetric internal fabric. Can have hollow interior." ;
   ui:isMemberOf sp:segregations-form ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Nodules" ;
-  skos:definition "irregular, rounded mineral aggregates. No concentric or symmetric internal fabric. Can have hollow interior" ;
+  skos:definition "irregular, rounded mineral aggregates. No concentric or symmetric internal fabric. Can have hollow interior." ;
   skos:notation "N" ;
   skos:prefLabel "Nodules"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:segregations-form-R
   rdf:type skos:Concept ;
-  dct:description "linings of former or current root channels" ;
+  dct:description "linings of former or current root channels." ;
   ui:isMemberOf sp:segregations-form ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Root linings" ;
-  skos:definition "linings of former or current root channels" ;
+  skos:definition "linings of former or current root channels." ;
   skos:notation "R" ;
   skos:prefLabel "Root linings"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:segregations-form-S
   rdf:type skos:Concept ;
-  dct:description "finely divided soft segregations. They contrast with surrounding soil in colour and composition but are not easily separated as discrete bodies. Boundaries may be clearly defined or diffuse" ;
+  dct:description "finely divided soft segregations. They contrast with surrounding soil in colour and composition but are not easily separated as discrete bodies. Boundaries may be clearly defined or diffuse." ;
   ui:isMemberOf sp:segregations-form ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Soft segregations" ;
-  skos:definition "finely divided soft segregations. They contrast with surrounding soil in colour and composition but are not easily separated as discrete bodies. Boundaries may be clearly defined or diffuse" ;
+  skos:definition "finely divided soft segregations. They contrast with surrounding soil in colour and composition but are not easily separated as discrete bodies. Boundaries may be clearly defined or diffuse." ;
   skos:notation "S" ;
   skos:prefLabel "Soft segregations"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:segregations-form-T
   rdf:type skos:Concept ;
-  dct:description "medium or coarser (>2 mm wide) tube-like segregations, which may or may not be hollow" ;
+  dct:description "medium or coarser (>2 mm wide) tube-like segregations, which may or may not be hollow." ;
   ui:isMemberOf sp:segregations-form ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Tubules" ;
-  skos:definition "medium or coarser (>2 mm wide) tube-like segregations, which may or may not be hollow" ;
+  skos:definition "medium or coarser (>2 mm wide) tube-like segregations, which may or may not be hollow." ;
   skos:notation "T" ;
   skos:prefLabel "Tubules"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:segregations-form-V
   rdf:type skos:Concept ;
-  dct:description "fine (<2 mm wide) linear segregations" ;
+  dct:description "fine (<2 mm wide) linear segregations." ;
   ui:isMemberOf sp:segregations-form ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Veins" ;
-  skos:definition "fine (<2 mm wide) linear segregations" ;
+  skos:definition "fine (<2 mm wide) linear segregations." ;
   skos:notation "V" ;
   skos:prefLabel "Veins"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:segregations-form-X
   rdf:type skos:Concept ;
-  dct:description "single or complex clusters of crystals visible with naked eye or ×10 hand lens" ;
+  dct:description "single or complex clusters of crystals visible with naked eye or ×10 hand lens." ;
   ui:isMemberOf sp:segregations-form ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Crystals" ;
-  skos:definition "single or complex clusters of crystals visible with naked eye or ×10 hand lens" ;
+  skos:definition "single or complex clusters of crystals visible with naked eye or ×10 hand lens." ;
   skos:notation "X" ;
   skos:prefLabel "Crystals"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -6299,20 +6352,22 @@ sp:segregations-magnetic
 .
 sp:segregations-magnetic-M
   rdf:type skos:Concept ;
-  dct:description "attracted onto surface of hand-held magnet" ;
+  dct:description "attracted onto surface of hand-held magnet." ;
   ui:isMemberOf sp:segregations-magnetic ;
+  rdfs:comment "C_SEG_MAGNETIC_ATTR" ;
   rdfs:label "Magnetic" ;
-  skos:definition "attracted onto surface of hand-held magnet" ;
+  skos:definition "attracted onto surface of hand-held magnet." ;
   skos:notation "M" ;
   skos:prefLabel "Magnetic"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:segregations-magnetic-N
   rdf:type skos:Concept ;
-  dct:description "not attracted onto surface of hand-held magnet" ;
+  dct:description "not attracted onto surface of hand-held magnet." ;
   ui:isMemberOf sp:segregations-magnetic ;
+  rdfs:comment "C_SEG_MAGNETIC_ATTR" ;
   rdfs:label "Non-magnetic" ;
-  skos:definition "not attracted onto surface of hand-held magnet" ;
+  skos:definition "not attracted onto surface of hand-held magnet." ;
   skos:notation "N" ;
   skos:prefLabel "Non-magnetic"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -6344,6 +6399,7 @@ sp:segregations-nature-A
   rdf:type skos:Concept ;
   dct:description "Aluminous (aluminium)" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Aluminous" ;
   skos:definition "Aluminous (aluminium)" ;
   skos:notation "A" ;
@@ -6354,6 +6410,7 @@ sp:segregations-nature-E
   rdf:type skos:Concept ;
   dct:description "Earthy (dominantly non-clayey)" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Earthy" ;
   skos:definition "Earthy (dominantly non-clayey)" ;
   skos:notation "E" ;
@@ -6364,6 +6421,7 @@ sp:segregations-nature-F
   rdf:type skos:Concept ;
   dct:description "Ferruginous (iron)" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Ferruginous" ;
   skos:definition "Ferruginous (iron)" ;
   skos:notation "F" ;
@@ -6374,6 +6432,7 @@ sp:segregations-nature-G
   rdf:type skos:Concept ;
   dct:description "Ferruginous–organic (iron – organic matter)" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Ferruginous–organic" ;
   skos:definition "Ferruginous–organic (iron – organic matter)" ;
   skos:notation "G" ;
@@ -6384,6 +6443,7 @@ sp:segregations-nature-H
   rdf:type skos:Concept ;
   dct:description "Organic (humified, well-decomposed organic matter)" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Organic" ;
   skos:definition "Organic (humified, well-decomposed organic matter)" ;
   skos:notation "H" ;
@@ -6394,6 +6454,7 @@ sp:segregations-nature-K
   rdf:type skos:Concept ;
   dct:description "Calcareous (carbonate)" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Calcareous" ;
   skos:definition "Calcareous (carbonate)" ;
   skos:notation "K" ;
@@ -6404,6 +6465,7 @@ sp:segregations-nature-L
   rdf:type skos:Concept ;
   dct:description "Argillaceous (clayey)" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Argillaceous" ;
   skos:definition "Argillaceous (clayey)" ;
   skos:notation "L" ;
@@ -6414,6 +6476,7 @@ sp:segregations-nature-M
   rdf:type skos:Concept ;
   dct:description "Manganiferous (manganese)" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Manganiferous" ;
   skos:definition "Manganiferous (manganese)" ;
   skos:notation "M" ;
@@ -6424,6 +6487,7 @@ sp:segregations-nature-N
   rdf:type skos:Concept ;
   dct:description "Ferromanganiferous (iron–manganese)" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Ferromanganiferous" ;
   skos:definition "Ferromanganiferous (iron–manganese)" ;
   skos:notation "N" ;
@@ -6434,6 +6498,7 @@ sp:segregations-nature-O
   rdf:type skos:Concept ;
   dct:description "Other" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Other" ;
   skos:definition "Other" ;
   skos:notation "O" ;
@@ -6444,6 +6509,7 @@ sp:segregations-nature-S
   rdf:type skos:Concept ;
   dct:description "Sulphurous (sulphur), for example in acid sulphate soils" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Sulphurous" ;
   skos:definition "Sulphurous (sulphur), for example in acid sulphate soils" ;
   skos:notation "S" ;
@@ -6454,6 +6520,7 @@ sp:segregations-nature-U
   rdf:type skos:Concept ;
   dct:description "Unidentified" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Unidentified" ;
   skos:definition "Unidentified" ;
   skos:notation "U" ;
@@ -6464,6 +6531,7 @@ sp:segregations-nature-Y
   rdf:type skos:Concept ;
   dct:description "Gypseous (gypsum)" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Gypseous" ;
   skos:definition "Gypseous (gypsum)" ;
   skos:notation "Y" ;
@@ -6474,6 +6542,7 @@ sp:segregations-nature-Z
   rdf:type skos:Concept ;
   dct:description "Saline (visible salt)" ;
   ui:isMemberOf sp:segregations-nature ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Saline" ;
   skos:definition "Saline (visible salt)" ;
   skos:notation "Z" ;
@@ -6514,6 +6583,7 @@ sp:segregations-size-1
   rdf:type skos:Concept ;
   dct:description "< 2mm" ;
   ui:isMemberOf sp:segregations-size ;
+  rdfs:comment "N_SEG_SIZE" ;
   rdfs:label "Fine" ;
   skos:definition "< 2mm" ;
   skos:notation "1" ;
@@ -6524,6 +6594,7 @@ sp:segregations-size-2
   rdf:type skos:Concept ;
   dct:description "2 - 6mm" ;
   ui:isMemberOf sp:segregations-size ;
+  rdfs:comment "N_SEG_SIZE" ;
   rdfs:label "Medium" ;
   skos:definition "2 - 6mm" ;
   skos:notation "2" ;
@@ -6534,6 +6605,7 @@ sp:segregations-size-3
   rdf:type skos:Concept ;
   dct:description "6 - 20mm" ;
   ui:isMemberOf sp:segregations-size ;
+  rdfs:comment "N_SEG_SIZE" ;
   rdfs:label "Coarse" ;
   skos:definition "6 - 20mm" ;
   skos:notation "3" ;
@@ -6544,6 +6616,7 @@ sp:segregations-size-4
   rdf:type skos:Concept ;
   dct:description "20 - 60mm" ;
   ui:isMemberOf sp:segregations-size ;
+  rdfs:comment "N_SEG_SIZE" ;
   rdfs:label "Very coarse" ;
   skos:definition "20 - 60mm" ;
   skos:notation "4" ;
@@ -6554,6 +6627,7 @@ sp:segregations-size-5
   rdf:type skos:Concept ;
   dct:description "> 60mm" ;
   ui:isMemberOf sp:segregations-size ;
+  rdfs:comment "N_SEG_SIZE" ;
   rdfs:label "Extremely coarse" ;
   skos:definition "> 60mm" ;
   skos:notation "5" ;
@@ -6573,20 +6647,22 @@ sp:segregations-strength
 .
 sp:segregations-strength-1
   rdf:type skos:Concept ;
-  dct:description "can be broken between thumb and forefinger" ;
+  dct:description "can be broken between thumb and forefinger." ;
   ui:isMemberOf sp:segregations-strength ;
+  rdfs:comment "C_SEG_STRENGTH" ;
   rdfs:label "Weak" ;
-  skos:definition "can be broken between thumb and forefinger" ;
+  skos:definition "can be broken between thumb and forefinger." ;
   skos:notation "1" ;
   skos:prefLabel "Weak"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:segregations-strength-2
   rdf:type skos:Concept ;
-  dct:description "cannot be broken between thumb and forefinger" ;
+  dct:description "cannot be broken between thumb and forefinger." ;
   ui:isMemberOf sp:segregations-strength ;
+  rdfs:comment "C_SEG_STRENGTH" ;
   rdfs:label "Strong" ;
-  skos:definition "cannot be broken between thumb and forefinger" ;
+  skos:definition "cannot be broken between thumb and forefinger." ;
   skos:notation "2" ;
   skos:prefLabel "Strong"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -6598,8 +6674,7 @@ These concepts of permeability and drainage are largely based on Canada Soil Sur
   ui:topMemberOf sp: ;
   rdfs:label "Soil water regime" ;
   skos:definition """Traditional approaches to soil drainage do not adequately differentiate between hydrological setting and permeability of the material of the profile. For example, a very permeable, coarse-textured soil occurring in a wet depression would have to be classed as very poorly drained. Hence there is a need to consider permeability, which refers to the potential of a soil to transmit water internally, and drainage, which refers to the rapidity and extent of water removal from the soil profile or site. Both these aspects of internal drainage may be difficult to assess in the field, and cannot be based solely on profile morphology. Mottling may, but not always, reflect drainage status, since mottling may be a relict feature. Vegetation and topography may be useful guides.
-These concepts of permeability and drainage are largely based on Canada Soil Survey Committee (1978).
-""" ;
+These concepts of permeability and drainage are largely based on Canada Soil Survey Committee (1978).""" ;
   skos:member sp:soilwater-drainage ;
   skos:member sp:soilwater-permeability ;
   skos:member sp:soilwater-status ;
@@ -6622,60 +6697,66 @@ sp:soilwater-drainage
 .
 sp:soilwater-drainage-1
   rdf:type skos:Concept ;
-  dct:description "Water is removed from the soil so slowly that the water table remains at or near the surface for most of the year. Surface flow, groundwater and subsurface flow are major sources of water, although precipitation may be important where there is a perched water table and precipitation exceeds evapotranspiration. Soils have a wide range in texture and depth, and often occur in depressed sites. Strong gleying and accumulation of surface organic matter are usually features of most soils." ;
+  dct:description "water is removed from the soil so slowly that the water table remains at or near the surface for most of the year. Surface flow, groundwater and subsurface flow are major sources of water, although precipitation may be important where there is a perched water table and precipitation exceeds evapotranspiration. Soils have a wide range in texture and depth, and often occur in depressed sites. Strong gleying and accumulation of surface organic matter are usually features of most soils." ;
   ui:isMemberOf sp:soilwater-drainage ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Very poorly drained" ;
-  skos:definition "Water is removed from the soil so slowly that the water table remains at or near the surface for most of the year. Surface flow, groundwater and subsurface flow are major sources of water, although precipitation may be important where there is a perched water table and precipitation exceeds evapotranspiration. Soils have a wide range in texture and depth, and often occur in depressed sites. Strong gleying and accumulation of surface organic matter are usually features of most soils." ;
+  skos:definition "water is removed from the soil so slowly that the water table remains at or near the surface for most of the year. Surface flow, groundwater and subsurface flow are major sources of water, although precipitation may be important where there is a perched water table and precipitation exceeds evapotranspiration. Soils have a wide range in texture and depth, and often occur in depressed sites. Strong gleying and accumulation of surface organic matter are usually features of most soils." ;
   skos:notation "1" ;
   skos:prefLabel "Very poorly drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-drainage-2
   rdf:type skos:Concept ;
-  dct:description "Water is removed very slowly in relation to supply. Subsurface and/or groundwater flow, as well as precipitation, may be a significant water source. Seasonal ponding, resulting from runon and insufficient outfall, also occurs. A perched water table may be present. Soils have a wide range in texture and depth; many have horizons that are gleyed, mottled, or possess orange or rusty linings of root channels. All horizons remain wet for periods of several months." ;
+  dct:description "water is removed very slowly in relation to supply. Subsurface and/or groundwater flow, as well as precipitation, may be a significant water source. Seasonal ponding, resulting from runon and insufficient outfall, also occurs. A perched water table may be present. Soils have a wide range in texture and depth; many have horizons that are gleyed, mottled, or possess orange or rusty linings of root channels. All horizons remain wet for periods of several months." ;
   ui:isMemberOf sp:soilwater-drainage ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Poorly drained" ;
-  skos:definition "Water is removed very slowly in relation to supply. Subsurface and/or groundwater flow, as well as precipitation, may be a significant water source. Seasonal ponding, resulting from runon and insufficient outfall, also occurs. A perched water table may be present. Soils have a wide range in texture and depth; many have horizons that are gleyed, mottled, or possess orange or rusty linings of root channels. All horizons remain wet for periods of several months." ;
+  skos:definition "water is removed very slowly in relation to supply. Subsurface and/or groundwater flow, as well as precipitation, may be a significant water source. Seasonal ponding, resulting from runon and insufficient outfall, also occurs. A perched water table may be present. Soils have a wide range in texture and depth; many have horizons that are gleyed, mottled, or possess orange or rusty linings of root channels. All horizons remain wet for periods of several months." ;
   skos:notation "2" ;
   skos:prefLabel "Poorly drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-drainage-3
   rdf:type skos:Concept ;
-  dct:description "Water is removed only slowly in relation to supply. Precipitation is the main source if available water storage capacity is high, but subsurface flow and/or groundwater contribute as available water storage capacity decreases. Soils have a wide range in texture and depth. Some horizons may be mottled and/or have orange or rusty linings of root channels, and are wet for several weeks." ;
+  dct:description "water is removed only slowly in relation to supply. Precipitation is the main source if available water storage capacity is high, but subsurface flow and/or groundwater contribute as available water storage capacity decreases. Soils have a wide range in texture and depth. Some horizons may be mottled and/or have orange or rusty linings of root channels, and are wet for several weeks." ;
   ui:isMemberOf sp:soilwater-drainage ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Imperfectly drained" ;
-  skos:definition "Water is removed only slowly in relation to supply. Precipitation is the main source if available water storage capacity is high, but subsurface flow and/or groundwater contribute as available water storage capacity decreases. Soils have a wide range in texture and depth. Some horizons may be mottled and/or have orange or rusty linings of root channels, and are wet for several weeks." ;
+  skos:definition "water is removed only slowly in relation to supply. Precipitation is the main source if available water storage capacity is high, but subsurface flow and/or groundwater contribute as available water storage capacity decreases. Soils have a wide range in texture and depth. Some horizons may be mottled and/or have orange or rusty linings of root channels, and are wet for several weeks." ;
   skos:notation "3" ;
   skos:prefLabel "Imperfectly drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-drainage-4
   rdf:type skos:Concept ;
-  dct:description "Water is removed from the soil somewhat slowly in relation to supply, due to low permeability, shallow water table, lack of gradient, or some combination of these. Soils are usually medium to fine in texture. Significant additions of water by subsurface flow are necessary in coarse-textured soils. Some horizons may remain wet for as long as one week after water addition." ;
+  dct:description "water is removed from the soil somewhat slowly in relation to supply, due to low permeability, shallow water table, lack of gradient, or some combination of these. Soils are usually medium to fine in texture. Significant additions of water by subsurface flow are necessary in coarse-textured soils. Some horizons may remain wet for as long as one week after water addition." ;
   ui:isMemberOf sp:soilwater-drainage ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Moderately well drained" ;
-  skos:definition "Water is removed from the soil somewhat slowly in relation to supply, due to low permeability, shallow water table, lack of gradient, or some combination of these. Soils are usually medium to fine in texture. Significant additions of water by subsurface flow are necessary in coarse-textured soils. Some horizons may remain wet for as long as one week after water addition." ;
+  skos:definition "water is removed from the soil somewhat slowly in relation to supply, due to low permeability, shallow water table, lack of gradient, or some combination of these. Soils are usually medium to fine in texture. Significant additions of water by subsurface flow are necessary in coarse-textured soils. Some horizons may remain wet for as long as one week after water addition." ;
   skos:notation "4" ;
   skos:prefLabel "Moderately well drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-drainage-5
   rdf:type skos:Concept ;
-  dct:description "Water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying, moderately permeable material or laterally as subsurface flow. The soils are often medium in texture. Some horizons may remain wet for several days after water addition." ;
+  dct:description "water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying, moderately permeable material or laterally as subsurface flow. The soils are often medium in texture. Some horizons may remain wet for several days after water addition." ;
   ui:isMemberOf sp:soilwater-drainage ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Well drained" ;
-  skos:definition "Water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying, moderately permeable material or laterally as subsurface flow. The soils are often medium in texture. Some horizons may remain wet for several days after water addition." ;
+  skos:definition "water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying, moderately permeable material or laterally as subsurface flow. The soils are often medium in texture. Some horizons may remain wet for several days after water addition." ;
   skos:notation "5" ;
   skos:prefLabel "Well drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-drainage-6
   rdf:type skos:Concept ;
-  dct:description "Water is removed from the soil rapidly in relation to supply. Excess water flows downward rapidly if underlying material is highly permeable. There may be rapid subsurface lateral flow during heavy rainfall provided there is a steep gradient. Soils are usually coarse-textured, or shallow, or both. No horizon is normally wet for more than several hours after water addition." ;
+  dct:description "water is removed from the soil rapidly in relation to supply. Excess water flows downward rapidly if underlying material is highly permeable. There may be rapid subsurface lateral flow during heavy rainfall provided there is a steep gradient. Soils are usually coarse-textured, or shallow, or both. No horizon is normally wet for more than several hours after water addition." ;
   ui:isMemberOf sp:soilwater-drainage ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Rapidly drained" ;
-  skos:definition "Water is removed from the soil rapidly in relation to supply. Excess water flows downward rapidly if underlying material is highly permeable. There may be rapid subsurface lateral flow during heavy rainfall provided there is a steep gradient. Soils are usually coarse-textured, or shallow, or both. No horizon is normally wet for more than several hours after water addition." ;
+  skos:definition "water is removed from the soil rapidly in relation to supply. Excess water flows downward rapidly if underlying material is highly permeable. There may be rapid subsurface lateral flow during heavy rainfall provided there is a steep gradient. Soils are usually coarse-textured, or shallow, or both. No horizon is normally wet for more than several hours after water addition." ;
   skos:notation "6" ;
   skos:prefLabel "Rapidly drained"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -6695,55 +6776,67 @@ sp:soilwater-permeability
 .
 sp:soilwater-permeability-1
   rdf:type skos:Concept ;
-  dct:description "Vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet." ;
-  ui:isMemberOf sp:soilwater-permeability ;
-  rdfs:comment """Ks range: <5 mm/day
+  dct:description """vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet.
+Ks range: <5 mm/day
 Drainage time: months""" ;
+  ui:isMemberOf sp:soilwater-permeability ;
+  rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Very slowly permeable" ;
-  skos:definition "Vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet." ;
+  skos:definition """vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet.
+Ks range: <5 mm/day
+Drainage time: months""" ;
   skos:notation "1" ;
   skos:prefLabel "Very slowly permeable"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-permeability-2
   rdf:type skos:Concept ;
-  dct:description "Vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral." ;
-  ui:isMemberOf sp:soilwater-permeability ;
-  rdfs:comment """Ks range: 5-50 mm/day
+  dct:description """vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral.
+Ks range: 5-50 mm/day
 Drainage time: weeks""" ;
+  ui:isMemberOf sp:soilwater-permeability ;
+  rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Slowly permeable" ;
-  skos:definition "Vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral." ;
+  skos:definition """vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral.
+Ks range: 5-50 mm/day
+Drainage time: weeks""" ;
   skos:notation "2" ;
   skos:prefLabel "Slowly permeable"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-permeability-3
   rdf:type skos:Concept ;
-  dct:description "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens." ;
-  ui:isMemberOf sp:soilwater-permeability ;
-  rdfs:comment """Ks range: 50-500 mm/day
+  dct:description """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens.
+Ks range: 50-500 mm/day
 Drainage time: days""" ;
+  ui:isMemberOf sp:soilwater-permeability ;
+  rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Moderately permeable" ;
-  skos:definition "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens." ;
+  skos:definition """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens.
+Ks range: 50-500 mm/day
+Drainage time: days""" ;
   skos:notation "3" ;
   skos:prefLabel "Moderately permeable"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-permeability-4
   rdf:type skos:Concept ;
-  dct:description "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable." ;
-  ui:isMemberOf sp:soilwater-permeability ;
-  rdfs:comment """Ks range: >500 mm/day
+  dct:description """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable.
+Ks range: >500 mm/day
 Drainage time: hours""" ;
+  ui:isMemberOf sp:soilwater-permeability ;
+  rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Highly permeable" ;
-  skos:definition "Vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable." ;
+  skos:definition """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable.
+Ks range: >500 mm/day
+Drainage time: hours""" ;
   skos:notation "4" ;
   skos:prefLabel "Highly permeable"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-status
   rdf:type skos:Collection ;
-  dct:description """Give soil water status of the soil at the time of description (see Table 30).
+  dct:description """Give soil water status of the soil at the time of description.
 It may also be relevant to note the weather conditions immediately prior to examination of the soil if these are known, for example a soil may be wet because of local rain or from seepage.
 The following guidelines may be used as a crude approximation of soil water status:
 
@@ -6753,7 +6846,7 @@ Moist is the wetter half of the available moisture range.
 Wet is at, or exceeding, field capacity. Will wet and/or stick to fingers when moulded.""" ;
   ui:isMemberOf sp:soil-water-regime ;
   rdfs:label "Soil water status" ;
-  skos:definition """Give soil water status of the soil at the time of description (see Table 30).
+  skos:definition """Give soil water status of the soil at the time of description.
 It may also be relevant to note the weather conditions immediately prior to examination of the soil if these are known, for example a soil may be wet because of local rain or from seepage.
 The following guidelines may be used as a crude approximation of soil water status:
 
@@ -6769,48 +6862,84 @@ Wet is at, or exceeding, field capacity. Will wet and/or stick to fingers when m
 .
 sp:soilwater-status-D
   rdf:type skos:Concept ;
-  dct:description "Dry is below wilting point. Material becomes darker or has lower colour value when moistened" ;
+  dct:description """Dry is below wilting point. Material becomes darker or has lower colour value when moistened.
+
+Behaviour of soils subjected to field test.
+Sands, sandy loams: will flow through fingers or fragments will powder.
+Loams: will not ball when squeezed in hand. Fragments will powder.
+Clay loams, clays: will not ball when squeezed in hand. Fragments will break to smaller fragments or peds.""" ;
   ui:isMemberOf sp:soilwater-status ;
-  rdfs:comment """See table 30 - behaviour of soils subjected to field test
-These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point.""" ;
+  rdfs:comment "These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point." ;
   rdfs:label "Dry" ;
-  skos:definition "Dry is below wilting point. Material becomes darker or has lower colour value when moistened" ;
+  skos:definition """Dry is below wilting point. Material becomes darker or has lower colour value when moistened.
+
+Behaviour of soils subjected to field test.
+Sands, sandy loams: will flow through fingers or fragments will powder.
+Loams: will not ball when squeezed in hand. Fragments will powder.
+Clay loams, clays: will not ball when squeezed in hand. Fragments will break to smaller fragments or peds.""" ;
   skos:notation "D" ;
   skos:prefLabel "Dry"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-status-M
   rdf:type skos:Concept ;
-  dct:description "Moist is the wetter half of the available moisture range." ;
+  dct:description """Moist is the wetter half of the available moisture range.
+
+Behaviour of soils subjected to field test.
+Sands, sandy loams: forms weak ball but breaks easily.
+Loams: will ball. Will not ribbon.
+Clay loams, clays: will ball. Will ribbon easily.""" ;
   ui:isMemberOf sp:soilwater-status ;
-  rdfs:comment """See table 30 - behaviour of soils subjected to field test
-These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point.""" ;
+  rdfs:comment "These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point." ;
   rdfs:label "Moist" ;
-  skos:definition "Moist is the wetter half of the available moisture range." ;
+  skos:definition """Moist is the wetter half of the available moisture range.
+
+Behaviour of soils subjected to field test.
+Sands, sandy loams: forms weak ball but breaks easily.
+Loams: will ball. Will not ribbon.
+Clay loams, clays: will ball. Will ribbon easily.""" ;
   skos:notation "M" ;
   skos:prefLabel "Moist"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-status-T
   rdf:type skos:Concept ;
-  dct:description "Moderately moist is the drier half of the available moisture range" ;
+  dct:description """Moderately moist is the drier half of the available moisture range.
+
+Behaviour of soils subjected to field test.
+Sands, sandy loams: appears dry. Ball will not hold together.
+Loams: forms crumbly ball on squeezing in hand.
+Clay loams, clays: will ball. Will not ribbon.""" ;
   ui:isMemberOf sp:soilwater-status ;
-  rdfs:comment """See table 30 - behaviour of soils subjected to field test
-These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point.""" ;
+  rdfs:comment "These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point." ;
   rdfs:label "Moderately moist" ;
-  skos:definition "Moderately moist is the drier half of the available moisture range" ;
+  skos:definition """Moderately moist is the drier half of the available moisture range.
+
+Behaviour of soils subjected to field test.
+Sands, sandy loams: appears dry. Ball will not hold together.
+Loams: forms crumbly ball on squeezing in hand.
+Clay loams, clays: will ball. Will not ribbon.""" ;
   skos:notation "T" ;
   skos:prefLabel "Moderately moist"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:soilwater-status-W
   rdf:type skos:Concept ;
-  dct:description "Wet is at, or exceeding, field capacity. Will wet and/or stick to fingers when moulded." ;
+  dct:description """Wet is at, or exceeding, field capacity. Will wet and/or stick to fingers when moulded.
+
+Behaviour of soils subjected to field test.
+Sands, sandy loams: ball leaves wet outline on hand when squeezed, or is wetter.
+Loams: ball leaves wet outline on hand when squeezed, or is wetter. Sticky.
+Clay loams, clays: ball leaves wet outline on hand when squeezed, or is wetter. Sticky.""" ;
   ui:isMemberOf sp:soilwater-status ;
-  rdfs:comment """See table 30 - behaviour of soils subjected to field test
-These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point.""" ;
+  rdfs:comment "These guidelines may not apply with sodic 2:1 clays, as, for example, they may be moderately moist but below wilting point." ;
   rdfs:label "Wet" ;
-  skos:definition "Wet is at, or exceeding, field capacity. Will wet and/or stick to fingers when moulded." ;
+  skos:definition """Wet is at, or exceeding, field capacity. Will wet and/or stick to fingers when moulded.
+
+Behaviour of soils subjected to field test.
+Sands, sandy loams: ball leaves wet outline on hand when squeezed, or is wetter.
+Loams: ball leaves wet outline on hand when squeezed, or is wetter. Sticky.
+Clay loams, clays: ball leaves wet outline on hand when squeezed, or is wetter. Sticky.""" ;
   skos:notation "W" ;
   skos:prefLabel "Wet"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -6844,20 +6973,20 @@ sp:structure-artificial
 .
 sp:structure-artificial-CL
   rdf:type skos:Concept ;
-  dct:description "artificial aggregate with diameter 100 mm or more" ;
+  dct:description "artificial aggregate with diameter 100 mm or more." ;
   ui:isMemberOf sp:structure-artificial ;
   rdfs:label "Clod" ;
-  skos:definition "artificial aggregate with diameter 100 mm or more" ;
+  skos:definition "artificial aggregate with diameter 100 mm or more." ;
   skos:notation "CL" ;
   skos:prefLabel "Clod" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-artificial-FR
   rdf:type skos:Concept ;
-  dct:description "artificial aggregate with diameter less than 100 mm" ;
+  dct:description "artificial aggregate with diameter less than 100 mm." ;
   ui:isMemberOf sp:structure-artificial ;
   rdfs:label "Fragment" ;
-  skos:definition "artificial aggregate with diameter less than 100 mm" ;
+  skos:definition "artificial aggregate with diameter less than 100 mm." ;
   skos:notation "FR" ;
   skos:prefLabel "Fragment" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -6866,8 +6995,8 @@ sp:structure-pedality-compound
   rdf:type skos:Collection ;
   dct:description """Compound pedality occurs where large peds part along natural planes of weakness to form smaller peds, which may again part to smaller peds, and so on to the smallest or primary peds.
 Primary peds are the simplest peds occurring in soil material; they cannot be divided into smaller peds, but may be packed together to form compound peds of a higher level of organisation (Brewer 1964).
-The order of peds and relationship of one to the other is important and may be described as the larger peds parting to the smaller and further where necessary. For example, strong 50100 mm columnar, parting to moderate 2050 mm prismatic, parting to moderate
-1020 mm angular blocky. The word parting and not breaking is used. The term breaking is used when soil is fractured along planes other than natural planes of weakness.
+The order of peds and relationship of one to the other is important and may be described as the larger peds parting to the smaller and further where necessary. For example, 'strong 50-100 mm columnar, parting to moderate 20-50 mm prismatic, parting to moderate
+10-20 mm angular blocky'. The word 'parting' and not 'breaking' is used. The term 'breaking' is used when soil is fractured along planes other than natural planes of weakness.
 1	Largest peds (in the type of soil observation described), parting to
 2	Next size peds, parting to
 3	Next size peds, ... and further, if required, to the primary ped.""" ;
@@ -6875,8 +7004,8 @@ The order of peds and relationship of one to the other is important and may be d
   rdfs:label "Compound pedality" ;
   skos:definition """Compound pedality occurs where large peds part along natural planes of weakness to form smaller peds, which may again part to smaller peds, and so on to the smallest or primary peds.
 Primary peds are the simplest peds occurring in soil material; they cannot be divided into smaller peds, but may be packed together to form compound peds of a higher level of organisation (Brewer 1964).
-The order of peds and relationship of one to the other is important and may be described as the larger peds parting to the smaller and further where necessary. For example, strong 50100 mm columnar, parting to moderate 2050 mm prismatic, parting to moderate
-1020 mm angular blocky. The word parting and not breaking is used. The term breaking is used when soil is fractured along planes other than natural planes of weakness.
+The order of peds and relationship of one to the other is important and may be described as the larger peds parting to the smaller and further where necessary. For example, 'strong 50-100 mm columnar, parting to moderate 20-50 mm prismatic, parting to moderate
+10-20 mm angular blocky'. The word 'parting' and not 'breaking' is used. The term 'breaking' is used when soil is fractured along planes other than natural planes of weakness.
 1	Largest peds (in the type of soil observation described), parting to
 2	Next size peds, parting to
 3	Next size peds, ... and further, if required, to the primary ped.""" ;
@@ -6900,8 +7029,8 @@ sp:structure-pedality-grade-G
   rdf:type skos:Concept ;
   dct:description "loose, incoherent* mass of individual particles. When displaced, soil separates into ultimate particles." ;
   ui:isMemberOf sp:structure-pedality-grade ;
-  rdfs:comment """Apedal soil (no observable peds)
-*Incoherent means that less than two-thirds of the soil material will remain united at the given moisture state without very small force (force 1, see ‘Consistence’ on page 138) having been applied""" ;
+  rdfs:comment """Apedal soil (no observable peds).
+*Incoherent means that less than two-thirds of the soil material will remain united at the given moisture state without very small force (force 1, see ‘Consistence’ on page 138) having been applied.""" ;
   rdfs:label "Single grain" ;
   skos:definition "loose, incoherent* mass of individual particles. When displaced, soil separates into ultimate particles." ;
   skos:notation "G" ;
@@ -6912,7 +7041,7 @@ sp:structure-pedality-grade-M
   rdf:type skos:Concept ;
   dct:description "peds well-formed and evident but not distinct in undisplaced soil. Adhesion between peds is usually firm or stronger. When displaced, more than one-third of the soil material consists of entire peds, the remainder consisting of broken peds, fragments and ultimate particles." ;
   ui:isMemberOf sp:structure-pedality-grade ;
-  rdfs:comment "Pedal soil (observable peds)" ;
+  rdfs:comment "Pedal soil (observable peds)." ;
   rdfs:label "Moderate" ;
   skos:definition "peds well-formed and evident but not distinct in undisplaced soil. Adhesion between peds is usually firm or stronger. When displaced, more than one-third of the soil material consists of entire peds, the remainder consisting of broken peds, fragments and ultimate particles." ;
   skos:notation "M" ;
@@ -6923,7 +7052,7 @@ sp:structure-pedality-grade-S
   rdf:type skos:Concept ;
   dct:description "peds quite distinct in undisplaced soil. Adhesion between peds is usually firm or weaker. When displaced, more than two-thirds of the soil material consists of entire peds." ;
   ui:isMemberOf sp:structure-pedality-grade ;
-  rdfs:comment "Pedal soil (observable peds)" ;
+  rdfs:comment "Pedal soil (observable peds)." ;
   rdfs:label "Strong" ;
   skos:definition "peds quite distinct in undisplaced soil. Adhesion between peds is usually firm or weaker. When displaced, more than two-thirds of the soil material consists of entire peds." ;
   skos:notation "S" ;
@@ -6935,7 +7064,7 @@ sp:structure-pedality-grade-V
   dct:description "coherent. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles." ;
   ui:isMemberOf sp:structure-pedality-grade ;
   rdfs:comment """Apedal soil (no observable peds)
-*Coherent means that two-thirds or more of the soil material will remain united at the given moisture state unless force is applied""" ;
+*Coherent means that two-thirds or more of the soil material will remain united at the given moisture state unless force is applied.""" ;
   rdfs:label "Massive" ;
   skos:definition "coherent*. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles." ;
   skos:notation "V" ;
@@ -6946,7 +7075,7 @@ sp:structure-pedality-grade-W
   rdf:type skos:Concept ;
   dct:description "peds indistinct and barely observable in undisplaced soil. When displaced, up to one-third of the soil material consists of peds, the remainder consisting of variable amounts of fragments and ultimate particles." ;
   ui:isMemberOf sp:structure-pedality-grade ;
-  rdfs:comment "Pedal soil (observable peds)" ;
+  rdfs:comment "Pedal soil (observable peds)." ;
   rdfs:label "Weak" ;
   skos:definition "peds indistinct and barely observable in undisplaced soil. When displaced, up to one-third of the soil material consists of peds, the remainder consisting of variable amounts of fragments and ultimate particles." ;
   skos:notation "W" ;
@@ -6955,11 +7084,11 @@ sp:structure-pedality-grade-W
 .
 sp:structure-pedality-size
   rdf:type skos:Collection ;
-  dct:description "The average least dimension of peds is used to determine the class interval. The least dimension is the vertical dimension for platy structure; the horizontal dimension for prismatic, columnar, blocky and polyhedral peds; the maximum separation of convex faces for lenticular peds; and the diameter for granular peds." ;
+  dct:description "The average least dimension of peds is used to determine the class interval. Use figure 17. The least dimension is the vertical dimension for platy structure; the horizontal dimension for prismatic, columnar, blocky and polyhedral peds; the maximum separation of convex faces for lenticular peds; and the diameter for granular peds." ;
   ui:isMemberOf sp:structure ;
   rdfs:comment "N_STR_PED_SIZE" ;
   rdfs:label "Size of peds" ;
-  skos:definition "Figure 17" ;
+  skos:definition "The average least dimension of peds is used to determine the class interval. Use figure 17. The least dimension is the vertical dimension for platy structure; the horizontal dimension for prismatic, columnar, blocky and polyhedral peds; the maximum separation of convex faces for lenticular peds; and the diameter for granular peds." ;
   skos:member sp:structure-pedality-size-1 ;
   skos:member sp:structure-pedality-size-2 ;
   skos:member sp:structure-pedality-size-3 ;
@@ -6973,13 +7102,13 @@ sp:structure-pedality-size
 .
 sp:structure-pedality-size-1
   rdf:type skos:Concept ;
-  dc:description "<2 mm" ;
+  dc:description "< 2 mm" ;
   dct:description "<2 mm" ;
   ui:isMemberOf sp:structure-pedality-size ;
-  rdfs:label "less than 2 mm" ;
-  skos:definition "<2 mm" ;
+  rdfs:label "< 2 mm" ;
+  skos:definition "< 2 mm" ;
   skos:notation "1" ;
-  skos:prefLabel "less than 2 mm" ;
+  skos:prefLabel "< 2 mm" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-size-2
@@ -7061,22 +7190,22 @@ sp:structure-pedality-size-8
 .
 sp:structure-pedality-size-9
   rdf:type skos:Concept ;
-  dc:description ">500 mm" ;
-  dct:description ">500 mm" ;
+  dc:description "> 500 mm" ;
+  dct:description "> 500 mm" ;
   ui:isMemberOf sp:structure-pedality-size ;
-  rdfs:label "more than 500 mm" ;
-  skos:definition ">500 mm" ;
+  rdfs:label "> 500 mm" ;
+  skos:definition "> 500 mm" ;
   skos:notation "9" ;
-  skos:prefLabel "more than 500 mm" ;
+  skos:prefLabel "> 500 mm" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type
   rdf:type skos:Collection ;
-  dct:description "The types of structure are illustrated in diagrammatic form." ;
+  dct:description "The types of structure are illustrated in diagrammatic form. See figure 17." ;
   ui:isMemberOf sp:structure ;
   rdfs:comment "C_STR_PED_TYPE" ;
   rdfs:label "Type of pedality" ;
-  skos:definition "Figure 17" ;
+  skos:definition "The types of structure are illustrated in diagrammatic form. See figure 17." ;
   skos:member sp:structure-pedality-type-AB ;
   skos:member sp:structure-pedality-type-CA ;
   skos:member sp:structure-pedality-type-CO ;
@@ -7090,90 +7219,90 @@ sp:structure-pedality-type
 .
 sp:structure-pedality-type-AB
   rdf:type skos:Concept ;
-  dct:description "Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular.	Angular blocky	Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular." ;
+  dct:description "soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular.	Angular blocky	Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular." ;
   ui:isMemberOf sp:structure-pedality-type ;
   rdfs:label "Angular blocky" ;
-  skos:definition "Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular.	Angular blocky	Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular." ;
+  skos:definition "soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular.	Angular blocky	Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular." ;
   skos:notation "AB" ;
   skos:prefLabel "Angular blocky" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-CA
   rdf:type skos:Concept ;
-  dct:description "Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps.	Cast	Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps." ;
+  dct:description "faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps.	Cast	Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps." ;
   ui:isMemberOf sp:structure-pedality-type ;
   rdfs:label "Cast" ;
-  skos:definition "Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps.	Cast	Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps." ;
+  skos:definition "faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps.	Cast	Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps." ;
   skos:notation "CA" ;
   skos:prefLabel "Cast" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-CO
   rdf:type skos:Concept ;
-  dct:description "Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops.	Columnar	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops." ;
+  dct:description "soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops.	Columnar	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops." ;
   ui:isMemberOf sp:structure-pedality-type ;
   rdfs:label "Columnar" ;
-  skos:definition "Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops.	Columnar	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops." ;
+  skos:definition "soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops.	Columnar	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops." ;
   skos:notation "CO" ;
   skos:prefLabel "Columnar" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-GR
   rdf:type skos:Concept ;
-  dct:description "Spheroidal with limited accommodation to the faces of surrounding peds.	Granular	Spheroidal with limited accommodation to the faces of surrounding peds." ;
+  dct:description "spheroidal with limited accommodation to the faces of surrounding peds.	Granular	Spheroidal with limited accommodation to the faces of surrounding peds." ;
   ui:isMemberOf sp:structure-pedality-type ;
   rdfs:label "Granular" ;
-  skos:definition "Spheroidal with limited accommodation to the faces of surrounding peds.	Granular	Spheroidal with limited accommodation to the faces of surrounding peds." ;
+  skos:definition "spheroidal with limited accommodation to the faces of surrounding peds.	Granular	Spheroidal with limited accommodation to the faces of surrounding peds." ;
   skos:notation "GR" ;
   skos:prefLabel "Granular" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-LE
   rdf:type skos:Concept ;
-  dct:description "Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute.	Lenticular	Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute." ;
+  dct:description "soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute.	Lenticular	Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute." ;
   ui:isMemberOf sp:structure-pedality-type ;
   rdfs:label "Lenticular" ;
-  skos:definition "Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute.	Lenticular	Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute." ;
+  skos:definition "soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute.	Lenticular	Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute." ;
   skos:notation "LE" ;
   skos:prefLabel "Lenticular" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-PL
   rdf:type skos:Concept ;
-  dct:description "Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds.	Platy	Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds." ;
+  dct:description "soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds.	Platy	Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds." ;
   ui:isMemberOf sp:structure-pedality-type ;
   rdfs:label "Platy" ;
-  skos:definition "Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds.	Platy	Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds." ;
+  skos:definition "soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds.	Platy	Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds." ;
   skos:notation "PL" ;
   skos:prefLabel "Platy" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-PO
   rdf:type skos:Concept ;
-  dct:description "Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular.	Polyhedral	Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular." ;
+  dct:description "soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular.	Polyhedral	Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular." ;
   ui:isMemberOf sp:structure-pedality-type ;
   rdfs:label "Polyhedral" ;
-  skos:definition "Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular.	Polyhedral	Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular." ;
+  skos:definition "soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular.	Polyhedral	Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular." ;
   skos:notation "PO" ;
   skos:prefLabel "Polyhedral" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-PR
   rdf:type skos:Concept ;
-  dct:description "Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular.	Prismatic	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular." ;
+  dct:description "soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular.	Prismatic	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular." ;
   ui:isMemberOf sp:structure-pedality-type ;
   rdfs:label "Prismatic" ;
-  skos:definition "Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular.	Prismatic	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular." ;
+  skos:definition "soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular.	Prismatic	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular." ;
   skos:notation "PR" ;
   skos:prefLabel "Prismatic" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
 sp:structure-pedality-type-SB
   rdf:type skos:Concept ;
-  dct:description "Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded.	Subangular blocky	Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded." ;
+  dct:description "soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded.	Subangular blocky	Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded." ;
   ui:isMemberOf sp:structure-pedality-type ;
   rdfs:label "Subangular blocky" ;
-  skos:definition "Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded.	Subangular blocky	Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded." ;
+  skos:definition "soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded.	Subangular blocky	Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded." ;
   skos:notation "SB" ;
   skos:prefLabel "Subangular blocky" ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
@@ -7326,7 +7455,7 @@ sp:types-of-soil-observation
   dct:description "The soil profile may be described using several types of observation." ;
   ui:topMemberOf sp: ;
   rdfs:comment "C_O_TYPE" ;
-  rdfs:label "ype of soil observation" ;
+  rdfs:label "Type of soil observation" ;
   skos:definition "The soil profile may be described using several types of observation." ;
   skos:member sp:observation-type-A ;
   skos:member sp:observation-type-C ;
@@ -7336,11 +7465,10 @@ sp:types-of-soil-observation
 .
 sp:voids
   rdf:type skos:Collection ;
-  dc:description "This is a general term for pore space and other openings in soils not occupied by solid mineral matter. The most important are cracks (planar voids) and pores, which are approximately circular in cross-section" ;
-  dct:description "This is a general term for pore space and other openings in soils not occupied by solid mineral matter. The most important are cracks (planar voids) and pores, which are approximately circular in cross-section" ;
+  dct:description "This is a general term for pore space and other openings in soils not occupied by solid mineral matter. The most important are cracks (planar voids) and pores, which are approximately circular in cross-section." ;
   ui:topMemberOf sp: ;
   rdfs:label "Voids" ;
-  skos:definition "This is a general term for pore space and other openings in soils not occupied by solid mineral matter. The most important are cracks (planar voids) and pores, which are approximately circular in cross-section" ;
+  skos:definition "This is a general term for pore space and other openings in soils not occupied by solid mineral matter. The most important are cracks (planar voids) and pores, which are approximately circular in cross-section." ;
   skos:member sp:voids-cracks ;
   skos:member sp:voids-macropores ;
   skos:member sp:voids-micropores ;
@@ -7520,7 +7648,7 @@ sp:voids-macropores-abundance-6
 .
 sp:voids-macropores-diameter
   rdf:type skos:Collection ;
-  dct:description "Diameter of macropores Use Figure 18 as a guide to average diameter" ;
+  dct:description "<p><img src=\"https://bitbucket.csiro.au/projects/EIS/repos/australian-soil-vocabularies/raw/Yellow%20book/Images/Figure18.png\" /></p>" ;
   ui:isMemberOf sp:voids-macropores ;
   rdfs:comment "N_PORE_DIAMETER" ;
   rdfs:label "Diameter of macropores" ;
@@ -7591,42 +7719,42 @@ sp:voids-micropores
 .
 sp:water-repellence
   rdf:type skos:Collection ;
-  dct:description "Water repellence of some soils, usually sandy, is caused by a series of long-chain polymethylene waxes, made up of acids, alcohols and esters, attached to the sand grains (Ma’shum et al. 1988). These soils occur Australia-wide but are more widespread in southern Australia (Wetherby 1984, McGhie and Posner 1980). Degree of repellence is assessed by determining the concentration of ethanol required to wet the sand in 10 seconds (King 1981). An abbreviated form of this method is recommended for routine field situations" ;
+  dct:description "Water repellence of some soils, usually sandy, is caused by a series of long-chain polymethylene waxes, made up of acids, alcohols and esters, attached to the sand grains (Ma’shum et al. 1988). These soils occur Australia-wide but are more widespread in southern Australia (Wetherby 1984, McGhie and Posner 1980). Degree of repellence is assessed by determining the concentration of ethanol required to wet the sand in 10 seconds (King 1981). An abbreviated form of this method is recommended for routine field situations." ;
   ui:topMemberOf sp: ;
   rdfs:label "Water repellence" ;
-  skos:definition "Water repellence of some soils, usually sandy, is caused by a series of long-chain polymethylene waxes, made up of acids, alcohols and esters, attached to the sand grains (Ma’shum et al. 1988). These soils occur Australia-wide but are more widespread in southern Australia (Wetherby 1984, McGhie and Posner 1980). Degree of repellence is assessed by determining the concentration of ethanol required to wet the sand in 10 seconds (King 1981). An abbreviated form of this method is recommended for routine field situations" ;
-  skos:member sp:waterrepellence-N ;
-  skos:member sp:waterrepellence-R ;
-  skos:member sp:waterrepellence-S ;
-  skos:note "Soil temperature at testing should be between 15ºC and 25ºC. Higher temperatures will increase, and lower decrease, rates of absorption. Industrial-grade methylated spirits, available from chemists, at a concentration of 23.9 ml per 200 ml water can be substituted for the 2-molar ethanol to obtain approximate values" ;
+  skos:definition "Water repellence of some soils, usually sandy, is caused by a series of long-chain polymethylene waxes, made up of acids, alcohols and esters, attached to the sand grains (Ma’shum et al. 1988). These soils occur Australia-wide but are more widespread in southern Australia (Wetherby 1984, McGhie and Posner 1980). Degree of repellence is assessed by determining the concentration of ethanol required to wet the sand in 10 seconds (King 1981). An abbreviated form of this method is recommended for routine field situations." ;
+  skos:member sp:water-repellence-N ;
+  skos:member sp:water-repellence-R ;
+  skos:member sp:water-repellence-S ;
+  skos:note "Soil temperature at testing should be between 15ºC and 25ºC. Higher temperatures will increase, and lower decrease, rates of absorption. Industrial-grade methylated spirits, available from chemists, at a concentration of 23.9 ml per 200 ml water can be substituted for the 2-molar ethanol to obtain approximate values." ;
   skos:prefLabel "Water repellence" ;
 .
-sp:waterrepellence-N
+sp:water-repellence-N
   rdf:type skos:Concept ;
-  dct:description "water is absorbed into soil in 10 seconds or less" ;
+  dct:description "water is absorbed into soil in 10 seconds or less." ;
   ui:isMemberOf sp:water-repellence ;
   rdfs:label "Non water repellent" ;
-  skos:definition "water is absorbed into soil in 10 seconds or less" ;
+  skos:definition "water is absorbed into soil in 10 seconds or less." ;
   skos:notation "N" ;
   skos:prefLabel "Non water repellent"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:waterrepellence-R
+sp:water-repellence-R
   rdf:type skos:Concept ;
-  dct:description "water takes greater than 10 seconds and 2-molar ethanol takes 10 seconds or less to be absorbed into soil" ;
+  dct:description "water takes greater than 10 seconds and 2-molar ethanol takes 10 seconds or less to be absorbed into soil." ;
   ui:isMemberOf sp:water-repellence ;
   rdfs:label "Water repellent" ;
-  skos:definition "water takes greater than 10 seconds and 2-molar ethanol takes 10 seconds or less to be absorbed into soil" ;
+  skos:definition "water takes greater than 10 seconds and 2-molar ethanol takes 10 seconds or less to be absorbed into soil." ;
   skos:notation "R" ;
   skos:prefLabel "Water repellent"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
 .
-sp:waterrepellence-S
+sp:water-repellence-S
   rdf:type skos:Concept ;
-  dct:description "2-molar ethanol takes greater than 10 seconds to be absorbed into soil" ;
+  dct:description "2 Molar ethanol takes greater than 10 seconds to be absorbed into soil." ;
   ui:isMemberOf sp:water-repellence ;
   rdfs:label "Strongly water repellent" ;
-  skos:definition "2-molar ethanol takes greater than 10 seconds to be absorbed into soil" ;
+  skos:definition "2 Molar ethanol takes greater than 10 seconds to be absorbed into soil." ;
   skos:notation "S" ;
   skos:prefLabel "Strongly water repellent"@en ;
   skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
