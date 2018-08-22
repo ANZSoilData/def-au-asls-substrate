@@ -4638,21 +4638,11 @@ sp:horizon-P2
   skos:notation "P2" ;
   skos:prefLabel "P2 horizon"@en ;
 .
-sp:horizon-boundary
-  rdf:type skos:Concept ;
-  ui:isMemberOf sp:horizons ;
-  rdfs:label "Boundaries between horizons" ;
-  skos:narrower sp:horizon-boundary-distinctness ;
-  skos:narrower sp:horizon-boundary-shape ;
-  skos:prefLabel "Boundaries between horizons"@en ;
-  skos:topConceptOf <http://www.anzsoil.org/def/soil-profile> ;
-.
 sp:horizon-boundary-distinctness
   rdf:type skos:Collection ;
   ui:isMemberOf sp:boundaries-between-horizons ;
   rdfs:comment "N_H_BOUND_DISTINCT" ;
   rdfs:label "Boundary distinctness" ;
-  skos:broader sp:horizon-boundary ;
   skos:member sp:horizon-boundary-distinctness-A ;
   skos:member sp:horizon-boundary-distinctness-C ;
   skos:member sp:horizon-boundary-distinctness-D ;
@@ -4715,7 +4705,6 @@ sp:horizon-boundary-shape
   ui:isMemberOf sp:boundaries-between-horizons ;
   rdfs:comment "H_BOUND_SHAPE" ;
   rdfs:label "Boundary shape" ;
-  skos:broader sp:horizon-boundary ;
   skos:member sp:horizon-boundary-shape-B ;
   skos:member sp:horizon-boundary-shape-I ;
   skos:member sp:horizon-boundary-shape-S ;
@@ -5007,7 +4996,6 @@ The A horizon in cracking clays may be structured or massive. The structural A h
 The B horizon is the coarse angular blocky and/or lenticular horizon where ped faces are all accommodated and usually have only narrow planar voids between them. The B horizon structure is stable because of relatively slow wetting and drying. The B horizon will usually occur within 200 mm of the surface, but the structural change must be confirmed using a spade or exposure to examine the soil. The boundary may often be gradual or diffuse, but can be clear or abrupt.""" ;
   rdfs:label "Horizons" ;
   skos:definition "A soil horizon is a layer of soil, approximately parallel to the land surface, with morphological properties different from layers below and/or above it. Tongues of material from one horizon may penetrate into adjacent horizons." ;
-  skos:member sp:horizon-boundary ;
   skos:member sp:horizon-suffixes ;
   skos:member sp:horizons-A ;
   skos:member sp:horizons-B ;
