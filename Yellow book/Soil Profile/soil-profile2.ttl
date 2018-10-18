@@ -96,7 +96,7 @@ sp:coarse-fragments-abundance-0
   rdf:type skos:Concept ;
   dct:description "0%" ;
   ui:isMemberOf sp:coarse-fragments-abundance ;
-  rdfs:comment "The percentage is estimated by eye using the charts in the yellow book for comparison.  N_CF_ABUN" ;
+  rdfs:comment "The percentage is estimated by eye using the charts in the yellow book for comparison. N_CF_ABUN" ;
   rdfs:label "No coarse fragments" ;
   skos:definition "0%" ;
   skos:notation "0" ;
