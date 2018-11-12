@@ -36,7 +36,7 @@
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix sp:   <http://anzsoil.org/def/au/field-description/asls/soil-profile/> .
 
-<http://anzsoil.org/def/au/field-description/asls>
+<asls>
         a                       reg:Register ;
         rdfs:label              "Australian soil and land survey field handbook codes" ;
         dct:description         "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)" ;
