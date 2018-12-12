@@ -1334,7 +1334,7 @@ sp:field-texture-CLS
         rdfs:comment     "Approximate clay content (%): 30 - 35%" ;
         rdfs:label       "Clay loam, sandy" ;
         dct:description  "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
         skos:narrower    sp:field-texture-CLS-A , sp:field-texture-CLKS , sp:field-texture-CLS-light , sp:field-texture-CLFS , sp:field-texture-CLS-heavy , sp:field-texture-CLS-I ;
         skos:notation    "CLS" ;
@@ -1397,7 +1397,7 @@ sp:field-texture-ZCL
         rdfs:comment     "Approximate clay content (%): 30 - 35% and with silt 25% or more" ;
         rdfs:label       "Silty clay loam" ;
         dct:description  "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
         skos:narrower    sp:field-texture-ZCL-light , sp:field-texture-ZCL-I , sp:field-texture-ZCL-heavy , sp:field-texture-ZCL-A ;
         skos:notation    "ZCL" ;
@@ -1554,7 +1554,7 @@ sp:field-texture-MC
         rdfs:comment     "Approximate clay content (%): 45 - 55%" ;
         rdfs:label       "Medium clay" ;
         dct:description  "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
         skos:narrower    sp:field-texture-MC-I , sp:field-texture-MC-A , sp:field-texture-SMC , sp:field-texture-FSMC , sp:field-texture-KSMC , sp:field-texture-ZMC ;
         skos:notation    "MC" ;
@@ -1741,7 +1741,7 @@ sp:field-texture-SCL
         rdfs:comment     "Approximate clay content (%): 20 - 30%" ;
         rdfs:label       "Sandy clay loam" ;
         dct:description  "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
         skos:narrower    sp:field-texture-KSCL , sp:field-texture-SCL-light , sp:field-texture-SCL-heavy , sp:field-texture-FSCL , sp:field-texture-SCL-A , sp:field-texture-SCL-I ;
         skos:notation    "SCL" ;
@@ -2090,7 +2090,7 @@ sp:field-texture-LS
         rdfs:comment     "Approximate clay content (%): about 5%" ;
         rdfs:label       "Loamy sand" ;
         dct:description  "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
         skos:narrower    sp:field-texture-LKS , sp:field-texture-LS-A , sp:field-texture-LFS , sp:field-texture-LS-I ;
         skos:notation    "LS" ;
@@ -4007,7 +4007,7 @@ sp:field-texture-MHC
         rdfs:comment     "Approximate clay content (%): 50% or more" ;
         rdfs:label       "Medium heavy clay" ;
         dct:description  "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
         skos:narrower    sp:field-texture-MHC-A , sp:field-texture-SMHC , sp:field-texture-KSMHC , sp:field-texture-MHC-I , sp:field-texture-ZMHC , sp:field-texture-FSMHC ;
         skos:notation    "MHC" ;
@@ -4951,7 +4951,7 @@ sp:field-texture-CS
         rdfs:comment     "Approximate clay content (%): 5 - 10%" ;
         rdfs:label       "Clayey sand" ;
         dct:description  "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
         skos:narrower    sp:field-texture-CS-light , sp:field-texture-CFS , sp:field-texture-CKS , sp:field-texture-CS-heavy ;
         skos:notation    "CS" ;
@@ -5117,7 +5117,7 @@ sp:field-texture-SL
         rdfs:comment     "Approximate clay content (%): 10 - 20%" ;
         rdfs:label       "Sandy loam" ;
         dct:description  "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible." ;
         skos:narrower    sp:field-texture-FSL , sp:field-texture-KSL , sp:field-texture-SL-I , sp:field-texture-SL-A ;
         skos:notation    "SL" ;
@@ -5850,7 +5850,7 @@ sp:field-texture-S
         rdfs:comment     "Approximate clay content (%): commonly less than 5%" ;
         rdfs:label       "Sand" ;
         dct:description  "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
         skos:narrower    sp:field-texture-S-I , sp:field-texture-KS , sp:field-texture-FS , sp:field-texture-S-A ;
         skos:notation    "S" ;
@@ -6003,7 +6003,7 @@ sp:field-texture-ZL
         rdfs:comment     "Approximate clay content (%): about 25% and with silt 25% or more." ;
         rdfs:label       "Silty loam" ;
         dct:description  "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
         skos:narrower    sp:field-texture-ZL-I , sp:field-texture-ZL-A ;
         skos:notation    "ZL" ;
@@ -6083,7 +6083,7 @@ sp:field-texture-LMC
         rdfs:comment     "Approximate clay content (%): 40 - 45%" ;
         rdfs:label       "Light medium clay" ;
         dct:description  "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
         skos:narrower    sp:field-texture-SLMC , sp:field-texture-ZLMC , sp:field-texture-LMC-I , sp:field-texture-FSLMC , sp:field-texture-KSLMC , sp:field-texture-LMC-A ;
         skos:notation    "LMC" ;
@@ -6313,7 +6313,7 @@ sp:field-texture-HC
         rdfs:comment     "Approximate clay content (%): 50% or more" ;
         rdfs:label       "Heavy clay" ;
         dct:description  "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
         skos:narrower    sp:field-texture-HC-A , sp:field-texture-SHC , sp:field-texture-HC-I , sp:field-texture-FSHC , sp:field-texture-ZHC , sp:field-texture-KSHC ;
         skos:notation    "HC" ;
@@ -7054,7 +7054,7 @@ sp:field-texture-CL
         rdfs:comment     "Approximate clay content (%): 30 - 35%" ;
         rdfs:label       "Clay Loam" ;
         dct:description  "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
         skos:narrower    sp:field-texture-CL-light , sp:field-texture-CL-I , sp:field-texture-CL-heavy , sp:field-texture-CL-A ;
         skos:notation    "CL" ;
@@ -7998,7 +7998,7 @@ sp:field-texture-L
         rdfs:comment     "Approximate clay content (%): about 25%" ;
         rdfs:label       "Loam" ;
         dct:description  "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
         skos:narrower    sp:field-texture-L-A , sp:field-texture-L-I ;
         skos:notation    "L" ;
@@ -8359,7 +8359,7 @@ sp:field-texture-LC
         rdfs:comment     "Approximate clay content (%): 35 - 40%" ;
         rdfs:label       "Light clay" ;
         dct:description  "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-        ui:isMemberOf    sp:field-texture-minerals;
+        ui:isMemberOf    sp:field-textures-mineral;
         skos:definition  "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
         skos:narrower    sp:field-texture-FSLC , sp:field-texture-LC-A , sp:field-texture-KSLC , sp:field-texture-LC-I , sp:field-texture-SLC , sp:field-texture-ZLC ;
         skos:notation    "LC" ;
@@ -9144,7 +9144,7 @@ sp:pans-type-M
         skos:notation    "M" ;
         skos:prefLabel   "Manganiferous pan"@en .
 
-sp:field-textures-minerals        a                skos:Collection ;
+sp:field-textures-mineral        a                skos:Collection ;
         rdfs:label       "Mineral field texture grades" ;
         dct:description  "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure16.png\" /></p>" ;
         ui:isMemberOf    sp:field-textures;
@@ -9156,11 +9156,11 @@ sp:field-textures-minerals        a                skos:Collection ;
         dct:description    "single or complex clusters of crystals visible with naked eye or ×10 hand lens." ;
         reg:definition     [ reg:entity       sp:segregations-form-X ; ] .
 
-<_field-textures-minerals>
+<_field-textures-mineral>
         a                  reg:RegisterItem ;
         rdfs:label         "Mineral field texture grades" ;
         dct:description    "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure16.png\" /></p>" ;
-        reg:definition     [ reg:entity       sp:field-texture-minerals; ] .
+        reg:definition     [ reg:entity       sp:field-textures-mineral; ] .
 
 sp:segregations-magnetic-N
         a                skos:Concept ;

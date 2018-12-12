@@ -8,7 +8,7 @@
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix ldp:   <http://www.w3.org/ns/ldp#> .
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
-@prefix sp:   <http://anzsoil.org/def/au/field-description/asls/soil-profile/> .
+@prefix sp:   <http://anzsoil.org/def/au/asls/soil-profile/> .
 
 <soil-profile>
         a                          ldp:Container , reg:Register ;

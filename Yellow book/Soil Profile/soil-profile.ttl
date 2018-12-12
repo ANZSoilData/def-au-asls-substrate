@@ -1,7 +1,4 @@
 # baseURI: http://www.anzsoil.org/def/soil-profile
-# imports: http://purl.org/dc/elements/1.1/
-# imports: http://purl.org/linked-data/registry
-# imports: http://purl.org/linked-data/registry-ui#
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -10,11 +7,11 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix sp: <http://www.anzsoil.org/def/soil-profile/> .
+@prefix sp: <http://anzsoil.org/def/au/asls/soil-profile/> .
 @prefix ui: <http://purl.org/linked-data/registry-ui#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.anzsoil.org/def/soil-profile>
+<http://anzsoil.org/def/au/asls/soil-profile>
   rdf:type owl:Ontology ;
   dc:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)" ;
   dct:contributor <https://orcid.org/0000-0002-0693-1899> ;
@@ -2198,7 +2195,7 @@ sp:field-texture-CFS
   rdfs:label "Clayey fine sand" ;
   skos:broader sp:field-texture-CS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-CFS-heavy ;
   skos:narrower sp:field-texture-CFS-light ;
   skos:notation "CFS" ;
@@ -2212,7 +2209,7 @@ sp:field-texture-CFS-heavy
   skos:broader sp:field-texture-CFS ;
   skos:broader sp:field-texture-CS-heavy ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CFS+" ;
   skos:prefLabel "Heavy clayey fine sand"@en ;
 .
@@ -2224,7 +2221,7 @@ sp:field-texture-CFS-light
   skos:broader sp:field-texture-CFS ;
   skos:broader sp:field-texture-CS-light ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CFS-" ;
   skos:prefLabel "Light clayey fine sand"@en ;
 .
@@ -2235,7 +2232,7 @@ sp:field-texture-CKS
   rdfs:label "Clayey coarse sand" ;
   skos:broader sp:field-texture-CS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-CKS-heavy ;
   skos:narrower sp:field-texture-CKS-light ;
   skos:notation "CKS" ;
@@ -2249,7 +2246,7 @@ sp:field-texture-CKS-heavy
   skos:broader sp:field-texture-CKS ;
   skos:broader sp:field-texture-CS-heavy ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CKS+" ;
   skos:prefLabel "Heavy clayey coarse sand"@en ;
 .
@@ -2261,7 +2258,7 @@ sp:field-texture-CKS-light
   skos:broader sp:field-texture-CKS ;
   skos:broader sp:field-texture-CS-light ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CKS-" ;
   skos:prefLabel "Light clayey coarse sand"@en ;
 .
@@ -2287,7 +2284,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   rdfs:label "Sapric clay Loam" ;
   skos:broader sp:field-texture-CL ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CLA" ;
   skos:prefLabel "Sapric clay loam"@en ;
 .
@@ -2299,7 +2296,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric clay Loam" ;
   skos:broader sp:field-texture-CL ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CLI" ;
   skos:prefLabel "Fibric clay loam"@en ;
 .
@@ -2310,7 +2307,7 @@ sp:field-texture-CL-heavy
   rdfs:label "Heavy clay Loam" ;
   skos:broader sp:field-texture-CL ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CL+" ;
   skos:prefLabel "Heavy clay loam"@en ;
 .
@@ -2321,7 +2318,7 @@ sp:field-texture-CL-light
   rdfs:label "Light clay Loam" ;
   skos:broader sp:field-texture-CL ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CL-" ;
   skos:prefLabel "Light clay loam"@en ;
 .
@@ -2332,7 +2329,7 @@ sp:field-texture-CLFS
   rdfs:label "Clay loam, fine sandy" ;
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-CLFS-A ;
   skos:narrower sp:field-texture-CLFS-I ;
   skos:narrower sp:field-texture-CLFS-heavy ;
@@ -2349,7 +2346,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:broader sp:field-texture-CLFS ;
   skos:broader sp:field-texture-CLS-A ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CLFSA" ;
   skos:prefLabel "Sapric clay loam, fine sandy"@en ;
 .
@@ -2362,7 +2359,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader sp:field-texture-CLFS ;
   skos:broader sp:field-texture-CLS-I ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CLFSI" ;
   skos:prefLabel "Fibric clay loam, fine sandy"@en ;
 .
@@ -2374,7 +2371,7 @@ sp:field-texture-CLFS-heavy
   skos:broader sp:field-texture-CLFS ;
   skos:broader sp:field-texture-CLS-heavy ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CLFS+" ;
   skos:prefLabel "Heavy clay loam, fine sandy"@en ;
 .
@@ -2386,7 +2383,7 @@ sp:field-texture-CLFS-light
   skos:broader sp:field-texture-CLFS ;
   skos:broader sp:field-texture-CLS-light ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CLFS-" ;
   skos:prefLabel "Light clay loam, fine sandy"@en ;
 .
@@ -2397,7 +2394,7 @@ sp:field-texture-CLKS
   rdfs:label "Clay loam, coarse sandy" ;
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-CLKS-A ;
   skos:narrower sp:field-texture-CLKS-I ;
   skos:narrower sp:field-texture-CLKS-heavy ;
@@ -2414,7 +2411,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:broader sp:field-texture-CLKS ;
   skos:broader sp:field-texture-CLS-A ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CLKS-A" ;
   skos:prefLabel "Sapric clay loam, coarse sandy"@en ;
 .
@@ -2427,7 +2424,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader sp:field-texture-CLKS ;
   skos:broader sp:field-texture-CLS-I ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CLKS-I" ;
   skos:prefLabel "Fibric clay loam, coarse sandy"@en ;
 .
@@ -2439,7 +2436,7 @@ sp:field-texture-CLKS-heavy
   skos:broader sp:field-texture-CLKS ;
   skos:broader sp:field-texture-CLS-heavy ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CLKS+" ;
   skos:prefLabel "Heavy clay loam, coarse sandy"@en ;
 .
@@ -2451,7 +2448,7 @@ sp:field-texture-CLKS-light
   skos:broader sp:field-texture-CLKS ;
   skos:broader sp:field-texture-CLS-light ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "CLKS-" ;
   skos:prefLabel "Light clay loam, coarse sandy"@en ;
 .
@@ -2479,7 +2476,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   rdfs:label "Sapric clay loam, sandy" ;
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-CLFS-A ;
   skos:narrower sp:field-texture-CLKS-A ;
   skos:notation "CLS-A" ;
@@ -2493,7 +2490,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric clay loam, sandy" ;
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-CLFS-I ;
   skos:narrower sp:field-texture-CLKS-I ;
   skos:notation "CLS-I" ;
@@ -2506,7 +2503,7 @@ sp:field-texture-CLS-heavy
   rdfs:label "Heavy clay loam, sandy" ;
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-CLFS-heavy ;
   skos:narrower sp:field-texture-CLKS-heavy ;
   skos:notation "CLS+" ;
@@ -2519,7 +2516,7 @@ sp:field-texture-CLS-light
   rdfs:label "Light clay loam, sandy" ;
   skos:broader sp:field-texture-CLS ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-CLFS-light ;
   skos:narrower sp:field-texture-CLKS-light ;
   skos:notation "CLS-" ;
@@ -2556,7 +2553,7 @@ sp:field-texture-CS-heavy
   rdfs:label "Heavy clayey sand" ;
   skos:broader sp:field-texture-CS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-CFS-heavy ;
   skos:narrower sp:field-texture-CKS-heavy ;
   skos:notation "CS+" ;
@@ -2569,7 +2566,7 @@ sp:field-texture-CS-light
   rdfs:label "Light clayey sand" ;
   skos:broader sp:field-texture-CS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; sticky when wet; many sand grains stick to fingers; will form minimal ribbon of 5–15 mm; discolours fingers with clay stain." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-CFS-light ;
   skos:narrower sp:field-texture-CKS-light ;
   skos:notation "CS-" ;
@@ -2582,7 +2579,7 @@ sp:field-texture-FS
   rdfs:label "Fine sand" ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FS-A ;
   skos:narrower sp:field-texture-FS-I ;
   skos:notation "FS" ;
@@ -2596,7 +2593,7 @@ sp:field-texture-FS-A
   skos:broader sp:field-texture-FS ;
   skos:broader sp:field-texture-S-A ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSA" ;
   skos:prefLabel "Sapric fine sand"@en ;
 .
@@ -2608,7 +2605,7 @@ sp:field-texture-FS-I
   skos:broader sp:field-texture-FS ;
   skos:broader sp:field-texture-S-I ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSI" ;
   skos:prefLabel "Fibric fine sand"@en ;
 .
@@ -2619,7 +2616,7 @@ sp:field-texture-FSCL
   rdfs:label "Fine sandy clay loam" ;
   skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSCL-A ;
   skos:narrower sp:field-texture-FSCL-I ;
   skos:narrower sp:field-texture-FSCL-heavy ;
@@ -2635,7 +2632,7 @@ sp:field-texture-FSCL-A
   skos:broader sp:field-texture-FSCL ;
   skos:broader sp:field-texture-SCL-A ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSCLA" ;
   skos:prefLabel "Sapric fine sandy clay loam"@en ;
 .
@@ -2647,7 +2644,7 @@ sp:field-texture-FSCL-I
   skos:broader sp:field-texture-FSCL ;
   skos:broader sp:field-texture-SCL-I ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSCLI" ;
   skos:prefLabel "Fibric fine sandy clay loam"@en ;
 .
@@ -2659,7 +2656,7 @@ sp:field-texture-FSCL-heavy
   skos:broader sp:field-texture-FSCL ;
   skos:broader sp:field-texture-SCL-heavy ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSCL+" ;
   skos:prefLabel "Heavy fine sandy clay loam"@en ;
 .
@@ -2671,7 +2668,7 @@ sp:field-texture-FSCL-light
   skos:broader sp:field-texture-FSCL ;
   skos:broader sp:field-texture-SCL-light ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSCL-" ;
   skos:prefLabel "Light fine sandy clay loam"@en ;
 .
@@ -2682,7 +2679,7 @@ sp:field-texture-FSHC
   rdfs:label "Fine sandy heavy clay" ;
   skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSHC-A ;
   skos:narrower sp:field-texture-FSHC-I ;
   skos:notation "FSHC" ;
@@ -2696,7 +2693,7 @@ sp:field-texture-FSHC-A
   skos:broader sp:field-texture-FSHC ;
   skos:broader sp:field-texture-HC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSHCA" ;
   skos:prefLabel "Sapric fine sandy heavy clay"@en ;
 .
@@ -2708,7 +2705,7 @@ sp:field-texture-FSHC-I
   skos:broader sp:field-texture-FSHC ;
   skos:broader sp:field-texture-HC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSHCI" ;
   skos:prefLabel "Fibric fine sandy heavy clay"@en ;
 .
@@ -2719,7 +2716,7 @@ sp:field-texture-FSL
   rdfs:label "Fine sandy loam" ;
   skos:broader sp:field-texture-SL ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSL-A ;
   skos:narrower sp:field-texture-FSL-I ;
   skos:notation "FSL" ;
@@ -2733,7 +2730,7 @@ sp:field-texture-FSL-A
   skos:broader sp:field-texture-FSL ;
   skos:broader sp:field-texture-SL-A ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSLA" ;
   skos:prefLabel "Sapric fine sandy loam"@en ;
 .
@@ -2745,7 +2742,7 @@ sp:field-texture-FSL-I
   skos:broader sp:field-texture-FSL ;
   skos:broader sp:field-texture-SL-I ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSLI" ;
   skos:prefLabel "Fibric fine sandy loam"@en ;
 .
@@ -2756,7 +2753,7 @@ sp:field-texture-FSLC
   rdfs:label "Fine sandy light clay" ;
   skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSLC-A ;
   skos:narrower sp:field-texture-FSLC-I ;
   skos:notation "FSLC" ;
@@ -2770,7 +2767,7 @@ sp:field-texture-FSLC-A
   skos:broader sp:field-texture-FSLC ;
   skos:broader sp:field-texture-LC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSLCA" ;
   skos:prefLabel "Sapric fine sandy light clay"@en ;
 .
@@ -2782,7 +2779,7 @@ sp:field-texture-FSLC-I
   skos:broader sp:field-texture-FSLC ;
   skos:broader sp:field-texture-LC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSLCI" ;
   skos:prefLabel "Fibric fine sandy light clay"@en ;
 .
@@ -2793,7 +2790,7 @@ sp:field-texture-FSLMC
   rdfs:label "Fine sandy light medium clay" ;
   skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSLMC-A ;
   skos:narrower sp:field-texture-FSLMC-I ;
   skos:notation "FSLMC" ;
@@ -2807,7 +2804,7 @@ sp:field-texture-FSLMC-A
   skos:broader sp:field-texture-FSLMC ;
   skos:broader sp:field-texture-LMC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSLMCA" ;
   skos:prefLabel "Sapric fine sandy light medium clay"@en ;
 .
@@ -2819,7 +2816,7 @@ sp:field-texture-FSLMC-I
   skos:broader sp:field-texture-FSLMC ;
   skos:broader sp:field-texture-LMC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSLMCI" ;
   skos:prefLabel "Fibric fine sandy light medium clay"@en ;
 .
@@ -2830,7 +2827,7 @@ sp:field-texture-FSMC
   rdfs:label "Fine sandy medium clay" ;
   skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSMC-A ;
   skos:narrower sp:field-texture-FSMC-I ;
   skos:notation "FSMC" ;
@@ -2844,7 +2841,7 @@ sp:field-texture-FSMC-A
   skos:broader sp:field-texture-FSMC ;
   skos:broader sp:field-texture-MC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSMCA" ;
   skos:prefLabel "Sapric fine sandy medium clay"@en ;
 .
@@ -2856,7 +2853,7 @@ sp:field-texture-FSMC-I
   skos:broader sp:field-texture-FSMC ;
   skos:broader sp:field-texture-MC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSMCI" ;
   skos:prefLabel "Fibric fine sandy medium clay"@en ;
 .
@@ -2867,7 +2864,7 @@ sp:field-texture-FSMHC
   rdfs:label "Fine sandy medium heavy clay" ;
   skos:broader sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSMHC-A ;
   skos:narrower sp:field-texture-FSMHC-I ;
   skos:notation "FSMHC" ;
@@ -2881,7 +2878,7 @@ sp:field-texture-FSMHC-A
   skos:broader sp:field-texture-FSMHC ;
   skos:broader sp:field-texture-MHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSMHCA" ;
   skos:prefLabel "Sapric fine sandy medium heavy clay"@en ;
 .
@@ -2893,7 +2890,7 @@ sp:field-texture-FSMHC-I
   skos:broader sp:field-texture-FSMHC ;
   skos:broader sp:field-texture-MHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "FSMHCI" ;
   skos:prefLabel "Fibric fine sandy medium heavy clay"@en ;
 .
@@ -2930,7 +2927,7 @@ sp:field-texture-HC-A
   rdfs:label "Sapric heavy clay" ;
   skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSHC-A ;
   skos:narrower sp:field-texture-KSHC-A ;
   skos:narrower sp:field-texture-SHC-A ;
@@ -2945,7 +2942,7 @@ sp:field-texture-HC-I
   rdfs:label "Fibric heavy clay" ;
   skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSHC-I ;
   skos:narrower sp:field-texture-KSHC-I ;
   skos:narrower sp:field-texture-SHC-I ;
@@ -2982,7 +2979,7 @@ sp:field-texture-KS
   rdfs:label "Coarse sand" ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-KS-A ;
   skos:narrower sp:field-texture-KS-I ;
   skos:notation "KS" ;
@@ -2996,7 +2993,7 @@ sp:field-texture-KS-A
   skos:broader sp:field-texture-KS ;
   skos:broader sp:field-texture-S-A ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSA" ;
   skos:prefLabel "Sapric coarse sand"@en ;
 .
@@ -3008,7 +3005,7 @@ sp:field-texture-KS-I
   skos:broader sp:field-texture-KS ;
   skos:broader sp:field-texture-S-I ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSI" ;
   skos:prefLabel "Fibric coarse sand"@en ;
 .
@@ -3019,7 +3016,7 @@ sp:field-texture-KSCL
   rdfs:label "Coarse sandy clay loam" ;
   skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-KSCL-A ;
   skos:narrower sp:field-texture-KSCL-I ;
   skos:narrower sp:field-texture-KSCL-heavy ;
@@ -3035,7 +3032,7 @@ sp:field-texture-KSCL-A
   skos:broader sp:field-texture-KSCL ;
   skos:broader sp:field-texture-SCL-A ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSCLA" ;
   skos:prefLabel "Sapric coarse sandy clay loam"@en ;
 .
@@ -3047,7 +3044,7 @@ sp:field-texture-KSCL-I
   skos:broader sp:field-texture-KSCL ;
   skos:broader sp:field-texture-SCL-I ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSCLI" ;
   skos:prefLabel "Fibric coarse sandy clay loam"@en ;
 .
@@ -3059,7 +3056,7 @@ sp:field-texture-KSCL-heavy
   skos:broader sp:field-texture-KSCL ;
   skos:broader sp:field-texture-SCL-heavy ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSCL+" ;
   skos:prefLabel "Heavy coarse sandy clay loam"@en ;
 .
@@ -3071,7 +3068,7 @@ sp:field-texture-KSCL-light
   skos:broader sp:field-texture-KSCL ;
   skos:broader sp:field-texture-SCL-light ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSCL-" ;
   skos:prefLabel "Light coarse sandy clay loam"@en ;
 .
@@ -3082,7 +3079,7 @@ sp:field-texture-KSHC
   rdfs:label "Coarse sandy heavy clay" ;
   skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-KSHC-A ;
   skos:narrower sp:field-texture-KSHC-I ;
   skos:notation "KSHC" ;
@@ -3096,7 +3093,7 @@ sp:field-texture-KSHC-A
   skos:broader sp:field-texture-HC-A ;
   skos:broader sp:field-texture-KSHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSHCA" ;
   skos:prefLabel "Sapric coarse sandy heavy clay"@en ;
 .
@@ -3108,7 +3105,7 @@ sp:field-texture-KSHC-I
   skos:broader sp:field-texture-HC-I ;
   skos:broader sp:field-texture-KSHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSHCI" ;
   skos:prefLabel "Fibric coarse sandy heavy clay"@en ;
 .
@@ -3119,7 +3116,7 @@ sp:field-texture-KSL
   rdfs:label "Coarse sandy loam" ;
   skos:broader sp:field-texture-SL ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-KSL-A ;
   skos:narrower sp:field-texture-KSL-I ;
   skos:notation "KSL" ;
@@ -3133,7 +3130,7 @@ sp:field-texture-KSL-A
   skos:broader sp:field-texture-KSL ;
   skos:broader sp:field-texture-SL-A ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSLA" ;
   skos:prefLabel "Sapric coarse sandy loam"@en ;
 .
@@ -3145,7 +3142,7 @@ sp:field-texture-KSL-I
   skos:broader sp:field-texture-KSL ;
   skos:broader sp:field-texture-SL-I ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSLI" ;
   skos:prefLabel "Fibric coarse sandy loam"@en ;
 .
@@ -3156,7 +3153,7 @@ sp:field-texture-KSLC
   rdfs:label "Coarse sandy light clay" ;
   skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-KSLC-A ;
   skos:narrower sp:field-texture-KSLC-I ;
   skos:notation "KSLC" ;
@@ -3170,7 +3167,7 @@ sp:field-texture-KSLC-A
   skos:broader sp:field-texture-KSLC ;
   skos:broader sp:field-texture-LC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSLCA" ;
   skos:prefLabel "Sapric coarse sandy light clay"@en ;
 .
@@ -3182,7 +3179,7 @@ sp:field-texture-KSLC-I
   skos:broader sp:field-texture-KSLC ;
   skos:broader sp:field-texture-LC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSLCI" ;
   skos:prefLabel "Fibric coarse sandy light clay"@en ;
 .
@@ -3193,7 +3190,7 @@ sp:field-texture-KSLMC
   rdfs:label "Coarse sandy light medium clay" ;
   skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-KSLMC-A ;
   skos:narrower sp:field-texture-KSLMC-I ;
   skos:notation "KSLMC" ;
@@ -3207,7 +3204,7 @@ sp:field-texture-KSLMC-A
   skos:broader sp:field-texture-KSLMC ;
   skos:broader sp:field-texture-LMC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSLMCA" ;
   skos:prefLabel "Sapric coarse sandy light medium clay"@en ;
 .
@@ -3219,7 +3216,7 @@ sp:field-texture-KSLMC-I
   skos:broader sp:field-texture-KSLMC ;
   skos:broader sp:field-texture-LMC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSLMCI" ;
   skos:prefLabel "Fibric coarse sandy light medium clay"@en ;
 .
@@ -3230,7 +3227,7 @@ sp:field-texture-KSMC
   rdfs:label "Coarse sandy medium clay" ;
   skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-KSMC-A ;
   skos:narrower sp:field-texture-KSMC-I ;
   skos:notation "KSMC" ;
@@ -3244,7 +3241,7 @@ sp:field-texture-KSMC-A
   skos:broader sp:field-texture-KSMC ;
   skos:broader sp:field-texture-MC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSMCA" ;
   skos:prefLabel "Sapric coarse sandy medium clay"@en ;
 .
@@ -3256,7 +3253,7 @@ sp:field-texture-KSMC-I
   skos:broader sp:field-texture-KSMC ;
   skos:broader sp:field-texture-MC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSMCI" ;
   skos:prefLabel "Fibric coarse sandy medium clay"@en ;
 .
@@ -3267,7 +3264,7 @@ sp:field-texture-KSMHC
   rdfs:label "Coarse sandy medium heavy clay" ;
   skos:broader sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-KSMHC-A ;
   skos:narrower sp:field-texture-KSMHC-I ;
   skos:notation "KSMHC" ;
@@ -3281,7 +3278,7 @@ sp:field-texture-KSMHC-A
   skos:broader sp:field-texture-KSMHC ;
   skos:broader sp:field-texture-MHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSMHCA" ;
   skos:prefLabel "Sapric coarse sandy medium heavy clay"@en ;
 .
@@ -3293,7 +3290,7 @@ sp:field-texture-KSMHC-I
   skos:broader sp:field-texture-KSMHC ;
   skos:broader sp:field-texture-MHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "KSMHCI" ;
   skos:prefLabel "Fibric coarse sandy medium heavy clay"@en ;
 .
@@ -3317,7 +3314,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   rdfs:label "Sapric loam" ;
   skos:broader sp:field-texture-L ;
   skos:definition "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "LA" ;
   skos:prefLabel "Sapric loam"@en ;
 .
@@ -3329,7 +3326,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric loam" ;
   skos:broader sp:field-texture-L ;
   skos:definition "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "LI" ;
   skos:prefLabel "Fibric loam"@en ;
 .
@@ -3356,7 +3353,7 @@ sp:field-texture-LC-A
   rdfs:label "Sapric light clay" ;
   skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSLC-A ;
   skos:narrower sp:field-texture-KSLC-A ;
   skos:narrower sp:field-texture-SLC-A ;
@@ -3371,7 +3368,7 @@ sp:field-texture-LC-I
   rdfs:label "Fibric light clay" ;
   skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSLC-I ;
   skos:narrower sp:field-texture-KSLC-I ;
   skos:narrower sp:field-texture-SLC-I ;
@@ -3386,7 +3383,7 @@ sp:field-texture-LFS
   rdfs:label "Loamy fine sand" ;
   skos:broader sp:field-texture-LS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-LFS-A ;
   skos:narrower sp:field-texture-LFS-I ;
   skos:notation "LFS" ;
@@ -3401,7 +3398,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:broader sp:field-texture-LFS ;
   skos:broader sp:field-texture-LS-A ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "LFSA" ;
   skos:prefLabel "Sapric loamy fine sand"@en ;
 .
@@ -3414,7 +3411,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader sp:field-texture-LFS ;
   skos:broader sp:field-texture-LS-I ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "LFSI" ;
   skos:prefLabel "Fibric loamy fine sand"@en ;
 .
@@ -3425,7 +3422,7 @@ sp:field-texture-LKS
   rdfs:label "Loamy coarse sand" ;
   skos:broader sp:field-texture-LS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-LKS-A ;
   skos:narrower sp:field-texture-LKS-I ;
   skos:notation "LKS" ;
@@ -3440,7 +3437,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:broader sp:field-texture-LKS ;
   skos:broader sp:field-texture-LS-A ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "LKSA" ;
   skos:prefLabel "Sapric loamy coarse sand"@en ;
 .
@@ -3453,7 +3450,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader sp:field-texture-LKS ;
   skos:broader sp:field-texture-LS-I ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "LKSI" ;
   skos:prefLabel "Fibric loamy coarse sand"@en ;
 .
@@ -3480,7 +3477,7 @@ sp:field-texture-LMC-A
   rdfs:label "Sapric light medium clay" ;
   skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSLMC-A ;
   skos:narrower sp:field-texture-KSLMC-A ;
   skos:narrower sp:field-texture-SLMC-A ;
@@ -3495,7 +3492,7 @@ sp:field-texture-LMC-I
   rdfs:label "Fibric light medium clay" ;
   skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSLMC-I ;
   skos:narrower sp:field-texture-KSLMC-I ;
   skos:narrower sp:field-texture-SLMC-I ;
@@ -3535,7 +3532,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   rdfs:label "Sapric loamy sand" ;
   skos:broader sp:field-texture-LS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-LFS-A ;
   skos:narrower sp:field-texture-LKS-A ;
   skos:notation "LSA" ;
@@ -3549,7 +3546,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric loamy sand" ;
   skos:broader sp:field-texture-LS ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-LFS-I ;
   skos:narrower sp:field-texture-LKS-I ;
   skos:notation "LSI" ;
@@ -3578,7 +3575,7 @@ sp:field-texture-MC-A
   rdfs:label "Sapric medium clay" ;
   skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSMC-A ;
   skos:narrower sp:field-texture-KSMC-A ;
   skos:narrower sp:field-texture-SMC-A ;
@@ -3593,7 +3590,7 @@ sp:field-texture-MC-I
   rdfs:label "Fibric medium clay" ;
   skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSMC-I ;
   skos:narrower sp:field-texture-KSMC-I ;
   skos:narrower sp:field-texture-SMC-I ;
@@ -3625,7 +3622,7 @@ sp:field-texture-MHC-A
   skos:broader sp:field-texture-MHC ;
   skos:broader sp:field-texture-MHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSMHC-A ;
   skos:narrower sp:field-texture-KSMHC-A ;
   skos:narrower sp:field-texture-MHC-A ;
@@ -3642,7 +3639,7 @@ sp:field-texture-MHC-I
   skos:broader sp:field-texture-MHC ;
   skos:broader sp:field-texture-MHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSMHC-I ;
   skos:narrower sp:field-texture-KSMHC-I ;
   skos:narrower sp:field-texture-MHC-I ;
@@ -3673,7 +3670,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   rdfs:label "Sapric sand" ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FS-A ;
   skos:narrower sp:field-texture-KS-A ;
   skos:notation "SA" ;
@@ -3687,7 +3684,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric sand" ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FS-I ;
   skos:narrower sp:field-texture-KS-I ;
   skos:notation "SI" ;
@@ -3716,7 +3713,7 @@ sp:field-texture-SCL-A
   rdfs:label "Sapric sandy clay loam" ;
   skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSCL-A ;
   skos:narrower sp:field-texture-KSCL-A ;
   skos:notation "SCLA" ;
@@ -3729,7 +3726,7 @@ sp:field-texture-SCL-I
   rdfs:label "Fibric sandy clay loam" ;
   skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSCL-I ;
   skos:narrower sp:field-texture-KSCL-I ;
   skos:notation "SCLI" ;
@@ -3742,7 +3739,7 @@ sp:field-texture-SCL-heavy
   rdfs:label "Heavy sandy clay loam" ;
   skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSCL-heavy ;
   skos:narrower sp:field-texture-KSCL-heavy ;
   skos:notation "SCL+" ;
@@ -3755,7 +3752,7 @@ sp:field-texture-SCL-light
   rdfs:label "Light sandy clay loam" ;
   skos:broader sp:field-texture-SCL ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSCL-light ;
   skos:narrower sp:field-texture-KSCL-light ;
   skos:notation "SCL-" ;
@@ -3768,7 +3765,7 @@ sp:field-texture-SHC
   rdfs:label "Sandy heavy clay" ;
   skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-SHC-A ;
   skos:narrower sp:field-texture-SHC-I ;
   skos:notation "SHC" ;
@@ -3782,7 +3779,7 @@ sp:field-texture-SHC-A
   skos:broader sp:field-texture-HC-A ;
   skos:broader sp:field-texture-SHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "SHCA" ;
   skos:prefLabel "Sapric sandy heavy clay"@en ;
 .
@@ -3794,7 +3791,7 @@ sp:field-texture-SHC-I
   skos:broader sp:field-texture-HC-I ;
   skos:broader sp:field-texture-SHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "SHCI" ;
   skos:prefLabel "Fibric sandy heavy clay"@en ;
 .
@@ -3819,7 +3816,7 @@ sp:field-texture-SL-A
   rdfs:label "Sapric sandy loam" ;
   skos:broader sp:field-texture-SL ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSL-A ;
   skos:narrower sp:field-texture-KSL-A ;
   skos:notation "SLA" ;
@@ -3832,7 +3829,7 @@ sp:field-texture-SL-I
   rdfs:label "Fibric sandy loam" ;
   skos:broader sp:field-texture-SL ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-FSL-I ;
   skos:narrower sp:field-texture-KSL-I ;
   skos:notation "SLI" ;
@@ -3845,7 +3842,7 @@ sp:field-texture-SLC
   rdfs:label "Sandy light clay" ;
   skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-SLC-A ;
   skos:narrower sp:field-texture-SLC-I ;
   skos:notation "SLC" ;
@@ -3859,7 +3856,7 @@ sp:field-texture-SLC-A
   skos:broader sp:field-texture-LC-A ;
   skos:broader sp:field-texture-SLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "SLCA" ;
   skos:prefLabel "Sapric sandy light clay"@en ;
 .
@@ -3871,7 +3868,7 @@ sp:field-texture-SLC-I
   skos:broader sp:field-texture-LC-I ;
   skos:broader sp:field-texture-SLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "SLCI" ;
   skos:prefLabel "Fibric sandy light clay"@en ;
 .
@@ -3882,7 +3879,7 @@ sp:field-texture-SLMC
   rdfs:label "Sandy light medium clay" ;
   skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-SLMC-A ;
   skos:narrower sp:field-texture-SLMC-I ;
   skos:notation "SLMC" ;
@@ -3896,7 +3893,7 @@ sp:field-texture-SLMC-A
   skos:broader sp:field-texture-LMC-A ;
   skos:broader sp:field-texture-SLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "SLMCA" ;
   skos:prefLabel "Sapric sandy light medium clay"@en ;
 .
@@ -3908,7 +3905,7 @@ sp:field-texture-SLMC-I
   skos:broader sp:field-texture-LMC-I ;
   skos:broader sp:field-texture-SLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "SLMCI" ;
   skos:prefLabel "Fibric sandy light medium clay"@en ;
 .
@@ -3919,7 +3916,7 @@ sp:field-texture-SMC
   rdfs:label "Sandy medium clay" ;
   skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-SMC-A ;
   skos:narrower sp:field-texture-SMC-I ;
   skos:notation "SMC" ;
@@ -3933,7 +3930,7 @@ sp:field-texture-SMC-A
   skos:broader sp:field-texture-MC-A ;
   skos:broader sp:field-texture-SMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "SMCA" ;
   skos:prefLabel "Sapric sandy medium clay"@en ;
 .
@@ -3945,7 +3942,7 @@ sp:field-texture-SMC-I
   skos:broader sp:field-texture-MC-I ;
   skos:broader sp:field-texture-SMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "SMCI" ;
   skos:prefLabel "Fibric sandy medium clay"@en ;
 .
@@ -3956,7 +3953,7 @@ sp:field-texture-SMHC
   rdfs:label "Sandy medium heavy clay" ;
   skos:broader sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-SMHC-A ;
   skos:narrower sp:field-texture-SMHC-I ;
   skos:notation "SMHC" ;
@@ -3970,7 +3967,7 @@ sp:field-texture-SMHC-A
   skos:broader sp:field-texture-MHC-A ;
   skos:broader sp:field-texture-SMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "SMHCA" ;
   skos:prefLabel "Sapric sandy medium heavy clay"@en ;
 .
@@ -3982,7 +3979,7 @@ sp:field-texture-SMHC-I
   skos:broader sp:field-texture-MHC-I ;
   skos:broader sp:field-texture-SMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "SMHCI" ;
   skos:prefLabel "Fibric sandy medium heavy clay"@en ;
 .
@@ -4017,7 +4014,7 @@ sp:field-texture-ZCL-A
   rdfs:label "Sapric silty clay loam" ;
   skos:broader sp:field-texture-ZCL ;
   skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZCLA" ;
   skos:prefLabel "Sapric silty clay loam"@en ;
 .
@@ -4028,7 +4025,7 @@ sp:field-texture-ZCL-I
   rdfs:label "Fibric silty clay loam" ;
   skos:broader sp:field-texture-ZCL ;
   skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZCLI" ;
   skos:prefLabel "Fibric silty clay loam"@en ;
 .
@@ -4039,7 +4036,7 @@ sp:field-texture-ZCL-heavy
   rdfs:label "Heavy silty clay loam" ;
   skos:broader sp:field-texture-ZCL ;
   skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZCL+" ;
   skos:prefLabel "Heavy silty clay loam"@en ;
 .
@@ -4050,7 +4047,7 @@ sp:field-texture-ZCL-light
   rdfs:label "Light silty clay loam" ;
   skos:broader sp:field-texture-ZCL ;
   skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZCL-" ;
   skos:prefLabel "Light silty clay loam"@en ;
 .
@@ -4061,7 +4058,7 @@ sp:field-texture-ZHC
   rdfs:label "Silty heavy clay" ;
   skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-ZHC-A ;
   skos:narrower sp:field-texture-ZHC-I ;
   skos:notation "ZHC" ;
@@ -4075,7 +4072,7 @@ sp:field-texture-ZHC-A
   skos:broader sp:field-texture-HC-A ;
   skos:broader sp:field-texture-ZHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZHCA" ;
   skos:prefLabel "Sapric silty heavy clay"@en ;
 .
@@ -4087,7 +4084,7 @@ sp:field-texture-ZHC-I
   skos:broader sp:field-texture-HC-I ;
   skos:broader sp:field-texture-ZHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZHCI" ;
   skos:prefLabel "Fibric silty heavy clay"@en ;
 .
@@ -4110,7 +4107,7 @@ sp:field-texture-ZL-A
   rdfs:label "Sapric silty loam" ;
   skos:broader sp:field-texture-ZL ;
   skos:definition "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZLA" ;
   skos:prefLabel "Sapric silty loam"@en ;
 .
@@ -4121,7 +4118,7 @@ sp:field-texture-ZL-I
   rdfs:label "Fibric silty loam" ;
   skos:broader sp:field-texture-ZL ;
   skos:definition "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZLI" ;
   skos:prefLabel "Fibric silty loam"@en ;
 .
@@ -4132,7 +4129,7 @@ sp:field-texture-ZLC
   rdfs:label "Silty light clay" ;
   skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-ZLC-A ;
   skos:narrower sp:field-texture-ZLC-I ;
   skos:notation "ZLC" ;
@@ -4146,7 +4143,7 @@ sp:field-texture-ZLC-A
   skos:broader sp:field-texture-LC-A ;
   skos:broader sp:field-texture-ZLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZLCA" ;
   skos:prefLabel "Sapric silty light clay"@en ;
 .
@@ -4158,7 +4155,7 @@ sp:field-texture-ZLC-I
   skos:broader sp:field-texture-LC-I ;
   skos:broader sp:field-texture-ZLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZLCI" ;
   skos:prefLabel "Fibric silty light clay"@en ;
 .
@@ -4169,7 +4166,7 @@ sp:field-texture-ZLMC
   rdfs:label "Silty light medium clay" ;
   skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-ZLMC-A ;
   skos:narrower sp:field-texture-ZLMC-I ;
   skos:notation "ZLMC" ;
@@ -4183,7 +4180,7 @@ sp:field-texture-ZLMC-A
   skos:broader sp:field-texture-LMC-A ;
   skos:broader sp:field-texture-ZLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZLMCA" ;
   skos:prefLabel "Sapric silty light medium clay"@en ;
 .
@@ -4195,7 +4192,7 @@ sp:field-texture-ZLMC-I
   skos:broader sp:field-texture-LMC-I ;
   skos:broader sp:field-texture-ZLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZLMCI" ;
   skos:prefLabel "Fibric silty light medium clay"@en ;
 .
@@ -4206,7 +4203,7 @@ sp:field-texture-ZMC
   rdfs:label "Silty medium clay" ;
   skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-ZMC-A ;
   skos:narrower sp:field-texture-ZMC-I ;
   skos:notation "ZMC" ;
@@ -4220,7 +4217,7 @@ sp:field-texture-ZMC-A
   skos:broader sp:field-texture-MC-A ;
   skos:broader sp:field-texture-ZMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZMCA" ;
   skos:prefLabel "Sapric silty medium clay"@en ;
 .
@@ -4232,7 +4229,7 @@ sp:field-texture-ZMC-I
   skos:broader sp:field-texture-MC-I ;
   skos:broader sp:field-texture-ZMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZMCI" ;
   skos:prefLabel "Fibric silty medium clay"@en ;
 .
@@ -4243,7 +4240,7 @@ sp:field-texture-ZMHC
   rdfs:label "Silty medium heavy clay" ;
   skos:broader sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:narrower sp:field-texture-ZMHC-A ;
   skos:narrower sp:field-texture-ZMHC-I ;
   skos:notation "ZMHC" ;
@@ -4257,7 +4254,7 @@ sp:field-texture-ZMHC-A
   skos:broader sp:field-texture-MHC-A ;
   skos:broader sp:field-texture-ZMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZMHCA" ;
   skos:prefLabel "Sapric silty medium heavy clay"@en ;
 .
@@ -4269,7 +4266,7 @@ sp:field-texture-ZMHC-I
   skos:broader sp:field-texture-MHC-I ;
   skos:broader sp:field-texture-ZMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "ZMHCI" ;
   skos:prefLabel "Fibric silty medium heavy clay"@en ;
 .
@@ -4325,7 +4322,7 @@ sp:horizon-A1
   rdfs:label "A1 horizon" ;
   skos:broader sp:horizons-A ;
   skos:definition "mineral horizon at or near the soil surface with some accumulation of humified organic matter, usually darker in colour than underlying horizons and with maximum biologic activity for any given soil profile. It may be divided into subhorizons and of these the A11 horizon is usually the more organic, or darker coloured uppermost portion. The A12 differs in either hue, value or chroma from the A11, usually being lighter in colour. It is not pale enough to qualify as an A2 horizon. The A1 may be further divided into subhorizons if necessary (e.g. A13, A14)." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "A1" ;
   skos:prefLabel "A1 horizon"@en ;
 .
@@ -4335,7 +4332,7 @@ sp:horizon-A2
   rdfs:label "A2 horizon" ;
   skos:broader sp:horizons-A ;
   skos:definition "mineral horizon having, either alone or in combination, less organic matter, sesquioxides, or silicate clay than immediately adjacent horizons. It is usually differentiated from the A1 horizon by its paler colour, that is, by having colour value at least one unit higher and usually less organic matter. It is usually differentiated from the B horizon by having colour value at least one unit higher and chroma at least two units lower, by coarser texture or by a combination of these attributes." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "A2" ;
   skos:prefLabel "A2 horizon"@en ;
 .
@@ -4345,7 +4342,7 @@ sp:horizon-A3
   rdfs:label "A3 horizon" ;
   skos:broader sp:horizons-A ;
   skos:definition "transitional horizon between A and B, which is dominated by properties characteristic of an overlying A1 or A2." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "A3" ;
   skos:prefLabel "A3 horizon"@en ;
 .
@@ -4355,7 +4352,7 @@ sp:horizon-B1
   rdfs:label "B1 horizon" ;
   skos:broader sp:horizons-B ;
   skos:definition "transitional horizon between A and B, which is dominated by properties characteristic of an underlying B2." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "B1" ;
   skos:prefLabel "B1 horizon"@en ;
 .
@@ -4373,7 +4370,7 @@ It may be divided into subhorizons, for example B21, B22, B23.""" ;
 •	maximum development of pedologic organisation* as evidenced by a different structure and/or consistence, and/or stronger colours than the A horizons above or any horizon immediately below.
 It may be divided into subhorizons, for example B21, B22, B23.
 """ ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "B2" ;
   skos:prefLabel "B2 horizon"@en ;
 .
@@ -4383,7 +4380,7 @@ sp:horizon-B3
   rdfs:label "B3 horizon" ;
   skos:broader sp:horizons-B ;
   skos:definition "transitional horizon between B and C or other subsolum material in which properties characteristic of an overlying B2 dominate, but intergrade to those of the underlying material." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "B3" ;
   skos:prefLabel "B3 horizon"@en ;
 .
@@ -4393,7 +4390,7 @@ sp:horizon-O1
   rdfs:label "O1 horizon" ;
   skos:broader sp:horizons-O ;
   skos:definition "consists of undecomposed organic debris, usually dominated by leaves and twigs. The original form of the debris can be recognised with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "O1" ;
   skos:prefLabel "O1 horizon"@en ;
 .
@@ -4403,7 +4400,7 @@ sp:horizon-O2
   rdfs:label "O2 horizon" ;
   skos:broader sp:horizons-O ;
   skos:definition "consists of organic debris in various stages of decomposition. The original form of most of the debris cannot be recognised with the naked eye." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "O2" ;
   skos:prefLabel "O2 horizon"@en ;
 .
@@ -4413,7 +4410,7 @@ sp:horizon-P1
   rdfs:label "P1 horizon" ;
   skos:broader sp:horizons-P ;
   skos:definition "consists primarily of undecomposed or weakly decomposed organic material (fibric peat). Plant remains are distinct and readily identifiable." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "P1" ;
   skos:prefLabel "P1 horizon"@en ;
 .
@@ -4423,7 +4420,7 @@ sp:horizon-P2
   rdfs:label "P2 horizon" ;
   skos:broader sp:horizons-P ;
   skos:definition "consists primarily of moderately to completely decomposed organic material (hemic to sapric peat). Plant remains vary from being difficult to identify to completely amorphous." ;
-  skos:inScheme <http://www.anzsoil.org/def/soil-profile> ;
+  skos:inScheme <http://anzsoil.org/def/au/asls/soil-profile> ;
   skos:notation "P2" ;
   skos:prefLabel "P2 horizon"@en ;
 .
