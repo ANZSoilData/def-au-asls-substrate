@@ -4204,7 +4204,7 @@ sp:field-textures        a                skos:Collection ;
         dct:description  "Field texture is a measure of the behaviour of a small handful of soil when moistened and kneaded into a ball and then pressed out between thumb and forefinger. The recommended field texture grades are characterised by the behaviour of the moist bolus. The approximate percentage content of clay (particles less than 0.002 mm in diameter) and silt (particles between 0.02 and 0.002 mm in diameter) are used as a guide." ;
         ui:topMemberOf   <> ;
         skos:definition  "Field texture is a measure of the behaviour of a small handful of soil when moistened and kneaded into a ball and then pressed out between thumb and forefinger. The recommended field texture grades are characterised by the behaviour of the moist bolus. The approximate percentage content of clay (particles less than 0.002 mm in diameter) and silt (particles between 0.02 and 0.002 mm in diameter) are used as a guide." ;
-        skos:member      sp:field-texture-minerals, sp:field-textures-organic;
+        skos:member      sp:field-textures-mineral, sp:field-textures-organic;
         skos:prefLabel   "Field texture"@en .
 
 <_field-texture-L>
