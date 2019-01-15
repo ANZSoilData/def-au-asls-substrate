@@ -1,0 +1,3605 @@
+# baseURI: file:/C:/Users/cox075/dev/australian-soil-vocabularies/scma/SCMA.ttl
+
+@prefix api: <http://purl.org/linked-data/api/vocab#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dgu: <http://reference.data.gov.uk/def/reference/> .
+@prefix dtr: <http://registry.it.csiro.au/ont/dtr#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gba: <http://registry.it.csiro.au/ont/gba-approval/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix npg: <http://ns.nature.com/terms/> .
+@prefix odrs: <http://schema.theodi.org/odrs#> .
+@prefix op: <http://environment.data.gov.au/def/op#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix qudt: <http://qudt.org/schema/qudt#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix rr-cat: <http://registry.it.csiro.au/structure/category/> .
+@prefix rr-entity: <http://registry.it.csiro.au/structure/entity-type/> .
+@prefix rr-org: <http://registry.it.csiro.au/structure/org/> .
+@prefix rr-ui: <http://registry.it.csiro.au/structure/ui/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix sp: <http://registry.it.csiro.au/system/prefixes/sp> .
+@prefix spec: <http://www.opengis.net/ont/modspec#> .
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix ui: <http://purl.org/linked-data/registry-ui#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<10>
+  rdf:type skos:Collection ;
+  dct:description "Sulfur" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation "10" ;
+  rdfs:label "Sulfur" ;
+  skos:definition "None" ;
+  skos:member <10A1> ;
+  skos:member <10A2> ;
+  skos:member <10B> ;
+  skos:member <10C1> ;
+  skos:member <10D1> ;
+  skos:notation "10" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfur" ;
+.
+<10A>
+  rdf:type skos:Concept ;
+  dct:description "Total S" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "10A" ;
+  rdfs:label "Total S" ;
+  skos:definition "None" ;
+  skos:notation "10A" ;
+  skos:note "None" ;
+  skos:prefLabel "Total S" ;
+.
+<10A1>
+  rdf:type skos:Concept ;
+  dct:description "Total S - X-ray fluorescence" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "10A1" ;
+  rdfs:label "Total S - X-ray fluorescence" ;
+  skos:broader <10A> ;
+  skos:definition "None" ;
+  skos:notation "10A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Total S - X-ray fluorescence" ;
+.
+<10A2>
+  rdf:type skos:Concept ;
+  dct:description "Total soil S - high-temperature combustion" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "10A2" ;
+  rdfs:label "Total soil S - high-temperature combustion" ;
+  skos:broader <10A> ;
+  skos:definition "None" ;
+  skos:notation "10A2" ;
+  skos:note "None" ;
+  skos:prefLabel "Total soil S - high-temperature combustion" ;
+.
+<10B>
+  rdf:type skos:Concept ;
+  dct:description "Calcium phosphate-extractable S" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "10B" ;
+  rdfs:label "Calcium phosphate-extractable S" ;
+  skos:definition "None" ;
+  skos:narrower <10B1> ;
+  skos:narrower <10B2> ;
+  skos:narrower <10B3> ;
+  skos:narrower <10B4> ;
+  skos:notation "10B" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium phosphate-extractable S" ;
+.
+<10B1>
+  rdf:type skos:Concept ;
+  dct:description "Calcium phosphate-extractable S - manual distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "10B1" ;
+  rdfs:label "Calcium phosphate-extractable S - manual distillation" ;
+  skos:broader <10B> ;
+  skos:definition "None" ;
+  skos:notation "10B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium phosphate-extractable S - manual distillation" ;
+.
+<10B2>
+  rdf:type skos:Concept ;
+  dct:description "Calcium phosphate-extractable S - automated distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "10B2" ;
+  rdfs:label "Calcium phosphate-extractable S - automated distillation" ;
+  skos:broader <10B> ;
+  skos:definition "None" ;
+  skos:notation "10B2" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium phosphate-extractable S - automated distillation" ;
+.
+<10B3>
+  rdf:type skos:Concept ;
+  dct:description "Calcium phosphate-extractable S - ICPAES" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "10B3" ;
+  rdfs:label "Calcium phosphate-extractable S - ICPAES" ;
+  skos:broader <10B> ;
+  skos:definition "None" ;
+  skos:notation "10B3" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium phosphate-extractable S - ICPAES" ;
+.
+<10B4>
+  rdf:type skos:Concept ;
+  dct:description "Calcium phosphate-extractable S - ion chromatography" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "10B4" ;
+  rdfs:label "Calcium phosphate-extractable S - ion chromatography" ;
+  skos:broader <10B> ;
+  skos:definition "None" ;
+  skos:notation "10B4" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium phosphate-extractable S - ion chromatography" ;
+.
+<10C1>
+  rdf:type skos:Concept ;
+  dct:description "Calcium phosphate-extractable S - ICPAES, + charcoal (CPC-S)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "10C1" ;
+  rdfs:label "Calcium phosphate-extractable S - ICPAES, + charcoal (CPC-S)" ;
+  skos:definition "None" ;
+  skos:notation "10C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium phosphate-extractable S - ICPAES, + charcoal (CPC-S)" ;
+.
+<10D1>
+  rdf:type skos:Concept ;
+  dct:description "Potassium Chloride - 40 Sulfur (KCl-40)-S" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "10D1" ;
+  rdfs:label "Potassium Chloride - 40 Sulfur (KCl-40)-S" ;
+  skos:definition "None" ;
+  skos:notation "10D1" ;
+  skos:note "None" ;
+  skos:prefLabel "Potassium Chloride - 40 Sulfur (KCl-40)-S" ;
+.
+<11>
+  rdf:type skos:Collection ;
+  dct:description "Gypsum" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation "11" ;
+  rdfs:label "Gypsum" ;
+  skos:definition "None" ;
+  skos:member <11A1> ;
+  skos:member <11A2> ;
+  skos:notation "11" ;
+  skos:note "None" ;
+  skos:prefLabel "Gypsum" ;
+.
+<11A1>
+  rdf:type skos:Concept ;
+  dct:description "Total gypsum" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "11A1" ;
+  rdfs:label "Total gypsum" ;
+  skos:definition "None" ;
+  skos:notation "11A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Total gypsum" ;
+.
+<11A2>
+  rdf:type skos:Concept ;
+  dct:description "Total gypsum by MIR reflectance spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "11A2" ;
+  rdfs:label "Total gypsum by MIR reflectance spectroscopy" ;
+  skos:definition "None" ;
+  skos:notation "11A2" ;
+  skos:note "None" ;
+  skos:prefLabel "Total gypsum by MIR reflectance spectroscopy" ;
+.
+<12>
+  rdf:type skos:Collection ;
+  dct:description "Micronutrients" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation "12" ;
+  rdfs:label "Micronutrients" ;
+  skos:definition "None" ;
+  skos:member <12A1> ;
+  skos:member <12B1> ;
+  skos:member <12C1> ;
+  skos:member <12C2> ;
+  skos:member <12D1> ;
+  skos:member <12E1> ;
+  skos:notation "12" ;
+  skos:note "None" ;
+  skos:prefLabel "Micronutrients" ;
+.
+<12A1>
+  rdf:type skos:Concept ;
+  dct:description "DTPA-extractable Cu, Zn, Mn and Fe" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "12A1" ;
+  rdfs:label "DTPA-extractable Cu, Zn, Mn and Fe" ;
+  skos:definition "None" ;
+  skos:notation "12A1" ;
+  skos:note "None" ;
+  skos:prefLabel "DTPA-extractable Cu, Zn, Mn and Fe" ;
+.
+<12B1>
+  rdf:type skos:Concept ;
+  dct:description "Ammonium bicarbonate/EDTA-extractable Cu and Zn" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "12B1" ;
+  rdfs:label "Ammonium bicarbonate/EDTA-extractable Cu and Zn" ;
+  skos:definition "None" ;
+  skos:notation "12B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Ammonium bicarbonate/EDTA-extractable Cu and Zn" ;
+.
+<12C>
+  rdf:type skos:Concept ;
+  dct:description "Calcium chloride-extractable B" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "12C" ;
+  rdfs:label "Calcium chloride-extractable B" ;
+  skos:definition "None" ;
+  skos:notation "12C" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium chloride-extractable B" ;
+.
+<12C1>
+  rdf:type skos:Concept ;
+  dct:description "Calcium chloride-extractable B - manual colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "12C1" ;
+  rdfs:label "Calcium chloride-extractable B - manual colour" ;
+  skos:broader <12C> ;
+  skos:definition "None" ;
+  skos:notation "12C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium chloride-extractable B - manual colour" ;
+.
+<12C2>
+  rdf:type skos:Concept ;
+  dct:description "Calcium chloride-extractable B - ICPAES" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "12C2" ;
+  rdfs:label "Calcium chloride-extractable B - ICPAES" ;
+  skos:broader <12C> ;
+  skos:definition "None" ;
+  skos:notation "12C2" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium chloride-extractable B - ICPAES" ;
+.
+<12D1>
+  rdf:type skos:Concept ;
+  dct:description "0.1 M HCl-extractable Cu, Zn, Mn and Fe" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "12D1" ;
+  rdfs:label "0.1 M HCl-extractable Cu, Zn, Mn and Fe" ;
+  skos:definition "None" ;
+  skos:notation "12D1" ;
+  skos:note "None" ;
+  skos:prefLabel "0.1 M HCl-extractable Cu, Zn, Mn and Fe" ;
+.
+<12E1>
+  rdf:type skos:Concept ;
+  dct:description "Calcium chloride-extractable Mo" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "12E1" ;
+  rdfs:label "Calcium chloride-extractable Mo" ;
+  skos:definition "None" ;
+  skos:notation "12E1" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium chloride-extractable Mo" ;
+.
+<13>
+  rdf:type skos:Collection ;
+  dct:description "Extractable iron, aluminium and silicon" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation "13" ;
+  rdfs:label "Extractable iron, aluminium and silicon" ;
+  skos:definition "None" ;
+  skos:member <13A1> ;
+  skos:member <13B1> ;
+  skos:member <13C1> ;
+  skos:member <13D> ;
+  skos:notation "13" ;
+  skos:note "None" ;
+  skos:prefLabel "Extractable iron, aluminium and silicon" ;
+.
+<13A1>
+  rdf:type skos:Concept ;
+  dct:description "Oxalate-extractable iron, aluminium and silicon" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "13A1" ;
+  rdfs:label "Oxalate-extractable iron, aluminium and silicon" ;
+  skos:definition "None" ;
+  skos:notation "13A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Oxalate-extractable iron, aluminium and silicon" ;
+.
+<13B1>
+  rdf:type skos:Concept ;
+  dct:description "Pyrophosphate-extractable Fe and Al" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "13B1" ;
+  rdfs:label "Pyrophosphate-extractable Fe and Al" ;
+  skos:definition "None" ;
+  skos:notation "13B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Pyrophosphate-extractable Fe and Al" ;
+.
+<13C1>
+  rdf:type skos:Concept ;
+  dct:description "Citrate/dihionite-extractable iron and aluminium" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "13C1" ;
+  rdfs:label "Citrate/dihionite-extractable iron and aluminium" ;
+  skos:definition "None" ;
+  skos:notation "13C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Citrate/dihionite-extractable iron and aluminium" ;
+.
+<13D>
+  rdf:type skos:Concept ;
+  dct:description "Acid-extractable soil silicon" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "13D" ;
+  rdfs:label "Acid-extractable soil silicon" ;
+  skos:definition "None" ;
+  skos:narrower <13D1> ;
+  skos:narrower <13D2> ;
+  skos:notation "13D" ;
+  skos:note "None" ;
+  skos:prefLabel "Acid-extractable soil silicon" ;
+.
+<13D1>
+  rdf:type skos:Concept ;
+  dct:description "Acid-extractable soil silicon - automated colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "13D1" ;
+  rdfs:label "Acid-extractable soil silicon - automated colour" ;
+  skos:broader <13D> ;
+  skos:definition "None" ;
+  skos:notation "13D1" ;
+  skos:note "None" ;
+  skos:prefLabel "Acid-extractable soil silicon - automated colour" ;
+.
+<13D2>
+  rdf:type skos:Concept ;
+  dct:description "Acid-extractable soil silicon - ICPAES" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "13D2" ;
+  rdfs:label "Acid-extractable soil silicon - ICPAES" ;
+  skos:broader <13D> ;
+  skos:definition "None" ;
+  skos:notation "13D2" ;
+  skos:note "None" ;
+  skos:prefLabel "Acid-extractable soil silicon - ICPAES" ;
+.
+<14>
+  rdf:type skos:Collection ;
+  dct:description "Saturation extracts" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation "14" ;
+  rdfs:label "Saturation extracts" ;
+  skos:definition "None" ;
+  skos:member <14A1> ;
+  skos:member <14A2> ;
+  skos:member <14A3> ;
+  skos:member <14A4> ;
+  skos:member <14B1> ;
+  skos:member <14C1> ;
+  skos:member <14D1> ;
+  skos:member <14D2> ;
+  skos:member <14E1> ;
+  skos:member <14E2> ;
+  skos:member <14F1> ;
+  skos:member <14F2> ;
+  skos:member <14F3> ;
+  skos:member <14F4> ;
+  skos:member <14F5> ;
+  skos:member <14G1> ;
+  skos:member <14G2> ;
+  skos:member <14H1> ;
+  skos:notation "14" ;
+  skos:note "None" ;
+  skos:prefLabel "Saturation extracts" ;
+.
+<14A1>
+  rdf:type skos:Concept ;
+  dct:description "Saturation extract - filter suction" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14A1" ;
+  rdfs:label "Saturation extract - filter suction" ;
+  skos:definition "None" ;
+  skos:notation "14A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Saturation extract - filter suction" ;
+.
+<14A2>
+  rdf:type skos:Concept ;
+  dct:description "Saturation extract -automatic extractor" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14A2" ;
+  rdfs:label "Saturation extract -automatic extractor" ;
+  skos:definition "None" ;
+  skos:notation "14A2" ;
+  skos:note "None" ;
+  skos:prefLabel "Saturation extract -automatic extractor" ;
+.
+<14A3>
+  rdf:type skos:Concept ;
+  dct:description "Saturation extract - centrifuge, closed system" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14A3" ;
+  rdfs:label "Saturation extract - centrifuge, closed system" ;
+  skos:definition "None" ;
+  skos:notation "14A3" ;
+  skos:note "None" ;
+  skos:prefLabel "Saturation extract - centrifuge, closed system" ;
+.
+<14A4>
+  rdf:type skos:Concept ;
+  dct:description "Saturation extract - centrifuge, Gillman" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14A4" ;
+  rdfs:label "Saturation extract - centrifuge, Gillman" ;
+  skos:definition "None" ;
+  skos:notation "14A4" ;
+  skos:note "None" ;
+  skos:prefLabel "Saturation extract - centrifuge, Gillman" ;
+.
+<14B1>
+  rdf:type skos:Concept ;
+  dct:description "Electrical conductivity of SE (EC of SE)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14B1" ;
+  rdfs:label "Electrical conductivity of SE (EC of SE)" ;
+  skos:definition "None" ;
+  skos:notation "14B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Electrical conductivity of SE (EC of SE)" ;
+.
+<14C1>
+  rdf:type skos:Concept ;
+  dct:description "pH of SE" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14C1" ;
+  rdfs:label "pH of SE" ;
+  skos:definition "None" ;
+  skos:notation "14C1" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of SE" ;
+.
+<14D>
+  rdf:type skos:Concept ;
+  dct:description "Bicarbonate of SE and carbonate of SE" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14D" ;
+  rdfs:label "Bicarbonate of SE and carbonate of SE" ;
+  skos:definition "None" ;
+  skos:notation "14D" ;
+  skos:note "None" ;
+  skos:prefLabel "Bicarbonate of SE and carbonate of SE" ;
+.
+<14D1>
+  rdf:type skos:Concept ;
+  dct:description "Bicarbonate of SE and carbonate of SE - potentiometric titration" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14D1" ;
+  rdfs:label "Bicarbonate of SE and carbonate of SE - potentiometric titration" ;
+  skos:broader <14D> ;
+  skos:definition "None" ;
+  skos:notation "14D1" ;
+  skos:note "None" ;
+  skos:prefLabel "Bicarbonate of SE and carbonate of SE - potentiometric titration" ;
+.
+<14D2>
+  rdf:type skos:Concept ;
+  dct:description "Bicarbonate of SE and carbonate of SE - indicator method" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14D2" ;
+  rdfs:label "Bicarbonate of SE and carbonate of SE - indicator method" ;
+  skos:broader <14D> ;
+  skos:definition "None" ;
+  skos:notation "14D2" ;
+  skos:note "None" ;
+  skos:prefLabel "Bicarbonate of SE and carbonate of SE - indicator method" ;
+.
+<14E>
+  rdf:type skos:Concept ;
+  dct:description "Chloride of SE" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14E" ;
+  rdfs:label "Chloride of SE" ;
+  skos:definition "None" ;
+  skos:narrower <14E3> ;
+  skos:notation "14E" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride of SE" ;
+.
+<14E1>
+  rdf:type skos:Concept ;
+  dct:description "Chloride of SE - potentiometric titration" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14E1" ;
+  rdfs:label "Chloride of SE - potentiometric titration" ;
+  skos:broader <14E> ;
+  skos:definition "None" ;
+  skos:notation "14E1" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride of SE - potentiometric titration" ;
+.
+<14E2>
+  rdf:type skos:Concept ;
+  dct:description "Chloride (saturation extract) - ion chromotography" ;
+  dct:description "Chloride of SE - IC" ;
+  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  reg:notation "14E2" ;
+  rdfs:label "Chloride (saturation extract) - ion chromotography" ;
+  rdfs:label "Chloride of SE - IC" ;
+  skos:broader <14E> ;
+  skos:definition "None" ;
+  skos:narrower <14E2a> ;
+  skos:narrower <14E2b> ;
+  skos:notation "14E2" ;
+  skos:note "14E2 has been superseded by 14E2a and 14E2b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride (saturation extract) - ion chromotography" ;
+  skos:prefLabel "Chloride of SE - IC" ;
+.
+<14E2a>
+  rdf:type skos:Concept ;
+  dct:description "Chloride of SE - IC (chemical suppression of eluent conductivity)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14E2a" ;
+  rdfs:label "Chloride of SE - IC (chemical suppression of eluent conductivity)" ;
+  skos:broader <14E> ;
+  skos:broader <14E2> ;
+  skos:definition "None" ;
+  skos:notation "14E2a" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride of SE - IC (chemical suppression of eluent conductivity)" ;
+.
+<14E2b>
+  rdf:type skos:Concept ;
+  dct:description "Chloride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14E2b" ;
+  rdfs:label "Chloride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
+  skos:broader <14E> ;
+  skos:broader <14E2> ;
+  skos:definition "None" ;
+  skos:notation "14E2b" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
+.
+<14E3>
+  rdf:type skos:Concept ;
+  dct:description "Chloride of SE - ICPAES" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14E3" ;
+  rdfs:label "Chloride of SE - ICPAES" ;
+  skos:broader <14E> ;
+  skos:definition "None" ;
+  skos:notation "14E3" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride of SE - ICPAES" ;
+.
+<14F>
+  rdf:type skos:Concept ;
+  dct:description "Sulfate-S of SE" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14F" ;
+  rdfs:label "Sulfate-S of SE" ;
+  skos:definition "None" ;
+  skos:notation "14F" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfate-S of SE" ;
+.
+<14F1>
+  rdf:type skos:Concept ;
+  dct:description "Sulfate-S of SE - ICPAES (plus P and soluble cations)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14F1" ;
+  rdfs:label "Sulfate-S of SE - ICPAES (plus P and soluble cations)" ;
+  skos:broader <14F> ;
+  skos:definition "None" ;
+  skos:notation "14F1" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfate-S of SE - ICPAES (plus P and soluble cations)" ;
+.
+<14F2>
+  rdf:type skos:Concept ;
+  dct:description "Sulfate-S of SE - turbidimetric" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14F2" ;
+  rdfs:label "Sulfate-S of SE - turbidimetric" ;
+  skos:broader <14F> ;
+  skos:definition "None" ;
+  skos:notation "14F2" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfate-S of SE - turbidimetric" ;
+.
+<14F3>
+  rdf:type skos:Concept ;
+  dct:description "Sulfate-S of SE - gravimetric" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14F3" ;
+  rdfs:label "Sulfate-S of SE - gravimetric" ;
+  skos:broader <14F> ;
+  skos:definition "None" ;
+  skos:notation "14F3" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfate-S of SE - gravimetric" ;
+.
+<14F4>
+  rdf:type skos:Concept ;
+  dct:description "Sulfate-S of SE - automated colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14F4" ;
+  rdfs:label "Sulfate-S of SE - automated colour" ;
+  skos:broader <14F> ;
+  skos:definition "None" ;
+  skos:notation "14F4" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfate-S of SE - automated colour" ;
+.
+<14F5>
+  rdf:type skos:Concept ;
+  dct:description "Sulfate-S (saturation extract) - ion chromotography" ;
+  dct:description "Sulfate-S of SE - IC" ;
+  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  reg:notation "14F5" ;
+  rdfs:label "Sulfate-S (saturation extract) - ion chromotography" ;
+  rdfs:label "Sulfate-S of SE - IC" ;
+  skos:broader <14F> ;
+  skos:definition "None" ;
+  skos:narrower <14F5a> ;
+  skos:narrower <14F5b> ;
+  skos:notation "14F5" ;
+  skos:note "14F5 has been superseded by 14F5a and 14F5b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfate-S (saturation extract) - ion chromotography" ;
+  skos:prefLabel "Sulfate-S of SE - IC" ;
+.
+<14F5a>
+  rdf:type skos:Concept ;
+  dct:description "Sulfate-S of SE - IC (chemical suppression of eluent conductivity)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14F5a" ;
+  rdfs:label "Sulfate-S of SE - IC (chemical suppression of eluent conductivity)" ;
+  skos:broader <14F> ;
+  skos:broader <14F5> ;
+  skos:definition "None" ;
+  skos:notation "14F5a" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfate-S of SE - IC (chemical suppression of eluent conductivity)" ;
+.
+<14F5b>
+  rdf:type skos:Concept ;
+  dct:description "Sulfate-S of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14F5b" ;
+  rdfs:label "Sulfate-S of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
+  skos:broader <14F> ;
+  skos:broader <14F5> ;
+  skos:definition "None" ;
+  skos:notation "14F5b" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfate-S of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
+.
+<14G>
+  rdf:type skos:Concept ;
+  dct:description "Fluoride of SE" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14G" ;
+  rdfs:label "Fluoride of SE" ;
+  skos:definition "None" ;
+  skos:notation "14G" ;
+  skos:note "None" ;
+  skos:prefLabel "Fluoride of SE" ;
+.
+<14G1>
+  rdf:type skos:Concept ;
+  dct:description "Fluoride of SE - specific ion electrode" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14G1" ;
+  rdfs:label "Fluoride of SE - specific ion electrode" ;
+  skos:broader <14G> ;
+  skos:definition "None" ;
+  skos:notation "14G1" ;
+  skos:note "None" ;
+  skos:prefLabel "Fluoride of SE - specific ion electrode" ;
+.
+<14G2>
+  rdf:type skos:Concept ;
+  dct:description "Flouride (saturation extract) - ion chromotography" ;
+  dct:description "Fluoride of SE - IC" ;
+  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  reg:notation "14G2" ;
+  rdfs:label "Flouride (saturation extract) - ion chromotography" ;
+  rdfs:label "Fluoride of SE - IC" ;
+  skos:broader <14G> ;
+  skos:definition "None" ;
+  skos:narrower <14G2a> ;
+  skos:narrower <14G2b> ;
+  skos:notation "14G2" ;
+  skos:note "14G2 has been superseded by 14G2a and 14G2b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
+  skos:note "None" ;
+  skos:prefLabel "Flouride (saturation extract) - ion chromotography" ;
+  skos:prefLabel "Fluoride of SE - IC" ;
+.
+<14G2a>
+  rdf:type skos:Concept ;
+  dct:description "Fluoride of SE - IC (chemical suppression of eluent conductivity)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14G2a" ;
+  rdfs:label "Fluoride of SE - IC (chemical suppression of eluent conductivity)" ;
+  skos:broader <14G> ;
+  skos:broader <14G2> ;
+  skos:definition "None" ;
+  skos:notation "14G2a" ;
+  skos:note "None" ;
+  skos:prefLabel "Fluoride of SE - IC (chemical suppression of eluent conductivity)" ;
+.
+<14G2b>
+  rdf:type skos:Concept ;
+  dct:description "Fluoride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14G2b" ;
+  rdfs:label "Fluoride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
+  skos:broader <14G> ;
+  skos:broader <14G2> ;
+  skos:definition "None" ;
+  skos:notation "14G2b" ;
+  skos:note "None" ;
+  skos:prefLabel "Fluoride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
+.
+<14H1>
+  rdf:type skos:Concept ;
+  dct:description "Soluble bases of SE (Ca, Mg, K, Na)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "14H1" ;
+  rdfs:label "Soluble bases of SE (Ca, Mg, K, Na)" ;
+  skos:definition "None" ;
+  skos:notation "14H1" ;
+  skos:note "None" ;
+  skos:prefLabel "Soluble bases of SE (Ca, Mg, K, Na)" ;
+.
+<15>
+  rdf:type skos:Collection ;
+  dct:description "Ion-exchange properties" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation "15" ;
+  rdfs:label "Ion-exchange properties" ;
+  skos:definition "None" ;
+  skos:member <15A1> ;
+  skos:member <15A2> ;
+  skos:member <15A3> ;
+  skos:member <15B1> ;
+  skos:member <15B2> ;
+  skos:member <15B3> ;
+  skos:member <15C1> ;
+  skos:member <15C2> ;
+  skos:member <15D1> ;
+  skos:member <15D2> ;
+  skos:member <15D3> ;
+  skos:member <15E1> ;
+  skos:member <15E2> ;
+  skos:member <15E3> ;
+  skos:member <15F1> ;
+  skos:member <15F2> ;
+  skos:member <15F3> ;
+  skos:member <15G1> ;
+  skos:member <15H1> ;
+  skos:member <15I1> ;
+  skos:member <15I2> ;
+  skos:member <15I3> ;
+  skos:member <15I4> ;
+  skos:member <15J1> ;
+  skos:member <15K1> ;
+  skos:member <15L1> ;
+  skos:member <15M1> ;
+  skos:member <15N1> ;
+  skos:member <15O1> ;
+  skos:notation "15" ;
+  skos:note "None" ;
+  skos:prefLabel "Ion-exchange properties" ;
+.
+<15A>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases (Ca2+, Mg2+, Na+, K+) by 1 M ammonium chloride at pH 7.0" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15A" ;
+  rdfs:label "Exchangeable bases (Ca2+, Mg2+, Na+, K+) by 1 M ammonium chloride at pH 7.0" ;
+  skos:definition "None" ;
+  skos:notation "15A" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases (Ca2+, Mg2+, Na+, K+) by 1 M ammonium chloride at pH 7.0" ;
+.
+<15A1>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases (Ca2+, Mg2+, Na+, K+) - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15A1" ;
+  rdfs:label "Exchangeable bases (Ca2+, Mg2+, Na+, K+) - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
+  skos:broader <15A> ;
+  skos:definition "None" ;
+  skos:notation "15A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases (Ca2+, Mg2+, Na+, K+) - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
+.
+<15A2>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases by 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15A2" ;
+  rdfs:label "Exchangeable bases by 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
+  skos:broader <15A> ;
+  skos:definition "None" ;
+  skos:notation "15A2" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases by 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
+.
+<15A3>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15A3" ;
+  rdfs:label "Exchangeable bases - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
+  skos:broader <15A> ;
+  skos:definition "None" ;
+  skos:notation "15A3" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
+.
+<15B>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15B" ;
+  rdfs:label "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0" ;
+  skos:definition "None" ;
+  skos:notation "15B" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0" ;
+.
+<15B1>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15B1" ;
+  rdfs:label "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
+  skos:broader <15B> ;
+  skos:definition "None" ;
+  skos:notation "15B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
+.
+<15B2>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15B2" ;
+  rdfs:label "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
+  skos:broader <15B> ;
+  skos:definition "None" ;
+  skos:notation "15B2" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
+.
+<15B3>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15B3" ;
+  rdfs:label "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
+  skos:broader <15B> ;
+  skos:definition "None" ;
+  skos:notation "15B3" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
+.
+<15C1>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases and CEC - alcoholic 1 M ammonium chloride at pH 8.5, pre-treatment for soluble salts" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15C1" ;
+  rdfs:label "Exchangeable bases and CEC - alcoholic 1 M ammonium chloride at pH 8.5, pre-treatment for soluble salts" ;
+  skos:definition "None" ;
+  skos:notation "15C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases and CEC - alcoholic 1 M ammonium chloride at pH 8.5, pre-treatment for soluble salts" ;
+.
+<15C2>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable divalent cations and CEC - by MIR diffuse reflectance spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15C2" ;
+  rdfs:label "Exchangeable divalent cations and CEC - by MIR diffuse reflectance spectroscopy" ;
+  skos:definition "None" ;
+  skos:notation "15C2" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable divalent cations and CEC - by MIR diffuse reflectance spectroscopy" ;
+.
+<15D>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15D" ;
+  rdfs:label "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0" ;
+  skos:definition "None" ;
+  skos:notation "15D" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0" ;
+.
+<15D1>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, manual leach" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15D1" ;
+  rdfs:label "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, manual leach" ;
+  skos:broader <15D> ;
+  skos:definition "None" ;
+  skos:notation "15D1" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, manual leach" ;
+.
+<15D2>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, automatic extractor" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15D2" ;
+  rdfs:label "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, automatic extractor" ;
+  skos:broader <15D> ;
+  skos:definition "None" ;
+  skos:notation "15D2" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, automatic extractor" ;
+.
+<15D3>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, rapid method with no pre-treatment for soluble salts" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15D3" ;
+  rdfs:label "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, rapid method with no pre-treatment for soluble salts" ;
+  skos:broader <15D> ;
+  skos:definition "None" ;
+  skos:notation "15D3" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, rapid method with no pre-treatment for soluble salts" ;
+.
+<15E>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15E" ;
+  rdfs:label "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange" ;
+  skos:definition "None" ;
+  skos:notation "15E" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange" ;
+.
+<15E1>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange, no pre-treatment for soluble salts" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15E1" ;
+  rdfs:label "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange, no pre-treatment for soluble salts" ;
+  skos:broader <15E> ;
+  skos:definition "None" ;
+  skos:notation "15E1" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange, no pre-treatment for soluble salts" ;
+.
+<15E2>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, pre-treatment for soluble salts" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15E2" ;
+  rdfs:label "Exchangeable bases, CEC and AEC by compulsive exchange, pre-treatment for soluble salts" ;
+  skos:broader <15E> ;
+  skos:definition "None" ;
+  skos:notation "15E2" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases, CEC and AEC by compulsive exchange, pre-treatment for soluble salts" ;
+.
+<15E3>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble Na+" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15E3" ;
+  rdfs:label "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble Na+" ;
+  skos:broader <15E> ;
+  skos:definition "None" ;
+  skos:notation "15E3" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble Na+" ;
+.
+<15F>
+  rdf:type skos:Concept ;
+  dct:description "Ion-exchange properties by 0.01 M silver-thiourea (AgTU+)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15F" ;
+  rdfs:label "Ion-exchange properties by 0.01 M silver-thiourea (AgTU+)" ;
+  skos:definition "None" ;
+  skos:notation "15F" ;
+  skos:note "None" ;
+  skos:prefLabel "Ion-exchange properties by 0.01 M silver-thiourea (AgTU+)" ;
+.
+<15F1>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable bases by 0.01 M silver-thiourea (AgTU+) - no pre-treatment for soluble salts" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15F1" ;
+  rdfs:label "Exchangeable bases by 0.01 M silver-thiourea (AgTU+) - no pre-treatment for soluble salts" ;
+  skos:broader <15F> ;
+  skos:definition "None" ;
+  skos:notation "15F1" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable bases by 0.01 M silver-thiourea (AgTU+) - no pre-treatment for soluble salts" ;
+.
+<15F2>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable aluminium by 0.01 M AgTU+" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15F2" ;
+  rdfs:label "Exchangeable aluminium by 0.01 M AgTU+" ;
+  skos:broader <15F> ;
+  skos:definition "None" ;
+  skos:notation "15F2" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable aluminium by 0.01 M AgTU+" ;
+.
+<15F3>
+  rdf:type skos:Concept ;
+  dct:description "Cation exchange capacity by 0.01 M AgTU+ [CEC AgTU]" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15F3" ;
+  rdfs:label "Cation exchange capacity by 0.01 M AgTU+ [CEC AgTU]" ;
+  skos:broader <15F> ;
+  skos:definition "None" ;
+  skos:notation "15F3" ;
+  skos:note "None" ;
+  skos:prefLabel "Cation exchange capacity by 0.01 M AgTU+ [CEC AgTU]" ;
+.
+<15G1>
+  rdf:type skos:Concept ;
+  dct:description "Exchange acidity (H+ + Al3+) by 1 M potassium chloride " ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15G1" ;
+  rdfs:label "Exchange acidity (H+ + Al3+) by 1 M potassium chloride " ;
+  skos:definition "None" ;
+  skos:notation "15G1" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchange acidity (H+ + Al3+) by 1 M potassium chloride " ;
+.
+<15H1>
+  rdf:type skos:Concept ;
+  dct:description "Exchange acidity by triethanolamine (TEA)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15H1" ;
+  rdfs:label "Exchange acidity by triethanolamine (TEA)" ;
+  skos:definition "None" ;
+  skos:notation "15H1" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchange acidity by triethanolamine (TEA)" ;
+.
+<15I>
+  rdf:type skos:Concept ;
+  dct:description "Cation exchange capacity measurement" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15I" ;
+  rdfs:label "Cation exchange capacity measurement" ;
+  skos:definition "None" ;
+  skos:notation "15I" ;
+  skos:note "None" ;
+  skos:prefLabel "Cation exchange capacity measurement" ;
+.
+<15I1>
+  rdf:type skos:Concept ;
+  dct:description "Cation exchange capacity measurement - distillation of NH+4" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15I1" ;
+  rdfs:label "Cation exchange capacity measurement - distillation of NH+4" ;
+  skos:broader <15I> ;
+  skos:definition "None" ;
+  skos:notation "15I1" ;
+  skos:note "None" ;
+  skos:prefLabel "Cation exchange capacity measurement - distillation of NH+4" ;
+.
+<15I2>
+  rdf:type skos:Concept ;
+  dct:description "Cation exchange capacity measurement - automated determination of NH+4" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15I2" ;
+  rdfs:label "Cation exchange capacity measurement - automated determination of NH+4" ;
+  skos:broader <15I> ;
+  skos:definition "None" ;
+  skos:notation "15I2" ;
+  skos:note "None" ;
+  skos:prefLabel "Cation exchange capacity measurement - automated determination of NH+4" ;
+.
+<15I3>
+  rdf:type skos:Concept ;
+  dct:description "Cation exchange capacity measurement - automated determination of NH+4 and Cl+" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15I3" ;
+  rdfs:label "Cation exchange capacity measurement - automated determination of NH+4 and Cl+" ;
+  skos:broader <15I> ;
+  skos:definition "None" ;
+  skos:notation "15I3" ;
+  skos:note "None" ;
+  skos:prefLabel "Cation exchange capacity measurement - automated determination of NH+4 and Cl+" ;
+.
+<15I4>
+  rdf:type skos:Concept ;
+  dct:description "Cation exchange capacity measurement - titration of NH+4 and Cl-" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15I4" ;
+  rdfs:label "Cation exchange capacity measurement - titration of NH+4 and Cl-" ;
+  skos:broader <15I> ;
+  skos:definition "None" ;
+  skos:notation "15I4" ;
+  skos:note "None" ;
+  skos:prefLabel "Cation exchange capacity measurement - titration of NH+4 and Cl-" ;
+.
+<15J1>
+  rdf:type skos:Concept ;
+  dct:description "Effective cation exchange capacity (ECEC)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15J1" ;
+  rdfs:label "Effective cation exchange capacity (ECEC)" ;
+  skos:definition "None" ;
+  skos:notation "15J1" ;
+  skos:note "None" ;
+  skos:prefLabel "Effective cation exchange capacity (ECEC)" ;
+.
+<15K1>
+  rdf:type skos:Concept ;
+  dct:description "Cation exchange capacity - pH 8.2 (CEC pH 8.2)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15K1" ;
+  rdfs:label "Cation exchange capacity - pH 8.2 (CEC pH 8.2)" ;
+  skos:definition "None" ;
+  skos:notation "15K1" ;
+  skos:note "None" ;
+  skos:prefLabel "Cation exchange capacity - pH 8.2 (CEC pH 8.2)" ;
+.
+<15L1>
+  rdf:type skos:Concept ;
+  dct:description "Base saturation percentage (ESP)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15L1" ;
+  rdfs:label "Base saturation percentage (ESP)" ;
+  skos:definition "None" ;
+  skos:notation "15L1" ;
+  skos:note "None" ;
+  skos:prefLabel "Base saturation percentage (ESP)" ;
+.
+<15M1>
+  rdf:type skos:Concept ;
+  dct:description "Basic cation saturation ratios" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15M1" ;
+  rdfs:label "Basic cation saturation ratios" ;
+  skos:definition "None" ;
+  skos:notation "15M1" ;
+  skos:note "None" ;
+  skos:prefLabel "Basic cation saturation ratios" ;
+.
+<15N1>
+  rdf:type skos:Concept ;
+  dct:description "Exchangeable Na+ percentage (ESP)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15N1" ;
+  rdfs:label "Exchangeable Na+ percentage (ESP)" ;
+  skos:definition "None" ;
+  skos:notation "15N1" ;
+  skos:note "None" ;
+  skos:prefLabel "Exchangeable Na+ percentage (ESP)" ;
+.
+<15O1>
+  rdf:type skos:Concept ;
+  dct:description "Percent Al saturation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "15O1" ;
+  rdfs:label "Percent Al saturation" ;
+  skos:definition "None" ;
+  skos:notation "15O1" ;
+  skos:note "None" ;
+  skos:prefLabel "Percent Al saturation" ;
+.
+<16>
+  rdf:type skos:Collection ;
+  dct:description "Lime requirement " ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation "16" ;
+  rdfs:label "Lime requirement " ;
+  skos:definition "None" ;
+  skos:member <16A1> ;
+  skos:member <16B1> ;
+  skos:member <16C1> ;
+  skos:member <16D1> ;
+  skos:notation "16" ;
+  skos:note "None" ;
+  skos:prefLabel "Lime requirement " ;
+.
+<16A1>
+  rdf:type skos:Concept ;
+  dct:description "Calculated lime rate - from exchangeable Al3+" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "16A1" ;
+  rdfs:label "Calculated lime rate - from exchangeable Al3+" ;
+  skos:definition "None" ;
+  skos:notation "16A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Calculated lime rate - from exchangeable Al3+" ;
+.
+<16B1>
+  rdf:type skos:Concept ;
+  dct:description "Calculated lime rate - Cregan" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "16B1" ;
+  rdfs:label "Calculated lime rate - Cregan" ;
+  skos:definition "None" ;
+  skos:notation "16B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Calculated lime rate - Cregan" ;
+.
+<16C1>
+  rdf:type skos:Concept ;
+  dct:description "Lime requirement - Mehlich single buffer" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "16C1" ;
+  rdfs:label "Lime requirement - Mehlich single buffer" ;
+  skos:definition "None" ;
+  skos:notation "16C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Lime requirement - Mehlich single buffer" ;
+.
+<16D1>
+  rdf:type skos:Concept ;
+  dct:description "Lime requirement - Dunn titration curves" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "16D1" ;
+  rdfs:label "Lime requirement - Dunn titration curves" ;
+  skos:definition "None" ;
+  skos:notation "16D1" ;
+  skos:note "None" ;
+  skos:prefLabel "Lime requirement - Dunn titration curves" ;
+.
+<17>
+  rdf:type skos:Collection ;
+  dct:description "Total miscellaneous elements" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation "17" ;
+  rdfs:label "Total miscellaneous elements" ;
+  skos:definition "None" ;
+  skos:member <17A> ;
+  skos:member <17B1> ;
+  skos:member <17B2> ;
+  skos:member <17C1> ;
+  skos:notation "17" ;
+  skos:note "None" ;
+  skos:prefLabel "Total miscellaneous elements" ;
+.
+<17A>
+  rdf:type skos:Concept ;
+  dct:description "Total elemental analysis of soils and sediments" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "17A" ;
+  rdfs:label "Total elemental analysis of soils and sediments" ;
+  skos:definition "None" ;
+  skos:narrower <17A1> ;
+  skos:narrower <17A2> ;
+  skos:notation "17A" ;
+  skos:note "None" ;
+  skos:prefLabel "Total elemental analysis of soils and sediments" ;
+.
+<17A1>
+  rdf:type skos:Concept ;
+  dct:description "Total elemental analysis of soils and sediments -X-ray fluorescence spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "17A1" ;
+  rdfs:label "Total elemental analysis of soils and sediments -X-ray fluorescence spectroscopy" ;
+  skos:broader <17A> ;
+  skos:definition "None" ;
+  skos:notation "17A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Total elemental analysis of soils and sediments -X-ray fluorescence spectroscopy" ;
+.
+<17A2>
+  rdf:type skos:Concept ;
+  dct:description "Total elemental analysis of soils and sediments - microwave assisted digestion, with determination by atomic spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "17A2" ;
+  rdfs:label "Total elemental analysis of soils and sediments - microwave assisted digestion, with determination by atomic spectroscopy" ;
+  skos:broader <17A> ;
+  skos:definition "None" ;
+  skos:notation "17A2" ;
+  skos:note "None" ;
+  skos:prefLabel "Total elemental analysis of soils and sediments - microwave assisted digestion, with determination by atomic spectroscopy" ;
+.
+<17B>
+  rdf:type skos:Concept ;
+  dct:description "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "17B" ;
+  rdfs:label "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia" ;
+  skos:definition "None" ;
+  skos:notation "17B" ;
+  skos:note "None" ;
+  skos:prefLabel "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia" ;
+.
+<17B1>
+  rdf:type skos:Concept ;
+  dct:description "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia block digestion with determination by atomic spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "17B1" ;
+  rdfs:label "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia block digestion with determination by atomic spectroscopy" ;
+  skos:broader <17B> ;
+  skos:definition "None" ;
+  skos:notation "17B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia block digestion with determination by atomic spectroscopy" ;
+.
+<17B2>
+  rdf:type skos:Concept ;
+  dct:description "Pseudo-total elements of soils and sediments - reverse aqua regia microwave assisted digestion of sludges, soils and sediments, with determination by atomic spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "17B2" ;
+  rdfs:label "Pseudo-total elements of soils and sediments - reverse aqua regia microwave assisted digestion of sludges, soils and sediments, with determination by atomic spectroscopy" ;
+  skos:broader <17B> ;
+  skos:definition "None" ;
+  skos:notation "17B2" ;
+  skos:note "None" ;
+  skos:prefLabel "Pseudo-total elements of soils and sediments - reverse aqua regia microwave assisted digestion of sludges, soils and sediments, with determination by atomic spectroscopy" ;
+.
+<17C1>
+  rdf:type skos:Concept ;
+  dct:description "Pseudo-total elements of soils and sediments - conventional aqua regia block digestion and determination by atomic spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "17C1" ;
+  rdfs:label "Pseudo-total elements of soils and sediments - conventional aqua regia block digestion and determination by atomic spectroscopy" ;
+  skos:definition "None" ;
+  skos:notation "17C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Pseudo-total elements of soils and sediments - conventional aqua regia block digestion and determination by atomic spectroscopy" ;
+.
+<18>
+  rdf:type skos:Collection ;
+  dct:description "Miscellaneous extractable elements" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation "18" ;
+  rdfs:label "Miscellaneous extractable elements" ;
+  skos:definition "None" ;
+  skos:member <18A1> ;
+  skos:member <18B1> ;
+  skos:member <18C1> ;
+  skos:member <18D1> ;
+  skos:member <18E1> ;
+  skos:member <18F> ;
+  skos:member <18G1> ;
+  skos:notation "18" ;
+  skos:note "None" ;
+  skos:prefLabel "Miscellaneous extractable elements" ;
+.
+<18A1>
+  rdf:type skos:Concept ;
+  dct:description "Bicarbonate-extractable K+" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "18A1" ;
+  rdfs:label "Bicarbonate-extractable K+" ;
+  skos:definition "None" ;
+  skos:notation "18A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Bicarbonate-extractable K+" ;
+.
+<18B1>
+  rdf:type skos:Concept ;
+  dct:description "Hydrochloric acid-extractable K+" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "18B1" ;
+  rdfs:label "Hydrochloric acid-extractable K+" ;
+  skos:definition "None" ;
+  skos:notation "18B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Hydrochloric acid-extractable K+" ;
+.
+<18C1>
+  rdf:type skos:Concept ;
+  dct:description "Boiling 0.1 nitric acid-extractable K+" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "18C1" ;
+  rdfs:label "Boiling 0.1 nitric acid-extractable K+" ;
+  skos:definition "None" ;
+  skos:notation "18C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Boiling 0.1 nitric acid-extractable K+" ;
+.
+<18D1>
+  rdf:type skos:Concept ;
+  dct:description "0.1 M calcium chloride-extractable Cd" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "18D1" ;
+  rdfs:label "0.1 M calcium chloride-extractable Cd" ;
+  skos:definition "None" ;
+  skos:notation "18D1" ;
+  skos:note "None" ;
+  skos:prefLabel "0.1 M calcium chloride-extractable Cd" ;
+.
+<18E1>
+  rdf:type skos:Concept ;
+  dct:description "0.01 M calcium chloride-extractable Cd" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "18E1" ;
+  rdfs:label "0.01 M calcium chloride-extractable Cd" ;
+  skos:definition "None" ;
+  skos:notation "18E1" ;
+  skos:note "None" ;
+  skos:prefLabel "0.01 M calcium chloride-extractable Cd" ;
+.
+<18F>
+  rdf:type skos:Concept ;
+  dct:description "Mehlich 3 multi-element tests" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "18F" ;
+  rdfs:label "Mehlich 3 multi-element tests" ;
+  skos:definition "None" ;
+  skos:narrower <18F1> ;
+  skos:narrower <18F2> ;
+  skos:notation "18F" ;
+  skos:note "None" ;
+  skos:prefLabel "Mehlich 3 multi-element tests" ;
+.
+<18F1>
+  rdf:type skos:Concept ;
+  dct:description "Mehlich 3-extractable elements (P, Ca, Mg, Na, K, Fe, Cu, Mn, Zn, B, S, Al)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "18F1" ;
+  rdfs:label "Mehlich 3-extractable elements (P, Ca, Mg, Na, K, Fe, Cu, Mn, Zn, B, S, Al)" ;
+  skos:broader <18F> ;
+  skos:definition "None" ;
+  skos:notation "18F1" ;
+  skos:note "None" ;
+  skos:prefLabel "Mehlich 3-extractable elements (P, Ca, Mg, Na, K, Fe, Cu, Mn, Zn, B, S, Al)" ;
+.
+<18F2>
+  rdf:type skos:Concept ;
+  dct:description "Mehlich 3 Extractable P - colour finish" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "18F2" ;
+  rdfs:label "Mehlich 3 Extractable P - colour finish" ;
+  skos:broader <18F> ;
+  skos:definition "None" ;
+  skos:notation "18F2" ;
+  skos:note "None" ;
+  skos:prefLabel "Mehlich 3 Extractable P - colour finish" ;
+.
+<18G1>
+  rdf:type skos:Concept ;
+  dct:description "Reverse soil K+ by copper-modified sodium tetraphenylboron extraction (TBK 4h)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "18G1" ;
+  rdfs:label "Reverse soil K+ by copper-modified sodium tetraphenylboron extraction (TBK 4h)" ;
+  skos:definition "None" ;
+  skos:notation "18G1" ;
+  skos:note "None" ;
+  skos:prefLabel "Reverse soil K+ by copper-modified sodium tetraphenylboron extraction (TBK 4h)" ;
+.
+<19>
+  rdf:type skos:Collection ;
+  dct:description "Alkaline earth carbonates" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation "19" ;
+  rdfs:label "Alkaline earth carbonates" ;
+  skos:definition "None" ;
+  skos:member <19A1> ;
+  skos:member <19B> ;
+  skos:member <19C1> ;
+  skos:member <19D1> ;
+  skos:notation "19" ;
+  skos:note "None" ;
+  skos:prefLabel "Alkaline earth carbonates" ;
+.
+<19A1>
+  rdf:type skos:Concept ;
+  dct:description "Carbonates -rapid titration" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "19A1" ;
+  rdfs:label "Carbonates -rapid titration" ;
+  skos:definition "None" ;
+  skos:notation "19A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Carbonates -rapid titration" ;
+.
+<19B>
+  rdf:type skos:Concept ;
+  dct:description "Carbonates by pressure change" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "19B" ;
+  rdfs:label "Carbonates by pressure change" ;
+  skos:definition "None" ;
+  skos:narrower <19B1> ;
+  skos:narrower <19B2> ;
+  skos:notation "19B" ;
+  skos:note "None" ;
+  skos:prefLabel "Carbonates by pressure change" ;
+.
+<19B1>
+  rdf:type skos:Concept ;
+  dct:description "Carbonates by pressure change - manometric" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "19B1" ;
+  rdfs:label "Carbonates by pressure change - manometric" ;
+  skos:broader <19B> ;
+  skos:definition "None" ;
+  skos:notation "19B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Carbonates by pressure change - manometric" ;
+.
+<19B2>
+  rdf:type skos:Concept ;
+  dct:description "Carbonates by pressure change - transducer" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "19B2" ;
+  rdfs:label "Carbonates by pressure change - transducer" ;
+  skos:broader <19B> ;
+  skos:definition "None" ;
+  skos:notation "19B2" ;
+  skos:note "None" ;
+  skos:prefLabel "Carbonates by pressure change - transducer" ;
+.
+<19C1>
+  rdf:type skos:Concept ;
+  dct:description "Spot field test for the presence of soil carbonates with dilute HCl" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "19C1" ;
+  rdfs:label "Spot field test for the presence of soil carbonates with dilute HCl" ;
+  skos:definition "None" ;
+  skos:notation "19C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Spot field test for the presence of soil carbonates with dilute HCl" ;
+.
+<19D1>
+  rdf:type skos:Concept ;
+  dct:description "Field test for carbonates with dilute HCl and effervescence class assessment" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "19D1" ;
+  rdfs:label "Field test for carbonates with dilute HCl and effervescence class assessment" ;
+  skos:definition "None" ;
+  skos:notation "19D1" ;
+  skos:note "None" ;
+  skos:prefLabel "Field test for carbonates with dilute HCl and effervescence class assessment" ;
+.
+<2>
+  rdf:type skos:Collection ;
+  dct:description "Sampling, preparation and moisture content" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation 2 ;
+  rdfs:label "Sampling, preparation and moisture content" ;
+  skos:definition "None" ;
+  skos:member <2A1> ;
+  skos:member <2B1> ;
+  skos:member <2C1> ;
+  skos:member <2D1> ;
+  skos:notation 2 ;
+  skos:note "None" ;
+  skos:prefLabel "Sampling, preparation and moisture content" ;
+.
+<20>
+  rdf:type skos:Collection ;
+  dct:description "Acid sulfate soils" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation "20" ;
+  rdfs:label "Acid sulfate soils" ;
+  skos:definition "None" ;
+  skos:member <20A1> ;
+  skos:member <20B1> ;
+  skos:member <20C1> ;
+  skos:member <20D1> ;
+  skos:member <20E1> ;
+  skos:member <20F1> ;
+  skos:member <20F2> ;
+  skos:member <20G1> ;
+  skos:member <20H1> ;
+  skos:member <20I1> ;
+  skos:member <20J1> ;
+  skos:member <20K1> ;
+  skos:notation "20" ;
+  skos:note "None" ;
+  skos:prefLabel "Acid sulfate soils" ;
+.
+<20A1>
+  rdf:type skos:Concept ;
+  dct:description "Chromium reducible S (S CR)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20A1" ;
+  rdfs:label "Chromium reducible S (S CR)" ;
+  skos:definition "None" ;
+  skos:notation "20A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Chromium reducible S (S CR)" ;
+.
+<20B1>
+  rdf:type skos:Concept ;
+  dct:description "SPOCAS acid trail - titratable actual acidity (TAA)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20B1" ;
+  rdfs:label "SPOCAS acid trail - titratable actual acidity (TAA)" ;
+  skos:definition "None" ;
+  skos:notation "20B1" ;
+  skos:note "None" ;
+  skos:prefLabel "SPOCAS acid trail - titratable actual acidity (TAA)" ;
+.
+<20C1>
+  rdf:type skos:Concept ;
+  dct:description "SPOCAS acid trail - titratable peroxide acidity (TPA) and Net (excess) Acid Neutralising Capacity (a-ANC E)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20C1" ;
+  rdfs:label "SPOCAS acid trail - titratable peroxide acidity (TPA) and Net (excess) Acid Neutralising Capacity (a-ANC E)" ;
+  skos:definition "None" ;
+  skos:notation "20C1" ;
+  skos:note "None" ;
+  skos:prefLabel "SPOCAS acid trail - titratable peroxide acidity (TPA) and Net (excess) Acid Neutralising Capacity (a-ANC E)" ;
+.
+<20D1>
+  rdf:type skos:Concept ;
+  dct:description "1 M KCl-extractable S, Ca and Mg" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20D1" ;
+  rdfs:label "1 M KCl-extractable S, Ca and Mg" ;
+  skos:definition "None" ;
+  skos:notation "20D1" ;
+  skos:note "None" ;
+  skos:prefLabel "1 M KCl-extractable S, Ca and Mg" ;
+.
+<20E1>
+  rdf:type skos:Concept ;
+  dct:description "1 M KCl-extractable S, Ca and Mg after peroxide oxidation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20E1" ;
+  rdfs:label "1 M KCl-extractable S, Ca and Mg after peroxide oxidation" ;
+  skos:definition "None" ;
+  skos:notation "20E1" ;
+  skos:note "None" ;
+  skos:prefLabel "1 M KCl-extractable S, Ca and Mg after peroxide oxidation" ;
+.
+<20F>
+  rdf:type skos:Concept ;
+  dct:description "Sulfur - 4 M HCl extraction (S HCl)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20F" ;
+  rdfs:label "Sulfur - 4 M HCl extraction (S HCl)" ;
+  skos:definition "None" ;
+  skos:notation "20F" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfur - 4 M HCl extraction (S HCl)" ;
+.
+<20F1>
+  rdf:type skos:Concept ;
+  dct:description "Sulfur - 4 M HCl extraction (S HCl), ICPAES finish" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20F1" ;
+  rdfs:label "Sulfur - 4 M HCl extraction (S HCl), ICPAES finish" ;
+  skos:broader <20F> ;
+  skos:definition "None" ;
+  skos:notation "20F1" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfur - 4 M HCl extraction (S HCl), ICPAES finish" ;
+.
+<20F2>
+  rdf:type skos:Concept ;
+  dct:description "Sulfur - 4 M HCl extraction (S HCl), ion chromatography finish" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20F2" ;
+  rdfs:label "Sulfur - 4 M HCl extraction (S HCl), ion chromatography finish" ;
+  skos:broader <20F> ;
+  skos:definition "None" ;
+  skos:notation "20F2" ;
+  skos:note "None" ;
+  skos:prefLabel "Sulfur - 4 M HCl extraction (S HCl), ion chromatography finish" ;
+.
+<20G1>
+  rdf:type skos:Concept ;
+  dct:description "Peroxide residual acid soluble sulfur (S RAS)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20G1" ;
+  rdfs:label "Peroxide residual acid soluble sulfur (S RAS)" ;
+  skos:definition "None" ;
+  skos:notation "20G1" ;
+  skos:note "None" ;
+  skos:prefLabel "Peroxide residual acid soluble sulfur (S RAS)" ;
+.
+<20H1>
+  rdf:type skos:Concept ;
+  dct:description "Acid neutralising capacity - acid reacted and back titration (ANC BT)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20H1" ;
+  rdfs:label "Acid neutralising capacity - acid reacted and back titration (ANC BT)" ;
+  skos:definition "None" ;
+  skos:notation "20H1" ;
+  skos:note "None" ;
+  skos:prefLabel "Acid neutralising capacity - acid reacted and back titration (ANC BT)" ;
+.
+<20I1>
+  rdf:type skos:Concept ;
+  dct:description "Acid neutralising capacity - from SPOCAS" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20I1" ;
+  rdfs:label "Acid neutralising capacity - from SPOCAS" ;
+  skos:definition "None" ;
+  skos:notation "20I1" ;
+  skos:note "None" ;
+  skos:prefLabel "Acid neutralising capacity - from SPOCAS" ;
+.
+<20J1>
+  rdf:type skos:Concept ;
+  dct:description "Field approximation of ASS hazard" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20J1" ;
+  rdfs:label "Field approximation of ASS hazard" ;
+  skos:definition "None" ;
+  skos:notation "20J1" ;
+  skos:note "None" ;
+  skos:prefLabel "Field approximation of ASS hazard" ;
+.
+<20K1>
+  rdf:type skos:Concept ;
+  dct:description "Quick field approximations of ASS presence and associated lime requirement for drain-spoil" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "20K1" ;
+  rdfs:label "Quick field approximations of ASS presence and associated lime requirement for drain-spoil" ;
+  skos:definition "None" ;
+  skos:notation "20K1" ;
+  skos:note "None" ;
+  skos:prefLabel "Quick field approximations of ASS presence and associated lime requirement for drain-spoil" ;
+.
+<2A1>
+  rdf:type skos:Concept ;
+  dct:description "Air-dry moisture content" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "2A1" ;
+  rdfs:label "Air-dry moisture content" ;
+  skos:definition "None" ;
+  skos:notation "2A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Air-dry moisture content" ;
+.
+<2B1>
+  rdf:type skos:Concept ;
+  dct:description "As received moisture content" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "2B1" ;
+  rdfs:label "As received moisture content" ;
+  skos:definition "None" ;
+  skos:notation "2B1" ;
+  skos:note "None" ;
+  skos:prefLabel "As received moisture content" ;
+.
+<2C1>
+  rdf:type skos:Concept ;
+  dct:description "Moisture content - 10 mm tension" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "2C1" ;
+  rdfs:label "Moisture content - 10 mm tension" ;
+  skos:definition "None" ;
+  skos:notation "2C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Moisture content - 10 mm tension" ;
+.
+<2D1>
+  rdf:type skos:Concept ;
+  dct:description "Moisture content - approximate saturation paste" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "2D1" ;
+  rdfs:label "Moisture content - approximate saturation paste" ;
+  skos:definition "None" ;
+  skos:notation "2D1" ;
+  skos:note "None" ;
+  skos:prefLabel "Moisture content - approximate saturation paste" ;
+.
+<3>
+  rdf:type skos:Collection ;
+  dct:description "Electrical conductivity, related attributes and redox potential" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation 3 ;
+  rdfs:label "Electrical conductivity, related attributes and redox potential" ;
+  skos:definition "None" ;
+  skos:member <3A1> ;
+  skos:member <3B1> ;
+  skos:member <3C1> ;
+  skos:member <3D1> ;
+  skos:notation 3 ;
+  skos:note "None" ;
+  skos:prefLabel "Electrical conductivity, related attributes and redox potential" ;
+.
+<3A1>
+  rdf:type skos:Concept ;
+  dct:description "Electrical conductivity (EC) of 1:5 soil/water extract" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "3A1" ;
+  rdfs:label "Electrical conductivity (EC) of 1:5 soil/water extract" ;
+  skos:definition "None" ;
+  skos:notation "3A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Electrical conductivity (EC) of 1:5 soil/water extract" ;
+.
+<3B1>
+  rdf:type skos:Concept ;
+  dct:description "Estimated soluble salt concentration" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "3B1" ;
+  rdfs:label "Estimated soluble salt concentration" ;
+  skos:definition "None" ;
+  skos:notation "3B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Estimated soluble salt concentration" ;
+.
+<3C1>
+  rdf:type skos:Concept ;
+  dct:description "Estimated soil ionic strength" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "3C1" ;
+  rdfs:label "Estimated soil ionic strength" ;
+  skos:definition "None" ;
+  skos:notation "3C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Estimated soil ionic strength" ;
+.
+<3D1>
+  rdf:type skos:Concept ;
+  dct:description "Redox potential (Eh; field)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "3D1" ;
+  rdfs:label "Redox potential (Eh; field)" ;
+  skos:definition "None" ;
+  skos:notation "3D1" ;
+  skos:note "None" ;
+  skos:prefLabel "Redox potential (Eh; field)" ;
+.
+<4>
+  rdf:type skos:Collection ;
+  dct:description "Soil pH" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation 4 ;
+  rdfs:label "Soil pH" ;
+  skos:definition "None" ;
+  skos:member <4A> ;
+  skos:member <4D1> ;
+  skos:member <4E1> ;
+  skos:member <4F1> ;
+  skos:member <4G1> ;
+  skos:notation 4 ;
+  skos:note "None" ;
+  skos:prefLabel "Soil pH" ;
+.
+<4A>
+  rdf:type skos:Concept ;
+  dct:description "pH of soil/water suspension" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4A" ;
+  rdfs:label "pH of soil/water suspension" ;
+  skos:definition "None" ;
+  skos:narrower <4A1> ;
+  skos:narrower <4A2> ;
+  skos:narrower <4A3> ;
+  skos:notation "4A" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of soil/water suspension" ;
+.
+<4A1>
+  rdf:type skos:Concept ;
+  dct:description "pH of a 1:5 soil/water suspension" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4A1" ;
+  rdfs:label "pH of a 1:5 soil/water suspension" ;
+  skos:broader <4A> ;
+  skos:definition "None" ;
+  skos:notation "4A1" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of a 1:5 soil/water suspension" ;
+.
+<4A2>
+  rdf:type skos:Concept ;
+  dct:description "pH of a 1:1 soil/water suspension" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4A2" ;
+  rdfs:label "pH of a 1:1 soil/water suspension" ;
+  skos:broader <4A> ;
+  skos:definition "None" ;
+  skos:notation "4A2" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of a 1:1 soil/water suspension" ;
+.
+<4A3>
+  rdf:type skos:Concept ;
+  dct:description "pH of a 1:2.5 soil/water suspension" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4A3" ;
+  rdfs:label "pH of a 1:2.5 soil/water suspension" ;
+  skos:broader <4A> ;
+  skos:definition "None" ;
+  skos:notation "4A3" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of a 1:2.5 soil/water suspension" ;
+.
+<4B>
+  rdf:type skos:Concept ;
+  dct:description "pH of 1:5 soil/0.01 M calcium chloride extract" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4B" ;
+  rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract" ;
+  skos:definition "None" ;
+  skos:narrower <4B1> ;
+  skos:narrower <4B2> ;
+  skos:narrower <4B3> ;
+  skos:narrower <4B4> ;
+  skos:narrower <4B5> ;
+  skos:notation "4B" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of 1:5 soil/0.01 M calcium chloride extract" ;
+.
+<4B1>
+  rdf:type skos:Concept ;
+  dct:description "pH of 1:5 soil/0.01 M calcium chloride extract - direct (without stirring during measurement)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4B1" ;
+  rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract - direct (without stirring during measurement)" ;
+  skos:broader <4B> ;
+  skos:definition "None" ;
+  skos:notation "4B1" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of 1:5 soil/0.01 M calcium chloride extract - direct (without stirring during measurement)" ;
+.
+<4B2>
+  rdf:type skos:Concept ;
+  dct:description "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (without stirring during measurement)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4B2" ;
+  rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (without stirring during measurement)" ;
+  skos:broader <4B> ;
+  skos:definition "None" ;
+  skos:notation "4B2" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (without stirring during measurement)" ;
+.
+<4B3>
+  rdf:type skos:Concept ;
+  dct:description "pH of 1:5 soil/0.01 M calcium chloride extract -direct (without stirring during measurement)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4B3" ;
+  rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract -direct (without stirring during measurement)" ;
+  skos:broader <4B> ;
+  skos:definition "None" ;
+  skos:notation "4B3" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of 1:5 soil/0.01 M calcium chloride extract -direct (without stirring during measurement)" ;
+.
+<4B4>
+  rdf:type skos:Concept ;
+  dct:description "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (with stirring during measurement)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4B4" ;
+  rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (with stirring during measurement)" ;
+  skos:broader <4B> ;
+  skos:definition "None" ;
+  skos:notation "4B4" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (with stirring during measurement)" ;
+.
+<4B5>
+  rdf:type skos:Concept ;
+  dct:description "pH of 1:5 soil/0.01 M calcium chloride extract equivalent, by MIR reflectance spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4B5" ;
+  rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract equivalent, by MIR reflectance spectroscopy" ;
+  skos:broader <4B> ;
+  skos:definition "None" ;
+  skos:notation "4B5" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of 1:5 soil/0.01 M calcium chloride extract equivalent, by MIR reflectance spectroscopy" ;
+.
+<4C>
+  rdf:type skos:Concept ;
+  dct:description "pH of 1:5 soil/1M potassium chloride extract" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4C" ;
+  rdfs:label "pH of 1:5 soil/1M potassium chloride extract" ;
+  skos:definition "None" ;
+  skos:narrower <4C1> ;
+  skos:narrower <4C2> ;
+  skos:narrower <4C3> ;
+  skos:narrower <4C4> ;
+  skos:notation "4C" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of 1:5 soil/1M potassium chloride extract" ;
+.
+<4C1>
+  rdf:type skos:Concept ;
+  dct:description "pH of 1:5 soil/1M potassium chloride extract - direct (without stirring during measurement)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4C1" ;
+  rdfs:label "pH of 1:5 soil/1M potassium chloride extract - direct (without stirring during measurement)" ;
+  skos:broader <4C> ;
+  skos:definition "None" ;
+  skos:notation "4C1" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of 1:5 soil/1M potassium chloride extract - direct (without stirring during measurement)" ;
+.
+<4C2>
+  rdf:type skos:Concept ;
+  dct:description "pH of 1:5 soil/1M potassium chloride extract following method 4A1 (without stirring during measurement)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4C2" ;
+  rdfs:label "pH of 1:5 soil/1M potassium chloride extract following method 4A1 (without stirring during measurement)" ;
+  skos:broader <4C> ;
+  skos:definition "None" ;
+  skos:notation "4C2" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of 1:5 soil/1M potassium chloride extract following method 4A1 (without stirring during measurement)" ;
+.
+<4C3>
+  rdf:type skos:Concept ;
+  dct:description "pH of 1:5 soil/1M potassium chloride extract - direct (with stirring during measurement)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4C3" ;
+  rdfs:label "pH of 1:5 soil/1M potassium chloride extract - direct (with stirring during measurement)" ;
+  skos:broader <4C> ;
+  skos:definition "None" ;
+  skos:notation "4C3" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of 1:5 soil/1M potassium chloride extract - direct (with stirring during measurement)" ;
+.
+<4C4>
+  rdf:type skos:Concept ;
+  dct:description "pH of 1:5 soil 1M potassium chloride extract - following method 4A1 (with stirring during measurement)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4C4" ;
+  rdfs:label "pH of 1:5 soil 1M potassium chloride extract - following method 4A1 (with stirring during measurement)" ;
+  skos:broader <4C> ;
+  skos:definition "None" ;
+  skos:notation "4C4" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of 1:5 soil 1M potassium chloride extract - following method 4A1 (with stirring during measurement)" ;
+.
+<4D1>
+  rdf:type skos:Concept ;
+  dct:description "pH of sodium fluoride potential suspension and 'reactivity class'" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4D1" ;
+  rdfs:label "pH of sodium fluoride potential suspension and 'reactivity class'" ;
+  skos:definition "None" ;
+  skos:notation "4D1" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of sodium fluoride potential suspension and 'reactivity class'" ;
+.
+<4E1>
+  rdf:type skos:Concept ;
+  dct:description "pH of hydrogen peroxide extract" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4E1" ;
+  rdfs:label "pH of hydrogen peroxide extract" ;
+  skos:definition "None" ;
+  skos:notation "4E1" ;
+  skos:note "None" ;
+  skos:prefLabel "pH of hydrogen peroxide extract" ;
+.
+<4F1>
+  rdf:type skos:Concept ;
+  dct:description "pH change" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4F1" ;
+  rdfs:label "pH change" ;
+  skos:definition "None" ;
+  skos:notation "4F1" ;
+  skos:note "None" ;
+  skos:prefLabel "pH change" ;
+.
+<4G1>
+  rdf:type skos:Concept ;
+  dct:description "Field determination of pH" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "4G1" ;
+  rdfs:label "Field determination of pH" ;
+  skos:definition "None" ;
+  skos:notation "4G1" ;
+  skos:note "None" ;
+  skos:prefLabel "Field determination of pH" ;
+.
+<5>
+  rdf:type skos:Collection ;
+  dct:description "Soluble chloride" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation 5 ;
+  rdfs:label "Soluble chloride" ;
+  skos:definition "None" ;
+  skos:member <5A1> ;
+  skos:member <5A2> ;
+  skos:member <5A2a> ;
+  skos:member <5A2b> ;
+  skos:member <5A3a> ;
+  skos:member <5A3b> ;
+  skos:member <5A4> ;
+  skos:notation 5 ;
+  skos:note "None" ;
+  skos:prefLabel "Soluble chloride" ;
+.
+<5A>
+  rdf:type skos:Concept ;
+  dct:description "Chloride - 1:5 soil/water extract" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "5A" ;
+  rdfs:label "Chloride - 1:5 soil/water extract" ;
+  skos:definition "None" ;
+  skos:notation "5A" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride - 1:5 soil/water extract" ;
+.
+<5A1>
+  rdf:type skos:Concept ;
+  dct:description "Chloride - 1:5 soil/water extract, potentiometric titration" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "5A1" ;
+  rdfs:label "Chloride - 1:5 soil/water extract, potentiometric titration" ;
+  skos:definition "None" ;
+  skos:notation "5A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride - 1:5 soil/water extract, potentiometric titration" ;
+.
+<5A2>
+  rdf:type skos:Concept ;
+  dct:description "Chloride - 1:5 soil/water extract, automated colour" ;
+  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  reg:notation "5A2" ;
+  rdfs:label "Chloride - 1:5 soil/water extract, automated colour" ;
+  skos:broader <5A> ;
+  skos:definition "None" ;
+  skos:notation "5A2" ;
+  skos:note "5A2 has been superseded by 5A2a, also Chloride - 1:5 soil/water extract, automated colour (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride - 1:5 soil/water extract, automated colour" ;
+.
+<5A2a>
+  rdf:type skos:Concept ;
+  dct:description "Chloride - 1:5 soil/water extract, automated colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "5A2a" ;
+  rdfs:label "Chloride - 1:5 soil/water extract, automated colour" ;
+  skos:definition "None" ;
+  skos:notation "5A2a" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride - 1:5 soil/water extract, automated colour" ;
+.
+<5A2b>
+  rdf:type skos:Concept ;
+  dct:description "Chloride - 1:5 soil/water extract, FIA" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "5A2b" ;
+  rdfs:label "Chloride - 1:5 soil/water extract, FIA" ;
+  skos:definition "None" ;
+  skos:notation "5A2b" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride - 1:5 soil/water extract, FIA" ;
+.
+<5A3a>
+  rdf:type skos:Concept ;
+  dct:description "Chloride - 1:5 soil/water extract, ion chromatography (chemical suppression of eluent conductivity)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "5A3a" ;
+  rdfs:label "Chloride - 1:5 soil/water extract, ion chromatography (chemical suppression of eluent conductivity)" ;
+  skos:definition "None" ;
+  skos:notation "5A3a" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride - 1:5 soil/water extract, ion chromatography (chemical suppression of eluent conductivity)" ;
+.
+<5A3b>
+  rdf:type skos:Concept ;
+  dct:description "Chloride - 1:5 soil/water extract, ion chromatography (single-column with electronic suppression of eluent conductivity)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "5A3b" ;
+  rdfs:label "Chloride - 1:5 soil/water extract, ion chromatography (single-column with electronic suppression of eluent conductivity)" ;
+  skos:definition "None" ;
+  skos:notation "5A3b" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride - 1:5 soil/water extract, ion chromatography (single-column with electronic suppression of eluent conductivity)" ;
+.
+<5A4>
+  rdf:type skos:Concept ;
+  dct:description "Chloride - 1:5 soil/water extract ICPAES" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "5A4" ;
+  rdfs:label "Chloride - 1:5 soil/water extract ICPAES" ;
+  skos:definition "None" ;
+  skos:notation "5A4" ;
+  skos:note "None" ;
+  skos:prefLabel "Chloride - 1:5 soil/water extract ICPAES" ;
+.
+<6>
+  rdf:type skos:Collection ;
+  dct:description "Carbon" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation 6 ;
+  rdfs:label "Carbon" ;
+  skos:definition "None" ;
+  skos:member <6A1> ;
+  skos:member <6B1> ;
+  skos:member <6B2> ;
+  skos:member <6C1> ;
+  skos:member <6D1> ;
+  skos:member <6E1> ;
+  skos:member <6F1> ;
+  skos:member <6G1> ;
+  skos:notation 6 ;
+  skos:note "None" ;
+  skos:prefLabel "Carbon" ;
+.
+<6A>
+  rdf:type skos:Concept ;
+  dct:description "Organic C" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6A" ;
+  rdfs:label "Organic C" ;
+  skos:definition "None" ;
+  skos:notation "6A" ;
+  skos:note "None" ;
+  skos:prefLabel "Organic C" ;
+.
+<6A1>
+  rdf:type skos:Concept ;
+  dct:description "Organic C - W&B" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6A1" ;
+  rdfs:label "Organic C - W&B" ;
+  skos:broader <6A> ;
+  skos:definition "None" ;
+  skos:notation "6A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Organic C - W&B" ;
+.
+<6B>
+  rdf:type skos:Concept ;
+  dct:description "Total organic C" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6B" ;
+  rdfs:label "Total organic C" ;
+  skos:definition "None" ;
+  skos:narrower <6B3> ;
+  skos:narrower <6B4> ;
+  skos:notation "6B" ;
+  skos:note "None" ;
+  skos:prefLabel "Total organic C" ;
+.
+<6B1>
+  rdf:type skos:Concept ;
+  dct:description "Total organic C - Heanes wet oxidisation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6B1" ;
+  rdfs:label "Total organic C - Heanes wet oxidisation" ;
+  skos:broader <6B> ;
+  skos:definition "None" ;
+  skos:notation "6B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Total organic C - Heanes wet oxidisation" ;
+.
+<6B2>
+  rdf:type skos:Concept ;
+  dct:description "Total organic C - Dumas high-temperature combustion" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6B2" ;
+  rdfs:label "Total organic C - Dumas high-temperature combustion" ;
+  skos:broader <6B> ;
+  skos:definition "None" ;
+  skos:narrower <6B2a> ;
+  skos:narrower <6B2b> ;
+  skos:notation "6B2" ;
+  skos:note "None" ;
+  skos:prefLabel "Total organic C - Dumas high-temperature combustion" ;
+.
+<6B2a>
+  rdf:type skos:Concept ;
+  dct:description "Total organic C - Dumas high-temperature combustion, volumetric (no soil pretreatment)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6B2a" ;
+  rdfs:label "Total organic C - Dumas high-temperature combustion, volumetric (no soil pretreatment)" ;
+  skos:broader <6B> ;
+  skos:broader <6B2> ;
+  skos:definition "None" ;
+  skos:notation "6B2a" ;
+  skos:note "None" ;
+  skos:prefLabel "Total organic C - Dumas high-temperature combustion, volumetric (no soil pretreatment)" ;
+.
+<6B2b>
+  rdf:type skos:Concept ;
+  dct:description "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (no soil pretreatment)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6B2b" ;
+  rdfs:label "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (no soil pretreatment)" ;
+  skos:broader <6B> ;
+  skos:broader <6B2> ;
+  skos:definition "None" ;
+  skos:notation "6B2b" ;
+  skos:note "None" ;
+  skos:prefLabel "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (no soil pretreatment)" ;
+.
+<6B3>
+  rdf:type skos:Concept ;
+  dct:description "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (with prior physical removal of charcoal and chemical removal of carbonates)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6B3" ;
+  rdfs:label "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (with prior physical removal of charcoal and chemical removal of carbonates)" ;
+  skos:broader <6B> ;
+  skos:definition "None" ;
+  skos:notation "6B3" ;
+  skos:note "None" ;
+  skos:prefLabel "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (with prior physical removal of charcoal and chemical removal of carbonates)" ;
+.
+<6B4>
+  rdf:type skos:Concept ;
+  dct:description "Total organic C - infrared diffuse reflectance spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6B4" ;
+  rdfs:label "Total organic C - infrared diffuse reflectance spectroscopy" ;
+  skos:broader <6B> ;
+  skos:definition "None" ;
+  skos:narrower <6B4a> ;
+  skos:narrower <6B4b> ;
+  skos:notation "6B4" ;
+  skos:note "None" ;
+  skos:prefLabel "Total organic C - infrared diffuse reflectance spectroscopy" ;
+.
+<6B4a>
+  rdf:type skos:Concept ;
+  dct:description "Total organic C - NIR reflectance spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6B4a" ;
+  rdfs:label "Total organic C - NIR reflectance spectroscopy" ;
+  skos:broader <6B> ;
+  skos:broader <6B4> ;
+  skos:definition "None" ;
+  skos:notation "6B4a" ;
+  skos:note "None" ;
+  skos:prefLabel "Total organic C - NIR reflectance spectroscopy" ;
+.
+<6B4b>
+  rdf:type skos:Concept ;
+  dct:description "Total organic C - MIR reflectance spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6B4b" ;
+  rdfs:label "Total organic C - MIR reflectance spectroscopy" ;
+  skos:broader <6B> ;
+  skos:broader <6B4> ;
+  skos:definition "None" ;
+  skos:notation "6B4b" ;
+  skos:note "None" ;
+  skos:prefLabel "Total organic C - MIR reflectance spectroscopy" ;
+.
+<6C1>
+  rdf:type skos:Concept ;
+  dct:description "Particulate organic C (POC)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6C1" ;
+  rdfs:label "Particulate organic C (POC)" ;
+  skos:definition "None" ;
+  skos:notation "6C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Particulate organic C (POC)" ;
+.
+<6D1>
+  rdf:type skos:Concept ;
+  dct:description "Pyrophosphate-extractable C" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6D1" ;
+  rdfs:label "Pyrophosphate-extractable C" ;
+  skos:definition "None" ;
+  skos:notation "6D1" ;
+  skos:note "None" ;
+  skos:prefLabel "Pyrophosphate-extractable C" ;
+.
+<6E1>
+  rdf:type skos:Concept ;
+  dct:description "Potassium permanganate oxidisable C (PPOC)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6E1" ;
+  rdfs:label "Potassium permanganate oxidisable C (PPOC)" ;
+  skos:definition "None" ;
+  skos:notation "6E1" ;
+  skos:note "None" ;
+  skos:prefLabel "Potassium permanganate oxidisable C (PPOC)" ;
+.
+<6F1>
+  rdf:type skos:Concept ;
+  dct:description "Charcoal-C" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6F1" ;
+  rdfs:label "Charcoal-C" ;
+  skos:definition "None" ;
+  skos:notation "6F1" ;
+  skos:note "None" ;
+  skos:prefLabel "Charcoal-C" ;
+.
+<6G1>
+  rdf:type skos:Concept ;
+  dct:description "Total organic matter, organic C, and carbonate by loss-on-ignition" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "6G1" ;
+  rdfs:label "Total organic matter, organic C, and carbonate by loss-on-ignition" ;
+  skos:definition "None" ;
+  skos:notation "6G1" ;
+  skos:note "None" ;
+  skos:prefLabel "Total organic matter, organic C, and carbonate by loss-on-ignition" ;
+.
+<7>
+  rdf:type skos:Collection ;
+  dct:description "Nitrogen" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation 7 ;
+  rdfs:label "Nitrogen" ;
+  skos:definition "None" ;
+  skos:member <7A1> ;
+  skos:member <7A2> ;
+  skos:member <7A3> ;
+  skos:member <7A4> ;
+  skos:member <7A5> ;
+  skos:member <7A6> ;
+  skos:member <7B> ;
+  skos:member <7C1> ;
+  skos:member <7D> ;
+  skos:notation 7 ;
+  skos:note "None" ;
+  skos:prefLabel "Nitrogen" ;
+.
+<7A>
+  rdf:type skos:Concept ;
+  dct:description "Total soil-N" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7A" ;
+  rdfs:label "Total soil-N" ;
+  skos:definition "None" ;
+  skos:notation "7A" ;
+  skos:note "None" ;
+  skos:prefLabel "Total soil-N" ;
+.
+<7A1>
+  rdf:type skos:Concept ;
+  dct:description "Total soil-N, semi micro Kjeldahl - steam distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7A1" ;
+  rdfs:label "Total soil-N, semi micro Kjeldahl - steam distillation" ;
+  skos:broader <7A> ;
+  skos:definition "None" ;
+  skos:notation "7A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Total soil-N, semi micro Kjeldahl - steam distillation" ;
+.
+<7A2>
+  rdf:type skos:Concept ;
+  dct:description "Total nitrogen - semimicro Kjeldahl, automated colour" ;
+  dct:description "Total soil-N, semi micro Kjeldahl - automated colour" ;
+  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  reg:notation "7A2" ;
+  rdfs:label "Total nitrogen - semimicro Kjeldahl, automated colour" ;
+  rdfs:label "Total soil-N, semi micro Kjeldahl - automated colour" ;
+  skos:broader <7A> ;
+  skos:definition "None" ;
+  skos:narrower <7A2a> ;
+  skos:narrower <7A2b> ;
+  skos:notation "7A2" ;
+  skos:note "7A2 has been superseded by 7A2a and 7A2b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
+  skos:note "None" ;
+  skos:prefLabel "Total nitrogen - semimicro Kjeldahl, automated colour" ;
+  skos:prefLabel "Total soil-N, semi micro Kjeldahl - automated colour" ;
+.
+<7A2a>
+  rdf:type skos:Concept ;
+  dct:description "Total soil-N, semi micro Kjeldahl - automated colour, continuous segmented flow " ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7A2a" ;
+  rdfs:label "Total soil-N, semi micro Kjeldahl - automated colour, continuous segmented flow " ;
+  skos:broader <7A> ;
+  skos:broader <7A2> ;
+  skos:definition "None" ;
+  skos:notation "7A2a" ;
+  skos:note "None" ;
+  skos:prefLabel "Total soil-N, semi micro Kjeldahl - automated colour, continuous segmented flow " ;
+.
+<7A2b>
+  rdf:type skos:Concept ;
+  dct:description "Total soil-N, semi micro Kjeldahl - automated colour - FIA" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7A2b" ;
+  rdfs:label "Total soil-N, semi micro Kjeldahl - automated colour - FIA" ;
+  skos:broader <7A> ;
+  skos:broader <7A2> ;
+  skos:definition "None" ;
+  skos:notation "7A2b" ;
+  skos:note "None" ;
+  skos:prefLabel "Total soil-N, semi micro Kjeldahl - automated colour - FIA" ;
+.
+<7A3>
+  rdf:type skos:Concept ;
+  dct:description "Total soil-N (where nitrate >20 mg N/kg) - steam distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7A3" ;
+  rdfs:label "Total soil-N (where nitrate >20 mg N/kg) - steam distillation" ;
+  skos:broader <7A> ;
+  skos:definition "None" ;
+  skos:notation "7A3" ;
+  skos:note "None" ;
+  skos:prefLabel "Total soil-N (where nitrate >20 mg N/kg) - steam distillation" ;
+.
+<7A4>
+  rdf:type skos:Concept ;
+  dct:description "Total-N (where nitrate >20 mg N/kg) - automated colour, continuous segmented flow/FIA" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7A4" ;
+  rdfs:label "Total-N (where nitrate >20 mg N/kg) - automated colour, continuous segmented flow/FIA" ;
+  skos:broader <7A> ;
+  skos:definition "None" ;
+  skos:notation "7A4" ;
+  skos:note "None" ;
+  skos:prefLabel "Total-N (where nitrate >20 mg N/kg) - automated colour, continuous segmented flow/FIA" ;
+.
+<7A5>
+  rdf:type skos:Concept ;
+  dct:description "Total soil-N - Dumas high-temperature combustion" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7A5" ;
+  rdfs:label "Total soil-N - Dumas high-temperature combustion" ;
+  skos:broader <7A> ;
+  skos:definition "None" ;
+  skos:notation "7A5" ;
+  skos:note "None" ;
+  skos:prefLabel "Total soil-N - Dumas high-temperature combustion" ;
+.
+<7A6>
+  rdf:type skos:Concept ;
+  dct:description "Total soil-N - infrared diffuse reflectance spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7A6" ;
+  rdfs:label "Total soil-N - infrared diffuse reflectance spectroscopy" ;
+  skos:broader <7A> ;
+  skos:definition "None" ;
+  skos:narrower <7A6a> ;
+  skos:narrower <7A6b> ;
+  skos:notation "7A6" ;
+  skos:note "None" ;
+  skos:prefLabel "Total soil-N - infrared diffuse reflectance spectroscopy" ;
+.
+<7A6a>
+  rdf:type skos:Concept ;
+  dct:description "Total Soil-N - NIR diffuse reflectance spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7A6a" ;
+  rdfs:label "Total Soil-N - NIR diffuse reflectance spectroscopy" ;
+  skos:broader <7A> ;
+  skos:broader <7A6> ;
+  skos:definition "None" ;
+  skos:notation "7A6a" ;
+  skos:note "None" ;
+  skos:prefLabel "Total Soil-N - NIR diffuse reflectance spectroscopy" ;
+.
+<7A6b>
+  rdf:type skos:Concept ;
+  dct:description "Total soil-N - MIR diffuse reflectance spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7A6b" ;
+  rdfs:label "Total soil-N - MIR diffuse reflectance spectroscopy" ;
+  skos:broader <7A> ;
+  skos:broader <7A6> ;
+  skos:definition "None" ;
+  skos:notation "7A6b" ;
+  skos:note "None" ;
+  skos:prefLabel "Total soil-N - MIR diffuse reflectance spectroscopy" ;
+.
+<7B>
+  rdf:type skos:Concept ;
+  dct:description "Water-soluble nitrate-N" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7B" ;
+  rdfs:label "Water-soluble nitrate-N" ;
+  skos:definition "None" ;
+  skos:narrower <7B1> ;
+  skos:narrower <7B2> ;
+  skos:notation "7B" ;
+  skos:note "None" ;
+  skos:prefLabel "Water-soluble nitrate-N" ;
+.
+<7B1>
+  rdf:type skos:Concept ;
+  dct:description "Water soluble nitrate - automated colour" ;
+  dct:description "Water-soluble nitrate-N - automated colour" ;
+  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  reg:notation "7B1" ;
+  rdfs:label "Water soluble nitrate - automated colour" ;
+  rdfs:label "Water-soluble nitrate-N - automated colour" ;
+  skos:broader <7B> ;
+  skos:definition "None" ;
+  skos:narrower <7B1a> ;
+  skos:narrower <7B1b> ;
+  skos:notation "7B1" ;
+  skos:note "7B1 has been superseded by 7B1a and 7B1b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
+  skos:note "None" ;
+  skos:prefLabel "Water soluble nitrate - automated colour" ;
+  skos:prefLabel "Water-soluble nitrate-N - automated colour" ;
+.
+<7B1a>
+  rdf:type skos:Concept ;
+  dct:description "Water-soluble nitrate-N - automated colour, continuous segmented flow" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7B1a" ;
+  rdfs:label "Water-soluble nitrate-N - automated colour, continuous segmented flow" ;
+  skos:broader <7B> ;
+  skos:broader <7B1> ;
+  skos:definition "None" ;
+  skos:notation "7B1a" ;
+  skos:note "None" ;
+  skos:prefLabel "Water-soluble nitrate-N - automated colour, continuous segmented flow" ;
+.
+<7B1b>
+  rdf:type skos:Concept ;
+  dct:description "Water-soluble nitrate-N - automated colour, FIA" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7B1b" ;
+  rdfs:label "Water-soluble nitrate-N - automated colour, FIA" ;
+  skos:broader <7B> ;
+  skos:broader <7B1> ;
+  skos:definition "None" ;
+  skos:notation "7B1b" ;
+  skos:note "None" ;
+  skos:prefLabel "Water-soluble nitrate-N - automated colour, FIA" ;
+.
+<7B2>
+  rdf:type skos:Concept ;
+  dct:description "Water-soluble nitrate-N - ion chromatography" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7B2" ;
+  rdfs:label "Water-soluble nitrate-N - ion chromatography" ;
+  skos:broader <7B> ;
+  skos:definition "None" ;
+  skos:notation "7B2" ;
+  skos:note "None" ;
+  skos:prefLabel "Water-soluble nitrate-N - ion chromatography" ;
+.
+<7C>
+  rdf:type skos:Concept ;
+  dct:description "Mineral nitrogen" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C" ;
+  rdfs:label "Mineral nitrogen" ;
+  skos:definition "None" ;
+  skos:narrower <7C2> ;
+  skos:notation "7C" ;
+  skos:note "None" ;
+  skos:prefLabel "Mineral nitrogen" ;
+.
+<7C1>
+  rdf:type skos:Concept ;
+  dct:description "Mineral-N 2 M KCl, steam distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C1" ;
+  rdfs:label "Mineral-N 2 M KCl, steam distillation" ;
+  skos:broader <7C> ;
+  skos:definition "None" ;
+  skos:narrower <7C1a> ;
+  skos:narrower <7C1b> ;
+  skos:narrower <7C1c> ;
+  skos:narrower <7C1d> ;
+  skos:narrower <7C1e> ;
+  skos:narrower <7C1f> ;
+  skos:narrower <7C1g> ;
+  skos:narrower <7C1h> ;
+  skos:notation "7C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Mineral-N 2 M KCl, steam distillation" ;
+.
+<7C1a>
+  rdf:type skos:Concept ;
+  dct:description "Ammonium-N (in presence or absence of nitrite) - steam distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C1a" ;
+  rdfs:label "Ammonium-N (in presence or absence of nitrite) - steam distillation" ;
+  skos:broader <7C> ;
+  skos:broader <7C1> ;
+  skos:definition "None" ;
+  skos:notation "7C1a" ;
+  skos:note "None" ;
+  skos:prefLabel "Ammonium-N (in presence or absence of nitrite) - steam distillation" ;
+.
+<7C1b>
+  rdf:type skos:Concept ;
+  dct:description "(Nitrate + Nitrite)-N - steam distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C1b" ;
+  rdfs:label "(Nitrate + Nitrite)-N - steam distillation" ;
+  skos:broader <7C> ;
+  skos:broader <7C1> ;
+  skos:definition "None" ;
+  skos:notation "7C1b" ;
+  skos:note "None" ;
+  skos:prefLabel "(Nitrate + Nitrite)-N - steam distillation" ;
+.
+<7C1c>
+  rdf:type skos:Concept ;
+  dct:description "(Ammonium + Nitrate + Nitrite)-N - steam distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C1c" ;
+  rdfs:label "(Ammonium + Nitrate + Nitrite)-N - steam distillation" ;
+  skos:broader <7C> ;
+  skos:broader <7C1> ;
+  skos:definition "None" ;
+  skos:notation "7C1c" ;
+  skos:note "None" ;
+  skos:prefLabel "(Ammonium + Nitrate + Nitrite)-N - steam distillation" ;
+.
+<7C1d>
+  rdf:type skos:Concept ;
+  dct:description "(Ammonium + Nitrate)-N, in presence of nitrite - steam distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C1d" ;
+  rdfs:label "(Ammonium + Nitrate)-N, in presence of nitrite - steam distillation" ;
+  skos:broader <7C> ;
+  skos:broader <7C1> ;
+  skos:definition "None" ;
+  skos:notation "7C1d" ;
+  skos:note "None" ;
+  skos:prefLabel "(Ammonium + Nitrate)-N, in presence of nitrite - steam distillation" ;
+.
+<7C1e>
+  rdf:type skos:Concept ;
+  dct:description "Nitrate-N, in presence of nitrite - steam distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C1e" ;
+  rdfs:label "Nitrate-N, in presence of nitrite - steam distillation" ;
+  skos:broader <7C> ;
+  skos:broader <7C1> ;
+  skos:definition "None" ;
+  skos:notation "7C1e" ;
+  skos:note "None" ;
+  skos:prefLabel "Nitrate-N, in presence of nitrite - steam distillation" ;
+.
+<7C1f>
+  rdf:type skos:Concept ;
+  dct:description "Nitrate-N, in absence of nitrite - steam distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C1f" ;
+  rdfs:label "Nitrate-N, in absence of nitrite - steam distillation" ;
+  skos:broader <7C> ;
+  skos:broader <7C1> ;
+  skos:definition "None" ;
+  skos:notation "7C1f" ;
+  skos:note "None" ;
+  skos:prefLabel "Nitrate-N, in absence of nitrite - steam distillation" ;
+.
+<7C1g>
+  rdf:type skos:Concept ;
+  dct:description "(Ammonium + Nitrate)-N, in absence of nitrite - steam distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C1g" ;
+  rdfs:label "(Ammonium + Nitrate)-N, in absence of nitrite - steam distillation" ;
+  skos:broader <7C> ;
+  skos:broader <7C1> ;
+  skos:definition "None" ;
+  skos:notation "7C1g" ;
+  skos:note "None" ;
+  skos:prefLabel "(Ammonium + Nitrate)-N, in absence of nitrite - steam distillation" ;
+.
+<7C1h>
+  rdf:type skos:Concept ;
+  dct:description "Nitrite-N - steam distillation" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C1h" ;
+  rdfs:label "Nitrite-N - steam distillation" ;
+  skos:broader <7C> ;
+  skos:broader <7C1> ;
+  skos:definition "None" ;
+  skos:notation "7C1h" ;
+  skos:note "None" ;
+  skos:prefLabel "Nitrite-N - steam distillation" ;
+.
+<7C2>
+  rdf:type skos:Concept ;
+  dct:description "Mineral-N 2 M KCl, automated colour" ;
+  dct:description "mineral nitrogen with 2M KCl - automated colour" ;
+  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  reg:notation "7C2" ;
+  rdfs:label "Mineral-N 2 M KCl, automated colour" ;
+  rdfs:label "mineral nitrogen with 2M KCl - automated colour" ;
+  skos:broader <7C> ;
+  skos:definition "None" ;
+  skos:narrower <7C2a> ;
+  skos:narrower <7C2b> ;
+  skos:notation "7C2" ;
+  skos:note "7C2 has been superseded by 7C2a and 7C2b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
+  skos:note "None" ;
+  skos:prefLabel "Mineral-N 2 M KCl, automated colour" ;
+  skos:prefLabel "mineral nitrogen with 2M KCl - automated colour" ;
+.
+<7C2a>
+  rdf:type skos:Concept ;
+  dct:description "Mineral-N 2 M KCl, automated colour, continuous segmented flow" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C2a" ;
+  rdfs:label "Mineral-N 2 M KCl, automated colour, continuous segmented flow" ;
+  skos:broader <7C> ;
+  skos:broader <7C2> ;
+  skos:definition "None" ;
+  skos:notation "7C2a" ;
+  skos:note "None" ;
+  skos:prefLabel "Mineral-N 2 M KCl, automated colour, continuous segmented flow" ;
+.
+<7C2b>
+  rdf:type skos:Concept ;
+  dct:description "Mineral-N - 2 M KCl, automated colour, FIA" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7C2b" ;
+  rdfs:label "Mineral-N - 2 M KCl, automated colour, FIA" ;
+  skos:broader <7C> ;
+  skos:broader <7C2> ;
+  skos:definition "None" ;
+  skos:notation "7C2b" ;
+  skos:note "None" ;
+  skos:prefLabel "Mineral-N - 2 M KCl, automated colour, FIA" ;
+.
+<7D>
+  rdf:type skos:Concept ;
+  dct:description "Potentially mineralisable N (PMN)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7D" ;
+  rdfs:label "Potentially mineralisable N (PMN)" ;
+  skos:definition "None" ;
+  skos:narrower <7D1a> ;
+  skos:narrower <7D1b> ;
+  skos:narrower <7D1c> ;
+  skos:narrower <7D2a> ;
+  skos:narrower <7D2b> ;
+  skos:notation "7D" ;
+  skos:note "None" ;
+  skos:prefLabel "Potentially mineralisable N (PMN)" ;
+.
+<7D1a>
+  rdf:type skos:Concept ;
+  dct:description "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, continuous segmented flow" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7D1a" ;
+  rdfs:label "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, continuous segmented flow" ;
+  skos:broader <7D> ;
+  skos:definition "None" ;
+  skos:notation "7D1a" ;
+  skos:note "None" ;
+  skos:prefLabel "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, continuous segmented flow" ;
+.
+<7D1b>
+  rdf:type skos:Concept ;
+  dct:description "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, FIA" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7D1b" ;
+  rdfs:label "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, FIA" ;
+  skos:broader <7D> ;
+  skos:definition "None" ;
+  skos:notation "7D1b" ;
+  skos:note "None" ;
+  skos:prefLabel "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, FIA" ;
+.
+<7D1c>
+  rdf:type skos:Concept ;
+  dct:description "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - NIR diffuse reflectance spectroscopy" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7D1c" ;
+  rdfs:label "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - NIR diffuse reflectance spectroscopy" ;
+  skos:broader <7D> ;
+  skos:definition "None" ;
+  skos:notation "7D1c" ;
+  skos:note "None" ;
+  skos:prefLabel "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - NIR diffuse reflectance spectroscopy" ;
+.
+<7D2a>
+  rdf:type skos:Concept ;
+  dct:description "Potentially mineralisable N, anaerobic incubation - automated colour, continuous segmented flow" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7D2a" ;
+  rdfs:label "Potentially mineralisable N, anaerobic incubation - automated colour, continuous segmented flow" ;
+  skos:broader <7D> ;
+  skos:definition "None" ;
+  skos:notation "7D2a" ;
+  skos:note "None" ;
+  skos:prefLabel "Potentially mineralisable N, anaerobic incubation - automated colour, continuous segmented flow" ;
+.
+<7D2b>
+  rdf:type skos:Concept ;
+  dct:description "Potentially mineralisable N, anaerobic incubation - automated colour, FIA" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "7D2b" ;
+  rdfs:label "Potentially mineralisable N, anaerobic incubation - automated colour, FIA" ;
+  skos:broader <7D> ;
+  skos:definition "None" ;
+  skos:notation "7D2b" ;
+  skos:note "None" ;
+  skos:prefLabel "Potentially mineralisable N, anaerobic incubation - automated colour, FIA" ;
+.
+<8>
+  rdf:type skos:Collection ;
+  dct:description "Carbon/nitrogen ratio" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation 8 ;
+  rdfs:label "Carbon/nitrogen ratio" ;
+  skos:definition "None" ;
+  skos:member <8A1> ;
+  skos:member <8B1> ;
+  skos:notation 8 ;
+  skos:note "None" ;
+  skos:prefLabel "Carbon/nitrogen ratio" ;
+.
+<8A1>
+  rdf:type skos:Concept ;
+  dct:description "Total organic carbon/total nitrogen ratio" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "8A1" ;
+  rdfs:label "Total organic carbon/total nitrogen ratio" ;
+  skos:definition "None" ;
+  skos:notation "8A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Total organic carbon/total nitrogen ratio" ;
+.
+<8B1>
+  rdf:type skos:Concept ;
+  dct:description "Organic carbon - W&B/total nitrogen ratio" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "8B1" ;
+  rdfs:label "Organic carbon - W&B/total nitrogen ratio" ;
+  skos:definition "None" ;
+  skos:notation "8B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Organic carbon - W&B/total nitrogen ratio" ;
+.
+<9>
+  rdf:type skos:Collection ;
+  dct:description "Phosphorus" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  ui:topMemberOf <> ;
+  reg:notation 9 ;
+  rdfs:label "Phosphorus" ;
+  skos:definition "None" ;
+  skos:member <9A> ;
+  skos:member <9B> ;
+  skos:member <9C> ;
+  skos:member <9D1> ;
+  skos:member <9E> ;
+  skos:member <9F1> ;
+  skos:member <9F2> ;
+  skos:member <9G1> ;
+  skos:member <9G2> ;
+  skos:member <9H1> ;
+  skos:member <9I> ;
+  skos:member <9J> ;
+  skos:member <9K> ;
+  skos:notation 9 ;
+  skos:note "None" ;
+  skos:prefLabel "Phosphorus" ;
+.
+<9A>
+  rdf:type skos:Concept ;
+  dct:description "Total P" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9A" ;
+  rdfs:label "Total P" ;
+  skos:definition "None" ;
+  skos:narrower <9A1> ;
+  skos:narrower <9A2> ;
+  skos:narrower <9A3> ;
+  skos:notation "9A" ;
+  skos:note "None" ;
+  skos:prefLabel "Total P" ;
+.
+<9A1>
+  rdf:type skos:Concept ;
+  dct:description "Total P - X-ray fluorescence " ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9A1" ;
+  rdfs:label "Total P - X-ray fluorescence " ;
+  skos:broader <9A> ;
+  skos:definition "None" ;
+  skos:notation "9A1" ;
+  skos:note "None" ;
+  skos:prefLabel "Total P - X-ray fluorescence " ;
+.
+<9A2>
+  rdf:type skos:Concept ;
+  dct:description "Total P - sodium carbonate fusion" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9A2" ;
+  rdfs:label "Total P - sodium carbonate fusion" ;
+  skos:broader <9A> ;
+  skos:definition "None" ;
+  skos:notation "9A2" ;
+  skos:note "None" ;
+  skos:prefLabel "Total P - sodium carbonate fusion" ;
+.
+<9A3>
+  rdf:type skos:Concept ;
+  dct:description "Kjeldahl P (KP)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9A3" ;
+  rdfs:label "Kjeldahl P (KP)" ;
+  skos:broader <9A> ;
+  skos:definition "None" ;
+  skos:narrower <9A3a> ;
+  skos:narrower <9A3b> ;
+  skos:notation "9A3" ;
+  skos:note "None" ;
+  skos:prefLabel "Kjeldahl P (KP)" ;
+.
+<9A3a>
+  rdf:type skos:Concept ;
+  dct:description "Kjeldahl P (KP) - automated colour, FIA/continuous segmented flow" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9A3a" ;
+  rdfs:label "Kjeldahl P (KP) - automated colour, FIA/continuous segmented flow" ;
+  skos:broader <9A3> ;
+  skos:definition "None" ;
+  skos:notation "9A3a" ;
+  skos:note "None" ;
+  skos:prefLabel "Kjeldahl P (KP) - automated colour, FIA/continuous segmented flow" ;
+.
+<9A3b>
+  rdf:type skos:Concept ;
+  dct:description "Kjeldahl P (KP) - ICPAES" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9A3b" ;
+  rdfs:label "Kjeldahl P (KP) - ICPAES" ;
+  skos:broader <9A3> ;
+  skos:definition "None" ;
+  skos:notation "9A3b" ;
+  skos:note "None" ;
+  skos:prefLabel "Kjeldahl P (KP) - ICPAES" ;
+.
+<9B>
+  rdf:type skos:Concept ;
+  dct:description "Bicarbonate-extractable P (Colwell-P) " ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9B" ;
+  rdfs:label "Bicarbonate-extractable P (Colwell-P) " ;
+  skos:definition "None" ;
+  skos:narrower <9B1> ;
+  skos:narrower <9B2> ;
+  skos:notation "9B" ;
+  skos:note "None" ;
+  skos:prefLabel "Bicarbonate-extractable P (Colwell-P) " ;
+.
+<9B1>
+  rdf:type skos:Concept ;
+  dct:description "Bicarbonate-extractable P (Colwell-P) - manual colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9B1" ;
+  rdfs:label "Bicarbonate-extractable P (Colwell-P) - manual colour" ;
+  skos:broader <9B> ;
+  skos:definition "None" ;
+  skos:notation "9B1" ;
+  skos:note "None" ;
+  skos:prefLabel "Bicarbonate-extractable P (Colwell-P) - manual colour" ;
+.
+<9B2>
+  rdf:type skos:Concept ;
+  dct:description "Bicarbonate-extractable P (Colwell-P) - automated colour, continuous segmented flow/FIA" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9B2" ;
+  rdfs:label "Bicarbonate-extractable P (Colwell-P) - automated colour, continuous segmented flow/FIA" ;
+  skos:broader <9B> ;
+  skos:definition "None" ;
+  skos:notation "9B2" ;
+  skos:note "None" ;
+  skos:prefLabel "Bicarbonate-extractable P (Colwell-P) - automated colour, continuous segmented flow/FIA" ;
+.
+<9C>
+  rdf:type skos:Concept ;
+  dct:description "Olsen-extractable P (Olsen-P)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9C" ;
+  rdfs:label "Olsen-extractable P (Olsen-P)" ;
+  skos:definition "None" ;
+  skos:narrower <9C1> ;
+  skos:narrower <9C2> ;
+  skos:notation "9C" ;
+  skos:note "None" ;
+  skos:prefLabel "Olsen-extractable P (Olsen-P)" ;
+.
+<9C1>
+  rdf:type skos:Concept ;
+  dct:description "Olsen-extractable P (Olsen-P) - manual colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9C1" ;
+  rdfs:label "Olsen-extractable P (Olsen-P) - manual colour" ;
+  skos:broader <9C> ;
+  skos:definition "None" ;
+  skos:notation "9C1" ;
+  skos:note "None" ;
+  skos:prefLabel "Olsen-extractable P (Olsen-P) - manual colour" ;
+.
+<9C2>
+  rdf:type skos:Concept ;
+  dct:description "Olsen-extractable P (Olsen-P) - automated colour" ;
+  dct:description "Olsen-extractable phosphorus - automated colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  reg:notation "9C2" ;
+  rdfs:label "Olsen-extractable P (Olsen-P) - automated colour" ;
+  rdfs:label "Olsen-extractable phosphorus - automated colour" ;
+  skos:broader <9C> ;
+  skos:definition "None" ;
+  skos:narrower <9C2a> ;
+  skos:narrower <9C2b> ;
+  skos:notation "9C2" ;
+  skos:note "9C2 has been superseded by 9C2a and 9C2b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
+  skos:note "None" ;
+  skos:prefLabel "Olsen-extractable P (Olsen-P) - automated colour" ;
+  skos:prefLabel "Olsen-extractable phosphorus - automated colour" ;
+.
+<9C2a>
+  rdf:type skos:Concept ;
+  dct:description "Olsen-extractable P (Olsen-P) - automated colour, continuous segmented flow" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9C2a" ;
+  rdfs:label "Olsen-extractable P (Olsen-P) - automated colour, continuous segmented flow" ;
+  skos:broader <9C> ;
+  skos:broader <9C2> ;
+  skos:definition "None" ;
+  skos:notation "9C2a" ;
+  skos:note "None" ;
+  skos:prefLabel "Olsen-extractable P (Olsen-P) - automated colour, continuous segmented flow" ;
+.
+<9C2b>
+  rdf:type skos:Concept ;
+  dct:description "Olsen-extractable P (Olsen-P) - automated colour/FIA" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9C2b" ;
+  rdfs:label "Olsen-extractable P (Olsen-P) - automated colour/FIA" ;
+  skos:broader <9C> ;
+  skos:broader <9C2> ;
+  skos:definition "None" ;
+  skos:notation "9C2b" ;
+  skos:note "None" ;
+  skos:prefLabel "Olsen-extractable P (Olsen-P) - automated colour/FIA" ;
+.
+<9D1>
+  rdf:type skos:Concept ;
+  dct:description "Lactate-extractable P (Lactate-P) - manual colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9D1" ;
+  rdfs:label "Lactate-extractable P (Lactate-P) - manual colour" ;
+  skos:definition "None" ;
+  skos:notation "9D1" ;
+  skos:note "None" ;
+  skos:prefLabel "Lactate-extractable P (Lactate-P) - manual colour" ;
+.
+<9E>
+  rdf:type skos:Concept ;
+  dct:description "Fluoride-extractable P (Bray-1 P)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9E" ;
+  rdfs:label "Fluoride-extractable P (Bray-1 P)" ;
+  skos:definition "None" ;
+  skos:narrower <9E1> ;
+  skos:narrower <9E2> ;
+  skos:notation "9E" ;
+  skos:note "None" ;
+  skos:prefLabel "Fluoride-extractable P (Bray-1 P)" ;
+.
+<9E1>
+  rdf:type skos:Concept ;
+  dct:description "Fluoride-extractable P (Bray-1 P) - manual colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9E1" ;
+  rdfs:label "Fluoride-extractable P (Bray-1 P) - manual colour" ;
+  skos:broader <9E> ;
+  skos:definition "None" ;
+  skos:notation "9E1" ;
+  skos:note "None" ;
+  skos:prefLabel "Fluoride-extractable P (Bray-1 P) - manual colour" ;
+.
+<9E2>
+  rdf:type skos:Concept ;
+  dct:description "Fluoride-extractable P (Bray-1 P) - continuous segmented flow/FIA automated colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9E2" ;
+  rdfs:label "Fluoride-extractable P (Bray-1 P) - continuous segmented flow/FIA automated colour" ;
+  skos:broader <9E> ;
+  skos:definition "None" ;
+  skos:notation "9E2" ;
+  skos:note "None" ;
+  skos:prefLabel "Fluoride-extractable P (Bray-1 P) - continuous segmented flow/FIA automated colour" ;
+.
+<9F>
+  rdf:type skos:Concept ;
+  dct:description "Calcium chloride-extractable P" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9F" ;
+  rdfs:label "Calcium chloride-extractable P" ;
+  skos:definition "None" ;
+  skos:notation "9F" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium chloride-extractable P" ;
+.
+<9F1>
+  rdf:type skos:Concept ;
+  dct:description "Calcium chloride-extractable P - manual colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9F1" ;
+  rdfs:label "Calcium chloride-extractable P - manual colour" ;
+  skos:broader <9F> ;
+  skos:definition "None" ;
+  skos:notation "9F1" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium chloride-extractable P - manual colour" ;
+.
+<9F2>
+  rdf:type skos:Concept ;
+  dct:description "Calcium chloride-extractable P - continuous segmented flow/FIA automated colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9F2" ;
+  rdfs:label "Calcium chloride-extractable P - continuous segmented flow/FIA automated colour" ;
+  skos:broader <9F> ;
+  skos:definition "None" ;
+  skos:notation "9F2" ;
+  skos:note "None" ;
+  skos:prefLabel "Calcium chloride-extractable P - continuous segmented flow/FIA automated colour" ;
+.
+<9G>
+  rdf:type skos:Concept ;
+  dct:description "Acid-extractable P (BSES-P)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9G" ;
+  rdfs:label "Acid-extractable P (BSES-P)" ;
+  skos:definition "None" ;
+  skos:notation "9G" ;
+  skos:note "None" ;
+  skos:prefLabel "Acid-extractable P (BSES-P)" ;
+.
+<9G1>
+  rdf:type skos:Concept ;
+  dct:description "Acid-extractable P (BSES-P) - manual colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9G1" ;
+  rdfs:label "Acid-extractable P (BSES-P) - manual colour" ;
+  skos:broader <9G> ;
+  skos:definition "None" ;
+  skos:notation "9G1" ;
+  skos:note "None" ;
+  skos:prefLabel "Acid-extractable P (BSES-P) - manual colour" ;
+.
+<9G2>
+  rdf:type skos:Concept ;
+  dct:description "Acid-extractable P (BSES-P) - continuous segmented flow/FIA automated colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9G2" ;
+  rdfs:label "Acid-extractable P (BSES-P) - continuous segmented flow/FIA automated colour" ;
+  skos:broader <9G> ;
+  skos:definition "None" ;
+  skos:notation "9G2" ;
+  skos:note "None" ;
+  skos:prefLabel "Acid-extractable P (BSES-P) - continuous segmented flow/FIA automated colour" ;
+.
+<9H1>
+  rdf:type skos:Concept ;
+  dct:description "Anion Storage Capacity (previously P Retention)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9H1" ;
+  rdfs:label "Anion Storage Capacity (previously P Retention)" ;
+  skos:definition "None" ;
+  skos:notation "9H1" ;
+  skos:note "None" ;
+  skos:prefLabel "Anion Storage Capacity (previously P Retention)" ;
+.
+<9I>
+  rdf:type skos:Concept ;
+  dct:description "Phosphate Indices" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9I" ;
+  rdfs:label "Phosphate Indices" ;
+  skos:definition "None" ;
+  skos:narrower <9I1> ;
+  skos:narrower <9I2a> ;
+  skos:narrower <9I2b> ;
+  skos:narrower <9I2c> ;
+  skos:narrower <9I3a> ;
+  skos:narrower <9I3b> ;
+  skos:narrower <9I3c> ;
+  skos:narrower <9I4a> ;
+  skos:narrower <9I4b> ;
+  skos:narrower <9I4c> ;
+  skos:notation "9I" ;
+  skos:note "None" ;
+  skos:prefLabel "Phosphate Indices" ;
+.
+<9I1>
+  rdf:type skos:Concept ;
+  dct:description "Phosphate Sorption Index" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9I1" ;
+  rdfs:label "Phosphate Sorption Index" ;
+  skos:broader <9I> ;
+  skos:definition "None" ;
+  skos:notation "9I1" ;
+  skos:note "None" ;
+  skos:prefLabel "Phosphate Sorption Index" ;
+.
+<9I2a>
+  rdf:type skos:Concept ;
+  dct:description "P buffer index - PBI (ColP) - Murphy and Riley" ;
+  dct:description "P buffer index - PBI (ColP)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9I2a" ;
+  rdfs:label "P buffer index - PBI (ColP) - Murphy and Riley" ;
+  rdfs:label "P buffer index - PBI (ColP)" ;
+  skos:broader <9I> ;
+  skos:definition "None" ;
+  skos:notation "9I2a" ;
+  skos:note "None" ;
+  skos:prefLabel "P buffer index - PBI (ColP) - Murphy and Riley" ;
+  skos:prefLabel "P buffer index - PBI (ColP)" ;
+.
+<9I2b>
+  rdf:type skos:Concept ;
+  dct:description "P buffer index - PBI (ColP) - ICPAES" ;
+  dct:description "P buffer index - PBI (ColP)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9I2b" ;
+  rdfs:label "P buffer index - PBI (ColP) - ICPAES" ;
+  rdfs:label "P buffer index - PBI (ColP)" ;
+  skos:broader <9I> ;
+  skos:definition "None" ;
+  skos:notation "9I2b" ;
+  skos:note "None" ;
+  skos:prefLabel "P buffer index - PBI (ColP) - ICPAES" ;
+  skos:prefLabel "P buffer index - PBI (ColP)" ;
+.
+<9I2c>
+  rdf:type skos:Concept ;
+  dct:description "P buffer index - PBI (ColP) - Vanadate" ;
+  dct:description "P buffer index - PBI (ColP)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9I2c" ;
+  rdfs:label "P buffer index - PBI (ColP) - Vanadate" ;
+  rdfs:label "P buffer index - PBI (ColP)" ;
+  skos:broader <9I> ;
+  skos:definition "None" ;
+  skos:notation "9I2c" ;
+  skos:note "None" ;
+  skos:prefLabel "P buffer index - PBI (ColP) - Vanadate" ;
+  skos:prefLabel "P buffer index - PBI (ColP)" ;
+.
+<9I3a>
+  rdf:type skos:Concept ;
+  dct:description "P buffer index - PBI (OlsenP) - Murphy and Riley" ;
+  dct:description "P buffer index - PBI (OlsenP)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9I3a" ;
+  rdfs:label "P buffer index - PBI (OlsenP) - Murphy and Riley" ;
+  rdfs:label "P buffer index - PBI (OlsenP)" ;
+  skos:broader <9I> ;
+  skos:definition "None" ;
+  skos:notation "9I3a" ;
+  skos:note "None" ;
+  skos:prefLabel "P buffer index - PBI (OlsenP) - Murphy and Riley" ;
+  skos:prefLabel "P buffer index - PBI (OlsenP)" ;
+.
+<9I3b>
+  rdf:type skos:Concept ;
+  dct:description "P buffer index - PBI (OlsenP) - ICPAES" ;
+  dct:description "P buffer index - PBI (OlsenP)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9I3b" ;
+  rdfs:label "P buffer index - PBI (OlsenP) - ICPAES" ;
+  rdfs:label "P buffer index - PBI (OlsenP)" ;
+  skos:broader <9I> ;
+  skos:definition "None" ;
+  skos:notation "9I3b" ;
+  skos:note "None" ;
+  skos:prefLabel "P buffer index - PBI (OlsenP) - ICPAES" ;
+  skos:prefLabel "P buffer index - PBI (OlsenP)" ;
+.
+<9I3c>
+  rdf:type skos:Concept ;
+  dct:description "P buffer index - PBI (OlsenP) - Vanadate" ;
+  dct:description "P buffer index - PBI (OlsenP)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9I3c" ;
+  rdfs:label "P buffer index - PBI (OlsenP) - Vanadate" ;
+  rdfs:label "P buffer index - PBI (OlsenP)" ;
+  skos:broader <9I> ;
+  skos:definition "None" ;
+  skos:notation "9I3c" ;
+  skos:note "None" ;
+  skos:prefLabel "P buffer index - PBI (OlsenP) - Vanadate" ;
+  skos:prefLabel "P buffer index - PBI (OlsenP)" ;
+.
+<9I4a>
+  rdf:type skos:Concept ;
+  dct:description "P buffer index - PBI (unadj) - Murphy and Riley" ;
+  dct:description "P buffer index - PBI (unadj)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9I4a" ;
+  rdfs:label "P buffer index - PBI (unadj) - Murphy and Riley" ;
+  rdfs:label "P buffer index - PBI (unadj)" ;
+  skos:broader <9I> ;
+  skos:definition "None" ;
+  skos:notation "9I4a" ;
+  skos:note "None" ;
+  skos:prefLabel "P buffer index - PBI (unadj) - Murphy and Riley" ;
+  skos:prefLabel "P buffer index - PBI (unadj)" ;
+.
+<9I4b>
+  rdf:type skos:Concept ;
+  dct:description "P buffer index - PBI (unadj) - ICPAES" ;
+  dct:description "P buffer index - PBI (unadj)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9I4b" ;
+  rdfs:label "P buffer index - PBI (unadj) - ICPAES" ;
+  rdfs:label "P buffer index - PBI (unadj)" ;
+  skos:broader <9I> ;
+  skos:definition "None" ;
+  skos:notation "9I4b" ;
+  skos:note "None" ;
+  skos:prefLabel "P buffer index - PBI (unadj) - ICPAES" ;
+  skos:prefLabel "P buffer index - PBI (unadj)" ;
+.
+<9I4c>
+  rdf:type skos:Concept ;
+  dct:description "P buffer index - PBI (unadj) - Vanadate" ;
+  dct:description "P buffer index - PBI (unadj)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9I4c" ;
+  rdfs:label "P buffer index - PBI (unadj) - Vanadate" ;
+  rdfs:label "P buffer index - PBI (unadj)" ;
+  skos:broader <9I> ;
+  skos:definition "None" ;
+  skos:notation "9I4c" ;
+  skos:note "None" ;
+  skos:prefLabel "P buffer index - PBI (unadj) - Vanadate" ;
+  skos:prefLabel "P buffer index - PBI (unadj)" ;
+.
+<9J>
+  rdf:type skos:Concept ;
+  dct:description "Phosphate sorption curve" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9J" ;
+  rdfs:label "Phosphate sorption curve" ;
+  skos:definition "None" ;
+  skos:narrower <9J1> ;
+  skos:narrower <9J2> ;
+  skos:notation "9J" ;
+  skos:note "None" ;
+  skos:prefLabel "Phosphate sorption curve" ;
+.
+<9J1>
+  rdf:type skos:Concept ;
+  dct:description "Phosphate sorption curve - manual colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9J1" ;
+  rdfs:label "Phosphate sorption curve - manual colour" ;
+  skos:broader <9J> ;
+  skos:definition "None" ;
+  skos:notation "9J1" ;
+  skos:note "None" ;
+  skos:prefLabel "Phosphate sorption curve - manual colour" ;
+.
+<9J2>
+  rdf:type skos:Concept ;
+  dct:description "Phosphate sorption curve - continuous segmented flow/FIA automated colour" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9J2" ;
+  rdfs:label "Phosphate sorption curve - continuous segmented flow/FIA automated colour" ;
+  skos:broader <9J> ;
+  skos:definition "None" ;
+  skos:notation "9J2" ;
+  skos:note "None" ;
+  skos:prefLabel "Phosphate sorption curve - continuous segmented flow/FIA automated colour" ;
+.
+<9K>
+  rdf:type skos:Concept ;
+  dct:description "Environmental soil P tests" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9K" ;
+  rdfs:label "Environmental soil P tests" ;
+  skos:definition "None" ;
+  skos:narrower <9K1> ;
+  skos:narrower <9K2> ;
+  skos:notation "9K" ;
+  skos:note "None" ;
+  skos:prefLabel "Environmental soil P tests" ;
+.
+<9K1>
+  rdf:type skos:Concept ;
+  dct:description "Mehlich 3-P saturation ratio (M3PSR)" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9K1" ;
+  rdfs:label "Mehlich 3-P saturation ratio (M3PSR)" ;
+  skos:broader <9K> ;
+  skos:definition "None" ;
+  skos:narrower <9K1a> ;
+  skos:narrower <9K1b> ;
+  skos:notation "9K1" ;
+  skos:note "None" ;
+  skos:prefLabel "Mehlich 3-P saturation ratio (M3PSR)" ;
+.
+<9K1a>
+  rdf:type skos:Concept ;
+  dct:description "Mehlich 3-P saturation ratio (M3PSR colour) [colormetric estimate of P]" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9K1a" ;
+  rdfs:label "Mehlich 3-P saturation ratio (M3PSR colour) [colormetric estimate of P]" ;
+  skos:broader <9K1> ;
+  skos:definition "None" ;
+  skos:notation "9K1a" ;
+  skos:note "None" ;
+  skos:prefLabel "Mehlich 3-P saturation ratio (M3PSR colour) [colormetric estimate of P]" ;
+.
+<9K1b>
+  rdf:type skos:Concept ;
+  dct:description "Mehlich 3-P saturation ratio (M3PSR ICPAES) [ICPAES estimate of P]" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9K1b" ;
+  rdfs:label "Mehlich 3-P saturation ratio (M3PSR ICPAES) [ICPAES estimate of P]" ;
+  skos:broader <9K1> ;
+  skos:definition "None" ;
+  skos:notation "9K1b" ;
+  skos:note "None" ;
+  skos:prefLabel "Mehlich 3-P saturation ratio (M3PSR ICPAES) [ICPAES estimate of P]" ;
+.
+<9K2>
+  rdf:type skos:Concept ;
+  dct:description "Colwell-P/PBI (ColP) ratio" ;
+  dct:source "http://www.publish.csiro.au/book/6418" ;
+  reg:notation "9K2" ;
+  rdfs:label "Colwell-P/PBI (ColP) ratio" ;
+  skos:broader <9K> ;
+  skos:definition "None" ;
+  skos:notation "9K2" ;
+  skos:note "None" ;
+  skos:prefLabel "Colwell-P/PBI (ColP) ratio" ;
+.
+<None>
+  rdf:type skos:Collection ;
+  dct:source "None" ;
+  ui:topMemberOf <> ;
+  reg:notation "None" ;
+  rdfs:label "None" ;
+  skos:definition "None" ;
+  skos:notation "None" ;
+  skos:note "None" ;
+  skos:prefLabel "None" ;
+.

@@ -1,0 +1,56 @@
+@prefix qudt:  <http://qudt.org/schema/qudt#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ssd:   <http://www.w3.org/ns/sparql-service-description#> .
+@prefix rr-entity: <http://registry.it.csiro.au/structure/entity-type/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spec:  <http://www.opengis.net/ont/modspec#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix dgu:   <http://reference.data.gov.uk/def/reference/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix ui:    <http://purl.org/linked-data/registry-ui#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix vivo:  <http://vivoweb.org/ontology/core#> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix sp:    <http://registry.it.csiro.au/system/prefixes/sp> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix op:    <http://environment.data.gov.au/def/op#> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix dtr:   <http://registry.it.csiro.au/ont/dtr#> .
+@prefix npg:   <http://ns.nature.com/terms/> .
+@prefix odrs:  <http://schema.theodi.org/odrs#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix gba:   <http://registry.it.csiro.au/ont/gba-approval/> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rr-cat: <http://registry.it.csiro.au/structure/category/> .
+@prefix rr-org: <http://registry.it.csiro.au/structure/org/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix rr-ui: <http://registry.it.csiro.au/structure/ui/> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix vs:    <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<scma>
+  rdf:type reg:Register ;
+  rdf:type ldp:Container ;
+  reg:notation "scma" ;
+  rdfs:label "Soil chemical methods - Australasia" ;
+  rdfs:seeAlso               <http://www.publish.csiro.au/nid/22/pid/6418.htm> ;
+  dct:contributor            <https://orcid.org/0000-0002-3884-3420> ;
+  dct:creator                <mailto:mr.wong@federation.edu.au> ;
+  dct:description            """<p>This register contains a machine-readable representation of the classifiers described in <a href='https://www.publish.csiro.au/book/6418'>Soil Chemical Methods – Australasia</a>, by George E Rayment and David J Lyons. These comprise the laboratory and field chemical tests relevant to Australasia and beyond. </p>         <p>Supersedes Australian Laboratory Handbook of Soil and Water Chemical Methods (Rayment and Higginson 1992) while retaining method codes and other strengths of that Handbook. This register also includes the redundant method codes of (Rayment and Higginson 1992)</p>"""^^rdf:HTML ;
+  dct:license                <http://creativecommons.org/licences/by/4.0/> ;
+  dct:publisher              <http://www.publish.csiro.au/> ;
+  dct:rights                 "copyright CSIRO 2011, 2019. All rights reserved." ;
+  dct:source                 "Soil Chemical Methods – Australasia (Rayment and Lyons 2011).' (CSIRO Publishing: Melbourne)" ;
+  reg:notation               "scma" ;
+  ui:hierarchyChildProperty  skos:member ;
+  ui:hierarchyRootProperty   ui:topMemberOf ;
+.
