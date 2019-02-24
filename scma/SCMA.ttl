@@ -1,4 +1,5 @@
 # baseURI: file:/C:/Users/cox075/dev/australian-soil-vocabularies/scma/SCMA.ttl
+# imports: http://purl.org/linked-data/registry
 
 @prefix api: <http://purl.org/linked-data/api/vocab#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
@@ -42,6 +43,10 @@
 <file:///C:/Users/cox075/dev/australian-soil-vocabularies/scma/SCMA.ttl>
   rdf:type owl:Ontology ;
   owl:imports dc: ;
+  owl:imports <http://purl.org/linked-data/registry> ;
+.
+<file:/C:/Users/cox075/dev/australian-soil-vocabularies/scma/SCMA.ttl>
+  rdf:type owl:Ontology ;
   owl:imports <http://purl.org/linked-data/registry> ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA>
@@ -318,7 +323,6 @@
   rdfs:member <http://registry.it.csiro.au/sandbox/soil/SCMA/9K1a> ;
   rdfs:member <http://registry.it.csiro.au/sandbox/soil/SCMA/9K1b> ;
   rdfs:member <http://registry.it.csiro.au/sandbox/soil/SCMA/9K2> ;
-  rdfs:member <http://registry.it.csiro.au/sandbox/soil/SCMA/None> ;
   owl:versionInfo 6 ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/1>
@@ -328,12 +332,10 @@
   reg:notation 1 ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Sampling  and Sample Preparation" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/1A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/1A2> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/1B1> ;
   skos:notation 1 ;
-  skos:note "None" ;
   skos:prefLabel "Sampling  and Sample Preparation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/10>
@@ -343,14 +345,12 @@
   reg:notation "10" ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Sulfur" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/10A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/10A2> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/10B> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/10C1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/10D1> ;
   skos:notation "10" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfur" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/10A1>
@@ -359,9 +359,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "10A1" ;
   rdfs:label "Total S - X-ray fluorescence" ;
-  skos:definition "None" ;
   skos:notation "10A1" ;
-  skos:note "None" ;
   skos:prefLabel "Total S - X-ray fluorescence" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/10A2>
@@ -370,9 +368,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "10A2" ;
   rdfs:label "Total soil S - high-temperature combustion" ;
-  skos:definition "None" ;
   skos:notation "10A2" ;
-  skos:note "None" ;
   skos:prefLabel "Total soil S - high-temperature combustion" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/10B>
@@ -381,13 +377,11 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "10B" ;
   rdfs:label "Calcium phosphate-extractable S" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/10B1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/10B2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/10B3> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/10B4> ;
   skos:notation "10B" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium phosphate-extractable S" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/10B1>
@@ -397,9 +391,7 @@
   reg:notation "10B1" ;
   rdfs:label "Calcium phosphate-extractable S - manual distillation" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/10B> ;
-  skos:definition "None" ;
   skos:notation "10B1" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium phosphate-extractable S - manual distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/10B2>
@@ -409,9 +401,7 @@
   reg:notation "10B2" ;
   rdfs:label "Calcium phosphate-extractable S - automated distillation" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/10B> ;
-  skos:definition "None" ;
   skos:notation "10B2" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium phosphate-extractable S - automated distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/10B3>
@@ -421,9 +411,7 @@
   reg:notation "10B3" ;
   rdfs:label "Calcium phosphate-extractable S - ICPAES" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/10B> ;
-  skos:definition "None" ;
   skos:notation "10B3" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium phosphate-extractable S - ICPAES" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/10B4>
@@ -433,9 +421,7 @@
   reg:notation "10B4" ;
   rdfs:label "Calcium phosphate-extractable S - ion chromatography" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/10B> ;
-  skos:definition "None" ;
   skos:notation "10B4" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium phosphate-extractable S - ion chromatography" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/10C1>
@@ -444,9 +430,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "10C1" ;
   rdfs:label "Calcium phosphate-extractable S - ICPAES, + charcoal (CPC-S)" ;
-  skos:definition "None" ;
   skos:notation "10C1" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium phosphate-extractable S - ICPAES, + charcoal (CPC-S)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/10D1>
@@ -455,9 +439,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "10D1" ;
   rdfs:label "Potassium Chloride - 40 Sulfur (KCl-40)-S" ;
-  skos:definition "None" ;
   skos:notation "10D1" ;
-  skos:note "None" ;
   skos:prefLabel "Potassium Chloride - 40 Sulfur (KCl-40)-S" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/11>
@@ -467,11 +449,9 @@
   reg:notation "11" ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Gypsum" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/11A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/11A2> ;
   skos:notation "11" ;
-  skos:note "None" ;
   skos:prefLabel "Gypsum" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/11A1>
@@ -480,9 +460,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "11A1" ;
   rdfs:label "Total gypsum" ;
-  skos:definition "None" ;
   skos:notation "11A1" ;
-  skos:note "None" ;
   skos:prefLabel "Total gypsum" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/11A2>
@@ -491,9 +469,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "11A2" ;
   rdfs:label "Total gypsum by MIR reflectance spectroscopy" ;
-  skos:definition "None" ;
   skos:notation "11A2" ;
-  skos:note "None" ;
   skos:prefLabel "Total gypsum by MIR reflectance spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/12>
@@ -503,7 +479,6 @@
   reg:notation "12" ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Micronutrients" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/12A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/12B1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/12C1> ;
@@ -511,7 +486,6 @@
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/12D1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/12E1> ;
   skos:notation "12" ;
-  skos:note "None" ;
   skos:prefLabel "Micronutrients" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/12A1>
@@ -520,9 +494,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "12A1" ;
   rdfs:label "DTPA-extractable Cu, Zn, Mn and Fe" ;
-  skos:definition "None" ;
   skos:notation "12A1" ;
-  skos:note "None" ;
   skos:prefLabel "DTPA-extractable Cu, Zn, Mn and Fe" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/12B1>
@@ -531,9 +503,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "12B1" ;
   rdfs:label "Ammonium bicarbonate/EDTA-extractable Cu and Zn" ;
-  skos:definition "None" ;
   skos:notation "12B1" ;
-  skos:note "None" ;
   skos:prefLabel "Ammonium bicarbonate/EDTA-extractable Cu and Zn" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/12C>
@@ -542,11 +512,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "12C" ;
   rdfs:label "Calcium chloride-extractable B" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/12C1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/12C2> ;
   skos:notation "12C" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium chloride-extractable B" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/12C1>
@@ -556,9 +524,7 @@
   reg:notation "12C1" ;
   rdfs:label "Calcium chloride-extractable B - manual colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/12C> ;
-  skos:definition "None" ;
   skos:notation "12C1" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium chloride-extractable B - manual colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/12C2>
@@ -568,9 +534,7 @@
   reg:notation "12C2" ;
   rdfs:label "Calcium chloride-extractable B - ICPAES" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/12C> ;
-  skos:definition "None" ;
   skos:notation "12C2" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium chloride-extractable B - ICPAES" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/12D1>
@@ -579,9 +543,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "12D1" ;
   rdfs:label "0.1 M HCl-extractable Cu, Zn, Mn and Fe" ;
-  skos:definition "None" ;
   skos:notation "12D1" ;
-  skos:note "None" ;
   skos:prefLabel "0.1 M HCl-extractable Cu, Zn, Mn and Fe" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/12E1>
@@ -590,9 +552,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "12E1" ;
   rdfs:label "Calcium chloride-extractable Mo" ;
-  skos:definition "None" ;
   skos:notation "12E1" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium chloride-extractable Mo" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/13>
@@ -602,13 +562,11 @@
   reg:notation "13" ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Extractable iron, aluminium and silicon" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/13A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/13B1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/13C1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/13D> ;
   skos:notation "13" ;
-  skos:note "None" ;
   skos:prefLabel "Extractable iron, aluminium and silicon" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/13A1>
@@ -617,9 +575,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "13A1" ;
   rdfs:label "Oxalate-extractable iron, aluminium and silicon" ;
-  skos:definition "None" ;
   skos:notation "13A1" ;
-  skos:note "None" ;
   skos:prefLabel "Oxalate-extractable iron, aluminium and silicon" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/13B1>
@@ -628,9 +584,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "13B1" ;
   rdfs:label "Pyrophosphate-extractable Fe and Al" ;
-  skos:definition "None" ;
   skos:notation "13B1" ;
-  skos:note "None" ;
   skos:prefLabel "Pyrophosphate-extractable Fe and Al" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/13C1>
@@ -639,9 +593,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "13C1" ;
   rdfs:label "Citrate/dihionite-extractable iron and aluminium" ;
-  skos:definition "None" ;
   skos:notation "13C1" ;
-  skos:note "None" ;
   skos:prefLabel "Citrate/dihionite-extractable iron and aluminium" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/13D>
@@ -650,11 +602,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "13D" ;
   rdfs:label "Acid-extractable soil silicon" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/13D1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/13D2> ;
   skos:notation "13D" ;
-  skos:note "None" ;
   skos:prefLabel "Acid-extractable soil silicon" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/13D1>
@@ -664,9 +614,7 @@
   reg:notation "13D1" ;
   rdfs:label "Acid-extractable soil silicon - automated colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/13D> ;
-  skos:definition "None" ;
   skos:notation "13D1" ;
-  skos:note "None" ;
   skos:prefLabel "Acid-extractable soil silicon - automated colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/13D2>
@@ -676,9 +624,7 @@
   reg:notation "13D2" ;
   rdfs:label "Acid-extractable soil silicon - ICPAES" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/13D> ;
-  skos:definition "None" ;
   skos:notation "13D2" ;
-  skos:note "None" ;
   skos:prefLabel "Acid-extractable soil silicon - ICPAES" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14>
@@ -688,7 +634,6 @@
   reg:notation "14" ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Saturation extracts" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/14A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/14A2> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/14A3> ;
@@ -708,7 +653,6 @@
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/14G2> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/14H1> ;
   skos:notation "14" ;
-  skos:note "None" ;
   skos:prefLabel "Saturation extracts" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14A1>
@@ -717,9 +661,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "14A1" ;
   rdfs:label "Saturation extract - filter suction" ;
-  skos:definition "None" ;
   skos:notation "14A1" ;
-  skos:note "None" ;
   skos:prefLabel "Saturation extract - filter suction" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14A2>
@@ -728,9 +670,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "14A2" ;
   rdfs:label "Saturation extract -automatic extractor" ;
-  skos:definition "None" ;
   skos:notation "14A2" ;
-  skos:note "None" ;
   skos:prefLabel "Saturation extract -automatic extractor" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14A3>
@@ -739,9 +679,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "14A3" ;
   rdfs:label "Saturation extract - centrifuge, closed system" ;
-  skos:definition "None" ;
   skos:notation "14A3" ;
-  skos:note "None" ;
   skos:prefLabel "Saturation extract - centrifuge, closed system" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14A4>
@@ -750,9 +688,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "14A4" ;
   rdfs:label "Saturation extract - centrifuge, Gillman" ;
-  skos:definition "None" ;
   skos:notation "14A4" ;
-  skos:note "None" ;
   skos:prefLabel "Saturation extract - centrifuge, Gillman" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14B1>
@@ -761,9 +697,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "14B1" ;
   rdfs:label "Electrical conductivity of SE (EC of SE)" ;
-  skos:definition "None" ;
   skos:notation "14B1" ;
-  skos:note "None" ;
   skos:prefLabel "Electrical conductivity of SE (EC of SE)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14C1>
@@ -772,9 +706,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "14C1" ;
   rdfs:label "pH of SE" ;
-  skos:definition "None" ;
   skos:notation "14C1" ;
-  skos:note "None" ;
   skos:prefLabel "pH of SE" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14D>
@@ -783,11 +715,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "14D" ;
   rdfs:label "Bicarbonate of SE and carbonate of SE" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14D1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14D2> ;
   skos:notation "14D" ;
-  skos:note "None" ;
   skos:prefLabel "Bicarbonate of SE and carbonate of SE" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14D1>
@@ -797,9 +727,7 @@
   reg:notation "14D1" ;
   rdfs:label "Bicarbonate of SE and carbonate of SE - potentiometric titration" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14D> ;
-  skos:definition "None" ;
   skos:notation "14D1" ;
-  skos:note "None" ;
   skos:prefLabel "Bicarbonate of SE and carbonate of SE - potentiometric titration" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14D2>
@@ -809,9 +737,7 @@
   reg:notation "14D2" ;
   rdfs:label "Bicarbonate of SE and carbonate of SE - indicator method" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14D> ;
-  skos:definition "None" ;
   skos:notation "14D2" ;
-  skos:note "None" ;
   skos:prefLabel "Bicarbonate of SE and carbonate of SE - indicator method" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14E>
@@ -820,14 +746,12 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "14E" ;
   rdfs:label "Chloride of SE" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14E1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14E2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14E2a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14E2b> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14E3> ;
   skos:notation "14E" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride of SE" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14E1>
@@ -837,9 +761,7 @@
   reg:notation "14E1" ;
   rdfs:label "Chloride of SE - potentiometric titration" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14E> ;
-  skos:definition "None" ;
   skos:notation "14E1" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride of SE - potentiometric titration" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14E2>
@@ -851,12 +773,10 @@
   rdfs:label "Chloride (saturation extract) - ion chromotography" ;
   rdfs:label "Chloride of SE - IC" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14E> ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14E2a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14E2b> ;
   skos:notation "14E2" ;
   skos:note "14E2 has been superseded by 14E2a and 14E2b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride (saturation extract) - ion chromotography" ;
   skos:prefLabel "Chloride of SE - IC" ;
 .
@@ -868,9 +788,7 @@
   rdfs:label "Chloride of SE - IC (chemical suppression of eluent conductivity)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14E> ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14E2> ;
-  skos:definition "None" ;
   skos:notation "14E2a" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride of SE - IC (chemical suppression of eluent conductivity)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14E2b>
@@ -881,9 +799,7 @@
   rdfs:label "Chloride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14E> ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14E2> ;
-  skos:definition "None" ;
   skos:notation "14E2b" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14E3>
@@ -893,9 +809,7 @@
   reg:notation "14E3" ;
   rdfs:label "Chloride of SE - ICPAES" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14E> ;
-  skos:definition "None" ;
   skos:notation "14E3" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride of SE - ICPAES" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14F>
@@ -904,7 +818,6 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "14F" ;
   rdfs:label "Sulfate-S of SE" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14F1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14F2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14F3> ;
@@ -913,7 +826,6 @@
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14F5a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14F5b> ;
   skos:notation "14F" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfate-S of SE" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14F1>
@@ -923,9 +835,7 @@
   reg:notation "14F1" ;
   rdfs:label "Sulfate-S of SE - ICPAES (plus P and soluble cations)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14F> ;
-  skos:definition "None" ;
   skos:notation "14F1" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfate-S of SE - ICPAES (plus P and soluble cations)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14F2>
@@ -935,9 +845,7 @@
   reg:notation "14F2" ;
   rdfs:label "Sulfate-S of SE - turbidimetric" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14F> ;
-  skos:definition "None" ;
   skos:notation "14F2" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfate-S of SE - turbidimetric" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14F3>
@@ -947,9 +855,7 @@
   reg:notation "14F3" ;
   rdfs:label "Sulfate-S of SE - gravimetric" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14F> ;
-  skos:definition "None" ;
   skos:notation "14F3" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfate-S of SE - gravimetric" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14F4>
@@ -959,9 +865,7 @@
   reg:notation "14F4" ;
   rdfs:label "Sulfate-S of SE - automated colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14F> ;
-  skos:definition "None" ;
   skos:notation "14F4" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfate-S of SE - automated colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14F5>
@@ -973,12 +877,10 @@
   rdfs:label "Sulfate-S (saturation extract) - ion chromotography" ;
   rdfs:label "Sulfate-S of SE - IC" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14F> ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14F5a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14F5b> ;
   skos:notation "14F5" ;
   skos:note "14F5 has been superseded by 14F5a and 14F5b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfate-S (saturation extract) - ion chromotography" ;
   skos:prefLabel "Sulfate-S of SE - IC" ;
 .
@@ -990,9 +892,7 @@
   rdfs:label "Sulfate-S of SE - IC (chemical suppression of eluent conductivity)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14F> ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14F5> ;
-  skos:definition "None" ;
   skos:notation "14F5a" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfate-S of SE - IC (chemical suppression of eluent conductivity)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14F5b>
@@ -1003,9 +903,7 @@
   rdfs:label "Sulfate-S of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14F> ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14F5> ;
-  skos:definition "None" ;
   skos:notation "14F5b" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfate-S of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14G>
@@ -1014,13 +912,11 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "14G" ;
   rdfs:label "Fluoride of SE" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14G1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14G2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14G2a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14G2b> ;
   skos:notation "14G" ;
-  skos:note "None" ;
   skos:prefLabel "Fluoride of SE" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14G1>
@@ -1030,27 +926,23 @@
   reg:notation "14G1" ;
   rdfs:label "Fluoride of SE - specific ion electrode" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14G> ;
-  skos:definition "None" ;
   skos:notation "14G1" ;
-  skos:note "None" ;
   skos:prefLabel "Fluoride of SE - specific ion electrode" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14G2>
   rdf:type skos:Concept ;
-  dct:description "Flouride (saturation extract) - ion chromotography" ;
+  dct:description "Fluoride (saturation extract) - ion chromotography" ;
   dct:description "Fluoride of SE - IC" ;
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   reg:notation "14G2" ;
-  rdfs:label "Flouride (saturation extract) - ion chromotography" ;
+  rdfs:label "Fluoride (saturation extract) - ion chromotography" ;
   rdfs:label "Fluoride of SE - IC" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14G> ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14G2a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/14G2b> ;
   skos:notation "14G2" ;
   skos:note "14G2 has been superseded by 14G2a and 14G2b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
-  skos:note "None" ;
-  skos:prefLabel "Flouride (saturation extract) - ion chromotography" ;
+  skos:prefLabel "Fluoride (saturation extract) - ion chromotography" ;
   skos:prefLabel "Fluoride of SE - IC" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14G2a>
@@ -1061,9 +953,7 @@
   rdfs:label "Fluoride of SE - IC (chemical suppression of eluent conductivity)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14G> ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14G2> ;
-  skos:definition "None" ;
   skos:notation "14G2a" ;
-  skos:note "None" ;
   skos:prefLabel "Fluoride of SE - IC (chemical suppression of eluent conductivity)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14G2b>
@@ -1074,9 +964,7 @@
   rdfs:label "Fluoride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14G> ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/14G2> ;
-  skos:definition "None" ;
   skos:notation "14G2b" ;
-  skos:note "None" ;
   skos:prefLabel "Fluoride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/14H1>
@@ -1085,9 +973,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "14H1" ;
   rdfs:label "Soluble bases of SE (Ca, Mg, K, Na)" ;
-  skos:definition "None" ;
   skos:notation "14H1" ;
-  skos:note "None" ;
   skos:prefLabel "Soluble bases of SE (Ca, Mg, K, Na)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15>
@@ -1097,7 +983,6 @@
   reg:notation "15" ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Ion-exchange properties" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/15A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/15A2> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/15A3> ;
@@ -1128,7 +1013,6 @@
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/15N1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/15O1> ;
   skos:notation "15" ;
-  skos:note "None" ;
   skos:prefLabel "Ion-exchange properties" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15A>
@@ -1137,12 +1021,10 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15A" ;
   rdfs:label "Exchangeable bases (Ca2+, Mg2+, Na+, K+) by 1 M ammonium chloride at pH 7.0" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15A1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15A2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15A3> ;
   skos:notation "15A" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases (Ca2+, Mg2+, Na+, K+) by 1 M ammonium chloride at pH 7.0" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15A1>
@@ -1152,9 +1034,7 @@
   reg:notation "15A1" ;
   rdfs:label "Exchangeable bases (Ca2+, Mg2+, Na+, K+) - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15A> ;
-  skos:definition "None" ;
   skos:notation "15A1" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases (Ca2+, Mg2+, Na+, K+) - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15A2>
@@ -1164,9 +1044,7 @@
   reg:notation "15A2" ;
   rdfs:label "Exchangeable bases by 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15A> ;
-  skos:definition "None" ;
   skos:notation "15A2" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases by 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15A3>
@@ -1176,9 +1054,7 @@
   reg:notation "15A3" ;
   rdfs:label "Exchangeable bases - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15A> ;
-  skos:definition "None" ;
   skos:notation "15A3" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15B>
@@ -1187,12 +1063,10 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15B" ;
   rdfs:label "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15B1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15B2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15B3> ;
   skos:notation "15B" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15B1>
@@ -1202,9 +1076,7 @@
   reg:notation "15B1" ;
   rdfs:label "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15B> ;
-  skos:definition "None" ;
   skos:notation "15B1" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15B2>
@@ -1214,9 +1086,7 @@
   reg:notation "15B2" ;
   rdfs:label "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15B> ;
-  skos:definition "None" ;
   skos:notation "15B2" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15B3>
@@ -1226,9 +1096,7 @@
   reg:notation "15B3" ;
   rdfs:label "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15B> ;
-  skos:definition "None" ;
   skos:notation "15B3" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15C1>
@@ -1237,9 +1105,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15C1" ;
   rdfs:label "Exchangeable bases and CEC - alcoholic 1 M ammonium chloride at pH 8.5, pre-treatment for soluble salts" ;
-  skos:definition "None" ;
   skos:notation "15C1" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases and CEC - alcoholic 1 M ammonium chloride at pH 8.5, pre-treatment for soluble salts" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15C2>
@@ -1248,9 +1114,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15C2" ;
   rdfs:label "Exchangeable divalent cations and CEC - by MIR diffuse reflectance spectroscopy" ;
-  skos:definition "None" ;
   skos:notation "15C2" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable divalent cations and CEC - by MIR diffuse reflectance spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15D>
@@ -1259,12 +1123,10 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15D" ;
   rdfs:label "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15D1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15D2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15D3> ;
   skos:notation "15D" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15D1>
@@ -1274,9 +1136,7 @@
   reg:notation "15D1" ;
   rdfs:label "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, manual leach" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15D> ;
-  skos:definition "None" ;
   skos:notation "15D1" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, manual leach" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15D2>
@@ -1286,9 +1146,7 @@
   reg:notation "15D2" ;
   rdfs:label "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, automatic extractor" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15D> ;
-  skos:definition "None" ;
   skos:notation "15D2" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, automatic extractor" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15D3>
@@ -1298,9 +1156,7 @@
   reg:notation "15D3" ;
   rdfs:label "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, rapid method with no pre-treatment for soluble salts" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15D> ;
-  skos:definition "None" ;
   skos:notation "15D3" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, rapid method with no pre-treatment for soluble salts" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15E>
@@ -1309,12 +1165,10 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15E" ;
   rdfs:label "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15E1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15E2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15E3> ;
   skos:notation "15E" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15E1>
@@ -1324,9 +1178,7 @@
   reg:notation "15E1" ;
   rdfs:label "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange, no pre-treatment for soluble salts" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15E> ;
-  skos:definition "None" ;
   skos:notation "15E1" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange, no pre-treatment for soluble salts" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15E2>
@@ -1336,9 +1188,7 @@
   reg:notation "15E2" ;
   rdfs:label "Exchangeable bases, CEC and AEC by compulsive exchange, pre-treatment for soluble salts" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15E> ;
-  skos:definition "None" ;
   skos:notation "15E2" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases, CEC and AEC by compulsive exchange, pre-treatment for soluble salts" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15E3>
@@ -1348,9 +1198,7 @@
   reg:notation "15E3" ;
   rdfs:label "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble Na+" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15E> ;
-  skos:definition "None" ;
   skos:notation "15E3" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble Na+" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15F>
@@ -1359,12 +1207,10 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15F" ;
   rdfs:label "Ion-exchange properties by 0.01 M silver-thiourea (AgTU+)" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15F1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15F2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15F3> ;
   skos:notation "15F" ;
-  skos:note "None" ;
   skos:prefLabel "Ion-exchange properties by 0.01 M silver-thiourea (AgTU+)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15F1>
@@ -1374,9 +1220,7 @@
   reg:notation "15F1" ;
   rdfs:label "Exchangeable bases by 0.01 M silver-thiourea (AgTU+) - no pre-treatment for soluble salts" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15F> ;
-  skos:definition "None" ;
   skos:notation "15F1" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable bases by 0.01 M silver-thiourea (AgTU+) - no pre-treatment for soluble salts" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15F2>
@@ -1386,9 +1230,7 @@
   reg:notation "15F2" ;
   rdfs:label "Exchangeable aluminium by 0.01 M AgTU+" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15F> ;
-  skos:definition "None" ;
   skos:notation "15F2" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable aluminium by 0.01 M AgTU+" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15F3>
@@ -1398,9 +1240,7 @@
   reg:notation "15F3" ;
   rdfs:label "Cation exchange capacity by 0.01 M AgTU+ [CEC AgTU]" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15F> ;
-  skos:definition "None" ;
   skos:notation "15F3" ;
-  skos:note "None" ;
   skos:prefLabel "Cation exchange capacity by 0.01 M AgTU+ [CEC AgTU]" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15G1>
@@ -1409,9 +1249,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15G1" ;
   rdfs:label "Exchange acidity (H+ + Al3+) by 1 M potassium chloride " ;
-  skos:definition "None" ;
   skos:notation "15G1" ;
-  skos:note "None" ;
   skos:prefLabel "Exchange acidity (H+ + Al3+) by 1 M potassium chloride " ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15H1>
@@ -1420,9 +1258,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15H1" ;
   rdfs:label "Exchange acidity by triethanolamine (TEA)" ;
-  skos:definition "None" ;
   skos:notation "15H1" ;
-  skos:note "None" ;
   skos:prefLabel "Exchange acidity by triethanolamine (TEA)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15I>
@@ -1431,13 +1267,11 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15I" ;
   rdfs:label "Cation exchange capacity measurement" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15I1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15I2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15I3> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/15I4> ;
   skos:notation "15I" ;
-  skos:note "None" ;
   skos:prefLabel "Cation exchange capacity measurement" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15I1>
@@ -1447,9 +1281,7 @@
   reg:notation "15I1" ;
   rdfs:label "Cation exchange capacity measurement - distillation of NH+4" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15I> ;
-  skos:definition "None" ;
   skos:notation "15I1" ;
-  skos:note "None" ;
   skos:prefLabel "Cation exchange capacity measurement - distillation of NH+4" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15I2>
@@ -1459,9 +1291,7 @@
   reg:notation "15I2" ;
   rdfs:label "Cation exchange capacity measurement - automated determination of NH+4" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15I> ;
-  skos:definition "None" ;
   skos:notation "15I2" ;
-  skos:note "None" ;
   skos:prefLabel "Cation exchange capacity measurement - automated determination of NH+4" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15I3>
@@ -1471,9 +1301,7 @@
   reg:notation "15I3" ;
   rdfs:label "Cation exchange capacity measurement - automated determination of NH+4 and Cl+" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15I> ;
-  skos:definition "None" ;
   skos:notation "15I3" ;
-  skos:note "None" ;
   skos:prefLabel "Cation exchange capacity measurement - automated determination of NH+4 and Cl+" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15I4>
@@ -1483,9 +1311,7 @@
   reg:notation "15I4" ;
   rdfs:label "Cation exchange capacity measurement - titration of NH+4 and Cl-" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/15I> ;
-  skos:definition "None" ;
   skos:notation "15I4" ;
-  skos:note "None" ;
   skos:prefLabel "Cation exchange capacity measurement - titration of NH+4 and Cl-" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15J1>
@@ -1494,9 +1320,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15J1" ;
   rdfs:label "Effective cation exchange capacity (ECEC)" ;
-  skos:definition "None" ;
   skos:notation "15J1" ;
-  skos:note "None" ;
   skos:prefLabel "Effective cation exchange capacity (ECEC)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15K1>
@@ -1505,9 +1329,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15K1" ;
   rdfs:label "Cation exchange capacity - pH 8.2 (CEC pH 8.2)" ;
-  skos:definition "None" ;
   skos:notation "15K1" ;
-  skos:note "None" ;
   skos:prefLabel "Cation exchange capacity - pH 8.2 (CEC pH 8.2)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15L1>
@@ -1516,9 +1338,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15L1" ;
   rdfs:label "Base saturation percentage (ESP)" ;
-  skos:definition "None" ;
   skos:notation "15L1" ;
-  skos:note "None" ;
   skos:prefLabel "Base saturation percentage (ESP)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15M1>
@@ -1527,9 +1347,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15M1" ;
   rdfs:label "Basic cation saturation ratios" ;
-  skos:definition "None" ;
   skos:notation "15M1" ;
-  skos:note "None" ;
   skos:prefLabel "Basic cation saturation ratios" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15N1>
@@ -1538,9 +1356,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15N1" ;
   rdfs:label "Exchangeable Na+ percentage (ESP)" ;
-  skos:definition "None" ;
   skos:notation "15N1" ;
-  skos:note "None" ;
   skos:prefLabel "Exchangeable Na+ percentage (ESP)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/15O1>
@@ -1549,9 +1365,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "15O1" ;
   rdfs:label "Percent Al saturation" ;
-  skos:definition "None" ;
   skos:notation "15O1" ;
-  skos:note "None" ;
   skos:prefLabel "Percent Al saturation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/16>
@@ -1561,13 +1375,11 @@
   reg:notation "16" ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Lime requirement " ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/16A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/16B1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/16C1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/16D1> ;
   skos:notation "16" ;
-  skos:note "None" ;
   skos:prefLabel "Lime requirement " ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/16A1>
@@ -1576,9 +1388,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "16A1" ;
   rdfs:label "Calculated lime rate - from exchangeable Al3+" ;
-  skos:definition "None" ;
   skos:notation "16A1" ;
-  skos:note "None" ;
   skos:prefLabel "Calculated lime rate - from exchangeable Al3+" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/16B1>
@@ -1587,9 +1397,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "16B1" ;
   rdfs:label "Calculated lime rate - Cregan" ;
-  skos:definition "None" ;
   skos:notation "16B1" ;
-  skos:note "None" ;
   skos:prefLabel "Calculated lime rate - Cregan" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/16C1>
@@ -1598,9 +1406,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "16C1" ;
   rdfs:label "Lime requirement - Mehlich single buffer" ;
-  skos:definition "None" ;
   skos:notation "16C1" ;
-  skos:note "None" ;
   skos:prefLabel "Lime requirement - Mehlich single buffer" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/16D1>
@@ -1609,9 +1415,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "16D1" ;
   rdfs:label "Lime requirement - Dunn titration curves" ;
-  skos:definition "None" ;
   skos:notation "16D1" ;
-  skos:note "None" ;
   skos:prefLabel "Lime requirement - Dunn titration curves" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/17>
@@ -1621,13 +1425,11 @@
   reg:notation "17" ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Total miscellaneous elements" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/17A> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/17B1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/17B2> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/17C1> ;
   skos:notation "17" ;
-  skos:note "None" ;
   skos:prefLabel "Total miscellaneous elements" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/17A>
@@ -1636,11 +1438,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "17A" ;
   rdfs:label "Total elemental analysis of soils and sediments" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/17A1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/17A2> ;
   skos:notation "17A" ;
-  skos:note "None" ;
   skos:prefLabel "Total elemental analysis of soils and sediments" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/17A1>
@@ -1650,9 +1450,7 @@
   reg:notation "17A1" ;
   rdfs:label "Total elemental analysis of soils and sediments -X-ray fluorescence spectroscopy" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/17A> ;
-  skos:definition "None" ;
   skos:notation "17A1" ;
-  skos:note "None" ;
   skos:prefLabel "Total elemental analysis of soils and sediments -X-ray fluorescence spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/17A2>
@@ -1662,9 +1460,7 @@
   reg:notation "17A2" ;
   rdfs:label "Total elemental analysis of soils and sediments - microwave assisted digestion, with determination by atomic spectroscopy" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/17A> ;
-  skos:definition "None" ;
   skos:notation "17A2" ;
-  skos:note "None" ;
   skos:prefLabel "Total elemental analysis of soils and sediments - microwave assisted digestion, with determination by atomic spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/17B>
@@ -1673,11 +1469,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "17B" ;
   rdfs:label "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/17B1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/17B2> ;
   skos:notation "17B" ;
-  skos:note "None" ;
   skos:prefLabel "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/17B1>
@@ -1687,9 +1481,7 @@
   reg:notation "17B1" ;
   rdfs:label "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia block digestion with determination by atomic spectroscopy" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/17B> ;
-  skos:definition "None" ;
   skos:notation "17B1" ;
-  skos:note "None" ;
   skos:prefLabel "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia block digestion with determination by atomic spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/17B2>
@@ -1699,9 +1491,7 @@
   reg:notation "17B2" ;
   rdfs:label "Pseudo-total elements of soils and sediments - reverse aqua regia microwave assisted digestion of sludges, soils and sediments, with determination by atomic spectroscopy" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/17B> ;
-  skos:definition "None" ;
   skos:notation "17B2" ;
-  skos:note "None" ;
   skos:prefLabel "Pseudo-total elements of soils and sediments - reverse aqua regia microwave assisted digestion of sludges, soils and sediments, with determination by atomic spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/17C1>
@@ -1710,9 +1500,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "17C1" ;
   rdfs:label "Pseudo-total elements of soils and sediments - conventional aqua regia block digestion and determination by atomic spectroscopy" ;
-  skos:definition "None" ;
   skos:notation "17C1" ;
-  skos:note "None" ;
   skos:prefLabel "Pseudo-total elements of soils and sediments - conventional aqua regia block digestion and determination by atomic spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/18>
@@ -1722,7 +1510,6 @@
   reg:notation "18" ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Miscellaneous extractable elements" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/18A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/18B1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/18C1> ;
@@ -1731,7 +1518,6 @@
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/18F> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/18G1> ;
   skos:notation "18" ;
-  skos:note "None" ;
   skos:prefLabel "Miscellaneous extractable elements" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/18A1>
@@ -1740,9 +1526,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "18A1" ;
   rdfs:label "Bicarbonate-extractable K+" ;
-  skos:definition "None" ;
   skos:notation "18A1" ;
-  skos:note "None" ;
   skos:prefLabel "Bicarbonate-extractable K+" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/18B1>
@@ -1751,9 +1535,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "18B1" ;
   rdfs:label "Hydrochloric acid-extractable K+" ;
-  skos:definition "None" ;
   skos:notation "18B1" ;
-  skos:note "None" ;
   skos:prefLabel "Hydrochloric acid-extractable K+" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/18C1>
@@ -1762,9 +1544,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "18C1" ;
   rdfs:label "Boiling 0.1 nitric acid-extractable K+" ;
-  skos:definition "None" ;
   skos:notation "18C1" ;
-  skos:note "None" ;
   skos:prefLabel "Boiling 0.1 nitric acid-extractable K+" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/18D1>
@@ -1773,9 +1553,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "18D1" ;
   rdfs:label "0.1 M calcium chloride-extractable Cd" ;
-  skos:definition "None" ;
   skos:notation "18D1" ;
-  skos:note "None" ;
   skos:prefLabel "0.1 M calcium chloride-extractable Cd" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/18E1>
@@ -1784,9 +1562,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "18E1" ;
   rdfs:label "0.01 M calcium chloride-extractable Cd" ;
-  skos:definition "None" ;
   skos:notation "18E1" ;
-  skos:note "None" ;
   skos:prefLabel "0.01 M calcium chloride-extractable Cd" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/18F>
@@ -1795,11 +1571,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "18F" ;
   rdfs:label "Mehlich 3 multi-element tests" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/18F1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/18F2> ;
   skos:notation "18F" ;
-  skos:note "None" ;
   skos:prefLabel "Mehlich 3 multi-element tests" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/18F1>
@@ -1809,9 +1583,7 @@
   reg:notation "18F1" ;
   rdfs:label "Mehlich 3-extractable elements (P, Ca, Mg, Na, K, Fe, Cu, Mn, Zn, B, S, Al)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/18F> ;
-  skos:definition "None" ;
   skos:notation "18F1" ;
-  skos:note "None" ;
   skos:prefLabel "Mehlich 3-extractable elements (P, Ca, Mg, Na, K, Fe, Cu, Mn, Zn, B, S, Al)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/18F2>
@@ -1821,9 +1593,7 @@
   reg:notation "18F2" ;
   rdfs:label "Mehlich 3 Extractable P - colour finish" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/18F> ;
-  skos:definition "None" ;
   skos:notation "18F2" ;
-  skos:note "None" ;
   skos:prefLabel "Mehlich 3 Extractable P - colour finish" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/18G1>
@@ -1832,9 +1602,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "18G1" ;
   rdfs:label "Reverse soil K+ by copper-modified sodium tetraphenylboron extraction (TBK 4h)" ;
-  skos:definition "None" ;
   skos:notation "18G1" ;
-  skos:note "None" ;
   skos:prefLabel "Reverse soil K+ by copper-modified sodium tetraphenylboron extraction (TBK 4h)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/19>
@@ -1844,13 +1612,11 @@
   reg:notation "19" ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Alkaline earth carbonates" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/19A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/19B> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/19C1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/19D1> ;
   skos:notation "19" ;
-  skos:note "None" ;
   skos:prefLabel "Alkaline earth carbonates" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/19A1>
@@ -1859,9 +1625,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "19A1" ;
   rdfs:label "Carbonates -rapid titration" ;
-  skos:definition "None" ;
   skos:notation "19A1" ;
-  skos:note "None" ;
   skos:prefLabel "Carbonates -rapid titration" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/19B>
@@ -1870,11 +1634,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "19B" ;
   rdfs:label "Carbonates by pressure change" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/19B1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/19B2> ;
   skos:notation "19B" ;
-  skos:note "None" ;
   skos:prefLabel "Carbonates by pressure change" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/19B1>
@@ -1884,9 +1646,7 @@
   reg:notation "19B1" ;
   rdfs:label "Carbonates by pressure change - manometric" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/19B> ;
-  skos:definition "None" ;
   skos:notation "19B1" ;
-  skos:note "None" ;
   skos:prefLabel "Carbonates by pressure change - manometric" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/19B2>
@@ -1896,9 +1656,7 @@
   reg:notation "19B2" ;
   rdfs:label "Carbonates by pressure change - transducer" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/19B> ;
-  skos:definition "None" ;
   skos:notation "19B2" ;
-  skos:note "None" ;
   skos:prefLabel "Carbonates by pressure change - transducer" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/19C1>
@@ -1907,9 +1665,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "19C1" ;
   rdfs:label "Spot field test for the presence of soil carbonates with dilute HCl" ;
-  skos:definition "None" ;
   skos:notation "19C1" ;
-  skos:note "None" ;
   skos:prefLabel "Spot field test for the presence of soil carbonates with dilute HCl" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/19D1>
@@ -1918,9 +1674,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "19D1" ;
   rdfs:label "Field test for carbonates with dilute HCl and effervescence class assessment" ;
-  skos:definition "None" ;
   skos:notation "19D1" ;
-  skos:note "None" ;
   skos:prefLabel "Field test for carbonates with dilute HCl and effervescence class assessment" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/1A1>
@@ -1929,9 +1683,7 @@
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   reg:notation "1A1" ;
   rdfs:label "Field sampling - soil and land use surveys" ;
-  skos:definition "None" ;
   skos:notation "1A1" ;
-  skos:note "None" ;
   skos:prefLabel "Field sampling - soil and land use surveys" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/1A2>
@@ -1940,9 +1692,7 @@
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   reg:notation "1A2" ;
   rdfs:label "Field sampling - diagnostic" ;
-  skos:definition "None" ;
   skos:notation "1A2" ;
-  skos:note "None" ;
   skos:prefLabel "Field sampling - diagnostic" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/1B1>
@@ -1951,9 +1701,7 @@
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   reg:notation "1B1" ;
   rdfs:label "Laboratory preparation" ;
-  skos:definition "None" ;
   skos:notation "1B1" ;
-  skos:note "None" ;
   skos:prefLabel "Laboratory preparation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/2>
@@ -1963,13 +1711,11 @@
   reg:notation 2 ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Sampling, preparation and moisture content" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/2A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/2B1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/2C1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/2D1> ;
   skos:notation 2 ;
-  skos:note "None" ;
   skos:prefLabel "Sampling, preparation and moisture content" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20>
@@ -1979,7 +1725,6 @@
   reg:notation "20" ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Acid sulfate soils" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/20A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/20B1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/20C1> ;
@@ -1993,7 +1738,6 @@
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/20J1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/20K1> ;
   skos:notation "20" ;
-  skos:note "None" ;
   skos:prefLabel "Acid sulfate soils" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20A1>
@@ -2002,9 +1746,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "20A1" ;
   rdfs:label "Chromium reducible S (S CR)" ;
-  skos:definition "None" ;
   skos:notation "20A1" ;
-  skos:note "None" ;
   skos:prefLabel "Chromium reducible S (S CR)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20B1>
@@ -2013,9 +1755,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "20B1" ;
   rdfs:label "SPOCAS acid trail - titratable actual acidity (TAA)" ;
-  skos:definition "None" ;
   skos:notation "20B1" ;
-  skos:note "None" ;
   skos:prefLabel "SPOCAS acid trail - titratable actual acidity (TAA)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20C1>
@@ -2024,9 +1764,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "20C1" ;
   rdfs:label "SPOCAS acid trail - titratable peroxide acidity (TPA) and Net (excess) Acid Neutralising Capacity (a-ANC E)" ;
-  skos:definition "None" ;
   skos:notation "20C1" ;
-  skos:note "None" ;
   skos:prefLabel "SPOCAS acid trail - titratable peroxide acidity (TPA) and Net (excess) Acid Neutralising Capacity (a-ANC E)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20D1>
@@ -2035,9 +1773,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "20D1" ;
   rdfs:label "1 M KCl-extractable S, Ca and Mg" ;
-  skos:definition "None" ;
   skos:notation "20D1" ;
-  skos:note "None" ;
   skos:prefLabel "1 M KCl-extractable S, Ca and Mg" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20E1>
@@ -2046,9 +1782,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "20E1" ;
   rdfs:label "1 M KCl-extractable S, Ca and Mg after peroxide oxidation" ;
-  skos:definition "None" ;
   skos:notation "20E1" ;
-  skos:note "None" ;
   skos:prefLabel "1 M KCl-extractable S, Ca and Mg after peroxide oxidation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20F>
@@ -2057,11 +1791,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "20F" ;
   rdfs:label "Sulfur - 4 M HCl extraction (S HCl)" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/20F1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/20F2> ;
   skos:notation "20F" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfur - 4 M HCl extraction (S HCl)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20F1>
@@ -2071,9 +1803,7 @@
   reg:notation "20F1" ;
   rdfs:label "Sulfur - 4 M HCl extraction (S HCl), ICPAES finish" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/20F> ;
-  skos:definition "None" ;
   skos:notation "20F1" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfur - 4 M HCl extraction (S HCl), ICPAES finish" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20F2>
@@ -2083,9 +1813,7 @@
   reg:notation "20F2" ;
   rdfs:label "Sulfur - 4 M HCl extraction (S HCl), ion chromatography finish" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/20F> ;
-  skos:definition "None" ;
   skos:notation "20F2" ;
-  skos:note "None" ;
   skos:prefLabel "Sulfur - 4 M HCl extraction (S HCl), ion chromatography finish" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20G1>
@@ -2094,9 +1822,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "20G1" ;
   rdfs:label "Peroxide residual acid soluble sulfur (S RAS)" ;
-  skos:definition "None" ;
   skos:notation "20G1" ;
-  skos:note "None" ;
   skos:prefLabel "Peroxide residual acid soluble sulfur (S RAS)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20H1>
@@ -2105,9 +1831,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "20H1" ;
   rdfs:label "Acid neutralising capacity - acid reacted and back titration (ANC BT)" ;
-  skos:definition "None" ;
   skos:notation "20H1" ;
-  skos:note "None" ;
   skos:prefLabel "Acid neutralising capacity - acid reacted and back titration (ANC BT)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20I1>
@@ -2116,9 +1840,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "20I1" ;
   rdfs:label "Acid neutralising capacity - from SPOCAS" ;
-  skos:definition "None" ;
   skos:notation "20I1" ;
-  skos:note "None" ;
   skos:prefLabel "Acid neutralising capacity - from SPOCAS" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20J1>
@@ -2127,9 +1849,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "20J1" ;
   rdfs:label "Field approximation of ASS hazard" ;
-  skos:definition "None" ;
   skos:notation "20J1" ;
-  skos:note "None" ;
   skos:prefLabel "Field approximation of ASS hazard" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/20K1>
@@ -2138,9 +1858,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "20K1" ;
   rdfs:label "Quick field approximations of ASS presence and associated lime requirement for drain-spoil" ;
-  skos:definition "None" ;
   skos:notation "20K1" ;
-  skos:note "None" ;
   skos:prefLabel "Quick field approximations of ASS presence and associated lime requirement for drain-spoil" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/2A1>
@@ -2149,9 +1867,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "2A1" ;
   rdfs:label "Air-dry moisture content" ;
-  skos:definition "None" ;
   skos:notation "2A1" ;
-  skos:note "None" ;
   skos:prefLabel "Air-dry moisture content" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/2B1>
@@ -2160,9 +1876,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "2B1" ;
   rdfs:label "As received moisture content" ;
-  skos:definition "None" ;
   skos:notation "2B1" ;
-  skos:note "None" ;
   skos:prefLabel "As received moisture content" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/2C1>
@@ -2171,9 +1885,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "2C1" ;
   rdfs:label "Moisture content - 10 mm tension" ;
-  skos:definition "None" ;
   skos:notation "2C1" ;
-  skos:note "None" ;
   skos:prefLabel "Moisture content - 10 mm tension" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/2D1>
@@ -2182,9 +1894,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "2D1" ;
   rdfs:label "Moisture content - approximate saturation paste" ;
-  skos:definition "None" ;
   skos:notation "2D1" ;
-  skos:note "None" ;
   skos:prefLabel "Moisture content - approximate saturation paste" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/3>
@@ -2194,13 +1904,11 @@
   reg:notation 3 ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Electrical conductivity, related attributes and redox potential" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/3A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/3B1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/3C1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/3D1> ;
   skos:notation 3 ;
-  skos:note "None" ;
   skos:prefLabel "Electrical conductivity, related attributes and redox potential" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/3A1>
@@ -2209,9 +1917,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "3A1" ;
   rdfs:label "Electrical conductivity (EC) of 1:5 soil/water extract" ;
-  skos:definition "None" ;
   skos:notation "3A1" ;
-  skos:note "None" ;
   skos:prefLabel "Electrical conductivity (EC) of 1:5 soil/water extract" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/3B1>
@@ -2220,9 +1926,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "3B1" ;
   rdfs:label "Estimated soluble salt concentration" ;
-  skos:definition "None" ;
   skos:notation "3B1" ;
-  skos:note "None" ;
   skos:prefLabel "Estimated soluble salt concentration" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/3C1>
@@ -2231,9 +1935,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "3C1" ;
   rdfs:label "Estimated soil ionic strength" ;
-  skos:definition "None" ;
   skos:notation "3C1" ;
-  skos:note "None" ;
   skos:prefLabel "Estimated soil ionic strength" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/3D1>
@@ -2242,9 +1944,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "3D1" ;
   rdfs:label "Redox potential (Eh; field)" ;
-  skos:definition "None" ;
   skos:notation "3D1" ;
-  skos:note "None" ;
   skos:prefLabel "Redox potential (Eh; field)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4>
@@ -2254,7 +1954,6 @@
   reg:notation 4 ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Soil pH" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/4A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/4A2> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/4A3> ;
@@ -2272,7 +1971,6 @@
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/4F1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/4G1> ;
   skos:notation 4 ;
-  skos:note "None" ;
   skos:prefLabel "Soil pH" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4A1>
@@ -2281,9 +1979,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4A1" ;
   rdfs:label "pH of a 1:5 soil/water suspension" ;
-  skos:definition "None" ;
   skos:notation "4A1" ;
-  skos:note "None" ;
   skos:prefLabel "pH of a 1:5 soil/water suspension" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4A2>
@@ -2292,9 +1988,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4A2" ;
   rdfs:label "pH of a 1:1 soil/water suspension" ;
-  skos:definition "None" ;
   skos:notation "4A2" ;
-  skos:note "None" ;
   skos:prefLabel "pH of a 1:1 soil/water suspension" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4A3>
@@ -2303,9 +1997,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4A3" ;
   rdfs:label "pH of a 1:2.5 soil/water suspension" ;
-  skos:definition "None" ;
   skos:notation "4A3" ;
-  skos:note "None" ;
   skos:prefLabel "pH of a 1:2.5 soil/water suspension" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4B1>
@@ -2314,9 +2006,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4B1" ;
   rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract - direct (without stirring during measurement)" ;
-  skos:definition "None" ;
   skos:notation "4B1" ;
-  skos:note "None" ;
   skos:prefLabel "pH of 1:5 soil/0.01 M calcium chloride extract - direct (without stirring during measurement)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4B2>
@@ -2325,9 +2015,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4B2" ;
   rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (without stirring during measurement)" ;
-  skos:definition "None" ;
   skos:notation "4B2" ;
-  skos:note "None" ;
   skos:prefLabel "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (without stirring during measurement)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4B3>
@@ -2336,9 +2024,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4B3" ;
   rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract -direct (without stirring during measurement)" ;
-  skos:definition "None" ;
   skos:notation "4B3" ;
-  skos:note "None" ;
   skos:prefLabel "pH of 1:5 soil/0.01 M calcium chloride extract -direct (without stirring during measurement)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4B4>
@@ -2347,9 +2033,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4B4" ;
   rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (with stirring during measurement)" ;
-  skos:definition "None" ;
   skos:notation "4B4" ;
-  skos:note "None" ;
   skos:prefLabel "pH of 1:5 soil/0.01 M calcium chloride extract - following method 4A1 (with stirring during measurement)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4B5>
@@ -2358,9 +2042,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4B5" ;
   rdfs:label "pH of 1:5 soil/0.01 M calcium chloride extract equivalent, by MIR reflectance spectroscopy" ;
-  skos:definition "None" ;
   skos:notation "4B5" ;
-  skos:note "None" ;
   skos:prefLabel "pH of 1:5 soil/0.01 M calcium chloride extract equivalent, by MIR reflectance spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4C1>
@@ -2369,9 +2051,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4C1" ;
   rdfs:label "pH of 1:5 soil/1M potassium chloride extract - direct (without stirring during measurement)" ;
-  skos:definition "None" ;
   skos:notation "4C1" ;
-  skos:note "None" ;
   skos:prefLabel "pH of 1:5 soil/1M potassium chloride extract - direct (without stirring during measurement)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4C2>
@@ -2380,9 +2060,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4C2" ;
   rdfs:label "pH of 1:5 soil/1M potassium chloride extract following method 4A1 (without stirring during measurement)" ;
-  skos:definition "None" ;
   skos:notation "4C2" ;
-  skos:note "None" ;
   skos:prefLabel "pH of 1:5 soil/1M potassium chloride extract following method 4A1 (without stirring during measurement)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4C3>
@@ -2391,9 +2069,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4C3" ;
   rdfs:label "pH of 1:5 soil/1M potassium chloride extract - direct (with stirring during measurement)" ;
-  skos:definition "None" ;
   skos:notation "4C3" ;
-  skos:note "None" ;
   skos:prefLabel "pH of 1:5 soil/1M potassium chloride extract - direct (with stirring during measurement)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4C4>
@@ -2402,9 +2078,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4C4" ;
   rdfs:label "pH of 1:5 soil 1M potassium chloride extract - following method 4A1 (with stirring during measurement)" ;
-  skos:definition "None" ;
   skos:notation "4C4" ;
-  skos:note "None" ;
   skos:prefLabel "pH of 1:5 soil 1M potassium chloride extract - following method 4A1 (with stirring during measurement)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4D1>
@@ -2413,9 +2087,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4D1" ;
   rdfs:label "pH of sodium fluoride potential suspension and 'reactivity class'" ;
-  skos:definition "None" ;
   skos:notation "4D1" ;
-  skos:note "None" ;
   skos:prefLabel "pH of sodium fluoride potential suspension and 'reactivity class'" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4E1>
@@ -2424,9 +2096,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4E1" ;
   rdfs:label "pH of hydrogen peroxide extract" ;
-  skos:definition "None" ;
   skos:notation "4E1" ;
-  skos:note "None" ;
   skos:prefLabel "pH of hydrogen peroxide extract" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4F1>
@@ -2435,9 +2105,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4F1" ;
   rdfs:label "pH change" ;
-  skos:definition "None" ;
   skos:notation "4F1" ;
-  skos:note "None" ;
   skos:prefLabel "pH change" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/4G1>
@@ -2446,9 +2114,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "4G1" ;
   rdfs:label "Field determination of pH" ;
-  skos:definition "None" ;
   skos:notation "4G1" ;
-  skos:note "None" ;
   skos:prefLabel "Field determination of pH" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/5>
@@ -2458,7 +2124,6 @@
   reg:notation 5 ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Soluble chloride" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/5A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/5A2> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/5A2a> ;
@@ -2467,7 +2132,6 @@
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/5A3b> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/5A4> ;
   skos:notation 5 ;
-  skos:note "None" ;
   skos:prefLabel "Soluble chloride" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/5A>
@@ -2476,10 +2140,8 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "5A" ;
   rdfs:label "Chloride - 1:5 soil/water extract" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/5A2> ;
   skos:notation "5A" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride - 1:5 soil/water extract" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/5A1>
@@ -2488,9 +2150,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "5A1" ;
   rdfs:label "Chloride - 1:5 soil/water extract, potentiometric titration" ;
-  skos:definition "None" ;
   skos:notation "5A1" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride - 1:5 soil/water extract, potentiometric titration" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/5A2>
@@ -2500,7 +2160,6 @@
   reg:notation "5A2" ;
   rdfs:label "Chloride - 1:5 soil/water extract, automated colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/5A> ;
-  skos:definition "None" ;
   skos:notation "5A2" ;
   skos:note "5A2 has been superseded by 5A2a, also Chloride - 1:5 soil/water extract, automated colour (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
   skos:prefLabel "Chloride - 1:5 soil/water extract, automated colour" ;
@@ -2511,9 +2170,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "5A2a" ;
   rdfs:label "Chloride - 1:5 soil/water extract, automated colour" ;
-  skos:definition "None" ;
   skos:notation "5A2a" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride - 1:5 soil/water extract, automated colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/5A2b>
@@ -2522,9 +2179,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "5A2b" ;
   rdfs:label "Chloride - 1:5 soil/water extract, FIA" ;
-  skos:definition "None" ;
   skos:notation "5A2b" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride - 1:5 soil/water extract, FIA" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/5A3a>
@@ -2533,9 +2188,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "5A3a" ;
   rdfs:label "Chloride - 1:5 soil/water extract, ion chromatography (chemical suppression of eluent conductivity)" ;
-  skos:definition "None" ;
   skos:notation "5A3a" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride - 1:5 soil/water extract, ion chromatography (chemical suppression of eluent conductivity)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/5A3b>
@@ -2544,9 +2197,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "5A3b" ;
   rdfs:label "Chloride - 1:5 soil/water extract, ion chromatography (single-column with electronic suppression of eluent conductivity)" ;
-  skos:definition "None" ;
   skos:notation "5A3b" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride - 1:5 soil/water extract, ion chromatography (single-column with electronic suppression of eluent conductivity)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/5A4>
@@ -2555,9 +2206,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "5A4" ;
   rdfs:label "Chloride - 1:5 soil/water extract ICPAES" ;
-  skos:definition "None" ;
   skos:notation "5A4" ;
-  skos:note "None" ;
   skos:prefLabel "Chloride - 1:5 soil/water extract ICPAES" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6>
@@ -2567,7 +2216,6 @@
   reg:notation 6 ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Carbon" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/6A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/6B1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/6B2> ;
@@ -2579,7 +2227,6 @@
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/6F1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/6G1> ;
   skos:notation 6 ;
-  skos:note "None" ;
   skos:prefLabel "Carbon" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6A1>
@@ -2588,9 +2235,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "6A1" ;
   rdfs:label "Organic C - W&B" ;
-  skos:definition "None" ;
   skos:notation "6A1" ;
-  skos:note "None" ;
   skos:prefLabel "Organic C - W&B" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6B1>
@@ -2599,9 +2244,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "6B1" ;
   rdfs:label "Total organic C - Heanes wet oxidisation" ;
-  skos:definition "None" ;
   skos:notation "6B1" ;
-  skos:note "None" ;
   skos:prefLabel "Total organic C - Heanes wet oxidisation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6B2>
@@ -2610,11 +2253,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "6B2" ;
   rdfs:label "Total organic C - Dumas high-temperature combustion" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/6B2a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/6B2b> ;
   skos:notation "6B2" ;
-  skos:note "None" ;
   skos:prefLabel "Total organic C - Dumas high-temperature combustion" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6B2a>
@@ -2624,9 +2265,7 @@
   reg:notation "6B2a" ;
   rdfs:label "Total organic C - Dumas high-temperature combustion, volumetric (no soil pretreatment)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/6B2> ;
-  skos:definition "None" ;
   skos:notation "6B2a" ;
-  skos:note "None" ;
   skos:prefLabel "Total organic C - Dumas high-temperature combustion, volumetric (no soil pretreatment)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6B2b>
@@ -2636,9 +2275,7 @@
   reg:notation "6B2b" ;
   rdfs:label "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (no soil pretreatment)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/6B2> ;
-  skos:definition "None" ;
   skos:notation "6B2b" ;
-  skos:note "None" ;
   skos:prefLabel "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (no soil pretreatment)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6B3>
@@ -2647,9 +2284,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "6B3" ;
   rdfs:label "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (with prior physical removal of charcoal and chemical removal of carbonates)" ;
-  skos:definition "None" ;
   skos:notation "6B3" ;
-  skos:note "None" ;
   skos:prefLabel "Total organic C - Dumas high-temperature combustion, infrared/thermal conductivity detection (with prior physical removal of charcoal and chemical removal of carbonates)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6B4>
@@ -2658,11 +2293,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "6B4" ;
   rdfs:label "Total organic C - infrared diffuse reflectance spectroscopy" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/6B4a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/6B4b> ;
   skos:notation "6B4" ;
-  skos:note "None" ;
   skos:prefLabel "Total organic C - infrared diffuse reflectance spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6B4a>
@@ -2672,9 +2305,7 @@
   reg:notation "6B4a" ;
   rdfs:label "Total organic C - NIR reflectance spectroscopy" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/6B4> ;
-  skos:definition "None" ;
   skos:notation "6B4a" ;
-  skos:note "None" ;
   skos:prefLabel "Total organic C - NIR reflectance spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6B4b>
@@ -2684,9 +2315,7 @@
   reg:notation "6B4b" ;
   rdfs:label "Total organic C - MIR reflectance spectroscopy" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/6B4> ;
-  skos:definition "None" ;
   skos:notation "6B4b" ;
-  skos:note "None" ;
   skos:prefLabel "Total organic C - MIR reflectance spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6C1>
@@ -2695,9 +2324,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "6C1" ;
   rdfs:label "Particulate organic C (POC)" ;
-  skos:definition "None" ;
   skos:notation "6C1" ;
-  skos:note "None" ;
   skos:prefLabel "Particulate organic C (POC)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6D1>
@@ -2706,9 +2333,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "6D1" ;
   rdfs:label "Pyrophosphate-extractable C" ;
-  skos:definition "None" ;
   skos:notation "6D1" ;
-  skos:note "None" ;
   skos:prefLabel "Pyrophosphate-extractable C" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6E1>
@@ -2717,9 +2342,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "6E1" ;
   rdfs:label "Potassium permanganate oxidisable C (PPOC)" ;
-  skos:definition "None" ;
   skos:notation "6E1" ;
-  skos:note "None" ;
   skos:prefLabel "Potassium permanganate oxidisable C (PPOC)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6F1>
@@ -2728,9 +2351,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "6F1" ;
   rdfs:label "Charcoal-C" ;
-  skos:definition "None" ;
   skos:notation "6F1" ;
-  skos:note "None" ;
   skos:prefLabel "Charcoal-C" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/6G1>
@@ -2739,9 +2360,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "6G1" ;
   rdfs:label "Total organic matter, organic C, and carbonate by loss-on-ignition" ;
-  skos:definition "None" ;
   skos:notation "6G1" ;
-  skos:note "None" ;
   skos:prefLabel "Total organic matter, organic C, and carbonate by loss-on-ignition" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7>
@@ -2751,7 +2370,6 @@
   reg:notation 7 ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Nitrogen" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/7A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/7A2> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/7A2a> ;
@@ -2767,7 +2385,6 @@
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/7C2b> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/7D> ;
   skos:notation 7 ;
-  skos:note "None" ;
   skos:prefLabel "Nitrogen" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7A1>
@@ -2776,9 +2393,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "7A1" ;
   rdfs:label "Total soil-N, semi micro Kjeldahl - steam distillation" ;
-  skos:definition "None" ;
   skos:notation "7A1" ;
-  skos:note "None" ;
   skos:prefLabel "Total soil-N, semi micro Kjeldahl - steam distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7A2>
@@ -2789,12 +2404,10 @@
   reg:notation "7A2" ;
   rdfs:label "Total nitrogen - semimicro Kjeldahl, automated colour" ;
   rdfs:label "Total soil-N, semi micro Kjeldahl - automated colour" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7A2a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7A2b> ;
   skos:notation "7A2" ;
   skos:note "7A2 has been superseded by 7A2a and 7A2b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
-  skos:note "None" ;
   skos:prefLabel "Total nitrogen - semimicro Kjeldahl, automated colour" ;
   skos:prefLabel "Total soil-N, semi micro Kjeldahl - automated colour" ;
 .
@@ -2805,9 +2418,7 @@
   reg:notation "7A2a" ;
   rdfs:label "Total soil-N, semi micro Kjeldahl - automated colour, continuous segmented flow " ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7A2> ;
-  skos:definition "None" ;
   skos:notation "7A2a" ;
-  skos:note "None" ;
   skos:prefLabel "Total soil-N, semi micro Kjeldahl - automated colour, continuous segmented flow " ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7A2b>
@@ -2817,9 +2428,7 @@
   reg:notation "7A2b" ;
   rdfs:label "Total soil-N, semi micro Kjeldahl - automated colour - FIA" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7A2> ;
-  skos:definition "None" ;
   skos:notation "7A2b" ;
-  skos:note "None" ;
   skos:prefLabel "Total soil-N, semi micro Kjeldahl - automated colour - FIA" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7A3>
@@ -2828,9 +2437,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "7A3" ;
   rdfs:label "Total soil-N (where nitrate >20 mg N/kg) - steam distillation" ;
-  skos:definition "None" ;
   skos:notation "7A3" ;
-  skos:note "None" ;
   skos:prefLabel "Total soil-N (where nitrate >20 mg N/kg) - steam distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7A4>
@@ -2839,9 +2446,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "7A4" ;
   rdfs:label "Total-N (where nitrate >20 mg N/kg) - automated colour, continuous segmented flow/FIA" ;
-  skos:definition "None" ;
   skos:notation "7A4" ;
-  skos:note "None" ;
   skos:prefLabel "Total-N (where nitrate >20 mg N/kg) - automated colour, continuous segmented flow/FIA" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7A5>
@@ -2850,9 +2455,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "7A5" ;
   rdfs:label "Total soil-N - Dumas high-temperature combustion" ;
-  skos:definition "None" ;
   skos:notation "7A5" ;
-  skos:note "None" ;
   skos:prefLabel "Total soil-N - Dumas high-temperature combustion" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7A6>
@@ -2861,11 +2464,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "7A6" ;
   rdfs:label "Total soil-N - infrared diffuse reflectance spectroscopy" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7A6a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7A6b> ;
   skos:notation "7A6" ;
-  skos:note "None" ;
   skos:prefLabel "Total soil-N - infrared diffuse reflectance spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7A6a>
@@ -2875,9 +2476,7 @@
   reg:notation "7A6a" ;
   rdfs:label "Total Soil-N - NIR diffuse reflectance spectroscopy" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7A6> ;
-  skos:definition "None" ;
   skos:notation "7A6a" ;
-  skos:note "None" ;
   skos:prefLabel "Total Soil-N - NIR diffuse reflectance spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7A6b>
@@ -2887,9 +2486,7 @@
   reg:notation "7A6b" ;
   rdfs:label "Total soil-N - MIR diffuse reflectance spectroscopy" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7A6> ;
-  skos:definition "None" ;
   skos:notation "7A6b" ;
-  skos:note "None" ;
   skos:prefLabel "Total soil-N - MIR diffuse reflectance spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7B>
@@ -2898,13 +2495,11 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "7B" ;
   rdfs:label "Water-soluble nitrate-N" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7B1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7B1a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7B1b> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7B2> ;
   skos:notation "7B" ;
-  skos:note "None" ;
   skos:prefLabel "Water-soluble nitrate-N" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7B1>
@@ -2916,12 +2511,10 @@
   rdfs:label "Water soluble nitrate - automated colour" ;
   rdfs:label "Water-soluble nitrate-N - automated colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7B> ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7B1a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7B1b> ;
   skos:notation "7B1" ;
   skos:note "7B1 has been superseded by 7B1a and 7B1b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
-  skos:note "None" ;
   skos:prefLabel "Water soluble nitrate - automated colour" ;
   skos:prefLabel "Water-soluble nitrate-N - automated colour" ;
 .
@@ -2933,9 +2526,7 @@
   rdfs:label "Water-soluble nitrate-N - automated colour, continuous segmented flow" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7B> ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7B1> ;
-  skos:definition "None" ;
   skos:notation "7B1a" ;
-  skos:note "None" ;
   skos:prefLabel "Water-soluble nitrate-N - automated colour, continuous segmented flow" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7B1b>
@@ -2946,9 +2537,7 @@
   rdfs:label "Water-soluble nitrate-N - automated colour, FIA" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7B> ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7B1> ;
-  skos:definition "None" ;
   skos:notation "7B1b" ;
-  skos:note "None" ;
   skos:prefLabel "Water-soluble nitrate-N - automated colour, FIA" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7B2>
@@ -2958,9 +2547,7 @@
   reg:notation "7B2" ;
   rdfs:label "Water-soluble nitrate-N - ion chromatography" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7B> ;
-  skos:definition "None" ;
   skos:notation "7B2" ;
-  skos:note "None" ;
   skos:prefLabel "Water-soluble nitrate-N - ion chromatography" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1>
@@ -2969,7 +2556,6 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "7C1" ;
   rdfs:label "Mineral-N 2 M KCl, steam distillation" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1b> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1c> ;
@@ -2979,7 +2565,6 @@
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1g> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1h> ;
   skos:notation "7C1" ;
-  skos:note "None" ;
   skos:prefLabel "Mineral-N 2 M KCl, steam distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1a>
@@ -2989,9 +2574,7 @@
   reg:notation "7C1a" ;
   rdfs:label "Ammonium-N (in presence or absence of nitrite) - steam distillation" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1> ;
-  skos:definition "None" ;
   skos:notation "7C1a" ;
-  skos:note "None" ;
   skos:prefLabel "Ammonium-N (in presence or absence of nitrite) - steam distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1b>
@@ -3001,9 +2584,7 @@
   reg:notation "7C1b" ;
   rdfs:label "(Nitrate + Nitrite)-N - steam distillation" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1> ;
-  skos:definition "None" ;
   skos:notation "7C1b" ;
-  skos:note "None" ;
   skos:prefLabel "(Nitrate + Nitrite)-N - steam distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1c>
@@ -3013,9 +2594,7 @@
   reg:notation "7C1c" ;
   rdfs:label "(Ammonium + Nitrate + Nitrite)-N - steam distillation" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1> ;
-  skos:definition "None" ;
   skos:notation "7C1c" ;
-  skos:note "None" ;
   skos:prefLabel "(Ammonium + Nitrate + Nitrite)-N - steam distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1d>
@@ -3025,9 +2604,7 @@
   reg:notation "7C1d" ;
   rdfs:label "(Ammonium + Nitrate)-N, in presence of nitrite - steam distillation" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1> ;
-  skos:definition "None" ;
   skos:notation "7C1d" ;
-  skos:note "None" ;
   skos:prefLabel "(Ammonium + Nitrate)-N, in presence of nitrite - steam distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1e>
@@ -3037,9 +2614,7 @@
   reg:notation "7C1e" ;
   rdfs:label "Nitrate-N, in presence of nitrite - steam distillation" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1> ;
-  skos:definition "None" ;
   skos:notation "7C1e" ;
-  skos:note "None" ;
   skos:prefLabel "Nitrate-N, in presence of nitrite - steam distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1f>
@@ -3049,9 +2624,7 @@
   reg:notation "7C1f" ;
   rdfs:label "Nitrate-N, in absence of nitrite - steam distillation" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1> ;
-  skos:definition "None" ;
   skos:notation "7C1f" ;
-  skos:note "None" ;
   skos:prefLabel "Nitrate-N, in absence of nitrite - steam distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1g>
@@ -3061,9 +2634,7 @@
   reg:notation "7C1g" ;
   rdfs:label "(Ammonium + Nitrate)-N, in absence of nitrite - steam distillation" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1> ;
-  skos:definition "None" ;
   skos:notation "7C1g" ;
-  skos:note "None" ;
   skos:prefLabel "(Ammonium + Nitrate)-N, in absence of nitrite - steam distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1h>
@@ -3073,9 +2644,7 @@
   reg:notation "7C1h" ;
   rdfs:label "Nitrite-N - steam distillation" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7C1> ;
-  skos:definition "None" ;
   skos:notation "7C1h" ;
-  skos:note "None" ;
   skos:prefLabel "Nitrite-N - steam distillation" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7C2>
@@ -3086,12 +2655,10 @@
   reg:notation "7C2" ;
   rdfs:label "Mineral-N 2 M KCl, automated colour" ;
   rdfs:label "mineral nitrogen with 2M KCl - automated colour" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7C2a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7C2b> ;
   skos:notation "7C2" ;
   skos:note "7C2 has been superseded by 7C2a and 7C2b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
-  skos:note "None" ;
   skos:prefLabel "Mineral-N 2 M KCl, automated colour" ;
   skos:prefLabel "mineral nitrogen with 2M KCl - automated colour" ;
 .
@@ -3102,9 +2669,7 @@
   reg:notation "7C2a" ;
   rdfs:label "Mineral-N 2 M KCl, automated colour, continuous segmented flow" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7C2> ;
-  skos:definition "None" ;
   skos:notation "7C2a" ;
-  skos:note "None" ;
   skos:prefLabel "Mineral-N 2 M KCl, automated colour, continuous segmented flow" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7C2b>
@@ -3114,9 +2679,7 @@
   reg:notation "7C2b" ;
   rdfs:label "Mineral-N - 2 M KCl, automated colour, FIA" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7C2> ;
-  skos:definition "None" ;
   skos:notation "7C2b" ;
-  skos:note "None" ;
   skos:prefLabel "Mineral-N - 2 M KCl, automated colour, FIA" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7D>
@@ -3125,14 +2688,12 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "7D" ;
   rdfs:label "Potentially mineralisable N (PMN)" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7D1a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7D1b> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7D1c> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7D2a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/7D2b> ;
   skos:notation "7D" ;
-  skos:note "None" ;
   skos:prefLabel "Potentially mineralisable N (PMN)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7D1a>
@@ -3142,9 +2703,7 @@
   reg:notation "7D1a" ;
   rdfs:label "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, continuous segmented flow" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7D> ;
-  skos:definition "None" ;
   skos:notation "7D1a" ;
-  skos:note "None" ;
   skos:prefLabel "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, continuous segmented flow" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7D1b>
@@ -3154,9 +2713,7 @@
   reg:notation "7D1b" ;
   rdfs:label "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, FIA" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7D> ;
-  skos:definition "None" ;
   skos:notation "7D1b" ;
-  skos:note "None" ;
   skos:prefLabel "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - automated colour, FIA" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7D1c>
@@ -3166,9 +2723,7 @@
   reg:notation "7D1c" ;
   rdfs:label "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - NIR diffuse reflectance spectroscopy" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7D> ;
-  skos:definition "None" ;
   skos:notation "7D1c" ;
-  skos:note "None" ;
   skos:prefLabel "Potentially mineralisable N, hot-KCl extraction (PMN KCl) - NIR diffuse reflectance spectroscopy" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7D2a>
@@ -3178,9 +2733,7 @@
   reg:notation "7D2a" ;
   rdfs:label "Potentially mineralisable N, anaerobic incubation - automated colour, continuous segmented flow" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7D> ;
-  skos:definition "None" ;
   skos:notation "7D2a" ;
-  skos:note "None" ;
   skos:prefLabel "Potentially mineralisable N, anaerobic incubation - automated colour, continuous segmented flow" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/7D2b>
@@ -3190,9 +2743,7 @@
   reg:notation "7D2b" ;
   rdfs:label "Potentially mineralisable N, anaerobic incubation - automated colour, FIA" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/7D> ;
-  skos:definition "None" ;
   skos:notation "7D2b" ;
-  skos:note "None" ;
   skos:prefLabel "Potentially mineralisable N, anaerobic incubation - automated colour, FIA" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/8>
@@ -3202,11 +2753,9 @@
   reg:notation 8 ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Carbon/nitrogen ratio" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/8A1> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/8B1> ;
   skos:notation 8 ;
-  skos:note "None" ;
   skos:prefLabel "Carbon/nitrogen ratio" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/8A1>
@@ -3215,9 +2764,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "8A1" ;
   rdfs:label "Total organic carbon/total nitrogen ratio" ;
-  skos:definition "None" ;
   skos:notation "8A1" ;
-  skos:note "None" ;
   skos:prefLabel "Total organic carbon/total nitrogen ratio" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/8B1>
@@ -3226,9 +2773,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "8B1" ;
   rdfs:label "Organic carbon - W&B/total nitrogen ratio" ;
-  skos:definition "None" ;
   skos:notation "8B1" ;
-  skos:note "None" ;
   skos:prefLabel "Organic carbon - W&B/total nitrogen ratio" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9>
@@ -3238,7 +2783,6 @@
   reg:notation 9 ;
   ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
   rdfs:label "Phosphorus" ;
-  skos:definition "None" ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/9A> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/9B> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/9C> ;
@@ -3253,7 +2797,6 @@
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/9J> ;
   skos:member <http://registry.it.csiro.au/sandbox/soil/SCMA/9K> ;
   skos:notation 9 ;
-  skos:note "None" ;
   skos:prefLabel "Phosphorus" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9A>
@@ -3262,13 +2805,11 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9A" ;
   rdfs:label "Total P" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9A1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9A2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9A3a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9A3b> ;
   skos:notation "9A" ;
-  skos:note "None" ;
   skos:prefLabel "Total P" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9A1>
@@ -3278,9 +2819,7 @@
   reg:notation "9A1" ;
   rdfs:label "Total P - X-ray fluorescence " ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9A> ;
-  skos:definition "None" ;
   skos:notation "9A1" ;
-  skos:note "None" ;
   skos:prefLabel "Total P - X-ray fluorescence " ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9A2>
@@ -3290,9 +2829,7 @@
   reg:notation "9A2" ;
   rdfs:label "Total P - sodium carbonate fusion" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9A> ;
-  skos:definition "None" ;
   skos:notation "9A2" ;
-  skos:note "None" ;
   skos:prefLabel "Total P - sodium carbonate fusion" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9A3a>
@@ -3302,9 +2839,7 @@
   reg:notation "9A3a" ;
   rdfs:label "Kjeldahl P (KP) - automated colour, FIA/continuous segmented flow" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9A> ;
-  skos:definition "None" ;
   skos:notation "9A3a" ;
-  skos:note "None" ;
   skos:prefLabel "Kjeldahl P (KP) - automated colour, FIA/continuous segmented flow" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9A3b>
@@ -3314,9 +2849,7 @@
   reg:notation "9A3b" ;
   rdfs:label "Kjeldahl P (KP) - ICPAES" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9A> ;
-  skos:definition "None" ;
   skos:notation "9A3b" ;
-  skos:note "None" ;
   skos:prefLabel "Kjeldahl P (KP) - ICPAES" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9B>
@@ -3325,11 +2858,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9B" ;
   rdfs:label "Bicarbonate-extractable P (Colwell-P) " ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9B1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9B2> ;
   skos:notation "9B" ;
-  skos:note "None" ;
   skos:prefLabel "Bicarbonate-extractable P (Colwell-P) " ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9B1>
@@ -3339,9 +2870,7 @@
   reg:notation "9B1" ;
   rdfs:label "Bicarbonate-extractable P (Colwell-P) - manual colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9B> ;
-  skos:definition "None" ;
   skos:notation "9B1" ;
-  skos:note "None" ;
   skos:prefLabel "Bicarbonate-extractable P (Colwell-P) - manual colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9B2>
@@ -3351,9 +2880,7 @@
   reg:notation "9B2" ;
   rdfs:label "Bicarbonate-extractable P (Colwell-P) - automated colour, continuous segmented flow/FIA" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9B> ;
-  skos:definition "None" ;
   skos:notation "9B2" ;
-  skos:note "None" ;
   skos:prefLabel "Bicarbonate-extractable P (Colwell-P) - automated colour, continuous segmented flow/FIA" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9C>
@@ -3362,13 +2889,11 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9C" ;
   rdfs:label "Olsen-extractable P (Olsen-P)" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9C1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9C2> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9C2a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9C2b> ;
   skos:notation "9C" ;
-  skos:note "None" ;
   skos:prefLabel "Olsen-extractable P (Olsen-P)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9C1>
@@ -3378,9 +2903,7 @@
   reg:notation "9C1" ;
   rdfs:label "Olsen-extractable P (Olsen-P) - manual colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9C> ;
-  skos:definition "None" ;
   skos:notation "9C1" ;
-  skos:note "None" ;
   skos:prefLabel "Olsen-extractable P (Olsen-P) - manual colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9C2>
@@ -3390,12 +2913,10 @@
   reg:notation "9C2" ;
   rdfs:label "Olsen-extractable phosphorus - automated colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9C> ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9C2a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9C2b> ;
   skos:notation "9C2" ;
   skos:note "9C2 has been superseded by 9C2a and 9C2b (Soil Chemical Methods Australasia, Rayment G.E. and Lyons D.J. http://www.publish.csiro.au/book/6418)" ;
-  skos:note "None" ;
   skos:prefLabel "Olsen-extractable P (Olsen-P) - automated colour" ;
   skos:prefLabel "Olsen-extractable phosphorus - automated colour" ;
 .
@@ -3407,9 +2928,7 @@
   rdfs:label "Olsen-extractable P (Olsen-P) - automated colour, continuous segmented flow" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9C> ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9C2> ;
-  skos:definition "None" ;
   skos:notation "9C2a" ;
-  skos:note "None" ;
   skos:prefLabel "Olsen-extractable P (Olsen-P) - automated colour, continuous segmented flow" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9C2b>
@@ -3420,9 +2939,7 @@
   rdfs:label "Olsen-extractable P (Olsen-P) - automated colour/FIA" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9C> ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9C2> ;
-  skos:definition "None" ;
   skos:notation "9C2b" ;
-  skos:note "None" ;
   skos:prefLabel "Olsen-extractable P (Olsen-P) - automated colour/FIA" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9D1>
@@ -3431,9 +2948,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9D1" ;
   rdfs:label "Lactate-extractable P (Lactate-P) - manual colour" ;
-  skos:definition "None" ;
   skos:notation "9D1" ;
-  skos:note "None" ;
   skos:prefLabel "Lactate-extractable P (Lactate-P) - manual colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9E>
@@ -3442,11 +2957,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9E" ;
   rdfs:label "Fluoride-extractable P (Bray-1 P)" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9E1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9E2> ;
   skos:notation "9E" ;
-  skos:note "None" ;
   skos:prefLabel "Fluoride-extractable P (Bray-1 P)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9E1>
@@ -3456,9 +2969,7 @@
   reg:notation "9E1" ;
   rdfs:label "Fluoride-extractable P (Bray-1 P) - manual colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9E> ;
-  skos:definition "None" ;
   skos:notation "9E1" ;
-  skos:note "None" ;
   skos:prefLabel "Fluoride-extractable P (Bray-1 P) - manual colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9E2>
@@ -3468,9 +2979,7 @@
   reg:notation "9E2" ;
   rdfs:label "Fluoride-extractable P (Bray-1 P) - continuous segmented flow/FIA automated colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9E> ;
-  skos:definition "None" ;
   skos:notation "9E2" ;
-  skos:note "None" ;
   skos:prefLabel "Fluoride-extractable P (Bray-1 P) - continuous segmented flow/FIA automated colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9F1>
@@ -3479,9 +2988,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9F1" ;
   rdfs:label "Calcium chloride-extractable P - manual colour" ;
-  skos:definition "None" ;
   skos:notation "9F1" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium chloride-extractable P - manual colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9F2>
@@ -3490,9 +2997,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9F2" ;
   rdfs:label "Calcium chloride-extractable P - continuous segmented flow/FIA automated colour" ;
-  skos:definition "None" ;
   skos:notation "9F2" ;
-  skos:note "None" ;
   skos:prefLabel "Calcium chloride-extractable P - continuous segmented flow/FIA automated colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9G1>
@@ -3501,9 +3006,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9G1" ;
   rdfs:label "Acid-extractable P (BSES-P) - manual colour" ;
-  skos:definition "None" ;
   skos:notation "9G1" ;
-  skos:note "None" ;
   skos:prefLabel "Acid-extractable P (BSES-P) - manual colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9G2>
@@ -3512,9 +3015,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9G2" ;
   rdfs:label "Acid-extractable P (BSES-P) - continuous segmented flow/FIA automated colour" ;
-  skos:definition "None" ;
   skos:notation "9G2" ;
-  skos:note "None" ;
   skos:prefLabel "Acid-extractable P (BSES-P) - continuous segmented flow/FIA automated colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9H1>
@@ -3523,9 +3024,7 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9H1" ;
   rdfs:label "Anion Storage Capacity (previously P Retention)" ;
-  skos:definition "None" ;
   skos:notation "9H1" ;
-  skos:note "None" ;
   skos:prefLabel "Anion Storage Capacity (previously P Retention)" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9I>
@@ -3534,7 +3033,6 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9I" ;
   rdfs:label "Phosphate Indices" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9I1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9I2a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9I2b> ;
@@ -3546,7 +3044,6 @@
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9I4b> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9I4c> ;
   skos:notation "9I" ;
-  skos:note "None" ;
   skos:prefLabel "Phosphate Indices" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9I1>
@@ -3556,9 +3053,7 @@
   reg:notation "9I1" ;
   rdfs:label "Phosphate Sorption Index" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9I> ;
-  skos:definition "None" ;
   skos:notation "9I1" ;
-  skos:note "None" ;
   skos:prefLabel "Phosphate Sorption Index" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9I2a>
@@ -3570,9 +3065,7 @@
   rdfs:label "P buffer index - PBI (ColP) - Murphy and Riley" ;
   rdfs:label "P buffer index - PBI (ColP)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9I> ;
-  skos:definition "None" ;
   skos:notation "9I2a" ;
-  skos:note "None" ;
   skos:prefLabel "P buffer index - PBI (ColP) - Murphy and Riley" ;
   skos:prefLabel "P buffer index - PBI (ColP)" ;
 .
@@ -3585,9 +3078,7 @@
   rdfs:label "P buffer index - PBI (ColP) - ICPAES" ;
   rdfs:label "P buffer index - PBI (ColP)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9I> ;
-  skos:definition "None" ;
   skos:notation "9I2b" ;
-  skos:note "None" ;
   skos:prefLabel "P buffer index - PBI (ColP) - ICPAES" ;
   skos:prefLabel "P buffer index - PBI (ColP)" ;
 .
@@ -3600,9 +3091,7 @@
   rdfs:label "P buffer index - PBI (ColP) - Vanadate" ;
   rdfs:label "P buffer index - PBI (ColP)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9I> ;
-  skos:definition "None" ;
   skos:notation "9I2c" ;
-  skos:note "None" ;
   skos:prefLabel "P buffer index - PBI (ColP) - Vanadate" ;
   skos:prefLabel "P buffer index - PBI (ColP)" ;
 .
@@ -3615,9 +3104,7 @@
   rdfs:label "P buffer index - PBI (OlsenP) - Murphy and Riley" ;
   rdfs:label "P buffer index - PBI (OlsenP)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9I> ;
-  skos:definition "None" ;
   skos:notation "9I3a" ;
-  skos:note "None" ;
   skos:prefLabel "P buffer index - PBI (OlsenP) - Murphy and Riley" ;
   skos:prefLabel "P buffer index - PBI (OlsenP)" ;
 .
@@ -3630,9 +3117,7 @@
   rdfs:label "P buffer index - PBI (OlsenP) - ICPAES" ;
   rdfs:label "P buffer index - PBI (OlsenP)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9I> ;
-  skos:definition "None" ;
   skos:notation "9I3b" ;
-  skos:note "None" ;
   skos:prefLabel "P buffer index - PBI (OlsenP) - ICPAES" ;
   skos:prefLabel "P buffer index - PBI (OlsenP)" ;
 .
@@ -3645,9 +3130,7 @@
   rdfs:label "P buffer index - PBI (OlsenP) - Vanadate" ;
   rdfs:label "P buffer index - PBI (OlsenP)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9I> ;
-  skos:definition "None" ;
   skos:notation "9I3c" ;
-  skos:note "None" ;
   skos:prefLabel "P buffer index - PBI (OlsenP) - Vanadate" ;
   skos:prefLabel "P buffer index - PBI (OlsenP)" ;
 .
@@ -3660,9 +3143,7 @@
   rdfs:label "P buffer index - PBI (unadj) - Murphy and Riley" ;
   rdfs:label "P buffer index - PBI (unadj)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9I> ;
-  skos:definition "None" ;
   skos:notation "9I4a" ;
-  skos:note "None" ;
   skos:prefLabel "P buffer index - PBI (unadj) - Murphy and Riley" ;
   skos:prefLabel "P buffer index - PBI (unadj)" ;
 .
@@ -3675,9 +3156,7 @@
   rdfs:label "P buffer index - PBI (unadj) - ICPAES" ;
   rdfs:label "P buffer index - PBI (unadj)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9I> ;
-  skos:definition "None" ;
   skos:notation "9I4b" ;
-  skos:note "None" ;
   skos:prefLabel "P buffer index - PBI (unadj) - ICPAES" ;
   skos:prefLabel "P buffer index - PBI (unadj)" ;
 .
@@ -3690,9 +3169,7 @@
   rdfs:label "P buffer index - PBI (unadj) - Vanadate" ;
   rdfs:label "P buffer index - PBI (unadj)" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9I> ;
-  skos:definition "None" ;
   skos:notation "9I4c" ;
-  skos:note "None" ;
   skos:prefLabel "P buffer index - PBI (unadj) - Vanadate" ;
   skos:prefLabel "P buffer index - PBI (unadj)" ;
 .
@@ -3702,11 +3179,9 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9J" ;
   rdfs:label "Phosphate sorption curve" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9J1> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9J2> ;
   skos:notation "9J" ;
-  skos:note "None" ;
   skos:prefLabel "Phosphate sorption curve" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9J1>
@@ -3716,9 +3191,7 @@
   reg:notation "9J1" ;
   rdfs:label "Phosphate sorption curve - manual colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9J> ;
-  skos:definition "None" ;
   skos:notation "9J1" ;
-  skos:note "None" ;
   skos:prefLabel "Phosphate sorption curve - manual colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9J2>
@@ -3728,9 +3201,7 @@
   reg:notation "9J2" ;
   rdfs:label "Phosphate sorption curve - continuous segmented flow/FIA automated colour" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9J> ;
-  skos:definition "None" ;
   skos:notation "9J2" ;
-  skos:note "None" ;
   skos:prefLabel "Phosphate sorption curve - continuous segmented flow/FIA automated colour" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9K>
@@ -3739,12 +3210,10 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   reg:notation "9K" ;
   rdfs:label "Environmental soil P tests" ;
-  skos:definition "None" ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9K1a> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9K1b> ;
   skos:narrower <http://registry.it.csiro.au/sandbox/soil/SCMA/9K2> ;
   skos:notation "9K" ;
-  skos:note "None" ;
   skos:prefLabel "Environmental soil P tests" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9K1a>
@@ -3754,9 +3223,7 @@
   reg:notation "9K1a" ;
   rdfs:label "Mehlich 3-P saturation ratio (M3PSR colour) [colormetric estimate of P]" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9K> ;
-  skos:definition "None" ;
   skos:notation "9K1a" ;
-  skos:note "None" ;
   skos:prefLabel "Mehlich 3-P saturation ratio (M3PSR colour) [colormetric estimate of P]" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9K1b>
@@ -3766,9 +3233,7 @@
   reg:notation "9K1b" ;
   rdfs:label "Mehlich 3-P saturation ratio (M3PSR ICPAES) [ICPAES estimate of P]" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9K> ;
-  skos:definition "None" ;
   skos:notation "9K1b" ;
-  skos:note "None" ;
   skos:prefLabel "Mehlich 3-P saturation ratio (M3PSR ICPAES) [ICPAES estimate of P]" ;
 .
 <http://registry.it.csiro.au/sandbox/soil/SCMA/9K2>
@@ -3778,19 +3243,6 @@
   reg:notation "9K2" ;
   rdfs:label "Colwell-P/PBI (ColP) ratio" ;
   skos:broader <http://registry.it.csiro.au/sandbox/soil/SCMA/9K> ;
-  skos:definition "None" ;
   skos:notation "9K2" ;
-  skos:note "None" ;
   skos:prefLabel "Colwell-P/PBI (ColP) ratio" ;
-.
-<http://registry.it.csiro.au/sandbox/soil/SCMA/None>
-  rdf:type skos:Collection ;
-  dct:source "None" ;
-  reg:notation "None" ;
-  ui:topMemberOf <file:///C:/Users/cox075/Applications/tbcme-5.5.1.v20180330-1607-win32.win32.x86_64/SCMA> ;
-  rdfs:label "None" ;
-  skos:definition "None" ;
-  skos:notation "None" ;
-  skos:note "None" ;
-  skos:prefLabel "None" ;
 .
