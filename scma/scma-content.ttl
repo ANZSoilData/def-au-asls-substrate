@@ -564,7 +564,7 @@
   rdf:type skos:Concept ;
   dct:description "Chloride (saturation extract) - ion chromotography" ;
   dct:description "Chloride of SE - IC" ;
-  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   reg:notation "14E2" ;
   rdfs:label "Chloride (saturation extract) - ion chromotography" ;
   rdfs:label "Chloride of SE - IC" ;
@@ -686,7 +686,7 @@
   rdf:type skos:Concept ;
   dct:description "Sulfate-S (saturation extract) - ion chromotography" ;
   dct:description "Sulfate-S of SE - IC" ;
-  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   reg:notation "14F5" ;
   rdfs:label "Sulfate-S (saturation extract) - ion chromotography" ;
   rdfs:label "Sulfate-S of SE - IC" ;
@@ -757,7 +757,7 @@
   rdf:type skos:Concept ;
   dct:description "Flouride (saturation extract) - ion chromotography" ;
   dct:description "Fluoride of SE - IC" ;
-  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   reg:notation "14G2" ;
   rdfs:label "Flouride (saturation extract) - ion chromotography" ;
   rdfs:label "Fluoride of SE - IC" ;
@@ -2214,7 +2214,7 @@
 <5A2>
   rdf:type skos:Concept ;
   dct:description "Chloride - 1:5 soil/water extract, automated colour" ;
-  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   reg:notation "5A2" ;
   rdfs:label "Chloride - 1:5 soil/water extract, automated colour" ;
   skos:broader <5A> ;
@@ -2480,6 +2480,9 @@
   skos:member <7A6> ;
   skos:member <7B> ;
   skos:member <7C1> ;
+  skos:member <7C2> ;
+  skos:member <7C2a> ;
+  skos:member <7C2b> ;
   skos:member <7D> ;
   skos:notation 7 ;
   skos:note "None" ;
@@ -2500,7 +2503,7 @@
   rdf:type skos:Concept ;
   dct:description "Total nitrogen - semimicro Kjeldahl, automated colour" ;
   dct:description "Total soil-N, semi micro Kjeldahl - automated colour" ;
-  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   reg:notation "7A2" ;
   rdfs:label "Total nitrogen - semimicro Kjeldahl, automated colour" ;
   rdfs:label "Total soil-N, semi micro Kjeldahl - automated colour" ;
@@ -2626,7 +2629,7 @@
   rdf:type skos:Concept ;
   dct:description "Water soluble nitrate - automated colour" ;
   dct:description "Water-soluble nitrate-N - automated colour" ;
-  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   reg:notation "7B1" ;
   rdfs:label "Water soluble nitrate - automated colour" ;
   rdfs:label "Water-soluble nitrate-N - automated colour" ;
@@ -2797,7 +2800,7 @@
   rdf:type skos:Concept ;
   dct:description "Mineral-N 2 M KCl, automated colour" ;
   dct:description "mineral nitrogen with 2M KCl - automated colour" ;
-  dct:source "https://catalogue.nla.gov.au/Record/685915" ;
+  dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   reg:notation "7C2" ;
   rdfs:label "Mineral-N 2 M KCl, automated colour" ;
   rdfs:label "mineral nitrogen with 2M KCl - automated colour" ;
