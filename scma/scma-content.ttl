@@ -1,40 +1,13 @@
-@prefix api: <http://purl.org/linked-data/api/vocab#> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
-@prefix cc: <http://creativecommons.org/ns#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix dgu: <http://reference.data.gov.uk/def/reference/> .
-@prefix dtr: <http://registry.it.csiro.au/ont/dtr#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix gba: <http://registry.it.csiro.au/ont/gba-approval/> .
-@prefix ldp: <http://www.w3.org/ns/ldp#> .
-@prefix npg: <http://ns.nature.com/terms/> .
-@prefix odrs: <http://schema.theodi.org/odrs#> .
-@prefix op: <http://environment.data.gov.au/def/op#> .
-@prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix qb: <http://purl.org/linked-data/cube#> .
-@prefix qudt: <http://qudt.org/schema/qudt#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
-@prefix rr-cat: <http://registry.it.csiro.au/structure/category/> .
-@prefix rr-entity: <http://registry.it.csiro.au/structure/entity-type/> .
-@prefix rr-org: <http://registry.it.csiro.au/structure/org/> .
-@prefix rr-ui: <http://registry.it.csiro.au/structure/ui/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
-@prefix sp: <http://registry.it.csiro.au/system/prefixes/sp> .
-@prefix spec: <http://www.opengis.net/ont/modspec#> .
-@prefix ssd: <http://www.w3.org/ns/sparql-service-description#> .
-@prefix time: <http://www.w3.org/2006/time#> .
 @prefix ui: <http://purl.org/linked-data/registry-ui#> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix version: <http://purl.org/linked-data/version#> .
-@prefix vivo: <http://vivoweb.org/ontology/core#> .
-@prefix void: <http://rdfs.org/ns/void#> .
-@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <1>
@@ -55,21 +28,12 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   ui:topMemberOf <> ;
   rdfs:label "Sulfur" ;
-  skos:member <10A1> ;
   skos:member <10A2> ;
   skos:member <10B> ;
   skos:member <10C1> ;
   skos:member <10D1> ;
   skos:notation "10" ;
   skos:prefLabel "Sulfur" ;
-.
-<10A1>
-  rdf:type skos:Concept ;
-  dct:description "Total S - X-ray fluorescence" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Total S - X-ray fluorescence" ;
-  skos:notation "10A1" ;
-  skos:prefLabel "Total S - X-ray fluorescence" ;
 .
 <10A2>
   rdf:type skos:Concept ;
@@ -201,22 +165,11 @@
   skos:notation "12B1" ;
   skos:prefLabel "Ammonium bicarbonate/EDTA-extractable Cu and Zn" ;
 .
-<12C>
-  rdf:type skos:Concept ;
-  dct:description "Calcium chloride-extractable B" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Calcium chloride-extractable B" ;
-  skos:narrower <12C1> ;
-  skos:narrower <12C2> ;
-  skos:notation "12C" ;
-  skos:prefLabel "Calcium chloride-extractable B" ;
-.
 <12C1>
   rdf:type skos:Concept ;
   dct:description "Calcium chloride-extractable B - manual colour" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Calcium chloride-extractable B - manual colour" ;
-  skos:broader <12C> ;
   skos:notation "12C1" ;
   skos:prefLabel "Calcium chloride-extractable B - manual colour" ;
 .
@@ -225,7 +178,6 @@
   dct:description "Calcium chloride-extractable B - ICPAES" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Calcium chloride-extractable B - ICPAES" ;
-  skos:broader <12C> ;
   skos:notation "12C2" ;
   skos:prefLabel "Calcium chloride-extractable B - ICPAES" ;
 .
@@ -326,6 +278,7 @@
   skos:member <14D2> ;
   skos:member <14E1> ;
   skos:member <14E2> ;
+  skos:member <14E3> ;
   skos:member <14F1> ;
   skos:member <14F2> ;
   skos:member <14F3> ;
@@ -385,22 +338,11 @@
   skos:notation "14C1" ;
   skos:prefLabel "pH of SE" ;
 .
-<14D>
-  rdf:type skos:Concept ;
-  dct:description "Bicarbonate of SE and carbonate of SE" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Bicarbonate of SE and carbonate of SE" ;
-  skos:narrower <14D1> ;
-  skos:narrower <14D2> ;
-  skos:notation "14D" ;
-  skos:prefLabel "Bicarbonate of SE and carbonate of SE" ;
-.
 <14D1>
   rdf:type skos:Concept ;
   dct:description "Bicarbonate of SE and carbonate of SE - potentiometric titration" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Bicarbonate of SE and carbonate of SE - potentiometric titration" ;
-  skos:broader <14D> ;
   skos:notation "14D1" ;
   skos:prefLabel "Bicarbonate of SE and carbonate of SE - potentiometric titration" ;
 .
@@ -409,29 +351,14 @@
   dct:description "Bicarbonate of SE and carbonate of SE - indicator method" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Bicarbonate of SE and carbonate of SE - indicator method" ;
-  skos:broader <14D> ;
   skos:notation "14D2" ;
   skos:prefLabel "Bicarbonate of SE and carbonate of SE - indicator method" ;
-.
-<14E>
-  rdf:type skos:Concept ;
-  dct:description "Chloride of SE" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Chloride of SE" ;
-  skos:narrower <14E1> ;
-  skos:narrower <14E2> ;
-  skos:narrower <14E2a> ;
-  skos:narrower <14E2b> ;
-  skos:narrower <14E3> ;
-  skos:notation "14E" ;
-  skos:prefLabel "Chloride of SE" ;
 .
 <14E1>
   rdf:type skos:Concept ;
   dct:description "Chloride of SE - potentiometric titration" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Chloride of SE - potentiometric titration" ;
-  skos:broader <14E> ;
   skos:notation "14E1" ;
   skos:prefLabel "Chloride of SE - potentiometric titration" ;
 .
@@ -442,7 +369,6 @@
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   rdfs:label "Chloride (saturation extract) - ion chromotography" ;
   rdfs:label "Chloride of SE - IC" ;
-  skos:broader <14E> ;
   skos:narrower <14E2a> ;
   skos:narrower <14E2b> ;
   skos:notation "14E2" ;
@@ -455,7 +381,6 @@
   dct:description "Chloride of SE - IC (chemical suppression of eluent conductivity)" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Chloride of SE - IC (chemical suppression of eluent conductivity)" ;
-  skos:broader <14E> ;
   skos:broader <14E2> ;
   skos:notation "14E2a" ;
   skos:prefLabel "Chloride of SE - IC (chemical suppression of eluent conductivity)" ;
@@ -465,7 +390,6 @@
   dct:description "Chloride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Chloride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
-  skos:broader <14E> ;
   skos:broader <14E2> ;
   skos:notation "14E2b" ;
   skos:prefLabel "Chloride of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
@@ -475,31 +399,14 @@
   dct:description "Chloride of SE - ICPAES" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Chloride of SE - ICPAES" ;
-  skos:broader <14E> ;
   skos:notation "14E3" ;
   skos:prefLabel "Chloride of SE - ICPAES" ;
-.
-<14F>
-  rdf:type skos:Concept ;
-  dct:description "Sulfate-S of SE" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Sulfate-S of SE" ;
-  skos:narrower <14F1> ;
-  skos:narrower <14F2> ;
-  skos:narrower <14F3> ;
-  skos:narrower <14F4> ;
-  skos:narrower <14F5> ;
-  skos:narrower <14F5a> ;
-  skos:narrower <14F5b> ;
-  skos:notation "14F" ;
-  skos:prefLabel "Sulfate-S of SE" ;
 .
 <14F1>
   rdf:type skos:Concept ;
   dct:description "Sulfate-S of SE - ICPAES (plus P and soluble cations)" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Sulfate-S of SE - ICPAES (plus P and soluble cations)" ;
-  skos:broader <14F> ;
   skos:notation "14F1" ;
   skos:prefLabel "Sulfate-S of SE - ICPAES (plus P and soluble cations)" ;
 .
@@ -508,7 +415,6 @@
   dct:description "Sulfate-S of SE - turbidimetric" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Sulfate-S of SE - turbidimetric" ;
-  skos:broader <14F> ;
   skos:notation "14F2" ;
   skos:prefLabel "Sulfate-S of SE - turbidimetric" ;
 .
@@ -517,7 +423,6 @@
   dct:description "Sulfate-S of SE - gravimetric" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Sulfate-S of SE - gravimetric" ;
-  skos:broader <14F> ;
   skos:notation "14F3" ;
   skos:prefLabel "Sulfate-S of SE - gravimetric" ;
 .
@@ -526,7 +431,6 @@
   dct:description "Sulfate-S of SE - automated colour" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Sulfate-S of SE - automated colour" ;
-  skos:broader <14F> ;
   skos:notation "14F4" ;
   skos:prefLabel "Sulfate-S of SE - automated colour" ;
 .
@@ -537,7 +441,6 @@
   dct:source <https://catalogue.nla.gov.au/Record/685915> ;
   rdfs:label "Sulfate-S (saturation extract) - ion chromotography" ;
   rdfs:label "Sulfate-S of SE - IC" ;
-  skos:broader <14F> ;
   skos:narrower <14F5a> ;
   skos:narrower <14F5b> ;
   skos:notation "14F5" ;
@@ -550,7 +453,6 @@
   dct:description "Sulfate-S of SE - IC (chemical suppression of eluent conductivity)" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Sulfate-S of SE - IC (chemical suppression of eluent conductivity)" ;
-  skos:broader <14F> ;
   skos:broader <14F5> ;
   skos:notation "14F5a" ;
   skos:prefLabel "Sulfate-S of SE - IC (chemical suppression of eluent conductivity)" ;
@@ -560,7 +462,6 @@
   dct:description "Sulfate-S of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Sulfate-S of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
-  skos:broader <14F> ;
   skos:broader <14F5> ;
   skos:notation "14F5b" ;
   skos:prefLabel "Sulfate-S of SE - IC (single-column with electronic suppression of eluent conductivity)" ;
@@ -667,23 +568,11 @@
   skos:notation "15" ;
   skos:prefLabel "Ion-exchange properties" ;
 .
-<15A>
-  rdf:type skos:Concept ;
-  dct:description "Exchangeable bases (Ca2+, Mg2+, Na+, K+) by 1 M ammonium chloride at pH 7.0" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Exchangeable bases (Ca2+, Mg2+, Na+, K+) by 1 M ammonium chloride at pH 7.0" ;
-  skos:narrower <15A1> ;
-  skos:narrower <15A2> ;
-  skos:narrower <15A3> ;
-  skos:notation "15A" ;
-  skos:prefLabel "Exchangeable bases (Ca2+, Mg2+, Na+, K+) by 1 M ammonium chloride at pH 7.0" ;
-.
 <15A1>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases (Ca2+, Mg2+, Na+, K+) - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases (Ca2+, Mg2+, Na+, K+) - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
-  skos:broader <15A> ;
   skos:notation "15A1" ;
   skos:prefLabel "Exchangeable bases (Ca2+, Mg2+, Na+, K+) - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
 .
@@ -692,7 +581,6 @@
   dct:description "Exchangeable bases by 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases by 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
-  skos:broader <15A> ;
   skos:notation "15A2" ;
   skos:prefLabel "Exchangeable bases by 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
 .
@@ -701,27 +589,14 @@
   dct:description "Exchangeable bases - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
-  skos:broader <15A> ;
   skos:notation "15A3" ;
   skos:prefLabel "Exchangeable bases - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
-.
-<15B>
-  rdf:type skos:Concept ;
-  dct:description "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0" ;
-  skos:narrower <15B1> ;
-  skos:narrower <15B2> ;
-  skos:narrower <15B3> ;
-  skos:notation "15B" ;
-  skos:prefLabel "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0" ;
 .
 <15B1>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
-  skos:broader <15B> ;
   skos:notation "15B1" ;
   skos:prefLabel "Exchangeable bases and cation exchange capacity - 1 M ammonium chloride at pH 7.0, no pre-treatment for soluble salts" ;
 .
@@ -730,7 +605,6 @@
   dct:description "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
-  skos:broader <15B> ;
   skos:notation "15B2" ;
   skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, pre-treatment for soluble salts" ;
 .
@@ -739,7 +613,6 @@
   dct:description "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
-  skos:broader <15B> ;
   skos:notation "15B3" ;
   skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium chloride at pH 7.0, adjusted for soluble Na+" ;
 .
@@ -759,23 +632,11 @@
   skos:notation "15C2" ;
   skos:prefLabel "Exchangeable divalent cations and CEC - by MIR diffuse reflectance spectroscopy" ;
 .
-<15D>
-  rdf:type skos:Concept ;
-  dct:description "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0" ;
-  skos:narrower <15D1> ;
-  skos:narrower <15D2> ;
-  skos:narrower <15D3> ;
-  skos:notation "15D" ;
-  skos:prefLabel "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0" ;
-.
 <15D1>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, manual leach" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, manual leach" ;
-  skos:broader <15D> ;
   skos:notation "15D1" ;
   skos:prefLabel "Exchangeable bases and CEC -  1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, manual leach" ;
 .
@@ -784,7 +645,6 @@
   dct:description "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, automatic extractor" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, automatic extractor" ;
-  skos:broader <15D> ;
   skos:notation "15D2" ;
   skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, pre-treatment for soluble salts, automatic extractor" ;
 .
@@ -793,27 +653,14 @@
   dct:description "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, rapid method with no pre-treatment for soluble salts" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, rapid method with no pre-treatment for soluble salts" ;
-  skos:broader <15D> ;
   skos:notation "15D3" ;
   skos:prefLabel "Exchangeable bases and CEC - 1 M ammonium acetate at pH 7.0, rapid method with no pre-treatment for soluble salts" ;
-.
-<15E>
-  rdf:type skos:Concept ;
-  dct:description "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange" ;
-  skos:narrower <15E1> ;
-  skos:narrower <15E2> ;
-  skos:narrower <15E3> ;
-  skos:notation "15E" ;
-  skos:prefLabel "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange" ;
 .
 <15E1>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange, no pre-treatment for soluble salts" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange, no pre-treatment for soluble salts" ;
-  skos:broader <15E> ;
   skos:notation "15E1" ;
   skos:prefLabel "Exchangeable bases, CEC and anion exchange capacity by compulsive exchange, no pre-treatment for soluble salts" ;
 .
@@ -822,7 +669,6 @@
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, pre-treatment for soluble salts" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases, CEC and AEC by compulsive exchange, pre-treatment for soluble salts" ;
-  skos:broader <15E> ;
   skos:notation "15E2" ;
   skos:prefLabel "Exchangeable bases, CEC and AEC by compulsive exchange, pre-treatment for soluble salts" ;
 .
@@ -831,27 +677,14 @@
   dct:description "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble Na+" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble Na+" ;
-  skos:broader <15E> ;
   skos:notation "15E3" ;
   skos:prefLabel "Exchangeable bases, CEC and AEC by compulsive exchange, adjusted for soluble Na+" ;
-.
-<15F>
-  rdf:type skos:Concept ;
-  dct:description "Ion-exchange properties by 0.01 M silver-thiourea (AgTU+)" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Ion-exchange properties by 0.01 M silver-thiourea (AgTU+)" ;
-  skos:narrower <15F1> ;
-  skos:narrower <15F2> ;
-  skos:narrower <15F3> ;
-  skos:notation "15F" ;
-  skos:prefLabel "Ion-exchange properties by 0.01 M silver-thiourea (AgTU+)" ;
 .
 <15F1>
   rdf:type skos:Concept ;
   dct:description "Exchangeable bases by 0.01 M silver-thiourea (AgTU+) - no pre-treatment for soluble salts" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable bases by 0.01 M silver-thiourea (AgTU+) - no pre-treatment for soluble salts" ;
-  skos:broader <15F> ;
   skos:notation "15F1" ;
   skos:prefLabel "Exchangeable bases by 0.01 M silver-thiourea (AgTU+) - no pre-treatment for soluble salts" ;
 .
@@ -860,7 +693,6 @@
   dct:description "Exchangeable aluminium by 0.01 M AgTU+" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Exchangeable aluminium by 0.01 M AgTU+" ;
-  skos:broader <15F> ;
   skos:notation "15F2" ;
   skos:prefLabel "Exchangeable aluminium by 0.01 M AgTU+" ;
 .
@@ -869,7 +701,6 @@
   dct:description "Cation exchange capacity by 0.01 M AgTU+ [CEC AgTU]" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Cation exchange capacity by 0.01 M AgTU+ [CEC AgTU]" ;
-  skos:broader <15F> ;
   skos:notation "15F3" ;
   skos:prefLabel "Cation exchange capacity by 0.01 M AgTU+ [CEC AgTU]" ;
 .
@@ -889,24 +720,11 @@
   skos:notation "15H1" ;
   skos:prefLabel "Exchange acidity by triethanolamine (TEA)" ;
 .
-<15I>
-  rdf:type skos:Concept ;
-  dct:description "Cation exchange capacity measurement" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Cation exchange capacity measurement" ;
-  skos:narrower <15I1> ;
-  skos:narrower <15I2> ;
-  skos:narrower <15I3> ;
-  skos:narrower <15I4> ;
-  skos:notation "15I" ;
-  skos:prefLabel "Cation exchange capacity measurement" ;
-.
 <15I1>
   rdf:type skos:Concept ;
   dct:description "Cation exchange capacity measurement - distillation of NH+4" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Cation exchange capacity measurement - distillation of NH+4" ;
-  skos:broader <15I> ;
   skos:notation "15I1" ;
   skos:prefLabel "Cation exchange capacity measurement - distillation of NH+4" ;
 .
@@ -915,7 +733,6 @@
   dct:description "Cation exchange capacity measurement - automated determination of NH+4" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Cation exchange capacity measurement - automated determination of NH+4" ;
-  skos:broader <15I> ;
   skos:notation "15I2" ;
   skos:prefLabel "Cation exchange capacity measurement - automated determination of NH+4" ;
 .
@@ -924,7 +741,6 @@
   dct:description "Cation exchange capacity measurement - automated determination of NH+4 and Cl+" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Cation exchange capacity measurement - automated determination of NH+4 and Cl+" ;
-  skos:broader <15I> ;
   skos:notation "15I3" ;
   skos:prefLabel "Cation exchange capacity measurement - automated determination of NH+4 and Cl+" ;
 .
@@ -933,7 +749,6 @@
   dct:description "Cation exchange capacity measurement - titration of NH+4 and Cl-" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Cation exchange capacity measurement - titration of NH+4 and Cl-" ;
-  skos:broader <15I> ;
   skos:notation "15I4" ;
   skos:prefLabel "Cation exchange capacity measurement - titration of NH+4 and Cl-" ;
 .
@@ -1036,29 +851,19 @@
   dct:source <http://www.publish.csiro.au/book/6418> ;
   ui:topMemberOf <> ;
   rdfs:label "Total miscellaneous elements" ;
-  skos:member <17A> ;
+  skos:member <17A1> ;
+  skos:member <17A2> ;
   skos:member <17B1> ;
   skos:member <17B2> ;
   skos:member <17C1> ;
   skos:notation "17" ;
   skos:prefLabel "Total miscellaneous elements" ;
 .
-<17A>
-  rdf:type skos:Concept ;
-  dct:description "Total elemental analysis of soils and sediments" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Total elemental analysis of soils and sediments" ;
-  skos:narrower <17A1> ;
-  skos:narrower <17A2> ;
-  skos:notation "17A" ;
-  skos:prefLabel "Total elemental analysis of soils and sediments" ;
-.
 <17A1>
   rdf:type skos:Concept ;
   dct:description "Total elemental analysis of soils and sediments -X-ray fluorescence spectroscopy" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Total elemental analysis of soils and sediments -X-ray fluorescence spectroscopy" ;
-  skos:broader <17A> ;
   skos:notation "17A1" ;
   skos:prefLabel "Total elemental analysis of soils and sediments -X-ray fluorescence spectroscopy" ;
 .
@@ -1067,26 +872,14 @@
   dct:description "Total elemental analysis of soils and sediments - microwave assisted digestion, with determination by atomic spectroscopy" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Total elemental analysis of soils and sediments - microwave assisted digestion, with determination by atomic spectroscopy" ;
-  skos:broader <17A> ;
   skos:notation "17A2" ;
   skos:prefLabel "Total elemental analysis of soils and sediments - microwave assisted digestion, with determination by atomic spectroscopy" ;
-.
-<17B>
-  rdf:type skos:Concept ;
-  dct:description "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia" ;
-  skos:narrower <17B1> ;
-  skos:narrower <17B2> ;
-  skos:notation "17B" ;
-  skos:prefLabel "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia" ;
 .
 <17B1>
   rdf:type skos:Concept ;
   dct:description "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia block digestion with determination by atomic spectroscopy" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia block digestion with determination by atomic spectroscopy" ;
-  skos:broader <17B> ;
   skos:notation "17B1" ;
   skos:prefLabel "Pseudo-total elemental analysis of soils and sediments - reverse aqua regia block digestion with determination by atomic spectroscopy" ;
 .
@@ -1095,7 +888,6 @@
   dct:description "Pseudo-total elements of soils and sediments - reverse aqua regia microwave assisted digestion of sludges, soils and sediments, with determination by atomic spectroscopy" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Pseudo-total elements of soils and sediments - reverse aqua regia microwave assisted digestion of sludges, soils and sediments, with determination by atomic spectroscopy" ;
-  skos:broader <17B> ;
   skos:notation "17B2" ;
   skos:prefLabel "Pseudo-total elements of soils and sediments - reverse aqua regia microwave assisted digestion of sludges, soils and sediments, with determination by atomic spectroscopy" ;
 .
@@ -1362,22 +1154,11 @@
   skos:notation "20E1" ;
   skos:prefLabel "1 M KCl-extractable S, Ca and Mg after peroxide oxidation" ;
 .
-<20F>
-  rdf:type skos:Concept ;
-  dct:description "Sulfur - 4 M HCl extraction (S HCl)" ;
-  dct:source <http://www.publish.csiro.au/book/6418> ;
-  rdfs:label "Sulfur - 4 M HCl extraction (S HCl)" ;
-  skos:narrower <20F1> ;
-  skos:narrower <20F2> ;
-  skos:notation "20F" ;
-  skos:prefLabel "Sulfur - 4 M HCl extraction (S HCl)" ;
-.
 <20F1>
   rdf:type skos:Concept ;
   dct:description "Sulfur - 4 M HCl extraction (S HCl), ICPAES finish" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Sulfur - 4 M HCl extraction (S HCl), ICPAES finish" ;
-  skos:broader <20F> ;
   skos:notation "20F1" ;
   skos:prefLabel "Sulfur - 4 M HCl extraction (S HCl), ICPAES finish" ;
 .
@@ -1386,7 +1167,6 @@
   dct:description "Sulfur - 4 M HCl extraction (S HCl), ion chromatography finish" ;
   dct:source <http://www.publish.csiro.au/book/6418> ;
   rdfs:label "Sulfur - 4 M HCl extraction (S HCl), ion chromatography finish" ;
-  skos:broader <20F> ;
   skos:notation "20F2" ;
   skos:prefLabel "Sulfur - 4 M HCl extraction (S HCl), ion chromatography finish" ;
 .
