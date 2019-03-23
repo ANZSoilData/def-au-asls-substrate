@@ -1549,14 +1549,30 @@ sp:condition-of-surface-soil-when-dry
   skos:member sp:surfacecondition-Z ;
   skos:prefLabel "Condition of surface soil when dry"@en ;
 .
+sp:consistence
+  rdf:type skos:Collection ;
+  dct:description "Consistence refers to the strength of cohesion and adhesion in soil. Strength will vary according to soil water status. Note that soil water status must be recorded with strength." ;
+  ui:topMemberOf sp: ;
+  rdfs:label "Consistence" ;
+  skos:definition "Consistence refers to the strength of cohesion and adhesion in soil. Strength will vary according to soil water status. Note that soil water status must be recorded with strength." ;
+  skos:member sp:consistence-plasticity-degree ;
+  skos:member sp:consistence-plasticity-type ;
+  skos:member sp:consistence-stickiness ;
+  skos:member sp:consistence-strength ;
+  skos:narrower sp:consistence-plasticity-degree ;
+  skos:narrower sp:consistence-plasticity-type ;
+  skos:narrower sp:consistence-stickiness ;
+  skos:narrower sp:consistence-strength ;
+  skos:prefLabel "Consistence"@en ;
+.
 sp:consistence-plasticity-degree
   rdf:type skos:Collection ;
   rdf:type sosa:ObservableProperty ;
   dct:description "Plasticity is the ability to change shape and retain the new shape after the stress is removed. The degree of plasticity given below applies only to normal plasticity. The degree of plasticity is determined at the soil moisture content used for field texturing, that is, just below sticky point. The soil is rolled between the palms of the hand and, if possible, 40 mm long rolls are formed. The rolls are dangled from the thumb and forefinger. Plasticity is determined on the behaviour of rolls of varying thickness." ;
-  ui:isMemberOf sp:consistences ;
+  ui:isMemberOf sp:consistence ;
   rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Plasticity Degree" ;
-  skos:broader sp:consistences ;
+  skos:broader sp:consistence ;
   skos:definition "Plasticity is the ability to change shape and retain the new shape after the stress is removed. The degree of plasticity given below applies only to normal plasticity. The degree of plasticity is determined at the soil moisture content used for field texturing, that is, just below sticky point. The soil is rolled between the palms of the hand and, if possible, 40 mm long rolls are formed. The rolls are dangled from the thumb and forefinger. Plasticity is determined on the behaviour of rolls of varying thickness." ;
   skos:member sp:consistence-plasticity-degree-0 ;
   skos:member sp:consistence-plasticity-degree-1 ;
@@ -1612,10 +1628,10 @@ sp:consistence-plasticity-type
   rdf:type skos:Collection ;
   rdf:type sosa:ObservableProperty ;
   dct:description "The type of plasticity refers to the degree to which either the consistence, field texture or both properties of a soil suggest the amount of clay-sized particles it contains (Butler 1955). It may be identified by determining two field textures: one after an initial 1 to 2 minute working of the soil sample, and another after a prolonged 10 minute kneading. The change in field texture from the initial to the prolonged working of the soil sample indicates the type of plasticity." ;
-  ui:isMemberOf sp:consistences ;
+  ui:isMemberOf sp:consistence ;
   rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Plasticity Type" ;
-  skos:broader sp:consistences ;
+  skos:broader sp:consistence ;
   skos:definition "The type of plasticity refers to the degree to which either the consistence, field texture or both properties of a soil suggest the amount of clay-sized particles it contains (Butler 1955). It may be identified by determining two field textures: one after an initial 1 to 2 minute working of the soil sample, and another after a prolonged 10 minute kneading. The change in field texture from the initial to the prolonged working of the soil sample indicates the type of plasticity." ;
   skos:member sp:consistence-plasticity-type-N ;
   skos:member sp:consistence-plasticity-type-S ;
@@ -1667,10 +1683,10 @@ sp:consistence-stickiness
   rdf:type skos:Collection ;
   rdf:type sosa:ObservableProperty ;
   dct:description "Stickiness is determined on wet soil by pressing the wet sample between thumb and forefinger and then observing the adherence of the soil to the fingers." ;
-  ui:isMemberOf sp:consistences ;
+  ui:isMemberOf sp:consistence ;
   rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Stickiness" ;
-  skos:broader sp:consistences ;
+  skos:broader sp:consistence ;
   skos:definition "Stickiness is determined on wet soil by pressing the wet sample between thumb and forefinger and then observing the adherence of the soil to the fingers." ;
   skos:member sp:consistence-stickiness-0 ;
   skos:member sp:consistence-stickiness-1 ;
@@ -1730,10 +1746,10 @@ Forces 0 to 5 are equivalent to the following dry consistence classes in the ‘
 3	Hard
 4	Very hard
 5	Extremely hard""" ;
-  ui:isMemberOf sp:consistences ;
+  ui:isMemberOf sp:consistence ;
   rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Strength" ;
-  skos:broader sp:consistences ;
+  skos:broader sp:consistence ;
   skos:definition """Strength of soil is the resistance to breaking or deformation. Strength is determined by the force just sufficient to break or deform a 20 mm diameter piece of soil when a compressive shearing force is applied between thumb and forefinger. The 20 mm piece of soil may be a ped, part of a ped, a compound ped or a fragment.
 
 Forces 0 to 5 are equivalent to the following dry consistence classes in the ‘USDA Soil Survey Manual’ (Soil Survey Staff 1951):
@@ -1832,22 +1848,6 @@ sp:consistence-strength-7
   skos:definition "cannot be crushed underfoot by full body weight applied slowly." ;
   skos:notation "7" ;
   skos:prefLabel "Rigid"@en ;
-.
-sp:consistences
-  rdf:type skos:Collection ;
-  dct:description "Consistence refers to the strength of cohesion and adhesion in soil. Strength will vary according to soil water status. Note that soil water status must be recorded with strength." ;
-  ui:topMemberOf sp: ;
-  rdfs:label "Consistence" ;
-  skos:definition "Consistence refers to the strength of cohesion and adhesion in soil. Strength will vary according to soil water status. Note that soil water status must be recorded with strength." ;
-  skos:member sp:consistence-plasticity-degree ;
-  skos:member sp:consistence-plasticity-type ;
-  skos:member sp:consistence-stickiness ;
-  skos:member sp:consistence-strength ;
-  skos:narrower sp:consistence-plasticity-degree ;
-  skos:narrower sp:consistence-plasticity-type ;
-  skos:narrower sp:consistence-stickiness ;
-  skos:narrower sp:consistence-strength ;
-  skos:prefLabel "Consistence"@en ;
 .
 sp:cutans
   rdf:type skos:Collection ;
@@ -2058,6 +2058,7 @@ A scaled horizon diagram may be useful where horizons are irregular.""" ;
 .
 sp:depth-to-r-horizon
   rdf:type skos:Collection ;
+  rdf:type sosa:ObservableProperty ;
   dct:description """Give depth to R horizon or strongly cemented pan in metres.
 The purpose of recording this depth is to include in the soil description those materials that may be relatively easily moved by earth-moving equipment or may be relatively easily penetrated by roots. Strong or very strong rock or pan that may require ripping or blasting to move, and/or has little or no root penetration, is excluded""" ;
   ui:topMemberOf sp: ;
@@ -2188,8 +2189,9 @@ sp:fabric-S
   skos:notation "S" ;
   skos:prefLabel "Smooth-ped"@en ;
 .
-sp:field-phs
+sp:field-ph
   rdf:type skos:Collection ;
+  rdf:type sosa:ObservableProperty ;
   dct:description """pH is determined in the field using a field pH kit based on the specifications of Raupach and Tucker (1959). Estimate to 0.5 of a unit. Portable pH meters may also be used.
 Record depth at which pH is determined, in metres.
 pH may be measured either:
@@ -4357,6 +4359,7 @@ The A horizon in cracking clays may be structured or massive. The structural A h
 The B horizon is the coarse angular blocky and/or lenticular horizon where ped faces are all accommodated and usually have only narrow planar voids between them. The B horizon structure is stable because of relatively slow wetting and drying. The B horizon will usually occur within 200 mm of the surface, but the structural change must be confirmed using a spade or exposure to examine the soil. The boundary may often be gradual or diffuse, but can be clear or abrupt.""" ;
   rdfs:label "Horizon classification" ;
   skos:definition "A soil horizon is a layer of soil, approximately parallel to the land surface, with morphological properties different from layers below and/or above it. Tongues of material from one horizon may penetrate into adjacent horizons." ;
+  skos:member sp:horizon-prefix ;
   skos:member sp:horizon-suffix ;
   skos:member sp:horizons-A ;
   skos:member sp:horizons-B ;
@@ -4366,7 +4369,6 @@ The B horizon is the coarse angular blocky and/or lenticular horizon where ped f
   skos:member sp:horizons-P ;
   skos:member sp:horizons-R ;
   skos:member sp:horizons-bleached ;
-  skos:member sp:horizons-prefix ;
   skos:member sp:horizons-subdivision ;
   skos:member sp:horizons-transitional ;
   skos:prefLabel "Horizon classification"@en ;
@@ -4594,6 +4596,16 @@ sp:horizon-boundary-shape-W
   skos:definition "undulations with depressions wider than they are deep." ;
   skos:notation "W" ;
   skos:prefLabel "Wavy"@en ;
+.
+sp:horizon-prefix
+  rdf:type skos:Collection ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure13.png\" /></p>" ;
+  ui:isMemberOf sp:horizon ;
+  rdfs:label "Lithologic discontinuity" ;
+  skos:definition """Where obvious contrasts in lithology exist between different horizons in the soil profile, or between the soil profile and the underlying lithology, the different lithologic layers are given a numeric prefix (Figure 13).
+Each layer may consist of one or more horizons. The different layers are numbered from the top downward. The upper layer is not numbered 1, this being understood. Numbering starts with the second layer, which is designated 2. Even though a layer below material 3, for example, is similar to material 2, it is designated 4 in the sequence (see Profiles C and D in Figure 13). Discrimination of lithological discontinuities from soil horizon boundaries will depend in each case upon the degree of pedological organisation and the contrast between lithological units (see, for example, Profiles C and D in Figure 13).
+Where lithologic discontinuities are suspected in the profile but there is no clear evidence, either the numeric prefix should not be used or a query should be added to indicate doubt. It is better used only where there is clear evidence. Whether the numeric prefix is used or not, the horizon naming, with appropriate suffixes, remains the same, as illustrated in the examples in Figure 13.""" ;
+  skos:prefLabel "Lithologic discontinuity"@en ;
 .
 sp:horizon-suffix
   rdf:type skos:Collection ;
@@ -4903,16 +4915,6 @@ Sporadically bleached: bleach occurs:
 •	as blotches, often less than 6 mm thick, at the interface of horizons, most commonly A and B horizons
 •	as nests of bleached grains of soil material at the interface of horizons, most commonly A and B horizons, when no other evidence of a bleached horizon may occur.""" ;
   skos:prefLabel "Bleached horizons"@en ;
-.
-sp:horizons-prefix
-  rdf:type skos:Collection ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure13.png\" /></p>" ;
-  ui:isMemberOf sp:horizon ;
-  rdfs:label "Lithologic discontinuity" ;
-  skos:definition """Where obvious contrasts in lithology exist between different horizons in the soil profile, or between the soil profile and the underlying lithology, the different lithologic layers are given a numeric prefix (Figure 13).
-Each layer may consist of one or more horizons. The different layers are numbered from the top downward. The upper layer is not numbered 1, this being understood. Numbering starts with the second layer, which is designated 2. Even though a layer below material 3, for example, is similar to material 2, it is designated 4 in the sequence (see Profiles C and D in Figure 13). Discrimination of lithological discontinuities from soil horizon boundaries will depend in each case upon the degree of pedological organisation and the contrast between lithological units (see, for example, Profiles C and D in Figure 13).
-Where lithologic discontinuities are suspected in the profile but there is no clear evidence, either the numeric prefix should not be used or a query should be added to indicate doubt. It is better used only where there is clear evidence. Whether the numeric prefix is used or not, the horizon naming, with appropriate suffixes, remains the same, as illustrated in the examples in Figure 13.""" ;
-  skos:prefLabel "Lithologic discontinuity"@en ;
 .
 sp:horizons-subdivision
   rdf:type skos:Collection ;
@@ -5312,6 +5314,8 @@ sp:mottles-and-other-colour-patterns
 .
 sp:observable-properties
   rdf:type skos:Collection ;
+  dct:description "A set of soil-profile observable properties" ;
+  ui:topMemberOf sp: ;
   rdfs:label "Observable properties of soil profiles" ;
   skos:member sp:coarse-fragments-abundance ;
   skos:member sp:coarse-fragments-distribution ;
@@ -5364,7 +5368,7 @@ sp:observable-properties
   skos:member sp:type-of-soil-observation ;
   skos:member sp:voids-cracks ;
   skos:member sp:voids-macropores-abundance ;
-  skos:member sp:voids-macropores-diameters ;
+  skos:member sp:voids-macropores-diameter ;
   skos:member sp:voids-micropores ;
   skos:member sp:water-repellence ;
 .
@@ -7218,7 +7222,7 @@ sp:voids-macropores
   rdfs:label "Macropores" ;
   skos:definition "voids that are approximately circular in cross-section and greater than 0.075 mm diameter" ;
   skos:member sp:voids-macropores-abundance ;
-  skos:member sp:voids-macropores-diameters ;
+  skos:member sp:voids-macropores-diameter ;
   skos:note "Only macropores can be seen with the naked eye" ;
   skos:prefLabel "Macropores"@en ;
 .
@@ -7309,51 +7313,7 @@ sp:voids-macropores-abundance-6
   skos:notation "6" ;
   skos:prefLabel "Many medium or coarse macropores"@en ;
 .
-sp:voids-macropores-diameter-1
-  rdf:type skos:Concept ;
-  dc:description "0.075–1 mm" ;
-  dct:description "0.075–1 mm" ;
-  ui:isMemberOf sp:voids-macropores-diameters ;
-  rdfs:label "Very fine" ;
-  skos:definition "0.075–1 m" ;
-  skos:notation "1" ;
-  skos:note "Use Figure 18 as a guide to average diameter" ;
-  skos:prefLabel "Very fine"@en ;
-.
-sp:voids-macropores-diameter-2
-  rdf:type skos:Concept ;
-  dc:description "1–2 mm" ;
-  dct:description "1–2 mm" ;
-  ui:isMemberOf sp:voids-macropores-diameters ;
-  rdfs:label "Fine" ;
-  skos:definition "1–2 mm" ;
-  skos:notation "2" ;
-  skos:note "Use Figure 18 as a guide to average diameter" ;
-  skos:prefLabel "Fine"@en ;
-.
-sp:voids-macropores-diameter-3
-  rdf:type skos:Concept ;
-  dc:description "2–5 mm" ;
-  dct:description "2–5 mm" ;
-  ui:isMemberOf sp:voids-macropores-diameters ;
-  rdfs:label "Medium" ;
-  skos:definition "2–5 mm" ;
-  skos:notation "3" ;
-  skos:note "Use Figure 18 as a guide to average diameter" ;
-  skos:prefLabel "Medium"@en ;
-.
-sp:voids-macropores-diameter-4
-  rdf:type skos:Concept ;
-  dc:description ">5 mm" ;
-  dct:description ">5 mm" ;
-  ui:isMemberOf sp:voids-macropores-diameters ;
-  rdfs:label "Coarse" ;
-  skos:definition ">5 mm" ;
-  skos:notation "4" ;
-  skos:note "Use Figure 18 as a guide to average diameter" ;
-  skos:prefLabel "Coarse"@en ;
-.
-sp:voids-macropores-diameters
+sp:voids-macropores-diameter
   rdf:type skos:Collection ;
   rdf:type sosa:ObservableProperty ;
   dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure18.png\" /></p>" ;
@@ -7366,6 +7326,50 @@ sp:voids-macropores-diameters
   skos:member sp:voids-macropores-diameter-3 ;
   skos:member sp:voids-macropores-diameter-4 ;
   skos:prefLabel "Diameter of macropores"@en ;
+.
+sp:voids-macropores-diameter-1
+  rdf:type skos:Concept ;
+  dc:description "0.075–1 mm" ;
+  dct:description "0.075–1 mm" ;
+  ui:isMemberOf sp:voids-macropores-diameter ;
+  rdfs:label "Very fine" ;
+  skos:definition "0.075–1 m" ;
+  skos:notation "1" ;
+  skos:note "Use Figure 18 as a guide to average diameter" ;
+  skos:prefLabel "Very fine"@en ;
+.
+sp:voids-macropores-diameter-2
+  rdf:type skos:Concept ;
+  dc:description "1–2 mm" ;
+  dct:description "1–2 mm" ;
+  ui:isMemberOf sp:voids-macropores-diameter ;
+  rdfs:label "Fine" ;
+  skos:definition "1–2 mm" ;
+  skos:notation "2" ;
+  skos:note "Use Figure 18 as a guide to average diameter" ;
+  skos:prefLabel "Fine"@en ;
+.
+sp:voids-macropores-diameter-3
+  rdf:type skos:Concept ;
+  dc:description "2–5 mm" ;
+  dct:description "2–5 mm" ;
+  ui:isMemberOf sp:voids-macropores-diameter ;
+  rdfs:label "Medium" ;
+  skos:definition "2–5 mm" ;
+  skos:notation "3" ;
+  skos:note "Use Figure 18 as a guide to average diameter" ;
+  skos:prefLabel "Medium"@en ;
+.
+sp:voids-macropores-diameter-4
+  rdf:type skos:Concept ;
+  dc:description ">5 mm" ;
+  dct:description ">5 mm" ;
+  ui:isMemberOf sp:voids-macropores-diameter ;
+  rdfs:label "Coarse" ;
+  skos:definition ">5 mm" ;
+  skos:notation "4" ;
+  skos:note "Use Figure 18 as a guide to average diameter" ;
+  skos:prefLabel "Coarse"@en ;
 .
 sp:voids-micropores
   rdf:type sosa:ObservableProperty ;
