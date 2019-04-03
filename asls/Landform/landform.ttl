@@ -1,0 +1,161 @@
+# baseURI: http://anzsoil.org/def/au/asls/landform
+# imports: http://purl.org/dc/elements/1.1/
+# imports: http://purl.org/linked-data/registry
+# imports: http://purl.org/linked-data/registry-ui#
+
+@prefix asls: <http://anzsoil.org/def/au/asls/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lf: <http://anzsoil.org/def/au/asls/landform/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ui: <http://purl.org/linked-data/registry-ui#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+asls:landform
+  rdf:type owl:Ontology ;
+  dct:contributor <https://orcid.org/0000-0002-0693-1899> ;
+  dct:contributor <https://orcid.org/0000-0002-3884-3420> ;
+  dct:created "2018-01-16"^^xsd:date ;
+  dct:creator <mailto:asris@csiro.au> ;
+  dct:description """<p>This register contains a machine-readable representation of the classifiers described in chapter 5 <i>Landform</i>, by J.G. Speight, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a>.</p>
+<p>In this technique for describing landforms, the whole land surface is viewed as a mosaic of tiles of odd shapes and sizes. The scheme is intended to produce a record of observations rather than inferences.</p>"""^^rdf:HTML ;
+  dct:license <http://creativecommons.org/licences/by/4.0> ;
+  dct:modified "2019-01-16"^^xsd:date ;
+  dct:publisher <http://www.publish.csiro.au/> ;
+  dct:rights "copyright CSIRO 2009, 2016, 2018. All rights reserved." ;
+  dct:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)" ;
+  reg:notation "landform" ;
+  ui:hierarchyChildProperty skos:member ;
+  ui:hierarchyRootProperty ui:topMemberOf ;
+  rdfs:label "Landform classifiers" ;
+  rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
+  owl:imports dc: ;
+  owl:imports <http://purl.org/linked-data/registry> ;
+  owl:imports ui: ;
+.
+lf:cant_delete
+  rdf:type skos:Concept ;
+  dct:description "cant delete" ;
+  rdfs:label "cant delete" ;
+  skos:definition "cant delete" ;
+  skos:notation "A" ;
+  skos:prefLabel "cant delete"@en ;
+.
+lf:element-descriptions
+  rdf:type skos:Collection ;
+  ui:topMemberOf <http://anzsoil.org/def/au/asls/soil-profile/> ;
+  rdfs:label "Description of landform element" ;
+  skos:member lf:slope ;
+.
+lf:slope
+  rdf:type skos:Collection ;
+  dct:description "Slope of landform element" ;
+  ui:isMemberOf lf:element-descriptions ;
+  rdfs:label "Slope of landform element" ;
+  skos:definition "Slope of landform element" ;
+  skos:member lf:element-descriptions ;
+  skos:prefLabel "Slope of landform element"@en ;
+.
+lf:slope-class
+  rdf:type skos:Collection ;
+  dct:description "Class of slope" ;
+  ui:isMemberOf lf:slope ;
+  rdfs:label "Class of slope" ;
+  skos:definition "Means of evaluation of slope" ;
+  skos:member lf:slope-class-LE ;
+.
+lf:slope-class-GE
+  rdf:type skos:Concept ;
+  dct:description "A slope tangent boundary of 10% (5°45') with average slope 6% (3°)" ;
+  ui:isMemberOf lf:slope-class ;
+  rdfs:label "Gently inclined" ;
+  skos:definition "A slope tangent boundary of 10% (5°45') with average slope 6% (3°)" ;
+  skos:notation "GE" ;
+  skos:prefLabel "Gently inclined"@en ;
+.
+lf:slope-class-LE
+  rdf:type skos:Concept ;
+  dct:description "A slope tangent boundary of 1 % (35') with average slope 0.6% (20')" ;
+  ui:isMemberOf lf:slope-class ;
+  rdfs:label "Level" ;
+  skos:definition "A slope tangent boundary of 1% (0°35') with average slope 0.6% (0°20')" ;
+  skos:notation "LE" ;
+  skos:prefLabel "level"@en ;
+.
+lf:slope-class-MO
+  rdf:type skos:Concept ;
+  dct:description "A slope tangent boundary of 32% (18°) with average slope 20% (10°)" ;
+  ui:isMemberOf lf:slope-class ;
+  rdfs:label "Moderately inclined" ;
+  skos:definition "A slope tangent boundary of 32% (18°) with average slope 20% (10°)" ;
+  skos:notation "MO" ;
+  skos:prefLabel "Moderately inclined"@en ;
+.
+lf:slope-class-VG
+  rdf:type skos:Concept ;
+  dct:description "A slope tangent boundary of 3 % (1°45') with average slope 1% (1°)" ;
+  ui:isMemberOf lf:slope-class ;
+  rdfs:label "Very gently inclined" ;
+  skos:definition "A slope tangent boundary of 3 % (1°45') with average slope 1% (1°)" ;
+  skos:notation "VG" ;
+  skos:prefLabel "Very gently inclined"@en ;
+.
+lf:slope-evaluation-A
+  rdf:type skos:Concept ;
+  dct:description "Abney level or clinometer and tape" ;
+  ui:isMemberOf lf:slope-evaluations ;
+  rdfs:label "Abney level or clinometer and tape" ;
+  skos:definition "Abney level or clinometer and tape" ;
+  skos:notation "A" ;
+  skos:prefLabel "Abney level or clinometer and tape"@en ;
+.
+lf:slope-evaluation-E
+  rdf:type skos:Concept ;
+  dct:description "Estimate" ;
+  ui:isMemberOf lf:slope-evaluations ;
+  rdfs:label "Estimate" ;
+  skos:definition "Estimate" ;
+  skos:notation "E" ;
+  skos:prefLabel "Estimate"@en ;
+.
+lf:slope-evaluation-P
+  rdf:type skos:Concept ;
+  dct:description "Contour plan at 1:10 000 or larger scale" ;
+  ui:isMemberOf lf:slope-evaluations ;
+  rdfs:label "Contour plan at 1:10 000 or larger scale" ;
+  skos:definition "Contour plan at 1:10 000 or larger scale" ;
+  skos:notation "P" ;
+  skos:prefLabel "Contour plan at 1:10 000 or larger scale"@en ;
+.
+lf:slope-evaluation-T
+  rdf:type skos:Concept ;
+  dct:description "Tripod-mounted instrument and staff" ;
+  ui:isMemberOf lf:slope-evaluations ;
+  rdfs:label "Tripod-mounted instrument and staff" ;
+  skos:definition "Tripod-mounted instrument and staff" ;
+  skos:notation "T" ;
+  skos:prefLabel "Tripod-mounted instrument and staff"@en ;
+.
+lf:slope-evaluations
+  rdf:type skos:Collection ;
+  dct:description "Means of evaluation of slope" ;
+  ui:isMemberOf lf:slope ;
+  rdfs:label "Means of evaluation of slope" ;
+  skos:definition "Means of evaluation of slope" ;
+  skos:member lf:slope-evaluation-A ;
+  skos:member lf:slope-evaluation-E ;
+  skos:member lf:slope-evaluation-P ;
+  skos:member lf:slope-evaluation-T ;
+.
+lf:slope-value
+  rdf:type skos:Concept ;
+  dct:description "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation." ;
+  ui:isMemberOf lf:slope ;
+  rdfs:label "Slope %" ;
+  skos:definition "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation." ;
+  skos:prefLabel "Slope %"@en ;
+.
