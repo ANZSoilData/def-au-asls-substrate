@@ -5790,14 +5790,16 @@ sp:observable-properties
   skos:member sp:cutans-abundance ;
   skos:member sp:cutans-distinctness ;
   skos:member sp:cutans-type ;
+  skos:member sp:depth-of-horizons ;
+  skos:member sp:depth-to-r-horizon ;
   skos:member sp:effervescence-of-carbonate-in-fine-earth ;
   skos:member sp:fabric ;
+  skos:member sp:field-ph ;
   skos:member sp:field-texture-mineral ;
   skos:member sp:field-texture-organic ;
   skos:member sp:horizon ;
   skos:member sp:horizon-boundary-distinctness ;
   skos:member sp:horizon-boundary-shape ;
-  skos:member sp:horizon-suffix ;
   skos:member sp:mottle-abundance ;
   skos:member sp:mottle-boundary-distinctness ;
   skos:member sp:mottle-colour ;
