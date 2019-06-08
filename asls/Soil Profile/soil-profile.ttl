@@ -2238,7 +2238,6 @@ sp:depth-of-horizons
   dct:description """The upper and lower depths, in metres, of each horizon are measured from the soil surface, excluding O horizons. O horizon depths are measured above the mineral soil surface, for example O1 0.120.10 m, O2 0.10.0 m.
 A scaled horizon diagram may be useful where horizons are irregular.""" ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/depth-of-horizons"^^xsd:anyURI ;
-  ui:topMemberOf sp: ;
   rdfs:label "Depth of Horizons" ;
   skos:definition """The upper and lower depths, in metres, of each horizon are measured from the soil surface, excluding O horizons. O horizon depths are measured above the mineral soil surface, for example O1 0.120.10 m, O2 0.10.0 m.
 A scaled horizon diagram may be useful where horizons are irregular.""" ;
@@ -2250,7 +2249,6 @@ sp:depth-to-r-horizon
   dct:description """Give depth to R horizon or strongly cemented pan in metres.
 The purpose of recording this depth is to include in the soil description those materials that may be relatively easily moved by earth-moving equipment or may be relatively easily penetrated by roots. Strong or very strong rock or pan that may require ripping or blasting to move, and/or has little or no root penetration, is excluded""" ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/depth-to-r-horizon"^^xsd:anyURI ;
-  ui:topMemberOf sp: ;
   rdfs:label "Depth to R horizon or strongly cemented pan" ;
   skos:definition """Give depth to R horizon or strongly cemented pan in metres.
 The purpose of recording this depth is to include in the soil description those materials that may be relatively easily moved by earth-moving equipment or may be relatively easily penetrated by roots. Strong or very strong rock or pan that may require ripping or blasting to move, and/or has little or no root penetration, is excluded""" ;
@@ -2398,7 +2396,6 @@ pH may be measured either:
 •	by horizons, or
 •	where horizons are thick (greater than 0.5 m) and horizon boundaries are diffuse, at selected intervals down the profile. This system gives useful data in some soils when important pH changes may occur independently of visible horizon changes, for instance the change from alkaline to strongly acid conditions in some cracking clays.""" ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-ph"^^xsd:anyURI ;
-  ui:topMemberOf sp: ;
   rdfs:label "Field pH" ;
   skos:definition """pH is determined in the field using a field pH kit based on the specifications of Raupach and Tucker (1959). Estimate to 0.5 of a unit. Portable pH meters may also be used.
 Record depth at which pH is determined, in metres.
