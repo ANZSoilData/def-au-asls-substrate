@@ -1649,15 +1649,21 @@ Hue, value and chroma of the matrix colour are recorded, for example 10YR4/2.
 Soil colours rarely match the chart colour chips perfectly. They should be matched to the chip closest in colour, or the nearest whole number in chroma where chips are not provided, for example chromas 5 and 7.
 The soil colour is measured on the surface of a freshly broken aggregate of moist soil. Moisten the soil if it is dry. Record the colour when the visible moisture film disappears from the surface of the moistened broken aggregate. The aggregate should be held as close as possible to the colour chips. Take care not to smear the broken surface, as this can give an incorrect recording of the colour of the soil matrix.
 Dry colours may also be recorded.""" ;
+  skos:member sp:colour-stat ;
+  skos:prefLabel "Colour"@en ;
+.
+sp:colour-stat
+  a skos:Collection ;
+  ui:isMemberOf sp:colour ;
+  rdfs:comment "C_MOISTURE_STAT; Moisture status for colour description" ;
+  rdfs:label "Moisture status for colour description" ;
   skos:member sp:colour-stat-D ;
   skos:member sp:colour-stat-M ;
-  skos:prefLabel "Colour"@en ;
 .
 sp:colour-stat-D
   a skos:Concept ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/colour-stat-D"^^xsd:anyURI ;
-  ui:isMemberOf sp:colour ;
-  rdfs:comment "C_MOISTURE_STAT; Moisture status for colour description" ;
+  ui:isMemberOf sp:colour-stat ;
   rdfs:label "Dry" ;
   skos:notation "D" ;
   skos:prefLabel "Dry"@en ;
@@ -1665,8 +1671,7 @@ sp:colour-stat-D
 sp:colour-stat-M
   a skos:Concept ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/colour-stat-M"^^xsd:anyURI ;
-  ui:isMemberOf sp:colour ;
-  rdfs:comment "C_MOISTURE_STAT; Moisture status for colour description" ;
+  ui:isMemberOf sp:colour-stat ;
   rdfs:label "Moist" ;
   skos:notation "M" ;
   skos:prefLabel "Moist"@en ;
@@ -1706,10 +1711,6 @@ sp:consistence
   skos:member sp:consistence-plasticity-type ;
   skos:member sp:consistence-stickiness ;
   skos:member sp:consistence-strength ;
-  skos:narrower sp:consistence-plasticity-degree ;
-  skos:narrower sp:consistence-plasticity-type ;
-  skos:narrower sp:consistence-stickiness ;
-  skos:narrower sp:consistence-strength ;
   skos:prefLabel "Consistence"@en ;
 .
 sp:consistence-plasticity-degree
@@ -1720,7 +1721,6 @@ sp:consistence-plasticity-degree
   ui:isMemberOf sp:consistence ;
   rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Plasticity Degree" ;
-  skos:broader sp:consistence ;
   skos:definition "Plasticity is the ability to change shape and retain the new shape after the stress is removed. The degree of plasticity given below applies only to normal plasticity. The degree of plasticity is determined at the soil moisture content used for field texturing, that is, just below sticky point. The soil is rolled between the palms of the hand and, if possible, 40 mm long rolls are formed. The rolls are dangled from the thumb and forefinger. Plasticity is determined on the behaviour of rolls of varying thickness." ;
   skos:member sp:consistence-plasticity-degree-0 ;
   skos:member sp:consistence-plasticity-degree-1 ;
@@ -1784,7 +1784,6 @@ sp:consistence-plasticity-type
   ui:isMemberOf sp:consistence ;
   rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Plasticity Type" ;
-  skos:broader sp:consistence ;
   skos:definition "The type of plasticity refers to the degree to which either the consistence, field texture or both properties of a soil suggest the amount of clay-sized particles it contains (Butler 1955). It may be identified by determining two field textures: one after an initial 1 to 2 minute working of the soil sample, and another after a prolonged 10 minute kneading. The change in field texture from the initial to the prolonged working of the soil sample indicates the type of plasticity." ;
   skos:member sp:consistence-plasticity-type-N ;
   skos:member sp:consistence-plasticity-type-S ;
@@ -1844,7 +1843,6 @@ sp:consistence-stickiness
   ui:isMemberOf sp:consistence ;
   rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Stickiness" ;
-  skos:broader sp:consistence ;
   skos:definition "Stickiness is determined on wet soil by pressing the wet sample between thumb and forefinger and then observing the adherence of the soil to the fingers." ;
   skos:member sp:consistence-stickiness-0 ;
   skos:member sp:consistence-stickiness-1 ;
@@ -1912,7 +1910,6 @@ Forces 0 to 5 are equivalent to the following dry consistence classes in the ‘
   ui:isMemberOf sp:consistence ;
   rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Strength" ;
-  skos:broader sp:consistence ;
   skos:definition """Strength of soil is the resistance to breaking or deformation. Strength is determined by the force just sufficient to break or deform a 20 mm diameter piece of soil when a compressive shearing force is applied between thumb and forefinger. The 20 mm piece of soil may be a ped, part of a ped, a compound ped or a fragment.
 
 Forces 0 to 5 are equivalent to the following dry consistence classes in the ‘USDA Soil Survey Manual’ (Soil Survey Staff 1951):
@@ -2236,7 +2233,8 @@ sp:cutans-type-Z
   skos:prefLabel "Zero or no cutans"@en ;
 .
 sp:depth-of-horizons
-  a skos:Collection ;
+  a skos:Concept ;
+  a sosa:ObservableProperty ;
   dct:description """The upper and lower depths, in metres, of each horizon are measured from the soil surface, excluding O horizons. O horizon depths are measured above the mineral soil surface, for example O1 0.120.10 m, O2 0.10.0 m.
 A scaled horizon diagram may be useful where horizons are irregular.""" ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/depth-of-horizons"^^xsd:anyURI ;
@@ -2247,7 +2245,7 @@ A scaled horizon diagram may be useful where horizons are irregular.""" ;
   skos:prefLabel "Depth of Horizons"@en ;
 .
 sp:depth-to-r-horizon
-  a skos:Collection ;
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   dct:description """Give depth to R horizon or strongly cemented pan in metres.
 The purpose of recording this depth is to include in the soil description those materials that may be relatively easily moved by earth-moving equipment or may be relatively easily penetrated by roots. Strong or very strong rock or pan that may require ripping or blasting to move, and/or has little or no root penetration, is excluded""" ;
@@ -2392,7 +2390,7 @@ sp:fabric-S
   skos:prefLabel "Smooth-ped"@en ;
 .
 sp:field-ph
-  a skos:Collection ;
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   dct:description """pH is determined in the field using a field pH kit based on the specifications of Raupach and Tucker (1959). Estimate to 0.5 of a unit. Portable pH meters may also be used.
 Record depth at which pH is determined, in metres.
@@ -4672,7 +4670,7 @@ sp:field-texture-mineral
   dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure16.png\" /></p>" ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-mineral"^^xsd:anyURI ;
   ui:isMemberOf sp:field-textures ;
-  rdfs:label "Mineral field texture grade" ;
+  rdfs:label "Mineral soils field texture grade" ;
   skos:member sp:field-texture-CL ;
   skos:member sp:field-texture-CLS ;
   skos:member sp:field-texture-CS ;
@@ -4688,6 +4686,7 @@ sp:field-texture-mineral
   skos:member sp:field-texture-SL ;
   skos:member sp:field-texture-ZCL ;
   skos:member sp:field-texture-ZL ;
+  skos:prefLabel "Mineral soils field texture grade"@en ;
 .
 sp:field-texture-organic
   a skos:Collection ;
@@ -4695,7 +4694,7 @@ sp:field-texture-organic
   dct:description "Organic soils do not have textural grades, as soil texture is determined by the size of mineral particles finer than 2 mm (NCST). In a sense, organic soils do have a texture related to the plant materials from which they formed and the degree of decomposition, exposure and drying. These field texture names may be used to characterise materials that on field examination are considered to be clearly dominated by organic matter. Peats may be assessed by examining the degree of decomposition and distinctness of plant remains. This work is adapted from Soil Survey Staff (1975) and Avery (1980)." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-organic"^^xsd:anyURI ;
   ui:isMemberOf sp:field-textures ;
-  rdfs:label "Organic field texture" ;
+  rdfs:label "Organic soils field texture" ;
   skos:definition "Organic soils do not have textural grades, as soil texture is determined by the size of mineral particles finer than 2 mm (NCST). In a sense, organic soils do have a texture related to the plant materials from which they formed and the degree of decomposition, exposure and drying. These field texture names may be used to characterise materials that on field examination are considered to be clearly dominated by organic matter. Peats may be assessed by examining the degree of decomposition and distinctness of plant remains. This work is adapted from Soil Survey Staff (1975) and Avery (1980)." ;
   skos:member sp:field-texture-AP ;
   skos:member sp:field-texture-CP ;
@@ -4704,6 +4703,7 @@ sp:field-texture-organic
   skos:member sp:field-texture-IP ;
   skos:member sp:field-texture-LP ;
   skos:member sp:field-texture-SP ;
+  skos:prefLabel "Organic soils field texture"@en ;
 .
 sp:field-textures
   a skos:Collection ;
@@ -4991,7 +4991,7 @@ sp:horizon-boundary-shape-W
   skos:prefLabel "Wavy"@en ;
 .
 sp:horizon-prefix
-  a skos:Collection ;
+  a skos:Concept ;
   dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure13.png\" /></p>" ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizon-prefix"^^xsd:anyURI ;
   ui:isMemberOf sp:horizon ;
@@ -5003,7 +5003,6 @@ Where lithologic discontinuities are suspected in the profile but there is no cl
 .
 sp:horizon-suffix
   a skos:Collection ;
-  a sosa:ObservableProperty ;
   dct:description "The horizon's alphabetic suffix is used to further define the horizon. It always comes after the numeric subdivision except for suffix p, where the number always follows the letter (e.g. Ap2)." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizon-suffix"^^xsd:anyURI ;
   ui:isMemberOf sp:horizon ;
@@ -5231,58 +5230,58 @@ sp:horizons-A
   dct:description "These are horizons either consisting of one or more surface mineral horizons with some organic accumulation and usually darker in colour than the underlying horizons, or consisting of surface and subsurface horizons that are lighter in colour but have a lower content of silicate clay and/or sesquioxides than the underlying horizons." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizons-A"^^xsd:anyURI ;
   ui:isMemberOf sp:horizon ;
-  rdfs:label "A Horizons" ;
+  rdfs:label "A horizons" ;
   skos:definition "These are horizons either consisting of one or more surface mineral horizons with some organic accumulation and usually darker in colour than the underlying horizons, or consisting of surface and subsurface horizons that are lighter in colour but have a lower content of silicate clay and/or sesquioxides than the underlying horizons." ;
   skos:narrower sp:horizon-A1 ;
   skos:narrower sp:horizon-A2 ;
   skos:narrower sp:horizon-A3 ;
   skos:notation "A" ;
-  skos:prefLabel "A Horizons"@en ;
+  skos:prefLabel "A horizons"@en ;
 .
 sp:horizons-B
   a skos:Concept ;
   dct:description "These are horizons consisting of one or more mineral soil layers characterised by one or more of the following: a concentration of silicate clay, iron, aluminium, organic material or several of these; a structure and/or consistence unlike that of the A horizons above or of any horizons immediately below; stronger colours, usually expressed as higher chroma and/or redder hue, than those of the A horizons above or those of the horizons below." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizons-B"^^xsd:anyURI ;
   ui:isMemberOf sp:horizon ;
-  rdfs:label "B Horizons" ;
+  rdfs:label "B horizons" ;
   skos:definition "These are horizons consisting of one or more mineral soil layers characterised by one or more of the following: a concentration of silicate clay, iron, aluminium, organic material or several of these; a structure and/or consistence unlike that of the A horizons above or of any horizons immediately below; stronger colours, usually expressed as higher chroma and/or redder hue, than those of the A horizons above or those of the horizons below." ;
   skos:narrower sp:horizon-B1 ;
   skos:narrower sp:horizon-B2 ;
   skos:narrower sp:horizon-B3 ;
   skos:notation "B" ;
-  skos:prefLabel "B Horizons"@en ;
+  skos:prefLabel "B horizons"@en ;
 .
 sp:horizons-C
   a skos:Concept ;
   dct:description "These are layers below the solum (AB profile) of consolidated or unconsolidated material, usually partially weathered, little affected by pedogenic processes, and either like or unlike the material from which the solum presumably formed. The C horizon lacks properties characteristic of O, P, A, B or D horizons. It is recognised by its lack of pedological development and/or the presence of geologic organisation frequently expressed as sedimentary laminae or as ghost rock structure as in saprolite. C horizons include consolidated rock and sediments that, when moist, can be dug with hand tools. Rock strength is generally weak or weaker. Because of their nature, C horizons may alternatively be described as substrate." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizons-C"^^xsd:anyURI ;
   ui:isMemberOf sp:horizon ;
-  rdfs:label "C Horizons" ;
+  rdfs:label "C horizons" ;
   skos:definition "These are layers below the solum (AB profile) of consolidated or unconsolidated material, usually partially weathered, little affected by pedogenic processes, and either like or unlike the material from which the solum presumably formed. The C horizon lacks properties characteristic of O, P, A, B or D horizons. It is recognised by its lack of pedological development and/or the presence of geologic organisation frequently expressed as sedimentary laminae or as ghost rock structure as in saprolite. C horizons include consolidated rock and sediments that, when moist, can be dug with hand tools. Rock strength is generally weak or weaker. Because of their nature, C horizons may alternatively be described as substrate." ;
   skos:notation "C" ;
-  skos:prefLabel "C Horizons"@en ;
+  skos:prefLabel "C horizons"@en ;
 .
 sp:horizons-D
   a skos:Concept ;
   dct:description "These are considered to be any soil material below the solum that is unlike the solum in its general character, is not C horizon, and cannot be given reliable horizon designation as with ‘Buried soils’ or ‘Lithologic discontinuities’. Thus a D horizon may be recognised by the contrast in pedologic organisation between it and the overlying horizons." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizons-D"^^xsd:anyURI ;
   ui:isMemberOf sp:horizon ;
-  rdfs:label "D Horizons" ;
+  rdfs:label "D horizons" ;
   skos:definition "These are considered to be any soil material below the solum that is unlike the solum in its general character, is not C horizon, and cannot be given reliable horizon designation as with ‘Buried soils’ or ‘Lithologic discontinuities’. Thus a D horizon may be recognised by the contrast in pedologic organisation between it and the overlying horizons." ;
   skos:notation "D" ;
-  skos:prefLabel "D Horizons"@en ;
+  skos:prefLabel "D horizons"@en ;
 .
 sp:horizons-O
   a skos:Concept ;
   dct:description "These are horizons dominated by organic materials in varying stages of decomposition that have accumulated on the mineral soil surface. They are usually divided into O1 and O2 horizons." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizons-O"^^xsd:anyURI ;
   ui:isMemberOf sp:horizon ;
-  rdfs:label "O Horizons" ;
+  rdfs:label "O horizons" ;
   skos:definition "These are horizons dominated by organic materials in varying stages of decomposition that have accumulated on the mineral soil surface. They are usually divided into O1 and O2 horizons." ;
   skos:narrower sp:horizon-O1 ;
   skos:narrower sp:horizon-O2 ;
   skos:notation "O" ;
-  skos:prefLabel "O Horizons"@en ;
+  skos:prefLabel "O horizons"@en ;
 .
 sp:horizons-P
   a skos:Concept ;
@@ -5290,22 +5289,22 @@ sp:horizons-P
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizons-P"^^xsd:anyURI ;
   ui:isMemberOf sp:horizon ;
   rdfs:comment "When such horizons are buried, they may be designated in a manner similar to designations for buried mineral soils, for example 2P1, 3P2, etc." ;
-  rdfs:label "P Horizons" ;
+  rdfs:label "P horizons" ;
   skos:definition "These are horizons dominated by organic materials in various stages of decomposition that have accumulated either under water or in conditions of excessive wetness. They have long been known as peat. The organic material consists of the remains of plants that have been growing in place." ;
   skos:narrower sp:horizon-P1 ;
   skos:narrower sp:horizon-P2 ;
   skos:notation "P" ;
-  skos:prefLabel "P Horizons"@en ;
+  skos:prefLabel "P horizons"@en ;
 .
 sp:horizons-R
   a skos:Concept ;
   dct:description "These horizons consist of continuous masses (not boulders) of moderately strong to very strong rock (excluding pans) such as bedrock. R horizons may have cracks but these are few enough and/or fine enough that few roots penetrate and there is no significant displacement of rock. It is usually too strong to dig with hand tools, even when moist." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizons-R"^^xsd:anyURI ;
   ui:isMemberOf sp:horizon ;
-  rdfs:label "R Horizons" ;
+  rdfs:label "R horizons" ;
   skos:definition "These horizons consist of continuous masses (not boulders) of moderately strong to very strong rock (excluding pans) such as bedrock. R horizons may have cracks but these are few enough and/or fine enough that few roots penetrate and there is no significant displacement of rock. It is usually too strong to dig with hand tools, even when moist." ;
   skos:notation "R" ;
-  skos:prefLabel "R Horizons"@en ;
+  skos:prefLabel "R horizons"@en ;
 .
 sp:horizons-bleached
   a skos:Concept ;
@@ -5339,7 +5338,7 @@ Sporadically bleached: bleach occurs:
   skos:prefLabel "Bleached horizons"@en ;
 .
 sp:horizons-subdivision
-  a skos:Collection ;
+  a skos:Concept ;
   dct:description """All horizon subdivisions are numbered consecutively from the top of each horizon downward, as in A11, A12, A2, B21, B22, B23. The numeric suffix always precedes the alphabetic suffix except with the alphabetic suffix ‘p’ where the number always follows the letter.
 The above horizon nomenclature will cover most soils, but there will be instances where there are buried soils (pedologic discontinuities) (Figure 14) and also where a profile has formed on what are obviously different parent materials (lithologic discontinuities) (Figure 13). Where there are buried soils and it is not possible to identify reliably the horizon as A or B, then these are D horizons, for example Profile E, Figure 13.
 """ ;
@@ -5474,12 +5473,12 @@ sp:mottle-boundary-S
 sp:mottle-boundary-distinctness
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "Mottle boundary distinctness" ;
+  dct:description "Mottle distinctness of boundaries" ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-boundary-distinctness"^^xsd:anyURI ;
   ui:isMemberOf sp:mottles-and-other-colour-patterns ;
   rdfs:comment "C_MOTT_BOUN_DISTINCT" ;
-  rdfs:label "Mottle boundary distinctness" ;
-  skos:definition "Mottle boundary distinctness" ;
+  rdfs:label "Mottle distinctness of boundaries" ;
+  skos:definition "Mottle distinctness of boundaries" ;
   skos:member sp:mottle-boundary-C ;
   skos:member sp:mottle-boundary-D ;
   skos:member sp:mottle-boundary-S ;
@@ -6949,7 +6948,7 @@ sp:soil-water-drainage
   a sosa:ObservableProperty ;
   dct:description "Drainage is a useful term to summarise local soil wetness conditions, that is, it provides a statement about soil and site drainage likely to occur in most years. It is affected by a number of attributes, both internal and external, that may act separately or together. Internal attributes include soil structure, texture, porosity, hydraulic conductivity, and water-holding capacity, while external attributes are source and quality of water, evapotranspiration, gradient and length of slope, and position in the landscape." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-drainage"^^xsd:anyURI ;
-  ui:isMemberOf sp:soil-water-regimes ;
+  ui:isMemberOf sp:soil-water-regime ;
   rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Drainage" ;
   skos:definition "Drainage is a useful term to summarise local soil wetness conditions, that is, it provides a statement about soil and site drainage likely to occur in most years. It is affected by a number of attributes, both internal and external, that may act separately or together. Internal attributes include soil structure, texture, porosity, hydraulic conductivity, and water-holding capacity, while external attributes are source and quality of water, evapotranspiration, gradient and length of slope, and position in the landscape." ;
@@ -7032,7 +7031,7 @@ sp:soil-water-permeability
   a sosa:ObservableProperty ;
   dct:description "Permeability is independent of climate and drainage, and – as applied to a soil – is controlled by the potential to transmit water (saturated hydraulic conductivity, Ks) of the least permeable layer in the soil. Therefore it is inferred from attributes of the soil such as structure, texture, porosity, cracks and shrink–swell properties. The rate of transmission of water in the profile is based on the assumption that loss by evapotranspiration is minimal. The Ks ranges are compatible with those of Nowland in Canada, as reported by McKeague et al. (1982)." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-permeability"^^xsd:anyURI ;
-  ui:isMemberOf sp:soil-water-regimes ;
+  ui:isMemberOf sp:soil-water-regime ;
   rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Permeability" ;
   skos:definition "Permeability is independent of climate and drainage, and – as applied to a soil – is controlled by the potential to transmit water (saturated hydraulic conductivity, Ks) of the least permeable layer in the soil. Therefore it is inferred from attributes of the soil such as structure, texture, porosity, cracks and shrink–swell properties. The rate of transmission of water in the profile is based on the assumption that loss by evapotranspiration is minimal. The Ks ranges are compatible with those of Nowland in Canada, as reported by McKeague et al. (1982)." ;
@@ -7102,11 +7101,11 @@ Drainage time: hours""" ;
   skos:notation "4" ;
   skos:prefLabel "Highly permeable"@en ;
 .
-sp:soil-water-regimes
+sp:soil-water-regime
   a skos:Collection ;
   dct:description """Traditional approaches to soil drainage do not adequately differentiate between hydrological setting and permeability of the material of the profile. For example, a very permeable, coarse-textured soil occurring in a wet depression would have to be classed as very poorly drained. Hence there is a need to consider permeability, which refers to the potential of a soil to transmit water internally, and drainage, which refers to the rapidity and extent of water removal from the soil profile or site. Both these aspects of internal drainage may be difficult to assess in the field, and cannot be based solely on profile morphology. Mottling may, but not always, reflect drainage status, since mottling may be a relict feature. Vegetation and topography may be useful guides.
 These concepts of permeability and drainage are largely based on Canada Soil Survey Committee (1978).""" ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-regimes"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-regime"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
   rdfs:label "Soil water regime" ;
   skos:definition """Traditional approaches to soil drainage do not adequately differentiate between hydrological setting and permeability of the material of the profile. For example, a very permeable, coarse-textured soil occurring in a wet depression would have to be classed as very poorly drained. Hence there is a need to consider permeability, which refers to the potential of a soil to transmit water internally, and drainage, which refers to the rapidity and extent of water removal from the soil profile or site. Both these aspects of internal drainage may be difficult to assess in the field, and cannot be based solely on profile morphology. Mottling may, but not always, reflect drainage status, since mottling may be a relict feature. Vegetation and topography may be useful guides.
@@ -7227,12 +7226,30 @@ Clay loams, clays: ball leaves wet outline on hand when squeezed, or is wetter. 
   skos:notation "W" ;
   skos:prefLabel "Wet"@en ;
 .
+sp:structure
+  a skos:Collection ;
+  dc:description """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
+Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature.""" ;
+  dct:description """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
+Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature.""" ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure"^^xsd:anyURI ;
+  ui:topMemberOf sp: ;
+  rdfs:label "Structure" ;
+  skos:definition """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
+Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature.""" ;
+  skos:member sp:structure-artificial ;
+  skos:member sp:structure-pedality-compound ;
+  skos:member sp:structure-pedality-grade ;
+  skos:member sp:structure-pedality-size ;
+  skos:member sp:structure-pedality-type ;
+  skos:prefLabel "Structure"@en ;
+.
 sp:structure-artificial
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dct:description "Cultivated horizons (Ap horizons) often consist of artificial aggregates formed by cultivation or work being done on the soil. The distinction between artificial aggregates and peds can be difficult. In cultivated horizons, where the pedologist is confident the aggregates are natural peds they should be recorded as such. If the pedologist is doubtful, or the aggregates are obviously artificial, they should be recorded as clods or fragments." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-artificial"^^xsd:anyURI ;
-  ui:isMemberOf sp:structures ;
+  ui:isMemberOf sp:structure ;
   rdfs:label "Artificial aggregates" ;
   skos:definition "Cultivated horizons (Ap horizons) often consist of artificial aggregates formed by cultivation or work being done on the soil. The distinction between artificial aggregates and peds can be difficult. In cultivated horizons, where the pedologist is confident the aggregates are natural peds they should be recorded as such. If the pedologist is doubtful, or the aggregates are obviously artificial, they should be recorded as clods or fragments." ;
   skos:member sp:structure-artificial-CL ;
@@ -7269,7 +7286,7 @@ The order of peds and relationship of one to the other is important and may be d
 2	Next size peds, parting to
 3	Next size peds, ... and further, if required, to the primary ped.""" ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-compound"^^xsd:anyURI ;
-  ui:isMemberOf sp:structures ;
+  ui:isMemberOf sp:structure ;
   rdfs:label "Compound pedality" ;
   skos:definition """Compound pedality occurs where large peds part along natural planes of weakness to form smaller peds, which may again part to smaller peds, and so on to the smallest or primary peds.
 Primary peds are the simplest peds occurring in soil material; they cannot be divided into smaller peds, but may be packed together to form compound peds of a higher level of organisation (Brewer 1964).
@@ -7285,7 +7302,7 @@ sp:structure-pedality-grade
   a sosa:ObservableProperty ;
   dct:description "Grade of pedality is the degree of development and distinctness of peds. In virtually all material that has structure, the surface of individual peds will differ in some way from the interior of peds. The degree of development expresses the relative difference between the strength of cohesion within peds and the strength of adhesion between adjacent peds. Determination of grade of structure in the field depends on the proportion of peds that hold together as entire peds when displaced and also on the ease with which the soil separates into discrete peds. Grade of pedality varies with the soil water status. It is important to record the soil water status of the described profile, and it is desirable that the grade of pedality be described at the soil water status most common for the horizon." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-grade"^^xsd:anyURI ;
-  ui:isMemberOf sp:structures ;
+  ui:isMemberOf sp:structure ;
   rdfs:comment "C_STR_PED_GRADE" ;
   rdfs:label "Grade of pedality" ;
   skos:definition "Grade of pedality is the degree of development and distinctness of peds. In virtually all material that has structure, the surface of individual peds will differ in some way from the interior of peds. The degree of development expresses the relative difference between the strength of cohesion within peds and the strength of adhesion between adjacent peds. Determination of grade of structure in the field depends on the proportion of peds that hold together as entire peds when displaced and also on the ease with which the soil separates into discrete peds. Grade of pedality varies with the soil water status. It is important to record the soil water status of the described profile, and it is desirable that the grade of pedality be described at the soil water status most common for the horizon." ;
@@ -7358,7 +7375,7 @@ sp:structure-pedality-size
   a sosa:ObservableProperty ;
   dct:description "The average least dimension of peds is used to determine the class interval. Use figure 17. The least dimension is the vertical dimension for platy structure; the horizontal dimension for prismatic, columnar, blocky and polyhedral peds; the maximum separation of convex faces for lenticular peds; and the diameter for granular peds." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-size"^^xsd:anyURI ;
-  ui:isMemberOf sp:structures ;
+  ui:isMemberOf sp:structure ;
   rdfs:comment "N_STR_PED_SIZE" ;
   rdfs:label "Size of peds" ;
   skos:definition "The average least dimension of peds is used to determine the class interval. Use figure 17. The least dimension is the vertical dimension for platy structure; the horizontal dimension for prismatic, columnar, blocky and polyhedral peds; the maximum separation of convex faces for lenticular peds; and the diameter for granular peds." ;
@@ -7477,7 +7494,7 @@ sp:structure-pedality-type
   a sosa:ObservableProperty ;
   dct:description "The types of structure are illustrated in diagrammatic form. See figure 17." ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-type"^^xsd:anyURI ;
-  ui:isMemberOf sp:structures ;
+  ui:isMemberOf sp:structure ;
   rdfs:comment "C_STR_PED_TYPE" ;
   rdfs:label "Type of pedality" ;
   skos:definition "The types of structure are illustrated in diagrammatic form. See figure 17." ;
@@ -7581,24 +7598,6 @@ sp:structure-pedality-type-SB
   skos:definition "soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded.	Subangular blocky	Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded." ;
   skos:notation "SB" ;
   skos:prefLabel "Subangular blocky"@en ;
-.
-sp:structures
-  a skos:Collection ;
-  dc:description """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
-Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature.""" ;
-  dct:description """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
-Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature.""" ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structures"^^xsd:anyURI ;
-  ui:topMemberOf sp: ;
-  rdfs:label "Structure" ;
-  skos:definition """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
-Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature.""" ;
-  skos:member sp:structure-artificial ;
-  skos:member sp:structure-pedality-compound ;
-  skos:member sp:structure-pedality-grade ;
-  skos:member sp:structure-pedality-size ;
-  skos:member sp:structure-pedality-type ;
-  skos:prefLabel "Structure"@en ;
 .
 sp:surfacecondition-C
   a skos:Concept ;
@@ -8011,6 +8010,7 @@ sp:voids-macropores-diameter-4
   skos:prefLabel "Coarse"@en ;
 .
 sp:voids-micropores
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   dct:description "voids that are approximately circular in cross-section and less than 0.075 mm diameter" ;
   ui:isMemberOf sp:voids ;
