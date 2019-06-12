@@ -105,7 +105,7 @@ sp:coarse-fragments-abundance-0
   rdfs:label "No coarse fragments" ;
   owl:sameAs sp:coarse-fragments-abundance-0 ;
   skos:definition "0%" ;
-  skos:notation "0" ;
+  skos:notation "0"^^xsd:string ;
   skos:prefLabel "No coarse fragments"@en ;
 .
 sp:coarse-fragments-abundance-1
@@ -117,7 +117,7 @@ sp:coarse-fragments-abundance-1
   rdfs:label "Very slightly or very few, for example very slightly fine gravelly; very few small pebbles" ;
   owl:sameAs sp:coarse-fragments-abundance-1 ;
   skos:definition "<2%" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Very slightly or very few, for example very slightly fine gravelly; very few small pebbles"@en ;
 .
 sp:coarse-fragments-abundance-2
@@ -129,7 +129,7 @@ sp:coarse-fragments-abundance-2
   rdfs:label "Slightly or few, for example slightly stony; few stones" ;
   owl:sameAs sp:coarse-fragments-abundance-2 ;
   skos:definition "2-10%" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Slightly or few, for example slightly stony; few stones"@en ;
 .
 sp:coarse-fragments-abundance-3
@@ -141,7 +141,7 @@ sp:coarse-fragments-abundance-3
   rdfs:label "No qualifier or common, for example medium gravelly; stony, common medium pebbles; common stones" ;
   owl:sameAs sp:coarse-fragments-abundance-3 ;
   skos:definition "10-20%" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "No qualifier or common, for example medium gravelly; stony, common medium pebbles; common stones"@en ;
 .
 sp:coarse-fragments-abundance-4
@@ -153,7 +153,7 @@ sp:coarse-fragments-abundance-4
   rdfs:label "Moderately or many" ;
   owl:sameAs sp:coarse-fragments-abundance-4 ;
   skos:definition "20-50%" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Moderately or many"@en ;
 .
 sp:coarse-fragments-abundance-5
@@ -165,7 +165,7 @@ sp:coarse-fragments-abundance-5
   rdfs:label "Very or abundant" ;
   owl:sameAs sp:coarse-fragments-abundance-5 ;
   skos:definition "50-90%" ;
-  skos:notation "5" ;
+  skos:notation "5"^^xsd:string ;
   skos:prefLabel "Very or abundant"@en ;
 .
 sp:coarse-fragments-abundance-6
@@ -177,7 +177,7 @@ sp:coarse-fragments-abundance-6
   rdfs:label "Extremely or very abundant" ;
   owl:sameAs sp:coarse-fragments-abundance-6 ;
   skos:definition ">90%" ;
-  skos:notation "6" ;
+  skos:notation "6"^^xsd:string ;
   skos:prefLabel "Extremely or very abundant"@en ;
 .
 sp:coarse-fragments-distribution
@@ -205,7 +205,7 @@ sp:coarse-fragments-distribution-D
   rdfs:label "Dispersed" ;
   owl:sameAs sp:coarse-fragments-distribution-D ;
   skos:definition "fragments are scattered randomly throughout the soil and may be of mixed origin." ;
-  skos:notation "D" ;
+  skos:notation "D"^^xsd:string ;
   skos:prefLabel "Dispersed"@en ;
 .
 sp:coarse-fragments-distribution-R
@@ -217,7 +217,7 @@ sp:coarse-fragments-distribution-R
   rdfs:label "Reoriented" ;
   owl:sameAs sp:coarse-fragments-distribution-R ;
   skos:definition "all fragments are remnants of the underlying bedrock but their orientation is not related to the joint or bedding planes of the bedrock." ;
-  skos:notation "R" ;
+  skos:notation "R"^^xsd:string ;
   skos:prefLabel "Reoriented"@en ;
 .
 sp:coarse-fragments-distribution-S
@@ -229,7 +229,7 @@ sp:coarse-fragments-distribution-S
   rdfs:label "Stratified" ;
   owl:sameAs sp:coarse-fragments-distribution-S ;
   skos:definition "fragments occur in bands, usually parallel with the soil surface (excluding those parallel with joint or bedding planes of the bedrock). They may include materials other than those from the underlying bedrock." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Stratified"@en ;
 .
 sp:coarse-fragments-distribution-U
@@ -241,7 +241,7 @@ sp:coarse-fragments-distribution-U
   rdfs:label "Undisturbed" ;
   owl:sameAs sp:coarse-fragments-distribution-U ;
   skos:definition "all fragments are remnants of the underlying bedrock and their orientation closely parallels that of the joint or bedding planes of the bedrock." ;
-  skos:notation "U" ;
+  skos:notation "U"^^xsd:string ;
   skos:prefLabel "Undisturbed"@en ;
 .
 sp:coarse-fragments-lithology
@@ -355,7 +355,7 @@ sp:coarse-fragments-lithology-AC
   owl:sameAs sp:coarse-fragments-lithology-AC ;
   skos:altLabel "Bauxite"@en ;
   skos:definition "Alcrete (Sedimentary rock, chemical or organic)" ;
-  skos:notation "AC" ;
+  skos:notation "AC"^^xsd:string ;
   skos:prefLabel "Alcrete"@en ;
 .
 sp:coarse-fragments-lithology-AD
@@ -367,7 +367,7 @@ sp:coarse-fragments-lithology-AD
   rdfs:label "Adamellite" ;
   owl:sameAs sp:coarse-fragments-lithology-AD ;
   skos:definition "Adamellite (Igneous rock)" ;
-  skos:notation "AD" ;
+  skos:notation "AD"^^xsd:string ;
   skos:prefLabel "Adamellite"@en ;
 .
 sp:coarse-fragments-lithology-AF
@@ -379,7 +379,7 @@ sp:coarse-fragments-lithology-AF
   rdfs:label "Ash (fine)" ;
   owl:sameAs sp:coarse-fragments-lithology-AF ;
   skos:definition "Ash (fine)  (Unconsolidated material)" ;
-  skos:notation "AF" ;
+  skos:notation "AF"^^xsd:string ;
   skos:prefLabel "Ash (fine)"@en ;
 .
 sp:coarse-fragments-lithology-AG
@@ -391,7 +391,7 @@ sp:coarse-fragments-lithology-AG
   rdfs:label "Agglomerate" ;
   owl:sameAs sp:coarse-fragments-lithology-AG ;
   skos:definition "Agglomerate (Sedimentary rock, pyroclastic)" ;
-  skos:notation "AG" ;
+  skos:notation "AG"^^xsd:string ;
   skos:prefLabel "Agglomerate"@en ;
 .
 sp:coarse-fragments-lithology-AH
@@ -403,7 +403,7 @@ sp:coarse-fragments-lithology-AH
   rdfs:label "Anhydrite" ;
   owl:sameAs sp:coarse-fragments-lithology-AH ;
   skos:definition "Anhydrite (Sedimentary rock, chemical or organic)" ;
-  skos:notation "AH" ;
+  skos:notation "AH"^^xsd:string ;
   skos:prefLabel "Anhydrite"@en ;
 .
 sp:coarse-fragments-lithology-AM
@@ -415,7 +415,7 @@ sp:coarse-fragments-lithology-AM
   rdfs:label "Amphibolite" ;
   owl:sameAs sp:coarse-fragments-lithology-AM ;
   skos:definition "Amphibolite (Metamorphic rock)" ;
-  skos:notation "AM" ;
+  skos:notation "AM"^^xsd:string ;
   skos:prefLabel "Amphibolite"@en ;
 .
 sp:coarse-fragments-lithology-AN
@@ -427,7 +427,7 @@ sp:coarse-fragments-lithology-AN
   rdfs:label "Andesite" ;
   owl:sameAs sp:coarse-fragments-lithology-AN ;
   skos:definition "Andesite (Igneous rock)" ;
-  skos:notation "AN" ;
+  skos:notation "AN"^^xsd:string ;
   skos:prefLabel "Andesite"@en ;
 .
 sp:coarse-fragments-lithology-AP
@@ -439,7 +439,7 @@ sp:coarse-fragments-lithology-AP
   rdfs:label "Aplite" ;
   owl:sameAs sp:coarse-fragments-lithology-AP ;
   skos:definition "Aplite (Igneous rock)" ;
-  skos:notation "AP" ;
+  skos:notation "AP"^^xsd:string ;
   skos:prefLabel "Aplite"@en ;
 .
 sp:coarse-fragments-lithology-AR
@@ -451,7 +451,7 @@ sp:coarse-fragments-lithology-AR
   rdfs:label "Arkose" ;
   owl:sameAs sp:coarse-fragments-lithology-AR ;
   skos:definition "Arkose (Sedimentary rock, detrital)" ;
-  skos:notation "AR" ;
+  skos:notation "AR"^^xsd:string ;
   skos:prefLabel "Arkose"@en ;
 .
 sp:coarse-fragments-lithology-AS
@@ -463,7 +463,7 @@ sp:coarse-fragments-lithology-AS
   rdfs:label "Ash (sandy)" ;
   owl:sameAs sp:coarse-fragments-lithology-AS ;
   skos:definition "Ash (sandy) (Unconsolidated material)" ;
-  skos:notation "AS" ;
+  skos:notation "AS"^^xsd:string ;
   skos:prefLabel "Ash (sandy)"@en ;
 .
 sp:coarse-fragments-lithology-BA
@@ -475,7 +475,7 @@ sp:coarse-fragments-lithology-BA
   rdfs:label "Basalt" ;
   owl:sameAs sp:coarse-fragments-lithology-BA ;
   skos:definition "Basalt (Igneous rock)" ;
-  skos:notation "BA" ;
+  skos:notation "BA"^^xsd:string ;
   skos:prefLabel "Basalt"@en ;
 .
 sp:coarse-fragments-lithology-BB
@@ -487,7 +487,7 @@ sp:coarse-fragments-lithology-BB
   rdfs:label "Bombs" ;
   owl:sameAs sp:coarse-fragments-lithology-BB ;
   skos:definition "Bombs (volcanic) (Unconsolidated material)" ;
-  skos:notation "BB" ;
+  skos:notation "BB"^^xsd:string ;
   skos:prefLabel "Bombs"@en ;
 .
 sp:coarse-fragments-lithology-BR
@@ -499,7 +499,7 @@ sp:coarse-fragments-lithology-BR
   rdfs:label "Breccia" ;
   owl:sameAs sp:coarse-fragments-lithology-BR ;
   skos:definition "Breccia (Sedimentary rock, detrital)" ;
-  skos:notation "BR" ;
+  skos:notation "BR"^^xsd:string ;
   skos:prefLabel "Breccia"@en ;
 .
 sp:coarse-fragments-lithology-C
@@ -511,7 +511,7 @@ sp:coarse-fragments-lithology-C
   rdfs:label "Clay" ;
   owl:sameAs sp:coarse-fragments-lithology-C ;
   skos:definition "Clay (Unconsolidated material)" ;
-  skos:notation "C" ;
+  skos:notation "C"^^xsd:string ;
   skos:prefLabel "Clay"@en ;
 .
 sp:coarse-fragments-lithology-CC
@@ -523,7 +523,7 @@ sp:coarse-fragments-lithology-CC
   rdfs:label "Charcoal" ;
   owl:sameAs sp:coarse-fragments-lithology-CC ;
   skos:definition "Charcoal" ;
-  skos:notation "CC" ;
+  skos:notation "CC"^^xsd:string ;
   skos:prefLabel "Charcoal"@en ;
 .
 sp:coarse-fragments-lithology-CG
@@ -535,7 +535,7 @@ sp:coarse-fragments-lithology-CG
   rdfs:label "Conglomerate" ;
   owl:sameAs sp:coarse-fragments-lithology-CG ;
   skos:definition "Conglomerate (Sedimentary rock, detrital)" ;
-  skos:notation "CG" ;
+  skos:notation "CG"^^xsd:string ;
   skos:prefLabel "Conglomerate"@en ;
 .
 sp:coarse-fragments-lithology-CH
@@ -547,7 +547,7 @@ sp:coarse-fragments-lithology-CH
   rdfs:label "Chert" ;
   owl:sameAs sp:coarse-fragments-lithology-CH ;
   skos:definition "Chert (Sedimentary rock, chemical or organic)" ;
-  skos:notation "CH" ;
+  skos:notation "CH"^^xsd:string ;
   skos:prefLabel "Chert"@en ;
 .
 sp:coarse-fragments-lithology-CO
@@ -559,7 +559,7 @@ sp:coarse-fragments-lithology-CO
   rdfs:label "Coal" ;
   owl:sameAs sp:coarse-fragments-lithology-CO ;
   skos:definition "Coal (Sedimentary rock, chemical or organic)" ;
-  skos:notation "CO" ;
+  skos:notation "CO"^^xsd:string ;
   skos:prefLabel "Coal"@en ;
 .
 sp:coarse-fragments-lithology-CU
@@ -571,7 +571,7 @@ sp:coarse-fragments-lithology-CU
   rdfs:label "Consolidated rock" ;
   owl:sameAs sp:coarse-fragments-lithology-CU ;
   skos:definition "Consolidated rock (Unidentified)" ;
-  skos:notation "CU" ;
+  skos:notation "CU"^^xsd:string ;
   skos:prefLabel "Consolidated rock"@en ;
 .
 sp:coarse-fragments-lithology-DI
@@ -583,7 +583,7 @@ sp:coarse-fragments-lithology-DI
   rdfs:label "Diorite" ;
   owl:sameAs sp:coarse-fragments-lithology-DI ;
   skos:definition "Diorite (Igneous rock)" ;
-  skos:notation "DI" ;
+  skos:notation "DI"^^xsd:string ;
   skos:prefLabel "Diorite"@en ;
 .
 sp:coarse-fragments-lithology-DM
@@ -595,7 +595,7 @@ sp:coarse-fragments-lithology-DM
   rdfs:label "Dolomite" ;
   owl:sameAs sp:coarse-fragments-lithology-DM ;
   skos:definition "Dolomite (Sedimentary rock, detrital)" ;
-  skos:notation "DM" ;
+  skos:notation "DM"^^xsd:string ;
   skos:prefLabel "Dolomite"@en ;
 .
 sp:coarse-fragments-lithology-DR
@@ -607,7 +607,7 @@ sp:coarse-fragments-lithology-DR
   rdfs:label "Dolerite" ;
   owl:sameAs sp:coarse-fragments-lithology-DR ;
   skos:definition "Dolerite (Igneous rock)" ;
-  skos:notation "DR" ;
+  skos:notation "DR"^^xsd:string ;
   skos:prefLabel "Dolerite"@en ;
 .
 sp:coarse-fragments-lithology-FC
@@ -619,7 +619,7 @@ sp:coarse-fragments-lithology-FC
   rdfs:label "Ferricrete" ;
   owl:sameAs sp:coarse-fragments-lithology-FC ;
   skos:definition "Ferricrete (Sedimentary rock, chemical or organic)" ;
-  skos:notation "FC" ;
+  skos:notation "FC"^^xsd:string ;
   skos:prefLabel "Ferricrete"@en ;
 .
 sp:coarse-fragments-lithology-GA
@@ -631,7 +631,7 @@ sp:coarse-fragments-lithology-GA
   rdfs:label "Gabbro" ;
   owl:sameAs sp:coarse-fragments-lithology-GA ;
   skos:definition "Gabbro (Igneous rock)" ;
-  skos:notation "GA" ;
+  skos:notation "GA"^^xsd:string ;
   skos:prefLabel "Gabbro"@en ;
 .
 sp:coarse-fragments-lithology-GD
@@ -643,7 +643,7 @@ sp:coarse-fragments-lithology-GD
   rdfs:label "Granodiorite" ;
   owl:sameAs sp:coarse-fragments-lithology-GD ;
   skos:definition "Granodiorite (Igneous rock)" ;
-  skos:notation "GD" ;
+  skos:notation "GD"^^xsd:string ;
   skos:prefLabel "Granodiorite"@en ;
 .
 sp:coarse-fragments-lithology-GE
@@ -655,7 +655,7 @@ sp:coarse-fragments-lithology-GE
   rdfs:label "Greenstone" ;
   owl:sameAs sp:coarse-fragments-lithology-GE ;
   skos:definition "Greenstone (Metamorphic rock)" ;
-  skos:notation "GE" ;
+  skos:notation "GE"^^xsd:string ;
   skos:prefLabel "Greenstone"@en ;
 .
 sp:coarse-fragments-lithology-GN
@@ -667,7 +667,7 @@ sp:coarse-fragments-lithology-GN
   rdfs:label "Granite" ;
   owl:sameAs sp:coarse-fragments-lithology-GN ;
   skos:definition "Granite (Igneous rock)" ;
-  skos:notation "GN" ;
+  skos:notation "GN"^^xsd:string ;
   skos:prefLabel "Granite"@en ;
 .
 sp:coarse-fragments-lithology-GR
@@ -679,7 +679,7 @@ sp:coarse-fragments-lithology-GR
   rdfs:label "Granulite" ;
   owl:sameAs sp:coarse-fragments-lithology-GR ;
   skos:definition "Granulite (Metamorphic rock)" ;
-  skos:notation "GR" ;
+  skos:notation "GR"^^xsd:string ;
   skos:prefLabel "Granulite"@en ;
 .
 sp:coarse-fragments-lithology-GS
@@ -691,7 +691,7 @@ sp:coarse-fragments-lithology-GS
   rdfs:label "Gneiss" ;
   owl:sameAs sp:coarse-fragments-lithology-GS ;
   skos:definition "Gneiss (Metamorphic rock)" ;
-  skos:notation "GS" ;
+  skos:notation "GS"^^xsd:string ;
   skos:prefLabel "Gneiss"@en ;
 .
 sp:coarse-fragments-lithology-GV
@@ -703,7 +703,7 @@ sp:coarse-fragments-lithology-GV
   rdfs:label "Gravel" ;
   owl:sameAs sp:coarse-fragments-lithology-GV ;
   skos:definition "Gravel (Unconsolidated material)" ;
-  skos:notation "GV" ;
+  skos:notation "GV"^^xsd:string ;
   skos:prefLabel "Gravel"@en ;
 .
 sp:coarse-fragments-lithology-GW
@@ -715,7 +715,7 @@ sp:coarse-fragments-lithology-GW
   rdfs:label "Graywacke" ;
   owl:sameAs sp:coarse-fragments-lithology-GW ;
   skos:definition "Graywacke (Sedimentary rock, detrital)" ;
-  skos:notation "GW" ;
+  skos:notation "GW"^^xsd:string ;
   skos:prefLabel "Graywacke"@en ;
 .
 sp:coarse-fragments-lithology-GY
@@ -727,7 +727,7 @@ sp:coarse-fragments-lithology-GY
   rdfs:label "Gypsum" ;
   owl:sameAs sp:coarse-fragments-lithology-GY ;
   skos:definition "Gypsum (Sedimentary rock, chemical or organic)" ;
-  skos:notation "GY" ;
+  skos:notation "GY"^^xsd:string ;
   skos:prefLabel "Gypsum"@en ;
 .
 sp:coarse-fragments-lithology-HA
@@ -739,7 +739,7 @@ sp:coarse-fragments-lithology-HA
   rdfs:label "Halite" ;
   owl:sameAs sp:coarse-fragments-lithology-HA ;
   skos:definition "Halite (Sedimentary rock, chemical or organic)" ;
-  skos:notation "HA" ;
+  skos:notation "HA"^^xsd:string ;
   skos:prefLabel "Halite"@en ;
 .
 sp:coarse-fragments-lithology-HO
@@ -751,7 +751,7 @@ sp:coarse-fragments-lithology-HO
   rdfs:label "Hornfels" ;
   owl:sameAs sp:coarse-fragments-lithology-HO ;
   skos:definition "Hornfels (Metamorphic rock)" ;
-  skos:notation "HO" ;
+  skos:notation "HO"^^xsd:string ;
   skos:prefLabel "Hornfels"@en ;
 .
 sp:coarse-fragments-lithology-IG
@@ -763,7 +763,7 @@ sp:coarse-fragments-lithology-IG
   rdfs:label "Igneous rock" ;
   owl:sameAs sp:coarse-fragments-lithology-IG ;
   skos:definition "Igneous rock (Unidentified)" ;
-  skos:notation "IG" ;
+  skos:notation "IG"^^xsd:string ;
   skos:prefLabel "Igneous rock"@en ;
 .
 sp:coarse-fragments-lithology-IS
@@ -775,7 +775,7 @@ sp:coarse-fragments-lithology-IS
   rdfs:label "Ironstone" ;
   owl:sameAs sp:coarse-fragments-lithology-IS ;
   skos:definition "Ironstone (where not considered of pedogenic origin)" ;
-  skos:notation "IS" ;
+  skos:notation "IS"^^xsd:string ;
   skos:prefLabel "Ironstone"@en ;
 .
 sp:coarse-fragments-lithology-JA
@@ -787,7 +787,7 @@ sp:coarse-fragments-lithology-JA
   rdfs:label "Jasper" ;
   owl:sameAs sp:coarse-fragments-lithology-JA ;
   skos:definition "Jasper (Sedimentary rock, chemical or organic)" ;
-  skos:notation "JA" ;
+  skos:notation "JA"^^xsd:string ;
   skos:prefLabel "Jasper"@en ;
 .
 sp:coarse-fragments-lithology-KA
@@ -799,7 +799,7 @@ sp:coarse-fragments-lithology-KA
   rdfs:label "Calcarenite" ;
   owl:sameAs sp:coarse-fragments-lithology-KA ;
   skos:definition "Calcarenite (Sedimentary rock, detrital)" ;
-  skos:notation "KA" ;
+  skos:notation "KA"^^xsd:string ;
   skos:prefLabel "Calcarenite"@en ;
 .
 sp:coarse-fragments-lithology-KC
@@ -811,7 +811,7 @@ sp:coarse-fragments-lithology-KC
   rdfs:label "Calcrete" ;
   owl:sameAs sp:coarse-fragments-lithology-KC ;
   skos:definition "Calcrete (Sedimentary rock, chemical or organic)" ;
-  skos:notation "KC" ;
+  skos:notation "KC"^^xsd:string ;
   skos:prefLabel "Calcrete"@en ;
 .
 sp:coarse-fragments-lithology-KL
@@ -823,7 +823,7 @@ sp:coarse-fragments-lithology-KL
   rdfs:label "Calcilutite" ;
   owl:sameAs sp:coarse-fragments-lithology-KL ;
   skos:definition "Calcilutite (Sedimentary rock, detrital)" ;
-  skos:notation "KL" ;
+  skos:notation "KL"^^xsd:string ;
   skos:prefLabel "Calcilutite"@en ;
 .
 sp:coarse-fragments-lithology-KM
@@ -835,7 +835,7 @@ sp:coarse-fragments-lithology-KM
   rdfs:label "Calcareous mudstone" ;
   owl:sameAs sp:coarse-fragments-lithology-KM ;
   skos:definition "Calcareous mudstone (Sedimentary rock, detrital)" ;
-  skos:notation "KM" ;
+  skos:notation "KM"^^xsd:string ;
   skos:prefLabel "Calcareous mudstone"@en ;
 .
 sp:coarse-fragments-lithology-KR
@@ -847,7 +847,7 @@ sp:coarse-fragments-lithology-KR
   rdfs:label "Calcirudite" ;
   owl:sameAs sp:coarse-fragments-lithology-KR ;
   skos:definition "Calcirudite (Sedimentary rock, detrital)" ;
-  skos:notation "KR" ;
+  skos:notation "KR"^^xsd:string ;
   skos:prefLabel "Calcirudite"@en ;
 .
 sp:coarse-fragments-lithology-KS
@@ -859,7 +859,7 @@ sp:coarse-fragments-lithology-KS
   rdfs:label "Calcareous sand" ;
   owl:sameAs sp:coarse-fragments-lithology-KS ;
   skos:definition "Calcareous sand (Unconsolidated material)" ;
-  skos:notation "KS" ;
+  skos:notation "KS"^^xsd:string ;
   skos:prefLabel "Calcareous sand"@en ;
 .
 sp:coarse-fragments-lithology-LC
@@ -871,7 +871,7 @@ sp:coarse-fragments-lithology-LC
   rdfs:label "Silcrete" ;
   owl:sameAs sp:coarse-fragments-lithology-LC ;
   skos:definition "Silcrete (Sedimentary rock, chemical or organic)" ;
-  skos:notation "LC" ;
+  skos:notation "LC"^^xsd:string ;
   skos:prefLabel "Silcrete"@en ;
 .
 sp:coarse-fragments-lithology-LI
@@ -883,7 +883,7 @@ sp:coarse-fragments-lithology-LI
   rdfs:label "Limestone" ;
   owl:sameAs sp:coarse-fragments-lithology-LI ;
   skos:definition "Limestone (Sedimentary rock, detrital)" ;
-  skos:notation "LI" ;
+  skos:notation "LI"^^xsd:string ;
   skos:prefLabel "Limestone"@en ;
 .
 sp:coarse-fragments-lithology-M
@@ -895,7 +895,7 @@ sp:coarse-fragments-lithology-M
   rdfs:label "Same as substrate material" ;
   owl:sameAs sp:coarse-fragments-lithology-M ;
   skos:definition "Lithology is same as the substrate material" ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Same as substrate material"@en ;
 .
 sp:coarse-fragments-lithology-MB
@@ -907,7 +907,7 @@ sp:coarse-fragments-lithology-MB
   rdfs:label "Marble" ;
   owl:sameAs sp:coarse-fragments-lithology-MB ;
   skos:definition "Marble (Metamorphic rock)" ;
-  skos:notation "MB" ;
+  skos:notation "MB"^^xsd:string ;
   skos:prefLabel "Marble"@en ;
 .
 sp:coarse-fragments-lithology-MD
@@ -919,7 +919,7 @@ sp:coarse-fragments-lithology-MD
   rdfs:label "Microdiorite" ;
   owl:sameAs sp:coarse-fragments-lithology-MD ;
   skos:definition "Microdiorite (Igneous rock)" ;
-  skos:notation "MD" ;
+  skos:notation "MD"^^xsd:string ;
   skos:prefLabel "Microdiorite"@en ;
 .
 sp:coarse-fragments-lithology-ME
@@ -931,7 +931,7 @@ sp:coarse-fragments-lithology-ME
   rdfs:label "Metamorphic rock" ;
   owl:sameAs sp:coarse-fragments-lithology-ME ;
   skos:definition "Metamorphic rock (Unidentified)" ;
-  skos:notation "ME" ;
+  skos:notation "ME"^^xsd:string ;
   skos:prefLabel "Metamorphic rock"@en ;
 .
 sp:coarse-fragments-lithology-MG
@@ -943,7 +943,7 @@ sp:coarse-fragments-lithology-MG
   rdfs:label "Microgranite" ;
   owl:sameAs sp:coarse-fragments-lithology-MG ;
   skos:definition "Microgranite (Igneous rock)" ;
-  skos:notation "MG" ;
+  skos:notation "MG"^^xsd:string ;
   skos:prefLabel "Microgranite"@en ;
 .
 sp:coarse-fragments-lithology-MI
@@ -955,7 +955,7 @@ sp:coarse-fragments-lithology-MI
   rdfs:label "Migmatite" ;
   owl:sameAs sp:coarse-fragments-lithology-MI ;
   skos:definition "Migmatite (Metamorphic rock)" ;
-  skos:notation "MI" ;
+  skos:notation "MI"^^xsd:string ;
   skos:prefLabel "Migmatite"@en ;
 .
 sp:coarse-fragments-lithology-ML
@@ -967,7 +967,7 @@ sp:coarse-fragments-lithology-ML
   rdfs:label "Marl" ;
   owl:sameAs sp:coarse-fragments-lithology-ML ;
   skos:definition "Marl (Unconsolidated material)" ;
-  skos:notation "ML" ;
+  skos:notation "ML"^^xsd:string ;
   skos:prefLabel "Marl"@en ;
 .
 sp:coarse-fragments-lithology-MS
@@ -979,7 +979,7 @@ sp:coarse-fragments-lithology-MS
   rdfs:label "Microsyenite" ;
   owl:sameAs sp:coarse-fragments-lithology-MS ;
   skos:definition "Microsyenite (Igneous rock)" ;
-  skos:notation "MS" ;
+  skos:notation "MS"^^xsd:string ;
   skos:prefLabel "Microsyenite"@en ;
 .
 sp:coarse-fragments-lithology-MU
@@ -991,7 +991,7 @@ sp:coarse-fragments-lithology-MU
   rdfs:label "Mudstone" ;
   owl:sameAs sp:coarse-fragments-lithology-MU ;
   skos:definition "Mudstone (Sedimentary rock, detrital)" ;
-  skos:notation "MU" ;
+  skos:notation "MU"^^xsd:string ;
   skos:prefLabel "Mudstone"@en ;
 .
 sp:coarse-fragments-lithology-MY
@@ -1003,7 +1003,7 @@ sp:coarse-fragments-lithology-MY
   rdfs:label "Mylonite" ;
   owl:sameAs sp:coarse-fragments-lithology-MY ;
   skos:definition "Mylonite (Metamorphic rock)" ;
-  skos:notation "MY" ;
+  skos:notation "MY"^^xsd:string ;
   skos:prefLabel "Mylonite"@en ;
 .
 sp:coarse-fragments-lithology-OT
@@ -1015,7 +1015,7 @@ sp:coarse-fragments-lithology-OT
   rdfs:label "Other" ;
   owl:sameAs sp:coarse-fragments-lithology-OT ;
   skos:definition "Other" ;
-  skos:notation "OT" ;
+  skos:notation "OT"^^xsd:string ;
   skos:prefLabel "Other"@en ;
 .
 sp:coarse-fragments-lithology-OW
@@ -1027,7 +1027,7 @@ sp:coarse-fragments-lithology-OW
   rdfs:label "Opalised wood" ;
   owl:sameAs sp:coarse-fragments-lithology-OW ;
   skos:definition "Opalised wood" ;
-  skos:notation "OW" ;
+  skos:notation "OW"^^xsd:string ;
   skos:prefLabel "Opalised wood"@en ;
 .
 sp:coarse-fragments-lithology-PC
@@ -1039,7 +1039,7 @@ sp:coarse-fragments-lithology-PC
   rdfs:label "Porcellanite" ;
   owl:sameAs sp:coarse-fragments-lithology-PC ;
   skos:definition "Porcellanite (Sedimentary rock, chemical or organic)" ;
-  skos:notation "PC" ;
+  skos:notation "PC"^^xsd:string ;
   skos:prefLabel "Porcellanite"@en ;
 .
 sp:coarse-fragments-lithology-PE
@@ -1051,7 +1051,7 @@ sp:coarse-fragments-lithology-PE
   rdfs:label "Peridotite" ;
   owl:sameAs sp:coarse-fragments-lithology-PE ;
   skos:definition "Peridotite (Igneous rock)" ;
-  skos:notation "PE" ;
+  skos:notation "PE"^^xsd:string ;
   skos:prefLabel "Peridotite"@en ;
 .
 sp:coarse-fragments-lithology-PG
@@ -1063,7 +1063,7 @@ sp:coarse-fragments-lithology-PG
   rdfs:label "Pegmatite" ;
   owl:sameAs sp:coarse-fragments-lithology-PG ;
   skos:definition "Pegmatite (Igneous rock)" ;
-  skos:notation "PG" ;
+  skos:notation "PG"^^xsd:string ;
   skos:prefLabel "Pegmatite"@en ;
 .
 sp:coarse-fragments-lithology-PH
@@ -1075,7 +1075,7 @@ sp:coarse-fragments-lithology-PH
   rdfs:label "Phyllite" ;
   owl:sameAs sp:coarse-fragments-lithology-PH ;
   skos:definition "Phyllite (Metamorphic rock)" ;
-  skos:notation "PH" ;
+  skos:notation "PH"^^xsd:string ;
   skos:prefLabel "Phyllite"@en ;
 .
 sp:coarse-fragments-lithology-PL
@@ -1087,7 +1087,7 @@ sp:coarse-fragments-lithology-PL
   rdfs:label "Phonolite" ;
   owl:sameAs sp:coarse-fragments-lithology-PL ;
   skos:definition "Phonolite (Igneous rock)" ;
-  skos:notation "PL" ;
+  skos:notation "PL"^^xsd:string ;
   skos:prefLabel "Phonolite"@en ;
 .
 sp:coarse-fragments-lithology-PO
@@ -1099,7 +1099,7 @@ sp:coarse-fragments-lithology-PO
   rdfs:label "Porphyry" ;
   owl:sameAs sp:coarse-fragments-lithology-PO ;
   skos:definition "Porphyry (Igneous rock)" ;
-  skos:notation "PO" ;
+  skos:notation "PO"^^xsd:string ;
   skos:prefLabel "Porphyry"@en ;
 .
 sp:coarse-fragments-lithology-PU
@@ -1111,7 +1111,7 @@ sp:coarse-fragments-lithology-PU
   rdfs:label "Pumice" ;
   owl:sameAs sp:coarse-fragments-lithology-PU ;
   skos:definition "Pumice" ;
-  skos:notation "PU" ;
+  skos:notation "PU"^^xsd:string ;
   skos:prefLabel "Pumice"@en ;
 .
 sp:coarse-fragments-lithology-PY
@@ -1123,7 +1123,7 @@ sp:coarse-fragments-lithology-PY
   rdfs:label "Pyroxenite" ;
   owl:sameAs sp:coarse-fragments-lithology-PY ;
   skos:definition "Pyroxenite (Igneous rock)" ;
-  skos:notation "PY" ;
+  skos:notation "PY"^^xsd:string ;
   skos:prefLabel "Pyroxenite"@en ;
 .
 sp:coarse-fragments-lithology-QP
@@ -1135,7 +1135,7 @@ sp:coarse-fragments-lithology-QP
   rdfs:label "Quartz porphyry" ;
   owl:sameAs sp:coarse-fragments-lithology-QP ;
   skos:definition "Quartz porphyry (Igneous rock)" ;
-  skos:notation "QP" ;
+  skos:notation "QP"^^xsd:string ;
   skos:prefLabel "Quartz porphyry"@en ;
 .
 sp:coarse-fragments-lithology-QS
@@ -1147,7 +1147,7 @@ sp:coarse-fragments-lithology-QS
   rdfs:label "Quartz sandstone" ;
   owl:sameAs sp:coarse-fragments-lithology-QS ;
   skos:definition "Quartz sandstone (Sedimentary rock, detrital)" ;
-  skos:notation "QS" ;
+  skos:notation "QS"^^xsd:string ;
   skos:prefLabel "Quartz sandstone"@en ;
 .
 sp:coarse-fragments-lithology-QU
@@ -1159,7 +1159,7 @@ sp:coarse-fragments-lithology-QU
   rdfs:label "Quartzite" ;
   owl:sameAs sp:coarse-fragments-lithology-QU ;
   skos:definition "Quartzite (Metamorphic rock)" ;
-  skos:notation "QU" ;
+  skos:notation "QU"^^xsd:string ;
   skos:prefLabel "Quartzite"@en ;
 .
 sp:coarse-fragments-lithology-QZ
@@ -1171,7 +1171,7 @@ sp:coarse-fragments-lithology-QZ
   rdfs:label "Quartz" ;
   owl:sameAs sp:coarse-fragments-lithology-QZ ;
   skos:definition "Quartz (Igneous rock)" ;
-  skos:notation "QZ" ;
+  skos:notation "QZ"^^xsd:string ;
   skos:prefLabel "Quartz"@en ;
 .
 sp:coarse-fragments-lithology-R
@@ -1183,7 +1183,7 @@ sp:coarse-fragments-lithology-R
   rdfs:label "Same as rock outcrop" ;
   owl:sameAs sp:coarse-fragments-lithology-R ;
   skos:definition "Lithology is same as the rock outcrop" ;
-  skos:notation "R" ;
+  skos:notation "R"^^xsd:string ;
   skos:prefLabel "Same as rock outcrop"@en ;
 .
 sp:coarse-fragments-lithology-RB
@@ -1195,7 +1195,7 @@ sp:coarse-fragments-lithology-RB
   rdfs:label "Red-brown hardpan" ;
   owl:sameAs sp:coarse-fragments-lithology-RB ;
   skos:definition "Red-brown hardpan (Sedimentary rock, chemical or organic)" ;
-  skos:notation "RB" ;
+  skos:notation "RB"^^xsd:string ;
   skos:prefLabel "Red-brown hardpan"@en ;
 .
 sp:coarse-fragments-lithology-RH
@@ -1207,7 +1207,7 @@ sp:coarse-fragments-lithology-RH
   rdfs:label "Rhyolite" ;
   owl:sameAs sp:coarse-fragments-lithology-RH ;
   skos:definition "Rhyolite (Igneous rock)" ;
-  skos:notation "RH" ;
+  skos:notation "RH"^^xsd:string ;
   skos:prefLabel "Rhyolite"@en ;
 .
 sp:coarse-fragments-lithology-S
@@ -1219,7 +1219,7 @@ sp:coarse-fragments-lithology-S
   rdfs:label "Sand" ;
   owl:sameAs sp:coarse-fragments-lithology-S ;
   skos:definition "Sand (Unconsolidated material)" ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Sand"@en ;
 .
 sp:coarse-fragments-lithology-SA
@@ -1231,7 +1231,7 @@ sp:coarse-fragments-lithology-SA
   rdfs:label "Sandstone" ;
   owl:sameAs sp:coarse-fragments-lithology-SA ;
   skos:definition "Sandstone (Sedimentary rock, detrital)" ;
-  skos:notation "SA" ;
+  skos:notation "SA"^^xsd:string ;
   skos:prefLabel "Sandstone"@en ;
 .
 sp:coarse-fragments-lithology-SD
@@ -1243,7 +1243,7 @@ sp:coarse-fragments-lithology-SD
   rdfs:label "Detrital sedimentary rock" ;
   owl:sameAs sp:coarse-fragments-lithology-SD ;
   skos:definition "Detrital sedimentary rock (Unidentified)" ;
-  skos:notation "SD" ;
+  skos:notation "SD"^^xsd:string ;
   skos:prefLabel "Detrital sedimentary rock"@en ;
 .
 sp:coarse-fragments-lithology-SH
@@ -1255,7 +1255,7 @@ sp:coarse-fragments-lithology-SH
   rdfs:label "Shale" ;
   owl:sameAs sp:coarse-fragments-lithology-SH ;
   skos:definition "Shale (Igneous rock)" ;
-  skos:notation "SH" ;
+  skos:notation "SH"^^xsd:string ;
   skos:prefLabel "Shale"@en ;
 .
 sp:coarse-fragments-lithology-SK
@@ -1267,7 +1267,7 @@ sp:coarse-fragments-lithology-SK
   rdfs:label "Scoria" ;
   owl:sameAs sp:coarse-fragments-lithology-SK ;
   skos:definition "Scoria (Unconsolidated material)" ;
-  skos:notation "SK" ;
+  skos:notation "SK"^^xsd:string ;
   skos:prefLabel "Scoria"@en ;
 .
 sp:coarse-fragments-lithology-SL
@@ -1279,7 +1279,7 @@ sp:coarse-fragments-lithology-SL
   rdfs:label "Slate" ;
   owl:sameAs sp:coarse-fragments-lithology-SL ;
   skos:definition "Slate (Sedimentary rock, detrital)" ;
-  skos:notation "SL" ;
+  skos:notation "SL"^^xsd:string ;
   skos:prefLabel "Slate"@en ;
 .
 sp:coarse-fragments-lithology-SR
@@ -1291,7 +1291,7 @@ sp:coarse-fragments-lithology-SR
   rdfs:label "Serpentinite" ;
   owl:sameAs sp:coarse-fragments-lithology-SR ;
   skos:definition "Serpentinite (Igneous rock)" ;
-  skos:notation "SR" ;
+  skos:notation "SR"^^xsd:string ;
   skos:prefLabel "Serpentinite"@en ;
 .
 sp:coarse-fragments-lithology-SS
@@ -1303,7 +1303,7 @@ sp:coarse-fragments-lithology-SS
   rdfs:label "Shells" ;
   owl:sameAs sp:coarse-fragments-lithology-SS ;
   skos:definition "Shells" ;
-  skos:notation "SS" ;
+  skos:notation "SS"^^xsd:string ;
   skos:prefLabel "Shells"@en ;
 .
 sp:coarse-fragments-lithology-ST
@@ -1315,7 +1315,7 @@ sp:coarse-fragments-lithology-ST
   rdfs:label "Schist" ;
   owl:sameAs sp:coarse-fragments-lithology-ST ;
   skos:definition "Schist (Metamorphic rock)" ;
-  skos:notation "ST" ;
+  skos:notation "ST"^^xsd:string ;
   skos:prefLabel "Schist"@en ;
 .
 sp:coarse-fragments-lithology-SY
@@ -1327,7 +1327,7 @@ sp:coarse-fragments-lithology-SY
   rdfs:label "Syenite" ;
   owl:sameAs sp:coarse-fragments-lithology-SY ;
   skos:definition "Syenite (Metamorphic rock)" ;
-  skos:notation "SY" ;
+  skos:notation "SY"^^xsd:string ;
   skos:prefLabel "Syenite"@en ;
 .
 sp:coarse-fragments-lithology-TR
@@ -1339,7 +1339,7 @@ sp:coarse-fragments-lithology-TR
   rdfs:label "Trachyte" ;
   owl:sameAs sp:coarse-fragments-lithology-TR ;
   skos:definition "Trachyte (Igneous rock)" ;
-  skos:notation "TR" ;
+  skos:notation "TR"^^xsd:string ;
   skos:prefLabel "Trachyte"@en ;
 .
 sp:coarse-fragments-lithology-TU
@@ -1351,7 +1351,7 @@ sp:coarse-fragments-lithology-TU
   rdfs:label "Tuff" ;
   owl:sameAs sp:coarse-fragments-lithology-TU ;
   skos:definition "Tuff (Igneous rock)" ;
-  skos:notation "TU" ;
+  skos:notation "TU"^^xsd:string ;
   skos:prefLabel "Tuff"@en ;
 .
 sp:coarse-fragments-lithology-UC
@@ -1363,7 +1363,7 @@ sp:coarse-fragments-lithology-UC
   rdfs:label "Unconsolidated material" ;
   owl:sameAs sp:coarse-fragments-lithology-UC ;
   skos:definition "Unconsolidated material (Unidentified)" ;
-  skos:notation "UC" ;
+  skos:notation "UC"^^xsd:string ;
   skos:prefLabel "Unconsolidated material"@en ;
 .
 sp:coarse-fragments-lithology-VB
@@ -1375,7 +1375,7 @@ sp:coarse-fragments-lithology-VB
   rdfs:label "Volcanic breccia" ;
   owl:sameAs sp:coarse-fragments-lithology-VB ;
   skos:definition "Volcanic breccia (Sedimentary rock, pyroclastic)" ;
-  skos:notation "VB" ;
+  skos:notation "VB"^^xsd:string ;
   skos:prefLabel "Volcanic breccia"@en ;
 .
 sp:coarse-fragments-lithology-VG
@@ -1387,7 +1387,7 @@ sp:coarse-fragments-lithology-VG
   rdfs:label "Volcanic glass" ;
   owl:sameAs sp:coarse-fragments-lithology-VG ;
   skos:definition "Volcanic glass (Igneous rock)" ;
-  skos:notation "VG" ;
+  skos:notation "VG"^^xsd:string ;
   skos:prefLabel "Volcanic glass"@en ;
 .
 sp:coarse-fragments-lithology-Z
@@ -1399,7 +1399,7 @@ sp:coarse-fragments-lithology-Z
   rdfs:label "Silt" ;
   owl:sameAs sp:coarse-fragments-lithology-Z ;
   skos:definition "Silt (Sedimentary rock, detrital)" ;
-  skos:notation "Z" ;
+  skos:notation "Z"^^xsd:string ;
   skos:prefLabel "Silt"@en ;
 .
 sp:coarse-fragments-lithology-ZS
@@ -1411,7 +1411,7 @@ sp:coarse-fragments-lithology-ZS
   rdfs:label "Siltstone" ;
   owl:sameAs sp:coarse-fragments-lithology-ZS ;
   skos:definition "Siltstone (Unconsolidated material)" ;
-  skos:notation "ZS" ;
+  skos:notation "ZS"^^xsd:string ;
   skos:prefLabel "Siltstone"@en ;
 .
 sp:coarse-fragments-shape
@@ -1447,7 +1447,7 @@ sp:coarse-fragments-shape-A
   rdfs:label "Angular" ;
   owl:sameAs sp:coarse-fragments-shape-A ;
   skos:definition "Angular shape as determined from visual guide" ;
-  skos:notation "A" ;
+  skos:notation "A"^^xsd:string ;
   skos:prefLabel "Angular"@en ;
 .
 sp:coarse-fragments-shape-AP
@@ -1459,7 +1459,7 @@ sp:coarse-fragments-shape-AP
   rdfs:label "Angular platy" ;
   owl:sameAs sp:coarse-fragments-shape-AP ;
   skos:definition "Angular platy shape as determined from visual guide" ;
-  skos:notation "AP" ;
+  skos:notation "AP"^^xsd:string ;
   skos:prefLabel "Angular platy"@en ;
 .
 sp:coarse-fragments-shape-AT
@@ -1471,7 +1471,7 @@ sp:coarse-fragments-shape-AT
   rdfs:label "Angular tabular" ;
   owl:sameAs sp:coarse-fragments-shape-AT ;
   skos:definition "Angular tabular shape as determined from visual guide" ;
-  skos:notation "AT" ;
+  skos:notation "AT"^^xsd:string ;
   skos:prefLabel "Angular tabular"@en ;
 .
 sp:coarse-fragments-shape-R
@@ -1483,7 +1483,7 @@ sp:coarse-fragments-shape-R
   rdfs:label "Rounded" ;
   owl:sameAs sp:coarse-fragments-shape-R ;
   skos:definition "Rounded shape as determined from visual guide" ;
-  skos:notation "R" ;
+  skos:notation "R"^^xsd:string ;
   skos:prefLabel "Rounded"@en ;
 .
 sp:coarse-fragments-shape-RP
@@ -1495,7 +1495,7 @@ sp:coarse-fragments-shape-RP
   rdfs:label "Rounded platy" ;
   owl:sameAs sp:coarse-fragments-shape-RP ;
   skos:definition "Rounded platy shape as determined from visual guide" ;
-  skos:notation "RP" ;
+  skos:notation "RP"^^xsd:string ;
   skos:prefLabel "Rounded platy"@en ;
 .
 sp:coarse-fragments-shape-RT
@@ -1507,7 +1507,7 @@ sp:coarse-fragments-shape-RT
   rdfs:label "Rounded tabular" ;
   owl:sameAs sp:coarse-fragments-shape-RT ;
   skos:definition "Rounded tabular shape as determined from visual guide" ;
-  skos:notation "RT" ;
+  skos:notation "RT"^^xsd:string ;
   skos:prefLabel "Rounded tabular"@en ;
 .
 sp:coarse-fragments-shape-S
@@ -1519,7 +1519,7 @@ sp:coarse-fragments-shape-S
   rdfs:label "Subangular" ;
   owl:sameAs sp:coarse-fragments-shape-S ;
   skos:definition "Subangular shape as determined from visual guide" ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Subangular"@en ;
 .
 sp:coarse-fragments-shape-SP
@@ -1531,7 +1531,7 @@ sp:coarse-fragments-shape-SP
   rdfs:label "Subangular platy" ;
   owl:sameAs sp:coarse-fragments-shape-SP ;
   skos:definition "Subangular platy shape as determined from visual guide" ;
-  skos:notation "SP" ;
+  skos:notation "SP"^^xsd:string ;
   skos:prefLabel "Subangular platy"@en ;
 .
 sp:coarse-fragments-shape-ST
@@ -1543,7 +1543,7 @@ sp:coarse-fragments-shape-ST
   rdfs:label "Subangular tabular" ;
   owl:sameAs sp:coarse-fragments-shape-ST ;
   skos:definition "Subangular tabular shape as determined from visual guide" ;
-  skos:notation "ST" ;
+  skos:notation "ST"^^xsd:string ;
   skos:prefLabel "Subangular tabular"@en ;
 .
 sp:coarse-fragments-shape-U
@@ -1555,7 +1555,7 @@ sp:coarse-fragments-shape-U
   rdfs:label "Subrounded" ;
   owl:sameAs sp:coarse-fragments-shape-U ;
   skos:definition "Subrounded shape as determined from visual guide" ;
-  skos:notation "U" ;
+  skos:notation "U"^^xsd:string ;
   skos:prefLabel "Subrounded"@en ;
 .
 sp:coarse-fragments-shape-UP
@@ -1567,7 +1567,7 @@ sp:coarse-fragments-shape-UP
   rdfs:label "Subrounded platy" ;
   owl:sameAs sp:coarse-fragments-shape-UP ;
   skos:definition "Subrounded platy shape as determined from visual guide" ;
-  skos:notation "UP" ;
+  skos:notation "UP"^^xsd:string ;
   skos:prefLabel "Subrounded platy"@en ;
 .
 sp:coarse-fragments-shape-UT
@@ -1579,7 +1579,7 @@ sp:coarse-fragments-shape-UT
   rdfs:label "Subrounded tabular" ;
   owl:sameAs sp:coarse-fragments-shape-UT ;
   skos:definition "Subrounded tabular shape as determined from visual guide" ;
-  skos:notation "UT" ;
+  skos:notation "UT"^^xsd:string ;
   skos:prefLabel "Subrounded tabular"@en ;
 .
 sp:coarse-fragments-size
@@ -1611,7 +1611,7 @@ sp:coarse-fragments-size-1
   rdfs:label "Fine gravelly or small pebbles" ;
   owl:sameAs sp:coarse-fragments-size-1 ;
   skos:definition "2-6 mm" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Fine gravelly or small pebbles"@en ;
 .
 sp:coarse-fragments-size-2
@@ -1623,7 +1623,7 @@ sp:coarse-fragments-size-2
   rdfs:label "Medium gravelly or medium pebbles" ;
   owl:sameAs sp:coarse-fragments-size-2 ;
   skos:definition "6-20 mm" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Medium gravelly or medium pebbles"@en ;
 .
 sp:coarse-fragments-size-3
@@ -1635,7 +1635,7 @@ sp:coarse-fragments-size-3
   rdfs:label "Coarse gravelly or large pebbles" ;
   owl:sameAs sp:coarse-fragments-size-3 ;
   skos:definition "20-60 mm" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Coarse gravelly or large pebbles"@en ;
 .
 sp:coarse-fragments-size-4
@@ -1647,7 +1647,7 @@ sp:coarse-fragments-size-4
   rdfs:label "Cobbly or cobbles" ;
   owl:sameAs sp:coarse-fragments-size-4 ;
   skos:definition "60-200 mm" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Cobbly or cobbles"@en ;
 .
 sp:coarse-fragments-size-5
@@ -1659,7 +1659,7 @@ sp:coarse-fragments-size-5
   rdfs:label "Stony or stones" ;
   owl:sameAs sp:coarse-fragments-size-5 ;
   skos:definition "200-600 mm" ;
-  skos:notation "5" ;
+  skos:notation "5"^^xsd:string ;
   skos:prefLabel "Stony or stones"@en ;
 .
 sp:coarse-fragments-size-6
@@ -1671,7 +1671,7 @@ sp:coarse-fragments-size-6
   rdfs:label "Bouldery or boulders" ;
   owl:sameAs sp:coarse-fragments-size-6 ;
   skos:definition "600-2000 mm" ;
-  skos:notation "6" ;
+  skos:notation "6"^^xsd:string ;
   skos:prefLabel "Bouldery or boulders"@en ;
 .
 sp:coarse-fragments-size-7
@@ -1683,7 +1683,7 @@ sp:coarse-fragments-size-7
   rdfs:label "Large boulders" ;
   owl:sameAs sp:coarse-fragments-size-7 ;
   skos:definition ">2000 mm" ;
-  skos:notation "7" ;
+  skos:notation "7"^^xsd:string ;
   skos:prefLabel "Large boulders"@en ;
 .
 sp:coarse-fragments-strength
@@ -1713,7 +1713,7 @@ sp:coarse-fragments-strength-M
   rdfs:label "Moderately strong rock" ;
   owl:sameAs sp:coarse-fragments-strength-M ;
   skos:definition "50-100 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil or slight mark, Pick:indents shallowly, Hammer (single blow):Breaks readily into a few large and some small fragments" ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Moderately strong rock"@en ;
 .
 sp:coarse-fragments-strength-S
@@ -1725,7 +1725,7 @@ sp:coarse-fragments-strength-S
   rdfs:label "Strong rock" ;
   owl:sameAs sp:coarse-fragments-strength-S ;
   skos:definition "100-200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Breaks into one or two large fragments" ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Strong rock"@en ;
 .
 sp:coarse-fragments-strength-VS
@@ -1737,7 +1737,7 @@ sp:coarse-fragments-strength-VS
   rdfs:label "Very strong rock" ;
   owl:sameAs sp:coarse-fragments-strength-VS ;
   skos:definition ">200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Nil" ;
-  skos:notation "VS" ;
+  skos:notation "VS"^^xsd:string ;
   skos:prefLabel "Very strong rock"@en ;
 .
 sp:coarse-fragments-strength-VW
@@ -1749,7 +1749,7 @@ sp:coarse-fragments-strength-VW
   rdfs:label "Very weak rock" ;
   owl:sameAs sp:coarse-fragments-strength-VW ;
   skos:definition "1-25 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Deep cut, Pick:crumbles, Hammer (single blow):Flattened or powdered" ;
-  skos:notation "VW" ;
+  skos:notation "VW"^^xsd:string ;
   skos:prefLabel "Very weak rock"@en ;
 .
 sp:coarse-fragments-strength-W
@@ -1761,7 +1761,7 @@ sp:coarse-fragments-strength-W
   rdfs:label "Weak rock" ;
   owl:sameAs sp:coarse-fragments-strength-W ;
   skos:definition "25-50 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Shallow cut or scratch, Pick:indents deeply, Hammer (single blow):Shattered into many small fragments" ;
-  skos:notation "W" ;
+  skos:notation "W"^^xsd:string ;
   skos:prefLabel "Weak rock"@en ;
 .
 sp:colour
@@ -1800,7 +1800,7 @@ sp:colour-stat-D
   ui:isMemberOf sp:colour-stat ;
   rdfs:label "Dry" ;
   owl:sameAs sp:colour-stat-D ;
-  skos:notation "D" ;
+  skos:notation "D"^^xsd:string ;
   skos:prefLabel "Dry"@en ;
 .
 sp:colour-stat-M
@@ -1809,7 +1809,7 @@ sp:colour-stat-M
   ui:isMemberOf sp:colour-stat ;
   rdfs:label "Moist" ;
   owl:sameAs sp:colour-stat-M ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Moist"@en ;
 .
 sp:condition-of-surface-soil-when-dry
@@ -1876,7 +1876,7 @@ sp:consistence-plasticity-degree-0
   rdfs:label "Non-plastic" ;
   owl:sameAs sp:consistence-plasticity-degree-0 ;
   skos:definition "Roll (40mm length x 6mm diameter) will not form." ;
-  skos:notation "0" ;
+  skos:notation "0"^^xsd:string ;
   skos:prefLabel "Non-plastic"@en ;
 .
 sp:consistence-plasticity-degree-1
@@ -1890,7 +1890,7 @@ Roll (40mm length x 4mm diameter) will form but will not support its own weight.
   owl:sameAs sp:consistence-plasticity-degree-1 ;
   skos:definition """Roll (40mm length x 6mm diameter) will form and will support its own weight.
 Roll (40mm length x 4mm diameter) will form but will not support its own weight.""" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Slightly plastic"@en ;
 .
 sp:consistence-plasticity-degree-2
@@ -1904,7 +1904,7 @@ Roll (40mm length x 2mm diameter) will form but will not support its own weight.
   owl:sameAs sp:consistence-plasticity-degree-2 ;
   skos:definition """Roll (40mm length x 4mm diameter) will form and will support its own weight.
 Roll (40mm length x 2mm diameter) will form but will not support its own weight.""" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Moderately plastic"@en ;
 .
 sp:consistence-plasticity-degree-3
@@ -1916,7 +1916,7 @@ sp:consistence-plasticity-degree-3
   rdfs:label "Very plastic" ;
   owl:sameAs sp:consistence-plasticity-degree-3 ;
   skos:definition "Roll (40mm length x 2mm diameter) will form and will support its own weight." ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Very plastic"@en ;
 .
 sp:consistence-plasticity-type
@@ -1944,7 +1944,7 @@ sp:consistence-plasticity-type-N
   rdfs:label "Normal plasticity" ;
   owl:sameAs sp:consistence-plasticity-type-N ;
   skos:definition "negligible change." ;
-  skos:notation "N" ;
+  skos:notation "N"^^xsd:string ;
   skos:prefLabel "Normal plasticity"@en ;
 .
 sp:consistence-plasticity-type-S
@@ -1956,7 +1956,7 @@ sp:consistence-plasticity-type-S
   rdfs:label "Superplastic" ;
   owl:sameAs sp:consistence-plasticity-type-S ;
   skos:definition "decreases one or more field texture groups of Northcote (1979)." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Superplastic"@en ;
 .
 sp:consistence-plasticity-type-T
@@ -1968,7 +1968,7 @@ sp:consistence-plasticity-type-T
   rdfs:label "Strongly subplastic" ;
   owl:sameAs sp:consistence-plasticity-type-T ;
   skos:definition "increases two or more field texture groups." ;
-  skos:notation "T" ;
+  skos:notation "T"^^xsd:string ;
   skos:prefLabel "Strongly subplastic"@en ;
 .
 sp:consistence-plasticity-type-U
@@ -1980,7 +1980,7 @@ sp:consistence-plasticity-type-U
   rdfs:label "Subplastic" ;
   owl:sameAs sp:consistence-plasticity-type-U ;
   skos:definition "increases one to two field texture groups." ;
-  skos:notation "U" ;
+  skos:notation "U"^^xsd:string ;
   skos:prefLabel "Subplastic"@en ;
 .
 sp:consistence-stickiness
@@ -2008,7 +2008,7 @@ sp:consistence-stickiness-0
   rdfs:label "Non-sticky" ;
   owl:sameAs sp:consistence-stickiness-0 ;
   skos:definition "little or no soil adheres." ;
-  skos:notation "0" ;
+  skos:notation "0"^^xsd:string ;
   skos:prefLabel "Non-sticky"@en ;
 .
 sp:consistence-stickiness-1
@@ -2020,7 +2020,7 @@ sp:consistence-stickiness-1
   rdfs:label "Slightly sticky" ;
   owl:sameAs sp:consistence-stickiness-1 ;
   skos:definition "soil adheres to thumb and forefinger but is not stretched notably and comes off rather cleanly." ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Slightly sticky"@en ;
 .
 sp:consistence-stickiness-2
@@ -2032,7 +2032,7 @@ sp:consistence-stickiness-2
   rdfs:label "Moderately sticky" ;
   owl:sameAs sp:consistence-stickiness-2 ;
   skos:definition "soil adheres to thumb and forefinger and tends to stretch rather than pull free of fingers." ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Moderately sticky"@en ;
 .
 sp:consistence-stickiness-3
@@ -2044,7 +2044,7 @@ sp:consistence-stickiness-3
   rdfs:label "Very sticky" ;
   owl:sameAs sp:consistence-stickiness-3 ;
   skos:definition "soil adheres strongly to thumb and forefinger and stretches notably." ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Very sticky"@en ;
 .
 sp:consistence-strength
@@ -2092,7 +2092,7 @@ sp:consistence-strength-0
   rdfs:label "Loose" ;
   owl:sameAs sp:consistence-strength-0 ;
   skos:definition "no force required. Separate particles such as loose sands." ;
-  skos:notation "0" ;
+  skos:notation "0"^^xsd:string ;
   skos:prefLabel "Loose"@en ;
 .
 sp:consistence-strength-1
@@ -2104,7 +2104,7 @@ sp:consistence-strength-1
   rdfs:label "Very weak" ;
   owl:sameAs sp:consistence-strength-1 ;
   skos:definition "very small force, almost nil." ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Very weak"@en ;
 .
 sp:consistence-strength-2
@@ -2116,7 +2116,7 @@ sp:consistence-strength-2
   rdfs:label "Weak" ;
   owl:sameAs sp:consistence-strength-2 ;
   skos:definition "small but significant force." ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Weak"@en ;
 .
 sp:consistence-strength-3
@@ -2128,7 +2128,7 @@ sp:consistence-strength-3
   rdfs:label "Firm" ;
   owl:sameAs sp:consistence-strength-3 ;
   skos:definition "moderate or firm force." ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Firm"@en ;
 .
 sp:consistence-strength-4
@@ -2140,7 +2140,7 @@ sp:consistence-strength-4
   rdfs:label "Very Firm" ;
   owl:sameAs sp:consistence-strength-4 ;
   skos:definition "strong force but within power of thumb and forefinger." ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Very Firm"@en ;
 .
 sp:consistence-strength-5
@@ -2152,7 +2152,7 @@ sp:consistence-strength-5
   rdfs:label "Strong" ;
   owl:sameAs sp:consistence-strength-5 ;
   skos:definition "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with small force." ;
-  skos:notation "5" ;
+  skos:notation "5"^^xsd:string ;
   skos:prefLabel "Strong"@en ;
 .
 sp:consistence-strength-6
@@ -2164,7 +2164,7 @@ sp:consistence-strength-6
   rdfs:label "Very Strong" ;
   owl:sameAs sp:consistence-strength-6 ;
   skos:definition "crushes underfoot on hard, flat surface with full body weight applied slowly." ;
-  skos:notation "6" ;
+  skos:notation "6"^^xsd:string ;
   skos:prefLabel "Very Strong"@en ;
 .
 sp:consistence-strength-7
@@ -2176,7 +2176,7 @@ sp:consistence-strength-7
   rdfs:label "Rigid" ;
   owl:sameAs sp:consistence-strength-7 ;
   skos:definition "cannot be crushed underfoot by full body weight applied slowly." ;
-  skos:notation "7" ;
+  skos:notation "7"^^xsd:string ;
   skos:prefLabel "Rigid"@en ;
 .
 sp:cutans
@@ -2219,7 +2219,7 @@ sp:cutans-abundance-0
   rdfs:label "No cutans" ;
   owl:sameAs sp:cutans-abundance-0 ;
   skos:definition "0" ;
-  skos:notation "0" ;
+  skos:notation "0"^^xsd:string ;
   skos:prefLabel "No cutans"@en ;
 .
 sp:cutans-abundance-1
@@ -2231,7 +2231,7 @@ sp:cutans-abundance-1
   rdfs:label "Few" ;
   owl:sameAs sp:cutans-abundance-1 ;
   skos:definition "<10% of ped faces or pore walls with cutans." ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Few"@en ;
 .
 sp:cutans-abundance-2
@@ -2243,7 +2243,7 @@ sp:cutans-abundance-2
   rdfs:label "Common" ;
   owl:sameAs sp:cutans-abundance-2 ;
   skos:definition "10–50% of ped faces or pore walls with cutans." ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Common"@en ;
 .
 sp:cutans-abundance-3
@@ -2255,7 +2255,7 @@ sp:cutans-abundance-3
   rdfs:label "Many" ;
   owl:sameAs sp:cutans-abundance-3 ;
   skos:definition ">50% of ped faces or pore walls with cutans." ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Many"@en ;
 .
 sp:cutans-distinctness
@@ -2282,7 +2282,7 @@ sp:cutans-distinctness-D
   rdfs:label "Distinct" ;
   owl:sameAs sp:cutans-distinctness-D ;
   skos:definition "can be detected without magnification. Contrast with adjacent material is evident in colour, texture or other properties." ;
-  skos:notation "D" ;
+  skos:notation "D"^^xsd:string ;
   skos:prefLabel "Distinct"@en ;
 .
 sp:cutans-distinctness-F
@@ -2294,7 +2294,7 @@ sp:cutans-distinctness-F
   rdfs:label "Faint" ;
   owl:sameAs sp:cutans-distinctness-F ;
   skos:definition "evident only on close examination with ×10 magnification. Little contrast with adjacent material." ;
-  skos:notation "F" ;
+  skos:notation "F"^^xsd:string ;
   skos:prefLabel "Faint"@en ;
 .
 sp:cutans-distinctness-P
@@ -2306,7 +2306,7 @@ sp:cutans-distinctness-P
   rdfs:label "Prominent" ;
   owl:sameAs sp:cutans-distinctness-P ;
   skos:definition "conspicuous without magnification when compared with a surface broken through the soil. Colour, texture or some other property contrasts sharply with properties of the adjacent material, or the feature is thick enough to be conspicuous." ;
-  skos:notation "P" ;
+  skos:notation "P"^^xsd:string ;
   skos:prefLabel "Prominent"@en ;
 .
 sp:cutans-type
@@ -2337,7 +2337,7 @@ sp:cutans-type-C
   rdfs:label "Clay skins" ;
   owl:sameAs sp:cutans-type-C ;
   skos:definition "coatings of clay often different in colour from the matrix of the ped. They are frequently difficult to distinguish from stress cutans, which are not true coatings." ;
-  skos:notation "C" ;
+  skos:notation "C"^^xsd:string ;
   skos:prefLabel "Clay skins"@en ;
 .
 sp:cutans-type-K
@@ -2349,7 +2349,7 @@ sp:cutans-type-K
   rdfs:label "Slickensides" ;
   owl:sameAs sp:cutans-type-K ;
   skos:definition "stress cutans with smooth striations or grooves." ;
-  skos:notation "K" ;
+  skos:notation "K"^^xsd:string ;
   skos:prefLabel "Slickensides"@en ;
 .
 sp:cutans-type-M
@@ -2361,7 +2361,7 @@ sp:cutans-type-M
   rdfs:label "Mangans" ;
   owl:sameAs sp:cutans-type-M ;
   skos:definition "coatings of manganese oxides or hydroxides. The material may have a glazed appearance and is very dark brown to black." ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Mangans"@en ;
 .
 sp:cutans-type-O
@@ -2373,7 +2373,7 @@ sp:cutans-type-O
   rdfs:label "Other cutans" ;
   owl:sameAs sp:cutans-type-O ;
   skos:definition "may be composed of iron oxides, organic matter, calcium carbonate or gypsum." ;
-  skos:notation "O" ;
+  skos:notation "O"^^xsd:string ;
   skos:prefLabel "Other cutans"@en ;
 .
 sp:cutans-type-S
@@ -2385,7 +2385,7 @@ sp:cutans-type-S
   rdfs:label "Stress cutans" ;
   owl:sameAs sp:cutans-type-S ;
   skos:definition "in situ modifications of natural surfaces in soil materials due to differential forces such as shearing. They are not true coatings." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Stress cutans"@en ;
 .
 sp:cutans-type-U
@@ -2397,7 +2397,7 @@ sp:cutans-type-U
   rdfs:label "Unspecified" ;
   owl:sameAs sp:cutans-type-U ;
   skos:definition "nature of cutans cannot be determined." ;
-  skos:notation "U" ;
+  skos:notation "U"^^xsd:string ;
   skos:prefLabel "Unspecified"@en ;
 .
 sp:cutans-type-Z
@@ -2409,7 +2409,7 @@ sp:cutans-type-Z
   rdfs:label "Zero or no cutans" ;
   owl:sameAs sp:cutans-type-Z ;
   skos:definition "Zero or no cutans." ;
-  skos:notation "Z" ;
+  skos:notation "Z"^^xsd:string ;
   skos:prefLabel "Zero or no cutans"@en ;
 .
 sp:depth-of-horizons
@@ -2445,7 +2445,7 @@ sp:effervescence-H
   rdfs:label "Highly calcareous" ;
   owl:sameAs sp:effervescence-H ;
   skos:definition "moderate visible effervescence." ;
-  skos:notation "H" ;
+  skos:notation "H"^^xsd:string ;
   skos:prefLabel "Highly calcareous"@en ;
 .
 sp:effervescence-M
@@ -2457,7 +2457,7 @@ sp:effervescence-M
   rdfs:label "Moderately calcareous" ;
   owl:sameAs sp:effervescence-M ;
   skos:definition "audible and slightly visible effervescence." ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Moderately calcareous"@en ;
 .
 sp:effervescence-N
@@ -2469,7 +2469,7 @@ sp:effervescence-N
   rdfs:label "Non-calcareous" ;
   owl:sameAs sp:effervescence-N ;
   skos:definition "no audible or visible effervescence." ;
-  skos:notation "N" ;
+  skos:notation "N"^^xsd:string ;
   skos:prefLabel "Non-calcareous"@en ;
 .
 sp:effervescence-S
@@ -2481,7 +2481,7 @@ sp:effervescence-S
   rdfs:label "Slightly calcareous" ;
   owl:sameAs sp:effervescence-S ;
   skos:definition "slightly audible but no visible effervescence." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Slightly calcareous"@en ;
 .
 sp:effervescence-V
@@ -2493,7 +2493,7 @@ sp:effervescence-V
   rdfs:label "Very highly calcareous" ;
   owl:sameAs sp:effervescence-V ;
   skos:definition "strong visible effervescence." ;
-  skos:notation "V" ;
+  skos:notation "V"^^xsd:string ;
   skos:prefLabel "Very highly calcareous"@en ;
 .
 sp:effervescence-of-carbonate-in-fine-earth
@@ -2541,7 +2541,7 @@ sp:fabric-E
   owl:sameAs sp:fabric-E ;
   skos:altLabel "Porous"@en ;
   skos:definition "The soil material is coherent and characterised by the presence of pores (voids) and few, if any, peds. Ultimate soil particles (sand grains, for example) are coated with oxides and/or clays and are arranged (clumped) around the pores." ;
-  skos:notation "E" ;
+  skos:notation "E"^^xsd:string ;
   skos:prefLabel "Earthy"@en ;
 .
 sp:fabric-G
@@ -2553,7 +2553,7 @@ sp:fabric-G
   rdfs:label "Sandy (grains prominent)" ;
   owl:sameAs sp:fabric-G ;
   skos:definition "The soil material is coherent, with few, if any, peds. The closely packed sand grains provide the characteristic appearance of the soil mass." ;
-  skos:notation "G" ;
+  skos:notation "G"^^xsd:string ;
   skos:prefLabel "Sandy"@en ;
 .
 sp:fabric-R
@@ -2565,7 +2565,7 @@ sp:fabric-R
   rdfs:label "Rough-ped" ;
   owl:sameAs sp:fabric-R ;
   skos:definition "Peds are evident, and characteristically more than 50% of the peds are rough-faced, that is, they have relatively porous surfaces. (Rough-faced peds generally have less clearly defined faces than smooth-faced peds and the pedality of the soil may be questioned. However, if the soil mass is pressed gently, the characteristic size and shape of the soil aggregates will confirm its pedality.) Granular peds with common or many macropores are always rough-faced, but this condition varies in other ped forms." ;
-  skos:notation "R" ;
+  skos:notation "R"^^xsd:string ;
   skos:prefLabel "Rough-ped"@en ;
 .
 sp:fabric-S
@@ -2577,7 +2577,7 @@ sp:fabric-S
   rdfs:label "Smooth-ped" ;
   owl:sameAs sp:fabric-S ;
   skos:definition "Peds are evident, and characteristically more than 50% of them are dense and smooth-faced, although the degree of lustre may vary." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Smooth-ped"@en ;
 .
 sp:field-ph
@@ -2608,7 +2608,7 @@ sp:field-texture-AP
   owl:sameAs sp:field-texture-AP ;
   skos:altLabel "humified peat"@en ;
   skos:definition "strongly to completely decomposed organic material. Plant remains vary from few being identifiable to completely amorphous." ;
-  skos:notation "AP" ;
+  skos:notation "AP"^^xsd:string ;
   skos:prefLabel "Sapric peat"@en ;
 .
 sp:field-texture-CFS
@@ -2623,7 +2623,7 @@ sp:field-texture-CFS
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-CFS-heavy ;
   skos:narrower sp:field-texture-CFS-light ;
-  skos:notation "CFS" ;
+  skos:notation "CFS"^^xsd:string ;
   skos:prefLabel "Clayey fine sand"@en ;
 .
 sp:field-texture-CFS-heavy
@@ -2666,7 +2666,7 @@ sp:field-texture-CKS
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-CKS-heavy ;
   skos:narrower sp:field-texture-CKS-light ;
-  skos:notation "CKS" ;
+  skos:notation "CKS"^^xsd:string ;
   skos:prefLabel "Clayey coarse sand"@en ;
 .
 sp:field-texture-CKS-heavy
@@ -2710,7 +2710,7 @@ sp:field-texture-CL
   skos:narrower sp:field-texture-CL-I ;
   skos:narrower sp:field-texture-CL-heavy ;
   skos:narrower sp:field-texture-CL-light ;
-  skos:notation "CL" ;
+  skos:notation "CL"^^xsd:string ;
   skos:prefLabel "Clay loam"@en ;
 .
 sp:field-texture-CL-A
@@ -2724,7 +2724,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:broader sp:field-texture-CL ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "CLA" ;
+  skos:notation "CLA"^^xsd:string ;
   skos:prefLabel "Sapric clay loam"@en ;
 .
 sp:field-texture-CL-I
@@ -2738,7 +2738,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader sp:field-texture-CL ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus, smooth to manipulate; will form ribbon of 40–50 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "CLI" ;
+  skos:notation "CLI"^^xsd:string ;
   skos:prefLabel "Fibric clay loam"@en ;
 .
 sp:field-texture-CL-heavy
@@ -2781,7 +2781,7 @@ sp:field-texture-CLFS
   skos:narrower sp:field-texture-CLFS-I ;
   skos:narrower sp:field-texture-CLFS-heavy ;
   skos:narrower sp:field-texture-CLFS-light ;
-  skos:notation "CLFS" ;
+  skos:notation "CLFS"^^xsd:string ;
   skos:prefLabel "Clay loam, fine sandy"@en ;
 .
 sp:field-texture-CLFS-A
@@ -2796,7 +2796,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:broader sp:field-texture-CLS-A ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "CLFSA" ;
+  skos:notation "CLFSA"^^xsd:string ;
   skos:prefLabel "Sapric clay loam, fine sandy"@en ;
 .
 sp:field-texture-CLFS-I
@@ -2811,7 +2811,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader sp:field-texture-CLS-I ;
   skos:definition "Behaviour of moist bolus: coherent plastic bolus; medium-size sand grains visible in finer matrix; will form ribbon of 40–50 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "CLFSI" ;
+  skos:notation "CLFSI"^^xsd:string ;
   skos:prefLabel "Fibric clay loam, fine sandy"@en ;
 .
 sp:field-texture-CLFS-heavy
@@ -2856,7 +2856,7 @@ sp:field-texture-CLKS
   skos:narrower sp:field-texture-CLKS-I ;
   skos:narrower sp:field-texture-CLKS-heavy ;
   skos:narrower sp:field-texture-CLKS-light ;
-  skos:notation "CLKS" ;
+  skos:notation "CLKS"^^xsd:string ;
   skos:prefLabel "Clay loam, coarse sandy"@en ;
 .
 sp:field-texture-CLKS-A
@@ -2932,7 +2932,7 @@ sp:field-texture-CLS
   skos:narrower sp:field-texture-CLS-I ;
   skos:narrower sp:field-texture-CLS-heavy ;
   skos:narrower sp:field-texture-CLS-light ;
-  skos:notation "CLS" ;
+  skos:notation "CLS"^^xsd:string ;
   skos:prefLabel "Clay loam, sandy"@en ;
 .
 sp:field-texture-CLS-A
@@ -3006,7 +3006,7 @@ sp:field-texture-CP
   rdfs:label "Clayey peat" ;
   owl:sameAs sp:field-texture-CP ;
   skos:definition "bolus has obvious fine mineral particle content, is sticky when wet, and is coherent." ;
-  skos:notation "CP" ;
+  skos:notation "CP"^^xsd:string ;
   skos:prefLabel "Clayey peat"@en ;
 .
 sp:field-texture-CS
@@ -3022,7 +3022,7 @@ sp:field-texture-CS
   skos:narrower sp:field-texture-CKS ;
   skos:narrower sp:field-texture-CS-heavy ;
   skos:narrower sp:field-texture-CS-light ;
-  skos:notation "CS" ;
+  skos:notation "CS"^^xsd:string ;
   skos:prefLabel "Clayey sand"@en ;
 .
 sp:field-texture-CS-heavy
@@ -3067,7 +3067,7 @@ sp:field-texture-FS
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FS-A ;
   skos:narrower sp:field-texture-FS-I ;
-  skos:notation "FS" ;
+  skos:notation "FS"^^xsd:string ;
   skos:prefLabel "Fine sand"@en ;
 .
 sp:field-texture-FS-A
@@ -3081,7 +3081,7 @@ sp:field-texture-FS-A
   skos:broader sp:field-texture-S-A ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSA" ;
+  skos:notation "FSA"^^xsd:string ;
   skos:prefLabel "Sapric fine sand"@en ;
 .
 sp:field-texture-FS-I
@@ -3095,7 +3095,7 @@ sp:field-texture-FS-I
   skos:broader sp:field-texture-S-I ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSI" ;
+  skos:notation "FSI"^^xsd:string ;
   skos:prefLabel "Fibric fine sand"@en ;
 .
 sp:field-texture-FSCL
@@ -3112,7 +3112,7 @@ sp:field-texture-FSCL
   skos:narrower sp:field-texture-FSCL-I ;
   skos:narrower sp:field-texture-FSCL-heavy ;
   skos:narrower sp:field-texture-FSCL-light ;
-  skos:notation "FSCL" ;
+  skos:notation "FSCL"^^xsd:string ;
   skos:prefLabel "Fine sandy clay loam"@en ;
 .
 sp:field-texture-FSCL-A
@@ -3126,7 +3126,7 @@ sp:field-texture-FSCL-A
   skos:broader sp:field-texture-SCL-A ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSCLA" ;
+  skos:notation "FSCLA"^^xsd:string ;
   skos:prefLabel "Sapric fine sandy clay loam"@en ;
 .
 sp:field-texture-FSCL-I
@@ -3140,7 +3140,7 @@ sp:field-texture-FSCL-I
   skos:broader sp:field-texture-SCL-I ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSCLI" ;
+  skos:notation "FSCLI"^^xsd:string ;
   skos:prefLabel "Fibric fine sandy clay loam"@en ;
 .
 sp:field-texture-FSCL-heavy
@@ -3183,7 +3183,7 @@ sp:field-texture-FSHC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSHC-A ;
   skos:narrower sp:field-texture-FSHC-I ;
-  skos:notation "FSHC" ;
+  skos:notation "FSHC"^^xsd:string ;
   skos:prefLabel "Fine sandy heavy clay"@en ;
 .
 sp:field-texture-FSHC-A
@@ -3197,7 +3197,7 @@ sp:field-texture-FSHC-A
   skos:broader sp:field-texture-HC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSHCA" ;
+  skos:notation "FSHCA"^^xsd:string ;
   skos:prefLabel "Sapric fine sandy heavy clay"@en ;
 .
 sp:field-texture-FSHC-I
@@ -3211,7 +3211,7 @@ sp:field-texture-FSHC-I
   skos:broader sp:field-texture-HC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSHCI" ;
+  skos:notation "FSHCI"^^xsd:string ;
   skos:prefLabel "Fibric fine sandy heavy clay"@en ;
 .
 sp:field-texture-FSL
@@ -3226,7 +3226,7 @@ sp:field-texture-FSL
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSL-A ;
   skos:narrower sp:field-texture-FSL-I ;
-  skos:notation "FSL" ;
+  skos:notation "FSL"^^xsd:string ;
   skos:prefLabel "Fine sandy loam"@en ;
 .
 sp:field-texture-FSL-A
@@ -3240,7 +3240,7 @@ sp:field-texture-FSL-A
   skos:broader sp:field-texture-SL-A ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSLA" ;
+  skos:notation "FSLA"^^xsd:string ;
   skos:prefLabel "Sapric fine sandy loam"@en ;
 .
 sp:field-texture-FSL-I
@@ -3254,7 +3254,7 @@ sp:field-texture-FSL-I
   skos:broader sp:field-texture-SL-I ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSLI" ;
+  skos:notation "FSLI"^^xsd:string ;
   skos:prefLabel "Fibric fine sandy loam"@en ;
 .
 sp:field-texture-FSLC
@@ -3269,7 +3269,7 @@ sp:field-texture-FSLC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSLC-A ;
   skos:narrower sp:field-texture-FSLC-I ;
-  skos:notation "FSLC" ;
+  skos:notation "FSLC"^^xsd:string ;
   skos:prefLabel "Fine sandy light clay"@en ;
 .
 sp:field-texture-FSLC-A
@@ -3283,7 +3283,7 @@ sp:field-texture-FSLC-A
   skos:broader sp:field-texture-LC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSLCA" ;
+  skos:notation "FSLCA"^^xsd:string ;
   skos:prefLabel "Sapric fine sandy light clay"@en ;
 .
 sp:field-texture-FSLC-I
@@ -3297,7 +3297,7 @@ sp:field-texture-FSLC-I
   skos:broader sp:field-texture-LC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSLCI" ;
+  skos:notation "FSLCI"^^xsd:string ;
   skos:prefLabel "Fibric fine sandy light clay"@en ;
 .
 sp:field-texture-FSLMC
@@ -3312,7 +3312,7 @@ sp:field-texture-FSLMC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSLMC-A ;
   skos:narrower sp:field-texture-FSLMC-I ;
-  skos:notation "FSLMC" ;
+  skos:notation "FSLMC"^^xsd:string ;
   skos:prefLabel "Fine sandy light medium clay"@en ;
 .
 sp:field-texture-FSLMC-A
@@ -3326,7 +3326,7 @@ sp:field-texture-FSLMC-A
   skos:broader sp:field-texture-LMC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSLMCA" ;
+  skos:notation "FSLMCA"^^xsd:string ;
   skos:prefLabel "Sapric fine sandy light medium clay"@en ;
 .
 sp:field-texture-FSLMC-I
@@ -3340,7 +3340,7 @@ sp:field-texture-FSLMC-I
   skos:broader sp:field-texture-LMC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSLMCI" ;
+  skos:notation "FSLMCI"^^xsd:string ;
   skos:prefLabel "Fibric fine sandy light medium clay"@en ;
 .
 sp:field-texture-FSMC
@@ -3355,7 +3355,7 @@ sp:field-texture-FSMC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSMC-A ;
   skos:narrower sp:field-texture-FSMC-I ;
-  skos:notation "FSMC" ;
+  skos:notation "FSMC"^^xsd:string ;
   skos:prefLabel "Fine sandy medium clay"@en ;
 .
 sp:field-texture-FSMC-A
@@ -3369,7 +3369,7 @@ sp:field-texture-FSMC-A
   skos:broader sp:field-texture-MC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSMCA" ;
+  skos:notation "FSMCA"^^xsd:string ;
   skos:prefLabel "Sapric fine sandy medium clay"@en ;
 .
 sp:field-texture-FSMC-I
@@ -3383,7 +3383,7 @@ sp:field-texture-FSMC-I
   skos:broader sp:field-texture-MC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSMCI" ;
+  skos:notation "FSMCI"^^xsd:string ;
   skos:prefLabel "Fibric fine sandy medium clay"@en ;
 .
 sp:field-texture-FSMHC
@@ -3398,7 +3398,7 @@ sp:field-texture-FSMHC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSMHC-A ;
   skos:narrower sp:field-texture-FSMHC-I ;
-  skos:notation "FSMHC" ;
+  skos:notation "FSMHC"^^xsd:string ;
   skos:prefLabel "Fine sandy medium heavy clay"@en ;
 .
 sp:field-texture-FSMHC-A
@@ -3412,7 +3412,7 @@ sp:field-texture-FSMHC-A
   skos:broader sp:field-texture-MHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSMHCA" ;
+  skos:notation "FSMHCA"^^xsd:string ;
   skos:prefLabel "Sapric fine sandy medium heavy clay"@en ;
 .
 sp:field-texture-FSMHC-I
@@ -3426,7 +3426,7 @@ sp:field-texture-FSMHC-I
   skos:broader sp:field-texture-MHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "FSMHCI" ;
+  skos:notation "FSMHCI"^^xsd:string ;
   skos:prefLabel "Fibric fine sandy medium heavy clay"@en ;
 .
 sp:field-texture-GP
@@ -3438,7 +3438,7 @@ sp:field-texture-GP
   rdfs:label "Granular peat" ;
   owl:sameAs sp:field-texture-GP ;
   skos:definition "dominantly decomposed organic material, which has dried irreversibly to fine granules through exposure and drying and/or cultivation. Granules are approximately 1–2 mm in diameter and have granular or subangular blocky structure." ;
-  skos:notation "GP" ;
+  skos:notation "GP"^^xsd:string ;
   skos:prefLabel "Granular peat"@en ;
 .
 sp:field-texture-HC
@@ -3456,7 +3456,7 @@ sp:field-texture-HC
   skos:narrower sp:field-texture-KSHC ;
   skos:narrower sp:field-texture-SHC ;
   skos:narrower sp:field-texture-ZHC ;
-  skos:notation "HC" ;
+  skos:notation "HC"^^xsd:string ;
   skos:prefLabel "Heavy clay"@en ;
 .
 sp:field-texture-HC-A
@@ -3473,7 +3473,7 @@ sp:field-texture-HC-A
   skos:narrower sp:field-texture-KSHC-A ;
   skos:narrower sp:field-texture-SHC-A ;
   skos:narrower sp:field-texture-ZHC-A ;
-  skos:notation "HCA" ;
+  skos:notation "HCA"^^xsd:string ;
   skos:prefLabel "Sapric heavy clay"@en ;
 .
 sp:field-texture-HC-I
@@ -3490,7 +3490,7 @@ sp:field-texture-HC-I
   skos:narrower sp:field-texture-KSHC-I ;
   skos:narrower sp:field-texture-SHC-I ;
   skos:narrower sp:field-texture-ZHC-I ;
-  skos:notation "HCI" ;
+  skos:notation "HCI"^^xsd:string ;
   skos:prefLabel "Fibric heavy clay"@en ;
 .
 sp:field-texture-HP
@@ -3503,7 +3503,7 @@ sp:field-texture-HP
   owl:sameAs sp:field-texture-HP ;
   skos:altLabel "Semi-fibrous peat"@en ;
   skos:definition "moderately to well decomposed organic material. Plant remains vary from most being difficult to identify to most being unidentifiable. It is intermediate in degree of decomposition between the less decomposed fibric peat and the more decomposed sapric peat." ;
-  skos:notation "HP" ;
+  skos:notation "HP"^^xsd:string ;
   skos:prefLabel "Hemic peat"@en ;
 .
 sp:field-texture-IP
@@ -3516,7 +3516,7 @@ sp:field-texture-IP
   owl:sameAs sp:field-texture-IP ;
   skos:altLabel "Fibrous peat"@en ;
   skos:definition "undecomposed or weakly decomposed organic material. Plant remains are distinct and readily identifiable." ;
-  skos:notation "IP" ;
+  skos:notation "IP"^^xsd:string ;
   skos:prefLabel "Fibric peat"@en ;
 .
 sp:field-texture-KS
@@ -3531,7 +3531,7 @@ sp:field-texture-KS
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KS-A ;
   skos:narrower sp:field-texture-KS-I ;
-  skos:notation "KS" ;
+  skos:notation "KS"^^xsd:string ;
   skos:prefLabel "Coarse sand"@en ;
 .
 sp:field-texture-KS-A
@@ -3545,7 +3545,7 @@ sp:field-texture-KS-A
   skos:broader sp:field-texture-S-A ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSA" ;
+  skos:notation "KSA"^^xsd:string ;
   skos:prefLabel "Sapric coarse sand"@en ;
 .
 sp:field-texture-KS-I
@@ -3559,7 +3559,7 @@ sp:field-texture-KS-I
   skos:broader sp:field-texture-S-I ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSI" ;
+  skos:notation "KSI"^^xsd:string ;
   skos:prefLabel "Fibric coarse sand"@en ;
 .
 sp:field-texture-KSCL
@@ -3576,7 +3576,7 @@ sp:field-texture-KSCL
   skos:narrower sp:field-texture-KSCL-I ;
   skos:narrower sp:field-texture-KSCL-heavy ;
   skos:narrower sp:field-texture-KSCL-light ;
-  skos:notation "KSCL" ;
+  skos:notation "KSCL"^^xsd:string ;
   skos:prefLabel "Coarse sandy clay loam"@en ;
 .
 sp:field-texture-KSCL-A
@@ -3590,7 +3590,7 @@ sp:field-texture-KSCL-A
   skos:broader sp:field-texture-SCL-A ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSCLA" ;
+  skos:notation "KSCLA"^^xsd:string ;
   skos:prefLabel "Sapric coarse sandy clay loam"@en ;
 .
 sp:field-texture-KSCL-I
@@ -3604,7 +3604,7 @@ sp:field-texture-KSCL-I
   skos:broader sp:field-texture-SCL-I ;
   skos:definition "Behaviour of moist bolus: strongly coherent bolus, sandy to touch; medium-size sand grains visible in finer matrix; will form ribbon of 25–40 mm. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSCLI" ;
+  skos:notation "KSCLI"^^xsd:string ;
   skos:prefLabel "Fibric coarse sandy clay loam"@en ;
 .
 sp:field-texture-KSCL-heavy
@@ -3647,7 +3647,7 @@ sp:field-texture-KSHC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KSHC-A ;
   skos:narrower sp:field-texture-KSHC-I ;
-  skos:notation "KSHC" ;
+  skos:notation "KSHC"^^xsd:string ;
   skos:prefLabel "Coarse sandy heavy clay"@en ;
 .
 sp:field-texture-KSHC-A
@@ -3661,7 +3661,7 @@ sp:field-texture-KSHC-A
   skos:broader sp:field-texture-KSHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSHCA" ;
+  skos:notation "KSHCA"^^xsd:string ;
   skos:prefLabel "Sapric coarse sandy heavy clay"@en ;
 .
 sp:field-texture-KSHC-I
@@ -3675,7 +3675,7 @@ sp:field-texture-KSHC-I
   skos:broader sp:field-texture-KSHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSHCI" ;
+  skos:notation "KSHCI"^^xsd:string ;
   skos:prefLabel "Fibric coarse sandy heavy clay"@en ;
 .
 sp:field-texture-KSL
@@ -3690,7 +3690,7 @@ sp:field-texture-KSL
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KSL-A ;
   skos:narrower sp:field-texture-KSL-I ;
-  skos:notation "KSL" ;
+  skos:notation "KSL"^^xsd:string ;
   skos:prefLabel "Coarse sandy loam"@en ;
 .
 sp:field-texture-KSL-A
@@ -3704,7 +3704,7 @@ sp:field-texture-KSL-A
   skos:broader sp:field-texture-SL-A ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSLA" ;
+  skos:notation "KSLA"^^xsd:string ;
   skos:prefLabel "Sapric coarse sandy loam"@en ;
 .
 sp:field-texture-KSL-I
@@ -3718,7 +3718,7 @@ sp:field-texture-KSL-I
   skos:broader sp:field-texture-SL-I ;
   skos:definition "Behaviour of moist bolus: bolus coherent but very sandy to touch; will form ribbon of 15–25 mm; dominant sand grains are of medium size and are readily visible. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSLI" ;
+  skos:notation "KSLI"^^xsd:string ;
   skos:prefLabel "Fibric coarse sandy loam"@en ;
 .
 sp:field-texture-KSLC
@@ -3733,7 +3733,7 @@ sp:field-texture-KSLC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KSLC-A ;
   skos:narrower sp:field-texture-KSLC-I ;
-  skos:notation "KSLC" ;
+  skos:notation "KSLC"^^xsd:string ;
   skos:prefLabel "Coarse sandy light clay"@en ;
 .
 sp:field-texture-KSLC-A
@@ -3747,7 +3747,7 @@ sp:field-texture-KSLC-A
   skos:broader sp:field-texture-LC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSLCA" ;
+  skos:notation "KSLCA"^^xsd:string ;
   skos:prefLabel "Sapric coarse sandy light clay"@en ;
 .
 sp:field-texture-KSLC-I
@@ -3761,7 +3761,7 @@ sp:field-texture-KSLC-I
   skos:broader sp:field-texture-LC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSLCI" ;
+  skos:notation "KSLCI"^^xsd:string ;
   skos:prefLabel "Fibric coarse sandy light clay"@en ;
 .
 sp:field-texture-KSLMC
@@ -3776,7 +3776,7 @@ sp:field-texture-KSLMC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KSLMC-A ;
   skos:narrower sp:field-texture-KSLMC-I ;
-  skos:notation "KSLMC" ;
+  skos:notation "KSLMC"^^xsd:string ;
   skos:prefLabel "Coarse sandy light medium clay"@en ;
 .
 sp:field-texture-KSLMC-A
@@ -3790,7 +3790,7 @@ sp:field-texture-KSLMC-A
   skos:broader sp:field-texture-LMC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSLMCA" ;
+  skos:notation "KSLMCA"^^xsd:string ;
   skos:prefLabel "Sapric coarse sandy light medium clay"@en ;
 .
 sp:field-texture-KSLMC-I
@@ -3804,7 +3804,7 @@ sp:field-texture-KSLMC-I
   skos:broader sp:field-texture-LMC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSLMCI" ;
+  skos:notation "KSLMCI"^^xsd:string ;
   skos:prefLabel "Fibric coarse sandy light medium clay"@en ;
 .
 sp:field-texture-KSMC
@@ -3819,7 +3819,7 @@ sp:field-texture-KSMC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KSMC-A ;
   skos:narrower sp:field-texture-KSMC-I ;
-  skos:notation "KSMC" ;
+  skos:notation "KSMC"^^xsd:string ;
   skos:prefLabel "Coarse sandy medium clay"@en ;
 .
 sp:field-texture-KSMC-A
@@ -3833,7 +3833,7 @@ sp:field-texture-KSMC-A
   skos:broader sp:field-texture-MC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSMCA" ;
+  skos:notation "KSMCA"^^xsd:string ;
   skos:prefLabel "Sapric coarse sandy medium clay"@en ;
 .
 sp:field-texture-KSMC-I
@@ -3847,7 +3847,7 @@ sp:field-texture-KSMC-I
   skos:broader sp:field-texture-MC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSMCI" ;
+  skos:notation "KSMCI"^^xsd:string ;
   skos:prefLabel "Fibric coarse sandy medium clay"@en ;
 .
 sp:field-texture-KSMHC
@@ -3862,7 +3862,7 @@ sp:field-texture-KSMHC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KSMHC-A ;
   skos:narrower sp:field-texture-KSMHC-I ;
-  skos:notation "KSMHC" ;
+  skos:notation "KSMHC"^^xsd:string ;
   skos:prefLabel "Coarse sandy medium heavy clay"@en ;
 .
 sp:field-texture-KSMHC-A
@@ -3876,7 +3876,7 @@ sp:field-texture-KSMHC-A
   skos:broader sp:field-texture-MHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSMHCA" ;
+  skos:notation "KSMHCA"^^xsd:string ;
   skos:prefLabel "Sapric coarse sandy medium heavy clay"@en ;
 .
 sp:field-texture-KSMHC-I
@@ -3890,7 +3890,7 @@ sp:field-texture-KSMHC-I
   skos:broader sp:field-texture-MHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "KSMHCI" ;
+  skos:notation "KSMHCI"^^xsd:string ;
   skos:prefLabel "Fibric coarse sandy medium heavy clay"@en ;
 .
 sp:field-texture-L
@@ -3904,7 +3904,7 @@ sp:field-texture-L
   skos:definition "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
   skos:narrower sp:field-texture-L-A ;
   skos:narrower sp:field-texture-L-I ;
-  skos:notation "L" ;
+  skos:notation "L"^^xsd:string ;
   skos:prefLabel "Loam"@en ;
 .
 sp:field-texture-L-A
@@ -3918,7 +3918,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:broader sp:field-texture-L ;
   skos:definition "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "LA" ;
+  skos:notation "LA"^^xsd:string ;
   skos:prefLabel "Sapric loam"@en ;
 .
 sp:field-texture-L-I
@@ -3932,7 +3932,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader sp:field-texture-L ;
   skos:definition "Behaviour of moist bolus: bolus coherent and rather spongy; smooth feel when manipulated but with no obvious sandiness or ‘silkiness’; may be somewhat greasy to the touch if much organic matter present; will form ribbon of about 25 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "LI" ;
+  skos:notation "LI"^^xsd:string ;
   skos:prefLabel "Fibric loam"@en ;
 .
 sp:field-texture-LC
@@ -3950,7 +3950,7 @@ sp:field-texture-LC
   skos:narrower sp:field-texture-LC-I ;
   skos:narrower sp:field-texture-SLC ;
   skos:narrower sp:field-texture-ZLC ;
-  skos:notation "LC" ;
+  skos:notation "LC"^^xsd:string ;
   skos:prefLabel "Light clay"@en ;
 .
 sp:field-texture-LC-A
@@ -3967,7 +3967,7 @@ sp:field-texture-LC-A
   skos:narrower sp:field-texture-KSLC-A ;
   skos:narrower sp:field-texture-SLC-A ;
   skos:narrower sp:field-texture-ZLC-A ;
-  skos:notation "LCA" ;
+  skos:notation "LCA"^^xsd:string ;
   skos:prefLabel "Sapric light clay"@en ;
 .
 sp:field-texture-LC-I
@@ -3984,7 +3984,7 @@ sp:field-texture-LC-I
   skos:narrower sp:field-texture-KSLC-I ;
   skos:narrower sp:field-texture-SLC-I ;
   skos:narrower sp:field-texture-ZLC-I ;
-  skos:notation "LCI" ;
+  skos:notation "LCI"^^xsd:string ;
   skos:prefLabel "Fibric light clay"@en ;
 .
 sp:field-texture-LFS
@@ -3999,7 +3999,7 @@ sp:field-texture-LFS
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-LFS-A ;
   skos:narrower sp:field-texture-LFS-I ;
-  skos:notation "LFS" ;
+  skos:notation "LFS"^^xsd:string ;
   skos:prefLabel "Loamy fine sand"@en ;
 .
 sp:field-texture-LFS-A
@@ -4014,7 +4014,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:broader sp:field-texture-LS-A ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "LFSA" ;
+  skos:notation "LFSA"^^xsd:string ;
   skos:prefLabel "Sapric loamy fine sand"@en ;
 .
 sp:field-texture-LFS-I
@@ -4029,7 +4029,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader sp:field-texture-LS-I ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "LFSI" ;
+  skos:notation "LFSI"^^xsd:string ;
   skos:prefLabel "Fibric loamy fine sand"@en ;
 .
 sp:field-texture-LKS
@@ -4044,7 +4044,7 @@ sp:field-texture-LKS
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-LKS-A ;
   skos:narrower sp:field-texture-LKS-I ;
-  skos:notation "LKS" ;
+  skos:notation "LKS"^^xsd:string ;
   skos:prefLabel "Loamy coarse sand"@en ;
 .
 sp:field-texture-LKS-A
@@ -4059,7 +4059,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:broader sp:field-texture-LS-A ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "LKSA" ;
+  skos:notation "LKSA"^^xsd:string ;
   skos:prefLabel "Sapric loamy coarse sand"@en ;
 .
 sp:field-texture-LKS-I
@@ -4074,7 +4074,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader sp:field-texture-LS-I ;
   skos:definition "Behaviour of moist bolus: slight coherence; sand grains of medium size; can be sheared between thumb and forefinger to give minimal ribbon of about 5 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "LKSI" ;
+  skos:notation "LKSI"^^xsd:string ;
   skos:prefLabel "Fibric loamy coarse sand"@en ;
 .
 sp:field-texture-LMC
@@ -4092,7 +4092,7 @@ sp:field-texture-LMC
   skos:narrower sp:field-texture-LMC-I ;
   skos:narrower sp:field-texture-SLMC ;
   skos:narrower sp:field-texture-ZLMC ;
-  skos:notation "LMC" ;
+  skos:notation "LMC"^^xsd:string ;
   skos:prefLabel "Light medium clay"@en ;
 .
 sp:field-texture-LMC-A
@@ -4109,7 +4109,7 @@ sp:field-texture-LMC-A
   skos:narrower sp:field-texture-KSLMC-A ;
   skos:narrower sp:field-texture-SLMC-A ;
   skos:narrower sp:field-texture-ZLMC-A ;
-  skos:notation "LMCA" ;
+  skos:notation "LMCA"^^xsd:string ;
   skos:prefLabel "Sapric light medium clay"@en ;
 .
 sp:field-texture-LMC-I
@@ -4126,7 +4126,7 @@ sp:field-texture-LMC-I
   skos:narrower sp:field-texture-KSLMC-I ;
   skos:narrower sp:field-texture-SLMC-I ;
   skos:narrower sp:field-texture-ZLMC-I ;
-  skos:notation "LMCI" ;
+  skos:notation "LMCI"^^xsd:string ;
   skos:prefLabel "Fibric light medium clay"@en ;
 .
 sp:field-texture-LP
@@ -4138,7 +4138,7 @@ sp:field-texture-LP
   rdfs:label "Loamy peat" ;
   owl:sameAs sp:field-texture-LP ;
   skos:definition "bolus has obvious mineral particle content but no obvious sandiness to touch and is smooth, non-sticky when wet, and weakly coherent." ;
-  skos:notation "LP" ;
+  skos:notation "LP"^^xsd:string ;
   skos:prefLabel "Loamy peat"@en ;
 .
 sp:field-texture-LS
@@ -4154,7 +4154,7 @@ sp:field-texture-LS
   skos:narrower sp:field-texture-LKS ;
   skos:narrower sp:field-texture-LS-A ;
   skos:narrower sp:field-texture-LS-I ;
-  skos:notation "LS" ;
+  skos:notation "LS"^^xsd:string ;
   skos:prefLabel "Loamy sand"@en ;
 .
 sp:field-texture-LS-A
@@ -4170,7 +4170,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-LFS-A ;
   skos:narrower sp:field-texture-LKS-A ;
-  skos:notation "LSA" ;
+  skos:notation "LSA"^^xsd:string ;
   skos:prefLabel "Sapric loamy sand"@en ;
 .
 sp:field-texture-LS-I
@@ -4186,7 +4186,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-LFS-I ;
   skos:narrower sp:field-texture-LKS-I ;
-  skos:notation "LSI" ;
+  skos:notation "LSI"^^xsd:string ;
   skos:prefLabel "Fibric loamy sand"@en ;
 .
 sp:field-texture-MC
@@ -4204,7 +4204,7 @@ sp:field-texture-MC
   skos:narrower sp:field-texture-MC-I ;
   skos:narrower sp:field-texture-SMC ;
   skos:narrower sp:field-texture-ZMC ;
-  skos:notation "MC" ;
+  skos:notation "MC"^^xsd:string ;
   skos:prefLabel "Medium clay"@en ;
 .
 sp:field-texture-MC-A
@@ -4221,7 +4221,7 @@ sp:field-texture-MC-A
   skos:narrower sp:field-texture-KSMC-A ;
   skos:narrower sp:field-texture-SMC-A ;
   skos:narrower sp:field-texture-ZMC-A ;
-  skos:notation "MCA" ;
+  skos:notation "MCA"^^xsd:string ;
   skos:prefLabel "Sapric medium clay"@en ;
 .
 sp:field-texture-MC-I
@@ -4238,7 +4238,7 @@ sp:field-texture-MC-I
   skos:narrower sp:field-texture-KSMC-I ;
   skos:narrower sp:field-texture-SMC-I ;
   skos:narrower sp:field-texture-ZMC-I ;
-  skos:notation "MCI" ;
+  skos:notation "MCI"^^xsd:string ;
   skos:prefLabel "Fibric medium clay"@en ;
 .
 sp:field-texture-MHC
@@ -4256,7 +4256,7 @@ sp:field-texture-MHC
   skos:narrower sp:field-texture-MHC-I ;
   skos:narrower sp:field-texture-SMHC ;
   skos:narrower sp:field-texture-ZMHC ;
-  skos:notation "MHC" ;
+  skos:notation "MHC"^^xsd:string ;
   skos:prefLabel "Medium heavy clay"@en ;
 .
 sp:field-texture-MHC-A
@@ -4273,7 +4273,7 @@ sp:field-texture-MHC-A
   skos:narrower sp:field-texture-KSMHC-A ;
   skos:narrower sp:field-texture-SMHC-A ;
   skos:narrower sp:field-texture-ZMHC-A ;
-  skos:notation "MHCA" ;
+  skos:notation "MHCA"^^xsd:string ;
   skos:prefLabel "Sapric medium heavy clay"@en ;
 .
 sp:field-texture-MHC-I
@@ -4290,7 +4290,7 @@ sp:field-texture-MHC-I
   skos:narrower sp:field-texture-KSMHC-I ;
   skos:narrower sp:field-texture-SMHC-I ;
   skos:narrower sp:field-texture-ZMHC-I ;
-  skos:notation "MHCI" ;
+  skos:notation "MHCI"^^xsd:string ;
   skos:prefLabel "Fibric medium heavy clay"@en ;
 .
 sp:field-texture-S
@@ -4306,7 +4306,7 @@ sp:field-texture-S
   skos:narrower sp:field-texture-KS ;
   skos:narrower sp:field-texture-S-A ;
   skos:narrower sp:field-texture-S-I ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Sand"@en ;
 .
 sp:field-texture-S-A
@@ -4322,7 +4322,7 @@ Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in c
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FS-A ;
   skos:narrower sp:field-texture-KS-A ;
-  skos:notation "SA" ;
+  skos:notation "SA"^^xsd:string ;
   skos:prefLabel "Sapric sand"@en ;
 .
 sp:field-texture-S-I
@@ -4338,7 +4338,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FS-I ;
   skos:narrower sp:field-texture-KS-I ;
-  skos:notation "SI" ;
+  skos:notation "SI"^^xsd:string ;
   skos:prefLabel "Fibric sand"@en ;
 .
 sp:field-texture-SCL
@@ -4356,7 +4356,7 @@ sp:field-texture-SCL
   skos:narrower sp:field-texture-SCL-I ;
   skos:narrower sp:field-texture-SCL-heavy ;
   skos:narrower sp:field-texture-SCL-light ;
-  skos:notation "SCL" ;
+  skos:notation "SCL"^^xsd:string ;
   skos:prefLabel "Sandy clay loam"@en ;
 .
 sp:field-texture-SCL-A
@@ -4371,7 +4371,7 @@ sp:field-texture-SCL-A
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSCL-A ;
   skos:narrower sp:field-texture-KSCL-A ;
-  skos:notation "SCLA" ;
+  skos:notation "SCLA"^^xsd:string ;
   skos:prefLabel "Sapric sandy clay loam"@en ;
 .
 sp:field-texture-SCL-I
@@ -4386,7 +4386,7 @@ sp:field-texture-SCL-I
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSCL-I ;
   skos:narrower sp:field-texture-KSCL-I ;
-  skos:notation "SCLI" ;
+  skos:notation "SCLI"^^xsd:string ;
   skos:prefLabel "Fibric sandy clay loam"@en ;
 .
 sp:field-texture-SCL-heavy
@@ -4431,7 +4431,7 @@ sp:field-texture-SHC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-SHC-A ;
   skos:narrower sp:field-texture-SHC-I ;
-  skos:notation "SHC" ;
+  skos:notation "SHC"^^xsd:string ;
   skos:prefLabel "Sandy heavy clay"@en ;
 .
 sp:field-texture-SHC-A
@@ -4445,7 +4445,7 @@ sp:field-texture-SHC-A
   skos:broader sp:field-texture-SHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "SHCA" ;
+  skos:notation "SHCA"^^xsd:string ;
   skos:prefLabel "Sapric sandy heavy clay"@en ;
 .
 sp:field-texture-SHC-I
@@ -4459,7 +4459,7 @@ sp:field-texture-SHC-I
   skos:broader sp:field-texture-SHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "SHCI" ;
+  skos:notation "SHCI"^^xsd:string ;
   skos:prefLabel "Fibric sandy heavy clay"@en ;
 .
 sp:field-texture-SL
@@ -4475,7 +4475,7 @@ sp:field-texture-SL
   skos:narrower sp:field-texture-KSL ;
   skos:narrower sp:field-texture-SL-A ;
   skos:narrower sp:field-texture-SL-I ;
-  skos:notation "SL" ;
+  skos:notation "SL"^^xsd:string ;
   skos:prefLabel "Sandy loam"@en ;
 .
 sp:field-texture-SL-A
@@ -4490,7 +4490,7 @@ sp:field-texture-SL-A
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSL-A ;
   skos:narrower sp:field-texture-KSL-A ;
-  skos:notation "SLA" ;
+  skos:notation "SLA"^^xsd:string ;
   skos:prefLabel "Sapric sandy loam"@en ;
 .
 sp:field-texture-SL-I
@@ -4505,7 +4505,7 @@ sp:field-texture-SL-I
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSL-I ;
   skos:narrower sp:field-texture-KSL-I ;
-  skos:notation "SLI" ;
+  skos:notation "SLI"^^xsd:string ;
   skos:prefLabel "Fibric sandy loam"@en ;
 .
 sp:field-texture-SLC
@@ -4520,7 +4520,7 @@ sp:field-texture-SLC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-SLC-A ;
   skos:narrower sp:field-texture-SLC-I ;
-  skos:notation "SLC" ;
+  skos:notation "SLC"^^xsd:string ;
   skos:prefLabel "Sandy light clay"@en ;
 .
 sp:field-texture-SLC-A
@@ -4534,7 +4534,7 @@ sp:field-texture-SLC-A
   skos:broader sp:field-texture-SLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "SLCA" ;
+  skos:notation "SLCA"^^xsd:string ;
   skos:prefLabel "Sapric sandy light clay"@en ;
 .
 sp:field-texture-SLC-I
@@ -4548,7 +4548,7 @@ sp:field-texture-SLC-I
   skos:broader sp:field-texture-SLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "SLCI" ;
+  skos:notation "SLCI"^^xsd:string ;
   skos:prefLabel "Fibric sandy light clay"@en ;
 .
 sp:field-texture-SLMC
@@ -4563,7 +4563,7 @@ sp:field-texture-SLMC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-SLMC-A ;
   skos:narrower sp:field-texture-SLMC-I ;
-  skos:notation "SLMC" ;
+  skos:notation "SLMC"^^xsd:string ;
   skos:prefLabel "Sandy light medium clay"@en ;
 .
 sp:field-texture-SLMC-A
@@ -4577,7 +4577,7 @@ sp:field-texture-SLMC-A
   skos:broader sp:field-texture-SLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "SLMCA" ;
+  skos:notation "SLMCA"^^xsd:string ;
   skos:prefLabel "Sapric sandy light medium clay"@en ;
 .
 sp:field-texture-SLMC-I
@@ -4591,7 +4591,7 @@ sp:field-texture-SLMC-I
   skos:broader sp:field-texture-SLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "SLMCI" ;
+  skos:notation "SLMCI"^^xsd:string ;
   skos:prefLabel "Fibric sandy light medium clay"@en ;
 .
 sp:field-texture-SMC
@@ -4606,7 +4606,7 @@ sp:field-texture-SMC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-SMC-A ;
   skos:narrower sp:field-texture-SMC-I ;
-  skos:notation "SMC" ;
+  skos:notation "SMC"^^xsd:string ;
   skos:prefLabel "Sandy medium clay"@en ;
 .
 sp:field-texture-SMC-A
@@ -4620,7 +4620,7 @@ sp:field-texture-SMC-A
   skos:broader sp:field-texture-SMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "SMCA" ;
+  skos:notation "SMCA"^^xsd:string ;
   skos:prefLabel "Sapric sandy medium clay"@en ;
 .
 sp:field-texture-SMC-I
@@ -4634,7 +4634,7 @@ sp:field-texture-SMC-I
   skos:broader sp:field-texture-SMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "SMCI" ;
+  skos:notation "SMCI"^^xsd:string ;
   skos:prefLabel "Fibric sandy medium clay"@en ;
 .
 sp:field-texture-SMHC
@@ -4649,7 +4649,7 @@ sp:field-texture-SMHC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-SMHC-A ;
   skos:narrower sp:field-texture-SMHC-I ;
-  skos:notation "SMHC" ;
+  skos:notation "SMHC"^^xsd:string ;
   skos:prefLabel "Sandy medium heavy clay"@en ;
 .
 sp:field-texture-SMHC-A
@@ -4663,7 +4663,7 @@ sp:field-texture-SMHC-A
   skos:broader sp:field-texture-SMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "SMHCA" ;
+  skos:notation "SMHCA"^^xsd:string ;
   skos:prefLabel "Sapric sandy medium heavy clay"@en ;
 .
 sp:field-texture-SMHC-I
@@ -4677,7 +4677,7 @@ sp:field-texture-SMHC-I
   skos:broader sp:field-texture-SMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "SMHCI" ;
+  skos:notation "SMHCI"^^xsd:string ;
   skos:prefLabel "Fibric sandy medium heavy clay"@en ;
 .
 sp:field-texture-SP
@@ -4689,7 +4689,7 @@ sp:field-texture-SP
   rdfs:label "Sandy peat" ;
   owl:sameAs sp:field-texture-SP ;
   skos:definition "bolus is sandy to touch." ;
-  skos:notation "SP" ;
+  skos:notation "SP"^^xsd:string ;
   skos:prefLabel "Sandy peat"@en ;
 .
 sp:field-texture-ZCL
@@ -4705,7 +4705,7 @@ sp:field-texture-ZCL
   skos:narrower sp:field-texture-ZCL-I ;
   skos:narrower sp:field-texture-ZCL-heavy ;
   skos:narrower sp:field-texture-ZCL-light ;
-  skos:notation "ZCL" ;
+  skos:notation "ZCL"^^xsd:string ;
   skos:prefLabel "Silty clay loam"@en ;
 .
 sp:field-texture-ZCL-A
@@ -4718,7 +4718,7 @@ sp:field-texture-ZCL-A
   skos:broader sp:field-texture-ZCL ;
   skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZCLA" ;
+  skos:notation "ZCLA"^^xsd:string ;
   skos:prefLabel "Sapric silty clay loam"@en ;
 .
 sp:field-texture-ZCL-I
@@ -4731,7 +4731,7 @@ sp:field-texture-ZCL-I
   skos:broader sp:field-texture-ZCL ;
   skos:definition "Behaviour of moist bolus: coherent smooth bolus, plastic and often silky to the touch; will form ribbon of 40–50 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZCLI" ;
+  skos:notation "ZCLI"^^xsd:string ;
   skos:prefLabel "Fibric silty clay loam"@en ;
 .
 sp:field-texture-ZCL-heavy
@@ -4772,7 +4772,7 @@ sp:field-texture-ZHC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-ZHC-A ;
   skos:narrower sp:field-texture-ZHC-I ;
-  skos:notation "ZHC" ;
+  skos:notation "ZHC"^^xsd:string ;
   skos:prefLabel "Silty heavy clay"@en ;
 .
 sp:field-texture-ZHC-A
@@ -4786,7 +4786,7 @@ sp:field-texture-ZHC-A
   skos:broader sp:field-texture-ZHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZHCA" ;
+  skos:notation "ZHCA"^^xsd:string ;
   skos:prefLabel "Sapric silty heavy clay"@en ;
 .
 sp:field-texture-ZHC-I
@@ -4800,7 +4800,7 @@ sp:field-texture-ZHC-I
   skos:broader sp:field-texture-ZHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZHCI" ;
+  skos:notation "ZHCI"^^xsd:string ;
   skos:prefLabel "Fibric silty heavy clay"@en ;
 .
 sp:field-texture-ZL
@@ -4814,7 +4814,7 @@ sp:field-texture-ZL
   skos:definition "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
   skos:narrower sp:field-texture-ZL-A ;
   skos:narrower sp:field-texture-ZL-I ;
-  skos:notation "ZL" ;
+  skos:notation "ZL"^^xsd:string ;
   skos:prefLabel "Silty loam"@en ;
 .
 sp:field-texture-ZL-A
@@ -4827,7 +4827,7 @@ sp:field-texture-ZL-A
   skos:broader sp:field-texture-ZL ;
   skos:definition "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZLA" ;
+  skos:notation "ZLA"^^xsd:string ;
   skos:prefLabel "Sapric silty loam"@en ;
 .
 sp:field-texture-ZL-I
@@ -4840,7 +4840,7 @@ sp:field-texture-ZL-I
   skos:broader sp:field-texture-ZL ;
   skos:definition "Behaviour of moist bolus: coherent bolus; very smooth to often silky when manipulated; will form ribbon of about 25 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZLI" ;
+  skos:notation "ZLI"^^xsd:string ;
   skos:prefLabel "Fibric silty loam"@en ;
 .
 sp:field-texture-ZLC
@@ -4855,7 +4855,7 @@ sp:field-texture-ZLC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-ZLC-A ;
   skos:narrower sp:field-texture-ZLC-I ;
-  skos:notation "ZLC" ;
+  skos:notation "ZLC"^^xsd:string ;
   skos:prefLabel "Silty light clay"@en ;
 .
 sp:field-texture-ZLC-A
@@ -4869,7 +4869,7 @@ sp:field-texture-ZLC-A
   skos:broader sp:field-texture-ZLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZLCA" ;
+  skos:notation "ZLCA"^^xsd:string ;
   skos:prefLabel "Sapric silty light clay"@en ;
 .
 sp:field-texture-ZLC-I
@@ -4883,7 +4883,7 @@ sp:field-texture-ZLC-I
   skos:broader sp:field-texture-ZLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZLCI" ;
+  skos:notation "ZLCI"^^xsd:string ;
   skos:prefLabel "Fibric silty light clay"@en ;
 .
 sp:field-texture-ZLMC
@@ -4898,7 +4898,7 @@ sp:field-texture-ZLMC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-ZLMC-A ;
   skos:narrower sp:field-texture-ZLMC-I ;
-  skos:notation "ZLMC" ;
+  skos:notation "ZLMC"^^xsd:string ;
   skos:prefLabel "Silty light medium clay"@en ;
 .
 sp:field-texture-ZLMC-A
@@ -4912,7 +4912,7 @@ sp:field-texture-ZLMC-A
   skos:broader sp:field-texture-ZLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZLMCA" ;
+  skos:notation "ZLMCA"^^xsd:string ;
   skos:prefLabel "Sapric silty light medium clay"@en ;
 .
 sp:field-texture-ZLMC-I
@@ -4926,7 +4926,7 @@ sp:field-texture-ZLMC-I
   skos:broader sp:field-texture-ZLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZLMCI" ;
+  skos:notation "ZLMCI"^^xsd:string ;
   skos:prefLabel "Fibric silty light medium clay"@en ;
 .
 sp:field-texture-ZMC
@@ -4941,7 +4941,7 @@ sp:field-texture-ZMC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-ZMC-A ;
   skos:narrower sp:field-texture-ZMC-I ;
-  skos:notation "ZMC" ;
+  skos:notation "ZMC"^^xsd:string ;
   skos:prefLabel "Silty medium clay"@en ;
 .
 sp:field-texture-ZMC-A
@@ -4955,7 +4955,7 @@ sp:field-texture-ZMC-A
   skos:broader sp:field-texture-ZMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZMCA" ;
+  skos:notation "ZMCA"^^xsd:string ;
   skos:prefLabel "Sapric silty medium clay"@en ;
 .
 sp:field-texture-ZMC-I
@@ -4969,7 +4969,7 @@ sp:field-texture-ZMC-I
   skos:broader sp:field-texture-ZMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZMCI" ;
+  skos:notation "ZMCI"^^xsd:string ;
   skos:prefLabel "Fibric silty medium clay"@en ;
 .
 sp:field-texture-ZMHC
@@ -4984,7 +4984,7 @@ sp:field-texture-ZMHC
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-ZMHC-A ;
   skos:narrower sp:field-texture-ZMHC-I ;
-  skos:notation "ZMHC" ;
+  skos:notation "ZMHC"^^xsd:string ;
   skos:prefLabel "Silty medium heavy clay"@en ;
 .
 sp:field-texture-ZMHC-A
@@ -4998,7 +4998,7 @@ sp:field-texture-ZMHC-A
   skos:broader sp:field-texture-ZMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZMHCA" ;
+  skos:notation "ZMHCA"^^xsd:string ;
   skos:prefLabel "Sapric silty medium heavy clay"@en ;
 .
 sp:field-texture-ZMHC-I
@@ -5012,7 +5012,7 @@ sp:field-texture-ZMHC-I
   skos:broader sp:field-texture-ZMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "ZMHCI" ;
+  skos:notation "ZMHCI"^^xsd:string ;
   skos:prefLabel "Fibric silty medium heavy clay"@en ;
 .
 sp:field-texture-mineral
@@ -5108,7 +5108,7 @@ sp:horizon-A1
   skos:broader sp:horizons-A ;
   skos:definition "mineral horizon at or near the soil surface with some accumulation of humified organic matter, usually darker in colour than underlying horizons and with maximum biologic activity for any given soil profile. It may be divided into subhorizons and of these the A11 horizon is usually the more organic, or darker coloured uppermost portion. The A12 differs in either hue, value or chroma from the A11, usually being lighter in colour. It is not pale enough to qualify as an A2 horizon. The A1 may be further divided into subhorizons if necessary (e.g. A13, A14)." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "A1" ;
+  skos:notation "A1"^^xsd:string ;
   skos:prefLabel "A1 horizon"@en ;
 .
 sp:horizon-A2
@@ -5120,7 +5120,7 @@ sp:horizon-A2
   skos:broader sp:horizons-A ;
   skos:definition "mineral horizon having, either alone or in combination, less organic matter, sesquioxides, or silicate clay than immediately adjacent horizons. It is usually differentiated from the A1 horizon by its paler colour, that is, by having colour value at least one unit higher and usually less organic matter. It is usually differentiated from the B horizon by having colour value at least one unit higher and chroma at least two units lower, by coarser texture or by a combination of these attributes." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "A2" ;
+  skos:notation "A2"^^xsd:string ;
   skos:prefLabel "A2 horizon"@en ;
 .
 sp:horizon-A3
@@ -5132,7 +5132,7 @@ sp:horizon-A3
   skos:broader sp:horizons-A ;
   skos:definition "transitional horizon between A and B, which is dominated by properties characteristic of an overlying A1 or A2." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "A3" ;
+  skos:notation "A3"^^xsd:string ;
   skos:prefLabel "A3 horizon"@en ;
 .
 sp:horizon-B1
@@ -5144,7 +5144,7 @@ sp:horizon-B1
   skos:broader sp:horizons-B ;
   skos:definition "transitional horizon between A and B, which is dominated by properties characteristic of an underlying B2." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "B1" ;
+  skos:notation "B1"^^xsd:string ;
   skos:prefLabel "B1 horizon"@en ;
 .
 sp:horizon-B2
@@ -5164,7 +5164,7 @@ It may be divided into subhorizons, for example B21, B22, B23.""" ;
 It may be divided into subhorizons, for example B21, B22, B23.
 """ ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "B2" ;
+  skos:notation "B2"^^xsd:string ;
   skos:prefLabel "B2 horizon"@en ;
 .
 sp:horizon-B3
@@ -5176,7 +5176,7 @@ sp:horizon-B3
   skos:broader sp:horizons-B ;
   skos:definition "transitional horizon between B and C or other subsolum material in which properties characteristic of an overlying B2 dominate, but intergrade to those of the underlying material." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "B3" ;
+  skos:notation "B3"^^xsd:string ;
   skos:prefLabel "B3 horizon"@en ;
 .
 sp:horizon-O1
@@ -5188,7 +5188,7 @@ sp:horizon-O1
   skos:broader sp:horizons-O ;
   skos:definition "consists of undecomposed organic debris, usually dominated by leaves and twigs. The original form of the debris can be recognised with the naked eye." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "O1" ;
+  skos:notation "O1"^^xsd:string ;
   skos:prefLabel "O1 horizon"@en ;
 .
 sp:horizon-O2
@@ -5200,7 +5200,7 @@ sp:horizon-O2
   skos:broader sp:horizons-O ;
   skos:definition "consists of organic debris in various stages of decomposition. The original form of most of the debris cannot be recognised with the naked eye." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "O2" ;
+  skos:notation "O2"^^xsd:string ;
   skos:prefLabel "O2 horizon"@en ;
 .
 sp:horizon-P1
@@ -5212,7 +5212,7 @@ sp:horizon-P1
   skos:broader sp:horizons-P ;
   skos:definition "consists primarily of undecomposed or weakly decomposed organic material (fibric peat). Plant remains are distinct and readily identifiable." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "P1" ;
+  skos:notation "P1"^^xsd:string ;
   skos:prefLabel "P1 horizon"@en ;
 .
 sp:horizon-P2
@@ -5224,7 +5224,7 @@ sp:horizon-P2
   skos:broader sp:horizons-P ;
   skos:definition "consists primarily of moderately to completely decomposed organic material (hemic to sapric peat). Plant remains vary from being difficult to identify to completely amorphous." ;
   skos:inScheme asls:soil-profile ;
-  skos:notation "P2" ;
+  skos:notation "P2"^^xsd:string ;
   skos:prefLabel "P2 horizon"@en ;
 .
 sp:horizon-boundary-distinctness
@@ -5250,7 +5250,7 @@ sp:horizon-boundary-distinctness-A
   rdfs:label "Abrupt" ;
   owl:sameAs sp:horizon-boundary-distinctness-A ;
   skos:definition "width of boundary is 5-20 mm." ;
-  skos:notation "A" ;
+  skos:notation "A"^^xsd:string ;
   skos:prefLabel "Abrupt"@en ;
 .
 sp:horizon-boundary-distinctness-C
@@ -5261,7 +5261,7 @@ sp:horizon-boundary-distinctness-C
   rdfs:label "Clear" ;
   owl:sameAs sp:horizon-boundary-distinctness-C ;
   skos:definition "width of boundary is 20-50 mm." ;
-  skos:notation "C" ;
+  skos:notation "C"^^xsd:string ;
   skos:prefLabel "Clear"@en ;
 .
 sp:horizon-boundary-distinctness-D
@@ -5272,7 +5272,7 @@ sp:horizon-boundary-distinctness-D
   rdfs:label "Diffuse" ;
   owl:sameAs sp:horizon-boundary-distinctness-D ;
   skos:definition "width of boundary is >100 mm." ;
-  skos:notation "D" ;
+  skos:notation "D"^^xsd:string ;
   skos:prefLabel "Diffuse"@en ;
 .
 sp:horizon-boundary-distinctness-G
@@ -5283,7 +5283,7 @@ sp:horizon-boundary-distinctness-G
   rdfs:label "Gradual" ;
   owl:sameAs sp:horizon-boundary-distinctness-G ;
   skos:definition "width of boundary is 50-100 mm." ;
-  skos:notation "G" ;
+  skos:notation "G"^^xsd:string ;
   skos:prefLabel "Gradual"@en ;
 .
 sp:horizon-boundary-distinctness-S
@@ -5294,7 +5294,7 @@ sp:horizon-boundary-distinctness-S
   rdfs:label "Sharp" ;
   owl:sameAs sp:horizon-boundary-distinctness-S ;
   skos:definition "width of boundary is <5 mm." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Sharp"@en ;
 .
 sp:horizon-boundary-shape
@@ -5320,7 +5320,7 @@ sp:horizon-boundary-shape-B
   rdfs:label "Broken" ;
   owl:sameAs sp:horizon-boundary-shape-B ;
   skos:definition "discontinuous." ;
-  skos:notation "B" ;
+  skos:notation "B"^^xsd:string ;
   skos:prefLabel "Broken"@en ;
 .
 sp:horizon-boundary-shape-I
@@ -5331,7 +5331,7 @@ sp:horizon-boundary-shape-I
   rdfs:label "Irregular" ;
   owl:sameAs sp:horizon-boundary-shape-I ;
   skos:definition "undulations with depressions deeper than they are wide." ;
-  skos:notation "I" ;
+  skos:notation "I"^^xsd:string ;
   skos:prefLabel "Irregular"@en ;
 .
 sp:horizon-boundary-shape-S
@@ -5342,7 +5342,7 @@ sp:horizon-boundary-shape-S
   rdfs:label "Smooth" ;
   owl:sameAs sp:horizon-boundary-shape-S ;
   skos:definition "almost a plane surface." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Smooth"@en ;
 .
 sp:horizon-boundary-shape-T
@@ -5353,7 +5353,7 @@ sp:horizon-boundary-shape-T
   rdfs:label "Tongued" ;
   owl:sameAs sp:horizon-boundary-shape-T ;
   skos:definition "depressions considerably deeper than they are wide." ;
-  skos:notation "T" ;
+  skos:notation "T"^^xsd:string ;
   skos:prefLabel "Tongued"@en ;
 .
 sp:horizon-boundary-shape-W
@@ -5364,7 +5364,7 @@ sp:horizon-boundary-shape-W
   rdfs:label "Wavy" ;
   owl:sameAs sp:horizon-boundary-shape-W ;
   skos:definition "undulations with depressions wider than they are deep." ;
-  skos:notation "W" ;
+  skos:notation "W"^^xsd:string ;
   skos:prefLabel "Wavy"@en ;
 .
 sp:horizon-prefix
@@ -5417,7 +5417,7 @@ sp:horizon-suffix-b
   rdfs:label "Horizon suffix b" ;
   owl:sameAs sp:horizon-suffix-b ;
   skos:definition "used for buried soil horizons. Used in mineral soils only. The suffix is written last, for example 2B2b." ;
-  skos:notation "b" ;
+  skos:notation "b"^^xsd:string ;
   skos:prefLabel "Horizon suffix b"@en ;
 .
 sp:horizon-suffix-c
@@ -5428,7 +5428,7 @@ sp:horizon-suffix-c
   rdfs:label "Horizon suffix c" ;
   owl:sameAs sp:horizon-suffix-c ;
   skos:definition "used for horizons with accumulation of concretions or nodules of iron and/or aluminium and/or manganese, as in B2c." ;
-  skos:notation "c" ;
+  skos:notation "c"^^xsd:string ;
   skos:prefLabel "Horizon suffix c"@en ;
 .
 sp:horizon-suffix-d
@@ -5439,7 +5439,7 @@ sp:horizon-suffix-d
   rdfs:label "Horizon suffix d" ;
   owl:sameAs sp:horizon-suffix-d ;
   skos:definition "used for densipans. Very fine, sandy, earthy pan." ;
-  skos:notation "d" ;
+  skos:notation "d"^^xsd:string ;
   skos:prefLabel "Horizon suffix d"@en ;
 .
 sp:horizon-suffix-e
@@ -5450,7 +5450,7 @@ sp:horizon-suffix-e
   rdfs:label "Horizon suffix e" ;
   owl:sameAs sp:horizon-suffix-e ;
   skos:definition "used for conspicuously bleached horizons, for example A2e." ;
-  skos:notation "e" ;
+  skos:notation "e"^^xsd:string ;
   skos:prefLabel "Horizon suffix e"@en ;
 .
 sp:horizon-suffix-f
@@ -5461,7 +5461,7 @@ sp:horizon-suffix-f
   rdfs:label "Horizon suffix f" ;
   owl:sameAs sp:horizon-suffix-f ;
   skos:definition "used when faunal accumulation, such as worm casts, dominates certain A1 horizons, for example A1f in some soils under rainforest." ;
-  skos:notation "f" ;
+  skos:notation "f"^^xsd:string ;
   skos:prefLabel "Horizon suffix f"@en ;
 .
 sp:horizon-suffix-g
@@ -5472,7 +5472,7 @@ sp:horizon-suffix-g
   rdfs:label "Horizon suffix g" ;
   owl:sameAs sp:horizon-suffix-g ;
   skos:definition "indicates strong gleying, as in B2g. Gleying is indicative of permanent or periodic intense reduction due to wetness; it is characterised by greyish, bluish or greenish colours, generally of low chroma. Mottling may be prominent; mottles may have reddish hues and higher chromas if oxidising conditions occur periodically. Roots may have rusty or yellowish outlines; hence horizons such as A1g can occur." ;
-  skos:notation "g" ;
+  skos:notation "g"^^xsd:string ;
   skos:prefLabel "Horizon suffix g"@en ;
 .
 sp:horizon-suffix-h
@@ -5483,7 +5483,7 @@ sp:horizon-suffix-h
   rdfs:label "Horizon suffix h" ;
   owl:sameAs sp:horizon-suffix-h ;
   skos:definition "used where horizons contain accumulation of amorphous, organic matter – aluminium complexes in which iron contents are very low. The dominantly organic matter – aluminium  complexes occur as discrete pellets between clean sand grains or completely fill the voids; occasionally they may coat sand grains. Such horizons may be soft or cemented and form the characteristic B horizon of poorly drained soils known as podzols or Podosols." ;
-  skos:notation "h" ;
+  skos:notation "h"^^xsd:string ;
   skos:prefLabel "Horizon suffix h"@en ;
 .
 sp:horizon-suffix-j
@@ -5494,7 +5494,7 @@ sp:horizon-suffix-j
   rdfs:label "Horizon suffix j" ;
   owl:sameAs sp:horizon-suffix-j ;
   skos:definition "used for sporadically bleached horizons, for example A2j." ;
-  skos:notation "j" ;
+  skos:notation "j"^^xsd:string ;
   skos:prefLabel "Horizon suffix j"@en ;
 .
 sp:horizon-suffix-k
@@ -5506,7 +5506,7 @@ sp:horizon-suffix-k
   rdfs:label "Horizon suffix k" ;
   owl:sameAs sp:horizon-suffix-k ;
   skos:definition "used for horizons with accumulation of carbonates, commonly calcium carbonate, as in B2k." ;
-  skos:notation "k" ;
+  skos:notation "k"^^xsd:string ;
   skos:prefLabel "Horizon suffix k"@en ;
 .
 sp:horizon-suffix-m
@@ -5517,7 +5517,7 @@ sp:horizon-suffix-m
   rdfs:label "Horizon suffix m" ;
   owl:sameAs sp:horizon-suffix-m ;
   skos:definition "used for horizons with strong cementation or induration. It is confined to irreversibly cemented horizons that are essentially continuous (more than 90%) though they may be fractured." ;
-  skos:notation "m" ;
+  skos:notation "m"^^xsd:string ;
   skos:prefLabel "Horizon suffix m"@en ;
 .
 sp:horizon-suffix-p
@@ -5531,7 +5531,7 @@ An Ap horizon may be subdivided into subhorizons (e.g. Ap1, Ap2).""" ;
   owl:sameAs sp:horizon-suffix-p ;
   skos:definition """used for horizons where ploughing, tillage practices or other disturbance by humans has occurred, for example deep ripping. This suffix is used only with A, as in Ap2. Where the plough layer clearly includes what was once B horizon and it is no longer possible to infer with any reliability what the texture and depth of the A horizon was, the plough layer is designated Ap.
 An Ap horizon may be subdivided into subhorizons (e.g. Ap1, Ap2).""" ;
-  skos:notation "p" ;
+  skos:notation "p"^^xsd:string ;
   skos:prefLabel "Horizon suffix p"@en ;
 .
 sp:horizon-suffix-q
@@ -5542,7 +5542,7 @@ sp:horizon-suffix-q
   rdfs:label "Horizon suffix q" ;
   owl:sameAs sp:horizon-suffix-q ;
   skos:definition "used for horizons with accumulation of secondary silica. If silica cementation is continuous or nearly continuous, ‘qm’ is used." ;
-  skos:notation "q" ;
+  skos:notation "q"^^xsd:string ;
   skos:prefLabel "Horizon suffix q"@en ;
 .
 sp:horizon-suffix-r
@@ -5553,7 +5553,7 @@ sp:horizon-suffix-r
   rdfs:label "Horizon suffix r" ;
   owl:sameAs sp:horizon-suffix-r ;
   skos:definition "used for horizons with layers of weathered rock (including saprolite) that, although consolidated, can be dug with hand tools." ;
-  skos:notation "r" ;
+  skos:notation "r"^^xsd:string ;
   skos:prefLabel "Horizon suffix r"@en ;
 .
 sp:horizon-suffix-s
@@ -5564,7 +5564,7 @@ sp:horizon-suffix-s
   rdfs:label "Horizon suffix s" ;
   owl:sameAs sp:horizon-suffix-s ;
   skos:definition "used for horizons with an accumulation of sesquioxide – organic matter complexes in which iron is dominant relative to aluminium. These complexes coat sand grains, occur as discrete pellets, or, with moderate amounts of iron, may fill voids forming cemented patches. The content of organic matter is variable and its distribution is often irregular. The suffix ‘s’ is often used in combination with ‘h’ (as in Bhs) where both organic and iron components are significant; s or Bhs horizons may be soft or hard and form the characteristic B horizon of free-draining podzols or Podosols." ;
-  skos:notation "s" ;
+  skos:notation "s"^^xsd:string ;
   skos:prefLabel "Horizon suffix s"@en ;
 .
 sp:horizon-suffix-t
@@ -5575,7 +5575,7 @@ sp:horizon-suffix-t
   rdfs:label "Horizon suffix t" ;
   owl:sameAs sp:horizon-suffix-t ;
   skos:definition "used for horizons with accumulation of silicate clay (from German ton, clay). Different mechanisms (such as illuviation, formation in situ) may be responsible for the clay accumulation, but these may be difficult to confirm. This suffix is used only with the B, for example B2t, to indicate the nature of the B." ;
-  skos:notation "t" ;
+  skos:notation "t"^^xsd:string ;
   skos:prefLabel "Horizon suffix t"@en ;
 .
 sp:horizon-suffix-w
@@ -5586,7 +5586,7 @@ sp:horizon-suffix-w
   rdfs:label "Horizon suffix w" ;
   owl:sameAs sp:horizon-suffix-w ;
   skos:definition "used where development of colour and/or structure, or both, in the B horizon is observed, with little or no accumulation of sesquioxide – organic matter complexes." ;
-  skos:notation "w" ;
+  skos:notation "w"^^xsd:string ;
   skos:prefLabel "Horizon suffix w"@en ;
 .
 sp:horizon-suffix-x
@@ -5597,7 +5597,7 @@ sp:horizon-suffix-x
   rdfs:label "Horizon suffix x" ;
   owl:sameAs sp:horizon-suffix-x ;
   skos:definition "used for fragipans or earthy pans. A horizon with high bulk density relative to the horizon above, seemingly cemented when dry, but showing a moderate to weak cementation when moist." ;
-  skos:notation "x" ;
+  skos:notation "x"^^xsd:string ;
   skos:prefLabel "Horizon suffix x"@en ;
 .
 sp:horizon-suffix-y
@@ -5609,7 +5609,7 @@ sp:horizon-suffix-y
   rdfs:label "Horizon suffix y" ;
   owl:sameAs sp:horizon-suffix-y ;
   skos:definition "used for horizons with accumulation of calcium sulphate (gypsum), as in B21, B22." ;
-  skos:notation "y" ;
+  skos:notation "y"^^xsd:string ;
   skos:prefLabel "Horizon suffix y"@en ;
 .
 sp:horizon-suffix-z
@@ -5620,7 +5620,7 @@ sp:horizon-suffix-z
   rdfs:label "Horizon suffix z" ;
   owl:sameAs sp:horizon-suffix-z ;
   skos:definition "used for horizons with accumulation of salts more soluble than calcium sulphate and calcium carbonate." ;
-  skos:notation "z" ;
+  skos:notation "z"^^xsd:string ;
   skos:prefLabel "Horizon suffix z"@en ;
 .
 sp:horizons-A
@@ -5634,7 +5634,7 @@ sp:horizons-A
   skos:narrower sp:horizon-A1 ;
   skos:narrower sp:horizon-A2 ;
   skos:narrower sp:horizon-A3 ;
-  skos:notation "A" ;
+  skos:notation "A"^^xsd:string ;
   skos:prefLabel "A horizons"@en ;
 .
 sp:horizons-B
@@ -5648,7 +5648,7 @@ sp:horizons-B
   skos:narrower sp:horizon-B1 ;
   skos:narrower sp:horizon-B2 ;
   skos:narrower sp:horizon-B3 ;
-  skos:notation "B" ;
+  skos:notation "B"^^xsd:string ;
   skos:prefLabel "B horizons"@en ;
 .
 sp:horizons-C
@@ -5659,7 +5659,7 @@ sp:horizons-C
   rdfs:label "C horizons" ;
   owl:sameAs sp:horizons-C ;
   skos:definition "These are layers below the solum (AB profile) of consolidated or unconsolidated material, usually partially weathered, little affected by pedogenic processes, and either like or unlike the material from which the solum presumably formed. The C horizon lacks properties characteristic of O, P, A, B or D horizons. It is recognised by its lack of pedological development and/or the presence of geologic organisation frequently expressed as sedimentary laminae or as ghost rock structure as in saprolite. C horizons include consolidated rock and sediments that, when moist, can be dug with hand tools. Rock strength is generally weak or weaker. Because of their nature, C horizons may alternatively be described as substrate." ;
-  skos:notation "C" ;
+  skos:notation "C"^^xsd:string ;
   skos:prefLabel "C horizons"@en ;
 .
 sp:horizons-D
@@ -5670,7 +5670,7 @@ sp:horizons-D
   rdfs:label "D horizons" ;
   owl:sameAs sp:horizons-D ;
   skos:definition "These are considered to be any soil material below the solum that is unlike the solum in its general character, is not C horizon, and cannot be given reliable horizon designation as with ‘Buried soils’ or ‘Lithologic discontinuities’. Thus a D horizon may be recognised by the contrast in pedologic organisation between it and the overlying horizons." ;
-  skos:notation "D" ;
+  skos:notation "D"^^xsd:string ;
   skos:prefLabel "D horizons"@en ;
 .
 sp:horizons-O
@@ -5683,7 +5683,7 @@ sp:horizons-O
   skos:definition "These are horizons dominated by organic materials in varying stages of decomposition that have accumulated on the mineral soil surface. They are usually divided into O1 and O2 horizons." ;
   skos:narrower sp:horizon-O1 ;
   skos:narrower sp:horizon-O2 ;
-  skos:notation "O" ;
+  skos:notation "O"^^xsd:string ;
   skos:prefLabel "O horizons"@en ;
 .
 sp:horizons-P
@@ -5697,7 +5697,7 @@ sp:horizons-P
   skos:definition "These are horizons dominated by organic materials in various stages of decomposition that have accumulated either under water or in conditions of excessive wetness. They have long been known as peat. The organic material consists of the remains of plants that have been growing in place." ;
   skos:narrower sp:horizon-P1 ;
   skos:narrower sp:horizon-P2 ;
-  skos:notation "P" ;
+  skos:notation "P"^^xsd:string ;
   skos:prefLabel "P horizons"@en ;
 .
 sp:horizons-R
@@ -5708,7 +5708,7 @@ sp:horizons-R
   rdfs:label "R horizons" ;
   owl:sameAs sp:horizons-R ;
   skos:definition "These horizons consist of continuous masses (not boulders) of moderately strong to very strong rock (excluding pans) such as bedrock. R horizons may have cracks but these are few enough and/or fine enough that few roots penetrate and there is no significant displacement of rock. It is usually too strong to dig with hand tools, even when moist." ;
-  skos:notation "R" ;
+  skos:notation "R"^^xsd:string ;
   skos:prefLabel "R horizons"@en ;
 .
 sp:horizons-bleached
@@ -5800,7 +5800,7 @@ sp:mottle-abundance-0
   rdfs:label "No mottles or other colour patterns" ;
   owl:sameAs sp:mottle-abundance-0 ;
   skos:definition "0%" ;
-  skos:notation "0" ;
+  skos:notation "0"^^xsd:string ;
   skos:prefLabel "No mottles or other colour patterns"@en ;
 .
 sp:mottle-abundance-1
@@ -5812,7 +5812,7 @@ sp:mottle-abundance-1
   rdfs:label "Very few" ;
   owl:sameAs sp:mottle-abundance-1 ;
   skos:definition "<2%" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Very few"@en ;
 .
 sp:mottle-abundance-2
@@ -5824,7 +5824,7 @@ sp:mottle-abundance-2
   rdfs:label "Few" ;
   owl:sameAs sp:mottle-abundance-2 ;
   skos:definition "2-10%" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Few"@en ;
 .
 sp:mottle-abundance-3
@@ -5836,7 +5836,7 @@ sp:mottle-abundance-3
   rdfs:label "Common" ;
   owl:sameAs sp:mottle-abundance-3 ;
   skos:definition "10-20%" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Common"@en ;
 .
 sp:mottle-abundance-4
@@ -5848,7 +5848,7 @@ sp:mottle-abundance-4
   rdfs:label "Many" ;
   owl:sameAs sp:mottle-abundance-4 ;
   skos:definition "20-50%" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Many"@en ;
 .
 sp:mottle-boundary-C
@@ -5860,7 +5860,7 @@ sp:mottle-boundary-C
   rdfs:label "Clear" ;
   owl:sameAs sp:mottle-boundary-C ;
   skos:definition "colour transition over less than 2 mm" ;
-  skos:notation "C" ;
+  skos:notation "C"^^xsd:string ;
   skos:prefLabel "Clear"@en ;
 .
 sp:mottle-boundary-D
@@ -5872,7 +5872,7 @@ sp:mottle-boundary-D
   rdfs:label "Diffuse" ;
   owl:sameAs sp:mottle-boundary-D ;
   skos:definition "colour transition over 2 mm or more" ;
-  skos:notation "D" ;
+  skos:notation "D"^^xsd:string ;
   skos:prefLabel "Diffuse"@en ;
 .
 sp:mottle-boundary-S
@@ -5884,7 +5884,7 @@ sp:mottle-boundary-S
   rdfs:label "Sharp" ;
   owl:sameAs sp:mottle-boundary-S ;
   skos:definition "knife-edge boundary between colours" ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Sharp"@en ;
 .
 sp:mottle-boundary-distinctness
@@ -5929,7 +5929,7 @@ sp:mottle-colour-B
   rdfs:label "Brown" ;
   owl:sameAs sp:mottle-colour-B ;
   skos:definition "Brown" ;
-  skos:notation "B" ;
+  skos:notation "B"^^xsd:string ;
   skos:prefLabel "Brown"@en ;
 .
 sp:mottle-colour-D
@@ -5941,7 +5941,7 @@ sp:mottle-colour-D
   rdfs:label "Dark" ;
   owl:sameAs sp:mottle-colour-D ;
   skos:definition "values 3 or less and chromas 2 or less for all hues." ;
-  skos:notation "D" ;
+  skos:notation "D"^^xsd:string ;
   skos:prefLabel "Dark"@en ;
 .
 sp:mottle-colour-G
@@ -5953,7 +5953,7 @@ sp:mottle-colour-G
   rdfs:label "Grey" ;
   owl:sameAs sp:mottle-colour-G ;
   skos:definition "Grey" ;
-  skos:notation "G" ;
+  skos:notation "G"^^xsd:string ;
   skos:prefLabel "Grey"@en ;
 .
 sp:mottle-colour-L
@@ -5965,7 +5965,7 @@ sp:mottle-colour-L
   rdfs:label "Gley" ;
   owl:sameAs sp:mottle-colour-L ;
   skos:definition "gley charts only." ;
-  skos:notation "L" ;
+  skos:notation "L"^^xsd:string ;
   skos:prefLabel "Gley"@en ;
 .
 sp:mottle-colour-O
@@ -5977,7 +5977,7 @@ sp:mottle-colour-O
   rdfs:label "Orange" ;
   owl:sameAs sp:mottle-colour-O ;
   skos:definition "Orange" ;
-  skos:notation "O" ;
+  skos:notation "O"^^xsd:string ;
   skos:prefLabel "Orange"@en ;
 .
 sp:mottle-colour-P
@@ -5989,7 +5989,7 @@ sp:mottle-colour-P
   rdfs:label "Pale" ;
   owl:sameAs sp:mottle-colour-P ;
   skos:definition "values 7 or more and chromas 2 or less for all hues." ;
-  skos:notation "P" ;
+  skos:notation "P"^^xsd:string ;
   skos:prefLabel "Pale"@en ;
 .
 sp:mottle-colour-R
@@ -6001,7 +6001,7 @@ sp:mottle-colour-R
   rdfs:label "Red" ;
   owl:sameAs sp:mottle-colour-R ;
   skos:definition "Red" ;
-  skos:notation "R" ;
+  skos:notation "R"^^xsd:string ;
   skos:prefLabel "Red"@en ;
 .
 sp:mottle-colour-Y
@@ -6013,7 +6013,7 @@ sp:mottle-colour-Y
   rdfs:label "Yellow" ;
   owl:sameAs sp:mottle-colour-Y ;
   skos:definition "Yellow" ;
-  skos:notation "Y" ;
+  skos:notation "Y"^^xsd:string ;
   skos:prefLabel "Yellow"@en ;
 .
 sp:mottle-constrast
@@ -6040,7 +6040,7 @@ sp:mottle-contrast-D
   rdfs:label "Distinct" ;
   owl:sameAs sp:mottle-contrast-D ;
   skos:definition "readily evident although not striking." ;
-  skos:notation "D" ;
+  skos:notation "D"^^xsd:string ;
   skos:prefLabel "Distinct"@en ;
 .
 sp:mottle-contrast-F
@@ -6052,7 +6052,7 @@ sp:mottle-contrast-F
   rdfs:label "Faint" ;
   owl:sameAs sp:mottle-contrast-F ;
   skos:definition "indistinct; evident only on close examination." ;
-  skos:notation "F" ;
+  skos:notation "F"^^xsd:string ;
   skos:prefLabel "Faint"@en ;
 .
 sp:mottle-contrast-P
@@ -6064,7 +6064,7 @@ sp:mottle-contrast-P
   rdfs:label "Prominent" ;
   owl:sameAs sp:mottle-contrast-P ;
   skos:definition "striking and conspicuous." ;
-  skos:notation "P" ;
+  skos:notation "P"^^xsd:string ;
   skos:prefLabel "Prominent"@en ;
 .
 sp:mottle-size
@@ -6091,7 +6091,7 @@ sp:mottle-size-1
   rdfs:label "Fine" ;
   owl:sameAs sp:mottle-size-1 ;
   skos:definition "<5 mm" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Fine"@en ;
 .
 sp:mottle-size-2
@@ -6103,7 +6103,7 @@ sp:mottle-size-2
   rdfs:label "Medium" ;
   owl:sameAs sp:mottle-size-2 ;
   skos:definition "5-15 mm" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Medium"@en ;
 .
 sp:mottle-size-3
@@ -6115,7 +6115,7 @@ sp:mottle-size-3
   rdfs:label "Coarse" ;
   owl:sameAs sp:mottle-size-3 ;
   skos:definition "15-30 mm" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Coarse"@en ;
 .
 sp:mottle-size-4
@@ -6127,7 +6127,7 @@ sp:mottle-size-4
   rdfs:label "Very coarse" ;
   owl:sameAs sp:mottle-size-4 ;
   skos:definition ">30 mm" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Very coarse"@en ;
 .
 sp:mottle-type
@@ -6156,7 +6156,7 @@ sp:mottle-type-M
   rdfs:label "Mottles" ;
   owl:sameAs sp:mottle-type-M ;
   skos:definition "Mottles" ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Mottles"@en ;
 .
 sp:mottle-type-X
@@ -6168,7 +6168,7 @@ sp:mottle-type-X
   rdfs:label "Mottle type X" ;
   owl:sameAs sp:mottle-type-X ;
   skos:definition "Colour patterns due to biological mixing of soil material from other horizons (e.g. worm casts)." ;
-  skos:notation "X" ;
+  skos:notation "X"^^xsd:string ;
   skos:prefLabel "Mottle type X"@en ;
 .
 sp:mottle-type-Y
@@ -6180,7 +6180,7 @@ sp:mottle-type-Y
   rdfs:label "Mottle type Y" ;
   owl:sameAs sp:mottle-type-Y ;
   skos:definition "Colour patterns due to mechanical mixing of soil material from other horizons (e.g.  inclusions of B horizon material in Ap horizons)." ;
-  skos:notation "Y" ;
+  skos:notation "Y"^^xsd:string ;
   skos:prefLabel "Mottle type Y"@en ;
 .
 sp:mottle-type-Z
@@ -6192,7 +6192,7 @@ sp:mottle-type-Z
   rdfs:label "Mottle type Z" ;
   owl:sameAs sp:mottle-type-Z ;
   skos:definition "Colour patterns due to inclusions of weathered substrate material." ;
-  skos:notation "Z" ;
+  skos:notation "Z"^^xsd:string ;
   skos:prefLabel "Mottle type Z"@en ;
 .
 sp:mottles-and-other-colour-patterns
@@ -6284,7 +6284,7 @@ sp:observation-type-A
   rdfs:label "Auger boring" ;
   owl:sameAs sp:observation-type-A ;
   skos:definition "Auger boring is used to describe the soil profile." ;
-  skos:notation "A" ;
+  skos:notation "A"^^xsd:string ;
   skos:prefLabel "Auger boring"@en ;
 .
 sp:observation-type-C
@@ -6296,7 +6296,7 @@ sp:observation-type-C
   rdfs:label "Relatively undisturbed soil core" ;
   owl:sameAs sp:observation-type-C ;
   skos:definition "The profile is described from a soil core that it relatively undisturbed." ;
-  skos:notation "C" ;
+  skos:notation "C"^^xsd:string ;
   skos:prefLabel "Relatively undisturbed soil core"@en ;
 .
 sp:observation-type-E
@@ -6308,7 +6308,7 @@ sp:observation-type-E
   rdfs:label "Existing vertical exposure" ;
   owl:sameAs sp:observation-type-E ;
   skos:definition "An existing vertical exposure (e.g. road cutting) can be used to describe the soil profile." ;
-  skos:notation "E" ;
+  skos:notation "E"^^xsd:string ;
   skos:prefLabel "Existing vertical exposure"@en ;
 .
 sp:observation-type-P
@@ -6320,7 +6320,7 @@ sp:observation-type-P
   rdfs:label "Soil pit" ;
   owl:sameAs sp:observation-type-P ;
   skos:definition "The soil pit is one of several types of observation used to describe the soil profile." ;
-  skos:notation "P" ;
+  skos:notation "P"^^xsd:string ;
   skos:prefLabel "Soil pit"@en ;
 .
 sp:pans
@@ -6363,7 +6363,7 @@ sp:pans-cementation-0
   rdfs:label "Uncemented" ;
   owl:sameAs sp:pans-cementation-0 ;
   skos:definition "slakes." ;
-  skos:notation "0" ;
+  skos:notation "0"^^xsd:string ;
   skos:prefLabel "Uncemented"@en ;
 .
 sp:pans-cementation-1
@@ -6375,7 +6375,7 @@ sp:pans-cementation-1
   rdfs:label "Weakly cemented" ;
   owl:sameAs sp:pans-cementation-1 ;
   skos:definition "can be crushed between thumb and forefinger." ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Weakly cemented"@en ;
 .
 sp:pans-cementation-2
@@ -6387,7 +6387,7 @@ sp:pans-cementation-2
   rdfs:label "Moderately cemented" ;
   owl:sameAs sp:pans-cementation-2 ;
   skos:definition "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with weight of average person (80 kg) applied slowly." ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Moderately cemented"@en ;
 .
 sp:pans-cementation-3
@@ -6399,7 +6399,7 @@ sp:pans-cementation-3
   rdfs:label "Strongly cemented" ;
   owl:sameAs sp:pans-cementation-3 ;
   skos:definition "cannot be crushed underfoot by weight of average man applied slowly. Can be broken by hammer." ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Strongly cemented"@en ;
 .
 sp:pans-cementation-4
@@ -6411,7 +6411,7 @@ sp:pans-cementation-4
   rdfs:label "Very strongly cemented" ;
   owl:sameAs sp:pans-cementation-4 ;
   skos:definition "cannot be broken by hammer, or only with extreme difficulty." ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Very strongly cemented"@en ;
 .
 sp:pans-continuity
@@ -6437,7 +6437,7 @@ sp:pans-continuity-B
   rdfs:label "Broken" ;
   owl:sameAs sp:pans-continuity-B ;
   skos:definition "broken by cracks and fragments are disoriented." ;
-  skos:notation "B" ;
+  skos:notation "B"^^xsd:string ;
   skos:prefLabel "Broken"@en ;
 .
 sp:pans-continuity-C
@@ -6448,7 +6448,7 @@ sp:pans-continuity-C
   rdfs:label "Continuous" ;
   owl:sameAs sp:pans-continuity-C ;
   skos:definition "extends as a layer with little or no break across 1 m or more." ;
-  skos:notation "C" ;
+  skos:notation "C"^^xsd:string ;
   skos:prefLabel "Continuous"@en ;
 .
 sp:pans-continuity-D
@@ -6459,7 +6459,7 @@ sp:pans-continuity-D
   rdfs:label "Discontinuous" ;
   owl:sameAs sp:pans-continuity-D ;
   skos:definition "broken by cracks but original orientation of fragments is preserved." ;
-  skos:notation "D" ;
+  skos:notation "D"^^xsd:string ;
   skos:prefLabel "Discontinuous"@en ;
 .
 sp:pans-structure
@@ -6488,7 +6488,7 @@ sp:pans-structure-C
   rdfs:label "Concretionary" ;
   owl:sameAs sp:pans-structure-C ;
   skos:definition "spheroidal concretions cemented together." ;
-  skos:notation "C" ;
+  skos:notation "C"^^xsd:string ;
   skos:prefLabel "Concretionary"@en ;
 .
 sp:pans-structure-L
@@ -6499,7 +6499,7 @@ sp:pans-structure-L
   rdfs:label "Platy" ;
   owl:sameAs sp:pans-structure-L ;
   skos:definition "plate-like units cemented together." ;
-  skos:notation "L" ;
+  skos:notation "L"^^xsd:string ;
   skos:prefLabel "Platy"@en ;
 .
 sp:pans-structure-N
@@ -6510,7 +6510,7 @@ sp:pans-structure-N
   rdfs:label "Nodular" ;
   owl:sameAs sp:pans-structure-N ;
   skos:definition "nodules of irregular shape cemented together." ;
-  skos:notation "N" ;
+  skos:notation "N"^^xsd:string ;
   skos:prefLabel "Nodular"@en ;
 .
 sp:pans-structure-R
@@ -6521,7 +6521,7 @@ sp:pans-structure-R
   rdfs:label "Vermicular" ;
   owl:sameAs sp:pans-structure-R ;
   skos:definition "worm-like structure and/or cavities." ;
-  skos:notation "R" ;
+  skos:notation "R"^^xsd:string ;
   skos:prefLabel "Vermicular"@en ;
 .
 sp:pans-structure-S
@@ -6532,7 +6532,7 @@ sp:pans-structure-S
   rdfs:label "Vesicular" ;
   owl:sameAs sp:pans-structure-S ;
   skos:definition "sponge-like structure having large pores, which may or may not be filled with softer material." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Vesicular"@en ;
 .
 sp:pans-structure-V
@@ -6543,7 +6543,7 @@ sp:pans-structure-V
   rdfs:label "Massive" ;
   owl:sameAs sp:pans-structure-V ;
   skos:definition "no recognisable structure." ;
-  skos:notation "V" ;
+  skos:notation "V"^^xsd:string ;
   skos:prefLabel "Massive"@en ;
 .
 sp:pans-type
@@ -6582,7 +6582,7 @@ sp:pans-type-A
   owl:sameAs sp:pans-type-A ;
   skos:altLabel "Bauxite"@en ;
   skos:definition "indurated material rich in aluminium hydroxides. Commonly consists of cemented pisoliths and usually known as bauxite." ;
-  skos:notation "A" ;
+  skos:notation "A"^^xsd:string ;
   skos:prefLabel "Alcrete"@en ;
 .
 sp:pans-type-C
@@ -6593,7 +6593,7 @@ sp:pans-type-C
   rdfs:label "Organic pan" ;
   owl:sameAs sp:pans-type-C ;
   skos:definition "horizon relatively high in organic matter but low in iron. It is relatively thick and weakly to strongly cemented by aluminium and usually becomes progressively more cemented with depth. It is usually relatively uniform in appearance laterally. It is commonly the B horizon of humus podzols, where it is often known as coffee rock or sandrock." ;
-  skos:notation "C" ;
+  skos:notation "C"^^xsd:string ;
   skos:prefLabel "Organic pan"@en ;
 .
 sp:pans-type-D
@@ -6604,7 +6604,7 @@ sp:pans-type-D
   rdfs:label "Duripan" ;
   owl:sameAs sp:pans-type-D ;
   skos:definition "earthy pan so cemented by silica that dry fragments do not slake in water and are always brittle, even after prolonged wetting. (Described by Soil Survey Staff 1975.)" ;
-  skos:notation "D" ;
+  skos:notation "D"^^xsd:string ;
   skos:prefLabel "Duripan"@en ;
 .
 sp:pans-type-E
@@ -6615,7 +6615,7 @@ sp:pans-type-E
   rdfs:label "Ferricrete" ;
   owl:sameAs sp:pans-type-E ;
   skos:definition "indurated material rich in hydrated oxides of iron (usually goethite and hematite) occurring as cemented nodules and/or concretions, or as massive sheets. This material has been commonly referred to in local usage around Australia as laterite, duricrust or ironstone." ;
-  skos:notation "E" ;
+  skos:notation "E"^^xsd:string ;
   skos:prefLabel "Ferricrete"@en ;
 .
 sp:pans-type-F
@@ -6626,7 +6626,7 @@ sp:pans-type-F
   rdfs:label "Fragipan" ;
   owl:sameAs sp:pans-type-F ;
   skos:definition "earthy pan, which is usually loamy. A dry fragment slakes in water. A wet fragment does not slake in water but has moderate or weak brittleness. Fragipans are more stable on exposure than overlying or underlying horizons. (Described by Soil Survey Staff 1975.)" ;
-  skos:notation "F" ;
+  skos:notation "F"^^xsd:string ;
   skos:prefLabel "Fragipan"@en ;
 .
 sp:pans-type-I
@@ -6637,7 +6637,7 @@ sp:pans-type-I
   rdfs:label "Thin ironpan" ;
   owl:sameAs sp:pans-type-I ;
   skos:definition "commonly thin (2–10 mm), black to dark reddish pan cemented by iron, iron and manganese, or iron – organic matter complexes. Rarely 40 mm thick. Has wavy or convolute form and usually occurs as a single pan. This is a placic horizon (described by Soil Survey Staff 1975.)" ;
-  skos:notation "I" ;
+  skos:notation "I"^^xsd:string ;
   skos:prefLabel "Thin ironpan"@en ;
 .
 sp:pans-type-K
@@ -6648,7 +6648,7 @@ sp:pans-type-K
   rdfs:label "Calcrete" ;
   owl:sameAs sp:pans-type-K ;
   skos:definition "any cemented, terrestrial carbonate accumulation that may vary significantly in morphology and degree of cementation. Also known as carbonate pan, calcareous pan, caliche, kunkar, secondary limestone, travertine. All show slight to strong effervescence with 1 Molar HCl." ;
-  skos:notation "K" ;
+  skos:notation "K"^^xsd:string ;
   skos:prefLabel "Calcrete"@en ;
 .
 sp:pans-type-L
@@ -6659,7 +6659,7 @@ sp:pans-type-L
   rdfs:label "Silcrete" ;
   owl:sameAs sp:pans-type-L ;
   skos:definition "strongly indurated siliceous material cemented by, and largely composed of, forms of silica, including quartz, chalcedony, opal and chert." ;
-  skos:notation "L" ;
+  skos:notation "L"^^xsd:string ;
   skos:prefLabel "Silcrete"@en ;
 .
 sp:pans-type-M
@@ -6670,7 +6670,7 @@ sp:pans-type-M
   rdfs:label "Manganiferous pan" ;
   owl:sameAs sp:pans-type-M ;
   skos:definition "indurated material dominated by oxides of manganese." ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Manganiferous pan"@en ;
 .
 sp:pans-type-N
@@ -6681,7 +6681,7 @@ sp:pans-type-N
   rdfs:label "Densipan" ;
   owl:sameAs sp:pans-type-N ;
   skos:definition "earthy pan, which is very fine sandy (0.02–0.05 mm). Fragments, both wet and dry, slake in water. Densipans are less stable on exposure than overlying or underlying horizons. (Described by Smith et al. 1975.)" ;
-  skos:notation "N" ;
+  skos:notation "N"^^xsd:string ;
   skos:prefLabel "Densipan"@en ;
 .
 sp:pans-type-O
@@ -6692,7 +6692,7 @@ sp:pans-type-O
   rdfs:label "Other pans" ;
   owl:sameAs sp:pans-type-O ;
   skos:definition "Other pans" ;
-  skos:notation "O" ;
+  skos:notation "O"^^xsd:string ;
   skos:prefLabel "Other pans"@en ;
 .
 sp:pans-type-R
@@ -6703,7 +6703,7 @@ sp:pans-type-R
   rdfs:label "Red-brown hardpan" ;
   owl:sameAs sp:pans-type-R ;
   skos:definition "earthy pan, which is normally reddish brown to red with dense yet porous appearance; it is very hard, has an irregular laminar cleavage and some vertical cracks, and varies from less than 0.3 m to over 30 m thick. Other variable features are bedded and unsorted sand and gravel lenses; wavy black veinings, probably manganiferous; and, less commonly, off-white veins of calcium carbonate. (The presence of calcium carbonate is not common and the red-brown hardpan in which it occurs may be relatively brittle and finely laminar.) The red-brown hardpan is usually present below the soil profile and is not a feature of any particular soil group. (It has some similarity with other silica pans such as duripans of arid climates). In many instances, it is not known if the red-brown hardpan is a paleosol or a cemented sediment (Wright 1983). If thought to be the latter, it may be described as a substrate material. " ;
-  skos:notation "R" ;
+  skos:notation "R"^^xsd:string ;
   skos:prefLabel "Red-brown hardpan"@en ;
 .
 sp:pans-type-T
@@ -6714,7 +6714,7 @@ sp:pans-type-T
   rdfs:label "Ortstein" ;
   owl:sameAs sp:pans-type-T ;
   skos:definition "horizon strongly cemented by iron and organic matter. It has marked local variability in colour, both laterally and vertically. It may occur in the B horizon of podzols." ;
-  skos:notation "T" ;
+  skos:notation "T"^^xsd:string ;
   skos:prefLabel "Ortstein"@en ;
 .
 sp:pans-type-V
@@ -6725,7 +6725,7 @@ sp:pans-type-V
   rdfs:label "Cultivation pan" ;
   owl:sameAs sp:pans-type-V ;
   skos:definition "subsurface soil horizon having higher bulk density, lower total porosity, and lower permeability to both air and water than horizons directly above and below as a result of cultivation practices. (After Morse et al. 1987.)" ;
-  skos:notation "V" ;
+  skos:notation "V"^^xsd:string ;
   skos:prefLabel "Cultivation pan"@en ;
 .
 sp:pans-type-Z
@@ -6736,7 +6736,7 @@ sp:pans-type-Z
   rdfs:label "Zero or no pan" ;
   owl:sameAs sp:pans-type-Z ;
   skos:definition "Zero or no pan" ;
-  skos:notation "Z" ;
+  skos:notation "Z"^^xsd:string ;
   skos:prefLabel "Zero or no pan"@en ;
 .
 sp:roots
@@ -6776,7 +6776,7 @@ sp:roots-abundance-0
   rdfs:label "No roots" ;
   owl:sameAs sp:roots-abundance-0 ;
   skos:definition "0" ;
-  skos:notation "0" ;
+  skos:notation "0"^^xsd:string ;
   skos:prefLabel "No roots"@en ;
 .
 sp:roots-abundance-1
@@ -6791,7 +6791,7 @@ Or
   skos:definition """1 - 10 very fine and fine roots
 Or
 1 - 2 medium and coarse roots""" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Few"@en ;
 .
 sp:roots-abundance-2
@@ -6806,7 +6806,7 @@ Or
   skos:definition """10 - 25 very fine and fine roots
 Or
 2 - 5 medium and coarse roots""" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Common"@en ;
 .
 sp:roots-abundance-3
@@ -6821,7 +6821,7 @@ Or
   skos:definition """25 - 200 very fine and fine roots
 Or
 > 5 medium and coarse roots""" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Many"@en ;
 .
 sp:roots-abundance-4
@@ -6836,7 +6836,7 @@ Or
   skos:definition """> 200 very fine and fine roots
 Or
 > 5 medium and coarse roots""" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Abundant"@en ;
 .
 sp:roots-size
@@ -6863,7 +6863,7 @@ sp:roots-size-1
   rdfs:label "Very fine" ;
   owl:sameAs sp:roots-size-1 ;
   skos:definition "less than 1 mm" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Very fine"@en ;
 .
 sp:roots-size-2
@@ -6874,7 +6874,7 @@ sp:roots-size-2
   rdfs:label "Fine" ;
   owl:sameAs sp:roots-size-2 ;
   skos:definition "1 - 2 mm" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Fine"@en ;
 .
 sp:roots-size-3
@@ -6885,7 +6885,7 @@ sp:roots-size-3
   rdfs:label "Medium" ;
   owl:sameAs sp:roots-size-3 ;
   skos:definition "2 - 5 mm" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Medium"@en ;
 .
 sp:roots-size-4
@@ -6896,7 +6896,7 @@ sp:roots-size-4
   rdfs:label "Coarse" ;
   owl:sameAs sp:roots-size-4 ;
   skos:definition ">5 mm" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Coarse"@en ;
 .
 sp:segregations-abundance
@@ -6926,7 +6926,7 @@ sp:segregations-abundance-0
   rdfs:label "No segregations" ;
   owl:sameAs sp:segregations-abundance-0 ;
   skos:definition "0" ;
-  skos:notation "0" ;
+  skos:notation "0"^^xsd:string ;
   skos:prefLabel "No segregations"@en ;
 .
 sp:segregations-abundance-1
@@ -6938,7 +6938,7 @@ sp:segregations-abundance-1
   rdfs:label "Very few" ;
   owl:sameAs sp:segregations-abundance-1 ;
   skos:definition "< 2%" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Very few"@en ;
 .
 sp:segregations-abundance-2
@@ -6950,7 +6950,7 @@ sp:segregations-abundance-2
   rdfs:label "Few" ;
   owl:sameAs sp:segregations-abundance-2 ;
   skos:definition "2 - 10%" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Few"@en ;
 .
 sp:segregations-abundance-3
@@ -6962,7 +6962,7 @@ sp:segregations-abundance-3
   rdfs:label "Common" ;
   owl:sameAs sp:segregations-abundance-3 ;
   skos:definition "10 - 20%" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Common"@en ;
 .
 sp:segregations-abundance-4
@@ -6974,7 +6974,7 @@ sp:segregations-abundance-4
   rdfs:label "Many" ;
   owl:sameAs sp:segregations-abundance-4 ;
   skos:definition "20 - 50%" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Many"@en ;
 .
 sp:segregations-abundance-5
@@ -6986,7 +6986,7 @@ sp:segregations-abundance-5
   rdfs:label "Very many" ;
   owl:sameAs sp:segregations-abundance-5 ;
   skos:definition "> 50%" ;
-  skos:notation "5" ;
+  skos:notation "5"^^xsd:string ;
   skos:prefLabel "Very many"@en ;
 .
 sp:segregations-form
@@ -7019,7 +7019,7 @@ sp:segregations-form-C
   rdfs:label "Concretions" ;
   owl:sameAs sp:segregations-form-C ;
   skos:definition "spheroidal mineral aggregates. Crudely concentric internal fabric can be seen with naked eye. Includes pisoliths and ooliths." ;
-  skos:notation "C" ;
+  skos:notation "C"^^xsd:string ;
   skos:prefLabel "Concretions"@en ;
 .
 sp:segregations-form-F
@@ -7031,7 +7031,7 @@ sp:segregations-form-F
   rdfs:label "Fragments" ;
   owl:sameAs sp:segregations-form-F ;
   skos:definition "broken pieces of segregations." ;
-  skos:notation "F" ;
+  skos:notation "F"^^xsd:string ;
   skos:prefLabel "Fragments"@en ;
 .
 sp:segregations-form-L
@@ -7043,7 +7043,7 @@ sp:segregations-form-L
   rdfs:label "Laminae" ;
   owl:sameAs sp:segregations-form-L ;
   skos:definition "planar, plate-like or sheet-like segregations." ;
-  skos:notation "L" ;
+  skos:notation "L"^^xsd:string ;
   skos:prefLabel "Laminae"@en ;
 .
 sp:segregations-form-N
@@ -7055,7 +7055,7 @@ sp:segregations-form-N
   rdfs:label "Nodules" ;
   owl:sameAs sp:segregations-form-N ;
   skos:definition "irregular, rounded mineral aggregates. No concentric or symmetric internal fabric. Can have hollow interior." ;
-  skos:notation "N" ;
+  skos:notation "N"^^xsd:string ;
   skos:prefLabel "Nodules"@en ;
 .
 sp:segregations-form-R
@@ -7067,7 +7067,7 @@ sp:segregations-form-R
   rdfs:label "Root linings" ;
   owl:sameAs sp:segregations-form-R ;
   skos:definition "linings of former or current root channels." ;
-  skos:notation "R" ;
+  skos:notation "R"^^xsd:string ;
   skos:prefLabel "Root linings"@en ;
 .
 sp:segregations-form-S
@@ -7079,7 +7079,7 @@ sp:segregations-form-S
   rdfs:label "Soft segregations" ;
   owl:sameAs sp:segregations-form-S ;
   skos:definition "finely divided soft segregations. They contrast with surrounding soil in colour and composition but are not easily separated as discrete bodies. Boundaries may be clearly defined or diffuse." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Soft segregations"@en ;
 .
 sp:segregations-form-T
@@ -7091,7 +7091,7 @@ sp:segregations-form-T
   rdfs:label "Tubules" ;
   owl:sameAs sp:segregations-form-T ;
   skos:definition "medium or coarser (>2 mm wide) tube-like segregations, which may or may not be hollow." ;
-  skos:notation "T" ;
+  skos:notation "T"^^xsd:string ;
   skos:prefLabel "Tubules"@en ;
 .
 sp:segregations-form-V
@@ -7103,7 +7103,7 @@ sp:segregations-form-V
   rdfs:label "Veins" ;
   owl:sameAs sp:segregations-form-V ;
   skos:definition "fine (<2 mm wide) linear segregations." ;
-  skos:notation "V" ;
+  skos:notation "V"^^xsd:string ;
   skos:prefLabel "Veins"@en ;
 .
 sp:segregations-form-X
@@ -7115,7 +7115,7 @@ sp:segregations-form-X
   rdfs:label "Crystals" ;
   owl:sameAs sp:segregations-form-X ;
   skos:definition "single or complex clusters of crystals visible with naked eye or ×10 hand lens." ;
-  skos:notation "X" ;
+  skos:notation "X"^^xsd:string ;
   skos:prefLabel "Crystals"@en ;
 .
 sp:segregations-magnetic
@@ -7141,7 +7141,7 @@ sp:segregations-magnetic-M
   rdfs:label "Magnetic" ;
   owl:sameAs sp:segregations-magnetic-M ;
   skos:definition "attracted onto surface of hand-held magnet." ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Magnetic"@en ;
 .
 sp:segregations-magnetic-N
@@ -7153,7 +7153,7 @@ sp:segregations-magnetic-N
   rdfs:label "Non-magnetic" ;
   owl:sameAs sp:segregations-magnetic-N ;
   skos:definition "not attracted onto surface of hand-held magnet." ;
-  skos:notation "N" ;
+  skos:notation "N"^^xsd:string ;
   skos:prefLabel "Non-magnetic"@en ;
 .
 sp:segregations-nature
@@ -7191,7 +7191,7 @@ sp:segregations-nature-A
   rdfs:label "Aluminous" ;
   owl:sameAs sp:segregations-nature-A ;
   skos:definition "Aluminous (aluminium)" ;
-  skos:notation "A" ;
+  skos:notation "A"^^xsd:string ;
   skos:prefLabel "Aluminous"@en ;
 .
 sp:segregations-nature-E
@@ -7203,7 +7203,7 @@ sp:segregations-nature-E
   rdfs:label "Earthy" ;
   owl:sameAs sp:segregations-nature-E ;
   skos:definition "Earthy (dominantly non-clayey)" ;
-  skos:notation "E" ;
+  skos:notation "E"^^xsd:string ;
   skos:prefLabel "Earthy"@en ;
 .
 sp:segregations-nature-F
@@ -7215,7 +7215,7 @@ sp:segregations-nature-F
   rdfs:label "Ferruginous" ;
   owl:sameAs sp:segregations-nature-F ;
   skos:definition "Ferruginous (iron)" ;
-  skos:notation "F" ;
+  skos:notation "F"^^xsd:string ;
   skos:prefLabel "Ferruginous"@en ;
 .
 sp:segregations-nature-G
@@ -7227,7 +7227,7 @@ sp:segregations-nature-G
   rdfs:label "Ferruginous–organic" ;
   owl:sameAs sp:segregations-nature-G ;
   skos:definition "Ferruginous–organic (iron – organic matter)" ;
-  skos:notation "G" ;
+  skos:notation "G"^^xsd:string ;
   skos:prefLabel "Ferruginous–organic"@en ;
 .
 sp:segregations-nature-H
@@ -7239,7 +7239,7 @@ sp:segregations-nature-H
   rdfs:label "Organic" ;
   owl:sameAs sp:segregations-nature-H ;
   skos:definition "Organic (humified, well-decomposed organic matter)" ;
-  skos:notation "H" ;
+  skos:notation "H"^^xsd:string ;
   skos:prefLabel "Organic"@en ;
 .
 sp:segregations-nature-K
@@ -7251,7 +7251,7 @@ sp:segregations-nature-K
   rdfs:label "Calcareous" ;
   owl:sameAs sp:segregations-nature-K ;
   skos:definition "Calcareous (carbonate)" ;
-  skos:notation "K" ;
+  skos:notation "K"^^xsd:string ;
   skos:prefLabel "Calcareous"@en ;
 .
 sp:segregations-nature-L
@@ -7263,7 +7263,7 @@ sp:segregations-nature-L
   rdfs:label "Argillaceous" ;
   owl:sameAs sp:segregations-nature-L ;
   skos:definition "Argillaceous (clayey)" ;
-  skos:notation "L" ;
+  skos:notation "L"^^xsd:string ;
   skos:prefLabel "Argillaceous"@en ;
 .
 sp:segregations-nature-M
@@ -7275,7 +7275,7 @@ sp:segregations-nature-M
   rdfs:label "Manganiferous" ;
   owl:sameAs sp:segregations-nature-M ;
   skos:definition "Manganiferous (manganese)" ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Manganiferous"@en ;
 .
 sp:segregations-nature-N
@@ -7287,7 +7287,7 @@ sp:segregations-nature-N
   rdfs:label "Ferromanganiferous" ;
   owl:sameAs sp:segregations-nature-N ;
   skos:definition "Ferromanganiferous (iron–manganese)" ;
-  skos:notation "N" ;
+  skos:notation "N"^^xsd:string ;
   skos:prefLabel "Ferromanganiferous"@en ;
 .
 sp:segregations-nature-O
@@ -7299,7 +7299,7 @@ sp:segregations-nature-O
   rdfs:label "Other" ;
   owl:sameAs sp:segregations-nature-O ;
   skos:definition "Other" ;
-  skos:notation "O" ;
+  skos:notation "O"^^xsd:string ;
   skos:prefLabel "Other"@en ;
 .
 sp:segregations-nature-S
@@ -7311,7 +7311,7 @@ sp:segregations-nature-S
   rdfs:label "Sulphurous" ;
   owl:sameAs sp:segregations-nature-S ;
   skos:definition "Sulphurous (sulphur), for example in acid sulphate soils" ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Sulphurous"@en ;
 .
 sp:segregations-nature-U
@@ -7323,7 +7323,7 @@ sp:segregations-nature-U
   rdfs:label "Unidentified" ;
   owl:sameAs sp:segregations-nature-U ;
   skos:definition "Unidentified" ;
-  skos:notation "U" ;
+  skos:notation "U"^^xsd:string ;
   skos:prefLabel "Unidentified"@en ;
 .
 sp:segregations-nature-Y
@@ -7335,7 +7335,7 @@ sp:segregations-nature-Y
   rdfs:label "Gypseous" ;
   owl:sameAs sp:segregations-nature-Y ;
   skos:definition "Gypseous (gypsum)" ;
-  skos:notation "Y" ;
+  skos:notation "Y"^^xsd:string ;
   skos:prefLabel "Gypseous"@en ;
 .
 sp:segregations-nature-Z
@@ -7347,7 +7347,7 @@ sp:segregations-nature-Z
   rdfs:label "Saline" ;
   owl:sameAs sp:segregations-nature-Z ;
   skos:definition "Saline (visible salt)" ;
-  skos:notation "Z" ;
+  skos:notation "Z"^^xsd:string ;
   skos:prefLabel "Saline"@en ;
 .
 sp:segregations-of-pedogenic-origin
@@ -7394,7 +7394,7 @@ sp:segregations-size-1
   rdfs:label "Fine" ;
   owl:sameAs sp:segregations-size-1 ;
   skos:definition "< 2mm" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Fine"@en ;
 .
 sp:segregations-size-2
@@ -7406,7 +7406,7 @@ sp:segregations-size-2
   rdfs:label "Medium" ;
   owl:sameAs sp:segregations-size-2 ;
   skos:definition "2 - 6mm" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Medium"@en ;
 .
 sp:segregations-size-3
@@ -7418,7 +7418,7 @@ sp:segregations-size-3
   rdfs:label "Coarse" ;
   owl:sameAs sp:segregations-size-3 ;
   skos:definition "6 - 20mm" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Coarse"@en ;
 .
 sp:segregations-size-4
@@ -7430,7 +7430,7 @@ sp:segregations-size-4
   rdfs:label "Very coarse" ;
   owl:sameAs sp:segregations-size-4 ;
   skos:definition "20 - 60mm" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Very coarse"@en ;
 .
 sp:segregations-size-5
@@ -7442,7 +7442,7 @@ sp:segregations-size-5
   rdfs:label "Extremely coarse" ;
   owl:sameAs sp:segregations-size-5 ;
   skos:definition "> 60mm" ;
-  skos:notation "5" ;
+  skos:notation "5"^^xsd:string ;
   skos:prefLabel "Extremely coarse"@en ;
 .
 sp:segregations-strength
@@ -7468,7 +7468,7 @@ sp:segregations-strength-1
   rdfs:label "Weak" ;
   owl:sameAs sp:segregations-strength-1 ;
   skos:definition "can be broken between thumb and forefinger." ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Weak"@en ;
 .
 sp:segregations-strength-2
@@ -7480,7 +7480,7 @@ sp:segregations-strength-2
   rdfs:label "Strong" ;
   owl:sameAs sp:segregations-strength-2 ;
   skos:definition "cannot be broken between thumb and forefinger." ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Strong"@en ;
 .
 sp:soil-water-drainage
@@ -7510,7 +7510,7 @@ sp:soil-water-drainage-1
   rdfs:label "Very poorly drained" ;
   owl:sameAs sp:soil-water-drainage-1 ;
   skos:definition "water is removed from the soil so slowly that the water table remains at or near the surface for most of the year. Surface flow, groundwater and subsurface flow are major sources of water, although precipitation may be important where there is a perched water table and precipitation exceeds evapotranspiration. Soils have a wide range in texture and depth, and often occur in depressed sites. Strong gleying and accumulation of surface organic matter are usually features of most soils." ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Very poorly drained"@en ;
 .
 sp:soil-water-drainage-2
@@ -7522,7 +7522,7 @@ sp:soil-water-drainage-2
   rdfs:label "Poorly drained" ;
   owl:sameAs sp:soil-water-drainage-2 ;
   skos:definition "water is removed very slowly in relation to supply. Subsurface and/or groundwater flow, as well as precipitation, may be a significant water source. Seasonal ponding, resulting from runon and insufficient outfall, also occurs. A perched water table may be present. Soils have a wide range in texture and depth; many have horizons that are gleyed, mottled, or possess orange or rusty linings of root channels. All horizons remain wet for periods of several months." ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Poorly drained"@en ;
 .
 sp:soil-water-drainage-3
@@ -7534,7 +7534,7 @@ sp:soil-water-drainage-3
   rdfs:label "Imperfectly drained" ;
   owl:sameAs sp:soil-water-drainage-3 ;
   skos:definition "water is removed only slowly in relation to supply. Precipitation is the main source if available water storage capacity is high, but subsurface flow and/or groundwater contribute as available water storage capacity decreases. Soils have a wide range in texture and depth. Some horizons may be mottled and/or have orange or rusty linings of root channels, and are wet for several weeks." ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Imperfectly drained"@en ;
 .
 sp:soil-water-drainage-4
@@ -7546,7 +7546,7 @@ sp:soil-water-drainage-4
   rdfs:label "Moderately well drained" ;
   owl:sameAs sp:soil-water-drainage-4 ;
   skos:definition "water is removed from the soil somewhat slowly in relation to supply, due to low permeability, shallow water table, lack of gradient, or some combination of these. Soils are usually medium to fine in texture. Significant additions of water by subsurface flow are necessary in coarse-textured soils. Some horizons may remain wet for as long as one week after water addition." ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Moderately well drained"@en ;
 .
 sp:soil-water-drainage-5
@@ -7558,7 +7558,7 @@ sp:soil-water-drainage-5
   rdfs:label "Well drained" ;
   owl:sameAs sp:soil-water-drainage-5 ;
   skos:definition "water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying, moderately permeable material or laterally as subsurface flow. The soils are often medium in texture. Some horizons may remain wet for several days after water addition." ;
-  skos:notation "5" ;
+  skos:notation "5"^^xsd:string ;
   skos:prefLabel "Well drained"@en ;
 .
 sp:soil-water-drainage-6
@@ -7570,7 +7570,7 @@ sp:soil-water-drainage-6
   rdfs:label "Rapidly drained" ;
   owl:sameAs sp:soil-water-drainage-6 ;
   skos:definition "water is removed from the soil rapidly in relation to supply. Excess water flows downward rapidly if underlying material is highly permeable. There may be rapid subsurface lateral flow during heavy rainfall provided there is a steep gradient. Soils are usually coarse-textured, or shallow, or both. No horizon is normally wet for more than several hours after water addition." ;
-  skos:notation "6" ;
+  skos:notation "6"^^xsd:string ;
   skos:prefLabel "Rapidly drained"@en ;
 .
 sp:soil-water-permeability
@@ -7602,7 +7602,7 @@ Drainage time: months""" ;
   skos:definition """vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet.
 Ks range: <5 mm/day
 Drainage time: months""" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Very slowly permeable"@en ;
 .
 sp:soil-water-permeability-2
@@ -7618,7 +7618,7 @@ Drainage time: weeks""" ;
   skos:definition """vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral.
 Ks range: 5-50 mm/day
 Drainage time: weeks""" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Slowly permeable"@en ;
 .
 sp:soil-water-permeability-3
@@ -7634,7 +7634,7 @@ Drainage time: days""" ;
   skos:definition """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens.
 Ks range: 50-500 mm/day
 Drainage time: days""" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Moderately permeable"@en ;
 .
 sp:soil-water-permeability-4
@@ -7650,7 +7650,7 @@ Drainage time: hours""" ;
   skos:definition """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable.
 Ks range: >500 mm/day
 Drainage time: hours""" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Highly permeable"@en ;
 .
 sp:soil-water-regime
@@ -7715,7 +7715,7 @@ Behaviour of soils subjected to field test.
 Sands, sandy loams: will flow through fingers or fragments will powder.
 Loams: will not ball when squeezed in hand. Fragments will powder.
 Clay loams, clays: will not ball when squeezed in hand. Fragments will break to smaller fragments or peds.""" ;
-  skos:notation "D" ;
+  skos:notation "D"^^xsd:string ;
   skos:prefLabel "Dry"@en ;
 .
 sp:soil-water-status-M
@@ -7737,7 +7737,7 @@ Behaviour of soils subjected to field test.
 Sands, sandy loams: forms weak ball but breaks easily.
 Loams: will ball. Will not ribbon.
 Clay loams, clays: will ball. Will ribbon easily.""" ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Moist"@en ;
 .
 sp:soil-water-status-T
@@ -7759,7 +7759,7 @@ Behaviour of soils subjected to field test.
 Sands, sandy loams: appears dry. Ball will not hold together.
 Loams: forms crumbly ball on squeezing in hand.
 Clay loams, clays: will ball. Will not ribbon.""" ;
-  skos:notation "T" ;
+  skos:notation "T"^^xsd:string ;
   skos:prefLabel "Moderately moist"@en ;
 .
 sp:soil-water-status-W
@@ -7781,7 +7781,7 @@ Behaviour of soils subjected to field test.
 Sands, sandy loams: ball leaves wet outline on hand when squeezed, or is wetter.
 Loams: ball leaves wet outline on hand when squeezed, or is wetter. Sticky.
 Clay loams, clays: ball leaves wet outline on hand when squeezed, or is wetter. Sticky.""" ;
-  skos:notation "W" ;
+  skos:notation "W"^^xsd:string ;
   skos:prefLabel "Wet"@en ;
 .
 sp:structure
@@ -7824,7 +7824,7 @@ sp:structure-artificial-CL
   rdfs:label "Clod" ;
   owl:sameAs sp:structure-artificial-CL ;
   skos:definition "artificial aggregate with diameter 100 mm or more." ;
-  skos:notation "CL" ;
+  skos:notation "CL"^^xsd:string ;
   skos:prefLabel "Clod"@en ;
 .
 sp:structure-artificial-FR
@@ -7835,7 +7835,7 @@ sp:structure-artificial-FR
   rdfs:label "Fragment" ;
   owl:sameAs sp:structure-artificial-FR ;
   skos:definition "artificial aggregate with diameter less than 100 mm." ;
-  skos:notation "FR" ;
+  skos:notation "FR"^^xsd:string ;
   skos:prefLabel "Fragment"@en ;
 .
 sp:structure-pedality-compound
@@ -7887,7 +7887,7 @@ sp:structure-pedality-grade-G
   rdfs:label "Single grain" ;
   owl:sameAs sp:structure-pedality-grade-G ;
   skos:definition "loose, incoherent* mass of individual particles. When displaced, soil separates into ultimate particles." ;
-  skos:notation "G" ;
+  skos:notation "G"^^xsd:string ;
   skos:prefLabel "Single grain"@en ;
 .
 sp:structure-pedality-grade-M
@@ -7899,7 +7899,7 @@ sp:structure-pedality-grade-M
   rdfs:label "Moderate" ;
   owl:sameAs sp:structure-pedality-grade-M ;
   skos:definition "peds well-formed and evident but not distinct in undisplaced soil. Adhesion between peds is usually firm or stronger. When displaced, more than one-third of the soil material consists of entire peds, the remainder consisting of broken peds, fragments and ultimate particles." ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Moderate"@en ;
 .
 sp:structure-pedality-grade-S
@@ -7911,7 +7911,7 @@ sp:structure-pedality-grade-S
   rdfs:label "Strong" ;
   owl:sameAs sp:structure-pedality-grade-S ;
   skos:definition "peds quite distinct in undisplaced soil. Adhesion between peds is usually firm or weaker. When displaced, more than two-thirds of the soil material consists of entire peds." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Strong"@en ;
 .
 sp:structure-pedality-grade-V
@@ -7924,7 +7924,7 @@ sp:structure-pedality-grade-V
   rdfs:label "Massive" ;
   owl:sameAs sp:structure-pedality-grade-V ;
   skos:definition "coherent*. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles." ;
-  skos:notation "V" ;
+  skos:notation "V"^^xsd:string ;
   skos:prefLabel "Massive"@en ;
 .
 sp:structure-pedality-grade-W
@@ -7936,7 +7936,7 @@ sp:structure-pedality-grade-W
   rdfs:label "Weak" ;
   owl:sameAs sp:structure-pedality-grade-W ;
   skos:definition "peds indistinct and barely observable in undisplaced soil. When displaced, up to one-third of the soil material consists of peds, the remainder consisting of variable amounts of fragments and ultimate particles." ;
-  skos:notation "W" ;
+  skos:notation "W"^^xsd:string ;
   skos:prefLabel "Weak"@en ;
 .
 sp:structure-pedality-size
@@ -7969,7 +7969,7 @@ sp:structure-pedality-size-1
   rdfs:label "< 2 mm" ;
   owl:sameAs sp:structure-pedality-size-1 ;
   skos:definition "< 2 mm" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "< 2 mm"@en ;
 .
 sp:structure-pedality-size-2
@@ -7981,7 +7981,7 @@ sp:structure-pedality-size-2
   rdfs:label "2-5 mm" ;
   owl:sameAs sp:structure-pedality-size-2 ;
   skos:definition "2-5 mm" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "2-5 mm"@en ;
 .
 sp:structure-pedality-size-3
@@ -7993,7 +7993,7 @@ sp:structure-pedality-size-3
   rdfs:label "5-10 mm" ;
   owl:sameAs sp:structure-pedality-size-3 ;
   skos:definition "5-10 mm" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "5-10 mm"@en ;
 .
 sp:structure-pedality-size-4
@@ -8005,7 +8005,7 @@ sp:structure-pedality-size-4
   rdfs:label "10-20 mm" ;
   owl:sameAs sp:structure-pedality-size-4 ;
   skos:definition "10-20 mm" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "10-20 mm"@en ;
 .
 sp:structure-pedality-size-5
@@ -8017,7 +8017,7 @@ sp:structure-pedality-size-5
   rdfs:label "20-50 mm" ;
   owl:sameAs sp:structure-pedality-size-5 ;
   skos:definition "20-50 mm" ;
-  skos:notation "5" ;
+  skos:notation "5"^^xsd:string ;
   skos:prefLabel "20-50 mm"@en ;
 .
 sp:structure-pedality-size-6
@@ -8029,7 +8029,7 @@ sp:structure-pedality-size-6
   rdfs:label "50-100 mm" ;
   owl:sameAs sp:structure-pedality-size-6 ;
   skos:definition "50-100 mm" ;
-  skos:notation "6" ;
+  skos:notation "6"^^xsd:string ;
   skos:prefLabel "50-100 mm"@en ;
 .
 sp:structure-pedality-size-7
@@ -8041,7 +8041,7 @@ sp:structure-pedality-size-7
   rdfs:label "100-200 mm" ;
   owl:sameAs sp:structure-pedality-size-7 ;
   skos:definition "100-200 mm" ;
-  skos:notation "7" ;
+  skos:notation "7"^^xsd:string ;
   skos:prefLabel "100-200 mm"@en ;
 .
 sp:structure-pedality-size-8
@@ -8053,7 +8053,7 @@ sp:structure-pedality-size-8
   rdfs:label "200-500 mm" ;
   owl:sameAs sp:structure-pedality-size-8 ;
   skos:definition "200-500 mm" ;
-  skos:notation "8" ;
+  skos:notation "8"^^xsd:string ;
   skos:prefLabel "200-500 mm"@en ;
 .
 sp:structure-pedality-size-9
@@ -8065,7 +8065,7 @@ sp:structure-pedality-size-9
   rdfs:label "> 500 mm" ;
   owl:sameAs sp:structure-pedality-size-9 ;
   skos:definition "> 500 mm" ;
-  skos:notation "9" ;
+  skos:notation "9"^^xsd:string ;
   skos:prefLabel "> 500 mm"@en ;
 .
 sp:structure-pedality-type
@@ -8097,7 +8097,7 @@ sp:structure-pedality-type-AB
   rdfs:label "Angular blocky" ;
   owl:sameAs sp:structure-pedality-type-AB ;
   skos:definition "soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular.	Angular blocky	Soil particles arranged around a point and bounded by six relatively flat, roughly equal faces. Re-entrant angles between adjoining faces are few or absent. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices between adjoining faces are angular." ;
-  skos:notation "AB" ;
+  skos:notation "AB"^^xsd:string ;
   skos:prefLabel "Angular blocky"@en ;
 .
 sp:structure-pedality-type-CA
@@ -8108,7 +8108,7 @@ sp:structure-pedality-type-CA
   rdfs:label "Cast" ;
   owl:sameAs sp:structure-pedality-type-CA ;
   skos:definition "faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps.	Cast	Faunal casts are strictly not peds, but they are described in a similar manner. They are formed from, or are deposited in, the O horizons or the soil solum and include: excreta of soil fauna which may be discrete particles, for example insect faeces or the dense, coherent, globular forms of earthworm excreta. They are generally spherical or ovate in shape and have a strong conchoidal fracture; soil masticated with salivary secretions into globular forms, for example, by ants, crickets, wasps." ;
-  skos:notation "CA" ;
+  skos:notation "CA"^^xsd:string ;
   skos:prefLabel "Cast"@en ;
 .
 sp:structure-pedality-type-CO
@@ -8119,7 +8119,7 @@ sp:structure-pedality-type-CO
   rdfs:label "Columnar" ;
   owl:sameAs sp:structure-pedality-type-CO ;
   skos:definition "soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops.	Columnar	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular with domed tops." ;
-  skos:notation "CO" ;
+  skos:notation "CO"^^xsd:string ;
   skos:prefLabel "Columnar"@en ;
 .
 sp:structure-pedality-type-GR
@@ -8130,7 +8130,7 @@ sp:structure-pedality-type-GR
   rdfs:label "Granular" ;
   owl:sameAs sp:structure-pedality-type-GR ;
   skos:definition "spheroidal with limited accommodation to the faces of surrounding peds.	Granular	Spheroidal with limited accommodation to the faces of surrounding peds." ;
-  skos:notation "GR" ;
+  skos:notation "GR"^^xsd:string ;
   skos:prefLabel "Granular"@en ;
 .
 sp:structure-pedality-type-LE
@@ -8141,7 +8141,7 @@ sp:structure-pedality-type-LE
   rdfs:label "Lenticular" ;
   owl:sameAs sp:structure-pedality-type-LE ;
   skos:definition "soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute.	Lenticular	Soil particles arranged around an elliptical or circular plane and bounded by curved faces with much accommodation to the faces of surrounding peds. Most vertices are angular and acute." ;
-  skos:notation "LE" ;
+  skos:notation "LE"^^xsd:string ;
   skos:prefLabel "Lenticular"@en ;
 .
 sp:structure-pedality-type-PL
@@ -8152,7 +8152,7 @@ sp:structure-pedality-type-PL
   rdfs:label "Platy" ;
   owl:sameAs sp:structure-pedality-type-PL ;
   skos:definition "soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds.	Platy	Soil particles arranged around a horizontal plane and bounded by relatively flat horizontal faces with much accommodation to the faces of surrounding peds." ;
-  skos:notation "PL" ;
+  skos:notation "PL"^^xsd:string ;
   skos:prefLabel "Platy"@en ;
 .
 sp:structure-pedality-type-PO
@@ -8163,7 +8163,7 @@ sp:structure-pedality-type-PO
   rdfs:label "Polyhedral" ;
   owl:sameAs sp:structure-pedality-type-PO ;
   skos:definition "soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular.	Polyhedral	Soil particles arranged around a point and bounded by more than six relatively flat, unequal, dissimilar faces. Re-entrant angles between adjoining faces are a feature. There is usually much accommodation of ped faces to the faces of surrounding peds. Most vertices are angular." ;
-  skos:notation "PO" ;
+  skos:notation "PO"^^xsd:string ;
   skos:prefLabel "Polyhedral"@en ;
 .
 sp:structure-pedality-type-PR
@@ -8174,7 +8174,7 @@ sp:structure-pedality-type-PR
   rdfs:label "Prismatic" ;
   owl:sameAs sp:structure-pedality-type-PR ;
   skos:definition "soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular.	Prismatic	Soil particles arranged around a vertical axis and bounded by well-defined, relatively flat faces with much accommodation to the faces of surrounding peds. Vertices between adjoining faces are usually angular." ;
-  skos:notation "PR" ;
+  skos:notation "PR"^^xsd:string ;
   skos:prefLabel "Prismatic"@en ;
 .
 sp:structure-pedality-type-SB
@@ -8185,7 +8185,7 @@ sp:structure-pedality-type-SB
   rdfs:label "Subangular blocky" ;
   owl:sameAs sp:structure-pedality-type-SB ;
   skos:definition "soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded.	Subangular blocky	Soil particles arranged around a point and bounded by flat and rounded faces with limited accommodation to the faces of surrounding peds. Many vertices are rounded." ;
-  skos:notation "SB" ;
+  skos:notation "SB"^^xsd:string ;
   skos:prefLabel "Subangular blocky"@en ;
 .
 sp:surfacecondition-C
@@ -8196,7 +8196,7 @@ sp:surfacecondition-C
   rdfs:label "Surface crust" ;
   owl:sameAs sp:surfacecondition-C ;
   skos:definition "distinct surface layer, often laminated, ranging in thickness from a few millimetres to a few tens of millimetres, which is hard and brittle when dry and cannot be readily separated from, and lifted off, the underlying soil material." ;
-  skos:notation "C" ;
+  skos:notation "C"^^xsd:string ;
   skos:prefLabel "Surface crust"@en ;
 .
 sp:surfacecondition-F
@@ -8207,7 +8207,7 @@ sp:surfacecondition-F
   rdfs:label "Firm" ;
   owl:sameAs sp:surfacecondition-F ;
   skos:definition "coherent mass of individual particles or aggregates. Surface disturbed or indented by moderate pressure of forefinger." ;
-  skos:notation "F" ;
+  skos:notation "F"^^xsd:string ;
   skos:note "Coherent means that two-thirds of the soil material, whether composed of peds or not, will remain united at the given moisture state unless force is applied." ;
   skos:prefLabel "Firm"@en ;
 .
@@ -8219,7 +8219,7 @@ sp:surfacecondition-G
   rdfs:label "Cracking" ;
   owl:sameAs sp:surfacecondition-G ;
   skos:definition "cracks at least 5 mm wide and extending upwards to the surface or to the base of any plough layer or thin (<0.03 m) surface horizon." ;
-  skos:notation "G" ;
+  skos:notation "G"^^xsd:string ;
   skos:prefLabel "Cracking"@en ;
 .
 sp:surfacecondition-H
@@ -8230,7 +8230,7 @@ sp:surfacecondition-H
   rdfs:label "Hard setting" ;
   owl:sameAs sp:surfacecondition-H ;
   skos:definition "compact, hard, apparently apedal condition forms on drying but softens on wetting. When dry, the material is hard below any surface crust or flake that may occur, and is not disturbed or indented by pressure of forefinger." ;
-  skos:notation "H" ;
+  skos:notation "H"^^xsd:string ;
   skos:prefLabel "Hard setting"@en ;
 .
 sp:surfacecondition-L
@@ -8241,7 +8241,7 @@ sp:surfacecondition-L
   rdfs:label "Loose" ;
   owl:sameAs sp:surfacecondition-L ;
   skos:definition "incoherent mass of individual particles or aggregates. Surface easily disturbed by pressure of forefinger." ;
-  skos:notation "L" ;
+  skos:notation "L"^^xsd:string ;
   skos:note "Incoherent means that less than two-thirds of the soil material, whether composed of peds or not, will remain united at the given moisture state without very small force (force 1, see ‘Consistence’) having been applied." ;
   skos:prefLabel "Loose"@en ;
 .
@@ -8253,7 +8253,7 @@ sp:surfacecondition-M
   rdfs:label "Self-mulching" ;
   owl:sameAs sp:surfacecondition-M ;
   skos:definition "strongly pedal loose surface mulch forms on wetting and drying. Peds commonly less than 5 mm in least dimension." ;
-  skos:notation "M" ;
+  skos:notation "M"^^xsd:string ;
   skos:prefLabel "Self-mulching"@en ;
 .
 sp:surfacecondition-O
@@ -8264,7 +8264,7 @@ sp:surfacecondition-O
   rdfs:label "Other" ;
   owl:sameAs sp:surfacecondition-O ;
   skos:definition "Other" ;
-  skos:notation "O" ;
+  skos:notation "O"^^xsd:string ;
   skos:prefLabel "Other"@en ;
 .
 sp:surfacecondition-P
@@ -8275,7 +8275,7 @@ sp:surfacecondition-P
   rdfs:label "Poached" ;
   owl:sameAs sp:surfacecondition-P ;
   skos:definition "soil that has been extensively trampled under wet conditions by hoofed animals." ;
-  skos:notation "P" ;
+  skos:notation "P"^^xsd:string ;
   skos:prefLabel "Poached"@en ;
 .
 sp:surfacecondition-R
@@ -8286,7 +8286,7 @@ sp:surfacecondition-R
   rdfs:label "Recently cultivated" ;
   owl:sameAs sp:surfacecondition-R ;
   skos:definition "effect of cultivation is obvious." ;
-  skos:notation "R" ;
+  skos:notation "R"^^xsd:string ;
   skos:prefLabel "Recently cultivated"@en ;
 .
 sp:surfacecondition-S
@@ -8297,7 +8297,7 @@ sp:surfacecondition-S
   rdfs:label "Soft" ;
   owl:sameAs sp:surfacecondition-S ;
   skos:definition "coherent mass of individual particles or aggregates. Surface easily disturbed by pressure of forefinger." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:note "Coherent means that two-thirds of the soil material, whether composed of peds or not, will remain united at the given moisture state unless force is applied." ;
   skos:prefLabel "Soft"@en ;
 .
@@ -8309,7 +8309,7 @@ sp:surfacecondition-T
   rdfs:label "Trampled" ;
   owl:sameAs sp:surfacecondition-T ;
   skos:definition "soil that has been extensively trampled under dry conditions by hoofed animals." ;
-  skos:notation "T" ;
+  skos:notation "T"^^xsd:string ;
   skos:prefLabel "Trampled"@en ;
 .
 sp:surfacecondition-X
@@ -8320,7 +8320,7 @@ sp:surfacecondition-X
   rdfs:label "Surface flake" ;
   owl:sameAs sp:surfacecondition-X ;
   skos:definition "thin, massive surface layer, usually less than 10 mm thick, which on drying separates from, and can be readily lifted off, the soil below. It usually consists mainly of dispersed clay, and may become increasingly fragile as the soil dries." ;
-  skos:notation "X" ;
+  skos:notation "X"^^xsd:string ;
   skos:prefLabel "Surface flake"@en ;
 .
 sp:surfacecondition-Y
@@ -8331,7 +8331,7 @@ sp:surfacecondition-Y
   rdfs:label "Cryptogam surface" ;
   owl:sameAs sp:surfacecondition-Y ;
   skos:definition "thin, more or less continuous crust of biologically stabilised soil material usually due to algae, liverworts and mosses." ;
-  skos:notation "Y" ;
+  skos:notation "Y"^^xsd:string ;
   skos:prefLabel "Cryptogam surface"@en ;
 .
 sp:surfacecondition-Z
@@ -8342,7 +8342,7 @@ sp:surfacecondition-Z
   rdfs:label "Saline" ;
   owl:sameAs sp:surfacecondition-Z ;
   skos:definition "surface has visible salt, or salinity is evident from the absence or nature of the vegetation or from soil consistence. These conditions are characterised by their notable difference from adjacent non-saline areas." ;
-  skos:notation "Z" ;
+  skos:notation "Z"^^xsd:string ;
   skos:prefLabel "Saline"@en ;
 .
 sp:type-of-soil-observation
@@ -8399,7 +8399,7 @@ sp:voids-cracks-1
   rdfs:label "Fine" ;
   owl:sameAs sp:voids-cracks-1 ;
   skos:definition "<5 mm" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Fine"@en ;
 .
 sp:voids-cracks-2
@@ -8411,7 +8411,7 @@ sp:voids-cracks-2
   rdfs:label "Medium" ;
   owl:sameAs sp:voids-cracks-2 ;
   skos:definition "5 - 10 mm" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Medium"@en ;
 .
 sp:voids-cracks-3
@@ -8423,7 +8423,7 @@ sp:voids-cracks-3
   rdfs:label "Coarse" ;
   owl:sameAs sp:voids-cracks-3 ;
   skos:definition "10–20 mm" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Coarse"@en ;
 .
 sp:voids-cracks-4
@@ -8435,7 +8435,7 @@ sp:voids-cracks-4
   rdfs:label "Very coarse" ;
   owl:sameAs sp:voids-cracks-4 ;
   skos:definition "20–50 mm" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Very coarse"@en ;
 .
 sp:voids-cracks-5
@@ -8447,7 +8447,7 @@ sp:voids-cracks-5
   rdfs:label "Extremely coarse" ;
   owl:sameAs sp:voids-cracks-5 ;
   skos:definition "20–50 mm" ;
-  skos:notation "5" ;
+  skos:notation "5"^^xsd:string ;
   skos:prefLabel "Extremely coarse"@en ;
 .
 sp:voids-macropores
@@ -8491,7 +8491,7 @@ sp:voids-macropores-abundance-0
   rdfs:label "No fine, very fine, medium or coarse macropores" ;
   owl:sameAs sp:voids-macropores-abundance-0 ;
   skos:definition "No fine, very fine, medium or coarse macropores" ;
-  skos:notation "0" ;
+  skos:notation "0"^^xsd:string ;
   skos:prefLabel "No fine, very fine, medium or coarse macropores"@en ;
 .
 sp:voids-macropores-abundance-1
@@ -8503,7 +8503,7 @@ sp:voids-macropores-abundance-1
   rdfs:label "Few fine or very fine macropores" ;
   owl:sameAs sp:voids-macropores-abundance-1 ;
   skos:definition "<1 per 100 mm2 of diameter less than 2mm" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:prefLabel "Few fine or very fine macropores"@en ;
 .
 sp:voids-macropores-abundance-2
@@ -8515,7 +8515,7 @@ sp:voids-macropores-abundance-2
   rdfs:label "Common fine or very fine macropores" ;
   owl:sameAs sp:voids-macropores-abundance-2 ;
   skos:definition "1–5 per 100 mm2 of diameter less than 2mm" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:prefLabel "Common fine or very fine macropores"@en ;
 .
 sp:voids-macropores-abundance-3
@@ -8527,7 +8527,7 @@ sp:voids-macropores-abundance-3
   rdfs:label "Many fine or very fine macropores" ;
   owl:sameAs sp:voids-macropores-abundance-3 ;
   skos:definition ">5 per 100 mm2 of diameter less than 2mm" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:prefLabel "Many fine or very fine macropores"@en ;
 .
 sp:voids-macropores-abundance-4
@@ -8539,7 +8539,7 @@ sp:voids-macropores-abundance-4
   rdfs:label "Few medium or coarse macropores" ;
   owl:sameAs sp:voids-macropores-abundance-4 ;
   skos:definition "<1 per 0.01 m2 of diameter greater than 2mm" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:prefLabel "Few medium or coarse macropores"@en ;
 .
 sp:voids-macropores-abundance-5
@@ -8551,7 +8551,7 @@ sp:voids-macropores-abundance-5
   rdfs:label "Common medium or coarse macropores" ;
   owl:sameAs sp:voids-macropores-abundance-5 ;
   skos:definition "1–5 per 0.01 m2 of diameter greater than 2mm" ;
-  skos:notation "5" ;
+  skos:notation "5"^^xsd:string ;
   skos:prefLabel "Common medium or coarse macropores"@en ;
 .
 sp:voids-macropores-abundance-6
@@ -8563,7 +8563,7 @@ sp:voids-macropores-abundance-6
   rdfs:label "Many medium or coarse macropores" ;
   owl:sameAs sp:voids-macropores-abundance-6 ;
   skos:definition ">5 per 0.01 m2 of diameter greater than 2mm" ;
-  skos:notation "6" ;
+  skos:notation "6"^^xsd:string ;
   skos:prefLabel "Many medium or coarse macropores"@en ;
 .
 sp:voids-macropores-diameter
@@ -8591,7 +8591,7 @@ sp:voids-macropores-diameter-1
   rdfs:label "Very fine" ;
   owl:sameAs sp:voids-macropores-diameter-1 ;
   skos:definition "0.075–1 m" ;
-  skos:notation "1" ;
+  skos:notation "1"^^xsd:string ;
   skos:note "Use Figure 18 as a guide to average diameter" ;
   skos:prefLabel "Very fine"@en ;
 .
@@ -8604,7 +8604,7 @@ sp:voids-macropores-diameter-2
   rdfs:label "Fine" ;
   owl:sameAs sp:voids-macropores-diameter-2 ;
   skos:definition "1–2 mm" ;
-  skos:notation "2" ;
+  skos:notation "2"^^xsd:string ;
   skos:note "Use Figure 18 as a guide to average diameter" ;
   skos:prefLabel "Fine"@en ;
 .
@@ -8617,7 +8617,7 @@ sp:voids-macropores-diameter-3
   rdfs:label "Medium" ;
   owl:sameAs sp:voids-macropores-diameter-3 ;
   skos:definition "2–5 mm" ;
-  skos:notation "3" ;
+  skos:notation "3"^^xsd:string ;
   skos:note "Use Figure 18 as a guide to average diameter" ;
   skos:prefLabel "Medium"@en ;
 .
@@ -8630,7 +8630,7 @@ sp:voids-macropores-diameter-4
   rdfs:label "Coarse" ;
   owl:sameAs sp:voids-macropores-diameter-4 ;
   skos:definition ">5 mm" ;
-  skos:notation "4" ;
+  skos:notation "4"^^xsd:string ;
   skos:note "Use Figure 18 as a guide to average diameter" ;
   skos:prefLabel "Coarse"@en ;
 .
@@ -8668,7 +8668,7 @@ sp:water-repellence-N
   rdfs:label "Non water repellent" ;
   owl:sameAs sp:water-repellence-N ;
   skos:definition "water is absorbed into soil in 10 seconds or less." ;
-  skos:notation "N" ;
+  skos:notation "N"^^xsd:string ;
   skos:prefLabel "Non water repellent"@en ;
 .
 sp:water-repellence-R
@@ -8679,7 +8679,7 @@ sp:water-repellence-R
   rdfs:label "Water repellent" ;
   owl:sameAs sp:water-repellence-R ;
   skos:definition "water takes greater than 10 seconds and 2-molar ethanol takes 10 seconds or less to be absorbed into soil." ;
-  skos:notation "R" ;
+  skos:notation "R"^^xsd:string ;
   skos:prefLabel "Water repellent"@en ;
 .
 sp:water-repellence-S
@@ -8690,7 +8690,7 @@ sp:water-repellence-S
   rdfs:label "Strongly water repellent" ;
   owl:sameAs sp:water-repellence-S ;
   skos:definition "2 Molar ethanol takes greater than 10 seconds to be absorbed into soil." ;
-  skos:notation "S" ;
+  skos:notation "S"^^xsd:string ;
   skos:prefLabel "Strongly water repellent"@en ;
 .
 reg:statusAccepted
