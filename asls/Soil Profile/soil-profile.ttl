@@ -2710,7 +2710,6 @@ sp:field-texture-CL
   skos:narrower sp:field-texture-CL-I ;
   skos:narrower sp:field-texture-CL-heavy ;
   skos:narrower sp:field-texture-CL-light ;
-  skos:narrower sp:field-texture-CLS ;
   skos:notation "CL" ;
   skos:prefLabel "Clay loam"@en ;
 .
@@ -3179,7 +3178,7 @@ sp:field-texture-FSHC
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fine sandy heavy clay" ;
   owl:sameAs sp:field-texture-FSHC ;
-  skos:broader sp:field-texture-SHC ;
+  skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSHC-A ;
@@ -3195,7 +3194,7 @@ sp:field-texture-FSHC-A
   rdfs:label "Sapric fine sandy heavy clay" ;
   owl:sameAs sp:field-texture-FSHC-A ;
   skos:broader sp:field-texture-FSHC ;
-  skos:broader sp:field-texture-SHC-A ;
+  skos:broader sp:field-texture-HC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSHCA" ;
@@ -3209,7 +3208,7 @@ sp:field-texture-FSHC-I
   rdfs:label "Fibric fine sandy heavy clay" ;
   owl:sameAs sp:field-texture-FSHC-I ;
   skos:broader sp:field-texture-FSHC ;
-  skos:broader sp:field-texture-SHC-I ;
+  skos:broader sp:field-texture-HC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSHCI" ;
@@ -3265,7 +3264,7 @@ sp:field-texture-FSLC
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Fine sandy light clay" ;
   owl:sameAs sp:field-texture-FSLC ;
-  skos:broader sp:field-texture-SLC ;
+  skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSLC-A ;
@@ -3281,7 +3280,7 @@ sp:field-texture-FSLC-A
   rdfs:label "Sapric fine sandy light clay" ;
   owl:sameAs sp:field-texture-FSLC-A ;
   skos:broader sp:field-texture-FSLC ;
-  skos:broader sp:field-texture-SLC-A ;
+  skos:broader sp:field-texture-LC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSLCA" ;
@@ -3295,7 +3294,7 @@ sp:field-texture-FSLC-I
   rdfs:label "Fibric fine sandy light clay" ;
   owl:sameAs sp:field-texture-FSLC-I ;
   skos:broader sp:field-texture-FSLC ;
-  skos:broader sp:field-texture-SLC-I ;
+  skos:broader sp:field-texture-LC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSLCI" ;
@@ -3308,7 +3307,7 @@ sp:field-texture-FSLMC
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Fine sandy light medium clay" ;
   owl:sameAs sp:field-texture-FSLMC ;
-  skos:broader sp:field-texture-SLMC ;
+  skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSLMC-A ;
@@ -3324,7 +3323,7 @@ sp:field-texture-FSLMC-A
   rdfs:label "Sapric fine sandy light medium clay" ;
   owl:sameAs sp:field-texture-FSLMC-A ;
   skos:broader sp:field-texture-FSLMC ;
-  skos:broader sp:field-texture-SLMC-A ;
+  skos:broader sp:field-texture-LMC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSLMCA" ;
@@ -3338,7 +3337,7 @@ sp:field-texture-FSLMC-I
   rdfs:label "Fibric fine sandy light medium clay" ;
   owl:sameAs sp:field-texture-FSLMC-I ;
   skos:broader sp:field-texture-FSLMC ;
-  skos:broader sp:field-texture-SLMC-I ;
+  skos:broader sp:field-texture-LMC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSLMCI" ;
@@ -3351,7 +3350,7 @@ sp:field-texture-FSMC
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Fine sandy medium clay" ;
   owl:sameAs sp:field-texture-FSMC ;
-  skos:broader sp:field-texture-SMC ;
+  skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSMC-A ;
@@ -3367,7 +3366,7 @@ sp:field-texture-FSMC-A
   rdfs:label "Sapric fine sandy medium clay" ;
   owl:sameAs sp:field-texture-FSMC-A ;
   skos:broader sp:field-texture-FSMC ;
-  skos:broader sp:field-texture-SMC-A ;
+  skos:broader sp:field-texture-MC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSMCA" ;
@@ -3381,7 +3380,7 @@ sp:field-texture-FSMC-I
   rdfs:label "Fibric fine sandy medium clay" ;
   owl:sameAs sp:field-texture-FSMC-I ;
   skos:broader sp:field-texture-FSMC ;
-  skos:broader sp:field-texture-SMC-I ;
+  skos:broader sp:field-texture-MC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSMCI" ;
@@ -3394,7 +3393,7 @@ sp:field-texture-FSMHC
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fine sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-FSMHC ;
-  skos:broader sp:field-texture-SMHC ;
+  skos:broader sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FSMHC-A ;
@@ -3410,7 +3409,7 @@ sp:field-texture-FSMHC-A
   rdfs:label "Sapric fine sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-FSMHC-A ;
   skos:broader sp:field-texture-FSMHC ;
-  skos:broader sp:field-texture-SMHC-A ;
+  skos:broader sp:field-texture-MHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSMHCA" ;
@@ -3424,7 +3423,7 @@ sp:field-texture-FSMHC-I
   rdfs:label "Fibric fine sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-FSMHC-I ;
   skos:broader sp:field-texture-FSMHC ;
-  skos:broader sp:field-texture-SMHC-I ;
+  skos:broader sp:field-texture-MHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSMHCI" ;
@@ -3451,8 +3450,10 @@ sp:field-texture-HC
   rdfs:label "Heavy clay" ;
   owl:sameAs sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
+  skos:narrower sp:field-texture-FSHC ;
   skos:narrower sp:field-texture-HC-A ;
   skos:narrower sp:field-texture-HC-I ;
+  skos:narrower sp:field-texture-KSHC ;
   skos:narrower sp:field-texture-SHC ;
   skos:narrower sp:field-texture-ZHC ;
   skos:notation "HC" ;
@@ -3641,7 +3642,7 @@ sp:field-texture-KSHC
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Coarse sandy heavy clay" ;
   owl:sameAs sp:field-texture-KSHC ;
-  skos:broader sp:field-texture-SHC ;
+  skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KSHC-A ;
@@ -3656,8 +3657,8 @@ sp:field-texture-KSHC-A
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric coarse sandy heavy clay" ;
   owl:sameAs sp:field-texture-KSHC-A ;
+  skos:broader sp:field-texture-HC-A ;
   skos:broader sp:field-texture-KSHC ;
-  skos:broader sp:field-texture-SHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSHCA" ;
@@ -3670,8 +3671,8 @@ sp:field-texture-KSHC-I
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric coarse sandy heavy clay" ;
   owl:sameAs sp:field-texture-KSHC-I ;
+  skos:broader sp:field-texture-HC-I ;
   skos:broader sp:field-texture-KSHC ;
-  skos:broader sp:field-texture-SHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSHCI" ;
@@ -3727,7 +3728,7 @@ sp:field-texture-KSLC
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Coarse sandy light clay" ;
   owl:sameAs sp:field-texture-KSLC ;
-  skos:broader sp:field-texture-SLC ;
+  skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KSLC-A ;
@@ -3743,7 +3744,7 @@ sp:field-texture-KSLC-A
   rdfs:label "Sapric coarse sandy light clay" ;
   owl:sameAs sp:field-texture-KSLC-A ;
   skos:broader sp:field-texture-KSLC ;
-  skos:broader sp:field-texture-SLC-A ;
+  skos:broader sp:field-texture-LC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSLCA" ;
@@ -3757,7 +3758,7 @@ sp:field-texture-KSLC-I
   rdfs:label "Fibric coarse sandy light clay" ;
   owl:sameAs sp:field-texture-KSLC-I ;
   skos:broader sp:field-texture-KSLC ;
-  skos:broader sp:field-texture-SLC-I ;
+  skos:broader sp:field-texture-LC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSLCI" ;
@@ -3770,7 +3771,7 @@ sp:field-texture-KSLMC
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Coarse sandy light medium clay" ;
   owl:sameAs sp:field-texture-KSLMC ;
-  skos:broader sp:field-texture-SLMC ;
+  skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KSLMC-A ;
@@ -3786,7 +3787,7 @@ sp:field-texture-KSLMC-A
   rdfs:label "Sapric coarse sandy light medium clay" ;
   owl:sameAs sp:field-texture-KSLMC-A ;
   skos:broader sp:field-texture-KSLMC ;
-  skos:broader sp:field-texture-SLMC-A ;
+  skos:broader sp:field-texture-LMC-A ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSLMCA" ;
@@ -3800,7 +3801,7 @@ sp:field-texture-KSLMC-I
   rdfs:label "Fibric coarse sandy light medium clay" ;
   owl:sameAs sp:field-texture-KSLMC-I ;
   skos:broader sp:field-texture-KSLMC ;
-  skos:broader sp:field-texture-SLMC-I ;
+  skos:broader sp:field-texture-LMC-I ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSLMCI" ;
@@ -3813,7 +3814,7 @@ sp:field-texture-KSMC
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Coarse sandy medium clay" ;
   owl:sameAs sp:field-texture-KSMC ;
-  skos:broader sp:field-texture-SMC ;
+  skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KSMC-A ;
@@ -3829,7 +3830,7 @@ sp:field-texture-KSMC-A
   rdfs:label "Sapric coarse sandy medium clay" ;
   owl:sameAs sp:field-texture-KSMC-A ;
   skos:broader sp:field-texture-KSMC ;
-  skos:broader sp:field-texture-SMC-A ;
+  skos:broader sp:field-texture-MC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSMCA" ;
@@ -3843,7 +3844,7 @@ sp:field-texture-KSMC-I
   rdfs:label "Fibric coarse sandy medium clay" ;
   owl:sameAs sp:field-texture-KSMC-I ;
   skos:broader sp:field-texture-KSMC ;
-  skos:broader sp:field-texture-SMC-I ;
+  skos:broader sp:field-texture-MC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSMCI" ;
@@ -3856,7 +3857,7 @@ sp:field-texture-KSMHC
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Coarse sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-KSMHC ;
-  skos:broader sp:field-texture-SMHC ;
+  skos:broader sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KSMHC-A ;
@@ -3872,7 +3873,7 @@ sp:field-texture-KSMHC-A
   rdfs:label "Sapric coarse sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-KSMHC-A ;
   skos:broader sp:field-texture-KSMHC ;
-  skos:broader sp:field-texture-SMHC-A ;
+  skos:broader sp:field-texture-MHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSMHCA" ;
@@ -3886,7 +3887,7 @@ sp:field-texture-KSMHC-I
   rdfs:label "Fibric coarse sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-KSMHC-I ;
   skos:broader sp:field-texture-KSMHC ;
-  skos:broader sp:field-texture-SMHC-I ;
+  skos:broader sp:field-texture-MHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSMHCI" ;
@@ -3962,6 +3963,8 @@ sp:field-texture-LC-A
   skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower sp:field-texture-FSLC-A ;
+  skos:narrower sp:field-texture-KSLC-A ;
   skos:narrower sp:field-texture-SLC-A ;
   skos:narrower sp:field-texture-ZLC-A ;
   skos:notation "LCA" ;
@@ -3977,6 +3980,8 @@ sp:field-texture-LC-I
   skos:broader sp:field-texture-LC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower sp:field-texture-FSLC-I ;
+  skos:narrower sp:field-texture-KSLC-I ;
   skos:narrower sp:field-texture-SLC-I ;
   skos:narrower sp:field-texture-ZLC-I ;
   skos:notation "LCI" ;
@@ -4081,6 +4086,8 @@ sp:field-texture-LMC
   rdfs:label "Light medium clay" ;
   owl:sameAs sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
+  skos:narrower sp:field-texture-FSLMC ;
+  skos:narrower sp:field-texture-KSLMC ;
   skos:narrower sp:field-texture-LMC-A ;
   skos:narrower sp:field-texture-LMC-I ;
   skos:narrower sp:field-texture-SLMC ;
@@ -4098,6 +4105,8 @@ sp:field-texture-LMC-A
   skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower sp:field-texture-FSLMC-A ;
+  skos:narrower sp:field-texture-KSLMC-A ;
   skos:narrower sp:field-texture-SLMC-A ;
   skos:narrower sp:field-texture-ZLMC-A ;
   skos:notation "LMCA" ;
@@ -4113,6 +4122,8 @@ sp:field-texture-LMC-I
   skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower sp:field-texture-FSLMC-I ;
+  skos:narrower sp:field-texture-KSLMC-I ;
   skos:narrower sp:field-texture-SLMC-I ;
   skos:narrower sp:field-texture-ZLMC-I ;
   skos:notation "LMCI" ;
@@ -4187,6 +4198,8 @@ sp:field-texture-MC
   rdfs:label "Medium clay" ;
   owl:sameAs sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
+  skos:narrower sp:field-texture-FSMC ;
+  skos:narrower sp:field-texture-KSMC ;
   skos:narrower sp:field-texture-MC-A ;
   skos:narrower sp:field-texture-MC-I ;
   skos:narrower sp:field-texture-SMC ;
@@ -4204,6 +4217,8 @@ sp:field-texture-MC-A
   skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower sp:field-texture-FSMC-A ;
+  skos:narrower sp:field-texture-KSMC-A ;
   skos:narrower sp:field-texture-SMC-A ;
   skos:narrower sp:field-texture-ZMC-A ;
   skos:notation "MCA" ;
@@ -4219,6 +4234,8 @@ sp:field-texture-MC-I
   skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower sp:field-texture-FSMC-I ;
+  skos:narrower sp:field-texture-KSMC-I ;
   skos:narrower sp:field-texture-SMC-I ;
   skos:narrower sp:field-texture-ZMC-I ;
   skos:notation "MCI" ;
@@ -4233,6 +4250,8 @@ sp:field-texture-MHC
   rdfs:label "Medium heavy clay" ;
   owl:sameAs sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
+  skos:narrower sp:field-texture-FSMHC ;
+  skos:narrower sp:field-texture-KSMHC ;
   skos:narrower sp:field-texture-MHC-A ;
   skos:narrower sp:field-texture-MHC-I ;
   skos:narrower sp:field-texture-SMHC ;
@@ -4248,8 +4267,12 @@ sp:field-texture-MHC-A
   rdfs:label "Sapric medium heavy clay" ;
   owl:sameAs sp:field-texture-MHC-A ;
   skos:broader sp:field-texture-MHC ;
+  skos:broader sp:field-texture-MHC-A ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower sp:field-texture-FSMHC-A ;
+  skos:narrower sp:field-texture-KSMHC-A ;
+  skos:narrower sp:field-texture-MHC-A ;
   skos:narrower sp:field-texture-SMHC-A ;
   skos:narrower sp:field-texture-ZMHC-A ;
   skos:notation "MHCA" ;
@@ -4263,8 +4286,12 @@ sp:field-texture-MHC-I
   rdfs:label "Fibric medium heavy clay" ;
   owl:sameAs sp:field-texture-MHC-I ;
   skos:broader sp:field-texture-MHC ;
+  skos:broader sp:field-texture-MHC-I ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower sp:field-texture-FSMHC-I ;
+  skos:narrower sp:field-texture-KSMHC-I ;
+  skos:narrower sp:field-texture-MHC-I ;
   skos:narrower sp:field-texture-SMHC-I ;
   skos:narrower sp:field-texture-ZMHC-I ;
   skos:notation "MHCI" ;
@@ -4281,7 +4308,6 @@ sp:field-texture-S
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
   skos:narrower sp:field-texture-FS ;
   skos:narrower sp:field-texture-KS ;
-  skos:narrower sp:field-texture-LS ;
   skos:narrower sp:field-texture-S-A ;
   skos:narrower sp:field-texture-S-I ;
   skos:notation "S" ;
@@ -4407,8 +4433,6 @@ sp:field-texture-SHC
   skos:broader sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSHC ;
-  skos:narrower sp:field-texture-KSHC ;
   skos:narrower sp:field-texture-SHC-A ;
   skos:narrower sp:field-texture-SHC-I ;
   skos:notation "SHC" ;
@@ -4514,8 +4538,6 @@ sp:field-texture-SLC-A
   skos:broader sp:field-texture-SLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSLC-A ;
-  skos:narrower sp:field-texture-KSLC-A ;
   skos:notation "SLCA" ;
   skos:prefLabel "Sapric sandy light clay"@en ;
 .
@@ -4530,8 +4552,6 @@ sp:field-texture-SLC-I
   skos:broader sp:field-texture-SLC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSLC-I ;
-  skos:narrower sp:field-texture-KSLC-I ;
   skos:notation "SLCI" ;
   skos:prefLabel "Fibric sandy light clay"@en ;
 .
@@ -4545,8 +4565,6 @@ sp:field-texture-SLMC
   skos:broader sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSLMC ;
-  skos:narrower sp:field-texture-KSLMC ;
   skos:narrower sp:field-texture-SLMC-A ;
   skos:narrower sp:field-texture-SLMC-I ;
   skos:notation "SLMC" ;
@@ -4563,8 +4581,6 @@ sp:field-texture-SLMC-A
   skos:broader sp:field-texture-SLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSLMC-A ;
-  skos:narrower sp:field-texture-KSLMC-A ;
   skos:notation "SLMCA" ;
   skos:prefLabel "Sapric sandy light medium clay"@en ;
 .
@@ -4579,8 +4595,6 @@ sp:field-texture-SLMC-I
   skos:broader sp:field-texture-SLMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSLMC-I ;
-  skos:narrower sp:field-texture-KSLMC-I ;
   skos:notation "SLMCI" ;
   skos:prefLabel "Fibric sandy light medium clay"@en ;
 .
@@ -4594,8 +4608,6 @@ sp:field-texture-SMC
   skos:broader sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSMC ;
-  skos:narrower sp:field-texture-KSMC ;
   skos:narrower sp:field-texture-SMC-A ;
   skos:narrower sp:field-texture-SMC-I ;
   skos:notation "SMC" ;
@@ -4612,8 +4624,6 @@ sp:field-texture-SMC-A
   skos:broader sp:field-texture-SMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSMC-A ;
-  skos:narrower sp:field-texture-KSMC-A ;
   skos:notation "SMCA" ;
   skos:prefLabel "Sapric sandy medium clay"@en ;
 .
@@ -4628,8 +4638,6 @@ sp:field-texture-SMC-I
   skos:broader sp:field-texture-SMC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSMC-I ;
-  skos:narrower sp:field-texture-KSMC-I ;
   skos:notation "SMCI" ;
   skos:prefLabel "Fibric sandy medium clay"@en ;
 .
@@ -4643,8 +4651,6 @@ sp:field-texture-SMHC
   skos:broader sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSMHC ;
-  skos:narrower sp:field-texture-KSMHC ;
   skos:narrower sp:field-texture-SMHC-A ;
   skos:narrower sp:field-texture-SMHC-I ;
   skos:notation "SMHC" ;
@@ -4661,8 +4667,6 @@ sp:field-texture-SMHC-A
   skos:broader sp:field-texture-SMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSMHC-A ;
-  skos:narrower sp:field-texture-KSMHC-A ;
   skos:notation "SMHCA" ;
   skos:prefLabel "Sapric sandy medium heavy clay"@en ;
 .
@@ -4677,8 +4681,6 @@ sp:field-texture-SMHC-I
   skos:broader sp:field-texture-SMHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower sp:field-texture-FSMHC-I ;
-  skos:narrower sp:field-texture-KSMHC-I ;
   skos:notation "SMHCI" ;
   skos:prefLabel "Fibric sandy medium heavy clay"@en ;
 .

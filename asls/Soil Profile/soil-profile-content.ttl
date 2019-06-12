@@ -17,41 +17,6 @@
 @prefix ui: <http://purl.org/linked-data/registry-ui#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-asls:soil-profile
-  a owl:Ontology ;
-  dct:contributor <https://orcid.org/0000-0002-0693-1899> ;
-  dct:contributor <https://orcid.org/0000-0002-3884-3420> ;
-  dct:created "2017-10-26"^^xsd:date ;
-  dct:creator <mailto:asris@csiro.au> ;
-  dct:description """
-  <p>This register contains a machine-readable representation of the classifiers described in chapter 8 <i>Soil Profile</i>, by R.C. McDonald and R.F. Isbell, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a>.</p>
-<p>A soil profile is a vertical section of a soil from the soil surface through all its horizons to parent material, other consolidated substrate material or selected depth in unconsolidated material.</p>
-"""^^rdf:HTML ;
-  dct:license <http://creativecommons.org/licences/by/4.0> ;
-  dct:modified "2018-12-12"^^xsd:date ;
-  dct:publisher <http://www.publish.csiro.au/> ;
-  dct:rights "copyright CSIRO 2009, 2016, 2018. All rights reserved." ;
-  dct:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)" ;
-  reg:notation "soil-profile" ;
-  ui:hierarchyChildProperty skos:member ;
-  ui:hierarchyRootProperty ui:topMemberOf ;
-  rdfs:label "Soil Profile classifiers" ;
-  rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
-  owl:imports dc: ;
-  owl:imports <http://purl.org/linked-data/registry> ;
-  owl:imports ui: ;
-  owl:imports sosa: ;
-  skos:changeNote """Add explicit identifiers using 
-
-CONSTRUCT {
-	?c dct:identifier ?id.
-}
-WHERE {
-	?c a skos:Collection ;
-	BIND ( strdt( str(?c) , xsd:anyURI ) as ?id )
-}
-""" ;
-.
 <boundaries-between-horizons>
   a skos:Collection ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/boundaries-between-horizons"^^xsd:anyURI ;
@@ -2710,7 +2675,6 @@ pH may be measured either:
   skos:narrower <field-texture-CL-I> ;
   skos:narrower <field-texture-CL-heavy> ;
   skos:narrower <field-texture-CL-light> ;
-  skos:narrower <field-texture-CLS> ;
   skos:notation "CL" ;
   skos:prefLabel "Clay loam"@en ;
 .
@@ -3179,7 +3143,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fine sandy heavy clay" ;
   owl:sameAs sp:field-texture-FSHC ;
-  skos:broader <field-texture-SHC> ;
+  skos:broader <field-texture-HC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower <field-texture-FSHC-A> ;
@@ -3195,7 +3159,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Sapric fine sandy heavy clay" ;
   owl:sameAs sp:field-texture-FSHC-A ;
   skos:broader <field-texture-FSHC> ;
-  skos:broader <field-texture-SHC-A> ;
+  skos:broader <field-texture-HC-A> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSHCA" ;
@@ -3209,7 +3173,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric fine sandy heavy clay" ;
   owl:sameAs sp:field-texture-FSHC-I ;
   skos:broader <field-texture-FSHC> ;
-  skos:broader <field-texture-SHC-I> ;
+  skos:broader <field-texture-HC-I> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSHCI" ;
@@ -3265,7 +3229,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Fine sandy light clay" ;
   owl:sameAs sp:field-texture-FSLC ;
-  skos:broader <field-texture-SLC> ;
+  skos:broader <field-texture-LC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower <field-texture-FSLC-A> ;
@@ -3281,7 +3245,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Sapric fine sandy light clay" ;
   owl:sameAs sp:field-texture-FSLC-A ;
   skos:broader <field-texture-FSLC> ;
-  skos:broader <field-texture-SLC-A> ;
+  skos:broader <field-texture-LC-A> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSLCA" ;
@@ -3295,7 +3259,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric fine sandy light clay" ;
   owl:sameAs sp:field-texture-FSLC-I ;
   skos:broader <field-texture-FSLC> ;
-  skos:broader <field-texture-SLC-I> ;
+  skos:broader <field-texture-LC-I> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSLCI" ;
@@ -3308,7 +3272,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Fine sandy light medium clay" ;
   owl:sameAs sp:field-texture-FSLMC ;
-  skos:broader <field-texture-SLMC> ;
+  skos:broader <field-texture-LMC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower <field-texture-FSLMC-A> ;
@@ -3324,7 +3288,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Sapric fine sandy light medium clay" ;
   owl:sameAs sp:field-texture-FSLMC-A ;
   skos:broader <field-texture-FSLMC> ;
-  skos:broader <field-texture-SLMC-A> ;
+  skos:broader <field-texture-LMC-A> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSLMCA" ;
@@ -3338,7 +3302,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric fine sandy light medium clay" ;
   owl:sameAs sp:field-texture-FSLMC-I ;
   skos:broader <field-texture-FSLMC> ;
-  skos:broader <field-texture-SLMC-I> ;
+  skos:broader <field-texture-LMC-I> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSLMCI" ;
@@ -3351,7 +3315,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Fine sandy medium clay" ;
   owl:sameAs sp:field-texture-FSMC ;
-  skos:broader <field-texture-SMC> ;
+  skos:broader <field-texture-MC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower <field-texture-FSMC-A> ;
@@ -3367,7 +3331,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Sapric fine sandy medium clay" ;
   owl:sameAs sp:field-texture-FSMC-A ;
   skos:broader <field-texture-FSMC> ;
-  skos:broader <field-texture-SMC-A> ;
+  skos:broader <field-texture-MC-A> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSMCA" ;
@@ -3381,7 +3345,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric fine sandy medium clay" ;
   owl:sameAs sp:field-texture-FSMC-I ;
   skos:broader <field-texture-FSMC> ;
-  skos:broader <field-texture-SMC-I> ;
+  skos:broader <field-texture-MC-I> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSMCI" ;
@@ -3394,7 +3358,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fine sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-FSMHC ;
-  skos:broader <field-texture-SMHC> ;
+  skos:broader <field-texture-MHC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower <field-texture-FSMHC-A> ;
@@ -3410,7 +3374,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Sapric fine sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-FSMHC-A ;
   skos:broader <field-texture-FSMHC> ;
-  skos:broader <field-texture-SMHC-A> ;
+  skos:broader <field-texture-MHC-A> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSMHCA" ;
@@ -3424,7 +3388,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric fine sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-FSMHC-I ;
   skos:broader <field-texture-FSMHC> ;
-  skos:broader <field-texture-SMHC-I> ;
+  skos:broader <field-texture-MHC-I> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "FSMHCI" ;
@@ -3451,8 +3415,10 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Heavy clay" ;
   owl:sameAs sp:field-texture-HC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
+  skos:narrower <field-texture-FSHC> ;
   skos:narrower <field-texture-HC-A> ;
   skos:narrower <field-texture-HC-I> ;
+  skos:narrower <field-texture-KSHC> ;
   skos:narrower <field-texture-SHC> ;
   skos:narrower <field-texture-ZHC> ;
   skos:notation "HC" ;
@@ -3641,7 +3607,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Coarse sandy heavy clay" ;
   owl:sameAs sp:field-texture-KSHC ;
-  skos:broader <field-texture-SHC> ;
+  skos:broader <field-texture-HC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower <field-texture-KSHC-A> ;
@@ -3656,8 +3622,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Sapric coarse sandy heavy clay" ;
   owl:sameAs sp:field-texture-KSHC-A ;
+  skos:broader <field-texture-HC-A> ;
   skos:broader <field-texture-KSHC> ;
-  skos:broader <field-texture-SHC-A> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSHCA" ;
@@ -3670,8 +3636,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Fibric coarse sandy heavy clay" ;
   owl:sameAs sp:field-texture-KSHC-I ;
+  skos:broader <field-texture-HC-I> ;
   skos:broader <field-texture-KSHC> ;
-  skos:broader <field-texture-SHC-I> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSHCI" ;
@@ -3727,7 +3693,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 35 - 40%" ;
   rdfs:label "Coarse sandy light clay" ;
   owl:sameAs sp:field-texture-KSLC ;
-  skos:broader <field-texture-SLC> ;
+  skos:broader <field-texture-LC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower <field-texture-KSLC-A> ;
@@ -3743,7 +3709,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Sapric coarse sandy light clay" ;
   owl:sameAs sp:field-texture-KSLC-A ;
   skos:broader <field-texture-KSLC> ;
-  skos:broader <field-texture-SLC-A> ;
+  skos:broader <field-texture-LC-A> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSLCA" ;
@@ -3757,7 +3723,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric coarse sandy light clay" ;
   owl:sameAs sp:field-texture-KSLC-I ;
   skos:broader <field-texture-KSLC> ;
-  skos:broader <field-texture-SLC-I> ;
+  skos:broader <field-texture-LC-I> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSLCI" ;
@@ -3770,7 +3736,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 40 - 45%" ;
   rdfs:label "Coarse sandy light medium clay" ;
   owl:sameAs sp:field-texture-KSLMC ;
-  skos:broader <field-texture-SLMC> ;
+  skos:broader <field-texture-LMC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower <field-texture-KSLMC-A> ;
@@ -3786,7 +3752,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Sapric coarse sandy light medium clay" ;
   owl:sameAs sp:field-texture-KSLMC-A ;
   skos:broader <field-texture-KSLMC> ;
-  skos:broader <field-texture-SLMC-A> ;
+  skos:broader <field-texture-LMC-A> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSLMCA" ;
@@ -3800,7 +3766,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric coarse sandy light medium clay" ;
   owl:sameAs sp:field-texture-KSLMC-I ;
   skos:broader <field-texture-KSLMC> ;
-  skos:broader <field-texture-SLMC-I> ;
+  skos:broader <field-texture-LMC-I> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSLMCI" ;
@@ -3813,7 +3779,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 45 - 55%" ;
   rdfs:label "Coarse sandy medium clay" ;
   owl:sameAs sp:field-texture-KSMC ;
-  skos:broader <field-texture-SMC> ;
+  skos:broader <field-texture-MC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower <field-texture-KSMC-A> ;
@@ -3829,7 +3795,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Sapric coarse sandy medium clay" ;
   owl:sameAs sp:field-texture-KSMC-A ;
   skos:broader <field-texture-KSMC> ;
-  skos:broader <field-texture-SMC-A> ;
+  skos:broader <field-texture-MC-A> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSMCA" ;
@@ -3843,7 +3809,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric coarse sandy medium clay" ;
   owl:sameAs sp:field-texture-KSMC-I ;
   skos:broader <field-texture-KSMC> ;
-  skos:broader <field-texture-SMC-I> ;
+  skos:broader <field-texture-MC-I> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSMCI" ;
@@ -3856,7 +3822,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:comment "Approximate clay content (%): 50% or more" ;
   rdfs:label "Coarse sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-KSMHC ;
-  skos:broader <field-texture-SMHC> ;
+  skos:broader <field-texture-MHC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:narrower <field-texture-KSMHC-A> ;
@@ -3872,7 +3838,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Sapric coarse sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-KSMHC-A ;
   skos:broader <field-texture-KSMHC> ;
-  skos:broader <field-texture-SMHC-A> ;
+  skos:broader <field-texture-MHC-A> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSMHCA" ;
@@ -3886,7 +3852,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric coarse sandy medium heavy clay" ;
   owl:sameAs sp:field-texture-KSMHC-I ;
   skos:broader <field-texture-KSMHC> ;
-  skos:broader <field-texture-SMHC-I> ;
+  skos:broader <field-texture-MHC-I> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
   skos:notation "KSMHCI" ;
@@ -3962,6 +3928,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-LC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower <field-texture-FSLC-A> ;
+  skos:narrower <field-texture-KSLC-A> ;
   skos:narrower <field-texture-SLC-A> ;
   skos:narrower <field-texture-ZLC-A> ;
   skos:notation "LCA" ;
@@ -3977,6 +3945,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-LC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower <field-texture-FSLC-I> ;
+  skos:narrower <field-texture-KSLC-I> ;
   skos:narrower <field-texture-SLC-I> ;
   skos:narrower <field-texture-ZLC-I> ;
   skos:notation "LCI" ;
@@ -4081,6 +4051,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Light medium clay" ;
   owl:sameAs sp:field-texture-LMC ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
+  skos:narrower <field-texture-FSLMC> ;
+  skos:narrower <field-texture-KSLMC> ;
   skos:narrower <field-texture-LMC-A> ;
   skos:narrower <field-texture-LMC-I> ;
   skos:narrower <field-texture-SLMC> ;
@@ -4098,6 +4070,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-LMC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower <field-texture-FSLMC-A> ;
+  skos:narrower <field-texture-KSLMC-A> ;
   skos:narrower <field-texture-SLMC-A> ;
   skos:narrower <field-texture-ZLMC-A> ;
   skos:notation "LMCA" ;
@@ -4113,6 +4087,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-LMC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower <field-texture-FSLMC-I> ;
+  skos:narrower <field-texture-KSLMC-I> ;
   skos:narrower <field-texture-SLMC-I> ;
   skos:narrower <field-texture-ZLMC-I> ;
   skos:notation "LMCI" ;
@@ -4187,6 +4163,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Medium clay" ;
   owl:sameAs sp:field-texture-MC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
+  skos:narrower <field-texture-FSMC> ;
+  skos:narrower <field-texture-KSMC> ;
   skos:narrower <field-texture-MC-A> ;
   skos:narrower <field-texture-MC-I> ;
   skos:narrower <field-texture-SMC> ;
@@ -4204,6 +4182,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-MC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower <field-texture-FSMC-A> ;
+  skos:narrower <field-texture-KSMC-A> ;
   skos:narrower <field-texture-SMC-A> ;
   skos:narrower <field-texture-ZMC-A> ;
   skos:notation "MCA" ;
@@ -4219,6 +4199,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-MC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower <field-texture-FSMC-I> ;
+  skos:narrower <field-texture-KSMC-I> ;
   skos:narrower <field-texture-SMC-I> ;
   skos:narrower <field-texture-ZMC-I> ;
   skos:notation "MCI" ;
@@ -4233,6 +4215,8 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Medium heavy clay" ;
   owl:sameAs sp:field-texture-MHC ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
+  skos:narrower <field-texture-FSMHC> ;
+  skos:narrower <field-texture-KSMHC> ;
   skos:narrower <field-texture-MHC-A> ;
   skos:narrower <field-texture-MHC-I> ;
   skos:narrower <field-texture-SMHC> ;
@@ -4248,8 +4232,12 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Sapric medium heavy clay" ;
   owl:sameAs sp:field-texture-MHC-A ;
   skos:broader <field-texture-MHC> ;
+  skos:broader <field-texture-MHC-A> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower <field-texture-FSMHC-A> ;
+  skos:narrower <field-texture-KSMHC-A> ;
+  skos:narrower <field-texture-MHC-A> ;
   skos:narrower <field-texture-SMHC-A> ;
   skos:narrower <field-texture-ZMHC-A> ;
   skos:notation "MHCA" ;
@@ -4263,8 +4251,12 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   rdfs:label "Fibric medium heavy clay" ;
   owl:sameAs sp:field-texture-MHC-I ;
   skos:broader <field-texture-MHC> ;
+  skos:broader <field-texture-MHC-I> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
+  skos:narrower <field-texture-FSMHC-I> ;
+  skos:narrower <field-texture-KSMHC-I> ;
+  skos:narrower <field-texture-MHC-I> ;
   skos:narrower <field-texture-SMHC-I> ;
   skos:narrower <field-texture-ZMHC-I> ;
   skos:notation "MHCI" ;
@@ -4281,7 +4273,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers." ;
   skos:narrower <field-texture-FS> ;
   skos:narrower <field-texture-KS> ;
-  skos:narrower <field-texture-LS> ;
   skos:narrower <field-texture-S-A> ;
   skos:narrower <field-texture-S-I> ;
   skos:notation "S" ;
@@ -4407,8 +4398,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-HC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like stiff plasticine; can be moulded into rods without fracture; has firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSHC> ;
-  skos:narrower <field-texture-KSHC> ;
   skos:narrower <field-texture-SHC-A> ;
   skos:narrower <field-texture-SHC-I> ;
   skos:notation "SHC" ;
@@ -4514,8 +4503,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-SLC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSLC-A> ;
-  skos:narrower <field-texture-KSLC-A> ;
   skos:notation "SLCA" ;
   skos:prefLabel "Sapric sandy light clay"@en ;
 .
@@ -4530,8 +4517,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-SLC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight resistance to shearing between thumb and forefinger; will form ribbon of 50–75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSLC-I> ;
-  skos:narrower <field-texture-KSLC-I> ;
   skos:notation "SLCI" ;
   skos:prefLabel "Fibric sandy light clay"@en ;
 .
@@ -4545,8 +4530,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-LMC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSLMC> ;
-  skos:narrower <field-texture-KSLMC> ;
   skos:narrower <field-texture-SLMC-A> ;
   skos:narrower <field-texture-SLMC-I> ;
   skos:notation "SLMC" ;
@@ -4563,8 +4546,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-SLMC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSLMC-A> ;
-  skos:narrower <field-texture-KSLMC-A> ;
   skos:notation "SLMCA" ;
   skos:prefLabel "Sapric sandy light medium clay"@en ;
 .
@@ -4579,8 +4560,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-SLMC> ;
   skos:definition "Behaviour of moist bolus: plastic bolus; smooth to touch; slight to moderate resistance to ribboning shear; will form ribbon of about 75 mm." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSLMC-I> ;
-  skos:narrower <field-texture-KSLMC-I> ;
   skos:notation "SLMCI" ;
   skos:prefLabel "Fibric sandy light medium clay"@en ;
 .
@@ -4594,8 +4573,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-MC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSMC> ;
-  skos:narrower <field-texture-KSMC> ;
   skos:narrower <field-texture-SMC-A> ;
   skos:narrower <field-texture-SMC-I> ;
   skos:notation "SMC" ;
@@ -4612,8 +4589,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-SMC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSMC-A> ;
-  skos:narrower <field-texture-KSMC-A> ;
   skos:notation "SMCA" ;
   skos:prefLabel "Sapric sandy medium clay"@en ;
 .
@@ -4628,8 +4603,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-SMC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine and can be moulded into rods without fracture; has moderate resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSMC-I> ;
-  skos:narrower <field-texture-KSMC-I> ;
   skos:notation "SMCI" ;
   skos:prefLabel "Fibric sandy medium clay"@en ;
 .
@@ -4643,8 +4616,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-MHC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSMHC> ;
-  skos:narrower <field-texture-KSMHC> ;
   skos:narrower <field-texture-SMHC-A> ;
   skos:narrower <field-texture-SMHC-I> ;
   skos:notation "SMHC" ;
@@ -4661,8 +4632,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-SMHC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSMHC-A> ;
-  skos:narrower <field-texture-KSMHC-A> ;
   skos:notation "SMHCA" ;
   skos:prefLabel "Sapric sandy medium heavy clay"@en ;
 .
@@ -4677,8 +4646,6 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
   skos:broader <field-texture-SMHC> ;
   skos:definition "Behaviour of moist bolus: smooth plastic bolus; handles like plasticine; can be moulded into rods without fracture; has moderate to firm resistance to ribboning shear; will form ribbon of 75 mm or more." ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <field-texture-FSMHC-I> ;
-  skos:narrower <field-texture-KSMHC-I> ;
   skos:notation "SMHCI" ;
   skos:prefLabel "Fibric sandy medium heavy clay"@en ;
 .
