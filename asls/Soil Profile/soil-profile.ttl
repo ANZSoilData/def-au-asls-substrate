@@ -1765,7 +1765,7 @@ sp:coarse-fragments-strength-W
   skos:prefLabel "Weak rock"@en ;
 .
 sp:colour
-  a skos:Concept ;
+  a skos:Collection ;
   a sosa:ObservableProperty ;
   dct:description """Record colours by comparing soils with colour charts using the Munsell Color system, for example the Munsell Soil Color Charts or the Revised Standard Soil Color Charts (Oyama and Takehara 1970).
 Hue, value and chroma of the matrix colour are recorded, for example 10YR4/2.
