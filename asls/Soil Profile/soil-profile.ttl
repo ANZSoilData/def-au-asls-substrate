@@ -5062,6 +5062,73 @@ sp:field-texture-organic
   skos:member sp:field-texture-SP ;
   skos:prefLabel "Organic soils field texture"@en ;
 .
+sp:field-texture-qualifier
+  rdf:type skos:Collection ;
+  rdf:type sosa:ObservableProperty ;
+  dct:description """The non-clay field texture grades (clay loams and coarser) may be qualified according to whether they are at, or near, the light (lower clay content) or heavy (higher clay content) end of the range for that 
+particular field texture grade. Note that clay field texture grades provide for light and heavy qualifiers in the clays and hence – and + are not required. 
+If the soils are appreciably organic, they are qualified as Sapric or Fibric.
+These codes are given after the field texture. For example, light sandy clay loam is coded SCL–, heavy sandy clay loam is coded SCL+, and fibric sandy loam is coded SLI.
+It is strongly recommended that qualifiers only be used where considered essential. If too freely used, it can lead to excessive, unnecessary detail of doubtful usefulness."""@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-qualifier"^^xsd:anyURI ;
+  ui:isMemberOf sp:field-textures ;
+  rdfs:label "Field texture qualifier"@en ;
+  owl:sameAs sp:field-texture-qualifier ;
+  skos:definition """The non-clay field texture grades (clay loams and coarser) may be qualified according to whether they are at, or near, the light (lower clay content) or heavy (higher clay content) end of the range for that 
+particular field texture grade. Note that clay field texture grades provide for light and heavy qualifiers in the clays and hence – and + are not required. 
+If the soils are appreciably organic, they are qualified as Sapric or Fibric.
+These codes are given after the field texture. For example, light sandy clay loam is coded SCL–, heavy sandy clay loam is coded SCL+, and fibric sandy loam is coded SLI.
+It is strongly recommended that qualifiers only be used where considered essential. If too freely used, it can lead to excessive, unnecessary detail of doubtful usefulness."""@en ;
+  skos:member sp:field-texture-qualifier-fibric ;
+  skos:member sp:field-texture-qualifier-heavy ;
+  skos:member sp:field-texture-qualifier-light ;
+  skos:member sp:field-texture-qualifier-sapric ;
+  skos:prefLabel "Field texture qualifier"@en ;
+.
+sp:field-texture-qualifier-fibric
+  rdf:type skos:Concept ;
+  dct:description "Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-qualifier-fibric"^^xsd:anyURI ;
+  ui:isMemberOf sp:field-texture-qualifier ;
+  rdfs:comment "The qualifier code is added after the field texture." ;
+  rdfs:label "Fibric"@en ;
+  skos:definition "Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens."@en ;
+  skos:notation "I" ;
+  skos:prefLabel "Fibric"@en ;
+.
+sp:field-texture-qualifier-heavy
+  rdf:type skos:Concept ;
+  dct:description "Higher clay content end of the range"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-qualifier-heavy"^^xsd:anyURI ;
+  ui:isMemberOf sp:field-texture-qualifier ;
+  rdfs:comment "The qualifier code is added after the field texture." ;
+  rdfs:label "Heavy"@en ;
+  skos:definition "Higher clay content end of the range"@en ;
+  skos:notation "+" ;
+  skos:prefLabel "Heavy"@en ;
+.
+sp:field-texture-qualifier-light
+  rdf:type skos:Concept ;
+  dct:description "Lighter clay content end of the range"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-qualifier-light"^^xsd:anyURI ;
+  ui:isMemberOf sp:field-texture-qualifier ;
+  rdfs:comment "The qualifier code is added after the field texture." ;
+  rdfs:label "Light"@en ;
+  skos:definition "Lighter clay content end of the range"@en ;
+  skos:notation "-" ;
+  skos:prefLabel "Light"@en ;
+.
+sp:field-texture-qualifier-sapric
+  rdf:type skos:Concept ;
+  dct:description "Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-qualifier-sapric"^^xsd:anyURI ;
+  ui:isMemberOf sp:field-texture-qualifier ;
+  rdfs:comment "The qualifier code is added after the field texture." ;
+  rdfs:label "Sapric"@en ;
+  skos:definition "Organic and non-fibrous; dark organic stain discolours fingers; greasy feel in clayey textures and coherence in sandy textures. Fibres (excluding living roots) or plant tissue remains are not visible to naked eye and little or none visible with ×10 hand lens."@en ;
+  skos:notation "A" ;
+  skos:prefLabel "Sapric"@en ;
+.
 sp:field-textures
   rdf:type skos:Collection ;
   dct:description "Field texture is a measure of the behaviour of a small handful of soil when moistened and kneaded into a ball and then pressed out between thumb and forefinger. The recommended field texture grades are characterised by the behaviour of the moist bolus. The approximate percentage content of clay (particles less than 0.002 mm in diameter) and silt (particles between 0.02 and 0.002 mm in diameter) are used as a guide."@en ;
