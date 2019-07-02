@@ -8764,36 +8764,3 @@ sp:water-repellence-S
   skos:notation "S" ;
   skos:prefLabel "Strongly water repellent"@en ;
 .
-reg:statusAccepted
-  owl:sameAs reg:statusAccepted ;
-.
-reg:statusDeprecated
-  owl:sameAs reg:statusDeprecated ;
-.
-reg:statusExperimental
-  owl:sameAs reg:statusExperimental ;
-.
-reg:statusInvalid
-  owl:sameAs reg:statusInvalid ;
-.
-reg:statusNotAccepted
-  owl:sameAs reg:statusNotAccepted ;
-.
-reg:statusReserved
-  owl:sameAs reg:statusReserved ;
-.
-reg:statusRetired
-  owl:sameAs reg:statusRetired ;
-.
-reg:statusStable
-  owl:sameAs reg:statusStable ;
-.
-reg:statusSubmitted
-  owl:sameAs reg:statusSubmitted ;
-.
-reg:statusSuperseded
-  owl:sameAs reg:statusSuperseded ;
-.
-reg:statusValid
-  owl:sameAs reg:statusValid ;
-.
