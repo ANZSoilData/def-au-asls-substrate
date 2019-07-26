@@ -186,7 +186,7 @@ sp:coarse-fragments-distribution
   dct:description "Coarse fragments may occur throughout the profile."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-distribution"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments ;
-  rdfs:comment "C_CF_DISTRIBUTION"^^xsd:string ;
+  rdfs:comment "C_CF_DISTRIBUTION" ;
   rdfs:label "Coarse fragments distribution"@en ;
   owl:sameAs sp:coarse-fragments-distribution ;
   skos:definition "Coarse fragments may occur throughout the profile."@en ;
@@ -201,7 +201,7 @@ sp:coarse-fragments-distribution-D
   dct:description "fragments are scattered randomly throughout the soil and may be of mixed origin."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-distribution-D"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-distribution ;
-  rdfs:comment "C_CF_DISTRIBUTION"^^xsd:string ;
+  rdfs:comment "C_CF_DISTRIBUTION" ;
   rdfs:label "Dispersed"@en ;
   owl:sameAs sp:coarse-fragments-distribution-D ;
   skos:definition "fragments are scattered randomly throughout the soil and may be of mixed origin."@en ;
@@ -213,7 +213,7 @@ sp:coarse-fragments-distribution-R
   dct:description "all fragments are remnants of the underlying bedrock but their orientation is not related to the joint or bedding planes of the bedrock."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-distribution-R"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-distribution ;
-  rdfs:comment "C_CF_DISTRIBUTION"^^xsd:string ;
+  rdfs:comment "C_CF_DISTRIBUTION" ;
   rdfs:label "Reoriented"@en ;
   owl:sameAs sp:coarse-fragments-distribution-R ;
   skos:definition "all fragments are remnants of the underlying bedrock but their orientation is not related to the joint or bedding planes of the bedrock."@en ;
@@ -225,7 +225,7 @@ sp:coarse-fragments-distribution-S
   dct:description "fragments occur in bands, usually parallel with the soil surface (excluding those parallel with joint or bedding planes of the bedrock). They may include materials other than those from the underlying bedrock."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-distribution-S"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-distribution ;
-  rdfs:comment "C_CF_DISTRIBUTION"^^xsd:string ;
+  rdfs:comment "C_CF_DISTRIBUTION" ;
   rdfs:label "Stratified"@en ;
   owl:sameAs sp:coarse-fragments-distribution-S ;
   skos:definition "fragments occur in bands, usually parallel with the soil surface (excluding those parallel with joint or bedding planes of the bedrock). They may include materials other than those from the underlying bedrock."@en ;
@@ -237,7 +237,7 @@ sp:coarse-fragments-distribution-U
   dct:description "all fragments are remnants of the underlying bedrock and their orientation closely parallels that of the joint or bedding planes of the bedrock."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-distribution-U"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-distribution ;
-  rdfs:comment "C_CF_DISTRIBUTION"^^xsd:string ;
+  rdfs:comment "C_CF_DISTRIBUTION" ;
   rdfs:label "Undisturbed"@en ;
   owl:sameAs sp:coarse-fragments-distribution-U ;
   skos:definition "all fragments are remnants of the underlying bedrock and their orientation closely parallels that of the joint or bedding planes of the bedrock."@en ;
@@ -250,7 +250,7 @@ sp:coarse-fragments-lithology
   dct:description "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop.   Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.   "@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Lithology of coarse fragments"@en ;
   owl:sameAs sp:coarse-fragments-lithology ;
   skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop.   Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.    "@en ;
@@ -350,7 +350,7 @@ sp:coarse-fragments-lithology-AC
   dct:description "Alcrete (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-AC"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Alcrete (coarse fragments lithology)"@en ;
   owl:sameAs sp:coarse-fragments-lithology-AC ;
   skos:altLabel "Bauxite (coarse fragments lithology)"@en ;
@@ -363,7 +363,7 @@ sp:coarse-fragments-lithology-AD
   dct:description "Adamellite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-AD"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Adamellite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-AD ;
   skos:definition "Adamellite (Igneous rock)"@en ;
@@ -375,7 +375,7 @@ sp:coarse-fragments-lithology-AF
   dct:description "Ash (fine)  (Unconsolidated material)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-AF"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Ash (fine)"@en ;
   owl:sameAs sp:coarse-fragments-lithology-AF ;
   skos:definition "Ash (fine)  (Unconsolidated material)"@en ;
@@ -387,7 +387,7 @@ sp:coarse-fragments-lithology-AG
   dct:description "Agglomerate (Sedimentary rock, pyroclastic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-AG"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Agglomerate"@en ;
   owl:sameAs sp:coarse-fragments-lithology-AG ;
   skos:definition "Agglomerate (Sedimentary rock, pyroclastic)"@en ;
@@ -399,7 +399,7 @@ sp:coarse-fragments-lithology-AH
   dct:description "Anhydrite (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-AH"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Anhydrite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-AH ;
   skos:definition "Anhydrite (Sedimentary rock, chemical or organic)"@en ;
@@ -411,7 +411,7 @@ sp:coarse-fragments-lithology-AM
   dct:description "Amphibolite (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-AM"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Amphibolite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-AM ;
   skos:definition "Amphibolite (Metamorphic rock)"@en ;
@@ -423,7 +423,7 @@ sp:coarse-fragments-lithology-AN
   dct:description "Andesite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-AN"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Andesite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-AN ;
   skos:definition "Andesite (Igneous rock)"@en ;
@@ -435,7 +435,7 @@ sp:coarse-fragments-lithology-AP
   dct:description "Aplite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-AP"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Aplite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-AP ;
   skos:definition "Aplite (Igneous rock)"@en ;
@@ -447,7 +447,7 @@ sp:coarse-fragments-lithology-AR
   dct:description "Arkose (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-AR"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Arkose"@en ;
   owl:sameAs sp:coarse-fragments-lithology-AR ;
   skos:definition "Arkose (Sedimentary rock, detrital)"@en ;
@@ -459,7 +459,7 @@ sp:coarse-fragments-lithology-AS
   dct:description "Ash (sandy)  (Unconsolidated material)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-AS"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Ash (sandy)"@en ;
   owl:sameAs sp:coarse-fragments-lithology-AS ;
   skos:definition "Ash (sandy) (Unconsolidated material)"@en ;
@@ -471,7 +471,7 @@ sp:coarse-fragments-lithology-BA
   dct:description "Basalt (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-BA"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Basalt"@en ;
   owl:sameAs sp:coarse-fragments-lithology-BA ;
   skos:definition "Basalt (Igneous rock)"@en ;
@@ -483,7 +483,7 @@ sp:coarse-fragments-lithology-BB
   dct:description "Bombs (volcanic) (Unconsolidated material)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-BB"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Bombs"@en ;
   owl:sameAs sp:coarse-fragments-lithology-BB ;
   skos:definition "Bombs (volcanic) (Unconsolidated material)"@en ;
@@ -495,7 +495,7 @@ sp:coarse-fragments-lithology-BR
   dct:description "Breccia (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-BR"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Breccia"@en ;
   owl:sameAs sp:coarse-fragments-lithology-BR ;
   skos:definition "Breccia (Sedimentary rock, detrital)"@en ;
@@ -507,7 +507,7 @@ sp:coarse-fragments-lithology-C
   dct:description "Clay (Unconsolidated material)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-C"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Clay"@en ;
   owl:sameAs sp:coarse-fragments-lithology-C ;
   skos:definition "Clay (Unconsolidated material)"@en ;
@@ -519,7 +519,7 @@ sp:coarse-fragments-lithology-CC
   dct:description "Charcoal"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-CC"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Charcoal"@en ;
   owl:sameAs sp:coarse-fragments-lithology-CC ;
   skos:definition "Charcoal"@en ;
@@ -531,7 +531,7 @@ sp:coarse-fragments-lithology-CG
   dct:description "Conglomerate (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-CG"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Conglomerate"@en ;
   owl:sameAs sp:coarse-fragments-lithology-CG ;
   skos:definition "Conglomerate (Sedimentary rock, detrital)"@en ;
@@ -543,7 +543,7 @@ sp:coarse-fragments-lithology-CH
   dct:description "Chert (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-CH"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Chert"@en ;
   owl:sameAs sp:coarse-fragments-lithology-CH ;
   skos:definition "Chert (Sedimentary rock, chemical or organic)"@en ;
@@ -555,7 +555,7 @@ sp:coarse-fragments-lithology-CO
   dct:description "Coal (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-CO"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Coal"@en ;
   owl:sameAs sp:coarse-fragments-lithology-CO ;
   skos:definition "Coal (Sedimentary rock, chemical or organic)"@en ;
@@ -567,7 +567,7 @@ sp:coarse-fragments-lithology-CU
   dct:description "Consolidated rock (Unidentified)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-CU"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Consolidated rock"@en ;
   owl:sameAs sp:coarse-fragments-lithology-CU ;
   skos:definition "Consolidated rock (Unidentified)"@en ;
@@ -579,7 +579,7 @@ sp:coarse-fragments-lithology-DI
   dct:description "Diorite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-DI"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Diorite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-DI ;
   skos:definition "Diorite (Igneous rock)"@en ;
@@ -591,7 +591,7 @@ sp:coarse-fragments-lithology-DM
   dct:description "Dolomite (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-DM"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Dolomite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-DM ;
   skos:definition "Dolomite (Sedimentary rock, detrital)"@en ;
@@ -603,7 +603,7 @@ sp:coarse-fragments-lithology-DR
   dct:description "Dolerite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-DR"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Dolerite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-DR ;
   skos:definition "Dolerite (Igneous rock)"@en ;
@@ -615,7 +615,7 @@ sp:coarse-fragments-lithology-FC
   dct:description "Ferricrete (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-FC"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Ferricrete (fragments lithology)"@en ;
   owl:sameAs sp:coarse-fragments-lithology-FC ;
   skos:definition "Ferricrete (Sedimentary rock, chemical or organic)"@en ;
@@ -627,7 +627,7 @@ sp:coarse-fragments-lithology-GA
   dct:description "Gabbro (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-GA"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Gabbro"@en ;
   owl:sameAs sp:coarse-fragments-lithology-GA ;
   skos:definition "Gabbro (Igneous rock)"@en ;
@@ -639,7 +639,7 @@ sp:coarse-fragments-lithology-GD
   dct:description "Granodiorite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-GD"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Granodiorite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-GD ;
   skos:definition "Granodiorite (Igneous rock)"@en ;
@@ -651,7 +651,7 @@ sp:coarse-fragments-lithology-GE
   dct:description "Greenstone (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-GE"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Greenstone"@en ;
   owl:sameAs sp:coarse-fragments-lithology-GE ;
   skos:definition "Greenstone (Metamorphic rock)"@en ;
@@ -663,7 +663,7 @@ sp:coarse-fragments-lithology-GN
   dct:description "Granite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-GN"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Granite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-GN ;
   skos:definition "Granite (Igneous rock)"@en ;
@@ -675,7 +675,7 @@ sp:coarse-fragments-lithology-GR
   dct:description "Granulite (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-GR"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Granulite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-GR ;
   skos:definition "Granulite (Metamorphic rock)"@en ;
@@ -687,7 +687,7 @@ sp:coarse-fragments-lithology-GS
   dct:description "Gneiss (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-GS"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Gneiss"@en ;
   owl:sameAs sp:coarse-fragments-lithology-GS ;
   skos:definition "Gneiss (Metamorphic rock)"@en ;
@@ -699,7 +699,7 @@ sp:coarse-fragments-lithology-GV
   dct:description "Gravel (Unconsolidated material)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-GV"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Gravel"@en ;
   owl:sameAs sp:coarse-fragments-lithology-GV ;
   skos:definition "Gravel (Unconsolidated material)"@en ;
@@ -711,7 +711,7 @@ sp:coarse-fragments-lithology-GW
   dct:description "Graywacke (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-GW"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Graywacke"@en ;
   owl:sameAs sp:coarse-fragments-lithology-GW ;
   skos:definition "Graywacke (Sedimentary rock, detrital)"@en ;
@@ -723,7 +723,7 @@ sp:coarse-fragments-lithology-GY
   dct:description "Gypsum (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-GY"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Gypsum"@en ;
   owl:sameAs sp:coarse-fragments-lithology-GY ;
   skos:definition "Gypsum (Sedimentary rock, chemical or organic)"@en ;
@@ -735,7 +735,7 @@ sp:coarse-fragments-lithology-HA
   dct:description "Halite (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-HA"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Halite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-HA ;
   skos:definition "Halite (Sedimentary rock, chemical or organic)"@en ;
@@ -747,7 +747,7 @@ sp:coarse-fragments-lithology-HO
   dct:description "Hornfels (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-HO"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Hornfels"@en ;
   owl:sameAs sp:coarse-fragments-lithology-HO ;
   skos:definition "Hornfels (Metamorphic rock)"@en ;
@@ -759,7 +759,7 @@ sp:coarse-fragments-lithology-IG
   dct:description "Igneous rock (Unidentified)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-IG"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Igneous rock"@en ;
   owl:sameAs sp:coarse-fragments-lithology-IG ;
   skos:definition "Igneous rock (Unidentified)"@en ;
@@ -771,7 +771,7 @@ sp:coarse-fragments-lithology-IS
   dct:description "Ironstone (where not considered of pedogenic origin)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-IS"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Ironstone"@en ;
   owl:sameAs sp:coarse-fragments-lithology-IS ;
   skos:definition "Ironstone (where not considered of pedogenic origin)"@en ;
@@ -783,7 +783,7 @@ sp:coarse-fragments-lithology-JA
   dct:description "Jasper (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-JA"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Jasper"@en ;
   owl:sameAs sp:coarse-fragments-lithology-JA ;
   skos:definition "Jasper (Sedimentary rock, chemical or organic)"@en ;
@@ -795,7 +795,7 @@ sp:coarse-fragments-lithology-KA
   dct:description "Calcarenite (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-KA"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Calcarenite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-KA ;
   skos:definition "Calcarenite (Sedimentary rock, detrital)"@en ;
@@ -807,7 +807,7 @@ sp:coarse-fragments-lithology-KC
   dct:description "Calcrete (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-KC"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Calcrete (fragments lithology)"@en ;
   owl:sameAs sp:coarse-fragments-lithology-KC ;
   skos:definition "Calcrete (Sedimentary rock, chemical or organic)"@en ;
@@ -819,7 +819,7 @@ sp:coarse-fragments-lithology-KL
   dct:description "Calcilutite (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-KL"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Calcilutite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-KL ;
   skos:definition "Calcilutite (Sedimentary rock, detrital)"@en ;
@@ -831,7 +831,7 @@ sp:coarse-fragments-lithology-KM
   dct:description "Calcareous mudstone (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-KM"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Calcareous mudstone"@en ;
   owl:sameAs sp:coarse-fragments-lithology-KM ;
   skos:definition "Calcareous mudstone (Sedimentary rock, detrital)"@en ;
@@ -843,7 +843,7 @@ sp:coarse-fragments-lithology-KR
   dct:description "Calcirudite (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-KR"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Calcirudite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-KR ;
   skos:definition "Calcirudite (Sedimentary rock, detrital)"@en ;
@@ -855,7 +855,7 @@ sp:coarse-fragments-lithology-KS
   dct:description "Calcareous sand (Unconsolidated material)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-KS"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Calcareous sand"@en ;
   owl:sameAs sp:coarse-fragments-lithology-KS ;
   skos:definition "Calcareous sand (Unconsolidated material)"@en ;
@@ -867,7 +867,7 @@ sp:coarse-fragments-lithology-LC
   dct:description "Silcrete (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-LC"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Silcrete (coarse fragments lithology)"@en ;
   owl:sameAs sp:coarse-fragments-lithology-LC ;
   skos:definition "Silcrete (Sedimentary rock, chemical or organic)"@en ;
@@ -879,7 +879,7 @@ sp:coarse-fragments-lithology-LI
   dct:description "Limestone (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-LI"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Limestone"@en ;
   owl:sameAs sp:coarse-fragments-lithology-LI ;
   skos:definition "Limestone (Sedimentary rock, detrital)"@en ;
@@ -891,7 +891,7 @@ sp:coarse-fragments-lithology-M
   dct:description "Lithology is same as the substrate material"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-M"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Same as substrate material"@en ;
   owl:sameAs sp:coarse-fragments-lithology-M ;
   skos:definition "Lithology is same as the substrate material"@en ;
@@ -903,7 +903,7 @@ sp:coarse-fragments-lithology-MB
   dct:description "Marble (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-MB"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Marble"@en ;
   owl:sameAs sp:coarse-fragments-lithology-MB ;
   skos:definition "Marble (Metamorphic rock)"@en ;
@@ -915,7 +915,7 @@ sp:coarse-fragments-lithology-MD
   dct:description "Microdiorite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-MD"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Microdiorite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-MD ;
   skos:definition "Microdiorite (Igneous rock)"@en ;
@@ -927,7 +927,7 @@ sp:coarse-fragments-lithology-ME
   dct:description "Metamorphic rock (Unidentified)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-ME"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Metamorphic rock"@en ;
   owl:sameAs sp:coarse-fragments-lithology-ME ;
   skos:definition "Metamorphic rock (Unidentified)"@en ;
@@ -939,7 +939,7 @@ sp:coarse-fragments-lithology-MG
   dct:description "Microgranite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-MG"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Microgranite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-MG ;
   skos:definition "Microgranite (Igneous rock)"@en ;
@@ -951,7 +951,7 @@ sp:coarse-fragments-lithology-MI
   dct:description "Migmatite (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-MI"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Migmatite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-MI ;
   skos:definition "Migmatite (Metamorphic rock)"@en ;
@@ -963,7 +963,7 @@ sp:coarse-fragments-lithology-ML
   dct:description "Marl (Unconsolidated material)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-ML"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Marl"@en ;
   owl:sameAs sp:coarse-fragments-lithology-ML ;
   skos:definition "Marl (Unconsolidated material)"@en ;
@@ -975,7 +975,7 @@ sp:coarse-fragments-lithology-MS
   dct:description "Microsyenite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-MS"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Microsyenite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-MS ;
   skos:definition "Microsyenite (Igneous rock)"@en ;
@@ -987,7 +987,7 @@ sp:coarse-fragments-lithology-MU
   dct:description "Mudstone (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-MU"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Mudstone"@en ;
   owl:sameAs sp:coarse-fragments-lithology-MU ;
   skos:definition "Mudstone (Sedimentary rock, detrital)"@en ;
@@ -999,7 +999,7 @@ sp:coarse-fragments-lithology-MY
   dct:description "Mylonite (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-MY"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Mylonite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-MY ;
   skos:definition "Mylonite (Metamorphic rock)"@en ;
@@ -1011,7 +1011,7 @@ sp:coarse-fragments-lithology-OT
   dct:description "Other"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-OT"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Other (coarse fragments lithology)"@en ;
   owl:sameAs sp:coarse-fragments-lithology-OT ;
   skos:definition "Other"@en ;
@@ -1023,7 +1023,7 @@ sp:coarse-fragments-lithology-OW
   dct:description "Opalised wood"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-OW"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Opalised wood"@en ;
   owl:sameAs sp:coarse-fragments-lithology-OW ;
   skos:definition "Opalised wood"@en ;
@@ -1035,7 +1035,7 @@ sp:coarse-fragments-lithology-PC
   dct:description "Porcellanite (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-PC"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Porcellanite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-PC ;
   skos:definition "Porcellanite (Sedimentary rock, chemical or organic)"@en ;
@@ -1047,7 +1047,7 @@ sp:coarse-fragments-lithology-PE
   dct:description "Peridotite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-PE"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Peridotite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-PE ;
   skos:definition "Peridotite (Igneous rock)"@en ;
@@ -1059,7 +1059,7 @@ sp:coarse-fragments-lithology-PG
   dct:description "Pegmatite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-PG"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Pegmatite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-PG ;
   skos:definition "Pegmatite (Igneous rock)"@en ;
@@ -1071,7 +1071,7 @@ sp:coarse-fragments-lithology-PH
   dct:description "Phyllite (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-PH"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Phyllite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-PH ;
   skos:definition "Phyllite (Metamorphic rock)"@en ;
@@ -1083,7 +1083,7 @@ sp:coarse-fragments-lithology-PL
   dct:description "Phonolite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-PL"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Phonolite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-PL ;
   skos:definition "Phonolite (Igneous rock)"@en ;
@@ -1095,7 +1095,7 @@ sp:coarse-fragments-lithology-PO
   dct:description "Porphyry (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-PO"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Porphyry"@en ;
   owl:sameAs sp:coarse-fragments-lithology-PO ;
   skos:definition "Porphyry (Igneous rock)"@en ;
@@ -1107,7 +1107,7 @@ sp:coarse-fragments-lithology-PU
   dct:description "Pumice"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-PU"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Pumice"@en ;
   owl:sameAs sp:coarse-fragments-lithology-PU ;
   skos:definition "Pumice"@en ;
@@ -1119,7 +1119,7 @@ sp:coarse-fragments-lithology-PY
   dct:description "Pyroxenite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-PY"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Pyroxenite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-PY ;
   skos:definition "Pyroxenite (Igneous rock)"@en ;
@@ -1131,7 +1131,7 @@ sp:coarse-fragments-lithology-QP
   dct:description "Quartz porphyry (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-QP"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Quartz porphyry"@en ;
   owl:sameAs sp:coarse-fragments-lithology-QP ;
   skos:definition "Quartz porphyry (Igneous rock)"@en ;
@@ -1143,7 +1143,7 @@ sp:coarse-fragments-lithology-QS
   dct:description "Quartz sandstone (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-QS"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Quartz sandstone"@en ;
   owl:sameAs sp:coarse-fragments-lithology-QS ;
   skos:definition "Quartz sandstone (Sedimentary rock, detrital)"@en ;
@@ -1155,7 +1155,7 @@ sp:coarse-fragments-lithology-QU
   dct:description "Quartzite (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-QU"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Quartzite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-QU ;
   skos:definition "Quartzite (Metamorphic rock)"@en ;
@@ -1167,7 +1167,7 @@ sp:coarse-fragments-lithology-QZ
   dct:description "Quartz (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-QZ"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Quartz"@en ;
   owl:sameAs sp:coarse-fragments-lithology-QZ ;
   skos:definition "Quartz (Igneous rock)"@en ;
@@ -1179,7 +1179,7 @@ sp:coarse-fragments-lithology-R
   dct:description "Lithology is same as the rock outcrop"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-R"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Same as rock outcrop"@en ;
   owl:sameAs sp:coarse-fragments-lithology-R ;
   skos:definition "Lithology is same as the rock outcrop"@en ;
@@ -1191,7 +1191,7 @@ sp:coarse-fragments-lithology-RB
   dct:description "Red-brown hardpan (Sedimentary rock, chemical or organic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-RB"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Red-brown hardpan (fragments lithology)"@en ;
   owl:sameAs sp:coarse-fragments-lithology-RB ;
   skos:definition "Red-brown hardpan (Sedimentary rock, chemical or organic)"@en ;
@@ -1203,7 +1203,7 @@ sp:coarse-fragments-lithology-RH
   dct:description "Rhyolite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-RH"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Rhyolite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-RH ;
   skos:definition "Rhyolite (Igneous rock)"@en ;
@@ -1215,7 +1215,7 @@ sp:coarse-fragments-lithology-S
   dct:description "Sand (Unconsolidated material)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-S"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Sand (fragments lithology)"@en ;
   owl:sameAs sp:coarse-fragments-lithology-S ;
   skos:definition "Sand (Unconsolidated material)"@en ;
@@ -1227,7 +1227,7 @@ sp:coarse-fragments-lithology-SA
   dct:description "Sandstone (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SA"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Sandstone"@en ;
   owl:sameAs sp:coarse-fragments-lithology-SA ;
   skos:definition "Sandstone (Sedimentary rock, detrital)"@en ;
@@ -1239,7 +1239,7 @@ sp:coarse-fragments-lithology-SD
   dct:description "Detrital sedimentary rock (Unidentified)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SD"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Detrital sedimentary rock"@en ;
   owl:sameAs sp:coarse-fragments-lithology-SD ;
   skos:definition "Detrital sedimentary rock (Unidentified)"@en ;
@@ -1251,7 +1251,7 @@ sp:coarse-fragments-lithology-SH
   dct:description "Shale (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SH"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Shale"@en ;
   owl:sameAs sp:coarse-fragments-lithology-SH ;
   skos:definition "Shale (Igneous rock)"@en ;
@@ -1263,7 +1263,7 @@ sp:coarse-fragments-lithology-SK
   dct:description "Scoria (Unconsolidated material)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SK"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Scoria"@en ;
   owl:sameAs sp:coarse-fragments-lithology-SK ;
   skos:definition "Scoria (Unconsolidated material)"@en ;
@@ -1275,7 +1275,7 @@ sp:coarse-fragments-lithology-SL
   dct:description "Slate (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SL"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Slate"@en ;
   owl:sameAs sp:coarse-fragments-lithology-SL ;
   skos:definition "Slate (Sedimentary rock, detrital)"@en ;
@@ -1287,7 +1287,7 @@ sp:coarse-fragments-lithology-SR
   dct:description "Serpentinite (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SR"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Serpentinite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-SR ;
   skos:definition "Serpentinite (Igneous rock)"@en ;
@@ -1299,7 +1299,7 @@ sp:coarse-fragments-lithology-SS
   dct:description "Shells"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SS"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Shells"@en ;
   owl:sameAs sp:coarse-fragments-lithology-SS ;
   skos:definition "Shells"@en ;
@@ -1311,7 +1311,7 @@ sp:coarse-fragments-lithology-ST
   dct:description "Schist (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-ST"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Schist"@en ;
   owl:sameAs sp:coarse-fragments-lithology-ST ;
   skos:definition "Schist (Metamorphic rock)"@en ;
@@ -1323,7 +1323,7 @@ sp:coarse-fragments-lithology-SY
   dct:description "Syenite (Metamorphic rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SY"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Syenite"@en ;
   owl:sameAs sp:coarse-fragments-lithology-SY ;
   skos:definition "Syenite (Metamorphic rock)"@en ;
@@ -1335,7 +1335,7 @@ sp:coarse-fragments-lithology-TR
   dct:description "Trachyte (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-TR"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Trachyte"@en ;
   owl:sameAs sp:coarse-fragments-lithology-TR ;
   skos:definition "Trachyte (Igneous rock)"@en ;
@@ -1347,7 +1347,7 @@ sp:coarse-fragments-lithology-TU
   dct:description "Tuff (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-TU"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Tuff"@en ;
   owl:sameAs sp:coarse-fragments-lithology-TU ;
   skos:definition "Tuff (Igneous rock)"@en ;
@@ -1359,7 +1359,7 @@ sp:coarse-fragments-lithology-UC
   dct:description "Unconsolidated material (Unidentified)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-UC"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Unconsolidated material"@en ;
   owl:sameAs sp:coarse-fragments-lithology-UC ;
   skos:definition "Unconsolidated material (Unidentified)"@en ;
@@ -1371,7 +1371,7 @@ sp:coarse-fragments-lithology-VB
   dct:description "Volcanic breccia (Sedimentary rock, pyroclastic)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-VB"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Volcanic breccia"@en ;
   owl:sameAs sp:coarse-fragments-lithology-VB ;
   skos:definition "Volcanic breccia (Sedimentary rock, pyroclastic)"@en ;
@@ -1383,7 +1383,7 @@ sp:coarse-fragments-lithology-VG
   dct:description "Volcanic glass (Igneous rock)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-VG"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Volcanic glass"@en ;
   owl:sameAs sp:coarse-fragments-lithology-VG ;
   skos:definition "Volcanic glass (Igneous rock)"@en ;
@@ -1395,7 +1395,7 @@ sp:coarse-fragments-lithology-Z
   dct:description "Silt (Sedimentary rock, detrital)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-Z"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Silt"@en ;
   owl:sameAs sp:coarse-fragments-lithology-Z ;
   skos:definition "Silt (Sedimentary rock, detrital)"@en ;
@@ -1407,7 +1407,7 @@ sp:coarse-fragments-lithology-ZS
   dct:description "Siltstone (Unconsolidated material)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-ZS"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY"^^xsd:string ;
+  rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Siltstone"@en ;
   owl:sameAs sp:coarse-fragments-lithology-ZS ;
   skos:definition "Siltstone (Unconsolidated material)"@en ;
@@ -1420,7 +1420,7 @@ sp:coarse-fragments-shape
   dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure12.png\" /></p>"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Shape of coarse fragments"@en ;
   owl:sameAs sp:coarse-fragments-shape ;
   skos:definition "The shape of coarse fragments is determined by referencing the chart that captures the roundness and sphericity. (Figure 12)"@en ;
@@ -1443,7 +1443,7 @@ sp:coarse-fragments-shape-A
   dct:description "Angular shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-A"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Angular"@en ;
   owl:sameAs sp:coarse-fragments-shape-A ;
   skos:definition "Angular shape as determined from visual guide"@en ;
@@ -1455,7 +1455,7 @@ sp:coarse-fragments-shape-AP
   dct:description "Angular shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-AP"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Angular platy"@en ;
   owl:sameAs sp:coarse-fragments-shape-AP ;
   skos:definition "Angular platy shape as determined from visual guide"@en ;
@@ -1467,7 +1467,7 @@ sp:coarse-fragments-shape-AT
   dct:description "Angular tabular shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-AT"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Angular tabular"@en ;
   owl:sameAs sp:coarse-fragments-shape-AT ;
   skos:definition "Angular tabular shape as determined from visual guide"@en ;
@@ -1479,7 +1479,7 @@ sp:coarse-fragments-shape-R
   dct:description "Rounded shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-R"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Rounded"@en ;
   owl:sameAs sp:coarse-fragments-shape-R ;
   skos:definition "Rounded shape as determined from visual guide"@en ;
@@ -1491,7 +1491,7 @@ sp:coarse-fragments-shape-RP
   dct:description "Rounded platy shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-RP"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Rounded platy"@en ;
   owl:sameAs sp:coarse-fragments-shape-RP ;
   skos:definition "Rounded platy shape as determined from visual guide"@en ;
@@ -1503,7 +1503,7 @@ sp:coarse-fragments-shape-RT
   dct:description "Rounded tabular shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-RT"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Rounded tabular"@en ;
   owl:sameAs sp:coarse-fragments-shape-RT ;
   skos:definition "Rounded tabular shape as determined from visual guide"@en ;
@@ -1515,7 +1515,7 @@ sp:coarse-fragments-shape-S
   dct:description "Subangular shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-S"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Subangular"@en ;
   owl:sameAs sp:coarse-fragments-shape-S ;
   skos:definition "Subangular shape as determined from visual guide"@en ;
@@ -1527,7 +1527,7 @@ sp:coarse-fragments-shape-SP
   dct:description "Subangular platy shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-SP"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Subangular platy"@en ;
   owl:sameAs sp:coarse-fragments-shape-SP ;
   skos:definition "Subangular platy shape as determined from visual guide"@en ;
@@ -1539,7 +1539,7 @@ sp:coarse-fragments-shape-ST
   dct:description "Subangular tabular shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-ST"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Subangular tabular"@en ;
   owl:sameAs sp:coarse-fragments-shape-ST ;
   skos:definition "Subangular tabular shape as determined from visual guide"@en ;
@@ -1551,7 +1551,7 @@ sp:coarse-fragments-shape-U
   dct:description "Subrounded shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-U"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Subrounded"@en ;
   owl:sameAs sp:coarse-fragments-shape-U ;
   skos:definition "Subrounded shape as determined from visual guide"@en ;
@@ -1563,7 +1563,7 @@ sp:coarse-fragments-shape-UP
   dct:description "Subrounded platy shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-UP"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Subrounded platy"@en ;
   owl:sameAs sp:coarse-fragments-shape-UP ;
   skos:definition "Subrounded platy shape as determined from visual guide"@en ;
@@ -1575,7 +1575,7 @@ sp:coarse-fragments-shape-UT
   dct:description "Subrounded tabular shape as determined from visual guide"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape-UT"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-shape ;
-  rdfs:comment "C_CF_SHAPE"^^xsd:string ;
+  rdfs:comment "C_CF_SHAPE" ;
   rdfs:label "Subrounded tabular"@en ;
   owl:sameAs sp:coarse-fragments-shape-UT ;
   skos:definition "Subrounded tabular shape as determined from visual guide"@en ;
@@ -1692,7 +1692,7 @@ sp:coarse-fragments-strength
   dct:description "The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-strength"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments ;
-  rdfs:comment "C_CF_STRENGTH"^^xsd:string ;
+  rdfs:comment "C_CF_STRENGTH" ;
   rdfs:label "Strength of coarse fragments"@en ;
   owl:sameAs sp:coarse-fragments-strength ;
   skos:definition "The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
@@ -1709,7 +1709,7 @@ sp:coarse-fragments-strength-M
   dct:description "50-100 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil or slight mark, Pick:indents shallowly, Hammer (single blow):Breaks readily into a few large and some small fragments"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-strength-M"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-strength ;
-  rdfs:comment "C_CF_STRENGTH"^^xsd:string ;
+  rdfs:comment "C_CF_STRENGTH" ;
   rdfs:label "Moderately strong rock"@en ;
   owl:sameAs sp:coarse-fragments-strength-M ;
   skos:definition "50-100 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil or slight mark, Pick:indents shallowly, Hammer (single blow):Breaks readily into a few large and some small fragments"@en ;
@@ -1721,7 +1721,7 @@ sp:coarse-fragments-strength-S
   dct:description "100-200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Breaks into one or two large fragments"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-strength-S"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-strength ;
-  rdfs:comment "C_CF_STRENGTH"^^xsd:string ;
+  rdfs:comment "C_CF_STRENGTH" ;
   rdfs:label "Strong rock"@en ;
   owl:sameAs sp:coarse-fragments-strength-S ;
   skos:definition "100-200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Breaks into one or two large fragments"@en ;
@@ -1733,7 +1733,7 @@ sp:coarse-fragments-strength-VS
   dct:description ">200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Nil"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-strength-VS"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-strength ;
-  rdfs:comment "C_CF_STRENGTH"^^xsd:string ;
+  rdfs:comment "C_CF_STRENGTH" ;
   rdfs:label "Very strong rock"@en ;
   owl:sameAs sp:coarse-fragments-strength-VS ;
   skos:definition ">200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Nil"@en ;
@@ -1745,7 +1745,7 @@ sp:coarse-fragments-strength-VW
   dct:description "1-25 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Deep cut, Pick:crumbles, Hammer (single blow):Flattened or powdered"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-strength-VW"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-strength ;
-  rdfs:comment "C_CF_STRENGTH"^^xsd:string ;
+  rdfs:comment "C_CF_STRENGTH" ;
   rdfs:label "Very weak rock"@en ;
   owl:sameAs sp:coarse-fragments-strength-VW ;
   skos:definition "1-25 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Deep cut, Pick:crumbles, Hammer (single blow):Flattened or powdered"@en ;
@@ -1757,7 +1757,7 @@ sp:coarse-fragments-strength-W
   dct:description "25-50 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Shallow cut or scratch, Pick:indents deeply, Hammer (single blow):Shattered into many small fragments"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-strength-W"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments-strength ;
-  rdfs:comment "C_CF_STRENGTH"^^xsd:string ;
+  rdfs:comment "C_CF_STRENGTH" ;
   rdfs:label "Weak rock"@en ;
   owl:sameAs sp:coarse-fragments-strength-W ;
   skos:definition "25-50 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Shallow cut or scratch, Pick:indents deeply, Hammer (single blow):Shattered into many small fragments"@en ;
@@ -1861,7 +1861,7 @@ sp:consistence-plasticity-degree
   dct:description "Plasticity is the ability to change shape and retain the new shape after the stress is removed. The degree of plasticity given below applies only to normal plasticity. The degree of plasticity is determined at the soil moisture content used for field texturing, that is, just below sticky point. The soil is rolled between the palms of the hand and, if possible, 40 mm long rolls are formed. The rolls are dangled from the thumb and forefinger. Plasticity is determined on the behaviour of rolls of varying thickness."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-plasticity-degree"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence ;
-  rdfs:comment "C_H_PLASTICITY_DEGREE"^^xsd:string ;
+  rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Plasticity Degree"@en ;
   owl:sameAs sp:consistence-plasticity-degree ;
   skos:definition "Plasticity is the ability to change shape and retain the new shape after the stress is removed. The degree of plasticity given below applies only to normal plasticity. The degree of plasticity is determined at the soil moisture content used for field texturing, that is, just below sticky point. The soil is rolled between the palms of the hand and, if possible, 40 mm long rolls are formed. The rolls are dangled from the thumb and forefinger. Plasticity is determined on the behaviour of rolls of varying thickness."@en ;
@@ -1876,7 +1876,7 @@ sp:consistence-plasticity-degree-0
   dct:description "Roll (40mm length x 6mm diameter) will not form."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-plasticity-degree-0"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-plasticity-degree ;
-  rdfs:comment "C_H_PLASTICITY_DEGREE"^^xsd:string ;
+  rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Non-plastic"@en ;
   owl:sameAs sp:consistence-plasticity-degree-0 ;
   skos:definition "Roll (40mm length x 6mm diameter) will not form."@en ;
@@ -1889,7 +1889,7 @@ sp:consistence-plasticity-degree-1
 Roll (40mm length x 4mm diameter) will form but will not support its own weight."""@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-plasticity-degree-1"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-plasticity-degree ;
-  rdfs:comment "C_H_PLASTICITY_DEGREE"^^xsd:string ;
+  rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Slightly plastic"@en ;
   owl:sameAs sp:consistence-plasticity-degree-1 ;
   skos:definition """Roll (40mm length x 6mm diameter) will form and will support its own weight.
@@ -1903,7 +1903,7 @@ sp:consistence-plasticity-degree-2
 Roll (40mm length x 2mm diameter) will form but will not support its own weight."""@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-plasticity-degree-2"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-plasticity-degree ;
-  rdfs:comment "C_H_PLASTICITY_DEGREE"^^xsd:string ;
+  rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Moderately plastic"@en ;
   owl:sameAs sp:consistence-plasticity-degree-2 ;
   skos:definition """Roll (40mm length x 4mm diameter) will form and will support its own weight.
@@ -1916,7 +1916,7 @@ sp:consistence-plasticity-degree-3
   dct:description "Roll (40mm length x 2mm diameter) will form and will support its own weight."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-plasticity-degree-3"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-plasticity-degree ;
-  rdfs:comment "C_H_PLASTICITY_DEGREE"^^xsd:string ;
+  rdfs:comment "C_H_PLASTICITY_DEGREE" ;
   rdfs:label "Very plastic"@en ;
   owl:sameAs sp:consistence-plasticity-degree-3 ;
   skos:definition "Roll (40mm length x 2mm diameter) will form and will support its own weight."@en ;
@@ -1929,7 +1929,7 @@ sp:consistence-plasticity-type
   dct:description "The type of plasticity refers to the degree to which either the consistence, field texture or both properties of a soil suggest the amount of clay-sized particles it contains (Butler 1955). It may be identified by determining two field textures: one after an initial 1 to 2 minute working of the soil sample, and another after a prolonged 10 minute kneading. The change in field texture from the initial to the prolonged working of the soil sample indicates the type of plasticity."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-plasticity-type"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence ;
-  rdfs:comment "C_H_PLASTICITY_TYPE"^^xsd:string ;
+  rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Plasticity Type"@en ;
   owl:sameAs sp:consistence-plasticity-type ;
   skos:definition "The type of plasticity refers to the degree to which either the consistence, field texture or both properties of a soil suggest the amount of clay-sized particles it contains (Butler 1955). It may be identified by determining two field textures: one after an initial 1 to 2 minute working of the soil sample, and another after a prolonged 10 minute kneading. The change in field texture from the initial to the prolonged working of the soil sample indicates the type of plasticity."@en ;
@@ -1944,7 +1944,7 @@ sp:consistence-plasticity-type-N
   dct:description "negligible change."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-plasticity-type-N"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-plasticity-type ;
-  rdfs:comment "C_H_PLASTICITY_TYPE"^^xsd:string ;
+  rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Normal plasticity"@en ;
   owl:sameAs sp:consistence-plasticity-type-N ;
   skos:definition "negligible change."@en ;
@@ -1956,7 +1956,7 @@ sp:consistence-plasticity-type-S
   dct:description "decreases one or more field texture groups of Northcote (1979)."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-plasticity-type-S"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-plasticity-type ;
-  rdfs:comment "C_H_PLASTICITY_TYPE"^^xsd:string ;
+  rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Superplastic"@en ;
   owl:sameAs sp:consistence-plasticity-type-S ;
   skos:definition "decreases one or more field texture groups of Northcote (1979)."@en ;
@@ -1968,7 +1968,7 @@ sp:consistence-plasticity-type-T
   dct:description "increases two or more field texture groups."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-plasticity-type-T"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-plasticity-type ;
-  rdfs:comment "C_H_PLASTICITY_TYPE"^^xsd:string ;
+  rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Strongly subplastic"@en ;
   owl:sameAs sp:consistence-plasticity-type-T ;
   skos:definition "increases two or more field texture groups."@en ;
@@ -1980,7 +1980,7 @@ sp:consistence-plasticity-type-U
   dct:description "ncreases one to two field texture groups."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-plasticity-type-U"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-plasticity-type ;
-  rdfs:comment "C_H_PLASTICITY_TYPE"^^xsd:string ;
+  rdfs:comment "C_H_PLASTICITY_TYPE" ;
   rdfs:label "Subplastic"@en ;
   owl:sameAs sp:consistence-plasticity-type-U ;
   skos:definition "increases one to two field texture groups."@en ;
@@ -1993,7 +1993,7 @@ sp:consistence-stickiness
   dct:description "Stickiness is determined on wet soil by pressing the wet sample between thumb and forefinger and then observing the adherence of the soil to the fingers."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-stickiness"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence ;
-  rdfs:comment "C_H_STICKINESS"^^xsd:string ;
+  rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Stickiness"@en ;
   owl:sameAs sp:consistence-stickiness ;
   skos:definition "Stickiness is determined on wet soil by pressing the wet sample between thumb and forefinger and then observing the adherence of the soil to the fingers."@en ;
@@ -2008,7 +2008,7 @@ sp:consistence-stickiness-0
   dct:description "little or no soil adheres."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-stickiness-0"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-stickiness ;
-  rdfs:comment "C_H_STICKINESS"^^xsd:string ;
+  rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Non-sticky"@en ;
   owl:sameAs sp:consistence-stickiness-0 ;
   skos:definition "little or no soil adheres."@en ;
@@ -2020,7 +2020,7 @@ sp:consistence-stickiness-1
   dct:description "soil adheres to thumb and forefinger but is not stretched notably and comes off rather cleanly."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-stickiness-1"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-stickiness ;
-  rdfs:comment "C_H_STICKINESS"^^xsd:string ;
+  rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Slightly sticky"@en ;
   owl:sameAs sp:consistence-stickiness-1 ;
   skos:definition "soil adheres to thumb and forefinger but is not stretched notably and comes off rather cleanly."@en ;
@@ -2032,7 +2032,7 @@ sp:consistence-stickiness-2
   dct:description "soil adheres to thumb and forefinger and tends to stretch rather than pull free of fingers."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-stickiness-2"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-stickiness ;
-  rdfs:comment "C_H_STICKINESS"^^xsd:string ;
+  rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Moderately sticky"@en ;
   owl:sameAs sp:consistence-stickiness-2 ;
   skos:definition "soil adheres to thumb and forefinger and tends to stretch rather than pull free of fingers."@en ;
@@ -2044,7 +2044,7 @@ sp:consistence-stickiness-3
   dct:description "soil adheres strongly to thumb and forefinger and stretches notably."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-stickiness-3"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-stickiness ;
-  rdfs:comment "C_H_STICKINESS"^^xsd:string ;
+  rdfs:comment "C_H_STICKINESS" ;
   rdfs:label "Very sticky"@en ;
   owl:sameAs sp:consistence-stickiness-3 ;
   skos:definition "soil adheres strongly to thumb and forefinger and stretches notably."@en ;
@@ -2065,7 +2065,7 @@ Forces 0 to 5 are equivalent to the following dry consistence classes in the ‘
 5	Extremely hard"""@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-strength"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence ;
-  rdfs:comment "C_STRG_CLASS"^^xsd:string ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Strength"@en ;
   owl:sameAs sp:consistence-strength ;
   skos:definition """Strength of soil is the resistance to breaking or deformation. Strength is determined by the force just sufficient to break or deform a 20 mm diameter piece of soil when a compressive shearing force is applied between thumb and forefinger. The 20 mm piece of soil may be a ped, part of a ped, a compound ped or a fragment.
@@ -2092,7 +2092,7 @@ sp:consistence-strength-0
   dct:description "no force required. Separate particles such as loose sands."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-strength-0"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-strength ;
-  rdfs:comment "C_STRG_CLASS"^^xsd:string ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Loose (consistence strength)"@en ;
   owl:sameAs sp:consistence-strength-0 ;
   skos:definition "no force required. Separate particles such as loose sands."@en ;
@@ -2104,7 +2104,7 @@ sp:consistence-strength-1
   dct:description "very small force, almost nil."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-strength-1"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-strength ;
-  rdfs:comment "C_STRG_CLASS"^^xsd:string ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Very weak (consistence strength)"@en ;
   owl:sameAs sp:consistence-strength-1 ;
   skos:definition "very small force, almost nil."@en ;
@@ -2116,7 +2116,7 @@ sp:consistence-strength-2
   dct:description "small but significant force."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-strength-2"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-strength ;
-  rdfs:comment "C_STRG_CLASS"^^xsd:string ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Weak (consistence strength)"@en ;
   owl:sameAs sp:consistence-strength-2 ;
   skos:definition "small but significant force."@en ;
@@ -2128,7 +2128,7 @@ sp:consistence-strength-3
   dct:description "moderate or firm force."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-strength-3"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-strength ;
-  rdfs:comment "C_STRG_CLASS"^^xsd:string ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Firm (consistence strength)"@en ;
   owl:sameAs sp:consistence-strength-3 ;
   skos:definition "moderate or firm force."@en ;
@@ -2140,7 +2140,7 @@ sp:consistence-strength-4
   dct:description "strong force but within power of thumb and forefinger."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-strength-4"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-strength ;
-  rdfs:comment "C_STRG_CLASS"^^xsd:string ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Very Firm (consistence strength)"@en ;
   owl:sameAs sp:consistence-strength-4 ;
   skos:definition "strong force but within power of thumb and forefinger."@en ;
@@ -2152,7 +2152,7 @@ sp:consistence-strength-5
   dct:description "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with small force."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-strength-5"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-strength ;
-  rdfs:comment "C_STRG_CLASS"^^xsd:string ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Strong (consistence strength)"@en ;
   owl:sameAs sp:consistence-strength-5 ;
   skos:definition "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with small force."@en ;
@@ -2164,7 +2164,7 @@ sp:consistence-strength-6
   dct:description "crushes underfoot on hard, flat surface with full body weight applied slowly."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-strength-6"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-strength ;
-  rdfs:comment "C_STRG_CLASS"^^xsd:string ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Very Strong (consistence strength)"@en ;
   owl:sameAs sp:consistence-strength-6 ;
   skos:definition "crushes underfoot on hard, flat surface with full body weight applied slowly."@en ;
@@ -2176,7 +2176,7 @@ sp:consistence-strength-7
   dct:description "cannot be crushed underfoot by full body weight applied slowly."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/consistence-strength-7"^^xsd:anyURI ;
   ui:isMemberOf sp:consistence-strength ;
-  rdfs:comment "C_STRG_CLASS"^^xsd:string ;
+  rdfs:comment "C_STRG_CLASS" ;
   rdfs:label "Rigid (consistence strength)"@en ;
   owl:sameAs sp:consistence-strength-7 ;
   skos:definition "cannot be crushed underfoot by full body weight applied slowly."@en ;
@@ -2204,7 +2204,7 @@ sp:cutans-abundance
   dct:description "Abundance of cutans"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-abundance"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans ;
-  rdfs:comment "N_CUTAN_ABUN"^^xsd:string ;
+  rdfs:comment "N_CUTAN_ABUN" ;
   rdfs:label "Abundance of cutans"@en ;
   owl:sameAs sp:cutans-abundance ;
   skos:definition "Abundance of cutans"@en ;
@@ -2219,7 +2219,7 @@ sp:cutans-abundance-0
   dct:description "0"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-abundance-0"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-abundance ;
-  rdfs:comment "N_CUTAN_ABUN"^^xsd:string ;
+  rdfs:comment "N_CUTAN_ABUN" ;
   rdfs:label "No cutans"@en ;
   owl:sameAs sp:cutans-abundance-0 ;
   skos:definition "0"@en ;
@@ -2231,7 +2231,7 @@ sp:cutans-abundance-1
   dct:description "<10% of ped faces or pore walls with cutans."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-abundance-1"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-abundance ;
-  rdfs:comment "N_CUTAN_ABUN"^^xsd:string ;
+  rdfs:comment "N_CUTAN_ABUN" ;
   rdfs:label "Few (cutans abundance)"@en ;
   owl:sameAs sp:cutans-abundance-1 ;
   skos:definition "<10% of ped faces or pore walls with cutans."@en ;
@@ -2243,7 +2243,7 @@ sp:cutans-abundance-2
   dct:description "10–50% of ped faces or pore walls with cutans."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-abundance-2"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-abundance ;
-  rdfs:comment "N_CUTAN_ABUN"^^xsd:string ;
+  rdfs:comment "N_CUTAN_ABUN" ;
   rdfs:label "Common (cutans abundance)"@en ;
   owl:sameAs sp:cutans-abundance-2 ;
   skos:definition "10–50% of ped faces or pore walls with cutans."@en ;
@@ -2255,7 +2255,7 @@ sp:cutans-abundance-3
   dct:description ">50% of ped faces or pore walls with cutans."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-abundance-3"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-abundance ;
-  rdfs:comment "N_CUTAN_ABUN"^^xsd:string ;
+  rdfs:comment "N_CUTAN_ABUN" ;
   rdfs:label "Many (cutans abundance)"@en ;
   owl:sameAs sp:cutans-abundance-3 ;
   skos:definition ">50% of ped faces or pore walls with cutans."@en ;
@@ -2268,7 +2268,7 @@ sp:cutans-distinctness
   dct:description "Cutan distinctness refers to the ease and certainty with which a cutan is identified. Distinctness relates to thickness and to the colour contrast with the adjacent material; it may change markedly with moisture content."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-distinctness"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans ;
-  rdfs:comment "C_CUTAN_DISTINCT"^^xsd:string ;
+  rdfs:comment "C_CUTAN_DISTINCT" ;
   rdfs:label "Distinctness of cutans"@en ;
   owl:sameAs sp:cutans-distinctness ;
   skos:definition "Cutan distinctness refers to the ease and certainty with which a cutan is identified. Distinctness relates to thickness and to the colour contrast with the adjacent material; it may change markedly with moisture content."@en ;
@@ -2282,7 +2282,7 @@ sp:cutans-distinctness-D
   dct:description "can be detected without magnification. Contrast with adjacent material is evident in colour, texture or other properties."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-distinctness-D"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-distinctness ;
-  rdfs:comment "C_CUTAN_DISTINCT"^^xsd:string ;
+  rdfs:comment "C_CUTAN_DISTINCT" ;
   rdfs:label "Distinct (cutans distinctness)"@en ;
   owl:sameAs sp:cutans-distinctness-D ;
   skos:definition "can be detected without magnification. Contrast with adjacent material is evident in colour, texture or other properties."@en ;
@@ -2294,7 +2294,7 @@ sp:cutans-distinctness-F
   dct:description "evident only on close examination with ×10 magnification. Little contrast with adjacent material."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-distinctness-F"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-distinctness ;
-  rdfs:comment "C_CUTAN_DISTINCT"^^xsd:string ;
+  rdfs:comment "C_CUTAN_DISTINCT" ;
   rdfs:label "Faint (cutans distinctness)"@en ;
   owl:sameAs sp:cutans-distinctness-F ;
   skos:definition "evident only on close examination with ×10 magnification. Little contrast with adjacent material."@en ;
@@ -2306,7 +2306,7 @@ sp:cutans-distinctness-P
   dct:description "conspicuous without magnification when compared with a surface broken through the soil. Colour, texture or some other property contrasts sharply with properties of the adjacent material, or the feature is thick enough to be conspicuous."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-distinctness-P"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-distinctness ;
-  rdfs:comment "C_CUTAN_DISTINCT"^^xsd:string ;
+  rdfs:comment "C_CUTAN_DISTINCT" ;
   rdfs:label "Prominent (cutans distinctness)"@en ;
   owl:sameAs sp:cutans-distinctness-P ;
   skos:definition "conspicuous without magnification when compared with a surface broken through the soil. Colour, texture or some other property contrasts sharply with properties of the adjacent material, or the feature is thick enough to be conspicuous."@en ;
@@ -2319,7 +2319,7 @@ sp:cutans-type
   dct:description "Types of cutans"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-type"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans ;
-  rdfs:comment "C_CUTAN_TYPE"^^xsd:string ;
+  rdfs:comment "C_CUTAN_TYPE" ;
   rdfs:label "Types of cutans"@en ;
   owl:sameAs sp:cutans-type ;
   skos:definition "Types of cutans"@en ;
@@ -2337,7 +2337,7 @@ sp:cutans-type-C
   dct:description "coatings of clay often different in colour from the matrix of the ped. They are frequently difficult to distinguish from stress cutans, which are not true coatings."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-type-C"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-type ;
-  rdfs:comment "C_CUTAN_TYPE"^^xsd:string ;
+  rdfs:comment "C_CUTAN_TYPE" ;
   rdfs:label "Clay skins"@en ;
   owl:sameAs sp:cutans-type-C ;
   skos:definition "coatings of clay often different in colour from the matrix of the ped. They are frequently difficult to distinguish from stress cutans, which are not true coatings."@en ;
@@ -2349,7 +2349,7 @@ sp:cutans-type-K
   dct:description "stress cutans with smooth striations or grooves."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-type-K"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-type ;
-  rdfs:comment "C_CUTAN_TYPE"^^xsd:string ;
+  rdfs:comment "C_CUTAN_TYPE" ;
   rdfs:label "Slickensides"@en ;
   owl:sameAs sp:cutans-type-K ;
   skos:definition "stress cutans with smooth striations or grooves."@en ;
@@ -2361,7 +2361,7 @@ sp:cutans-type-M
   dct:description "coatings of manganese oxides or hydroxides. The material may have a glazed appearance and is very dark brown to black."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-type-M"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-type ;
-  rdfs:comment "C_CUTAN_TYPE"^^xsd:string ;
+  rdfs:comment "C_CUTAN_TYPE" ;
   rdfs:label "Mangans"@en ;
   owl:sameAs sp:cutans-type-M ;
   skos:definition "coatings of manganese oxides or hydroxides. The material may have a glazed appearance and is very dark brown to black."@en ;
@@ -2373,7 +2373,7 @@ sp:cutans-type-O
   dct:description "may be composed of iron oxides, organic matter, calcium carbonate or gypsum."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-type-O"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-type ;
-  rdfs:comment "C_CUTAN_TYPE"^^xsd:string ;
+  rdfs:comment "C_CUTAN_TYPE" ;
   rdfs:label "Other cutans"@en ;
   owl:sameAs sp:cutans-type-O ;
   skos:definition "may be composed of iron oxides, organic matter, calcium carbonate or gypsum."@en ;
@@ -2385,7 +2385,7 @@ sp:cutans-type-S
   dct:description "in situ modifications of natural surfaces in soil materials due to differential forces such as shearing. They are not true coatings."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-type-S"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-type ;
-  rdfs:comment "C_CUTAN_TYPE"^^xsd:string ;
+  rdfs:comment "C_CUTAN_TYPE" ;
   rdfs:label "Stress cutans"@en ;
   owl:sameAs sp:cutans-type-S ;
   skos:definition "in situ modifications of natural surfaces in soil materials due to differential forces such as shearing. They are not true coatings."@en ;
@@ -2397,7 +2397,7 @@ sp:cutans-type-U
   dct:description "nature of cutans cannot be determined."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-type-U"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-type ;
-  rdfs:comment "C_CUTAN_TYPE"^^xsd:string ;
+  rdfs:comment "C_CUTAN_TYPE" ;
   rdfs:label "Unspecified"@en ;
   owl:sameAs sp:cutans-type-U ;
   skos:definition "nature of cutans cannot be determined."@en ;
@@ -2409,7 +2409,7 @@ sp:cutans-type-Z
   dct:description "Zero or no cutans."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/cutans-type-Z"^^xsd:anyURI ;
   ui:isMemberOf sp:cutans-type ;
-  rdfs:comment "C_CUTAN_TYPE"^^xsd:string ;
+  rdfs:comment "C_CUTAN_TYPE" ;
   rdfs:label "Zero or no cutans"@en ;
   owl:sameAs sp:cutans-type-Z ;
   skos:definition "Zero or no cutans."@en ;
@@ -2445,7 +2445,7 @@ sp:effervescence-H
   dct:description "moderate visible effervescence."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/effervescence-H"^^xsd:anyURI ;
   ui:isMemberOf sp:effervescence-of-carbonate-in-fine-earth ;
-  rdfs:comment "C_H_CARBONATE_EFF"^^xsd:string ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Highly calcareous"@en ;
   owl:sameAs sp:effervescence-H ;
   skos:definition "moderate visible effervescence."@en ;
@@ -2457,7 +2457,7 @@ sp:effervescence-M
   dct:description "audible and slightly visible effervescence."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/effervescence-M"^^xsd:anyURI ;
   ui:isMemberOf sp:effervescence-of-carbonate-in-fine-earth ;
-  rdfs:comment "C_H_CARBONATE_EFF"^^xsd:string ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Moderately calcareous"@en ;
   owl:sameAs sp:effervescence-M ;
   skos:definition "audible and slightly visible effervescence."@en ;
@@ -2469,7 +2469,7 @@ sp:effervescence-N
   dct:description "no audible or visible effervescence."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/effervescence-N"^^xsd:anyURI ;
   ui:isMemberOf sp:effervescence-of-carbonate-in-fine-earth ;
-  rdfs:comment "C_H_CARBONATE_EFF"^^xsd:string ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Non-calcareous"@en ;
   owl:sameAs sp:effervescence-N ;
   skos:definition "no audible or visible effervescence."@en ;
@@ -2481,7 +2481,7 @@ sp:effervescence-S
   dct:description "slightly audible but no visible effervescence."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/effervescence-S"^^xsd:anyURI ;
   ui:isMemberOf sp:effervescence-of-carbonate-in-fine-earth ;
-  rdfs:comment "C_H_CARBONATE_EFF"^^xsd:string ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Slightly calcareous"@en ;
   owl:sameAs sp:effervescence-S ;
   skos:definition "slightly audible but no visible effervescence."@en ;
@@ -2493,7 +2493,7 @@ sp:effervescence-V
   dct:description "strong visible effervescence."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/effervescence-V"^^xsd:anyURI ;
   ui:isMemberOf sp:effervescence-of-carbonate-in-fine-earth ;
-  rdfs:comment "C_H_CARBONATE_EFF"^^xsd:string ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Very highly calcareous"@en ;
   owl:sameAs sp:effervescence-V ;
   skos:definition "strong visible effervescence."@en ;
@@ -2506,7 +2506,7 @@ sp:effervescence-of-carbonate-in-fine-earth
   dct:description "Effervescence of carbonate in fine earth using two or three drops of 1-molar HCl."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/effervescence-of-carbonate-in-fine-earth"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
-  rdfs:comment "C_H_CARBONATE_EFF"^^xsd:string ;
+  rdfs:comment "C_H_CARBONATE_EFF" ;
   rdfs:label "Effervescence of carbonate in fine earth"@en ;
   owl:sameAs sp:effervescence-of-carbonate-in-fine-earth ;
   skos:definition "Effervescence of carbonate in fine earth using two or three drops of 1-molar HCl."@en ;
@@ -2524,7 +2524,7 @@ sp:fabric
 Fabric describes the appearance of the soil material (under ×10 hand lens). Differences in fabric are associated with the presence or absence of peds, the lustre or lack of lustre of the ped surfaces, and the presence, size and arrangement of pores (voids) in the soil mass. The descriptions given below apply primarily to B horizons."""@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/fabric"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
-  rdfs:comment "C_FAB_TYPE"^^xsd:string ;
+  rdfs:comment "C_FAB_TYPE" ;
   rdfs:label "Fabric"@en ;
   owl:sameAs sp:fabric ;
   skos:definition """The definition of soil fabric in Australia is incomplete. The following description is adapted from Northcote (1979).
@@ -2540,7 +2540,7 @@ sp:fabric-E
   dct:description "The soil material is coherent and characterised by the presence of pores (voids) and few, if any, peds. Ultimate soil particles (sand grains, for example) are coated with oxides and/or clays and are arranged (clumped) around the pores."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/fabric-E"^^xsd:anyURI ;
   ui:isMemberOf sp:fabric ;
-  rdfs:comment "C_FAB_TYPE"^^xsd:string ;
+  rdfs:comment "C_FAB_TYPE" ;
   rdfs:label "Earthy (fabric)"@en ;
   owl:sameAs sp:fabric-E ;
   skos:altLabel "Porous"@en ;
@@ -2553,7 +2553,7 @@ sp:fabric-G
   dct:description "The soil material is coherent, with few, if any, peds. The closely packed sand grains provide the characteristic appearance of the soil mass."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/fabric-G"^^xsd:anyURI ;
   ui:isMemberOf sp:fabric ;
-  rdfs:comment "C_FAB_TYPE"^^xsd:string ;
+  rdfs:comment "C_FAB_TYPE" ;
   rdfs:label "Sandy (grains prominent)"@en ;
   owl:sameAs sp:fabric-G ;
   skos:definition "The soil material is coherent, with few, if any, peds. The closely packed sand grains provide the characteristic appearance of the soil mass."@en ;
@@ -2565,7 +2565,7 @@ sp:fabric-R
   dct:description "Peds are evident, and characteristically more than 50% of the peds are rough-faced, that is, they have relatively porous surfaces. (Rough-faced peds generally have less clearly defined faces than smooth-faced peds and the pedality of the soil may be questioned. However, if the soil mass is pressed gently, the characteristic size and shape of the soil aggregates will confirm its pedality.) Granular peds with common or many macropores are always rough-faced, but this condition varies in other ped forms."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/fabric-R"^^xsd:anyURI ;
   ui:isMemberOf sp:fabric ;
-  rdfs:comment "C_FAB_TYPE"^^xsd:string ;
+  rdfs:comment "C_FAB_TYPE" ;
   rdfs:label "Rough-ped"@en ;
   owl:sameAs sp:fabric-R ;
   skos:definition "Peds are evident, and characteristically more than 50% of the peds are rough-faced, that is, they have relatively porous surfaces. (Rough-faced peds generally have less clearly defined faces than smooth-faced peds and the pedality of the soil may be questioned. However, if the soil mass is pressed gently, the characteristic size and shape of the soil aggregates will confirm its pedality.) Granular peds with common or many macropores are always rough-faced, but this condition varies in other ped forms."@en ;
@@ -2577,7 +2577,7 @@ sp:fabric-S
   dct:description "Peds are evident, and characteristically more than 50% of them are dense and smooth-faced, although the degree of lustre may vary."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/fabric-S"^^xsd:anyURI ;
   ui:isMemberOf sp:fabric ;
-  rdfs:comment "C_FAB_TYPE"^^xsd:string ;
+  rdfs:comment "C_FAB_TYPE" ;
   rdfs:label "Smooth-ped"@en ;
   owl:sameAs sp:fabric-S ;
   skos:definition "Peds are evident, and characteristically more than 50% of them are dense and smooth-faced, although the degree of lustre may vary."@en ;
@@ -5022,11 +5022,16 @@ sp:field-texture-ZMHC-I
 sp:field-texture-mineral
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure16.png\" /></p>"@en ;
+  dct:description """<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure16.png\" /></p> 
+<p> Figure 16 Triangular texture diagram based on International fractions (Marshall 1947). </p>"""@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-mineral"^^xsd:anyURI ;
   ui:isMemberOf sp:field-textures ;
   rdfs:label "Mineral soils field texture grade"@en ;
   owl:sameAs sp:field-texture-mineral ;
+  skos:definition """The following description of determination of field texture is adapted from Northcote (1979).
+Field texture is a measure of the behaviour of a small handful of soil when moistened and kneaded into a ball and then pressed out between thumb and forefinger.
+Take a sample of soil sufficient to fit comfortably into the palm of the hand. Moisten the soil with water, a little at a time, and knead until the ball of soil, so formed, just fails to stick to the fingers. Add more soil or water to attain this condition, known as the sticky point, which approximates field capacity for that soil. Continue kneading and moistening until there is no apparent change in the soil ball, usually a working time of 1–2 minutes. The soil ball, or bolus, is now ready for shearing manipulation, but the behaviour of the soil during bolus formation is also indicative of its field texture. The behaviour of the bolus and of the ribbon produced by shearing (pressing out) between thumb and forefinger characterises the field texture. Do not assess field texture grade solely on the length of ribbon.
+The recommended field texture grades as characterised by the behaviour of the moist bolus are described. The approximate percentage content of clay (particles less than 0.002 mm in diameter) and silt (particles between 0.02 and 0.002 mm in diameter) are given as a guide. These percentages must not be used to determine a field texture, that is, do not use them to convert a laboratory particle size value to a field texture grade. Similarly, do not adjust a field texture grade when laboratory particle size data become available.""" ;
   skos:member sp:field-texture-CL ;
   skos:member sp:field-texture-CLS ;
   skos:member sp:field-texture-CS ;
@@ -5131,13 +5136,16 @@ sp:field-texture-qualifier-sapric
 .
 sp:field-textures
   a skos:Collection ;
-  dct:description "Field texture is a measure of the behaviour of a small handful of soil when moistened and kneaded into a ball and then pressed out between thumb and forefinger. The recommended field texture grades are characterised by the behaviour of the moist bolus. The approximate percentage content of clay (particles less than 0.002 mm in diameter) and silt (particles between 0.02 and 0.002 mm in diameter) are used as a guide."@en ;
+  dct:description """<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure15.png\" /></p>
+<p> Figure 15 Size Fractions in several major classification systems. </p>"""@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-textures"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
   rdfs:comment "C_H_TEXTURE; Adapted from Northcote (1979). The clay percentages must not be used to determine a field texture, that is, do not use them to convert a laboratory particle size value to a field texture grade. Similarly, do not adjust a field texture grade when laboratory particle size data become available."@en ;
   rdfs:label "Field texture"@en ;
   owl:sameAs sp:field-textures ;
-  skos:definition "Field texture is a measure of the behaviour of a small handful of soil when moistened and kneaded into a ball and then pressed out between thumb and forefinger. The recommended field texture grades are characterised by the behaviour of the moist bolus. The approximate percentage content of clay (particles less than 0.002 mm in diameter) and silt (particles between 0.02 and 0.002 mm in diameter) are used as a guide."@en ;
+  skos:definition """Soil texture is determined by the size distribution of mineral particles finer than 2 mm, that is, only material that will pass a 2 mm sieve should be used in determination of field texture. Organic soils are also included.
+In Australia, field texture classes or field texture grades (Northcote 1979) are based on field determination of texture and not on laboratory determinations of particle size, as is done in USA for example (Soil Survey Staff 1975). There is only an approximate relationship between field texture and particle size distribution (see Marshall 1947), as factors other than clay, silt and sand content influence field texture.
+Figure 15 gives a comparison between International particle size fractions, used in Australia, and those of other major classifications."""@en ;
   skos:member sp:field-texture-mineral ;
   skos:member sp:field-texture-organic ;
   skos:prefLabel "Field texture"@en ;
@@ -5303,7 +5311,7 @@ sp:horizon-boundary-distinctness
   a sosa:ObservableProperty ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizon-boundary-distinctness"^^xsd:anyURI ;
   ui:isMemberOf sp:boundaries-between-horizons ;
-  rdfs:comment "N_H_BOUND_DISTINCT"^^xsd:string ;
+  rdfs:comment "N_H_BOUND_DISTINCT" ;
   rdfs:label "Boundary distinctness"@en ;
   owl:sameAs sp:horizon-boundary-distinctness ;
   skos:member sp:horizon-boundary-distinctness-A ;
@@ -5373,7 +5381,7 @@ sp:horizon-boundary-shape
   a sosa:ObservableProperty ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizon-boundary-shape"^^xsd:anyURI ;
   ui:isMemberOf sp:boundaries-between-horizons ;
-  rdfs:comment "H_BOUND_SHAPE"^^xsd:string ;
+  rdfs:comment "H_BOUND_SHAPE" ;
   rdfs:label "Boundary shape"@en ;
   owl:sameAs sp:horizon-boundary-shape ;
   skos:member sp:horizon-boundary-shape-B ;
@@ -5852,7 +5860,7 @@ sp:mottle-abundance
   dct:description "The percentage of mottles is estimated by eye using the chart in Figure 11 (ASLSFH3Ed) for comparison. "@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-abundance"^^xsd:anyURI ;
   ui:isMemberOf sp:mottles-and-other-colour-patterns ;
-  rdfs:comment "N_MOTT_ABUN"^^xsd:string ;
+  rdfs:comment "N_MOTT_ABUN" ;
   rdfs:label "Mottle abundance"@en ;
   owl:sameAs sp:mottle-abundance ;
   skos:definition "The percentage of mottles is estimated by eye using the chart in Figure 11 (ASLSFH3Ed) for comparison. "@en ;
@@ -5867,7 +5875,7 @@ sp:mottle-abundance-0
   dct:description "0%"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-abundance-0"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-abundance ;
-  rdfs:comment "N_MOTT_ABUN"^^xsd:string ;
+  rdfs:comment "N_MOTT_ABUN" ;
   rdfs:label "No mottles or other colour patterns"@en ;
   owl:sameAs sp:mottle-abundance-0 ;
   skos:definition "0%"@en ;
@@ -5879,7 +5887,7 @@ sp:mottle-abundance-1
   dct:description "<2%"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-abundance-1"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-abundance ;
-  rdfs:comment "N_MOTT_ABUN"^^xsd:string ;
+  rdfs:comment "N_MOTT_ABUN" ;
   rdfs:label "Very few (mottle abundance)"@en ;
   owl:sameAs sp:mottle-abundance-1 ;
   skos:definition "<2%"@en ;
@@ -5891,7 +5899,7 @@ sp:mottle-abundance-2
   dct:description "2-10%"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-abundance-2"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-abundance ;
-  rdfs:comment "N_MOTT_ABUN"^^xsd:string ;
+  rdfs:comment "N_MOTT_ABUN" ;
   rdfs:label "Few (mottle abundance)"@en ;
   owl:sameAs sp:mottle-abundance-2 ;
   skos:definition "2-10%"@en ;
@@ -5903,7 +5911,7 @@ sp:mottle-abundance-3
   dct:description "10-20%"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-abundance-3"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-abundance ;
-  rdfs:comment "N_MOTT_ABUN"^^xsd:string ;
+  rdfs:comment "N_MOTT_ABUN" ;
   rdfs:label "Common (mottle abundance)"@en ;
   owl:sameAs sp:mottle-abundance-3 ;
   skos:definition "10-20%"@en ;
@@ -5915,7 +5923,7 @@ sp:mottle-abundance-4
   dct:description "20-50%"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-abundance-4"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-abundance ;
-  rdfs:comment "N_MOTT_ABUN"^^xsd:string ;
+  rdfs:comment "N_MOTT_ABUN" ;
   rdfs:label "Many (mottle abundance)"@en ;
   owl:sameAs sp:mottle-abundance-4 ;
   skos:definition "20-50%"@en ;
@@ -5927,7 +5935,7 @@ sp:mottle-boundary-C
   dct:description "colour transition over less than 2 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-boundary-C"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-boundary-distinctness ;
-  rdfs:comment "C_MOTT_BOUN_DISTINCT"^^xsd:string ;
+  rdfs:comment "C_MOTT_BOUN_DISTINCT" ;
   rdfs:label "Clear (mottle boundary)"@en ;
   owl:sameAs sp:mottle-boundary-C ;
   skos:definition "colour transition over less than 2 mm"@en ;
@@ -5939,7 +5947,7 @@ sp:mottle-boundary-D
   dct:description "colour transition over 2 mm or more"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-boundary-D"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-boundary-distinctness ;
-  rdfs:comment "C_MOTT_BOUN_DISTINCT"^^xsd:string ;
+  rdfs:comment "C_MOTT_BOUN_DISTINCT" ;
   rdfs:label "Diffuse (mottle boundary)"@en ;
   owl:sameAs sp:mottle-boundary-D ;
   skos:definition "colour transition over 2 mm or more"@en ;
@@ -5951,7 +5959,7 @@ sp:mottle-boundary-S
   dct:description "knife-edge boundary between colours"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-boundary-S"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-boundary-distinctness ;
-  rdfs:comment "C_MOTT_BOUN_DISTINCT"^^xsd:string ;
+  rdfs:comment "C_MOTT_BOUN_DISTINCT" ;
   rdfs:label "Sharp (mottle boundary)"@en ;
   owl:sameAs sp:mottle-boundary-S ;
   skos:definition "knife-edge boundary between colours"@en ;
@@ -5964,7 +5972,7 @@ sp:mottle-boundary-distinctness
   dct:description "Mottle distinctness of boundaries"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-boundary-distinctness"^^xsd:anyURI ;
   ui:isMemberOf sp:mottles-and-other-colour-patterns ;
-  rdfs:comment "C_MOTT_BOUN_DISTINCT"^^xsd:string ;
+  rdfs:comment "C_MOTT_BOUN_DISTINCT" ;
   rdfs:label "Mottle distinctness of boundaries"@en ;
   owl:sameAs sp:mottle-boundary-distinctness ;
   skos:definition "Mottle distinctness of boundaries"@en ;
@@ -5978,7 +5986,7 @@ sp:mottle-colour
   dct:description "This should be described in terms of Munsell or Revised Standard Soil colours, but abbreviated forms can be used"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-colour"^^xsd:anyURI ;
   ui:isMemberOf sp:mottles-and-other-colour-patterns ;
-  rdfs:comment "C_MOTT_COLOUR"^^xsd:string ;
+  rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Mottle colour"@en ;
   owl:sameAs sp:mottle-colour ;
   skos:definition "This should be described in terms of Munsell or Revised Standard Soil colours, but abbreviated forms can be used"@en ;
@@ -5996,7 +6004,7 @@ sp:mottle-colour-B
   dct:description "Brown"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-colour-B"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-colour ;
-  rdfs:comment "C_MOTT_COLOUR"^^xsd:string ;
+  rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Brown"@en ;
   owl:sameAs sp:mottle-colour-B ;
   skos:definition "Brown"@en ;
@@ -6008,7 +6016,7 @@ sp:mottle-colour-D
   dct:description "values 3 or less and chromas 2 or less for all hues."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-colour-D"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-colour ;
-  rdfs:comment "C_MOTT_COLOUR"^^xsd:string ;
+  rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Dark"@en ;
   owl:sameAs sp:mottle-colour-D ;
   skos:definition "values 3 or less and chromas 2 or less for all hues."@en ;
@@ -6020,7 +6028,7 @@ sp:mottle-colour-G
   dct:description "Grey"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-colour-G"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-colour ;
-  rdfs:comment "C_MOTT_COLOUR"^^xsd:string ;
+  rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Grey"@en ;
   owl:sameAs sp:mottle-colour-G ;
   skos:definition "Grey"@en ;
@@ -6032,7 +6040,7 @@ sp:mottle-colour-L
   dct:description "gley charts only."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-colour-L"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-colour ;
-  rdfs:comment "C_MOTT_COLOUR"^^xsd:string ;
+  rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Gley"@en ;
   owl:sameAs sp:mottle-colour-L ;
   skos:definition "gley charts only."@en ;
@@ -6044,7 +6052,7 @@ sp:mottle-colour-O
   dct:description "Orange"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-colour-O"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-colour ;
-  rdfs:comment "C_MOTT_COLOUR"^^xsd:string ;
+  rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Orange"@en ;
   owl:sameAs sp:mottle-colour-O ;
   skos:definition "Orange"@en ;
@@ -6056,7 +6064,7 @@ sp:mottle-colour-P
   dct:description "values 7 or more and chromas 2 or less for all hues."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-colour-P"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-colour ;
-  rdfs:comment "C_MOTT_COLOUR"^^xsd:string ;
+  rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Pale"@en ;
   owl:sameAs sp:mottle-colour-P ;
   skos:definition "values 7 or more and chromas 2 or less for all hues."@en ;
@@ -6068,7 +6076,7 @@ sp:mottle-colour-R
   dct:description "Red"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-colour-R"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-colour ;
-  rdfs:comment "C_MOTT_COLOUR"^^xsd:string ;
+  rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Red"@en ;
   owl:sameAs sp:mottle-colour-R ;
   skos:definition "Red"@en ;
@@ -6080,7 +6088,7 @@ sp:mottle-colour-Y
   dct:description "Yellow"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-colour-Y"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-colour ;
-  rdfs:comment "C_MOTT_COLOUR"^^xsd:string ;
+  rdfs:comment "C_MOTT_COLOUR" ;
   rdfs:label "Yellow"@en ;
   owl:sameAs sp:mottle-colour-Y ;
   skos:definition "Yellow"@en ;
@@ -6093,7 +6101,7 @@ sp:mottle-constrast
   dct:description "Mottle contrast"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-constrast"^^xsd:anyURI ;
   ui:isMemberOf sp:mottles-and-other-colour-patterns ;
-  rdfs:comment "C_CONTRAST"^^xsd:string ;
+  rdfs:comment "C_CONTRAST" ;
   rdfs:label "Mottle contrast"@en ;
   owl:sameAs sp:mottle-constrast ;
   skos:definition "Mottle contrast"@en ;
@@ -6107,7 +6115,7 @@ sp:mottle-contrast-D
   dct:description "readily evident although not striking."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-contrast-D"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-constrast ;
-  rdfs:comment "C_CONTRAST"^^xsd:string ;
+  rdfs:comment "C_CONTRAST" ;
   rdfs:label "Distinct (mottle contrast)"@en ;
   owl:sameAs sp:mottle-contrast-D ;
   skos:definition "readily evident although not striking."@en ;
@@ -6119,7 +6127,7 @@ sp:mottle-contrast-F
   dct:description "indistinct; evident only on close examination."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-contrast-F"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-constrast ;
-  rdfs:comment "C_CONTRAST"^^xsd:string ;
+  rdfs:comment "C_CONTRAST" ;
   rdfs:label "Faint (mottle contrast)"@en ;
   owl:sameAs sp:mottle-contrast-F ;
   skos:definition "indistinct; evident only on close examination."@en ;
@@ -6131,7 +6139,7 @@ sp:mottle-contrast-P
   dct:description "striking and conspicuous."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-contrast-P"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-constrast ;
-  rdfs:comment "C_CONTRAST"^^xsd:string ;
+  rdfs:comment "C_CONTRAST" ;
   rdfs:label "Prominent"@en ;
   owl:sameAs sp:mottle-contrast-P ;
   skos:definition "striking and conspicuous."@en ;
@@ -6144,7 +6152,7 @@ sp:mottle-size
   dct:description "Measure mottle size (mm) along the greatest dimension, except in streaks or linear forms where width is measured."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-size"^^xsd:anyURI ;
   ui:isMemberOf sp:mottles-and-other-colour-patterns ;
-  rdfs:comment "N_MOTT_SIZE"^^xsd:string ;
+  rdfs:comment "N_MOTT_SIZE" ;
   rdfs:label "Mottle size"@en ;
   owl:sameAs sp:mottle-size ;
   skos:definition "Measure mottle size (mm) along the greatest dimension, except in streaks or linear forms where width is measured."@en ;
@@ -6158,7 +6166,7 @@ sp:mottle-size-1
   dct:description "<5 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-size-1"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-size ;
-  rdfs:comment "N_MOTT_SIZE"^^xsd:string ;
+  rdfs:comment "N_MOTT_SIZE" ;
   rdfs:label "Fine (mottle size)"@en ;
   owl:sameAs sp:mottle-size-1 ;
   skos:definition "<5 mm"@en ;
@@ -6170,7 +6178,7 @@ sp:mottle-size-2
   dct:description "5-15 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-size-2"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-size ;
-  rdfs:comment "N_MOTT_SIZE"^^xsd:string ;
+  rdfs:comment "N_MOTT_SIZE" ;
   rdfs:label "Medium (mottle size)"@en ;
   owl:sameAs sp:mottle-size-2 ;
   skos:definition "5-15 mm"@en ;
@@ -6182,7 +6190,7 @@ sp:mottle-size-3
   dct:description "15-30 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-size-3"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-size ;
-  rdfs:comment "N_MOTT_SIZE"^^xsd:string ;
+  rdfs:comment "N_MOTT_SIZE" ;
   rdfs:label "Coarse (mottle size)"@en ;
   owl:sameAs sp:mottle-size-3 ;
   skos:definition "15-30 mm"@en ;
@@ -6194,7 +6202,7 @@ sp:mottle-size-4
   dct:description ">30 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-size-4"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-size ;
-  rdfs:comment "N_MOTT_SIZE"^^xsd:string ;
+  rdfs:comment "N_MOTT_SIZE" ;
   rdfs:label "Very coarse (mottle size)"@en ;
   owl:sameAs sp:mottle-size-4 ;
   skos:definition ">30 mm"@en ;
@@ -6208,7 +6216,7 @@ sp:mottle-type
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-type"^^xsd:anyURI ;
   dct:title "Mottle type"@en ;
   ui:isMemberOf sp:mottles-and-other-colour-patterns ;
-  rdfs:comment "C_MOTT_TYPE"^^xsd:string ;
+  rdfs:comment "C_MOTT_TYPE" ;
   rdfs:label "Mottle type"@en ;
   owl:sameAs sp:mottle-type ;
   skos:definition "The type of mottle can suggest the origin of the mottles."@en ;
@@ -6223,7 +6231,7 @@ sp:mottle-type-M
   dct:description "Mottles"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-type-M"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-type ;
-  rdfs:comment "C_MOTT_TYPE"^^xsd:string ;
+  rdfs:comment "C_MOTT_TYPE" ;
   rdfs:label "Mottles"@en ;
   owl:sameAs sp:mottle-type-M ;
   skos:definition "Mottles"@en ;
@@ -6235,7 +6243,7 @@ sp:mottle-type-X
   dct:description "Colour patterns due to biological mixing of soil material from other horizons (e.g. worm casts)."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-type-X"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-type ;
-  rdfs:comment "C_MOTT_TYPE"^^xsd:string ;
+  rdfs:comment "C_MOTT_TYPE" ;
   rdfs:label "Mottle type X"@en ;
   owl:sameAs sp:mottle-type-X ;
   skos:definition "Colour patterns due to biological mixing of soil material from other horizons (e.g. worm casts)."@en ;
@@ -6247,7 +6255,7 @@ sp:mottle-type-Y
   dct:description "Colour patterns due to mechanical mixing of soil material from other horizons (e.g.  inclusions of B horizon material in Ap horizons)."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-type-Y"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-type ;
-  rdfs:comment "C_MOTT_TYPE"^^xsd:string ;
+  rdfs:comment "C_MOTT_TYPE" ;
   rdfs:label "Mottle type Y"@en ;
   owl:sameAs sp:mottle-type-Y ;
   skos:definition "Colour patterns due to mechanical mixing of soil material from other horizons (e.g.  inclusions of B horizon material in Ap horizons)."@en ;
@@ -6259,7 +6267,7 @@ sp:mottle-type-Z
   dct:description "Colour patterns due to inclusions of weathered substrate material."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottle-type-Z"^^xsd:anyURI ;
   ui:isMemberOf sp:mottle-type ;
-  rdfs:comment "C_MOTT_TYPE"^^xsd:string ;
+  rdfs:comment "C_MOTT_TYPE" ;
   rdfs:label "Mottle type Z"@en ;
   owl:sameAs sp:mottle-type-Z ;
   skos:definition "Colour patterns due to inclusions of weathered substrate material."@en ;
@@ -6351,7 +6359,7 @@ sp:observation-type-A
   dct:description "Auger boring is used to describe the soil profile."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/observation-type-A"^^xsd:anyURI ;
   ui:isMemberOf sp:type-of-soil-observation ;
-  rdfs:comment "C_O_TYPE"^^xsd:string ;
+  rdfs:comment "C_O_TYPE" ;
   rdfs:label "Auger boring"@en ;
   owl:sameAs sp:observation-type-A ;
   skos:definition "Auger boring is used to describe the soil profile."@en ;
@@ -6363,7 +6371,7 @@ sp:observation-type-C
   dct:description "The profile is described from a soil core that it relatively undisturbed."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/observation-type-C"^^xsd:anyURI ;
   ui:isMemberOf sp:type-of-soil-observation ;
-  rdfs:comment "C_O_TYPE"^^xsd:string ;
+  rdfs:comment "C_O_TYPE" ;
   rdfs:label "Relatively undisturbed soil core"@en ;
   owl:sameAs sp:observation-type-C ;
   skos:definition "The profile is described from a soil core that it relatively undisturbed."@en ;
@@ -6375,7 +6383,7 @@ sp:observation-type-E
   dct:description "An existing vertical exposure (e.g. road cutting) can be used to describe the soil profile."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/observation-type-E"^^xsd:anyURI ;
   ui:isMemberOf sp:type-of-soil-observation ;
-  rdfs:comment "C_O_TYPE"^^xsd:string ;
+  rdfs:comment "C_O_TYPE" ;
   rdfs:label "Existing vertical exposure"@en ;
   owl:sameAs sp:observation-type-E ;
   skos:definition "An existing vertical exposure (e.g. road cutting) can be used to describe the soil profile."@en ;
@@ -6387,7 +6395,7 @@ sp:observation-type-P
   dct:description "The soil pit is one of several types of observation used to describe the soil profile."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/observation-type-P"^^xsd:anyURI ;
   ui:isMemberOf sp:type-of-soil-observation ;
-  rdfs:comment "C_O_TYPE"^^xsd:string ;
+  rdfs:comment "C_O_TYPE" ;
   rdfs:label "Soil pit"@en ;
   owl:sameAs sp:observation-type-P ;
   skos:definition "The soil pit is one of several types of observation used to describe the soil profile."@en ;
@@ -6414,7 +6422,7 @@ sp:pans-cementation
   dct:description "Place a 30 mm diameter piece of the pan in water for 1 hour. If it slakes, it is uncemented; if not, it is cemented. The degree of cementation is assessed on the following scale after the 1 hour soaking in water."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/pans-cementation"^^xsd:anyURI ;
   ui:isMemberOf sp:pans ;
-  rdfs:comment "C_PAN_CEMENTATION"^^xsd:string ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
   rdfs:label "Cementation of pan"@en ;
   owl:sameAs sp:pans-cementation ;
   skos:definition "Place a 30 mm diameter piece of the pan in water for 1 hour. If it slakes, it is uncemented; if not, it is cemented. The degree of cementation is assessed on the following scale after the 1 hour soaking in water."@en ;
@@ -6430,7 +6438,7 @@ sp:pans-cementation-0
   dct:description "slakes."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/pans-cementation-0"^^xsd:anyURI ;
   ui:isMemberOf sp:pans-cementation ;
-  rdfs:comment "C_PAN_CEMENTATION"^^xsd:string ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
   rdfs:label "Uncemented"@en ;
   owl:sameAs sp:pans-cementation-0 ;
   skos:definition "slakes."@en ;
@@ -6442,7 +6450,7 @@ sp:pans-cementation-1
   dct:description "can be crushed between thumb and forefinger."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/pans-cementation-1"^^xsd:anyURI ;
   ui:isMemberOf sp:pans-cementation ;
-  rdfs:comment "C_PAN_CEMENTATION"^^xsd:string ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
   rdfs:label "Weakly cemented"@en ;
   owl:sameAs sp:pans-cementation-1 ;
   skos:definition "can be crushed between thumb and forefinger."@en ;
@@ -6454,7 +6462,7 @@ sp:pans-cementation-2
   dct:description "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with weight of average person (80 kg) applied slowly."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/pans-cementation-2"^^xsd:anyURI ;
   ui:isMemberOf sp:pans-cementation ;
-  rdfs:comment "C_PAN_CEMENTATION"^^xsd:string ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
   rdfs:label "Moderately cemented"@en ;
   owl:sameAs sp:pans-cementation-2 ;
   skos:definition "beyond power of thumb and forefinger. Crushes underfoot on hard, flat surface with weight of average person (80 kg) applied slowly."@en ;
@@ -6466,7 +6474,7 @@ sp:pans-cementation-3
   dct:description "cannot be crushed underfoot by weight of average man applied slowly. Can be broken by hammer."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/pans-cementation-3"^^xsd:anyURI ;
   ui:isMemberOf sp:pans-cementation ;
-  rdfs:comment "C_PAN_CEMENTATION"^^xsd:string ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
   rdfs:label "Strongly cemented"@en ;
   owl:sameAs sp:pans-cementation-3 ;
   skos:definition "cannot be crushed underfoot by weight of average man applied slowly. Can be broken by hammer."@en ;
@@ -6478,7 +6486,7 @@ sp:pans-cementation-4
   dct:description "cannot be broken by hammer, or only with extreme difficulty."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/pans-cementation-4"^^xsd:anyURI ;
   ui:isMemberOf sp:pans-cementation ;
-  rdfs:comment "C_PAN_CEMENTATION"^^xsd:string ;
+  rdfs:comment "C_PAN_CEMENTATION" ;
   rdfs:label "Very strongly cemented"@en ;
   owl:sameAs sp:pans-cementation-4 ;
   skos:definition "cannot be broken by hammer, or only with extreme difficulty."@en ;
@@ -6491,7 +6499,7 @@ sp:pans-continuity
   dct:description "Continuity of pan"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/pans-continuity"^^xsd:anyURI ;
   ui:isMemberOf sp:pans ;
-  rdfs:comment "C_PAN_CONTINUITY"^^xsd:string ;
+  rdfs:comment "C_PAN_CONTINUITY" ;
   rdfs:label "Continuity of pan"@en ;
   owl:sameAs sp:pans-continuity ;
   skos:definition "Continuity of pan"@en ;
@@ -6539,7 +6547,7 @@ sp:pans-structure
   dct:description "Structure of pan"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/pans-structure"^^xsd:anyURI ;
   ui:isMemberOf sp:pans ;
-  rdfs:comment "C_PAN_STRUCTURE"^^xsd:string ;
+  rdfs:comment "C_PAN_STRUCTURE" ;
   rdfs:label "Structure of pan"@en ;
   owl:sameAs sp:pans-structure ;
   skos:definition "Structure of pan"@en ;
@@ -6623,7 +6631,7 @@ sp:pans-type
   dct:description "Type of pan"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/pans-type"^^xsd:anyURI ;
   ui:isMemberOf sp:pans ;
-  rdfs:comment "C_PAN_TYPE"^^xsd:string ;
+  rdfs:comment "C_PAN_TYPE" ;
   rdfs:label "Type of pan"@en ;
   owl:sameAs sp:pans-type ;
   skos:definition "Type of pan"@en ;
@@ -6828,7 +6836,7 @@ sp:roots-abundance
   dct:description "<p>Number of roots per 0.01 m<sup>2</sup> (100 mm × 100 mm)</p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/roots-abundance"^^xsd:anyURI ;
   ui:isMemberOf sp:roots ;
-  rdfs:comment "N_ROOT_ABUN"^^xsd:string ;
+  rdfs:comment "N_ROOT_ABUN" ;
   rdfs:label "Root abundance"@en ;
   owl:sameAs sp:roots-abundance ;
   skos:definition "Number of roots per 0.01 m2 (100 mm × 100 mm)"@en ;
@@ -6916,7 +6924,7 @@ sp:roots-size
   dct:description "The size (diameter) of roots observed in the horizon in mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/roots-size"^^xsd:anyURI ;
   ui:isMemberOf sp:roots ;
-  rdfs:comment "N_ROOT_SIZE"^^xsd:string ;
+  rdfs:comment "N_ROOT_SIZE" ;
   rdfs:label "Root size"@en ;
   owl:sameAs sp:roots-size ;
   skos:definition "The size (diameter) of roots observed in the horizon in mm"@en ;
@@ -6976,7 +6984,7 @@ sp:segregations-abundance
   dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure11.png\" /></p>"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-abundance"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-of-pedogenic-origin ;
-  rdfs:comment "N_SEG_ABUN"^^xsd:string ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Abundance of segregations"@en ;
   owl:sameAs sp:segregations-abundance ;
   skos:definition "Abundance of segregations. Use figure 11 as a guide."@en ;
@@ -6993,7 +7001,7 @@ sp:segregations-abundance-0
   dct:description "0"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-abundance-0"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-abundance ;
-  rdfs:comment "N_SEG_ABUN"^^xsd:string ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "No segregations"@en ;
   owl:sameAs sp:segregations-abundance-0 ;
   skos:definition "0"@en ;
@@ -7005,7 +7013,7 @@ sp:segregations-abundance-1
   dct:description "< 2%"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-abundance-1"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-abundance ;
-  rdfs:comment "N_SEG_ABUN"^^xsd:string ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Very few (segregations abundance)"@en ;
   owl:sameAs sp:segregations-abundance-1 ;
   skos:definition "< 2%"@en ;
@@ -7017,7 +7025,7 @@ sp:segregations-abundance-2
   dct:description "2 - 10%"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-abundance-2"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-abundance ;
-  rdfs:comment "N_SEG_ABUN"^^xsd:string ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Few (segregations abundance)"@en ;
   owl:sameAs sp:segregations-abundance-2 ;
   skos:definition "2 - 10%"@en ;
@@ -7029,7 +7037,7 @@ sp:segregations-abundance-3
   dct:description "10 - 20%"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-abundance-3"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-abundance ;
-  rdfs:comment "N_SEG_ABUN"^^xsd:string ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Common (segregations abundance)"@en ;
   owl:sameAs sp:segregations-abundance-3 ;
   skos:definition "10 - 20%"@en ;
@@ -7041,7 +7049,7 @@ sp:segregations-abundance-4
   dct:description "20 - 50%"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-abundance-4"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-abundance ;
-  rdfs:comment "N_SEG_ABUN"^^xsd:string ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Many (segregations abundance)"@en ;
   owl:sameAs sp:segregations-abundance-4 ;
   skos:definition "20 - 50%"@en ;
@@ -7053,7 +7061,7 @@ sp:segregations-abundance-5
   dct:description "> 50%"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-abundance-5"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-abundance ;
-  rdfs:comment "N_SEG_ABUN"^^xsd:string ;
+  rdfs:comment "N_SEG_ABUN" ;
   rdfs:label "Very many (segregations abundance)"@en ;
   owl:sameAs sp:segregations-abundance-5 ;
   skos:definition "> 50%"@en ;
@@ -7066,7 +7074,7 @@ sp:segregations-form
   dct:description "Form of segregations"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-form"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-of-pedogenic-origin ;
-  rdfs:comment "C_SEG_FORM"^^xsd:string ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Form of segregations"@en ;
   owl:sameAs sp:segregations-form ;
   skos:definition "Form of segregations"@en ;
@@ -7086,7 +7094,7 @@ sp:segregations-form-C
   dct:description "spheroidal mineral aggregates. Crudely concentric internal fabric can be seen with naked eye. Includes pisoliths and ooliths."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-form-C"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-form ;
-  rdfs:comment "C_SEG_FORM"^^xsd:string ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Concretions"@en ;
   owl:sameAs sp:segregations-form-C ;
   skos:definition "spheroidal mineral aggregates. Crudely concentric internal fabric can be seen with naked eye. Includes pisoliths and ooliths."@en ;
@@ -7098,7 +7106,7 @@ sp:segregations-form-F
   dct:description "broken pieces of segregations."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-form-F"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-form ;
-  rdfs:comment "C_SEG_FORM"^^xsd:string ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Fragments"@en ;
   owl:sameAs sp:segregations-form-F ;
   skos:definition "broken pieces of segregations."@en ;
@@ -7110,7 +7118,7 @@ sp:segregations-form-L
   dct:description "planar, plate-like or sheet-like segregations."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-form-L"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-form ;
-  rdfs:comment "C_SEG_FORM"^^xsd:string ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Laminae"@en ;
   owl:sameAs sp:segregations-form-L ;
   skos:definition "planar, plate-like or sheet-like segregations."@en ;
@@ -7122,7 +7130,7 @@ sp:segregations-form-N
   dct:description "irregular, rounded mineral aggregates. No concentric or symmetric internal fabric. Can have hollow interior."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-form-N"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-form ;
-  rdfs:comment "C_SEG_FORM"^^xsd:string ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Nodules"@en ;
   owl:sameAs sp:segregations-form-N ;
   skos:definition "irregular, rounded mineral aggregates. No concentric or symmetric internal fabric. Can have hollow interior."@en ;
@@ -7134,7 +7142,7 @@ sp:segregations-form-R
   dct:description "linings of former or current root channels."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-form-R"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-form ;
-  rdfs:comment "C_SEG_FORM"^^xsd:string ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Root linings"@en ;
   owl:sameAs sp:segregations-form-R ;
   skos:definition "linings of former or current root channels."@en ;
@@ -7146,7 +7154,7 @@ sp:segregations-form-S
   dct:description "finely divided soft segregations. They contrast with surrounding soil in colour and composition but are not easily separated as discrete bodies. Boundaries may be clearly defined or diffuse."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-form-S"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-form ;
-  rdfs:comment "C_SEG_FORM"^^xsd:string ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Soft segregations"@en ;
   owl:sameAs sp:segregations-form-S ;
   skos:definition "finely divided soft segregations. They contrast with surrounding soil in colour and composition but are not easily separated as discrete bodies. Boundaries may be clearly defined or diffuse."@en ;
@@ -7158,7 +7166,7 @@ sp:segregations-form-T
   dct:description "medium or coarser (>2 mm wide) tube-like segregations, which may or may not be hollow."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-form-T"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-form ;
-  rdfs:comment "C_SEG_FORM"^^xsd:string ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Tubules"@en ;
   owl:sameAs sp:segregations-form-T ;
   skos:definition "medium or coarser (>2 mm wide) tube-like segregations, which may or may not be hollow."@en ;
@@ -7170,7 +7178,7 @@ sp:segregations-form-V
   dct:description "fine (<2 mm wide) linear segregations."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-form-V"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-form ;
-  rdfs:comment "C_SEG_FORM"^^xsd:string ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Veins"@en ;
   owl:sameAs sp:segregations-form-V ;
   skos:definition "fine (<2 mm wide) linear segregations."@en ;
@@ -7182,7 +7190,7 @@ sp:segregations-form-X
   dct:description "single or complex clusters of crystals visible with naked eye or ×10 hand lens."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-form-X"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-form ;
-  rdfs:comment "C_SEG_FORM"^^xsd:string ;
+  rdfs:comment "C_SEG_FORM" ;
   rdfs:label "Crystals"@en ;
   owl:sameAs sp:segregations-form-X ;
   skos:definition "single or complex clusters of crystals visible with naked eye or ×10 hand lens."@en ;
@@ -7195,7 +7203,7 @@ sp:segregations-magnetic
   dct:description "attraction onto surface of hand-held magnet"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-magnetic"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-of-pedogenic-origin ;
-  rdfs:comment "C_SEG_MAGNETIC_ATTR"^^xsd:string ;
+  rdfs:comment "C_SEG_MAGNETIC_ATTR" ;
   rdfs:label "Magnetic attributes of segregations"@en ;
   owl:sameAs sp:segregations-magnetic ;
   skos:definition "attraction onto surface of hand-held magnet"@en ;
@@ -7208,7 +7216,7 @@ sp:segregations-magnetic-M
   dct:description "attracted onto surface of hand-held magnet."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-magnetic-M"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-magnetic ;
-  rdfs:comment "C_SEG_MAGNETIC_ATTR"^^xsd:string ;
+  rdfs:comment "C_SEG_MAGNETIC_ATTR" ;
   rdfs:label "Magnetic"@en ;
   owl:sameAs sp:segregations-magnetic-M ;
   skos:definition "attracted onto surface of hand-held magnet."@en ;
@@ -7220,7 +7228,7 @@ sp:segregations-magnetic-N
   dct:description "not attracted onto surface of hand-held magnet."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-magnetic-N"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-magnetic ;
-  rdfs:comment "C_SEG_MAGNETIC_ATTR"^^xsd:string ;
+  rdfs:comment "C_SEG_MAGNETIC_ATTR" ;
   rdfs:label "Non-magnetic"@en ;
   owl:sameAs sp:segregations-magnetic-N ;
   skos:definition "not attracted onto surface of hand-held magnet."@en ;
@@ -7233,7 +7241,7 @@ sp:segregations-nature
   dct:description "Nature of segregations"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-of-pedogenic-origin ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Nature of segregations"@en ;
   owl:sameAs sp:segregations-nature ;
   skos:definition "Nature of segregations"@en ;
@@ -7258,7 +7266,7 @@ sp:segregations-nature-A
   dct:description "Aluminous (aluminium)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-A"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Aluminous"@en ;
   owl:sameAs sp:segregations-nature-A ;
   skos:definition "Aluminous (aluminium)"@en ;
@@ -7270,7 +7278,7 @@ sp:segregations-nature-E
   dct:description "Earthy (dominantly non-clayey)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-E"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Earthy (segregations nature)"@en ;
   owl:sameAs sp:segregations-nature-E ;
   skos:definition "Earthy (dominantly non-clayey)"@en ;
@@ -7282,7 +7290,7 @@ sp:segregations-nature-F
   dct:description "Ferruginous (iron)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-F"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Ferruginous"@en ;
   owl:sameAs sp:segregations-nature-F ;
   skos:definition "Ferruginous (iron)"@en ;
@@ -7294,7 +7302,7 @@ sp:segregations-nature-G
   dct:description "Ferruginous–organic (iron – organic matter)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-G"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Ferruginous–organic"@en ;
   owl:sameAs sp:segregations-nature-G ;
   skos:definition "Ferruginous–organic (iron – organic matter)"@en ;
@@ -7306,7 +7314,7 @@ sp:segregations-nature-H
   dct:description "Organic (humified, well-decomposed organic matter)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-H"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Organic"@en ;
   owl:sameAs sp:segregations-nature-H ;
   skos:definition "Organic (humified, well-decomposed organic matter)"@en ;
@@ -7318,7 +7326,7 @@ sp:segregations-nature-K
   dct:description "Calcareous (carbonate)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-K"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Calcareous"@en ;
   owl:sameAs sp:segregations-nature-K ;
   skos:definition "Calcareous (carbonate)"@en ;
@@ -7330,7 +7338,7 @@ sp:segregations-nature-L
   dct:description "Argillaceous (clayey)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-L"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Argillaceous"@en ;
   owl:sameAs sp:segregations-nature-L ;
   skos:definition "Argillaceous (clayey)"@en ;
@@ -7342,7 +7350,7 @@ sp:segregations-nature-M
   dct:description "Manganiferous (manganese)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-M"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Manganiferous"@en ;
   owl:sameAs sp:segregations-nature-M ;
   skos:definition "Manganiferous (manganese)"@en ;
@@ -7354,7 +7362,7 @@ sp:segregations-nature-N
   dct:description "Ferromanganiferous (iron–manganese)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-N"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Ferromanganiferous"@en ;
   owl:sameAs sp:segregations-nature-N ;
   skos:definition "Ferromanganiferous (iron–manganese)"@en ;
@@ -7366,7 +7374,7 @@ sp:segregations-nature-O
   dct:description "Other"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-O"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Other (segregations nature)"@en ;
   owl:sameAs sp:segregations-nature-O ;
   skos:definition "Other"@en ;
@@ -7378,7 +7386,7 @@ sp:segregations-nature-S
   dct:description "Sulphurous (sulphur), for example in acid sulphate soils"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-S"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Sulphurous"@en ;
   owl:sameAs sp:segregations-nature-S ;
   skos:definition "Sulphurous (sulphur), for example in acid sulphate soils"@en ;
@@ -7390,7 +7398,7 @@ sp:segregations-nature-U
   dct:description "Unidentified"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-U"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Unidentified"@en ;
   owl:sameAs sp:segregations-nature-U ;
   skos:definition "Unidentified"@en ;
@@ -7402,7 +7410,7 @@ sp:segregations-nature-Y
   dct:description "Gypseous (gypsum)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-Y"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Gypseous"@en ;
   owl:sameAs sp:segregations-nature-Y ;
   skos:definition "Gypseous (gypsum)"@en ;
@@ -7414,7 +7422,7 @@ sp:segregations-nature-Z
   dct:description "Saline (visible salt)"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-nature-Z"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-nature ;
-  rdfs:comment "C_SEG_NATURE"^^xsd:string ;
+  rdfs:comment "C_SEG_NATURE" ;
   rdfs:label "Saline (segregations nature)"@en ;
   owl:sameAs sp:segregations-nature-Z ;
   skos:definition "Saline (visible salt)"@en ;
@@ -7445,7 +7453,7 @@ sp:segregations-size
   dct:description "Approximately equidimensional segregations (concretions, nodules) are measured in the greatest dimension. Segregations where one dimension is much greater than the other two (tubules, root linings, veins, laminae) are measured in the least dimension"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-size"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-of-pedogenic-origin ;
-  rdfs:comment "N_SEG_SIZE"^^xsd:string ;
+  rdfs:comment "N_SEG_SIZE" ;
   rdfs:label "Size of segregations"@en ;
   owl:sameAs sp:segregations-size ;
   skos:definition "Approximately equidimensional segregations (concretions, nodules) are measured in the greatest dimension. Segregations where one dimension is much greater than the other two (tubules, root linings, veins, laminae) are measured in the least dimension"@en ;
@@ -7461,7 +7469,7 @@ sp:segregations-size-1
   dct:description "< 2mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-size-1"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-size ;
-  rdfs:comment "N_SEG_SIZE"^^xsd:string ;
+  rdfs:comment "N_SEG_SIZE" ;
   rdfs:label "Fine (segregations size)"@en ;
   owl:sameAs sp:segregations-size-1 ;
   skos:definition "< 2mm"@en ;
@@ -7473,7 +7481,7 @@ sp:segregations-size-2
   dct:description "2 - 6mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-size-2"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-size ;
-  rdfs:comment "N_SEG_SIZE"^^xsd:string ;
+  rdfs:comment "N_SEG_SIZE" ;
   rdfs:label "Medium (segregations size)"@en ;
   owl:sameAs sp:segregations-size-2 ;
   skos:definition "2 - 6mm"@en ;
@@ -7485,7 +7493,7 @@ sp:segregations-size-3
   dct:description "6 - 20mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-size-3"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-size ;
-  rdfs:comment "N_SEG_SIZE"^^xsd:string ;
+  rdfs:comment "N_SEG_SIZE" ;
   rdfs:label "Coarse (segregations size)"@en ;
   owl:sameAs sp:segregations-size-3 ;
   skos:definition "6 - 20mm"@en ;
@@ -7497,7 +7505,7 @@ sp:segregations-size-4
   dct:description "20 - 60mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-size-4"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-size ;
-  rdfs:comment "N_SEG_SIZE"^^xsd:string ;
+  rdfs:comment "N_SEG_SIZE" ;
   rdfs:label "Very coarse (segregations size)"@en ;
   owl:sameAs sp:segregations-size-4 ;
   skos:definition "20 - 60mm"@en ;
@@ -7509,7 +7517,7 @@ sp:segregations-size-5
   dct:description "> 60mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-size-5"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-size ;
-  rdfs:comment "N_SEG_SIZE"^^xsd:string ;
+  rdfs:comment "N_SEG_SIZE" ;
   rdfs:label "Extremely coarse (segregations size)"@en ;
   owl:sameAs sp:segregations-size-5 ;
   skos:definition "> 60mm"@en ;
@@ -7522,7 +7530,7 @@ sp:segregations-strength
   dct:description "Strength may be recorded where appropriate"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-strength"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-of-pedogenic-origin ;
-  rdfs:comment "C_SEG_STRENGTH"^^xsd:string ;
+  rdfs:comment "C_SEG_STRENGTH" ;
   rdfs:label "Strength of segregations"@en ;
   owl:sameAs sp:segregations-strength ;
   skos:definition "Strength may be recorded where appropriate"@en ;
@@ -7535,7 +7543,7 @@ sp:segregations-strength-1
   dct:description "can be broken between thumb and forefinger."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-strength-1"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-strength ;
-  rdfs:comment "C_SEG_STRENGTH"^^xsd:string ;
+  rdfs:comment "C_SEG_STRENGTH" ;
   rdfs:label "Weak (segregations strength)"@en ;
   owl:sameAs sp:segregations-strength-1 ;
   skos:definition "can be broken between thumb and forefinger."@en ;
@@ -7547,7 +7555,7 @@ sp:segregations-strength-2
   dct:description "cannot be broken between thumb and forefinger."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-strength-2"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-strength ;
-  rdfs:comment "C_SEG_STRENGTH"^^xsd:string ;
+  rdfs:comment "C_SEG_STRENGTH" ;
   rdfs:label "Strong (segregations strength)"@en ;
   owl:sameAs sp:segregations-strength-2 ;
   skos:definition "cannot be broken between thumb and forefinger."@en ;
@@ -7560,7 +7568,7 @@ sp:soil-water-drainage
   dct:description "Drainage is a useful term to summarise local soil wetness conditions, that is, it provides a statement about soil and site drainage likely to occur in most years. It is affected by a number of attributes, both internal and external, that may act separately or together. Internal attributes include soil structure, texture, porosity, hydraulic conductivity, and water-holding capacity, while external attributes are source and quality of water, evapotranspiration, gradient and length of slope, and position in the landscape."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-drainage"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-regime ;
-  rdfs:comment "C_O_DRAINAGE"^^xsd:string ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Drainage"@en ;
   owl:sameAs sp:soil-water-drainage ;
   skos:definition "Drainage is a useful term to summarise local soil wetness conditions, that is, it provides a statement about soil and site drainage likely to occur in most years. It is affected by a number of attributes, both internal and external, that may act separately or together. Internal attributes include soil structure, texture, porosity, hydraulic conductivity, and water-holding capacity, while external attributes are source and quality of water, evapotranspiration, gradient and length of slope, and position in the landscape."@en ;
@@ -7577,7 +7585,7 @@ sp:soil-water-drainage-1
   dct:description "water is removed from the soil so slowly that the water table remains at or near the surface for most of the year. Surface flow, groundwater and subsurface flow are major sources of water, although precipitation may be important where there is a perched water table and precipitation exceeds evapotranspiration. Soils have a wide range in texture and depth, and often occur in depressed sites. Strong gleying and accumulation of surface organic matter are usually features of most soils."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-drainage-1"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-drainage ;
-  rdfs:comment "C_O_DRAINAGE"^^xsd:string ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Very poorly drained"@en ;
   owl:sameAs sp:soil-water-drainage-1 ;
   skos:definition "water is removed from the soil so slowly that the water table remains at or near the surface for most of the year. Surface flow, groundwater and subsurface flow are major sources of water, although precipitation may be important where there is a perched water table and precipitation exceeds evapotranspiration. Soils have a wide range in texture and depth, and often occur in depressed sites. Strong gleying and accumulation of surface organic matter are usually features of most soils."@en ;
@@ -7589,7 +7597,7 @@ sp:soil-water-drainage-2
   dct:description "water is removed very slowly in relation to supply. Subsurface and/or groundwater flow, as well as precipitation, may be a significant water source. Seasonal ponding, resulting from runon and insufficient outfall, also occurs. A perched water table may be present. Soils have a wide range in texture and depth; many have horizons that are gleyed, mottled, or possess orange or rusty linings of root channels. All horizons remain wet for periods of several months."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-drainage-2"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-drainage ;
-  rdfs:comment "C_O_DRAINAGE"^^xsd:string ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Poorly drained"@en ;
   owl:sameAs sp:soil-water-drainage-2 ;
   skos:definition "water is removed very slowly in relation to supply. Subsurface and/or groundwater flow, as well as precipitation, may be a significant water source. Seasonal ponding, resulting from runon and insufficient outfall, also occurs. A perched water table may be present. Soils have a wide range in texture and depth; many have horizons that are gleyed, mottled, or possess orange or rusty linings of root channels. All horizons remain wet for periods of several months."@en ;
@@ -7601,7 +7609,7 @@ sp:soil-water-drainage-3
   dct:description "water is removed only slowly in relation to supply. Precipitation is the main source if available water storage capacity is high, but subsurface flow and/or groundwater contribute as available water storage capacity decreases. Soils have a wide range in texture and depth. Some horizons may be mottled and/or have orange or rusty linings of root channels, and are wet for several weeks."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-drainage-3"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-drainage ;
-  rdfs:comment "C_O_DRAINAGE"^^xsd:string ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Imperfectly drained"@en ;
   owl:sameAs sp:soil-water-drainage-3 ;
   skos:definition "water is removed only slowly in relation to supply. Precipitation is the main source if available water storage capacity is high, but subsurface flow and/or groundwater contribute as available water storage capacity decreases. Soils have a wide range in texture and depth. Some horizons may be mottled and/or have orange or rusty linings of root channels, and are wet for several weeks."@en ;
@@ -7613,7 +7621,7 @@ sp:soil-water-drainage-4
   dct:description "water is removed from the soil somewhat slowly in relation to supply, due to low permeability, shallow water table, lack of gradient, or some combination of these. Soils are usually medium to fine in texture. Significant additions of water by subsurface flow are necessary in coarse-textured soils. Some horizons may remain wet for as long as one week after water addition."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-drainage-4"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-drainage ;
-  rdfs:comment "C_O_DRAINAGE"^^xsd:string ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Moderately well drained"@en ;
   owl:sameAs sp:soil-water-drainage-4 ;
   skos:definition "water is removed from the soil somewhat slowly in relation to supply, due to low permeability, shallow water table, lack of gradient, or some combination of these. Soils are usually medium to fine in texture. Significant additions of water by subsurface flow are necessary in coarse-textured soils. Some horizons may remain wet for as long as one week after water addition."@en ;
@@ -7625,7 +7633,7 @@ sp:soil-water-drainage-5
   dct:description "water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying, moderately permeable material or laterally as subsurface flow. The soils are often medium in texture. Some horizons may remain wet for several days after water addition."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-drainage-5"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-drainage ;
-  rdfs:comment "C_O_DRAINAGE"^^xsd:string ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Well drained"@en ;
   owl:sameAs sp:soil-water-drainage-5 ;
   skos:definition "water is removed from the soil readily but not rapidly. Excess water flows downward readily into underlying, moderately permeable material or laterally as subsurface flow. The soils are often medium in texture. Some horizons may remain wet for several days after water addition."@en ;
@@ -7637,7 +7645,7 @@ sp:soil-water-drainage-6
   dct:description "water is removed from the soil rapidly in relation to supply. Excess water flows downward rapidly if underlying material is highly permeable. There may be rapid subsurface lateral flow during heavy rainfall provided there is a steep gradient. Soils are usually coarse-textured, or shallow, or both. No horizon is normally wet for more than several hours after water addition."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-drainage-6"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-drainage ;
-  rdfs:comment "C_O_DRAINAGE"^^xsd:string ;
+  rdfs:comment "C_O_DRAINAGE" ;
   rdfs:label "Rapidly drained"@en ;
   owl:sameAs sp:soil-water-drainage-6 ;
   skos:definition "water is removed from the soil rapidly in relation to supply. Excess water flows downward rapidly if underlying material is highly permeable. There may be rapid subsurface lateral flow during heavy rainfall provided there is a steep gradient. Soils are usually coarse-textured, or shallow, or both. No horizon is normally wet for more than several hours after water addition."@en ;
@@ -7650,7 +7658,7 @@ sp:soil-water-permeability
   dct:description "Permeability is independent of climate and drainage, and – as applied to a soil – is controlled by the potential to transmit water (saturated hydraulic conductivity, Ks) of the least permeable layer in the soil. Therefore it is inferred from attributes of the soil such as structure, texture, porosity, cracks and shrink–swell properties. The rate of transmission of water in the profile is based on the assumption that loss by evapotranspiration is minimal. The Ks ranges are compatible with those of Nowland in Canada, as reported by McKeague et al. (1982)."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-permeability"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-regime ;
-  rdfs:comment "C_PERMEABILITY"^^xsd:string ;
+  rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Permeability"@en ;
   owl:sameAs sp:soil-water-permeability ;
   skos:definition "Permeability is independent of climate and drainage, and – as applied to a soil – is controlled by the potential to transmit water (saturated hydraulic conductivity, Ks) of the least permeable layer in the soil. Therefore it is inferred from attributes of the soil such as structure, texture, porosity, cracks and shrink–swell properties. The rate of transmission of water in the profile is based on the assumption that loss by evapotranspiration is minimal. The Ks ranges are compatible with those of Nowland in Canada, as reported by McKeague et al. (1982)."@en ;
@@ -7667,7 +7675,7 @@ Ks range: <5 mm/day
 Drainage time: months"""@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-permeability-1"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-permeability ;
-  rdfs:comment "C_PERMEABILITY"^^xsd:string ;
+  rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Very slowly permeable"@en ;
   owl:sameAs sp:soil-water-permeability-1 ;
   skos:definition """vertical transmission of water in the least permeable horizon is very slow; the profile would take periods of a month or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, but cracks or spaces between peds when dry close on wetting. Texture is usually clay or silty clay, and there are no pores visible (with a hand lens) that could conduct water when wet.
@@ -7683,7 +7691,7 @@ Ks range: 5-50 mm/day
 Drainage time: weeks"""@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-permeability-2"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-permeability ;
-  rdfs:comment "C_PERMEABILITY"^^xsd:string ;
+  rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Slowly permeable"@en ;
   owl:sameAs sp:soil-water-permeability-2 ;
   skos:definition """vertical transmission of water in the least permeable horizon is slow; the profile would take periods of a week or more after thorough wetting to reach field capacity if there were no obstructions to movement from the profile. Structure may vary, usually from massive to moderate grade. Texture is usually clay or silty clay, and there will be few pores visible (with a hand lens) that conduct water when wet. If texture is coarser, the interparticle voids are filled with fine mineral.
@@ -7699,7 +7707,7 @@ Ks range: 50-500 mm/day
 Drainage time: days"""@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-permeability-3"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-permeability ;
-  rdfs:comment "C_PERMEABILITY"^^xsd:string ;
+  rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Moderately permeable"@en ;
   owl:sameAs sp:soil-water-permeability-3 ;
   skos:definition """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–5) of days after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. The soil may vary in structure but grade is usually at least moderate, and blocky or polyhedral peds are common. If massive, the soil material is always porous. The pores and channels that remain open when wet are clearly visible with a hand lens.
@@ -7715,7 +7723,7 @@ Ks range: >500 mm/day
 Drainage time: hours"""@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/soil-water-permeability-4"^^xsd:anyURI ;
   ui:isMemberOf sp:soil-water-permeability ;
-  rdfs:comment "C_PERMEABILITY"^^xsd:string ;
+  rdfs:comment "C_PERMEABILITY" ;
   rdfs:label "Highly permeable"@en ;
   owl:sameAs sp:soil-water-permeability-4 ;
   skos:definition """vertical transmission of water in the least permeable horizon is such that the profile would take no more than a number (1–12) of hours after a thorough wetting to reach field capacity if there were no obstructions to water movement from the profile. Horizons have large, continuous and clearly visible connecting pores and cracks that do not close with wetting. Texture is usually sandy and nodules or gravel are commonly present. Soil horizons are usually apedal, but some medium- to fine-textured soils with strong granular structure or cementation of aggregates can be highly permeable.
@@ -7937,7 +7945,7 @@ sp:structure-pedality-grade
   dct:description "Grade of pedality is the degree of development and distinctness of peds. In virtually all material that has structure, the surface of individual peds will differ in some way from the interior of peds. The degree of development expresses the relative difference between the strength of cohesion within peds and the strength of adhesion between adjacent peds. Determination of grade of structure in the field depends on the proportion of peds that hold together as entire peds when displaced and also on the ease with which the soil separates into discrete peds. Grade of pedality varies with the soil water status. It is important to record the soil water status of the described profile, and it is desirable that the grade of pedality be described at the soil water status most common for the horizon."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-grade"^^xsd:anyURI ;
   ui:isMemberOf sp:structure ;
-  rdfs:comment "C_STR_PED_GRADE"^^xsd:string ;
+  rdfs:comment "C_STR_PED_GRADE" ;
   rdfs:label "Grade of pedality"@en ;
   owl:sameAs sp:structure-pedality-grade ;
   skos:definition "Grade of pedality is the degree of development and distinctness of peds. In virtually all material that has structure, the surface of individual peds will differ in some way from the interior of peds. The degree of development expresses the relative difference between the strength of cohesion within peds and the strength of adhesion between adjacent peds. Determination of grade of structure in the field depends on the proportion of peds that hold together as entire peds when displaced and also on the ease with which the soil separates into discrete peds. Grade of pedality varies with the soil water status. It is important to record the soil water status of the described profile, and it is desirable that the grade of pedality be described at the soil water status most common for the horizon."@en ;
@@ -8016,7 +8024,7 @@ sp:structure-pedality-size
   dct:description "The average least dimension of peds is used to determine the class interval. Use figure 17. The least dimension is the vertical dimension for platy structure; the horizontal dimension for prismatic, columnar, blocky and polyhedral peds; the maximum separation of convex faces for lenticular peds; and the diameter for granular peds."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-size"^^xsd:anyURI ;
   ui:isMemberOf sp:structure ;
-  rdfs:comment "N_STR_PED_SIZE"^^xsd:string ;
+  rdfs:comment "N_STR_PED_SIZE" ;
   rdfs:label "Size of peds"@en ;
   owl:sameAs sp:structure-pedality-size ;
   skos:definition "The average least dimension of peds is used to determine the class interval. Use figure 17. The least dimension is the vertical dimension for platy structure; the horizontal dimension for prismatic, columnar, blocky and polyhedral peds; the maximum separation of convex faces for lenticular peds; and the diameter for granular peds."@en ;
@@ -8145,7 +8153,7 @@ sp:structure-pedality-type
   dct:description "The types of structure are illustrated in diagrammatic form. See figure 17."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-type"^^xsd:anyURI ;
   ui:isMemberOf sp:structure ;
-  rdfs:comment "C_STR_PED_TYPE"^^xsd:string ;
+  rdfs:comment "C_STR_PED_TYPE" ;
   rdfs:label "Type of pedality"@en ;
   owl:sameAs sp:structure-pedality-type ;
   skos:definition "The types of structure are illustrated in diagrammatic form. See figure 17."@en ;
@@ -8422,7 +8430,7 @@ sp:type-of-soil-observation
   dct:description "The soil profile may be described using several types of observation."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/type-of-soil-observation"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
-  rdfs:comment "C_O_TYPE"^^xsd:string ;
+  rdfs:comment "C_O_TYPE" ;
   rdfs:label "Type of soil observation"@en ;
   owl:sameAs sp:type-of-soil-observation ;
   skos:definition "The soil profile may be described using several types of observation."@en ;
@@ -8540,7 +8548,7 @@ sp:voids-macropores-abundance
   dct:description "abundance of macropores based relevant to the diameter of the macropores"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-abundance"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores ;
-  rdfs:comment "N_PORE_ABUN"^^xsd:string ;
+  rdfs:comment "N_PORE_ABUN" ;
   rdfs:label "Abundance of macropores"@en ;
   owl:sameAs sp:voids-macropores-abundance ;
   skos:definition "abundance of macropores based relevant to the diameter of the macropores"@en ;
@@ -8643,7 +8651,7 @@ sp:voids-macropores-diameter
   dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure18.png\" /></p>"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-diameter"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores ;
-  rdfs:comment "N_PORE_DIAMETER"^^xsd:string ;
+  rdfs:comment "N_PORE_DIAMETER" ;
   rdfs:label "Diameter of macropores"@en ;
   owl:sameAs sp:voids-macropores-diameter ;
   skos:definition "Diameter of macropores Use Figure 18 as a guide to average diameter"@en ;
