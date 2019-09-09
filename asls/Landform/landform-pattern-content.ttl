@@ -10,7 +10,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <landform-pattern-ALF> a skos:Concept ;
-    rdfs:label "Aluvial fan"@en ;
+    rdfs:label "Alluvial fan"@en ;
     dct:description "Level (less than 1% slope) to very gently inclined; complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep; locally numerous; but elsewhere widely spaced. The channels form a centrifugal to divergent; integrated; reticulated to distributary pattern. The landform pattern includes areas that are bar plains; being aggraded or eroded by frequently active channelled stream flow; and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual; formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps."@en ;
     dct:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALF"^^xsd:anyURI ;
     ui:isMemberOf <landform-pattern> ;
@@ -20,10 +20,10 @@ Compare with Sheet-flood fan, Pediment."""@en ;
     owl:sameAs <http://anzsoil.org/def/au/asls/landform/landform-pattern-ALF> ;
     skos:definition "Level (less than 1% slope) to very gently inclined; complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep; locally numerous; but elsewhere widely spaced. The channels form a centrifugal to divergent; integrated; reticulated to distributary pattern. The landform pattern includes areas that are bar plains; being aggraded or eroded by frequently active channelled stream flow; and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual; formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps."@en ;
     skos:notation "ALF"@en ;
-    skos:prefLabel "Aluvial fan"@en .
+    skos:prefLabel "Alluvial fan"@en .
 
 <landform-pattern-ALP> a skos:Concept ;
-    rdfs:label "Aluvial plain"@en ;
+    rdfs:label "Alluvial plain"@en ;
     dct:description "Level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced; forming a unidirectional; integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow; or the landforms may be relict from these processes. Included types of landform pattern are: Flood plain; Bar plain; Meander plain; Covered plain; Anastomotic plain; Delta; Stagnant alluvial plain; Terrace; Terraced land."@en ;
     dct:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALP"^^xsd:anyURI ;
     ui:isMemberOf <landform-pattern> ;
@@ -33,7 +33,7 @@ Occasional elements: ox-bow, flood-out, lake."""@en ;
     owl:sameAs <http://anzsoil.org/def/au/asls/landform/landform-pattern-ALP> ;
     skos:definition "Level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced; forming a unidirectional; integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow; or the landforms may be relict from these processes. Included types of landform pattern are: Flood plain; Bar plain; Meander plain; Covered plain; Anastomotic plain; Delta; Stagnant alluvial plain; Terrace; Terraced land."@en ;
     skos:notation "ALP"@en ;
-    skos:prefLabel "Aluvial plain"@en .
+    skos:prefLabel "Alluvial plain"@en .
 
 <landform-pattern-ANA> a skos:Concept ;
     rdfs:label "Anastomotic plain"@en ;
@@ -103,7 +103,7 @@ Occasional elements: cone, hillcrest, stream channel."""@en ;
     dct:description "Level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict; parallel; linear ridges built up by waves; separated by; and built over; flats (mud flats) aggraded by tides or overbank stream flow."@en ;
     dct:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-CHE"^^xsd:anyURI ;
     ui:isMemberOf <landform-pattern> ;
-    rdfs:comment """Typical elements: beach ridge (co-dominant), flat (codominant).
+    rdfs:comment """Typical elements: beach ridge (co-dominant), flat (co-dominant).
 Common elements: tidal flat, swamp, beach, foredune, tidal creek.
 Compare with Beach ridge plain."""@en ;
     owl:sameAs <http://anzsoil.org/def/au/asls/landform/landform-pattern-CHE> ;
