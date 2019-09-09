@@ -328,16 +328,16 @@ Compare with Hills, Low hills, Rises and Plain."""@en ;
     skos:notation "MOU"@en ;
     skos:prefLabel "Mountains"@en .
 
-<landform-pattern-NC> a skos:Concept ;
-    rdfs:label "Not Collected"@en ;
-    dct:description "Not Collected"@en ;
-    dct:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-NC"^^xsd:anyURI ;
-    ui:isMemberOf <landform-pattern> ;
-    rdfs:comment ""@en ;
-    owl:sameAs <http://anzsoil.org/def/au/asls/landform/landform-pattern-NC> ;
-    skos:definition "Not Collected"@en ;
-    skos:notation "NC"@en ;
-    skos:prefLabel "Not Collected"@en .
+#<landform-pattern-NC> a skos:Concept ;
+#    rdfs:label "Not Collected"@en ;
+#    dct:description "Not Collected"@en ;
+#    dct:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-NC"^^xsd:anyURI ;
+#    ui:isMemberOf <landform-pattern> ;
+#    rdfs:comment ""@en ;
+#    owl:sameAs <http://anzsoil.org/def/au/asls/landform/landform-pattern-NC> ;
+#    skos:definition "Not Collected"@en ;
+#    skos:notation "NC"@en ;
+#    skos:prefLabel "Not Collected"@en .
 
 <landform-pattern-PAR> a skos:Concept ;
     rdfs:label "Parabolic dunefield"@en ;
