@@ -10,7 +10,7 @@
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix sp:   <http://anzsoil.org/def/au/asls/soil-profile/> .
 
-<soil-profile>
+<soil-prof>
         a                          ldp:Container , reg:Register ;
         rdfs:label                 "Soil Profile classifiers" ;
         rdfs:seeAlso               <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
@@ -25,7 +25,7 @@
         dct:publisher              <http://www.publish.csiro.au/> ;
         dct:rights                 "copyright CSIRO 2009, 2016, 2018. All rights reserved." ;
         dct:source                 "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)" ;
-        reg:notation               "soil-profile" ;
+        reg:notation               "soil-prof" ;
         ui:hierarchyChildProperty  skos:member ;
         ui:hierarchyRootProperty   ui:topMemberOf ;
         .
