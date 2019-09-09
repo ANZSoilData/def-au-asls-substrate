@@ -567,6 +567,6 @@ Occasional elements: tumulus."""@en ;
         <landform-pattern-TER>,
         <landform-pattern-TID>,
         <landform-pattern-VOL> ;
-    skos:prefLabel "Landform Pattern"@en ;
+    skos:prefLabel "Landform Pattern Glossary"@en ;
     ui:topMemberOf <> .
 
