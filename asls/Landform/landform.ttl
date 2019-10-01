@@ -66,43 +66,86 @@ lf:slope-class
   ui:isMemberOf lf:slope ;
   rdfs:label "Class of slope" ;
   skos:definition "Means of evaluation of slope" ;
+  skos:member lf:slope-class-CL ;
+  skos:member lf:slope-class-GE ;
   skos:member lf:slope-class-LE ;
+  skos:member lf:slope-class-MO ;
+  skos:member lf:slope-class-PR ;
+  skos:member lf:slope-class-ST ;
+  skos:member lf:slope-class-VG ;
+  skos:member lf:slope-class-VS ;
+.
+lf:slope-class-CL
+  rdf:type skos:Concept ;
+  dct:description "A slope tangent boundary of > 300% (72°) with average slope 500% (80°)" ;
+  ui:isMemberOf lf:slope-class ;
+  rdfs:label "Cliffed" ;
+  skos:definition "A slope tangent boundary of > 300% (72°) with average slope 500% (80°)" ;
+  skos:notation "CL" ;
+  skos:prefLabel "Cliffed"@en ;
 .
 lf:slope-class-GE
   rdf:type skos:Concept ;
-  dct:description "A slope tangent boundary of 10% (5°45') with average slope 6% (3°)" ;
+  dct:description "A slope tangent boundary of 3-10% (5°45') with average slope 6% (3°)" ;
   ui:isMemberOf lf:slope-class ;
   rdfs:label "Gently inclined" ;
-  skos:definition "A slope tangent boundary of 10% (5°45') with average slope 6% (3°)" ;
+  skos:definition "A slope tangent boundary of 3-10% (5°45') with average slope 6% (3°)" ;
   skos:notation "GE" ;
   skos:prefLabel "Gently inclined"@en ;
 .
 lf:slope-class-LE
   rdf:type skos:Concept ;
-  dct:description "A slope tangent boundary of 1 % (35') with average slope 0.6% (20')" ;
+  dct:description "A slope tangent boundary of 0-1 % (35') with average slope 0.6% (20')" ;
   ui:isMemberOf lf:slope-class ;
   rdfs:label "Level" ;
-  skos:definition "A slope tangent boundary of 1% (0°35') with average slope 0.6% (0°20')" ;
+  skos:definition "A slope tangent boundary of 0-1% (0°35') with average slope 0.6% (0°20')" ;
   skos:notation "LE" ;
   skos:prefLabel "level"@en ;
 .
 lf:slope-class-MO
   rdf:type skos:Concept ;
-  dct:description "A slope tangent boundary of 32% (18°) with average slope 20% (10°)" ;
+  dct:description "A slope tangent boundary of 10-32% (18°) with average slope 20% (10°)" ;
   ui:isMemberOf lf:slope-class ;
   rdfs:label "Moderately inclined" ;
-  skos:definition "A slope tangent boundary of 32% (18°) with average slope 20% (10°)" ;
+  skos:definition "A slope tangent boundary of 10-32% (18°) with average slope 20% (10°)" ;
   skos:notation "MO" ;
   skos:prefLabel "Moderately inclined"@en ;
 .
+lf:slope-class-PR
+  rdf:type skos:Concept ;
+  dct:description "A slope tangent boundary of 100-300% (72°) with average slope 170% (60°)" ;
+  ui:isMemberOf lf:slope-class ;
+  rdfs:label "Precipitous" ;
+  skos:definition "A slope tangent boundary of 100-300% (72°) with average slope 170% (60°)" ;
+  skos:notation "PR" ;
+  skos:prefLabel "Precipitous"@en ;
+.
+lf:slope-class-ST
+  rdf:type skos:Concept ;
+  dct:description "A slope tangent boundary of 32-56% (30°) with average slope 40% (23°)" ;
+  ui:isMemberOf lf:slope-class ;
+  rdfs:label "Steep" ;
+  skos:definition "A slope tangent boundary of 32-56% (30°) with average slope 40% (23°)" ;
+  skos:notation "ST" ;
+  skos:prefLabel "Steep"@en ;
+.
 lf:slope-class-VG
   rdf:type skos:Concept ;
-  dct:description "A slope tangent boundary of 3 % (1°45') with average slope 1% (1°)" ;
+  dct:description "A slope tangent boundary of 1-3 % (1°45') with average slope 1% (1°)" ;
   ui:isMemberOf lf:slope-class ;
   rdfs:label "Very gently inclined" ;
-  skos:definition "A slope tangent boundary of 3 % (1°45') with average slope 1% (1°)" ;
+  skos:definition "A slope tangent boundary of 1-3 % (1°45') with average slope 1% (1°)" ;
   skos:notation "VG" ;
   skos:prefLabel "Very gently inclined"@en ;
+.
+lf:slope-class-VS
+  rdf:type skos:Concept ;
+  dct:description "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)" ;
+  ui:isMemberOf lf:slope-class ;
+  rdfs:label "Steep" ;
+  skos:definition "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)" ;
+  skos:notation "VS" ;
+  skos:prefLabel "Steep"@en ;
 .
 lf:slope-evaluation-A
   rdf:type skos:Concept ;
