@@ -40,19 +40,200 @@ asls:landform
   owl:imports ui: ;
   owl:imports sosa: ;
 .
-lf:cant_delete
-  a skos:Concept ;
-  dct:description "cant delete" ;
-  rdfs:label "cant delete" ;
-  skos:definition "cant delete" ;
-  skos:notation "A" ;
-  skos:prefLabel "cant delete"@en ;
-.
 lf:element-descriptions
   a skos:Collection ;
   ui:topMemberOf <http://anzsoil.org/def/au/asls/soil-profile/> ;
   rdfs:label "Description of landform element" ;
   skos:member lf:slope ;
+.
+lf:geomorphological-agent-BI
+  a skos:Concept ;
+  dct:description "Non-human biological agents; coral (Biological agents)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Non-human biological agents"@en ;
+  skos:definition "Non-human biological agents; coral (Biological agents)."@en ;
+  skos:notation "BI" ;
+  skos:prefLabel "Non-human biological agents"@en ;
+.
+lf:geomorphological-agent-CH
+  a skos:Concept ;
+  dct:description "Channelled stream flow (Stream flow)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Channelled stream flow"@en ;
+  skos:definition "Channelled stream flow (Stream flow)."@en ;
+  skos:notation "CH" ;
+  skos:prefLabel "Channelled stream flow"@en ;
+.
+lf:geomorphological-agent-DI
+  a skos:Concept ;
+  dct:description "Diastrophism; earth movements (Internal forces)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Diastrophism"@en ;
+  skos:definition "Diastrophism; earth movements (Internal forces)."@en ;
+  skos:notation "DI" ;
+  skos:prefLabel "Diastrophism"@en ;
+.
+lf:geomorphological-agent-EU
+  a skos:Concept ;
+  dct:description "Eustasy; changes in sea level (Standing water)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Eustasy"@en ;
+  skos:definition "Eustasy; changes in sea level (Standing water)."@en ;
+  skos:notation "EU" ;
+  skos:prefLabel "Eustasy"@en ;
+.
+lf:geomorphological-agent-FR
+  a skos:Concept ;
+  dct:description "Frost (Ice)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Frost"@en ;
+  skos:definition "Frost (Ice)."@en ;
+  skos:notation "FR" ;
+  skos:prefLabel "Frost"@en ;
+.
+lf:geomorphological-agent-GL
+  a skos:Concept ;
+  dct:description "Glacier flow (Ice)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Glacier flow"@en ;
+  skos:definition "Glacier flow (Ice)."@en ;
+  skos:notation "GL" ;
+  skos:prefLabel "Glacier flow"@en ;
+.
+lf:geomorphological-agent-GR
+  a skos:Concept ;
+  dct:description "Collapse, or particle fall."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Gravity"@en ;
+  skos:definition "Collapse, or particle fall."@en ;
+  skos:notation "GR" ;
+  skos:prefLabel "Gravity"@en ;
+.
+lf:geomorphological-agent-HU
+  a skos:Concept ;
+  dct:description "Human agents (Biological agents)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Human agents"@en ;
+  skos:definition "Human agents (Biological agents)."@en ;
+  skos:notation "HU" ;
+  skos:prefLabel "Human agents"@en ;
+.
+lf:geomorphological-agent-IM
+  a skos:Concept ;
+  dct:description "Impact by meteors (Extraterrestrial agents)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Impact by meteors"@en ;
+  skos:definition "Impact by meteors (Extraterrestrial agents)."@en ;
+  skos:notation "IM" ;
+  skos:prefLabel "Impact by meteors"@en ;
+.
+lf:geomorphological-agent-OV
+  a skos:Concept ;
+  dct:description "Overbank stream flow, unchannelled (Stream flow)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Overbank stream flow, unchannelled"@en ;
+  skos:definition "Overbank stream flow, unchannelled (Stream flow)."@en ;
+  skos:notation "OV" ;
+  skos:prefLabel "Overbank stream flow, unchannelled"@en ;
+.
+lf:geomorphological-agent-SH
+  a skos:Concept ;
+  dct:description "Sheet flow, sheet wash, surface wash (Precipitation)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Sheet flow, sheet wash, surface wash"@en ;
+  skos:definition "Sheet flow, sheet wash, surface wash (Precipitation)."@en ;
+  skos:notation "SH" ;
+  skos:prefLabel "Sheet flow, sheet wash, surface wash"@en ;
+.
+lf:geomorphological-agent-SM
+  a skos:Concept ;
+  dct:description "Soil moisture status changes; creep (Precipitation)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Soil moisture status changes"@en ;
+  skos:definition "Soil moisture status changes; creep (Precipitation)."@en ;
+  skos:notation "SM" ;
+  skos:prefLabel "Soil moisture status changes"@en ;
+.
+lf:geomorphological-agent-SO
+  a skos:Concept ;
+  dct:description "Solution (Precipitation)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Solution"@en ;
+  skos:definition "Solution (Precipitation)."@en ;
+  skos:notation "SO" ;
+  skos:prefLabel "Solution"@en ;
+.
+lf:geomorphological-agent-TI
+  a skos:Concept ;
+  dct:description "Tides (Standing water)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Tides"@en ;
+  skos:definition "Tides (Standing water)."@en ;
+  skos:notation "TI" ;
+  skos:prefLabel "Tides"@en ;
+.
+lf:geomorphological-agent-VO
+  a skos:Concept ;
+  dct:description "Volcanism (Internal forces)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Volcanism"@en ;
+  skos:definition "Volcanism (Internal forces)."@en ;
+  skos:notation "VO" ;
+  skos:prefLabel "Volcanism"@en ;
+.
+lf:geomorphological-agent-WA
+  a skos:Concept ;
+  dct:description "Waves (Standing water)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Waves"@en ;
+  skos:definition "Waves (Standing water)."@en ;
+  skos:notation "WA" ;
+  skos:prefLabel "Waves"@en ;
+.
+lf:geomorphological-agent-WI
+  a skos:Concept ;
+  dct:description "Wind (Wind)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Wind"@en ;
+  skos:definition "Wind (Wind)."@en ;
+  skos:notation "WI" ;
+  skos:prefLabel "Wind"@en ;
+.
+lf:geomorphological-agent-WM
+  a skos:Concept ;
+  dct:description "Water-aided mass movements; landslides (Precipitation)."@en ;
+  ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:label "Water-aided mass movements"@en ;
+  skos:definition "Water-aided mass movements; landslides (Precipitation)."@en ;
+  skos:notation "WM" ;
+  skos:prefLabel "Water-aided mass movements"@en ;
+.
+lf:geomorphological-agents
+  a skos:Collection ;
+  dct:description "Geomorphological agents that play a role in producing distinctive landform elements."@en ;
+  ui:isMemberOf asls:landform ;
+  ui:isMemberOf lf:element-descriptions ;
+  rdfs:label "Geomorphological agent"@en ;
+  skos:definition "Geomorphological agents that play a role in producing distinctive landform elements."@en ;
+  skos:member lf:geomorphological-agent-BI ;
+  skos:member lf:geomorphological-agent-CH ;
+  skos:member lf:geomorphological-agent-DI ;
+  skos:member lf:geomorphological-agent-EU ;
+  skos:member lf:geomorphological-agent-FR ;
+  skos:member lf:geomorphological-agent-GL ;
+  skos:member lf:geomorphological-agent-GR ;
+  skos:member lf:geomorphological-agent-HU ;
+  skos:member lf:geomorphological-agent-IM ;
+  skos:member lf:geomorphological-agent-OV ;
+  skos:member lf:geomorphological-agent-SH ;
+  skos:member lf:geomorphological-agent-SM ;
+  skos:member lf:geomorphological-agent-SO ;
+  skos:member lf:geomorphological-agent-TI ;
+  skos:member lf:geomorphological-agent-VO ;
+  skos:member lf:geomorphological-agent-WA ;
+  skos:member lf:geomorphological-agent-WI ;
+  skos:member lf:geomorphological-agent-WM ;
+  skos:prefLabel "Geomorphological agent"@en ;
 .
 lf:morphological-type-C
   a skos:Concept ;
@@ -292,6 +473,27 @@ lf:morphological-types
   rdfs:label "Morphological type"@en ;
   skos:definition "Landform elements fall into morphological types as sketched in Figure 1. Ten types are distinguished."@en ;
   skos:member lf:morphological-type-C ;
+  skos:member lf:morphological-type-D ;
+  skos:member lf:morphological-type-F ;
+  skos:member lf:morphological-type-H ;
+  skos:member lf:morphological-type-L ;
+  skos:member lf:morphological-type-LA ;
+  skos:member lf:morphological-type-LI ;
+  skos:member lf:morphological-type-LN ;
+  skos:member lf:morphological-type-LX ;
+  skos:member lf:morphological-type-M ;
+  skos:member lf:morphological-type-MA ;
+  skos:member lf:morphological-type-MI ;
+  skos:member lf:morphological-type-MN ;
+  skos:member lf:morphological-type-MX ;
+  skos:member lf:morphological-type-R ;
+  skos:member lf:morphological-type-S ;
+  skos:member lf:morphological-type-U ;
+  skos:member lf:morphological-type-UA ;
+  skos:member lf:morphological-type-UI ;
+  skos:member lf:morphological-type-UN ;
+  skos:member lf:morphological-type-UX ;
+  skos:member lf:morphological-type-V ;
   skos:prefLabel "Morphological type"@en ;
 .
 lf:relative-inclination-of-slope-elements
@@ -470,6 +672,15 @@ lf:slope-evaluation-P
   skos:notation "P" ;
   skos:prefLabel "Contour plan at 1:10 000 or larger scale"@en ;
 .
+lf:slope-evaluation-T
+  a skos:Concept ;
+  dct:description "Tripod-mounted instrument and staff"@en ;
+  ui:isMemberOf lf:slope-evaluations ;
+  rdfs:label "Tripod-mounted instrument and staff"@en ;
+  skos:definition "Tripod-mounted instrument and staff"@en ;
+  skos:notation "T" ;
+  skos:prefLabel "Tripod-mounted instrument and staff"@en ;
+.
 lf:slope-evaluations
   a skos:Collection ;
   dct:description "Means of evaluation of slope" ;
@@ -479,9 +690,10 @@ lf:slope-evaluations
   skos:member lf:slope-evaluation-A ;
   skos:member lf:slope-evaluation-E ;
   skos:member lf:slope-evaluation-P ;
+  skos:member lf:slope-evaluation-T ;
 .
 lf:slope-value
-  a skos:Concept ;
+  a sosa:ObservableProperty ;
   dct:description "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
   ui:isMemberOf lf:slope ;
   rdfs:label "Slope %" ;
