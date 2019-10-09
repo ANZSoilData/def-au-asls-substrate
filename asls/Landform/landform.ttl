@@ -42,9 +42,8 @@ asls:landform
 .
 lf:element-descriptions
   a skos:Collection ;
-  ui:topMemberOf <http://anzsoil.org/def/au/asls/soil-profile/> ;
   rdfs:label "Description of landform element" ;
-  skos:member lf:slope ;
+  skos:member asls:landform ;
 .
 lf:geomorphological-agent-BI
   a skos:Concept ;
@@ -234,6 +233,127 @@ lf:geomorphological-agents
   skos:member lf:geomorphological-agent-WI ;
   skos:member lf:geomorphological-agent-WM ;
   skos:prefLabel "Geomorphological agent"@en ;
+.
+lf:location-within-the-landform-element
+  a skos:Collection ;
+  dct:description "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:" ;
+  ui:isMemberOf lf:element-descriptions ;
+  rdfs:label "Location within the landform element" ;
+  skos:definition "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:" ;
+  skos:member lf:location-within-the-landform-element-B ;
+  skos:member lf:location-within-the-landform-element-M ;
+  skos:member lf:location-within-the-landform-element-T ;
+  skos:prefLabel "Location within the landform element" ;
+.
+lf:location-within-the-landform-element-B
+  a skos:Concept ;
+  dct:description "Bottom third of the height of the landform element."@en ;
+  ui:isMemberOf lf:location-within-the-landform-element ;
+  rdfs:label "Bottom"@en ;
+  skos:definition "Bottom third of the height of the landform element.."@en ;
+  skos:notation "B" ;
+  skos:prefLabel "Bottom"@en ;
+.
+lf:location-within-the-landform-element-M
+  a skos:Concept ;
+  dct:description "Middle third of the height of the landform element."@en ;
+  ui:isMemberOf lf:location-within-the-landform-element ;
+  rdfs:label "Middle"@en ;
+  skos:definition "Middle third of the height of the landform element.."@en ;
+  skos:notation "M" ;
+  skos:prefLabel "Middle"@en ;
+.
+lf:location-within-the-landform-element-T
+  a skos:Concept ;
+  dct:description "Top third of the height of the landform element."@en ;
+  ui:isMemberOf lf:location-within-the-landform-element ;
+  rdfs:label "Top"@en ;
+  skos:definition "Top third of the height of the landform element.."@en ;
+  skos:notation "T" ;
+  skos:prefLabel "Top"@en ;
+.
+lf:mode-of-geomorphological-activity
+  a skos:Collection ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure3.pdf\" /></p>"@en ;
+  ui:isMemberOf asls:landform ;
+  ui:isMemberOf lf:element-descriptions ;
+  rdfs:comment """Gradational activities are those that tend to reduce the land to a common elevation by removing material from higher places and depositing it in lower places (Chamberlin and Salisbury 1904, page 2), without necessarily reducing the angle of slope at every point. The work of streams and landslides is almost entirely in the gradational modes. However, this tendency is opposed by many processes that commonly act in an anti-gradational mode. These modes are characteristic of volcanism, diastrophism and various kinds of human and biological activity.
+However, many engineering works involve erosion and aggradation because these gradational modes use less energy than anti-gradational modes. For the same reason, erosion and aggradation may easily be induced unintentionally by land use (pages 92–96).
+To judge the mode of geomorphological activity responsible for a given landform element, the observer must visualise a former surface that has suffered distortion, burial or removal of material, and seek evidence that such activity has taken place. (Information on soil and substrate materials relevant to this investigation should be recorded as specified in other sections.)
+Allow for the recording of more than one mode of activity, together with options concerning geomorphological agents.""" ;
+  rdfs:label "Mode of geomorphological activity"@en ;
+  skos:definition "Various modes of geomorphological activity may be distinguished (Figure 3)."@en ;
+  skos:member lf:mode-of-geomorphological-activity-AG ;
+  skos:member lf:mode-of-geomorphological-activity-BU ;
+  skos:member lf:mode-of-geomorphological-activity-EA ;
+  skos:member lf:mode-of-geomorphological-activity-ER ;
+  skos:member lf:mode-of-geomorphological-activity-EX ;
+  skos:member lf:mode-of-geomorphological-activity-HU ;
+  skos:member lf:mode-of-geomorphological-activity-SU ;
+  skos:prefLabel "Mode of geomorphological activity"@en ;
+.
+lf:mode-of-geomorphological-activity-AG
+  a skos:Concept ;
+  dct:description "Aggraded (Gradational activity)."@en ;
+  ui:isMemberOf lf:mode-of-geomorphological-activity ;
+  rdfs:label "Aggraded"@en ;
+  skos:definition "Aggraded (Gradational activity)."@en ;
+  skos:notation "AG" ;
+  skos:prefLabel "Aggraded"@en ;
+.
+lf:mode-of-geomorphological-activity-BU
+  a skos:Concept ;
+  dct:description "Built up (Anti-gradational activity)."@en ;
+  ui:isMemberOf lf:mode-of-geomorphological-activity ;
+  rdfs:label "Built up"@en ;
+  skos:definition "Built up (Anti-gradational activity)."@en ;
+  skos:notation "BU" ;
+  skos:prefLabel "Built up"@en ;
+.
+lf:mode-of-geomorphological-activity-EA
+  a skos:Concept ;
+  dct:description "Eroded or aggraded (Gradational activity)."@en ;
+  ui:isMemberOf lf:mode-of-geomorphological-activity ;
+  rdfs:label "Eroded or aggraded"@en ;
+  skos:definition "Eroded or aggraded (Gradational activity)."@en ;
+  skos:notation "EA" ;
+  skos:prefLabel "Eroded or aggraded"@en ;
+.
+lf:mode-of-geomorphological-activity-ER
+  a skos:Concept ;
+  dct:description "Eroded (Gradational activity)."@en ;
+  ui:isMemberOf lf:mode-of-geomorphological-activity ;
+  rdfs:label "Eroded"@en ;
+  skos:definition "Eroded (Gradational activity)."@en ;
+  skos:notation "ER" ;
+  skos:prefLabel "Eroded"@en ;
+.
+lf:mode-of-geomorphological-activity-EX
+  a skos:Concept ;
+  dct:description "Excavated or dug out (Anti-gradational activity)."@en ;
+  ui:isMemberOf lf:mode-of-geomorphological-activity ;
+  rdfs:label "Excavated or dug out"@en ;
+  skos:definition "Excavated or dug out (Anti-gradational activity)."@en ;
+  skos:notation "EX" ;
+  skos:prefLabel "Excavated or dug out"@en ;
+.
+lf:mode-of-geomorphological-activity-HU
+  a skos:Concept ;
+  dct:description "Heaved up or elevated (Anti-gradational activity)."@en ;
+  ui:isMemberOf lf:mode-of-geomorphological-activity ;
+  rdfs:label "Heaved up or elevated"@en ;
+  skos:definition "Heaved up or elevated (Anti-gradational activity)."@en ;
+  skos:notation "HU" ;
+  skos:prefLabel "Heaved up or elevated"@en ;
+.
+lf:mode-of-geomorphological-activity-SU
+  a skos:Concept ;
+  dct:description "Subsided or depressed (Anti-gradational activity)."@en ;
+  ui:isMemberOf lf:mode-of-geomorphological-activity ;
+  rdfs:label "Subsided or depressed"@en ;
+  skos:definition "Subsided or depressed (Anti-gradational activity)."@en ;
+  skos:notation "SU" ;
+  skos:prefLabel "Subsided or depressed"@en ;
 .
 lf:morphological-type-C
   a skos:Concept ;
