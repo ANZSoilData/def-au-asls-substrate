@@ -33,6 +33,7 @@ asls:landform
   reg:notation "landform" ;
   ui:hierarchyChildProperty skos:member ;
   ui:hierarchyRootProperty ui:topMemberOf ;
+  ui:isMemberOf lf:landform-element-descriptions ;
   rdfs:label "Landform classifiers" ;
   rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
   owl:imports dc: ;
@@ -40,10 +41,52 @@ asls:landform
   owl:imports ui: ;
   owl:imports sosa: ;
 .
-lf:element-descriptions
+lf:compound-morphological-types
   a skos:Collection ;
-  rdfs:label "Description of landform element" ;
-  skos:member asls:landform ;
+  dct:description "Several types of landform feature have crests and adjoining slopes that are so small that a 20 m radius site would usually include both. Two compound morphological types are distinguished by the relative length of the crest: Hillock and Ridge"@en ;
+  rdfs:label "Compound morphological types"@en ;
+  skos:definition "Several types of landform feature have crests and adjoining slopes that are so small that a 20 m radius site would usually include both. Two compound morphological types are distinguished by the relative length of the crest: Hillock and Ridge"@en ;
+  skos:member lf:morphological-type-H ;
+  skos:member lf:morphological-type-R ;
+  skos:prefLabel "Compound morphological types"@en ;
+.
+lf:element-dimension-height
+  a skos:Concept ;
+  a sosa:ObservableProperty ;
+  dct:description "difference in elevation between the upper and lower margins of the element, measured along any slope line. Height can mean quite different things and must be carefully defined. For crests, ridges and hillocks, define the upper margin as the point where the selected slope line coalesces with others to form the ridge line. For depressions, define the lower margin as the point where the selected slope line coalesces with others to form the course line."@en ;
+  ui:isMemberOf lf:element-dimensions ;
+  rdfs:label "Height of landform element"@en ;
+  skos:altLabel "Depth of landform element"@en ;
+  skos:definition "difference in elevation between the upper and lower margins of the element, measured along any slope line. Height can mean quite different things and must be carefully defined. For crests, ridges and hillocks, define the upper margin as the point where the selected slope line coalesces with others to form the ridge line. For depressions, define the lower margin as the point where the selected slope line coalesces with others to form the course line."@en ;
+  skos:prefLabel "Height of landform element"@en ;
+.
+lf:element-dimension-length
+  a skos:Concept ;
+  a sosa:ObservableProperty ;
+  dct:description "horizontal distance between the upper and lower margins of the element, measured down a slope line. For crests, the slope line to be used is the ridge line; for depressions, the course line (see Figure 2a). By this definition, many crests and open depressions become very long."@en ;
+  ui:isMemberOf lf:element-dimensions ;
+  rdfs:label "Length of landform element"@en ;
+  skos:definition "horizontal distance between the upper and lower margins of the element, measured down a slope line. For crests, the slope line to be used is the ridge line; for depressions, the course line (see Figure 2a). By this definition, many crests and open depressions become very long."@en ;
+  skos:prefLabel "Length of landform element"@en ;
+.
+lf:element-dimension-width
+  a skos:Concept ;
+  a sosa:ObservableProperty ;
+  dct:description "horizontal distance between the lateral margins of the element, measured perpendicularly to the length."@en ;
+  ui:isMemberOf lf:element-dimensions ;
+  rdfs:label "Width of landform element"@en ;
+  skos:definition "horizontal distance between the lateral margins of the element, measured perpendicularly to the length."@en ;
+  skos:prefLabel "Width of landform element"@en ;
+.
+lf:element-dimensions
+  a skos:Collection ;
+  dct:description "An occurrence of a landform element extends as far as its attributes remain constant. Its dimensions, which may be much greater than the specified sample area diameter of 40 m, can be significant to land use. Terms referring to dimension appear often in the definitions of landform element types. Three dimensions are distinguished, each to be expressed in metres: Length, Width, Height (or depth)."@en ;
+  rdfs:label "Dimensions of landform element"@en ;
+  skos:definition "An occurrence of a landform element extends as far as its attributes remain constant. Its dimensions, which may be much greater than the specified sample area diameter of 40 m, can be significant to land use. Terms referring to dimension appear often in the definitions of landform element types. Three dimensions are distinguished, each to be expressed in metres: Length, Width, Height (or depth)."@en ;
+  skos:member lf:element-dimension-height ;
+  skos:member lf:element-dimension-length ;
+  skos:member lf:element-dimension-width ;
+  skos:prefLabel "Dimensions of landform element"@en ;
 .
 lf:geomorphological-agent-BI
   a skos:Concept ;
@@ -211,7 +254,6 @@ lf:geomorphological-agents
   a skos:Collection ;
   dct:description "Geomorphological agents that play a role in producing distinctive landform elements."@en ;
   ui:isMemberOf asls:landform ;
-  ui:isMemberOf lf:element-descriptions ;
   rdfs:label "Geomorphological agent"@en ;
   skos:definition "Geomorphological agents that play a role in producing distinctive landform elements."@en ;
   skos:member lf:geomorphological-agent-BI ;
@@ -234,10 +276,36 @@ lf:geomorphological-agents
   skos:member lf:geomorphological-agent-WM ;
   skos:prefLabel "Geomorphological agent"@en ;
 .
+lf:landform-element-descriptions
+  a skos:Collection ;
+  rdfs:label "Description of landform element" ;
+  skos:member lf:element-dimensions ;
+  skos:member lf:geomorphological-agents ;
+  skos:member lf:landform-genesis ;
+  skos:member lf:location-within-the-landform-element ;
+  skos:member lf:location-within-toposequence ;
+  skos:member lf:mode-of-geomorphological-activity ;
+  skos:member lf:morphological-types ;
+  skos:member lf:slope ;
+.
+lf:landform-genesis
+  a skos:Collection ;
+  dct:description """The two following sections on geomorphological modes and agents refer to the inferred genesis of a landform element. This genesis may have spanned thousands of years. Changes, such as erosion and aggradation, that are produced by current land use are separately assessed as attributes of the land surface (pages 92–96).
+To think clearly about the origin of a landform, one should ask two questions: ‘What agent formed it?’ and ‘What was the mode of activity of that agent?’
+Landforms created by different agents, such as wind, creep, and stream flow, may result from the same mode of geomorphological activity: erosion, for example. Those created by the same agent may differ according to whether the mode of activity builds them up or erodes them down.
+""" ;
+  rdfs:label "Landform genesis" ;
+  skos:definition """The two following sections on geomorphological modes and agents refer to the inferred genesis of a landform element. This genesis may have spanned thousands of years. Changes, such as erosion and aggradation, that are produced by current land use are separately assessed as attributes of the land surface (pages 92–96).
+To think clearly about the origin of a landform, one should ask two questions: ‘What agent formed it?’ and ‘What was the mode of activity of that agent?’
+Landforms created by different agents, such as wind, creep, and stream flow, may result from the same mode of geomorphological activity: erosion, for example. Those created by the same agent may differ according to whether the mode of activity builds them up or erodes them down.
+""" ;
+  skos:member lf:geomorphological-agents ;
+  skos:member lf:mode-of-geomorphological-activity ;
+  skos:prefLabel "Landform genesis" ;
+.
 lf:location-within-the-landform-element
   a skos:Collection ;
   dct:description "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:" ;
-  ui:isMemberOf lf:element-descriptions ;
   rdfs:label "Location within the landform element" ;
   skos:definition "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:" ;
   skos:member lf:location-within-the-landform-element-B ;
@@ -272,11 +340,22 @@ lf:location-within-the-landform-element-T
   skos:notation "T" ;
   skos:prefLabel "Top"@en ;
 .
+lf:location-within-toposequence
+  a skos:Concept ;
+  a sosa:ObservableProperty ;
+  dct:description """For detailed work, the location of the site within the toposequence down a slope line may relate to landform processes. Unfortunately, slope lines, by definition, extend from a summit to the lowest point (Cayley 1859), which may be many kilometres apart. One must arbitrarily determine the effective top and bottom of the toposequence. These effective end points come where the slope line coalesces with other slope lines to form a ridge line or a course line* (Figure 2a). In practice, ridge lines and course lines are to be excluded from the toposequence (see earlier section on landform element height). One arbitrary rule that will exclude the ridge line is to put the top of the toposequence where the contour curvature exceeds 60º in 40 m. The course line may be excluded by the same rule, or by putting the bottom of the toposequence at a stream channel.
+Any site can be located by its vertical and horizontal distances from the defined top and bottom of the toposequence. Drainage height (page 88) is one of these measures.
+The toposequence concept leads to definition of the attributes specific catchment area and specific dispersal area (Speight 1974, 1980) that predict hillslope hydrology and erosion (see, for example, Moore et al. 1988)."""@en ;
+  rdfs:label "Location within toposequence"@en ;
+  skos:definition """For detailed work, the location of the site within the toposequence down a slope line may relate to landform processes. Unfortunately, slope lines, by definition, extend from a summit to the lowest point (Cayley 1859), which may be many kilometres apart. One must arbitrarily determine the effective top and bottom of the toposequence. These effective end points come where the slope line coalesces with other slope lines to form a ridge line or a course line* (Figure 2a). In practice, ridge lines and course lines are to be excluded from the toposequence (see earlier section on landform element height). One arbitrary rule that will exclude the ridge line is to put the top of the toposequence where the contour curvature exceeds 60º in 40 m. The course line may be excluded by the same rule, or by putting the bottom of the toposequence at a stream channel.
+Any site can be located by its vertical and horizontal distances from the defined top and bottom of the toposequence. Drainage height (page 88) is one of these measures.
+The toposequence concept leads to definition of the attributes specific catchment area and specific dispersal area (Speight 1974, 1980) that predict hillslope hydrology and erosion (see, for example, Moore et al. 1988)."""@en ;
+  skos:prefLabel "Location within toposequence"@en ;
+.
 lf:mode-of-geomorphological-activity
   a skos:Collection ;
   dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure3.pdf\" /></p>"@en ;
   ui:isMemberOf asls:landform ;
-  ui:isMemberOf lf:element-descriptions ;
   rdfs:comment """Gradational activities are those that tend to reduce the land to a common elevation by removing material from higher places and depositing it in lower places (Chamberlin and Salisbury 1904, page 2), without necessarily reducing the angle of slope at every point. The work of streams and landslides is almost entirely in the gradational modes. However, this tendency is opposed by many processes that commonly act in an anti-gradational mode. These modes are characteristic of volcanism, diastrophism and various kinds of human and biological activity.
 However, many engineering works involve erosion and aggradation because these gradational modes use less energy than anti-gradational modes. For the same reason, erosion and aggradation may easily be induced unintentionally by land use (pages 92–96).
 To judge the mode of geomorphological activity responsible for a given landform element, the observer must visualise a former surface that has suffered distortion, burial or removal of material, and seek evidence that such activity has taken place. (Information on soil and substrate materials relevant to this investigation should be recorded as specified in other sections.)
@@ -589,9 +668,9 @@ lf:morphological-type-V
 lf:morphological-types
   a skos:Collection ;
   dct:description "Landform elements fall into morphological types as sketched in Figure 1. Ten types are distinguished."@en ;
-  ui:isMemberOf lf:element-descriptions ;
   rdfs:label "Morphological type"@en ;
   skos:definition "Landform elements fall into morphological types as sketched in Figure 1. Ten types are distinguished."@en ;
+  skos:member lf:compound-morphological-types ;
   skos:member lf:morphological-type-C ;
   skos:member lf:morphological-type-D ;
   skos:member lf:morphological-type-F ;
@@ -614,14 +693,18 @@ lf:morphological-types
   skos:member lf:morphological-type-UN ;
   skos:member lf:morphological-type-UX ;
   skos:member lf:morphological-type-V ;
+  skos:member lf:relative-inclination-of-slope-elements ;
   skos:prefLabel "Morphological type"@en ;
 .
 lf:relative-inclination-of-slope-elements
   a skos:Collection ;
   dct:description "Although lower slopes are often gentler than upper slopes, they need not be so (Figure 1i). A separate morphological attribute expresses the relative inclination of adjacent landform elements in a toposequence."@en ;
-  ui:isMemberOf lf:element-descriptions ;
   rdfs:label "Relative inclination of slope elements"@en ;
   skos:definition "Although lower slopes are often gentler than upper slopes, they need not be so (Figure 1i). A separate morphological attribute expresses the relative inclination of adjacent landform elements in a toposequence."@en ;
+  skos:member lf:relative-inclination-of-slope-elements-A ;
+  skos:member lf:relative-inclination-of-slope-elements-I ;
+  skos:member lf:relative-inclination-of-slope-elements-N ;
+  skos:member lf:relative-inclination-of-slope-elements-X ;
   skos:prefLabel "Relative inclination of slope elements"@en ;
 .
 lf:relative-inclination-of-slope-elements-A
@@ -663,10 +746,10 @@ lf:relative-inclination-of-slope-elements-X
 lf:slope
   a skos:Collection ;
   dct:description "Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
-  ui:isMemberOf lf:element-descriptions ;
   rdfs:label "Slope of landform element" ;
   skos:definition "Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
-  skos:member lf:element-descriptions ;
+  skos:member lf:slope-classes ;
+  skos:member lf:slope-evaluations ;
   skos:prefLabel "Slope of landform element"@en ;
 .
 lf:slope-class-CL
