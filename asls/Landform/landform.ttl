@@ -303,6 +303,13 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member lf:mode-of-geomorphological-activity ;
   skos:prefLabel "Landform genesis" ;
 .
+lf:landform-pattern-descriptions
+  a skos:Collection ;
+  rdfs:label "Description of landform element" ;
+  skos:member lf:geomorphological-agents ;
+  skos:member lf:mode-of-geomorphological-activity ;
+  skos:member lf:relief ;
+.
 lf:location-within-the-landform-element
   a skos:Collection ;
   dct:description "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:" ;
@@ -351,6 +358,25 @@ The toposequence concept leads to definition of the attributes specific catchmen
 Any site can be located by its vertical and horizontal distances from the defined top and bottom of the toposequence. Drainage height (page 88) is one of these measures.
 The toposequence concept leads to definition of the attributes specific catchment area and specific dispersal area (Speight 1974, 1980) that predict hillslope hydrology and erosion (see, for example, Moore et al. 1988)."""@en ;
   skos:prefLabel "Location within toposequence"@en ;
+.
+lf:modal-slope
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description """Modal slope is defined as the most common class of slope occurring in a landform pattern. Where slope classes have been obtained by systematic sampling, define the classes using equal increments on a scale of the logarithm of the slope tangent, a procedure intended to normalise frequency distributions of observed slope (Speight 1971). Where the most common slope class is estimated by direct observation, it is thought that the estimate will compare with that calculated using the log-normal model.
+Modal slope class determines the use of certain adjectives applied to landform patterns that are characterised by alternating crests and depressions. These are: rolling for moderate modal slopes (10–32%); undulating for gentle slopes (3–10%); and gently undulating for very gentle slopes (1–3%) (compare with Soil Survey Staff 1951, pages 161–165). The other slope classes, precipitous, very steep, steep and level, are to be applied as they stand. The terminology for simple erosional landform patterns based on relief and modal slope is given in Table 5.
+Table 5 defines the category badlands by various combinations of high slope values and low relief values. These combinations imply extremely close spacing of streams or valleys. Specifically, if one assumes a sawtooth terrain profile, the valley spacing implied is less than 100 m in areas with 50 m relief and less than 30 m in areas with 5 m relief; these values appear to accord with usage.
+Table 7 lists types of landform pattern in order of their typical class of modal slope. This table should not be regarded as definitive, for slope within each type of landform pattern may vary widely."""@en ;
+  rdfs:label "Modal slope"@en ;
+  skos:definition """Modal slope is defined as the most common class of slope occurring in a landform pattern. Where slope classes have been obtained by systematic sampling, define the classes using equal increments on a scale of the logarithm of the slope tangent, a procedure intended to normalise frequency distributions of observed slope (Speight 1971). Where the most common slope class is estimated by direct observation, it is thought that the estimate will compare with that calculated using the log-normal model.
+Modal slope class determines the use of certain adjectives applied to landform patterns that are characterised by alternating crests and depressions. These are: rolling for moderate modal slopes (10–32%); undulating for gentle slopes (3–10%); and gently undulating for very gentle slopes (1–3%) (compare with Soil Survey Staff 1951, pages 161–165). The other slope classes, precipitous, very steep, steep and level, are to be applied as they stand. The terminology for simple erosional landform patterns based on relief and modal slope is given in Table 5.
+Table 5 defines the category badlands by various combinations of high slope values and low relief values. These combinations imply extremely close spacing of streams or valleys. Specifically, if one assumes a sawtooth terrain profile, the valley spacing implied is less than 100 m in areas with 50 m relief and less than 30 m in areas with 5 m relief; these values appear to accord with usage.
+Table 7 lists types of landform pattern in order of their typical class of modal slope. This table should not be regarded as definitive, for slope within each type of landform pattern may vary widely."""@en ;
+  skos:member lf:relief-class-H ;
+  skos:member lf:relief-class-L ;
+  skos:member lf:relief-class-M ;
+  skos:member lf:relief-class-P ;
+  skos:member lf:relief-class-R ;
+  skos:prefLabel "Modal slope"@en ;
 .
 lf:mode-of-geomorphological-activity
   a skos:Collection ;
@@ -743,11 +769,73 @@ lf:relative-inclination-of-slope-elements-X
   skos:notation "X" ;
   skos:prefLabel "Waxing"@en ;
 .
+lf:relief
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description """Relief is defined as the difference in elevation between the high and low points of a land surface. Its estimation will be made easier by visualising two surfaces of accordance that are planar or gently curved, one touching the major crests of a landform pattern, and the other passing through the major depressions. The average vertical separation of the two surfaces is a measure of the relief. Make this estimation at a field site, either visually or by using a map, and express it in metres.
+Relief is the definitive characteristic for the terms mountains, hills, low hills, rises and plains when used as types of erosional landform pattern (Table 5). The class boundaries, shown in Tables 5 and 6, are set at 300 m, 90 m, 30 m and 9 m. These class limits and the class names are similar to those used by Löffler (1974), and are broadly compatible with those of Löffler and Ruxton (1969).
+Table 6 lists types of landform pattern defined in the glossary according to their typical relief class. Those types for which the relief class is definitive are in italics."""@en ;
+  rdfs:label "Relief"@en ;
+  skos:definition """Relief is defined as the difference in elevation between the high and low points of a land surface. Its estimation will be made easier by visualising two surfaces of accordance that are planar or gently curved, one touching the major crests of a landform pattern, and the other passing through the major depressions. The average vertical separation of the two surfaces is a measure of the relief. Make this estimation at a field site, either visually or by using a map, and express it in metres.
+Relief is the definitive characteristic for the terms mountains, hills, low hills, rises and plains when used as types of erosional landform pattern (Table 5). The class boundaries, shown in Tables 5 and 6, are set at 300 m, 90 m, 30 m and 9 m. These class limits and the class names are similar to those used by Löffler (1974), and are broadly compatible with those of Löffler and Ruxton (1969).
+Table 6 lists types of landform pattern defined in the glossary according to their typical relief class. Those types for which the relief class is definitive are in italics."""@en ;
+  skos:member lf:relief-class-H ;
+  skos:member lf:relief-class-L ;
+  skos:member lf:relief-class-M ;
+  skos:member lf:relief-class-P ;
+  skos:member lf:relief-class-R ;
+  skos:prefLabel "Relief"@en ;
+.
+lf:relief-class-H
+  a skos:Concept ;
+  dct:description "High relief, 90-300 m, (~150 m)"@en ;
+  ui:isMemberOf lf:relief ;
+  rdfs:label "High"@en ;
+  skos:definition "High relief, 90-300 m, (~150 m)"@en ;
+  skos:notation "H" ;
+  skos:prefLabel "High"@en ;
+.
+lf:relief-class-L
+  a skos:Concept ;
+  dct:description "Low relief, 30-90 m, (~50 m)"@en ;
+  ui:isMemberOf lf:relief ;
+  rdfs:label "Low"@en ;
+  skos:definition "Low relief, 30-90 m, (~50 m)"@en ;
+  skos:notation "L" ;
+  skos:prefLabel "Low"@en ;
+.
+lf:relief-class-M
+  a skos:Concept ;
+  dct:description "Very high relief, >300 m, (~500 m)"@en ;
+  ui:isMemberOf lf:relief ;
+  rdfs:label "Very high"@en ;
+  skos:definition "Very high relief, >300 m, (~500 m)"@en ;
+  skos:notation "M" ;
+  skos:prefLabel "Very high"@en ;
+.
+lf:relief-class-P
+  a skos:Concept ;
+  dct:description "Extremely low relief, <9 m, (~5 m)"@en ;
+  ui:isMemberOf lf:relief ;
+  rdfs:label "Extremely low"@en ;
+  skos:definition "Extremely low relief, <9 m, (~5 m)"@en ;
+  skos:notation "P" ;
+  skos:prefLabel "Extremely low"@en ;
+.
+lf:relief-class-R
+  a skos:Concept ;
+  dct:description "Low relief, 30-90 m, (~50 m)"@en ;
+  ui:isMemberOf lf:relief ;
+  rdfs:label "Very low"@en ;
+  skos:definition "Very low relief, 9-30 m, (~15 m)"@en ;
+  skos:notation "R" ;
+  skos:prefLabel "Very low"@en ;
+.
 lf:slope
   a skos:Collection ;
-  dct:description "Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
-  rdfs:label "Slope of landform element" ;
-  skos:definition "Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
+  dct:description "Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element."@en ;
+  rdfs:label "Slope of landform element"@en ;
+  skos:definition "Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element."@en ;
   skos:member lf:slope-classes ;
   skos:member lf:slope-evaluations ;
   skos:prefLabel "Slope of landform element"@en ;
