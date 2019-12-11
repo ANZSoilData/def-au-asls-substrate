@@ -276,6 +276,60 @@ lf:geomorphological-agents
   skos:member lf:geomorphological-agent-WM ;
   skos:prefLabel "Geomorphological agent"@en ;
 .
+lf:landform-element-BAR
+  a skos:Concept ;
+  dct:description "elongated, gently to moderately inclined, low ridge built up by channelled stream flow; part of a stream bed."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Bar (stream bar)"@en ;
+  skos:definition "elongated, gently to moderately inclined, low ridge built up by channelled stream flow; part of a stream bed."@en ;
+  skos:notation "BAR" ;
+  skos:prefLabel "Bar (stream bar)"@en ;
+.
+lf:landform-element-BKP
+  a skos:Concept ;
+  dct:description "large flat resulting from aggregation by overbank stream flow at some distance from the stream channel and in some cases biological (peat) accumulation; often characterised by a high watertable and the presence of swamps or lakes; part of a covered plain landform pattern."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Backplain"@en ;
+  skos:definition "very long, low, narrow, nearly level, sinuous ridge immediately adjacent to a stream channel, built up by overbank flow. Levees are built, usually in pairs bounding the two sides of a stream channel, at the level reached by frequent floods. This element is part of a covered plain landform pattern. For an artificial levee, use Embankment. See also Prior stream."@en ;
+  skos:notation "BKP" ;
+  skos:prefLabel "Backplain"@en ;
+.
+lf:landform-element-PLA
+  a skos:Concept ;
+  dct:description "large, very gently inclined or level element, of unspecified geomorphological agent or mode of activity."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Plain"@en ;
+  skos:definition "large, very gently inclined or level element, of unspecified geomorphological agent or mode of activity."@en ;
+  skos:notation "PLA" ;
+  skos:prefLabel "Plain"@en ;
+.
+lf:landform-element-SCR
+  a skos:Concept ;
+  dct:description "long, curved, very low ridge built up by channelled stream flow and left relict by channel migration. Part of a meander plain landform pattern."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Scroll"@en ;
+  skos:definition "long, curved, very low ridge built up by channelled stream flow and left relict by channel migration. Part of a meander plain landform pattern."@en ;
+  skos:notation "SCR" ;
+  skos:prefLabel "Scroll"@en ;
+.
+lf:landform-element-STC
+  a skos:Concept ;
+  dct:description "linear, generally sinuous open depression, in parts eroded, excavated, built up and aggraded by channelled stream flow. This element comprises stream bed and banks."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Stream channel"@en ;
+  skos:definition "linear, generally sinuous open depression, in parts eroded, excavated, built up and aggraded by channelled stream flow. This element comprises stream bed and banks."@en ;
+  skos:notation "STC" ;
+  skos:prefLabel "Stream channel"@en ;
+.
+lf:landform-element-SWP
+  a skos:Concept ;
+  dct:description "almost level, closed or almost closed depression with a seasonal or permanent watertable at or above the surface, commonly aggraded by overbank stream flow and sometimes biological (peat) accumulation."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Swamp"@en ;
+  skos:definition "almost level, closed or almost closed depression with a seasonal or permanent watertable at or above the surface, commonly aggraded by overbank stream flow and sometimes biological (peat) accumulation."@en ;
+  skos:notation "SWP" ;
+  skos:prefLabel "Swamp"@en ;
+.
 lf:landform-element-descriptions
   a skos:Collection ;
   rdfs:label "Description of landform element" ;
@@ -287,6 +341,16 @@ lf:landform-element-descriptions
   skos:member lf:mode-of-geomorphological-activity ;
   skos:member lf:morphological-types ;
   skos:member lf:slope ;
+.
+lf:landform-element-glossary
+  a skos:Collection ;
+  rdfs:label "Glossary of landform elements" ;
+  skos:member lf:landform-element-BAR ;
+  skos:member lf:landform-element-BKP ;
+  skos:member lf:landform-element-PLA ;
+  skos:member lf:landform-element-SCR ;
+  skos:member lf:landform-element-STC ;
+  skos:member lf:landform-element-SWP ;
 .
 lf:landform-genesis
   a skos:Collection ;
@@ -303,12 +367,44 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member lf:mode-of-geomorphological-activity ;
   skos:prefLabel "Landform genesis" ;
 .
+lf:landform-pattern-ALP
+  a skos:Collection ;
+  a skos:Concept ;
+  dct:description "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
+  ui:isMemberOf lf:landform-pattern-glossary ;
+  rdfs:label "Alluvial plain"@en ;
+  skos:definition "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
+  skos:member lf:landform-pattern-ALP-common ;
+  skos:member lf:landform-pattern-ALP-typical ;
+  skos:notation "ALP" ;
+  skos:prefLabel "Alluvial plain"@en ;
+.
+lf:landform-pattern-ALP-common
+  a skos:Collection ;
+  rdfs:label "Typical elements of an Alluvial plain." ;
+  skos:member lf:landform-element-BAR ;
+  skos:member lf:landform-element-BKP ;
+  skos:member lf:landform-element-SCR ;
+  skos:member lf:landform-element-SWP ;
+.
+lf:landform-pattern-ALP-typical
+  a skos:Collection ;
+  rdfs:label "Typical elements of an Alluvial plain." ;
+  skos:member lf:landform-element-PLA ;
+  skos:member lf:landform-element-STC ;
+.
 lf:landform-pattern-descriptions
   a skos:Collection ;
   rdfs:label "Description of landform element" ;
   skos:member lf:geomorphological-agents ;
+  skos:member lf:modal-slope ;
   skos:member lf:mode-of-geomorphological-activity ;
   skos:member lf:relief ;
+.
+lf:landform-pattern-glossary
+  a skos:Collection ;
+  rdfs:label "Glossary of landform patterns" ;
+  skos:member lf:landform-pattern-ALP ;
 .
 lf:location-within-the-landform-element
   a skos:Collection ;
@@ -907,10 +1003,10 @@ lf:slope-class-VS
   a skos:Concept ;
   dct:description "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)" ;
   ui:isMemberOf lf:slope-classes ;
-  rdfs:label "Steep" ;
+  rdfs:label "Very steep" ;
   skos:definition "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)" ;
   skos:notation "VS" ;
-  skos:prefLabel "Steep"@en ;
+  skos:prefLabel "Very steep"@en ;
 .
 lf:slope-classes
   a skos:Collection ;
