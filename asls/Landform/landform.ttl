@@ -276,6 +276,24 @@ lf:geomorphological-agents
   skos:member lf:geomorphological-agent-WM ;
   skos:prefLabel "Geomorphological agent"@en ;
 .
+lf:landform-element-ALC
+  a skos:Concept ;
+  dct:description "moderately inclined to very steep, short open depression with concave cross-section, eroded by collapse, landslides, creep or surface wash."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Alcove"@en ;
+  skos:definition "moderately inclined to very steep, short open depression with concave cross-section, eroded by collapse, landslides, creep or surface wash."@en ;
+  skos:notation "ALC" ;
+  skos:prefLabel "Alcove"@en ;
+.
+lf:landform-element-BAN
+  a skos:Concept ;
+  dct:description "very short, very wide slope, moderately inclined to precipitous, forming the marginal upper parts of a stream channel and resulting from erosion or aggradation by channelled stream flow."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Bank (stream bank)"@en ;
+  skos:definition "very short, very wide slope, moderately inclined to precipitous, forming the marginal upper parts of a stream channel and resulting from erosion or aggradation by channelled stream flow."@en ;
+  skos:notation "BAN" ;
+  skos:prefLabel "Bank (stream bank)"@en ;
+.
 lf:landform-element-BAR
   a skos:Concept ;
   dct:description "elongated, gently to moderately inclined, low ridge built up by channelled stream flow; part of a stream bed."@en ;
@@ -284,6 +302,33 @@ lf:landform-element-BAR
   skos:definition "elongated, gently to moderately inclined, low ridge built up by channelled stream flow; part of a stream bed."@en ;
   skos:notation "BAR" ;
   skos:prefLabel "Bar (stream bar)"@en ;
+.
+lf:landform-element-BEA
+  a skos:Concept ;
+  dct:description "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Beach"@en ;
+  skos:definition "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
+  skos:notation "BEA" ;
+  skos:prefLabel "Beach"@en ;
+.
+lf:landform-element-BEN
+  a skos:Concept ;
+  dct:description "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Bench"@en ;
+  skos:definition "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
+  skos:notation "BEN" ;
+  skos:prefLabel "Bench"@en ;
+.
+lf:landform-element-BER
+  a skos:Concept ;
+  dct:description "(i) short, very gently inclined to level minimal mid-slope in an embankment or cut face, eroded or aggraded by human activity. (ii) flat built up by waves above a beach."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Berm"@en ;
+  skos:definition "(i) short, very gently inclined to level minimal mid-slope in an embankment or cut face, eroded or aggraded by human activity. (ii) flat built up by waves above a beach."@en ;
+  skos:notation "BER" ;
+  skos:prefLabel "Berm"@en ;
 .
 lf:landform-element-BKP
   a skos:Concept ;
@@ -294,6 +339,394 @@ lf:landform-element-BKP
   skos:notation "BKP" ;
   skos:prefLabel "Backplain"@en ;
 .
+lf:landform-element-BOU
+  a skos:Concept ;
+  dct:description "usually small, open or closed depression excavated by the wind."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Blow-out"@en ;
+  skos:definition "usually small, open or closed depression excavated by the wind."@en ;
+  skos:notation "BOU" ;
+  skos:prefLabel "Blow-out"@en ;
+.
+lf:landform-element-BRI
+  a skos:Concept ;
+  dct:description "very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Beach ridge"@en ;
+  skos:definition "very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach."@en ;
+  skos:notation "BRI" ;
+  skos:prefLabel "Beach ridge"@en ;
+.
+lf:landform-element-BRK
+  a skos:Concept ;
+  dct:description "steep maximal mid-slope or upper slope, generally comprising both a very short scarp (free face) that is often bare rockland, and a stony scarp-footslope (debris slope); often standing above a pediment."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Breakaway"@en ;
+  skos:definition "steep maximal mid-slope or upper slope, generally comprising both a very short scarp (free face) that is often bare rockland, and a stony scarp-footslope (debris slope); often standing above a pediment."@en ;
+  skos:notation "BRK" ;
+  skos:prefLabel "Breakaway"@en ;
+.
+lf:landform-element-CBE
+  a skos:Concept ;
+  dct:description "flat at the margin of a stream channel aggraded and in part eroded by over-bank and channelled stream flow; an incipient flood plain. Channel benches have been referred to as 'low terraces', but the term terrace should be restricted to landform patterns above the influence of active stream flow."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Channel bench"@en ;
+  skos:definition "flat at the margin of a stream channel aggraded and in part eroded by over-bank and channelled stream flow; an incipient flood plain. Channel benches have been referred to as 'low terraces', but the term terrace should be restricted to landform patterns above the influence of active stream flow."@en ;
+  skos:notation "CBE" ;
+  skos:prefLabel "Channel bench"@en ;
+.
+lf:landform-element-CFS
+  a skos:Concept ;
+  dct:description "slope situated below a cliff, with its contours generally parallel to the line of the cliff, eroded by sheet wash or water-aided mass movement, and aggraded locally by collapsed material from above."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Cliff-footslope"@en ;
+  skos:definition "slope situated below a cliff, with its contours generally parallel to the line of the cliff, eroded by sheet wash or water-aided mass movement, and aggraded locally by collapsed material from above."@en ;
+  skos:notation "CFS" ;
+  skos:prefLabel "Cliff-footslope"@en ;
+.
+lf:landform-element-CIR
+  a skos:Concept ;
+  dct:description "precipitous to gently inclined, typically closed depression of concave contour and profile excavated by ice. The closed part of the depression may be shallow, the larger part being an open depression like an alcove."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Cirque"@en ;
+  skos:definition "precipitous to gently inclined, typically closed depression of concave contour and profile excavated by ice. The closed part of the depression may be shallow, the larger part being an open depression like an alcove."@en ;
+  skos:notation "CIR" ;
+  skos:prefLabel "Cirque"@en ;
+.
+lf:landform-element-CLI
+  a skos:Concept ;
+  dct:description "very wide, cliffed (greater than 72º) maximal slope usually eroded by gravitational fall as a result of erosion of the base by various agencies; sometimes built up by marine organisms (cf. scarp)."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Cliff"@en ;
+  skos:definition "very wide, cliffed (greater than 72º) maximal slope usually eroded by gravitational fall as a result of erosion of the base by various agencies; sometimes built up by marine organisms (cf. scarp)."@en ;
+  skos:notation "CLI" ;
+  skos:prefLabel "Cliff"@en ;
+.
+lf:landform-element-CON
+  a skos:Concept ;
+  dct:description "hillock with a circular symmetry built up by volcanism. The crest may form a ring around a crater."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Cone (volcanic)"@en ;
+  skos:definition "hillock with a circular symmetry built up by volcanism. The crest may form a ring around a crater."@en ;
+  skos:notation "CON" ;
+  skos:prefLabel "Cone (volcanic)"@en ;
+.
+lf:landform-element-COS
+  a skos:Concept ;
+  dct:description "flat eroded by human activity."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Cut-over surface"@en ;
+  skos:definition "flat eroded by human activity."@en ;
+  skos:notation "COS" ;
+  skos:prefLabel "Cut-over surface"@en ;
+.
+lf:landform-element-CUT
+  a skos:Concept ;
+  dct:description "slope eroded by human activity."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Cut face"@en ;
+  skos:definition "slope eroded by human activity."@en ;
+  skos:notation "CUT" ;
+  skos:prefLabel "Cut face"@en ;
+.
+lf:landform-element-DAM
+  a skos:Concept ;
+  dct:description "ridge built up by human activity so as to close a depression."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Dam"@en ;
+  skos:definition "ridge built up by human activity so as to close a depression."@en ;
+  skos:notation "DAM" ;
+  skos:prefLabel "Dam"@en ;
+.
+lf:landform-element-DBA
+  a skos:Concept ;
+  dct:description "basin excavated by wind erosion which removes loose material, commonly above a resistant or wet layer."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Deflation basin"@en ;
+  skos:definition "basin excavated by wind erosion which removes loose material, commonly above a resistant or wet layer."@en ;
+  skos:notation "DBA" ;
+  skos:prefLabel "Deflation basin"@en ;
+.
+lf:landform-element-DDE
+  a skos:Concept ;
+  dct:description "level to gently inclined, long, narrow, shallow open depression with smoothly concave cross-section, rising to moderately inclined side slopes, eroded or aggraded by sheet wash."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Drainage depression"@en ;
+  skos:definition "level to gently inclined, long, narrow, shallow open depression with smoothly concave cross-section, rising to moderately inclined side slopes, eroded or aggraded by sheet wash."@en ;
+  skos:notation "DDE" ;
+  skos:prefLabel "Drainage depression"@en ;
+.
+lf:landform-element-DOC
+  a skos:Concept ;
+  dct:description "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by collapse of underlying caves within bedrock."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Collapse doline"@en ;
+  skos:definition "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by collapse of underlying caves within bedrock."@en ;
+  skos:notation "DOC" ;
+  skos:prefLabel "Collapse doline"@en ;
+.
+lf:landform-element-DOL
+  a skos:Concept ;
+  dct:description "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by dissolution of the surface or underlying bedrock."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Solution doline"@en ;
+  skos:definition "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by dissolution of the surface or underlying bedrock."@en ;
+  skos:notation "DOL" ;
+  skos:prefLabel "Solution doline"@en ;
+.
+lf:landform-element-DUB
+  a skos:Concept ;
+  dct:description "crescent-shaped dune with tips extending leeward (downwind), making this side concave and the windward (upwind) side convex. Barchan dunes tend to be arranged in chains extending in the dominant wind direction."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Barchan dune"@en ;
+  skos:definition "crescent-shaped dune with tips extending leeward (downwind), making this side concave and the windward (upwind) side convex. Barchan dunes tend to be arranged in chains extending in the dominant wind direction."@en ;
+  skos:notation "DUB" ;
+  skos:prefLabel "Barchan dune"@en ;
+.
+lf:landform-element-DUC
+  a skos:Concept ;
+  dct:description "crest built up or eroded by the wind (see dune)."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Dunecrest"@en ;
+  skos:definition "crest built up or eroded by the wind (see dune)."@en ;
+  skos:notation "DUC" ;
+  skos:prefLabel "Dunecrest"@en ;
+.
+lf:landform-element-DUF
+  a skos:Concept ;
+  dct:description "large, sharp-crested, elongated, longitudinal (linear) dune or chain of sand dunes, oriented parallel, rather than transverse (perpendicular), to the prevailing wind. (Not to be confused with the trailing arms of parabolic dunes.)"@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Linear or longitudinal (seif) dune"@en ;
+  skos:definition "large, sharp-crested, elongated, longitudinal (linear) dune or chain of sand dunes, oriented parallel, rather than transverse (perpendicular), to the prevailing wind. (Not to be confused with the trailing arms of parabolic dunes.)"@en ;
+  skos:notation "DUF" ;
+  skos:prefLabel "Linear or longitudinal (seif) dune"@en ;
+.
+lf:landform-element-DUH
+  a skos:Concept ;
+  dct:description "very gently to moderately inclined rises or hillocks built up or eroded by wind and lacking distinct orientation or regular pattern."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Hummocky (weakly oriented) dune"@en ;
+  skos:definition "very gently to moderately inclined rises or hillocks built up or eroded by wind and lacking distinct orientation or regular pattern."@en ;
+  skos:notation "DUH" ;
+  skos:prefLabel "Hummocky (weakly oriented) dune"@en ;
+.
+lf:landform-element-DUN
+  a skos:Concept ;
+  dct:description "moderately inclined to very steep ridge or hillock built up by the wind. This element may comprise dunecrest and duneslope."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Dune"@en ;
+  skos:definition "moderately inclined to very steep ridge or hillock built up by the wind. This element may comprise dunecrest and duneslope."@en ;
+  skos:notation "DUN" ;
+  skos:prefLabel "Dune"@en ;
+.
+lf:landform-element-DUP
+  a skos:Concept ;
+  dct:description "sand dune with a long, scoop-shaped form, convex in the downwind direction so that its horns point upwind, whose ground plan approximates the form of a parabola. The dunes left behind can be referred to as trailing arms. Where many such dunes have traversed an area, these can give the appearance of linear dunes."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Parabolic dune"@en ;
+  skos:definition "sand dune with a long, scoop-shaped form, convex in the downwind direction so that its horns point upwind, whose ground plan approximates the form of a parabola. The dunes left behind can be referred to as trailing arms. Where many such dunes have traversed an area, these can give the appearance of linear dunes."@en ;
+  skos:notation "DUP" ;
+  skos:prefLabel "Parabolic dune"@en ;
+.
+lf:landform-element-DUS
+  a skos:Concept ;
+  dct:description "slope built up or eroded by the wind (see dune)."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Duneslope"@en ;
+  skos:definition "slope built up or eroded by the wind (see dune)."@en ;
+  skos:notation "DUS" ;
+  skos:prefLabel "Duneslope"@en ;
+.
+lf:landform-element-EMB
+  a skos:Concept ;
+  dct:description "ridge or slope built up by human activity."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Embankment"@en ;
+  skos:definition "ridge or slope built up by human activity."@en ;
+  skos:notation "EMB" ;
+  skos:prefLabel "Embankment"@en ;
+.
+lf:landform-element-EST
+  a skos:Concept ;
+  dct:description "stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Estuary"@en ;
+  skos:definition "stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream."@en ;
+  skos:notation "EST" ;
+  skos:prefLabel "Estuary"@en ;
+.
+lf:landform-element-FAN
+  a skos:Concept ;
+  dct:description "large, gently inclined to level element with radial slope lines inclined away from a point, resulting from aggradation, or occasionally from erosion, by channelled, often braided, stream flow, or possibly by sheet flow."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Fan"@en ;
+  skos:definition "large, gently inclined to level element with radial slope lines inclined away from a point, resulting from aggradation, or occasionally from erosion, by channelled, often braided, stream flow, or possibly by sheet flow."@en ;
+  skos:notation "FAN" ;
+  skos:prefLabel "Fan"@en ;
+.
+lf:landform-element-FIL
+  a skos:Concept ;
+  dct:description "flat aggraded by human activity."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Fill-top"@en ;
+  skos:definition "flat aggraded by human activity."@en ;
+  skos:notation "FIL" ;
+  skos:prefLabel "Fill-top"@en ;
+.
+lf:landform-element-FLD
+  a skos:Concept ;
+  dct:description "flat inclined radially away from a point on the margin or at the end of a stream channel, aggraded by over-bank stream flow, or by channelled stream flow associated with channels developed within the over-bank flow; part of a covered plain landform pattern."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Flood-out"@en ;
+  skos:definition "flat inclined radially away from a point on the margin or at the end of a stream channel, aggraded by over-bank stream flow, or by channelled stream flow associated with channels developed within the over-bank flow; part of a covered plain landform pattern."@en ;
+  skos:notation "FLD" ;
+  skos:prefLabel "Flood-out"@en ;
+.
+lf:landform-element-FOO
+  a skos:Concept ;
+  dct:description "moderately to very gently inclined waning lower slope resulting from aggradation or erosion by sheet flow, earth flow or creep (cf. pediment)."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Footslope"@en ;
+  skos:definition "moderately to very gently inclined waning lower slope resulting from aggradation or erosion by sheet flow, earth flow or creep (cf. pediment)."@en ;
+  skos:notation "FOO" ;
+  skos:prefLabel "Footslope"@en ;
+.
+lf:landform-element-FOR
+  a skos:Concept ;
+  dct:description "very long, nearly straight, moderately inclined to very steep ridge built up by the wind from material from an adjacent beach."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Foredune"@en ;
+  skos:definition "very long, nearly straight, moderately inclined to very steep ridge built up by the wind from material from an adjacent beach."@en ;
+  skos:notation "FOR" ;
+  skos:prefLabel "Foredune"@en ;
+.
+lf:landform-element-GUL
+  a skos:Concept ;
+  dct:description "open depression with short, precipitous walls and moderately inclined to very gently inclined floor or small stream channel, eroded by channelled stream flow and consequent collapse and water-aided mass movement."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Gully"@en ;
+  skos:definition "open depression with short, precipitous walls and moderately inclined to very gently inclined floor or small stream channel, eroded by channelled stream flow and consequent collapse and water-aided mass movement."@en ;
+  skos:notation "GUL" ;
+  skos:prefLabel "Gully"@en ;
+.
+lf:landform-element-HCR
+  a skos:Concept ;
+  dct:description "very gently inclined to steep crest, smoothly convex, eroded mainly by creep and sheet wash. A typical element of mountains, hills, low hills and rises."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Hillcrest"@en ;
+  skos:definition "very gently inclined to steep crest, smoothly convex, eroded mainly by creep and sheet wash. A typical element of mountains, hills, low hills and rises."@en ;
+  skos:notation "HCR" ;
+  skos:prefLabel "Hillcrest"@en ;
+.
+lf:landform-element-HSL
+  a skos:Concept ;
+  dct:description "gently inclined to precipitous slope, commonly simple and maximal, eroded by sheet wash, creep or water-aided mass movement. A typical element of mountains, hills, low hills and rises."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Hillslope"@en ;
+  skos:definition "gently inclined to precipitous slope, commonly simple and maximal, eroded by sheet wash, creep or water-aided mass movement. A typical element of mountains, hills, low hills and rises."@en ;
+  skos:notation "HSL" ;
+  skos:prefLabel "Hillslope"@en ;
+.
+lf:landform-element-ITF
+  a skos:Concept ;
+  dct:description "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Intertidal flat"@en ;
+  rdfs:seeAlso lf:landform-element-TDF ;
+  skos:definition "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated."@en ;
+  skos:notation "ITF" ;
+  skos:prefLabel "Intertidal flat"@en ;
+.
+lf:landform-element-LAG
+  a skos:Concept ;
+  dct:description "closed depression filled with water that is typically salt or brackish, bounded at least in part by forms aggraded or built up by waves or reef-building organisms."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Lagoon"@en ;
+  skos:definition "closed depression filled with water that is typically salt or brackish, bounded at least in part by forms aggraded or built up by waves or reef-building organisms."@en ;
+  skos:notation "LAG" ;
+  skos:prefLabel "Lagoon"@en ;
+.
+lf:landform-element-LAK
+  a skos:Concept ;
+  dct:description "large, water-filled closed depression."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Lake"@en ;
+  skos:definition "large, water-filled closed depression."@en ;
+  skos:notation "LAK" ;
+  skos:prefLabel "Lake"@en ;
+.
+lf:landform-element-LDS
+  a skos:Concept ;
+  dct:description "moderately inclined to very steep slope, eroded in the upper part and aggraded in the lower part by water-aided mass movement, characterised by irregular hummocks."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Landslide"@en ;
+  skos:definition "moderately inclined to very steep slope, eroded in the upper part and aggraded in the lower part by water-aided mass movement, characterised by irregular hummocks."@en ;
+  skos:notation "LDS" ;
+  skos:prefLabel "Landslide"@en ;
+.
+lf:landform-element-LEV
+  a skos:Concept ;
+  dct:description "very long, low, narrow, nearly level, sinuous ridge immediately adjacent to a stream channel, built up by over-bank flow. Levees are built, usually in pairs bounding the two sides of a stream channel, at the level reached by frequent floods. This element is part of a covered plain landform pattern. For an artificial levee, use embankment. See also prior stream."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Levee"@en ;
+  skos:definition "very long, low, narrow, nearly level, sinuous ridge immediately adjacent to a stream channel, built up by over-bank flow. Levees are built, usually in pairs bounding the two sides of a stream channel, at the level reached by frequent floods. This element is part of a covered plain landform pattern. For an artificial levee, use embankment. See also prior stream."@en ;
+  skos:notation "LEV" ;
+  skos:prefLabel "Levee"@en ;
+.
+lf:landform-element-LUN
+  a skos:Concept ;
+  dct:description "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Lunette"@en ;
+  skos:definition "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
+  skos:notation "LUN" ;
+  skos:prefLabel "Lunette"@en ;
+.
+lf:landform-element-MAA
+  a skos:Concept ;
+  dct:description "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Maar"@en ;
+  skos:definition "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
+  skos:notation "MAA" ;
+  skos:prefLabel "Maar"@en ;
+.
+lf:landform-element-MOU
+  a skos:Concept ;
+  dct:description "hillock built up by human activity."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Mound"@en ;
+  skos:definition "hillock built up by human activity."@en ;
+  skos:notation "MOU" ;
+  skos:prefLabel "Mound"@en ;
+.
+lf:landform-element-OXB
+  a skos:Concept ;
+  dct:description "long, curved, commonly water-filled closed depression eroded by channelled stream flow but closed as a result of aggradation by channelled or over-bank stream flow during the formation of a meander plain landform pattern. The floor of an ox-bow may be more or less aggraded by over-bank stream flow, wind, and biological (peat) accumulation."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Ox-bow"@en ;
+  skos:definition "long, curved, commonly water-filled closed depression eroded by channelled stream flow but closed as a result of aggradation by channelled or over-bank stream flow during the formation of a meander plain landform pattern. The floor of an ox-bow may be more or less aggraded by over-bank stream flow, wind, and biological (peat) accumulation."@en ;
+  skos:notation "OXB" ;
+  skos:prefLabel "Ox-bow"@en ;
+.
+lf:landform-element-PED
+  a skos:Concept ;
+  dct:description "large, gently inclined to level (<1%) waning lower slope, with slope lines inclined in a single direction, or somewhat convergent or divergent, eroded or sometimes slightly aggraded by sheet flow (cf. footslope). It is underlain by bedrock."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Pediment"@en ;
+  skos:definition "large, gently inclined to level (<1%) waning lower slope, with slope lines inclined in a single direction, or somewhat convergent or divergent, eroded or sometimes slightly aggraded by sheet flow (cf. footslope). It is underlain by bedrock."@en ;
+  skos:notation "PED" ;
+  skos:prefLabel "Pediment"@en ;
+.
+lf:landform-element-PIT
+  a skos:Concept ;
+  dct:description "closed depression excavated by human activity."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Pit"@en ;
+  skos:definition "closed depression excavated by human activity."@en ;
+  skos:notation "PIT" ;
+  skos:prefLabel "Pit"@en ;
+.
 lf:landform-element-PLA
   a skos:Concept ;
   dct:description "large, very gently inclined or level element, of unspecified geomorphological agent or mode of activity."@en ;
@@ -302,6 +735,97 @@ lf:landform-element-PLA
   skos:definition "large, very gently inclined or level element, of unspecified geomorphological agent or mode of activity."@en ;
   skos:notation "PLA" ;
   skos:prefLabel "Plain"@en ;
+.
+lf:landform-element-PLY
+  a skos:Concept ;
+  dct:description "large, shallow, level-floored closed depression, intermittently water-filled, but mainly dry due to evaporation, bounded as a rule by flats aggraded by sheet flow and channelled stream flow."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Playa"@en ;
+  skos:altLabel "Pan"@en ;
+  skos:definition "large, shallow, level-floored closed depression, intermittently water-filled, but mainly dry due to evaporation, bounded as a rule by flats aggraded by sheet flow and channelled stream flow."@en ;
+  skos:notation "PLY" ;
+  skos:prefLabel "Playa"@en ;
+.
+lf:landform-element-PST
+  a skos:Concept ;
+  dct:description "long, generally sinuous, low ridge built up from materials originally deposited by stream flow along the line of a former stream channel. The landform element may include a depression marking the old stream bed, and relict levees."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Prior stream"@en ;
+  skos:definition "long, generally sinuous, low ridge built up from materials originally deposited by stream flow along the line of a former stream channel. The landform element may include a depression marking the old stream bed, and relict levees."@en ;
+  skos:notation "PST" ;
+  skos:prefLabel "Prior stream"@en ;
+.
+lf:landform-element-REC
+  a skos:Concept ;
+  dct:description "crest of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Risecrest"@en ;
+  skos:definition "crest of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
+  skos:notation "REC" ;
+  skos:prefLabel "Risecrest"@en ;
+.
+lf:landform-element-REF
+  a skos:Concept ;
+  dct:description "flat built up to sea level by marine organisms."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Reef flat"@en ;
+  skos:definition "flat built up to sea level by marine organisms."@en ;
+  skos:notation "REF" ;
+  skos:prefLabel "Reef flat"@en ;
+.
+lf:landform-element-RER
+  a skos:Concept ;
+  dct:description "hillock of very low to extremely low relief (<30 m) and very gentle to steep slopes. This term is used to refer to an isolated rise surrounded by other landforms."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Residual rise"@en ;
+  skos:definition "hillock of very low to extremely low relief (<30 m) and very gentle to steep slopes. This term is used to refer to an isolated rise surrounded by other landforms."@en ;
+  skos:notation "RER" ;
+  skos:prefLabel "Residual rise"@en ;
+.
+lf:landform-element-RES
+  a skos:Concept ;
+  dct:description "slope of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Riseslope"@en ;
+  skos:definition "slope of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
+  skos:notation "RES" ;
+  skos:prefLabel "Riseslope"@en ;
+.
+lf:landform-element-RFL
+  a skos:Concept ;
+  dct:description "flat of bare consolidated rock, usually eroded by sheet wash."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Rock flat"@en ;
+  skos:definition "flat of bare consolidated rock, usually eroded by sheet wash."@en ;
+  skos:notation "RFL" ;
+  skos:prefLabel "Rock flat"@en ;
+.
+lf:landform-element-RPL
+  a skos:Concept ;
+  dct:description "flat of consolidated rock eroded by waves."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Rock platform"@en ;
+  skos:definition "flat of consolidated rock eroded by waves."@en ;
+  skos:notation "RPL" ;
+  skos:prefLabel "Rock platform"@en ;
+.
+lf:landform-element-SCA
+  a skos:Concept ;
+  dct:description "very wide, steep to precipitous maximal slope eroded by gravity, water-aided mass movement or sheet flow (cf. cliff)."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Scarp"@en ;
+  skos:definition "very wide, steep to precipitous maximal slope eroded by gravity, water-aided mass movement or sheet flow (cf. cliff)."@en ;
+  skos:notation "SCA" ;
+  skos:prefLabel "Scarp"@en ;
+.
+lf:landform-element-SCD
+  a skos:Concept ;
+  dct:description "flat, bare of vegetation, from which soil has been eroded or excavated by surface wash or wind."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Scald"@en ;
+  skos:definition "flat, bare of vegetation, from which soil has been eroded or excavated by surface wash or wind."@en ;
+  skos:notation "SCD" ;
+  skos:prefLabel "Scald"@en ;
 .
 lf:landform-element-SCR
   a skos:Concept ;
@@ -312,14 +836,70 @@ lf:landform-element-SCR
   skos:notation "SCR" ;
   skos:prefLabel "Scroll"@en ;
 .
+lf:landform-element-SFS
+  a skos:Concept ;
+  dct:description "waning or minimal slope situated below a scarp, with its contours generally parallel to the line of the scarp."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Scarp-footslope"@en ;
+  skos:definition "waning or minimal slope situated below a scarp, with its contours generally parallel to the line of the scarp."@en ;
+  skos:notation "SFS" ;
+  skos:prefLabel "Scarp-footslope"@en ;
+.
+lf:landform-element-SRP
+  a skos:Concept ;
+  dct:description "large flat resulting from aggradation by channelled stream flow as a stream migrates from side to side; the dominant element of a meander plain landform pattern. This landform element may include occurrences of scroll, swale and ox-bow."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Scroll plain"@en ;
+  skos:definition "large flat resulting from aggradation by channelled stream flow as a stream migrates from side to side; the dominant element of a meander plain landform pattern. This landform element may include occurrences of scroll, swale and ox-bow."@en ;
+  skos:notation "SRP" ;
+  skos:prefLabel "Scroll plain"@en ;
+.
+lf:landform-element-STB
+  a skos:Concept ;
+  dct:description "linear, generally sinuous open depression forming the bottom of a stream channel, eroded and locally excavated, aggraded or built up by channelled stream flow. Parts that are built up include bars."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Stream bed"@en ;
+  skos:definition "linear, generally sinuous open depression forming the bottom of a stream channel, eroded and locally excavated, aggraded or built up by channelled stream flow. Parts that are built up include bars."@en ;
+  skos:notation "STB" ;
+  skos:prefLabel "Stream bed"@en ;
+.
 lf:landform-element-STC
   a skos:Concept ;
   dct:description "linear, generally sinuous open depression, in parts eroded, excavated, built up and aggraded by channelled stream flow. This element comprises stream bed and banks."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Stream channel"@en ;
+  skos:altLabel "Channel"@en ;
   skos:definition "linear, generally sinuous open depression, in parts eroded, excavated, built up and aggraded by channelled stream flow. This element comprises stream bed and banks."@en ;
   skos:notation "STC" ;
   skos:prefLabel "Stream channel"@en ;
+.
+lf:landform-element-STF
+  a skos:Concept ;
+  dct:description "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. a supratidal flat (STF) is seldom inundated."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Supratidal flat"@en ;
+  rdfs:seeAlso lf:landform-element-TDF ;
+  skos:definition "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. a supratidal flat (STF) is seldom inundated."@en ;
+  skos:notation "STF" ;
+  skos:prefLabel "Supratidal flat"@en ;
+.
+lf:landform-element-SUS
+  a skos:Concept ;
+  dct:description "very wide, level to gently inclined crest with abrupt margins, commonly eroded by water-aided mass movement or sheet wash."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Summit surface"@en ;
+  skos:definition "very wide, level to gently inclined crest with abrupt margins, commonly eroded by water-aided mass movement or sheet wash."@en ;
+  skos:notation "SUS" ;
+  skos:prefLabel "Summit surface"@en ;
+.
+lf:landform-element-SWL
+  a skos:Concept ;
+  dct:description "(i) linear, level-floored open depression excavated by wind, or left relict between ridges built up by wind or waves, or built up to a lesser height than them. (ii) long, curved open or closed depression left relict between scrolls built up by channelled stream flow."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Swale"@en ;
+  skos:definition "(i) linear, level-floored open depression excavated by wind, or left relict between ridges built up by wind or waves, or built up to a lesser height than them. (ii) long, curved open or closed depression left relict between scrolls built up by channelled stream flow."@en ;
+  skos:notation "SWL" ;
+  skos:prefLabel "Swale"@en ;
 .
 lf:landform-element-SWP
   a skos:Concept ;
@@ -329,6 +909,89 @@ lf:landform-element-SWP
   skos:definition "almost level, closed or almost closed depression with a seasonal or permanent watertable at or above the surface, commonly aggraded by overbank stream flow and sometimes biological (peat) accumulation."@en ;
   skos:notation "SWP" ;
   skos:prefLabel "Swamp"@en ;
+.
+lf:landform-element-TAL
+  a skos:Concept ;
+  dct:description "moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Talus"@en ;
+  skos:definition "moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity."@en ;
+  skos:notation "TAL" ;
+  skos:prefLabel "Talus"@en ;
+.
+lf:landform-element-TDC
+  a skos:Concept ;
+  dct:description "intermittently water-filled open depression in parts eroded, excavated, built up and aggraded by channelled tide-water flow; type of stream channel characterised by a rapid increase in width downstream."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Tidal creek"@en ;
+  skos:definition "intermittently water-filled open depression in parts eroded, excavated, built up and aggraded by channelled tide-water flow; type of stream channel characterised by a rapid increase in width downstream."@en ;
+  skos:notation "TDC" ;
+  skos:prefLabel "Tidal creek"@en ;
+.
+lf:landform-element-TDF
+  a skos:Concept ;
+  dct:description "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated; a supratidal flat (STF) is seldom inundated."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Tidal flat"@en ;
+  rdfs:seeAlso lf:landform-element-ITF ;
+  rdfs:seeAlso lf:landform-element-STF ;
+  skos:definition "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated; a supratidal flat (STF) is seldom inundated."@en ;
+  skos:notation "TDF" ;
+  skos:prefLabel "Tidal flat"@en ;
+.
+lf:landform-element-TEF
+  a skos:Concept ;
+  dct:description "small flat aggraded or eroded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; a former valley flat or part of a former flood plain."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Terrace flat"@en ;
+  skos:definition "small flat aggraded or eroded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; a former valley flat or part of a former flood plain."@en ;
+  skos:notation "TEF" ;
+  skos:prefLabel "Terrace flat"@en ;
+.
+lf:landform-element-TEP
+  a skos:Concept ;
+  dct:description "large or very large flat aggraded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; part of a former flood plain."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Terrace plain"@en ;
+  skos:definition "large or very large flat aggraded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; part of a former flood plain."@en ;
+  skos:notation "TEP" ;
+  skos:prefLabel "Terrace plain"@en ;
+.
+lf:landform-element-TOR
+  a skos:Concept ;
+  dct:description "steep to precipitous hillock, typically convex, with a surface mainly of bare rock, either coherent or comprising subangular to rounded, large boulders (exhumed core-stones, also themselves called tors) separated by open fissures; eroded by sheet wash or water-aided mass movement."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Tor"@en ;
+  skos:definition "steep to precipitous hillock, typically convex, with a surface mainly of bare rock, either coherent or comprising subangular to rounded, large boulders (exhumed core-stones, also themselves called tors) separated by open fissures; eroded by sheet wash or water-aided mass movement."@en ;
+  skos:notation "TOR" ;
+  skos:prefLabel "Tor"@en ;
+.
+lf:landform-element-TRE
+  a skos:Concept ;
+  dct:description "open depression excavated by human activity."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Trench"@en ;
+  skos:definition "open depression excavated by human activity."@en ;
+  skos:notation "TRE" ;
+  skos:prefLabel "Trench"@en ;
+.
+lf:landform-element-TUM
+  a skos:Concept ;
+  dct:description "hillock heaved up by volcanism (or, elsewhere, built up by human activity at a burial site)."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Tumulus"@en ;
+  skos:definition "hillock heaved up by volcanism (or, elsewhere, built up by human activity at a burial site)."@en ;
+  skos:notation "TUM" ;
+  skos:prefLabel "Tumulus"@en ;
+.
+lf:landform-element-VLF
+  a skos:Concept ;
+  dct:description "small, gently inclined to level flat, aggraded or sometimes eroded by channelled or over-bank stream flow, typically enclosed by hillslopes; a miniature alluvial plain landform pattern."@en ;
+  ui:isMemberOf lf:landform-element-glossary ;
+  rdfs:label "Valley flat"@en ;
+  skos:definition "small, gently inclined to level flat, aggraded or sometimes eroded by channelled or over-bank stream flow, typically enclosed by hillslopes; a miniature alluvial plain landform pattern."@en ;
+  skos:notation "VLF" ;
+  skos:prefLabel "Valley flat"@en ;
 .
 lf:landform-element-descriptions
   a skos:Collection ;
@@ -345,12 +1008,85 @@ lf:landform-element-descriptions
 lf:landform-element-glossary
   a skos:Collection ;
   rdfs:label "Glossary of landform elements" ;
+  skos:member lf:landform-element-ALC ;
+  skos:member lf:landform-element-BAN ;
   skos:member lf:landform-element-BAR ;
+  skos:member lf:landform-element-BEA ;
+  skos:member lf:landform-element-BEN ;
+  skos:member lf:landform-element-BER ;
   skos:member lf:landform-element-BKP ;
+  skos:member lf:landform-element-BOU ;
+  skos:member lf:landform-element-BRI ;
+  skos:member lf:landform-element-BRK ;
+  skos:member lf:landform-element-CBE ;
+  skos:member lf:landform-element-CFS ;
+  skos:member lf:landform-element-CIR ;
+  skos:member lf:landform-element-CLI ;
+  skos:member lf:landform-element-CON ;
+  skos:member lf:landform-element-COS ;
+  skos:member lf:landform-element-CUT ;
+  skos:member lf:landform-element-DAM ;
+  skos:member lf:landform-element-DBA ;
+  skos:member lf:landform-element-DDE ;
+  skos:member lf:landform-element-DOC ;
+  skos:member lf:landform-element-DOL ;
+  skos:member lf:landform-element-DUB ;
+  skos:member lf:landform-element-DUC ;
+  skos:member lf:landform-element-DUF ;
+  skos:member lf:landform-element-DUH ;
+  skos:member lf:landform-element-DUN ;
+  skos:member lf:landform-element-DUP ;
+  skos:member lf:landform-element-DUS ;
+  skos:member lf:landform-element-EMB ;
+  skos:member lf:landform-element-EST ;
+  skos:member lf:landform-element-FAN ;
+  skos:member lf:landform-element-FIL ;
+  skos:member lf:landform-element-FLD ;
+  skos:member lf:landform-element-FOO ;
+  skos:member lf:landform-element-FOR ;
+  skos:member lf:landform-element-GUL ;
+  skos:member lf:landform-element-HCR ;
+  skos:member lf:landform-element-HSL ;
+  skos:member lf:landform-element-ITF ;
+  skos:member lf:landform-element-LAG ;
+  skos:member lf:landform-element-LAK ;
+  skos:member lf:landform-element-LDS ;
+  skos:member lf:landform-element-LEV ;
+  skos:member lf:landform-element-LUN ;
+  skos:member lf:landform-element-MAA ;
+  skos:member lf:landform-element-MOU ;
+  skos:member lf:landform-element-OXB ;
+  skos:member lf:landform-element-PED ;
+  skos:member lf:landform-element-PIT ;
   skos:member lf:landform-element-PLA ;
+  skos:member lf:landform-element-PLY ;
+  skos:member lf:landform-element-PST ;
+  skos:member lf:landform-element-REC ;
+  skos:member lf:landform-element-REF ;
+  skos:member lf:landform-element-RER ;
+  skos:member lf:landform-element-RES ;
+  skos:member lf:landform-element-RFL ;
+  skos:member lf:landform-element-RPL ;
+  skos:member lf:landform-element-SCA ;
+  skos:member lf:landform-element-SCD ;
   skos:member lf:landform-element-SCR ;
+  skos:member lf:landform-element-SFS ;
+  skos:member lf:landform-element-SRP ;
+  skos:member lf:landform-element-STB ;
   skos:member lf:landform-element-STC ;
+  skos:member lf:landform-element-STF ;
+  skos:member lf:landform-element-SUS ;
+  skos:member lf:landform-element-SWL ;
   skos:member lf:landform-element-SWP ;
+  skos:member lf:landform-element-TAL ;
+  skos:member lf:landform-element-TDC ;
+  skos:member lf:landform-element-TDF ;
+  skos:member lf:landform-element-TEF ;
+  skos:member lf:landform-element-TEP ;
+  skos:member lf:landform-element-TOR ;
+  skos:member lf:landform-element-TRE ;
+  skos:member lf:landform-element-TUM ;
+  skos:member lf:landform-element-VLF ;
 .
 lf:landform-genesis
   a skos:Collection ;
@@ -374,23 +1110,32 @@ lf:landform-pattern-ALP
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Alluvial plain"@en ;
   skos:definition "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
-  skos:member lf:landform-pattern-ALP-common ;
-  skos:member lf:landform-pattern-ALP-typical ;
+  skos:member lf:landform-pattern-ALP-common-elements ;
+  skos:member lf:landform-pattern-ALP-typical-elements ;
   skos:notation "ALP" ;
   skos:prefLabel "Alluvial plain"@en ;
 .
-lf:landform-pattern-ALP-common
+lf:landform-pattern-ALP-common-elements
   a skos:Collection ;
   rdfs:label "Typical elements of an Alluvial plain." ;
   skos:member lf:landform-element-BAR ;
   skos:member lf:landform-element-BKP ;
+  skos:member lf:landform-element-LEV ;
   skos:member lf:landform-element-SCR ;
   skos:member lf:landform-element-SWP ;
 .
-lf:landform-pattern-ALP-typical
+lf:landform-pattern-ALP-occasional-elements
+  a skos:Collection ;
+  rdfs:label "Typical elements of an Alluvial plain." ;
+  skos:member lf:landform-element-FLD ;
+  skos:member lf:landform-element-LAK ;
+  skos:member lf:landform-element-OXB ;
+.
+lf:landform-pattern-ALP-typical-elements
   a skos:Collection ;
   rdfs:label "Typical elements of an Alluvial plain." ;
   skos:member lf:landform-element-PLA ;
+  skos:member lf:landform-element-STB ;
   skos:member lf:landform-element-STC ;
 .
 lf:landform-pattern-descriptions
