@@ -1104,14 +1104,13 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:prefLabel "Landform genesis" ;
 .
 lf:landform-pattern-ALF
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Alluvial fan"@en ;
+  rdfs:seeAlso lf:landform-pattern-ALF-common-elements ;
+  rdfs:seeAlso lf:landform-pattern-ALF-typical-elements ;
   skos:definition "level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps."@en ;
-  skos:member lf:landform-pattern-ALF-common-elements ;
-  skos:member lf:landform-pattern-ALF-typical-elements ;
   skos:notation "ALF" ;
   skos:prefLabel "Alluvial fan"@en ;
 .
@@ -1128,15 +1127,14 @@ lf:landform-pattern-ALF-typical-elements
   skos:member lf:landform-element-STB ;
 .
 lf:landform-pattern-ALP
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Alluvial plain"@en ;
+  rdfs:seeAlso lf:landform-pattern-ALP-common-elements ;
+  rdfs:seeAlso lf:landform-pattern-ALP-occasional-elements ;
+  rdfs:seeAlso lf:landform-pattern-ALP-typical-elements ;
   skos:definition "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
-  skos:member lf:landform-pattern-ALP-common-elements ;
-  skos:member lf:landform-pattern-ALP-occasional-elements ;
-  skos:member lf:landform-pattern-ALP-typical-elements ;
   skos:notation "ALP" ;
   skos:prefLabel "Alluvial plain"@en ;
 .
@@ -1164,7 +1162,6 @@ lf:landform-pattern-ALP-typical-elements
   skos:member lf:landform-element-STC ;
 .
 lf:landform-pattern-ANA
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1174,7 +1171,6 @@ lf:landform-pattern-ANA
   skos:prefLabel "Anastomotic plain"@en ;
 .
 lf:landform-pattern-BAD
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "landform pattern of low to extremely low relief (less than 90 m) and steep to precipitous slopes, typically with numerous fixed, erosional stream channels which form a non-directional, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1184,7 +1180,6 @@ lf:landform-pattern-BAD
   skos:prefLabel "Badlands"@en ;
 .
 lf:landform-pattern-BAR
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "flood plain with numerous rapidly migrating, shallow alluvial channels forming a unidirectional, integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow. (Described by Melton 1936.)"@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1194,7 +1189,6 @@ lf:landform-pattern-BAR
   skos:prefLabel "Bar plain"@en ;
 .
 lf:landform-pattern-BEA
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level to gently undulating landform pattern of extremely low relief on which stream channels are absent or very rare; it consists of relict, parallel beach ridges."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1204,7 +1198,6 @@ lf:landform-pattern-BEA
   skos:prefLabel "Beach ridge plain"@en ;
 .
 lf:landform-pattern-CAL
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1214,7 +1207,6 @@ lf:landform-pattern-CAL
   skos:prefLabel "Caldera"@en ;
 .
 lf:landform-pattern-CHE
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict, parallel, linear ridges built up by waves, separated by, and built over, flats (mud flats) aggraded by tides or over-bank stream flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1224,7 +1216,6 @@ lf:landform-pattern-CHE
   skos:prefLabel "Chenier plain"@en ;
 .
 lf:landform-pattern-COR
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "continuously active or relict landform pattern built up to the sea level of the present day or of a former time by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below the sea level. Stream channels are generally absent, but there may occasionally be fixed, deep, erosional tidal stream channels forming a disintegrated non-tributary pattern."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1234,7 +1225,6 @@ lf:landform-pattern-COR
   skos:prefLabel "Coral reef"@en ;
 .
 lf:landform-pattern-COV
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "flood plain with slowly migrating, deep alluvial channels, usually widely spaced and forming a unidirectional, integrated non-tributary network. There is frequently active aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1244,7 +1234,6 @@ lf:landform-pattern-COV
   skos:prefLabel "Covered plain"@en ;
 .
 lf:landform-pattern-DEL
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "flood plain projecting into a sea or lake, with slowly migrating, deep alluvial channels, usually moderately spaced, typically forming a divergent, integrated distributary network. This landform is aggraded by frequently active over-bank and channelled stream flow that is modified by tides."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1254,7 +1243,6 @@ lf:landform-pattern-DEL
   skos:prefLabel "Delta"@en ;
 .
 lf:landform-pattern-DUN
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level to rolling landform pattern of very low or extremely low relief without stream channels, built up or locally excavated, eroded or aggraded by wind."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1264,7 +1252,6 @@ lf:landform-pattern-DUN
   skos:prefLabel "Dunefield"@en ;
 .
 lf:landform-pattern-ESC
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "steep to precipitous landform pattern forming a linearly extensive, straight or sinuous, inclined surface, which separates terrains at different altitudes; a plateau is commonly above the escarpment. Relief within the landform pattern may be high (hilly) or low (planar). The upper margin is often marked by an included cliff or scarp."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1274,7 +1261,6 @@ lf:landform-pattern-ESC
   skos:prefLabel "Escarpment"@en ;
 .
 lf:landform-pattern-FLO
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "alluvial plain characterised by frequently active erosion and aggradation by channelled or over-bank stream flow. Unless otherwise specified, ‘frequently active’ is to mean that flow has an Average Recurrence Interval of 50 years or less."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1284,7 +1270,6 @@ lf:landform-pattern-FLO
   skos:prefLabel "Food plain"@en ;
 .
 lf:landform-pattern-HIL
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "landform pattern of high relief (90–300 m) with gently inclined to precipitous slopes. Fixed, shallow, erosional stream channels, closely to very widely spaced, form a non-directional or convergent, integrated tributary network. There is continuously active erosion by wash and creep and, in some cases, rarely active erosion by landslides."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1294,7 +1279,6 @@ lf:landform-pattern-HIL
   skos:prefLabel "Hills"@en ;
 .
 lf:landform-pattern-KAR
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "landform pattern of unspecified relief and slope (for specification use the terms in Table 4, for example ‘Karst rolling hills’) typically with fixed, deep, erosional stream channels forming a non-directional, disintegrated tributary pattern and many closed depressions without stream channels. It is eroded by continuously active solution and rarely active collapse, the products being removed through underground channels."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1304,7 +1288,6 @@ lf:landform-pattern-KAR
   skos:prefLabel "Karst"@en ;
 .
 lf:landform-pattern-LAC
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level landform pattern with extremely low relief formerly occupied by a lake but now partly or completely dry. It is relict after aggradation by waves and by deposition of material from suspension and solution in standing water. The pattern is usually bounded by wave-formed features such as cliffs, rock platforms, beaches, berms and lunettes. These may be included or excluded."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1314,7 +1297,6 @@ lf:landform-pattern-LAC
   skos:prefLabel "Lacustrine plain"@en ;
 .
 lf:landform-pattern-LAV
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level to undulating landform pattern of very low to extremely low relief typically with widely spaced, fixed, erosional stream channels that form a non-directional, integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep, and channelled stream flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1324,7 +1306,6 @@ lf:landform-pattern-LAV
   skos:prefLabel "Lava plain"@en ;
 .
 lf:landform-pattern-LON
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "dunefield characterised by long, narrow sand dunes and wide, flat swales. The dunes are oriented parallel with the direction of the prevailing wind, and in cross-section one slope is typically steeper than the other."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1334,7 +1315,6 @@ lf:landform-pattern-LON
   skos:prefLabel "Longitudinal dunefield"@en ;
 .
 lf:landform-pattern-LOW
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "landform pattern of low relief (30–90 m) and gentle to very steep slopes, typically with fixed, erosional stream channels, closely to very widely spaced, which form a non-directional or convergent, integrated tributary pattern. There is continuously active sheet flow, creep, and channelled stream flow. "@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1344,7 +1324,6 @@ lf:landform-pattern-LOW
   skos:prefLabel "Low hills"@en ;
 .
 lf:landform-pattern-MAD
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "landform pattern typically of very low or extremely low relief and with slopes either level or very steep. Sparse, fixed, deep, artificial stream channels form a non-directional, interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1354,7 +1333,6 @@ lf:landform-pattern-MAD
   skos:prefLabel "Made land"@en ;
 .
 lf:landform-pattern-MAR
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1364,7 +1342,6 @@ lf:landform-pattern-MAR
   skos:prefLabel "Marine plain"@en ;
 .
 lf:landform-pattern-MEA
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "flood plain with widely spaced, rapidly migrating, moderately deep alluvial stream channels which form a unidirectional, integrated non-tributary network. There is frequently active aggradation and erosion by channelled stream flow with subordinate aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1374,7 +1351,6 @@ lf:landform-pattern-MEA
   skos:prefLabel "Meander plain"@en ;
 .
 lf:landform-pattern-MET
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "rare landform pattern comprising a circular closed depression (see crater landform element) with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and is now relict."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1384,7 +1360,6 @@ lf:landform-pattern-MET
   skos:prefLabel "Meteor crater"@en ;
 .
 lf:landform-pattern-MOU
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "landform pattern of very high relief (greater than 300 m) with moderate to precipitous slopes and fixed, erosional stream channels that are closely to very widely spaced and form a non-directional or diverging, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep, and channelled stream flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1394,7 +1369,6 @@ lf:landform-pattern-MOU
   skos:prefLabel "Mountains"@en ;
 .
 lf:landform-pattern-PAR
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "dunefield characterised by sand dunes with a long, scoop-shaped form, convex in the downwind direction so that its trailing arms point upwind; the ground plan, when developed, approximates the form of a parabola. Where many parabolic dunes have been active, the trailing arms give the impression of a longitudinal dunefield."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1404,7 +1378,6 @@ lf:landform-pattern-PAR
   skos:prefLabel "Parabolic dunefield"@en ;
 .
 lf:landform-pattern-PED
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1414,7 +1387,6 @@ lf:landform-pattern-PED
   skos:prefLabel "Pediment"@en ;
 .
 lf:landform-pattern-PEP
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. (Described by King 1953.)"@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1424,7 +1396,6 @@ lf:landform-pattern-PEP
   skos:prefLabel "Pediplain"@en ;
 .
 lf:landform-pattern-PLA
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level to undulating or, rarely, rolling landform pattern of extremely low relief (less than 9 m)."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1434,7 +1405,6 @@ lf:landform-pattern-PLA
   skos:prefLabel "Plain"@en ;
 .
 lf:landform-pattern-PLT
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level to rolling landform pattern of plains, rises or low hills standing above a cliff, scarp or escarpment that extends around a large part of its perimeter. A bounding scarp or cliff landform element may be included or excluded; a bounding escarpment would be an adjacent landform pattern."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1444,7 +1414,6 @@ lf:landform-pattern-PLT
   skos:prefLabel "Plateau"@en ;
 .
 lf:landform-pattern-PLY
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves, and soil phenomena."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1454,7 +1423,6 @@ lf:landform-pattern-PLY
   skos:prefLabel "Playa plain"@en ;
 .
 lf:landform-pattern-PNP
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level to gently undulating landform pattern with extremely low relief and sparse, slowly migrating alluvial stream channels which form a non-directional, integrated tributary pattern. It is eroded by barely active sheet flow, creep, and channelled and over-bank stream flow. (Described by Davis 1889.)"@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1464,7 +1432,6 @@ lf:landform-pattern-PNP
   skos:prefLabel "Peneplain"@en ;
 .
 lf:landform-pattern-RIS
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "landform pattern of very low relief (9–30 m) and very gentle to steep slopes. The fixed, erosional stream channels are closely to very widely spaced and form a non-directional to convergent, integrated or interrupted tributary pattern. The pattern is eroded by continuously active to barely active creep and sheet flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1474,7 +1441,6 @@ lf:landform-pattern-RIS
   skos:prefLabel "Rises"@en ;
 .
 lf:landform-pattern-SAN
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level to gently undulating landform pattern of extremely low relief and without channels; formed possibly by sheet flow or stream flow, but now relict and modified by wind action."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1484,7 +1450,6 @@ lf:landform-pattern-SAN
   skos:prefLabel "Sand plain"@en ;
 .
 lf:landform-pattern-SHF
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level (less than 1% slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating, very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. The pattern is aggraded by frequently active sheet flow and channelled stream flow, with subordinate wind erosion."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1494,7 +1459,6 @@ lf:landform-pattern-SHF
   skos:prefLabel "Sheet-flood fan"@en ;
 .
 lf:landform-pattern-STA
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "alluvial plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because of reduced water supply, without apparent incision or channel enlargement that would lower the level of stream action."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1504,7 +1468,6 @@ lf:landform-pattern-STA
   skos:prefLabel "Stagnant alluvial plain"@en ;
 .
 lf:landform-pattern-TEL
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9–90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1514,7 +1477,6 @@ lf:landform-pattern-TEL
   skos:prefLabel "Terraced land (alluvial)"@en ;
 .
 lf:landform-pattern-TER
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "former flood plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that has both a former flood plain and a significant, active flood plain, or that has former flood plains at more than one level, becomes terraced land."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1524,7 +1486,6 @@ lf:landform-pattern-TER
   skos:prefLabel "Terrace (alluvial)"@en ;
 .
 lf:landform-pattern-TID
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
@@ -1534,7 +1495,6 @@ lf:landform-pattern-TID
   skos:prefLabel "Tidal flat"@en ;
 .
 lf:landform-pattern-VOL
-  a skos:Collection ;
   a skos:Concept ;
   dcterms:description "typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal, interrupted tributary pattern. The landform is built up by volcanism, and is modified by erosional agents."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
