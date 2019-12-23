@@ -1094,18 +1094,21 @@ lf:landform-genesis
 To think clearly about the origin of a landform, one should ask two questions: ‘What agent formed it?’ and ‘What was the mode of activity of that agent?’
 Landforms created by different agents, such as wind, creep, and stream flow, may result from the same mode of geomorphological activity: erosion, for example. Those created by the same agent may differ according to whether the mode of activity builds them up or erodes them down.
 """ ;
-  rdfs:label "Landform genesis" ;
+  rdfs:label "Landform genesis"@en ;
   skos:definition """The two following sections on geomorphological modes and agents refer to the inferred genesis of a landform element. This genesis may have spanned thousands of years. Changes, such as erosion and aggradation, that are produced by current land use are separately assessed as attributes of the land surface (pages 92–96).
 To think clearly about the origin of a landform, one should ask two questions: ‘What agent formed it?’ and ‘What was the mode of activity of that agent?’
 Landforms created by different agents, such as wind, creep, and stream flow, may result from the same mode of geomorphological activity: erosion, for example. Those created by the same agent may differ according to whether the mode of activity builds them up or erodes them down.
 """ ;
   skos:member lf:geomorphological-agents ;
   skos:member lf:mode-of-geomorphological-activity ;
-  skos:prefLabel "Landform genesis" ;
+  skos:prefLabel "Landform genesis"@en ;
 .
 lf:landform-pattern-ALF
   a skos:Concept ;
   dcterms:description "level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps."@en ;
+  dcterms:references lf:relief-class-P ;
+  dcterms:references lf:slope-class-LE ;
+  dcterms:references lf:slope-class-VG ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Alluvial fan"@en ;
   rdfs:seeAlso lf:landform-pattern-ALF-common-elements ;
@@ -1510,6 +1513,7 @@ lf:landform-pattern-descriptions
   skos:member lf:modal-slope ;
   skos:member lf:mode-of-geomorphological-activity ;
   skos:member lf:relief ;
+  skos:member lf:stream-channel-occurence ;
 .
 lf:landform-pattern-glossary
   a skos:Collection ;
@@ -2235,4 +2239,425 @@ lf:slope-value
   rdfs:label "Slope %" ;
   skos:definition "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
   skos:prefLabel "Slope %"@en ;
+.
+lf:stream-channel-development
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:description "The degree of development of stream channels."@en ;
+  ui:isMemberOf lf:stream-channel-occurence ;
+  rdfs:label "Stream channel development"@en ;
+  skos:definition "The degree of development of stream channels."@en ;
+  skos:member lf:stream-channel-development-A ;
+  skos:member lf:stream-channel-development-E ;
+  skos:member lf:stream-channel-development-I ;
+  skos:member lf:stream-channel-development-O ;
+  skos:prefLabel "Stream channel development"@en ;
+.
+lf:stream-channel-development-A
+  a skos:Concept ;
+  dcterms:description "continuous linear channels occur, with rather large width and depth; they are essentially constant with downstream distance and are suited to the available flow. Flood plains of vertical or lateral accretion are formed."@en ;
+  ui:isMemberOf lf:stream-channel-development ;
+  rdfs:label "Alluvial"@en ;
+  skos:definition "continuous linear channels occur, with rather large width and depth; they are essentially constant with downstream distance and are suited to the available flow. Flood plains of vertical or lateral accretion are formed."@en ;
+  skos:notation "A" ;
+  skos:prefLabel "Alluvial"@en ;
+.
+lf:stream-channel-development-E
+  a skos:Concept ;
+  dcterms:description "continuous linear channels occur; their width and depth are considerable and display somewhat constant values suited to the available flow. Flood plains are not formed."@en ;
+  ui:isMemberOf lf:stream-channel-development ;
+  rdfs:label "Erosional"@en ;
+  skos:definition "continuous linear channels occur; their width and depth are considerable and display somewhat constant values suited to the available flow. Flood plains are not formed."@en ;
+  skos:notation "E" ;
+  skos:prefLabel "Erosional"@en ;
+.
+lf:stream-channel-development-I
+  a skos:Concept ;
+  dcterms:description "traces of channelled flow are very shallow, narrow and discontinuous."@en ;
+  ui:isMemberOf lf:stream-channel-development ;
+  rdfs:label "Incipient"@en ;
+  skos:definition "traces of channelled flow are very shallow, narrow and discontinuous."@en ;
+  skos:notation "I" ;
+  skos:prefLabel "Incipient"@en ;
+.
+lf:stream-channel-development-O
+  a skos:Concept ;
+  dcterms:description "no traces of channelled flow can be detected."@en ;
+  ui:isMemberOf lf:stream-channel-development ;
+  rdfs:label "Absent"@en ;
+  skos:definition "no traces of channelled flow can be detected."@en ;
+  skos:notation "O" ;
+  skos:prefLabel "Absent"@en ;
+.
+lf:stream-channel-migration
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:description "The presence of relict channel landforms or unvegetated, newly formed channel margins or immovable channel margins may permit an assessment of channel migration."@en ;
+  ui:isMemberOf lf:stream-channel-occurence ;
+  rdfs:label "Stream channel migration"@en ;
+  skos:definition "The presence of relict channel landforms or unvegetated, newly formed channel margins or immovable channel margins may permit an assessment of channel migration."@en ;
+  skos:member lf:stream-channel-migration-F ;
+  skos:member lf:stream-channel-migration-R ;
+  skos:member lf:stream-channel-migration-S ;
+  skos:prefLabel "Stream channel migration"@en ;
+.
+lf:stream-channel-migration-F
+  a skos:Concept ;
+  dcterms:description "Fixed."@en ;
+  ui:isMemberOf lf:stream-channel-migration ;
+  rdfs:label "Fixed"@en ;
+  skos:definition "Fixed."@en ;
+  skos:notation "F" ;
+  skos:prefLabel "Fixed"@en ;
+.
+lf:stream-channel-migration-R
+  a skos:Concept ;
+  dcterms:description "Rapidly migrating."@en ;
+  ui:isMemberOf lf:stream-channel-migration ;
+  rdfs:label "Rapidly migrating"@en ;
+  skos:definition "Rapidly migrating."@en ;
+  skos:notation "R" ;
+  skos:prefLabel "Rapidly migrating"@en ;
+.
+lf:stream-channel-migration-S
+  a skos:Concept ;
+  dcterms:description "Slowly migrating."@en ;
+  ui:isMemberOf lf:stream-channel-migration ;
+  rdfs:label "Slowly migrating"@en ;
+  skos:definition "Slowly migrating."@en ;
+  skos:notation "S" ;
+  skos:prefLabel "Slowly migrating"@en ;
+.
+lf:stream-channel-network-directionality
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:description """<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure4c.jpg\" /></p>
+<p> Figure 4 (b) Channel network directionality. </p>"""@en ;
+  ui:isMemberOf lf:stream-channel-occurence ;
+  rdfs:label "Stream channel network directionality"@en ;
+  skos:definition "This attribute combines two simpler attributes: the degree of lineation, that is, the degree to which the channels tend to align in an organised way; and the degree of convergence or divergence of channels in the downstream direction. The latter is distinct from tributary/distributary behaviour, which refers to the combining and splitting of stream channels, rather than their directionality."@en ;
+  skos:member lf:stream-channel-network-directionality-B ;
+  skos:member lf:stream-channel-network-directionality-C ;
+  skos:member lf:stream-channel-network-directionality-D ;
+  skos:member lf:stream-channel-network-directionality-F ;
+  skos:member lf:stream-channel-network-directionality-N ;
+  skos:member lf:stream-channel-network-directionality-P ;
+  skos:member lf:stream-channel-network-directionality-U ;
+  skos:prefLabel "Stream channel network directionality"@en ;
+.
+lf:stream-channel-network-directionality-B
+  a skos:Concept ;
+  dcterms:description "two lineations (for example ‘trellis’)" ;
+  ui:isMemberOf lf:stream-channel-network-directionality ;
+  rdfs:label "Bidirectional"@en ;
+  skos:definition "two lineations (for example ‘trellis’)" ;
+  skos:notation "B" ;
+  skos:prefLabel "Bidirectional"@en ;
+.
+lf:stream-channel-network-directionality-C
+  a skos:Concept ;
+  dcterms:description "maximum convergence between 10º and 90º" ;
+  ui:isMemberOf lf:stream-channel-network-directionality ;
+  rdfs:label "Convergent"@en ;
+  skos:definition "maximum convergence between 10º and 90º" ;
+  skos:notation "C" ;
+  skos:prefLabel "Convergent"@en ;
+.
+lf:stream-channel-network-directionality-D
+  a skos:Concept ;
+  dcterms:description "maximum divergence between 10º and 90º"@en ;
+  ui:isMemberOf lf:stream-channel-network-directionality ;
+  rdfs:label "Divergent"@en ;
+  skos:definition "maximum divergence between 10º and 90º"@en ;
+  skos:notation "D" ;
+  skos:prefLabel "Divergent"@en ;
+.
+lf:stream-channel-network-directionality-F
+  a skos:Concept ;
+  dcterms:description "maximum divergence >90º"@en ;
+  ui:isMemberOf lf:stream-channel-network-directionality ;
+  rdfs:label "Centrifugal"@en ;
+  skos:definition "maximum divergence >90º"@en ;
+  skos:notation "F" ;
+  skos:prefLabel "Centrifugal"@en ;
+.
+lf:stream-channel-network-directionality-N
+  a skos:Concept ;
+  dcterms:description "no significant orientation, convergence or divergence"@en ;
+  ui:isMemberOf lf:stream-channel-network-directionality ;
+  rdfs:label "Non-directional"@en ;
+  skos:definition "no significant orientation, convergence or divergence"@en ;
+  skos:notation "N" ;
+  skos:prefLabel "Non-directional"@en ;
+.
+lf:stream-channel-network-directionality-P
+  a skos:Concept ;
+  dcterms:description "maximum convergence >90º" ;
+  ui:isMemberOf lf:stream-channel-network-directionality ;
+  rdfs:label "Centripetal"@en ;
+  skos:definition "maximum convergence >90º" ;
+  skos:notation "P" ;
+  skos:prefLabel "Centripetal"@en ;
+.
+lf:stream-channel-network-directionality-U
+  a skos:Concept ;
+  dcterms:description "convergence or divergence <10º"@en ;
+  ui:isMemberOf lf:stream-channel-network-directionality ;
+  rdfs:label "Unidirectional"@en ;
+  skos:definition "convergence or divergence <10º"@en ;
+  skos:notation "U" ;
+  skos:prefLabel "Unidirectional"@en ;
+.
+lf:stream-channel-network-integration
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:description """<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure4b.jpg\" /></p>
+<p> Figure 4 (b) Integration of channel network. </p>"""@en ;
+  ui:isMemberOf lf:stream-channel-occurence ;
+  rdfs:label "Stream channel network integration"@en ;
+  skos:definition "In an integrated channel network, one can traverse from any point on a stream channel to any other point on a stream channel without passing through any landform elements other than stream channels. The channel network may be interrupted at points where water loss into the ground or the atmosphere is sufficiently large, and in the extreme case, typical of karst terrain, the surface stream network is disintegrated. Classes of channel network integration are:"@en ;
+  skos:member lf:stream-channel-network-integration-D ;
+  skos:member lf:stream-channel-network-integration-I ;
+  skos:member lf:stream-channel-network-integration-P ;
+  skos:prefLabel "Stream channel network integration"@en ;
+.
+lf:stream-channel-network-integration-D
+  a skos:Concept ;
+  dcterms:description "Disintegrated"@en ;
+  ui:isMemberOf lf:stream-channel-network-integration ;
+  rdfs:label "Disintegrated"@en ;
+  skos:definition "Disintegrated"@en ;
+  skos:notation "D" ;
+  skos:prefLabel "Disintegrated"@en ;
+.
+lf:stream-channel-network-integration-I
+  a skos:Concept ;
+  dcterms:description "Integrated"@en ;
+  ui:isMemberOf lf:stream-channel-network-integration ;
+  rdfs:label "Integrated"@en ;
+  skos:definition "Integrated"@en ;
+  skos:notation "I" ;
+  skos:prefLabel "Integrated"@en ;
+.
+lf:stream-channel-network-integration-P
+  a skos:Concept ;
+  dcterms:description "Interrupted (partial integration)"@en ;
+  ui:isMemberOf lf:stream-channel-network-integration ;
+  rdfs:label "Interrupted (partial integration)"@en ;
+  skos:definition "Interrupted (partial integration)"@en ;
+  skos:notation "P" ;
+  skos:prefLabel "Interrupted (partial integration)"@en ;
+.
+lf:stream-channel-occurence
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:description """A number of attributes describing the occurrence and pattern of surface stream channels have diagnostic value. Use of the following attributes may clarify the observable differences between landform patterns, particularly in plains where mapping criteria are elusive.
+When assessing attributes of stream channel occurrence, it is easy to make errors by not setting limits to the area to be described. Tentative landform pattern boundaries must be drawn to clarify these limits. Major stream channels are best mapped as wholly within one landform pattern or another, rather than marking a boundary."""@en ;
+  rdfs:label "Stream channel occurence"@en ;
+  skos:definition """A number of attributes describing the occurrence and pattern of surface stream channels have diagnostic value. Use of the following attributes may clarify the observable differences between landform patterns, particularly in plains where mapping criteria are elusive.
+When assessing attributes of stream channel occurrence, it is easy to make errors by not setting limits to the area to be described. Tentative landform pattern boundaries must be drawn to clarify these limits. Major stream channels are best mapped as wholly within one landform pattern or another, rather than marking a boundary."""@en ;
+  skos:member lf:stream-channel-development ;
+  skos:member lf:stream-channel-migration ;
+  skos:member lf:stream-channel-network-directionality ;
+  skos:member lf:stream-channel-network-integration ;
+  skos:member lf:stream-channel-relative-depth-width ;
+  skos:member lf:stream-channel-spacing ;
+  skos:member lf:streamwise-channel-pattern ;
+  skos:prefLabel "Stream channel occurence"@en ;
+.
+lf:stream-channel-relative-depth-width
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:description """Channel depth and width refer to the dimensions of a landform that is dominated by channelled stream flow. The limit of channelled stream flow dominance must be identified before width or depth can be estimated. Depth is taken from the top of the stream bank down to the average height of the line following the deepest part of the channel.
+The distinction between stream bank and hillslope or scarp according to dominant process requires particular care where streams are incised, especially if they are cut into terraces that could be mistaken for flood plains.
+ 
+For detailed studies, keep records of width and depth measurements. In other surveys, use the following classes of relative depth."""@en ;
+  ui:isMemberOf lf:stream-channel-occurence ;
+  rdfs:label "Stream channel depth relative to width"@en ;
+  skos:definition """Channel depth and width refer to the dimensions of a landform that is dominated by channelled stream flow. The limit of channelled stream flow dominance must be identified before width or depth can be estimated. Depth is taken from the top of the stream bank down to the average height of the line following the deepest part of the channel.
+The distinction between stream bank and hillslope or scarp according to dominant process requires particular care where streams are incised, especially if they are cut into terraces that could be mistaken for flood plains.
+ 
+For detailed studies, keep records of width and depth measurements. In other surveys, use the following classes of relative depth."""@en ;
+  skos:member lf:stream-channel-relative-depth-width-D ;
+  skos:member lf:stream-channel-relative-depth-width-M ;
+  skos:member lf:stream-channel-relative-depth-width-S ;
+  skos:member lf:stream-channel-relative-depth-width-V ;
+  skos:prefLabel "Stream channel depth relative to width"@en ;
+.
+lf:stream-channel-relative-depth-width-D
+  a skos:Concept ;
+  dcterms:description "width/depth ratio <20:1"@en ;
+  ui:isMemberOf lf:stream-channel-relative-depth-width ;
+  rdfs:label "Deep"@en ;
+  skos:definition "width/depth ratio <20:1"@en ;
+  skos:notation "D" ;
+  skos:prefLabel "Deep"@en ;
+.
+lf:stream-channel-relative-depth-width-M
+  a skos:Concept ;
+  dcterms:description "width/depth ratio 20:1 to 50:1"@en ;
+  ui:isMemberOf lf:stream-channel-relative-depth-width ;
+  rdfs:label "Moderately deep"@en ;
+  skos:definition "width/depth ratio 20:1 to 50:1"@en ;
+  skos:notation "M" ;
+  skos:prefLabel "Moderately deep"@en ;
+.
+lf:stream-channel-relative-depth-width-S
+  a skos:Concept ;
+  dcterms:description "width/depth ratio 50:1 to 150:1"@en ;
+  ui:isMemberOf lf:stream-channel-relative-depth-width ;
+  rdfs:label "Shallow"@en ;
+  skos:definition "width/depth ratio 50:1 to 150:1"@en ;
+  skos:notation "S" ;
+  skos:prefLabel "Shallow"@en ;
+.
+lf:stream-channel-relative-depth-width-V
+  a skos:Concept ;
+  dcterms:description "width/depth ratio >150:1"@en ;
+  ui:isMemberOf lf:stream-channel-relative-depth-width ;
+  rdfs:label "Very shallow"@en ;
+  skos:definition "width/depth ratio >150:1"@en ;
+  skos:notation "V" ;
+  skos:prefLabel "Very shallow"@en ;
+.
+lf:stream-channel-spacing
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:description """The average spacing of stream channels, L/N, is determined by counting the number, N, of their intersections with an arbitrary line of length L.*
+A convenient tool for estimating channel spacing is a circle, with a circumference of 2 km at map or photo scale, drawn on transparent material."""@en ;
+  ui:isMemberOf lf:stream-channel-occurence ;
+  rdfs:label "Stream channel spacing"@en ;
+  skos:definition """The average spacing of stream channels, L/N, is determined by counting the number, N, of their intersections with an arbitrary line of length L.*
+A convenient tool for estimating channel spacing is a circle, with a circumference of 2 km at map or photo scale, drawn on transparent material."""@en ;
+  skos:member lf:stream-channel-spacing-AB ;
+  skos:member lf:stream-channel-spacing-CS ;
+  skos:member lf:stream-channel-spacing-MS ;
+  skos:member lf:stream-channel-spacing-NU ;
+  skos:member lf:stream-channel-spacing-SP ;
+  skos:member lf:stream-channel-spacing-VC ;
+  skos:member lf:stream-channel-spacing-VW ;
+  skos:member lf:stream-channel-spacing-WS ;
+  skos:prefLabel "Stream channel spacing"@en ;
+.
+lf:stream-channel-spacing-AB
+  a skos:Concept ;
+  dcterms:description ">2500 m"@en ;
+  ui:isMemberOf lf:stream-channel-spacing ;
+  rdfs:label "Absent or very rare"@en ;
+  skos:definition ">2500 m"@en ;
+  skos:notation "AB" ;
+  skos:prefLabel "Absent or very rare"@en ;
+.
+lf:stream-channel-spacing-CS
+  a skos:Concept ;
+  dcterms:description "250-400 m"@en ;
+  ui:isMemberOf lf:stream-channel-spacing ;
+  rdfs:label "Closely spaced"@en ;
+  skos:definition "250-400 m"@en ;
+  skos:notation "CS" ;
+  skos:prefLabel "Closely spaced"@en ;
+.
+lf:stream-channel-spacing-MS
+  a skos:Concept ;
+  dcterms:description "400-625 m"@en ;
+  ui:isMemberOf lf:stream-channel-spacing ;
+  rdfs:label "Moderately spaced"@en ;
+  skos:definition "400-625 m"@en ;
+  skos:notation "MS" ;
+  skos:prefLabel "Moderately spaced"@en ;
+.
+lf:stream-channel-spacing-NU
+  a skos:Concept ;
+  dcterms:description "<158 m"@en ;
+  ui:isMemberOf lf:stream-channel-spacing ;
+  rdfs:label "Numerous"@en ;
+  skos:definition "<158 m"@en ;
+  skos:notation "NU" ;
+  skos:prefLabel "Numerous"@en ;
+.
+lf:stream-channel-spacing-SP
+  a skos:Concept ;
+  dcterms:description "1585-2500 m"@en ;
+  ui:isMemberOf lf:stream-channel-spacing ;
+  rdfs:label "Sparse"@en ;
+  skos:definition "1585-2500 m"@en ;
+  skos:notation "SP" ;
+  skos:prefLabel "Sparse"@en ;
+.
+lf:stream-channel-spacing-VC
+  a skos:Concept ;
+  dcterms:description "158-250 m"@en ;
+  ui:isMemberOf lf:stream-channel-spacing ;
+  rdfs:label "Very closely spaced"@en ;
+  skos:definition "158-250 m"@en ;
+  skos:notation "VC" ;
+  skos:prefLabel "Very closely spaced"@en ;
+.
+lf:stream-channel-spacing-VW
+  a skos:Concept ;
+  dcterms:description "1000 - 1585 m"@en ;
+  ui:isMemberOf lf:stream-channel-spacing ;
+  rdfs:label "Very widely spaced"@en ;
+  skos:definition "1000 - 1585 m"@en ;
+  skos:notation "VW" ;
+  skos:prefLabel "Very widely spaced"@en ;
+.
+lf:stream-channel-spacing-WS
+  a skos:Concept ;
+  dcterms:description "625-1000 m"@en ;
+  ui:isMemberOf lf:stream-channel-spacing ;
+  rdfs:label "Widely spaced"@en ;
+  skos:definition "625-1000 m"@en ;
+  skos:notation "WS" ;
+  skos:prefLabel "Widely spaced"@en ;
+.
+lf:streamwise-channel-pattern
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:description """<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure4a.jpg\" /></p>
+<p> Figure 4 (a) Stream-wise channel patterns. </p>"""@en ;
+  ui:isMemberOf lf:stream-channel-occurence ;
+  rdfs:label "Stream-wise channel pattern"@en ;
+  skos:definition "In a traverse downstream, it may happen that tributaries enter the stream at frequent intervals, or that the stream splits into distributaries, or that these tendencies are absent (the non-tributary case) or are in balance with each other (the braided or anastomotic case called here reticulated) giving four classes of stream-wise channel pattern."@en ;
+  skos:member lf:streamwise-channel-pattern-D ;
+  skos:member lf:streamwise-channel-pattern-N ;
+  skos:member lf:streamwise-channel-pattern-R ;
+  skos:member lf:streamwise-channel-pattern-T ;
+  skos:prefLabel "Stream-wise channel pattern"@en ;
+.
+lf:streamwise-channel-pattern-D
+  a skos:Concept ;
+  dcterms:description "Distributary"@en ;
+  ui:isMemberOf lf:streamwise-channel-pattern ;
+  rdfs:label "Distributary"@en ;
+  skos:definition "Distributary"@en ;
+  skos:notation "D" ;
+  skos:prefLabel "Distributary"@en ;
+.
+lf:streamwise-channel-pattern-N
+  a skos:Concept ;
+  dcterms:description "Non-tributary"@en ;
+  ui:isMemberOf lf:streamwise-channel-pattern ;
+  rdfs:label "Non-tributary"@en ;
+  skos:definition "Non-tributary"@en ;
+  skos:notation "N" ;
+  skos:prefLabel "Non-tributary"@en ;
+.
+lf:streamwise-channel-pattern-R
+  a skos:Concept ;
+  dcterms:description "Reticulated"@en ;
+  ui:isMemberOf lf:streamwise-channel-pattern ;
+  rdfs:label "Reticulated"@en ;
+  skos:definition "Reticulated"@en ;
+  skos:notation "R" ;
+  skos:prefLabel "Reticulated"@en ;
+.
+lf:streamwise-channel-pattern-T
+  a skos:Concept ;
+  dcterms:description "Tributary"@en ;
+  ui:isMemberOf lf:streamwise-channel-pattern ;
+  rdfs:label "Tributary"@en ;
+  skos:definition "Tributary"@en ;
+  skos:notation "T" ;
+  skos:prefLabel "Tributary"@en ;
 .
