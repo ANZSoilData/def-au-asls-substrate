@@ -6,7 +6,7 @@
 
 @prefix asls: <http://anzsoil.org/def/au/asls/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix lf: <http://anzsoil.org/def/au/asls/landform/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -19,17 +19,17 @@
 
 asls:landform
   a owl:Ontology ;
-  dct:contributor <https://orcid.org/0000-0002-0693-1899> ;
-  dct:contributor <https://orcid.org/0000-0002-3884-3420> ;
-  dct:created "2018-01-16"^^xsd:date ;
-  dct:creator <mailto:asris@csiro.au> ;
-  dct:description """<p>This register contains a machine-readable representation of the classifiers described in chapter 5 <i>Landform</i>, by J.G. Speight, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a>.</p>
+  dcterms:contributor <https://orcid.org/0000-0002-0693-1899> ;
+  dcterms:contributor <https://orcid.org/0000-0002-3884-3420> ;
+  dcterms:created "2018-01-16"^^xsd:date ;
+  dcterms:creator <mailto:asris@csiro.au> ;
+  dcterms:description """<p>This register contains a machine-readable representation of the classifiers described in chapter 5 <i>Landform</i>, by J.G. Speight, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a>.</p>
 <p>In this technique for describing landforms, the whole land surface is viewed as a mosaic of tiles of odd shapes and sizes. The scheme is intended to produce a record of observations rather than inferences.</p>"""^^rdf:HTML ;
-  dct:license <http://creativecommons.org/licences/by/4.0> ;
-  dct:modified "2019-01-16"^^xsd:date ;
-  dct:publisher <http://www.publish.csiro.au/> ;
-  dct:rights "copyright CSIRO 2009, 2016, 2018. All rights reserved." ;
-  dct:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)" ;
+  dcterms:license <http://creativecommons.org/licences/by/4.0> ;
+  dcterms:modified "2019-01-16"^^xsd:date ;
+  dcterms:publisher <http://www.publish.csiro.au/> ;
+  dcterms:rights "copyright CSIRO 2009, 2016, 2018. All rights reserved." ;
+  dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)" ;
   reg:notation "landform" ;
   ui:hierarchyChildProperty skos:member ;
   ui:hierarchyRootProperty ui:topMemberOf ;
@@ -43,7 +43,7 @@ asls:landform
 .
 lf:compound-morphological-types
   a skos:Collection ;
-  dct:description "Several types of landform feature have crests and adjoining slopes that are so small that a 20 m radius site would usually include both. Two compound morphological types are distinguished by the relative length of the crest: Hillock and Ridge"@en ;
+  dcterms:description "Several types of landform feature have crests and adjoining slopes that are so small that a 20 m radius site would usually include both. Two compound morphological types are distinguished by the relative length of the crest: Hillock and Ridge"@en ;
   rdfs:label "Compound morphological types"@en ;
   skos:definition "Several types of landform feature have crests and adjoining slopes that are so small that a 20 m radius site would usually include both. Two compound morphological types are distinguished by the relative length of the crest: Hillock and Ridge"@en ;
   skos:member lf:morphological-type-H ;
@@ -53,7 +53,7 @@ lf:compound-morphological-types
 lf:element-dimension-height
   a skos:Concept ;
   a sosa:ObservableProperty ;
-  dct:description "difference in elevation between the upper and lower margins of the element, measured along any slope line. Height can mean quite different things and must be carefully defined. For crests, ridges and hillocks, define the upper margin as the point where the selected slope line coalesces with others to form the ridge line. For depressions, define the lower margin as the point where the selected slope line coalesces with others to form the course line."@en ;
+  dcterms:description "difference in elevation between the upper and lower margins of the element, measured along any slope line. Height can mean quite different things and must be carefully defined. For crests, ridges and hillocks, define the upper margin as the point where the selected slope line coalesces with others to form the ridge line. For depressions, define the lower margin as the point where the selected slope line coalesces with others to form the course line."@en ;
   ui:isMemberOf lf:element-dimensions ;
   rdfs:label "Height of landform element"@en ;
   skos:altLabel "Depth of landform element"@en ;
@@ -63,7 +63,7 @@ lf:element-dimension-height
 lf:element-dimension-length
   a skos:Concept ;
   a sosa:ObservableProperty ;
-  dct:description "horizontal distance between the upper and lower margins of the element, measured down a slope line. For crests, the slope line to be used is the ridge line; for depressions, the course line (see Figure 2a). By this definition, many crests and open depressions become very long."@en ;
+  dcterms:description "horizontal distance between the upper and lower margins of the element, measured down a slope line. For crests, the slope line to be used is the ridge line; for depressions, the course line (see Figure 2a). By this definition, many crests and open depressions become very long."@en ;
   ui:isMemberOf lf:element-dimensions ;
   rdfs:label "Length of landform element"@en ;
   skos:definition "horizontal distance between the upper and lower margins of the element, measured down a slope line. For crests, the slope line to be used is the ridge line; for depressions, the course line (see Figure 2a). By this definition, many crests and open depressions become very long."@en ;
@@ -72,7 +72,7 @@ lf:element-dimension-length
 lf:element-dimension-width
   a skos:Concept ;
   a sosa:ObservableProperty ;
-  dct:description "horizontal distance between the lateral margins of the element, measured perpendicularly to the length."@en ;
+  dcterms:description "horizontal distance between the lateral margins of the element, measured perpendicularly to the length."@en ;
   ui:isMemberOf lf:element-dimensions ;
   rdfs:label "Width of landform element"@en ;
   skos:definition "horizontal distance between the lateral margins of the element, measured perpendicularly to the length."@en ;
@@ -80,7 +80,7 @@ lf:element-dimension-width
 .
 lf:element-dimensions
   a skos:Collection ;
-  dct:description "An occurrence of a landform element extends as far as its attributes remain constant. Its dimensions, which may be much greater than the specified sample area diameter of 40 m, can be significant to land use. Terms referring to dimension appear often in the definitions of landform element types. Three dimensions are distinguished, each to be expressed in metres: Length, Width, Height (or depth)."@en ;
+  dcterms:description "An occurrence of a landform element extends as far as its attributes remain constant. Its dimensions, which may be much greater than the specified sample area diameter of 40 m, can be significant to land use. Terms referring to dimension appear often in the definitions of landform element types. Three dimensions are distinguished, each to be expressed in metres: Length, Width, Height (or depth)."@en ;
   rdfs:label "Dimensions of landform element"@en ;
   skos:definition "An occurrence of a landform element extends as far as its attributes remain constant. Its dimensions, which may be much greater than the specified sample area diameter of 40 m, can be significant to land use. Terms referring to dimension appear often in the definitions of landform element types. Three dimensions are distinguished, each to be expressed in metres: Length, Width, Height (or depth)."@en ;
   skos:member lf:element-dimension-height ;
@@ -90,7 +90,7 @@ lf:element-dimensions
 .
 lf:geomorphological-agent-BI
   a skos:Concept ;
-  dct:description "Non-human biological agents; coral (Biological agents)."@en ;
+  dcterms:description "Non-human biological agents; coral (Biological agents)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Non-human biological agents"@en ;
   skos:definition "Non-human biological agents; coral (Biological agents)."@en ;
@@ -99,7 +99,7 @@ lf:geomorphological-agent-BI
 .
 lf:geomorphological-agent-CH
   a skos:Concept ;
-  dct:description "Channelled stream flow (Stream flow)."@en ;
+  dcterms:description "Channelled stream flow (Stream flow)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Channelled stream flow"@en ;
   skos:definition "Channelled stream flow (Stream flow)."@en ;
@@ -108,7 +108,7 @@ lf:geomorphological-agent-CH
 .
 lf:geomorphological-agent-DI
   a skos:Concept ;
-  dct:description "Diastrophism; earth movements (Internal forces)."@en ;
+  dcterms:description "Diastrophism; earth movements (Internal forces)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Diastrophism"@en ;
   skos:definition "Diastrophism; earth movements (Internal forces)."@en ;
@@ -117,7 +117,7 @@ lf:geomorphological-agent-DI
 .
 lf:geomorphological-agent-EU
   a skos:Concept ;
-  dct:description "Eustasy; changes in sea level (Standing water)."@en ;
+  dcterms:description "Eustasy; changes in sea level (Standing water)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Eustasy"@en ;
   skos:definition "Eustasy; changes in sea level (Standing water)."@en ;
@@ -126,7 +126,7 @@ lf:geomorphological-agent-EU
 .
 lf:geomorphological-agent-FR
   a skos:Concept ;
-  dct:description "Frost (Ice)."@en ;
+  dcterms:description "Frost (Ice)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Frost"@en ;
   skos:definition "Frost (Ice)."@en ;
@@ -135,7 +135,7 @@ lf:geomorphological-agent-FR
 .
 lf:geomorphological-agent-GL
   a skos:Concept ;
-  dct:description "Glacier flow (Ice)."@en ;
+  dcterms:description "Glacier flow (Ice)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Glacier flow"@en ;
   skos:definition "Glacier flow (Ice)."@en ;
@@ -144,7 +144,7 @@ lf:geomorphological-agent-GL
 .
 lf:geomorphological-agent-GR
   a skos:Concept ;
-  dct:description "Collapse, or particle fall."@en ;
+  dcterms:description "Collapse, or particle fall."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Gravity"@en ;
   skos:definition "Collapse, or particle fall."@en ;
@@ -153,7 +153,7 @@ lf:geomorphological-agent-GR
 .
 lf:geomorphological-agent-HU
   a skos:Concept ;
-  dct:description "Human agents (Biological agents)."@en ;
+  dcterms:description "Human agents (Biological agents)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Human agents"@en ;
   skos:definition "Human agents (Biological agents)."@en ;
@@ -162,7 +162,7 @@ lf:geomorphological-agent-HU
 .
 lf:geomorphological-agent-IM
   a skos:Concept ;
-  dct:description "Impact by meteors (Extraterrestrial agents)."@en ;
+  dcterms:description "Impact by meteors (Extraterrestrial agents)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Impact by meteors"@en ;
   skos:definition "Impact by meteors (Extraterrestrial agents)."@en ;
@@ -171,7 +171,7 @@ lf:geomorphological-agent-IM
 .
 lf:geomorphological-agent-OV
   a skos:Concept ;
-  dct:description "Overbank stream flow, unchannelled (Stream flow)."@en ;
+  dcterms:description "Overbank stream flow, unchannelled (Stream flow)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Overbank stream flow, unchannelled"@en ;
   skos:definition "Overbank stream flow, unchannelled (Stream flow)."@en ;
@@ -180,7 +180,7 @@ lf:geomorphological-agent-OV
 .
 lf:geomorphological-agent-SH
   a skos:Concept ;
-  dct:description "Sheet flow, sheet wash, surface wash (Precipitation)."@en ;
+  dcterms:description "Sheet flow, sheet wash, surface wash (Precipitation)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Sheet flow, sheet wash, surface wash"@en ;
   skos:definition "Sheet flow, sheet wash, surface wash (Precipitation)."@en ;
@@ -189,7 +189,7 @@ lf:geomorphological-agent-SH
 .
 lf:geomorphological-agent-SM
   a skos:Concept ;
-  dct:description "Soil moisture status changes; creep (Precipitation)."@en ;
+  dcterms:description "Soil moisture status changes; creep (Precipitation)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Soil moisture status changes"@en ;
   skos:definition "Soil moisture status changes; creep (Precipitation)."@en ;
@@ -198,7 +198,7 @@ lf:geomorphological-agent-SM
 .
 lf:geomorphological-agent-SO
   a skos:Concept ;
-  dct:description "Solution (Precipitation)."@en ;
+  dcterms:description "Solution (Precipitation)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Solution"@en ;
   skos:definition "Solution (Precipitation)."@en ;
@@ -207,7 +207,7 @@ lf:geomorphological-agent-SO
 .
 lf:geomorphological-agent-TI
   a skos:Concept ;
-  dct:description "Tides (Standing water)."@en ;
+  dcterms:description "Tides (Standing water)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Tides"@en ;
   skos:definition "Tides (Standing water)."@en ;
@@ -216,7 +216,7 @@ lf:geomorphological-agent-TI
 .
 lf:geomorphological-agent-VO
   a skos:Concept ;
-  dct:description "Volcanism (Internal forces)."@en ;
+  dcterms:description "Volcanism (Internal forces)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Volcanism"@en ;
   skos:definition "Volcanism (Internal forces)."@en ;
@@ -225,7 +225,7 @@ lf:geomorphological-agent-VO
 .
 lf:geomorphological-agent-WA
   a skos:Concept ;
-  dct:description "Waves (Standing water)."@en ;
+  dcterms:description "Waves (Standing water)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Waves"@en ;
   skos:definition "Waves (Standing water)."@en ;
@@ -234,7 +234,7 @@ lf:geomorphological-agent-WA
 .
 lf:geomorphological-agent-WI
   a skos:Concept ;
-  dct:description "Wind (Wind)."@en ;
+  dcterms:description "Wind (Wind)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Wind"@en ;
   skos:definition "Wind (Wind)."@en ;
@@ -243,7 +243,7 @@ lf:geomorphological-agent-WI
 .
 lf:geomorphological-agent-WM
   a skos:Concept ;
-  dct:description "Water-aided mass movements; landslides (Precipitation)."@en ;
+  dcterms:description "Water-aided mass movements; landslides (Precipitation)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
   rdfs:label "Water-aided mass movements"@en ;
   skos:definition "Water-aided mass movements; landslides (Precipitation)."@en ;
@@ -252,7 +252,7 @@ lf:geomorphological-agent-WM
 .
 lf:geomorphological-agents
   a skos:Collection ;
-  dct:description "Geomorphological agents that play a role in producing distinctive landform elements."@en ;
+  dcterms:description "Geomorphological agents that play a role in producing distinctive landform elements."@en ;
   ui:isMemberOf asls:landform ;
   rdfs:label "Geomorphological agent"@en ;
   skos:definition "Geomorphological agents that play a role in producing distinctive landform elements."@en ;
@@ -278,7 +278,7 @@ lf:geomorphological-agents
 .
 lf:landform-element-ALC
   a skos:Concept ;
-  dct:description "moderately inclined to very steep, short open depression with concave cross-section, eroded by collapse, landslides, creep or surface wash."@en ;
+  dcterms:description "moderately inclined to very steep, short open depression with concave cross-section, eroded by collapse, landslides, creep or surface wash."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Alcove"@en ;
   skos:definition "moderately inclined to very steep, short open depression with concave cross-section, eroded by collapse, landslides, creep or surface wash."@en ;
@@ -287,7 +287,7 @@ lf:landform-element-ALC
 .
 lf:landform-element-BAN
   a skos:Concept ;
-  dct:description "very short, very wide slope, moderately inclined to precipitous, forming the marginal upper parts of a stream channel and resulting from erosion or aggradation by channelled stream flow."@en ;
+  dcterms:description "very short, very wide slope, moderately inclined to precipitous, forming the marginal upper parts of a stream channel and resulting from erosion or aggradation by channelled stream flow."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Bank (stream bank)"@en ;
   skos:definition "very short, very wide slope, moderately inclined to precipitous, forming the marginal upper parts of a stream channel and resulting from erosion or aggradation by channelled stream flow."@en ;
@@ -296,7 +296,7 @@ lf:landform-element-BAN
 .
 lf:landform-element-BAR
   a skos:Concept ;
-  dct:description "elongated, gently to moderately inclined, low ridge built up by channelled stream flow; part of a stream bed."@en ;
+  dcterms:description "elongated, gently to moderately inclined, low ridge built up by channelled stream flow; part of a stream bed."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Bar (stream bar)"@en ;
   skos:definition "elongated, gently to moderately inclined, low ridge built up by channelled stream flow; part of a stream bed."@en ;
@@ -305,7 +305,7 @@ lf:landform-element-BAR
 .
 lf:landform-element-BEA
   a skos:Concept ;
-  dct:description "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
+  dcterms:description "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Beach"@en ;
   skos:definition "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
@@ -314,7 +314,7 @@ lf:landform-element-BEA
 .
 lf:landform-element-BEN
   a skos:Concept ;
-  dct:description "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
+  dcterms:description "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Bench"@en ;
   skos:definition "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
@@ -323,7 +323,7 @@ lf:landform-element-BEN
 .
 lf:landform-element-BER
   a skos:Concept ;
-  dct:description "(i) short, very gently inclined to level minimal mid-slope in an embankment or cut face, eroded or aggraded by human activity. (ii) flat built up by waves above a beach."@en ;
+  dcterms:description "(i) short, very gently inclined to level minimal mid-slope in an embankment or cut face, eroded or aggraded by human activity. (ii) flat built up by waves above a beach."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Berm"@en ;
   skos:definition "(i) short, very gently inclined to level minimal mid-slope in an embankment or cut face, eroded or aggraded by human activity. (ii) flat built up by waves above a beach."@en ;
@@ -332,7 +332,7 @@ lf:landform-element-BER
 .
 lf:landform-element-BKP
   a skos:Concept ;
-  dct:description "large flat resulting from aggregation by overbank stream flow at some distance from the stream channel and in some cases biological (peat) accumulation; often characterised by a high watertable and the presence of swamps or lakes; part of a covered plain landform pattern."@en ;
+  dcterms:description "large flat resulting from aggregation by overbank stream flow at some distance from the stream channel and in some cases biological (peat) accumulation; often characterised by a high watertable and the presence of swamps or lakes; part of a covered plain landform pattern."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Backplain"@en ;
   skos:definition "very long, low, narrow, nearly level, sinuous ridge immediately adjacent to a stream channel, built up by overbank flow. Levees are built, usually in pairs bounding the two sides of a stream channel, at the level reached by frequent floods. This element is part of a covered plain landform pattern. For an artificial levee, use Embankment. See also Prior stream."@en ;
@@ -341,7 +341,7 @@ lf:landform-element-BKP
 .
 lf:landform-element-BOU
   a skos:Concept ;
-  dct:description "usually small, open or closed depression excavated by the wind."@en ;
+  dcterms:description "usually small, open or closed depression excavated by the wind."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Blow-out"@en ;
   skos:definition "usually small, open or closed depression excavated by the wind."@en ;
@@ -350,7 +350,7 @@ lf:landform-element-BOU
 .
 lf:landform-element-BRI
   a skos:Concept ;
-  dct:description "very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach."@en ;
+  dcterms:description "very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Beach ridge"@en ;
   skos:definition "very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach."@en ;
@@ -359,7 +359,7 @@ lf:landform-element-BRI
 .
 lf:landform-element-BRK
   a skos:Concept ;
-  dct:description "steep maximal mid-slope or upper slope, generally comprising both a very short scarp (free face) that is often bare rockland, and a stony scarp-footslope (debris slope); often standing above a pediment."@en ;
+  dcterms:description "steep maximal mid-slope or upper slope, generally comprising both a very short scarp (free face) that is often bare rockland, and a stony scarp-footslope (debris slope); often standing above a pediment."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Breakaway"@en ;
   skos:definition "steep maximal mid-slope or upper slope, generally comprising both a very short scarp (free face) that is often bare rockland, and a stony scarp-footslope (debris slope); often standing above a pediment."@en ;
@@ -368,7 +368,7 @@ lf:landform-element-BRK
 .
 lf:landform-element-CBE
   a skos:Concept ;
-  dct:description "flat at the margin of a stream channel aggraded and in part eroded by over-bank and channelled stream flow; an incipient flood plain. Channel benches have been referred to as 'low terraces', but the term terrace should be restricted to landform patterns above the influence of active stream flow."@en ;
+  dcterms:description "flat at the margin of a stream channel aggraded and in part eroded by over-bank and channelled stream flow; an incipient flood plain. Channel benches have been referred to as 'low terraces', but the term terrace should be restricted to landform patterns above the influence of active stream flow."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Channel bench"@en ;
   skos:definition "flat at the margin of a stream channel aggraded and in part eroded by over-bank and channelled stream flow; an incipient flood plain. Channel benches have been referred to as 'low terraces', but the term terrace should be restricted to landform patterns above the influence of active stream flow."@en ;
@@ -377,7 +377,7 @@ lf:landform-element-CBE
 .
 lf:landform-element-CFS
   a skos:Concept ;
-  dct:description "slope situated below a cliff, with its contours generally parallel to the line of the cliff, eroded by sheet wash or water-aided mass movement, and aggraded locally by collapsed material from above."@en ;
+  dcterms:description "slope situated below a cliff, with its contours generally parallel to the line of the cliff, eroded by sheet wash or water-aided mass movement, and aggraded locally by collapsed material from above."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Cliff-footslope"@en ;
   skos:definition "slope situated below a cliff, with its contours generally parallel to the line of the cliff, eroded by sheet wash or water-aided mass movement, and aggraded locally by collapsed material from above."@en ;
@@ -386,7 +386,7 @@ lf:landform-element-CFS
 .
 lf:landform-element-CIR
   a skos:Concept ;
-  dct:description "precipitous to gently inclined, typically closed depression of concave contour and profile excavated by ice. The closed part of the depression may be shallow, the larger part being an open depression like an alcove."@en ;
+  dcterms:description "precipitous to gently inclined, typically closed depression of concave contour and profile excavated by ice. The closed part of the depression may be shallow, the larger part being an open depression like an alcove."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Cirque"@en ;
   skos:definition "precipitous to gently inclined, typically closed depression of concave contour and profile excavated by ice. The closed part of the depression may be shallow, the larger part being an open depression like an alcove."@en ;
@@ -395,7 +395,7 @@ lf:landform-element-CIR
 .
 lf:landform-element-CLI
   a skos:Concept ;
-  dct:description "very wide, cliffed (greater than 72º) maximal slope usually eroded by gravitational fall as a result of erosion of the base by various agencies; sometimes built up by marine organisms (cf. scarp)."@en ;
+  dcterms:description "very wide, cliffed (greater than 72º) maximal slope usually eroded by gravitational fall as a result of erosion of the base by various agencies; sometimes built up by marine organisms (cf. scarp)."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Cliff"@en ;
   skos:definition "very wide, cliffed (greater than 72º) maximal slope usually eroded by gravitational fall as a result of erosion of the base by various agencies; sometimes built up by marine organisms (cf. scarp)."@en ;
@@ -404,7 +404,7 @@ lf:landform-element-CLI
 .
 lf:landform-element-CON
   a skos:Concept ;
-  dct:description "hillock with a circular symmetry built up by volcanism. The crest may form a ring around a crater."@en ;
+  dcterms:description "hillock with a circular symmetry built up by volcanism. The crest may form a ring around a crater."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Cone (volcanic)"@en ;
   skos:definition "hillock with a circular symmetry built up by volcanism. The crest may form a ring around a crater."@en ;
@@ -413,7 +413,7 @@ lf:landform-element-CON
 .
 lf:landform-element-COS
   a skos:Concept ;
-  dct:description "flat eroded by human activity."@en ;
+  dcterms:description "flat eroded by human activity."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Cut-over surface"@en ;
   skos:definition "flat eroded by human activity."@en ;
@@ -422,7 +422,7 @@ lf:landform-element-COS
 .
 lf:landform-element-CUT
   a skos:Concept ;
-  dct:description "slope eroded by human activity."@en ;
+  dcterms:description "slope eroded by human activity."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Cut face"@en ;
   skos:definition "slope eroded by human activity."@en ;
@@ -431,7 +431,7 @@ lf:landform-element-CUT
 .
 lf:landform-element-DAM
   a skos:Concept ;
-  dct:description "ridge built up by human activity so as to close a depression."@en ;
+  dcterms:description "ridge built up by human activity so as to close a depression."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Dam"@en ;
   skos:definition "ridge built up by human activity so as to close a depression."@en ;
@@ -440,7 +440,7 @@ lf:landform-element-DAM
 .
 lf:landform-element-DBA
   a skos:Concept ;
-  dct:description "basin excavated by wind erosion which removes loose material, commonly above a resistant or wet layer."@en ;
+  dcterms:description "basin excavated by wind erosion which removes loose material, commonly above a resistant or wet layer."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Deflation basin"@en ;
   skos:definition "basin excavated by wind erosion which removes loose material, commonly above a resistant or wet layer."@en ;
@@ -449,7 +449,7 @@ lf:landform-element-DBA
 .
 lf:landform-element-DDE
   a skos:Concept ;
-  dct:description "level to gently inclined, long, narrow, shallow open depression with smoothly concave cross-section, rising to moderately inclined side slopes, eroded or aggraded by sheet wash."@en ;
+  dcterms:description "level to gently inclined, long, narrow, shallow open depression with smoothly concave cross-section, rising to moderately inclined side slopes, eroded or aggraded by sheet wash."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Drainage depression"@en ;
   skos:definition "level to gently inclined, long, narrow, shallow open depression with smoothly concave cross-section, rising to moderately inclined side slopes, eroded or aggraded by sheet wash."@en ;
@@ -458,7 +458,7 @@ lf:landform-element-DDE
 .
 lf:landform-element-DOC
   a skos:Concept ;
-  dct:description "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by collapse of underlying caves within bedrock."@en ;
+  dcterms:description "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by collapse of underlying caves within bedrock."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Collapse doline"@en ;
   skos:definition "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by collapse of underlying caves within bedrock."@en ;
@@ -467,7 +467,7 @@ lf:landform-element-DOC
 .
 lf:landform-element-DOL
   a skos:Concept ;
-  dct:description "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by dissolution of the surface or underlying bedrock."@en ;
+  dcterms:description "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by dissolution of the surface or underlying bedrock."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Solution doline"@en ;
   skos:definition "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by dissolution of the surface or underlying bedrock."@en ;
@@ -476,7 +476,7 @@ lf:landform-element-DOL
 .
 lf:landform-element-DUB
   a skos:Concept ;
-  dct:description "crescent-shaped dune with tips extending leeward (downwind), making this side concave and the windward (upwind) side convex. Barchan dunes tend to be arranged in chains extending in the dominant wind direction."@en ;
+  dcterms:description "crescent-shaped dune with tips extending leeward (downwind), making this side concave and the windward (upwind) side convex. Barchan dunes tend to be arranged in chains extending in the dominant wind direction."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Barchan dune"@en ;
   skos:definition "crescent-shaped dune with tips extending leeward (downwind), making this side concave and the windward (upwind) side convex. Barchan dunes tend to be arranged in chains extending in the dominant wind direction."@en ;
@@ -485,7 +485,7 @@ lf:landform-element-DUB
 .
 lf:landform-element-DUC
   a skos:Concept ;
-  dct:description "crest built up or eroded by the wind (see dune)."@en ;
+  dcterms:description "crest built up or eroded by the wind (see dune)."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Dunecrest"@en ;
   skos:definition "crest built up or eroded by the wind (see dune)."@en ;
@@ -494,7 +494,7 @@ lf:landform-element-DUC
 .
 lf:landform-element-DUF
   a skos:Concept ;
-  dct:description "large, sharp-crested, elongated, longitudinal (linear) dune or chain of sand dunes, oriented parallel, rather than transverse (perpendicular), to the prevailing wind. (Not to be confused with the trailing arms of parabolic dunes.)"@en ;
+  dcterms:description "large, sharp-crested, elongated, longitudinal (linear) dune or chain of sand dunes, oriented parallel, rather than transverse (perpendicular), to the prevailing wind. (Not to be confused with the trailing arms of parabolic dunes.)"@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Linear or longitudinal (seif) dune"@en ;
   skos:definition "large, sharp-crested, elongated, longitudinal (linear) dune or chain of sand dunes, oriented parallel, rather than transverse (perpendicular), to the prevailing wind. (Not to be confused with the trailing arms of parabolic dunes.)"@en ;
@@ -503,7 +503,7 @@ lf:landform-element-DUF
 .
 lf:landform-element-DUH
   a skos:Concept ;
-  dct:description "very gently to moderately inclined rises or hillocks built up or eroded by wind and lacking distinct orientation or regular pattern."@en ;
+  dcterms:description "very gently to moderately inclined rises or hillocks built up or eroded by wind and lacking distinct orientation or regular pattern."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Hummocky (weakly oriented) dune"@en ;
   skos:definition "very gently to moderately inclined rises or hillocks built up or eroded by wind and lacking distinct orientation or regular pattern."@en ;
@@ -512,7 +512,7 @@ lf:landform-element-DUH
 .
 lf:landform-element-DUN
   a skos:Concept ;
-  dct:description "moderately inclined to very steep ridge or hillock built up by the wind. This element may comprise dunecrest and duneslope."@en ;
+  dcterms:description "moderately inclined to very steep ridge or hillock built up by the wind. This element may comprise dunecrest and duneslope."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Dune"@en ;
   skos:definition "moderately inclined to very steep ridge or hillock built up by the wind. This element may comprise dunecrest and duneslope."@en ;
@@ -521,7 +521,7 @@ lf:landform-element-DUN
 .
 lf:landform-element-DUP
   a skos:Concept ;
-  dct:description "sand dune with a long, scoop-shaped form, convex in the downwind direction so that its horns point upwind, whose ground plan approximates the form of a parabola. The dunes left behind can be referred to as trailing arms. Where many such dunes have traversed an area, these can give the appearance of linear dunes."@en ;
+  dcterms:description "sand dune with a long, scoop-shaped form, convex in the downwind direction so that its horns point upwind, whose ground plan approximates the form of a parabola. The dunes left behind can be referred to as trailing arms. Where many such dunes have traversed an area, these can give the appearance of linear dunes."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Parabolic dune"@en ;
   skos:definition "sand dune with a long, scoop-shaped form, convex in the downwind direction so that its horns point upwind, whose ground plan approximates the form of a parabola. The dunes left behind can be referred to as trailing arms. Where many such dunes have traversed an area, these can give the appearance of linear dunes."@en ;
@@ -530,7 +530,7 @@ lf:landform-element-DUP
 .
 lf:landform-element-DUS
   a skos:Concept ;
-  dct:description "slope built up or eroded by the wind (see dune)."@en ;
+  dcterms:description "slope built up or eroded by the wind (see dune)."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Duneslope"@en ;
   skos:definition "slope built up or eroded by the wind (see dune)."@en ;
@@ -539,7 +539,7 @@ lf:landform-element-DUS
 .
 lf:landform-element-EMB
   a skos:Concept ;
-  dct:description "ridge or slope built up by human activity."@en ;
+  dcterms:description "ridge or slope built up by human activity."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Embankment"@en ;
   skos:definition "ridge or slope built up by human activity."@en ;
@@ -548,7 +548,7 @@ lf:landform-element-EMB
 .
 lf:landform-element-EST
   a skos:Concept ;
-  dct:description "stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream."@en ;
+  dcterms:description "stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Estuary"@en ;
   skos:definition "stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream."@en ;
@@ -557,7 +557,7 @@ lf:landform-element-EST
 .
 lf:landform-element-FAN
   a skos:Concept ;
-  dct:description "large, gently inclined to level element with radial slope lines inclined away from a point, resulting from aggradation, or occasionally from erosion, by channelled, often braided, stream flow, or possibly by sheet flow."@en ;
+  dcterms:description "large, gently inclined to level element with radial slope lines inclined away from a point, resulting from aggradation, or occasionally from erosion, by channelled, often braided, stream flow, or possibly by sheet flow."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Fan"@en ;
   skos:definition "large, gently inclined to level element with radial slope lines inclined away from a point, resulting from aggradation, or occasionally from erosion, by channelled, often braided, stream flow, or possibly by sheet flow."@en ;
@@ -566,7 +566,7 @@ lf:landform-element-FAN
 .
 lf:landform-element-FIL
   a skos:Concept ;
-  dct:description "flat aggraded by human activity."@en ;
+  dcterms:description "flat aggraded by human activity."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Fill-top"@en ;
   skos:definition "flat aggraded by human activity."@en ;
@@ -575,7 +575,7 @@ lf:landform-element-FIL
 .
 lf:landform-element-FLD
   a skos:Concept ;
-  dct:description "flat inclined radially away from a point on the margin or at the end of a stream channel, aggraded by over-bank stream flow, or by channelled stream flow associated with channels developed within the over-bank flow; part of a covered plain landform pattern."@en ;
+  dcterms:description "flat inclined radially away from a point on the margin or at the end of a stream channel, aggraded by over-bank stream flow, or by channelled stream flow associated with channels developed within the over-bank flow; part of a covered plain landform pattern."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Flood-out"@en ;
   skos:definition "flat inclined radially away from a point on the margin or at the end of a stream channel, aggraded by over-bank stream flow, or by channelled stream flow associated with channels developed within the over-bank flow; part of a covered plain landform pattern."@en ;
@@ -584,7 +584,7 @@ lf:landform-element-FLD
 .
 lf:landform-element-FOO
   a skos:Concept ;
-  dct:description "moderately to very gently inclined waning lower slope resulting from aggradation or erosion by sheet flow, earth flow or creep (cf. pediment)."@en ;
+  dcterms:description "moderately to very gently inclined waning lower slope resulting from aggradation or erosion by sheet flow, earth flow or creep (cf. pediment)."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Footslope"@en ;
   skos:definition "moderately to very gently inclined waning lower slope resulting from aggradation or erosion by sheet flow, earth flow or creep (cf. pediment)."@en ;
@@ -593,7 +593,7 @@ lf:landform-element-FOO
 .
 lf:landform-element-FOR
   a skos:Concept ;
-  dct:description "very long, nearly straight, moderately inclined to very steep ridge built up by the wind from material from an adjacent beach."@en ;
+  dcterms:description "very long, nearly straight, moderately inclined to very steep ridge built up by the wind from material from an adjacent beach."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Foredune"@en ;
   skos:definition "very long, nearly straight, moderately inclined to very steep ridge built up by the wind from material from an adjacent beach."@en ;
@@ -602,7 +602,7 @@ lf:landform-element-FOR
 .
 lf:landform-element-GUL
   a skos:Concept ;
-  dct:description "open depression with short, precipitous walls and moderately inclined to very gently inclined floor or small stream channel, eroded by channelled stream flow and consequent collapse and water-aided mass movement."@en ;
+  dcterms:description "open depression with short, precipitous walls and moderately inclined to very gently inclined floor or small stream channel, eroded by channelled stream flow and consequent collapse and water-aided mass movement."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Gully"@en ;
   skos:definition "open depression with short, precipitous walls and moderately inclined to very gently inclined floor or small stream channel, eroded by channelled stream flow and consequent collapse and water-aided mass movement."@en ;
@@ -611,7 +611,7 @@ lf:landform-element-GUL
 .
 lf:landform-element-HCR
   a skos:Concept ;
-  dct:description "very gently inclined to steep crest, smoothly convex, eroded mainly by creep and sheet wash. A typical element of mountains, hills, low hills and rises."@en ;
+  dcterms:description "very gently inclined to steep crest, smoothly convex, eroded mainly by creep and sheet wash. A typical element of mountains, hills, low hills and rises."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Hillcrest"@en ;
   skos:definition "very gently inclined to steep crest, smoothly convex, eroded mainly by creep and sheet wash. A typical element of mountains, hills, low hills and rises."@en ;
@@ -620,7 +620,7 @@ lf:landform-element-HCR
 .
 lf:landform-element-HSL
   a skos:Concept ;
-  dct:description "gently inclined to precipitous slope, commonly simple and maximal, eroded by sheet wash, creep or water-aided mass movement. A typical element of mountains, hills, low hills and rises."@en ;
+  dcterms:description "gently inclined to precipitous slope, commonly simple and maximal, eroded by sheet wash, creep or water-aided mass movement. A typical element of mountains, hills, low hills and rises."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Hillslope"@en ;
   skos:definition "gently inclined to precipitous slope, commonly simple and maximal, eroded by sheet wash, creep or water-aided mass movement. A typical element of mountains, hills, low hills and rises."@en ;
@@ -629,7 +629,7 @@ lf:landform-element-HSL
 .
 lf:landform-element-ITF
   a skos:Concept ;
-  dct:description "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated."@en ;
+  dcterms:description "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Intertidal flat"@en ;
   rdfs:seeAlso lf:landform-element-TDF ;
@@ -639,7 +639,7 @@ lf:landform-element-ITF
 .
 lf:landform-element-LAG
   a skos:Concept ;
-  dct:description "closed depression filled with water that is typically salt or brackish, bounded at least in part by forms aggraded or built up by waves or reef-building organisms."@en ;
+  dcterms:description "closed depression filled with water that is typically salt or brackish, bounded at least in part by forms aggraded or built up by waves or reef-building organisms."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Lagoon"@en ;
   skos:definition "closed depression filled with water that is typically salt or brackish, bounded at least in part by forms aggraded or built up by waves or reef-building organisms."@en ;
@@ -648,7 +648,7 @@ lf:landform-element-LAG
 .
 lf:landform-element-LAK
   a skos:Concept ;
-  dct:description "large, water-filled closed depression."@en ;
+  dcterms:description "large, water-filled closed depression."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Lake"@en ;
   skos:definition "large, water-filled closed depression."@en ;
@@ -657,7 +657,7 @@ lf:landform-element-LAK
 .
 lf:landform-element-LDS
   a skos:Concept ;
-  dct:description "moderately inclined to very steep slope, eroded in the upper part and aggraded in the lower part by water-aided mass movement, characterised by irregular hummocks."@en ;
+  dcterms:description "moderately inclined to very steep slope, eroded in the upper part and aggraded in the lower part by water-aided mass movement, characterised by irregular hummocks."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Landslide"@en ;
   skos:definition "moderately inclined to very steep slope, eroded in the upper part and aggraded in the lower part by water-aided mass movement, characterised by irregular hummocks."@en ;
@@ -666,7 +666,7 @@ lf:landform-element-LDS
 .
 lf:landform-element-LEV
   a skos:Concept ;
-  dct:description "very long, low, narrow, nearly level, sinuous ridge immediately adjacent to a stream channel, built up by over-bank flow. Levees are built, usually in pairs bounding the two sides of a stream channel, at the level reached by frequent floods. This element is part of a covered plain landform pattern. For an artificial levee, use embankment. See also prior stream."@en ;
+  dcterms:description "very long, low, narrow, nearly level, sinuous ridge immediately adjacent to a stream channel, built up by over-bank flow. Levees are built, usually in pairs bounding the two sides of a stream channel, at the level reached by frequent floods. This element is part of a covered plain landform pattern. For an artificial levee, use embankment. See also prior stream."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Levee"@en ;
   skos:definition "very long, low, narrow, nearly level, sinuous ridge immediately adjacent to a stream channel, built up by over-bank flow. Levees are built, usually in pairs bounding the two sides of a stream channel, at the level reached by frequent floods. This element is part of a covered plain landform pattern. For an artificial levee, use embankment. See also prior stream."@en ;
@@ -675,7 +675,7 @@ lf:landform-element-LEV
 .
 lf:landform-element-LUN
   a skos:Concept ;
-  dct:description "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
+  dcterms:description "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Lunette"@en ;
   skos:definition "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
@@ -684,7 +684,7 @@ lf:landform-element-LUN
 .
 lf:landform-element-MAA
   a skos:Concept ;
-  dct:description "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
+  dcterms:description "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Maar"@en ;
   skos:definition "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
@@ -693,7 +693,7 @@ lf:landform-element-MAA
 .
 lf:landform-element-MOU
   a skos:Concept ;
-  dct:description "hillock built up by human activity."@en ;
+  dcterms:description "hillock built up by human activity."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Mound"@en ;
   skos:definition "hillock built up by human activity."@en ;
@@ -702,7 +702,7 @@ lf:landform-element-MOU
 .
 lf:landform-element-OXB
   a skos:Concept ;
-  dct:description "long, curved, commonly water-filled closed depression eroded by channelled stream flow but closed as a result of aggradation by channelled or over-bank stream flow during the formation of a meander plain landform pattern. The floor of an ox-bow may be more or less aggraded by over-bank stream flow, wind, and biological (peat) accumulation."@en ;
+  dcterms:description "long, curved, commonly water-filled closed depression eroded by channelled stream flow but closed as a result of aggradation by channelled or over-bank stream flow during the formation of a meander plain landform pattern. The floor of an ox-bow may be more or less aggraded by over-bank stream flow, wind, and biological (peat) accumulation."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Ox-bow"@en ;
   skos:definition "long, curved, commonly water-filled closed depression eroded by channelled stream flow but closed as a result of aggradation by channelled or over-bank stream flow during the formation of a meander plain landform pattern. The floor of an ox-bow may be more or less aggraded by over-bank stream flow, wind, and biological (peat) accumulation."@en ;
@@ -711,7 +711,7 @@ lf:landform-element-OXB
 .
 lf:landform-element-PED
   a skos:Concept ;
-  dct:description "large, gently inclined to level (<1%) waning lower slope, with slope lines inclined in a single direction, or somewhat convergent or divergent, eroded or sometimes slightly aggraded by sheet flow (cf. footslope). It is underlain by bedrock."@en ;
+  dcterms:description "large, gently inclined to level (<1%) waning lower slope, with slope lines inclined in a single direction, or somewhat convergent or divergent, eroded or sometimes slightly aggraded by sheet flow (cf. footslope). It is underlain by bedrock."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Pediment"@en ;
   skos:definition "large, gently inclined to level (<1%) waning lower slope, with slope lines inclined in a single direction, or somewhat convergent or divergent, eroded or sometimes slightly aggraded by sheet flow (cf. footslope). It is underlain by bedrock."@en ;
@@ -720,7 +720,7 @@ lf:landform-element-PED
 .
 lf:landform-element-PIT
   a skos:Concept ;
-  dct:description "closed depression excavated by human activity."@en ;
+  dcterms:description "closed depression excavated by human activity."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Pit"@en ;
   skos:definition "closed depression excavated by human activity."@en ;
@@ -729,7 +729,7 @@ lf:landform-element-PIT
 .
 lf:landform-element-PLA
   a skos:Concept ;
-  dct:description "large, very gently inclined or level element, of unspecified geomorphological agent or mode of activity."@en ;
+  dcterms:description "large, very gently inclined or level element, of unspecified geomorphological agent or mode of activity."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Plain"@en ;
   skos:definition "large, very gently inclined or level element, of unspecified geomorphological agent or mode of activity."@en ;
@@ -738,7 +738,7 @@ lf:landform-element-PLA
 .
 lf:landform-element-PLY
   a skos:Concept ;
-  dct:description "large, shallow, level-floored closed depression, intermittently water-filled, but mainly dry due to evaporation, bounded as a rule by flats aggraded by sheet flow and channelled stream flow."@en ;
+  dcterms:description "large, shallow, level-floored closed depression, intermittently water-filled, but mainly dry due to evaporation, bounded as a rule by flats aggraded by sheet flow and channelled stream flow."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Playa"@en ;
   skos:altLabel "Pan"@en ;
@@ -748,7 +748,7 @@ lf:landform-element-PLY
 .
 lf:landform-element-PST
   a skos:Concept ;
-  dct:description "long, generally sinuous, low ridge built up from materials originally deposited by stream flow along the line of a former stream channel. The landform element may include a depression marking the old stream bed, and relict levees."@en ;
+  dcterms:description "long, generally sinuous, low ridge built up from materials originally deposited by stream flow along the line of a former stream channel. The landform element may include a depression marking the old stream bed, and relict levees."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Prior stream"@en ;
   skos:definition "long, generally sinuous, low ridge built up from materials originally deposited by stream flow along the line of a former stream channel. The landform element may include a depression marking the old stream bed, and relict levees."@en ;
@@ -757,7 +757,7 @@ lf:landform-element-PST
 .
 lf:landform-element-REC
   a skos:Concept ;
-  dct:description "crest of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
+  dcterms:description "crest of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Risecrest"@en ;
   skos:definition "crest of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
@@ -766,7 +766,7 @@ lf:landform-element-REC
 .
 lf:landform-element-REF
   a skos:Concept ;
-  dct:description "flat built up to sea level by marine organisms."@en ;
+  dcterms:description "flat built up to sea level by marine organisms."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Reef flat"@en ;
   skos:definition "flat built up to sea level by marine organisms."@en ;
@@ -775,7 +775,7 @@ lf:landform-element-REF
 .
 lf:landform-element-RER
   a skos:Concept ;
-  dct:description "hillock of very low to extremely low relief (<30 m) and very gentle to steep slopes. This term is used to refer to an isolated rise surrounded by other landforms."@en ;
+  dcterms:description "hillock of very low to extremely low relief (<30 m) and very gentle to steep slopes. This term is used to refer to an isolated rise surrounded by other landforms."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Residual rise"@en ;
   skos:definition "hillock of very low to extremely low relief (<30 m) and very gentle to steep slopes. This term is used to refer to an isolated rise surrounded by other landforms."@en ;
@@ -784,7 +784,7 @@ lf:landform-element-RER
 .
 lf:landform-element-RES
   a skos:Concept ;
-  dct:description "slope of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
+  dcterms:description "slope of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Riseslope"@en ;
   skos:definition "slope of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
@@ -793,7 +793,7 @@ lf:landform-element-RES
 .
 lf:landform-element-RFL
   a skos:Concept ;
-  dct:description "flat of bare consolidated rock, usually eroded by sheet wash."@en ;
+  dcterms:description "flat of bare consolidated rock, usually eroded by sheet wash."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Rock flat"@en ;
   skos:definition "flat of bare consolidated rock, usually eroded by sheet wash."@en ;
@@ -802,7 +802,7 @@ lf:landform-element-RFL
 .
 lf:landform-element-RPL
   a skos:Concept ;
-  dct:description "flat of consolidated rock eroded by waves."@en ;
+  dcterms:description "flat of consolidated rock eroded by waves."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Rock platform"@en ;
   skos:definition "flat of consolidated rock eroded by waves."@en ;
@@ -811,7 +811,7 @@ lf:landform-element-RPL
 .
 lf:landform-element-SCA
   a skos:Concept ;
-  dct:description "very wide, steep to precipitous maximal slope eroded by gravity, water-aided mass movement or sheet flow (cf. cliff)."@en ;
+  dcterms:description "very wide, steep to precipitous maximal slope eroded by gravity, water-aided mass movement or sheet flow (cf. cliff)."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Scarp"@en ;
   skos:definition "very wide, steep to precipitous maximal slope eroded by gravity, water-aided mass movement or sheet flow (cf. cliff)."@en ;
@@ -820,7 +820,7 @@ lf:landform-element-SCA
 .
 lf:landform-element-SCD
   a skos:Concept ;
-  dct:description "flat, bare of vegetation, from which soil has been eroded or excavated by surface wash or wind."@en ;
+  dcterms:description "flat, bare of vegetation, from which soil has been eroded or excavated by surface wash or wind."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Scald"@en ;
   skos:definition "flat, bare of vegetation, from which soil has been eroded or excavated by surface wash or wind."@en ;
@@ -829,7 +829,7 @@ lf:landform-element-SCD
 .
 lf:landform-element-SCR
   a skos:Concept ;
-  dct:description "long, curved, very low ridge built up by channelled stream flow and left relict by channel migration. Part of a meander plain landform pattern."@en ;
+  dcterms:description "long, curved, very low ridge built up by channelled stream flow and left relict by channel migration. Part of a meander plain landform pattern."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Scroll"@en ;
   skos:definition "long, curved, very low ridge built up by channelled stream flow and left relict by channel migration. Part of a meander plain landform pattern."@en ;
@@ -838,7 +838,7 @@ lf:landform-element-SCR
 .
 lf:landform-element-SFS
   a skos:Concept ;
-  dct:description "waning or minimal slope situated below a scarp, with its contours generally parallel to the line of the scarp."@en ;
+  dcterms:description "waning or minimal slope situated below a scarp, with its contours generally parallel to the line of the scarp."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Scarp-footslope"@en ;
   skos:definition "waning or minimal slope situated below a scarp, with its contours generally parallel to the line of the scarp."@en ;
@@ -847,7 +847,7 @@ lf:landform-element-SFS
 .
 lf:landform-element-SRP
   a skos:Concept ;
-  dct:description "large flat resulting from aggradation by channelled stream flow as a stream migrates from side to side; the dominant element of a meander plain landform pattern. This landform element may include occurrences of scroll, swale and ox-bow."@en ;
+  dcterms:description "large flat resulting from aggradation by channelled stream flow as a stream migrates from side to side; the dominant element of a meander plain landform pattern. This landform element may include occurrences of scroll, swale and ox-bow."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Scroll plain"@en ;
   skos:definition "large flat resulting from aggradation by channelled stream flow as a stream migrates from side to side; the dominant element of a meander plain landform pattern. This landform element may include occurrences of scroll, swale and ox-bow."@en ;
@@ -856,7 +856,7 @@ lf:landform-element-SRP
 .
 lf:landform-element-STB
   a skos:Concept ;
-  dct:description "linear, generally sinuous open depression forming the bottom of a stream channel, eroded and locally excavated, aggraded or built up by channelled stream flow. Parts that are built up include bars."@en ;
+  dcterms:description "linear, generally sinuous open depression forming the bottom of a stream channel, eroded and locally excavated, aggraded or built up by channelled stream flow. Parts that are built up include bars."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Stream bed"@en ;
   skos:definition "linear, generally sinuous open depression forming the bottom of a stream channel, eroded and locally excavated, aggraded or built up by channelled stream flow. Parts that are built up include bars."@en ;
@@ -865,7 +865,7 @@ lf:landform-element-STB
 .
 lf:landform-element-STC
   a skos:Concept ;
-  dct:description "linear, generally sinuous open depression, in parts eroded, excavated, built up and aggraded by channelled stream flow. This element comprises stream bed and banks."@en ;
+  dcterms:description "linear, generally sinuous open depression, in parts eroded, excavated, built up and aggraded by channelled stream flow. This element comprises stream bed and banks."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Stream channel"@en ;
   skos:altLabel "Channel"@en ;
@@ -875,7 +875,7 @@ lf:landform-element-STC
 .
 lf:landform-element-STF
   a skos:Concept ;
-  dct:description "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. a supratidal flat (STF) is seldom inundated."@en ;
+  dcterms:description "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. a supratidal flat (STF) is seldom inundated."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Supratidal flat"@en ;
   rdfs:seeAlso lf:landform-element-TDF ;
@@ -885,7 +885,7 @@ lf:landform-element-STF
 .
 lf:landform-element-SUS
   a skos:Concept ;
-  dct:description "very wide, level to gently inclined crest with abrupt margins, commonly eroded by water-aided mass movement or sheet wash."@en ;
+  dcterms:description "very wide, level to gently inclined crest with abrupt margins, commonly eroded by water-aided mass movement or sheet wash."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Summit surface"@en ;
   skos:definition "very wide, level to gently inclined crest with abrupt margins, commonly eroded by water-aided mass movement or sheet wash."@en ;
@@ -894,7 +894,7 @@ lf:landform-element-SUS
 .
 lf:landform-element-SWL
   a skos:Concept ;
-  dct:description "(i) linear, level-floored open depression excavated by wind, or left relict between ridges built up by wind or waves, or built up to a lesser height than them. (ii) long, curved open or closed depression left relict between scrolls built up by channelled stream flow."@en ;
+  dcterms:description "(i) linear, level-floored open depression excavated by wind, or left relict between ridges built up by wind or waves, or built up to a lesser height than them. (ii) long, curved open or closed depression left relict between scrolls built up by channelled stream flow."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Swale"@en ;
   skos:definition "(i) linear, level-floored open depression excavated by wind, or left relict between ridges built up by wind or waves, or built up to a lesser height than them. (ii) long, curved open or closed depression left relict between scrolls built up by channelled stream flow."@en ;
@@ -903,7 +903,7 @@ lf:landform-element-SWL
 .
 lf:landform-element-SWP
   a skos:Concept ;
-  dct:description "almost level, closed or almost closed depression with a seasonal or permanent watertable at or above the surface, commonly aggraded by overbank stream flow and sometimes biological (peat) accumulation."@en ;
+  dcterms:description "almost level, closed or almost closed depression with a seasonal or permanent watertable at or above the surface, commonly aggraded by overbank stream flow and sometimes biological (peat) accumulation."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Swamp"@en ;
   skos:definition "almost level, closed or almost closed depression with a seasonal or permanent watertable at or above the surface, commonly aggraded by overbank stream flow and sometimes biological (peat) accumulation."@en ;
@@ -912,7 +912,7 @@ lf:landform-element-SWP
 .
 lf:landform-element-TAL
   a skos:Concept ;
-  dct:description "moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity."@en ;
+  dcterms:description "moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Talus"@en ;
   skos:definition "moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity."@en ;
@@ -921,7 +921,7 @@ lf:landform-element-TAL
 .
 lf:landform-element-TDC
   a skos:Concept ;
-  dct:description "intermittently water-filled open depression in parts eroded, excavated, built up and aggraded by channelled tide-water flow; type of stream channel characterised by a rapid increase in width downstream."@en ;
+  dcterms:description "intermittently water-filled open depression in parts eroded, excavated, built up and aggraded by channelled tide-water flow; type of stream channel characterised by a rapid increase in width downstream."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Tidal creek"@en ;
   skos:definition "intermittently water-filled open depression in parts eroded, excavated, built up and aggraded by channelled tide-water flow; type of stream channel characterised by a rapid increase in width downstream."@en ;
@@ -930,7 +930,7 @@ lf:landform-element-TDC
 .
 lf:landform-element-TDF
   a skos:Concept ;
-  dct:description "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated; a supratidal flat (STF) is seldom inundated."@en ;
+  dcterms:description "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated; a supratidal flat (STF) is seldom inundated."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Tidal flat"@en ;
   rdfs:seeAlso lf:landform-element-ITF ;
@@ -941,7 +941,7 @@ lf:landform-element-TDF
 .
 lf:landform-element-TEF
   a skos:Concept ;
-  dct:description "small flat aggraded or eroded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; a former valley flat or part of a former flood plain."@en ;
+  dcterms:description "small flat aggraded or eroded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; a former valley flat or part of a former flood plain."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Terrace flat"@en ;
   skos:definition "small flat aggraded or eroded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; a former valley flat or part of a former flood plain."@en ;
@@ -950,7 +950,7 @@ lf:landform-element-TEF
 .
 lf:landform-element-TEP
   a skos:Concept ;
-  dct:description "large or very large flat aggraded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; part of a former flood plain."@en ;
+  dcterms:description "large or very large flat aggraded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; part of a former flood plain."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Terrace plain"@en ;
   skos:definition "large or very large flat aggraded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; part of a former flood plain."@en ;
@@ -959,7 +959,7 @@ lf:landform-element-TEP
 .
 lf:landform-element-TOR
   a skos:Concept ;
-  dct:description "steep to precipitous hillock, typically convex, with a surface mainly of bare rock, either coherent or comprising subangular to rounded, large boulders (exhumed core-stones, also themselves called tors) separated by open fissures; eroded by sheet wash or water-aided mass movement."@en ;
+  dcterms:description "steep to precipitous hillock, typically convex, with a surface mainly of bare rock, either coherent or comprising subangular to rounded, large boulders (exhumed core-stones, also themselves called tors) separated by open fissures; eroded by sheet wash or water-aided mass movement."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Tor"@en ;
   skos:definition "steep to precipitous hillock, typically convex, with a surface mainly of bare rock, either coherent or comprising subangular to rounded, large boulders (exhumed core-stones, also themselves called tors) separated by open fissures; eroded by sheet wash or water-aided mass movement."@en ;
@@ -968,7 +968,7 @@ lf:landform-element-TOR
 .
 lf:landform-element-TRE
   a skos:Concept ;
-  dct:description "open depression excavated by human activity."@en ;
+  dcterms:description "open depression excavated by human activity."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Trench"@en ;
   skos:definition "open depression excavated by human activity."@en ;
@@ -977,7 +977,7 @@ lf:landform-element-TRE
 .
 lf:landform-element-TUM
   a skos:Concept ;
-  dct:description "hillock heaved up by volcanism (or, elsewhere, built up by human activity at a burial site)."@en ;
+  dcterms:description "hillock heaved up by volcanism (or, elsewhere, built up by human activity at a burial site)."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Tumulus"@en ;
   skos:definition "hillock heaved up by volcanism (or, elsewhere, built up by human activity at a burial site)."@en ;
@@ -986,7 +986,7 @@ lf:landform-element-TUM
 .
 lf:landform-element-VLF
   a skos:Concept ;
-  dct:description "small, gently inclined to level flat, aggraded or sometimes eroded by channelled or over-bank stream flow, typically enclosed by hillslopes; a miniature alluvial plain landform pattern."@en ;
+  dcterms:description "small, gently inclined to level flat, aggraded or sometimes eroded by channelled or over-bank stream flow, typically enclosed by hillslopes; a miniature alluvial plain landform pattern."@en ;
   ui:isMemberOf lf:landform-element-glossary ;
   rdfs:label "Valley flat"@en ;
   skos:definition "small, gently inclined to level flat, aggraded or sometimes eroded by channelled or over-bank stream flow, typically enclosed by hillslopes; a miniature alluvial plain landform pattern."@en ;
@@ -1090,7 +1090,7 @@ lf:landform-element-glossary
 .
 lf:landform-genesis
   a skos:Collection ;
-  dct:description """The two following sections on geomorphological modes and agents refer to the inferred genesis of a landform element. This genesis may have spanned thousands of years. Changes, such as erosion and aggradation, that are produced by current land use are separately assessed as attributes of the land surface (pages 92–96).
+  dcterms:description """The two following sections on geomorphological modes and agents refer to the inferred genesis of a landform element. This genesis may have spanned thousands of years. Changes, such as erosion and aggradation, that are produced by current land use are separately assessed as attributes of the land surface (pages 92–96).
 To think clearly about the origin of a landform, one should ask two questions: ‘What agent formed it?’ and ‘What was the mode of activity of that agent?’
 Landforms created by different agents, such as wind, creep, and stream flow, may result from the same mode of geomorphological activity: erosion, for example. Those created by the same agent may differ according to whether the mode of activity builds them up or erodes them down.
 """ ;
@@ -1106,7 +1106,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
 lf:landform-pattern-ALF
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps."@en ;
+  dcterms:description "level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Alluvial fan"@en ;
   skos:definition "level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps."@en ;
@@ -1130,7 +1130,7 @@ lf:landform-pattern-ALF-typical-elements
 lf:landform-pattern-ALP
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
+  dcterms:description "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Alluvial plain"@en ;
   skos:definition "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
@@ -1166,7 +1166,7 @@ lf:landform-pattern-ALP-typical-elements
 lf:landform-pattern-ANA
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow."@en ;
+  dcterms:description "flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Anastomotic plain"@en ;
   skos:definition "flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow."@en ;
@@ -1176,7 +1176,7 @@ lf:landform-pattern-ANA
 lf:landform-pattern-BAD
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "landform pattern of low to extremely low relief (less than 90 m) and steep to precipitous slopes, typically with numerous fixed, erosional stream channels which form a non-directional, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow."@en ;
+  dcterms:description "landform pattern of low to extremely low relief (less than 90 m) and steep to precipitous slopes, typically with numerous fixed, erosional stream channels which form a non-directional, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Badlands"@en ;
   skos:definition "landform pattern of low to extremely low relief (less than 90 m) and steep to precipitous slopes, typically with numerous fixed, erosional stream channels which form a non-directional, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow."@en ;
@@ -1186,7 +1186,7 @@ lf:landform-pattern-BAD
 lf:landform-pattern-BAR
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "flood plain with numerous rapidly migrating, shallow alluvial channels forming a unidirectional, integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow. (Described by Melton 1936.)"@en ;
+  dcterms:description "flood plain with numerous rapidly migrating, shallow alluvial channels forming a unidirectional, integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow. (Described by Melton 1936.)"@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Bar plain"@en ;
   skos:definition "flood plain with numerous rapidly migrating, shallow alluvial channels forming a unidirectional, integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow. (Described by Melton 1936.)"@en ;
@@ -1196,7 +1196,7 @@ lf:landform-pattern-BAR
 lf:landform-pattern-BEA
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level to gently undulating landform pattern of extremely low relief on which stream channels are absent or very rare; it consists of relict, parallel beach ridges."@en ;
+  dcterms:description "level to gently undulating landform pattern of extremely low relief on which stream channels are absent or very rare; it consists of relict, parallel beach ridges."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Beach ridge plain"@en ;
   skos:definition "level to gently undulating landform pattern of extremely low relief on which stream channels are absent or very rare; it consists of relict, parallel beach ridges."@en ;
@@ -1206,7 +1206,7 @@ lf:landform-pattern-BEA
 lf:landform-pattern-CAL
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism."@en ;
+  dcterms:description "rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Caldera"@en ;
   skos:definition "rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism."@en ;
@@ -1216,7 +1216,7 @@ lf:landform-pattern-CAL
 lf:landform-pattern-CHE
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict, parallel, linear ridges built up by waves, separated by, and built over, flats (mud flats) aggraded by tides or over-bank stream flow."@en ;
+  dcterms:description "level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict, parallel, linear ridges built up by waves, separated by, and built over, flats (mud flats) aggraded by tides or over-bank stream flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Chenier plain"@en ;
   skos:definition "level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict, parallel, linear ridges built up by waves, separated by, and built over, flats (mud flats) aggraded by tides or over-bank stream flow."@en ;
@@ -1226,7 +1226,7 @@ lf:landform-pattern-CHE
 lf:landform-pattern-COR
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "continuously active or relict landform pattern built up to the sea level of the present day or of a former time by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below the sea level. Stream channels are generally absent, but there may occasionally be fixed, deep, erosional tidal stream channels forming a disintegrated non-tributary pattern."@en ;
+  dcterms:description "continuously active or relict landform pattern built up to the sea level of the present day or of a former time by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below the sea level. Stream channels are generally absent, but there may occasionally be fixed, deep, erosional tidal stream channels forming a disintegrated non-tributary pattern."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Coral reef"@en ;
   skos:definition "continuously active or relict landform pattern built up to the sea level of the present day or of a former time by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below the sea level. Stream channels are generally absent, but there may occasionally be fixed, deep, erosional tidal stream channels forming a disintegrated non-tributary pattern."@en ;
@@ -1236,7 +1236,7 @@ lf:landform-pattern-COR
 lf:landform-pattern-COV
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "flood plain with slowly migrating, deep alluvial channels, usually widely spaced and forming a unidirectional, integrated non-tributary network. There is frequently active aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
+  dcterms:description "flood plain with slowly migrating, deep alluvial channels, usually widely spaced and forming a unidirectional, integrated non-tributary network. There is frequently active aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Covered plain"@en ;
   skos:definition "flood plain with slowly migrating, deep alluvial channels, usually widely spaced and forming a unidirectional, integrated non-tributary network. There is frequently active aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
@@ -1246,7 +1246,7 @@ lf:landform-pattern-COV
 lf:landform-pattern-DEL
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "flood plain projecting into a sea or lake, with slowly migrating, deep alluvial channels, usually moderately spaced, typically forming a divergent, integrated distributary network. This landform is aggraded by frequently active over-bank and channelled stream flow that is modified by tides."@en ;
+  dcterms:description "flood plain projecting into a sea or lake, with slowly migrating, deep alluvial channels, usually moderately spaced, typically forming a divergent, integrated distributary network. This landform is aggraded by frequently active over-bank and channelled stream flow that is modified by tides."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Delta"@en ;
   skos:definition "flood plain projecting into a sea or lake, with slowly migrating, deep alluvial channels, usually moderately spaced, typically forming a divergent, integrated distributary network. This landform is aggraded by frequently active over-bank and channelled stream flow that is modified by tides."@en ;
@@ -1256,7 +1256,7 @@ lf:landform-pattern-DEL
 lf:landform-pattern-DUN
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level to rolling landform pattern of very low or extremely low relief without stream channels, built up or locally excavated, eroded or aggraded by wind."@en ;
+  dcterms:description "level to rolling landform pattern of very low or extremely low relief without stream channels, built up or locally excavated, eroded or aggraded by wind."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Dunefield"@en ;
   skos:definition "level to rolling landform pattern of very low or extremely low relief without stream channels, built up or locally excavated, eroded or aggraded by wind."@en ;
@@ -1266,7 +1266,7 @@ lf:landform-pattern-DUN
 lf:landform-pattern-ESC
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "steep to precipitous landform pattern forming a linearly extensive, straight or sinuous, inclined surface, which separates terrains at different altitudes; a plateau is commonly above the escarpment. Relief within the landform pattern may be high (hilly) or low (planar). The upper margin is often marked by an included cliff or scarp."@en ;
+  dcterms:description "steep to precipitous landform pattern forming a linearly extensive, straight or sinuous, inclined surface, which separates terrains at different altitudes; a plateau is commonly above the escarpment. Relief within the landform pattern may be high (hilly) or low (planar). The upper margin is often marked by an included cliff or scarp."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Escarpment"@en ;
   skos:definition "steep to precipitous landform pattern forming a linearly extensive, straight or sinuous, inclined surface, which separates terrains at different altitudes; a plateau is commonly above the escarpment. Relief within the landform pattern may be high (hilly) or low (planar). The upper margin is often marked by an included cliff or scarp."@en ;
@@ -1276,7 +1276,7 @@ lf:landform-pattern-ESC
 lf:landform-pattern-FLO
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "alluvial plain characterised by frequently active erosion and aggradation by channelled or over-bank stream flow. Unless otherwise specified, ‘frequently active’ is to mean that flow has an Average Recurrence Interval of 50 years or less."@en ;
+  dcterms:description "alluvial plain characterised by frequently active erosion and aggradation by channelled or over-bank stream flow. Unless otherwise specified, ‘frequently active’ is to mean that flow has an Average Recurrence Interval of 50 years or less."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Food plain"@en ;
   skos:definition "alluvial plain characterised by frequently active erosion and aggradation by channelled or over-bank stream flow. Unless otherwise specified, ‘frequently active’ is to mean that flow has an Average Recurrence Interval of 50 years or less."@en ;
@@ -1286,7 +1286,7 @@ lf:landform-pattern-FLO
 lf:landform-pattern-HIL
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "landform pattern of high relief (90–300 m) with gently inclined to precipitous slopes. Fixed, shallow, erosional stream channels, closely to very widely spaced, form a non-directional or convergent, integrated tributary network. There is continuously active erosion by wash and creep and, in some cases, rarely active erosion by landslides."@en ;
+  dcterms:description "landform pattern of high relief (90–300 m) with gently inclined to precipitous slopes. Fixed, shallow, erosional stream channels, closely to very widely spaced, form a non-directional or convergent, integrated tributary network. There is continuously active erosion by wash and creep and, in some cases, rarely active erosion by landslides."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Hills"@en ;
   skos:definition "landform pattern of high relief (90–300 m) with gently inclined to precipitous slopes. Fixed, shallow, erosional stream channels, closely to very widely spaced, form a non-directional or convergent, integrated tributary network. There is continuously active erosion by wash and creep and, in some cases, rarely active erosion by landslides."@en ;
@@ -1296,7 +1296,7 @@ lf:landform-pattern-HIL
 lf:landform-pattern-KAR
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "landform pattern of unspecified relief and slope (for specification use the terms in Table 4, for example ‘Karst rolling hills’) typically with fixed, deep, erosional stream channels forming a non-directional, disintegrated tributary pattern and many closed depressions without stream channels. It is eroded by continuously active solution and rarely active collapse, the products being removed through underground channels."@en ;
+  dcterms:description "landform pattern of unspecified relief and slope (for specification use the terms in Table 4, for example ‘Karst rolling hills’) typically with fixed, deep, erosional stream channels forming a non-directional, disintegrated tributary pattern and many closed depressions without stream channels. It is eroded by continuously active solution and rarely active collapse, the products being removed through underground channels."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Karst"@en ;
   skos:definition "landform pattern of unspecified relief and slope (for specification use the terms in Table 4, for example ‘Karst rolling hills’) typically with fixed, deep, erosional stream channels forming a non-directional, disintegrated tributary pattern and many closed depressions without stream channels. It is eroded by continuously active solution and rarely active collapse, the products being removed through underground channels."@en ;
@@ -1306,7 +1306,7 @@ lf:landform-pattern-KAR
 lf:landform-pattern-LAC
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level landform pattern with extremely low relief formerly occupied by a lake but now partly or completely dry. It is relict after aggradation by waves and by deposition of material from suspension and solution in standing water. The pattern is usually bounded by wave-formed features such as cliffs, rock platforms, beaches, berms and lunettes. These may be included or excluded."@en ;
+  dcterms:description "level landform pattern with extremely low relief formerly occupied by a lake but now partly or completely dry. It is relict after aggradation by waves and by deposition of material from suspension and solution in standing water. The pattern is usually bounded by wave-formed features such as cliffs, rock platforms, beaches, berms and lunettes. These may be included or excluded."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Lacustrine plain"@en ;
   skos:definition "level landform pattern with extremely low relief formerly occupied by a lake but now partly or completely dry. It is relict after aggradation by waves and by deposition of material from suspension and solution in standing water. The pattern is usually bounded by wave-formed features such as cliffs, rock platforms, beaches, berms and lunettes. These may be included or excluded."@en ;
@@ -1316,7 +1316,7 @@ lf:landform-pattern-LAC
 lf:landform-pattern-LAV
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level to undulating landform pattern of very low to extremely low relief typically with widely spaced, fixed, erosional stream channels that form a non-directional, integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep, and channelled stream flow."@en ;
+  dcterms:description "level to undulating landform pattern of very low to extremely low relief typically with widely spaced, fixed, erosional stream channels that form a non-directional, integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep, and channelled stream flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Lava plain"@en ;
   skos:definition "level to undulating landform pattern of very low to extremely low relief typically with widely spaced, fixed, erosional stream channels that form a non-directional, integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep, and channelled stream flow."@en ;
@@ -1326,7 +1326,7 @@ lf:landform-pattern-LAV
 lf:landform-pattern-LON
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "dunefield characterised by long, narrow sand dunes and wide, flat swales. The dunes are oriented parallel with the direction of the prevailing wind, and in cross-section one slope is typically steeper than the other."@en ;
+  dcterms:description "dunefield characterised by long, narrow sand dunes and wide, flat swales. The dunes are oriented parallel with the direction of the prevailing wind, and in cross-section one slope is typically steeper than the other."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Longitudinal dunefield"@en ;
   skos:definition "dunefield characterised by long, narrow sand dunes and wide, flat swales. The dunes are oriented parallel with the direction of the prevailing wind, and in cross-section one slope is typically steeper than the other."@en ;
@@ -1336,7 +1336,7 @@ lf:landform-pattern-LON
 lf:landform-pattern-LOW
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "landform pattern of low relief (30–90 m) and gentle to very steep slopes, typically with fixed, erosional stream channels, closely to very widely spaced, which form a non-directional or convergent, integrated tributary pattern. There is continuously active sheet flow, creep, and channelled stream flow. "@en ;
+  dcterms:description "landform pattern of low relief (30–90 m) and gentle to very steep slopes, typically with fixed, erosional stream channels, closely to very widely spaced, which form a non-directional or convergent, integrated tributary pattern. There is continuously active sheet flow, creep, and channelled stream flow. "@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Low hills"@en ;
   skos:definition "landform pattern of low relief (30–90 m) and gentle to very steep slopes, typically with fixed, erosional stream channels, closely to very widely spaced, which form a non-directional or convergent, integrated tributary pattern. There is continuously active sheet flow, creep, and channelled stream flow. "@en ;
@@ -1346,7 +1346,7 @@ lf:landform-pattern-LOW
 lf:landform-pattern-MAD
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "landform pattern typically of very low or extremely low relief and with slopes either level or very steep. Sparse, fixed, deep, artificial stream channels form a non-directional, interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency."@en ;
+  dcterms:description "landform pattern typically of very low or extremely low relief and with slopes either level or very steep. Sparse, fixed, deep, artificial stream channels form a non-directional, interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Made land"@en ;
   skos:definition "landform pattern typically of very low or extremely low relief and with slopes either level or very steep. Sparse, fixed, deep, artificial stream channels form a non-directional, interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency."@en ;
@@ -1356,7 +1356,7 @@ lf:landform-pattern-MAD
 lf:landform-pattern-MAR
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind."@en ;
+  dcterms:description "plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Marine plain"@en ;
   skos:definition "plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind."@en ;
@@ -1366,7 +1366,7 @@ lf:landform-pattern-MAR
 lf:landform-pattern-MEA
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "flood plain with widely spaced, rapidly migrating, moderately deep alluvial stream channels which form a unidirectional, integrated non-tributary network. There is frequently active aggradation and erosion by channelled stream flow with subordinate aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
+  dcterms:description "flood plain with widely spaced, rapidly migrating, moderately deep alluvial stream channels which form a unidirectional, integrated non-tributary network. There is frequently active aggradation and erosion by channelled stream flow with subordinate aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Meander plain"@en ;
   skos:definition "flood plain with widely spaced, rapidly migrating, moderately deep alluvial stream channels which form a unidirectional, integrated non-tributary network. There is frequently active aggradation and erosion by channelled stream flow with subordinate aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
@@ -1376,7 +1376,7 @@ lf:landform-pattern-MEA
 lf:landform-pattern-MET
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "rare landform pattern comprising a circular closed depression (see crater landform element) with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and is now relict."@en ;
+  dcterms:description "rare landform pattern comprising a circular closed depression (see crater landform element) with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and is now relict."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Meteor crater"@en ;
   skos:definition "rare landform pattern comprising a circular closed depression (see crater landform element) with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and is now relict."@en ;
@@ -1386,7 +1386,7 @@ lf:landform-pattern-MET
 lf:landform-pattern-MOU
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "landform pattern of very high relief (greater than 300 m) with moderate to precipitous slopes and fixed, erosional stream channels that are closely to very widely spaced and form a non-directional or diverging, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep, and channelled stream flow."@en ;
+  dcterms:description "landform pattern of very high relief (greater than 300 m) with moderate to precipitous slopes and fixed, erosional stream channels that are closely to very widely spaced and form a non-directional or diverging, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep, and channelled stream flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Mountains"@en ;
   skos:definition "landform pattern of very high relief (greater than 300 m) with moderate to precipitous slopes and fixed, erosional stream channels that are closely to very widely spaced and form a non-directional or diverging, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep, and channelled stream flow."@en ;
@@ -1396,7 +1396,7 @@ lf:landform-pattern-MOU
 lf:landform-pattern-PAR
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "dunefield characterised by sand dunes with a long, scoop-shaped form, convex in the downwind direction so that its trailing arms point upwind; the ground plan, when developed, approximates the form of a parabola. Where many parabolic dunes have been active, the trailing arms give the impression of a longitudinal dunefield."@en ;
+  dcterms:description "dunefield characterised by sand dunes with a long, scoop-shaped form, convex in the downwind direction so that its trailing arms point upwind; the ground plan, when developed, approximates the form of a parabola. Where many parabolic dunes have been active, the trailing arms give the impression of a longitudinal dunefield."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Parabolic dunefield"@en ;
   skos:definition "dunefield characterised by sand dunes with a long, scoop-shaped form, convex in the downwind direction so that its trailing arms point upwind; the ground plan, when developed, approximates the form of a parabola. Where many parabolic dunes have been active, the trailing arms give the impression of a longitudinal dunefield."@en ;
@@ -1406,7 +1406,7 @@ lf:landform-pattern-PAR
 lf:landform-pattern-PED
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes."@en ;
+  dcterms:description "gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Pediment"@en ;
   skos:definition "gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes."@en ;
@@ -1416,7 +1416,7 @@ lf:landform-pattern-PED
 lf:landform-pattern-PEP
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. (Described by King 1953.)"@en ;
+  dcterms:description "level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. (Described by King 1953.)"@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Pediplain"@en ;
   skos:definition "level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. (Described by King 1953.)"@en ;
@@ -1426,7 +1426,7 @@ lf:landform-pattern-PEP
 lf:landform-pattern-PLA
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level to undulating or, rarely, rolling landform pattern of extremely low relief (less than 9 m)."@en ;
+  dcterms:description "level to undulating or, rarely, rolling landform pattern of extremely low relief (less than 9 m)."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Plain"@en ;
   skos:definition "level to undulating or, rarely, rolling landform pattern of extremely low relief (less than 9 m)."@en ;
@@ -1436,7 +1436,7 @@ lf:landform-pattern-PLA
 lf:landform-pattern-PLT
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level to rolling landform pattern of plains, rises or low hills standing above a cliff, scarp or escarpment that extends around a large part of its perimeter. A bounding scarp or cliff landform element may be included or excluded; a bounding escarpment would be an adjacent landform pattern."@en ;
+  dcterms:description "level to rolling landform pattern of plains, rises or low hills standing above a cliff, scarp or escarpment that extends around a large part of its perimeter. A bounding scarp or cliff landform element may be included or excluded; a bounding escarpment would be an adjacent landform pattern."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Plateau"@en ;
   skos:definition "level to rolling landform pattern of plains, rises or low hills standing above a cliff, scarp or escarpment that extends around a large part of its perimeter. A bounding scarp or cliff landform element may be included or excluded; a bounding escarpment would be an adjacent landform pattern."@en ;
@@ -1446,7 +1446,7 @@ lf:landform-pattern-PLT
 lf:landform-pattern-PLY
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves, and soil phenomena."@en ;
+  dcterms:description "level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves, and soil phenomena."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Playa plain"@en ;
   skos:definition "level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves, and soil phenomena."@en ;
@@ -1456,7 +1456,7 @@ lf:landform-pattern-PLY
 lf:landform-pattern-PNP
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level to gently undulating landform pattern with extremely low relief and sparse, slowly migrating alluvial stream channels which form a non-directional, integrated tributary pattern. It is eroded by barely active sheet flow, creep, and channelled and over-bank stream flow. (Described by Davis 1889.)"@en ;
+  dcterms:description "level to gently undulating landform pattern with extremely low relief and sparse, slowly migrating alluvial stream channels which form a non-directional, integrated tributary pattern. It is eroded by barely active sheet flow, creep, and channelled and over-bank stream flow. (Described by Davis 1889.)"@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Peneplain"@en ;
   skos:definition "level to gently undulating landform pattern with extremely low relief and sparse, slowly migrating alluvial stream channels which form a non-directional, integrated tributary pattern. It is eroded by barely active sheet flow, creep, and channelled and over-bank stream flow. (Described by Davis 1889.)"@en ;
@@ -1466,7 +1466,7 @@ lf:landform-pattern-PNP
 lf:landform-pattern-RIS
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "landform pattern of very low relief (9–30 m) and very gentle to steep slopes. The fixed, erosional stream channels are closely to very widely spaced and form a non-directional to convergent, integrated or interrupted tributary pattern. The pattern is eroded by continuously active to barely active creep and sheet flow."@en ;
+  dcterms:description "landform pattern of very low relief (9–30 m) and very gentle to steep slopes. The fixed, erosional stream channels are closely to very widely spaced and form a non-directional to convergent, integrated or interrupted tributary pattern. The pattern is eroded by continuously active to barely active creep and sheet flow."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Rises"@en ;
   skos:definition "landform pattern of very low relief (9–30 m) and very gentle to steep slopes. The fixed, erosional stream channels are closely to very widely spaced and form a non-directional to convergent, integrated or interrupted tributary pattern. The pattern is eroded by continuously active to barely active creep and sheet flow."@en ;
@@ -1476,7 +1476,7 @@ lf:landform-pattern-RIS
 lf:landform-pattern-SAN
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level to gently undulating landform pattern of extremely low relief and without channels; formed possibly by sheet flow or stream flow, but now relict and modified by wind action."@en ;
+  dcterms:description "level to gently undulating landform pattern of extremely low relief and without channels; formed possibly by sheet flow or stream flow, but now relict and modified by wind action."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Sand plain"@en ;
   skos:definition "level to gently undulating landform pattern of extremely low relief and without channels; formed possibly by sheet flow or stream flow, but now relict and modified by wind action."@en ;
@@ -1486,7 +1486,7 @@ lf:landform-pattern-SAN
 lf:landform-pattern-SHF
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level (less than 1% slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating, very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. The pattern is aggraded by frequently active sheet flow and channelled stream flow, with subordinate wind erosion."@en ;
+  dcterms:description "level (less than 1% slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating, very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. The pattern is aggraded by frequently active sheet flow and channelled stream flow, with subordinate wind erosion."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Sheet-flood fan"@en ;
   skos:definition "level (less than 1% slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating, very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. The pattern is aggraded by frequently active sheet flow and channelled stream flow, with subordinate wind erosion."@en ;
@@ -1496,7 +1496,7 @@ lf:landform-pattern-SHF
 lf:landform-pattern-STA
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "alluvial plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because of reduced water supply, without apparent incision or channel enlargement that would lower the level of stream action."@en ;
+  dcterms:description "alluvial plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because of reduced water supply, without apparent incision or channel enlargement that would lower the level of stream action."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Stagnant alluvial plain"@en ;
   skos:definition "alluvial plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because of reduced water supply, without apparent incision or channel enlargement that would lower the level of stream action."@en ;
@@ -1506,7 +1506,7 @@ lf:landform-pattern-STA
 lf:landform-pattern-TEL
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9–90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank."@en ;
+  dcterms:description "landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9–90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Terraced land (alluvial)"@en ;
   skos:definition "landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9–90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank."@en ;
@@ -1516,7 +1516,7 @@ lf:landform-pattern-TEL
 lf:landform-pattern-TER
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "former flood plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that has both a former flood plain and a significant, active flood plain, or that has former flood plains at more than one level, becomes terraced land."@en ;
+  dcterms:description "former flood plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that has both a former flood plain and a significant, active flood plain, or that has former flood plains at more than one level, becomes terraced land."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Terrace (alluvial)"@en ;
   skos:definition "former flood plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that has both a former flood plain and a significant, active flood plain, or that has former flood plains at more than one level, becomes terraced land."@en ;
@@ -1526,7 +1526,7 @@ lf:landform-pattern-TER
 lf:landform-pattern-TID
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides."@en ;
+  dcterms:description "level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Tidal flat"@en ;
   skos:definition "level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides."@en ;
@@ -1536,7 +1536,7 @@ lf:landform-pattern-TID
 lf:landform-pattern-VOL
   a skos:Collection ;
   a skos:Concept ;
-  dct:description "typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal, interrupted tributary pattern. The landform is built up by volcanism, and is modified by erosional agents."@en ;
+  dcterms:description "typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal, interrupted tributary pattern. The landform is built up by volcanism, and is modified by erosional agents."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Volcano"@en ;
   skos:definition "typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal, interrupted tributary pattern. The landform is built up by volcanism, and is modified by erosional agents."@en ;
@@ -1597,7 +1597,7 @@ lf:landform-pattern-glossary
 .
 lf:location-within-the-landform-element
   a skos:Collection ;
-  dct:description "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:" ;
+  dcterms:description "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:" ;
   rdfs:label "Location within the landform element" ;
   skos:definition "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:" ;
   skos:member lf:location-within-the-landform-element-B ;
@@ -1607,7 +1607,7 @@ lf:location-within-the-landform-element
 .
 lf:location-within-the-landform-element-B
   a skos:Concept ;
-  dct:description "Bottom third of the height of the landform element."@en ;
+  dcterms:description "Bottom third of the height of the landform element."@en ;
   ui:isMemberOf lf:location-within-the-landform-element ;
   rdfs:label "Bottom"@en ;
   skos:definition "Bottom third of the height of the landform element.."@en ;
@@ -1616,7 +1616,7 @@ lf:location-within-the-landform-element-B
 .
 lf:location-within-the-landform-element-M
   a skos:Concept ;
-  dct:description "Middle third of the height of the landform element."@en ;
+  dcterms:description "Middle third of the height of the landform element."@en ;
   ui:isMemberOf lf:location-within-the-landform-element ;
   rdfs:label "Middle"@en ;
   skos:definition "Middle third of the height of the landform element.."@en ;
@@ -1625,7 +1625,7 @@ lf:location-within-the-landform-element-M
 .
 lf:location-within-the-landform-element-T
   a skos:Concept ;
-  dct:description "Top third of the height of the landform element."@en ;
+  dcterms:description "Top third of the height of the landform element."@en ;
   ui:isMemberOf lf:location-within-the-landform-element ;
   rdfs:label "Top"@en ;
   skos:definition "Top third of the height of the landform element.."@en ;
@@ -1635,7 +1635,7 @@ lf:location-within-the-landform-element-T
 lf:location-within-toposequence
   a skos:Concept ;
   a sosa:ObservableProperty ;
-  dct:description """For detailed work, the location of the site within the toposequence down a slope line may relate to landform processes. Unfortunately, slope lines, by definition, extend from a summit to the lowest point (Cayley 1859), which may be many kilometres apart. One must arbitrarily determine the effective top and bottom of the toposequence. These effective end points come where the slope line coalesces with other slope lines to form a ridge line or a course line* (Figure 2a). In practice, ridge lines and course lines are to be excluded from the toposequence (see earlier section on landform element height). One arbitrary rule that will exclude the ridge line is to put the top of the toposequence where the contour curvature exceeds 60º in 40 m. The course line may be excluded by the same rule, or by putting the bottom of the toposequence at a stream channel.
+  dcterms:description """For detailed work, the location of the site within the toposequence down a slope line may relate to landform processes. Unfortunately, slope lines, by definition, extend from a summit to the lowest point (Cayley 1859), which may be many kilometres apart. One must arbitrarily determine the effective top and bottom of the toposequence. These effective end points come where the slope line coalesces with other slope lines to form a ridge line or a course line* (Figure 2a). In practice, ridge lines and course lines are to be excluded from the toposequence (see earlier section on landform element height). One arbitrary rule that will exclude the ridge line is to put the top of the toposequence where the contour curvature exceeds 60º in 40 m. The course line may be excluded by the same rule, or by putting the bottom of the toposequence at a stream channel.
 Any site can be located by its vertical and horizontal distances from the defined top and bottom of the toposequence. Drainage height (page 88) is one of these measures.
 The toposequence concept leads to definition of the attributes specific catchment area and specific dispersal area (Speight 1974, 1980) that predict hillslope hydrology and erosion (see, for example, Moore et al. 1988)."""@en ;
   rdfs:label "Location within toposequence"@en ;
@@ -1647,7 +1647,7 @@ The toposequence concept leads to definition of the attributes specific catchmen
 lf:modal-slope
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description """Modal slope is defined as the most common class of slope occurring in a landform pattern. Where slope classes have been obtained by systematic sampling, define the classes using equal increments on a scale of the logarithm of the slope tangent, a procedure intended to normalise frequency distributions of observed slope (Speight 1971). Where the most common slope class is estimated by direct observation, it is thought that the estimate will compare with that calculated using the log-normal model.
+  dcterms:description """Modal slope is defined as the most common class of slope occurring in a landform pattern. Where slope classes have been obtained by systematic sampling, define the classes using equal increments on a scale of the logarithm of the slope tangent, a procedure intended to normalise frequency distributions of observed slope (Speight 1971). Where the most common slope class is estimated by direct observation, it is thought that the estimate will compare with that calculated using the log-normal model.
 Modal slope class determines the use of certain adjectives applied to landform patterns that are characterised by alternating crests and depressions. These are: rolling for moderate modal slopes (10–32%); undulating for gentle slopes (3–10%); and gently undulating for very gentle slopes (1–3%) (compare with Soil Survey Staff 1951, pages 161–165). The other slope classes, precipitous, very steep, steep and level, are to be applied as they stand. The terminology for simple erosional landform patterns based on relief and modal slope is given in Table 5.
 Table 5 defines the category badlands by various combinations of high slope values and low relief values. These combinations imply extremely close spacing of streams or valleys. Specifically, if one assumes a sawtooth terrain profile, the valley spacing implied is less than 100 m in areas with 50 m relief and less than 30 m in areas with 5 m relief; these values appear to accord with usage.
 Table 7 lists types of landform pattern in order of their typical class of modal slope. This table should not be regarded as definitive, for slope within each type of landform pattern may vary widely."""@en ;
@@ -1665,7 +1665,7 @@ Table 7 lists types of landform pattern in order of their typical class of modal
 .
 lf:mode-of-geomorphological-activity
   a skos:Collection ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure3.pdf\" /></p>"@en ;
+  dcterms:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure3.pdf\" /></p>"@en ;
   ui:isMemberOf asls:landform ;
   rdfs:comment """Gradational activities are those that tend to reduce the land to a common elevation by removing material from higher places and depositing it in lower places (Chamberlin and Salisbury 1904, page 2), without necessarily reducing the angle of slope at every point. The work of streams and landslides is almost entirely in the gradational modes. However, this tendency is opposed by many processes that commonly act in an anti-gradational mode. These modes are characteristic of volcanism, diastrophism and various kinds of human and biological activity.
 However, many engineering works involve erosion and aggradation because these gradational modes use less energy than anti-gradational modes. For the same reason, erosion and aggradation may easily be induced unintentionally by land use (pages 92–96).
@@ -1684,7 +1684,7 @@ Allow for the recording of more than one mode of activity, together with options
 .
 lf:mode-of-geomorphological-activity-AG
   a skos:Concept ;
-  dct:description "Aggraded (Gradational activity)."@en ;
+  dcterms:description "Aggraded (Gradational activity)."@en ;
   ui:isMemberOf lf:mode-of-geomorphological-activity ;
   rdfs:label "Aggraded"@en ;
   skos:definition "Aggraded (Gradational activity)."@en ;
@@ -1693,7 +1693,7 @@ lf:mode-of-geomorphological-activity-AG
 .
 lf:mode-of-geomorphological-activity-BU
   a skos:Concept ;
-  dct:description "Built up (Anti-gradational activity)."@en ;
+  dcterms:description "Built up (Anti-gradational activity)."@en ;
   ui:isMemberOf lf:mode-of-geomorphological-activity ;
   rdfs:label "Built up"@en ;
   skos:definition "Built up (Anti-gradational activity)."@en ;
@@ -1702,7 +1702,7 @@ lf:mode-of-geomorphological-activity-BU
 .
 lf:mode-of-geomorphological-activity-EA
   a skos:Concept ;
-  dct:description "Eroded or aggraded (Gradational activity)."@en ;
+  dcterms:description "Eroded or aggraded (Gradational activity)."@en ;
   ui:isMemberOf lf:mode-of-geomorphological-activity ;
   rdfs:label "Eroded or aggraded"@en ;
   skos:definition "Eroded or aggraded (Gradational activity)."@en ;
@@ -1711,7 +1711,7 @@ lf:mode-of-geomorphological-activity-EA
 .
 lf:mode-of-geomorphological-activity-ER
   a skos:Concept ;
-  dct:description "Eroded (Gradational activity)."@en ;
+  dcterms:description "Eroded (Gradational activity)."@en ;
   ui:isMemberOf lf:mode-of-geomorphological-activity ;
   rdfs:label "Eroded"@en ;
   skos:definition "Eroded (Gradational activity)."@en ;
@@ -1720,7 +1720,7 @@ lf:mode-of-geomorphological-activity-ER
 .
 lf:mode-of-geomorphological-activity-EX
   a skos:Concept ;
-  dct:description "Excavated or dug out (Anti-gradational activity)."@en ;
+  dcterms:description "Excavated or dug out (Anti-gradational activity)."@en ;
   ui:isMemberOf lf:mode-of-geomorphological-activity ;
   rdfs:label "Excavated or dug out"@en ;
   skos:definition "Excavated or dug out (Anti-gradational activity)."@en ;
@@ -1729,7 +1729,7 @@ lf:mode-of-geomorphological-activity-EX
 .
 lf:mode-of-geomorphological-activity-HU
   a skos:Concept ;
-  dct:description "Heaved up or elevated (Anti-gradational activity)."@en ;
+  dcterms:description "Heaved up or elevated (Anti-gradational activity)."@en ;
   ui:isMemberOf lf:mode-of-geomorphological-activity ;
   rdfs:label "Heaved up or elevated"@en ;
   skos:definition "Heaved up or elevated (Anti-gradational activity)."@en ;
@@ -1738,7 +1738,7 @@ lf:mode-of-geomorphological-activity-HU
 .
 lf:mode-of-geomorphological-activity-SU
   a skos:Concept ;
-  dct:description "Subsided or depressed (Anti-gradational activity)."@en ;
+  dcterms:description "Subsided or depressed (Anti-gradational activity)."@en ;
   ui:isMemberOf lf:mode-of-geomorphological-activity ;
   rdfs:label "Subsided or depressed"@en ;
   skos:definition "Subsided or depressed (Anti-gradational activity)."@en ;
@@ -1747,7 +1747,7 @@ lf:mode-of-geomorphological-activity-SU
 .
 lf:morphological-type-C
   a skos:Concept ;
-  dct:description "Landform element that stands above all, or almost all, points in the adjacent terrain. It is characteristically smoothly convex upwards in downslope profile or in contour, or both. The margin of a crest element should be drawn at the limit of observed curvature."@en ;
+  dcterms:description "Landform element that stands above all, or almost all, points in the adjacent terrain. It is characteristically smoothly convex upwards in downslope profile or in contour, or both. The margin of a crest element should be drawn at the limit of observed curvature."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:label "Crest"@en ;
   skos:definition "Landform element that stands above all, or almost all, points in the adjacent terrain. It is characteristically smoothly convex upwards in downslope profile or in contour, or both. The margin of a crest element should be drawn at the limit of observed curvature."@en ;
@@ -1756,7 +1756,7 @@ lf:morphological-type-C
 .
 lf:morphological-type-D
   a skos:Concept ;
-  dct:description "Landform element that stands below all, or almost all, points in the adjacent terrain. A closed depression stands below all such points."@en ;
+  dcterms:description "Landform element that stands below all, or almost all, points in the adjacent terrain. A closed depression stands below all such points."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
   rdfs:label "Closed depression"@en ;
@@ -1766,7 +1766,7 @@ lf:morphological-type-D
 .
 lf:morphological-type-F
   a skos:Concept ;
-  dct:description "planar landform element that is neither a crest nor a depression and is level or very gently inclined (less than 3% tangent approximately)."@en ;
+  dcterms:description "planar landform element that is neither a crest nor a depression and is level or very gently inclined (less than 3% tangent approximately)."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:label "Flat"@en ;
   skos:definition "planar landform element that is neither a crest nor a depression and is level or very gently inclined (less than 3% tangent approximately)."@en ;
@@ -1775,7 +1775,7 @@ lf:morphological-type-F
 .
 lf:morphological-type-H
   a skos:Concept ;
-  dct:description "compound landform element comprising a narrow crest and short adjoining slopes, the crest length being less than the width of the landform element."@en ;
+  dcterms:description "compound landform element comprising a narrow crest and short adjoining slopes, the crest length being less than the width of the landform element."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:label "Hillock"@en ;
   skos:definition "compound landform element comprising a narrow crest and short adjoining slopes, the crest length being less than the width of the landform element."@en ;
@@ -1784,7 +1784,7 @@ lf:morphological-type-H
 .
 lf:morphological-type-L
   a skos:Concept ;
-  dct:description "slope element not adjacent below a crest or flat but adjacent above a flat or depression."@en ;
+  dcterms:description "slope element not adjacent below a crest or flat but adjacent above a flat or depression."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type requires a relative inclination of slope element modifier."""@en ;
@@ -1795,7 +1795,7 @@ This morphological type requires a relative inclination of slope element modifie
 .
 lf:morphological-type-LA
   a skos:Concept ;
-  dct:description "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is maximal."@en ;
+  dcterms:description "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is maximal."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1806,7 +1806,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-LI
   a skos:Concept ;
-  dct:description "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is minimal."@en ;
+  dcterms:description "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is minimal."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1817,7 +1817,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-LN
   a skos:Concept ;
-  dct:description "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is waning."@en ;
+  dcterms:description "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is waning."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1828,7 +1828,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-LX
   a skos:Concept ;
-  dct:description "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is waxing."@en ;
+  dcterms:description "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is waxing."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1839,7 +1839,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-M
   a skos:Concept ;
-  dct:description "slope element not adjacent below a crest or flat and not adjacent above a flat or depression."@en ;
+  dcterms:description "slope element not adjacent below a crest or flat and not adjacent above a flat or depression."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type requires a relative inclination of slope element modifier."""@en ;
@@ -1850,7 +1850,7 @@ This morphological type requires a relative inclination of slope element modifie
 .
 lf:morphological-type-MA
   a skos:Concept ;
-  dct:description "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is maximal."@en ;
+  dcterms:description "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is maximal."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1861,7 +1861,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-MI
   a skos:Concept ;
-  dct:description "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is minimal."@en ;
+  dcterms:description "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is minimal."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1872,7 +1872,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-MN
   a skos:Concept ;
-  dct:description "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is waning."@en ;
+  dcterms:description "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is waning."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1883,7 +1883,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-MX
   a skos:Concept ;
-  dct:description "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is waxing."@en ;
+  dcterms:description "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is waxing."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1894,7 +1894,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-R
   a skos:Concept ;
-  dct:description "compound landform element comprising a narrow crest and short adjoining slopes, the crest length being greater than the width of the landform element."@en ;
+  dcterms:description "compound landform element comprising a narrow crest and short adjoining slopes, the crest length being greater than the width of the landform element."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:label "Ridge"@en ;
   skos:definition "compound landform element comprising a narrow crest and short adjoining slopes, the crest length being greater than the width of the landform element."@en ;
@@ -1903,7 +1903,7 @@ lf:morphological-type-R
 .
 lf:morphological-type-S
   a skos:Concept ;
-  dct:description "slope element adjacent below a crest or flat and adjacent above a flat or depression."@en ;
+  dcterms:description "slope element adjacent below a crest or flat and adjacent above a flat or depression."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment "This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions."@en ;
   rdfs:label "Simple slope"@en ;
@@ -1913,7 +1913,7 @@ lf:morphological-type-S
 .
 lf:morphological-type-U
   a skos:Concept ;
-  dct:description "slope element adjacent below a crest or flat but not adjacent above a flat or depression."@en ;
+  dcterms:description "slope element adjacent below a crest or flat but not adjacent above a flat or depression."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type requires a relative inclination of slope element modifier."""@en ;
@@ -1924,7 +1924,7 @@ This morphological type requires a relative inclination of slope element modifie
 .
 lf:morphological-type-UA
   a skos:Concept ;
-  dct:description "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is maximal."@en ;
+  dcterms:description "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is maximal."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1935,7 +1935,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-UI
   a skos:Concept ;
-  dct:description "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is minimal."@en ;
+  dcterms:description "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is minimal."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1946,7 +1946,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-UN
   a skos:Concept ;
-  dct:description "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is waning."@en ;
+  dcterms:description "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is waning."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1957,7 +1957,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-UX
   a skos:Concept ;
-  dct:description "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is waxing."@en ;
+  dcterms:description "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is waxing."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment """This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions.
 This morphological type has a relative inclination of slope element modifier."""@en ;
@@ -1968,7 +1968,7 @@ This morphological type has a relative inclination of slope element modifier."""
 .
 lf:morphological-type-V
   a skos:Concept ;
-  dct:description "Landform element that stands below all, or almost all, points in the adjacent terrain. An open depression extends at the same elevation, or lower."@en ;
+  dcterms:description "Landform element that stands below all, or almost all, points in the adjacent terrain. An open depression extends at the same elevation, or lower."@en ;
   ui:isMemberOf lf:morphological-types ;
   rdfs:comment "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
   rdfs:label "Open depression (vale)"@en ;
@@ -1978,7 +1978,7 @@ lf:morphological-type-V
 .
 lf:morphological-types
   a skos:Collection ;
-  dct:description "Landform elements fall into morphological types as sketched in Figure 1. Ten types are distinguished."@en ;
+  dcterms:description "Landform elements fall into morphological types as sketched in Figure 1. Ten types are distinguished."@en ;
   rdfs:label "Morphological type"@en ;
   skos:definition "Landform elements fall into morphological types as sketched in Figure 1. Ten types are distinguished."@en ;
   skos:member lf:compound-morphological-types ;
@@ -2009,7 +2009,7 @@ lf:morphological-types
 .
 lf:relative-inclination-of-slope-elements
   a skos:Collection ;
-  dct:description "Although lower slopes are often gentler than upper slopes, they need not be so (Figure 1i). A separate morphological attribute expresses the relative inclination of adjacent landform elements in a toposequence."@en ;
+  dcterms:description "Although lower slopes are often gentler than upper slopes, they need not be so (Figure 1i). A separate morphological attribute expresses the relative inclination of adjacent landform elements in a toposequence."@en ;
   rdfs:label "Relative inclination of slope elements"@en ;
   skos:definition "Although lower slopes are often gentler than upper slopes, they need not be so (Figure 1i). A separate morphological attribute expresses the relative inclination of adjacent landform elements in a toposequence."@en ;
   skos:member lf:relative-inclination-of-slope-elements-A ;
@@ -2020,7 +2020,7 @@ lf:relative-inclination-of-slope-elements
 .
 lf:relative-inclination-of-slope-elements-A
   a skos:Concept ;
-  dct:description "element upslope is gentler, element downslope is gentler."@en ;
+  dcterms:description "element upslope is gentler, element downslope is gentler."@en ;
   ui:isMemberOf lf:relative-inclination-of-slope-elements ;
   rdfs:label "Maximal"@en ;
   skos:definition "element upslope is gentler, element downslope is gentler."@en ;
@@ -2029,7 +2029,7 @@ lf:relative-inclination-of-slope-elements-A
 .
 lf:relative-inclination-of-slope-elements-I
   a skos:Concept ;
-  dct:description "element upslope is steeper, element downslope is steeper."@en ;
+  dcterms:description "element upslope is steeper, element downslope is steeper."@en ;
   ui:isMemberOf lf:relative-inclination-of-slope-elements ;
   rdfs:label "Minimal"@en ;
   skos:definition "element upslope is steeper, element downslope is steeper."@en ;
@@ -2038,7 +2038,7 @@ lf:relative-inclination-of-slope-elements-I
 .
 lf:relative-inclination-of-slope-elements-N
   a skos:Concept ;
-  dct:description "element upslope is steeper, element downslope is gentler."@en ;
+  dcterms:description "element upslope is steeper, element downslope is gentler."@en ;
   ui:isMemberOf lf:relative-inclination-of-slope-elements ;
   rdfs:label "Waning"@en ;
   skos:definition "element upslope is steeper, element downslope is gentler."@en ;
@@ -2047,7 +2047,7 @@ lf:relative-inclination-of-slope-elements-N
 .
 lf:relative-inclination-of-slope-elements-X
   a skos:Concept ;
-  dct:description "element upslope is gentler, element downslope is steeper."@en ;
+  dcterms:description "element upslope is gentler, element downslope is steeper."@en ;
   ui:isMemberOf lf:relative-inclination-of-slope-elements ;
   rdfs:label "Waxing"@en ;
   skos:definition "element upslope is gentler, element downslope is steeper."@en ;
@@ -2057,7 +2057,7 @@ lf:relative-inclination-of-slope-elements-X
 lf:relief
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description """Relief is defined as the difference in elevation between the high and low points of a land surface. Its estimation will be made easier by visualising two surfaces of accordance that are planar or gently curved, one touching the major crests of a landform pattern, and the other passing through the major depressions. The average vertical separation of the two surfaces is a measure of the relief. Make this estimation at a field site, either visually or by using a map, and express it in metres.
+  dcterms:description """Relief is defined as the difference in elevation between the high and low points of a land surface. Its estimation will be made easier by visualising two surfaces of accordance that are planar or gently curved, one touching the major crests of a landform pattern, and the other passing through the major depressions. The average vertical separation of the two surfaces is a measure of the relief. Make this estimation at a field site, either visually or by using a map, and express it in metres.
 Relief is the definitive characteristic for the terms mountains, hills, low hills, rises and plains when used as types of erosional landform pattern (Table 5). The class boundaries, shown in Tables 5 and 6, are set at 300 m, 90 m, 30 m and 9 m. These class limits and the class names are similar to those used by Löffler (1974), and are broadly compatible with those of Löffler and Ruxton (1969).
 Table 6 lists types of landform pattern defined in the glossary according to their typical relief class. Those types for which the relief class is definitive are in italics."""@en ;
   rdfs:label "Relief"@en ;
@@ -2073,7 +2073,7 @@ Table 6 lists types of landform pattern defined in the glossary according to the
 .
 lf:relief-class-H
   a skos:Concept ;
-  dct:description "High relief, 90-300 m, (~150 m)"@en ;
+  dcterms:description "High relief, 90-300 m, (~150 m)"@en ;
   ui:isMemberOf lf:relief ;
   rdfs:label "High"@en ;
   skos:definition "High relief, 90-300 m, (~150 m)"@en ;
@@ -2082,7 +2082,7 @@ lf:relief-class-H
 .
 lf:relief-class-L
   a skos:Concept ;
-  dct:description "Low relief, 30-90 m, (~50 m)"@en ;
+  dcterms:description "Low relief, 30-90 m, (~50 m)"@en ;
   ui:isMemberOf lf:relief ;
   rdfs:label "Low"@en ;
   skos:definition "Low relief, 30-90 m, (~50 m)"@en ;
@@ -2091,7 +2091,7 @@ lf:relief-class-L
 .
 lf:relief-class-M
   a skos:Concept ;
-  dct:description "Very high relief, >300 m, (~500 m)"@en ;
+  dcterms:description "Very high relief, >300 m, (~500 m)"@en ;
   ui:isMemberOf lf:relief ;
   rdfs:label "Very high"@en ;
   skos:definition "Very high relief, >300 m, (~500 m)"@en ;
@@ -2100,7 +2100,7 @@ lf:relief-class-M
 .
 lf:relief-class-P
   a skos:Concept ;
-  dct:description "Extremely low relief, <9 m, (~5 m)"@en ;
+  dcterms:description "Extremely low relief, <9 m, (~5 m)"@en ;
   ui:isMemberOf lf:relief ;
   rdfs:label "Extremely low"@en ;
   skos:definition "Extremely low relief, <9 m, (~5 m)"@en ;
@@ -2109,7 +2109,7 @@ lf:relief-class-P
 .
 lf:relief-class-R
   a skos:Concept ;
-  dct:description "Low relief, 30-90 m, (~50 m)"@en ;
+  dcterms:description "Low relief, 30-90 m, (~50 m)"@en ;
   ui:isMemberOf lf:relief ;
   rdfs:label "Very low"@en ;
   skos:definition "Very low relief, 9-30 m, (~15 m)"@en ;
@@ -2118,7 +2118,7 @@ lf:relief-class-R
 .
 lf:slope
   a skos:Collection ;
-  dct:description "Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element."@en ;
+  dcterms:description "Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element."@en ;
   rdfs:label "Slope of landform element"@en ;
   skos:definition "Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element."@en ;
   skos:member lf:slope-classes ;
@@ -2127,7 +2127,7 @@ lf:slope
 .
 lf:slope-class-CL
   a skos:Concept ;
-  dct:description "A slope tangent boundary of > 300% (72°) with average slope 500% (80°)" ;
+  dcterms:description "A slope tangent boundary of > 300% (72°) with average slope 500% (80°)" ;
   ui:isMemberOf lf:slope-classes ;
   rdfs:label "Cliffed" ;
   skos:definition "A slope tangent boundary of > 300% (72°) with average slope 500% (80°)" ;
@@ -2136,7 +2136,7 @@ lf:slope-class-CL
 .
 lf:slope-class-GE
   a skos:Concept ;
-  dct:description "A slope tangent boundary of 3-10% (5°45') with average slope 6% (3°)" ;
+  dcterms:description "A slope tangent boundary of 3-10% (5°45') with average slope 6% (3°)" ;
   ui:isMemberOf lf:slope-classes ;
   rdfs:label "Gently inclined" ;
   skos:definition "A slope tangent boundary of 3-10% (5°45') with average slope 6% (3°)" ;
@@ -2145,7 +2145,7 @@ lf:slope-class-GE
 .
 lf:slope-class-LE
   a skos:Concept ;
-  dct:description "A slope tangent boundary of 0-1 % (35') with average slope 0.6% (20')" ;
+  dcterms:description "A slope tangent boundary of 0-1 % (35') with average slope 0.6% (20')" ;
   ui:isMemberOf lf:slope-classes ;
   rdfs:label "Level" ;
   skos:definition "A slope tangent boundary of 0-1% (0°35') with average slope 0.6% (0°20')" ;
@@ -2154,7 +2154,7 @@ lf:slope-class-LE
 .
 lf:slope-class-MO
   a skos:Concept ;
-  dct:description "A slope tangent boundary of 10-32% (18°) with average slope 20% (10°)" ;
+  dcterms:description "A slope tangent boundary of 10-32% (18°) with average slope 20% (10°)" ;
   ui:isMemberOf lf:slope-classes ;
   rdfs:label "Moderately inclined" ;
   skos:definition "A slope tangent boundary of 10-32% (18°) with average slope 20% (10°)" ;
@@ -2163,7 +2163,7 @@ lf:slope-class-MO
 .
 lf:slope-class-PR
   a skos:Concept ;
-  dct:description "A slope tangent boundary of 100-300% (72°) with average slope 170% (60°)" ;
+  dcterms:description "A slope tangent boundary of 100-300% (72°) with average slope 170% (60°)" ;
   ui:isMemberOf lf:slope-classes ;
   rdfs:label "Precipitous" ;
   skos:definition "A slope tangent boundary of 100-300% (72°) with average slope 170% (60°)" ;
@@ -2172,7 +2172,7 @@ lf:slope-class-PR
 .
 lf:slope-class-ST
   a skos:Concept ;
-  dct:description "A slope tangent boundary of 32-56% (30°) with average slope 40% (23°)" ;
+  dcterms:description "A slope tangent boundary of 32-56% (30°) with average slope 40% (23°)" ;
   ui:isMemberOf lf:slope-classes ;
   rdfs:label "Steep" ;
   skos:definition "A slope tangent boundary of 32-56% (30°) with average slope 40% (23°)" ;
@@ -2181,7 +2181,7 @@ lf:slope-class-ST
 .
 lf:slope-class-VG
   a skos:Concept ;
-  dct:description "A slope tangent boundary of 1-3 % (1°45') with average slope 1% (1°)" ;
+  dcterms:description "A slope tangent boundary of 1-3 % (1°45') with average slope 1% (1°)" ;
   ui:isMemberOf lf:slope-classes ;
   rdfs:label "Very gently inclined" ;
   skos:definition "A slope tangent boundary of 1-3 % (1°45') with average slope 1% (1°)" ;
@@ -2190,7 +2190,7 @@ lf:slope-class-VG
 .
 lf:slope-class-VS
   a skos:Concept ;
-  dct:description "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)" ;
+  dcterms:description "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)" ;
   ui:isMemberOf lf:slope-classes ;
   rdfs:label "Very steep" ;
   skos:definition "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)" ;
@@ -2200,7 +2200,7 @@ lf:slope-class-VS
 lf:slope-classes
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description """Slope classes are defined in Table 2. The optional word ‘inclined’ is used to distinguish slope from other attributes, for example ‘gently inclined footslope’ from ‘gently undulating rises’, and ‘moderately inclined hillslope’ from ‘moderately spaced streams’.
+  dcterms:description """Slope classes are defined in Table 2. The optional word ‘inclined’ is used to distinguish slope from other attributes, for example ‘gently inclined footslope’ from ‘gently undulating rises’, and ‘moderately inclined hillslope’ from ‘moderately spaced streams’.
 The class boundaries given in Table 2, and repeated in Table 4, are simply boundaries separating slope terms in common use, adjusted to regular logarithmic intervals. They do not refer to observed natural clustering of slope values, since such clustering has not been shown to occur; nor do they relate precisely to boundary criteria for land use, which vary arbitrarily between organisations and which may change with advancing technology.
 It may sometimes be advantageous to split each of the classes ‘very gently inclined’, ‘gently inclined’ and ‘moderately inclined’ into two levels, the appropriate boundary values being 1.8%, 5.6% and 18%.
 There may also be compelling reasons for using other schemes of slope classes. However, schemes that do not have constant class widths from low to high slope values can lead to problems in subsequent statistical work. {@en}
@@ -2223,7 +2223,7 @@ There may also be compelling reasons for using other schemes of slope classes. H
 .
 lf:slope-evaluation-A
   a skos:Concept ;
-  dct:description "Abney level or clinometer and tape" ;
+  dcterms:description "Abney level or clinometer and tape" ;
   ui:isMemberOf lf:slope-evaluations ;
   rdfs:label "Abney level or clinometer and tape" ;
   skos:definition "Abney level or clinometer and tape" ;
@@ -2232,7 +2232,7 @@ lf:slope-evaluation-A
 .
 lf:slope-evaluation-E
   a skos:Concept ;
-  dct:description "Estimate" ;
+  dcterms:description "Estimate" ;
   ui:isMemberOf lf:slope-evaluations ;
   rdfs:label "Estimate" ;
   skos:definition "Estimate" ;
@@ -2241,7 +2241,7 @@ lf:slope-evaluation-E
 .
 lf:slope-evaluation-P
   a skos:Concept ;
-  dct:description "Contour plan at 1:10 000 or larger scale" ;
+  dcterms:description "Contour plan at 1:10 000 or larger scale" ;
   ui:isMemberOf lf:slope-evaluations ;
   rdfs:label "Contour plan at 1:10 000 or larger scale" ;
   skos:definition "Contour plan at 1:10 000 or larger scale" ;
@@ -2250,7 +2250,7 @@ lf:slope-evaluation-P
 .
 lf:slope-evaluation-T
   a skos:Concept ;
-  dct:description "Tripod-mounted instrument and staff"@en ;
+  dcterms:description "Tripod-mounted instrument and staff"@en ;
   ui:isMemberOf lf:slope-evaluations ;
   rdfs:label "Tripod-mounted instrument and staff"@en ;
   skos:definition "Tripod-mounted instrument and staff"@en ;
@@ -2259,7 +2259,7 @@ lf:slope-evaluation-T
 .
 lf:slope-evaluations
   a skos:Collection ;
-  dct:description "Means of evaluation of slope" ;
+  dcterms:description "Means of evaluation of slope" ;
   ui:isMemberOf lf:slope ;
   rdfs:label "Means of evaluation of slope" ;
   skos:definition "Means of evaluation of slope" ;
@@ -2270,7 +2270,7 @@ lf:slope-evaluations
 .
 lf:slope-value
   a sosa:ObservableProperty ;
-  dct:description "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
+  dcterms:description "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
   ui:isMemberOf lf:slope ;
   rdfs:label "Slope %" ;
   skos:definition "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
