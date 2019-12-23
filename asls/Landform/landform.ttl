@@ -2087,6 +2087,7 @@ lf:slope
   skos:definition "Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element."@en ;
   skos:member lf:slope-classes ;
   skos:member lf:slope-evaluations ;
+  skos:member lf:slope-value ;
   skos:prefLabel "Slope of landform element"@en ;
 .
 lf:slope-class-CL
@@ -2233,6 +2234,7 @@ lf:slope-evaluations
   skos:member lf:slope-evaluation-T ;
 .
 lf:slope-value
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   dcterms:description "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
   ui:isMemberOf lf:slope ;
