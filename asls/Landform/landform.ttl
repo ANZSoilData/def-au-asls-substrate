@@ -92,6 +92,7 @@ lf:geomorphological-agent-BI
   a skos:Concept ;
   dcterms:description "Non-human biological agents; coral (Biological agents)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Biological agent" ;
   rdfs:label "Non-human biological agents"@en ;
   skos:definition "Non-human biological agents; coral (Biological agents)."@en ;
   skos:notation "BI" ;
@@ -101,6 +102,7 @@ lf:geomorphological-agent-CH
   a skos:Concept ;
   dcterms:description "Channelled stream flow (Stream flow)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Stream flow" ;
   rdfs:label "Channelled stream flow"@en ;
   skos:definition "Channelled stream flow (Stream flow)."@en ;
   skos:notation "CH" ;
@@ -110,6 +112,7 @@ lf:geomorphological-agent-DI
   a skos:Concept ;
   dcterms:description "Diastrophism; earth movements (Internal forces)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Internal forces" ;
   rdfs:label "Diastrophism"@en ;
   skos:definition "Diastrophism; earth movements (Internal forces)."@en ;
   skos:notation "DI" ;
@@ -119,6 +122,7 @@ lf:geomorphological-agent-EU
   a skos:Concept ;
   dcterms:description "Eustasy; changes in sea level (Standing water)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Standing water" ;
   rdfs:label "Eustasy"@en ;
   skos:definition "Eustasy; changes in sea level (Standing water)."@en ;
   skos:notation "EU" ;
@@ -128,6 +132,7 @@ lf:geomorphological-agent-FR
   a skos:Concept ;
   dcterms:description "Frost (Ice)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Ice" ;
   rdfs:label "Frost"@en ;
   skos:definition "Frost (Ice)."@en ;
   skos:notation "FR" ;
@@ -137,6 +142,7 @@ lf:geomorphological-agent-GL
   a skos:Concept ;
   dcterms:description "Glacier flow (Ice)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Ice" ;
   rdfs:label "Glacier flow"@en ;
   skos:definition "Glacier flow (Ice)."@en ;
   skos:notation "GL" ;
@@ -146,6 +152,7 @@ lf:geomorphological-agent-GR
   a skos:Concept ;
   dcterms:description "Collapse, or particle fall."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Gravity" ;
   rdfs:label "Gravity"@en ;
   skos:definition "Collapse, or particle fall."@en ;
   skos:notation "GR" ;
@@ -155,6 +162,7 @@ lf:geomorphological-agent-HU
   a skos:Concept ;
   dcterms:description "Human agents (Biological agents)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Biological agents" ;
   rdfs:label "Human agents"@en ;
   skos:definition "Human agents (Biological agents)."@en ;
   skos:notation "HU" ;
@@ -164,6 +172,7 @@ lf:geomorphological-agent-IM
   a skos:Concept ;
   dcterms:description "Impact by meteors (Extraterrestrial agents)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Extraterrestrial agents" ;
   rdfs:label "Impact by meteors"@en ;
   skos:definition "Impact by meteors (Extraterrestrial agents)."@en ;
   skos:notation "IM" ;
@@ -173,6 +182,7 @@ lf:geomorphological-agent-OV
   a skos:Concept ;
   dcterms:description "Overbank stream flow, unchannelled (Stream flow)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Stream flow" ;
   rdfs:label "Overbank stream flow, unchannelled"@en ;
   skos:definition "Overbank stream flow, unchannelled (Stream flow)."@en ;
   skos:notation "OV" ;
@@ -182,6 +192,7 @@ lf:geomorphological-agent-SH
   a skos:Concept ;
   dcterms:description "Sheet flow, sheet wash, surface wash (Precipitation)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Precipitation" ;
   rdfs:label "Sheet flow, sheet wash, surface wash"@en ;
   skos:definition "Sheet flow, sheet wash, surface wash (Precipitation)."@en ;
   skos:notation "SH" ;
@@ -191,6 +202,7 @@ lf:geomorphological-agent-SM
   a skos:Concept ;
   dcterms:description "Soil moisture status changes; creep (Precipitation)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Precipitation" ;
   rdfs:label "Soil moisture status changes"@en ;
   skos:definition "Soil moisture status changes; creep (Precipitation)."@en ;
   skos:notation "SM" ;
@@ -200,6 +212,7 @@ lf:geomorphological-agent-SO
   a skos:Concept ;
   dcterms:description "Solution (Precipitation)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Precipitation" ;
   rdfs:label "Solution"@en ;
   skos:definition "Solution (Precipitation)."@en ;
   skos:notation "SO" ;
@@ -209,6 +222,7 @@ lf:geomorphological-agent-TI
   a skos:Concept ;
   dcterms:description "Tides (Standing water)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Standing water" ;
   rdfs:label "Tides"@en ;
   skos:definition "Tides (Standing water)."@en ;
   skos:notation "TI" ;
@@ -218,6 +232,7 @@ lf:geomorphological-agent-VO
   a skos:Concept ;
   dcterms:description "Volcanism (Internal forces)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Internal forces" ;
   rdfs:label "Volcanism"@en ;
   skos:definition "Volcanism (Internal forces)."@en ;
   skos:notation "VO" ;
@@ -227,6 +242,7 @@ lf:geomorphological-agent-WA
   a skos:Concept ;
   dcterms:description "Waves (Standing water)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Standing water" ;
   rdfs:label "Waves"@en ;
   skos:definition "Waves (Standing water)."@en ;
   skos:notation "WA" ;
@@ -236,6 +252,7 @@ lf:geomorphological-agent-WI
   a skos:Concept ;
   dcterms:description "Wind (Wind)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Wind" ;
   rdfs:label "Wind"@en ;
   skos:definition "Wind (Wind)."@en ;
   skos:notation "WI" ;
@@ -245,6 +262,7 @@ lf:geomorphological-agent-WM
   a skos:Concept ;
   dcterms:description "Water-aided mass movements; landslides (Precipitation)."@en ;
   ui:isMemberOf lf:geomorphological-agents ;
+  rdfs:comment "Precipitation" ;
   rdfs:label "Water-aided mass movements"@en ;
   skos:definition "Water-aided mass movements; landslides (Precipitation)."@en ;
   skos:notation "WM" ;
@@ -998,7 +1016,6 @@ lf:landform-element-descriptions
   rdfs:label "Description of landform element" ;
   skos:member lf:element-dimensions ;
   skos:member lf:geomorphological-agents ;
-  skos:member lf:landform-genesis ;
   skos:member lf:location-within-the-landform-element ;
   skos:member lf:location-within-toposequence ;
   skos:member lf:mode-of-geomorphological-activity ;
@@ -1113,6 +1130,9 @@ lf:landform-pattern-ALF
   rdfs:label "Alluvial fan"@en ;
   rdfs:seeAlso lf:landform-pattern-ALF-common-elements ;
   rdfs:seeAlso lf:landform-pattern-ALF-typical-elements ;
+  rdfs:seeAlso lf:relief-class-P ;
+  rdfs:seeAlso lf:slope-class-LE ;
+  rdfs:seeAlso lf:slope-class-VG ;
   skos:definition "level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps."@en ;
   skos:notation "ALF" ;
   skos:prefLabel "Alluvial fan"@en ;
@@ -1506,6 +1526,12 @@ lf:landform-pattern-VOL
   skos:notation "VOL" ;
   skos:prefLabel "Volcano"@en ;
 .
+lf:landform-pattern-common-elements
+  a skos:Collection ;
+  rdfs:label "Collections of elements commonly found in specific landform patterns" ;
+  skos:member lf:landform-pattern-ALF-common-elements ;
+  skos:member lf:landform-pattern-ALP-common-elements ;
+.
 lf:landform-pattern-descriptions
   a skos:Collection ;
   rdfs:label "Description of landform element" ;
@@ -1558,6 +1584,17 @@ lf:landform-pattern-glossary
   skos:member lf:landform-pattern-TER ;
   skos:member lf:landform-pattern-TID ;
   skos:member lf:landform-pattern-VOL ;
+.
+lf:landform-pattern-occasional-elements
+  a skos:Collection ;
+  rdfs:label "Collections of elements occasionally found in specific landform patterns" ;
+  skos:member lf:landform-pattern-ALP-occasional-elements ;
+.
+lf:landform-pattern-typical-elements
+  a skos:Collection ;
+  rdfs:label "Collections of elements typically found in specific landform patterns" ;
+  skos:member lf:landform-pattern-ALF-typical-elements ;
+  skos:member lf:landform-pattern-ALP-typical-elements ;
 .
 lf:location-within-the-landform-element
   a skos:Collection ;
@@ -1629,7 +1666,8 @@ Table 7 lists types of landform pattern in order of their typical class of modal
 .
 lf:mode-of-geomorphological-activity
   a skos:Collection ;
-  dcterms:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure3.pdf\" /></p>"@en ;
+  dcterms:description """<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure3.pdf\" /></p> {@en}
+<p> Figure 3 Modes of geomorphological activity </p>"""@en ;
   ui:isMemberOf asls:landform ;
   rdfs:comment """Gradational activities are those that tend to reduce the land to a common elevation by removing material from higher places and depositing it in lower places (Chamberlin and Salisbury 1904, page 2), without necessarily reducing the angle of slope at every point. The work of streams and landslides is almost entirely in the gradational modes. However, this tendency is opposed by many processes that commonly act in an anti-gradational mode. These modes are characteristic of volcanism, diastrophism and various kinds of human and biological activity.
 However, many engineering works involve erosion and aggradation because these gradational modes use less energy than anti-gradational modes. For the same reason, erosion and aggradation may easily be induced unintentionally by land use (pages 92–96).
