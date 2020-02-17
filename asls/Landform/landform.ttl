@@ -34,7 +34,7 @@ asls:landform
   ui:hierarchyChildProperty skos:member ;
   ui:hierarchyRootProperty ui:topMemberOf ;
   ui:isMemberOf lf:landform-element-descriptions ;
-  rdfs:label "Landform classifiers" ;
+  rdfs:label "Landform classifiers"@en ;
   rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
   owl:imports dc: ;
   owl:imports <http://purl.org/linked-data/registry> ;
@@ -1013,7 +1013,7 @@ lf:landform-element-VLF
 .
 lf:landform-element-descriptions
   a skos:Collection ;
-  rdfs:label "Description of landform element" ;
+  rdfs:label "Description of landform element"@en ;
   skos:member lf:element-dimensions ;
   skos:member lf:geomorphological-agents ;
   skos:member lf:location-within-the-landform-element ;
@@ -1024,7 +1024,7 @@ lf:landform-element-descriptions
 .
 lf:landform-element-glossary
   a skos:Collection ;
-  rdfs:label "Glossary of landform elements" ;
+  rdfs:label "Glossary of landform elements"@en ;
   skos:member lf:landform-element-ALC ;
   skos:member lf:landform-element-BAN ;
   skos:member lf:landform-element-BAR ;
@@ -1110,12 +1110,12 @@ lf:landform-genesis
   dcterms:description """The two following sections on geomorphological modes and agents refer to the inferred genesis of a landform element. This genesis may have spanned thousands of years. Changes, such as erosion and aggradation, that are produced by current land use are separately assessed as attributes of the land surface (pages 92–96).
 To think clearly about the origin of a landform, one should ask two questions: ‘What agent formed it?’ and ‘What was the mode of activity of that agent?’
 Landforms created by different agents, such as wind, creep, and stream flow, may result from the same mode of geomorphological activity: erosion, for example. Those created by the same agent may differ according to whether the mode of activity builds them up or erodes them down.
-""" ;
+"""@en ;
   rdfs:label "Landform genesis"@en ;
   skos:definition """The two following sections on geomorphological modes and agents refer to the inferred genesis of a landform element. This genesis may have spanned thousands of years. Changes, such as erosion and aggradation, that are produced by current land use are separately assessed as attributes of the land surface (pages 92–96).
 To think clearly about the origin of a landform, one should ask two questions: ‘What agent formed it?’ and ‘What was the mode of activity of that agent?’
 Landforms created by different agents, such as wind, creep, and stream flow, may result from the same mode of geomorphological activity: erosion, for example. Those created by the same agent may differ according to whether the mode of activity builds them up or erodes them down.
-""" ;
+"""@en ;
   skos:member lf:geomorphological-agents ;
   skos:member lf:mode-of-geomorphological-activity ;
   skos:prefLabel "Landform genesis"@en ;
@@ -1139,12 +1139,12 @@ lf:landform-pattern-ALF
 .
 lf:landform-pattern-ALF-common-elements
   a skos:Collection ;
-  rdfs:label "Common elements of an Alluvial fan" ;
+  rdfs:label "Common elements of an Alluvial fan"@en ;
   skos:member lf:landform-element-SCA ;
 .
 lf:landform-pattern-ALF-typical-elements
   a skos:Collection ;
-  rdfs:label "Typical elements of an Alluvial fan" ;
+  rdfs:label "Typical elements of an Alluvial fan"@en ;
   skos:member lf:landform-element-BAR ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
@@ -1163,7 +1163,7 @@ lf:landform-pattern-ALP
 .
 lf:landform-pattern-ALP-common-elements
   a skos:Collection ;
-  rdfs:label "Common elements of an Alluvial plain" ;
+  rdfs:label "Common elements of an Alluvial plain"@en ;
   skos:member lf:landform-element-BAR ;
   skos:member lf:landform-element-BKP ;
   skos:member lf:landform-element-LEV ;
@@ -1172,14 +1172,14 @@ lf:landform-pattern-ALP-common-elements
 .
 lf:landform-pattern-ALP-occasional-elements
   a skos:Collection ;
-  rdfs:label "Occasional elements of an Alluvial plain" ;
+  rdfs:label "Occasional elements of an Alluvial plain"@en ;
   skos:member lf:landform-element-FLD ;
   skos:member lf:landform-element-LAK ;
   skos:member lf:landform-element-OXB ;
 .
 lf:landform-pattern-ALP-typical-elements
   a skos:Collection ;
-  rdfs:label "Typical elements of an Alluvial plain" ;
+  rdfs:label "Typical elements of an Alluvial plain"@en ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
   skos:member lf:landform-element-STC ;
@@ -1404,10 +1404,10 @@ lf:landform-pattern-PED
   a skos:Concept ;
   dcterms:description "gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
-  rdfs:label "Pediment"@en ;
+  rdfs:label "Pediment (pattern)"@en ;
   skos:definition "gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes."@en ;
   skos:notation "PED" ;
-  skos:prefLabel "Pediment"@en ;
+  skos:prefLabel "Pediment (pattern)"@en ;
 .
 lf:landform-pattern-PEP
   a skos:Concept ;
@@ -1422,10 +1422,10 @@ lf:landform-pattern-PLA
   a skos:Concept ;
   dcterms:description "level to undulating or, rarely, rolling landform pattern of extremely low relief (less than 9 m)."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
-  rdfs:label "Plain"@en ;
+  rdfs:label "Plain (pattern)"@en ;
   skos:definition "level to undulating or, rarely, rolling landform pattern of extremely low relief (less than 9 m)."@en ;
   skos:notation "PLA" ;
-  skos:prefLabel "Plain"@en ;
+  skos:prefLabel "Plain (pattern)"@en ;
 .
 lf:landform-pattern-PLT
   a skos:Concept ;
@@ -1512,10 +1512,10 @@ lf:landform-pattern-TID
   a skos:Concept ;
   dcterms:description "level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides."@en ;
   ui:isMemberOf lf:landform-pattern-glossary ;
-  rdfs:label "Tidal flat"@en ;
+  rdfs:label "Tidal flat (pattern)"@en ;
   skos:definition "level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides."@en ;
   skos:notation "TID" ;
-  skos:prefLabel "Tidal flat"@en ;
+  skos:prefLabel "Tidal flat (pattern)"@en ;
 .
 lf:landform-pattern-VOL
   a skos:Concept ;
@@ -1528,13 +1528,13 @@ lf:landform-pattern-VOL
 .
 lf:landform-pattern-common-elements
   a skos:Collection ;
-  rdfs:label "Collections of elements commonly found in specific landform patterns" ;
+  rdfs:label "Collections of elements commonly found in specific landform patterns"@en ;
   skos:member lf:landform-pattern-ALF-common-elements ;
   skos:member lf:landform-pattern-ALP-common-elements ;
 .
 lf:landform-pattern-descriptions
   a skos:Collection ;
-  rdfs:label "Description of landform element" ;
+  rdfs:label "Description of landform element"@en ;
   skos:member lf:geomorphological-agents ;
   skos:member lf:modal-slope ;
   skos:member lf:mode-of-geomorphological-activity ;
@@ -1543,7 +1543,7 @@ lf:landform-pattern-descriptions
 .
 lf:landform-pattern-glossary
   a skos:Collection ;
-  rdfs:label "Glossary of landform patterns" ;
+  rdfs:label "Glossary of landform patterns"@en ;
   skos:member lf:landform-pattern-ALF ;
   skos:member lf:landform-pattern-ALP ;
   skos:member lf:landform-pattern-ANA ;
@@ -1587,24 +1587,24 @@ lf:landform-pattern-glossary
 .
 lf:landform-pattern-occasional-elements
   a skos:Collection ;
-  rdfs:label "Collections of elements occasionally found in specific landform patterns" ;
+  rdfs:label "Collections of elements occasionally found in specific landform patterns"@en ;
   skos:member lf:landform-pattern-ALP-occasional-elements ;
 .
 lf:landform-pattern-typical-elements
   a skos:Collection ;
-  rdfs:label "Collections of elements typically found in specific landform patterns" ;
+  rdfs:label "Collections of elements typically found in specific landform patterns"@en ;
   skos:member lf:landform-pattern-ALF-typical-elements ;
   skos:member lf:landform-pattern-ALP-typical-elements ;
 .
 lf:location-within-the-landform-element
   a skos:Collection ;
-  dcterms:description "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:" ;
-  rdfs:label "Location within the landform element" ;
-  skos:definition "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:" ;
+  dcterms:description "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:"@en ;
+  rdfs:label "Location within the landform element"@en ;
+  skos:definition "A site chosen to represent a landform element will often be placed centrally within it. For various reasons, a site may not be centrally placed and this should be recorded. The vertical position of the site within the height of the landform element may be the best measure:"@en ;
   skos:member lf:location-within-the-landform-element-B ;
   skos:member lf:location-within-the-landform-element-M ;
   skos:member lf:location-within-the-landform-element-T ;
-  skos:prefLabel "Location within the landform element" ;
+  skos:prefLabel "Location within the landform element"@en ;
 .
 lf:location-within-the-landform-element-B
   a skos:Concept ;
@@ -2130,73 +2130,73 @@ lf:slope
 .
 lf:slope-class-CL
   a skos:Concept ;
-  dcterms:description "A slope tangent boundary of > 300% (72°) with average slope 500% (80°)" ;
+  dcterms:description "A slope tangent boundary of > 300% (72°) with average slope 500% (80°)"@en ;
   ui:isMemberOf lf:slope-classes ;
-  rdfs:label "Cliffed" ;
-  skos:definition "A slope tangent boundary of > 300% (72°) with average slope 500% (80°)" ;
+  rdfs:label "Cliffed"@en ;
+  skos:definition "A slope tangent boundary of > 300% (72°) with average slope 500% (80°)"@en ;
   skos:notation "CL" ;
   skos:prefLabel "Cliffed"@en ;
 .
 lf:slope-class-GE
   a skos:Concept ;
-  dcterms:description "A slope tangent boundary of 3-10% (5°45') with average slope 6% (3°)" ;
+  dcterms:description "A slope tangent boundary of 3-10% (5°45') with average slope 6% (3°)"@en ;
   ui:isMemberOf lf:slope-classes ;
-  rdfs:label "Gently inclined" ;
-  skos:definition "A slope tangent boundary of 3-10% (5°45') with average slope 6% (3°)" ;
+  rdfs:label "Gently inclined"@en ;
+  skos:definition "A slope tangent boundary of 3-10% (5°45') with average slope 6% (3°)"@en ;
   skos:notation "GE" ;
   skos:prefLabel "Gently inclined"@en ;
 .
 lf:slope-class-LE
   a skos:Concept ;
-  dcterms:description "A slope tangent boundary of 0-1 % (35') with average slope 0.6% (20')" ;
+  dcterms:description "A slope tangent boundary of 0-1 % (35') with average slope 0.6% (20')"@en ;
   ui:isMemberOf lf:slope-classes ;
-  rdfs:label "Level" ;
-  skos:definition "A slope tangent boundary of 0-1% (0°35') with average slope 0.6% (0°20')" ;
+  rdfs:label "Level"@en ;
+  skos:definition "A slope tangent boundary of 0-1% (0°35') with average slope 0.6% (0°20')"@en ;
   skos:notation "LE" ;
   skos:prefLabel "level"@en ;
 .
 lf:slope-class-MO
   a skos:Concept ;
-  dcterms:description "A slope tangent boundary of 10-32% (18°) with average slope 20% (10°)" ;
+  dcterms:description "A slope tangent boundary of 10-32% (18°) with average slope 20% (10°)"@en ;
   ui:isMemberOf lf:slope-classes ;
-  rdfs:label "Moderately inclined" ;
-  skos:definition "A slope tangent boundary of 10-32% (18°) with average slope 20% (10°)" ;
+  rdfs:label "Moderately inclined"@en ;
+  skos:definition "A slope tangent boundary of 10-32% (18°) with average slope 20% (10°)"@en ;
   skos:notation "MO" ;
   skos:prefLabel "Moderately inclined"@en ;
 .
 lf:slope-class-PR
   a skos:Concept ;
-  dcterms:description "A slope tangent boundary of 100-300% (72°) with average slope 170% (60°)" ;
+  dcterms:description "A slope tangent boundary of 100-300% (72°) with average slope 170% (60°)"@en ;
   ui:isMemberOf lf:slope-classes ;
-  rdfs:label "Precipitous" ;
-  skos:definition "A slope tangent boundary of 100-300% (72°) with average slope 170% (60°)" ;
+  rdfs:label "Precipitous"@en ;
+  skos:definition "A slope tangent boundary of 100-300% (72°) with average slope 170% (60°)"@en ;
   skos:notation "PR" ;
   skos:prefLabel "Precipitous"@en ;
 .
 lf:slope-class-ST
   a skos:Concept ;
-  dcterms:description "A slope tangent boundary of 32-56% (30°) with average slope 40% (23°)" ;
+  dcterms:description "A slope tangent boundary of 32-56% (30°) with average slope 40% (23°)"@en ;
   ui:isMemberOf lf:slope-classes ;
-  rdfs:label "Steep" ;
-  skos:definition "A slope tangent boundary of 32-56% (30°) with average slope 40% (23°)" ;
+  rdfs:label "Steep"@en ;
+  skos:definition "A slope tangent boundary of 32-56% (30°) with average slope 40% (23°)"@en ;
   skos:notation "ST" ;
   skos:prefLabel "Steep"@en ;
 .
 lf:slope-class-VG
   a skos:Concept ;
-  dcterms:description "A slope tangent boundary of 1-3 % (1°45') with average slope 1% (1°)" ;
+  dcterms:description "A slope tangent boundary of 1-3 % (1°45') with average slope 1% (1°)"@en ;
   ui:isMemberOf lf:slope-classes ;
-  rdfs:label "Very gently inclined" ;
-  skos:definition "A slope tangent boundary of 1-3 % (1°45') with average slope 1% (1°)" ;
+  rdfs:label "Very gently inclined"@en ;
+  skos:definition "A slope tangent boundary of 1-3 % (1°45') with average slope 1% (1°)"@en ;
   skos:notation "VG" ;
   skos:prefLabel "Very gently inclined"@en ;
 .
 lf:slope-class-VS
   a skos:Concept ;
-  dcterms:description "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)" ;
+  dcterms:description "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)"@en ;
   ui:isMemberOf lf:slope-classes ;
-  rdfs:label "Very steep" ;
-  skos:definition "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)" ;
+  rdfs:label "Very steep"@en ;
+  skos:definition "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)"@en ;
   skos:notation "VS" ;
   skos:prefLabel "Very steep"@en ;
 .
@@ -2226,28 +2226,28 @@ There may also be compelling reasons for using other schemes of slope classes. H
 .
 lf:slope-evaluation-A
   a skos:Concept ;
-  dcterms:description "Abney level or clinometer and tape" ;
+  dcterms:description "Abney level or clinometer and tape"@en ;
   ui:isMemberOf lf:slope-evaluations ;
-  rdfs:label "Abney level or clinometer and tape" ;
-  skos:definition "Abney level or clinometer and tape" ;
+  rdfs:label "Abney level or clinometer and tape"@en ;
+  skos:definition "Abney level or clinometer and tape"@en ;
   skos:notation "A" ;
   skos:prefLabel "Abney level or clinometer and tape"@en ;
 .
 lf:slope-evaluation-E
   a skos:Concept ;
-  dcterms:description "Estimate" ;
+  dcterms:description "Estimate"@en ;
   ui:isMemberOf lf:slope-evaluations ;
-  rdfs:label "Estimate" ;
-  skos:definition "Estimate" ;
+  rdfs:label "Estimate"@en ;
+  skos:definition "Estimate"@en ;
   skos:notation "E" ;
   skos:prefLabel "Estimate"@en ;
 .
 lf:slope-evaluation-P
   a skos:Concept ;
-  dcterms:description "Contour plan at 1:10 000 or larger scale" ;
+  dcterms:description "Contour plan at 1:10 000 or larger scale"@en ;
   ui:isMemberOf lf:slope-evaluations ;
-  rdfs:label "Contour plan at 1:10 000 or larger scale" ;
-  skos:definition "Contour plan at 1:10 000 or larger scale" ;
+  rdfs:label "Contour plan at 1:10 000 or larger scale"@en ;
+  skos:definition "Contour plan at 1:10 000 or larger scale"@en ;
   skos:notation "P" ;
   skos:prefLabel "Contour plan at 1:10 000 or larger scale"@en ;
 .
@@ -2262,10 +2262,10 @@ lf:slope-evaluation-T
 .
 lf:slope-evaluations
   a skos:Collection ;
-  dcterms:description "Means of evaluation of slope" ;
+  dcterms:description "Means of evaluation of slope"@en ;
   ui:isMemberOf lf:slope ;
-  rdfs:label "Means of evaluation of slope" ;
-  skos:definition "Means of evaluation of slope" ;
+  rdfs:label "Means of evaluation of slope"@en ;
+  skos:definition "Means of evaluation of slope"@en ;
   skos:member lf:slope-evaluation-A ;
   skos:member lf:slope-evaluation-E ;
   skos:member lf:slope-evaluation-P ;
@@ -2274,10 +2274,10 @@ lf:slope-evaluations
 lf:slope-value
   a skos:Concept ;
   a sosa:ObservableProperty ;
-  dcterms:description "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
+  dcterms:description "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element."@en ;
   ui:isMemberOf lf:slope ;
-  rdfs:label "Slope %" ;
-  skos:definition "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element." ;
+  rdfs:label "Slope %"@en ;
+  skos:definition "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element."@en ;
   skos:prefLabel "Slope %"@en ;
 .
 lf:stream-channel-development
@@ -2387,19 +2387,19 @@ lf:stream-channel-network-directionality
 .
 lf:stream-channel-network-directionality-B
   a skos:Concept ;
-  dcterms:description "two lineations (for example ‘trellis’)" ;
+  dcterms:description "two lineations (for example ‘trellis’)"@en ;
   ui:isMemberOf lf:stream-channel-network-directionality ;
   rdfs:label "Bidirectional"@en ;
-  skos:definition "two lineations (for example ‘trellis’)" ;
+  skos:definition "two lineations (for example ‘trellis’)"@en ;
   skos:notation "B" ;
   skos:prefLabel "Bidirectional"@en ;
 .
 lf:stream-channel-network-directionality-C
   a skos:Concept ;
-  dcterms:description "maximum convergence between 10º and 90º" ;
+  dcterms:description "maximum convergence between 10º and 90º"@en ;
   ui:isMemberOf lf:stream-channel-network-directionality ;
   rdfs:label "Convergent"@en ;
-  skos:definition "maximum convergence between 10º and 90º" ;
+  skos:definition "maximum convergence between 10º and 90º"@en ;
   skos:notation "C" ;
   skos:prefLabel "Convergent"@en ;
 .
@@ -2432,10 +2432,10 @@ lf:stream-channel-network-directionality-N
 .
 lf:stream-channel-network-directionality-P
   a skos:Concept ;
-  dcterms:description "maximum convergence >90º" ;
+  dcterms:description "maximum convergence >90º"@en ;
   ui:isMemberOf lf:stream-channel-network-directionality ;
   rdfs:label "Centripetal"@en ;
-  skos:definition "maximum convergence >90º" ;
+  skos:definition "maximum convergence >90º"@en ;
   skos:notation "P" ;
   skos:prefLabel "Centripetal"@en ;
 .
