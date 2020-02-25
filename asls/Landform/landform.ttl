@@ -33,7 +33,6 @@ asls:landform
   reg:notation "landform" ;
   ui:hierarchyChildProperty skos:member ;
   ui:hierarchyRootProperty ui:topMemberOf ;
-  ui:isMemberOf lf:landform-element-descriptions ;
   rdfs:label "Landform classifiers"@en ;
   rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
   owl:imports dc: ;
@@ -271,7 +270,6 @@ lf:geomorphological-agent-WM
 lf:geomorphological-agents
   a skos:Collection ;
   dcterms:description "Geomorphological agents that play a role in producing distinctive landform elements."@en ;
-  ui:isMemberOf asls:landform ;
   rdfs:label "Geomorphological agent"@en ;
   skos:definition "Geomorphological agents that play a role in producing distinctive landform elements."@en ;
   skos:member lf:geomorphological-agent-BI ;
@@ -1013,17 +1011,18 @@ lf:landform-element-VLF
 .
 lf:landform-element-descriptions
   a skos:Collection ;
+  ui:topMemberOf asls:landform ;
   rdfs:label "Description of landform element"@en ;
   skos:member lf:element-dimensions ;
-  skos:member lf:geomorphological-agents ;
+  skos:member lf:landform-genesis ;
   skos:member lf:location-within-the-landform-element ;
   skos:member lf:location-within-toposequence ;
-  skos:member lf:mode-of-geomorphological-activity ;
   skos:member lf:morphological-types ;
   skos:member lf:slope ;
 .
 lf:landform-element-glossary
   a skos:Collection ;
+  ui:topMemberOf asls:landform ;
   rdfs:label "Glossary of landform elements"@en ;
   skos:member lf:landform-element-ALC ;
   skos:member lf:landform-element-BAN ;
@@ -1528,13 +1527,15 @@ lf:landform-pattern-VOL
 .
 lf:landform-pattern-common-elements
   a skos:Collection ;
+  ui:topMemberOf asls:landform ;
   rdfs:label "Collections of elements commonly found in specific landform patterns"@en ;
   skos:member lf:landform-pattern-ALF-common-elements ;
   skos:member lf:landform-pattern-ALP-common-elements ;
 .
 lf:landform-pattern-descriptions
   a skos:Collection ;
-  rdfs:label "Description of landform element"@en ;
+  ui:topMemberOf asls:landform ;
+  rdfs:label "Description of landform pattern"@en ;
   skos:member lf:geomorphological-agents ;
   skos:member lf:modal-slope ;
   skos:member lf:mode-of-geomorphological-activity ;
@@ -1543,6 +1544,7 @@ lf:landform-pattern-descriptions
 .
 lf:landform-pattern-glossary
   a skos:Collection ;
+  ui:topMemberOf asls:landform ;
   rdfs:label "Glossary of landform patterns"@en ;
   skos:member lf:landform-pattern-ALF ;
   skos:member lf:landform-pattern-ALP ;
@@ -1587,11 +1589,13 @@ lf:landform-pattern-glossary
 .
 lf:landform-pattern-occasional-elements
   a skos:Collection ;
+  ui:topMemberOf asls:landform ;
   rdfs:label "Collections of elements occasionally found in specific landform patterns"@en ;
   skos:member lf:landform-pattern-ALP-occasional-elements ;
 .
 lf:landform-pattern-typical-elements
   a skos:Collection ;
+  ui:topMemberOf asls:landform ;
   rdfs:label "Collections of elements typically found in specific landform patterns"@en ;
   skos:member lf:landform-pattern-ALF-typical-elements ;
   skos:member lf:landform-pattern-ALP-typical-elements ;
@@ -1668,7 +1672,6 @@ lf:mode-of-geomorphological-activity
   a skos:Collection ;
   dcterms:description """<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure3.pdf\" /></p> {@en}
 <p> Figure 3 Modes of geomorphological activity </p>"""@en ;
-  ui:isMemberOf asls:landform ;
   rdfs:comment """Gradational activities are those that tend to reduce the land to a common elevation by removing material from higher places and depositing it in lower places (Chamberlin and Salisbury 1904, page 2), without necessarily reducing the angle of slope at every point. The work of streams and landslides is almost entirely in the gradational modes. However, this tendency is opposed by many processes that commonly act in an anti-gradational mode. These modes are characteristic of volcanism, diastrophism and various kinds of human and biological activity.
 However, many engineering works involve erosion and aggradation because these gradational modes use less energy than anti-gradational modes. For the same reason, erosion and aggradation may easily be induced unintentionally by land use (pages 92–96).
 To judge the mode of geomorphological activity responsible for a given landform element, the observer must visualise a former surface that has suffered distortion, burial or removal of material, and seek evidence that such activity has taken place. (Information on soil and substrate materials relevant to this investigation should be recorded as specified in other sections.)
@@ -2700,4 +2703,32 @@ lf:streamwise-channel-pattern-T
   skos:definition "Tributary"@en ;
   skos:notation "T" ;
   skos:prefLabel "Tributary"@en ;
+.
+ui:isMemberOf
+  a owl:ObjectProperty ;
+  rdfs:domain [
+      a owl:Class ;
+      owl:unionOf (
+          skos:Collection
+          skos:Concept
+        ) ;
+    ] ;
+  rdfs:label "is member of" ;
+  rdfs:range skos:Collection ;
+.
+ui:topMemberOf
+  a owl:ObjectProperty ;
+  rdfs:domain [
+      a owl:Class ;
+      owl:unionOf (
+          skos:Collection
+          skos:Concept
+        ) ;
+    ] ;
+  rdfs:label "top member of" ;
+  rdfs:range skos:Collection ;
+  rdfs:subPropertyOf ui:isMemberOf ;
+.
+skos:member
+  owl:inverseOf ui:isMemberOf ;
 .
