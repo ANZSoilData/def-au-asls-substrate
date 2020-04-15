@@ -1236,6 +1236,7 @@ lf:landform-pattern-ALF
   rdfs:label "Alluvial fan"@en ;
   rdfs:seeAlso lf:landform-pattern-ALF-common-elements ;
   rdfs:seeAlso lf:landform-pattern-ALF-typical-elements ;
+  rdfs:seeAlso lf:landform-pattern-ALF-comparewith-patterns ;
   rdfs:seeAlso lf:relief-class-P ;
   rdfs:seeAlso lf:slope-class-LE ;
   rdfs:seeAlso lf:slope-class-VG ;
@@ -1257,6 +1258,13 @@ lf:landform-pattern-ALF-typical-elements
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
 .
+lf:landform-pattern-ALF-comparewith-patterns
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALF-comparewith-patterns"^^xsd:anyURI ;
+  rdfs:label "Compare Alluvial fans with these patterns"@en ;
+  skos:member lf:landform-pattern-SHF ;
+  skos:member lf:landform-pattern-PED ;
+.
 lf:landform-pattern-ALP
   a skos:Concept ;
   dcterms:description "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
@@ -1266,6 +1274,9 @@ lf:landform-pattern-ALP
   rdfs:seeAlso lf:landform-pattern-ALP-common-elements ;
   rdfs:seeAlso lf:landform-pattern-ALP-occasional-elements ;
   rdfs:seeAlso lf:landform-pattern-ALP-typical-elements ;
+  rdfs:seeAlso lf:landform-pattern-ALP-included-patterns ;
+  rdfs:seeAlso lf:relief-class-P ;
+  rdfs:seeAlso lf:slope-class-LE ;
   skos:definition "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
   skos:notation "ALP" ;
   skos:prefLabel "Alluvial plain"@en ;
@@ -1296,12 +1307,32 @@ lf:landform-pattern-ALP-typical-elements
   skos:member lf:landform-element-STB ;
   skos:member lf:landform-element-STC ;
 .
+lf:landform-pattern-ALP-included-patterns
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALP-included-patterns"^^xsd:anyURI ;
+  rdfs:label "Included types of landform pattern for Alluvial plain"@en ;
+  skos:member lf:landform-pattern-FLO ;
+  skos:member lf:landform-pattern-BAR ;
+  skos:member lf:landform-pattern-MEA ;
+  skos:member lf:landform-pattern-COV ;
+  skos:member lf:landform-pattern-ANA ;
+  skos:member lf:landform-pattern-DEL ;
+  skos:member lf:landform-pattern-STA ;
+  skos:member lf:landform-pattern-TER ;
+  skos:member lf:landform-pattern-TEL ;
+.
 lf:landform-pattern-ANA
   a skos:Concept ;
   dcterms:description "flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ANA"^^xsd:anyURI ;
   ui:isMemberOf lf:landform-pattern-glossary ;
   rdfs:label "Anastomotic plain"@en ;
+  rdfs:seeAlso lf:landform-pattern-ANA-common-elements ;
+  rdfs:seeAlso lf:landform-pattern-ANA-occasional-elements ;
+  rdfs:seeAlso lf:landform-pattern-ANA-typical-elements ;
+  rdfs:seeAlso lf:landform-pattern-ANA-included-patterns ;
+  rdfs:seeAlso lf:relief-class-P ;
+  rdfs:seeAlso lf:slope-class-LE ;
   skos:definition "flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow."@en ;
   skos:notation "ANA" ;
   skos:prefLabel "Anastomotic plain"@en ;
