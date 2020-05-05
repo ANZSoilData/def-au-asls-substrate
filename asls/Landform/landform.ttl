@@ -2865,7 +2865,7 @@ Table 7 lists types of landform pattern in order of their typical class of modal
 .
 lf:mode-of-geomorphological-activity
   a skos:Collection ;
-  dcterms:description """<p><img src='http://anzsoil.org/resources/yellowbook/Figure3.jpg' /></p> 
+  dcterms:description """<p><img src='http://anzsoil.org/resources/yellowbook/Figure3.png' /></p> 
 <p> Figure 3 Modes of geomorphological activity </p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/mode-of-geomorphological-activity"^^xsd:anyURI ;
   rdfs:comment """Gradational activities are those that tend to reduce the land to a common elevation by removing material from higher places and depositing it in lower places (Chamberlin and Salisbury 1904, page 2), without necessarily reducing the angle of slope at every point. The work of streams and landslides is almost entirely in the gradational modes. However, this tendency is opposed by many processes that commonly act in an anti-gradational mode. These modes are characteristic of volcanism, diastrophism and various kinds of human and biological activity.
@@ -3208,7 +3208,7 @@ lf:morphological-type-V
 .
 lf:morphological-types
   a skos:Collection ;
-  dcterms:description "Landform elements fall into morphological types as sketched in Figure 1. Ten types are distinguished."@en ;
+  dcterms:description """<p><img src='http://anzsoil.org/resources/yellowbook/Figure1.png' /></p>Landform elements fall into morphological types as sketched in Figure 1. Ten types are distinguished.</p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-types"^^xsd:anyURI ;
   rdfs:label "Morphological type"@en ;
   skos:definition "Landform elements fall into morphological types as sketched in Figure 1. Ten types are distinguished."@en ;
@@ -3636,7 +3636,7 @@ lf:stream-channel-migration-S
 lf:stream-channel-network-directionality
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dcterms:description """<p><img src='http://anzsoil.org/resources/yellowbook/Figure4c.jpg' /></p>
+  dcterms:description """<p><img src='http://anzsoil.org/resources/yellowbook/Figure4c.png' /></p>
 <p> Figure 4 (c) Channel network directionality. </p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-directionality"^^xsd:anyURI ;
   ui:isMemberOf lf:stream-channel-occurence ;
@@ -3724,7 +3724,7 @@ lf:stream-channel-network-directionality-U
 lf:stream-channel-network-integration
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dcterms:description """<p><img src='http://anzsoil.org/resources/yellowbook/Figure4b.jpg' /></p>
+  dcterms:description """<p><img src='http://anzsoil.org/resources/yellowbook/Figure4b.png' /></p>
 <p> Figure 4 (b) Integration of channel network. </p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-integration"^^xsd:anyURI ;
   ui:isMemberOf lf:stream-channel-occurence ;
@@ -3946,7 +3946,7 @@ lf:stream-channel-spacing-WS
 lf:streamwise-channel-pattern
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dcterms:description """<p><img src='http://anzsoil.org/resources/yellowbook/Figure4a.jpg' /></p>
+  dcterms:description """<p><img src='http://anzsoil.org/resources/yellowbook/Figure4a.png' /></p>
 <p> Figure 4 (a) Stream-wise channel patterns. </p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/streamwise-channel-pattern"^^xsd:anyURI ;
   ui:isMemberOf lf:stream-channel-occurence ;
