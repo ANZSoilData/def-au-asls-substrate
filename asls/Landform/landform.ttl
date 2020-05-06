@@ -2093,6 +2093,7 @@ lf:landform-pattern-MAD-typical-elements
 lf:landform-pattern-MAR
   a skos:Concept ;
   skos-ext:isMemberOf lf:landform-pattern-glossary ;
+  skos-ext:relatedCollection lf:landform-pattern-MAR-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-MAR-typical-elements ;
   dcterms:description "plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MAR"^^xsd:anyURI ;
@@ -2100,7 +2101,6 @@ lf:landform-pattern-MAR
   skos:definition "plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind."@en ;
   skos:notation "MAR" ;
   skos:prefLabel "Marine plain"@en ;
-  skos:related lf:landform-pattern-MAR-occasional-elements ;
 .
 lf:landform-pattern-MAR-common-elements
   a skos:Collection ;
