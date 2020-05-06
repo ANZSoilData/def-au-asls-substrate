@@ -1481,7 +1481,9 @@ lf:landform-pattern-CAL
   skos:notation "CAL" ;
   skos:prefLabel "Caldera"@en ;
   skos:related lf:relief-class-M ;
-  skos:related lf:slope-class-PM ;
+  skos:related lf:slope-class-ST ;
+  skos:related lf:slope-class-VS ;
+  skos:related lf:slope-class-PR ;
 .
 lf:landform-pattern-CAL-occasional-elements
   a skos:Collection ;
@@ -2102,7 +2104,7 @@ lf:landform-pattern-MAR
   skos:notation "MAR" ;
   skos:prefLabel "Marine plain"@en ;
 .
-lf:landform-pattern-MAR-common-elements
+lf:landform-pattern-MAR-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MAR-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Marine plain"@en ;
