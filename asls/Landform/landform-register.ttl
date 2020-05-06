@@ -6,6 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reg: <http://purl.org/linked-data/registry#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skos-ext: <http://linked.data.gov.au/def/skos-ext#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix ui: <http://purl.org/linked-data/registry-ui#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -29,7 +30,7 @@
   dct:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)" ;
   reg:notation "landform" ;
   ui:hierarchyChildProperty skos:member ;
-  ui:hierarchyRootProperty ui:topMemberOf ;
+  ui:hierarchyRootProperty skos-ext:topMemberOf ;
   rdfs:label "Landform classifiers"@en ;
   rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
   owl:imports dc: ;
