@@ -1481,9 +1481,9 @@ lf:landform-pattern-CAL
   skos:notation "CAL" ;
   skos:prefLabel "Caldera"@en ;
   skos:related lf:relief-class-M ;
+  skos:related lf:slope-class-PR ;
   skos:related lf:slope-class-ST ;
   skos:related lf:slope-class-VS ;
-  skos:related lf:slope-class-PR ;
 .
 lf:landform-pattern-CAL-occasional-elements
   a skos:Collection ;
@@ -2711,13 +2711,118 @@ lf:landform-pattern-VOL-typical-elements
   skos:member lf:landform-element-CON ;
   skos:member lf:landform-element-CRA ;
 .
-lf:landform-pattern-common-elements
+lf:landform-pattern-components
   a skos:Collection ;
   skos-ext:topMemberOf asls:landform ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-common-elements"^^xsd:anyURI ;
-  rdfs:label "Collections of elements commonly found in specific landform patterns"@en ;
+  dcterms:description "Certain kinds of landform element are typical of a given landform pattern. Some are found commonly and others occasionally in a given type. These landform elements are listed for each type of landform pattern." ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-components"^^xsd:anyURI ;
+  rdfs:label "Collections of elements found in specific landform patterns"@en ;
   skos:member lf:landform-pattern-ALF-common-elements ;
+  skos:member lf:landform-pattern-ALF-comparewith-patterns ;
+  skos:member lf:landform-pattern-ALF-typical-elements ;
   skos:member lf:landform-pattern-ALP-common-elements ;
+  skos:member lf:landform-pattern-ALP-included-patterns ;
+  skos:member lf:landform-pattern-ALP-occasional-elements ;
+  skos:member lf:landform-pattern-ALP-typical-elements ;
+  skos:member lf:landform-pattern-ANA-common-elements ;
+  skos:member lf:landform-pattern-ANA-comparewith-patterns ;
+  skos:member lf:landform-pattern-ANA-typical-elements ;
+  skos:member lf:landform-pattern-BAD-comparewith-patterns ;
+  skos:member lf:landform-pattern-BAD-occasional-elements ;
+  skos:member lf:landform-pattern-BAD-typical-elements ;
+  skos:member lf:landform-pattern-BAR-comparewith-patterns ;
+  skos:member lf:landform-pattern-BAR-typical-elements ;
+  skos:member lf:landform-pattern-BEA-common-elements ;
+  skos:member lf:landform-pattern-BEA-comparewith-patterns ;
+  skos:member lf:landform-pattern-BEA-typical-elements ;
+  skos:member lf:landform-pattern-CAL-occasional-elements ;
+  skos:member lf:landform-pattern-CAL-typical-elements ;
+  skos:member lf:landform-pattern-CHE-common-elements ;
+  skos:member lf:landform-pattern-CHE-comparewith-patterns ;
+  skos:member lf:landform-pattern-CHE-typical-elements ;
+  skos:member lf:landform-pattern-COR-common-elements ;
+  skos:member lf:landform-pattern-COR-typical-elements ;
+  skos:member lf:landform-pattern-COV-common-elements ;
+  skos:member lf:landform-pattern-COV-comparewith-patterns ;
+  skos:member lf:landform-pattern-COV-typical-elements ;
+  skos:member lf:landform-pattern-DEL-common-elements ;
+  skos:member lf:landform-pattern-DEL-comparewith-patterns ;
+  skos:member lf:landform-pattern-DEL-typical-elements ;
+  skos:member lf:landform-pattern-DUN-common-elements ;
+  skos:member lf:landform-pattern-DUN-included-patterns ;
+  skos:member lf:landform-pattern-DUN-typical-elements ;
+  skos:member lf:landform-pattern-ESC-common-elements ;
+  skos:member lf:landform-pattern-ESC-occasional-elements ;
+  skos:member lf:landform-pattern-ESC-typical-elements ;
+  skos:member lf:landform-pattern-FLO-common-elements ;
+  skos:member lf:landform-pattern-FLO-included-patterns ;
+  skos:member lf:landform-pattern-FLO-occasional-elements ;
+  skos:member lf:landform-pattern-FLO-related-patterns ;
+  skos:member lf:landform-pattern-FLO-typical-elements ;
+  skos:member lf:landform-pattern-HIL-common-elements ;
+  skos:member lf:landform-pattern-HIL-comparewith-patterns ;
+  skos:member lf:landform-pattern-HIL-occasional-elements ;
+  skos:member lf:landform-pattern-HIL-typical-elements ;
+  skos:member lf:landform-pattern-KAR-common-elements ;
+  skos:member lf:landform-pattern-KAR-occasional-elements ;
+  skos:member lf:landform-pattern-KAR-typical-elements ;
+  skos:member lf:landform-pattern-LAC-common-elements ;
+  skos:member lf:landform-pattern-LAC-comparewith-patterns ;
+  skos:member lf:landform-pattern-LAC-occasional-elements ;
+  skos:member lf:landform-pattern-LAC-typical-elements ;
+  skos:member lf:landform-pattern-LAV-common-elements ;
+  skos:member lf:landform-pattern-LAV-typical-elements ;
+  skos:member lf:landform-pattern-LON-comparewith-patterns ;
+  skos:member lf:landform-pattern-LON-typical-elements ;
+  skos:member lf:landform-pattern-LOW-common-elements ;
+  skos:member lf:landform-pattern-LOW-comparewith-patterns ;
+  skos:member lf:landform-pattern-LOW-occasional-elements ;
+  skos:member lf:landform-pattern-LOW-typical-elements ;
+  skos:member lf:landform-pattern-MAD-common-elements ;
+  skos:member lf:landform-pattern-MAD-typical-elements ;
+  skos:member lf:landform-pattern-MAR-occasional-elements ;
+  skos:member lf:landform-pattern-MAR-typical-elements ;
+  skos:member lf:landform-pattern-MEA-common-elements ;
+  skos:member lf:landform-pattern-MEA-comparewith-patterns ;
+  skos:member lf:landform-pattern-MEA-typical-elements ;
+  skos:member lf:landform-pattern-MET-typical-elements ;
+  skos:member lf:landform-pattern-MOU-common-elements ;
+  skos:member lf:landform-pattern-MOU-comparewith-patterns ;
+  skos:member lf:landform-pattern-MOU-occasional-elements ;
+  skos:member lf:landform-pattern-MOU-typical-elements ;
+  skos:member lf:landform-pattern-PAR-comparewith-patterns ;
+  skos:member lf:landform-pattern-PAR-typical-elements ;
+  skos:member lf:landform-pattern-PED-comparewith-patterns ;
+  skos:member lf:landform-pattern-PED-typical-elements ;
+  skos:member lf:landform-pattern-PEP-typical-elements ;
+  skos:member lf:landform-pattern-PLA-comparewith-patterns ;
+  skos:member lf:landform-pattern-PLT-common-elements ;
+  skos:member lf:landform-pattern-PLT-occasional-elements ;
+  skos:member lf:landform-pattern-PLT-typical-elements ;
+  skos:member lf:landform-pattern-PLY-comparewith-patterns ;
+  skos:member lf:landform-pattern-PLY-typical-elements ;
+  skos:member lf:landform-pattern-PNP-typical-elements ;
+  skos:member lf:landform-pattern-RIS-common-elements ;
+  skos:member lf:landform-pattern-RIS-comparewith-patterns ;
+  skos:member lf:landform-pattern-RIS-occasional-elements ;
+  skos:member lf:landform-pattern-RIS-typical-elements ;
+  skos:member lf:landform-pattern-SAN-occasional-elements ;
+  skos:member lf:landform-pattern-SAN-typical-elements ;
+  skos:member lf:landform-pattern-SHF-comparewith-patterns ;
+  skos:member lf:landform-pattern-SHF-typical-elements ;
+  skos:member lf:landform-pattern-STA-common-elements ;
+  skos:member lf:landform-pattern-STA-comparewith-patterns ;
+  skos:member lf:landform-pattern-STA-occasional-elements ;
+  skos:member lf:landform-pattern-STA-typical-elements ;
+  skos:member lf:landform-pattern-TEL-occasional-elements ;
+  skos:member lf:landform-pattern-TEL-typical-elements ;
+  skos:member lf:landform-pattern-TER-occasional-elements ;
+  skos:member lf:landform-pattern-TER-typical-elements ;
+  skos:member lf:landform-pattern-TID-occasional-elements ;
+  skos:member lf:landform-pattern-TID-typical-elements ;
+  skos:member lf:landform-pattern-VOL-common-elements ;
+  skos:member lf:landform-pattern-VOL-occasional-elements ;
+  skos:member lf:landform-pattern-VOL-typical-elements ;
 .
 lf:landform-pattern-descriptions
   a skos:Collection ;
@@ -2775,21 +2880,6 @@ lf:landform-pattern-glossary
   skos:member lf:landform-pattern-TER ;
   skos:member lf:landform-pattern-TID ;
   skos:member lf:landform-pattern-VOL ;
-.
-lf:landform-pattern-occasional-elements
-  a skos:Collection ;
-  skos-ext:topMemberOf asls:landform ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-occasional-elements"^^xsd:anyURI ;
-  rdfs:label "Collections of elements occasionally found in specific landform patterns"@en ;
-  skos:member lf:landform-pattern-ALP-occasional-elements ;
-.
-lf:landform-pattern-typical-elements
-  a skos:Collection ;
-  skos-ext:topMemberOf asls:landform ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-typical-elements"^^xsd:anyURI ;
-  rdfs:label "Collections of elements typically found in specific landform patterns"@en ;
-  skos:member lf:landform-pattern-ALF-typical-elements ;
-  skos:member lf:landform-pattern-ALP-typical-elements ;
 .
 lf:location-within-the-landform-element
   a skos:Collection ;
