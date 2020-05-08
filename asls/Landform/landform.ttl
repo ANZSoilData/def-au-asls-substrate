@@ -1116,24 +1116,18 @@ lf:landform-element-VLF
 lf:landform-element-descriptions
   a skos:Collection ;
   skos-ext:topMemberOf asls:landform ;
-  dcterms:description """A landform element may be described by the following attributes, assessed within a circle of about 20 m radius:
-  slope
-  morphological type
-  dimensions
-  mode of geomorphological activity
-  geomorphological agent
-
-These will establish most of the distinctions between landform elements that are implied by their geomorphological names. The glossary of types of landform elements occurring in Australia refers explicitly to this set of attributes. A landform element that has been described may thus be assigned a type name."""@en ;
+  dcterms:description """<p>A landform element may be described by the following attributes, assessed withiin a circle of about 20 m radius:</p>
+<ul>
+<li>slope</li>
+<li>morphological type</li>
+<li>dimensions</li>
+<li>mode of geomorphological activity</li>
+<li>geomorphological agent</li>
+</ul>
+<p>These will establish most of the distinctions between landform elements that are implied by their geomorphological names. The glossary of types of landform elements occurring in Australia refers explicitly to this set of attributes. A landform element that has been described mayb thus be assigne a type name.</p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-descriptions"^^xsd:anyURI ;
   rdfs:label "Description of landform element"@en ;
-  skos:definition """A landform element may be described by the following attributes, assessed within a circle of about 20 m radius:
-  slope
-  morphological type
-  dimensions
-  mode of geomorphological activity
-  geomorphological agent
-
-These will establish most of the distinctions between landform elements that are implied by their geomorphological names. The glossary of types of landform elements occurring in Australia refers explicitly to this set of attributes. A landform element that has been described may thus be assigned a type name."""@en ;
+  skos:definition "A landform element may be described by the following attributes, assessed withiin a circle of about 20 m radius:"@en ;
   skos:member lf:element-dimensions ;
   skos:member lf:landform-genesis ;
   skos:member lf:location-within-the-landform-element ;
@@ -1252,19 +1246,19 @@ lf:landform-pattern-ALF
   skos-ext:relatedCollection lf:landform-pattern-ALF-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-ALF-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-ALF-typical-elements ;
-  dcterms:description """level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps. 
-Typical elements: stream bed, bar, plain.
-Common element: scarp.
-Compare with sheet-flood fan and pediment."""@en ;
+  dcterms:description """<p>level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps. </p>
+<p>Typical elements: stream bed, bar, plain.</p>
+<p>Common element: scarp.</p>
+<p>Compare with sheet-flood fan and pediment. </p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALF"^^xsd:anyURI ;
   dcterms:references lf:relief-class-P ;
   dcterms:references lf:slope-class-LE ;
   dcterms:references lf:slope-class-VG ;
   rdfs:label "Alluvial fan"@en ;
-  skos:definition """level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps. 
-Typical elements: stream bed, bar, plain.
-Common element: scarp.
-Compare with sheet-flood fan and pediment."""@en ;
+  skos:definition """<p>level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps. </p>
+<p>Typical elements: stream bed, bar, plain.</p>
+<p>Common element: scarp.</p>
+<p>Compare with sheet-flood fan and pediment. </p>"""^^rdf:HTML ;
   skos:notation "ALF" ;
   skos:prefLabel "Alluvial fan"@en ;
   skos:related lf:relief-class-P ;
@@ -1275,7 +1269,6 @@ lf:landform-pattern-ALF-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALF-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of an Alluvial fan"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ALF" ;
   skos:member lf:landform-element-SCA ;
   skos:prefLabel "Common elements of an Alluvial fan"@en ;
 .
@@ -1283,7 +1276,6 @@ lf:landform-pattern-ALF-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALF-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Alluvial fans with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ALF" ;
   skos:member lf:landform-pattern-PED ;
   skos:member lf:landform-pattern-SHF ;
   skos:prefLabel "Compare Alluvial fans with these patterns"@en ;
@@ -1292,7 +1284,6 @@ lf:landform-pattern-ALF-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALF-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of an Alluvial fan"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ALF" ;
   skos:member lf:landform-element-BAR ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
@@ -1305,18 +1296,18 @@ lf:landform-pattern-ALP
   skos-ext:relatedCollection lf:landform-pattern-ALP-included-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-ALP-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-ALP-typical-elements ;
-  dcterms:description """level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses. 
-Typical elements: stream channel (stream bed and bank), plain (dominant).
-Common elements: bar, scroll, levee, backplain, swamp.
-Occasional elements: ox-bow, flood-out, lake.
-Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land."""@en ;
+  dcterms:description """<p>level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses. </p>
+<p>Typical elements: stream channel (stream bed and bank), plain (dominant).</p>
+<p>Common elements: bar, scroll, levee, backplain, swamp.</p>
+<p>Occasional elements: ox-bow, flood-out, lake.</p>
+<p>Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land. </p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALP"^^xsd:anyURI ;
   rdfs:label "Alluvial plain"@en ;
-  skos:definition """level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses. 
-Typical elements: stream channel (stream bed and bank), plain (dominant).
-Common elements: bar, scroll, levee, backplain, swamp.
-Occasional elements: ox-bow, flood-out, lake.
-Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land."""@en ;
+  skos:definition """<p>level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses. </p>
+<p>Typical elements: stream channel (stream bed and bank), plain (dominant).</p>
+<p>Common elements: bar, scroll, levee, backplain, swamp.</p>
+<p>Occasional elements: ox-bow, flood-out, lake.</p>
+<p>Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land. </p>""" ;
   skos:notation "ALP" ;
   skos:prefLabel "Alluvial plain"@en ;
   skos:related lf:relief-class-P ;
@@ -1326,7 +1317,6 @@ lf:landform-pattern-ALP-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALP-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of an Alluvial plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ALP" ;
   skos:member lf:landform-element-BAR ;
   skos:member lf:landform-element-BKP ;
   skos:member lf:landform-element-LEV ;
@@ -1338,7 +1328,6 @@ lf:landform-pattern-ALP-included-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALP-included-patterns"^^xsd:anyURI ;
   rdfs:label "Included types of landform pattern for Alluvial plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ALP" ;
   skos:member lf:landform-pattern-ANA ;
   skos:member lf:landform-pattern-BAR ;
   skos:member lf:landform-pattern-COV ;
@@ -1354,7 +1343,6 @@ lf:landform-pattern-ALP-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALP-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of an Alluvial plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ALP" ;
   skos:member lf:landform-element-FLD ;
   skos:member lf:landform-element-LAK ;
   skos:member lf:landform-element-OXB ;
@@ -1364,7 +1352,6 @@ lf:landform-pattern-ALP-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALP-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of an Alluvial plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ALP" ;
   skos:member lf:landform-element-BAN ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
@@ -1377,16 +1364,16 @@ lf:landform-pattern-ANA
   skos-ext:relatedCollection lf:landform-pattern-ANA-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-ANA-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-ANA-typical-elements ;
-  dcterms:description """flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow. 
-Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).
-Common element: swamp.
-Compare with other types under alluvial plain and flood plain."""@en ;
+  dcterms:description """<p>flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow. </p>
+<p>Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).</p>
+<p>Common element: swamp.</p>
+<p>Compare with other types under alluvial plain and flood plain. </p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ANA"^^xsd:anyURI ;
   rdfs:label "Anastomotic plain"@en ;
-  skos:definition """flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow. 
-Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).
-Common element: swamp.
-Compare with other types under alluvial plain and flood plain."""@en ;
+  skos:definition """<p>flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow. </p>
+<p>Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).</p>
+<p>Common element: swamp.</p>
+<p>Compare with other types under alluvial plain and flood plain. </p>"""^^rdf:HTML ;
   skos:notation "ANA" ;
   skos:prefLabel "Anastomotic plain"@en ;
   skos:related lf:relief-class-P ;
@@ -1396,7 +1383,6 @@ lf:landform-pattern-ANA-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ANA-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of an Anastomotic plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ANA" ;
   skos:member lf:landform-element-SWP ;
   skos:prefLabel "Common elements of an Anastomotic plain"@en ;
 .
@@ -1404,7 +1390,6 @@ lf:landform-pattern-ANA-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ANA-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Anastomotic plain with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ANA" ;
   skos:member lf:landform-pattern-ALP ;
   skos:member lf:landform-pattern-FLO ;
   skos:prefLabel "Compare Anastomotic plain with these patterns"@en ;
@@ -1413,7 +1398,6 @@ lf:landform-pattern-ANA-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ANA-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of an Anastomotic plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ANA" ;
   skos:member lf:landform-element-BAN ;
   skos:member lf:landform-element-BKP ;
   skos:member lf:landform-element-LEV ;
@@ -1450,7 +1434,6 @@ lf:landform-pattern-BAD-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-BAD-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Badlands with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-BAD" ;
   skos:member lf:landform-pattern-HIL ;
   skos:member lf:landform-pattern-LOW ;
   skos:member lf:landform-pattern-PLA ;
@@ -1461,7 +1444,6 @@ lf:landform-pattern-BAD-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ANA-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Badlands"@en ;
-  rdfs:seeAlso "lf:landform-pattern-BAD" ;
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-HSL ;
   skos:member lf:landform-element-SUS ;
@@ -1472,7 +1454,6 @@ lf:landform-pattern-BAD-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-BAD-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Badlands"@en ;
-  rdfs:seeAlso "lf:landform-pattern-BAD" ;
   skos:member lf:landform-element-GUL ;
   skos:member lf:landform-element-STB ;
   skos:member lf:morphological-type-R ;
@@ -1498,7 +1479,6 @@ lf:landform-pattern-BAR-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-BAR-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Bar plain with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-BAR" ;
   skos:member lf:landform-pattern-ALP ;
   skos:member lf:landform-pattern-FLO ;
   skos:prefLabel "Compare Bar plain with these patterns"@en ;
@@ -1507,7 +1487,6 @@ lf:landform-pattern-BAR-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-BAR-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Bar plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-BAR" ;
   skos:member lf:landform-element-BAR ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Typical elements of Bar plain"@en ;
@@ -1538,7 +1517,6 @@ lf:landform-pattern-BEA-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-BEA-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Beach ridge plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-BEA" ;
   skos:member lf:landform-element-BEA ;
   skos:member lf:landform-element-FOR ;
   skos:member lf:landform-element-TDC ;
@@ -1548,7 +1526,6 @@ lf:landform-pattern-BEA-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-BEA-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Beach ridge plain with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-BEA" ;
   skos:member lf:landform-pattern-CHE ;
   skos:prefLabel "Compare Beach ridge plain with these patterns"@en ;
 .
@@ -1556,7 +1533,6 @@ lf:landform-pattern-BEA-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-BEA-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Beach ridge plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-BEA" ;
   skos:member lf:landform-element-BRI ;
   skos:member lf:landform-element-SWL ;
   skos:prefLabel "Typical elements of Beach ridge plain"@en ;
@@ -1587,7 +1563,6 @@ lf:landform-pattern-CAL-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-CAL-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Caldera"@en ;
-  rdfs:seeAlso "lf:landform-pattern-CAL" ;
   skos:member lf:landform-element-CON ;
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-STC ;
@@ -1597,7 +1572,6 @@ lf:landform-pattern-CAL-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-CAL-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Caldera"@en ;
-  rdfs:seeAlso "lf:landform-pattern-CAL" ;
   skos:member lf:landform-element-HSL ;
   skos:member lf:landform-element-LAK ;
   skos:member lf:landform-element-SCA ;
@@ -1630,7 +1604,6 @@ lf:landform-pattern-CHE-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-CHE-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Chenier plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-CHE" ;
   skos:member lf:landform-element-BEA ;
   skos:member lf:landform-element-FOR ;
   skos:member lf:landform-element-SWP ;
@@ -1641,7 +1614,6 @@ lf:landform-pattern-CHE-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-CHE-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Chenier plain with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-CHE" ;
   skos:member lf:landform-pattern-BEA ;
   skos:prefLabel "Compare Chenier plain with these patterns"@en ;
 .
@@ -1649,7 +1621,6 @@ lf:landform-pattern-CHE-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-CHE-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Chenier plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-CHE" ;
   skos:member lf:landform-element-BRI ;
   skos:member lf:landform-element-TDF ;
   skos:member lf:morphological-type-F ;
@@ -1680,7 +1651,6 @@ lf:landform-pattern-COR-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-COR-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Coral reef"@en ;
-  rdfs:seeAlso "lf:landform-pattern-COR" ;
   skos:member lf:landform-element-BEA ;
   skos:member lf:landform-element-BRI ;
   skos:prefLabel "Common elements of Coral reef"@en ;
@@ -1689,7 +1659,6 @@ lf:landform-pattern-COR-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-COR-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Coral reef"@en ;
-  rdfs:seeAlso "lf:landform-pattern-COR" ;
   skos:member lf:landform-element-CLI ;
   skos:member lf:landform-element-LAG ;
   skos:member lf:landform-element-REF ;
@@ -1718,7 +1687,6 @@ lf:landform-pattern-COV-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-COV-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Covered plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-COV" ;
   skos:member lf:landform-element-SWP ;
   skos:prefLabel "Common elements of Covered plain"@en ;
 .
@@ -1726,7 +1694,6 @@ lf:landform-pattern-COV-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-COV-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Covered plain with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-COV" ;
   skos:member lf:landform-pattern-ALP ;
   skos:member lf:landform-pattern-FLO ;
   skos:prefLabel "Compare Covered plain with these patterns"@en ;
@@ -1735,7 +1702,6 @@ lf:landform-pattern-COV-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-COV-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Covered plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-COV" ;
   skos:member lf:landform-element-BAN ;
   skos:member lf:landform-element-BKP ;
   skos:member lf:landform-element-LEV ;
@@ -1766,7 +1732,6 @@ lf:landform-pattern-DEL-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-DEL-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Delta"@en ;
-  rdfs:seeAlso "lf:landform-pattern-DEL" ;
   skos:member lf:landform-element-BEA ;
   skos:member lf:landform-element-BRI ;
   skos:member lf:landform-element-EST ;
@@ -1778,7 +1743,6 @@ lf:landform-pattern-DEL-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-DEL-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Delta with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-DEL" ;
   skos:member lf:landform-pattern-ALP ;
   skos:member lf:landform-pattern-CHE ;
   skos:member lf:landform-pattern-FLO ;
@@ -1788,7 +1752,6 @@ lf:landform-pattern-DEL-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-DEL-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Delta"@en ;
-  rdfs:seeAlso "lf:landform-pattern-DEL" ;
   skos:member lf:landform-element-BAN ;
   skos:member lf:landform-element-BKP ;
   skos:member lf:landform-element-LAG ;
@@ -1827,7 +1790,6 @@ lf:landform-pattern-DUN-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-DUN-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Dunefield"@en ;
-  rdfs:seeAlso "lf:landform-pattern-DUN" ;
   skos:member lf:landform-element-DUB ;
   skos:member lf:landform-element-DUF ;
   skos:member lf:landform-element-DUH ;
@@ -1838,7 +1800,6 @@ lf:landform-pattern-DUN-included-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-DUN-included-patterns"^^xsd:anyURI ;
   rdfs:label "Included patterns of Dunefield"@en ;
-  rdfs:seeAlso "lf:landform-pattern-DUN" ;
   skos:member lf:landform-pattern-LON ;
   skos:member lf:landform-pattern-PAR ;
   skos:prefLabel "Included patterns of Dunefield"@en ;
@@ -1847,7 +1808,6 @@ lf:landform-pattern-DUN-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-DUN-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Dunefield"@en ;
-  rdfs:seeAlso "lf:landform-pattern-DUN" ;
   skos:member lf:landform-element-BOU ;
   skos:member lf:landform-element-DUC ;
   skos:member lf:landform-element-DUN ;
@@ -1886,7 +1846,6 @@ lf:landform-pattern-ESC-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ESC-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Escarpment"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ESC" ;
   skos:member lf:landform-element-ALC ;
   skos:member lf:landform-element-CLI ;
   skos:member lf:landform-element-FOO ;
@@ -1899,7 +1858,6 @@ lf:landform-pattern-ESC-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ESC-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Escarpment"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ESC" ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Occasional elements of Escarpment"@en ;
 .
@@ -1907,7 +1865,6 @@ lf:landform-pattern-ESC-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ESC-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Escarpment"@en ;
-  rdfs:seeAlso "lf:landform-pattern-ESC" ;
   skos:member lf:landform-element-CFS ;
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-HSL ;
@@ -1942,7 +1899,6 @@ lf:landform-pattern-FLO-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-FLO-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Flood plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-FLO" ;
   skos:member lf:landform-element-BAR ;
   skos:member lf:landform-element-BKP ;
   skos:member lf:landform-element-LEV ;
@@ -1954,7 +1910,6 @@ lf:landform-pattern-FLO-included-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-FLO-included-patterns"^^xsd:anyURI ;
   rdfs:label "Included patterns of Flood plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-FLO" ;
   skos:member lf:landform-pattern-ANA ;
   skos:member lf:landform-pattern-BAR ;
   skos:member lf:landform-pattern-COV ;
@@ -1965,7 +1920,6 @@ lf:landform-pattern-FLO-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-FLO-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Flood plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-FLO" ;
   skos:member lf:landform-element-FLD ;
   skos:member lf:landform-element-OXB ;
   skos:prefLabel "Occasional elements of Flood plain"@en ;
@@ -1974,7 +1928,6 @@ lf:landform-pattern-FLO-related-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-FLO-related-patterns"^^xsd:anyURI ;
   rdfs:label "Related relic patterns of Flood plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-FLO" ;
   skos:member lf:landform-pattern-STA ;
   skos:member lf:landform-pattern-TEL ;
   skos:member lf:landform-pattern-TER ;
@@ -1984,7 +1937,6 @@ lf:landform-pattern-FLO-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-FLO-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Flood plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-FLO" ;
   skos:member lf:landform-element-BAN ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
@@ -2023,7 +1975,6 @@ lf:landform-pattern-HIL-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-HIL-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Hills"@en ;
-  rdfs:seeAlso "lf:landform-pattern-HIL" ;
   skos:member lf:landform-element-ALC ;
   skos:member lf:landform-element-FOO ;
   skos:member lf:landform-element-GUL ;
@@ -2034,7 +1985,6 @@ lf:landform-pattern-HIL-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-HIL-included-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Hills with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-HIL" ;
   skos:member lf:landform-pattern-LOW ;
   skos:member lf:landform-pattern-PLA ;
   skos:member lf:landform-pattern-RIS ;
@@ -2044,7 +1994,6 @@ lf:landform-pattern-HIL-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-HIL-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Hills"@en ;
-  rdfs:seeAlso "lf:landform-pattern-HIL" ;
   skos:member lf:landform-element-BEN ;
   skos:member lf:landform-element-DOC ;
   skos:member lf:landform-element-LDS ;
@@ -2059,7 +2008,6 @@ lf:landform-pattern-HIL-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-HIL-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Hills"@en ;
-  rdfs:seeAlso "lf:landform-pattern-HIL" ;
   skos:member lf:landform-element-DDE ;
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-HSL ;
@@ -2089,7 +2037,6 @@ lf:landform-pattern-KAR-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-KAR-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Karst"@en ;
-  rdfs:seeAlso "lf:landform-pattern-KAR" ;
   skos:member lf:landform-element-ALC ;
   skos:member lf:landform-element-DDE ;
   skos:member lf:landform-element-FOO ;
@@ -2105,7 +2052,6 @@ lf:landform-pattern-KAR-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-KAR-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Karst"@en ;
-  rdfs:seeAlso "lf:landform-pattern-KAR" ;
   skos:member lf:landform-element-TAL ;
   skos:prefLabel "Occasional elements of Karst"@en ;
 .
@@ -2113,7 +2059,6 @@ lf:landform-pattern-KAR-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-KAR-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Karst"@en ;
-  rdfs:seeAlso "lf:landform-pattern-KAR" ;
   skos:member lf:landform-element-DOC ;
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-HSL ;
@@ -2147,7 +2092,6 @@ lf:landform-pattern-LAC-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LAC-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Lacustrine plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LAC" ;
   skos:member lf:landform-element-BEA ;
   skos:member lf:landform-element-CLI ;
   skos:prefLabel "Common elements of Lacustrine plain"@en ;
@@ -2156,7 +2100,6 @@ lf:landform-pattern-LAC-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LAC-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Lacustrine plain with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LAC" ;
   skos:member lf:landform-pattern-PLY ;
   skos:prefLabel "Compare Lacustrine plain with these patterns"@en ;
 .
@@ -2164,7 +2107,6 @@ lf:landform-pattern-LAC-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LAC-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Lacustrine plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LAC" ;
   skos:member lf:landform-element-BER ;
   skos:member lf:landform-element-RPL ;
   skos:prefLabel "Occasional elements of Lacustrine plain"@en ;
@@ -2173,7 +2115,6 @@ lf:landform-pattern-LAC-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LAC-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Lacustrine plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LAC" ;
   skos:member lf:landform-element-PLA ;
   skos:prefLabel "Typical elements of Lacustrine plain"@en ;
 .
@@ -2203,7 +2144,6 @@ lf:landform-pattern-LAV-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LAV-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Lava plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LAV" ;
   skos:member lf:landform-element-TUM ;
   skos:prefLabel "Common elements of Lava plain"@en ;
 .
@@ -2211,7 +2151,6 @@ lf:landform-pattern-LAV-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LAV-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Lava plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LAV" ;
   skos:member lf:landform-element-HSL ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
@@ -2237,7 +2176,6 @@ lf:landform-pattern-LON-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LON-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Longitudinal dunefield with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LON" ;
   skos:member lf:landform-pattern-PAR ;
   skos:prefLabel "Compare Longitudinal dunefield with these patterns"@en ;
 .
@@ -2245,7 +2183,6 @@ lf:landform-pattern-LON-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LON-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Longitudinal dunefield"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LON" ;
   skos:member lf:landform-element-BOU ;
   skos:member lf:landform-element-DUC ;
   skos:member lf:landform-element-DUN ;
@@ -2284,7 +2221,6 @@ lf:landform-pattern-LOW-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LOW-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Low hills"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LOW" ;
   skos:member lf:landform-element-ALC ;
   skos:member lf:landform-element-FOO ;
   skos:member lf:landform-element-GUL ;
@@ -2295,7 +2231,6 @@ lf:landform-pattern-LOW-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LOW-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Low hills with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LOW" ;
   skos:member lf:landform-pattern-HIL ;
   skos:member lf:landform-pattern-PLA ;
   skos:member lf:landform-pattern-RIS ;
@@ -2305,7 +2240,6 @@ lf:landform-pattern-LOW-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LOW-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Low hills"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LOW" ;
   skos:member lf:landform-element-DOC ;
   skos:member lf:landform-element-LDS ;
   skos:member lf:landform-element-SUS ;
@@ -2316,7 +2250,6 @@ lf:landform-pattern-LOW-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LOW-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Low hills"@en ;
-  rdfs:seeAlso "lf:landform-pattern-LOW" ;
   skos:member lf:landform-element-DDE ;
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-HSL ;
@@ -2347,7 +2280,6 @@ lf:landform-pattern-MAD-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MAD-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Made land"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MAD" ;
   skos:member lf:landform-element-DAM ;
   skos:member lf:landform-element-MOU ;
   skos:member lf:landform-element-PIT ;
@@ -2357,7 +2289,6 @@ lf:landform-pattern-MAD-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MAD-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Made land"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MAD" ;
   skos:member lf:landform-element-BER ;
   skos:member lf:landform-element-COS ;
   skos:member lf:landform-element-CUT ;
@@ -2386,7 +2317,6 @@ lf:landform-pattern-MAR-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MAR-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Marine plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MAR" ;
   skos:member lf:landform-element-DUN ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Occasional elements of Marine plain"@en ;
@@ -2395,7 +2325,6 @@ lf:landform-pattern-MAR-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MAR-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Marine plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MAR" ;
   skos:member lf:landform-element-PLA ;
   skos:prefLabel "Typical elements of Marine plain"@en ;
 .
@@ -2422,7 +2351,6 @@ lf:landform-pattern-MEA-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MEA-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Meander plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MEA" ;
   skos:member lf:landform-element-OXB ;
   skos:prefLabel "Common elements of Meander plain"@en ;
 .
@@ -2430,7 +2358,6 @@ lf:landform-pattern-MEA-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MEA-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Meander plain with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MEA" ;
   skos:member lf:landform-pattern-ALP ;
   skos:member lf:landform-pattern-FLO ;
   skos:prefLabel "Compare Meander plain with these patterns"@en ;
@@ -2439,7 +2366,6 @@ lf:landform-pattern-MEA-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MEA-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Meander plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MEA" ;
   skos:member lf:landform-element-BAN ;
   skos:member lf:landform-element-BAR ;
   skos:member lf:landform-element-SCR ;
@@ -2467,7 +2393,6 @@ lf:landform-pattern-MET-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MET-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Meteor crater"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MET" ;
   skos:member lf:landform-element-CRA ;
   skos:member lf:landform-element-FOO ;
   skos:member lf:landform-element-HCR ;
@@ -2508,7 +2433,6 @@ lf:landform-pattern-MOU-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MOU-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Mountains"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MOU" ;
   skos:member lf:landform-element-ALC ;
   skos:member lf:landform-element-LDS ;
   skos:member lf:landform-element-SCA ;
@@ -2520,7 +2444,6 @@ lf:landform-pattern-MOU-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MOU-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Mountains with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MOU" ;
   skos:member lf:landform-pattern-HIL ;
   skos:member lf:landform-pattern-LOW ;
   skos:member lf:landform-pattern-PLA ;
@@ -2531,7 +2454,6 @@ lf:landform-pattern-MOU-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MOU-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Mountains"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MOU" ;
   skos:member lf:landform-element-CIR ;
   skos:member lf:landform-element-FOO ;
   skos:prefLabel "Occasional elements of Mountains"@en ;
@@ -2540,7 +2462,6 @@ lf:landform-pattern-MOU-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MOU-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Mountains"@en ;
-  rdfs:seeAlso "lf:landform-pattern-MOU" ;
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-HSL ;
   skos:member lf:landform-element-STB ;
@@ -2566,7 +2487,6 @@ lf:landform-pattern-PAR-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PAR-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Parabolic dunefields with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PAR" ;
   skos:member lf:landform-pattern-LON ;
   skos:prefLabel "Compare Parabolic dunefields with these patterns"@en ;
 .
@@ -2574,7 +2494,6 @@ lf:landform-pattern-PAR-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PAR-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Parabolic dunefields"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PAR" ;
   skos:member lf:landform-element-BOU ;
   skos:member lf:landform-element-DUC ;
   skos:member lf:landform-element-DUN ;
@@ -2606,7 +2525,6 @@ lf:landform-pattern-PED-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PED-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Pediment with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PED" ;
   skos:member lf:landform-pattern-ALF ;
   skos:member lf:landform-pattern-SHF ;
   skos:prefLabel "Compare Pediment with these patterns"@en ;
@@ -2615,7 +2533,6 @@ lf:landform-pattern-PED-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PED-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Pediment"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PED" ;
   skos:member lf:landform-element-PED ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
@@ -2641,7 +2558,6 @@ lf:landform-pattern-PEP-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PEP-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Pediplain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PEP" ;
   skos:member lf:landform-element-PLA ;
   skos:prefLabel "Typical elements of Pediplain"@en ;
 .
@@ -2665,7 +2581,6 @@ lf:landform-pattern-PLA-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLA-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Plain with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PLA" ;
   skos:member lf:landform-pattern-HIL ;
   skos:member lf:landform-pattern-LOW ;
   skos:member lf:landform-pattern-MOU ;
@@ -2699,7 +2614,6 @@ lf:landform-pattern-PLT-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLT-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Plateau"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PLT" ;
   skos:member lf:landform-element-DDE ;
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-HSL ;
@@ -2711,7 +2625,6 @@ lf:landform-pattern-PLT-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLT-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Plateau"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PLT" ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Occasional elements of Plateau"@en ;
 .
@@ -2719,7 +2632,6 @@ lf:landform-pattern-PLT-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLT-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Plateau"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PLT" ;
   skos:member lf:landform-element-CLI ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-SUS ;
@@ -2747,7 +2659,6 @@ lf:landform-pattern-PLY-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLY-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Playa plain with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PLY" ;
   skos:member lf:landform-pattern-LAC ;
   skos:prefLabel "Compare Playa plain with these patterns"@en ;
 .
@@ -2755,7 +2666,6 @@ lf:landform-pattern-PLY-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLY-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Playa plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PLY" ;
   skos:member lf:landform-element-LUN ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-PLY ;
@@ -2781,7 +2691,6 @@ lf:landform-pattern-PNP-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PNP-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Peneplain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-PNP" ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Typical elements of Peneplain"@en ;
@@ -2817,7 +2726,6 @@ lf:landform-pattern-RIS-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-RIS-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Rises"@en ;
-  rdfs:seeAlso "lf:landform-pattern-RIS" ;
   skos:member lf:landform-element-STC ;
   skos:member lf:landform-element-VLF ;
   skos:prefLabel "Common elements of Rises"@en ;
@@ -2826,7 +2734,6 @@ lf:landform-pattern-RIS-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-RIS-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Rises with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-RIS" ;
   skos:member lf:landform-pattern-HIL ;
   skos:member lf:landform-pattern-LOW ;
   skos:member lf:landform-pattern-PLA ;
@@ -2836,7 +2743,6 @@ lf:landform-pattern-RIS-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-RIS-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Rises"@en ;
-  rdfs:seeAlso "lf:landform-pattern-RIS" ;
   skos:member lf:landform-element-FAN ;
   skos:member lf:landform-element-GUL ;
   skos:member lf:landform-element-TOR ;
@@ -2846,7 +2752,6 @@ lf:landform-pattern-RIS-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-RIS-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Rises"@en ;
-  rdfs:seeAlso "lf:landform-pattern-RIS" ;
   skos:member lf:landform-element-DDE ;
   skos:member lf:landform-element-FOO ;
   skos:member lf:landform-element-HCR ;
@@ -2877,7 +2782,6 @@ lf:landform-pattern-SAN-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-SAN-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Sand plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-SAN" ;
   skos:member lf:landform-element-DUN ;
   skos:member lf:landform-element-LUN ;
   skos:member lf:landform-element-PLY ;
@@ -2887,7 +2791,6 @@ lf:landform-pattern-SAN-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-SAN-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Sand plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-SAN" ;
   skos:member lf:landform-element-PLA ;
   skos:prefLabel "Typical elements of Sand plain"@en ;
 .
@@ -2914,7 +2817,6 @@ lf:landform-pattern-SHF-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-SHF-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Sheet-flood fan with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-SHF" ;
   skos:member lf:landform-pattern-ALF ;
   skos:member lf:landform-pattern-PED ;
   skos:prefLabel "Compare Sheet-flood fan with these patterns"@en ;
@@ -2923,7 +2825,6 @@ lf:landform-pattern-SHF-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-SHF-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Sheet-flood fan"@en ;
-  rdfs:seeAlso "lf:landform-pattern-SHF" ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Typical elements of Sheet-flood fan"@en ;
@@ -2954,7 +2855,6 @@ lf:landform-pattern-STA-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-STA-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Stagnant alluvial plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-STA" ;
   skos:member lf:landform-element-BAR ;
   skos:member lf:landform-element-BKP ;
   skos:member lf:landform-element-LEV ;
@@ -2966,7 +2866,6 @@ lf:landform-pattern-STA-comparewith-patterns
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-STA-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Stagnant alluvial plain with these patterns"@en ;
-  rdfs:seeAlso "lf:landform-pattern-STA" ;
   skos:member lf:landform-pattern-FLO ;
   skos:member lf:landform-pattern-TER ;
   skos:prefLabel "Compare Stagnant alluvial plain with these patterns"@en ;
@@ -2975,7 +2874,6 @@ lf:landform-pattern-STA-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-STA-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Stagnant alluvial plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-STA" ;
   skos:member lf:landform-element-FLD ;
   skos:member lf:landform-element-LAK ;
   skos:member lf:landform-element-OXB ;
@@ -2985,7 +2883,6 @@ lf:landform-pattern-STA-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-STA-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Stagnant alluvial plain"@en ;
-  rdfs:seeAlso "lf:landform-pattern-STA" ;
   skos:member lf:landform-element-BAN ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
@@ -3012,7 +2909,6 @@ lf:landform-pattern-TEL-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-TEL-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Terraced land"@en ;
-  rdfs:seeAlso "lf:landform-pattern-TEL" ;
   skos:member lf:landform-element-LEV ;
   skos:member lf:landform-element-SCR ;
   skos:prefLabel "Occasional elements of Terraced land"@en ;
@@ -3021,7 +2917,6 @@ lf:landform-pattern-TEL-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-TEL-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Terraced land"@en ;
-  rdfs:seeAlso "lf:landform-pattern-TEL" ;
   skos:member lf:landform-element-SCA ;
   skos:member lf:landform-element-SRP ;
   skos:member lf:landform-element-STC ;
@@ -3049,7 +2944,6 @@ lf:landform-pattern-TER-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-TER-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Terrace"@en ;
-  rdfs:seeAlso "lf:landform-pattern-TER" ;
   skos:member lf:landform-element-LEV ;
   skos:member lf:landform-element-SCR ;
   skos:member lf:landform-element-STC ;
@@ -3059,7 +2953,6 @@ lf:landform-pattern-TER-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-TER-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Terrace"@en ;
-  rdfs:seeAlso "lf:landform-pattern-TER" ;
   skos:member lf:landform-element-CBE ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-SCA ;
@@ -3087,7 +2980,6 @@ lf:landform-pattern-TID-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-TID-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Tidal flat"@en ;
-  rdfs:seeAlso "lf:landform-pattern-TID" ;
   skos:member lf:landform-element-BEA ;
   skos:member lf:landform-element-BRI ;
   skos:member lf:landform-element-DUN ;
@@ -3098,7 +2990,6 @@ lf:landform-pattern-TID-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-TID-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Tidal flat"@en ;
-  rdfs:seeAlso "lf:landform-pattern-TID" ;
   skos:member lf:landform-element-ITF ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STC ;
@@ -3129,7 +3020,6 @@ lf:landform-pattern-VOL-common-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-VOL-common-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Volcano"@en ;
-  rdfs:seeAlso "lf:landform-pattern-VOL" ;
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-HSL ;
   skos:member lf:landform-element-LAK ;
@@ -3142,7 +3032,6 @@ lf:landform-pattern-VOL-occasional-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-VOL-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Volcano"@en ;
-  rdfs:seeAlso "lf:landform-pattern-VOL" ;
   skos:member lf:landform-element-TUM ;
   skos:prefLabel "Typical elements of Volcano"@en ;
 .
@@ -3150,7 +3039,6 @@ lf:landform-pattern-VOL-typical-elements
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-VOL-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Volcano"@en ;
-  rdfs:seeAlso lf:landform-pattern-VOL ;
   skos:member lf:landform-element-CON ;
   skos:member lf:landform-element-CRA ;
   skos:prefLabel "Typical elements of Volcano"@en ;
@@ -3160,7 +3048,7 @@ lf:landform-pattern-components
   skos-ext:topMemberOf asls:landform ;
   dcterms:description "Certain kinds of landform element are typical of a given landform pattern. Some are found commonly and others occasionally in a given type. These landform elements are listed for each type of landform pattern."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-components"^^xsd:anyURI ;
-  rdfs:label "Components of landform patterns"@en ;
+  rdfs:label "Collections of elements found in specific landform patterns"@en ;
   skos:definition "Certain kinds of landform element are typical of a given landform pattern. Some are found commonly and others occasionally in a given type. These landform elements are listed for each type of landform pattern."@en ;
   skos:member lf:landform-pattern-ALF-common-elements ;
   skos:member lf:landform-pattern-ALF-comparewith-patterns ;
@@ -3268,7 +3156,7 @@ lf:landform-pattern-components
   skos:member lf:landform-pattern-VOL-common-elements ;
   skos:member lf:landform-pattern-VOL-occasional-elements ;
   skos:member lf:landform-pattern-VOL-typical-elements ;
-  skos:prefLabel "Components of landform patterns"@en ;
+  skos:prefLabel "Collections of elements found in specific landform patterns"@en ;
 .
 lf:landform-pattern-descriptions
   a skos:Collection ;

@@ -75,7 +75,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Non-human biological agents; coral (Biological agents)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-BI"^^xsd:anyURI ;
-  rdfs:comment "Biological agent" ;
+  rdfs:comment "Biological agent"@en ;
   rdfs:label "Non-human biological agents"@en ;
   skos:definition "Non-human biological agents; coral (Biological agents)."@en ;
   skos:notation "BI" ;
@@ -86,7 +86,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Channelled stream flow (Stream flow)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-CH"^^xsd:anyURI ;
-  rdfs:comment "Stream flow" ;
+  rdfs:comment "Stream flow"@en ;
   rdfs:label "Channelled stream flow"@en ;
   skos:definition "Channelled stream flow (Stream flow)."@en ;
   skos:notation "CH" ;
@@ -97,7 +97,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Diastrophism; earth movements (Internal forces)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-DI"^^xsd:anyURI ;
-  rdfs:comment "Internal forces" ;
+  rdfs:comment "Internal forces"@en ;
   rdfs:label "Diastrophism"@en ;
   skos:definition "Diastrophism; earth movements (Internal forces)."@en ;
   skos:notation "DI" ;
@@ -108,7 +108,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Eustasy; changes in sea level (Standing water)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-EU"^^xsd:anyURI ;
-  rdfs:comment "Standing water" ;
+  rdfs:comment "Standing water"@en ;
   rdfs:label "Eustasy"@en ;
   skos:definition "Eustasy; changes in sea level (Standing water)."@en ;
   skos:notation "EU" ;
@@ -119,7 +119,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Frost (Ice)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-FR"^^xsd:anyURI ;
-  rdfs:comment "Ice" ;
+  rdfs:comment "Ice"@en ;
   rdfs:label "Frost"@en ;
   skos:definition "Frost (Ice)."@en ;
   skos:notation "FR" ;
@@ -130,7 +130,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Glacier flow (Ice)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-GL"^^xsd:anyURI ;
-  rdfs:comment "Ice" ;
+  rdfs:comment "Ice"@en ;
   rdfs:label "Glacier flow"@en ;
   skos:definition "Glacier flow (Ice)."@en ;
   skos:notation "GL" ;
@@ -141,7 +141,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Collapse, or particle fall."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-GR"^^xsd:anyURI ;
-  rdfs:comment "Gravity" ;
+  rdfs:comment "Gravity"@en ;
   rdfs:label "Gravity"@en ;
   skos:definition "Collapse, or particle fall."@en ;
   skos:notation "GR" ;
@@ -152,7 +152,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Human agents (Biological agents)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-HU"^^xsd:anyURI ;
-  rdfs:comment "Biological agents" ;
+  rdfs:comment "Biological agents"@en ;
   rdfs:label "Human agents"@en ;
   skos:definition "Human agents (Biological agents)."@en ;
   skos:notation "HU" ;
@@ -163,7 +163,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Impact by meteors (Extraterrestrial agents)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-IM"^^xsd:anyURI ;
-  rdfs:comment "Extraterrestrial agents" ;
+  rdfs:comment "Extraterrestrial agents"@en ;
   rdfs:label "Impact by meteors"@en ;
   skos:definition "Impact by meteors (Extraterrestrial agents)."@en ;
   skos:notation "IM" ;
@@ -174,7 +174,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Overbank stream flow, unchannelled (Stream flow)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-OV"^^xsd:anyURI ;
-  rdfs:comment "Stream flow" ;
+  rdfs:comment "Stream flow"@en ;
   rdfs:label "Overbank stream flow, unchannelled"@en ;
   skos:definition "Overbank stream flow, unchannelled (Stream flow)."@en ;
   skos:notation "OV" ;
@@ -185,7 +185,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Sheet flow, sheet wash, surface wash (Precipitation)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-SH"^^xsd:anyURI ;
-  rdfs:comment "Precipitation" ;
+  rdfs:comment "Precipitation"@en ;
   rdfs:label "Sheet flow, sheet wash, surface wash"@en ;
   skos:definition "Sheet flow, sheet wash, surface wash (Precipitation)."@en ;
   skos:notation "SH" ;
@@ -196,7 +196,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Soil moisture status changes; creep (Precipitation)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-SM"^^xsd:anyURI ;
-  rdfs:comment "Precipitation" ;
+  rdfs:comment "Precipitation"@en ;
   rdfs:label "Soil moisture status changes"@en ;
   skos:definition "Soil moisture status changes; creep (Precipitation)."@en ;
   skos:notation "SM" ;
@@ -207,7 +207,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Solution (Precipitation)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-SO"^^xsd:anyURI ;
-  rdfs:comment "Precipitation" ;
+  rdfs:comment "Precipitation"@en ;
   rdfs:label "Solution"@en ;
   skos:definition "Solution (Precipitation)."@en ;
   skos:notation "SO" ;
@@ -218,7 +218,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Tides (Standing water)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-TI"^^xsd:anyURI ;
-  rdfs:comment "Standing water" ;
+  rdfs:comment "Standing water"@en ;
   rdfs:label "Tides"@en ;
   skos:definition "Tides (Standing water)."@en ;
   skos:notation "TI" ;
@@ -229,7 +229,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Volcanism (Internal forces)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-VO"^^xsd:anyURI ;
-  rdfs:comment "Internal forces" ;
+  rdfs:comment "Internal forces"@en ;
   rdfs:label "Volcanism"@en ;
   skos:definition "Volcanism (Internal forces)."@en ;
   skos:notation "VO" ;
@@ -240,7 +240,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Waves (Standing water)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-WA"^^xsd:anyURI ;
-  rdfs:comment "Standing water" ;
+  rdfs:comment "Standing water"@en ;
   rdfs:label "Waves"@en ;
   skos:definition "Waves (Standing water)."@en ;
   skos:notation "WA" ;
@@ -251,7 +251,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Wind (Wind)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-WI"^^xsd:anyURI ;
-  rdfs:comment "Wind" ;
+  rdfs:comment "Wind"@en ;
   rdfs:label "Wind"@en ;
   skos:definition "Wind (Wind)."@en ;
   skos:notation "WI" ;
@@ -262,7 +262,7 @@
   skos-ext:isMemberOf <geomorphological-agents> ;
   dcterms:description "Water-aided mass movements; landslides (Precipitation)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/geomorphological-agent-WM"^^xsd:anyURI ;
-  rdfs:comment "Precipitation" ;
+  rdfs:comment "Precipitation"@en ;
   rdfs:label "Water-aided mass movements"@en ;
   skos:definition "Water-aided mass movements; landslides (Precipitation)."@en ;
   skos:notation "WM" ;
@@ -1093,20 +1093,32 @@
 <landform-element-descriptions>
   a skos:Collection ;
   skos-ext:topMemberOf asls:landform ;
+  dcterms:description """A landform element may be described by the following attributes, assessed withiin a circle of about 20 m radius:
+  slope
+  morphological type
+  dimensions
+  mode of geomorphological activity
+  geomorphological agent
+
+These will establish most of the distinctions between landform elements that are implied by their geomorphological names. The glossary of types of landform elements occurring in Australia refers explicitly to this set of attributes. A landform element that has been described mayb thus be assigne a type name."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-descriptions"^^xsd:anyURI ;
   rdfs:label "Description of landform element"@en ;
+  skos:definition "A landform element may be described by the following attributes, assessed withiin a circle of about 20 m radius:"@en ;
   skos:member <element-dimensions> ;
   skos:member <landform-genesis> ;
   skos:member <location-within-the-landform-element> ;
   skos:member <location-within-toposequence> ;
   skos:member <morphological-types> ;
   skos:member <slope> ;
+  skos:prefLabel "Description of landform element"@en ;
 .
 <landform-element-glossary>
   a skos:Collection ;
   skos-ext:topMemberOf asls:landform ;
+  dcterms:description "The landform element glossary aims to provide an adequate, concise set of names for types of landform element."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-glossary"^^xsd:anyURI ;
   rdfs:label "Glossary of landform elements"@en ;
+  skos:definition "The landform element glossary aims to provide an adequate, concise set of names for types of landform element."@en ;
   skos:member <landform-element-ALC> ;
   skos:member <landform-element-BAN> ;
   skos:member <landform-element-BAR> ;
@@ -1186,6 +1198,7 @@
   skos:member <landform-element-TRE> ;
   skos:member <landform-element-TUM> ;
   skos:member <landform-element-VLF> ;
+  skos:prefLabel "Glossary of landform elements"@en ;
 .
 <landform-genesis>
   a skos:Collection ;
@@ -1209,13 +1222,19 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-ALF-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-ALF-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-ALF-typical-elements> ;
-  dcterms:description "level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps."@en ;
+  dcterms:description """level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps. 
+Typical elements: stream bed, bar, plain.
+Common element: scarp.
+Compare with sheet-flood fan and pediment."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALF"^^xsd:anyURI ;
   dcterms:references <relief-class-P> ;
   dcterms:references <slope-class-LE> ;
   dcterms:references <slope-class-VG> ;
   rdfs:label "Alluvial fan"@en ;
-  skos:definition "level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps."@en ;
+  skos:definition """level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps. 
+Typical elements: stream bed, bar, plain.
+Common element: scarp.
+Compare with sheet-flood fan and pediment."""@en ;
   skos:notation "ALF" ;
   skos:prefLabel "Alluvial fan"@en ;
   skos:related <relief-class-P> ;
@@ -1227,6 +1246,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALF-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of an Alluvial fan"@en ;
   skos:member <landform-element-SCA> ;
+  skos:prefLabel "Common elements of an Alluvial fan"@en ;
 .
 <landform-pattern-ALF-comparewith-patterns>
   a skos:Collection ;
@@ -1234,6 +1254,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Compare Alluvial fans with these patterns"@en ;
   skos:member <landform-pattern-PED> ;
   skos:member <landform-pattern-SHF> ;
+  skos:prefLabel "Compare Alluvial fans with these patterns"@en ;
 .
 <landform-pattern-ALF-typical-elements>
   a skos:Collection ;
@@ -1242,6 +1263,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-BAR> ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STB> ;
+  skos:prefLabel "Typical elements of an Alluvial fan"@en ;
 .
 <landform-pattern-ALP>
   a skos:Concept ;
@@ -1250,10 +1272,18 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-ALP-included-patterns> ;
   skos-ext:relatedCollection <landform-pattern-ALP-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-ALP-typical-elements> ;
-  dcterms:description "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
+  dcterms:description """level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses. 
+Typical elements: stream channel (stream bed and bank), plain (dominant).
+Common elements: bar, scroll, levee, backplain, swamp.
+Occasional elements: ox-bow, flood-out, lake.
+Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALP"^^xsd:anyURI ;
   rdfs:label "Alluvial plain"@en ;
-  skos:definition "level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses."@en ;
+  skos:definition """level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses. 
+Typical elements: stream channel (stream bed and bank), plain (dominant).
+Common elements: bar, scroll, levee, backplain, swamp.
+Occasional elements: ox-bow, flood-out, lake.
+Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land."""@en ;
   skos:notation "ALP" ;
   skos:prefLabel "Alluvial plain"@en ;
   skos:related <relief-class-P> ;
@@ -1268,6 +1298,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-LEV> ;
   skos:member <landform-element-SCR> ;
   skos:member <landform-element-SWP> ;
+  skos:prefLabel "Common elements of an Alluvial plain"@en ;
 .
 <landform-pattern-ALP-included-patterns>
   a skos:Collection ;
@@ -1282,6 +1313,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-pattern-STA> ;
   skos:member <landform-pattern-TEL> ;
   skos:member <landform-pattern-TER> ;
+  skos:prefLabel "Included types of landform pattern for Alluvial plain"@en ;
 .
 <landform-pattern-ALP-occasional-elements>
   a skos:Collection ;
@@ -1290,6 +1322,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-FLD> ;
   skos:member <landform-element-LAK> ;
   skos:member <landform-element-OXB> ;
+  skos:prefLabel "Occasional elements of an Alluvial plain"@en ;
 .
 <landform-pattern-ALP-typical-elements>
   a skos:Collection ;
@@ -1299,6 +1332,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
+  skos:prefLabel "Typical elements of an Alluvial plain"@en ;
 .
 <landform-pattern-ANA>
   a skos:Concept ;
@@ -1306,10 +1340,16 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-ANA-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-ANA-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-ANA-typical-elements> ;
-  dcterms:description "flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow."@en ;
+  dcterms:description """flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow. 
+Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).
+Common element: swamp.
+Compare with other types under alluvial plain and flood plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ANA"^^xsd:anyURI ;
   rdfs:label "Anastomotic plain"@en ;
-  skos:definition "flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow."@en ;
+  skos:definition """flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow. 
+Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).
+Common element: swamp.
+Compare with other types under alluvial plain and flood plain."""@en ;
   skos:notation "ANA" ;
   skos:prefLabel "Anastomotic plain"@en ;
   skos:related <relief-class-P> ;
@@ -1320,6 +1360,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ANA-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of an Anastomotic plain"@en ;
   skos:member <landform-element-SWP> ;
+  skos:prefLabel "Common elements of an Anastomotic plain"@en ;
 .
 <landform-pattern-ANA-comparewith-patterns>
   a skos:Collection ;
@@ -1327,6 +1368,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Compare Anastomotic plain with these patterns"@en ;
   skos:member <landform-pattern-ALP> ;
   skos:member <landform-pattern-FLO> ;
+  skos:prefLabel "Compare Anastomotic plain with these patterns"@en ;
 .
 <landform-pattern-ANA-typical-elements>
   a skos:Collection ;
@@ -1337,6 +1379,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-LEV> ;
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
+  skos:prefLabel "Typical elements of an Anastomotic plain"@en ;
 .
 <landform-pattern-BAD>
   a skos:Concept ;
@@ -1344,10 +1387,16 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-BAD-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-BAD-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-BAD-typical-elements> ;
-  dcterms:description "landform pattern of low to extremely low relief (less than 90 m) and steep to precipitous slopes, typically with numerous fixed, erosional stream channels which form a non-directional, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow."@en ;
+  dcterms:description """landform pattern of low to extremely low relief (less than 90 m) and steep to precipitous slopes, typically with numerous fixed, erosional stream channels which form a non-directional, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow. 
+Typical elements: ridge (dominant), stream bed or gully.
+Occasional elements: summit surface, hillcrest, hillslope, talus.
+Compare with mountains, hills, low hills, rises and plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-BAD"^^xsd:anyURI ;
   rdfs:label "Badlands"@en ;
-  skos:definition "landform pattern of low to extremely low relief (less than 90 m) and steep to precipitous slopes, typically with numerous fixed, erosional stream channels which form a non-directional, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow."@en ;
+  skos:definition """landform pattern of low to extremely low relief (less than 90 m) and steep to precipitous slopes, typically with numerous fixed, erosional stream channels which form a non-directional, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow. 
+Typical elements: ridge (dominant), stream bed or gully.
+Occasional elements: summit surface, hillcrest, hillslope, talus.
+Compare with mountains, hills, low hills, rises and plain."""@en ;
   skos:notation "BAD" ;
   skos:prefLabel "Badlands"@en ;
   skos:related <relief-class-L> ;
@@ -1365,6 +1414,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-pattern-LOW> ;
   skos:member <landform-pattern-PLA> ;
   skos:member <landform-pattern-RIS> ;
+  skos:prefLabel "Compare Badlands with these patterns"@en ;
 .
 <landform-pattern-BAD-occasional-elements>
   a skos:Collection ;
@@ -1374,6 +1424,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-SUS> ;
   skos:member <landform-element-TAL> ;
+  skos:prefLabel "Occasional elements of Badlands"@en ;
 .
 <landform-pattern-BAD-typical-elements>
   a skos:Collection ;
@@ -1382,16 +1433,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-GUL> ;
   skos:member <landform-element-STB> ;
   skos:member <morphological-type-R> ;
+  skos:prefLabel "Typical elements of Badlands"@en ;
 .
 <landform-pattern-BAR>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-BAR-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-BAR-typical-elements> ;
-  dcterms:description "flood plain with numerous rapidly migrating, shallow alluvial channels forming a unidirectional, integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow. (Described by Melton 1936.)"@en ;
+  dcterms:description """flood plain with numerous rapidly migrating, shallow alluvial channels forming a unidirectional, integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow. (Described by Melton 1936.) 
+Typical elements: stream bed, bar (dominant).
+Compare with other types under alluvial plain and flood plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-BAR"^^xsd:anyURI ;
   rdfs:label "Bar plain"@en ;
-  skos:definition "flood plain with numerous rapidly migrating, shallow alluvial channels forming a unidirectional, integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow. (Described by Melton 1936.)"@en ;
+  skos:definition """flood plain with numerous rapidly migrating, shallow alluvial channels forming a unidirectional, integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow. (Described by Melton 1936.) 
+Typical elements: stream bed, bar (dominant).
+Compare with other types under alluvial plain and flood plain."""@en ;
   skos:notation "BAR" ;
   skos:prefLabel "Bar plain"@en ;
 .
@@ -1401,6 +1457,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Compare Bar plain with these patterns"@en ;
   skos:member <landform-pattern-ALP> ;
   skos:member <landform-pattern-FLO> ;
+  skos:prefLabel "Compare Bar plain with these patterns"@en ;
 .
 <landform-pattern-BAR-typical-elements>
   a skos:Collection ;
@@ -1408,6 +1465,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Typical elements of Bar plain"@en ;
   skos:member <landform-element-BAR> ;
   skos:member <landform-element-STB> ;
+  skos:prefLabel "Typical elements of Bar plain"@en ;
 .
 <landform-pattern-BEA>
   a skos:Concept ;
@@ -1415,10 +1473,16 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-BEA-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-BEA-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-BEA-typical-elements> ;
-  dcterms:description "level to gently undulating landform pattern of extremely low relief on which stream channels are absent or very rare; it consists of relict, parallel beach ridges."@en ;
+  dcterms:description """level to gently undulating landform pattern of extremely low relief on which stream channels are absent or very rare; it consists of relict, parallel beach ridges. 
+Typical elements: beach ridge (co-dominant), swale (co-dominant).
+Common elements: beach, foredune, tidal creek.
+Compare with chenier plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-BEA"^^xsd:anyURI ;
   rdfs:label "Beach ridge plain"@en ;
-  skos:definition "level to gently undulating landform pattern of extremely low relief on which stream channels are absent or very rare; it consists of relict, parallel beach ridges."@en ;
+  skos:definition """level to gently undulating landform pattern of extremely low relief on which stream channels are absent or very rare; it consists of relict, parallel beach ridges. 
+Typical elements: beach ridge (co-dominant), swale (co-dominant).
+Common elements: beach, foredune, tidal creek.
+Compare with chenier plain."""@en ;
   skos:notation "BEA" ;
   skos:prefLabel "Beach ridge plain"@en ;
   skos:related <relief-class-P> ;
@@ -1432,12 +1496,14 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-BEA> ;
   skos:member <landform-element-FOR> ;
   skos:member <landform-element-TDC> ;
+  skos:prefLabel "Common elements of Beach ridge plain"@en ;
 .
 <landform-pattern-BEA-comparewith-patterns>
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-BEA-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Beach ridge plain with these patterns"@en ;
   skos:member <landform-pattern-CHE> ;
+  skos:prefLabel "Compare Beach ridge plain with these patterns"@en ;
 .
 <landform-pattern-BEA-typical-elements>
   a skos:Collection ;
@@ -1445,22 +1511,29 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Typical elements of Beach ridge plain"@en ;
   skos:member <landform-element-BRI> ;
   skos:member <landform-element-SWL> ;
+  skos:prefLabel "Typical elements of Beach ridge plain"@en ;
 .
 <landform-pattern-CAL>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-CAL-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-CAL-typical-elements> ;
-  dcterms:description "rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism."@en ;
+  dcterms:description """rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism. 
+rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism.
+Typical elements: scarp, hillslope, lake.
+Occasional elements: cone, hillcrest, stream channel."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-CAL"^^xsd:anyURI ;
   rdfs:label "Caldera"@en ;
-  skos:definition "rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism."@en ;
+  skos:definition """rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism. 
+rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism.
+Typical elements: scarp, hillslope, lake.
+Occasional elements: cone, hillcrest, stream channel."""@en ;
   skos:notation "CAL" ;
   skos:prefLabel "Caldera"@en ;
   skos:related <relief-class-M> ;
+  skos:related <slope-class-PR> ;
   skos:related <slope-class-ST> ;
   skos:related <slope-class-VS> ;
-  skos:related <slope-class-PR> ;
 .
 <landform-pattern-CAL-occasional-elements>
   a skos:Collection ;
@@ -1469,6 +1542,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-CON> ;
   skos:member <landform-element-HCR> ;
   skos:member <landform-element-STC> ;
+  skos:prefLabel "Occasional elements of Caldera"@en ;
 .
 <landform-pattern-CAL-typical-elements>
   a skos:Collection ;
@@ -1477,6 +1551,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-LAK> ;
   skos:member <landform-element-SCA> ;
+  skos:prefLabel "Typical elements of Caldera"@en ;
 .
 <landform-pattern-CHE>
   a skos:Concept ;
@@ -1484,10 +1559,16 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-CHE-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-CHE-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-CHE-typical-elements> ;
-  dcterms:description "level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict, parallel, linear ridges built up by waves, separated by, and built over, flats (mud flats) aggraded by tides or over-bank stream flow."@en ;
+  dcterms:description """level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict, parallel, linear ridges built up by waves, separated by, and built over, flats (mud flats) aggraded by tides or over-bank stream flow. 
+Typical elements: beach ridge (co-dominant), flat (co-dominant).
+Common elements: tidal flat, swamp, beach, foredune, tidal creek.
+Compare with beach ridge plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-CHE"^^xsd:anyURI ;
   rdfs:label "Chenier plain"@en ;
-  skos:definition "level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict, parallel, linear ridges built up by waves, separated by, and built over, flats (mud flats) aggraded by tides or over-bank stream flow."@en ;
+  skos:definition """level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict, parallel, linear ridges built up by waves, separated by, and built over, flats (mud flats) aggraded by tides or over-bank stream flow. 
+Typical elements: beach ridge (co-dominant), flat (co-dominant).
+Common elements: tidal flat, swamp, beach, foredune, tidal creek.
+Compare with beach ridge plain."""@en ;
   skos:notation "CHE" ;
   skos:prefLabel "Chenier plain"@en ;
   skos:related <relief-class-P> ;
@@ -1503,12 +1584,14 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-FOR> ;
   skos:member <landform-element-SWP> ;
   skos:member <landform-element-TDC> ;
+  skos:prefLabel "Common elements of Chenier plain"@en ;
 .
 <landform-pattern-CHE-comparewith-patterns>
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-CHE-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Chenier plain with these patterns"@en ;
   skos:member <landform-pattern-BEA> ;
+  skos:prefLabel "Compare Chenier plain with these patterns"@en ;
 .
 <landform-pattern-CHE-typical-elements>
   a skos:Collection ;
@@ -1517,16 +1600,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-BRI> ;
   skos:member <landform-element-TDF> ;
   skos:member <morphological-type-F> ;
+  skos:prefLabel "Typical elements of Chenier plain"@en ;
 .
 <landform-pattern-COR>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-COR-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-COR-typical-elements> ;
-  dcterms:description "continuously active or relict landform pattern built up to the sea level of the present day or of a former time by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below the sea level. Stream channels are generally absent, but there may occasionally be fixed, deep, erosional tidal stream channels forming a disintegrated non-tributary pattern."@en ;
+  dcterms:description """continuously active or relict landform pattern built up to the sea level of the present day or of a former time by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below the sea level. Stream channels are generally absent, but there may occasionally be fixed, deep, erosional tidal stream channels forming a disintegrated non-tributary pattern. 
+Typical elements: reef flat, lagoon, cliff (submarine).
+Common elements: beach, beach ridge."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-COR"^^xsd:anyURI ;
   rdfs:label "Coral reef"@en ;
-  skos:definition "continuously active or relict landform pattern built up to the sea level of the present day or of a former time by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below the sea level. Stream channels are generally absent, but there may occasionally be fixed, deep, erosional tidal stream channels forming a disintegrated non-tributary pattern."@en ;
+  skos:definition """continuously active or relict landform pattern built up to the sea level of the present day or of a former time by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below the sea level. Stream channels are generally absent, but there may occasionally be fixed, deep, erosional tidal stream channels forming a disintegrated non-tributary pattern. 
+Typical elements: reef flat, lagoon, cliff (submarine).
+Common elements: beach, beach ridge."""@en ;
   skos:notation "COR" ;
   skos:prefLabel "Coral reef"@en ;
   skos:related <slope-class-LE> ;
@@ -1541,6 +1629,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Common elements of Coral reef"@en ;
   skos:member <landform-element-BEA> ;
   skos:member <landform-element-BRI> ;
+  skos:prefLabel "Common elements of Coral reef"@en ;
 .
 <landform-pattern-COR-typical-elements>
   a skos:Collection ;
@@ -1549,6 +1638,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-CLI> ;
   skos:member <landform-element-LAG> ;
   skos:member <landform-element-REF> ;
+  skos:prefLabel "Typical elements of Coral reef"@en ;
 .
 <landform-pattern-COV>
   a skos:Concept ;
@@ -1556,10 +1646,16 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-COV-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-COV-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-COV-typical-elements> ;
-  dcterms:description "flood plain with slowly migrating, deep alluvial channels, usually widely spaced and forming a unidirectional, integrated non-tributary network. There is frequently active aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
+  dcterms:description """flood plain with slowly migrating, deep alluvial channels, usually widely spaced and forming a unidirectional, integrated non-tributary network. There is frequently active aggradation by over-bank stream flow. (Described by Melton 1936.) 
+Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).
+Common element: swamp.
+Compare with other types under alluvial plain and flood plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-COV"^^xsd:anyURI ;
   rdfs:label "Covered plain"@en ;
-  skos:definition "flood plain with slowly migrating, deep alluvial channels, usually widely spaced and forming a unidirectional, integrated non-tributary network. There is frequently active aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
+  skos:definition """flood plain with slowly migrating, deep alluvial channels, usually widely spaced and forming a unidirectional, integrated non-tributary network. There is frequently active aggradation by over-bank stream flow. (Described by Melton 1936.) 
+Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).
+Common element: swamp.
+Compare with other types under alluvial plain and flood plain."""@en ;
   skos:notation "COV" ;
   skos:prefLabel "Covered plain"@en ;
 .
@@ -1568,6 +1664,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-COV-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Covered plain"@en ;
   skos:member <landform-element-SWP> ;
+  skos:prefLabel "Common elements of Covered plain"@en ;
 .
 <landform-pattern-COV-comparewith-patterns>
   a skos:Collection ;
@@ -1575,6 +1672,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Compare Covered plain with these patterns"@en ;
   skos:member <landform-pattern-ALP> ;
   skos:member <landform-pattern-FLO> ;
+  skos:prefLabel "Compare Covered plain with these patterns"@en ;
 .
 <landform-pattern-COV-typical-elements>
   a skos:Collection ;
@@ -1585,6 +1683,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-LEV> ;
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
+  skos:prefLabel "Typical elements of Covered plain"@en ;
 .
 <landform-pattern-DEL>
   a skos:Concept ;
@@ -1592,10 +1691,16 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-DEL-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-DEL-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-DEL-typical-elements> ;
-  dcterms:description "flood plain projecting into a sea or lake, with slowly migrating, deep alluvial channels, usually moderately spaced, typically forming a divergent, integrated distributary network. This landform is aggraded by frequently active over-bank and channelled stream flow that is modified by tides."@en ;
+  dcterms:description """flood plain projecting into a sea or lake, with slowly migrating, deep alluvial channels, usually moderately spaced, typically forming a divergent, integrated distributary network. This landform is aggraded by frequently active over-bank and channelled stream flow that is modified by tides. 
+Typical elements: stream channel (stream bed and bank), levee, backplain (co-dominant), swamp (co-dominant), lagoon (co-dominant).
+Common elements: beach ridge, swale, beach, estuary, tidal creek.
+Compare with other types under alluvial plain, flood plain and chenier plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-DEL"^^xsd:anyURI ;
   rdfs:label "Delta"@en ;
-  skos:definition "flood plain projecting into a sea or lake, with slowly migrating, deep alluvial channels, usually moderately spaced, typically forming a divergent, integrated distributary network. This landform is aggraded by frequently active over-bank and channelled stream flow that is modified by tides."@en ;
+  skos:definition """flood plain projecting into a sea or lake, with slowly migrating, deep alluvial channels, usually moderately spaced, typically forming a divergent, integrated distributary network. This landform is aggraded by frequently active over-bank and channelled stream flow that is modified by tides. 
+Typical elements: stream channel (stream bed and bank), levee, backplain (co-dominant), swamp (co-dominant), lagoon (co-dominant).
+Common elements: beach ridge, swale, beach, estuary, tidal creek.
+Compare with other types under alluvial plain, flood plain and chenier plain."""@en ;
   skos:notation "DEL" ;
   skos:prefLabel "Delta"@en ;
 .
@@ -1608,6 +1713,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-EST> ;
   skos:member <landform-element-SWL> ;
   skos:member <landform-element-TDC> ;
+  skos:prefLabel "Common elements of Delta"@en ;
 .
 <landform-pattern-DEL-comparewith-patterns>
   a skos:Collection ;
@@ -1616,6 +1722,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-pattern-ALP> ;
   skos:member <landform-pattern-CHE> ;
   skos:member <landform-pattern-FLO> ;
+  skos:prefLabel "Compare Delta with these patterns"@en ;
 .
 <landform-pattern-DEL-typical-elements>
   a skos:Collection ;
@@ -1628,6 +1735,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
   skos:member <landform-element-SWP> ;
+  skos:prefLabel "Typical elements of Delta"@en ;
 .
 <landform-pattern-DUN>
   a skos:Concept ;
@@ -1635,10 +1743,16 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-DUN-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-DUN-included-patterns> ;
   skos-ext:relatedCollection <landform-pattern-DUN-typical-elements> ;
-  dcterms:description "level to rolling landform pattern of very low or extremely low relief without stream channels, built up or locally excavated, eroded or aggraded by wind."@en ;
+  dcterms:description """level to rolling landform pattern of very low or extremely low relief without stream channels, built up or locally excavated, eroded or aggraded by wind. 
+Typical elements: dune or dunecrest, duneslope, swale, blow-out, risecrest, residual rise, riseslope.
+Common elements: hummocky dune, barchan dune, parabolic dune, linear dune.
+Included types of landform pattern are: longitudinal dunefield, parabolic dunefield."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-DUN"^^xsd:anyURI ;
   rdfs:label "Dunefield"@en ;
-  skos:definition "level to rolling landform pattern of very low or extremely low relief without stream channels, built up or locally excavated, eroded or aggraded by wind."@en ;
+  skos:definition """level to rolling landform pattern of very low or extremely low relief without stream channels, built up or locally excavated, eroded or aggraded by wind. 
+Typical elements: dune or dunecrest, duneslope, swale, blow-out, risecrest, residual rise, riseslope.
+Common elements: hummocky dune, barchan dune, parabolic dune, linear dune.
+Included types of landform pattern are: longitudinal dunefield, parabolic dunefield."""@en ;
   skos:notation "DUN" ;
   skos:prefLabel "Dunefield"@en ;
   skos:related <relief-class-P> ;
@@ -1656,6 +1770,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-DUF> ;
   skos:member <landform-element-DUH> ;
   skos:member <landform-element-DUP> ;
+  skos:prefLabel "Common elements of Dunefield"@en ;
 .
 <landform-pattern-DUN-included-patterns>
   a skos:Collection ;
@@ -1663,6 +1778,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Included patterns of Dunefield"@en ;
   skos:member <landform-pattern-LON> ;
   skos:member <landform-pattern-PAR> ;
+  skos:prefLabel "Included patterns of Dunefield"@en ;
 .
 <landform-pattern-DUN-typical-elements>
   a skos:Collection ;
@@ -1676,6 +1792,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-RER> ;
   skos:member <landform-element-RES> ;
   skos:member <landform-element-SWL> ;
+  skos:prefLabel "Typical elements of Dunefield"@en ;
 .
 <landform-pattern-ESC>
   a skos:Concept ;
@@ -1683,10 +1800,16 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-ESC-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-ESC-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-ESC-typical-elements> ;
-  dcterms:description "steep to precipitous landform pattern forming a linearly extensive, straight or sinuous, inclined surface, which separates terrains at different altitudes; a plateau is commonly above the escarpment. Relief within the landform pattern may be high (hilly) or low (planar). The upper margin is often marked by an included cliff or scarp."@en ;
+  dcterms:description """steep to precipitous landform pattern forming a linearly extensive, straight or sinuous, inclined surface, which separates terrains at different altitudes; a plateau is commonly above the escarpment. Relief within the landform pattern may be high (hilly) or low (planar). The upper margin is often marked by an included cliff or scarp. 
+Typical elements: hillcrest, hillslope, cliff-footslope.
+Common elements: cliff, scarp, scarp-footslope, talus, footslope, alcove.
+Occasional element: stream bed."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ESC"^^xsd:anyURI ;
   rdfs:label "Escarpment"@en ;
-  skos:definition "steep to precipitous landform pattern forming a linearly extensive, straight or sinuous, inclined surface, which separates terrains at different altitudes; a plateau is commonly above the escarpment. Relief within the landform pattern may be high (hilly) or low (planar). The upper margin is often marked by an included cliff or scarp."@en ;
+  skos:definition """steep to precipitous landform pattern forming a linearly extensive, straight or sinuous, inclined surface, which separates terrains at different altitudes; a plateau is commonly above the escarpment. Relief within the landform pattern may be high (hilly) or low (planar). The upper margin is often marked by an included cliff or scarp. 
+Typical elements: hillcrest, hillslope, cliff-footslope.
+Common elements: cliff, scarp, scarp-footslope, talus, footslope, alcove.
+Occasional element: stream bed."""@en ;
   skos:notation "ESC" ;
   skos:prefLabel "Escarpment"@en ;
   skos:related <relief-class-H> ;
@@ -1705,12 +1828,14 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-SCA> ;
   skos:member <landform-element-SFS> ;
   skos:member <landform-element-TAL> ;
+  skos:prefLabel "Common elements of Escarpment"@en ;
 .
 <landform-pattern-ESC-occasional-elements>
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ESC-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Escarpment"@en ;
   skos:member <landform-element-STB> ;
+  skos:prefLabel "Occasional elements of Escarpment"@en ;
 .
 <landform-pattern-ESC-typical-elements>
   a skos:Collection ;
@@ -1719,6 +1844,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-CFS> ;
   skos:member <landform-element-HCR> ;
   skos:member <landform-element-HSL> ;
+  skos:prefLabel "Typical elements of Escarpment"@en ;
 .
 <landform-pattern-FLO>
   a skos:Concept ;
@@ -1728,10 +1854,20 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-FLO-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-FLO-related-patterns> ;
   skos-ext:relatedCollection <landform-pattern-FLO-typical-elements> ;
-  dcterms:description "alluvial plain characterised by frequently active erosion and aggradation by channelled or over-bank stream flow. Unless otherwise specified, ‘frequently active’ is to mean that flow has an Average Recurrence Interval of 50 years or less."@en ;
+  dcterms:description """alluvial plain characterised by frequently active erosion and aggradation by channelled or over-bank stream flow. Unless otherwise specified, ‘frequently active’ is to mean that flow has an Average Recurrence Interval of 50 years or less. 
+Typical elements: stream channel (stream bed and bank), plain (dominant).
+Common elements: bar, scroll, levee, backplain, swamp.
+Occasional elements: ox-bow, flood-out, scroll.
+Included types of landform pattern are: bar plain, meander plain, covered plain, anastomotic plain.
+Related relict landform patterns are: stagnant alluvial plain, terrace, terraced land (partly relict)."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-FLO"^^xsd:anyURI ;
   rdfs:label "Food plain"@en ;
-  skos:definition "alluvial plain characterised by frequently active erosion and aggradation by channelled or over-bank stream flow. Unless otherwise specified, ‘frequently active’ is to mean that flow has an Average Recurrence Interval of 50 years or less."@en ;
+  skos:definition """alluvial plain characterised by frequently active erosion and aggradation by channelled or over-bank stream flow. Unless otherwise specified, ‘frequently active’ is to mean that flow has an Average Recurrence Interval of 50 years or less. 
+Typical elements: stream channel (stream bed and bank), plain (dominant).
+Common elements: bar, scroll, levee, backplain, swamp.
+Occasional elements: ox-bow, flood-out, scroll.
+Included types of landform pattern are: bar plain, meander plain, covered plain, anastomotic plain.
+Related relict landform patterns are: stagnant alluvial plain, terrace, terraced land (partly relict)."""@en ;
   skos:notation "FLO" ;
   skos:prefLabel "Food plain"@en ;
 .
@@ -1744,6 +1880,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-LEV> ;
   skos:member <landform-element-SCR> ;
   skos:member <landform-element-SWP> ;
+  skos:prefLabel "Common elements of Flood plain"@en ;
 .
 <landform-pattern-FLO-included-patterns>
   a skos:Collection ;
@@ -1753,6 +1890,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-pattern-BAR> ;
   skos:member <landform-pattern-COV> ;
   skos:member <landform-pattern-MEA> ;
+  skos:prefLabel "Included patterns of Flood plain"@en ;
 .
 <landform-pattern-FLO-occasional-elements>
   a skos:Collection ;
@@ -1760,6 +1898,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Occasional elements of Flood plain"@en ;
   skos:member <landform-element-FLD> ;
   skos:member <landform-element-OXB> ;
+  skos:prefLabel "Occasional elements of Flood plain"@en ;
 .
 <landform-pattern-FLO-related-patterns>
   a skos:Collection ;
@@ -1768,6 +1907,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-pattern-STA> ;
   skos:member <landform-pattern-TEL> ;
   skos:member <landform-pattern-TER> ;
+  skos:prefLabel "Related relic patterns of Flood plain"@en ;
 .
 <landform-pattern-FLO-typical-elements>
   a skos:Collection ;
@@ -1777,6 +1917,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
+  skos:prefLabel "Typical elements of Flood plain"@en ;
 .
 <landform-pattern-HIL>
   a skos:Concept ;
@@ -1785,10 +1926,18 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-HIL-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-HIL-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-HIL-typical-elements> ;
-  dcterms:description "landform pattern of high relief (90–300 m) with gently inclined to precipitous slopes. Fixed, shallow, erosional stream channels, closely to very widely spaced, form a non-directional or convergent, integrated tributary network. There is continuously active erosion by wash and creep and, in some cases, rarely active erosion by landslides."@en ;
+  dcterms:description """landform pattern of high relief (90–300 m) with gently inclined to precipitous slopes. Fixed, shallow, erosional stream channels, closely to very widely spaced, form a non-directional or convergent, integrated tributary network. There is continuously active erosion by wash and creep and, in some cases, rarely active erosion by landslides. 
+Typical elements: hillcrest, hillslope (dominant), drainage depression, stream bed.
+Common elements: footslope, alcove, valley flat, gully.
+Occasional elements: tor, summit surface, scarp, landslide, talus, bench, terrace, doline.
+Compare with mountains, low hills, rises and plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-HIL"^^xsd:anyURI ;
   rdfs:label "Hills"@en ;
-  skos:definition "landform pattern of high relief (90–300 m) with gently inclined to precipitous slopes. Fixed, shallow, erosional stream channels, closely to very widely spaced, form a non-directional or convergent, integrated tributary network. There is continuously active erosion by wash and creep and, in some cases, rarely active erosion by landslides."@en ;
+  skos:definition """landform pattern of high relief (90–300 m) with gently inclined to precipitous slopes. Fixed, shallow, erosional stream channels, closely to very widely spaced, form a non-directional or convergent, integrated tributary network. There is continuously active erosion by wash and creep and, in some cases, rarely active erosion by landslides. 
+Typical elements: hillcrest, hillslope (dominant), drainage depression, stream bed.
+Common elements: footslope, alcove, valley flat, gully.
+Occasional elements: tor, summit surface, scarp, landslide, talus, bench, terrace, doline.
+Compare with mountains, low hills, rises and plain."""@en ;
   skos:notation "HIL" ;
   skos:prefLabel "Hills"@en ;
   skos:related <relief-class-H> ;
@@ -1806,6 +1955,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-FOO> ;
   skos:member <landform-element-GUL> ;
   skos:member <landform-element-VLF> ;
+  skos:prefLabel "Common elements of Hills"@en ;
 .
 <landform-pattern-HIL-comparewith-patterns>
   a skos:Collection ;
@@ -1814,6 +1964,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-pattern-LOW> ;
   skos:member <landform-pattern-PLA> ;
   skos:member <landform-pattern-RIS> ;
+  skos:prefLabel "Compare Hills with these patterns"@en ;
 .
 <landform-pattern-HIL-occasional-elements>
   a skos:Collection ;
@@ -1827,6 +1978,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-TAL> ;
   skos:member <landform-element-TER> ;
   skos:member <landform-element-TOR> ;
+  skos:prefLabel "Occasional elements of Hills"@en ;
 .
 <landform-pattern-HIL-typical-elements>
   a skos:Collection ;
@@ -1836,6 +1988,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-HCR> ;
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-STB> ;
+  skos:prefLabel "Typical elements of Hills"@en ;
 .
 <landform-pattern-KAR>
   a skos:Concept ;
@@ -1843,10 +1996,16 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-KAR-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-KAR-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-KAR-typical-elements> ;
-  dcterms:description "landform pattern of unspecified relief and slope (for specification use the terms in Table 4, for example ‘Karst rolling hills’) typically with fixed, deep, erosional stream channels forming a non-directional, disintegrated tributary pattern and many closed depressions without stream channels. It is eroded by continuously active solution and rarely active collapse, the products being removed through underground channels."@en ;
+  dcterms:description """landform pattern of unspecified relief and slope (for specification use the terms in Table 4, for example ‘Karst rolling hills’) typically with fixed, deep, erosional stream channels forming a non-directional, disintegrated tributary pattern and many closed depressions without stream channels. It is eroded by continuously active solution and rarely active collapse, the products being removed through underground channels. 
+Typical elements: hillcrest, hillslope (dominant), doline.
+Common elements: summit surface, valley flat, plain, alcove, drainage depression, stream channel, scarp, footslope, landslide.
+Occasional element: talus."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-KAR"^^xsd:anyURI ;
   rdfs:label "Karst"@en ;
-  skos:definition "landform pattern of unspecified relief and slope (for specification use the terms in Table 4, for example ‘Karst rolling hills’) typically with fixed, deep, erosional stream channels forming a non-directional, disintegrated tributary pattern and many closed depressions without stream channels. It is eroded by continuously active solution and rarely active collapse, the products being removed through underground channels."@en ;
+  skos:definition """landform pattern of unspecified relief and slope (for specification use the terms in Table 4, for example ‘Karst rolling hills’) typically with fixed, deep, erosional stream channels forming a non-directional, disintegrated tributary pattern and many closed depressions without stream channels. It is eroded by continuously active solution and rarely active collapse, the products being removed through underground channels. 
+Typical elements: hillcrest, hillslope (dominant), doline.
+Common elements: summit surface, valley flat, plain, alcove, drainage depression, stream channel, scarp, footslope, landslide.
+Occasional element: talus."""@en ;
   skos:notation "KAR" ;
   skos:prefLabel "Karst"@en ;
 .
@@ -1863,12 +2022,14 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-STC> ;
   skos:member <landform-element-SUS> ;
   skos:member <landform-element-VLF> ;
+  skos:prefLabel "Common elements of Karst"@en ;
 .
 <landform-pattern-KAR-occasional-elements>
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-KAR-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Karst"@en ;
   skos:member <landform-element-TAL> ;
+  skos:prefLabel "Occasional elements of Karst"@en ;
 .
 <landform-pattern-KAR-typical-elements>
   a skos:Collection ;
@@ -1877,6 +2038,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-DOC> ;
   skos:member <landform-element-HCR> ;
   skos:member <landform-element-HSL> ;
+  skos:prefLabel "Typical elements of Karst"@en ;
 .
 <landform-pattern-LAC>
   a skos:Concept ;
@@ -1885,10 +2047,18 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-LAC-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-LAC-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-LAC-typical-elements> ;
-  dcterms:description "level landform pattern with extremely low relief formerly occupied by a lake but now partly or completely dry. It is relict after aggradation by waves and by deposition of material from suspension and solution in standing water. The pattern is usually bounded by wave-formed features such as cliffs, rock platforms, beaches, berms and lunettes. These may be included or excluded."@en ;
+  dcterms:description """level landform pattern with extremely low relief formerly occupied by a lake but now partly or completely dry. It is relict after aggradation by waves and by deposition of material from suspension and solution in standing water. The pattern is usually bounded by wave-formed features such as cliffs, rock platforms, beaches, berms and lunettes. These may be included or excluded. 
+Typical element: plain.
+Common elements: beach, cliff.
+Occasional elements: rock platform, berm.
+Compare with playa plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LAC"^^xsd:anyURI ;
   rdfs:label "Lacustrine plain"@en ;
-  skos:definition "level landform pattern with extremely low relief formerly occupied by a lake but now partly or completely dry. It is relict after aggradation by waves and by deposition of material from suspension and solution in standing water. The pattern is usually bounded by wave-formed features such as cliffs, rock platforms, beaches, berms and lunettes. These may be included or excluded."@en ;
+  skos:definition """level landform pattern with extremely low relief formerly occupied by a lake but now partly or completely dry. It is relict after aggradation by waves and by deposition of material from suspension and solution in standing water. The pattern is usually bounded by wave-formed features such as cliffs, rock platforms, beaches, berms and lunettes. These may be included or excluded. 
+Typical element: plain.
+Common elements: beach, cliff.
+Occasional elements: rock platform, berm.
+Compare with playa plain."""@en ;
   skos:notation "LAC" ;
   skos:prefLabel "Lacustrine plain"@en ;
   skos:related <relief-class-P> ;
@@ -1900,12 +2070,14 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Common elements of Lacustrine plain"@en ;
   skos:member <landform-element-BEA> ;
   skos:member <landform-element-CLI> ;
+  skos:prefLabel "Common elements of Lacustrine plain"@en ;
 .
 <landform-pattern-LAC-comparewith-patterns>
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LAC-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Lacustrine plain with these patterns"@en ;
   skos:member <landform-pattern-PLY> ;
+  skos:prefLabel "Compare Lacustrine plain with these patterns"@en ;
 .
 <landform-pattern-LAC-occasional-elements>
   a skos:Collection ;
@@ -1913,22 +2085,28 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Occasional elements of Lacustrine plain"@en ;
   skos:member <landform-element-BER> ;
   skos:member <landform-element-RPL> ;
+  skos:prefLabel "Occasional elements of Lacustrine plain"@en ;
 .
 <landform-pattern-LAC-typical-elements>
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LAC-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Lacustrine plain"@en ;
   skos:member <landform-element-PLA> ;
+  skos:prefLabel "Typical elements of Lacustrine plain"@en ;
 .
 <landform-pattern-LAV>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-LAV-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-LAV-typical-elements> ;
-  dcterms:description "level to undulating landform pattern of very low to extremely low relief typically with widely spaced, fixed, erosional stream channels that form a non-directional, integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep, and channelled stream flow."@en ;
+  dcterms:description """level to undulating landform pattern of very low to extremely low relief typically with widely spaced, fixed, erosional stream channels that form a non-directional, integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep, and channelled stream flow. 
+Typical elements: plain, hillslope, stream bed.
+Occasional element: tumulus."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LAV"^^xsd:anyURI ;
   rdfs:label "Lava plain"@en ;
-  skos:definition "level to undulating landform pattern of very low to extremely low relief typically with widely spaced, fixed, erosional stream channels that form a non-directional, integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep, and channelled stream flow."@en ;
+  skos:definition """level to undulating landform pattern of very low to extremely low relief typically with widely spaced, fixed, erosional stream channels that form a non-directional, integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep, and channelled stream flow. 
+Typical elements: plain, hillslope, stream bed.
+Occasional element: tumulus."""@en ;
   skos:notation "LAV" ;
   skos:prefLabel "Lava plain"@en ;
   skos:related <relief-class-L> ;
@@ -1943,6 +2121,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LAV-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Lava plain"@en ;
   skos:member <landform-element-TUM> ;
+  skos:prefLabel "Common elements of Lava plain"@en ;
 .
 <landform-pattern-LAV-typical-elements>
   a skos:Collection ;
@@ -1951,16 +2130,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STB> ;
+  skos:prefLabel "Typical elements of Lava plain"@en ;
 .
 <landform-pattern-LON>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-LON-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-LON-typical-elements> ;
-  dcterms:description "dunefield characterised by long, narrow sand dunes and wide, flat swales. The dunes are oriented parallel with the direction of the prevailing wind, and in cross-section one slope is typically steeper than the other."@en ;
+  dcterms:description """dunefield characterised by long, narrow sand dunes and wide, flat swales. The dunes are oriented parallel with the direction of the prevailing wind, and in cross-section one slope is typically steeper than the other. 
+Typical elements: dune or dunecrest, duneslope, swale, blow-out.
+Compare with parabolic dunefield."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LON"^^xsd:anyURI ;
   rdfs:label "Longitudinal dunefield"@en ;
-  skos:definition "dunefield characterised by long, narrow sand dunes and wide, flat swales. The dunes are oriented parallel with the direction of the prevailing wind, and in cross-section one slope is typically steeper than the other."@en ;
+  skos:definition """dunefield characterised by long, narrow sand dunes and wide, flat swales. The dunes are oriented parallel with the direction of the prevailing wind, and in cross-section one slope is typically steeper than the other. 
+Typical elements: dune or dunecrest, duneslope, swale, blow-out.
+Compare with parabolic dunefield."""@en ;
   skos:notation "LON" ;
   skos:prefLabel "Longitudinal dunefield"@en ;
 .
@@ -1969,6 +2153,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LON-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Longitudinal dunefield with these patterns"@en ;
   skos:member <landform-pattern-PAR> ;
+  skos:prefLabel "Compare Longitudinal dunefield with these patterns"@en ;
 .
 <landform-pattern-LON-typical-elements>
   a skos:Collection ;
@@ -1979,6 +2164,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-DUN> ;
   skos:member <landform-element-DUS> ;
   skos:member <landform-element-SWL> ;
+  skos:prefLabel "Typical elements of Longitudinal dunefield"@en ;
 .
 <landform-pattern-LOW>
   a skos:Concept ;
@@ -1987,10 +2173,18 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-LOW-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-LOW-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-LOW-typical-elements> ;
-  dcterms:description "landform pattern of low relief (30–90 m) and gentle to very steep slopes, typically with fixed, erosional stream channels, closely to very widely spaced, which form a non-directional or convergent, integrated tributary pattern. There is continuously active sheet flow, creep, and channelled stream flow. "@en ;
+  dcterms:description """landform pattern of low relief (30–90 m) and gentle to very steep slopes, typically with fixed, erosional stream channels, closely to very widely spaced, which form a non-directional or convergent, integrated tributary pattern. There is continuously active sheet flow, creep, and channelled stream flow.  
+Typical elements: hillcrest, hillslope (dominant), drainage depression, stream bed.
+Common elements: footslope, alcove, valley flat, gully.
+Occasional elements: tor, summit surface, landslide, doline.
+Compare with mountains, hills, rises and plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-LOW"^^xsd:anyURI ;
   rdfs:label "Low hills"@en ;
-  skos:definition "landform pattern of low relief (30–90 m) and gentle to very steep slopes, typically with fixed, erosional stream channels, closely to very widely spaced, which form a non-directional or convergent, integrated tributary pattern. There is continuously active sheet flow, creep, and channelled stream flow. "@en ;
+  skos:definition """landform pattern of low relief (30–90 m) and gentle to very steep slopes, typically with fixed, erosional stream channels, closely to very widely spaced, which form a non-directional or convergent, integrated tributary pattern. There is continuously active sheet flow, creep, and channelled stream flow.  
+Typical elements: hillcrest, hillslope (dominant), drainage depression, stream bed.
+Common elements: footslope, alcove, valley flat, gully.
+Occasional elements: tor, summit surface, landslide, doline.
+Compare with mountains, hills, rises and plain."""@en ;
   skos:notation "LOW" ;
   skos:prefLabel "Low hills"@en ;
   skos:related <relief-class-L> ;
@@ -2007,6 +2201,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-FOO> ;
   skos:member <landform-element-GUL> ;
   skos:member <landform-element-VLF> ;
+  skos:prefLabel "Common elements of Low hills"@en ;
 .
 <landform-pattern-LOW-comparewith-patterns>
   a skos:Collection ;
@@ -2015,6 +2210,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-pattern-HIL> ;
   skos:member <landform-pattern-PLA> ;
   skos:member <landform-pattern-RIS> ;
+  skos:prefLabel "Compare Low hills with these patterns"@en ;
 .
 <landform-pattern-LOW-occasional-elements>
   a skos:Collection ;
@@ -2024,6 +2220,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-LDS> ;
   skos:member <landform-element-SUS> ;
   skos:member <landform-element-TOR> ;
+  skos:prefLabel "Occasional elements of Low hills"@en ;
 .
 <landform-pattern-LOW-typical-elements>
   a skos:Collection ;
@@ -2033,16 +2230,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-HCR> ;
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-STB> ;
+  skos:prefLabel "Typical elements of Low hills"@en ;
 .
 <landform-pattern-MAD>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-MAD-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-MAD-typical-elements> ;
-  dcterms:description "landform pattern typically of very low or extremely low relief and with slopes either level or very steep. Sparse, fixed, deep, artificial stream channels form a non-directional, interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency."@en ;
+  dcterms:description """landform pattern typically of very low or extremely low relief and with slopes either level or very steep. Sparse, fixed, deep, artificial stream channels form a non-directional, interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency. 
+Typical elements: fill-top (dominant), cut-over surface, cut face, embankment, berm, trench.
+Common elements: mound, pit, dam."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MAD"^^xsd:anyURI ;
   rdfs:label "Made land"@en ;
-  skos:definition "landform pattern typically of very low or extremely low relief and with slopes either level or very steep. Sparse, fixed, deep, artificial stream channels form a non-directional, interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency."@en ;
+  skos:definition """landform pattern typically of very low or extremely low relief and with slopes either level or very steep. Sparse, fixed, deep, artificial stream channels form a non-directional, interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency. 
+Typical elements: fill-top (dominant), cut-over surface, cut face, embankment, berm, trench.
+Common elements: mound, pit, dam."""@en ;
   skos:notation "MAD" ;
   skos:prefLabel "Made land"@en ;
   skos:related <relief-class-P> ;
@@ -2057,6 +2259,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-DAM> ;
   skos:member <landform-element-MOU> ;
   skos:member <landform-element-PIT> ;
+  skos:prefLabel "Common elements of Made land"@en ;
 .
 <landform-pattern-MAD-typical-elements>
   a skos:Collection ;
@@ -2068,16 +2271,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-EMB> ;
   skos:member <landform-element-FIL> ;
   skos:member <landform-element-TRE> ;
+  skos:prefLabel "Typical elements of Made land"@en ;
 .
 <landform-pattern-MAR>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-MAR-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-MAR-typical-elements> ;
-  dcterms:description "plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind."@en ;
+  dcterms:description """plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind. 
+Typical element: plain.
+Occasional elements: dune, stream channel."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MAR"^^xsd:anyURI ;
   rdfs:label "Marine plain"@en ;
-  skos:definition "plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind."@en ;
+  skos:definition """plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind. 
+Typical element: plain.
+Occasional elements: dune, stream channel."""@en ;
   skos:notation "MAR" ;
   skos:prefLabel "Marine plain"@en ;
 .
@@ -2087,12 +2295,14 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Occasional elements of Marine plain"@en ;
   skos:member <landform-element-DUN> ;
   skos:member <landform-element-STC> ;
+  skos:prefLabel "Occasional elements of Marine plain"@en ;
 .
 <landform-pattern-MAR-typical-elements>
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MAR-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Marine plain"@en ;
   skos:member <landform-element-PLA> ;
+  skos:prefLabel "Typical elements of Marine plain"@en ;
 .
 <landform-pattern-MEA>
   a skos:Concept ;
@@ -2100,10 +2310,16 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-MEA-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-MEA-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-MEA-typical-elements> ;
-  dcterms:description "flood plain with widely spaced, rapidly migrating, moderately deep alluvial stream channels which form a unidirectional, integrated non-tributary network. There is frequently active aggradation and erosion by channelled stream flow with subordinate aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
+  dcterms:description """flood plain with widely spaced, rapidly migrating, moderately deep alluvial stream channels which form a unidirectional, integrated non-tributary network. There is frequently active aggradation and erosion by channelled stream flow with subordinate aggradation by over-bank stream flow. (Described by Melton 1936.) 
+Typical elements: stream channel (stream bed, bank and bar), scroll, scroll plain (dominant).
+Common element: ox-bow.
+Compare with other types under alluvial plain and flood plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MEA"^^xsd:anyURI ;
   rdfs:label "Meander plain"@en ;
-  skos:definition "flood plain with widely spaced, rapidly migrating, moderately deep alluvial stream channels which form a unidirectional, integrated non-tributary network. There is frequently active aggradation and erosion by channelled stream flow with subordinate aggradation by over-bank stream flow. (Described by Melton 1936.)"@en ;
+  skos:definition """flood plain with widely spaced, rapidly migrating, moderately deep alluvial stream channels which form a unidirectional, integrated non-tributary network. There is frequently active aggradation and erosion by channelled stream flow with subordinate aggradation by over-bank stream flow. (Described by Melton 1936.) 
+Typical elements: stream channel (stream bed, bank and bar), scroll, scroll plain (dominant).
+Common element: ox-bow.
+Compare with other types under alluvial plain and flood plain."""@en ;
   skos:notation "MEA" ;
   skos:prefLabel "Meander plain"@en ;
 .
@@ -2112,6 +2328,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MEA-common-elements"^^xsd:anyURI ;
   rdfs:label "Common elements of Meander plain"@en ;
   skos:member <landform-element-OXB> ;
+  skos:prefLabel "Common elements of Meander plain"@en ;
 .
 <landform-pattern-MEA-comparewith-patterns>
   a skos:Collection ;
@@ -2119,6 +2336,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Compare Meander plain with these patterns"@en ;
   skos:member <landform-pattern-ALP> ;
   skos:member <landform-pattern-FLO> ;
+  skos:prefLabel "Compare Meander plain with these patterns"@en ;
 .
 <landform-pattern-MEA-typical-elements>
   a skos:Collection ;
@@ -2130,15 +2348,18 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-SRP> ;
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
+  skos:prefLabel "Typical elements of Meander plain"@en ;
 .
 <landform-pattern-MET>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-MET-typical-elements> ;
-  dcterms:description "rare landform pattern comprising a circular closed depression (see crater landform element) with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and is now relict."@en ;
+  dcterms:description """rare landform pattern comprising a circular closed depression (see crater landform element) with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and is now relict. 
+Typical elements: crater (scarp, talus, footslope and plain), hillcrest, hillslope."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MET"^^xsd:anyURI ;
   rdfs:label "Meteor crater"@en ;
-  skos:definition "rare landform pattern comprising a circular closed depression (see crater landform element) with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and is now relict."@en ;
+  skos:definition """rare landform pattern comprising a circular closed depression (see crater landform element) with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and is now relict. 
+Typical elements: crater (scarp, talus, footslope and plain), hillcrest, hillslope."""@en ;
   skos:notation "MET" ;
   skos:prefLabel "Meteor crater"@en ;
   skos:related <relief-class-H> ;
@@ -2155,6 +2376,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-SCA> ;
   skos:member <landform-element-TAL> ;
+  skos:prefLabel "Typical elements of Meteor crater"@en ;
 .
 <landform-pattern-MOU>
   a skos:Concept ;
@@ -2163,10 +2385,18 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-MOU-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-MOU-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-MOU-typical-elements> ;
-  dcterms:description "landform pattern of very high relief (greater than 300 m) with moderate to precipitous slopes and fixed, erosional stream channels that are closely to very widely spaced and form a non-directional or diverging, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep, and channelled stream flow."@en ;
+  dcterms:description """landform pattern of very high relief (greater than 300 m) with moderate to precipitous slopes and fixed, erosional stream channels that are closely to very widely spaced and form a non-directional or diverging, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep, and channelled stream flow. 
+Typical elements: hillcrest, hillslope (dominant), stream bed.
+Common elements: talus, landslide, alcove, valley flat, scarp.
+Occasional elements: cirque, footslope.
+Compare with hills, low hills, rises and plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-MOU"^^xsd:anyURI ;
   rdfs:label "Mountains"@en ;
-  skos:definition "landform pattern of very high relief (greater than 300 m) with moderate to precipitous slopes and fixed, erosional stream channels that are closely to very widely spaced and form a non-directional or diverging, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep, and channelled stream flow."@en ;
+  skos:definition """landform pattern of very high relief (greater than 300 m) with moderate to precipitous slopes and fixed, erosional stream channels that are closely to very widely spaced and form a non-directional or diverging, integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep, and channelled stream flow. 
+Typical elements: hillcrest, hillslope (dominant), stream bed.
+Common elements: talus, landslide, alcove, valley flat, scarp.
+Occasional elements: cirque, footslope.
+Compare with hills, low hills, rises and plain."""@en ;
   skos:notation "MOU" ;
   skos:prefLabel "Mountains"@en ;
   skos:related <relief-class-M> ;
@@ -2184,6 +2414,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-SCA> ;
   skos:member <landform-element-TAL> ;
   skos:member <landform-element-VLF> ;
+  skos:prefLabel "Common elements of Mountains"@en ;
 .
 <landform-pattern-MOU-comparewith-patterns>
   a skos:Collection ;
@@ -2193,6 +2424,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-pattern-LOW> ;
   skos:member <landform-pattern-PLA> ;
   skos:member <landform-pattern-RIS> ;
+  skos:prefLabel "Compare Mountains with these patterns"@en ;
 .
 <landform-pattern-MOU-occasional-elements>
   a skos:Collection ;
@@ -2200,6 +2432,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Occasional elements of Mountains"@en ;
   skos:member <landform-element-CIR> ;
   skos:member <landform-element-FOO> ;
+  skos:prefLabel "Occasional elements of Mountains"@en ;
 .
 <landform-pattern-MOU-typical-elements>
   a skos:Collection ;
@@ -2208,16 +2441,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-HCR> ;
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-STB> ;
+  skos:prefLabel "Typical elements of Mountains"@en ;
 .
 <landform-pattern-PAR>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-PAR-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-PAR-typical-elements> ;
-  dcterms:description "dunefield characterised by sand dunes with a long, scoop-shaped form, convex in the downwind direction so that its trailing arms point upwind; the ground plan, when developed, approximates the form of a parabola. Where many parabolic dunes have been active, the trailing arms give the impression of a longitudinal dunefield."@en ;
+  dcterms:description """dunefield characterised by sand dunes with a long, scoop-shaped form, convex in the downwind direction so that its trailing arms point upwind; the ground plan, when developed, approximates the form of a parabola. Where many parabolic dunes have been active, the trailing arms give the impression of a longitudinal dunefield. 
+Typical elements: dune or dunecrest, duneslope, swale, blow-out.
+Compare with longitudinal dunefield."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PAR"^^xsd:anyURI ;
   rdfs:label "Parabolic dunefield"@en ;
-  skos:definition "dunefield characterised by sand dunes with a long, scoop-shaped form, convex in the downwind direction so that its trailing arms point upwind; the ground plan, when developed, approximates the form of a parabola. Where many parabolic dunes have been active, the trailing arms give the impression of a longitudinal dunefield."@en ;
+  skos:definition """dunefield characterised by sand dunes with a long, scoop-shaped form, convex in the downwind direction so that its trailing arms point upwind; the ground plan, when developed, approximates the form of a parabola. Where many parabolic dunes have been active, the trailing arms give the impression of a longitudinal dunefield. 
+Typical elements: dune or dunecrest, duneslope, swale, blow-out.
+Compare with longitudinal dunefield."""@en ;
   skos:notation "PAR" ;
   skos:prefLabel "Parabolic dunefield"@en ;
 .
@@ -2226,6 +2464,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PAR-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Parabolic dunefields with these patterns"@en ;
   skos:member <landform-pattern-LON> ;
+  skos:prefLabel "Compare Parabolic dunefields with these patterns"@en ;
 .
 <landform-pattern-PAR-typical-elements>
   a skos:Collection ;
@@ -2236,16 +2475,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-DUN> ;
   skos:member <landform-element-DUS> ;
   skos:member <landform-element-SWL> ;
+  skos:prefLabel "Typical elements of Parabolic dunefields"@en ;
 .
 <landform-pattern-PED>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-PAR-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-PAR-typical-elements> ;
-  dcterms:description "gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes."@en ;
+  dcterms:description """gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes. 
+Typical elements: pediment, plain, stream bed(?).
+Compare with sheet-flood fan and alluvial fan."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PED"^^xsd:anyURI ;
   rdfs:label "Pediment (pattern)"@en ;
-  skos:definition "gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes."@en ;
+  skos:definition """gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes. 
+Typical elements: pediment, plain, stream bed(?).
+Compare with sheet-flood fan and alluvial fan."""@en ;
   skos:notation "PED" ;
   skos:prefLabel "Pediment (pattern)"@en ;
   skos:related <relief-class-P> ;
@@ -2259,6 +2503,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Compare Pediment with these patterns"@en ;
   skos:member <landform-pattern-ALF> ;
   skos:member <landform-pattern-SHF> ;
+  skos:prefLabel "Compare Pediment with these patterns"@en ;
 .
 <landform-pattern-PED-typical-elements>
   a skos:Collection ;
@@ -2267,15 +2512,18 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-PED> ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STB> ;
+  skos:prefLabel "Typical elements of Pediment"@en ;
 .
 <landform-pattern-PEP>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-PEP-typical-elements> ;
-  dcterms:description "level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. (Described by King 1953.)"@en ;
+  dcterms:description """level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. (Described by King 1953.) 
+Typical element: plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PEP"^^xsd:anyURI ;
   rdfs:label "Pediplain"@en ;
-  skos:definition "level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. (Described by King 1953.)"@en ;
+  skos:definition """level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. (Described by King 1953.) 
+Typical element: plain."""@en ;
   skos:notation "PEP" ;
   skos:prefLabel "Pediplain"@en ;
   skos:related <relief-class-P> ;
@@ -2287,6 +2535,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PEP-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Pediplain"@en ;
   skos:member <landform-element-PLA> ;
+  skos:prefLabel "Typical elements of Pediplain"@en ;
 .
 <landform-pattern-PLA>
   a skos:Concept ;
@@ -2312,6 +2561,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-pattern-LOW> ;
   skos:member <landform-pattern-MOU> ;
   skos:member <landform-pattern-RIS> ;
+  skos:prefLabel "Compare Plain with these patterns"@en ;
 .
 <landform-pattern-PLT>
   a skos:Concept ;
@@ -2319,10 +2569,16 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-PLT-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-PLT-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-PLT-typical-elements> ;
-  dcterms:description "level to rolling landform pattern of plains, rises or low hills standing above a cliff, scarp or escarpment that extends around a large part of its perimeter. A bounding scarp or cliff landform element may be included or excluded; a bounding escarpment would be an adjacent landform pattern."@en ;
+  dcterms:description """level to rolling landform pattern of plains, rises or low hills standing above a cliff, scarp or escarpment that extends around a large part of its perimeter. A bounding scarp or cliff landform element may be included or excluded; a bounding escarpment would be an adjacent landform pattern. 
+Typical elements: plain, summit surface, cliff.
+Common elements: hillcrest, hillslope, drainage depression, rock flat, scarp.
+Occasional element: stream channel."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLT"^^xsd:anyURI ;
   rdfs:label "Plateau"@en ;
-  skos:definition "level to rolling landform pattern of plains, rises or low hills standing above a cliff, scarp or escarpment that extends around a large part of its perimeter. A bounding scarp or cliff landform element may be included or excluded; a bounding escarpment would be an adjacent landform pattern."@en ;
+  skos:definition """level to rolling landform pattern of plains, rises or low hills standing above a cliff, scarp or escarpment that extends around a large part of its perimeter. A bounding scarp or cliff landform element may be included or excluded; a bounding escarpment would be an adjacent landform pattern. 
+Typical elements: plain, summit surface, cliff.
+Common elements: hillcrest, hillslope, drainage depression, rock flat, scarp.
+Occasional element: stream channel."""@en ;
   skos:notation "PLT" ;
   skos:prefLabel "Plateau"@en ;
   skos:related <slope-class-GE> ;
@@ -2339,12 +2595,14 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-RFL> ;
   skos:member <landform-element-SCA> ;
+  skos:prefLabel "Common elements of Plateau"@en ;
 .
 <landform-pattern-PLT-occasional-elements>
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLT-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Occasional elements of Plateau"@en ;
   skos:member <landform-element-STC> ;
+  skos:prefLabel "Occasional elements of Plateau"@en ;
 .
 <landform-pattern-PLT-typical-elements>
   a skos:Collection ;
@@ -2353,16 +2611,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-CLI> ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-SUS> ;
+  skos:prefLabel "Typical elements of Plateau"@en ;
 .
 <landform-pattern-PLY>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-PLY-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-PLY-typical-elements> ;
-  dcterms:description "level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves, and soil phenomena."@en ;
+  dcterms:description """level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves, and soil phenomena. 
+Typical elements: playa, lunette, plain.
+Compare with lacustrine plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLY"^^xsd:anyURI ;
   rdfs:label "Playa plain"@en ;
-  skos:definition "level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves, and soil phenomena."@en ;
+  skos:definition """level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves, and soil phenomena. 
+Typical elements: playa, lunette, plain.
+Compare with lacustrine plain."""@en ;
   skos:notation "PLY" ;
   skos:prefLabel "Playa plain"@en ;
   skos:related <relief-class-P> ;
@@ -2373,6 +2636,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLY-comparewith-patterns"^^xsd:anyURI ;
   rdfs:label "Compare Playa plain with these patterns"@en ;
   skos:member <landform-pattern-LAC> ;
+  skos:prefLabel "Compare Playa plain with these patterns"@en ;
 .
 <landform-pattern-PLY-typical-elements>
   a skos:Collection ;
@@ -2381,15 +2645,18 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-LUN> ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-PLY> ;
+  skos:prefLabel "Typical elements of Playa plain"@en ;
 .
 <landform-pattern-PNP>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-PNP-typical-elements> ;
-  dcterms:description "level to gently undulating landform pattern with extremely low relief and sparse, slowly migrating alluvial stream channels which form a non-directional, integrated tributary pattern. It is eroded by barely active sheet flow, creep, and channelled and over-bank stream flow. (Described by Davis 1889.)"@en ;
+  dcterms:description """level to gently undulating landform pattern with extremely low relief and sparse, slowly migrating alluvial stream channels which form a non-directional, integrated tributary pattern. It is eroded by barely active sheet flow, creep, and channelled and over-bank stream flow. (Described by Davis 1889.) 
+Typical elements: plain (dominant), stream channel."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PNP"^^xsd:anyURI ;
   rdfs:label "Peneplain"@en ;
-  skos:definition "level to gently undulating landform pattern with extremely low relief and sparse, slowly migrating alluvial stream channels which form a non-directional, integrated tributary pattern. It is eroded by barely active sheet flow, creep, and channelled and over-bank stream flow. (Described by Davis 1889.)"@en ;
+  skos:definition """level to gently undulating landform pattern with extremely low relief and sparse, slowly migrating alluvial stream channels which form a non-directional, integrated tributary pattern. It is eroded by barely active sheet flow, creep, and channelled and over-bank stream flow. (Described by Davis 1889.) 
+Typical elements: plain (dominant), stream channel."""@en ;
   skos:notation "PNP" ;
   skos:prefLabel "Peneplain"@en ;
   skos:related <relief-class-P> ;
@@ -2402,6 +2669,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Typical elements of Peneplain"@en ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STC> ;
+  skos:prefLabel "Typical elements of Peneplain"@en ;
 .
 <landform-pattern-RIS>
   a skos:Concept ;
@@ -2410,10 +2678,18 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-RIS-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-RIS-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-RIS-typical-elements> ;
-  dcterms:description "landform pattern of very low relief (9–30 m) and very gentle to steep slopes. The fixed, erosional stream channels are closely to very widely spaced and form a non-directional to convergent, integrated or interrupted tributary pattern. The pattern is eroded by continuously active to barely active creep and sheet flow."@en ;
+  dcterms:description """landform pattern of very low relief (9–30 m) and very gentle to steep slopes. The fixed, erosional stream channels are closely to very widely spaced and form a non-directional to convergent, integrated or interrupted tributary pattern. The pattern is eroded by continuously active to barely active creep and sheet flow. 
+Typical elements: hillcrest, hillslope (dominant), footslope, drainage depression, riseslope.
+Common elements: valley flat, stream channel.
+Occasional elements: gully, fan, tor.
+Compare with mountains, hills, low hills and plain."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-RIS"^^xsd:anyURI ;
   rdfs:label "Rises"@en ;
-  skos:definition "landform pattern of very low relief (9–30 m) and very gentle to steep slopes. The fixed, erosional stream channels are closely to very widely spaced and form a non-directional to convergent, integrated or interrupted tributary pattern. The pattern is eroded by continuously active to barely active creep and sheet flow."@en ;
+  skos:definition """landform pattern of very low relief (9–30 m) and very gentle to steep slopes. The fixed, erosional stream channels are closely to very widely spaced and form a non-directional to convergent, integrated or interrupted tributary pattern. The pattern is eroded by continuously active to barely active creep and sheet flow. 
+Typical elements: hillcrest, hillslope (dominant), footslope, drainage depression, riseslope.
+Common elements: valley flat, stream channel.
+Occasional elements: gully, fan, tor.
+Compare with mountains, hills, low hills and plain."""@en ;
   skos:notation "RIS" ;
   skos:prefLabel "Rises"@en ;
   skos:related <relief-class-R> ;
@@ -2428,6 +2704,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Common elements of Rises"@en ;
   skos:member <landform-element-STC> ;
   skos:member <landform-element-VLF> ;
+  skos:prefLabel "Common elements of Rises"@en ;
 .
 <landform-pattern-RIS-comparewith-patterns>
   a skos:Collection ;
@@ -2436,6 +2713,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-pattern-HIL> ;
   skos:member <landform-pattern-LOW> ;
   skos:member <landform-pattern-PLA> ;
+  skos:prefLabel "Compare Rises with these patterns"@en ;
 .
 <landform-pattern-RIS-occasional-elements>
   a skos:Collection ;
@@ -2444,6 +2722,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-FAN> ;
   skos:member <landform-element-GUL> ;
   skos:member <landform-element-TOR> ;
+  skos:prefLabel "Occasional elements of Rises"@en ;
 .
 <landform-pattern-RIS-typical-elements>
   a skos:Collection ;
@@ -2454,16 +2733,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-HCR> ;
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-RES> ;
+  skos:prefLabel "Typical elements of Rises"@en ;
 .
 <landform-pattern-SAN>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-SAN-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-SAN-typical-elements> ;
-  dcterms:description "level to gently undulating landform pattern of extremely low relief and without channels; formed possibly by sheet flow or stream flow, but now relict and modified by wind action."@en ;
+  dcterms:description """level to gently undulating landform pattern of extremely low relief and without channels; formed possibly by sheet flow or stream flow, but now relict and modified by wind action. 
+Typical element: plain.
+Occasional elements: dune, playa, lunette."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-SAN"^^xsd:anyURI ;
   rdfs:label "Sand plain"@en ;
-  skos:definition "level to gently undulating landform pattern of extremely low relief and without channels; formed possibly by sheet flow or stream flow, but now relict and modified by wind action."@en ;
+  skos:definition """level to gently undulating landform pattern of extremely low relief and without channels; formed possibly by sheet flow or stream flow, but now relict and modified by wind action. 
+Typical element: plain.
+Occasional elements: dune, playa, lunette."""@en ;
   skos:notation "SAN" ;
   skos:prefLabel "Sand plain"@en ;
   skos:related <relief-class-P> ;
@@ -2477,22 +2761,28 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-DUN> ;
   skos:member <landform-element-LUN> ;
   skos:member <landform-element-PLY> ;
+  skos:prefLabel "Occasional elements of Sand plain"@en ;
 .
 <landform-pattern-SAN-typical-elements>
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-SAN-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Sand plain"@en ;
   skos:member <landform-element-PLA> ;
+  skos:prefLabel "Typical elements of Sand plain"@en ;
 .
 <landform-pattern-SHF>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-SHF-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-SHF-typical-elements> ;
-  dcterms:description "level (less than 1% slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating, very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. The pattern is aggraded by frequently active sheet flow and channelled stream flow, with subordinate wind erosion."@en ;
+  dcterms:description """level (less than 1% slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating, very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. The pattern is aggraded by frequently active sheet flow and channelled stream flow, with subordinate wind erosion. 
+Typical elements: plain, stream bed.
+Compare with alluvial fan and pediment."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-SHF"^^xsd:anyURI ;
   rdfs:label "Sheet-flood fan"@en ;
-  skos:definition "level (less than 1% slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating, very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. The pattern is aggraded by frequently active sheet flow and channelled stream flow, with subordinate wind erosion."@en ;
+  skos:definition """level (less than 1% slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating, very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. The pattern is aggraded by frequently active sheet flow and channelled stream flow, with subordinate wind erosion. 
+Typical elements: plain, stream bed.
+Compare with alluvial fan and pediment."""@en ;
   skos:notation "SHF" ;
   skos:prefLabel "Sheet-flood fan"@en ;
   skos:related <relief-class-P> ;
@@ -2505,6 +2795,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Compare Sheet-flood fan with these patterns"@en ;
   skos:member <landform-pattern-ALF> ;
   skos:member <landform-pattern-PED> ;
+  skos:prefLabel "Compare Sheet-flood fan with these patterns"@en ;
 .
 <landform-pattern-SHF-typical-elements>
   a skos:Collection ;
@@ -2512,6 +2803,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Typical elements of Sheet-flood fan"@en ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STB> ;
+  skos:prefLabel "Typical elements of Sheet-flood fan"@en ;
 .
 <landform-pattern-STA>
   a skos:Concept ;
@@ -2520,10 +2812,18 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-STA-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-STA-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-STA-typical-elements> ;
-  dcterms:description "alluvial plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because of reduced water supply, without apparent incision or channel enlargement that would lower the level of stream action."@en ;
+  dcterms:description """alluvial plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because of reduced water supply, without apparent incision or channel enlargement that would lower the level of stream action. 
+Typical elements: stream channel (stream bed and bank), plain (dominant).
+Common elements: bar, scroll, levee, backplain, swamp.
+Occasional elements: ox-bow, flood-out, lake.
+Compare with flood plain and terrace."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-STA"^^xsd:anyURI ;
   rdfs:label "Stagnant alluvial plain"@en ;
-  skos:definition "alluvial plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because of reduced water supply, without apparent incision or channel enlargement that would lower the level of stream action."@en ;
+  skos:definition """alluvial plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because of reduced water supply, without apparent incision or channel enlargement that would lower the level of stream action. 
+Typical elements: stream channel (stream bed and bank), plain (dominant).
+Common elements: bar, scroll, levee, backplain, swamp.
+Occasional elements: ox-bow, flood-out, lake.
+Compare with flood plain and terrace."""@en ;
   skos:notation "STA" ;
   skos:prefLabel "Stagnant alluvial plain"@en ;
 .
@@ -2536,6 +2836,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-LEV> ;
   skos:member <landform-element-SCR> ;
   skos:member <landform-element-SWP> ;
+  skos:prefLabel "Common elements of Stagnant alluvial plain"@en ;
 .
 <landform-pattern-STA-comparewith-patterns>
   a skos:Collection ;
@@ -2543,6 +2844,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Compare Stagnant alluvial plain with these patterns"@en ;
   skos:member <landform-pattern-FLO> ;
   skos:member <landform-pattern-TER> ;
+  skos:prefLabel "Compare Stagnant alluvial plain with these patterns"@en ;
 .
 <landform-pattern-STA-occasional-elements>
   a skos:Collection ;
@@ -2551,6 +2853,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-FLD> ;
   skos:member <landform-element-LAK> ;
   skos:member <landform-element-OXB> ;
+  skos:prefLabel "Occasional elements of Stagnant alluvial plain"@en ;
 .
 <landform-pattern-STA-typical-elements>
   a skos:Collection ;
@@ -2560,16 +2863,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
+  skos:prefLabel "Typical elements of Stagnant alluvial plain"@en ;
 .
 <landform-pattern-TEL>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-TEL-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-TEL-typical-elements> ;
-  dcterms:description "landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9–90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank."@en ;
+  dcterms:description """landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9–90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank. 
+Typical elements: terrace plains, terrace flats, scarps, scroll plain, stream channel.
+Occasional elements: stream channel, scroll, levee."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-TEL"^^xsd:anyURI ;
   rdfs:label "Terraced land (alluvial)"@en ;
-  skos:definition "landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9–90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank."@en ;
+  skos:definition """landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9–90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank. 
+Typical elements: terrace plains, terrace flats, scarps, scroll plain, stream channel.
+Occasional elements: stream channel, scroll, levee."""@en ;
   skos:notation "TEL" ;
   skos:prefLabel "Terraced land (alluvial)"@en ;
 .
@@ -2579,6 +2887,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Occasional elements of Terraced land"@en ;
   skos:member <landform-element-LEV> ;
   skos:member <landform-element-SCR> ;
+  skos:prefLabel "Occasional elements of Terraced land"@en ;
 .
 <landform-pattern-TEL-typical-elements>
   a skos:Collection ;
@@ -2589,16 +2898,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-STC> ;
   skos:member <landform-element-TEF> ;
   skos:member <landform-element-TEP> ;
+  skos:prefLabel "Typical elements of Terraced land"@en ;
 .
 <landform-pattern-TER>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-TER-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-TER-typical-elements> ;
-  dcterms:description "former flood plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that has both a former flood plain and a significant, active flood plain, or that has former flood plains at more than one level, becomes terraced land."@en ;
+  dcterms:description """former flood plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that has both a former flood plain and a significant, active flood plain, or that has former flood plains at more than one level, becomes terraced land. 
+Typical elements: terrace plain (dominant), scarp, channel bench.
+Occasional elements: stream channel, scroll, levee."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-TER"^^xsd:anyURI ;
   rdfs:label "Terrace (alluvial)"@en ;
-  skos:definition "former flood plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that has both a former flood plain and a significant, active flood plain, or that has former flood plains at more than one level, becomes terraced land."@en ;
+  skos:definition """former flood plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that has both a former flood plain and a significant, active flood plain, or that has former flood plains at more than one level, becomes terraced land. 
+Typical elements: terrace plain (dominant), scarp, channel bench.
+Occasional elements: stream channel, scroll, levee."""@en ;
   skos:notation "TER" ;
   skos:prefLabel "Terrace (alluvial)"@en ;
 .
@@ -2609,6 +2923,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-LEV> ;
   skos:member <landform-element-SCR> ;
   skos:member <landform-element-STC> ;
+  skos:prefLabel "Occasional elements of Terrace"@en ;
 .
 <landform-pattern-TER-typical-elements>
   a skos:Collection ;
@@ -2618,16 +2933,21 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-SCA> ;
   skos:member <landform-element-TER> ;
+  skos:prefLabel "Typical elements of Terrace"@en ;
 .
 <landform-pattern-TID>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-TID-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-TID-typical-elements> ;
-  dcterms:description "level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides."@en ;
+  dcterms:description """level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides. 
+Typical elements: plain (dominant), intertidal flat, supratidal flat, stream channel.
+Occasional elements: lagoon, dune, beach ridge, beach."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-TID"^^xsd:anyURI ;
   rdfs:label "Tidal flat (pattern)"@en ;
-  skos:definition "level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides."@en ;
+  skos:definition """level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides. 
+Typical elements: plain (dominant), intertidal flat, supratidal flat, stream channel.
+Occasional elements: lagoon, dune, beach ridge, beach."""@en ;
   skos:notation "TID" ;
   skos:prefLabel "Tidal flat (pattern)"@en ;
   skos:related <relief-class-P> ;
@@ -2640,6 +2960,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-BRI> ;
   skos:member <landform-element-DUN> ;
   skos:member <landform-element-LAG> ;
+  skos:prefLabel "Occasional elements of Tidal flat"@en ;
 .
 <landform-pattern-TID-typical-elements>
   a skos:Collection ;
@@ -2649,16 +2970,23 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STC> ;
   skos:member <landform-element-STF> ;
+  skos:prefLabel "Typical elements of Tidal flat"@en ;
 .
 <landform-pattern-VOL>
   a skos:Concept ;
   skos-ext:isMemberOf <landform-pattern-glossary> ;
   skos-ext:relatedCollection <landform-pattern-VOL-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-VOL-typical-elements> ;
-  dcterms:description "typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal, interrupted tributary pattern. The landform is built up by volcanism, and is modified by erosional agents."@en ;
+  dcterms:description """typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal, interrupted tributary pattern. The landform is built up by volcanism, and is modified by erosional agents. 
+Typical elements: cone, crater.
+Common elements: scarp, hillcrest, hillslope, stream bed, lake, maar.
+Occasional element: tumulus."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-VOL"^^xsd:anyURI ;
   rdfs:label "Volcano"@en ;
-  skos:definition "typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal, interrupted tributary pattern. The landform is built up by volcanism, and is modified by erosional agents."@en ;
+  skos:definition """typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal, interrupted tributary pattern. The landform is built up by volcanism, and is modified by erosional agents. 
+Typical elements: cone, crater.
+Common elements: scarp, hillcrest, hillslope, stream bed, lake, maar.
+Occasional element: tumulus."""@en ;
   skos:notation "VOL" ;
   skos:prefLabel "Volcano"@en ;
   skos:related <relief-class-M> ;
@@ -2674,12 +3002,14 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-element-MAA> ;
   skos:member <landform-element-SCA> ;
   skos:member <landform-element-STB> ;
+  skos:prefLabel "Occasional elements of Volcano"@en ;
 .
 <landform-pattern-VOL-occasional-elements>
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-VOL-occasional-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Volcano"@en ;
   skos:member <landform-element-TUM> ;
+  skos:prefLabel "Typical elements of Volcano"@en ;
 .
 <landform-pattern-VOL-typical-elements>
   a skos:Collection ;
@@ -2687,31 +3017,164 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   rdfs:label "Typical elements of Volcano"@en ;
   skos:member <landform-element-CON> ;
   skos:member <landform-element-CRA> ;
+  skos:prefLabel "Typical elements of Volcano"@en ;
 .
-<landform-pattern-common-elements>
+<landform-pattern-components>
   a skos:Collection ;
   skos-ext:topMemberOf asls:landform ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-common-elements"^^xsd:anyURI ;
-  rdfs:label "Collections of elements commonly found in specific landform patterns"@en ;
+  dcterms:description "Certain kinds of landform element are typical of a given landform pattern. Some are found commonly and others occasionally in a given type. These landform elements are listed for each type of landform pattern."@en ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-components"^^xsd:anyURI ;
+  rdfs:label "Collections of elements found in specific landform patterns"@en ;
+  skos:definition "Certain kinds of landform element are typical of a given landform pattern. Some are found commonly and others occasionally in a given type. These landform elements are listed for each type of landform pattern."@en ;
   skos:member <landform-pattern-ALF-common-elements> ;
+  skos:member <landform-pattern-ALF-comparewith-patterns> ;
+  skos:member <landform-pattern-ALF-typical-elements> ;
   skos:member <landform-pattern-ALP-common-elements> ;
+  skos:member <landform-pattern-ALP-included-patterns> ;
+  skos:member <landform-pattern-ALP-occasional-elements> ;
+  skos:member <landform-pattern-ALP-typical-elements> ;
+  skos:member <landform-pattern-ANA-common-elements> ;
+  skos:member <landform-pattern-ANA-comparewith-patterns> ;
+  skos:member <landform-pattern-ANA-typical-elements> ;
+  skos:member <landform-pattern-BAD-comparewith-patterns> ;
+  skos:member <landform-pattern-BAD-occasional-elements> ;
+  skos:member <landform-pattern-BAD-typical-elements> ;
+  skos:member <landform-pattern-BAR-comparewith-patterns> ;
+  skos:member <landform-pattern-BAR-typical-elements> ;
+  skos:member <landform-pattern-BEA-common-elements> ;
+  skos:member <landform-pattern-BEA-comparewith-patterns> ;
+  skos:member <landform-pattern-BEA-typical-elements> ;
+  skos:member <landform-pattern-CAL-occasional-elements> ;
+  skos:member <landform-pattern-CAL-typical-elements> ;
+  skos:member <landform-pattern-CHE-common-elements> ;
+  skos:member <landform-pattern-CHE-comparewith-patterns> ;
+  skos:member <landform-pattern-CHE-typical-elements> ;
+  skos:member <landform-pattern-COR-common-elements> ;
+  skos:member <landform-pattern-COR-typical-elements> ;
+  skos:member <landform-pattern-COV-common-elements> ;
+  skos:member <landform-pattern-COV-comparewith-patterns> ;
+  skos:member <landform-pattern-COV-typical-elements> ;
+  skos:member <landform-pattern-DEL-common-elements> ;
+  skos:member <landform-pattern-DEL-comparewith-patterns> ;
+  skos:member <landform-pattern-DEL-typical-elements> ;
+  skos:member <landform-pattern-DUN-common-elements> ;
+  skos:member <landform-pattern-DUN-included-patterns> ;
+  skos:member <landform-pattern-DUN-typical-elements> ;
+  skos:member <landform-pattern-ESC-common-elements> ;
+  skos:member <landform-pattern-ESC-occasional-elements> ;
+  skos:member <landform-pattern-ESC-typical-elements> ;
+  skos:member <landform-pattern-FLO-common-elements> ;
+  skos:member <landform-pattern-FLO-included-patterns> ;
+  skos:member <landform-pattern-FLO-occasional-elements> ;
+  skos:member <landform-pattern-FLO-related-patterns> ;
+  skos:member <landform-pattern-FLO-typical-elements> ;
+  skos:member <landform-pattern-HIL-common-elements> ;
+  skos:member <landform-pattern-HIL-comparewith-patterns> ;
+  skos:member <landform-pattern-HIL-occasional-elements> ;
+  skos:member <landform-pattern-HIL-typical-elements> ;
+  skos:member <landform-pattern-KAR-common-elements> ;
+  skos:member <landform-pattern-KAR-occasional-elements> ;
+  skos:member <landform-pattern-KAR-typical-elements> ;
+  skos:member <landform-pattern-LAC-common-elements> ;
+  skos:member <landform-pattern-LAC-comparewith-patterns> ;
+  skos:member <landform-pattern-LAC-occasional-elements> ;
+  skos:member <landform-pattern-LAC-typical-elements> ;
+  skos:member <landform-pattern-LAV-common-elements> ;
+  skos:member <landform-pattern-LAV-typical-elements> ;
+  skos:member <landform-pattern-LON-comparewith-patterns> ;
+  skos:member <landform-pattern-LON-typical-elements> ;
+  skos:member <landform-pattern-LOW-common-elements> ;
+  skos:member <landform-pattern-LOW-comparewith-patterns> ;
+  skos:member <landform-pattern-LOW-occasional-elements> ;
+  skos:member <landform-pattern-LOW-typical-elements> ;
+  skos:member <landform-pattern-MAD-common-elements> ;
+  skos:member <landform-pattern-MAD-typical-elements> ;
+  skos:member <landform-pattern-MAR-occasional-elements> ;
+  skos:member <landform-pattern-MAR-typical-elements> ;
+  skos:member <landform-pattern-MEA-common-elements> ;
+  skos:member <landform-pattern-MEA-comparewith-patterns> ;
+  skos:member <landform-pattern-MEA-typical-elements> ;
+  skos:member <landform-pattern-MET-typical-elements> ;
+  skos:member <landform-pattern-MOU-common-elements> ;
+  skos:member <landform-pattern-MOU-comparewith-patterns> ;
+  skos:member <landform-pattern-MOU-occasional-elements> ;
+  skos:member <landform-pattern-MOU-typical-elements> ;
+  skos:member <landform-pattern-PAR-comparewith-patterns> ;
+  skos:member <landform-pattern-PAR-typical-elements> ;
+  skos:member <landform-pattern-PED-comparewith-patterns> ;
+  skos:member <landform-pattern-PED-typical-elements> ;
+  skos:member <landform-pattern-PEP-typical-elements> ;
+  skos:member <landform-pattern-PLA-comparewith-patterns> ;
+  skos:member <landform-pattern-PLT-common-elements> ;
+  skos:member <landform-pattern-PLT-occasional-elements> ;
+  skos:member <landform-pattern-PLT-typical-elements> ;
+  skos:member <landform-pattern-PLY-comparewith-patterns> ;
+  skos:member <landform-pattern-PLY-typical-elements> ;
+  skos:member <landform-pattern-PNP-typical-elements> ;
+  skos:member <landform-pattern-RIS-common-elements> ;
+  skos:member <landform-pattern-RIS-comparewith-patterns> ;
+  skos:member <landform-pattern-RIS-occasional-elements> ;
+  skos:member <landform-pattern-RIS-typical-elements> ;
+  skos:member <landform-pattern-SAN-occasional-elements> ;
+  skos:member <landform-pattern-SAN-typical-elements> ;
+  skos:member <landform-pattern-SHF-comparewith-patterns> ;
+  skos:member <landform-pattern-SHF-typical-elements> ;
+  skos:member <landform-pattern-STA-common-elements> ;
+  skos:member <landform-pattern-STA-comparewith-patterns> ;
+  skos:member <landform-pattern-STA-occasional-elements> ;
+  skos:member <landform-pattern-STA-typical-elements> ;
+  skos:member <landform-pattern-TEL-occasional-elements> ;
+  skos:member <landform-pattern-TEL-typical-elements> ;
+  skos:member <landform-pattern-TER-occasional-elements> ;
+  skos:member <landform-pattern-TER-typical-elements> ;
+  skos:member <landform-pattern-TID-occasional-elements> ;
+  skos:member <landform-pattern-TID-typical-elements> ;
+  skos:member <landform-pattern-VOL-common-elements> ;
+  skos:member <landform-pattern-VOL-occasional-elements> ;
+  skos:member <landform-pattern-VOL-typical-elements> ;
+  skos:prefLabel "Collections of elements found in specific landform patterns"@en ;
 .
 <landform-pattern-descriptions>
   a skos:Collection ;
   skos-ext:topMemberOf asls:landform ;
+  dcterms:description """<p>The significant kinds of landform pattern in Australia may be described and differentiated by the following attributes assessed within a circle of about 300 m radius:</p>
+<ul>
+<li>relief</li>
+<li>modal slope</li>
+<li>stream channel occurrence</li>
+<li>mode of geomorphological activity</li>
+<li>geomorphological agent</li>
+<li>status of geomorphological activity</li>
+<li>component landform elements</li>
+</ul>
+<p>The landform pattern glossary is based explicitly on these attributes.</p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-descriptions"^^xsd:anyURI ;
   rdfs:label "Description of landform pattern"@en ;
+  skos:definition """<p>The significant kinds of landform pattern in Australia may be described and differentiated by the following attributes assessed within a circle of about 300 m radius:</p>
+<ul>
+<li>relief</li>
+<li>modal slope</li>
+<li>stream channel occurrence</li>
+<li>mode of geomorphological activity</li>
+<li>geomorphological agent</li>
+<li>status of geomorphological activity</li>
+<li>component landform elements</li>
+</ul>
+<p>The landform pattern glossary is based explicitly on these attributes.</p>"""^^rdf:HTML ;
   skos:member <geomorphological-agents> ;
   skos:member <modal-slope> ;
   skos:member <mode-of-geomorphological-activity> ;
   skos:member <relief> ;
   skos:member <stream-channel-occurence> ;
+  skos:prefLabel "Description of landform pattern"@en ;
 .
 <landform-pattern-glossary>
   a skos:Collection ;
   skos-ext:topMemberOf asls:landform ;
+  dcterms:description "The definitions in this glossary refer explicitly to the attributes of landform patterns that have been set down in the preceding sections."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-glossary"^^xsd:anyURI ;
   rdfs:label "Glossary of landform patterns"@en ;
+  skos:definition "The definitions in this glossary refer explicitly to the attributes of landform patterns that have been set down in the preceding sections."@en ;
   skos:member <landform-pattern-ALF> ;
   skos:member <landform-pattern-ALP> ;
   skos:member <landform-pattern-ANA> ;
@@ -2752,21 +3215,7 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos:member <landform-pattern-TER> ;
   skos:member <landform-pattern-TID> ;
   skos:member <landform-pattern-VOL> ;
-.
-<landform-pattern-occasional-elements>
-  a skos:Collection ;
-  skos-ext:topMemberOf asls:landform ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-occasional-elements"^^xsd:anyURI ;
-  rdfs:label "Collections of elements occasionally found in specific landform patterns"@en ;
-  skos:member <landform-pattern-ALP-occasional-elements> ;
-.
-<landform-pattern-typical-elements>
-  a skos:Collection ;
-  skos-ext:topMemberOf asls:landform ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-typical-elements"^^xsd:anyURI ;
-  rdfs:label "Collections of elements typically found in specific landform patterns"@en ;
-  skos:member <landform-pattern-ALF-typical-elements> ;
-  skos:member <landform-pattern-ALP-typical-elements> ;
+  skos:prefLabel "Glossary of landform patterns"@en ;
 .
 <location-within-the-landform-element>
   a skos:Collection ;
@@ -2850,7 +3299,7 @@ Table 7 lists types of landform pattern in order of their typical class of modal
   rdfs:comment """Gradational activities are those that tend to reduce the land to a common elevation by removing material from higher places and depositing it in lower places (Chamberlin and Salisbury 1904, page 2), without necessarily reducing the angle of slope at every point. The work of streams and landslides is almost entirely in the gradational modes. However, this tendency is opposed by many processes that commonly act in an anti-gradational mode. These modes are characteristic of volcanism, diastrophism and various kinds of human and biological activity.
 However, many engineering works involve erosion and aggradation because these gradational modes use less energy than anti-gradational modes. For the same reason, erosion and aggradation may easily be induced unintentionally by land use (pages 92–96).
 To judge the mode of geomorphological activity responsible for a given landform element, the observer must visualise a former surface that has suffered distortion, burial or removal of material, and seek evidence that such activity has taken place. (Information on soil and substrate materials relevant to this investigation should be recorded as specified in other sections.)
-Allow for the recording of more than one mode of activity, together with options concerning geomorphological agents.""" ;
+Allow for the recording of more than one mode of activity, together with options concerning geomorphological agents."""@en ;
   rdfs:label "Mode of geomorphological activity"@en ;
   skos:definition "Various modes of geomorphological activity may be distinguished (Figure 3)."@en ;
   skos:member <mode-of-geomorphological-activity-AG> ;
@@ -3435,8 +3884,7 @@ Table 6 lists types of landform pattern defined in the glossary according to the
   dcterms:description """Slope classes are defined in Table 2. The optional word ‘inclined’ is used to distinguish slope from other attributes, for example ‘gently inclined footslope’ from ‘gently undulating rises’, and ‘moderately inclined hillslope’ from ‘moderately spaced streams’.
 The class boundaries given in Table 2, and repeated in Table 4, are simply boundaries separating slope terms in common use, adjusted to regular logarithmic intervals. They do not refer to observed natural clustering of slope values, since such clustering has not been shown to occur; nor do they relate precisely to boundary criteria for land use, which vary arbitrarily between organisations and which may change with advancing technology.
 It may sometimes be advantageous to split each of the classes ‘very gently inclined’, ‘gently inclined’ and ‘moderately inclined’ into two levels, the appropriate boundary values being 1.8%, 5.6% and 18%.
-There may also be compelling reasons for using other schemes of slope classes. However, schemes that do not have constant class widths from low to high slope values can lead to problems in subsequent statistical work. 
-""" ;
+There may also be compelling reasons for using other schemes of slope classes. However, schemes that do not have constant class widths from low to high slope values can lead to problems in subsequent statistical work."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-classes"^^xsd:anyURI ;
   rdfs:label "Class of slope"@en ;
   skos:definition """Slope classes are defined in Table 2. The optional word ‘inclined’ is used to distinguish slope from other attributes, for example ‘gently inclined footslope’ from ‘gently undulating rises’, and ‘moderately inclined hillslope’ from ‘moderately spaced streams’.
@@ -3504,6 +3952,7 @@ There may also be compelling reasons for using other schemes of slope classes. H
   skos:member <slope-evaluation-E> ;
   skos:member <slope-evaluation-P> ;
   skos:member <slope-evaluation-T> ;
+  skos:prefLabel "Means of evaluation of slope"@en ;
 .
 <slope-value>
   a skos:Concept ;
