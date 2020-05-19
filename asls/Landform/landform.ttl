@@ -1271,6 +1271,7 @@ lf:landform-pattern-ALF-common-elements
   rdfs:label "Common elements of an Alluvial fan"@en ;
   skos:member lf:landform-element-SCA ;
   skos:prefLabel "Common elements of an Alluvial fan"@en ;
+  skos:related lf:landform-pattern-ALF ;
 .
 lf:landform-pattern-ALF-comparewith-patterns
   a skos:Collection ;
@@ -1279,6 +1280,7 @@ lf:landform-pattern-ALF-comparewith-patterns
   skos:member lf:landform-pattern-PED ;
   skos:member lf:landform-pattern-SHF ;
   skos:prefLabel "Compare Alluvial fans with these patterns"@en ;
+  skos:related lf:landform-pattern-ALF ;
 .
 lf:landform-pattern-ALF-typical-elements
   a skos:Collection ;
@@ -1288,6 +1290,7 @@ lf:landform-pattern-ALF-typical-elements
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Typical elements of an Alluvial fan"@en ;
+  skos:related lf:landform-pattern-ALF ;
 .
 lf:landform-pattern-ALP
   a skos:Concept ;
@@ -1323,6 +1326,7 @@ lf:landform-pattern-ALP-common-elements
   skos:member lf:landform-element-SCR ;
   skos:member lf:landform-element-SWP ;
   skos:prefLabel "Common elements of an Alluvial plain"@en ;
+  skos:related lf:landform-pattern-ALP ;
 .
 lf:landform-pattern-ALP-included-patterns
   a skos:Collection ;
@@ -1338,6 +1342,7 @@ lf:landform-pattern-ALP-included-patterns
   skos:member lf:landform-pattern-TEL ;
   skos:member lf:landform-pattern-TER ;
   skos:prefLabel "Included types of landform pattern for Alluvial plain"@en ;
+  skos:related lf:landform-pattern-ALP ;
 .
 lf:landform-pattern-ALP-occasional-elements
   a skos:Collection ;
@@ -1347,6 +1352,7 @@ lf:landform-pattern-ALP-occasional-elements
   skos:member lf:landform-element-LAK ;
   skos:member lf:landform-element-OXB ;
   skos:prefLabel "Occasional elements of an Alluvial plain"@en ;
+  skos:related lf:landform-pattern-ALP ;
 .
 lf:landform-pattern-ALP-typical-elements
   a skos:Collection ;
@@ -1357,6 +1363,7 @@ lf:landform-pattern-ALP-typical-elements
   skos:member lf:landform-element-STB ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Typical elements of an Alluvial plain"@en ;
+  skos:related lf:landform-pattern-ALP ;
 .
 lf:landform-pattern-ANA
   a skos:Concept ;
@@ -1385,6 +1392,7 @@ lf:landform-pattern-ANA-common-elements
   rdfs:label "Common elements of an Anastomotic plain"@en ;
   skos:member lf:landform-element-SWP ;
   skos:prefLabel "Common elements of an Anastomotic plain"@en ;
+  skos:related lf:landform-pattern-ANA ;
 .
 lf:landform-pattern-ANA-comparewith-patterns
   a skos:Collection ;
@@ -1393,6 +1401,7 @@ lf:landform-pattern-ANA-comparewith-patterns
   skos:member lf:landform-pattern-ALP ;
   skos:member lf:landform-pattern-FLO ;
   skos:prefLabel "Compare Anastomotic plain with these patterns"@en ;
+  skos:related lf:landform-pattern-ANA ;
 .
 lf:landform-pattern-ANA-typical-elements
   a skos:Collection ;
@@ -1404,6 +1413,7 @@ lf:landform-pattern-ANA-typical-elements
   skos:member lf:landform-element-STB ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Typical elements of an Anastomotic plain"@en ;
+  skos:related lf:landform-pattern-ANA ;
 .
 lf:landform-pattern-BAD
   a skos:Concept ;
@@ -1439,6 +1449,7 @@ lf:landform-pattern-BAD-comparewith-patterns
   skos:member lf:landform-pattern-PLA ;
   skos:member lf:landform-pattern-RIS ;
   skos:prefLabel "Compare Badlands with these patterns"@en ;
+  skos:related lf:landform-pattern-BAD ;
 .
 lf:landform-pattern-BAD-occasional-elements
   a skos:Collection ;
@@ -1449,6 +1460,7 @@ lf:landform-pattern-BAD-occasional-elements
   skos:member lf:landform-element-SUS ;
   skos:member lf:landform-element-TAL ;
   skos:prefLabel "Occasional elements of Badlands"@en ;
+  skos:related lf:landform-pattern-BAD ;
 .
 lf:landform-pattern-BAD-typical-elements
   a skos:Collection ;
@@ -1458,6 +1470,7 @@ lf:landform-pattern-BAD-typical-elements
   skos:member lf:landform-element-STB ;
   skos:member lf:morphological-type-R ;
   skos:prefLabel "Typical elements of Badlands"@en ;
+  skos:related lf:landform-pattern-BAD ;
 .
 lf:landform-pattern-BAR
   a skos:Concept ;
@@ -1482,6 +1495,7 @@ lf:landform-pattern-BAR-comparewith-patterns
   skos:member lf:landform-pattern-ALP ;
   skos:member lf:landform-pattern-FLO ;
   skos:prefLabel "Compare Bar plain with these patterns"@en ;
+  skos:related lf:landform-pattern-BAR ;
 .
 lf:landform-pattern-BAR-typical-elements
   a skos:Collection ;
@@ -1490,6 +1504,7 @@ lf:landform-pattern-BAR-typical-elements
   skos:member lf:landform-element-BAR ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Typical elements of Bar plain"@en ;
+  skos:related lf:landform-pattern-BAR ;
 .
 lf:landform-pattern-BEA
   a skos:Concept ;
@@ -1521,6 +1536,7 @@ lf:landform-pattern-BEA-common-elements
   skos:member lf:landform-element-FOR ;
   skos:member lf:landform-element-TDC ;
   skos:prefLabel "Common elements of Beach ridge plain"@en ;
+  skos:related lf:landform-pattern-BEA ;
 .
 lf:landform-pattern-BEA-comparewith-patterns
   a skos:Collection ;
@@ -1528,6 +1544,7 @@ lf:landform-pattern-BEA-comparewith-patterns
   rdfs:label "Compare Beach ridge plain with these patterns"@en ;
   skos:member lf:landform-pattern-CHE ;
   skos:prefLabel "Compare Beach ridge plain with these patterns"@en ;
+  skos:related lf:landform-pattern-BEA ;
 .
 lf:landform-pattern-BEA-typical-elements
   a skos:Collection ;
@@ -1536,6 +1553,7 @@ lf:landform-pattern-BEA-typical-elements
   skos:member lf:landform-element-BRI ;
   skos:member lf:landform-element-SWL ;
   skos:prefLabel "Typical elements of Beach ridge plain"@en ;
+  skos:related lf:landform-pattern-BEA ;
 .
 lf:landform-pattern-CAL
   a skos:Concept ;
@@ -1567,6 +1585,7 @@ lf:landform-pattern-CAL-occasional-elements
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Occasional elements of Caldera"@en ;
+  skos:related lf:landform-pattern-CAL ;
 .
 lf:landform-pattern-CAL-typical-elements
   a skos:Collection ;
@@ -1576,6 +1595,7 @@ lf:landform-pattern-CAL-typical-elements
   skos:member lf:landform-element-LAK ;
   skos:member lf:landform-element-SCA ;
   skos:prefLabel "Typical elements of Caldera"@en ;
+  skos:related lf:landform-pattern-CAL ;
 .
 lf:landform-pattern-CHE
   a skos:Concept ;
@@ -1609,6 +1629,7 @@ lf:landform-pattern-CHE-common-elements
   skos:member lf:landform-element-SWP ;
   skos:member lf:landform-element-TDC ;
   skos:prefLabel "Common elements of Chenier plain"@en ;
+  skos:related lf:landform-pattern-CHE ;
 .
 lf:landform-pattern-CHE-comparewith-patterns
   a skos:Collection ;
@@ -1616,6 +1637,7 @@ lf:landform-pattern-CHE-comparewith-patterns
   rdfs:label "Compare Chenier plain with these patterns"@en ;
   skos:member lf:landform-pattern-BEA ;
   skos:prefLabel "Compare Chenier plain with these patterns"@en ;
+  skos:related lf:landform-pattern-CHE ;
 .
 lf:landform-pattern-CHE-typical-elements
   a skos:Collection ;
@@ -1625,6 +1647,7 @@ lf:landform-pattern-CHE-typical-elements
   skos:member lf:landform-element-TDF ;
   skos:member lf:morphological-type-F ;
   skos:prefLabel "Typical elements of Chenier plain"@en ;
+  skos:related lf:landform-pattern-CHE ;
 .
 lf:landform-pattern-COR
   a skos:Concept ;
@@ -1654,6 +1677,7 @@ lf:landform-pattern-COR-common-elements
   skos:member lf:landform-element-BEA ;
   skos:member lf:landform-element-BRI ;
   skos:prefLabel "Common elements of Coral reef"@en ;
+  skos:related lf:landform-pattern-COR ;
 .
 lf:landform-pattern-COR-typical-elements
   a skos:Collection ;
@@ -1663,6 +1687,7 @@ lf:landform-pattern-COR-typical-elements
   skos:member lf:landform-element-LAG ;
   skos:member lf:landform-element-REF ;
   skos:prefLabel "Typical elements of Coral reef"@en ;
+  skos:related lf:landform-pattern-COR ;
 .
 lf:landform-pattern-COV
   a skos:Concept ;
@@ -1689,6 +1714,7 @@ lf:landform-pattern-COV-common-elements
   rdfs:label "Common elements of Covered plain"@en ;
   skos:member lf:landform-element-SWP ;
   skos:prefLabel "Common elements of Covered plain"@en ;
+  skos:related lf:landform-pattern-COV ;
 .
 lf:landform-pattern-COV-comparewith-patterns
   a skos:Collection ;
@@ -1697,6 +1723,7 @@ lf:landform-pattern-COV-comparewith-patterns
   skos:member lf:landform-pattern-ALP ;
   skos:member lf:landform-pattern-FLO ;
   skos:prefLabel "Compare Covered plain with these patterns"@en ;
+  skos:related lf:landform-pattern-COV ;
 .
 lf:landform-pattern-COV-typical-elements
   a skos:Collection ;
@@ -1708,6 +1735,7 @@ lf:landform-pattern-COV-typical-elements
   skos:member lf:landform-element-STB ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Typical elements of Covered plain"@en ;
+  skos:related lf:landform-pattern-COV ;
 .
 lf:landform-pattern-DEL
   a skos:Concept ;
@@ -1738,6 +1766,7 @@ lf:landform-pattern-DEL-common-elements
   skos:member lf:landform-element-SWL ;
   skos:member lf:landform-element-TDC ;
   skos:prefLabel "Common elements of Delta"@en ;
+  skos:related lf:landform-pattern-DEL ;
 .
 lf:landform-pattern-DEL-comparewith-patterns
   a skos:Collection ;
@@ -1747,6 +1776,7 @@ lf:landform-pattern-DEL-comparewith-patterns
   skos:member lf:landform-pattern-CHE ;
   skos:member lf:landform-pattern-FLO ;
   skos:prefLabel "Compare Delta with these patterns"@en ;
+  skos:related lf:landform-pattern-DEL ;
 .
 lf:landform-pattern-DEL-typical-elements
   a skos:Collection ;
@@ -1760,6 +1790,7 @@ lf:landform-pattern-DEL-typical-elements
   skos:member lf:landform-element-STC ;
   skos:member lf:landform-element-SWP ;
   skos:prefLabel "Typical elements of Delta"@en ;
+  skos:related lf:landform-pattern-DEL ;
 .
 lf:landform-pattern-DUN
   a skos:Concept ;
@@ -1795,6 +1826,7 @@ lf:landform-pattern-DUN-common-elements
   skos:member lf:landform-element-DUH ;
   skos:member lf:landform-element-DUP ;
   skos:prefLabel "Common elements of Dunefield"@en ;
+  skos:related lf:landform-pattern-DUN ;
 .
 lf:landform-pattern-DUN-included-patterns
   a skos:Collection ;
@@ -1803,6 +1835,7 @@ lf:landform-pattern-DUN-included-patterns
   skos:member lf:landform-pattern-LON ;
   skos:member lf:landform-pattern-PAR ;
   skos:prefLabel "Included patterns of Dunefield"@en ;
+  skos:related lf:landform-pattern-DUN ;
 .
 lf:landform-pattern-DUN-typical-elements
   a skos:Collection ;
@@ -1817,6 +1850,7 @@ lf:landform-pattern-DUN-typical-elements
   skos:member lf:landform-element-RES ;
   skos:member lf:landform-element-SWL ;
   skos:prefLabel "Typical elements of Dunefield"@en ;
+  skos:related lf:landform-pattern-DUN ;
 .
 lf:landform-pattern-ESC
   a skos:Concept ;
@@ -1853,6 +1887,7 @@ lf:landform-pattern-ESC-common-elements
   skos:member lf:landform-element-SFS ;
   skos:member lf:landform-element-TAL ;
   skos:prefLabel "Common elements of Escarpment"@en ;
+  skos:related lf:landform-pattern-ESC ;
 .
 lf:landform-pattern-ESC-occasional-elements
   a skos:Collection ;
@@ -1860,6 +1895,7 @@ lf:landform-pattern-ESC-occasional-elements
   rdfs:label "Occasional elements of Escarpment"@en ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Occasional elements of Escarpment"@en ;
+  skos:related lf:landform-pattern-ESC ;
 .
 lf:landform-pattern-ESC-typical-elements
   a skos:Collection ;
@@ -1869,6 +1905,7 @@ lf:landform-pattern-ESC-typical-elements
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-HSL ;
   skos:prefLabel "Typical elements of Escarpment"@en ;
+  skos:related lf:landform-pattern-ESC ;
 .
 lf:landform-pattern-FLO
   a skos:Concept ;
@@ -1905,6 +1942,7 @@ lf:landform-pattern-FLO-common-elements
   skos:member lf:landform-element-SCR ;
   skos:member lf:landform-element-SWP ;
   skos:prefLabel "Common elements of Flood plain"@en ;
+  skos:related lf:landform-pattern-FLO ;
 .
 lf:landform-pattern-FLO-included-patterns
   a skos:Collection ;
@@ -1915,6 +1953,7 @@ lf:landform-pattern-FLO-included-patterns
   skos:member lf:landform-pattern-COV ;
   skos:member lf:landform-pattern-MEA ;
   skos:prefLabel "Included patterns of Flood plain"@en ;
+  skos:related lf:landform-pattern-FLO ;
 .
 lf:landform-pattern-FLO-occasional-elements
   a skos:Collection ;
@@ -1923,6 +1962,7 @@ lf:landform-pattern-FLO-occasional-elements
   skos:member lf:landform-element-FLD ;
   skos:member lf:landform-element-OXB ;
   skos:prefLabel "Occasional elements of Flood plain"@en ;
+  skos:related lf:landform-pattern-FLO ;
 .
 lf:landform-pattern-FLO-related-patterns
   a skos:Collection ;
@@ -1932,6 +1972,7 @@ lf:landform-pattern-FLO-related-patterns
   skos:member lf:landform-pattern-TEL ;
   skos:member lf:landform-pattern-TER ;
   skos:prefLabel "Related relic patterns of Flood plain"@en ;
+  skos:related lf:landform-pattern-FLO ;
 .
 lf:landform-pattern-FLO-typical-elements
   a skos:Collection ;
@@ -1942,6 +1983,7 @@ lf:landform-pattern-FLO-typical-elements
   skos:member lf:landform-element-STB ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Typical elements of Flood plain"@en ;
+  skos:related lf:landform-pattern-FLO ;
 .
 lf:landform-pattern-HIL
   a skos:Concept ;
@@ -1980,6 +2022,7 @@ lf:landform-pattern-HIL-common-elements
   skos:member lf:landform-element-GUL ;
   skos:member lf:landform-element-VLF ;
   skos:prefLabel "Common elements of Hills"@en ;
+  skos:related lf:landform-pattern-HIL ;
 .
 lf:landform-pattern-HIL-comparewith-patterns
   a skos:Collection ;
@@ -1989,6 +2032,7 @@ lf:landform-pattern-HIL-comparewith-patterns
   skos:member lf:landform-pattern-PLA ;
   skos:member lf:landform-pattern-RIS ;
   skos:prefLabel "Compare Hills with these patterns"@en ;
+  skos:related lf:landform-pattern-HIL ;
 .
 lf:landform-pattern-HIL-occasional-elements
   a skos:Collection ;
@@ -2003,6 +2047,7 @@ lf:landform-pattern-HIL-occasional-elements
   skos:member lf:landform-element-TER ;
   skos:member lf:landform-element-TOR ;
   skos:prefLabel "Occasional elements of Hills"@en ;
+  skos:related lf:landform-pattern-HIL ;
 .
 lf:landform-pattern-HIL-typical-elements
   a skos:Collection ;
@@ -2013,6 +2058,7 @@ lf:landform-pattern-HIL-typical-elements
   skos:member lf:landform-element-HSL ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Typical elements of Hills"@en ;
+  skos:related lf:landform-pattern-HIL ;
 .
 lf:landform-pattern-KAR
   a skos:Concept ;
@@ -2047,6 +2093,7 @@ lf:landform-pattern-KAR-common-elements
   skos:member lf:landform-element-SUS ;
   skos:member lf:landform-element-VLF ;
   skos:prefLabel "Common elements of Karst"@en ;
+  skos:related lf:landform-pattern-KAR ;
 .
 lf:landform-pattern-KAR-occasional-elements
   a skos:Collection ;
@@ -2054,6 +2101,7 @@ lf:landform-pattern-KAR-occasional-elements
   rdfs:label "Occasional elements of Karst"@en ;
   skos:member lf:landform-element-TAL ;
   skos:prefLabel "Occasional elements of Karst"@en ;
+  skos:related lf:landform-pattern-KAR ;
 .
 lf:landform-pattern-KAR-typical-elements
   a skos:Collection ;
@@ -2063,6 +2111,7 @@ lf:landform-pattern-KAR-typical-elements
   skos:member lf:landform-element-HCR ;
   skos:member lf:landform-element-HSL ;
   skos:prefLabel "Typical elements of Karst"@en ;
+  skos:related lf:landform-pattern-KAR ;
 .
 lf:landform-pattern-LAC
   a skos:Concept ;
@@ -2095,6 +2144,7 @@ lf:landform-pattern-LAC-common-elements
   skos:member lf:landform-element-BEA ;
   skos:member lf:landform-element-CLI ;
   skos:prefLabel "Common elements of Lacustrine plain"@en ;
+  skos:related lf:landform-pattern-LAC ;
 .
 lf:landform-pattern-LAC-comparewith-patterns
   a skos:Collection ;
@@ -2102,6 +2152,7 @@ lf:landform-pattern-LAC-comparewith-patterns
   rdfs:label "Compare Lacustrine plain with these patterns"@en ;
   skos:member lf:landform-pattern-PLY ;
   skos:prefLabel "Compare Lacustrine plain with these patterns"@en ;
+  skos:related lf:landform-pattern-LAC ;
 .
 lf:landform-pattern-LAC-occasional-elements
   a skos:Collection ;
@@ -2110,6 +2161,7 @@ lf:landform-pattern-LAC-occasional-elements
   skos:member lf:landform-element-BER ;
   skos:member lf:landform-element-RPL ;
   skos:prefLabel "Occasional elements of Lacustrine plain"@en ;
+  skos:related lf:landform-pattern-LAC ;
 .
 lf:landform-pattern-LAC-typical-elements
   a skos:Collection ;
@@ -2117,6 +2169,7 @@ lf:landform-pattern-LAC-typical-elements
   rdfs:label "Typical elements of Lacustrine plain"@en ;
   skos:member lf:landform-element-PLA ;
   skos:prefLabel "Typical elements of Lacustrine plain"@en ;
+  skos:related lf:landform-pattern-LAC ;
 .
 lf:landform-pattern-LAV
   a skos:Concept ;
@@ -2146,6 +2199,7 @@ lf:landform-pattern-LAV-common-elements
   rdfs:label "Common elements of Lava plain"@en ;
   skos:member lf:landform-element-TUM ;
   skos:prefLabel "Common elements of Lava plain"@en ;
+  skos:related lf:landform-pattern-LAV ;
 .
 lf:landform-pattern-LAV-typical-elements
   a skos:Collection ;
@@ -2155,6 +2209,7 @@ lf:landform-pattern-LAV-typical-elements
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Typical elements of Lava plain"@en ;
+  skos:related lf:landform-pattern-LAV ;
 .
 lf:landform-pattern-LON
   a skos:Concept ;
@@ -2178,6 +2233,7 @@ lf:landform-pattern-LON-comparewith-patterns
   rdfs:label "Compare Longitudinal dunefield with these patterns"@en ;
   skos:member lf:landform-pattern-PAR ;
   skos:prefLabel "Compare Longitudinal dunefield with these patterns"@en ;
+  skos:related lf:landform-pattern-LON ;
 .
 lf:landform-pattern-LON-typical-elements
   a skos:Collection ;
@@ -2189,6 +2245,7 @@ lf:landform-pattern-LON-typical-elements
   skos:member lf:landform-element-DUS ;
   skos:member lf:landform-element-SWL ;
   skos:prefLabel "Typical elements of Longitudinal dunefield"@en ;
+  skos:related lf:landform-pattern-LON ;
 .
 lf:landform-pattern-LOW
   a skos:Concept ;
@@ -2226,6 +2283,7 @@ lf:landform-pattern-LOW-common-elements
   skos:member lf:landform-element-GUL ;
   skos:member lf:landform-element-VLF ;
   skos:prefLabel "Common elements of Low hills"@en ;
+  skos:related lf:landform-pattern-LOW ;
 .
 lf:landform-pattern-LOW-comparewith-patterns
   a skos:Collection ;
@@ -2235,6 +2293,7 @@ lf:landform-pattern-LOW-comparewith-patterns
   skos:member lf:landform-pattern-PLA ;
   skos:member lf:landform-pattern-RIS ;
   skos:prefLabel "Compare Low hills with these patterns"@en ;
+  skos:related lf:landform-pattern-LOW ;
 .
 lf:landform-pattern-LOW-occasional-elements
   a skos:Collection ;
@@ -2245,6 +2304,7 @@ lf:landform-pattern-LOW-occasional-elements
   skos:member lf:landform-element-SUS ;
   skos:member lf:landform-element-TOR ;
   skos:prefLabel "Occasional elements of Low hills"@en ;
+  skos:related lf:landform-pattern-LOW ;
 .
 lf:landform-pattern-LOW-typical-elements
   a skos:Collection ;
@@ -2255,6 +2315,7 @@ lf:landform-pattern-LOW-typical-elements
   skos:member lf:landform-element-HSL ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Typical elements of Low hills"@en ;
+  skos:related lf:landform-pattern-LOW ;
 .
 lf:landform-pattern-MAD
   a skos:Concept ;
@@ -2284,6 +2345,7 @@ lf:landform-pattern-MAD-common-elements
   skos:member lf:landform-element-MOU ;
   skos:member lf:landform-element-PIT ;
   skos:prefLabel "Common elements of Made land"@en ;
+  skos:related lf:landform-pattern-MAD ;
 .
 lf:landform-pattern-MAD-typical-elements
   a skos:Collection ;
@@ -2296,6 +2358,7 @@ lf:landform-pattern-MAD-typical-elements
   skos:member lf:landform-element-FIL ;
   skos:member lf:landform-element-TRE ;
   skos:prefLabel "Typical elements of Made land"@en ;
+  skos:related lf:landform-pattern-MAD ;
 .
 lf:landform-pattern-MAR
   a skos:Concept ;
@@ -2320,6 +2383,7 @@ lf:landform-pattern-MAR-occasional-elements
   skos:member lf:landform-element-DUN ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Occasional elements of Marine plain"@en ;
+  skos:related lf:landform-pattern-MAR ;
 .
 lf:landform-pattern-MAR-typical-elements
   a skos:Collection ;
@@ -2327,6 +2391,7 @@ lf:landform-pattern-MAR-typical-elements
   rdfs:label "Typical elements of Marine plain"@en ;
   skos:member lf:landform-element-PLA ;
   skos:prefLabel "Typical elements of Marine plain"@en ;
+  skos:related lf:landform-pattern-MAR ;
 .
 lf:landform-pattern-MEA
   a skos:Concept ;
@@ -2353,6 +2418,7 @@ lf:landform-pattern-MEA-common-elements
   rdfs:label "Common elements of Meander plain"@en ;
   skos:member lf:landform-element-OXB ;
   skos:prefLabel "Common elements of Meander plain"@en ;
+  skos:related lf:landform-pattern-MEA ;
 .
 lf:landform-pattern-MEA-comparewith-patterns
   a skos:Collection ;
@@ -2361,6 +2427,7 @@ lf:landform-pattern-MEA-comparewith-patterns
   skos:member lf:landform-pattern-ALP ;
   skos:member lf:landform-pattern-FLO ;
   skos:prefLabel "Compare Meander plain with these patterns"@en ;
+  skos:related lf:landform-pattern-MEA ;
 .
 lf:landform-pattern-MEA-typical-elements
   a skos:Collection ;
@@ -2373,6 +2440,7 @@ lf:landform-pattern-MEA-typical-elements
   skos:member lf:landform-element-STB ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Typical elements of Meander plain"@en ;
+  skos:related lf:landform-pattern-MEA ;
 .
 lf:landform-pattern-MET
   a skos:Concept ;
@@ -2401,6 +2469,7 @@ lf:landform-pattern-MET-typical-elements
   skos:member lf:landform-element-SCA ;
   skos:member lf:landform-element-TAL ;
   skos:prefLabel "Typical elements of Meteor crater"@en ;
+  skos:related lf:landform-pattern-MET ;
 .
 lf:landform-pattern-MOU
   a skos:Concept ;
@@ -2439,6 +2508,7 @@ lf:landform-pattern-MOU-common-elements
   skos:member lf:landform-element-TAL ;
   skos:member lf:landform-element-VLF ;
   skos:prefLabel "Common elements of Mountains"@en ;
+  skos:related lf:landform-pattern-MOU ;
 .
 lf:landform-pattern-MOU-comparewith-patterns
   a skos:Collection ;
@@ -2449,6 +2519,7 @@ lf:landform-pattern-MOU-comparewith-patterns
   skos:member lf:landform-pattern-PLA ;
   skos:member lf:landform-pattern-RIS ;
   skos:prefLabel "Compare Mountains with these patterns"@en ;
+  skos:related lf:landform-pattern-MOU ;
 .
 lf:landform-pattern-MOU-occasional-elements
   a skos:Collection ;
@@ -2457,6 +2528,7 @@ lf:landform-pattern-MOU-occasional-elements
   skos:member lf:landform-element-CIR ;
   skos:member lf:landform-element-FOO ;
   skos:prefLabel "Occasional elements of Mountains"@en ;
+  skos:related lf:landform-pattern-MOU ;
 .
 lf:landform-pattern-MOU-typical-elements
   a skos:Collection ;
@@ -2466,6 +2538,7 @@ lf:landform-pattern-MOU-typical-elements
   skos:member lf:landform-element-HSL ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Typical elements of Mountains"@en ;
+  skos:related lf:landform-pattern-MOU ;
 .
 lf:landform-pattern-PAR
   a skos:Concept ;
@@ -2489,6 +2562,7 @@ lf:landform-pattern-PAR-comparewith-patterns
   rdfs:label "Compare Parabolic dunefields with these patterns"@en ;
   skos:member lf:landform-pattern-LON ;
   skos:prefLabel "Compare Parabolic dunefields with these patterns"@en ;
+  skos:related lf:landform-pattern-PAR ;
 .
 lf:landform-pattern-PAR-typical-elements
   a skos:Collection ;
@@ -2500,6 +2574,7 @@ lf:landform-pattern-PAR-typical-elements
   skos:member lf:landform-element-DUS ;
   skos:member lf:landform-element-SWL ;
   skos:prefLabel "Typical elements of Parabolic dunefields"@en ;
+  skos:related lf:landform-pattern-PAR ;
 .
 lf:landform-pattern-PED
   a skos:Concept ;
@@ -2528,6 +2603,7 @@ lf:landform-pattern-PED-comparewith-patterns
   skos:member lf:landform-pattern-ALF ;
   skos:member lf:landform-pattern-SHF ;
   skos:prefLabel "Compare Pediment with these patterns"@en ;
+  skos:related lf:landform-pattern-PED ;
 .
 lf:landform-pattern-PED-typical-elements
   a skos:Collection ;
@@ -2537,6 +2613,7 @@ lf:landform-pattern-PED-typical-elements
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Typical elements of Pediment"@en ;
+  skos:related lf:landform-pattern-PED ;
 .
 lf:landform-pattern-PEP
   a skos:Concept ;
@@ -2560,6 +2637,7 @@ lf:landform-pattern-PEP-typical-elements
   rdfs:label "Typical elements of Pediplain"@en ;
   skos:member lf:landform-element-PLA ;
   skos:prefLabel "Typical elements of Pediplain"@en ;
+  skos:related lf:landform-pattern-PEP ;
 .
 lf:landform-pattern-PLA
   a skos:Concept ;
@@ -2586,6 +2664,7 @@ lf:landform-pattern-PLA-comparewith-patterns
   skos:member lf:landform-pattern-MOU ;
   skos:member lf:landform-pattern-RIS ;
   skos:prefLabel "Compare Plain with these patterns"@en ;
+  skos:related lf:landform-pattern-PLA ;
 .
 lf:landform-pattern-PLT
   a skos:Concept ;
@@ -2620,6 +2699,7 @@ lf:landform-pattern-PLT-common-elements
   skos:member lf:landform-element-RFL ;
   skos:member lf:landform-element-SCA ;
   skos:prefLabel "Common elements of Plateau"@en ;
+  skos:related lf:landform-pattern-PLT ;
 .
 lf:landform-pattern-PLT-occasional-elements
   a skos:Collection ;
@@ -2627,6 +2707,7 @@ lf:landform-pattern-PLT-occasional-elements
   rdfs:label "Occasional elements of Plateau"@en ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Occasional elements of Plateau"@en ;
+  skos:related lf:landform-pattern-PLT ;
 .
 lf:landform-pattern-PLT-typical-elements
   a skos:Collection ;
@@ -2636,6 +2717,7 @@ lf:landform-pattern-PLT-typical-elements
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-SUS ;
   skos:prefLabel "Typical elements of Plateau"@en ;
+  skos:related lf:landform-pattern-PLT ;
 .
 lf:landform-pattern-PLY
   a skos:Concept ;
@@ -2661,6 +2743,7 @@ lf:landform-pattern-PLY-comparewith-patterns
   rdfs:label "Compare Playa plain with these patterns"@en ;
   skos:member lf:landform-pattern-LAC ;
   skos:prefLabel "Compare Playa plain with these patterns"@en ;
+  skos:related lf:landform-pattern-PLY ;
 .
 lf:landform-pattern-PLY-typical-elements
   a skos:Collection ;
@@ -2670,6 +2753,7 @@ lf:landform-pattern-PLY-typical-elements
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-PLY ;
   skos:prefLabel "Typical elements of Playa plain"@en ;
+  skos:related lf:landform-pattern-PLY ;
 .
 lf:landform-pattern-PNP
   a skos:Concept ;
@@ -2694,6 +2778,7 @@ lf:landform-pattern-PNP-typical-elements
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Typical elements of Peneplain"@en ;
+  skos:related lf:landform-pattern-PNP ;
 .
 lf:landform-pattern-RIS
   a skos:Concept ;
@@ -2729,6 +2814,7 @@ lf:landform-pattern-RIS-common-elements
   skos:member lf:landform-element-STC ;
   skos:member lf:landform-element-VLF ;
   skos:prefLabel "Common elements of Rises"@en ;
+  skos:related lf:landform-pattern-RIS ;
 .
 lf:landform-pattern-RIS-comparewith-patterns
   a skos:Collection ;
@@ -2738,6 +2824,7 @@ lf:landform-pattern-RIS-comparewith-patterns
   skos:member lf:landform-pattern-LOW ;
   skos:member lf:landform-pattern-PLA ;
   skos:prefLabel "Compare Rises with these patterns"@en ;
+  skos:related lf:landform-pattern-RIS ;
 .
 lf:landform-pattern-RIS-occasional-elements
   a skos:Collection ;
@@ -2747,6 +2834,7 @@ lf:landform-pattern-RIS-occasional-elements
   skos:member lf:landform-element-GUL ;
   skos:member lf:landform-element-TOR ;
   skos:prefLabel "Occasional elements of Rises"@en ;
+  skos:related lf:landform-pattern-RIS ;
 .
 lf:landform-pattern-RIS-typical-elements
   a skos:Collection ;
@@ -2758,6 +2846,7 @@ lf:landform-pattern-RIS-typical-elements
   skos:member lf:landform-element-HSL ;
   skos:member lf:landform-element-RES ;
   skos:prefLabel "Typical elements of Rises"@en ;
+  skos:related lf:landform-pattern-RIS ;
 .
 lf:landform-pattern-SAN
   a skos:Concept ;
@@ -2786,6 +2875,7 @@ lf:landform-pattern-SAN-occasional-elements
   skos:member lf:landform-element-LUN ;
   skos:member lf:landform-element-PLY ;
   skos:prefLabel "Occasional elements of Sand plain"@en ;
+  skos:related lf:landform-pattern-SAN ;
 .
 lf:landform-pattern-SAN-typical-elements
   a skos:Collection ;
@@ -2793,6 +2883,7 @@ lf:landform-pattern-SAN-typical-elements
   rdfs:label "Typical elements of Sand plain"@en ;
   skos:member lf:landform-element-PLA ;
   skos:prefLabel "Typical elements of Sand plain"@en ;
+  skos:related lf:landform-pattern-SAN ;
 .
 lf:landform-pattern-SHF
   a skos:Concept ;
@@ -2820,6 +2911,7 @@ lf:landform-pattern-SHF-comparewith-patterns
   skos:member lf:landform-pattern-ALF ;
   skos:member lf:landform-pattern-PED ;
   skos:prefLabel "Compare Sheet-flood fan with these patterns"@en ;
+  skos:related lf:landform-pattern-SHF ;
 .
 lf:landform-pattern-SHF-typical-elements
   a skos:Collection ;
@@ -2828,6 +2920,7 @@ lf:landform-pattern-SHF-typical-elements
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Typical elements of Sheet-flood fan"@en ;
+  skos:related lf:landform-pattern-SHF ;
 .
 lf:landform-pattern-STA
   a skos:Concept ;
@@ -2861,6 +2954,7 @@ lf:landform-pattern-STA-common-elements
   skos:member lf:landform-element-SCR ;
   skos:member lf:landform-element-SWP ;
   skos:prefLabel "Common elements of Stagnant alluvial plain"@en ;
+  skos:related lf:landform-pattern-STA ;
 .
 lf:landform-pattern-STA-comparewith-patterns
   a skos:Collection ;
@@ -2869,6 +2963,7 @@ lf:landform-pattern-STA-comparewith-patterns
   skos:member lf:landform-pattern-FLO ;
   skos:member lf:landform-pattern-TER ;
   skos:prefLabel "Compare Stagnant alluvial plain with these patterns"@en ;
+  skos:related lf:landform-pattern-STA ;
 .
 lf:landform-pattern-STA-occasional-elements
   a skos:Collection ;
@@ -2878,6 +2973,7 @@ lf:landform-pattern-STA-occasional-elements
   skos:member lf:landform-element-LAK ;
   skos:member lf:landform-element-OXB ;
   skos:prefLabel "Occasional elements of Stagnant alluvial plain"@en ;
+  skos:related lf:landform-pattern-STA ;
 .
 lf:landform-pattern-STA-typical-elements
   a skos:Collection ;
@@ -2888,6 +2984,7 @@ lf:landform-pattern-STA-typical-elements
   skos:member lf:landform-element-STB ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Typical elements of Stagnant alluvial plain"@en ;
+  skos:related lf:landform-pattern-STA ;
 .
 lf:landform-pattern-TEL
   a skos:Concept ;
@@ -2912,6 +3009,7 @@ lf:landform-pattern-TEL-occasional-elements
   skos:member lf:landform-element-LEV ;
   skos:member lf:landform-element-SCR ;
   skos:prefLabel "Occasional elements of Terraced land"@en ;
+  skos:related lf:landform-pattern-TEL ;
 .
 lf:landform-pattern-TEL-typical-elements
   a skos:Collection ;
@@ -2923,6 +3021,7 @@ lf:landform-pattern-TEL-typical-elements
   skos:member lf:landform-element-TEF ;
   skos:member lf:landform-element-TEP ;
   skos:prefLabel "Typical elements of Terraced land"@en ;
+  skos:related lf:landform-pattern-TEL ;
 .
 lf:landform-pattern-TER
   a skos:Concept ;
@@ -2948,6 +3047,7 @@ lf:landform-pattern-TER-occasional-elements
   skos:member lf:landform-element-SCR ;
   skos:member lf:landform-element-STC ;
   skos:prefLabel "Occasional elements of Terrace"@en ;
+  skos:related lf:landform-pattern-TER ;
 .
 lf:landform-pattern-TER-typical-elements
   a skos:Collection ;
@@ -2958,6 +3058,7 @@ lf:landform-pattern-TER-typical-elements
   skos:member lf:landform-element-SCA ;
   skos:member lf:landform-element-TER ;
   skos:prefLabel "Typical elements of Terrace"@en ;
+  skos:related lf:landform-pattern-TER ;
 .
 lf:landform-pattern-TID
   a skos:Concept ;
@@ -2985,6 +3086,7 @@ lf:landform-pattern-TID-occasional-elements
   skos:member lf:landform-element-DUN ;
   skos:member lf:landform-element-LAG ;
   skos:prefLabel "Occasional elements of Tidal flat"@en ;
+  skos:related lf:landform-pattern-TID ;
 .
 lf:landform-pattern-TID-typical-elements
   a skos:Collection ;
@@ -2995,6 +3097,7 @@ lf:landform-pattern-TID-typical-elements
   skos:member lf:landform-element-STC ;
   skos:member lf:landform-element-STF ;
   skos:prefLabel "Typical elements of Tidal flat"@en ;
+  skos:related lf:landform-pattern-TID ;
 .
 lf:landform-pattern-VOL
   a skos:Concept ;
@@ -3027,6 +3130,7 @@ lf:landform-pattern-VOL-common-elements
   skos:member lf:landform-element-SCA ;
   skos:member lf:landform-element-STB ;
   skos:prefLabel "Occasional elements of Volcano"@en ;
+  skos:related lf:landform-pattern-VOL ;
 .
 lf:landform-pattern-VOL-occasional-elements
   a skos:Collection ;
@@ -3034,6 +3138,7 @@ lf:landform-pattern-VOL-occasional-elements
   rdfs:label "Typical elements of Volcano"@en ;
   skos:member lf:landform-element-TUM ;
   skos:prefLabel "Typical elements of Volcano"@en ;
+  skos:related lf:landform-pattern-VOL ;
 .
 lf:landform-pattern-VOL-typical-elements
   a skos:Collection ;
@@ -3042,6 +3147,7 @@ lf:landform-pattern-VOL-typical-elements
   skos:member lf:landform-element-CON ;
   skos:member lf:landform-element-CRA ;
   skos:prefLabel "Typical elements of Volcano"@en ;
+  skos:related lf:landform-pattern-VOL ;
 .
 lf:landform-pattern-components
   a skos:Collection ;
