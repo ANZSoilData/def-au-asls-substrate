@@ -54,10 +54,12 @@ WHERE {
 .
 sp:boundaries-between-horizons
   a skos:Collection ;
+  dct:description "Description of the boundary conditions between horizons"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/boundaries-between-horizons"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
   rdfs:label "Boundaries between horizons"@en ;
   owl:sameAs sp:boundaries-between-horizons ;
+  skos:definition "Description of the boundary conditions between horizons"@en ;
   skos:member sp:horizon-boundary-distinctness ;
   skos:member sp:horizon-boundary-shape ;
 .
@@ -1787,10 +1789,13 @@ Dry colours may also be recorded."""@en ;
 .
 sp:colour-stat
   a skos:Collection ;
+  dct:description "Moisture status for colour description"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/colour-stat" ;
   ui:isMemberOf sp:colour ;
   rdfs:comment "C_MOISTURE_STAT; Moisture status for colour description"@en ;
   rdfs:label "Moisture status for colour description"@en ;
   owl:sameAs sp:colour-stat ;
+  skos:definition "Moisture status for colour description {@en}" ;
   skos:member sp:colour-stat-D ;
   skos:member sp:colour-stat-M ;
 .
@@ -5309,11 +5314,13 @@ sp:horizon-P2
 sp:horizon-boundary-distinctness
   a skos:Collection ;
   a sosa:ObservableProperty ;
+  dct:description "Distinctness of the boundaries between horizons"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizon-boundary-distinctness"^^xsd:anyURI ;
   ui:isMemberOf sp:boundaries-between-horizons ;
   rdfs:comment "N_H_BOUND_DISTINCT" ;
   rdfs:label "Boundary distinctness"@en ;
   owl:sameAs sp:horizon-boundary-distinctness ;
+  skos:definition "Distinctness of the boundaries between horizons {@en}" ;
   skos:member sp:horizon-boundary-distinctness-A ;
   skos:member sp:horizon-boundary-distinctness-C ;
   skos:member sp:horizon-boundary-distinctness-D ;
@@ -5379,11 +5386,13 @@ sp:horizon-boundary-distinctness-S
 sp:horizon-boundary-shape
   a skos:Collection ;
   a sosa:ObservableProperty ;
+  dct:description "Shape of boundary between horizons"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizon-boundary-shape"^^xsd:anyURI ;
   ui:isMemberOf sp:boundaries-between-horizons ;
   rdfs:comment "H_BOUND_SHAPE" ;
   rdfs:label "Boundary shape"@en ;
   owl:sameAs sp:horizon-boundary-shape ;
+  skos:definition "Shape of boundary between horizons {@en}" ;
   skos:member sp:horizon-boundary-shape-B ;
   skos:member sp:horizon-boundary-shape-I ;
   skos:member sp:horizon-boundary-shape-S ;
@@ -6297,6 +6306,7 @@ sp:observable-properties
   ui:topMemberOf sp: ;
   rdfs:label "Observable properties of soil profiles"@en ;
   owl:sameAs sp:observable-properties ;
+  skos:definition "A set of soil-profile observable properties {@en}" ;
   skos:member sp:coarse-fragments-abundance ;
   skos:member sp:coarse-fragments-distribution ;
   skos:member sp:coarse-fragments-lithology ;
@@ -8717,6 +8727,7 @@ sp:voids-micropores
   a skos:Concept ;
   a sosa:ObservableProperty ;
   dct:description "voids that are approximately circular in cross-section and less than 0.075 mm diameter"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-micropores" ;
   ui:isMemberOf sp:voids ;
   rdfs:label "Micropores (presence)"@en ;
   owl:sameAs sp:voids-micropores ;
