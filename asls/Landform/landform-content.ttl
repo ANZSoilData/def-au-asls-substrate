@@ -1093,14 +1093,15 @@
 <landform-element-descriptions>
   a skos:Collection ;
   skos-ext:topMemberOf asls:landform ;
-  dcterms:description """A landform element may be described by the following attributes, assessed withiin a circle of about 20 m radius:
-  slope
-  morphological type
-  dimensions
-  mode of geomorphological activity
-  geomorphological agent
-
-These will establish most of the distinctions between landform elements that are implied by their geomorphological names. The glossary of types of landform elements occurring in Australia refers explicitly to this set of attributes. A landform element that has been described mayb thus be assigne a type name."""@en ;
+  dcterms:description """<p>A landform element may be described by the following attributes, assessed withiin a circle of about 20 m radius:</p>
+<ul>
+<li>slope</li>
+<li>morphological type</li>
+<li>dimensions</li>
+<li>mode of geomorphological activity</li>
+<li>geomorphological agent</li>
+</ul>
+<p>These will establish most of the distinctions between landform elements that are implied by their geomorphological names. The glossary of types of landform elements occurring in Australia refers explicitly to this set of attributes. A landform element that has been described mayb thus be assigne a type name.</p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-descriptions"^^xsd:anyURI ;
   rdfs:label "Description of landform element"@en ;
   skos:definition "A landform element may be described by the following attributes, assessed withiin a circle of about 20 m radius:"@en ;
@@ -1222,19 +1223,19 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
   skos-ext:relatedCollection <landform-pattern-ALF-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-ALF-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-ALF-typical-elements> ;
-  dcterms:description """level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps. 
-Typical elements: stream bed, bar, plain.
-Common element: scarp.
-Compare with sheet-flood fan and pediment."""@en ;
+  dcterms:description """<p>level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps. </p>
+<p>Typical elements: stream bed, bar, plain.</p>
+<p>Common element: scarp.</p>
+<p>Compare with sheet-flood fan and pediment. </p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALF"^^xsd:anyURI ;
   dcterms:references <relief-class-P> ;
   dcterms:references <slope-class-LE> ;
   dcterms:references <slope-class-VG> ;
   rdfs:label "Alluvial fan"@en ;
-  skos:definition """level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps. 
-Typical elements: stream bed, bar, plain.
-Common element: scarp.
-Compare with sheet-flood fan and pediment."""@en ;
+  skos:definition """<p>level (less than 1% slope) to very gently inclined, complex landform pattern of extremely low relief. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains, being aggraded or eroded by frequently active channelled stream flow, and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the upslope area may give rise to an erosional stream bed between scarps. </p>
+<p>Typical elements: stream bed, bar, plain.</p>
+<p>Common element: scarp.</p>
+<p>Compare with sheet-flood fan and pediment. </p>"""^^rdf:HTML ;
   skos:notation "ALF" ;
   skos:prefLabel "Alluvial fan"@en ;
   skos:related <relief-class-P> ;
@@ -1247,6 +1248,7 @@ Compare with sheet-flood fan and pediment."""@en ;
   rdfs:label "Common elements of an Alluvial fan"@en ;
   skos:member <landform-element-SCA> ;
   skos:prefLabel "Common elements of an Alluvial fan"@en ;
+  skos:related <landform-pattern-ALF> ;
 .
 <landform-pattern-ALF-comparewith-patterns>
   a skos:Collection ;
@@ -1255,6 +1257,7 @@ Compare with sheet-flood fan and pediment."""@en ;
   skos:member <landform-pattern-PED> ;
   skos:member <landform-pattern-SHF> ;
   skos:prefLabel "Compare Alluvial fans with these patterns"@en ;
+  skos:related <landform-pattern-ALF> ;
 .
 <landform-pattern-ALF-typical-elements>
   a skos:Collection ;
@@ -1264,6 +1267,7 @@ Compare with sheet-flood fan and pediment."""@en ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STB> ;
   skos:prefLabel "Typical elements of an Alluvial fan"@en ;
+  skos:related <landform-pattern-ALF> ;
 .
 <landform-pattern-ALP>
   a skos:Concept ;
@@ -1272,18 +1276,18 @@ Compare with sheet-flood fan and pediment."""@en ;
   skos-ext:relatedCollection <landform-pattern-ALP-included-patterns> ;
   skos-ext:relatedCollection <landform-pattern-ALP-occasional-elements> ;
   skos-ext:relatedCollection <landform-pattern-ALP-typical-elements> ;
-  dcterms:description """level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses. 
-Typical elements: stream channel (stream bed and bank), plain (dominant).
-Common elements: bar, scroll, levee, backplain, swamp.
-Occasional elements: ox-bow, flood-out, lake.
-Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land."""@en ;
+  dcterms:description """<p>level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses. </p>
+<p>Typical elements: stream channel (stream bed and bank), plain (dominant).</p>
+<p>Common elements: bar, scroll, levee, backplain, swamp.</p>
+<p>Occasional elements: ox-bow, flood-out, lake.</p>
+<p>Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land. </p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ALP"^^xsd:anyURI ;
   rdfs:label "Alluvial plain"@en ;
-  skos:definition """level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses. 
-Typical elements: stream channel (stream bed and bank), plain (dominant).
-Common elements: bar, scroll, levee, backplain, swamp.
-Occasional elements: ox-bow, flood-out, lake.
-Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land."""@en ;
+  skos:definition """<p>level landform pattern with extremely low relief. The shallow to deep alluvial stream channels are sparse to widely spaced, forming a unidirectional, integrated network. There may be frequently active erosion and aggradation by channelled and overbank stream flow, or the landforms may be relict from these proceses. </p>
+<p>Typical elements: stream channel (stream bed and bank), plain (dominant).</p>
+<p>Common elements: bar, scroll, levee, backplain, swamp.</p>
+<p>Occasional elements: ox-bow, flood-out, lake.</p>
+<p>Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land. </p>""" ;
   skos:notation "ALP" ;
   skos:prefLabel "Alluvial plain"@en ;
   skos:related <relief-class-P> ;
@@ -1299,6 +1303,7 @@ Included types of landform pattern are: flood plain, bar plain, meander plain, c
   skos:member <landform-element-SCR> ;
   skos:member <landform-element-SWP> ;
   skos:prefLabel "Common elements of an Alluvial plain"@en ;
+  skos:related <landform-pattern-ALP> ;
 .
 <landform-pattern-ALP-included-patterns>
   a skos:Collection ;
@@ -1314,6 +1319,7 @@ Included types of landform pattern are: flood plain, bar plain, meander plain, c
   skos:member <landform-pattern-TEL> ;
   skos:member <landform-pattern-TER> ;
   skos:prefLabel "Included types of landform pattern for Alluvial plain"@en ;
+  skos:related <landform-pattern-ALP> ;
 .
 <landform-pattern-ALP-occasional-elements>
   a skos:Collection ;
@@ -1323,6 +1329,7 @@ Included types of landform pattern are: flood plain, bar plain, meander plain, c
   skos:member <landform-element-LAK> ;
   skos:member <landform-element-OXB> ;
   skos:prefLabel "Occasional elements of an Alluvial plain"@en ;
+  skos:related <landform-pattern-ALP> ;
 .
 <landform-pattern-ALP-typical-elements>
   a skos:Collection ;
@@ -1333,6 +1340,7 @@ Included types of landform pattern are: flood plain, bar plain, meander plain, c
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
   skos:prefLabel "Typical elements of an Alluvial plain"@en ;
+  skos:related <landform-pattern-ALP> ;
 .
 <landform-pattern-ANA>
   a skos:Concept ;
@@ -1340,16 +1348,16 @@ Included types of landform pattern are: flood plain, bar plain, meander plain, c
   skos-ext:relatedCollection <landform-pattern-ANA-common-elements> ;
   skos-ext:relatedCollection <landform-pattern-ANA-comparewith-patterns> ;
   skos-ext:relatedCollection <landform-pattern-ANA-typical-elements> ;
-  dcterms:description """flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow. 
-Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).
-Common element: swamp.
-Compare with other types under alluvial plain and flood plain."""@en ;
+  dcterms:description """<p>flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow. </p>
+<p>Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).</p>
+<p>Common element: swamp.</p>
+<p>Compare with other types under alluvial plain and flood plain. </p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-ANA"^^xsd:anyURI ;
   rdfs:label "Anastomotic plain"@en ;
-  skos:definition """flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow. 
-Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).
-Common element: swamp.
-Compare with other types under alluvial plain and flood plain."""@en ;
+  skos:definition """<p>flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional, integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow. </p>
+<p>Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).</p>
+<p>Common element: swamp.</p>
+<p>Compare with other types under alluvial plain and flood plain. </p>"""^^rdf:HTML ;
   skos:notation "ANA" ;
   skos:prefLabel "Anastomotic plain"@en ;
   skos:related <relief-class-P> ;
@@ -1361,6 +1369,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   rdfs:label "Common elements of an Anastomotic plain"@en ;
   skos:member <landform-element-SWP> ;
   skos:prefLabel "Common elements of an Anastomotic plain"@en ;
+  skos:related <landform-pattern-ANA> ;
 .
 <landform-pattern-ANA-comparewith-patterns>
   a skos:Collection ;
@@ -1369,6 +1378,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:member <landform-pattern-ALP> ;
   skos:member <landform-pattern-FLO> ;
   skos:prefLabel "Compare Anastomotic plain with these patterns"@en ;
+  skos:related <landform-pattern-ANA> ;
 .
 <landform-pattern-ANA-typical-elements>
   a skos:Collection ;
@@ -1380,6 +1390,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
   skos:prefLabel "Typical elements of an Anastomotic plain"@en ;
+  skos:related <landform-pattern-ANA> ;
 .
 <landform-pattern-BAD>
   a skos:Concept ;
@@ -1415,6 +1426,7 @@ Compare with mountains, hills, low hills, rises and plain."""@en ;
   skos:member <landform-pattern-PLA> ;
   skos:member <landform-pattern-RIS> ;
   skos:prefLabel "Compare Badlands with these patterns"@en ;
+  skos:related <landform-pattern-BAD> ;
 .
 <landform-pattern-BAD-occasional-elements>
   a skos:Collection ;
@@ -1425,6 +1437,7 @@ Compare with mountains, hills, low hills, rises and plain."""@en ;
   skos:member <landform-element-SUS> ;
   skos:member <landform-element-TAL> ;
   skos:prefLabel "Occasional elements of Badlands"@en ;
+  skos:related <landform-pattern-BAD> ;
 .
 <landform-pattern-BAD-typical-elements>
   a skos:Collection ;
@@ -1434,6 +1447,7 @@ Compare with mountains, hills, low hills, rises and plain."""@en ;
   skos:member <landform-element-STB> ;
   skos:member <morphological-type-R> ;
   skos:prefLabel "Typical elements of Badlands"@en ;
+  skos:related <landform-pattern-BAD> ;
 .
 <landform-pattern-BAR>
   a skos:Concept ;
@@ -1458,6 +1472,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:member <landform-pattern-ALP> ;
   skos:member <landform-pattern-FLO> ;
   skos:prefLabel "Compare Bar plain with these patterns"@en ;
+  skos:related <landform-pattern-BAR> ;
 .
 <landform-pattern-BAR-typical-elements>
   a skos:Collection ;
@@ -1466,6 +1481,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:member <landform-element-BAR> ;
   skos:member <landform-element-STB> ;
   skos:prefLabel "Typical elements of Bar plain"@en ;
+  skos:related <landform-pattern-BAR> ;
 .
 <landform-pattern-BEA>
   a skos:Concept ;
@@ -1497,6 +1513,7 @@ Compare with chenier plain."""@en ;
   skos:member <landform-element-FOR> ;
   skos:member <landform-element-TDC> ;
   skos:prefLabel "Common elements of Beach ridge plain"@en ;
+  skos:related <landform-pattern-BEA> ;
 .
 <landform-pattern-BEA-comparewith-patterns>
   a skos:Collection ;
@@ -1504,6 +1521,7 @@ Compare with chenier plain."""@en ;
   rdfs:label "Compare Beach ridge plain with these patterns"@en ;
   skos:member <landform-pattern-CHE> ;
   skos:prefLabel "Compare Beach ridge plain with these patterns"@en ;
+  skos:related <landform-pattern-BEA> ;
 .
 <landform-pattern-BEA-typical-elements>
   a skos:Collection ;
@@ -1512,6 +1530,7 @@ Compare with chenier plain."""@en ;
   skos:member <landform-element-BRI> ;
   skos:member <landform-element-SWL> ;
   skos:prefLabel "Typical elements of Beach ridge plain"@en ;
+  skos:related <landform-pattern-BEA> ;
 .
 <landform-pattern-CAL>
   a skos:Concept ;
@@ -1543,6 +1562,7 @@ Occasional elements: cone, hillcrest, stream channel."""@en ;
   skos:member <landform-element-HCR> ;
   skos:member <landform-element-STC> ;
   skos:prefLabel "Occasional elements of Caldera"@en ;
+  skos:related <landform-pattern-CAL> ;
 .
 <landform-pattern-CAL-typical-elements>
   a skos:Collection ;
@@ -1552,6 +1572,7 @@ Occasional elements: cone, hillcrest, stream channel."""@en ;
   skos:member <landform-element-LAK> ;
   skos:member <landform-element-SCA> ;
   skos:prefLabel "Typical elements of Caldera"@en ;
+  skos:related <landform-pattern-CAL> ;
 .
 <landform-pattern-CHE>
   a skos:Concept ;
@@ -1585,6 +1606,7 @@ Compare with beach ridge plain."""@en ;
   skos:member <landform-element-SWP> ;
   skos:member <landform-element-TDC> ;
   skos:prefLabel "Common elements of Chenier plain"@en ;
+  skos:related <landform-pattern-CHE> ;
 .
 <landform-pattern-CHE-comparewith-patterns>
   a skos:Collection ;
@@ -1592,6 +1614,7 @@ Compare with beach ridge plain."""@en ;
   rdfs:label "Compare Chenier plain with these patterns"@en ;
   skos:member <landform-pattern-BEA> ;
   skos:prefLabel "Compare Chenier plain with these patterns"@en ;
+  skos:related <landform-pattern-CHE> ;
 .
 <landform-pattern-CHE-typical-elements>
   a skos:Collection ;
@@ -1601,6 +1624,7 @@ Compare with beach ridge plain."""@en ;
   skos:member <landform-element-TDF> ;
   skos:member <morphological-type-F> ;
   skos:prefLabel "Typical elements of Chenier plain"@en ;
+  skos:related <landform-pattern-CHE> ;
 .
 <landform-pattern-COR>
   a skos:Concept ;
@@ -1630,6 +1654,7 @@ Common elements: beach, beach ridge."""@en ;
   skos:member <landform-element-BEA> ;
   skos:member <landform-element-BRI> ;
   skos:prefLabel "Common elements of Coral reef"@en ;
+  skos:related <landform-pattern-COR> ;
 .
 <landform-pattern-COR-typical-elements>
   a skos:Collection ;
@@ -1639,6 +1664,7 @@ Common elements: beach, beach ridge."""@en ;
   skos:member <landform-element-LAG> ;
   skos:member <landform-element-REF> ;
   skos:prefLabel "Typical elements of Coral reef"@en ;
+  skos:related <landform-pattern-COR> ;
 .
 <landform-pattern-COV>
   a skos:Concept ;
@@ -1665,6 +1691,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   rdfs:label "Common elements of Covered plain"@en ;
   skos:member <landform-element-SWP> ;
   skos:prefLabel "Common elements of Covered plain"@en ;
+  skos:related <landform-pattern-COV> ;
 .
 <landform-pattern-COV-comparewith-patterns>
   a skos:Collection ;
@@ -1673,6 +1700,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:member <landform-pattern-ALP> ;
   skos:member <landform-pattern-FLO> ;
   skos:prefLabel "Compare Covered plain with these patterns"@en ;
+  skos:related <landform-pattern-COV> ;
 .
 <landform-pattern-COV-typical-elements>
   a skos:Collection ;
@@ -1684,6 +1712,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
   skos:prefLabel "Typical elements of Covered plain"@en ;
+  skos:related <landform-pattern-COV> ;
 .
 <landform-pattern-DEL>
   a skos:Concept ;
@@ -1714,6 +1743,7 @@ Compare with other types under alluvial plain, flood plain and chenier plain."""
   skos:member <landform-element-SWL> ;
   skos:member <landform-element-TDC> ;
   skos:prefLabel "Common elements of Delta"@en ;
+  skos:related <landform-pattern-DEL> ;
 .
 <landform-pattern-DEL-comparewith-patterns>
   a skos:Collection ;
@@ -1723,6 +1753,7 @@ Compare with other types under alluvial plain, flood plain and chenier plain."""
   skos:member <landform-pattern-CHE> ;
   skos:member <landform-pattern-FLO> ;
   skos:prefLabel "Compare Delta with these patterns"@en ;
+  skos:related <landform-pattern-DEL> ;
 .
 <landform-pattern-DEL-typical-elements>
   a skos:Collection ;
@@ -1736,6 +1767,7 @@ Compare with other types under alluvial plain, flood plain and chenier plain."""
   skos:member <landform-element-STC> ;
   skos:member <landform-element-SWP> ;
   skos:prefLabel "Typical elements of Delta"@en ;
+  skos:related <landform-pattern-DEL> ;
 .
 <landform-pattern-DUN>
   a skos:Concept ;
@@ -1771,6 +1803,7 @@ Included types of landform pattern are: longitudinal dunefield, parabolic dunefi
   skos:member <landform-element-DUH> ;
   skos:member <landform-element-DUP> ;
   skos:prefLabel "Common elements of Dunefield"@en ;
+  skos:related <landform-pattern-DUN> ;
 .
 <landform-pattern-DUN-included-patterns>
   a skos:Collection ;
@@ -1779,6 +1812,7 @@ Included types of landform pattern are: longitudinal dunefield, parabolic dunefi
   skos:member <landform-pattern-LON> ;
   skos:member <landform-pattern-PAR> ;
   skos:prefLabel "Included patterns of Dunefield"@en ;
+  skos:related <landform-pattern-DUN> ;
 .
 <landform-pattern-DUN-typical-elements>
   a skos:Collection ;
@@ -1793,6 +1827,7 @@ Included types of landform pattern are: longitudinal dunefield, parabolic dunefi
   skos:member <landform-element-RES> ;
   skos:member <landform-element-SWL> ;
   skos:prefLabel "Typical elements of Dunefield"@en ;
+  skos:related <landform-pattern-DUN> ;
 .
 <landform-pattern-ESC>
   a skos:Concept ;
@@ -1829,6 +1864,7 @@ Occasional element: stream bed."""@en ;
   skos:member <landform-element-SFS> ;
   skos:member <landform-element-TAL> ;
   skos:prefLabel "Common elements of Escarpment"@en ;
+  skos:related <landform-pattern-ESC> ;
 .
 <landform-pattern-ESC-occasional-elements>
   a skos:Collection ;
@@ -1836,6 +1872,7 @@ Occasional element: stream bed."""@en ;
   rdfs:label "Occasional elements of Escarpment"@en ;
   skos:member <landform-element-STB> ;
   skos:prefLabel "Occasional elements of Escarpment"@en ;
+  skos:related <landform-pattern-ESC> ;
 .
 <landform-pattern-ESC-typical-elements>
   a skos:Collection ;
@@ -1845,6 +1882,7 @@ Occasional element: stream bed."""@en ;
   skos:member <landform-element-HCR> ;
   skos:member <landform-element-HSL> ;
   skos:prefLabel "Typical elements of Escarpment"@en ;
+  skos:related <landform-pattern-ESC> ;
 .
 <landform-pattern-FLO>
   a skos:Concept ;
@@ -1881,6 +1919,7 @@ Related relict landform patterns are: stagnant alluvial plain, terrace, terraced
   skos:member <landform-element-SCR> ;
   skos:member <landform-element-SWP> ;
   skos:prefLabel "Common elements of Flood plain"@en ;
+  skos:related <landform-pattern-FLO> ;
 .
 <landform-pattern-FLO-included-patterns>
   a skos:Collection ;
@@ -1891,6 +1930,7 @@ Related relict landform patterns are: stagnant alluvial plain, terrace, terraced
   skos:member <landform-pattern-COV> ;
   skos:member <landform-pattern-MEA> ;
   skos:prefLabel "Included patterns of Flood plain"@en ;
+  skos:related <landform-pattern-FLO> ;
 .
 <landform-pattern-FLO-occasional-elements>
   a skos:Collection ;
@@ -1899,6 +1939,7 @@ Related relict landform patterns are: stagnant alluvial plain, terrace, terraced
   skos:member <landform-element-FLD> ;
   skos:member <landform-element-OXB> ;
   skos:prefLabel "Occasional elements of Flood plain"@en ;
+  skos:related <landform-pattern-FLO> ;
 .
 <landform-pattern-FLO-related-patterns>
   a skos:Collection ;
@@ -1908,6 +1949,7 @@ Related relict landform patterns are: stagnant alluvial plain, terrace, terraced
   skos:member <landform-pattern-TEL> ;
   skos:member <landform-pattern-TER> ;
   skos:prefLabel "Related relic patterns of Flood plain"@en ;
+  skos:related <landform-pattern-FLO> ;
 .
 <landform-pattern-FLO-typical-elements>
   a skos:Collection ;
@@ -1918,6 +1960,7 @@ Related relict landform patterns are: stagnant alluvial plain, terrace, terraced
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
   skos:prefLabel "Typical elements of Flood plain"@en ;
+  skos:related <landform-pattern-FLO> ;
 .
 <landform-pattern-HIL>
   a skos:Concept ;
@@ -1956,6 +1999,7 @@ Compare with mountains, low hills, rises and plain."""@en ;
   skos:member <landform-element-GUL> ;
   skos:member <landform-element-VLF> ;
   skos:prefLabel "Common elements of Hills"@en ;
+  skos:related <landform-pattern-HIL> ;
 .
 <landform-pattern-HIL-comparewith-patterns>
   a skos:Collection ;
@@ -1965,6 +2009,7 @@ Compare with mountains, low hills, rises and plain."""@en ;
   skos:member <landform-pattern-PLA> ;
   skos:member <landform-pattern-RIS> ;
   skos:prefLabel "Compare Hills with these patterns"@en ;
+  skos:related <landform-pattern-HIL> ;
 .
 <landform-pattern-HIL-occasional-elements>
   a skos:Collection ;
@@ -1979,6 +2024,7 @@ Compare with mountains, low hills, rises and plain."""@en ;
   skos:member <landform-element-TER> ;
   skos:member <landform-element-TOR> ;
   skos:prefLabel "Occasional elements of Hills"@en ;
+  skos:related <landform-pattern-HIL> ;
 .
 <landform-pattern-HIL-typical-elements>
   a skos:Collection ;
@@ -1989,6 +2035,7 @@ Compare with mountains, low hills, rises and plain."""@en ;
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-STB> ;
   skos:prefLabel "Typical elements of Hills"@en ;
+  skos:related <landform-pattern-HIL> ;
 .
 <landform-pattern-KAR>
   a skos:Concept ;
@@ -2023,6 +2070,7 @@ Occasional element: talus."""@en ;
   skos:member <landform-element-SUS> ;
   skos:member <landform-element-VLF> ;
   skos:prefLabel "Common elements of Karst"@en ;
+  skos:related <landform-pattern-KAR> ;
 .
 <landform-pattern-KAR-occasional-elements>
   a skos:Collection ;
@@ -2030,6 +2078,7 @@ Occasional element: talus."""@en ;
   rdfs:label "Occasional elements of Karst"@en ;
   skos:member <landform-element-TAL> ;
   skos:prefLabel "Occasional elements of Karst"@en ;
+  skos:related <landform-pattern-KAR> ;
 .
 <landform-pattern-KAR-typical-elements>
   a skos:Collection ;
@@ -2039,6 +2088,7 @@ Occasional element: talus."""@en ;
   skos:member <landform-element-HCR> ;
   skos:member <landform-element-HSL> ;
   skos:prefLabel "Typical elements of Karst"@en ;
+  skos:related <landform-pattern-KAR> ;
 .
 <landform-pattern-LAC>
   a skos:Concept ;
@@ -2071,6 +2121,7 @@ Compare with playa plain."""@en ;
   skos:member <landform-element-BEA> ;
   skos:member <landform-element-CLI> ;
   skos:prefLabel "Common elements of Lacustrine plain"@en ;
+  skos:related <landform-pattern-LAC> ;
 .
 <landform-pattern-LAC-comparewith-patterns>
   a skos:Collection ;
@@ -2078,6 +2129,7 @@ Compare with playa plain."""@en ;
   rdfs:label "Compare Lacustrine plain with these patterns"@en ;
   skos:member <landform-pattern-PLY> ;
   skos:prefLabel "Compare Lacustrine plain with these patterns"@en ;
+  skos:related <landform-pattern-LAC> ;
 .
 <landform-pattern-LAC-occasional-elements>
   a skos:Collection ;
@@ -2086,6 +2138,7 @@ Compare with playa plain."""@en ;
   skos:member <landform-element-BER> ;
   skos:member <landform-element-RPL> ;
   skos:prefLabel "Occasional elements of Lacustrine plain"@en ;
+  skos:related <landform-pattern-LAC> ;
 .
 <landform-pattern-LAC-typical-elements>
   a skos:Collection ;
@@ -2093,6 +2146,7 @@ Compare with playa plain."""@en ;
   rdfs:label "Typical elements of Lacustrine plain"@en ;
   skos:member <landform-element-PLA> ;
   skos:prefLabel "Typical elements of Lacustrine plain"@en ;
+  skos:related <landform-pattern-LAC> ;
 .
 <landform-pattern-LAV>
   a skos:Concept ;
@@ -2122,6 +2176,7 @@ Occasional element: tumulus."""@en ;
   rdfs:label "Common elements of Lava plain"@en ;
   skos:member <landform-element-TUM> ;
   skos:prefLabel "Common elements of Lava plain"@en ;
+  skos:related <landform-pattern-LAV> ;
 .
 <landform-pattern-LAV-typical-elements>
   a skos:Collection ;
@@ -2131,6 +2186,7 @@ Occasional element: tumulus."""@en ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STB> ;
   skos:prefLabel "Typical elements of Lava plain"@en ;
+  skos:related <landform-pattern-LAV> ;
 .
 <landform-pattern-LON>
   a skos:Concept ;
@@ -2154,6 +2210,7 @@ Compare with parabolic dunefield."""@en ;
   rdfs:label "Compare Longitudinal dunefield with these patterns"@en ;
   skos:member <landform-pattern-PAR> ;
   skos:prefLabel "Compare Longitudinal dunefield with these patterns"@en ;
+  skos:related <landform-pattern-LON> ;
 .
 <landform-pattern-LON-typical-elements>
   a skos:Collection ;
@@ -2165,6 +2222,7 @@ Compare with parabolic dunefield."""@en ;
   skos:member <landform-element-DUS> ;
   skos:member <landform-element-SWL> ;
   skos:prefLabel "Typical elements of Longitudinal dunefield"@en ;
+  skos:related <landform-pattern-LON> ;
 .
 <landform-pattern-LOW>
   a skos:Concept ;
@@ -2202,6 +2260,7 @@ Compare with mountains, hills, rises and plain."""@en ;
   skos:member <landform-element-GUL> ;
   skos:member <landform-element-VLF> ;
   skos:prefLabel "Common elements of Low hills"@en ;
+  skos:related <landform-pattern-LOW> ;
 .
 <landform-pattern-LOW-comparewith-patterns>
   a skos:Collection ;
@@ -2211,6 +2270,7 @@ Compare with mountains, hills, rises and plain."""@en ;
   skos:member <landform-pattern-PLA> ;
   skos:member <landform-pattern-RIS> ;
   skos:prefLabel "Compare Low hills with these patterns"@en ;
+  skos:related <landform-pattern-LOW> ;
 .
 <landform-pattern-LOW-occasional-elements>
   a skos:Collection ;
@@ -2221,6 +2281,7 @@ Compare with mountains, hills, rises and plain."""@en ;
   skos:member <landform-element-SUS> ;
   skos:member <landform-element-TOR> ;
   skos:prefLabel "Occasional elements of Low hills"@en ;
+  skos:related <landform-pattern-LOW> ;
 .
 <landform-pattern-LOW-typical-elements>
   a skos:Collection ;
@@ -2231,6 +2292,7 @@ Compare with mountains, hills, rises and plain."""@en ;
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-STB> ;
   skos:prefLabel "Typical elements of Low hills"@en ;
+  skos:related <landform-pattern-LOW> ;
 .
 <landform-pattern-MAD>
   a skos:Concept ;
@@ -2260,6 +2322,7 @@ Common elements: mound, pit, dam."""@en ;
   skos:member <landform-element-MOU> ;
   skos:member <landform-element-PIT> ;
   skos:prefLabel "Common elements of Made land"@en ;
+  skos:related <landform-pattern-MAD> ;
 .
 <landform-pattern-MAD-typical-elements>
   a skos:Collection ;
@@ -2272,6 +2335,7 @@ Common elements: mound, pit, dam."""@en ;
   skos:member <landform-element-FIL> ;
   skos:member <landform-element-TRE> ;
   skos:prefLabel "Typical elements of Made land"@en ;
+  skos:related <landform-pattern-MAD> ;
 .
 <landform-pattern-MAR>
   a skos:Concept ;
@@ -2296,6 +2360,7 @@ Occasional elements: dune, stream channel."""@en ;
   skos:member <landform-element-DUN> ;
   skos:member <landform-element-STC> ;
   skos:prefLabel "Occasional elements of Marine plain"@en ;
+  skos:related <landform-pattern-MAR> ;
 .
 <landform-pattern-MAR-typical-elements>
   a skos:Collection ;
@@ -2303,6 +2368,7 @@ Occasional elements: dune, stream channel."""@en ;
   rdfs:label "Typical elements of Marine plain"@en ;
   skos:member <landform-element-PLA> ;
   skos:prefLabel "Typical elements of Marine plain"@en ;
+  skos:related <landform-pattern-MAR> ;
 .
 <landform-pattern-MEA>
   a skos:Concept ;
@@ -2329,6 +2395,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   rdfs:label "Common elements of Meander plain"@en ;
   skos:member <landform-element-OXB> ;
   skos:prefLabel "Common elements of Meander plain"@en ;
+  skos:related <landform-pattern-MEA> ;
 .
 <landform-pattern-MEA-comparewith-patterns>
   a skos:Collection ;
@@ -2337,6 +2404,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:member <landform-pattern-ALP> ;
   skos:member <landform-pattern-FLO> ;
   skos:prefLabel "Compare Meander plain with these patterns"@en ;
+  skos:related <landform-pattern-MEA> ;
 .
 <landform-pattern-MEA-typical-elements>
   a skos:Collection ;
@@ -2349,6 +2417,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
   skos:prefLabel "Typical elements of Meander plain"@en ;
+  skos:related <landform-pattern-MEA> ;
 .
 <landform-pattern-MET>
   a skos:Concept ;
@@ -2377,6 +2446,7 @@ Typical elements: crater (scarp, talus, footslope and plain), hillcrest, hillslo
   skos:member <landform-element-SCA> ;
   skos:member <landform-element-TAL> ;
   skos:prefLabel "Typical elements of Meteor crater"@en ;
+  skos:related <landform-pattern-MET> ;
 .
 <landform-pattern-MOU>
   a skos:Concept ;
@@ -2415,6 +2485,7 @@ Compare with hills, low hills, rises and plain."""@en ;
   skos:member <landform-element-TAL> ;
   skos:member <landform-element-VLF> ;
   skos:prefLabel "Common elements of Mountains"@en ;
+  skos:related <landform-pattern-MOU> ;
 .
 <landform-pattern-MOU-comparewith-patterns>
   a skos:Collection ;
@@ -2425,6 +2496,7 @@ Compare with hills, low hills, rises and plain."""@en ;
   skos:member <landform-pattern-PLA> ;
   skos:member <landform-pattern-RIS> ;
   skos:prefLabel "Compare Mountains with these patterns"@en ;
+  skos:related <landform-pattern-MOU> ;
 .
 <landform-pattern-MOU-occasional-elements>
   a skos:Collection ;
@@ -2433,6 +2505,7 @@ Compare with hills, low hills, rises and plain."""@en ;
   skos:member <landform-element-CIR> ;
   skos:member <landform-element-FOO> ;
   skos:prefLabel "Occasional elements of Mountains"@en ;
+  skos:related <landform-pattern-MOU> ;
 .
 <landform-pattern-MOU-typical-elements>
   a skos:Collection ;
@@ -2442,6 +2515,7 @@ Compare with hills, low hills, rises and plain."""@en ;
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-STB> ;
   skos:prefLabel "Typical elements of Mountains"@en ;
+  skos:related <landform-pattern-MOU> ;
 .
 <landform-pattern-PAR>
   a skos:Concept ;
@@ -2465,6 +2539,7 @@ Compare with longitudinal dunefield."""@en ;
   rdfs:label "Compare Parabolic dunefields with these patterns"@en ;
   skos:member <landform-pattern-LON> ;
   skos:prefLabel "Compare Parabolic dunefields with these patterns"@en ;
+  skos:related <landform-pattern-PAR> ;
 .
 <landform-pattern-PAR-typical-elements>
   a skos:Collection ;
@@ -2476,6 +2551,7 @@ Compare with longitudinal dunefield."""@en ;
   skos:member <landform-element-DUS> ;
   skos:member <landform-element-SWL> ;
   skos:prefLabel "Typical elements of Parabolic dunefields"@en ;
+  skos:related <landform-pattern-PAR> ;
 .
 <landform-pattern-PED>
   a skos:Concept ;
@@ -2504,6 +2580,7 @@ Compare with sheet-flood fan and alluvial fan."""@en ;
   skos:member <landform-pattern-ALF> ;
   skos:member <landform-pattern-SHF> ;
   skos:prefLabel "Compare Pediment with these patterns"@en ;
+  skos:related <landform-pattern-PED> ;
 .
 <landform-pattern-PED-typical-elements>
   a skos:Collection ;
@@ -2513,6 +2590,7 @@ Compare with sheet-flood fan and alluvial fan."""@en ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STB> ;
   skos:prefLabel "Typical elements of Pediment"@en ;
+  skos:related <landform-pattern-PED> ;
 .
 <landform-pattern-PEP>
   a skos:Concept ;
@@ -2536,6 +2614,7 @@ Typical element: plain."""@en ;
   rdfs:label "Typical elements of Pediplain"@en ;
   skos:member <landform-element-PLA> ;
   skos:prefLabel "Typical elements of Pediplain"@en ;
+  skos:related <landform-pattern-PEP> ;
 .
 <landform-pattern-PLA>
   a skos:Concept ;
@@ -2562,6 +2641,7 @@ Typical element: plain."""@en ;
   skos:member <landform-pattern-MOU> ;
   skos:member <landform-pattern-RIS> ;
   skos:prefLabel "Compare Plain with these patterns"@en ;
+  skos:related <landform-pattern-PLA> ;
 .
 <landform-pattern-PLT>
   a skos:Concept ;
@@ -2596,6 +2676,7 @@ Occasional element: stream channel."""@en ;
   skos:member <landform-element-RFL> ;
   skos:member <landform-element-SCA> ;
   skos:prefLabel "Common elements of Plateau"@en ;
+  skos:related <landform-pattern-PLT> ;
 .
 <landform-pattern-PLT-occasional-elements>
   a skos:Collection ;
@@ -2603,6 +2684,7 @@ Occasional element: stream channel."""@en ;
   rdfs:label "Occasional elements of Plateau"@en ;
   skos:member <landform-element-STC> ;
   skos:prefLabel "Occasional elements of Plateau"@en ;
+  skos:related <landform-pattern-PLT> ;
 .
 <landform-pattern-PLT-typical-elements>
   a skos:Collection ;
@@ -2612,6 +2694,7 @@ Occasional element: stream channel."""@en ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-SUS> ;
   skos:prefLabel "Typical elements of Plateau"@en ;
+  skos:related <landform-pattern-PLT> ;
 .
 <landform-pattern-PLY>
   a skos:Concept ;
@@ -2637,6 +2720,7 @@ Compare with lacustrine plain."""@en ;
   rdfs:label "Compare Playa plain with these patterns"@en ;
   skos:member <landform-pattern-LAC> ;
   skos:prefLabel "Compare Playa plain with these patterns"@en ;
+  skos:related <landform-pattern-PLY> ;
 .
 <landform-pattern-PLY-typical-elements>
   a skos:Collection ;
@@ -2646,6 +2730,7 @@ Compare with lacustrine plain."""@en ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-PLY> ;
   skos:prefLabel "Typical elements of Playa plain"@en ;
+  skos:related <landform-pattern-PLY> ;
 .
 <landform-pattern-PNP>
   a skos:Concept ;
@@ -2670,6 +2755,7 @@ Typical elements: plain (dominant), stream channel."""@en ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STC> ;
   skos:prefLabel "Typical elements of Peneplain"@en ;
+  skos:related <landform-pattern-PNP> ;
 .
 <landform-pattern-RIS>
   a skos:Concept ;
@@ -2705,6 +2791,7 @@ Compare with mountains, hills, low hills and plain."""@en ;
   skos:member <landform-element-STC> ;
   skos:member <landform-element-VLF> ;
   skos:prefLabel "Common elements of Rises"@en ;
+  skos:related <landform-pattern-RIS> ;
 .
 <landform-pattern-RIS-comparewith-patterns>
   a skos:Collection ;
@@ -2714,6 +2801,7 @@ Compare with mountains, hills, low hills and plain."""@en ;
   skos:member <landform-pattern-LOW> ;
   skos:member <landform-pattern-PLA> ;
   skos:prefLabel "Compare Rises with these patterns"@en ;
+  skos:related <landform-pattern-RIS> ;
 .
 <landform-pattern-RIS-occasional-elements>
   a skos:Collection ;
@@ -2723,6 +2811,7 @@ Compare with mountains, hills, low hills and plain."""@en ;
   skos:member <landform-element-GUL> ;
   skos:member <landform-element-TOR> ;
   skos:prefLabel "Occasional elements of Rises"@en ;
+  skos:related <landform-pattern-RIS> ;
 .
 <landform-pattern-RIS-typical-elements>
   a skos:Collection ;
@@ -2734,6 +2823,7 @@ Compare with mountains, hills, low hills and plain."""@en ;
   skos:member <landform-element-HSL> ;
   skos:member <landform-element-RES> ;
   skos:prefLabel "Typical elements of Rises"@en ;
+  skos:related <landform-pattern-RIS> ;
 .
 <landform-pattern-SAN>
   a skos:Concept ;
@@ -2762,6 +2852,7 @@ Occasional elements: dune, playa, lunette."""@en ;
   skos:member <landform-element-LUN> ;
   skos:member <landform-element-PLY> ;
   skos:prefLabel "Occasional elements of Sand plain"@en ;
+  skos:related <landform-pattern-SAN> ;
 .
 <landform-pattern-SAN-typical-elements>
   a skos:Collection ;
@@ -2769,6 +2860,7 @@ Occasional elements: dune, playa, lunette."""@en ;
   rdfs:label "Typical elements of Sand plain"@en ;
   skos:member <landform-element-PLA> ;
   skos:prefLabel "Typical elements of Sand plain"@en ;
+  skos:related <landform-pattern-SAN> ;
 .
 <landform-pattern-SHF>
   a skos:Concept ;
@@ -2796,6 +2888,7 @@ Compare with alluvial fan and pediment."""@en ;
   skos:member <landform-pattern-ALF> ;
   skos:member <landform-pattern-PED> ;
   skos:prefLabel "Compare Sheet-flood fan with these patterns"@en ;
+  skos:related <landform-pattern-SHF> ;
 .
 <landform-pattern-SHF-typical-elements>
   a skos:Collection ;
@@ -2804,6 +2897,7 @@ Compare with alluvial fan and pediment."""@en ;
   skos:member <landform-element-PLA> ;
   skos:member <landform-element-STB> ;
   skos:prefLabel "Typical elements of Sheet-flood fan"@en ;
+  skos:related <landform-pattern-SHF> ;
 .
 <landform-pattern-STA>
   a skos:Concept ;
@@ -2837,6 +2931,7 @@ Compare with flood plain and terrace."""@en ;
   skos:member <landform-element-SCR> ;
   skos:member <landform-element-SWP> ;
   skos:prefLabel "Common elements of Stagnant alluvial plain"@en ;
+  skos:related <landform-pattern-STA> ;
 .
 <landform-pattern-STA-comparewith-patterns>
   a skos:Collection ;
@@ -2845,6 +2940,7 @@ Compare with flood plain and terrace."""@en ;
   skos:member <landform-pattern-FLO> ;
   skos:member <landform-pattern-TER> ;
   skos:prefLabel "Compare Stagnant alluvial plain with these patterns"@en ;
+  skos:related <landform-pattern-STA> ;
 .
 <landform-pattern-STA-occasional-elements>
   a skos:Collection ;
@@ -2854,6 +2950,7 @@ Compare with flood plain and terrace."""@en ;
   skos:member <landform-element-LAK> ;
   skos:member <landform-element-OXB> ;
   skos:prefLabel "Occasional elements of Stagnant alluvial plain"@en ;
+  skos:related <landform-pattern-STA> ;
 .
 <landform-pattern-STA-typical-elements>
   a skos:Collection ;
@@ -2864,6 +2961,7 @@ Compare with flood plain and terrace."""@en ;
   skos:member <landform-element-STB> ;
   skos:member <landform-element-STC> ;
   skos:prefLabel "Typical elements of Stagnant alluvial plain"@en ;
+  skos:related <landform-pattern-STA> ;
 .
 <landform-pattern-TEL>
   a skos:Concept ;
@@ -2888,6 +2986,7 @@ Occasional elements: stream channel, scroll, levee."""@en ;
   skos:member <landform-element-LEV> ;
   skos:member <landform-element-SCR> ;
   skos:prefLabel "Occasional elements of Terraced land"@en ;
+  skos:related <landform-pattern-TEL> ;
 .
 <landform-pattern-TEL-typical-elements>
   a skos:Collection ;
@@ -2899,6 +2998,7 @@ Occasional elements: stream channel, scroll, levee."""@en ;
   skos:member <landform-element-TEF> ;
   skos:member <landform-element-TEP> ;
   skos:prefLabel "Typical elements of Terraced land"@en ;
+  skos:related <landform-pattern-TEL> ;
 .
 <landform-pattern-TER>
   a skos:Concept ;
@@ -2924,6 +3024,7 @@ Occasional elements: stream channel, scroll, levee."""@en ;
   skos:member <landform-element-SCR> ;
   skos:member <landform-element-STC> ;
   skos:prefLabel "Occasional elements of Terrace"@en ;
+  skos:related <landform-pattern-TER> ;
 .
 <landform-pattern-TER-typical-elements>
   a skos:Collection ;
@@ -2934,6 +3035,7 @@ Occasional elements: stream channel, scroll, levee."""@en ;
   skos:member <landform-element-SCA> ;
   skos:member <landform-element-TER> ;
   skos:prefLabel "Typical elements of Terrace"@en ;
+  skos:related <landform-pattern-TER> ;
 .
 <landform-pattern-TID>
   a skos:Concept ;
@@ -2961,6 +3063,7 @@ Occasional elements: lagoon, dune, beach ridge, beach."""@en ;
   skos:member <landform-element-DUN> ;
   skos:member <landform-element-LAG> ;
   skos:prefLabel "Occasional elements of Tidal flat"@en ;
+  skos:related <landform-pattern-TID> ;
 .
 <landform-pattern-TID-typical-elements>
   a skos:Collection ;
@@ -2971,6 +3074,7 @@ Occasional elements: lagoon, dune, beach ridge, beach."""@en ;
   skos:member <landform-element-STC> ;
   skos:member <landform-element-STF> ;
   skos:prefLabel "Typical elements of Tidal flat"@en ;
+  skos:related <landform-pattern-TID> ;
 .
 <landform-pattern-VOL>
   a skos:Concept ;
@@ -3003,6 +3107,7 @@ Occasional element: tumulus."""@en ;
   skos:member <landform-element-SCA> ;
   skos:member <landform-element-STB> ;
   skos:prefLabel "Occasional elements of Volcano"@en ;
+  skos:related <landform-pattern-VOL> ;
 .
 <landform-pattern-VOL-occasional-elements>
   a skos:Collection ;
@@ -3010,6 +3115,7 @@ Occasional element: tumulus."""@en ;
   rdfs:label "Typical elements of Volcano"@en ;
   skos:member <landform-element-TUM> ;
   skos:prefLabel "Typical elements of Volcano"@en ;
+  skos:related <landform-pattern-VOL> ;
 .
 <landform-pattern-VOL-typical-elements>
   a skos:Collection ;
@@ -3018,6 +3124,7 @@ Occasional element: tumulus."""@en ;
   skos:member <landform-element-CON> ;
   skos:member <landform-element-CRA> ;
   skos:prefLabel "Typical elements of Volcano"@en ;
+  skos:related <landform-pattern-VOL> ;
 .
 <landform-pattern-components>
   a skos:Collection ;
