@@ -1244,7 +1244,6 @@ Landforms created by different agents, such as wind, creep, and stream flow, may
 .
 lf:landform-pattern-ALF
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-ALF-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-ALF-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-ALF-typical-elements ;
@@ -1296,7 +1295,6 @@ lf:landform-pattern-ALF-typical-elements
 .
 lf:landform-pattern-ALP
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-ALP-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-ALP-included-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-ALP-occasional-elements ;
@@ -1369,7 +1367,6 @@ lf:landform-pattern-ALP-typical-elements
 .
 lf:landform-pattern-ANA
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-ANA-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-ANA-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-ANA-typical-elements ;
@@ -1419,7 +1416,6 @@ lf:landform-pattern-ANA-typical-elements
 .
 lf:landform-pattern-BAD
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-BAD-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-BAD-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-BAD-typical-elements ;
@@ -1476,7 +1472,6 @@ lf:landform-pattern-BAD-typical-elements
 .
 lf:landform-pattern-BAR
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-BAR-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-BAR-typical-elements ;
   dcterms:description """flood plain with numerous rapidly migrating, shallow alluvial channels forming a unidirectional, integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow. (Described by Melton 1936.) 
@@ -1510,7 +1505,6 @@ lf:landform-pattern-BAR-typical-elements
 .
 lf:landform-pattern-BEA
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-BEA-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-BEA-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-BEA-typical-elements ;
@@ -1559,7 +1553,6 @@ lf:landform-pattern-BEA-typical-elements
 .
 lf:landform-pattern-CAL
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-CAL-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-CAL-typical-elements ;
   dcterms:description """rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism. 
@@ -1601,7 +1594,6 @@ lf:landform-pattern-CAL-typical-elements
 .
 lf:landform-pattern-CHE
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-CHE-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-CHE-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-CHE-typical-elements ;
@@ -1653,7 +1645,6 @@ lf:landform-pattern-CHE-typical-elements
 .
 lf:landform-pattern-COR
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-COR-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-COR-typical-elements ;
   dcterms:description """continuously active or relict landform pattern built up to the sea level of the present day or of a former time by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below the sea level. Stream channels are generally absent, but there may occasionally be fixed, deep, erosional tidal stream channels forming a disintegrated non-tributary pattern. 
@@ -1693,7 +1684,6 @@ lf:landform-pattern-COR-typical-elements
 .
 lf:landform-pattern-COV
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-COV-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-COV-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-COV-typical-elements ;
@@ -1741,7 +1731,6 @@ lf:landform-pattern-COV-typical-elements
 .
 lf:landform-pattern-DEL
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-DEL-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-DEL-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-DEL-typical-elements ;
@@ -1796,7 +1785,6 @@ lf:landform-pattern-DEL-typical-elements
 .
 lf:landform-pattern-DUN
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-DUN-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-DUN-included-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-DUN-typical-elements ;
@@ -1856,7 +1844,6 @@ lf:landform-pattern-DUN-typical-elements
 .
 lf:landform-pattern-ESC
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-ESC-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-ESC-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-ESC-typical-elements ;
@@ -1911,7 +1898,6 @@ lf:landform-pattern-ESC-typical-elements
 .
 lf:landform-pattern-FLO
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-FLO-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-FLO-included-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-FLO-occasional-elements ;
@@ -1989,7 +1975,6 @@ lf:landform-pattern-FLO-typical-elements
 .
 lf:landform-pattern-HIL
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-HIL-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-HIL-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-HIL-occasional-elements ;
@@ -2064,7 +2049,6 @@ lf:landform-pattern-HIL-typical-elements
 .
 lf:landform-pattern-KAR
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-KAR-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-KAR-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-KAR-typical-elements ;
@@ -2117,7 +2101,6 @@ lf:landform-pattern-KAR-typical-elements
 .
 lf:landform-pattern-LAC
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-LAC-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-LAC-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-LAC-occasional-elements ;
@@ -2175,7 +2158,6 @@ lf:landform-pattern-LAC-typical-elements
 .
 lf:landform-pattern-LAV
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-LAV-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-LAV-typical-elements ;
   dcterms:description """level to undulating landform pattern of very low to extremely low relief typically with widely spaced, fixed, erosional stream channels that form a non-directional, integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep, and channelled stream flow. 
@@ -2215,7 +2197,6 @@ lf:landform-pattern-LAV-typical-elements
 .
 lf:landform-pattern-LON
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-LON-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-LON-typical-elements ;
   dcterms:description """dunefield characterised by long, narrow sand dunes and wide, flat swales. The dunes are oriented parallel with the direction of the prevailing wind, and in cross-section one slope is typically steeper than the other. 
@@ -2251,7 +2232,6 @@ lf:landform-pattern-LON-typical-elements
 .
 lf:landform-pattern-LOW
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-LOW-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-LOW-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-LOW-occasional-elements ;
@@ -2321,7 +2301,6 @@ lf:landform-pattern-LOW-typical-elements
 .
 lf:landform-pattern-MAD
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-MAD-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-MAD-typical-elements ;
   dcterms:description """landform pattern typically of very low or extremely low relief and with slopes either level or very steep. Sparse, fixed, deep, artificial stream channels form a non-directional, interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency. 
@@ -2364,7 +2343,6 @@ lf:landform-pattern-MAD-typical-elements
 .
 lf:landform-pattern-MAR
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-MAR-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-MAR-typical-elements ;
   dcterms:description """plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind. 
@@ -2397,7 +2375,6 @@ lf:landform-pattern-MAR-typical-elements
 .
 lf:landform-pattern-MEA
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-MEA-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-MEA-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-MEA-typical-elements ;
@@ -2446,7 +2423,6 @@ lf:landform-pattern-MEA-typical-elements
 .
 lf:landform-pattern-MET
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-MET-typical-elements ;
   dcterms:description """rare landform pattern comprising a circular closed depression (see crater landform element) with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and is now relict. 
 Typical elements: crater (scarp, talus, footslope and plain), hillcrest, hillslope."""@en ;
@@ -2475,7 +2451,6 @@ lf:landform-pattern-MET-typical-elements
 .
 lf:landform-pattern-MOU
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-MOU-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-MOU-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-MOU-occasional-elements ;
@@ -2544,7 +2519,6 @@ lf:landform-pattern-MOU-typical-elements
 .
 lf:landform-pattern-PAR
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-PAR-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-PAR-typical-elements ;
   dcterms:description """dunefield characterised by sand dunes with a long, scoop-shaped form, convex in the downwind direction so that its trailing arms point upwind; the ground plan, when developed, approximates the form of a parabola. Where many parabolic dunes have been active, the trailing arms give the impression of a longitudinal dunefield. 
@@ -2580,7 +2554,6 @@ lf:landform-pattern-PAR-typical-elements
 .
 lf:landform-pattern-PED
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-PAR-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-PAR-typical-elements ;
   dcterms:description """gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes. 
@@ -2619,7 +2592,6 @@ lf:landform-pattern-PED-typical-elements
 .
 lf:landform-pattern-PEP
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-PEP-typical-elements ;
   dcterms:description """level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. (Described by King 1953.) 
 Typical element: plain."""@en ;
@@ -2643,7 +2615,6 @@ lf:landform-pattern-PEP-typical-elements
 .
 lf:landform-pattern-PLA
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-PLA-comparewith-patterns ;
   dcterms:description "level to undulating or, rarely, rolling landform pattern of extremely low relief (less than 9 m)."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLA"^^xsd:anyURI ;
@@ -2670,7 +2641,6 @@ lf:landform-pattern-PLA-comparewith-patterns
 .
 lf:landform-pattern-PLT
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-PLT-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-PLT-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-PLT-typical-elements ;
@@ -2723,7 +2693,6 @@ lf:landform-pattern-PLT-typical-elements
 .
 lf:landform-pattern-PLY
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-PLY-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-PLY-typical-elements ;
   dcterms:description """level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves, and soil phenomena. 
@@ -2759,7 +2728,6 @@ lf:landform-pattern-PLY-typical-elements
 .
 lf:landform-pattern-PNP
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-PNP-typical-elements ;
   dcterms:description """level to gently undulating landform pattern with extremely low relief and sparse, slowly migrating alluvial stream channels which form a non-directional, integrated tributary pattern. It is eroded by barely active sheet flow, creep, and channelled and over-bank stream flow. (Described by Davis 1889.) 
 Typical elements: plain (dominant), stream channel."""@en ;
@@ -2784,7 +2752,6 @@ lf:landform-pattern-PNP-typical-elements
 .
 lf:landform-pattern-RIS
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-RIS-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-RIS-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-RIS-occasional-elements ;
@@ -2852,7 +2819,6 @@ lf:landform-pattern-RIS-typical-elements
 .
 lf:landform-pattern-SAN
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-SAN-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-SAN-typical-elements ;
   dcterms:description """level to gently undulating landform pattern of extremely low relief and without channels; formed possibly by sheet flow or stream flow, but now relict and modified by wind action. 
@@ -2889,7 +2855,6 @@ lf:landform-pattern-SAN-typical-elements
 .
 lf:landform-pattern-SHF
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-SHF-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-SHF-typical-elements ;
   dcterms:description """level (less than 1% slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating, very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. The pattern is aggraded by frequently active sheet flow and channelled stream flow, with subordinate wind erosion. 
@@ -2926,7 +2891,6 @@ lf:landform-pattern-SHF-typical-elements
 .
 lf:landform-pattern-STA
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-STA-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-STA-comparewith-patterns ;
   skos-ext:relatedCollection lf:landform-pattern-STA-occasional-elements ;
@@ -2990,7 +2954,6 @@ lf:landform-pattern-STA-typical-elements
 .
 lf:landform-pattern-TEL
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-TEL-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-TEL-typical-elements ;
   dcterms:description """landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9–90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank. 
@@ -3027,7 +2990,6 @@ lf:landform-pattern-TEL-typical-elements
 .
 lf:landform-pattern-TER
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-TER-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-TER-typical-elements ;
   dcterms:description """former flood plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that has both a former flood plain and a significant, active flood plain, or that has former flood plains at more than one level, becomes terraced land. 
@@ -3064,7 +3026,6 @@ lf:landform-pattern-TER-typical-elements
 .
 lf:landform-pattern-TID
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-TID-occasional-elements ;
   skos-ext:relatedCollection lf:landform-pattern-TID-typical-elements ;
   dcterms:description """level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides. 
@@ -3103,7 +3064,6 @@ lf:landform-pattern-TID-typical-elements
 .
 lf:landform-pattern-VOL
   a skos:Concept ;
-  skos-ext:isMemberOf lf:landform-pattern-glossary ;
   skos-ext:relatedCollection lf:landform-pattern-VOL-common-elements ;
   skos-ext:relatedCollection lf:landform-pattern-VOL-typical-elements ;
   dcterms:description """typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal, interrupted tributary pattern. The landform is built up by volcanism, and is modified by erosional agents. 
@@ -3299,55 +3259,6 @@ lf:landform-pattern-descriptions
   skos:member lf:relief ;
   skos:member lf:stream-channel-occurence ;
   skos:prefLabel "Description of landform pattern"@en ;
-.
-lf:landform-pattern-glossary
-  a skos:Collection ;
-  skos-ext:topMemberOf asls:landform ;
-  dcterms:description "The definitions in this glossary refer explicitly to the attributes of landform patterns that have been set down in the preceding sections."@en ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-glossary"^^xsd:anyURI ;
-  rdfs:label "Glossary of landform patterns"@en ;
-  skos:definition "The definitions in this glossary refer explicitly to the attributes of landform patterns that have been set down in the preceding sections."@en ;
-  skos:member lf:landform-pattern-ALF ;
-  skos:member lf:landform-pattern-ALP ;
-  skos:member lf:landform-pattern-ANA ;
-  skos:member lf:landform-pattern-BAD ;
-  skos:member lf:landform-pattern-BAR ;
-  skos:member lf:landform-pattern-BEA ;
-  skos:member lf:landform-pattern-CAL ;
-  skos:member lf:landform-pattern-CHE ;
-  skos:member lf:landform-pattern-COR ;
-  skos:member lf:landform-pattern-COV ;
-  skos:member lf:landform-pattern-DEL ;
-  skos:member lf:landform-pattern-DUN ;
-  skos:member lf:landform-pattern-ESC ;
-  skos:member lf:landform-pattern-FLO ;
-  skos:member lf:landform-pattern-HIL ;
-  skos:member lf:landform-pattern-KAR ;
-  skos:member lf:landform-pattern-LAC ;
-  skos:member lf:landform-pattern-LAV ;
-  skos:member lf:landform-pattern-LON ;
-  skos:member lf:landform-pattern-LOW ;
-  skos:member lf:landform-pattern-MAD ;
-  skos:member lf:landform-pattern-MAR ;
-  skos:member lf:landform-pattern-MEA ;
-  skos:member lf:landform-pattern-MET ;
-  skos:member lf:landform-pattern-MOU ;
-  skos:member lf:landform-pattern-PAR ;
-  skos:member lf:landform-pattern-PED ;
-  skos:member lf:landform-pattern-PEP ;
-  skos:member lf:landform-pattern-PLA ;
-  skos:member lf:landform-pattern-PLT ;
-  skos:member lf:landform-pattern-PLY ;
-  skos:member lf:landform-pattern-PNP ;
-  skos:member lf:landform-pattern-RIS ;
-  skos:member lf:landform-pattern-SAN ;
-  skos:member lf:landform-pattern-SHF ;
-  skos:member lf:landform-pattern-STA ;
-  skos:member lf:landform-pattern-TEL ;
-  skos:member lf:landform-pattern-TER ;
-  skos:member lf:landform-pattern-TID ;
-  skos:member lf:landform-pattern-VOL ;
-  skos:prefLabel "Glossary of landform patterns"@en ;
 .
 lf:location-within-the-landform-element
   a skos:Collection ;
@@ -3917,6 +3828,383 @@ lf:relief-class-R
   skos:definition "Very low relief, 9-30 m, (~15 m)"@en ;
   skos:notation "R" ;
   skos:prefLabel "Very low"@en ;
+.
+lf:simple-erosional-landform-pattern-B
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description "The Badlands simple erosional landform pattern is defined by various combinations of high slope values and low relief values. These combinations imply extremely close spacing of streams or valleys. Specifically, if one assumes a sawtooth terrain profile, the valley spacing implied is less than 100 m in areas with 50 m relief and less than 30 m in areas with 5 m relief; these values appear to accord with usage. {@en}"^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-B"^^xsd:anyURI ;
+  rdfs:label "Badlands (simple erosional pattern)"@en ;
+  skos:definition "The Badlands simple erosional landform pattern is defined by various combinations of high slope values and low relief values. These combinations imply extremely close spacing of streams or valleys. Specifically, if one assumes a sawtooth terrain profile, the valley spacing implied is less than 100 m in areas with 50 m relief and less than 30 m in areas with 5 m relief; these values appear to accord with usage."@en ;
+  skos:notation "B" ;
+  skos:prefLabel "Badlands (simple erosional pattern)"@en ;
+  skos:related lf:landform-pattern-BAD ;
+.
+lf:simple-erosional-landform-pattern-GP
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Gently undulating plain is a simple type of erosional landform pattern characterised by Extremely low relief and Very gently inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Very gently inclined 1-3% (~2%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-GP"^^xsd:anyURI ;
+  rdfs:label "Gently undulating plain"@en ;
+  skos:definition """<p>Gently undulating plain is a simple type of erosional landform pattern characterised by Extremely low relief and Very gently inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Very gently inclined 1-3% (~2%)</p>""" ;
+  skos:notation "GP" ;
+  skos:prefLabel "Gently undulating plain"@en ;
+  skos:related lf:relief-class-P ;
+  skos:related lf:slope-class-VG ;
+.
+lf:simple-erosional-landform-pattern-GR
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Gently undulating rises is a simple type of erosional landform pattern characterised by Very low relief and Very gently inclined modal slope.</p>
+<p>Relief is Very low < 9-30m (~15m)</p>
+<p>Modal terrain slope is Very gently inclined 1-3% (~2%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-GR"^^xsd:anyURI ;
+  rdfs:label "Gently undulating rises"@en ;
+  skos:definition """<p>Gently undulating rises is a simple type of erosional landform pattern characterised by Very low relief and Very gently inclined modal slope.</p>
+<p>Relief is Very low < 9-30m (~15m)</p>
+<p>Modal terrain slope is Very gently inclined 1-3% (~2%)</p>""" ;
+  skos:notation "GR" ;
+  skos:prefLabel "Gently undulating rises"@en ;
+  skos:related lf:relief-class-R ;
+  skos:related lf:slope-class-VG ;
+.
+lf:simple-erosional-landform-pattern-LP
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Level plain is a simple type of erosional landform pattern characterised by Extremely low relief and Level modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Level < 1% (~1:300)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-LP"^^xsd:anyURI ;
+  rdfs:label "Level plain"@en ;
+  skos:definition """<p>Level plain is a simple type of erosional landform pattern characterised by Extremely low relief and Level modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Level < 1% (~1:300)</p>""" ;
+  skos:notation "LP" ;
+  skos:prefLabel "Level plain"@en ;
+  skos:related lf:relief-class-P ;
+  skos:related lf:slope-class-LE ;
+.
+lf:simple-erosional-landform-pattern-PH
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Precipitous hills is a simple type of erosional landform pattern characterised by High relief and Precipitous modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Precipitous >100% (~150%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-PH"^^xsd:anyURI ;
+  rdfs:label "Precipitous hills"@en ;
+  skos:definition """<p>Precipitous hills is a simple type of erosional landform pattern characterised by High relief and Precipitous modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Precipitous >100% (~150%)</p>""" ;
+  skos:notation "PH" ;
+  skos:prefLabel "Precipitous hills"@en ;
+  skos:related lf:relief-class-H ;
+  skos:related lf:slope-class-PR ;
+.
+lf:simple-erosional-landform-pattern-PM
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Precipitous mountains is a simple type of erosional landform pattern characterised by Very high relief and Precipitous modal slope.</p>
+<p>Relief is Very high >300m (~500m)</p>
+<p>Modal terrain slope is Precipitous >100% (~150%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-PM"^^xsd:anyURI ;
+  rdfs:label "Precipitous mountains"@en ;
+  skos:definition """<p>Precipitous mountains is a simple type of erosional landform pattern characterised by Very high relief and Precipitous modal slope.</p>
+<p>Relief is Very high >300m (~500m)</p>
+<p>Modal terrain slope is Precipitous >100% (~150%)</p>""" ;
+  skos:notation "PM" ;
+  skos:prefLabel "Precipitous mountains"@en ;
+  skos:related lf:relief-class-M ;
+  skos:related lf:slope-class-PR ;
+.
+lf:simple-erosional-landform-pattern-RH
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Rolling hills is a simple type of erosional landform pattern characterised by High relief and Moderately inclined modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-RH"^^xsd:anyURI ;
+  rdfs:label "Rolling hills"@en ;
+  skos:definition """<p>Rolling hills is a simple type of erosional landform pattern characterised by High relief and Moderately inclined modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:notation "RH" ;
+  skos:prefLabel "Rolling hills"@en ;
+  skos:related lf:relief-class-H ;
+  skos:related lf:slope-class-MO ;
+.
+lf:simple-erosional-landform-pattern-RL
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Rolling low hills is a simple type of erosional landform pattern characterised by Low relief and Moderately inclined modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-RL"^^xsd:anyURI ;
+  rdfs:label "Rolling low hills"@en ;
+  skos:definition """<p>Rolling low hills is a simple type of erosional landform pattern characterised by Low relief and Moderately inclined modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:notation "RL" ;
+  skos:prefLabel "Rolling low hills"@en ;
+  skos:related lf:relief-class-L ;
+  skos:related lf:slope-class-MO ;
+.
+lf:simple-erosional-landform-pattern-RM
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Rolling mountains is a simple type of erosional landform pattern characterised by Very high relief and Moderately inclined modal slope.</p>
+<p>Relief is Very high >300m (~500m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-RM"^^xsd:anyURI ;
+  rdfs:label "Rolling mountains"@en ;
+  skos:definition """<p>Rolling mountains is a simple type of erosional landform pattern characterised by Very high relief and Moderately inclined modal slope.</p>
+<p>Relief is Very high >300m (~500m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:notation "RM" ;
+  skos:prefLabel "Rolling mountains"@en ;
+  skos:related lf:relief-class-M ;
+  skos:related lf:slope-class-MO ;
+.
+lf:simple-erosional-landform-pattern-RP
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Rolling plain is a simple type of erosional landform pattern characterised by Extremely low relief and Moderately inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-RP"^^xsd:anyURI ;
+  rdfs:label "Rolling plain"@en ;
+  skos:definition """<p>Rolling plain is a simple type of erosional landform pattern characterised by Extremely low relief and Moderately inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:notation "RP" ;
+  skos:prefLabel "Rolling plain"@en ;
+  skos:related lf:relief-class-P ;
+  skos:related lf:slope-class-MO ;
+.
+lf:simple-erosional-landform-pattern-RR
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Rolling rises is a simple type of erosional landform pattern characterised by Very low relief and Moderately inclined modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-RR"^^xsd:anyURI ;
+  rdfs:label "Rolling rises"@en ;
+  skos:definition """<p>Rolling rises is a simple type of erosional landform pattern characterised by Very low relief and Moderately inclined modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:notation "RR" ;
+  skos:prefLabel "Rolling rises"@en ;
+  skos:related lf:relief-class-R ;
+  skos:related lf:slope-class-MO ;
+.
+lf:simple-erosional-landform-pattern-SH
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Steep hills is a simple type of erosional landform pattern characterised by High relief and Steep modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-SH"^^xsd:anyURI ;
+  rdfs:label "Steep hills"@en ;
+  skos:definition """<p>Steep hills is a simple type of erosional landform pattern characterised by High relief and Steep modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:notation "SH" ;
+  skos:prefLabel "Steep hills"@en ;
+  skos:related lf:relief-class-H ;
+  skos:related lf:slope-class-ST ;
+.
+lf:simple-erosional-landform-pattern-SL
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Steep low hills is a simple type of erosional landform pattern characterised by Low relief and Steep modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-SL"^^xsd:anyURI ;
+  rdfs:label "Steep low hills"@en ;
+  skos:definition """<p>Steep low hills is a simple type of erosional landform pattern characterised by Low relief and Steep modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:notation "SL" ;
+  skos:prefLabel "Steep low hills"@en ;
+  skos:related lf:relief-class-L ;
+  skos:related lf:slope-class-ST ;
+.
+lf:simple-erosional-landform-pattern-SM
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Steep mountains is a simple type of erosional landform pattern characterised by Very high relief and Steep modal slope.</p>
+<p>Relief is Very high > 300m (~500m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-SM"^^xsd:anyURI ;
+  rdfs:label "Steep mountains"@en ;
+  skos:definition """<p>Steep mountains is a simple type of erosional landform pattern characterised by Very high relief and Steep modal slope.</p>
+<p>Relief is Very high > 300m (~500m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:notation "SM" ;
+  skos:prefLabel "Steep mountains"@en ;
+  skos:related lf:relief-class-M ;
+  skos:related lf:slope-class-ST ;
+.
+lf:simple-erosional-landform-pattern-SR
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Steep rises is a simple type of erosional landform pattern characterised by Very low relief and Steep modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-SR"^^xsd:anyURI ;
+  rdfs:label "Steep rises"@en ;
+  skos:definition """<p>Steep rises is a simple type of erosional landform pattern characterised by Very low relief and Steep modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:notation "SR" ;
+  skos:prefLabel "Steep rises"@en ;
+  skos:related lf:relief-class-R ;
+  skos:related lf:slope-class-ST ;
+.
+lf:simple-erosional-landform-pattern-UH
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Undulating hills is a simple type of erosional landform pattern characterised by High relief and Gently inclined modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-UH"^^xsd:anyURI ;
+  rdfs:label "Undulating hills"@en ;
+  skos:definition """<p>Undulating hills is a simple type of erosional landform pattern characterised by High relief and Gently inclined modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>""" ;
+  skos:notation "UH" ;
+  skos:prefLabel "Undulating hills"@en ;
+  skos:related lf:relief-class-H ;
+  skos:related lf:slope-class-GE ;
+.
+lf:simple-erosional-landform-pattern-UL
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Undulating low hills is a simple type of erosional landform pattern characterised by Low relief and Gently inclined modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Gently inclined < 3-10% (~6%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-UL"^^xsd:anyURI ;
+  rdfs:label "Undulating low hills"@en ;
+  skos:definition """<p>Undulating low hills is a simple type of erosional landform pattern characterised by Low relief and Gently inclined modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Gently inclined < 3-10% (~6%)</p>""" ;
+  skos:notation "UL" ;
+  skos:prefLabel "Undulating low hills"@en ;
+  skos:related lf:relief-class-L ;
+  skos:related lf:slope-class-GE ;
+.
+lf:simple-erosional-landform-pattern-UP
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Undulating plain is a simple type of erosional landform pattern characterised by Extremely low relief and Gently inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-UP"^^xsd:anyURI ;
+  rdfs:label "Undulating plain"@en ;
+  skos:definition """<p>Undulating plain is a simple type of erosional landform pattern characterised by Extremely low relief and Gently inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>""" ;
+  skos:notation "UP" ;
+  skos:prefLabel "Undulating plain"@en ;
+  skos:related lf:relief-class-P ;
+  skos:related lf:slope-class-GE ;
+.
+lf:simple-erosional-landform-pattern-UR
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Undulating rises is a simple type of erosional landform pattern characterised by Very low relief and Gently inclined modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-UR"^^xsd:anyURI ;
+  rdfs:label "Undulating rises"@en ;
+  skos:definition """<p>Undulating rises is a simple type of erosional landform pattern characterised by Very low relief and Gently inclined modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>""" ;
+  skos:notation "UR" ;
+  skos:prefLabel "Undulating rises"@en ;
+  skos:related lf:relief-class-R ;
+  skos:related lf:slope-class-GE ;
+.
+lf:simple-erosional-landform-pattern-VH
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Very steep hills is a simple type of erosional landform pattern characterised by High relief and Very steep modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-VH"^^xsd:anyURI ;
+  rdfs:label "Very steep hills"@en ;
+  skos:definition """<p>Very steep hills is a simple type of erosional landform pattern characterised by High relief and Very steep modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>""" ;
+  skos:notation "VH" ;
+  skos:prefLabel "Very steep hills"@en ;
+  skos:related lf:relief-class-H ;
+  skos:related lf:slope-class-VS ;
+.
+lf:simple-erosional-landform-pattern-VL
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Very steep low hills is a simple type of erosional landform pattern characterised by Low relief and Very steep modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-VL"^^xsd:anyURI ;
+  rdfs:label "Very steep low hills"@en ;
+  skos:definition """<p>Very steep low hills is a simple type of erosional landform pattern characterised by Low relief and Very steep modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>""" ;
+  skos:notation "VL" ;
+  skos:prefLabel "Very steep low hills"@en ;
+  skos:related lf:relief-class-L ;
+  skos:related lf:slope-class-VS ;
+.
+lf:simple-erosional-landform-pattern-VM
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Very steep mountains is a simple type of erosional landform pattern characterised by Very high relief and Very steep modal slope.</p>
+<p>Relief is Very high > 300m (~500m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-VM"^^xsd:anyURI ;
+  rdfs:label "Very steep mountains"@en ;
+  skos:definition """<p>Very steep mountains is a simple type of erosional landform pattern characterised by Very high relief and Very steep modal slope.</p>
+<p>Relief is Very high > 300m (~500m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>""" ;
+  skos:notation "VM" ;
+  skos:prefLabel "Very steep mountains"@en ;
+  skos:related lf:relief-class-M ;
+  skos:related lf:slope-class-VS ;
+.
+lf:simple-erosional-landform-patterns
+  a skos:Collection ;
+  dcterms:description "Simple erosional landform patterns are based on relief and modal slope. {@en}"^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-patterns"^^xsd:anyURI ;
+  rdfs:label "Simple erosional landform patterns"@en ;
+  skos:definition "Simple erosional landform patterns are based on relief and modal slope."@en ;
+  skos:member lf:simple-erosional-landform-pattern-B ;
+  skos:member lf:simple-erosional-landform-pattern-GP ;
+  skos:member lf:simple-erosional-landform-pattern-GR ;
+  skos:member lf:simple-erosional-landform-pattern-LP ;
+  skos:member lf:simple-erosional-landform-pattern-PH ;
+  skos:member lf:simple-erosional-landform-pattern-PM ;
+  skos:member lf:simple-erosional-landform-pattern-RH ;
+  skos:member lf:simple-erosional-landform-pattern-RL ;
+  skos:member lf:simple-erosional-landform-pattern-RM ;
+  skos:member lf:simple-erosional-landform-pattern-RP ;
+  skos:member lf:simple-erosional-landform-pattern-RR ;
+  skos:member lf:simple-erosional-landform-pattern-SH ;
+  skos:member lf:simple-erosional-landform-pattern-SL ;
+  skos:member lf:simple-erosional-landform-pattern-SM ;
+  skos:member lf:simple-erosional-landform-pattern-SR ;
+  skos:member lf:simple-erosional-landform-pattern-UH ;
+  skos:member lf:simple-erosional-landform-pattern-UL ;
+  skos:member lf:simple-erosional-landform-pattern-UP ;
+  skos:member lf:simple-erosional-landform-pattern-UR ;
+  skos:member lf:simple-erosional-landform-pattern-VH ;
+  skos:member lf:simple-erosional-landform-pattern-VL ;
+  skos:member lf:simple-erosional-landform-pattern-VM ;
+  skos:prefLabel "Simple erosional landform patterns"@en ;
 .
 lf:slope
   a skos:Collection ;
