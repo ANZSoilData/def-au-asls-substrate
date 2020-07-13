@@ -479,6 +479,16 @@ lf:landform-element-COS
   skos:notation "COS" ;
   skos:prefLabel "Cut-over surface"@en ;
 .
+lf:landform-element-CRA
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:landform-element-glossary ;
+  dcterms:description "steep to precipitous closed depression excavated by explosions due to volcanism, human action, or impact of an extraterrestrial object."@en ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-CRA"^^xsd:anyURI ;
+  rdfs:label "Crater"@en ;
+  skos:definition "steep to precipitous closed depression excavated by explosions due to volcanism, human action, or impact of an extraterrestrial object."@en ;
+  skos:notation "CRA" ;
+  skos:prefLabel "Crater"@en ;
+.
 lf:landform-element-CUT
   a skos:Concept ;
   skos-ext:isMemberOf lf:landform-element-glossary ;
@@ -1161,6 +1171,7 @@ lf:landform-element-glossary
   skos:member lf:landform-element-CLI ;
   skos:member lf:landform-element-CON ;
   skos:member lf:landform-element-COS ;
+  skos:member lf:landform-element-CRA ;
   skos:member lf:landform-element-CUT ;
   skos:member lf:landform-element-DAM ;
   skos:member lf:landform-element-DBA ;
