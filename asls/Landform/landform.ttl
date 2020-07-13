@@ -3297,6 +3297,7 @@ lf:landform-pattern-descriptions
   skos:member lf:modal-slope ;
   skos:member lf:mode-of-geomorphological-activity ;
   skos:member lf:relief ;
+  skos:member lf:simple-erosional-landform-patterns ;
   skos:member lf:stream-channel-occurence ;
   skos:prefLabel "Description of landform pattern"@en ;
 .
@@ -3917,6 +3918,383 @@ lf:relief-class-R
   skos:definition "Very low relief, 9-30 m, (~15 m)"@en ;
   skos:notation "R" ;
   skos:prefLabel "Very low"@en ;
+.
+lf:simple-erosional-landform-pattern-B
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description "The Badlands simple erosional landform pattern is defined by various combinations of high slope values and low relief values. These combinations imply extremely close spacing of streams or valleys. Specifically, if one assumes a sawtooth terrain profile, the valley spacing implied is less than 100 m in areas with 50 m relief and less than 30 m in areas with 5 m relief; these values appear to accord with usage. {@en}"^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-B"^^xsd:anyURI ;
+  rdfs:label "Badlands (simple erosional pattern)"@en ;
+  skos:definition "The Badlands simple erosional landform pattern is defined by various combinations of high slope values and low relief values. These combinations imply extremely close spacing of streams or valleys. Specifically, if one assumes a sawtooth terrain profile, the valley spacing implied is less than 100 m in areas with 50 m relief and less than 30 m in areas with 5 m relief; these values appear to accord with usage."@en ;
+  skos:notation "B" ;
+  skos:prefLabel "Badlands (simple erosional pattern)"@en ;
+  skos:related lf:landform-pattern-BAD ;
+.
+lf:simple-erosional-landform-pattern-GP
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Gently undulating plain is a simple type of erosional landform pattern characterised by Extremely low relief and Very gently inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Very gently inclined 1-3% (~2%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-GP"^^xsd:anyURI ;
+  rdfs:label "Gently undulating plain"@en ;
+  skos:definition """<p>Gently undulating plain is a simple type of erosional landform pattern characterised by Extremely low relief and Very gently inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Very gently inclined 1-3% (~2%)</p>""" ;
+  skos:notation "GP" ;
+  skos:prefLabel "Gently undulating plain"@en ;
+  skos:related lf:relief-class-P ;
+  skos:related lf:slope-class-VG ;
+.
+lf:simple-erosional-landform-pattern-GR
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Gently undulating rises is a simple type of erosional landform pattern characterised by Very low relief and Very gently inclined modal slope.</p>
+<p>Relief is Very low < 9-30m (~15m)</p>
+<p>Modal terrain slope is Very gently inclined 1-3% (~2%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-GR"^^xsd:anyURI ;
+  rdfs:label "Gently undulating rises"@en ;
+  skos:definition """<p>Gently undulating rises is a simple type of erosional landform pattern characterised by Very low relief and Very gently inclined modal slope.</p>
+<p>Relief is Very low < 9-30m (~15m)</p>
+<p>Modal terrain slope is Very gently inclined 1-3% (~2%)</p>""" ;
+  skos:notation "GR" ;
+  skos:prefLabel "Gently undulating rises"@en ;
+  skos:related lf:relief-class-R ;
+  skos:related lf:slope-class-VG ;
+.
+lf:simple-erosional-landform-pattern-LP
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Level plain is a simple type of erosional landform pattern characterised by Extremely low relief and Level modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Level < 1% (~1:300)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-LP"^^xsd:anyURI ;
+  rdfs:label "Level plain"@en ;
+  skos:definition """<p>Level plain is a simple type of erosional landform pattern characterised by Extremely low relief and Level modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Level < 1% (~1:300)</p>""" ;
+  skos:notation "LP" ;
+  skos:prefLabel "Level plain"@en ;
+  skos:related lf:relief-class-P ;
+  skos:related lf:slope-class-LE ;
+.
+lf:simple-erosional-landform-pattern-PH
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Precipitous hills is a simple type of erosional landform pattern characterised by High relief and Precipitous modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Precipitous >100% (~150%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-PH"^^xsd:anyURI ;
+  rdfs:label "Precipitous hills"@en ;
+  skos:definition """<p>Precipitous hills is a simple type of erosional landform pattern characterised by High relief and Precipitous modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Precipitous >100% (~150%)</p>""" ;
+  skos:notation "PH" ;
+  skos:prefLabel "Precipitous hills"@en ;
+  skos:related lf:relief-class-H ;
+  skos:related lf:slope-class-PR ;
+.
+lf:simple-erosional-landform-pattern-PM
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Precipitous mountains is a simple type of erosional landform pattern characterised by Very high relief and Precipitous modal slope.</p>
+<p>Relief is Very high >300m (~500m)</p>
+<p>Modal terrain slope is Precipitous >100% (~150%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-PM"^^xsd:anyURI ;
+  rdfs:label "Precipitous mountains"@en ;
+  skos:definition """<p>Precipitous mountains is a simple type of erosional landform pattern characterised by Very high relief and Precipitous modal slope.</p>
+<p>Relief is Very high >300m (~500m)</p>
+<p>Modal terrain slope is Precipitous >100% (~150%)</p>""" ;
+  skos:notation "PM" ;
+  skos:prefLabel "Precipitous mountains"@en ;
+  skos:related lf:relief-class-M ;
+  skos:related lf:slope-class-PR ;
+.
+lf:simple-erosional-landform-pattern-RH
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Rolling hills is a simple type of erosional landform pattern characterised by High relief and Moderately inclined modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-RH"^^xsd:anyURI ;
+  rdfs:label "Rolling hills"@en ;
+  skos:definition """<p>Rolling hills is a simple type of erosional landform pattern characterised by High relief and Moderately inclined modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:notation "RH" ;
+  skos:prefLabel "Rolling hills"@en ;
+  skos:related lf:relief-class-H ;
+  skos:related lf:slope-class-MO ;
+.
+lf:simple-erosional-landform-pattern-RL
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Rolling low hills is a simple type of erosional landform pattern characterised by Low relief and Moderately inclined modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-RL"^^xsd:anyURI ;
+  rdfs:label "Rolling low hills"@en ;
+  skos:definition """<p>Rolling low hills is a simple type of erosional landform pattern characterised by Low relief and Moderately inclined modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:notation "RL" ;
+  skos:prefLabel "Rolling low hills"@en ;
+  skos:related lf:relief-class-L ;
+  skos:related lf:slope-class-MO ;
+.
+lf:simple-erosional-landform-pattern-RM
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Rolling mountains is a simple type of erosional landform pattern characterised by Very high relief and Moderately inclined modal slope.</p>
+<p>Relief is Very high >300m (~500m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-RM"^^xsd:anyURI ;
+  rdfs:label "Rolling mountains"@en ;
+  skos:definition """<p>Rolling mountains is a simple type of erosional landform pattern characterised by Very high relief and Moderately inclined modal slope.</p>
+<p>Relief is Very high >300m (~500m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:notation "RM" ;
+  skos:prefLabel "Rolling mountains"@en ;
+  skos:related lf:relief-class-M ;
+  skos:related lf:slope-class-MO ;
+.
+lf:simple-erosional-landform-pattern-RP
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Rolling plain is a simple type of erosional landform pattern characterised by Extremely low relief and Moderately inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-RP"^^xsd:anyURI ;
+  rdfs:label "Rolling plain"@en ;
+  skos:definition """<p>Rolling plain is a simple type of erosional landform pattern characterised by Extremely low relief and Moderately inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:notation "RP" ;
+  skos:prefLabel "Rolling plain"@en ;
+  skos:related lf:relief-class-P ;
+  skos:related lf:slope-class-MO ;
+.
+lf:simple-erosional-landform-pattern-RR
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Rolling rises is a simple type of erosional landform pattern characterised by Very low relief and Moderately inclined modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-RR"^^xsd:anyURI ;
+  rdfs:label "Rolling rises"@en ;
+  skos:definition """<p>Rolling rises is a simple type of erosional landform pattern characterised by Very low relief and Moderately inclined modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:notation "RR" ;
+  skos:prefLabel "Rolling rises"@en ;
+  skos:related lf:relief-class-R ;
+  skos:related lf:slope-class-MO ;
+.
+lf:simple-erosional-landform-pattern-SH
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Steep hills is a simple type of erosional landform pattern characterised by High relief and Steep modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-SH"^^xsd:anyURI ;
+  rdfs:label "Steep hills"@en ;
+  skos:definition """<p>Steep hills is a simple type of erosional landform pattern characterised by High relief and Steep modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:notation "SH" ;
+  skos:prefLabel "Steep hills"@en ;
+  skos:related lf:relief-class-H ;
+  skos:related lf:slope-class-ST ;
+.
+lf:simple-erosional-landform-pattern-SL
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Steep low hills is a simple type of erosional landform pattern characterised by Low relief and Steep modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-SL"^^xsd:anyURI ;
+  rdfs:label "Steep low hills"@en ;
+  skos:definition """<p>Steep low hills is a simple type of erosional landform pattern characterised by Low relief and Steep modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:notation "SL" ;
+  skos:prefLabel "Steep low hills"@en ;
+  skos:related lf:relief-class-L ;
+  skos:related lf:slope-class-ST ;
+.
+lf:simple-erosional-landform-pattern-SM
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Steep mountains is a simple type of erosional landform pattern characterised by Very high relief and Steep modal slope.</p>
+<p>Relief is Very high > 300m (~500m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-SM"^^xsd:anyURI ;
+  rdfs:label "Steep mountains"@en ;
+  skos:definition """<p>Steep mountains is a simple type of erosional landform pattern characterised by Very high relief and Steep modal slope.</p>
+<p>Relief is Very high > 300m (~500m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:notation "SM" ;
+  skos:prefLabel "Steep mountains"@en ;
+  skos:related lf:relief-class-M ;
+  skos:related lf:slope-class-ST ;
+.
+lf:simple-erosional-landform-pattern-SR
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Steep rises is a simple type of erosional landform pattern characterised by Very low relief and Steep modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-SR"^^xsd:anyURI ;
+  rdfs:label "Steep rises"@en ;
+  skos:definition """<p>Steep rises is a simple type of erosional landform pattern characterised by Very low relief and Steep modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:notation "SR" ;
+  skos:prefLabel "Steep rises"@en ;
+  skos:related lf:relief-class-R ;
+  skos:related lf:slope-class-ST ;
+.
+lf:simple-erosional-landform-pattern-UH
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Undulating hills is a simple type of erosional landform pattern characterised by High relief and Gently inclined modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-UH"^^xsd:anyURI ;
+  rdfs:label "Undulating hills"@en ;
+  skos:definition """<p>Undulating hills is a simple type of erosional landform pattern characterised by High relief and Gently inclined modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>""" ;
+  skos:notation "UH" ;
+  skos:prefLabel "Undulating hills"@en ;
+  skos:related lf:relief-class-H ;
+  skos:related lf:slope-class-GE ;
+.
+lf:simple-erosional-landform-pattern-UL
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Undulating low hills is a simple type of erosional landform pattern characterised by Low relief and Gently inclined modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Gently inclined < 3-10% (~6%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-UL"^^xsd:anyURI ;
+  rdfs:label "Undulating low hills"@en ;
+  skos:definition """<p>Undulating low hills is a simple type of erosional landform pattern characterised by Low relief and Gently inclined modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Gently inclined < 3-10% (~6%)</p>""" ;
+  skos:notation "UL" ;
+  skos:prefLabel "Undulating low hills"@en ;
+  skos:related lf:relief-class-L ;
+  skos:related lf:slope-class-GE ;
+.
+lf:simple-erosional-landform-pattern-UP
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Undulating plain is a simple type of erosional landform pattern characterised by Extremely low relief and Gently inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-UP"^^xsd:anyURI ;
+  rdfs:label "Undulating plain"@en ;
+  skos:definition """<p>Undulating plain is a simple type of erosional landform pattern characterised by Extremely low relief and Gently inclined modal slope.</p>
+<p>Relief is Extremely low < 9m (~5m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>""" ;
+  skos:notation "UP" ;
+  skos:prefLabel "Undulating plain"@en ;
+  skos:related lf:relief-class-P ;
+  skos:related lf:slope-class-GE ;
+.
+lf:simple-erosional-landform-pattern-UR
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Undulating rises is a simple type of erosional landform pattern characterised by Very low relief and Gently inclined modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-UR"^^xsd:anyURI ;
+  rdfs:label "Undulating rises"@en ;
+  skos:definition """<p>Undulating rises is a simple type of erosional landform pattern characterised by Very low relief and Gently inclined modal slope.</p>
+<p>Relief is Very low 9-30m (~15m)</p>
+<p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>""" ;
+  skos:notation "UR" ;
+  skos:prefLabel "Undulating rises"@en ;
+  skos:related lf:relief-class-R ;
+  skos:related lf:slope-class-GE ;
+.
+lf:simple-erosional-landform-pattern-VH
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Very steep hills is a simple type of erosional landform pattern characterised by High relief and Very steep modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-VH"^^xsd:anyURI ;
+  rdfs:label "Very steep hills"@en ;
+  skos:definition """<p>Very steep hills is a simple type of erosional landform pattern characterised by High relief and Very steep modal slope.</p>
+<p>Relief is High 90-300m (~150m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>""" ;
+  skos:notation "VH" ;
+  skos:prefLabel "Very steep hills"@en ;
+  skos:related lf:relief-class-H ;
+  skos:related lf:slope-class-VS ;
+.
+lf:simple-erosional-landform-pattern-VL
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Very steep low hills is a simple type of erosional landform pattern characterised by Low relief and Very steep modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-VL"^^xsd:anyURI ;
+  rdfs:label "Very steep low hills"@en ;
+  skos:definition """<p>Very steep low hills is a simple type of erosional landform pattern characterised by Low relief and Very steep modal slope.</p>
+<p>Relief is Low 30-90m (~50m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>""" ;
+  skos:notation "VL" ;
+  skos:prefLabel "Very steep low hills"@en ;
+  skos:related lf:relief-class-L ;
+  skos:related lf:slope-class-VS ;
+.
+lf:simple-erosional-landform-pattern-VM
+  a skos:Concept ;
+  skos-ext:isMemberOf lf:simple-erosional-landform-patterns ;
+  dcterms:description """<p>Very steep mountains is a simple type of erosional landform pattern characterised by Very high relief and Very steep modal slope.</p>
+<p>Relief is Very high > 300m (~500m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-VM"^^xsd:anyURI ;
+  rdfs:label "Very steep mountains"@en ;
+  skos:definition """<p>Very steep mountains is a simple type of erosional landform pattern characterised by Very high relief and Very steep modal slope.</p>
+<p>Relief is Very high > 300m (~500m)</p>
+<p>Modal terrain slope is Very steep 56-100% (~70%)</p>""" ;
+  skos:notation "VM" ;
+  skos:prefLabel "Very steep mountains"@en ;
+  skos:related lf:relief-class-M ;
+  skos:related lf:slope-class-VS ;
+.
+lf:simple-erosional-landform-patterns
+  a skos:Collection ;
+  dcterms:description "Simple erosional landform patterns are based on relief and modal slope. {@en}"^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-patterns"^^xsd:anyURI ;
+  rdfs:label "Simple erosional landform patterns"@en ;
+  skos:definition "Simple erosional landform patterns are based on relief and modal slope."@en ;
+  skos:member lf:simple-erosional-landform-pattern-B ;
+  skos:member lf:simple-erosional-landform-pattern-GP ;
+  skos:member lf:simple-erosional-landform-pattern-GR ;
+  skos:member lf:simple-erosional-landform-pattern-LP ;
+  skos:member lf:simple-erosional-landform-pattern-PH ;
+  skos:member lf:simple-erosional-landform-pattern-PM ;
+  skos:member lf:simple-erosional-landform-pattern-RH ;
+  skos:member lf:simple-erosional-landform-pattern-RL ;
+  skos:member lf:simple-erosional-landform-pattern-RM ;
+  skos:member lf:simple-erosional-landform-pattern-RP ;
+  skos:member lf:simple-erosional-landform-pattern-RR ;
+  skos:member lf:simple-erosional-landform-pattern-SH ;
+  skos:member lf:simple-erosional-landform-pattern-SL ;
+  skos:member lf:simple-erosional-landform-pattern-SM ;
+  skos:member lf:simple-erosional-landform-pattern-SR ;
+  skos:member lf:simple-erosional-landform-pattern-UH ;
+  skos:member lf:simple-erosional-landform-pattern-UL ;
+  skos:member lf:simple-erosional-landform-pattern-UP ;
+  skos:member lf:simple-erosional-landform-pattern-UR ;
+  skos:member lf:simple-erosional-landform-pattern-VH ;
+  skos:member lf:simple-erosional-landform-pattern-VL ;
+  skos:member lf:simple-erosional-landform-pattern-VM ;
+  skos:prefLabel "Simple erosional landform patterns"@en ;
 .
 lf:slope
   a skos:Collection ;
