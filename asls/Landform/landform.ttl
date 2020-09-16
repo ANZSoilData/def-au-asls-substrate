@@ -2175,7 +2175,8 @@ lf:landform-pattern-HIL-occasional-elements
   skos:member lf:landform-element-SCA ;
   skos:member lf:landform-element-SUS ;
   skos:member lf:landform-element-TAL ;
-  skos:member lf:landform-element-TER ;
+  #skos:member lf:landform-element-TER ;
+  #dead link commented out by rowan, again
   skos:member lf:landform-element-TOR ;
   skos:prefLabel "Occasional elements of Hills"@en ;
   skos:related lf:landform-pattern-HIL ;
@@ -3210,7 +3211,8 @@ lf:landform-pattern-TER-typical-elements
   skos:member lf:landform-element-CBE ;
   skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-SCA ;
-  skos:member lf:landform-element-TER ;
+  # skos:member lf:landform-element-TER ;
+  # dead link commented out by rowan, again.
   skos:prefLabel "Typical elements of Terrace"@en ;
   skos:related lf:landform-pattern-TER ;
 .
