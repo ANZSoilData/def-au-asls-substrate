@@ -20,6 +20,7 @@
 
 asls:landform
   a owl:Ontology ;
+  a skos:ConceptScheme ;
   dcterms:contributor <https://orcid.org/0000-0002-0693-1899> ;
   dcterms:contributor <https://orcid.org/0000-0002-3884-3420> ;
   dcterms:created "2018-01-16"^^xsd:date ;
@@ -29,7 +30,7 @@ asls:landform
 <p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>."""^^rdf:HTML ;
   dcterms:isFormatOf "<p>Chapter 5 <i>Landform</i>, by J.G. Speight, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a></p>"^^rdf:HTML ;
   dcterms:license <http://creativecommons.org/licences/by/4.0> ;
-  dcterms:modified "2019-01-16"^^xsd:date ;
+  dcterms:modified "2020-09-16"^^xsd:date ;
   dcterms:publisher <http://www.publish.csiro.au/> ;
   dcterms:rights "copyright CSIRO 2009, 2020. All rights reserved." ;
   dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)" ;
@@ -42,6 +43,7 @@ asls:landform
   owl:imports <http://purl.org/linked-data/registry> ;
   owl:imports ui: ;
   owl:imports sosa: ;
+  skos:changeNote "2020-09-16 - made asls:landform a skos:ConceptScheme and added skos:inScheme link from all concepts" ;
 .
 lf:compound-morphological-types
   a skos:Collection ;
@@ -62,6 +64,7 @@ lf:element-dimension-height
   rdfs:label "Height of landform element"@en ;
   skos:altLabel "Depth of landform element"@en ;
   skos:definition "difference in elevation between the upper and lower margins of the element, measured along any slope line. Height can mean quite different things and must be carefully defined. For crests, ridges and hillocks, define the upper margin as the point where the selected slope line coalesces with others to form the ridge line. For depressions, define the lower margin as the point where the selected slope line coalesces with others to form the course line."@en ;
+  skos:inScheme asls:landform ;
   skos:prefLabel "Height of landform element"@en ;
 .
 lf:element-dimension-length
@@ -72,6 +75,7 @@ lf:element-dimension-length
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/element-dimension-length"^^xsd:anyURI ;
   rdfs:label "Length of landform element"@en ;
   skos:definition "horizontal distance between the upper and lower margins of the element, measured down a slope line. For crests, the slope line to be used is the ridge line; for depressions, the course line (see Figure 2a). By this definition, many crests and open depressions become very long."@en ;
+  skos:inScheme asls:landform ;
   skos:prefLabel "Length of landform element"@en ;
 .
 lf:element-dimension-width
@@ -82,6 +86,7 @@ lf:element-dimension-width
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/element-dimension-width"^^xsd:anyURI ;
   rdfs:label "Width of landform element"@en ;
   skos:definition "horizontal distance between the lateral margins of the element, measured perpendicularly to the length."@en ;
+  skos:inScheme asls:landform ;
   skos:prefLabel "Width of landform element"@en ;
 .
 lf:element-dimensions
@@ -103,6 +108,7 @@ lf:geomorphological-agent-BI
   rdfs:comment "Biological agent"@en ;
   rdfs:label "Non-human biological agents"@en ;
   skos:definition "Non-human biological agents; coral (Biological agents)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BI" ;
   skos:prefLabel "Non-human biological agents"@en ;
 .
@@ -114,6 +120,7 @@ lf:geomorphological-agent-CH
   rdfs:comment "Stream flow"@en ;
   rdfs:label "Channelled stream flow"@en ;
   skos:definition "Channelled stream flow (Stream flow)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CH" ;
   skos:prefLabel "Channelled stream flow"@en ;
 .
@@ -125,6 +132,7 @@ lf:geomorphological-agent-DI
   rdfs:comment "Internal forces"@en ;
   rdfs:label "Diastrophism"@en ;
   skos:definition "Diastrophism; earth movements (Internal forces)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DI" ;
   skos:prefLabel "Diastrophism"@en ;
 .
@@ -136,6 +144,7 @@ lf:geomorphological-agent-EU
   rdfs:comment "Standing water"@en ;
   rdfs:label "Eustasy"@en ;
   skos:definition "Eustasy; changes in sea level (Standing water)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "EU" ;
   skos:prefLabel "Eustasy"@en ;
 .
@@ -147,6 +156,7 @@ lf:geomorphological-agent-FR
   rdfs:comment "Ice"@en ;
   rdfs:label "Frost"@en ;
   skos:definition "Frost (Ice)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "FR" ;
   skos:prefLabel "Frost"@en ;
 .
@@ -158,6 +168,7 @@ lf:geomorphological-agent-GL
   rdfs:comment "Ice"@en ;
   rdfs:label "Glacier flow"@en ;
   skos:definition "Glacier flow (Ice)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "GL" ;
   skos:prefLabel "Glacier flow"@en ;
 .
@@ -169,6 +180,7 @@ lf:geomorphological-agent-GR
   rdfs:comment "Gravity"@en ;
   rdfs:label "Gravity"@en ;
   skos:definition "Collapse, or particle fall."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "GR" ;
   skos:prefLabel "Gravity"@en ;
 .
@@ -180,6 +192,7 @@ lf:geomorphological-agent-HU
   rdfs:comment "Biological agents"@en ;
   rdfs:label "Human agents"@en ;
   skos:definition "Human agents (Biological agents)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "HU" ;
   skos:prefLabel "Human agents"@en ;
 .
@@ -191,6 +204,7 @@ lf:geomorphological-agent-IM
   rdfs:comment "Extraterrestrial agents"@en ;
   rdfs:label "Impact by meteors"@en ;
   skos:definition "Impact by meteors (Extraterrestrial agents)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "IM" ;
   skos:prefLabel "Impact by meteors"@en ;
 .
@@ -202,6 +216,7 @@ lf:geomorphological-agent-OV
   rdfs:comment "Stream flow"@en ;
   rdfs:label "Overbank stream flow, unchannelled"@en ;
   skos:definition "Overbank stream flow, unchannelled (Stream flow)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "OV" ;
   skos:prefLabel "Overbank stream flow, unchannelled"@en ;
 .
@@ -213,6 +228,7 @@ lf:geomorphological-agent-SH
   rdfs:comment "Precipitation"@en ;
   rdfs:label "Sheet flow, sheet wash, surface wash"@en ;
   skos:definition "Sheet flow, sheet wash, surface wash (Precipitation)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SH" ;
   skos:prefLabel "Sheet flow, sheet wash, surface wash"@en ;
 .
@@ -224,6 +240,7 @@ lf:geomorphological-agent-SM
   rdfs:comment "Precipitation"@en ;
   rdfs:label "Soil moisture status changes"@en ;
   skos:definition "Soil moisture status changes; creep (Precipitation)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SM" ;
   skos:prefLabel "Soil moisture status changes"@en ;
 .
@@ -235,6 +252,7 @@ lf:geomorphological-agent-SO
   rdfs:comment "Precipitation"@en ;
   rdfs:label "Solution"@en ;
   skos:definition "Solution (Precipitation)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SO" ;
   skos:prefLabel "Solution"@en ;
 .
@@ -246,6 +264,7 @@ lf:geomorphological-agent-TI
   rdfs:comment "Standing water"@en ;
   rdfs:label "Tides"@en ;
   skos:definition "Tides (Standing water)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TI" ;
   skos:prefLabel "Tides"@en ;
 .
@@ -257,6 +276,7 @@ lf:geomorphological-agent-VO
   rdfs:comment "Internal forces"@en ;
   rdfs:label "Volcanism"@en ;
   skos:definition "Volcanism (Internal forces)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "VO" ;
   skos:prefLabel "Volcanism"@en ;
 .
@@ -268,6 +288,7 @@ lf:geomorphological-agent-WA
   rdfs:comment "Standing water"@en ;
   rdfs:label "Waves"@en ;
   skos:definition "Waves (Standing water)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "WA" ;
   skos:prefLabel "Waves"@en ;
 .
@@ -279,6 +300,7 @@ lf:geomorphological-agent-WI
   rdfs:comment "Wind"@en ;
   rdfs:label "Wind"@en ;
   skos:definition "Wind (Wind)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "WI" ;
   skos:prefLabel "Wind"@en ;
 .
@@ -290,6 +312,7 @@ lf:geomorphological-agent-WM
   rdfs:comment "Precipitation"@en ;
   rdfs:label "Water-aided mass movements"@en ;
   skos:definition "Water-aided mass movements; landslides (Precipitation)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "WM" ;
   skos:prefLabel "Water-aided mass movements"@en ;
 .
@@ -326,6 +349,7 @@ lf:landform-element-ALC
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-ALC"^^xsd:anyURI ;
   rdfs:label "Alcove"@en ;
   skos:definition "moderately inclined to very steep, short open depression with concave cross-section, eroded by collapse, landslides, creep or surface wash."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "ALC" ;
   skos:prefLabel "Alcove"@en ;
 .
@@ -336,6 +360,7 @@ lf:landform-element-BAN
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-BAN"^^xsd:anyURI ;
   rdfs:label "Bank (stream bank)"@en ;
   skos:definition "very short, very wide slope, moderately inclined to precipitous, forming the marginal upper parts of a stream channel and resulting from erosion or aggradation by channelled stream flow."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BAN" ;
   skos:prefLabel "Bank (stream bank)"@en ;
 .
@@ -346,6 +371,7 @@ lf:landform-element-BAR
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-BAR"^^xsd:anyURI ;
   rdfs:label "Bar (stream bar)"@en ;
   skos:definition "elongated, gently to moderately inclined, low ridge built up by channelled stream flow; part of a stream bed."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BAR" ;
   skos:prefLabel "Bar (stream bar)"@en ;
 .
@@ -356,6 +382,7 @@ lf:landform-element-BEA
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-BEA"^^xsd:anyURI ;
   rdfs:label "Beach"@en ;
   skos:definition "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BEA" ;
   skos:prefLabel "Beach"@en ;
 .
@@ -366,6 +393,7 @@ lf:landform-element-BEN
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-BEN"^^xsd:anyURI ;
   rdfs:label "Bench"@en ;
   skos:definition "short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BEN" ;
   skos:prefLabel "Bench"@en ;
 .
@@ -376,6 +404,7 @@ lf:landform-element-BER
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-BER"^^xsd:anyURI ;
   rdfs:label "Berm"@en ;
   skos:definition "(i) short, very gently inclined to level minimal mid-slope in an embankment or cut face, eroded or aggraded by human activity. (ii) flat built up by waves above a beach."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BER" ;
   skos:prefLabel "Berm"@en ;
 .
@@ -386,6 +415,7 @@ lf:landform-element-BKP
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-BKP"^^xsd:anyURI ;
   rdfs:label "Backplain"@en ;
   skos:definition "very long, low, narrow, nearly level, sinuous ridge immediately adjacent to a stream channel, built up by overbank flow. Levees are built, usually in pairs bounding the two sides of a stream channel, at the level reached by frequent floods. This element is part of a covered plain landform pattern. For an artificial levee, use Embankment. See also Prior stream."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BKP" ;
   skos:prefLabel "Backplain"@en ;
 .
@@ -396,6 +426,7 @@ lf:landform-element-BOU
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-BOU"^^xsd:anyURI ;
   rdfs:label "Blow-out"@en ;
   skos:definition "usually small, open or closed depression excavated by the wind."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BOU" ;
   skos:prefLabel "Blow-out"@en ;
 .
@@ -406,6 +437,7 @@ lf:landform-element-BRI
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-BRI"^^xsd:anyURI ;
   rdfs:label "Beach ridge"@en ;
   skos:definition "very long, nearly straight, low ridge, built up by waves and usually modified by wind. A beach ridge is often a relict feature remote from the beach."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BRI" ;
   skos:prefLabel "Beach ridge"@en ;
 .
@@ -416,6 +448,7 @@ lf:landform-element-BRK
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-BRK"^^xsd:anyURI ;
   rdfs:label "Breakaway"@en ;
   skos:definition "steep maximal mid-slope or upper slope, generally comprising both a very short scarp (free face) that is often bare rockland, and a stony scarp-footslope (debris slope); often standing above a pediment."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BRK" ;
   skos:prefLabel "Breakaway"@en ;
 .
@@ -426,6 +459,7 @@ lf:landform-element-CBE
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-CBE"^^xsd:anyURI ;
   rdfs:label "Channel bench"@en ;
   skos:definition "flat at the margin of a stream channel aggraded and in part eroded by over-bank and channelled stream flow; an incipient flood plain. Channel benches have been referred to as 'low terraces', but the term terrace should be restricted to landform patterns above the influence of active stream flow."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CBE" ;
   skos:prefLabel "Channel bench"@en ;
 .
@@ -436,6 +470,7 @@ lf:landform-element-CFS
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-CFS"^^xsd:anyURI ;
   rdfs:label "Cliff-footslope"@en ;
   skos:definition "slope situated below a cliff, with its contours generally parallel to the line of the cliff, eroded by sheet wash or water-aided mass movement, and aggraded locally by collapsed material from above."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CFS" ;
   skos:prefLabel "Cliff-footslope"@en ;
 .
@@ -446,6 +481,7 @@ lf:landform-element-CIR
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-CIR"^^xsd:anyURI ;
   rdfs:label "Cirque"@en ;
   skos:definition "precipitous to gently inclined, typically closed depression of concave contour and profile excavated by ice. The closed part of the depression may be shallow, the larger part being an open depression like an alcove."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CIR" ;
   skos:prefLabel "Cirque"@en ;
 .
@@ -456,6 +492,7 @@ lf:landform-element-CLI
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-CLI"^^xsd:anyURI ;
   rdfs:label "Cliff"@en ;
   skos:definition "very wide, cliffed (greater than 72º) maximal slope usually eroded by gravitational fall as a result of erosion of the base by various agencies; sometimes built up by marine organisms (cf. scarp)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CLI" ;
   skos:prefLabel "Cliff"@en ;
 .
@@ -466,6 +503,7 @@ lf:landform-element-CON
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-CON"^^xsd:anyURI ;
   rdfs:label "Cone (volcanic)"@en ;
   skos:definition "hillock with a circular symmetry built up by volcanism. The crest may form a ring around a crater."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CON" ;
   skos:prefLabel "Cone (volcanic)"@en ;
 .
@@ -476,6 +514,7 @@ lf:landform-element-COS
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-COS"^^xsd:anyURI ;
   rdfs:label "Cut-over surface"@en ;
   skos:definition "flat eroded by human activity."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "COS" ;
   skos:prefLabel "Cut-over surface"@en ;
 .
@@ -486,6 +525,7 @@ lf:landform-element-CRA
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-CRA"^^xsd:anyURI ;
   rdfs:label "Crater"@en ;
   skos:definition "steep to precipitous closed depression excavated by explosions due to vulcanism, human action, or impact of an extraterrestrial object."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CRA" ;
   skos:prefLabel "Crater"@en ;
 .
@@ -496,6 +536,7 @@ lf:landform-element-CUT
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-CUT"^^xsd:anyURI ;
   rdfs:label "Cut face"@en ;
   skos:definition "slope eroded by human activity."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CUT" ;
   skos:prefLabel "Cut face"@en ;
 .
@@ -506,6 +547,7 @@ lf:landform-element-DAM
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DAM"^^xsd:anyURI ;
   rdfs:label "Dam"@en ;
   skos:definition "ridge built up by human activity so as to close a depression."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DAM" ;
   skos:prefLabel "Dam"@en ;
 .
@@ -516,6 +558,7 @@ lf:landform-element-DBA
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DBA"^^xsd:anyURI ;
   rdfs:label "Deflation basin"@en ;
   skos:definition "basin excavated by wind erosion which removes loose material, commonly above a resistant or wet layer."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DBA" ;
   skos:prefLabel "Deflation basin"@en ;
 .
@@ -526,6 +569,7 @@ lf:landform-element-DDE
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DDE"^^xsd:anyURI ;
   rdfs:label "Drainage depression"@en ;
   skos:definition "level to gently inclined, long, narrow, shallow open depression with smoothly concave cross-section, rising to moderately inclined side slopes, eroded or aggraded by sheet wash."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DDE" ;
   skos:prefLabel "Drainage depression"@en ;
 .
@@ -536,6 +580,7 @@ lf:landform-element-DOC
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DOC"^^xsd:anyURI ;
   rdfs:label "Collapse doline"@en ;
   skos:definition "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by collapse of underlying caves within bedrock."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DOC" ;
   skos:prefLabel "Collapse doline"@en ;
 .
@@ -546,6 +591,7 @@ lf:landform-element-DOL
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DOL"^^xsd:anyURI ;
   rdfs:label "Solution doline"@en ;
   skos:definition "steep-sided, circular or elliptical closed depression, commonly funnel-shaped, characterised by subsurface drainage and formed by dissolution of the surface or underlying bedrock."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DOL" ;
   skos:prefLabel "Solution doline"@en ;
 .
@@ -556,6 +602,7 @@ lf:landform-element-DUB
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DUB"^^xsd:anyURI ;
   rdfs:label "Barchan dune"@en ;
   skos:definition "crescent-shaped dune with tips extending leeward (downwind), making this side concave and the windward (upwind) side convex. Barchan dunes tend to be arranged in chains extending in the dominant wind direction."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DUB" ;
   skos:prefLabel "Barchan dune"@en ;
 .
@@ -566,6 +613,7 @@ lf:landform-element-DUC
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DUC"^^xsd:anyURI ;
   rdfs:label "Dunecrest"@en ;
   skos:definition "crest built up or eroded by the wind (see dune)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DUC" ;
   skos:prefLabel "Dunecrest"@en ;
 .
@@ -576,6 +624,7 @@ lf:landform-element-DUF
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DUF"^^xsd:anyURI ;
   rdfs:label "Linear or longitudinal (seif) dune"@en ;
   skos:definition "large, sharp-crested, elongated, longitudinal (linear) dune or chain of sand dunes, oriented parallel, rather than transverse (perpendicular), to the prevailing wind. (Not to be confused with the trailing arms of parabolic dunes.)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DUF" ;
   skos:prefLabel "Linear or longitudinal (seif) dune"@en ;
 .
@@ -586,6 +635,7 @@ lf:landform-element-DUH
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DUH"^^xsd:anyURI ;
   rdfs:label "Hummocky (weakly oriented) dune"@en ;
   skos:definition "very gently to moderately inclined rises or hillocks built up or eroded by wind and lacking distinct orientation or regular pattern."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DUH" ;
   skos:prefLabel "Hummocky (weakly oriented) dune"@en ;
 .
@@ -596,6 +646,7 @@ lf:landform-element-DUN
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DUN"^^xsd:anyURI ;
   rdfs:label "Dune"@en ;
   skos:definition "moderately inclined to very steep ridge or hillock built up by the wind. This element may comprise dunecrest and duneslope."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DUN" ;
   skos:prefLabel "Dune"@en ;
 .
@@ -606,6 +657,7 @@ lf:landform-element-DUP
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DUP"^^xsd:anyURI ;
   rdfs:label "Parabolic dune"@en ;
   skos:definition "sand dune with a long, scoop-shaped form, convex in the downwind direction so that its horns point upwind, whose ground plan approximates the form of a parabola. The dunes left behind can be referred to as trailing arms. Where many such dunes have traversed an area, these can give the appearance of linear dunes."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DUP" ;
   skos:prefLabel "Parabolic dune"@en ;
 .
@@ -616,6 +668,7 @@ lf:landform-element-DUS
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-DUS"^^xsd:anyURI ;
   rdfs:label "Duneslope"@en ;
   skos:definition "slope built up or eroded by the wind (see dune)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DUS" ;
   skos:prefLabel "Duneslope"@en ;
 .
@@ -626,6 +679,7 @@ lf:landform-element-EMB
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-EMB"^^xsd:anyURI ;
   rdfs:label "Embankment"@en ;
   skos:definition "ridge or slope built up by human activity."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "EMB" ;
   skos:prefLabel "Embankment"@en ;
 .
@@ -636,6 +690,7 @@ lf:landform-element-EST
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-EST"^^xsd:anyURI ;
   rdfs:label "Estuary"@en ;
   skos:definition "stream channel close to its junction with a sea or lake, where the action of channelled stream flow is modified by tide and waves. The width typically increases downstream."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "EST" ;
   skos:prefLabel "Estuary"@en ;
 .
@@ -646,6 +701,7 @@ lf:landform-element-FAN
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-FAN"^^xsd:anyURI ;
   rdfs:label "Fan"@en ;
   skos:definition "large, gently inclined to level element with radial slope lines inclined away from a point, resulting from aggradation, or occasionally from erosion, by channelled, often braided, stream flow, or possibly by sheet flow."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "FAN" ;
   skos:prefLabel "Fan"@en ;
 .
@@ -656,6 +712,7 @@ lf:landform-element-FIL
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-FIL"^^xsd:anyURI ;
   rdfs:label "Fill-top"@en ;
   skos:definition "flat aggraded by human activity."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "FIL" ;
   skos:prefLabel "Fill-top"@en ;
 .
@@ -666,6 +723,7 @@ lf:landform-element-FLD
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-FLD"^^xsd:anyURI ;
   rdfs:label "Flood-out"@en ;
   skos:definition "flat inclined radially away from a point on the margin or at the end of a stream channel, aggraded by over-bank stream flow, or by channelled stream flow associated with channels developed within the over-bank flow; part of a covered plain landform pattern."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "FLD" ;
   skos:prefLabel "Flood-out"@en ;
 .
@@ -676,6 +734,7 @@ lf:landform-element-FOO
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-FOO"^^xsd:anyURI ;
   rdfs:label "Footslope"@en ;
   skos:definition "moderately to very gently inclined waning lower slope resulting from aggradation or erosion by sheet flow, earth flow or creep (cf. pediment)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "FOO" ;
   skos:prefLabel "Footslope"@en ;
 .
@@ -686,6 +745,7 @@ lf:landform-element-FOR
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-FOR"^^xsd:anyURI ;
   rdfs:label "Foredune"@en ;
   skos:definition "very long, nearly straight, moderately inclined to very steep ridge built up by the wind from material from an adjacent beach."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "FOR" ;
   skos:prefLabel "Foredune"@en ;
 .
@@ -696,6 +756,7 @@ lf:landform-element-GUL
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-GUL"^^xsd:anyURI ;
   rdfs:label "Gully"@en ;
   skos:definition "open depression with short, precipitous walls and moderately inclined to very gently inclined floor or small stream channel, eroded by channelled stream flow and consequent collapse and water-aided mass movement."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "GUL" ;
   skos:prefLabel "Gully"@en ;
 .
@@ -706,6 +767,7 @@ lf:landform-element-HCR
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-HCR"^^xsd:anyURI ;
   rdfs:label "Hillcrest"@en ;
   skos:definition "very gently inclined to steep crest, smoothly convex, eroded mainly by creep and sheet wash. A typical element of mountains, hills, low hills and rises."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "HCR" ;
   skos:prefLabel "Hillcrest"@en ;
 .
@@ -716,6 +778,7 @@ lf:landform-element-HSL
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-HSL"^^xsd:anyURI ;
   rdfs:label "Hillslope"@en ;
   skos:definition "gently inclined to precipitous slope, commonly simple and maximal, eroded by sheet wash, creep or water-aided mass movement. A typical element of mountains, hills, low hills and rises."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "HSL" ;
   skos:prefLabel "Hillslope"@en ;
 .
@@ -726,6 +789,7 @@ lf:landform-element-ITF
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-ITF"^^xsd:anyURI ;
   rdfs:label "Intertidal flat"@en ;
   skos:definition "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "ITF" ;
   skos:prefLabel "Intertidal flat"@en ;
   skos:related lf:landform-element-TDF ;
@@ -737,6 +801,7 @@ lf:landform-element-LAG
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-LAG"^^xsd:anyURI ;
   rdfs:label "Lagoon"@en ;
   skos:definition "closed depression filled with water that is typically salt or brackish, bounded at least in part by forms aggraded or built up by waves or reef-building organisms."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LAG" ;
   skos:prefLabel "Lagoon"@en ;
 .
@@ -747,6 +812,7 @@ lf:landform-element-LAK
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-LAK"^^xsd:anyURI ;
   rdfs:label "Lake"@en ;
   skos:definition "large, water-filled closed depression."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LAK" ;
   skos:prefLabel "Lake"@en ;
 .
@@ -757,6 +823,7 @@ lf:landform-element-LDS
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-LDS"^^xsd:anyURI ;
   rdfs:label "Landslide"@en ;
   skos:definition "moderately inclined to very steep slope, eroded in the upper part and aggraded in the lower part by water-aided mass movement, characterised by irregular hummocks."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LDS" ;
   skos:prefLabel "Landslide"@en ;
 .
@@ -767,6 +834,7 @@ lf:landform-element-LEV
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-LEV"^^xsd:anyURI ;
   rdfs:label "Levee"@en ;
   skos:definition "very long, low, narrow, nearly level, sinuous ridge immediately adjacent to a stream channel, built up by over-bank flow. Levees are built, usually in pairs bounding the two sides of a stream channel, at the level reached by frequent floods. This element is part of a covered plain landform pattern. For an artificial levee, use embankment. See also prior stream."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LEV" ;
   skos:prefLabel "Levee"@en ;
 .
@@ -777,6 +845,7 @@ lf:landform-element-LUN
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-LUN"^^xsd:anyURI ;
   rdfs:label "Lunette"@en ;
   skos:definition "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LUN" ;
   skos:prefLabel "Lunette"@en ;
 .
@@ -787,6 +856,7 @@ lf:landform-element-MAA
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-MAA"^^xsd:anyURI ;
   rdfs:label "Maar"@en ;
   skos:definition "elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MAA" ;
   skos:prefLabel "Maar"@en ;
 .
@@ -797,6 +867,7 @@ lf:landform-element-MOU
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-MOU"^^xsd:anyURI ;
   rdfs:label "Mound"@en ;
   skos:definition "hillock built up by human activity."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MOU" ;
   skos:prefLabel "Mound"@en ;
 .
@@ -807,6 +878,7 @@ lf:landform-element-OXB
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-OXB"^^xsd:anyURI ;
   rdfs:label "Ox-bow"@en ;
   skos:definition "long, curved, commonly water-filled closed depression eroded by channelled stream flow but closed as a result of aggradation by channelled or over-bank stream flow during the formation of a meander plain landform pattern. The floor of an ox-bow may be more or less aggraded by over-bank stream flow, wind, and biological (peat) accumulation."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "OXB" ;
   skos:prefLabel "Ox-bow"@en ;
 .
@@ -817,6 +889,7 @@ lf:landform-element-PED
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-PED"^^xsd:anyURI ;
   rdfs:label "Pediment"@en ;
   skos:definition "large, gently inclined to level (<1%) waning lower slope, with slope lines inclined in a single direction, or somewhat convergent or divergent, eroded or sometimes slightly aggraded by sheet flow (cf. footslope). It is underlain by bedrock."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PED" ;
   skos:prefLabel "Pediment"@en ;
 .
@@ -827,6 +900,7 @@ lf:landform-element-PIT
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-PIT"^^xsd:anyURI ;
   rdfs:label "Pit"@en ;
   skos:definition "closed depression excavated by human activity."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PIT" ;
   skos:prefLabel "Pit"@en ;
 .
@@ -837,6 +911,7 @@ lf:landform-element-PLA
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-PLA"^^xsd:anyURI ;
   rdfs:label "Plain"@en ;
   skos:definition "large, very gently inclined or level element, of unspecified geomorphological agent or mode of activity."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PLA" ;
   skos:prefLabel "Plain"@en ;
 .
@@ -848,6 +923,7 @@ lf:landform-element-PLY
   rdfs:label "Playa"@en ;
   skos:altLabel "Pan"@en ;
   skos:definition "large, shallow, level-floored closed depression, intermittently water-filled, but mainly dry due to evaporation, bounded as a rule by flats aggraded by sheet flow and channelled stream flow."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PLY" ;
   skos:prefLabel "Playa"@en ;
 .
@@ -858,6 +934,7 @@ lf:landform-element-PST
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-PST"^^xsd:anyURI ;
   rdfs:label "Prior stream"@en ;
   skos:definition "long, generally sinuous, low ridge built up from materials originally deposited by stream flow along the line of a former stream channel. The landform element may include a depression marking the old stream bed, and relict levees."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PST" ;
   skos:prefLabel "Prior stream"@en ;
 .
@@ -868,6 +945,7 @@ lf:landform-element-REC
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-REC"^^xsd:anyURI ;
   rdfs:label "Risecrest"@en ;
   skos:definition "crest of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "REC" ;
   skos:prefLabel "Risecrest"@en ;
 .
@@ -878,6 +956,7 @@ lf:landform-element-REF
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-REF"^^xsd:anyURI ;
   rdfs:label "Reef flat"@en ;
   skos:definition "flat built up to sea level by marine organisms."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "REF" ;
   skos:prefLabel "Reef flat"@en ;
 .
@@ -888,6 +967,7 @@ lf:landform-element-RER
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-RER"^^xsd:anyURI ;
   rdfs:label "Residual rise"@en ;
   skos:definition "hillock of very low to extremely low relief (<30 m) and very gentle to steep slopes. This term is used to refer to an isolated rise surrounded by other landforms."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "RER" ;
   skos:prefLabel "Residual rise"@en ;
 .
@@ -898,6 +978,7 @@ lf:landform-element-RES
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-RES"^^xsd:anyURI ;
   rdfs:label "Riseslope"@en ;
   skos:definition "slope of hillock of very low to extremely low relief (<30 m) (see residual rise)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "RES" ;
   skos:prefLabel "Riseslope"@en ;
 .
@@ -908,6 +989,7 @@ lf:landform-element-RFL
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-RFL"^^xsd:anyURI ;
   rdfs:label "Rock flat"@en ;
   skos:definition "flat of bare consolidated rock, usually eroded by sheet wash."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "RFL" ;
   skos:prefLabel "Rock flat"@en ;
 .
@@ -918,6 +1000,7 @@ lf:landform-element-RPL
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-RPL"^^xsd:anyURI ;
   rdfs:label "Rock platform"@en ;
   skos:definition "flat of consolidated rock eroded by waves."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "RPL" ;
   skos:prefLabel "Rock platform"@en ;
 .
@@ -928,6 +1011,7 @@ lf:landform-element-SCA
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-SCA"^^xsd:anyURI ;
   rdfs:label "Scarp"@en ;
   skos:definition "very wide, steep to precipitous maximal slope eroded by gravity, water-aided mass movement or sheet flow (cf. cliff)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SCA" ;
   skos:prefLabel "Scarp"@en ;
 .
@@ -938,6 +1022,7 @@ lf:landform-element-SCD
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-SCD"^^xsd:anyURI ;
   rdfs:label "Scald"@en ;
   skos:definition "flat, bare of vegetation, from which soil has been eroded or excavated by surface wash or wind."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SCD" ;
   skos:prefLabel "Scald"@en ;
 .
@@ -948,6 +1033,7 @@ lf:landform-element-SCR
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-SCR"^^xsd:anyURI ;
   rdfs:label "Scroll"@en ;
   skos:definition "long, curved, very low ridge built up by channelled stream flow and left relict by channel migration. Part of a meander plain landform pattern."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SCR" ;
   skos:prefLabel "Scroll"@en ;
 .
@@ -958,6 +1044,7 @@ lf:landform-element-SFS
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-SFS"^^xsd:anyURI ;
   rdfs:label "Scarp-footslope"@en ;
   skos:definition "waning or minimal slope situated below a scarp, with its contours generally parallel to the line of the scarp."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SFS" ;
   skos:prefLabel "Scarp-footslope"@en ;
 .
@@ -968,6 +1055,7 @@ lf:landform-element-SRP
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-SRP"^^xsd:anyURI ;
   rdfs:label "Scroll plain"@en ;
   skos:definition "large flat resulting from aggradation by channelled stream flow as a stream migrates from side to side; the dominant element of a meander plain landform pattern. This landform element may include occurrences of scroll, swale and ox-bow."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SRP" ;
   skos:prefLabel "Scroll plain"@en ;
 .
@@ -978,6 +1066,7 @@ lf:landform-element-STB
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-STB"^^xsd:anyURI ;
   rdfs:label "Stream bed"@en ;
   skos:definition "linear, generally sinuous open depression forming the bottom of a stream channel, eroded and locally excavated, aggraded or built up by channelled stream flow. Parts that are built up include bars."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "STB" ;
   skos:prefLabel "Stream bed"@en ;
 .
@@ -989,6 +1078,7 @@ lf:landform-element-STC
   rdfs:label "Stream channel"@en ;
   skos:altLabel "Channel"@en ;
   skos:definition "linear, generally sinuous open depression, in parts eroded, excavated, built up and aggraded by channelled stream flow. This element comprises stream bed and banks."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "STC" ;
   skos:prefLabel "Stream channel"@en ;
 .
@@ -999,6 +1089,7 @@ lf:landform-element-STF
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-STF"^^xsd:anyURI ;
   rdfs:label "Supratidal flat"@en ;
   skos:definition "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. a supratidal flat (STF) is seldom inundated."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "STF" ;
   skos:prefLabel "Supratidal flat"@en ;
   skos:related lf:landform-element-TDF ;
@@ -1010,6 +1101,7 @@ lf:landform-element-SUS
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-SUS"^^xsd:anyURI ;
   rdfs:label "Summit surface"@en ;
   skos:definition "very wide, level to gently inclined crest with abrupt margins, commonly eroded by water-aided mass movement or sheet wash."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SUS" ;
   skos:prefLabel "Summit surface"@en ;
 .
@@ -1020,6 +1112,7 @@ lf:landform-element-SWL
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-SWL"^^xsd:anyURI ;
   rdfs:label "Swale"@en ;
   skos:definition "(i) linear, level-floored open depression excavated by wind, or left relict between ridges built up by wind or waves, or built up to a lesser height than them. (ii) long, curved open or closed depression left relict between scrolls built up by channelled stream flow."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SWL" ;
   skos:prefLabel "Swale"@en ;
 .
@@ -1030,6 +1123,7 @@ lf:landform-element-SWP
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-SWP"^^xsd:anyURI ;
   rdfs:label "Swamp"@en ;
   skos:definition "almost level, closed or almost closed depression with a seasonal or permanent watertable at or above the surface, commonly aggraded by overbank stream flow and sometimes biological (peat) accumulation."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SWP" ;
   skos:prefLabel "Swamp"@en ;
 .
@@ -1040,6 +1134,7 @@ lf:landform-element-TAL
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-TAL"^^xsd:anyURI ;
   rdfs:label "Talus"@en ;
   skos:definition "moderately inclined or steep waning lower slope, consisting of rock fragments aggraded by gravity."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TAL" ;
   skos:prefLabel "Talus"@en ;
 .
@@ -1050,6 +1145,7 @@ lf:landform-element-TDC
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-TDC"^^xsd:anyURI ;
   rdfs:label "Tidal creek"@en ;
   skos:definition "intermittently water-filled open depression in parts eroded, excavated, built up and aggraded by channelled tide-water flow; type of stream channel characterised by a rapid increase in width downstream."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TDC" ;
   skos:prefLabel "Tidal creek"@en ;
 .
@@ -1060,6 +1156,7 @@ lf:landform-element-TDF
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-TDF"^^xsd:anyURI ;
   rdfs:label "Tidal flat"@en ;
   skos:definition "large flat subject to inundation by water that is usually salt or brackish, aggraded by tides. An intertidal flat (ITF) is frequently inundated; a supratidal flat (STF) is seldom inundated."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TDF" ;
   skos:prefLabel "Tidal flat"@en ;
   skos:related lf:landform-element-ITF ;
@@ -1072,6 +1169,7 @@ lf:landform-element-TEF
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-TEF"^^xsd:anyURI ;
   rdfs:label "Terrace flat"@en ;
   skos:definition "small flat aggraded or eroded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; a former valley flat or part of a former flood plain."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TEF" ;
   skos:prefLabel "Terrace flat"@en ;
 .
@@ -1082,6 +1180,7 @@ lf:landform-element-TEP
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-TEP"^^xsd:anyURI ;
   rdfs:label "Terrace plain"@en ;
   skos:definition "large or very large flat aggraded by channelled or over-bank stream flow, standing above a scarp and no longer frequently inundated; part of a former flood plain."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TEP" ;
   skos:prefLabel "Terrace plain"@en ;
 .
@@ -1092,6 +1191,7 @@ lf:landform-element-TOR
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-TOR"^^xsd:anyURI ;
   rdfs:label "Tor"@en ;
   skos:definition "steep to precipitous hillock, typically convex, with a surface mainly of bare rock, either coherent or comprising subangular to rounded, large boulders (exhumed core-stones, also themselves called tors) separated by open fissures; eroded by sheet wash or water-aided mass movement."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TOR" ;
   skos:prefLabel "Tor"@en ;
 .
@@ -1102,6 +1202,7 @@ lf:landform-element-TRE
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-TRE"^^xsd:anyURI ;
   rdfs:label "Trench"@en ;
   skos:definition "open depression excavated by human activity."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TRE" ;
   skos:prefLabel "Trench"@en ;
 .
@@ -1112,6 +1213,7 @@ lf:landform-element-TUM
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-TUM"^^xsd:anyURI ;
   rdfs:label "Tumulus"@en ;
   skos:definition "hillock heaved up by volcanism (or, elsewhere, built up by human activity at a burial site)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TUM" ;
   skos:prefLabel "Tumulus"@en ;
 .
@@ -1122,6 +1224,7 @@ lf:landform-element-VLF
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-VLF"^^xsd:anyURI ;
   rdfs:label "Valley flat"@en ;
   skos:definition "small, gently inclined to level flat, aggraded or sometimes eroded by channelled or over-bank stream flow, typically enclosed by hillslopes; a miniature alluvial plain landform pattern."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "VLF" ;
   skos:prefLabel "Valley flat"@en ;
 .
@@ -1272,6 +1375,7 @@ lf:landform-pattern-ALF
 <p>Typical elements: stream bed, bar, plain.</p>
 <p>Common element: scarp.</p>
 <p>Compare with sheet-flood fan and pediment. </p>"""^^rdf:HTML ;
+  skos:inScheme asls:landform ;
   skos:notation "ALF" ;
   skos:prefLabel "Alluvial fan"@en ;
   skos:related lf:relief-class-P ;
@@ -1324,6 +1428,7 @@ lf:landform-pattern-ALP
 <p>Common elements: bar, scroll, levee, backplain, swamp.</p>
 <p>Occasional elements: ox-bow, flood-out, lake.</p>
 <p>Included types of landform pattern are: flood plain, bar plain, meander plain, covered plain, anastomotic plain, delta, stagnant alluvial plain, terrace, terraced land. </p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "ALP" ;
   skos:prefLabel "Alluvial plain"@en ;
   skos:related lf:relief-class-P ;
@@ -1394,6 +1499,7 @@ lf:landform-pattern-ANA
 <p>Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).</p>
 <p>Common element: swamp.</p>
 <p>Compare with other types under alluvial plain and flood plain. </p>"""^^rdf:HTML ;
+  skos:inScheme asls:landform ;
   skos:notation "ANA" ;
   skos:prefLabel "Anastomotic plain"@en ;
   skos:related lf:relief-class-P ;
@@ -1444,6 +1550,7 @@ Compare with mountains, hills, low hills, rises and plain."""@en ;
 Typical elements: ridge (dominant), stream bed or gully.
 Occasional elements: summit surface, hillcrest, hillslope, talus.
 Compare with mountains, hills, low hills, rises and plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BAD" ;
   skos:prefLabel "Badlands"@en ;
   skos:related lf:relief-class-L ;
@@ -1498,6 +1605,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:definition """flood plain with numerous rapidly migrating, shallow alluvial channels forming a unidirectional, integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow. (Described by Melton 1936.) 
 Typical elements: stream bed, bar (dominant).
 Compare with other types under alluvial plain and flood plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BAR" ;
   skos:prefLabel "Bar plain"@en ;
 .
@@ -1535,6 +1643,7 @@ Compare with chenier plain."""@en ;
 Typical elements: beach ridge (co-dominant), swale (co-dominant).
 Common elements: beach, foredune, tidal creek.
 Compare with chenier plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BEA" ;
   skos:prefLabel "Beach ridge plain"@en ;
   skos:related lf:relief-class-P ;
@@ -1583,6 +1692,7 @@ Occasional elements: cone, hillcrest, stream channel."""@en ;
 rare landform pattern typically of very high relief and steep to precipitous slope. It is without stream channels or has fixed, erosional channels forming a centripetal, integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism.
 Typical elements: scarp, hillslope, lake.
 Occasional elements: cone, hillcrest, stream channel."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CAL" ;
   skos:prefLabel "Caldera"@en ;
   skos:related lf:relief-class-M ;
@@ -1626,6 +1736,7 @@ Compare with beach ridge plain."""@en ;
 Typical elements: beach ridge (co-dominant), flat (co-dominant).
 Common elements: tidal flat, swamp, beach, foredune, tidal creek.
 Compare with beach ridge plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CHE" ;
   skos:prefLabel "Chenier plain"@en ;
   skos:related lf:relief-class-P ;
@@ -1675,6 +1786,7 @@ Common elements: beach, beach ridge."""@en ;
   skos:definition """continuously active or relict landform pattern built up to the sea level of the present day or of a former time by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below the sea level. Stream channels are generally absent, but there may occasionally be fixed, deep, erosional tidal stream channels forming a disintegrated non-tributary pattern. 
 Typical elements: reef flat, lagoon, cliff (submarine).
 Common elements: beach, beach ridge."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "COR" ;
   skos:prefLabel "Coral reef"@en ;
   skos:related lf:slope-class-LE ;
@@ -1718,6 +1830,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
 Typical elements: stream channel (stream bed and bank), levee, backplain (dominant).
 Common element: swamp.
 Compare with other types under alluvial plain and flood plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "COV" ;
   skos:prefLabel "Covered plain"@en ;
 .
@@ -1766,6 +1879,7 @@ Compare with other types under alluvial plain, flood plain and chenier plain."""
 Typical elements: stream channel (stream bed and bank), levee, backplain (co-dominant), swamp (co-dominant), lagoon (co-dominant).
 Common elements: beach ridge, swale, beach, estuary, tidal creek.
 Compare with other types under alluvial plain, flood plain and chenier plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DEL" ;
   skos:prefLabel "Delta"@en ;
 .
@@ -1821,6 +1935,7 @@ Included types of landform pattern are: longitudinal dunefield, parabolic dunefi
 Typical elements: dune or dunecrest, duneslope, swale, blow-out, risecrest, residual rise, riseslope.
 Common elements: hummocky dune, barchan dune, parabolic dune, linear dune.
 Included types of landform pattern are: longitudinal dunefield, parabolic dunefield."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "DUN" ;
   skos:prefLabel "Dunefield"@en ;
   skos:related lf:relief-class-P ;
@@ -1881,6 +1996,7 @@ Occasional element: stream bed."""@en ;
 Typical elements: hillcrest, hillslope, cliff-footslope.
 Common elements: cliff, scarp, scarp-footslope, talus, footslope, alcove.
 Occasional element: stream bed."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "ESC" ;
   skos:prefLabel "Escarpment"@en ;
   skos:related lf:relief-class-H ;
@@ -1942,6 +2058,7 @@ Common elements: bar, scroll, levee, backplain, swamp.
 Occasional elements: ox-bow, flood-out, scroll.
 Included types of landform pattern are: bar plain, meander plain, covered plain, anastomotic plain.
 Related relict landform patterns are: stagnant alluvial plain, terrace, terraced land (partly relict)."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "FLO" ;
   skos:prefLabel "Food plain"@en ;
 .
@@ -2017,6 +2134,7 @@ Typical elements: hillcrest, hillslope (dominant), drainage depression, stream b
 Common elements: footslope, alcove, valley flat, gully.
 Occasional elements: tor, summit surface, scarp, landslide, talus, bench, terrace, doline.
 Compare with mountains, low hills, rises and plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "HIL" ;
   skos:prefLabel "Hills"@en ;
   skos:related lf:relief-class-H ;
@@ -2089,6 +2207,7 @@ Occasional element: talus."""@en ;
 Typical elements: hillcrest, hillslope (dominant), doline.
 Common elements: summit surface, valley flat, plain, alcove, drainage depression, stream channel, scarp, footslope, landslide.
 Occasional element: talus."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "KAR" ;
   skos:prefLabel "Karst"@en ;
 .
@@ -2145,6 +2264,7 @@ Typical element: plain.
 Common elements: beach, cliff.
 Occasional elements: rock platform, berm.
 Compare with playa plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LAC" ;
   skos:prefLabel "Lacustrine plain"@en ;
   skos:related lf:relief-class-P ;
@@ -2197,6 +2317,7 @@ Occasional element: tumulus."""@en ;
   skos:definition """level to undulating landform pattern of very low to extremely low relief typically with widely spaced, fixed, erosional stream channels that form a non-directional, integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep, and channelled stream flow. 
 Typical elements: plain, hillslope, stream bed.
 Occasional element: tumulus."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LAV" ;
   skos:prefLabel "Lava plain"@en ;
   skos:related lf:relief-class-L ;
@@ -2237,6 +2358,7 @@ Compare with parabolic dunefield."""@en ;
   skos:definition """dunefield characterised by long, narrow sand dunes and wide, flat swales. The dunes are oriented parallel with the direction of the prevailing wind, and in cross-section one slope is typically steeper than the other. 
 Typical elements: dune or dunecrest, duneslope, swale, blow-out.
 Compare with parabolic dunefield."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LON" ;
   skos:prefLabel "Longitudinal dunefield"@en ;
 .
@@ -2279,6 +2401,7 @@ Typical elements: hillcrest, hillslope (dominant), drainage depression, stream b
 Common elements: footslope, alcove, valley flat, gully.
 Occasional elements: tor, summit surface, landslide, doline.
 Compare with mountains, hills, rises and plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LOW" ;
   skos:prefLabel "Low hills"@en ;
   skos:related lf:relief-class-L ;
@@ -2343,6 +2466,7 @@ Common elements: mound, pit, dam."""@en ;
   skos:definition """landform pattern typically of very low or extremely low relief and with slopes either level or very steep. Sparse, fixed, deep, artificial stream channels form a non-directional, interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency. 
 Typical elements: fill-top (dominant), cut-over surface, cut face, embankment, berm, trench.
 Common elements: mound, pit, dam."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MAD" ;
   skos:prefLabel "Made land"@en ;
   skos:related lf:relief-class-P ;
@@ -2386,6 +2510,7 @@ Occasional elements: dune, stream channel."""@en ;
   skos:definition """plain eroded or aggraded by waves, tides, or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustasy, and little modified by subaerial agents such as stream flow or wind. 
 Typical element: plain.
 Occasional elements: dune, stream channel."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MAR" ;
   skos:prefLabel "Marine plain"@en ;
 .
@@ -2422,6 +2547,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
 Typical elements: stream channel (stream bed, bank and bar), scroll, scroll plain (dominant).
 Common element: ox-bow.
 Compare with other types under alluvial plain and flood plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MEA" ;
   skos:prefLabel "Meander plain"@en ;
 .
@@ -2465,6 +2591,7 @@ Typical elements: crater (scarp, talus, footslope and plain), hillcrest, hillslo
   rdfs:label "Meteor crater"@en ;
   skos:definition """rare landform pattern comprising a circular closed depression (see crater landform element) with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and is now relict. 
 Typical elements: crater (scarp, talus, footslope and plain), hillcrest, hillslope."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MET" ;
   skos:prefLabel "Meteor crater"@en ;
   skos:related lf:relief-class-H ;
@@ -2503,6 +2630,7 @@ Typical elements: hillcrest, hillslope (dominant), stream bed.
 Common elements: talus, landslide, alcove, valley flat, scarp.
 Occasional elements: cirque, footslope.
 Compare with hills, low hills, rises and plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MOU" ;
   skos:prefLabel "Mountains"@en ;
   skos:related lf:relief-class-M ;
@@ -2566,6 +2694,7 @@ Compare with longitudinal dunefield."""@en ;
   skos:definition """dunefield characterised by sand dunes with a long, scoop-shaped form, convex in the downwind direction so that its trailing arms point upwind; the ground plan, when developed, approximates the form of a parabola. Where many parabolic dunes have been active, the trailing arms give the impression of a longitudinal dunefield. 
 Typical elements: dune or dunecrest, duneslope, swale, blow-out.
 Compare with longitudinal dunefield."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PAR" ;
   skos:prefLabel "Parabolic dunefield"@en ;
 .
@@ -2602,6 +2731,7 @@ Compare with sheet-flood fan and alluvial fan."""@en ;
   skos:definition """gently inclined to level (less than 1%) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels, which form a centrifugal to diverging, integrated reticulated pattern. It is underlain by bedrock, eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie downslope from adjacent hills with markedly steeper slopes. 
 Typical elements: pediment, plain, stream bed(?).
 Compare with sheet-flood fan and alluvial fan."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PED" ;
   skos:prefLabel "Pediment (pattern)"@en ;
   skos:related lf:relief-class-P ;
@@ -2638,6 +2768,7 @@ Typical element: plain."""@en ;
   rdfs:label "Pediplain"@en ;
   skos:definition """level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by barely active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient stream channels as on a pediment. (Described by King 1953.) 
 Typical element: plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PEP" ;
   skos:prefLabel "Pediplain"@en ;
   skos:related lf:relief-class-P ;
@@ -2660,6 +2791,7 @@ lf:landform-pattern-PLA
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-PLA"^^xsd:anyURI ;
   rdfs:label "Plain (pattern)"@en ;
   skos:definition "level to undulating or, rarely, rolling landform pattern of extremely low relief (less than 9 m)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PLA" ;
   skos:prefLabel "Plain (pattern)"@en ;
   skos:related lf:relief-class-P ;
@@ -2695,6 +2827,7 @@ Occasional element: stream channel."""@en ;
 Typical elements: plain, summit surface, cliff.
 Common elements: hillcrest, hillslope, drainage depression, rock flat, scarp.
 Occasional element: stream channel."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PLT" ;
   skos:prefLabel "Plateau"@en ;
   skos:related lf:slope-class-GE ;
@@ -2745,6 +2878,7 @@ Compare with lacustrine plain."""@en ;
   skos:definition """level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves, and soil phenomena. 
 Typical elements: playa, lunette, plain.
 Compare with lacustrine plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PLY" ;
   skos:prefLabel "Playa plain"@en ;
   skos:related lf:relief-class-P ;
@@ -2778,6 +2912,7 @@ Typical elements: plain (dominant), stream channel."""@en ;
   rdfs:label "Peneplain"@en ;
   skos:definition """level to gently undulating landform pattern with extremely low relief and sparse, slowly migrating alluvial stream channels which form a non-directional, integrated tributary pattern. It is eroded by barely active sheet flow, creep, and channelled and over-bank stream flow. (Described by Davis 1889.) 
 Typical elements: plain (dominant), stream channel."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PNP" ;
   skos:prefLabel "Peneplain"@en ;
   skos:related lf:relief-class-P ;
@@ -2812,6 +2947,7 @@ Typical elements: hillcrest, hillslope (dominant), footslope, drainage depressio
 Common elements: valley flat, stream channel.
 Occasional elements: gully, fan, tor.
 Compare with mountains, hills, low hills and plain."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "RIS" ;
   skos:prefLabel "Rises"@en ;
   skos:related lf:relief-class-R ;
@@ -2874,6 +3010,7 @@ Occasional elements: dune, playa, lunette."""@en ;
   skos:definition """level to gently undulating landform pattern of extremely low relief and without channels; formed possibly by sheet flow or stream flow, but now relict and modified by wind action. 
 Typical element: plain.
 Occasional elements: dune, playa, lunette."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SAN" ;
   skos:prefLabel "Sand plain"@en ;
   skos:related lf:relief-class-P ;
@@ -2911,6 +3048,7 @@ Compare with alluvial fan and pediment."""@en ;
   skos:definition """level (less than 1% slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating, very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. The pattern is aggraded by frequently active sheet flow and channelled stream flow, with subordinate wind erosion. 
 Typical elements: plain, stream bed.
 Compare with alluvial fan and pediment."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SHF" ;
   skos:prefLabel "Sheet-flood fan"@en ;
   skos:related lf:relief-class-P ;
@@ -2954,6 +3092,7 @@ Typical elements: stream channel (stream bed and bank), plain (dominant).
 Common elements: bar, scroll, levee, backplain, swamp.
 Occasional elements: ox-bow, flood-out, lake.
 Compare with flood plain and terrace."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "STA" ;
   skos:prefLabel "Stagnant alluvial plain"@en ;
 .
@@ -3012,6 +3151,7 @@ Occasional elements: stream channel, scroll, levee."""@en ;
   skos:definition """landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9–90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank. 
 Typical elements: terrace plains, terrace flats, scarps, scroll plain, stream channel.
 Occasional elements: stream channel, scroll, levee."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TEL" ;
   skos:prefLabel "Terraced land (alluvial)"@en ;
 .
@@ -3049,6 +3189,7 @@ Occasional elements: stream channel, scroll, levee."""@en ;
   skos:definition """former flood plain on which erosion and aggradation by channelled and over-bank stream flow is barely active or inactive because deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that has both a former flood plain and a significant, active flood plain, or that has former flood plains at more than one level, becomes terraced land. 
 Typical elements: terrace plain (dominant), scarp, channel bench.
 Occasional elements: stream channel, scroll, levee."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TER" ;
   skos:prefLabel "Terrace (alluvial)"@en ;
 .
@@ -3086,6 +3227,7 @@ Occasional elements: lagoon, dune, beach ridge, beach."""@en ;
   skos:definition """level landform pattern with extremely low relief and slowly migrating, deep alluvial stream channels, which form non-directional, integrated tributary patterns; it is aggraded by frequently active tides. 
 Typical elements: plain (dominant), intertidal flat, supratidal flat, stream channel.
 Occasional elements: lagoon, dune, beach ridge, beach."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "TID" ;
   skos:prefLabel "Tidal flat (pattern)"@en ;
   skos:related lf:relief-class-P ;
@@ -3127,6 +3269,7 @@ Occasional element: tumulus."""@en ;
 Typical elements: cone, crater.
 Common elements: scarp, hillcrest, hillslope, stream bed, lake, maar.
 Occasional element: tumulus."""@en ;
+  skos:inScheme asls:landform ;
   skos:notation "VOL" ;
   skos:prefLabel "Volcano"@en ;
   skos:related lf:relief-class-M ;
@@ -3379,6 +3522,7 @@ lf:location-within-the-landform-element-B
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/location-within-the-landform-element-B"^^xsd:anyURI ;
   rdfs:label "Bottom"@en ;
   skos:definition "Bottom third of the height of the landform element.."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "B" ;
   skos:prefLabel "Bottom"@en ;
 .
@@ -3389,6 +3533,7 @@ lf:location-within-the-landform-element-M
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/location-within-the-landform-element-M"^^xsd:anyURI ;
   rdfs:label "Middle"@en ;
   skos:definition "Middle third of the height of the landform element.."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "M" ;
   skos:prefLabel "Middle"@en ;
 .
@@ -3399,6 +3544,7 @@ lf:location-within-the-landform-element-T
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/location-within-the-landform-element-T"^^xsd:anyURI ;
   rdfs:label "Top"@en ;
   skos:definition "Top third of the height of the landform element.."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "T" ;
   skos:prefLabel "Top"@en ;
 .
@@ -3413,6 +3559,7 @@ The toposequence concept leads to definition of the attributes specific catchmen
   skos:definition """For detailed work, the location of the site within the toposequence down a slope line may relate to landform processes. Unfortunately, slope lines, by definition, extend from a summit to the lowest point (Cayley 1859), which may be many kilometres apart. One must arbitrarily determine the effective top and bottom of the toposequence. These effective end points come where the slope line coalesces with other slope lines to form a ridge line or a course line* (Figure 2a). In practice, ridge lines and course lines are to be excluded from the toposequence (see earlier section on landform element height). One arbitrary rule that will exclude the ridge line is to put the top of the toposequence where the contour curvature exceeds 60º in 40 m. The course line may be excluded by the same rule, or by putting the bottom of the toposequence at a stream channel.
 Any site can be located by its vertical and horizontal distances from the defined top and bottom of the toposequence. Drainage height (page 88) is one of these measures.
 The toposequence concept leads to definition of the attributes specific catchment area and specific dispersal area (Speight 1974, 1980) that predict hillslope hydrology and erosion (see, for example, Moore et al. 1988)."""@en ;
+  skos:inScheme asls:landform ;
   skos:prefLabel "Location within toposequence"@en ;
 .
 lf:modal-slope
@@ -3462,6 +3609,7 @@ lf:mode-of-geomorphological-activity-AG
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/mode-of-geomorphological-activity-AG"^^xsd:anyURI ;
   rdfs:label "Aggraded"@en ;
   skos:definition "Aggraded (Gradational activity)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "AG" ;
   skos:prefLabel "Aggraded"@en ;
 .
@@ -3472,6 +3620,7 @@ lf:mode-of-geomorphological-activity-BU
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/mode-of-geomorphological-activity-BU"^^xsd:anyURI ;
   rdfs:label "Built up"@en ;
   skos:definition "Built up (Anti-gradational activity)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "BU" ;
   skos:prefLabel "Built up"@en ;
 .
@@ -3482,6 +3631,7 @@ lf:mode-of-geomorphological-activity-EA
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/mode-of-geomorphological-activity-EA"^^xsd:anyURI ;
   rdfs:label "Eroded or aggraded"@en ;
   skos:definition "Eroded or aggraded (Gradational activity)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "EA" ;
   skos:prefLabel "Eroded or aggraded"@en ;
 .
@@ -3492,6 +3642,7 @@ lf:mode-of-geomorphological-activity-ER
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/mode-of-geomorphological-activity-ER"^^xsd:anyURI ;
   rdfs:label "Eroded"@en ;
   skos:definition "Eroded (Gradational activity)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "ER" ;
   skos:prefLabel "Eroded"@en ;
 .
@@ -3502,6 +3653,7 @@ lf:mode-of-geomorphological-activity-EX
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/mode-of-geomorphological-activity-EX"^^xsd:anyURI ;
   rdfs:label "Excavated or dug out"@en ;
   skos:definition "Excavated or dug out (Anti-gradational activity)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "EX" ;
   skos:prefLabel "Excavated or dug out"@en ;
 .
@@ -3512,6 +3664,7 @@ lf:mode-of-geomorphological-activity-HU
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/mode-of-geomorphological-activity-HU"^^xsd:anyURI ;
   rdfs:label "Heaved up or elevated"@en ;
   skos:definition "Heaved up or elevated (Anti-gradational activity)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "HU" ;
   skos:prefLabel "Heaved up or elevated"@en ;
 .
@@ -3522,6 +3675,7 @@ lf:mode-of-geomorphological-activity-SU
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/mode-of-geomorphological-activity-SU"^^xsd:anyURI ;
   rdfs:label "Subsided or depressed"@en ;
   skos:definition "Subsided or depressed (Anti-gradational activity)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SU" ;
   skos:prefLabel "Subsided or depressed"@en ;
 .
@@ -3532,6 +3686,7 @@ lf:morphological-type-C
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-C"^^xsd:anyURI ;
   rdfs:label "Crest"@en ;
   skos:definition "Landform element that stands above all, or almost all, points in the adjacent terrain. It is characteristically smoothly convex upwards in downslope profile or in contour, or both. The margin of a crest element should be drawn at the limit of observed curvature."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "C" ;
   skos:prefLabel "Crest"@en ;
 .
@@ -3543,6 +3698,7 @@ lf:morphological-type-D
   rdfs:comment "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
   rdfs:label "Closed depression"@en ;
   skos:definition "Landform element that stands below all, or almost all, points in the adjacent terrain. A closed depression stands below all such points."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "D" ;
   skos:prefLabel "Closed depression"@en ;
 .
@@ -3553,6 +3709,7 @@ lf:morphological-type-F
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-F"^^xsd:anyURI ;
   rdfs:label "Flat"@en ;
   skos:definition "planar landform element that is neither a crest nor a depression and is level or very gently inclined (less than 3% tangent approximately)."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "F" ;
   skos:prefLabel "Flat"@en ;
 .
@@ -3563,6 +3720,7 @@ lf:morphological-type-H
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-H"^^xsd:anyURI ;
   rdfs:label "Hillock"@en ;
   skos:definition "compound landform element comprising a narrow crest and short adjoining slopes, the crest length being less than the width of the landform element."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "H" ;
   skos:prefLabel "Hillock"@en ;
 .
@@ -3575,6 +3733,7 @@ lf:morphological-type-L
 This morphological type requires a relative inclination of slope element modifier."""@en ;
   rdfs:label "Lower slope (requires inclination modifier)"@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "L" ;
   skos:prefLabel "Lower slope (requires inclination modifier)"@en ;
 .
@@ -3587,6 +3746,7 @@ lf:morphological-type-LA
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Lower slope Maximal"@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is maximal."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LA" ;
   skos:prefLabel "Lower slope Maximal"@en ;
 .
@@ -3599,6 +3759,7 @@ lf:morphological-type-LI
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Lower slope Minimal"@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is minimal."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LI" ;
   skos:prefLabel "Lower slope Minimal"@en ;
 .
@@ -3611,6 +3772,7 @@ lf:morphological-type-LN
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Lower slope Waning"@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is waning."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LN" ;
   skos:prefLabel "Lower slope Waning"@en ;
 .
@@ -3623,6 +3785,7 @@ lf:morphological-type-LX
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Lower slope Waxing"@en ;
   skos:definition "slope element not adjacent below a crest or flat but adjacent above a flat or depression and is waxing."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LX" ;
   skos:prefLabel "Lower slope Waxing"@en ;
 .
@@ -3635,6 +3798,7 @@ lf:morphological-type-M
 This morphological type requires a relative inclination of slope element modifier."""@en ;
   rdfs:label "Mid-slope (requires inclination modifier)"@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "M" ;
   skos:prefLabel "Mid-slope (requires inclination modifier)"@en ;
 .
@@ -3647,6 +3811,7 @@ lf:morphological-type-MA
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Mid-slope Maximal"@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is maximal."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MA" ;
   skos:prefLabel "Mid-slope Maximal"@en ;
 .
@@ -3659,6 +3824,7 @@ lf:morphological-type-MI
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Mid-slope Minimal"@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is minimal."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MI" ;
   skos:prefLabel "Mid-slope Minimal"@en ;
 .
@@ -3671,6 +3837,7 @@ lf:morphological-type-MN
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Mid-slope Waning"@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is waning."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MN" ;
   skos:prefLabel "Mid-slope Waning"@en ;
 .
@@ -3683,6 +3850,7 @@ lf:morphological-type-MX
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Mid-slope Waxing"@en ;
   skos:definition "slope element not adjacent below a crest or flat and not adjacent above a flat or depression and is waxing."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MX" ;
   skos:prefLabel "Mid-slope Waxing"@en ;
 .
@@ -3693,6 +3861,7 @@ lf:morphological-type-R
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/morphological-type-R"^^xsd:anyURI ;
   rdfs:label "Ridge"@en ;
   skos:definition "compound landform element comprising a narrow crest and short adjoining slopes, the crest length being greater than the width of the landform element."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "R" ;
   skos:prefLabel "Ridge"@en ;
 .
@@ -3704,6 +3873,7 @@ lf:morphological-type-S
   rdfs:comment "This morphological type is distinguished on its position in the toposequence relative to crests, flats and depressions."@en ;
   rdfs:label "Simple slope"@en ;
   skos:definition "slope element adjacent below a crest or flat and adjacent above a flat or depression."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "S" ;
   skos:prefLabel "Simple slope"@en ;
 .
@@ -3716,6 +3886,7 @@ lf:morphological-type-U
 This morphological type requires a relative inclination of slope element modifier."""@en ;
   rdfs:label "Upper slope (requires inclination modifier)"@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "U" ;
   skos:prefLabel "Upper slope (requires inclination modifier)"@en ;
 .
@@ -3728,6 +3899,7 @@ lf:morphological-type-UA
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Upper slope Maximal"@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is maximal."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "UA" ;
   skos:prefLabel "Upper slope Maximal"@en ;
 .
@@ -3740,6 +3912,7 @@ lf:morphological-type-UI
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Upper slope Minimal"@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is minimal."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "UI" ;
   skos:prefLabel "Upper slope Minimal"@en ;
 .
@@ -3752,6 +3925,7 @@ lf:morphological-type-UN
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Upper slope Waning"@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is waning."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "UN" ;
   skos:prefLabel "Upper slope Waning"@en ;
 .
@@ -3764,6 +3938,7 @@ lf:morphological-type-UX
 This morphological type has a relative inclination of slope element modifier."""@en ;
   rdfs:label "Upper slope Waxing"@en ;
   skos:definition "slope element adjacent below a crest or flat but not adjacent above a flat or depression and is waxing."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "UX" ;
   skos:prefLabel "Upper slope Waxing"@en ;
 .
@@ -3775,6 +3950,7 @@ lf:morphological-type-V
   rdfs:comment "Many depressions are concave upwards and their margins should be drawn at the limit of observed curvature."@en ;
   rdfs:label "Open depression (vale)"@en ;
   skos:definition "Landform element that stands below all, or almost all, points in the adjacent terrain. An open depression extends at the same elevation, or lower."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "V" ;
   skos:prefLabel "Open depression (vale)"@en ;
 .
@@ -3829,6 +4005,7 @@ lf:relative-inclination-of-slope-elements-A
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/relative-inclination-of-slope-elements-A"^^xsd:anyURI ;
   rdfs:label "Maximal"@en ;
   skos:definition "element upslope is gentler, element downslope is gentler."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "A" ;
   skos:prefLabel "Maximal"@en ;
 .
@@ -3839,6 +4016,7 @@ lf:relative-inclination-of-slope-elements-I
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/relative-inclination-of-slope-elements-I"^^xsd:anyURI ;
   rdfs:label "Minimal"@en ;
   skos:definition "element upslope is steeper, element downslope is steeper."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "I" ;
   skos:prefLabel "Minimal"@en ;
 .
@@ -3849,6 +4027,7 @@ lf:relative-inclination-of-slope-elements-N
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/relative-inclination-of-slope-elements-N"^^xsd:anyURI ;
   rdfs:label "Waning"@en ;
   skos:definition "element upslope is steeper, element downslope is gentler."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "N" ;
   skos:prefLabel "Waning"@en ;
 .
@@ -3859,6 +4038,7 @@ lf:relative-inclination-of-slope-elements-X
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/relative-inclination-of-slope-elements-X"^^xsd:anyURI ;
   rdfs:label "Waxing"@en ;
   skos:definition "element upslope is gentler, element downslope is steeper."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "X" ;
   skos:prefLabel "Waxing"@en ;
 .
@@ -3887,6 +4067,7 @@ lf:relief-class-H
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/relief-class-H"^^xsd:anyURI ;
   rdfs:label "High"@en ;
   skos:definition "High relief, 90-300 m, (~150 m)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "H" ;
   skos:prefLabel "High"@en ;
 .
@@ -3897,6 +4078,7 @@ lf:relief-class-L
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/relief-class-L"^^xsd:anyURI ;
   rdfs:label "Low"@en ;
   skos:definition "Low relief, 30-90 m, (~50 m)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "L" ;
   skos:prefLabel "Low"@en ;
 .
@@ -3907,6 +4089,7 @@ lf:relief-class-M
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/relief-class-M"^^xsd:anyURI ;
   rdfs:label "Very high"@en ;
   skos:definition "Very high relief, >300 m, (~500 m)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "M" ;
   skos:prefLabel "Very high"@en ;
 .
@@ -3917,6 +4100,7 @@ lf:relief-class-P
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/relief-class-P"^^xsd:anyURI ;
   rdfs:label "Extremely low"@en ;
   skos:definition "Extremely low relief, <9 m, (~5 m)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "P" ;
   skos:prefLabel "Extremely low"@en ;
 .
@@ -3927,6 +4111,7 @@ lf:relief-class-R
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/relief-class-R"^^xsd:anyURI ;
   rdfs:label "Very low"@en ;
   skos:definition "Very low relief, 9-30 m, (~15 m)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "R" ;
   skos:prefLabel "Very low"@en ;
 .
@@ -3937,6 +4122,7 @@ lf:simple-erosional-landform-pattern-B
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/simple-erosional-landform-pattern-B"^^xsd:anyURI ;
   rdfs:label "Badlands (simple erosional pattern)"@en ;
   skos:definition "The Badlands simple erosional landform pattern is defined by various combinations of high slope values and low relief values. These combinations imply extremely close spacing of streams or valleys. Specifically, if one assumes a sawtooth terrain profile, the valley spacing implied is less than 100 m in areas with 50 m relief and less than 30 m in areas with 5 m relief; these values appear to accord with usage."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "B" ;
   skos:prefLabel "Badlands (simple erosional pattern)"@en ;
   skos:related lf:landform-pattern-BAD ;
@@ -3952,6 +4138,7 @@ lf:simple-erosional-landform-pattern-GP
   skos:definition """<p>Gently undulating plain is a simple type of erosional landform pattern characterised by Extremely low relief and Very gently inclined modal slope.</p>
 <p>Relief is Extremely low < 9m (~5m)</p>
 <p>Modal terrain slope is Very gently inclined 1-3% (~2%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "GP" ;
   skos:prefLabel "Gently undulating plain"@en ;
   skos:related lf:relief-class-P ;
@@ -3968,6 +4155,7 @@ lf:simple-erosional-landform-pattern-GR
   skos:definition """<p>Gently undulating rises is a simple type of erosional landform pattern characterised by Very low relief and Very gently inclined modal slope.</p>
 <p>Relief is Very low < 9-30m (~15m)</p>
 <p>Modal terrain slope is Very gently inclined 1-3% (~2%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "GR" ;
   skos:prefLabel "Gently undulating rises"@en ;
   skos:related lf:relief-class-R ;
@@ -3984,6 +4172,7 @@ lf:simple-erosional-landform-pattern-LP
   skos:definition """<p>Level plain is a simple type of erosional landform pattern characterised by Extremely low relief and Level modal slope.</p>
 <p>Relief is Extremely low < 9m (~5m)</p>
 <p>Modal terrain slope is Level < 1% (~1:300)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "LP" ;
   skos:prefLabel "Level plain"@en ;
   skos:related lf:relief-class-P ;
@@ -4000,6 +4189,7 @@ lf:simple-erosional-landform-pattern-PH
   skos:definition """<p>Precipitous hills is a simple type of erosional landform pattern characterised by High relief and Precipitous modal slope.</p>
 <p>Relief is High 90-300m (~150m)</p>
 <p>Modal terrain slope is Precipitous >100% (~150%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "PH" ;
   skos:prefLabel "Precipitous hills"@en ;
   skos:related lf:relief-class-H ;
@@ -4016,6 +4206,7 @@ lf:simple-erosional-landform-pattern-PM
   skos:definition """<p>Precipitous mountains is a simple type of erosional landform pattern characterised by Very high relief and Precipitous modal slope.</p>
 <p>Relief is Very high >300m (~500m)</p>
 <p>Modal terrain slope is Precipitous >100% (~150%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "PM" ;
   skos:prefLabel "Precipitous mountains"@en ;
   skos:related lf:relief-class-M ;
@@ -4032,6 +4223,7 @@ lf:simple-erosional-landform-pattern-RH
   skos:definition """<p>Rolling hills is a simple type of erosional landform pattern characterised by High relief and Moderately inclined modal slope.</p>
 <p>Relief is High 90-300m (~150m)</p>
 <p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "RH" ;
   skos:prefLabel "Rolling hills"@en ;
   skos:related lf:relief-class-H ;
@@ -4048,6 +4240,7 @@ lf:simple-erosional-landform-pattern-RL
   skos:definition """<p>Rolling low hills is a simple type of erosional landform pattern characterised by Low relief and Moderately inclined modal slope.</p>
 <p>Relief is Low 30-90m (~50m)</p>
 <p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "RL" ;
   skos:prefLabel "Rolling low hills"@en ;
   skos:related lf:relief-class-L ;
@@ -4064,6 +4257,7 @@ lf:simple-erosional-landform-pattern-RM
   skos:definition """<p>Rolling mountains is a simple type of erosional landform pattern characterised by Very high relief and Moderately inclined modal slope.</p>
 <p>Relief is Very high >300m (~500m)</p>
 <p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "RM" ;
   skos:prefLabel "Rolling mountains"@en ;
   skos:related lf:relief-class-M ;
@@ -4080,6 +4274,7 @@ lf:simple-erosional-landform-pattern-RP
   skos:definition """<p>Rolling plain is a simple type of erosional landform pattern characterised by Extremely low relief and Moderately inclined modal slope.</p>
 <p>Relief is Extremely low < 9m (~5m)</p>
 <p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "RP" ;
   skos:prefLabel "Rolling plain"@en ;
   skos:related lf:relief-class-P ;
@@ -4096,6 +4291,7 @@ lf:simple-erosional-landform-pattern-RR
   skos:definition """<p>Rolling rises is a simple type of erosional landform pattern characterised by Very low relief and Moderately inclined modal slope.</p>
 <p>Relief is Very low 9-30m (~15m)</p>
 <p>Modal terrain slope is Moderately inclined 10-32% (~20%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "RR" ;
   skos:prefLabel "Rolling rises"@en ;
   skos:related lf:relief-class-R ;
@@ -4112,6 +4308,7 @@ lf:simple-erosional-landform-pattern-SH
   skos:definition """<p>Steep hills is a simple type of erosional landform pattern characterised by High relief and Steep modal slope.</p>
 <p>Relief is High 90-300m (~150m)</p>
 <p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "SH" ;
   skos:prefLabel "Steep hills"@en ;
   skos:related lf:relief-class-H ;
@@ -4128,6 +4325,7 @@ lf:simple-erosional-landform-pattern-SL
   skos:definition """<p>Steep low hills is a simple type of erosional landform pattern characterised by Low relief and Steep modal slope.</p>
 <p>Relief is Low 30-90m (~50m)</p>
 <p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "SL" ;
   skos:prefLabel "Steep low hills"@en ;
   skos:related lf:relief-class-L ;
@@ -4144,6 +4342,7 @@ lf:simple-erosional-landform-pattern-SM
   skos:definition """<p>Steep mountains is a simple type of erosional landform pattern characterised by Very high relief and Steep modal slope.</p>
 <p>Relief is Very high > 300m (~500m)</p>
 <p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "SM" ;
   skos:prefLabel "Steep mountains"@en ;
   skos:related lf:relief-class-M ;
@@ -4160,6 +4359,7 @@ lf:simple-erosional-landform-pattern-SR
   skos:definition """<p>Steep rises is a simple type of erosional landform pattern characterised by Very low relief and Steep modal slope.</p>
 <p>Relief is Very low 9-30m (~15m)</p>
 <p>Modal terrain slope is Steep 32-56% (~40%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "SR" ;
   skos:prefLabel "Steep rises"@en ;
   skos:related lf:relief-class-R ;
@@ -4176,6 +4376,7 @@ lf:simple-erosional-landform-pattern-UH
   skos:definition """<p>Undulating hills is a simple type of erosional landform pattern characterised by High relief and Gently inclined modal slope.</p>
 <p>Relief is High 90-300m (~150m)</p>
 <p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "UH" ;
   skos:prefLabel "Undulating hills"@en ;
   skos:related lf:relief-class-H ;
@@ -4192,6 +4393,7 @@ lf:simple-erosional-landform-pattern-UL
   skos:definition """<p>Undulating low hills is a simple type of erosional landform pattern characterised by Low relief and Gently inclined modal slope.</p>
 <p>Relief is Low 30-90m (~50m)</p>
 <p>Modal terrain slope is Gently inclined < 3-10% (~6%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "UL" ;
   skos:prefLabel "Undulating low hills"@en ;
   skos:related lf:relief-class-L ;
@@ -4208,6 +4410,7 @@ lf:simple-erosional-landform-pattern-UP
   skos:definition """<p>Undulating plain is a simple type of erosional landform pattern characterised by Extremely low relief and Gently inclined modal slope.</p>
 <p>Relief is Extremely low < 9m (~5m)</p>
 <p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "UP" ;
   skos:prefLabel "Undulating plain"@en ;
   skos:related lf:relief-class-P ;
@@ -4224,6 +4427,7 @@ lf:simple-erosional-landform-pattern-UR
   skos:definition """<p>Undulating rises is a simple type of erosional landform pattern characterised by Very low relief and Gently inclined modal slope.</p>
 <p>Relief is Very low 9-30m (~15m)</p>
 <p>Modal terrain slope is Gently inclined 3-10% (~6%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "UR" ;
   skos:prefLabel "Undulating rises"@en ;
   skos:related lf:relief-class-R ;
@@ -4240,6 +4444,7 @@ lf:simple-erosional-landform-pattern-VH
   skos:definition """<p>Very steep hills is a simple type of erosional landform pattern characterised by High relief and Very steep modal slope.</p>
 <p>Relief is High 90-300m (~150m)</p>
 <p>Modal terrain slope is Very steep 56-100% (~70%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "VH" ;
   skos:prefLabel "Very steep hills"@en ;
   skos:related lf:relief-class-H ;
@@ -4256,6 +4461,7 @@ lf:simple-erosional-landform-pattern-VL
   skos:definition """<p>Very steep low hills is a simple type of erosional landform pattern characterised by Low relief and Very steep modal slope.</p>
 <p>Relief is Low 30-90m (~50m)</p>
 <p>Modal terrain slope is Very steep 56-100% (~70%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "VL" ;
   skos:prefLabel "Very steep low hills"@en ;
   skos:related lf:relief-class-L ;
@@ -4272,6 +4478,7 @@ lf:simple-erosional-landform-pattern-VM
   skos:definition """<p>Very steep mountains is a simple type of erosional landform pattern characterised by Very high relief and Very steep modal slope.</p>
 <p>Relief is Very high > 300m (~500m)</p>
 <p>Modal terrain slope is Very steep 56-100% (~70%)</p>""" ;
+  skos:inScheme asls:landform ;
   skos:notation "VM" ;
   skos:prefLabel "Very steep mountains"@en ;
   skos:related lf:relief-class-M ;
@@ -4325,6 +4532,7 @@ lf:slope-class-CL
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-class-CL"^^xsd:anyURI ;
   rdfs:label "Cliffed"@en ;
   skos:definition "A slope tangent boundary of > 300% (72°) with average slope 500% (80°)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CL" ;
   skos:prefLabel "Cliffed"@en ;
 .
@@ -4335,6 +4543,7 @@ lf:slope-class-GE
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-class-GE"^^xsd:anyURI ;
   rdfs:label "Gently inclined"@en ;
   skos:definition "A slope tangent boundary of 3-10% (5°45') with average slope 6% (3°)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "GE" ;
   skos:prefLabel "Gently inclined"@en ;
 .
@@ -4345,6 +4554,7 @@ lf:slope-class-LE
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-class-LE"^^xsd:anyURI ;
   rdfs:label "Level"@en ;
   skos:definition "A slope tangent boundary of 0-1% (0°35') with average slope 0.6% (0°20')"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "LE" ;
   skos:prefLabel "level"@en ;
 .
@@ -4355,6 +4565,7 @@ lf:slope-class-MO
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-class-MO"^^xsd:anyURI ;
   rdfs:label "Moderately inclined"@en ;
   skos:definition "A slope tangent boundary of 10-32% (18°) with average slope 20% (10°)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MO" ;
   skos:prefLabel "Moderately inclined"@en ;
 .
@@ -4365,6 +4576,7 @@ lf:slope-class-PR
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-class-PR"^^xsd:anyURI ;
   rdfs:label "Precipitous"@en ;
   skos:definition "A slope tangent boundary of 100-300% (72°) with average slope 170% (60°)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "PR" ;
   skos:prefLabel "Precipitous"@en ;
 .
@@ -4375,6 +4587,7 @@ lf:slope-class-ST
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-class-ST"^^xsd:anyURI ;
   rdfs:label "Steep"@en ;
   skos:definition "A slope tangent boundary of 32-56% (30°) with average slope 40% (23°)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "ST" ;
   skos:prefLabel "Steep"@en ;
 .
@@ -4385,6 +4598,7 @@ lf:slope-class-VG
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-class-VG"^^xsd:anyURI ;
   rdfs:label "Very gently inclined"@en ;
   skos:definition "A slope tangent boundary of 1-3 % (1°45') with average slope 1% (1°)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "VG" ;
   skos:prefLabel "Very gently inclined"@en ;
 .
@@ -4395,6 +4609,7 @@ lf:slope-class-VS
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-class-VS"^^xsd:anyURI ;
   rdfs:label "Very steep"@en ;
   skos:definition "A slope tangent boundary of 56-100% (45°) with average slope 70% (37°)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "VS" ;
   skos:prefLabel "Very steep"@en ;
 .
@@ -4429,6 +4644,7 @@ lf:slope-evaluation-A
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-evaluation-A"^^xsd:anyURI ;
   rdfs:label "Abney level or clinometer and tape"@en ;
   skos:definition "Abney level or clinometer and tape"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "A" ;
   skos:prefLabel "Abney level or clinometer and tape"@en ;
 .
@@ -4439,6 +4655,7 @@ lf:slope-evaluation-E
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-evaluation-E"^^xsd:anyURI ;
   rdfs:label "Estimate"@en ;
   skos:definition "Estimate"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "E" ;
   skos:prefLabel "Estimate"@en ;
 .
@@ -4449,6 +4666,7 @@ lf:slope-evaluation-P
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-evaluation-P"^^xsd:anyURI ;
   rdfs:label "Contour plan at 1:10 000 or larger scale"@en ;
   skos:definition "Contour plan at 1:10 000 or larger scale"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "P" ;
   skos:prefLabel "Contour plan at 1:10 000 or larger scale"@en ;
 .
@@ -4459,6 +4677,7 @@ lf:slope-evaluation-T
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-evaluation-T"^^xsd:anyURI ;
   rdfs:label "Tripod-mounted instrument and staff"@en ;
   skos:definition "Tripod-mounted instrument and staff"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "T" ;
   skos:prefLabel "Tripod-mounted instrument and staff"@en ;
 .
@@ -4483,6 +4702,7 @@ lf:slope-value
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/slope-value"^^xsd:anyURI ;
   rdfs:label "Slope %"@en ;
   skos:definition "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element."@en ;
+  skos:inScheme asls:landform ;
   skos:prefLabel "Slope %"@en ;
 .
 lf:stream-channel-development
@@ -4506,6 +4726,7 @@ lf:stream-channel-development-A
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-development-A"^^xsd:anyURI ;
   rdfs:label "Alluvial"@en ;
   skos:definition "continuous linear channels occur, with rather large width and depth; they are essentially constant with downstream distance and are suited to the available flow. Flood plains of vertical or lateral accretion are formed."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "A" ;
   skos:prefLabel "Alluvial"@en ;
 .
@@ -4516,6 +4737,7 @@ lf:stream-channel-development-E
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-development-E"^^xsd:anyURI ;
   rdfs:label "Erosional"@en ;
   skos:definition "continuous linear channels occur; their width and depth are considerable and display somewhat constant values suited to the available flow. Flood plains are not formed."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "E" ;
   skos:prefLabel "Erosional"@en ;
 .
@@ -4526,6 +4748,7 @@ lf:stream-channel-development-I
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-development-I"^^xsd:anyURI ;
   rdfs:label "Incipient"@en ;
   skos:definition "traces of channelled flow are very shallow, narrow and discontinuous."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "I" ;
   skos:prefLabel "Incipient"@en ;
 .
@@ -4536,6 +4759,7 @@ lf:stream-channel-development-O
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-development-O"^^xsd:anyURI ;
   rdfs:label "Absent"@en ;
   skos:definition "no traces of channelled flow can be detected."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "O" ;
   skos:prefLabel "Absent"@en ;
 .
@@ -4559,6 +4783,7 @@ lf:stream-channel-migration-F
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-migration-F"^^xsd:anyURI ;
   rdfs:label "Fixed"@en ;
   skos:definition "Fixed."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "F" ;
   skos:prefLabel "Fixed"@en ;
 .
@@ -4569,6 +4794,7 @@ lf:stream-channel-migration-R
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-migration-R"^^xsd:anyURI ;
   rdfs:label "Rapidly migrating"@en ;
   skos:definition "Rapidly migrating."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "R" ;
   skos:prefLabel "Rapidly migrating"@en ;
 .
@@ -4579,6 +4805,7 @@ lf:stream-channel-migration-S
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-migration-S"^^xsd:anyURI ;
   rdfs:label "Slowly migrating"@en ;
   skos:definition "Slowly migrating."@en ;
+  skos:inScheme asls:landform ;
   skos:notation "S" ;
   skos:prefLabel "Slowly migrating"@en ;
 .
@@ -4607,6 +4834,7 @@ lf:stream-channel-network-directionality-B
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-directionality-B"^^xsd:anyURI ;
   rdfs:label "Bidirectional"@en ;
   skos:definition "two lineations (for example ‘trellis’)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "B" ;
   skos:prefLabel "Bidirectional"@en ;
 .
@@ -4617,6 +4845,7 @@ lf:stream-channel-network-directionality-C
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-directionality-C"^^xsd:anyURI ;
   rdfs:label "Convergent"@en ;
   skos:definition "maximum convergence between 10º and 90º"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "C" ;
   skos:prefLabel "Convergent"@en ;
 .
@@ -4627,6 +4856,7 @@ lf:stream-channel-network-directionality-D
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-directionality-D"^^xsd:anyURI ;
   rdfs:label "Divergent"@en ;
   skos:definition "maximum divergence between 10º and 90º"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "D" ;
   skos:prefLabel "Divergent"@en ;
 .
@@ -4637,6 +4867,7 @@ lf:stream-channel-network-directionality-F
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-directionality-F"^^xsd:anyURI ;
   rdfs:label "Centrifugal"@en ;
   skos:definition "maximum divergence >90º"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "F" ;
   skos:prefLabel "Centrifugal"@en ;
 .
@@ -4647,6 +4878,7 @@ lf:stream-channel-network-directionality-N
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-directionality-N"^^xsd:anyURI ;
   rdfs:label "Non-directional"@en ;
   skos:definition "no significant orientation, convergence or divergence"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "N" ;
   skos:prefLabel "Non-directional"@en ;
 .
@@ -4657,6 +4889,7 @@ lf:stream-channel-network-directionality-P
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-directionality-P"^^xsd:anyURI ;
   rdfs:label "Centripetal"@en ;
   skos:definition "maximum convergence >90º"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "P" ;
   skos:prefLabel "Centripetal"@en ;
 .
@@ -4667,6 +4900,7 @@ lf:stream-channel-network-directionality-U
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-directionality-U"^^xsd:anyURI ;
   rdfs:label "Unidirectional"@en ;
   skos:definition "convergence or divergence <10º"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "U" ;
   skos:prefLabel "Unidirectional"@en ;
 .
@@ -4691,6 +4925,7 @@ lf:stream-channel-network-integration-D
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-integration-D"^^xsd:anyURI ;
   rdfs:label "Disintegrated"@en ;
   skos:definition "Disintegrated"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "D" ;
   skos:prefLabel "Disintegrated"@en ;
 .
@@ -4701,6 +4936,7 @@ lf:stream-channel-network-integration-I
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-integration-I"^^xsd:anyURI ;
   rdfs:label "Integrated"@en ;
   skos:definition "Integrated"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "I" ;
   skos:prefLabel "Integrated"@en ;
 .
@@ -4711,6 +4947,7 @@ lf:stream-channel-network-integration-P
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-network-integration-P"^^xsd:anyURI ;
   rdfs:label "Interrupted (partial integration)"@en ;
   skos:definition "Interrupted (partial integration)"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "P" ;
   skos:prefLabel "Interrupted (partial integration)"@en ;
 .
@@ -4759,6 +4996,7 @@ lf:stream-channel-relative-depth-width-D
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-relative-depth-width-D"^^xsd:anyURI ;
   rdfs:label "Deep"@en ;
   skos:definition "width/depth ratio <20:1"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "D" ;
   skos:prefLabel "Deep"@en ;
 .
@@ -4769,6 +5007,7 @@ lf:stream-channel-relative-depth-width-M
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-relative-depth-width-M"^^xsd:anyURI ;
   rdfs:label "Moderately deep"@en ;
   skos:definition "width/depth ratio 20:1 to 50:1"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "M" ;
   skos:prefLabel "Moderately deep"@en ;
 .
@@ -4779,6 +5018,7 @@ lf:stream-channel-relative-depth-width-S
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-relative-depth-width-S"^^xsd:anyURI ;
   rdfs:label "Shallow"@en ;
   skos:definition "width/depth ratio 50:1 to 150:1"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "S" ;
   skos:prefLabel "Shallow"@en ;
 .
@@ -4789,6 +5029,7 @@ lf:stream-channel-relative-depth-width-V
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-relative-depth-width-V"^^xsd:anyURI ;
   rdfs:label "Very shallow"@en ;
   skos:definition "width/depth ratio >150:1"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "V" ;
   skos:prefLabel "Very shallow"@en ;
 .
@@ -4819,6 +5060,7 @@ lf:stream-channel-spacing-AB
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-spacing-AB"^^xsd:anyURI ;
   rdfs:label "Absent or very rare"@en ;
   skos:definition ">2500 m"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "AB" ;
   skos:prefLabel "Absent or very rare"@en ;
 .
@@ -4829,6 +5071,7 @@ lf:stream-channel-spacing-CS
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-spacing-CS"^^xsd:anyURI ;
   rdfs:label "Closely spaced"@en ;
   skos:definition "250-400 m"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "CS" ;
   skos:prefLabel "Closely spaced"@en ;
 .
@@ -4839,6 +5082,7 @@ lf:stream-channel-spacing-MS
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-spacing-MS"^^xsd:anyURI ;
   rdfs:label "Moderately spaced"@en ;
   skos:definition "400-625 m"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "MS" ;
   skos:prefLabel "Moderately spaced"@en ;
 .
@@ -4849,6 +5093,7 @@ lf:stream-channel-spacing-NU
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-spacing-NU"^^xsd:anyURI ;
   rdfs:label "Numerous"@en ;
   skos:definition "<158 m"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "NU" ;
   skos:prefLabel "Numerous"@en ;
 .
@@ -4859,6 +5104,7 @@ lf:stream-channel-spacing-SP
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-spacing-SP"^^xsd:anyURI ;
   rdfs:label "Sparse"@en ;
   skos:definition "1585-2500 m"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "SP" ;
   skos:prefLabel "Sparse"@en ;
 .
@@ -4869,6 +5115,7 @@ lf:stream-channel-spacing-VC
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-spacing-VC"^^xsd:anyURI ;
   rdfs:label "Very closely spaced"@en ;
   skos:definition "158-250 m"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "VC" ;
   skos:prefLabel "Very closely spaced"@en ;
 .
@@ -4879,6 +5126,7 @@ lf:stream-channel-spacing-VW
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-spacing-VW"^^xsd:anyURI ;
   rdfs:label "Very widely spaced"@en ;
   skos:definition "1000 - 1585 m"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "VW" ;
   skos:prefLabel "Very widely spaced"@en ;
 .
@@ -4889,6 +5137,7 @@ lf:stream-channel-spacing-WS
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/stream-channel-spacing-WS"^^xsd:anyURI ;
   rdfs:label "Widely spaced"@en ;
   skos:definition "625-1000 m"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "WS" ;
   skos:prefLabel "Widely spaced"@en ;
 .
@@ -4914,6 +5163,7 @@ lf:streamwise-channel-pattern-D
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/streamwise-channel-pattern-D"^^xsd:anyURI ;
   rdfs:label "Distributary"@en ;
   skos:definition "Distributary"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "D" ;
   skos:prefLabel "Distributary"@en ;
 .
@@ -4924,6 +5174,7 @@ lf:streamwise-channel-pattern-N
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/streamwise-channel-pattern-N"^^xsd:anyURI ;
   rdfs:label "Non-tributary"@en ;
   skos:definition "Non-tributary"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "N" ;
   skos:prefLabel "Non-tributary"@en ;
 .
@@ -4934,6 +5185,7 @@ lf:streamwise-channel-pattern-R
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/streamwise-channel-pattern-R"^^xsd:anyURI ;
   rdfs:label "Reticulated"@en ;
   skos:definition "Reticulated"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "R" ;
   skos:prefLabel "Reticulated"@en ;
 .
@@ -4944,6 +5196,7 @@ lf:streamwise-channel-pattern-T
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/streamwise-channel-pattern-T"^^xsd:anyURI ;
   rdfs:label "Tributary"@en ;
   skos:definition "Tributary"@en ;
+  skos:inScheme asls:landform ;
   skos:notation "T" ;
   skos:prefLabel "Tributary"@en ;
 .
