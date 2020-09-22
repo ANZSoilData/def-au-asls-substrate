@@ -1231,7 +1231,7 @@ lf:landform-element-VLF
 lf:landform-element-descriptions
   a skos:Collection ;
   skos-ext:topMemberOf asls:landform ;
-  dcterms:description """<p>A landform element may be described by the following attributes, assessed withiin a circle of about 20 m radius:</p>
+  dcterms:description """<p>A landform element may be described by the following attributes, assessed within a circle of about 20 m radius:</p>
 <ul>
 <li>slope</li>
 <li>morphological type</li>
@@ -1239,10 +1239,10 @@ lf:landform-element-descriptions
 <li>mode of geomorphological activity</li>
 <li>geomorphological agent</li>
 </ul>
-<p>These will establish most of the distinctions between landform elements that are implied by their geomorphological names. The glossary of types of landform elements occurring in Australia refers explicitly to this set of attributes. A landform element that has been described mayb thus be assigne a type name.</p>"""^^rdf:HTML ;
+<p>These will establish most of the distinctions between landform elements that are implied by their geomorphological names. The glossary of types of landform elements occurring in Australia refers explicitly to this set of attributes. A landform element that has been described may thus be assigned a type name.</p>"""^^rdf:HTML ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-element-descriptions"^^xsd:anyURI ;
   rdfs:label "Description of landform element"@en ;
-  skos:definition "A landform element may be described by the following attributes, assessed withiin a circle of about 20 m radius:"@en ;
+  skos:definition "A landform element may be described by the following attributes, assessed within a circle of about 20 m radius:"@en ;
   skos:member lf:element-dimensions ;
   skos:member lf:landform-genesis ;
   skos:member lf:location-within-the-landform-element ;
@@ -2175,8 +2175,6 @@ lf:landform-pattern-HIL-occasional-elements
   skos:member lf:landform-element-SCA ;
   skos:member lf:landform-element-SUS ;
   skos:member lf:landform-element-TAL ;
-  #skos:member lf:landform-element-TER ;
-  #dead link commented out by rowan, again
   skos:member lf:landform-element-TOR ;
   skos:prefLabel "Occasional elements of Hills"@en ;
   skos:related lf:landform-pattern-HIL ;
@@ -3209,10 +3207,8 @@ lf:landform-pattern-TER-typical-elements
   dcterms:identifier "http://anzsoil.org/def/au/asls/landform/landform-pattern-TER-typical-elements"^^xsd:anyURI ;
   rdfs:label "Typical elements of Terrace"@en ;
   skos:member lf:landform-element-CBE ;
-  skos:member lf:landform-element-PLA ;
   skos:member lf:landform-element-SCA ;
-  # skos:member lf:landform-element-TER ;
-  # dead link commented out by rowan, again.
+  skos:member lf:landform-element-TEP ;
   skos:prefLabel "Typical elements of Terrace"@en ;
   skos:related lf:landform-pattern-TER ;
 .
