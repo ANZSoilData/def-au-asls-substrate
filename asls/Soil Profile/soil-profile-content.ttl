@@ -1417,7 +1417,7 @@ WHERE {
 <coarse-fragments-shape>
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure12.png\" /></p>"@en ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure12.png\" /></p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape"^^xsd:anyURI ;
   ui:isMemberOf <coarse-fragments> ;
   rdfs:comment "C_CF_SHAPE"^^xsd:string ;
@@ -5022,7 +5022,7 @@ Organic and fibrous; dark organic stain discolours fingers; greasy feel in claye
 <field-texture-mineral>
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure16.png\" /></p>"@en ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure16.png\" /></p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-mineral"^^xsd:anyURI ;
   ui:isMemberOf <field-textures> ;
   rdfs:label "Mineral soils field texture grade"@en ;
@@ -5440,7 +5440,7 @@ It may be divided into subhorizons, for example B21, B22, B23.
 .
 <horizon-prefix>
   a skos:Concept ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure13.png\" /></p>"@en ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure13.png\" /></p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizon-prefix"^^xsd:anyURI ;
   ui:isMemberOf <horizon> ;
   rdfs:label "Lithologic discontinuity"@en ;
@@ -5481,7 +5481,7 @@ Where lithologic discontinuities are suspected in the profile but there is no cl
 .
 <horizon-suffix-b>
   a skos:Concept ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure14.png\" /></p>"@en ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure14.png\" /></p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizon-suffix-b"^^xsd:anyURI ;
   ui:isMemberOf <horizon-suffix> ;
   rdfs:comment "Where there are buried soils, and it is possible to designate reliably the horizon nomenclature in the buried profiles, the buried horizons are given the suffix ‘b’ which is written last. Number the different soils from the top downward. The upper soil, or modern soil, is not numbered 1, this being understood. Two examples are given in Figure 14"@en ;
@@ -6973,7 +6973,7 @@ Or
 <segregations-abundance>
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure11.png\" /></p>"@en ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure11.png\" /></p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-abundance"^^xsd:anyURI ;
   ui:isMemberOf <segregations-of-pedogenic-origin> ;
   rdfs:comment "N_SEG_ABUN"^^xsd:string ;
@@ -8640,7 +8640,7 @@ The order of peds and relationship of one to the other is important and may be d
 <voids-macropores-diameter>
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure18.png\" /></p>"@en ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure18.png\" /></p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-diameter"^^xsd:anyURI ;
   ui:isMemberOf <voids-macropores> ;
   rdfs:comment "N_PORE_DIAMETER"^^xsd:string ;

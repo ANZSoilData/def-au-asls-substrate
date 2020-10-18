@@ -26,7 +26,7 @@ asls:soil-profile
   dct:creator <mailto:asris@csiro.au> ;
   dct:description """<p>This register contains a machine-readable representation of the classifiers described in chapter 8 <i>Soil Profile</i>, by R.C. McDonald and R.F. Isbell, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a>.</p>
 <p>A soil profile is a vertical section of a soil from the soil surface through all its horizons to parent material, other consolidated substrate material or selected depth in unconsolidated material.</p>
-<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>."""^^rdf:HTML ;
+<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>.</p>"""^^rdf:HTML ;
   dct:isFormatOf "<p>Chapter 8 <i>Soil Profile</i>, by R.C. McDonald and R.F. Isbell, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a></p>"^^rdf:HTML ;
   dct:license <http://creativecommons.org/licences/by/4.0> ;
   dct:modified "2020-09-16"^^xsd:date ;
@@ -1521,7 +1521,7 @@ sp:coarse-fragments-lithology-ZS
 sp:coarse-fragments-shape
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure12.png\" /></p>"@en ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure12.png\" /></p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-shape"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments ;
   rdfs:comment "C_CF_SHAPE" ;
@@ -5082,7 +5082,7 @@ sp:field-texture-mineral
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dct:description """<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure16.png\" /></p> 
-<p> Figure 16 Triangular texture diagram based on International fractions (Marshall 1947). </p>"""@en ;
+<p> Figure 16 Triangular texture diagram based on International fractions (Marshall 1947). </p>"""^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-mineral"^^xsd:anyURI ;
   ui:isMemberOf sp:field-textures ;
   rdfs:label "Mineral soils field texture grade"@en ;
@@ -5204,7 +5204,7 @@ sp:field-texture-qualifier-sapric
 sp:field-textures
   a skos:Collection ;
   dct:description """<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure15.png\" /></p>
-<p> Figure 15 Size Fractions in several major classification systems. </p>"""@en ;
+<p> Figure 15 Size Fractions in several major classification systems. </p>"""^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-textures"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
   rdfs:comment "C_H_TEXTURE; Adapted from Northcote (1979). The clay percentages must not be used to determine a field texture, that is, do not use them to convert a laboratory particle size value to a field texture grade. Similarly, do not adjust a field texture grade when laboratory particle size data become available."@en ;
@@ -5519,7 +5519,7 @@ sp:horizon-boundary-shape-W
 .
 sp:horizon-prefix
   a skos:Concept ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure13.png\" /></p>"@en ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure13.png\" /></p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizon-prefix"^^xsd:anyURI ;
   ui:isMemberOf sp:horizon ;
   rdfs:label "Lithologic discontinuity"@en ;
@@ -5561,7 +5561,7 @@ sp:horizon-suffix
 .
 sp:horizon-suffix-b
   a skos:Concept ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure14.png\" /></p>"@en ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure14.png\" /></p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/horizon-suffix-b"^^xsd:anyURI ;
   ui:isMemberOf sp:horizon-suffix ;
   rdfs:comment "Where there are buried soils, and it is possible to designate reliably the horizon nomenclature in the buried profiles, the buried horizons are given the suffix ‘b’ which is written last. Number the different soils from the top downward. The upper soil, or modern soil, is not numbered 1, this being understood. Two examples are given in Figure 14"@en ;
@@ -7151,7 +7151,7 @@ sp:roots-size-4
 sp:segregations-abundance
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure11.png\" /></p>"@en ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure11.png\" /></p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-abundance"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-of-pedogenic-origin ;
   rdfs:comment "N_SEG_ABUN" ;
@@ -8921,7 +8921,7 @@ sp:voids-macropores-abundance-6
 sp:voids-macropores-diameter
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure18.png\" /></p>"@en ;
+  dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure18.png\" /></p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-diameter"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores ;
   rdfs:comment "N_PORE_DIAMETER" ;
