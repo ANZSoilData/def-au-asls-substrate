@@ -61,6 +61,8 @@ ls:biotic-microrelief
   rdfs:label "Biotic microreliefs"@en ;
   owl:sameAs ls:Biotic-microrelief ;
   skos:definition "This relief is caused by biotic agents, for example termite mounds, rabbit warrens, wombat burrows, pig wallows, man-made terraces, stump holes, vegetation mounds. No subdivision of any of the types of biotic microrelief according to the specific agent or component of relief is given here. For example, vegetation mounds are mounds of soil material found at the base of plants such as Dillon bush (Nitraria billardieri) or spinifex (Triodia species). Users may subdivide types of biotic microrelief where considered necessary, such as specifying the particular species of vegetation involved in the case of vegetation mounds."@en ;
+  skos:member ls:biotic-microrelief-agents ;
+  skos:member ls:biotic-microrelief-components ;
   skos:prefLabel "Biotic microrelief"@en ;
 .
 ls:biotic-microrelief-agent-a
@@ -155,13 +157,20 @@ ls:biotic-microrelief-agents
   rdfs:label "Biotic microrelief agents"@en ;
   owl:sameAs ls:Biotic-microrelief-agents ;
   skos:definition "The biotic agents causing the relief."@en ;
+  skos:member ls:biotic-microrelief-agent-a ;
+  skos:member ls:biotic-microrelief-agent-b ;
+  skos:member ls:biotic-microrelief-agent-m ;
+  skos:member ls:biotic-microrelief-agent-n ;
+  skos:member ls:biotic-microrelief-agent-o ;
+  skos:member ls:biotic-microrelief-agent-t ;
+  skos:member ls:biotic-microrelief-agent-v ;
   skos:prefLabel "Biotic microrelief agents"@en ;
 .
 ls:biotic-microrelief-component-d
   a skos:Concept ;
   dct:description "Depression."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-d"^^xsd:anyURI ;
-  ui:isMemberOf ls:biotic-microrelief-agents ;
+  ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Depression"@en ;
   skos:definition "Depression."@en ;
   skos:inScheme asls:land-surface ;
@@ -173,7 +182,7 @@ ls:biotic-microrelief-component-e
   a skos:Concept ;
   dct:description "Elongate mound."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-e"^^xsd:anyURI ;
-  ui:isMemberOf ls:biotic-microrelief-agents ;
+  ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Elongate mound"@en ;
   skos:definition "Elongate mound."@en ;
   skos:inScheme asls:land-surface ;
@@ -185,7 +194,7 @@ ls:biotic-microrelief-component-h
   a skos:Concept ;
   dct:description "Hole."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-h"^^xsd:anyURI ;
-  ui:isMemberOf ls:biotic-microrelief-agents ;
+  ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Hole"@en ;
   skos:definition "Hole."@en ;
   skos:inScheme asls:land-surface ;
@@ -197,7 +206,7 @@ ls:biotic-microrelief-component-l
   a skos:Concept ;
   dct:description "Elongate depression."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-l"^^xsd:anyURI ;
-  ui:isMemberOf ls:biotic-microrelief-agents ;
+  ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Elongate depression"@en ;
   skos:definition "Elongate depression."@en ;
   skos:inScheme asls:land-surface ;
@@ -209,7 +218,7 @@ ls:biotic-microrelief-component-m
   a skos:Concept ;
   dct:description "Mound."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-m"^^xsd:anyURI ;
-  ui:isMemberOf ls:biotic-microrelief-agents ;
+  ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Mound"@en ;
   skos:definition "Mound."@en ;
   skos:inScheme asls:land-surface ;
@@ -221,7 +230,7 @@ ls:biotic-microrelief-component-o
   a skos:Concept ;
   dct:description "Other."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-o"^^xsd:anyURI ;
-  ui:isMemberOf ls:biotic-microrelief-agents ;
+  ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Other."@en ;
   skos:definition "Other.."@en ;
   skos:inScheme asls:land-surface ;
@@ -233,13 +242,30 @@ ls:biotic-microrelief-component-t
   a skos:Concept ;
   dct:description "Terrace."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-t"^^xsd:anyURI ;
-  ui:isMemberOf ls:biotic-microrelief-agents ;
+  ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Terrace"@en ;
   skos:definition "Terrace."@en ;
   skos:inScheme asls:land-surface ;
   skos:notation "T" ;
   skos:prefLabel "Terrace"@en ;
   skos:topConceptOf asls:land-surface ;
+.
+ls:biotic-microrelief-components
+  a skos:Collection ;
+  dct:description "The component of the biotic relief."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-components"^^xsd:anyURI ;
+  ui:isMemberOf ls:biotic-microrelief ;
+  rdfs:label "Component of biotic relief"@en ;
+  owl:sameAs ls:Biotic-microrelief-agents ;
+  skos:definition "The component of the biotic relief."@en ;
+  skos:member ls:biotic-microrelief-component-d ;
+  skos:member ls:biotic-microrelief-component-e ;
+  skos:member ls:biotic-microrelief-component-h ;
+  skos:member ls:biotic-microrelief-component-l ;
+  skos:member ls:biotic-microrelief-component-m ;
+  skos:member ls:biotic-microrelief-component-o ;
+  skos:member ls:biotic-microrelief-component-t ;
+  skos:prefLabel "Component of biotic relief"@en ;
 .
 ls:gilgai-microrelief
   a skos:Collection ;
@@ -250,6 +276,7 @@ ls:gilgai-microrelief
   rdfs:label "Gilgai microrelief"@en ;
   owl:sameAs ls:gilgai-microrelief ;
   skos:definition "Gilgai is surface microrelief associated with soils containing shrink–swell clays. It does not include microrelief that apparently results from repeated freezing and thawing, solifluxion or faunal activity. Gilgai consist of mounds and depressions showing varying degrees of order, sometimes separated by a subplanar or slightly undulating surface."@en ;
+  skos:member ls:gilgai-microrelief-proportions ;
   skos:member ls:microrelief-a ;
   skos:member ls:microrelief-c ;
   skos:member ls:microrelief-g ;
@@ -276,7 +303,7 @@ ls:gilgai-microrelief-proportions-a
   a skos:Concept ;
   dct:description "Equal mounds and depressions; no shelf present."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-a"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microrelief ;
+  ui:isMemberOf ls:gilgai-microrelief-proportions ;
   rdfs:label "Equal mounds and depressions; no shelf present"@en ;
   skos:definition "Equal mounds and depressions; no shelf present."@en ;
   skos:inScheme asls:land-surface ;
@@ -288,7 +315,7 @@ ls:gilgai-microrelief-proportions-b
   a skos:Concept ;
   dct:description "More mounds than depressions; no shelf present."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-b"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microrelief ;
+  ui:isMemberOf ls:gilgai-microrelief-proportions ;
   rdfs:label "More mounds than depressions; no shelf present"@en ;
   skos:definition "More mounds than depressions; no shelf present."@en ;
   skos:inScheme asls:land-surface ;
@@ -300,7 +327,7 @@ ls:gilgai-microrelief-proportions-c
   a skos:Concept ;
   dct:description "Fewer mounds than depressions; no shelf present."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-c"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microrelief ;
+  ui:isMemberOf ls:gilgai-microrelief-proportions ;
   rdfs:label "Fewer mounds than depressions; no shelf present"@en ;
   skos:definition "Fewer mounds than depressions; no shelf present."@en ;
   skos:inScheme asls:land-surface ;
@@ -312,7 +339,7 @@ ls:gilgai-microrelief-proportions-d
   a skos:Concept ;
   dct:description "Mound, shelf and depressions; shelf forms prominent part of gilgai."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-d"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microrelief ;
+  ui:isMemberOf ls:gilgai-microrelief-proportions ;
   rdfs:label "Mound, shelf and depressions; shelf forms prominent part of gilgai"@en ;
   skos:definition "Mound, shelf and depressions; shelf forms prominent part of gilgai."@en ;
   skos:inScheme asls:land-surface ;
@@ -365,13 +392,14 @@ ls:microrelief
   skos:member ls:microrelief-u ;
   skos:member ls:microrelief-vertical-interval ;
   skos:member ls:microrelief-w ;
+  skos:member ls:microrelief-z ;
   skos:prefLabel "Microrelief"@en ;
 .
 ls:microrelief-a
   a skos:Concept ;
   dct:description "discontinuous, elongate mounds and/or elongate depressions more or less at right angles to the contour. Usually in sloping lands, commonly between linear gilgai on lower slopes and plains."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-a"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microreliefs ;
+  ui:isMemberOf ls:gilgai-microrelief ;
   ui:isMemberOf ls:microrelief ;
   rdfs:label "Lattice gilgai"@en ;
   skos:definition "discontinuous, elongate mounds and/or elongate depressions more or less at right angles to the contour. Usually in sloping lands, commonly between linear gilgai on lower slopes and plains."@en ;
@@ -384,7 +412,7 @@ ls:microrelief-c
   a skos:Concept ;
   dct:description "irregularly distributed, small depressions and mounds separated by a more or less continuous shelf. Vertical interval usually less than 0.3 m. Horizontal interval usually 3–20 m, surface almost level."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-c"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microreliefs ;
+  ui:isMemberOf ls:gilgai-microrelief ;
   ui:isMemberOf ls:microrelief ;
   rdfs:comment "Vertical interval usually < 0.3 m and horizontal interval 3 - 20m"@en ;
   rdfs:label "Crabhole gilgai"@en ;
@@ -484,17 +512,21 @@ ls:microrelief-component-sampled
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-sampled"^^xsd:anyURI ;
   ui:isMemberOf ls:microrelief ;
   rdfs:label "Component of microrelief sampled"@en ;
-  owl:sameAs ls:Hummocky-microrelief ;
   skos:definition "Give the component of the microrelief in which the described soil profile is located."@en ;
-  skos:member ls:microrelief-d ;
-  skos:member ls:microrelief-w ;
+  skos:member ls:microrelief-component-d ;
+  skos:member ls:microrelief-component-e ;
+  skos:member ls:microrelief-component-f ;
+  skos:member ls:microrelief-component-k ;
+  skos:member ls:microrelief-component-l ;
+  skos:member ls:microrelief-component-m ;
+  skos:member ls:microrelief-component-s ;
   skos:prefLabel "Component of microrelief sampled"@en ;
 .
 ls:microrelief-d
   a skos:Concept ;
   dct:description "small hummocks rising above a planar surface. They vary from rounded, both planar and vertically, to flat-topped, relatively steep-sided and elongate. They are usually closely and regularly spaced, ranging from 0.06 to 0.6 m in both vertical and horizontal dimensions. They are common in northern Australia on soils with impeded internal drainage and in areas of short seasonal ponding. Many observers consider them to be formed by biological activity."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-d"^^xsd:anyURI ;
-  ui:isMemberOf ls:hummocky-microreliefs ;
+  ui:isMemberOf ls:hummocky-microrelief ;
   ui:isMemberOf ls:microrelief ;
   rdfs:label "Debil-debil"@en ;
   skos:definition "small hummocks rising above a planar surface. They vary from rounded, both planar and vertically, to flat-topped, relatively steep-sided and elongate. They are usually closely and regularly spaced, ranging from 0.06 to 0.6 m in both vertical and horizontal dimensions. They are common in northern Australia on soils with impeded internal drainage and in areas of short seasonal ponding. Many observers consider them to be formed by biological activity."@en ;
@@ -507,7 +539,7 @@ ls:microrelief-g
   a skos:Concept ;
   dct:description "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-g"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microreliefs ;
+  ui:isMemberOf ls:gilgai-microrelief ;
   ui:isMemberOf ls:microrelief ;
   rdfs:label "Contour gilgai"@en ;
   skos:definition "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
@@ -567,7 +599,7 @@ ls:microrelief-l
   a skos:Concept ;
   dct:description "long, narrow, parallel, elongate mounds and broader elongate depressions more or less at right angles to the contour. Usually in sloping lands. Vertical interval usually less than 0.3 m, horizontal interval usually 5–8 m."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-l"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microreliefs ;
+  ui:isMemberOf ls:gilgai-microrelief ;
   ui:isMemberOf ls:microrelief ;
   rdfs:comment "Vertical interval usually < 0.3 m and horizontal interval 5 - 8 m"@en ;
   rdfs:label "Linear gilgai"@en ;
@@ -581,7 +613,7 @@ ls:microrelief-m
   a skos:Concept ;
   dct:description "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-m"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microreliefs ;
+  ui:isMemberOf ls:gilgai-microrelief ;
   ui:isMemberOf ls:microrelief ;
   rdfs:label "Melonhole gilgai"@en ;
   skos:definition "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
@@ -594,7 +626,7 @@ ls:microrelief-n
   a skos:Concept ;
   dct:description "irregularly distributed, small mounds and subcircular depressions varying in size and spacing. Vertical interval usually less than 0.3 m, horizontal interval usually 3–10 m, surface almost level."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-n"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microreliefs ;
+  ui:isMemberOf ls:gilgai-microrelief ;
   ui:isMemberOf ls:microrelief ;
   rdfs:comment "Vertical interval usually < 0.3 m and horizontal interval 3 - 10m"@en ;
   rdfs:label "Normal gilgai"@en ;
@@ -691,7 +723,7 @@ ls:microrelief-w
   a skos:Concept ;
   dct:description "steep-sided hummocks rising above a flat surface. Hummocks are frequently occupied by trees or shrubs while the lower surface may be vegetation free or occupied by sedges or reeds. They are subject to prolonged seasonal flooding."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-w"^^xsd:anyURI ;
-  ui:isMemberOf ls:hummocky-microreliefs ;
+  ui:isMemberOf ls:hummocky-microrelief ;
   ui:isMemberOf ls:microrelief ;
   rdfs:label "Swamp hummock"@en ;
   skos:definition "steep-sided hummocks rising above a flat surface. Hummocks are frequently occupied by trees or shrubs while the lower surface may be vegetation free or occupied by sedges or reeds. They are subject to prolonged seasonal flooding. "@en ;
