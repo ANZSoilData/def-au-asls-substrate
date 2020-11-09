@@ -52,6 +52,18 @@ WHERE {
 }
 """@en ;
 .
+ls:aspect
+  a skos:Concept ;
+  a sosa:ObservableProperty ;
+  dct:description "Give as compass bearing to nearest 10 degrees. On level lands (less than 1% slope), aspect need not be recorded."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/aspect"^^xsd:anyURI ;
+  ui:topMemberOf ls: ;
+  rdfs:label "Aspect"@en ;
+  skos:definition "Give as compass bearing to nearest 10 degrees. On level lands (less than 1% slope), aspect need not be recorded."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:prefLabel "Aspect"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
 ls:biotic-microrelief
   a skos:Collection ;
   a sosa:ObservableProperty ;
@@ -266,6 +278,285 @@ ls:biotic-microrelief-components
   skos:member ls:biotic-microrelief-component-o ;
   skos:member ls:biotic-microrelief-component-t ;
   skos:prefLabel "Component of biotic relief"@en ;
+.
+ls:disturbance-of-site
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "These are broad categories of disturbance. Users may subdivide where considered necessary."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/disturbance-of-site"^^xsd:anyURI ;
+  ui:topMemberOf ls: ;
+  rdfs:label "Disturbance of site"@en ;
+  owl:sameAs ls:disturbance-of-site ;
+  skos:definition "These are broad categories of disturbance. Users may subdivide where considered necessary."@en ;
+  skos:member ls:disturbance-of-site-0 ;
+  skos:member ls:disturbance-of-site-1 ;
+  skos:member ls:disturbance-of-site-2 ;
+  skos:member ls:disturbance-of-site-3 ;
+  skos:member ls:disturbance-of-site-4 ;
+  skos:member ls:disturbance-of-site-5 ;
+  skos:member ls:disturbance-of-site-6 ;
+  skos:member ls:disturbance-of-site-7 ;
+  skos:member ls:disturbance-of-site-8 ;
+  skos:prefLabel "Disturbance of site"@en ;
+.
+ls:disturbance-of-site-0
+  a skos:Concept ;
+  dct:description "No effective disturbance; natural."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/disturbance-of-site-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:disturbance-of-site ;
+  rdfs:label "No effective disturbance; natural"@en ;
+  skos:definition "No effective disturbance; natural."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No effective disturbance; natural"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-1
+  a skos:Concept ;
+  dct:description "No effective disturbance other than grazing by hoofed animals."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/disturbance-of-site-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:disturbance-of-site ;
+  rdfs:label "No effective disturbance other than grazing by hoofed animals"@en ;
+  skos:definition "No effective disturbance other than grazing by hoofed animals."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "No effective disturbance other than grazing by hoofed animals"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-2
+  a skos:Concept ;
+  dct:description "Limited clearing, for example selective logging. "@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/disturbance-of-site-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:disturbance-of-site ;
+  rdfs:label "Limited clearing"@en ;
+  skos:definition "Limited clearing, for example selective logging."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Limited clearing"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-3
+  a skos:Concept ;
+  dct:description "Extensive clearing, for example poisoning, ringbarking. "@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/disturbance-of-site-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:disturbance-of-site ;
+  rdfs:label "Extensive clearing"@en ;
+  skos:definition "Extensive clearing, for example poisoning, ringbarking."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Extensive clearing"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-4
+  a skos:Concept ;
+  dct:description "Complete clearing; pasture, native or improved, but never cultivated. "@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/disturbance-of-site-4"^^xsd:anyURI ;
+  ui:isMemberOf ls:disturbance-of-site ;
+  rdfs:label "Complete clearing; pasture, native or improved, but never cultivated"@en ;
+  skos:definition "Complete clearing; pasture, native or improved, but never cultivated."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "Complete clearing; pasture, native or improved, but never cultivated"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-5
+  a skos:Concept ;
+  dct:description "Complete clearing; pasture, native or improved, cultivated at some stage. "@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/disturbance-of-site-5"^^xsd:anyURI ;
+  ui:isMemberOf ls:disturbance-of-site ;
+  rdfs:label "Complete clearing; pasture, native or improved, cultivated at some stage"@en ;
+  skos:definition "Complete clearing; pasture, native or improved, cultivated at some stage."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "5" ;
+  skos:prefLabel "Complete clearing; pasture, native or improved, cultivated at some stage" @en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-6
+  a skos:Concept ;
+  dct:description "Cultivation; rainfed. "@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/disturbance-of-site-6"^^xsd:anyURI ;
+  ui:isMemberOf ls:disturbance-of-site ;
+  rdfs:label "Cultivation; rainfed"@en ;
+  skos:definition "Cultivation; rainfed."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "6" ;
+  skos:prefLabel "Cultivation; rainfed" @en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-7
+  a skos:Concept ;
+  dct:description "Cultivation; irrigated, past or present. "@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/disturbance-of-site-7"^^xsd:anyURI ;
+  ui:isMemberOf ls:disturbance-of-site ;
+  rdfs:label "Cultivation; irrigated, past or present"@en ;
+  skos:definition "Cultivation; irrigated, past or present."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "7" ;
+  skos:prefLabel "Cultivation; irrigated, past or present" @en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:disturbance-of-site-8
+  a skos:Concept ;
+  dct:description "Highly disturbed, for example quarrying, road works, mining, landfill, urban. "@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/disturbance-of-site-8"^^xsd:anyURI ;
+  ui:isMemberOf ls:disturbance-of-site ;
+  rdfs:label "Highly disturbed"@en ;
+  skos:definition "Highly disturbed, for example quarrying, road works, mining, landfill, urban."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "8" ;
+  skos:prefLabel "Highly disturbed" @en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:drainage-height
+  a skos:Concept ;
+  a sosa:ObservableProperty ;
+  dct:description "This is the height of the point of soil observation above the flat, depression or stream channel that forms the effective bottom of the toposequence. Give drainage height in metres."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height"^^xsd:anyURI ;
+  rdfs:label "Drainage height"@en ;
+  skos:definition "This is the height of the point of soil observation above the flat, depression or stream channel that forms the effective bottom of the toposequence. Give drainage height in metres."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:member ls:drainage-height-evaluation-means ;
+  skos:prefLabel "Drainage height"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:drainage-height-evaluation-means
+  a skos:Collection ;
+  dct:description "Means of evaluation of drainage height."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means"^^xsd:anyURI ;
+  ui:isMemberOf ls:drainage-height ;
+  rdfs:label "Means of evaluation of drainage height"@en ;
+  owl:sameAs ls:drainage-height-evaluation-means ;
+  skos:definition "Means of evaluation of drainage height."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:member ls:drainage-height-evaluation-means-a ;
+  skos:member ls:drainage-height-evaluation-means-e ;
+  skos:member ls:drainage-height-evaluation-means-l ;
+  skos:member ls:drainage-height-evaluation-means-m ;
+  skos:prefLabel "Means of evaluation of drainage height"@en ;
+.
+ls:drainage-height-evaluation-means-a
+  a skos:Concept ;
+  dct:description "Determined by altimeter"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-a"^^xsd:anyURI ;
+  ui:isMemberOf ls:drainage-height-evaluation-means ;
+  rdfs:label "Determined by altimeter (drainage height)"@en ;
+  skos:definition "Determined by altimeter"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "A" ;
+  skos:prefLabel "Determined by altimeter (drainage height)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:drainage-height-evaluation-means-e
+  a skos:Concept ;
+  dct:description "Estimate"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-e"^^xsd:anyURI ;
+  ui:isMemberOf ls:drainage-height-evaluation-means ;
+  rdfs:label "Estimate (drainage height)"@en ;
+  skos:definition "Estimate"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "E" ;
+  skos:prefLabel "Estimate (drainage height)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:drainage-height-evaluation-means-l
+  a skos:Concept ;
+  dct:description "Levelled from survey datum or estimated from contour plan (1:10 000 or larger scale)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-l"^^xsd:anyURI ;
+  ui:isMemberOf ls:drainage-height-evaluation-means ;
+  rdfs:label "Levelled from survey datum or estimated from contour plan (drainage height)"@en ;
+  skos:definition "Levelled from survey datum or estimated from contour plan (1:10 000 or larger scale)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "L" ;
+  skos:prefLabel "Levelled from survey datum or estimated from contour plan (drainage height)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:drainage-height-evaluation-means-m
+  a skos:Concept ;
+  dct:description "Interpolated from contour map with contour interval of 20 m or less"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-m"^^xsd:anyURI ;
+  ui:isMemberOf ls:drainage-height-evaluation-means ;
+  rdfs:label "Interpolated from contour map (drainage height)"@en ;
+  skos:definition "Interpolated from contour map with contour interval of 20 m or less"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "M" ;
+  skos:prefLabel "Interpolated from contour map (drainage height)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:elevation
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "Give in metres above sea-level."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation"^^xsd:anyURI ;
+  ui:topMemberOf ls: ;
+  rdfs:label "Elevation in metres above sea-level"@en ;
+  skos:definition "Give in metres above sea-level."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:member ls:elevation-evaluation-means ;
+  skos:prefLabel "Elevation in metres above sea-level"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:elevation-evaluation-means
+  a skos:Collection ;
+  dct:description "Means of evaluation of elevation."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means"^^xsd:anyURI ;
+  ui:isMemberOf ls:elevation ;
+  rdfs:label "Means of evaluation of elevation"@en ;
+  owl:sameAs ls:elevation-evaluation-means ;
+  skos:definition "Means of evaluation of elevation"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:member ls:elevation-evaluation-means-a ;
+  skos:member ls:elevation-evaluation-means-e ;
+  skos:member ls:elevation-evaluation-means-l ;
+  skos:member ls:elevation-evaluation-means-m ;
+  skos:prefLabel "Means of evaluation of elevation"@en ;
+.
+ls:elevation-evaluation-means-a
+  a skos:Concept ;
+  dct:description "Determined by altimeter"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-a"^^xsd:anyURI ;
+  ui:isMemberOf ls:elevation-evaluation-means ;
+  rdfs:label "Determined by altimeter"@en ;
+  skos:definition "Determined by altimeter"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "A" ;
+  skos:prefLabel "Determined by altimeter"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:elevation-evaluation-means-e
+  a skos:Concept ;
+  dct:description "Estimate"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-e"^^xsd:anyURI ;
+  ui:isMemberOf ls:elevation-evaluation-means ;
+  rdfs:label "Estimate"@en ;
+  skos:definition "Estimate"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "E" ;
+  skos:prefLabel "Estimate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:elevation-evaluation-means-l
+  a skos:Concept ;
+  dct:description "Levelled from survey datum or estimated from contour plan (1:10 000 or larger scale)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-l"^^xsd:anyURI ;
+  ui:isMemberOf ls:elevation-evaluation-means ;
+  rdfs:label "Levelled from survey datum or estimated from contour plan"@en ;
+  skos:definition "Levelled from survey datum or estimated from contour plan (1:10 000 or larger scale)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "L" ;
+  skos:prefLabel "Levelled from survey datum or estimated from contour plan"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:elevation-evaluation-means-m
+  a skos:Concept ;
+  dct:description "Interpolated from contour map with contour interval of 20 m or less"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-m"^^xsd:anyURI ;
+  ui:isMemberOf ls:elevation-evaluation-means ;
+  rdfs:label "Interpolated from contour map"@en ;
+  skos:definition "Interpolated from contour map with contour interval of 20 m or less"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "M" ;
+  skos:prefLabel "Interpolated from contour map"@en ;
+  skos:topConceptOf asls:land-surface ;
 .
 ls:gilgai-microrelief
   a skos:Collection ;
