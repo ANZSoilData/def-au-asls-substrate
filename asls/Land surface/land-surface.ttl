@@ -368,7 +368,7 @@ ls:disturbance-of-site-5
   skos:definition "Complete clearing; pasture, native or improved, cultivated at some stage."@en ;
   skos:inScheme asls:land-surface ;
   skos:notation "5" ;
-  skos:prefLabel "Complete clearing; pasture, native or improved, cultivated at some stage" @en ;
+  skos:prefLabel "Complete clearing; pasture, native or improved, cultivated at some stage"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:disturbance-of-site-6
@@ -380,7 +380,7 @@ ls:disturbance-of-site-6
   skos:definition "Cultivation; rainfed."@en ;
   skos:inScheme asls:land-surface ;
   skos:notation "6" ;
-  skos:prefLabel "Cultivation; rainfed" @en ;
+  skos:prefLabel "Cultivation; rainfed"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:disturbance-of-site-7
@@ -392,7 +392,7 @@ ls:disturbance-of-site-7
   skos:definition "Cultivation; irrigated, past or present."@en ;
   skos:inScheme asls:land-surface ;
   skos:notation "7" ;
-  skos:prefLabel "Cultivation; irrigated, past or present" @en ;
+  skos:prefLabel "Cultivation; irrigated, past or present"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:disturbance-of-site-8
@@ -404,7 +404,7 @@ ls:disturbance-of-site-8
   skos:definition "Highly disturbed, for example quarrying, road works, mining, landfill, urban."@en ;
   skos:inScheme asls:land-surface ;
   skos:notation "8" ;
-  skos:prefLabel "Highly disturbed" @en ;
+  skos:prefLabel "Highly disturbed"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:drainage-height
@@ -556,6 +556,227 @@ ls:elevation-evaluation-means-m
   skos:inScheme asls:land-surface ;
   skos:notation "M" ;
   skos:prefLabel "Interpolated from contour map"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description """This section is concerned with accelerated erosion rather than natural erosion. Natural or geologic erosion is the type and rate of movement of land surface material in its undisturbed natural environment. Accelerated erosion is the more rapid erosion that follows the destruction or loss of protective cover often resulting from people’s influence on the soil, vegetation or landform. It is not always easy to distinguish between accelerated and natural erosion in some landscapes where both are closely interrelated, nor is it always clear whether wind or water is the dominant agent. This is particularly so in the case of scald formation (Warren 1965).
+The complexity of erosion forms creates difficulties in both defining and quantitatively estimating the extent of erosion within the dimensions of the site. Hence, the observer is advised to record the following simple parameters. Assess the erosion observed at the time of the description, not the likelihood of erosion."""@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion"^^xsd:anyURI ;
+  ui:topMemberOf ls: ;
+  rdfs:comment "For erosion, aggradation and inundation assessment, the extent of the site is 20 m radius."@en ;
+  rdfs:label "Erosion"@en ;
+  owl:sameAs ls:erosion ;
+  skos:definition """This section is concerned with accelerated erosion rather than natural erosion. Natural or geologic erosion is the type and rate of movement of land surface material in its undisturbed natural environment. Accelerated erosion is the more rapid erosion that follows the destruction or loss of protective cover often resulting from people’s influence on the soil, vegetation or landform. It is not always easy to distinguish between accelerated and natural erosion in some landscapes where both are closely interrelated, nor is it always clear whether wind or water is the dominant agent. This is particularly so in the case of scald formation (Warren 1965).
+The complexity of erosion forms creates difficulties in both defining and quantitatively estimating the extent of erosion within the dimensions of the site. Hence, the observer is advised to record the following simple parameters. Assess the erosion observed at the time of the description, not the likelihood of erosion."""@en ;
+  skos:member ls:erosion-b ;
+  skos:member ls:erosion-c ;
+  skos:member ls:erosion-g ;
+  skos:member ls:erosion-m ;
+  skos:member ls:erosion-r ;
+  skos:member ls:erosion-s ;
+  skos:member ls:erosion-state ;
+  skos:member ls:erosion-t ;
+  skos:member ls:erosion-v ;
+  skos:member ls:erosion-w ;
+  skos:member ls:water-erosion ;
+  skos:prefLabel "Erosion"@en ;
+.
+ls:erosion-b
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "This is the removal of soil from a stream bank, typically during periods of high stream flow."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Stream bank erosion"@en ;
+  owl:sameAs ls:erosion-b ;
+  skos:definition "This is the removal of soil from a stream bank, typically during periods of high stream flow."@en ;
+  skos:notation "B" ;
+  skos:member ls:erosion-b-x ;
+  skos:member ls:erosion-b-0 ;
+  skos:member ls:erosion-b-1 ;
+  skos:prefLabel "Stream bank erosion"@en ;
+.
+ls:erosion-g
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "A gully is a channel more than 0.3 m deep." @en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Gully erosion"@en ;
+  owl:sameAs ls:erosion-g ;
+  skos:definition "A gully is a channel more than 0.3 m deep." @en ;
+  skos:notation "G" ;
+  skos:member ls:erosion-g-0 ;
+  skos:member ls:erosion-g-1 ;
+  skos:member ls:erosion-g-2 ;
+  skos:member ls:erosion-g-3 ;
+  skos:member ls:erosion-g-depth ;
+  skos:prefLabel "Gully erosion"@en ;
+.
+ls:erosion-r
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)." @en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Rill erosion"@en ;
+  owl:sameAs ls:erosion-g ;
+  skos:definition "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)." @en ;
+  skos:notation "R" ;
+  skos:member ls:erosion-r-0 ;
+  skos:member ls:erosion-r-1 ;
+  skos:member ls:erosion-r-2 ;
+  skos:member ls:erosion-r-3 ;
+  skos:prefLabel "Rill erosion"@en ;
+.
+ls:erosion-g-depth
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "This gives the maximum depth within the site." @en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g ;
+  rdfs:label "Gully depth"@en ;
+  owl:sameAs ls:erosion-g-depth ;
+  skos:definition "This gives the maximum depth within the site." @en ;
+  skos:member ls:erosion-g-depth-1 ;
+  skos:member ls:erosion-g-depth-2 ;
+  skos:member ls:erosion-g-depth-3 ;
+  skos:prefLabel "Gully depth"@en ;
+.
+ls:erosion-g-depth-1
+  a skos:Concept ;
+  dct:description "<1.5 m"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g-depth ;
+  rdfs:label "Gully depth <1.5 m"@en ;
+  skos:definition "<1.5 m"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Gully depth <1.5 m"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-g-depth-2
+  a skos:Concept ;
+  dct:description "1.5-3.0 m"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g-depth ;
+  rdfs:label "Gully depth 1.5-3.0 m"@en ;
+  skos:definition "1.5-3.0 m"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Gully depth 1.5-3.0 m"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-g-depth-3
+  a skos:Concept ;
+  dct:description ">3 m"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g-depth ;
+  rdfs:label "Gully depth >3 m"@en ;
+  skos:definition ">3 m"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Gully depth >3 m"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-g-0
+  a skos:Concept ;
+  dct:description "No gully erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g ;
+  rdfs:label "No gully erosion"@en ;
+  skos:definition "No gully erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No gully erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-g-1
+  a skos:Concept ;
+  dct:description "gullies are isolated, linear, discontinuous and restricted to primary or minor drainage lines."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g ;
+  rdfs:label "Minor gully erosion"@en ;
+  skos:definition "gullies are isolated, linear, discontinuous and restricted to primary or minor drainage lines."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Minor gully erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-g-2
+  a skos:Concept ;
+  dct:description "gullies are linear, continuous and restricted to primary and minor drainage lines."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g ;
+  rdfs:label "Moderate gully erosion"@en ;
+  skos:definition "gullies are linear, continuous and restricted to primary and minor drainage lines."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderate gully erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-g-3
+  a skos:Concept ;
+  dct:description "gullies are continuous or discontinuous and either tend to branch away from primary drainage lines and on to footslopes, or have multiple branches within primary drainage lines."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g ;
+  rdfs:label "Severe gully erosion"@en ;
+  skos:definition "gullies are continuous or discontinuous and either tend to branch away from primary drainage lines and on to footslopes, or have multiple branches within primary drainage lines."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Severe gully erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-state
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "State of erosion"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-state"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "State of erosion"@en ;
+  owl:sameAs ls:erosion-state ;
+  skos:definition "State of erosion"@en ;
+  skos:member ls:erosion-state-a ;
+  skos:member ls:erosion-state-p ;
+  skos:member ls:erosion-state-s ;
+  skos:prefLabel "State of erosion"@en ;
+.
+ls:erosion-state-a
+  a skos:Concept ;
+  dct:description "one or both of the following conditions apply: evidence of sediment movement; sides and/or floors of erosion form are relatively bare of vegetation."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-state-a"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-state ;
+  rdfs:label "Active"@en ;
+  skos:definition "one or both of the following conditions apply: evidence of sediment movement; sides and/or floors of erosion form are relatively bare of vegetation."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "A" ;
+  skos:prefLabel "Active"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-state-p
+  a skos:Concept ;
+  dct:description "evidence of some active erosion and some evidence of stabilisation."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-state-p"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-state ;
+  rdfs:label "Partly stabilised"@en ;
+  skos:definition "evidence of some active erosion and some evidence of stabilisation."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "P" ;
+  skos:prefLabel "Partly stabilised"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-state-s
+  a skos:Concept ;
+  dct:description "one or both of the following conditions apply: no evidence of sediment movement; sides and/or floors of erosion form are revegetated."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-state-s"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-state ;
+  rdfs:label "Stabilised"@en ;
+  skos:definition "one or both of the following conditions apply: no evidence of sediment movement; sides and/or floors of erosion form are revegetated."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "S" ;
+  skos:prefLabel "Stabilised"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:gilgai-microrelief
@@ -1034,4 +1255,25 @@ ls:microrelief-z
   skos:notation "Z" ;
   skos:prefLabel "Zero or no microrelief"@en ;
   skos:topConceptOf asls:land-surface ;
+.
+ls:water-erosion
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description """Give type and presence/absence or extent of accelerated erosion.
+For sheet, rill and gully erosion there is no consensus in Australia on a quantitative or precise definition of what constitutes minor, moderate and severe erosion. This derives partly from the difficulty of measuring actual soil loss at a site. It also derives partly from the wide range of soils, climates and land uses, variations in any or all of which may alter the concept of minor, moderate or severe erosion.
+The observer wishing to record the severity of erosion may record it as minor, moderate or severe, basing the assessment on local knowledge and guided by indicators that may be present as described below (after Morse et al. 1987). Note the actual depth of soil loss where this can be reliably assessed."""@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/water-erosion"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Water erosion"@en ;
+  owl:sameAs ls:water-erosion ;
+  skos:definition """Give type and presence/absence or extent of accelerated erosion.
+For sheet, rill and gully erosion there is no consensus in Australia on a quantitative or precise definition of what constitutes minor, moderate and severe erosion. This derives partly from the difficulty of measuring actual soil loss at a site. It also derives partly from the wide range of soils, climates and land uses, variations in any or all of which may alter the concept of minor, moderate or severe erosion.
+The observer wishing to record the severity of erosion may record it as minor, moderate or severe, basing the assessment on local knowledge and guided by indicators that may be present as described below (after Morse et al. 1987). Note the actual depth of soil loss where this can be reliably assessed."""@en ;
+  skos:member ls:erosion-b ;
+  skos:member ls:erosion-g ;
+  skos:member ls:erosion-r ;
+  skos:member ls:erosion-s ;
+  skos:member ls:erosion-t ;
+  skos:member ls:erosion-v ;
+  skos:prefLabel "Water erosion"@en ;
 .
