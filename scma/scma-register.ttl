@@ -13,6 +13,7 @@
 <scma>
   rdf:type reg:Register ;
   rdf:type ldp:Container ;
+  rdf:type skos:ConceptScheme ;
   dct:contributor <https://orcid.org/0000-0002-3884-3420> ;
   dct:creator <mailto:mr.wong@federation.edu.au> ;
   dct:description "<p>This register contains a machine-readable representation of the classifiers described in <a href='https://www.publish.csiro.au/book/6418'>Soil Chemical Methods  Australasia</a> 1.	(2011), by George E Rayment and David J Lyons. These comprise the laboratory and field chemical tests relevant to Australasia and beyond. </p>         <p>Supersedes Australian Laboratory Handbook of Soil and Water Chemical Methods (Rayment and Higginson 1992) while retaining method codes and other strengths of that Handbook. This register includes the method codes from Rayment and Higginson (1992) that were made redundant or superseded by new codes in George E Rayment and David J Lyons (2011).</p>"^^rdf:HTML ;
