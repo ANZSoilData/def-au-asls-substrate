@@ -52,6 +52,58 @@ WHERE {
 }
 """@en ;
 .
+ls:aggradation
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "This refers to the presence of material deposited on a pre-existing surface as a result of wind and/or water erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/aggradation"^^xsd:anyURI ;
+  ui:topMemberOf ls: ;
+  rdfs:label "Aggradation"@en ;
+  owl:sameAs ls:Aggradation ;
+  skos:definition "This refers to the presence of material deposited on a pre-existing surface as a result of wind and/or water erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:member ls:aggradation-0 ;
+  skos:member ls:aggradation-1 ;
+  skos:member ls:aggradation-x ;
+  skos:prefLabel "Aggradation"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:aggradation-0
+  a skos:Concept ;
+  dct:description "No aggradation."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/aggradation-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:aggradation ;
+  rdfs:label "No aggradation"@en ;
+  skos:definition "No aggradation."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No aggradation"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:aggradation-1
+  a skos:Concept ;
+  dct:description "Aggradation present."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/aggradation-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:aggradation ;
+  rdfs:label "Present"@en ;
+  skos:definition "Aggradation present."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:aggradation-x
+  a skos:Concept ;
+  dct:description "Aggradation not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/aggradation-x"^^xsd:anyURI ;
+  ui:isMemberOf ls:aggradation ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Aggradation not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
 ls:aspect
   a skos:Concept ;
   a sosa:ObservableProperty ;
@@ -592,94 +644,44 @@ ls:erosion-b
   rdfs:label "Stream bank erosion"@en ;
   owl:sameAs ls:erosion-b ;
   skos:definition "This is the removal of soil from a stream bank, typically during periods of high stream flow."@en ;
-  skos:notation "B" ;
-  skos:member ls:erosion-b-x ;
   skos:member ls:erosion-b-0 ;
   skos:member ls:erosion-b-1 ;
+  skos:member ls:erosion-b-x ;
+  skos:notation "B" ;
   skos:prefLabel "Stream bank erosion"@en ;
+.
+ls:erosion-c
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "This is the removal of surface soil by water and/or wind, often exposing a more clayey subsoil which is devoid of vegetation and relatively impermeable to water. Scalds are most common in arid or semi-arid lands."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-c"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Scald erosion"@en ;
+  owl:sameAs ls:erosion-c ;
+  skos:definition "This is the removal of surface soil by water and/or wind, often exposing a more clayey subsoil which is devoid of vegetation and relatively impermeable to water. Scalds are most common in arid or semi-arid lands."@en ;
+  skos:member ls:erosion-c-0 ;
+  skos:member ls:erosion-c-1 ;
+  skos:member ls:erosion-c-2 ;
+  skos:member ls:erosion-c-3 ;
+  skos:notation "C" ;
+  skos:prefLabel "Scald erosion"@en ;
 .
 ls:erosion-g
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "A gully is a channel more than 0.3 m deep." @en ;
+  dct:description "A gully is a channel more than 0.3 m deep."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
   rdfs:label "Gully erosion"@en ;
   owl:sameAs ls:erosion-g ;
-  skos:definition "A gully is a channel more than 0.3 m deep." @en ;
-  skos:notation "G" ;
+  skos:definition "A gully is a channel more than 0.3 m deep."@en ;
   skos:member ls:erosion-g-0 ;
   skos:member ls:erosion-g-1 ;
   skos:member ls:erosion-g-2 ;
   skos:member ls:erosion-g-3 ;
   skos:member ls:erosion-g-depth ;
+  skos:notation "G" ;
   skos:prefLabel "Gully erosion"@en ;
-.
-ls:erosion-r
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dct:description "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)." @en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion ;
-  rdfs:label "Rill erosion"@en ;
-  owl:sameAs ls:erosion-g ;
-  skos:definition "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)." @en ;
-  skos:notation "R" ;
-  skos:member ls:erosion-r-0 ;
-  skos:member ls:erosion-r-1 ;
-  skos:member ls:erosion-r-2 ;
-  skos:member ls:erosion-r-3 ;
-  skos:prefLabel "Rill erosion"@en ;
-.
-ls:erosion-g-depth
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dct:description "This gives the maximum depth within the site." @en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g ;
-  rdfs:label "Gully depth"@en ;
-  owl:sameAs ls:erosion-g-depth ;
-  skos:definition "This gives the maximum depth within the site." @en ;
-  skos:member ls:erosion-g-depth-1 ;
-  skos:member ls:erosion-g-depth-2 ;
-  skos:member ls:erosion-g-depth-3 ;
-  skos:prefLabel "Gully depth"@en ;
-.
-ls:erosion-g-depth-1
-  a skos:Concept ;
-  dct:description "<1.5 m"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-1"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g-depth ;
-  rdfs:label "Gully depth <1.5 m"@en ;
-  skos:definition "<1.5 m"@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "1" ;
-  skos:prefLabel "Gully depth <1.5 m"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-g-depth-2
-  a skos:Concept ;
-  dct:description "1.5-3.0 m"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-2"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g-depth ;
-  rdfs:label "Gully depth 1.5-3.0 m"@en ;
-  skos:definition "1.5-3.0 m"@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "2" ;
-  skos:prefLabel "Gully depth 1.5-3.0 m"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-g-depth-3
-  a skos:Concept ;
-  dct:description ">3 m"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-3"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g-depth ;
-  rdfs:label "Gully depth >3 m"@en ;
-  skos:definition ">3 m"@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "3" ;
-  skos:prefLabel "Gully depth >3 m"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:erosion-g-0
   a skos:Concept ;
@@ -728,6 +730,103 @@ ls:erosion-g-3
   skos:notation "3" ;
   skos:prefLabel "Severe gully erosion"@en ;
   skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-g-depth
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "This gives the maximum depth within the site."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g ;
+  rdfs:label "Gully depth"@en ;
+  owl:sameAs ls:erosion-g-depth ;
+  skos:definition "This gives the maximum depth within the site."@en ;
+  skos:member ls:erosion-g-depth-1 ;
+  skos:member ls:erosion-g-depth-2 ;
+  skos:member ls:erosion-g-depth-3 ;
+  skos:prefLabel "Gully depth"@en ;
+.
+ls:erosion-g-depth-1
+  a skos:Concept ;
+  dct:description "<1.5 m"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g-depth ;
+  rdfs:label "Gully depth <1.5 m"@en ;
+  skos:definition "<1.5 m"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Gully depth <1.5 m"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-g-depth-2
+  a skos:Concept ;
+  dct:description "1.5-3.0 m"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g-depth ;
+  rdfs:label "Gully depth 1.5-3.0 m"@en ;
+  skos:definition "1.5-3.0 m"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Gully depth 1.5-3.0 m"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-g-depth-3
+  a skos:Concept ;
+  dct:description ">3 m"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-g-depth ;
+  rdfs:label "Gully depth >3 m"@en ;
+  skos:definition ">3 m"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Gully depth >3 m"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-m
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "This includes all relatively large downslope movement of soil, rock or mixture of both, for example landslides, slumps, earth flows, debris avalanches and solifluxion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-m"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Mass movement"@en ;
+  owl:sameAs ls:erosion-m ;
+  skos:definition "This includes all relatively large downslope movement of soil, rock or mixture of both, for example landslides, slumps, earth flows, debris avalanches and solifluxion."@en ;
+  skos:member ls:erosion-m-0 ;
+  skos:member ls:erosion-m-1 ;
+  skos:notation "M" ;
+  skos:prefLabel "Mass movement"@en ;
+.
+ls:erosion-r
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Rill erosion"@en ;
+  owl:sameAs ls:erosion-g ;
+  skos:definition "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)."@en ;
+  skos:member ls:erosion-r-0 ;
+  skos:member ls:erosion-r-1 ;
+  skos:member ls:erosion-r-2 ;
+  skos:member ls:erosion-r-3 ;
+  skos:notation "R" ;
+  skos:prefLabel "Rill erosion"@en ;
+.
+ls:erosion-s
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "This is the relatively uniform removal of soil from an area without the development of conspicuous channels. Indicators of sheet erosion include soil deposits in downslope sediment traps, such as fencelines or farm dams, and pedestalling, root exposure or exposure of subsoils."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Sheet erosion"@en ;
+  owl:sameAs ls:erosion-s ;
+  skos:definition "This is the relatively uniform removal of soil from an area without the development of conspicuous channels. Indicators of sheet erosion include soil deposits in downslope sediment traps, such as fencelines or farm dams, and pedestalling, root exposure or exposure of subsoils."@en ;
+  skos:member ls:erosion-s-0 ;
+  skos:member ls:erosion-s-1 ;
+  skos:member ls:erosion-s-2 ;
+  skos:member ls:erosion-s-3 ;
+  skos:member ls:erosion-s-x ;
+  skos:notation "S" ;
+  skos:prefLabel "Sheet erosion"@en ;
 .
 ls:erosion-state
   a skos:Collection ;
@@ -778,6 +877,52 @@ ls:erosion-state-s
   skos:notation "S" ;
   skos:prefLabel "Stabilised"@en ;
   skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-t
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "This is the removal of subsoil by water while the surface soil remains relatively intact (Crouch 1976)."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-t"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Tunnel erosion"@en ;
+  owl:sameAs ls:erosion-t ;
+  skos:definition "This is the removal of subsoil by water while the surface soil remains relatively intact (Crouch 1976)."@en ;
+  skos:member ls:erosion-t-0 ;
+  skos:member ls:erosion-t-1 ;
+  skos:member ls:erosion-t-x ;
+  skos:notation "T" ;
+  skos:prefLabel "Tunnel erosion"@en ;
+.
+ls:erosion-v
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "Erosion of beaches, beach ridges and/or dunes. This is the removal of sand or soil from the margins of beaches, beach ridges, dunes, lakes or dams by wave action."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-v"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Wave erosion"@en ;
+  owl:sameAs ls:erosion-v ;
+  skos:definition "Erosion of beaches, beach ridges and/or dunes. This is the removal of sand or soil from the margins of beaches, beach ridges, dunes, lakes or dams by wave action."@en ;
+  skos:member ls:erosion-v-0 ;
+  skos:member ls:erosion-v-1 ;
+  skos:member ls:erosion-v-x ;
+  skos:notation "V" ;
+  skos:prefLabel "Wave erosion"@en ;
+.
+ls:erosion-w
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "Give presence/absence or extent of accelerated erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Wind erosion"@en ;
+  owl:sameAs ls:erosion-w ;
+  skos:definition "Give presence/absence or extent of accelerated erosion."@en ;
+  skos:member ls:erosion-w-0 ;
+  skos:member ls:erosion-w-1 ;
+  skos:member ls:erosion-w-2 ;
+  skos:member ls:erosion-w-x ;
+  skos:notation "W" ;
+  skos:prefLabel "Wind erosion"@en ;
 .
 ls:gilgai-microrelief
   a skos:Collection ;
@@ -871,6 +1016,156 @@ ls:hummocky-microrelief
   skos:member ls:microrelief-d ;
   skos:member ls:microrelief-w ;
   skos:prefLabel "Hummocky microrelief"@en ;
+.
+ls:inundation
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description """Inundation includes flooding from over-bank flow, inundation from local runon and overland flow. Although the importance of this information is considerable, in most instances it cannot be assessed at each site. Some evidence may be available from past events, for example accumulation of debris in trees or on fences. Otherwise information is usually obtained from local enquiry."""@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation"^^xsd:anyURI ;
+  ui:topMemberOf ls: ;
+  rdfs:label "Inundation"@en ;
+  owl:sameAs ls:Aggradation ;
+  skos:definition """Inundation includes flooding from over-bank flow, inundation from local runon and overland flow. Although the importance of this information is considerable, in most instances it cannot be assessed at each site. Some evidence may be available from past events, for example accumulation of debris in trees or on fences. Otherwise information is usually obtained from local enquiry."""@en ;
+  skos:inScheme asls:land-surface ;
+  skos:member ls:inundation-frequency ;
+  skos:member ls:inundation-duration ;
+  skos:member ls:inundation-depth ;
+  skos:member ls:inundation-runon-velocity ;
+  skos:prefLabel "Inundation"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "Give long-term average of inundation. Among alluvial plains, flood plains typically fall in categories 4 and 3."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-frequency"^^xsd:anyURI ;
+  ui:isMemberOf ls:inundation ;
+  rdfs:label "Frequency of inundation"@en ;
+  owl:sameAs ls:Inundation-frequency ;
+  skos:definition "Give long-term average of inundation. Among alluvial plains, flood plains typically fall in categories 4 and 3."@en ;
+  skos:member ls:inundation-frequency-0 ;
+  skos:member ls:inundation-frequency-1 ;
+  skos:member ls:inundation-frequency-2 ;
+  skos:member ls:inundation-frequency-3 ;
+  skos:member ls:inundation-frequency-4 ;
+  skos:member ls:inundation-frequency-5 ;
+  skos:prefLabel "Frequency of inundation"@en ;
+.
+ls:inundation-frequency-0
+  a skos:Concept ;
+  dct:description "No inundation."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-frequency-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:inundation-frequency ;
+  rdfs:label "No inundation"@en ;
+  skos:definition "No inundation."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No inundation"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency-1
+  a skos:Concept ;
+  dct:description "Less than one occurrence per 100 years."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-frequency-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:inundation-frequency ;
+  rdfs:label "Less than one occurrence per 100 years"@en ;
+  skos:definition "Less than one occurrence per 100 years. "@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Less than one occurrence per 100 years"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency-2
+  a skos:Concept ;
+  dct:description "One occurrence in between 50 and 100 years."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-frequency-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:inundation-frequency ;
+  rdfs:label "One occurrence in between 50 and 100 years"@en ;
+  skos:definition "One occurrence in between 50 and 100 years. "@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "One occurrence in between 50 and 100 years"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency-3
+  a skos:Concept ;
+  dct:description "One occurrence in between 10 and 50 years."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-frequency-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:inundation-frequency ;
+  rdfs:label "One occurrence in between 10 and 50 years"@en ;
+  skos:definition "One occurrence in between 10 and 50 years. "@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "One occurrence in between 10 and 50 years"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency-4
+  a skos:Concept ;
+  dct:description "One occurrence in between 1 and 10 years."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-frequency-4"^^xsd:anyURI ;
+  ui:isMemberOf ls:inundation-frequency ;
+  rdfs:label "One occurrence in between 1 and 10 years"@en ;
+  skos:definition "One occurrence in between 1 and 10 years. "@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "One occurrence in between 1 and 10 years"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-frequency-5
+  a skos:Concept ;
+  dct:description "More than one occurrence per year."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-frequency-5"^^xsd:anyURI ;
+  ui:isMemberOf ls:inundation-frequency ;
+  rdfs:label "More than one occurrence per year"@en ;
+  skos:definition "More than one occurrence per year. "@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "5" ;
+  skos:prefLabel "More than one occurrence per year"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:inundation-duration
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "Give likely duration of an inundation event."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-duration"^^xsd:anyURI ;
+  ui:isMemberOf ls:inundation ;
+  rdfs:label "Duration (annual) of inundation"@en ;
+  owl:sameAs ls:Inundation-duration ;
+  skos:definition "Give likely duration of an inundation event."@en ;
+  skos:member ls:inundation-duration-1 ;
+  skos:member ls:inundation-duration-2 ;
+  skos:member ls:inundation-duration-3 ;
+  skos:member ls:inundation-duration-4 ;
+  skos:prefLabel "Duration (annual) of inundation"@en ;
+.
+ls:inundation-depth
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "Give likely maximum depth of water in an inundation event (mm). "@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-depth"^^xsd:anyURI ;
+  ui:isMemberOf ls:inundation ;
+  rdfs:label "Depth of inundation"@en ;
+  owl:sameAs ls:Inundation-depth ;
+  skos:definition "Give likely maximum depth of water in an inundation event (mm). "@en ;
+  skos:member ls:inundation-depth-1 ;
+  skos:member ls:inundation-depth-2 ;
+  skos:member ls:inundation-depth-3 ;
+  skos:member ls:inundation-depth-4 ;
+  skos:member ls:inundation-depth-5 ;
+  skos:prefLabel "Depth of inundation"@en ;
+.
+ls:inundation-runon-velocity
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "As a guide, the surface velocity in a river is typically 1–2 m/s. "@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-runon-velocity"^^xsd:anyURI ;
+  ui:isMemberOf ls:inundation ;
+  rdfs:label "Runon velocity of inundation"@en ;
+  owl:sameAs ls:Inundation-runon-velocity ;
+  skos:definition "As a guide, the surface velocity in a river is typically 1–2 m/s. "@en ;
+  skos:member ls:inundation-runon-velocity-l ;
+  skos:member ls:inundation-runon-velocity-h ;
+  skos:prefLabel "Runon velocity of inundation"@en ;
 .
 ls:microrelief
   a skos:Collection ;
