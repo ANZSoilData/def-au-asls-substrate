@@ -14,6 +14,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix sp: <http://anzsoil.org/def/au/asls/soil-profile/> .
+@prefix ls: <http://anzsoil.org/def/au/asls/land-surface/> .
 @prefix ui: <http://purl.org/linked-data/registry-ui#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -262,13 +263,14 @@ sp:coarse-fragments-distribution-U
 sp:coarse-fragments-lithology
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop.   Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.   "@en ;
+  dct:description "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop. Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.   "@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments ;
   rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Lithology of coarse fragments"@en ;
   owl:sameAs sp:coarse-fragments-lithology ;
-  skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop.   Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.    "@en ;
+  owl:sameAs ls:coarse-fragments-lithology ;
+  skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop. Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.    "@en ;
   skos:member sp:coarse-fragments-lithology-AC ;
   skos:member sp:coarse-fragments-lithology-AD ;
   skos:member sp:coarse-fragments-lithology-AF ;
