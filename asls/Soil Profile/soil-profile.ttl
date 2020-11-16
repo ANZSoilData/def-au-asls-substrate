@@ -6403,12 +6403,12 @@ sp:mottle-type-Z
 .
 sp:mottles-and-other-colour-patterns
   a skos:Collection ;
-  dct:description "Mottles are spots, blotches or streaks of subdominant colours different from the matrix colour and also different from the colour of the ped surface. Segregations of pedogenic origin are not considered to be mottles and are recorded elsewhere (page 146). Colour patterns due to biological or mechanical mixing and inclusions of weathered substrate material are described separately."@en ;
+  dct:description "Mottles are spots, blotches or streaks of subdominant colours different from the matrix colour and also different from the colour of the ped surface. Segregations of pedogenic origin are not considered to be mottles and are recorded elsewhere. Colour patterns due to biological or mechanical mixing and inclusions of weathered substrate material are described separately."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/mottles-and-other-colour-patterns"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
   rdfs:label "Mottles and other colour patterns"@en ;
   owl:sameAs sp:mottles-and-other-colour-patterns ;
-  skos:definition "Mottles are spots, blotches or streaks of subdominant colours different from the matrix colour and also different from the colour of the ped surface. Segregations of pedogenic origin are not considered to be mottles and are recorded elsewhere (page 146). Colour patterns due to biological or mechanical mixing and inclusions of weathered substrate material are described separately."@en ;
+  skos:definition "Mottles are spots, blotches or streaks of subdominant colours different from the matrix colour and also different from the colour of the ped surface. Segregations of pedogenic origin are not considered to be mottles and are recorded elsewhere. Colour patterns due to biological or mechanical mixing and inclusions of weathered substrate material are described separately."@en ;
   skos:member sp:mottle-abundance ;
   skos:member sp:mottle-boundary-distinctness ;
   skos:member sp:mottle-colour ;
@@ -8186,7 +8186,7 @@ sp:structure-pedality-grade-G
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-grade-G"^^xsd:anyURI ;
   ui:isMemberOf sp:structure-pedality-grade ;
   rdfs:comment """Apedal soil (no observable peds).
-*Incoherent means that less than two-thirds of the soil material will remain united at the given moisture state without very small force (force 1, see ‘Consistence’ on page 138) having been applied."""@en ;
+*Incoherent means that less than two-thirds of the soil material will remain united at the given moisture state without very small force (force 1, see ‘Consistence’) having been applied."""@en ;
   rdfs:label "Single grain"@en ;
   skos:definition "loose, incoherent* mass of individual particles. When displaced, soil separates into ultimate particles."@en ;
   skos:inScheme asls:soil-profile ;
@@ -8222,13 +8222,13 @@ sp:structure-pedality-grade-S
 .
 sp:structure-pedality-grade-V
   a skos:Concept ;
-  dct:description "coherent. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles."@en ;
+  dct:description "coherent. When displaced, soil separates into fragments, which may be crushed to ultimate particles."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-grade-V"^^xsd:anyURI ;
   ui:isMemberOf sp:structure-pedality-grade ;
   rdfs:comment """Apedal soil (no observable peds)
 *Coherent means that two-thirds or more of the soil material will remain united at the given moisture state unless force is applied."""@en ;
   rdfs:label "Massive (structure pedality grade)"@en ;
-  skos:definition "coherent*. When displaced, soil separates into fragments (see page 133), which may be crushed to ultimate particles."@en ;
+  skos:definition "coherent*. When displaced, soil separates into fragments, which may be crushed to ultimate particles."@en ;
   skos:inScheme asls:soil-profile ;
   skos:notation "V" ;
   skos:prefLabel "Massive (structure pedality grade)"@en ;
