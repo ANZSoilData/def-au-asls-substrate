@@ -8,6 +8,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix ls: <http://anzsoil.org/def/au/asls/land-surface/> .
+@prefix sp: <http://anzsoil.org/def/au/asls/soil-profile/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -27,7 +28,7 @@ asls:land-surface
   dct:creator <mailto:asris@csiro.au> ;
   dct:description """<p>This register contains a machine-readable representation of the classifiers described in chapter 7 <i>Land Surface</i>, by R.C. McDonald, R.F. Isbell and J.G. Speight, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a>.</p>
 <p>Land surface is concerned mainly with surface phenomena affecting land use and soil development that have traditionally been noted at the point of soil observation.</p>
-<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>."""^^rdf:HTML ;
+<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> and <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>."""^^rdf:HTML ;
   dct:isFormatOf "<p>Chapter 7 <i>Land Surface</i>, by R.C. McDonald, R.F. Isbell and J.G. Speight, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a></p>"^^rdf:HTML ;
   dct:license <http://creativecommons.org/licences/by/4.0> ;
   dct:publisher <http://www.publish.csiro.au/> ;
@@ -119,12 +120,12 @@ ls:aspect
 ls:biotic-microrelief
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "This relief is caused by biotic agents, for example termite mounds, rabbit warrens, wombat burrows, pig wallows, man-made terraces, stump holes, vegetation mounds. No subdivision of any of the types of biotic microrelief according to the specific agent or component of relief is given here. For example, vegetation mounds are mounds of soil material found at the base of plants such as Dillon bush (Nitraria billardieri) or spinifex (Triodia species). Users may subdivide types of biotic microrelief where considered necessary, such as specifying the particular species of vegetation involved in the case of vegetation mounds."@en ;
+  dct:description "This relief is caused by biotic agents, for example termite mounds, rabbit warrens, wombat burrows, pig wallows, man-made terraces, stump holes, vegetation mounds. No subdivision of any of the types of biotic microrelief according to the specific agent or component of relief is given here. For example, vegetation mounds are mounds of soil material found at the base of plants such as Dillon bush (Nitraria billardieri) or spinifex (Triodia species). Users may subdivide types of biotic microrelief where considered necessary, such as specifying the particular species of vegetation involved in the case of vegetation mounds. For example, termite mounds would be coded TM."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief"^^xsd:anyURI ;
   ui:isMemberOf ls:microrelief ;
   rdfs:label "Biotic microreliefs"@en ;
   owl:sameAs ls:Biotic-microrelief ;
-  skos:definition "This relief is caused by biotic agents, for example termite mounds, rabbit warrens, wombat burrows, pig wallows, man-made terraces, stump holes, vegetation mounds. No subdivision of any of the types of biotic microrelief according to the specific agent or component of relief is given here. For example, vegetation mounds are mounds of soil material found at the base of plants such as Dillon bush (Nitraria billardieri) or spinifex (Triodia species). Users may subdivide types of biotic microrelief where considered necessary, such as specifying the particular species of vegetation involved in the case of vegetation mounds."@en ;
+  skos:definition "This relief is caused by biotic agents, for example termite mounds, rabbit warrens, wombat burrows, pig wallows, man-made terraces, stump holes, vegetation mounds. No subdivision of any of the types of biotic microrelief according to the specific agent or component of relief is given here. For example, vegetation mounds are mounds of soil material found at the base of plants such as Dillon bush (Nitraria billardieri) or spinifex (Triodia species). Users may subdivide types of biotic microrelief where considered necessary, such as specifying the particular species of vegetation involved in the case of vegetation mounds. For example, termite mounds would be coded TM."@en ;
   skos:member ls:biotic-microrelief-agents ;
   skos:member ls:biotic-microrelief-components ;
   skos:prefLabel "Biotic microrelief"@en ;
@@ -460,13 +461,15 @@ ls:coarse-fragments-abundance-6
 .
 ls:coarse-fragments-lithology
   a skos:Collection ;
-  dct:description "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop.   Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.   "@en ;
+  dct:description "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop. Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.   "@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/coarse-fragments-lithology"^^xsd:anyURI ;
   ui:isMemberOf ls:coarse-fragments ;
   rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Lithology of coarse fragments"@en ;
   owl:sameAs ls:coarse-fragments-lithology ;
-  skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop.   Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.    "@en ;
+  owl:sameAs ls:rock-outcrop-lithology ;
+  owl:sameAs sp:coarse-fragments-lithology ;
+  skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop. Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.    "@en ;
   skos:member ls:coarse-fragments-lithology-AC ;
   skos:member ls:coarse-fragments-lithology-AD ;
   skos:member ls:coarse-fragments-lithology-AF ;
@@ -1987,13 +1990,13 @@ ls:coarse-fragments-shape-UT
 ls:coarse-fragments-size
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dct:description "The scale adopted employs class boundaries at (2 × 10n/2) mm, where n is an integer. This system is an extension of that used for particles smaller than 2 mm both in the scheme of the British Standards Institution and the Massachusetts Institute of Technology  and the original Atterberg (1905) scheme on which the International Scheme was based. It is thus compatible with both the International Scheme referred to in the field texture section and the grain size criteria for substrate materials."@en ;
+  dct:description "The scale adopted employs class boundaries at (2 × 10n/2) mm, where n is an integer. This system is an extension of that used for particles smaller than 2 mm both in the scheme of the British Standards Institution and the Massachusetts Institute of Technology and the original Atterberg (1905) scheme on which the International Scheme was based. It is thus compatible with both the International Scheme referred to in the field texture section and the grain size criteria for substrate materials."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/coarse-fragments-size"^^xsd:anyURI ;
   ui:isMemberOf ls:coarse-fragments ;
   rdfs:comment "The terms used to describe size apply to fragments of any shape: The average maximum dimension of fragments is used to determine the class interval. N_CF_SIZE"@en ;
   rdfs:label "Size of coarse fragments"@en ;
   owl:sameAs ls:coarse-fragments-size ;
-  skos:definition "The scale adopted employs class boundaries at (2 × 10n/2) mm, where n is an integer. This system is an extension of that used for particles smaller than 2 mm both in the scheme of the British Standards Institution and the Massachusetts Institute of Technology  and the original Atterberg (1905) scheme on which the International Scheme was based. It is thus compatible with both the International Scheme referred to in the field texture section and the grain size criteria for substrate materials."@en ;
+  skos:definition "The scale adopted employs class boundaries at (2 × 10n/2) mm, where n is an integer. This system is an extension of that used for particles smaller than 2 mm both in the scheme of the British Standards Institution and the Massachusetts Institute of Technology and the original Atterberg (1905) scheme on which the International Scheme was based. It is thus compatible with both the International Scheme referred to in the field texture section and the grain size criteria for substrate materials."@en ;
   skos:member ls:coarse-fragments-size-1 ;
   skos:member ls:coarse-fragments-size-2 ;
   skos:member ls:coarse-fragments-size-3 ;
@@ -2534,6 +2537,7 @@ The complexity of erosion forms creates difficulties in both defining and quanti
 .
 ls:erosion-b
   a skos:Collection ;
+  a sosa:ObservableProperty ;
   dct:description "This is the removal of soil from a stream bank, typically during periods of high stream flow."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
@@ -2546,8 +2550,57 @@ ls:erosion-b
   skos:notation "B" ;
   skos:prefLabel "Stream bank erosion"@en ;
 .
+ls:erosion-b-0
+  a skos:Concept ;
+  dct:description "No stream bank erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-b ;
+  rdfs:label "No stream bank erosion"@en ;
+  skos:definition "No stream bank erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No stream bank erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-b-x
+  a skos:Concept ;
+  dct:description "Not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b-x"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-b ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-b-1
+  a skos:Concept ;
+  dct:description "Present."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-b ;
+  rdfs:label "Present"@en ;
+  skos:definition "Present."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-b-0
+  a skos:Concept ;
+  dct:description "No stream bank erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-b ;
+  rdfs:label "No stream bank erosion"@en ;
+  skos:definition "No stream bank erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No stream bank erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
 ls:erosion-c
   a skos:Collection ;
+  a sosa:ObservableProperty ;
   dct:description "This is the removal of surface soil by water and/or wind, often exposing a more clayey subsoil which is devoid of vegetation and relatively impermeable to water. Scalds are most common in arid or semi-arid lands."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-c"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
@@ -2561,8 +2614,57 @@ ls:erosion-c
   skos:notation "C" ;
   skos:prefLabel "Scald erosion"@en ;
 .
+ls:erosion-c-0
+  a skos:Concept ;
+  dct:description "No scalding."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-c-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-c ;
+  rdfs:label "No scalding"@en ;
+  skos:definition "No scalding."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No scalding"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-c-1
+  a skos:Concept ;
+  dct:description "<5% of site scalded."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-c-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-c ;
+  rdfs:label "Minor scalding"@en ;
+  skos:definition "<5% of site scalded."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Minor scalding"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-c-2
+  a skos:Concept ;
+  dct:description "5-50% of site scalded."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-c-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-c ;
+  rdfs:label "Moderate scalding"@en ;
+  skos:definition "5-50% of site scalded."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderate scalding"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-c-3
+  a skos:Concept ;
+  dct:description ">50% of site scalded."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-c-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-c ;
+  rdfs:label "Severe scalding"@en ;
+  skos:definition ">50% of site scalded."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Severe scalding"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
 ls:erosion-g
   a skos:Collection ;
+  a sosa:ObservableProperty ;
   dct:description "A gully is a channel more than 0.3 m deep."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
@@ -2676,6 +2778,7 @@ ls:erosion-g-depth-3
 .
 ls:erosion-m
   a skos:Collection ;
+  a sosa:ObservableProperty ;
   dct:description "This includes all relatively large downslope movement of soil, rock or mixture of both, for example landslides, slumps, earth flows, debris avalanches and solifluxion."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-m"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
@@ -2687,8 +2790,33 @@ ls:erosion-m
   skos:notation "M" ;
   skos:prefLabel "Mass movement"@en ;
 .
+ls:erosion-m-0
+  a skos:Concept ;
+  dct:description "No mass movement."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-m-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-m ;
+  rdfs:label "No mass movement"@en ;
+  skos:definition "No mass movement."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No mass movement"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-m-1
+  a skos:Concept ;
+  dct:description "Present."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-m-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-m ;
+  rdfs:label "Present"@en ;
+  skos:definition "Present."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
 ls:erosion-r
   a skos:Collection ;
+  a sosa:ObservableProperty ;
   dct:description "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
@@ -2702,8 +2830,57 @@ ls:erosion-r
   skos:notation "R" ;
   skos:prefLabel "Rill erosion"@en ;
 .
+ls:erosion-r-0
+  a skos:Concept ;
+  dct:description "no rill erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-r ;
+  rdfs:label "No rill erosion"@en ;
+  skos:definition "no rill erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No rill erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-r-1
+  a skos:Concept ;
+  dct:description "occasional rills."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-r ;
+  rdfs:label "Minor"@en ;
+  skos:definition "occasional rills."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Minor"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-r-2
+  a skos:Concept ;
+  dct:description "common rills."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-r ;
+  rdfs:label "Moderate"@en ;
+  skos:definition "common rills."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-r-3
+  a skos:Concept ;
+  dct:description "numerous rills forming corrugated ground surface."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-r ;
+  rdfs:label "Severe"@en ;
+  skos:definition "numerous rills forming corrugated ground surface."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Severe"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
 ls:erosion-s
   a skos:Collection ;
+  a sosa:ObservableProperty ;
   dct:description "This is the relatively uniform removal of soil from an area without the development of conspicuous channels. Indicators of sheet erosion include soil deposits in downslope sediment traps, such as fencelines or farm dams, and pedestalling, root exposure or exposure of subsoils."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
@@ -2717,6 +2894,66 @@ ls:erosion-s
   skos:member ls:erosion-s-x ;
   skos:notation "S" ;
   skos:prefLabel "Sheet erosion"@en ;
+.
+ls:erosion-s-x
+  a skos:Concept ;
+  dct:description "not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-x"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-s ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-s-0
+  a skos:Concept ;
+  dct:description "no sheet erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-s ;
+  rdfs:label "No sheet erosion"@en ;
+  skos:definition "no sheet erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No sheet erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-s-1
+  a skos:Concept ;
+  dct:description "indicators may include shallow soil deposits in downslope sediment traps (fencelines, farm dams). Often very difficult to assess as evidence may be lost with cultivation, pedo-turbation or revegetation."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-s ;
+  rdfs:label "Minor"@en ;
+  skos:definition "indicators may include shallow soil deposits in downslope sediment traps (fencelines, farm dams). Often very difficult to assess as evidence may be lost with cultivation, pedo-turbation or revegetation."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Minor"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-s-2
+  a skos:Concept ;
+  dct:description "indicators may include partial exposure of roots, moderate soil deposits in downslope sediment traps (fencelines, farm dams)."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-s ;
+  rdfs:label "Moderate"@en ;
+  skos:definition "indicators may include partial exposure of roots, moderate soil deposits in downslope sediment traps (fencelines, farm dams)."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-s-3
+  a skos:Concept ;
+  dct:description "indicators may include loss of surface horizons, exposure of subsoil horizons, pedestalling, root exposure, substantial soil deposits in downslope sediment traps (fencelines, farm dams)."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-s ;
+  rdfs:label "Severe"@en ;
+  skos:definition "indicators may include loss of surface horizons, exposure of subsoil horizons, pedestalling, root exposure, substantial soil deposits in downslope sediment traps (fencelines, farm dams)."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Severe"@en ;
+  skos:topConceptOf asls:land-surface ;
 .
 ls:erosion-state
   a skos:Collection ;
@@ -2769,6 +3006,7 @@ ls:erosion-state-s
 .
 ls:erosion-t
   a skos:Collection ;
+  a sosa:ObservableProperty ;
   dct:description "This is the removal of subsoil by water while the surface soil remains relatively intact (Crouch 1976)."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-t"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
@@ -2781,8 +3019,45 @@ ls:erosion-t
   skos:notation "T" ;
   skos:prefLabel "Tunnel erosion"@en ;
 .
+ls:erosion-t-x
+  a skos:Concept ;
+  dct:description "Not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-t-x"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-t ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-t-0
+  a skos:Concept ;
+  dct:description "no tunnel erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-t-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-t ;
+  rdfs:label "No tunnel erosion"@en ;
+  skos:definition "no tunnel erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No tunnel erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-t-1
+  a skos:Concept ;
+  dct:description "present."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-t-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-t ;
+  rdfs:label "Present"@en ;
+  skos:definition "present."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
 ls:erosion-v
   a skos:Collection ;
+  a sosa:ObservableProperty ;
   dct:description "Erosion of beaches, beach ridges and/or dunes. This is the removal of sand or soil from the margins of beaches, beach ridges, dunes, lakes or dams by wave action."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-v"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
@@ -2795,8 +3070,45 @@ ls:erosion-v
   skos:notation "V" ;
   skos:prefLabel "Wave erosion"@en ;
 .
+ls:erosion-v-x
+  a skos:Concept ;
+  dct:description "Not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-v-x"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-v ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-v-0
+  a skos:Concept ;
+  dct:description "no wave erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-v-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-v ;
+  rdfs:label "No wave erosion"@en ;
+  skos:definition "no wave erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No wave erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-v-1
+  a skos:Concept ;
+  dct:description "present."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-v-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-v ;
+  rdfs:label "Present"@en ;
+  skos:definition "present."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
 ls:erosion-w
   a skos:Collection ;
+  a sosa:ObservableProperty ;
   dct:description "Give presence/absence or extent of accelerated erosion."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
@@ -2806,9 +3118,83 @@ ls:erosion-w
   skos:member ls:erosion-w-0 ;
   skos:member ls:erosion-w-1 ;
   skos:member ls:erosion-w-2 ;
+  skos:member ls:erosion-w-3 ;
+  skos:member ls:erosion-w-4 ;
   skos:member ls:erosion-w-x ;
   skos:notation "W" ;
   skos:prefLabel "Wind erosion"@en ;
+.
+ls:erosion-w-x
+  a skos:Concept ;
+  dct:description "Not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-x"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-w ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-w-0
+  a skos:Concept ;
+  dct:description "no wind erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-w ;
+  rdfs:label "No wind erosion"@en ;
+  skos:definition "no wind erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No wind erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-w-1
+  a skos:Concept ;
+  dct:description "some loss of surface."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-w ;
+  rdfs:label "Minor or present"@en ;
+  skos:definition "some loss of surface."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Minor or present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-w-2
+  a skos:Concept ;
+  dct:description "most or all or surface removed leaving soft or loose material."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-w ;
+  rdfs:label "Moderate"@en ;
+  skos:definition "most or all or surface removed leaving soft or loose material."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-w-3
+  a skos:Concept ;
+  dct:description "most or all of surface removed, leaving hard material."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-w ;
+  rdfs:label "Severe"@en ;
+  skos:definition "most or all of surface removed, leaving hard material."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Severe"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-w-4
+  a skos:Concept ;
+  dct:description "deeper layers exposed, leaving hard material, for example subsoil, weathered country rock or pans."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-4"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-w ;
+  rdfs:label "Very severe"@en ;
+  skos:definition "deeper layers exposed, leaving hard material, for example subsoil, weathered country rock or pans."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "Very severe"@en ;
+  skos:topConceptOf asls:land-surface ;
 .
 ls:gilgai-microrelief
   a skos:Collection ;
@@ -3672,10 +4058,1345 @@ ls:rock-outcrop-lithology
   ui:isMemberOf ls:rock-outcrop ;
   rdfs:label "Lithology of rock outcrop"@en ;
   owl:sameAs ls:Rock-outcrop-lithology ;
+  owl:sameAs ls:coarse-fragments-lithology ;
   skos:definition "Where the lithology of the rock outcrop is different from that of the substrate material, record it as for lithology of substrate material. "@en ;
   skos:inScheme asls:land-surface ;
+  skos:member ls:rock-outcrop-lithology-AC ;
+  skos:member ls:rock-outcrop-lithology-AD ;
+  skos:member ls:rock-outcrop-lithology-AF ;
+  skos:member ls:rock-outcrop-lithology-AG ;
+  skos:member ls:rock-outcrop-lithology-AH ;
+  skos:member ls:rock-outcrop-lithology-AM ;
+  skos:member ls:rock-outcrop-lithology-AN ;
+  skos:member ls:rock-outcrop-lithology-AP ;
+  skos:member ls:rock-outcrop-lithology-AR ;
+  skos:member ls:rock-outcrop-lithology-AS ;
+  skos:member ls:rock-outcrop-lithology-BA ;
+  skos:member ls:rock-outcrop-lithology-BB ;
+  skos:member ls:rock-outcrop-lithology-BR ;
+  skos:member ls:rock-outcrop-lithology-C ;
+  skos:member ls:rock-outcrop-lithology-CC ;
+  skos:member ls:rock-outcrop-lithology-CG ;
+  skos:member ls:rock-outcrop-lithology-CH ;
+  skos:member ls:rock-outcrop-lithology-CO ;
+  skos:member ls:rock-outcrop-lithology-CU ;
+  skos:member ls:rock-outcrop-lithology-DI ;
+  skos:member ls:rock-outcrop-lithology-DM ;
+  skos:member ls:rock-outcrop-lithology-DR ;
+  skos:member ls:rock-outcrop-lithology-FC ;
+  skos:member ls:rock-outcrop-lithology-GA ;
+  skos:member ls:rock-outcrop-lithology-GD ;
+  skos:member ls:rock-outcrop-lithology-GE ;
+  skos:member ls:rock-outcrop-lithology-GN ;
+  skos:member ls:rock-outcrop-lithology-GR ;
+  skos:member ls:rock-outcrop-lithology-GS ;
+  skos:member ls:rock-outcrop-lithology-GV ;
+  skos:member ls:rock-outcrop-lithology-GW ;
+  skos:member ls:rock-outcrop-lithology-GY ;
+  skos:member ls:rock-outcrop-lithology-HA ;
+  skos:member ls:rock-outcrop-lithology-HO ;
+  skos:member ls:rock-outcrop-lithology-IG ;
   skos:member ls:rock-outcrop-lithology-IS ;
+  skos:member ls:rock-outcrop-lithology-JA ;
+  skos:member ls:rock-outcrop-lithology-KA ;
+  skos:member ls:rock-outcrop-lithology-KC ;
+  skos:member ls:rock-outcrop-lithology-KL ;
+  skos:member ls:rock-outcrop-lithology-KM ;
+  skos:member ls:rock-outcrop-lithology-KR ;
+  skos:member ls:rock-outcrop-lithology-KS ;
+  skos:member ls:rock-outcrop-lithology-LC ;
+  skos:member ls:rock-outcrop-lithology-LI ;
+  skos:member ls:rock-outcrop-lithology-M ;
+  skos:member ls:rock-outcrop-lithology-MB ;
+  skos:member ls:rock-outcrop-lithology-MD ;
+  skos:member ls:rock-outcrop-lithology-ME ;
+  skos:member ls:rock-outcrop-lithology-MG ;
+  skos:member ls:rock-outcrop-lithology-MI ;
+  skos:member ls:rock-outcrop-lithology-ML ;
+  skos:member ls:rock-outcrop-lithology-MS ;
+  skos:member ls:rock-outcrop-lithology-MU ;
+  skos:member ls:rock-outcrop-lithology-MY ;
+  skos:member ls:rock-outcrop-lithology-OT ;
+  skos:member ls:rock-outcrop-lithology-OW ;
+  skos:member ls:rock-outcrop-lithology-PC ;
+  skos:member ls:rock-outcrop-lithology-PE ;
+  skos:member ls:rock-outcrop-lithology-PG ;
+  skos:member ls:rock-outcrop-lithology-PH ;
+  skos:member ls:rock-outcrop-lithology-PL ;
+  skos:member ls:rock-outcrop-lithology-PO ;
+  skos:member ls:rock-outcrop-lithology-PU ;
+  skos:member ls:rock-outcrop-lithology-PY ;
+  skos:member ls:rock-outcrop-lithology-QP ;
+  skos:member ls:rock-outcrop-lithology-QS ;
+  skos:member ls:rock-outcrop-lithology-QU ;
+  skos:member ls:rock-outcrop-lithology-QZ ;
+  skos:member ls:rock-outcrop-lithology-R ;
+  skos:member ls:rock-outcrop-lithology-RB ;
+  skos:member ls:rock-outcrop-lithology-RH ;
+  skos:member ls:rock-outcrop-lithology-S ;
+  skos:member ls:rock-outcrop-lithology-SA ;
+  skos:member ls:rock-outcrop-lithology-SD ;
+  skos:member ls:rock-outcrop-lithology-SH ;
+  skos:member ls:rock-outcrop-lithology-SK ;
+  skos:member ls:rock-outcrop-lithology-SL ;
+  skos:member ls:rock-outcrop-lithology-SR ;
+  skos:member ls:rock-outcrop-lithology-SS ;
+  skos:member ls:rock-outcrop-lithology-ST ;
+  skos:member ls:rock-outcrop-lithology-SY ;
+  skos:member ls:rock-outcrop-lithology-TR ;
+  skos:member ls:rock-outcrop-lithology-TU ;
+  skos:member ls:rock-outcrop-lithology-UC ;
+  skos:member ls:rock-outcrop-lithology-VB ;
+  skos:member ls:rock-outcrop-lithology-VG ;
+  skos:member ls:rock-outcrop-lithology-Z ;
+  skos:member ls:rock-outcrop-lithology-ZS ;
   skos:prefLabel "Lithology of rock outcrop"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-AC
+  a skos:Concept ;
+  dct:description "Alcrete (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-AC"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Alcrete (coarse fragments lithology)"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-AC ;
+  skos:altLabel "Bauxite (coarse fragments lithology)"@en ;
+  skos:definition "Alcrete (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "AC" ;
+  skos:prefLabel "Alcrete (coarse fragments lithology)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-AD
+  a skos:Concept ;
+  dct:description "Adamellite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-AD"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Adamellite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-AD ;
+  skos:definition "Adamellite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "AD" ;
+  skos:prefLabel "Adamellite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-AF
+  a skos:Concept ;
+  dct:description "Ash (fine)  (Unconsolidated material)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-AF"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Ash (fine)"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-AF ;
+  skos:definition "Ash (fine)  (Unconsolidated material)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "AF" ;
+  skos:prefLabel "Ash (fine)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-AG
+  a skos:Concept ;
+  dct:description "Agglomerate (Sedimentary rock, pyroclastic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-AG"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Agglomerate"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-AG ;
+  skos:definition "Agglomerate (Sedimentary rock, pyroclastic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "AG" ;
+  skos:prefLabel "Agglomerate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-AH
+  a skos:Concept ;
+  dct:description "Anhydrite (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-AH"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Anhydrite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-AH ;
+  skos:definition "Anhydrite (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "AH" ;
+  skos:prefLabel "Anhydrite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-AM
+  a skos:Concept ;
+  dct:description "Amphibolite (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-AM"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Amphibolite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-AM ;
+  skos:definition "Amphibolite (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "AM" ;
+  skos:prefLabel "Amphibolite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-AN
+  a skos:Concept ;
+  dct:description "Andesite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-AN"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Andesite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-AN ;
+  skos:definition "Andesite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "AN" ;
+  skos:prefLabel "Andesite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-AP
+  a skos:Concept ;
+  dct:description "Aplite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-AP"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Aplite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-AP ;
+  skos:definition "Aplite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "AP" ;
+  skos:prefLabel "Aplite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-AR
+  a skos:Concept ;
+  dct:description "Arkose (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-AR"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Arkose"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-AR ;
+  skos:definition "Arkose (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "AR" ;
+  skos:prefLabel "Arkose"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-AS
+  a skos:Concept ;
+  dct:description "Ash (sandy)  (Unconsolidated material)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-AS"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Ash (sandy)"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-AS ;
+  skos:definition "Ash (sandy) (Unconsolidated material)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "AS" ;
+  skos:prefLabel "Ash (sandy)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-BA
+  a skos:Concept ;
+  dct:description "Basalt (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-BA"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Basalt"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-BA ;
+  skos:definition "Basalt (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "BA" ;
+  skos:prefLabel "Basalt"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-BB
+  a skos:Concept ;
+  dct:description "Bombs (volcanic) (Unconsolidated material)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-BB"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Bombs"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-BB ;
+  skos:definition "Bombs (volcanic) (Unconsolidated material)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "BB" ;
+  skos:prefLabel "Bombs"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-BR
+  a skos:Concept ;
+  dct:description "Breccia (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-BR"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Breccia"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-BR ;
+  skos:definition "Breccia (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "BR" ;
+  skos:prefLabel "Breccia"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-C
+  a skos:Concept ;
+  dct:description "Clay (Unconsolidated material)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-C"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Clay"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-C ;
+  skos:definition "Clay (Unconsolidated material)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "C" ;
+  skos:prefLabel "Clay"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-CC
+  a skos:Concept ;
+  dct:description "Charcoal"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-CC"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Charcoal"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-CC ;
+  skos:definition "Charcoal"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "CC" ;
+  skos:prefLabel "Charcoal"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-CG
+  a skos:Concept ;
+  dct:description "Conglomerate (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-CG"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Conglomerate"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-CG ;
+  skos:definition "Conglomerate (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "CG" ;
+  skos:prefLabel "Conglomerate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-CH
+  a skos:Concept ;
+  dct:description "Chert (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-CH"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Chert"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-CH ;
+  skos:definition "Chert (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "CH" ;
+  skos:prefLabel "Chert"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-CO
+  a skos:Concept ;
+  dct:description "Coal (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-CO"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Coal"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-CO ;
+  skos:definition "Coal (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "CO" ;
+  skos:prefLabel "Coal"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-CU
+  a skos:Concept ;
+  dct:description "Consolidated rock (Unidentified)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-CU"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Consolidated rock"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-CU ;
+  skos:definition "Consolidated rock (Unidentified)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "CU" ;
+  skos:prefLabel "Consolidated rock"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-DI
+  a skos:Concept ;
+  dct:description "Diorite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-DI"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Diorite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-DI ;
+  skos:definition "Diorite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "DI" ;
+  skos:prefLabel "Diorite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-DM
+  a skos:Concept ;
+  dct:description "Dolomite (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-DM"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Dolomite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-DM ;
+  skos:definition "Dolomite (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "DM" ;
+  skos:prefLabel "Dolomite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-DR
+  a skos:Concept ;
+  dct:description "Dolerite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-DR"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Dolerite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-DR ;
+  skos:definition "Dolerite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "DR" ;
+  skos:prefLabel "Dolerite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-FC
+  a skos:Concept ;
+  dct:description "Ferricrete (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-FC"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Ferricrete (fragments lithology)"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-FC ;
+  skos:definition "Ferricrete (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "FC" ;
+  skos:prefLabel "Ferricrete"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-GA
+  a skos:Concept ;
+  dct:description "Gabbro (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-GA"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Gabbro"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-GA ;
+  skos:definition "Gabbro (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "GA" ;
+  skos:prefLabel "Gabbro"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-GD
+  a skos:Concept ;
+  dct:description "Granodiorite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-GD"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Granodiorite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-GD ;
+  skos:definition "Granodiorite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "GD" ;
+  skos:prefLabel "Granodiorite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-GE
+  a skos:Concept ;
+  dct:description "Greenstone (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-GE"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Greenstone"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-GE ;
+  skos:definition "Greenstone (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "GE" ;
+  skos:prefLabel "Greenstone"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-GN
+  a skos:Concept ;
+  dct:description "Granite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-GN"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Granite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-GN ;
+  skos:definition "Granite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "GN" ;
+  skos:prefLabel "Granite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-GR
+  a skos:Concept ;
+  dct:description "Granulite (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-GR"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Granulite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-GR ;
+  skos:definition "Granulite (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "GR" ;
+  skos:prefLabel "Granulite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-GS
+  a skos:Concept ;
+  dct:description "Gneiss (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-GS"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Gneiss"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-GS ;
+  skos:definition "Gneiss (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "GS" ;
+  skos:prefLabel "Gneiss"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-GV
+  a skos:Concept ;
+  dct:description "Gravel (Unconsolidated material)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-GV"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Gravel"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-GV ;
+  skos:definition "Gravel (Unconsolidated material)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "GV" ;
+  skos:prefLabel "Gravel"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-GW
+  a skos:Concept ;
+  dct:description "Graywacke (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-GW"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Graywacke"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-GW ;
+  skos:definition "Graywacke (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "GW" ;
+  skos:prefLabel "Graywacke"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-GY
+  a skos:Concept ;
+  dct:description "Gypsum (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-GY"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Gypsum"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-GY ;
+  skos:definition "Gypsum (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "GY" ;
+  skos:prefLabel "Gypsum"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-HA
+  a skos:Concept ;
+  dct:description "Halite (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-HA"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Halite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-HA ;
+  skos:definition "Halite (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "HA" ;
+  skos:prefLabel "Halite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-HO
+  a skos:Concept ;
+  dct:description "Hornfels (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-HO"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Hornfels"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-HO ;
+  skos:definition "Hornfels (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "HO" ;
+  skos:prefLabel "Hornfels"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-IG
+  a skos:Concept ;
+  dct:description "Igneous rock (Unidentified)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-IG"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Igneous rock"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-IG ;
+  skos:definition "Igneous rock (Unidentified)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "IG" ;
+  skos:prefLabel "Igneous rock"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-IS
+  a skos:Concept ;
+  dct:description "Ironstone (where not considered of pedogenic origin)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-IS"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Ironstone"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-IS ;
+  skos:definition "Ironstone (where not considered of pedogenic origin)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "IS" ;
+  skos:prefLabel "Ironstone"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-JA
+  a skos:Concept ;
+  dct:description "Jasper (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-JA"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Jasper"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-JA ;
+  skos:definition "Jasper (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "JA" ;
+  skos:prefLabel "Jasper"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-KA
+  a skos:Concept ;
+  dct:description "Calcarenite (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-KA"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcarenite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-KA ;
+  skos:definition "Calcarenite (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "KA" ;
+  skos:prefLabel "Calcarenite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-KC
+  a skos:Concept ;
+  dct:description "Calcrete (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-KC"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcrete (fragments lithology)"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-KC ;
+  skos:definition "Calcrete (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "KC" ;
+  skos:prefLabel "Calcrete (fragments lithology)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-KL
+  a skos:Concept ;
+  dct:description "Calcilutite (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-KL"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcilutite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-KL ;
+  skos:definition "Calcilutite (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "KL" ;
+  skos:prefLabel "Calcilutite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-KM
+  a skos:Concept ;
+  dct:description "Calcareous mudstone (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-KM"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcareous mudstone"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-KM ;
+  skos:definition "Calcareous mudstone (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "KM" ;
+  skos:prefLabel "Calcareous mudstone"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-KR
+  a skos:Concept ;
+  dct:description "Calcirudite (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-KR"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcirudite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-KR ;
+  skos:definition "Calcirudite (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "KR" ;
+  skos:prefLabel "Calcirudite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-KS
+  a skos:Concept ;
+  dct:description "Calcareous sand (Unconsolidated material)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-KS"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Calcareous sand"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-KS ;
+  skos:definition "Calcareous sand (Unconsolidated material)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "KS" ;
+  skos:prefLabel "Calcareous sand"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-LC
+  a skos:Concept ;
+  dct:description "Silcrete (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-LC"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Silcrete (coarse fragments lithology)"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-LC ;
+  skos:definition "Silcrete (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "LC" ;
+  skos:prefLabel "Silcrete (coarse fragments lithology)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-LI
+  a skos:Concept ;
+  dct:description "Limestone (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-LI"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Limestone"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-LI ;
+  skos:definition "Limestone (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "LI" ;
+  skos:prefLabel "Limestone"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-M
+  a skos:Concept ;
+  dct:description "Lithology is same as the substrate material"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-M"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Same as substrate material"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-M ;
+  skos:definition "Lithology is same as the substrate material"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "M" ;
+  skos:prefLabel "Same as substrate material"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-MB
+  a skos:Concept ;
+  dct:description "Marble (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-MB"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Marble"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-MB ;
+  skos:definition "Marble (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "MB" ;
+  skos:prefLabel "Marble"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-MD
+  a skos:Concept ;
+  dct:description "Microdiorite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-MD"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Microdiorite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-MD ;
+  skos:definition "Microdiorite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "MD" ;
+  skos:prefLabel "Microdiorite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-ME
+  a skos:Concept ;
+  dct:description "Metamorphic rock (Unidentified)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-ME"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Metamorphic rock"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-ME ;
+  skos:definition "Metamorphic rock (Unidentified)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "ME" ;
+  skos:prefLabel "Metamorphic rock"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-MG
+  a skos:Concept ;
+  dct:description "Microgranite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-MG"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Microgranite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-MG ;
+  skos:definition "Microgranite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "MG" ;
+  skos:prefLabel "Microgranite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-MI
+  a skos:Concept ;
+  dct:description "Migmatite (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-MI"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Migmatite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-MI ;
+  skos:definition "Migmatite (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "MI" ;
+  skos:prefLabel "Migmatite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-ML
+  a skos:Concept ;
+  dct:description "Marl (Unconsolidated material)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-ML"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Marl"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-ML ;
+  skos:definition "Marl (Unconsolidated material)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "ML" ;
+  skos:prefLabel "Marl"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-MS
+  a skos:Concept ;
+  dct:description "Microsyenite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-MS"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Microsyenite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-MS ;
+  skos:definition "Microsyenite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "MS" ;
+  skos:prefLabel "Microsyenite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-MU
+  a skos:Concept ;
+  dct:description "Mudstone (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-MU"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Mudstone"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-MU ;
+  skos:definition "Mudstone (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "MU" ;
+  skos:prefLabel "Mudstone"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-MY
+  a skos:Concept ;
+  dct:description "Mylonite (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-MY"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Mylonite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-MY ;
+  skos:definition "Mylonite (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "MY" ;
+  skos:prefLabel "Mylonite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-OT
+  a skos:Concept ;
+  dct:description "Other"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-OT"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Other (coarse fragments lithology)"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-OT ;
+  skos:definition "Other"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "OT" ;
+  skos:prefLabel "Other (coarse fragments lithology)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-OW
+  a skos:Concept ;
+  dct:description "Opalised wood"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-OW"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Opalised wood"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-OW ;
+  skos:definition "Opalised wood"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "OW" ;
+  skos:prefLabel "Opalised wood"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-PC
+  a skos:Concept ;
+  dct:description "Porcellanite (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-PC"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Porcellanite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-PC ;
+  skos:definition "Porcellanite (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "PC" ;
+  skos:prefLabel "Porcellanite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-PE
+  a skos:Concept ;
+  dct:description "Peridotite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-PE"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Peridotite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-PE ;
+  skos:definition "Peridotite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "PE" ;
+  skos:prefLabel "Peridotite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-PG
+  a skos:Concept ;
+  dct:description "Pegmatite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-PG"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Pegmatite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-PG ;
+  skos:definition "Pegmatite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "PG" ;
+  skos:prefLabel "Pegmatite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-PH
+  a skos:Concept ;
+  dct:description "Phyllite (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-PH"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Phyllite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-PH ;
+  skos:definition "Phyllite (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "PH" ;
+  skos:prefLabel "Phyllite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-PL
+  a skos:Concept ;
+  dct:description "Phonolite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-PL"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Phonolite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-PL ;
+  skos:definition "Phonolite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "PL" ;
+  skos:prefLabel "Phonolite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-PO
+  a skos:Concept ;
+  dct:description "Porphyry (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-PO"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Porphyry"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-PO ;
+  skos:definition "Porphyry (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "PO" ;
+  skos:prefLabel "Porphyry"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-PU
+  a skos:Concept ;
+  dct:description "Pumice"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-PU"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Pumice"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-PU ;
+  skos:definition "Pumice"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "PU" ;
+  skos:prefLabel "Pumice"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-PY
+  a skos:Concept ;
+  dct:description "Pyroxenite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-PY"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Pyroxenite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-PY ;
+  skos:definition "Pyroxenite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "PY" ;
+  skos:prefLabel "Pyroxenite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-QP
+  a skos:Concept ;
+  dct:description "Quartz porphyry (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-QP"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Quartz porphyry"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-QP ;
+  skos:definition "Quartz porphyry (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "QP" ;
+  skos:prefLabel "Quartz porphyry"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-QS
+  a skos:Concept ;
+  dct:description "Quartz sandstone (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-QS"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Quartz sandstone"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-QS ;
+  skos:definition "Quartz sandstone (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "QS" ;
+  skos:prefLabel "Quartz sandstone"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-QU
+  a skos:Concept ;
+  dct:description "Quartzite (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-QU"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Quartzite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-QU ;
+  skos:definition "Quartzite (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "QU" ;
+  skos:prefLabel "Quartzite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-QZ
+  a skos:Concept ;
+  dct:description "Quartz (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-QZ"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Quartz"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-QZ ;
+  skos:definition "Quartz (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "QZ" ;
+  skos:prefLabel "Quartz"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-R
+  a skos:Concept ;
+  dct:description "Lithology is same as the rock outcrop"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-R"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Same as rock outcrop"@en ;
+  skos:definition "Lithology is same as the rock outcrop"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "R" ;
+  skos:prefLabel "Same as rock outcrop"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-RB
+  a skos:Concept ;
+  dct:description "Red-brown hardpan (Sedimentary rock, chemical or organic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-RB"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Red-brown hardpan (fragments lithology)"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-RB ;
+  skos:definition "Red-brown hardpan (Sedimentary rock, chemical or organic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "RB" ;
+  skos:prefLabel "Red-brown hardpan (fragments lithology)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-RH
+  a skos:Concept ;
+  dct:description "Rhyolite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-RH"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Rhyolite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-RH ;
+  skos:definition "Rhyolite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "RH" ;
+  skos:prefLabel "Rhyolite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-S
+  a skos:Concept ;
+  dct:description "Sand (Unconsolidated material)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-S"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Sand (fragments lithology)"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-S ;
+  skos:definition "Sand (Unconsolidated material)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "S" ;
+  skos:prefLabel "Sand (fragments lithology)"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-SA
+  a skos:Concept ;
+  dct:description "Sandstone (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-SA"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Sandstone"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-SA ;
+  skos:definition "Sandstone (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "SA" ;
+  skos:prefLabel "Sandstone"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-SD
+  a skos:Concept ;
+  dct:description "Detrital sedimentary rock (Unidentified)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-SD"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Detrital sedimentary rock"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-SD ;
+  skos:definition "Detrital sedimentary rock (Unidentified)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "SD" ;
+  skos:prefLabel "Detrital sedimentary rock"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-SH
+  a skos:Concept ;
+  dct:description "Shale (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-SH"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Shale"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-SH ;
+  skos:definition "Shale (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "SH" ;
+  skos:prefLabel "Shale"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-SK
+  a skos:Concept ;
+  dct:description "Scoria (Unconsolidated material)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-SK"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Scoria"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-SK ;
+  skos:definition "Scoria (Unconsolidated material)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "SK" ;
+  skos:prefLabel "Scoria"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-SL
+  a skos:Concept ;
+  dct:description "Slate (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-SL"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Slate"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-SL ;
+  skos:definition "Slate (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "SL" ;
+  skos:prefLabel "Slate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-SR
+  a skos:Concept ;
+  dct:description "Serpentinite (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-SR"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Serpentinite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-SR ;
+  skos:definition "Serpentinite (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "SR" ;
+  skos:prefLabel "Serpentinite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-SS
+  a skos:Concept ;
+  dct:description "Shells"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-SS"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Shells"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-SS ;
+  skos:definition "Shells"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "SS" ;
+  skos:prefLabel "Shells"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-ST
+  a skos:Concept ;
+  dct:description "Schist (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-ST"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Schist"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-ST ;
+  skos:definition "Schist (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "ST" ;
+  skos:prefLabel "Schist"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-SY
+  a skos:Concept ;
+  dct:description "Syenite (Metamorphic rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-SY"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Syenite"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-SY ;
+  skos:definition "Syenite (Metamorphic rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "SY" ;
+  skos:prefLabel "Syenite"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-TR
+  a skos:Concept ;
+  dct:description "Trachyte (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-TR"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Trachyte"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-TR ;
+  skos:definition "Trachyte (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "TR" ;
+  skos:prefLabel "Trachyte"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-TU
+  a skos:Concept ;
+  dct:description "Tuff (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-TU"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Tuff"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-TU ;
+  skos:definition "Tuff (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "TU" ;
+  skos:prefLabel "Tuff"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-UC
+  a skos:Concept ;
+  dct:description "Unconsolidated material (Unidentified)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-UC"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Unconsolidated material"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-UC ;
+  skos:definition "Unconsolidated material (Unidentified)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "UC" ;
+  skos:prefLabel "Unconsolidated material"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-VB
+  a skos:Concept ;
+  dct:description "Volcanic breccia (Sedimentary rock, pyroclastic)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-VB"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Volcanic breccia"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-VB ;
+  skos:definition "Volcanic breccia (Sedimentary rock, pyroclastic)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "VB" ;
+  skos:prefLabel "Volcanic breccia"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-VG
+  a skos:Concept ;
+  dct:description "Volcanic glass (Igneous rock)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-VG"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Volcanic glass"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-VG ;
+  skos:definition "Volcanic glass (Igneous rock)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "VG" ;
+  skos:prefLabel "Volcanic glass"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-Z
+  a skos:Concept ;
+  dct:description "Silt (Sedimentary rock, detrital)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-Z"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Silt"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-Z ;
+  skos:definition "Silt (Sedimentary rock, detrital)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "Z" ;
+  skos:prefLabel "Silt"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:rock-outcrop-lithology-ZS
+  a skos:Concept ;
+  dct:description "Siltstone (Unconsolidated material)"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology-ZS"^^xsd:anyURI ;
+  ui:isMemberOf ls:rock-outcrop-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Siltstone"@en ;
+  owl:sameAs sp:coarse-fragments-lithology-ZS ;
+  skos:definition "Siltstone (Unconsolidated material)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "ZS" ;
+  skos:prefLabel "Siltstone"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:runoff
