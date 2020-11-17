@@ -15,8 +15,6 @@
 
 <land-surface>
   a ldp:Container , reg:Register ;
-  a owl:Ontology ;
-  a skos:ConceptScheme ;
   dct:contributor <https://orcid.org/0000-0002-0693-1899> ;
   dct:contributor <https://orcid.org/0000-0002-3884-3420> ;
   dct:created "2020-10-13"^^xsd:date ;

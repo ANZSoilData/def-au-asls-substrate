@@ -437,7 +437,6 @@ Both coarse fragments and segregations of pedogenic origin can occur on the surf
   rdfs:label "Lithology of coarse fragments"@en ;
   owl:sameAs <coarse-fragments-lithology> ;
   owl:sameAs <rock-outcrop-lithology> ;
-  owl:sameAs "http://anzsoil.org/def/au/asls/coarse-fragments-lithology ;
   skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop. Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.    "@en ;
   skos:member <coarse-fragments-lithology-AC> ;
   skos:member <coarse-fragments-lithology-AD> ;
@@ -1545,7 +1544,7 @@ Both coarse fragments and segregations of pedogenic origin can occur on the surf
   ui:isMemberOf <coarse-fragments-lithology> ;
   rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Sand (fragments lithology)"@en ;
-  owl:sameAs "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-S"^^xsd:anyURI"^^xsd:anyURI ;
+  owl:sameAs "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-S"^^xsd:anyURI ;
   skos:definition "Sand (Unconsolidated material)"@en ;
   skos:inScheme <> ;
   skos:notation "S" ;
@@ -1559,7 +1558,7 @@ Both coarse fragments and segregations of pedogenic origin can occur on the surf
   ui:isMemberOf <coarse-fragments-lithology> ;
   rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Sandstone"@en ;
-  owl:sameAs "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SA"^^xsd:anyURI"^^xsd:anyURI ;
+  owl:sameAs "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SA"^^xsd:anyURI ;
   skos:definition "Sandstone (Sedimentary rock, detrital)"@en ;
   skos:inScheme <> ;
   skos:notation "SA" ;
@@ -1573,7 +1572,7 @@ Both coarse fragments and segregations of pedogenic origin can occur on the surf
   ui:isMemberOf <coarse-fragments-lithology> ;
   rdfs:comment "C_LITHOLOGY" ;
   rdfs:label "Detrital sedimentary rock"@en ;
-  owl:sameAs "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SD"^^xsd:anyURI"^^xsd:anyURI ;
+  owl:sameAs "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-lithology-SD"^^xsd:anyURI ;
   skos:definition "Detrital sedimentary rock (Unidentified)"@en ;
   skos:inScheme <> ;
   skos:notation "SD" ;
