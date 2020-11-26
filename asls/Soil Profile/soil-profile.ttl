@@ -7124,7 +7124,7 @@ sp:particle-size-fractions
 <p> Figure 15 Size fractions in several major classification systems. </p>"""^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fractions"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
-  rdfs:label "Particle size fractions"@en ;
+  rdfs:label "Particle size fractions (Australia)"@en ;
   skos:definition "Particle size is measured in the laboratory. The recommended scale in Australia uses these class boundaries for particle diameters, given in millimetres."@en ;
   skos:member sp:particle-size-fraction-boulders ;
   skos:member sp:particle-size-fraction-clay ;
@@ -7138,7 +7138,7 @@ sp:particle-size-fractions
   skos:member sp:particle-size-fraction-sand ;
   skos:member sp:particle-size-fraction-silt ;
   skos:member sp:particle-size-fraction-stones ;
-  skos:prefLabel "Particle size fractions"@en ;
+  skos:prefLabel "Particle size fractions (Australia)"@en ;
 .
 sp:roots
   a skos:Collection ;
