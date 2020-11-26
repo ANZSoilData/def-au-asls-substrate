@@ -30,7 +30,7 @@ asls:soil-profile
   dct:license <http://creativecommons.org/licences/by/4.0> ;
   dct:modified "2018-12-12"^^xsd:date ;
   dct:publisher <http://www.publish.csiro.au/> ;
-  dct:rights "copyright CSIRO 2009, 2016, 2018. All rights reserved."@en ;
+  dct:rights "copyright CSIRO 2009, 2020. All rights reserved."@en ;
   dct:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
   reg:notation "soil-profile"@en ;
   ui:hierarchyChildProperty skos:member ;
