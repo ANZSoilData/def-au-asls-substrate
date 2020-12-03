@@ -17,7 +17,7 @@
 @prefix ui: <http://purl.org/linked-data/registry-ui#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<particle-size-boulders>
+<particle-size-fraction-boulders>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 600 - 2000 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-boulders"^^xsd:anyURI ;
@@ -28,7 +28,7 @@
   skos:prefLabel "Boulders"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
-<particle-size-clay>
+<particle-size-fraction-clay>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 0.0002 - 0.002 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-clay"^^xsd:anyURI ;
@@ -39,7 +39,7 @@
   skos:prefLabel "Clay"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
-<particle-size-coarse-gravel>
+<particle-size-fraction-coarse-gravel>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 20 - 60 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-coarse-gravel"^^xsd:anyURI ;
@@ -50,19 +50,19 @@
   skos:prefLabel "Coarse gravel"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
-<particle-size-coarse-sand>
+<particle-size-fraction-coarse-sand>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 0.2 - 2.0 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-coarse-sand"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Coarse sand"@en ;
-  skos:broader <particle-size-sand> ;
+  skos:broader <particle-size-fraction-sand> ;
   skos:definition "A particle size fraction measured from 0.2 - 2.0 mm"@en ;
   skos:inScheme asls:soil-profile ;
   skos:prefLabel "Coarse sand"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
-<particle-size-cobbles>
+<particle-size-fraction-cobbles>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 60 - 200 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-cobbles"^^xsd:anyURI ;
@@ -73,7 +73,7 @@
   skos:prefLabel "Cobbles"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
-<particle-size-fine-clay>
+<particle-size-fraction-fine-clay>
   a skos:Concept ;
   dct:description "A particle size fraction measured < 0.0002 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fine-clay"^^xsd:anyURI ;
@@ -84,7 +84,7 @@
   skos:prefLabel "Fine clay"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
-<particle-size-fine-gravel>
+<particle-size-fraction-fine-gravel>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 2.0 - 6.0 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fine-gravel"^^xsd:anyURI ;
@@ -95,19 +95,19 @@
   skos:prefLabel "Fine gravel"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
-<particle-size-fine-sand>
+<particle-size-fraction-fine-sand>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 0.02 - 0.2 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fine-sand"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Fine sand"@en ;
-  skos:broader <particle-size-sand> ;
+  skos:broader <particle-size-fraction-sand> ;
   skos:definition "A particle size fraction measured from 0.02 - 0.2 mm"@en ;
   skos:inScheme asls:soil-profile ;
   skos:prefLabel "Fine sand"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
-<particle-size-medium-gravel>
+<particle-size-fraction-medium-gravel>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 6.0 - 20 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-medium-gravel"^^xsd:anyURI ;
@@ -118,7 +118,7 @@
   skos:prefLabel "Medium gravel"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
-<particle-size-sand>
+<particle-size-fraction-sand>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 0.2 - 2.0 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-sand"^^xsd:anyURI ;
@@ -126,12 +126,12 @@
   rdfs:label "Sand"@en ;
   skos:definition "A particle size fraction measured from 0.02 - 2.0 mm"@en ;
   skos:inScheme asls:soil-profile ;
-  skos:narrower <particle-size-coarse-sand> ;
-  skos:narrower <particle-size-fine-sand> ;
+  skos:narrower <particle-size-fraction-coarse-sand> ;
+  skos:narrower <particle-size-fraction-fine-sand> ;
   skos:prefLabel "Sand"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
-<particle-size-silt>
+<particle-size-fraction-silt>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 0.002 - 0.02 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-silt"^^xsd:anyURI ;
@@ -142,7 +142,7 @@
   skos:prefLabel "Silt"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
-<particle-size-stones>
+<particle-size-fraction-stones>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 200 - 600 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-stones"^^xsd:anyURI ;
@@ -155,23 +155,23 @@
 .
 <particle-size-fractions>
   a skos:Collection ;
-  dct:description "Particle size is measured in the laboratory. The recommended scale in Australia uses these fractions(bands) based on particle diameters given in millimetres."@en ;
+  dct:description "Particle size is measured in the laboratory. The recommended scale in Australia uses these fractions(i.e. size ranges or bands) based on particle diameters given in millimetres."@en ;
   dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure15.png\" /> </p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fractions"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
   rdfs:label "Particle size fractions (Australia)"@en ;
-  skos:definition "Particle size is measured in the laboratory. The recommended scale in Australia uses these fractions(bands) based on particle diameters given in millimetres."@en ;
-  skos:member <particle-size-boulders> ;
-  skos:member <particle-size-clay> ;
-  skos:member <particle-size-coarse-gravel> ;
-  skos:member <particle-size-coarse-sand> ;
-  skos:member <particle-size-cobbles> ;
-  skos:member <particle-size-fine-clay> ;
-  skos:member <particle-size-fine-gravel> ;
-  skos:member <particle-size-fine-sand> ;
-  skos:member <particle-size-medium-gravel> ;
-  skos:member <particle-size-sand> ;
-  skos:member <particle-size-silt> ;
-  skos:member <particle-size-stones> ;
+  skos:definition "Particle size is measured in the laboratory. The recommended scale in Australia uses these fractions(i.e. size ranges or bands) based on particle diameters given in millimetres."@en ;
+  skos:member <particle-size-fraction-boulders> ;
+  skos:member <particle-size-fraction-clay> ;
+  skos:member <particle-size-fraction-coarse-gravel> ;
+  skos:member <particle-size-fraction-coarse-sand> ;
+  skos:member <particle-size-fraction-cobbles> ;
+  skos:member <particle-size-fraction-fine-clay> ;
+  skos:member <particle-size-fraction-fine-gravel> ;
+  skos:member <particle-size-fraction-fine-sand> ;
+  skos:member <particle-size-fraction-medium-gravel> ;
+  skos:member <particle-size-fraction-sand> ;
+  skos:member <particle-size-fraction-silt> ;
+  skos:member <particle-size-fraction-stones> ;
   skos:prefLabel "Particle size fractions (Australia)"@en ;
 .

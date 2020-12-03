@@ -6813,7 +6813,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-boulders>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 600 - 2000 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-boulders"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-boulders"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Boulders"@en ;
   skos:definition "A particle size fraction measured from 600 - 2000 mm"@en ;
@@ -6824,7 +6824,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-clay>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 0.0002 - 0.002 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-clay"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-clay"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Clay"@en ;
   skos:definition "A particle size fraction measured from 0.0002 - 0.002 mm"@en ;
@@ -6835,7 +6835,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-coarse-gravel>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 20 - 60 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-coarse-gravel"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-coarse-gravel"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Coarse gravel"@en ;
   skos:definition "A particle size fraction measured from 20 - 60 mm"@en ;
@@ -6846,7 +6846,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-coarse-sand>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 0.2 - 2.0 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-coarse-sand"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-coarse-sand"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Coarse sand"@en ;
   skos:broader <particle-size-fraction-sand> ;
@@ -6858,7 +6858,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-cobbles>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 60 - 200 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-cobbles"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-cobbles"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Cobbles"@en ;
   skos:definition "A particle size fraction measured from 60 - 200 mm"@en ;
@@ -6869,7 +6869,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-fine-clay>
   a skos:Concept ;
   dct:description "A particle size fraction measured < 0.0002 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-fine-clay"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fine-clay"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Fine clay"@en ;
   skos:definition "A particle size fraction measured < 0.0002 mm"@en ;
@@ -6880,7 +6880,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-fine-gravel>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 2.0 - 6.0 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-fine-gravel"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fine-gravel"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Fine gravel"@en ;
   skos:definition "A particle size fraction measured from 2.0 - 6.0 mm"@en ;
@@ -6891,7 +6891,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-fine-sand>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 0.02 - 0.2 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-fine-sand"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fine-sand"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Fine sand"@en ;
   skos:broader <particle-size-fraction-sand> ;
@@ -6903,7 +6903,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-medium-gravel>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 6.0 - 20 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-medium-gravel"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-medium-gravel"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Medium gravel"@en ;
   skos:definition "A particle size fraction measured from 6.0 - 20 mm"@en ;
@@ -6914,7 +6914,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-sand>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 0.2 - 2.0 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-sand"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-sand"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Sand"@en ;
   skos:definition "A particle size fraction measured from 0.02 - 2.0 mm"@en ;
@@ -6927,7 +6927,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-silt>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 0.002 - 0.02 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-silt"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-silt"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Silt"@en ;
   skos:definition "A particle size fraction measured from 0.002 - 0.02 mm"@en ;
@@ -6938,7 +6938,7 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 <particle-size-fraction-stones>
   a skos:Concept ;
   dct:description "A particle size fraction measured from 200 - 600 mm"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-stones"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-stones"^^xsd:anyURI ;
   ui:isMemberOf <particle-size-fractions> ;
   rdfs:label "Stones"@en ;
   skos:definition "A particle size fraction measured from 200 - 600 mm"@en ;
@@ -6948,12 +6948,12 @@ The two capital letters are separated by a virgule (/) as A/B, A/C, B/C. Most of
 .
 <particle-size-fractions>
   a skos:Collection ;
-  dct:description "Particle size is measured in the laboratory. The recommended scale in Australia uses these fractions(bands) based on particle diameters given in millimetres."@en ;
+  dct:description "Particle size is measured in the laboratory. The recommended scale in Australia uses these fractions(i.e. size ranges or bands) based on particle diameters given in millimetres."@en ;
   dct:description "<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure15.png\" /> </p>"^^rdf:HTML ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fractions"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
   rdfs:label "Particle size fractions (Australia)"@en ;
-  skos:definition "Particle size is measured in the laboratory. The recommended scale in Australia uses these fractions(bands) based on particle diameters given in millimetres."@en ;
+  skos:definition "Particle size is measured in the laboratory. The recommended scale in Australia uses these fractions(i.e. size ranges or bands) based on particle diameters given in millimetres."@en ;
   skos:member <particle-size-fraction-boulders> ;
   skos:member <particle-size-fraction-clay> ;
   skos:member <particle-size-fraction-coarse-gravel> ;
