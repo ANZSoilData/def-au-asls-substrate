@@ -30,6 +30,7 @@ asls:land-surface
 <p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> and <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>."""^^rdf:HTML ;
   dct:isFormatOf "<p>Chapter 7 <i>Land Surface</i>, by R.C. McDonald, R.F. Isbell and J.G. Speight, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a></p>"^^rdf:HTML ;
   dct:license <http://creativecommons.org/licences/by/4.0> ;
+  dct:modified "2021-04-02"^^xsd:date ;
   dct:publisher <http://www.publish.csiro.au/> ;
   dct:rights "copyright CSIRO 2009, 2016, 2018. All rights reserved."@en ;
   dct:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
@@ -62,12 +63,10 @@ ls:aggradation
   rdfs:label "Aggradation"@en ;
   owl:sameAs ls:Aggradation ;
   skos:definition "This refers to the presence of material deposited on a pre-existing surface as a result of wind and/or water erosion."@en ;
-  skos:inScheme asls:land-surface ;
   skos:member ls:aggradation-0 ;
   skos:member ls:aggradation-1 ;
   skos:member ls:aggradation-x ;
   skos:prefLabel "Aggradation"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:aggradation-0
   a skos:Concept ;
@@ -2370,10 +2369,8 @@ ls:drainage-height
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height"^^xsd:anyURI ;
   rdfs:label "Drainage height"@en ;
   skos:definition "This is the height of the point of soil observation above the flat, depression or stream channel that forms the effective bottom of the toposequence. Give drainage height in metres."@en ;
-  skos:inScheme asls:land-surface ;
   skos:member ls:drainage-height-evaluation-means ;
   skos:prefLabel "Drainage height"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:drainage-height-evaluation-means
   a skos:Collection ;
@@ -2383,7 +2380,6 @@ ls:drainage-height-evaluation-means
   rdfs:label "Means of evaluation of drainage height"@en ;
   owl:sameAs ls:drainage-height-evaluation-means ;
   skos:definition "Means of evaluation of drainage height."@en ;
-  skos:inScheme asls:land-surface ;
   skos:member ls:drainage-height-evaluation-means-a ;
   skos:member ls:drainage-height-evaluation-means-e ;
   skos:member ls:drainage-height-evaluation-means-l ;
@@ -2446,10 +2442,8 @@ ls:elevation
   ui:topMemberOf ls: ;
   rdfs:label "Elevation in metres above sea-level"@en ;
   skos:definition "Give in metres above sea-level."@en ;
-  skos:inScheme asls:land-surface ;
   skos:member ls:elevation-evaluation-means ;
   skos:prefLabel "Elevation in metres above sea-level"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:elevation-evaluation-means
   a skos:Collection ;
@@ -2459,7 +2453,6 @@ ls:elevation-evaluation-means
   rdfs:label "Means of evaluation of elevation"@en ;
   owl:sameAs ls:elevation-evaluation-means ;
   skos:definition "Means of evaluation of elevation"@en ;
-  skos:inScheme asls:land-surface ;
   skos:member ls:elevation-evaluation-means-a ;
   skos:member ls:elevation-evaluation-means-e ;
   skos:member ls:elevation-evaluation-means-l ;
@@ -2566,18 +2559,6 @@ ls:erosion-b-0
   skos:prefLabel "No stream bank erosion"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-b-x
-  a skos:Concept ;
-  dct:description "Not apparent."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b-x"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-b ;
-  rdfs:label "Not apparent"@en ;
-  skos:definition "Not apparent."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "X" ;
-  skos:prefLabel "Not apparent"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
 ls:erosion-b-1
   a skos:Concept ;
   dct:description "Present."@en ;
@@ -2590,16 +2571,16 @@ ls:erosion-b-1
   skos:prefLabel "Present"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-b-0
+ls:erosion-b-x
   a skos:Concept ;
-  dct:description "No stream bank erosion."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b-0"^^xsd:anyURI ;
+  dct:description "Not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b-x"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion-b ;
-  rdfs:label "No stream bank erosion"@en ;
-  skos:definition "No stream bank erosion."@en ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Not apparent."@en ;
   skos:inScheme asls:land-surface ;
-  skos:notation "0" ;
-  skos:prefLabel "No stream bank erosion"@en ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:erosion-c
@@ -2899,18 +2880,6 @@ ls:erosion-s
   skos:notation "S" ;
   skos:prefLabel "Sheet erosion"@en ;
 .
-ls:erosion-s-x
-  a skos:Concept ;
-  dct:description "not apparent."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-x"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-s ;
-  rdfs:label "Not apparent"@en ;
-  skos:definition "not apparent."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "X" ;
-  skos:prefLabel "Not apparent"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
 ls:erosion-s-0
   a skos:Concept ;
   dct:description "no sheet erosion."@en ;
@@ -2957,6 +2926,18 @@ ls:erosion-s-3
   skos:inScheme asls:land-surface ;
   skos:notation "3" ;
   skos:prefLabel "Severe"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-s-x
+  a skos:Concept ;
+  dct:description "not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-x"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-s ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:erosion-state
@@ -3024,18 +3005,6 @@ ls:erosion-t
   skos:notation "T" ;
   skos:prefLabel "Tunnel erosion"@en ;
 .
-ls:erosion-t-x
-  a skos:Concept ;
-  dct:description "Not apparent."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-t-x"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-t ;
-  rdfs:label "Not apparent"@en ;
-  skos:definition "Not apparent."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "X" ;
-  skos:prefLabel "Not apparent"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
 ls:erosion-t-0
   a skos:Concept ;
   dct:description "no tunnel erosion."@en ;
@@ -3060,6 +3029,18 @@ ls:erosion-t-1
   skos:prefLabel "Present"@en ;
   skos:topConceptOf asls:land-surface ;
 .
+ls:erosion-t-x
+  a skos:Concept ;
+  dct:description "Not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-t-x"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-t ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
 ls:erosion-v
   a skos:Collection ;
   a sosa:ObservableProperty ;
@@ -3074,18 +3055,6 @@ ls:erosion-v
   skos:member ls:erosion-v-x ;
   skos:notation "V" ;
   skos:prefLabel "Wave erosion"@en ;
-.
-ls:erosion-v-x
-  a skos:Concept ;
-  dct:description "Not apparent."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-v-x"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-v ;
-  rdfs:label "Not apparent"@en ;
-  skos:definition "Not apparent."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "X" ;
-  skos:prefLabel "Not apparent"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:erosion-v-0
   a skos:Concept ;
@@ -3111,6 +3080,18 @@ ls:erosion-v-1
   skos:prefLabel "Present"@en ;
   skos:topConceptOf asls:land-surface ;
 .
+ls:erosion-v-x
+  a skos:Concept ;
+  dct:description "Not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-v-x"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-v ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
 ls:erosion-w
   a skos:Collection ;
   a sosa:ObservableProperty ;
@@ -3128,18 +3109,6 @@ ls:erosion-w
   skos:member ls:erosion-w-x ;
   skos:notation "W" ;
   skos:prefLabel "Wind erosion"@en ;
-.
-ls:erosion-w-x
-  a skos:Concept ;
-  dct:description "Not apparent."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-x"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-w ;
-  rdfs:label "Not apparent"@en ;
-  skos:definition "Not apparent."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "X" ;
-  skos:prefLabel "Not apparent"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:erosion-w-0
   a skos:Concept ;
@@ -3199,6 +3168,18 @@ ls:erosion-w-4
   skos:inScheme asls:land-surface ;
   skos:notation "4" ;
   skos:prefLabel "Very severe"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-w-x
+  a skos:Concept ;
+  dct:description "Not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-x"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-w ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:gilgai-microrelief
@@ -3302,13 +3283,11 @@ ls:inundation
   rdfs:label "Inundation"@en ;
   owl:sameAs ls:Aggradation ;
   skos:definition "Inundation includes flooding from over-bank flow, inundation from local runon and overland flow. Although the importance of this information is considerable, in most instances it cannot be assessed at each site. Some evidence may be available from past events, for example accumulation of debris in trees or on fences. Otherwise information is usually obtained from local enquiry."@en ;
-  skos:inScheme asls:land-surface ;
   skos:member ls:inundation-depth ;
   skos:member ls:inundation-duration ;
   skos:member ls:inundation-frequency ;
   skos:member ls:inundation-runon-velocity ;
   skos:prefLabel "Inundation"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:inundation-depth
   a skos:Collection ;
@@ -3970,11 +3949,9 @@ ls:rock-outcrop
   rdfs:label "Rock outcrop"@en ;
   owl:sameAs ls:Rock-outcrop ;
   skos:definition "This refers to any exposed area of rock that is inferred to be continuous with underlying bedrock."@en ;
-  skos:inScheme asls:land-surface ;
   skos:member ls:rock-outcrop-abundance ;
   skos:member ls:rock-outcrop-lithology ;
   skos:prefLabel "Rock outcrop"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:rock-outcrop-abundance
   a skos:Collection ;
@@ -3985,7 +3962,6 @@ ls:rock-outcrop-abundance
   rdfs:label "Abundance of rock outcrop"@en ;
   owl:sameAs ls:Rock-outcrop-abundance ;
   skos:definition "Abundance of rock outcrop."@en ;
-  skos:inScheme asls:land-surface ;
   skos:member ls:rock-outcrop-abundance-0 ;
   skos:member ls:rock-outcrop-abundance-1 ;
   skos:member ls:rock-outcrop-abundance-2 ;
@@ -3993,7 +3969,6 @@ ls:rock-outcrop-abundance
   skos:member ls:rock-outcrop-abundance-4 ;
   skos:member ls:rock-outcrop-abundance-5 ;
   skos:prefLabel "Abundance of rock outcrop"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:rock-outcrop-abundance-0
   a skos:Concept ;
@@ -4074,10 +4049,9 @@ ls:rock-outcrop-lithology
   dct:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop-lithology"^^xsd:anyURI ;
   ui:isMemberOf ls:rock-outcrop ;
   rdfs:label "Lithology of rock outcrop"@en ;
-  owl:sameAs ls:Rock-outcrop-lithology ;
   owl:sameAs ls:coarse-fragments-lithology ;
+  owl:sameAs ls:rock-outcrop-lithology ;
   skos:definition "Where the lithology of the rock outcrop is different from that of the substrate material, record it as for lithology of substrate material. "@en ;
-  skos:inScheme asls:land-surface ;
   skos:member ls:rock-outcrop-lithology-AC ;
   skos:member ls:rock-outcrop-lithology-AD ;
   skos:member ls:rock-outcrop-lithology-AF ;
@@ -4168,7 +4142,6 @@ ls:rock-outcrop-lithology
   skos:member ls:rock-outcrop-lithology-Z ;
   skos:member ls:rock-outcrop-lithology-ZS ;
   skos:prefLabel "Lithology of rock outcrop"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:rock-outcrop-lithology-AC
   a skos:Concept ;

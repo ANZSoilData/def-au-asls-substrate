@@ -7024,7 +7024,6 @@ sp:particle-size-fraction-coarse-sand
   skos:definition "0.2 - 2.0 mm"@en ;
   skos:inScheme asls:soil-profile ;
   skos:prefLabel "Coarse sand"@en ;
-  skos:topConceptOf asls:soil-profile ;
 .
 sp:particle-size-fraction-cobbles
   a skos:Concept ;
@@ -7069,7 +7068,6 @@ sp:particle-size-fraction-fine-sand
   skos:definition "0.02 - 0.2 mm"@en ;
   skos:inScheme asls:soil-profile ;
   skos:prefLabel "Fine sand"@en ;
-  skos:topConceptOf asls:soil-profile ;
 .
 sp:particle-size-fraction-medium-gravel
   a skos:Concept ;
@@ -7119,9 +7117,9 @@ sp:particle-size-fraction-stones
 .
 sp:particle-size-fractions
   a skos:Collection ;
-  dct:description "Particle size is measured in the laboratory. The recommended scale in Australia uses these class boundaries for particle diameters, given in millimetres."@en ;
   dct:description """<p><img src=\"http://anzsoil.org/resources/yellowbook/Figure15.png\" /></p> 
 <p> Figure 15 Size fractions in several major classification systems. </p>"""^^rdf:HTML ;
+  dct:description "Particle size is measured in the laboratory. The recommended scale in Australia uses these class boundaries for particle diameters, given in millimetres."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fractions"^^xsd:anyURI ;
   ui:topMemberOf sp: ;
   rdfs:label "Particle size fractions (Australia)"@en ;
