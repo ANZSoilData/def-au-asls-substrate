@@ -65,7 +65,7 @@ ls:aggradation
   skos:definition "This refers to the presence of material deposited on a pre-existing surface as a result of wind and/or water erosion."@en ;
   skos:member ls:aggradation-0 ;
   skos:member ls:aggradation-1 ;
-  skos:member ls:aggradation-x ;
+  skos:member ls:aggradation-X ;
   skos:prefLabel "Aggradation"@en ;
 .
 ls:aggradation-0
@@ -92,10 +92,10 @@ ls:aggradation-1
   skos:prefLabel "Present"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:aggradation-x
+ls:aggradation-X
   a skos:Concept ;
   dct:description "Aggradation not apparent."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/aggradation-x"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/aggradation-X"^^xsd:anyURI ;
   ui:isMemberOf ls:aggradation ;
   rdfs:label "Not apparent"@en ;
   skos:definition "Aggradation not apparent."@en ;
@@ -129,10 +129,10 @@ ls:biotic-microrelief
   skos:member ls:biotic-microrelief-components ;
   skos:prefLabel "Biotic microrelief"@en ;
 .
-ls:biotic-microrelief-agent-a
+ls:biotic-microrelief-agent-A
   a skos:Concept ;
   dct:description "Ant."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-a"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-A"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-agents ;
   rdfs:label "Ant"@en ;
   skos:definition "Ant."@en ;
@@ -141,10 +141,10 @@ ls:biotic-microrelief-agent-a
   skos:prefLabel "Ant"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-agent-b
+ls:biotic-microrelief-agent-B
   a skos:Concept ;
   dct:description "Bird."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-b"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-B"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-agents ;
   rdfs:label "Bird"@en ;
   skos:definition "Bird."@en ;
@@ -153,10 +153,10 @@ ls:biotic-microrelief-agent-b
   skos:prefLabel "Bird"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-agent-m
+ls:biotic-microrelief-agent-M
   a skos:Concept ;
   dct:description "Human."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-m"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-M"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-agents ;
   rdfs:label "Human"@en ;
   skos:definition "Human."@en ;
@@ -165,10 +165,10 @@ ls:biotic-microrelief-agent-m
   skos:prefLabel "Human"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-agent-n
+ls:biotic-microrelief-agent-N
   a skos:Concept ;
   dct:description "Animal."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-n"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-N"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-agents ;
   rdfs:label "Animal"@en ;
   skos:definition "Animal."@en ;
@@ -177,10 +177,10 @@ ls:biotic-microrelief-agent-n
   skos:prefLabel "Animal"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-agent-o
+ls:biotic-microrelief-agent-O
   a skos:Concept ;
   dct:description "Other."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-o"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-O"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-agents ;
   rdfs:label "Other"@en ;
   skos:definition "Other."@en ;
@@ -189,10 +189,10 @@ ls:biotic-microrelief-agent-o
   skos:prefLabel "Other"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-agent-t
+ls:biotic-microrelief-agent-T
   a skos:Concept ;
   dct:description "Termite."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-t"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-T"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-agents ;
   rdfs:label "Termite"@en ;
   skos:definition "Termite."@en ;
@@ -201,10 +201,10 @@ ls:biotic-microrelief-agent-t
   skos:prefLabel "Termite"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-agent-v
+ls:biotic-microrelief-agent-V
   a skos:Concept ;
   dct:description "Vegetation."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-v"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-agent-V"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-agents ;
   rdfs:label "Vegetation"@en ;
   skos:definition "Vegetation."@en ;
@@ -222,19 +222,19 @@ ls:biotic-microrelief-agents
   rdfs:label "Biotic microrelief agents"@en ;
   owl:sameAs ls:Biotic-microrelief-agents ;
   skos:definition "The biotic agents causing the relief."@en ;
-  skos:member ls:biotic-microrelief-agent-a ;
-  skos:member ls:biotic-microrelief-agent-b ;
-  skos:member ls:biotic-microrelief-agent-m ;
-  skos:member ls:biotic-microrelief-agent-n ;
-  skos:member ls:biotic-microrelief-agent-o ;
-  skos:member ls:biotic-microrelief-agent-t ;
-  skos:member ls:biotic-microrelief-agent-v ;
+  skos:member ls:biotic-microrelief-agent-A ;
+  skos:member ls:biotic-microrelief-agent-B ;
+  skos:member ls:biotic-microrelief-agent-M ;
+  skos:member ls:biotic-microrelief-agent-N ;
+  skos:member ls:biotic-microrelief-agent-O ;
+  skos:member ls:biotic-microrelief-agent-T ;
+  skos:member ls:biotic-microrelief-agent-V ;
   skos:prefLabel "Biotic microrelief agents"@en ;
 .
-ls:biotic-microrelief-component-d
+ls:biotic-microrelief-component-D
   a skos:Concept ;
   dct:description "Depression."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-d"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-D"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Depression"@en ;
   skos:definition "Depression."@en ;
@@ -243,10 +243,10 @@ ls:biotic-microrelief-component-d
   skos:prefLabel "Depression"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-component-e
+ls:biotic-microrelief-component-E
   a skos:Concept ;
   dct:description "Elongate mound."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-e"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-E"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Elongate mound"@en ;
   skos:definition "Elongate mound."@en ;
@@ -255,10 +255,10 @@ ls:biotic-microrelief-component-e
   skos:prefLabel "Elongate mound"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-component-h
+ls:biotic-microrelief-component-H
   a skos:Concept ;
   dct:description "Hole."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-h"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-H"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Hole"@en ;
   skos:definition "Hole."@en ;
@@ -267,10 +267,10 @@ ls:biotic-microrelief-component-h
   skos:prefLabel "Hole"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-component-l
+ls:biotic-microrelief-component-L
   a skos:Concept ;
   dct:description "Elongate depression."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-l"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-L"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Elongate depression"@en ;
   skos:definition "Elongate depression."@en ;
@@ -279,10 +279,10 @@ ls:biotic-microrelief-component-l
   skos:prefLabel "Elongate depression"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-component-m
+ls:biotic-microrelief-component-M
   a skos:Concept ;
   dct:description "Mound."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-m"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-M"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Mound"@en ;
   skos:definition "Mound."@en ;
@@ -291,10 +291,10 @@ ls:biotic-microrelief-component-m
   skos:prefLabel "Mound"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-component-o
+ls:biotic-microrelief-component-O
   a skos:Concept ;
   dct:description "Other."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-o"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-O"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Other."@en ;
   skos:definition "Other.."@en ;
@@ -303,10 +303,10 @@ ls:biotic-microrelief-component-o
   skos:prefLabel "Other."@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:biotic-microrelief-component-t
+ls:biotic-microrelief-component-T
   a skos:Concept ;
   dct:description "Terrace."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-t"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/biotic-microrelief-component-T"^^xsd:anyURI ;
   ui:isMemberOf ls:biotic-microrelief-components ;
   rdfs:label "Terrace"@en ;
   skos:definition "Terrace."@en ;
@@ -324,13 +324,13 @@ ls:biotic-microrelief-components
   rdfs:label "Component of biotic relief"@en ;
   owl:sameAs ls:Biotic-microrelief-agents ;
   skos:definition "The component of the biotic relief."@en ;
-  skos:member ls:biotic-microrelief-component-d ;
-  skos:member ls:biotic-microrelief-component-e ;
-  skos:member ls:biotic-microrelief-component-h ;
-  skos:member ls:biotic-microrelief-component-l ;
-  skos:member ls:biotic-microrelief-component-m ;
-  skos:member ls:biotic-microrelief-component-o ;
-  skos:member ls:biotic-microrelief-component-t ;
+  skos:member ls:biotic-microrelief-component-D ;
+  skos:member ls:biotic-microrelief-component-E ;
+  skos:member ls:biotic-microrelief-component-H ;
+  skos:member ls:biotic-microrelief-component-L ;
+  skos:member ls:biotic-microrelief-component-M ;
+  skos:member ls:biotic-microrelief-component-O ;
+  skos:member ls:biotic-microrelief-component-T ;
   skos:prefLabel "Component of biotic relief"@en ;
 .
 ls:coarse-fragments
@@ -2380,55 +2380,59 @@ ls:drainage-height-evaluation-means
   rdfs:label "Means of evaluation of drainage height"@en ;
   owl:sameAs ls:drainage-height-evaluation-means ;
   skos:definition "Means of evaluation of drainage height."@en ;
-  skos:member ls:drainage-height-evaluation-means-a ;
-  skos:member ls:drainage-height-evaluation-means-e ;
-  skos:member ls:drainage-height-evaluation-means-l ;
-  skos:member ls:drainage-height-evaluation-means-m ;
+  skos:member ls:drainage-height-evaluation-means-A ;
+  skos:member ls:drainage-height-evaluation-means-E ;
+  skos:member ls:drainage-height-evaluation-means-L ;
+  skos:member ls:drainage-height-evaluation-means-M ;
   skos:prefLabel "Means of evaluation of drainage height"@en ;
 .
-ls:drainage-height-evaluation-means-a
+ls:drainage-height-evaluation-means-A
   a skos:Concept ;
   dct:description "Determined by altimeter"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-a"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-A"^^xsd:anyURI ;
   ui:isMemberOf ls:drainage-height-evaluation-means ;
   rdfs:label "Determined by altimeter (drainage height)"@en ;
   skos:definition "Determined by altimeter"@en ;
+  skos:exactMatch ls:elevation-evaluation-means-A ;
   skos:inScheme asls:land-surface ;
   skos:notation "A" ;
   skos:prefLabel "Determined by altimeter (drainage height)"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:drainage-height-evaluation-means-e
+ls:drainage-height-evaluation-means-E
   a skos:Concept ;
   dct:description "Estimate"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-e"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-E"^^xsd:anyURI ;
   ui:isMemberOf ls:drainage-height-evaluation-means ;
   rdfs:label "Estimate (drainage height)"@en ;
   skos:definition "Estimate"@en ;
+  skos:exactMatch ls:elevation-evaluation-means-E ;
   skos:inScheme asls:land-surface ;
   skos:notation "E" ;
   skos:prefLabel "Estimate (drainage height)"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:drainage-height-evaluation-means-l
+ls:drainage-height-evaluation-means-L
   a skos:Concept ;
   dct:description "Levelled from survey datum or estimated from contour plan (1:10 000 or larger scale)"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-l"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-L"^^xsd:anyURI ;
   ui:isMemberOf ls:drainage-height-evaluation-means ;
   rdfs:label "Levelled from survey datum or estimated from contour plan (drainage height)"@en ;
   skos:definition "Levelled from survey datum or estimated from contour plan (1:10 000 or larger scale)"@en ;
+  skos:exactMatch ls:elevation-evaluation-means-L ;
   skos:inScheme asls:land-surface ;
   skos:notation "L" ;
   skos:prefLabel "Levelled from survey datum or estimated from contour plan (drainage height)"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:drainage-height-evaluation-means-m
+ls:drainage-height-evaluation-means-M
   a skos:Concept ;
   dct:description "Interpolated from contour map with contour interval of 20 m or less"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-m"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-M"^^xsd:anyURI ;
   ui:isMemberOf ls:drainage-height-evaluation-means ;
   rdfs:label "Interpolated from contour map (drainage height)"@en ;
   skos:definition "Interpolated from contour map with contour interval of 20 m or less"@en ;
+  skos:exactMatch ls:elevation-evaluation-means-M ;
   skos:inScheme asls:land-surface ;
   skos:notation "M" ;
   skos:prefLabel "Interpolated from contour map (drainage height)"@en ;
@@ -2453,55 +2457,59 @@ ls:elevation-evaluation-means
   rdfs:label "Means of evaluation of elevation"@en ;
   owl:sameAs ls:elevation-evaluation-means ;
   skos:definition "Means of evaluation of elevation"@en ;
-  skos:member ls:elevation-evaluation-means-a ;
-  skos:member ls:elevation-evaluation-means-e ;
-  skos:member ls:elevation-evaluation-means-l ;
-  skos:member ls:elevation-evaluation-means-m ;
+  skos:member ls:elevation-evaluation-means-A ;
+  skos:member ls:elevation-evaluation-means-E ;
+  skos:member ls:elevation-evaluation-means-L ;
+  skos:member ls:elevation-evaluation-means-M ;
   skos:prefLabel "Means of evaluation of elevation"@en ;
 .
-ls:elevation-evaluation-means-a
+ls:elevation-evaluation-means-A
   a skos:Concept ;
   dct:description "Determined by altimeter"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-a"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-A"^^xsd:anyURI ;
   ui:isMemberOf ls:elevation-evaluation-means ;
   rdfs:label "Determined by altimeter"@en ;
   skos:definition "Determined by altimeter"@en ;
+  skos:exactMatch ls:drainage-height-evaluation-means-A ;
   skos:inScheme asls:land-surface ;
   skos:notation "A" ;
   skos:prefLabel "Determined by altimeter"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:elevation-evaluation-means-e
+ls:elevation-evaluation-means-E
   a skos:Concept ;
   dct:description "Estimate"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-e"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-E"^^xsd:anyURI ;
   ui:isMemberOf ls:elevation-evaluation-means ;
   rdfs:label "Estimate"@en ;
   skos:definition "Estimate"@en ;
+  skos:exactMatch ls:drainage-height-evaluation-means-E ;
   skos:inScheme asls:land-surface ;
   skos:notation "E" ;
   skos:prefLabel "Estimate"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:elevation-evaluation-means-l
+ls:elevation-evaluation-means-L
   a skos:Concept ;
   dct:description "Levelled from survey datum or estimated from contour plan (1:10 000 or larger scale)"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-l"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-L"^^xsd:anyURI ;
   ui:isMemberOf ls:elevation-evaluation-means ;
   rdfs:label "Levelled from survey datum or estimated from contour plan"@en ;
   skos:definition "Levelled from survey datum or estimated from contour plan (1:10 000 or larger scale)"@en ;
+  skos:exactMatch ls:drainage-height-evaluation-means-L ;
   skos:inScheme asls:land-surface ;
   skos:notation "L" ;
   skos:prefLabel "Levelled from survey datum or estimated from contour plan"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:elevation-evaluation-means-m
+ls:elevation-evaluation-means-M
   a skos:Concept ;
   dct:description "Interpolated from contour map with contour interval of 20 m or less"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-m"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-M"^^xsd:anyURI ;
   ui:isMemberOf ls:elevation-evaluation-means ;
   rdfs:label "Interpolated from contour map"@en ;
   skos:definition "Interpolated from contour map with contour interval of 20 m or less"@en ;
+  skos:exactMatch ls:drainage-height-evaluation-means-M ;
   skos:inScheme asls:land-surface ;
   skos:notation "M" ;
   skos:prefLabel "Interpolated from contour map"@en ;
@@ -2519,39 +2527,39 @@ The complexity of erosion forms creates difficulties in both defining and quanti
   owl:sameAs ls:erosion ;
   skos:definition """This section is concerned with accelerated erosion rather than natural erosion. Natural or geologic erosion is the type and rate of movement of land surface material in its undisturbed natural environment. Accelerated erosion is the more rapid erosion that follows the destruction or loss of protective cover often resulting from people’s influence on the soil, vegetation or landform. It is not always easy to distinguish between accelerated and natural erosion in some landscapes where both are closely interrelated, nor is it always clear whether wind or water is the dominant agent. This is particularly so in the case of scald formation (Warren 1965).
 The complexity of erosion forms creates difficulties in both defining and quantitatively estimating the extent of erosion within the dimensions of the site. Hence, the observer is advised to record the following simple parameters. Assess the erosion observed at the time of the description, not the likelihood of erosion."""@en ;
-  skos:member ls:erosion-b ;
-  skos:member ls:erosion-c ;
-  skos:member ls:erosion-g ;
-  skos:member ls:erosion-m ;
-  skos:member ls:erosion-r ;
-  skos:member ls:erosion-s ;
+  skos:member ls:erosion-B ;
+  skos:member ls:erosion-C ;
+  skos:member ls:erosion-G ;
+  skos:member ls:erosion-M ;
+  skos:member ls:erosion-R ;
+  skos:member ls:erosion-S ;
+  skos:member ls:erosion-T ;
+  skos:member ls:erosion-V ;
+  skos:member ls:erosion-W ;
   skos:member ls:erosion-state ;
-  skos:member ls:erosion-t ;
-  skos:member ls:erosion-v ;
-  skos:member ls:erosion-w ;
   skos:member ls:water-erosion ;
   skos:prefLabel "Erosion"@en ;
 .
-ls:erosion-b
+ls:erosion-B
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dct:description "This is the removal of soil from a stream bank, typically during periods of high stream flow."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-B"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
   rdfs:label "Stream bank erosion"@en ;
-  owl:sameAs ls:erosion-b ;
+  owl:sameAs ls:erosion-B ;
   skos:definition "This is the removal of soil from a stream bank, typically during periods of high stream flow."@en ;
-  skos:member ls:erosion-b-0 ;
-  skos:member ls:erosion-b-1 ;
-  skos:member ls:erosion-b-x ;
+  skos:member ls:erosion-B-0 ;
+  skos:member ls:erosion-B-1 ;
+  skos:member ls:erosion-B-X ;
   skos:notation "B" ;
   skos:prefLabel "Stream bank erosion"@en ;
 .
-ls:erosion-b-0
+ls:erosion-B-0
   a skos:Concept ;
   dct:description "No stream bank erosion."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b-0"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-b ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-B-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-B ;
   rdfs:label "No stream bank erosion"@en ;
   skos:definition "No stream bank erosion."@en ;
   skos:inScheme asls:land-surface ;
@@ -2559,11 +2567,11 @@ ls:erosion-b-0
   skos:prefLabel "No stream bank erosion"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-b-1
+ls:erosion-B-1
   a skos:Concept ;
   dct:description "Present."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b-1"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-b ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-B-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-B ;
   rdfs:label "Present"@en ;
   skos:definition "Present."@en ;
   skos:inScheme asls:land-surface ;
@@ -2571,11 +2579,11 @@ ls:erosion-b-1
   skos:prefLabel "Present"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-b-x
+ls:erosion-B-X
   a skos:Concept ;
   dct:description "Not apparent."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-b-x"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-b ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-B-X"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-B ;
   rdfs:label "Not apparent"@en ;
   skos:definition "Not apparent."@en ;
   skos:inScheme asls:land-surface ;
@@ -2583,27 +2591,27 @@ ls:erosion-b-x
   skos:prefLabel "Not apparent"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-c
+ls:erosion-C
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dct:description "This is the removal of surface soil by water and/or wind, often exposing a more clayey subsoil which is devoid of vegetation and relatively impermeable to water. Scalds are most common in arid or semi-arid lands."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-c"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-C"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
   rdfs:label "Scald erosion"@en ;
-  owl:sameAs ls:erosion-c ;
+  owl:sameAs ls:erosion-C ;
   skos:definition "This is the removal of surface soil by water and/or wind, often exposing a more clayey subsoil which is devoid of vegetation and relatively impermeable to water. Scalds are most common in arid or semi-arid lands."@en ;
-  skos:member ls:erosion-c-0 ;
-  skos:member ls:erosion-c-1 ;
-  skos:member ls:erosion-c-2 ;
-  skos:member ls:erosion-c-3 ;
+  skos:member ls:erosion-C-0 ;
+  skos:member ls:erosion-C-1 ;
+  skos:member ls:erosion-C-2 ;
+  skos:member ls:erosion-C-3 ;
   skos:notation "C" ;
   skos:prefLabel "Scald erosion"@en ;
 .
-ls:erosion-c-0
+ls:erosion-C-0
   a skos:Concept ;
   dct:description "No scalding."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-c-0"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-c ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-C-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-C ;
   rdfs:label "No scalding"@en ;
   skos:definition "No scalding."@en ;
   skos:inScheme asls:land-surface ;
@@ -2611,11 +2619,11 @@ ls:erosion-c-0
   skos:prefLabel "No scalding"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-c-1
+ls:erosion-C-1
   a skos:Concept ;
   dct:description "<5% of site scalded."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-c-1"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-c ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-C-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-C ;
   rdfs:label "Minor scalding"@en ;
   skos:definition "<5% of site scalded."@en ;
   skos:inScheme asls:land-surface ;
@@ -2623,11 +2631,11 @@ ls:erosion-c-1
   skos:prefLabel "Minor scalding"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-c-2
+ls:erosion-C-2
   a skos:Concept ;
   dct:description "5-50% of site scalded."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-c-2"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-c ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-C-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-C ;
   rdfs:label "Moderate scalding"@en ;
   skos:definition "5-50% of site scalded."@en ;
   skos:inScheme asls:land-surface ;
@@ -2635,11 +2643,11 @@ ls:erosion-c-2
   skos:prefLabel "Moderate scalding"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-c-3
+ls:erosion-C-3
   a skos:Concept ;
   dct:description ">50% of site scalded."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-c-3"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-c ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-C-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-C ;
   rdfs:label "Severe scalding"@en ;
   skos:definition ">50% of site scalded."@en ;
   skos:inScheme asls:land-surface ;
@@ -2647,28 +2655,28 @@ ls:erosion-c-3
   skos:prefLabel "Severe scalding"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-g
+ls:erosion-G
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dct:description "A gully is a channel more than 0.3 m deep."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
   rdfs:label "Gully erosion"@en ;
-  owl:sameAs ls:erosion-g ;
+  owl:sameAs ls:erosion-G ;
   skos:definition "A gully is a channel more than 0.3 m deep."@en ;
-  skos:member ls:erosion-g-0 ;
-  skos:member ls:erosion-g-1 ;
-  skos:member ls:erosion-g-2 ;
-  skos:member ls:erosion-g-3 ;
-  skos:member ls:erosion-g-depth ;
+  skos:member ls:erosion-G-0 ;
+  skos:member ls:erosion-G-1 ;
+  skos:member ls:erosion-G-2 ;
+  skos:member ls:erosion-G-3 ;
+  skos:member ls:erosion-G-depth ;
   skos:notation "G" ;
   skos:prefLabel "Gully erosion"@en ;
 .
-ls:erosion-g-0
+ls:erosion-G-0
   a skos:Concept ;
   dct:description "No gully erosion."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-0"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-G ;
   rdfs:label "No gully erosion"@en ;
   skos:definition "No gully erosion."@en ;
   skos:inScheme asls:land-surface ;
@@ -2676,11 +2684,11 @@ ls:erosion-g-0
   skos:prefLabel "No gully erosion"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-g-1
+ls:erosion-G-1
   a skos:Concept ;
   dct:description "gullies are isolated, linear, discontinuous and restricted to primary or minor drainage lines."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-1"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-G ;
   rdfs:label "Minor gully erosion"@en ;
   skos:definition "gullies are isolated, linear, discontinuous and restricted to primary or minor drainage lines."@en ;
   skos:inScheme asls:land-surface ;
@@ -2688,11 +2696,11 @@ ls:erosion-g-1
   skos:prefLabel "Minor gully erosion"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-g-2
+ls:erosion-G-2
   a skos:Concept ;
   dct:description "gullies are linear, continuous and restricted to primary and minor drainage lines."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-2"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-G ;
   rdfs:label "Moderate gully erosion"@en ;
   skos:definition "gullies are linear, continuous and restricted to primary and minor drainage lines."@en ;
   skos:inScheme asls:land-surface ;
@@ -2700,11 +2708,11 @@ ls:erosion-g-2
   skos:prefLabel "Moderate gully erosion"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-g-3
+ls:erosion-G-3
   a skos:Concept ;
   dct:description "gullies are continuous or discontinuous and either tend to branch away from primary drainage lines and on to footslopes, or have multiple branches within primary drainage lines."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-3"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-G ;
   rdfs:label "Severe gully erosion"@en ;
   skos:definition "gullies are continuous or discontinuous and either tend to branch away from primary drainage lines and on to footslopes, or have multiple branches within primary drainage lines."@en ;
   skos:inScheme asls:land-surface ;
@@ -2712,24 +2720,24 @@ ls:erosion-g-3
   skos:prefLabel "Severe gully erosion"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-g-depth
+ls:erosion-G-depth
   a skos:Collection ;
   dct:description "This gives the maximum depth within the site."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-depth"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-G ;
   rdfs:label "Gully depth"@en ;
-  owl:sameAs ls:erosion-g-depth ;
+  owl:sameAs ls:erosion-G-depth ;
   skos:definition "This gives the maximum depth within the site."@en ;
-  skos:member ls:erosion-g-depth-1 ;
-  skos:member ls:erosion-g-depth-2 ;
-  skos:member ls:erosion-g-depth-3 ;
+  skos:member ls:erosion-G-depth-1 ;
+  skos:member ls:erosion-G-depth-2 ;
+  skos:member ls:erosion-G-depth-3 ;
   skos:prefLabel "Gully depth"@en ;
 .
-ls:erosion-g-depth-1
+ls:erosion-G-depth-1
   a skos:Concept ;
   dct:description "<1.5 m"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-1"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g-depth ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-depth-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-G-depth ;
   rdfs:label "Gully depth <1.5 m"@en ;
   skos:definition "<1.5 m"@en ;
   skos:inScheme asls:land-surface ;
@@ -2737,11 +2745,11 @@ ls:erosion-g-depth-1
   skos:prefLabel "Gully depth <1.5 m"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-g-depth-2
+ls:erosion-G-depth-2
   a skos:Concept ;
   dct:description "1.5-3.0 m"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-2"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g-depth ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-depth-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-G-depth ;
   rdfs:label "Gully depth 1.5-3.0 m"@en ;
   skos:definition "1.5-3.0 m"@en ;
   skos:inScheme asls:land-surface ;
@@ -2749,11 +2757,11 @@ ls:erosion-g-depth-2
   skos:prefLabel "Gully depth 1.5-3.0 m"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-g-depth-3
+ls:erosion-G-depth-3
   a skos:Concept ;
   dct:description ">3 m"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-g-depth-3"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-g-depth ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-depth-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-G-depth ;
   rdfs:label "Gully depth >3 m"@en ;
   skos:definition ">3 m"@en ;
   skos:inScheme asls:land-surface ;
@@ -2761,25 +2769,25 @@ ls:erosion-g-depth-3
   skos:prefLabel "Gully depth >3 m"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-m
+ls:erosion-M
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dct:description "This includes all relatively large downslope movement of soil, rock or mixture of both, for example landslides, slumps, earth flows, debris avalanches and solifluxion."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-m"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-M"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
   rdfs:label "Mass movement"@en ;
-  owl:sameAs ls:erosion-m ;
+  owl:sameAs ls:erosion-M ;
   skos:definition "This includes all relatively large downslope movement of soil, rock or mixture of both, for example landslides, slumps, earth flows, debris avalanches and solifluxion."@en ;
-  skos:member ls:erosion-m-0 ;
-  skos:member ls:erosion-m-1 ;
+  skos:member ls:erosion-M-0 ;
+  skos:member ls:erosion-M-1 ;
   skos:notation "M" ;
   skos:prefLabel "Mass movement"@en ;
 .
-ls:erosion-m-0
+ls:erosion-M-0
   a skos:Concept ;
   dct:description "No mass movement."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-m-0"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-m ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-M-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-M ;
   rdfs:label "No mass movement"@en ;
   skos:definition "No mass movement."@en ;
   skos:inScheme asls:land-surface ;
@@ -2787,11 +2795,11 @@ ls:erosion-m-0
   skos:prefLabel "No mass movement"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-m-1
+ls:erosion-M-1
   a skos:Concept ;
   dct:description "Present."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-m-1"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-m ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-M-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-M ;
   rdfs:label "Present"@en ;
   skos:definition "Present."@en ;
   skos:inScheme asls:land-surface ;
@@ -2799,27 +2807,27 @@ ls:erosion-m-1
   skos:prefLabel "Present"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-r
+ls:erosion-R
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dct:description "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-R"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
   rdfs:label "Rill erosion"@en ;
-  owl:sameAs ls:erosion-g ;
+  owl:sameAs ls:erosion-R ;
   skos:definition "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)."@en ;
-  skos:member ls:erosion-r-0 ;
-  skos:member ls:erosion-r-1 ;
-  skos:member ls:erosion-r-2 ;
-  skos:member ls:erosion-r-3 ;
+  skos:member ls:erosion-R-0 ;
+  skos:member ls:erosion-R-1 ;
+  skos:member ls:erosion-R-2 ;
+  skos:member ls:erosion-R-3 ;
   skos:notation "R" ;
   skos:prefLabel "Rill erosion"@en ;
 .
-ls:erosion-r-0
+ls:erosion-R-0
   a skos:Concept ;
   dct:description "no rill erosion."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r-0"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-r ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-R-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-R ;
   rdfs:label "No rill erosion"@en ;
   skos:definition "no rill erosion."@en ;
   skos:inScheme asls:land-surface ;
@@ -2827,11 +2835,11 @@ ls:erosion-r-0
   skos:prefLabel "No rill erosion"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-r-1
+ls:erosion-R-1
   a skos:Concept ;
   dct:description "occasional rills."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r-1"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-r ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-R-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-R ;
   rdfs:label "Minor"@en ;
   skos:definition "occasional rills."@en ;
   skos:inScheme asls:land-surface ;
@@ -2839,11 +2847,11 @@ ls:erosion-r-1
   skos:prefLabel "Minor"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-r-2
+ls:erosion-R-2
   a skos:Concept ;
   dct:description "common rills."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r-2"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-r ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-R-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-R ;
   rdfs:label "Moderate"@en ;
   skos:definition "common rills."@en ;
   skos:inScheme asls:land-surface ;
@@ -2851,11 +2859,11 @@ ls:erosion-r-2
   skos:prefLabel "Moderate"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-r-3
+ls:erosion-R-3
   a skos:Concept ;
   dct:description "numerous rills forming corrugated ground surface."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-r-3"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-r ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-R-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-R ;
   rdfs:label "Severe"@en ;
   skos:definition "numerous rills forming corrugated ground surface."@en ;
   skos:inScheme asls:land-surface ;
@@ -2863,28 +2871,28 @@ ls:erosion-r-3
   skos:prefLabel "Severe"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-s
+ls:erosion-S
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dct:description "This is the relatively uniform removal of soil from an area without the development of conspicuous channels. Indicators of sheet erosion include soil deposits in downslope sediment traps, such as fencelines or farm dams, and pedestalling, root exposure or exposure of subsoils."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-S"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion ;
   rdfs:label "Sheet erosion"@en ;
-  owl:sameAs ls:erosion-s ;
+  owl:sameAs ls:erosion-S ;
   skos:definition "This is the relatively uniform removal of soil from an area without the development of conspicuous channels. Indicators of sheet erosion include soil deposits in downslope sediment traps, such as fencelines or farm dams, and pedestalling, root exposure or exposure of subsoils."@en ;
-  skos:member ls:erosion-s-0 ;
-  skos:member ls:erosion-s-1 ;
-  skos:member ls:erosion-s-2 ;
-  skos:member ls:erosion-s-3 ;
-  skos:member ls:erosion-s-x ;
+  skos:member ls:erosion-S-0 ;
+  skos:member ls:erosion-S-1 ;
+  skos:member ls:erosion-S-2 ;
+  skos:member ls:erosion-S-3 ;
+  skos:member ls:erosion-S-X ;
   skos:notation "S" ;
   skos:prefLabel "Sheet erosion"@en ;
 .
-ls:erosion-s-0
+ls:erosion-S-0
   a skos:Concept ;
   dct:description "no sheet erosion."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-0"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-s ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-S-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-S ;
   rdfs:label "No sheet erosion"@en ;
   skos:definition "no sheet erosion."@en ;
   skos:inScheme asls:land-surface ;
@@ -2892,11 +2900,11 @@ ls:erosion-s-0
   skos:prefLabel "No sheet erosion"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-s-1
+ls:erosion-S-1
   a skos:Concept ;
   dct:description "indicators may include shallow soil deposits in downslope sediment traps (fencelines, farm dams). Often very difficult to assess as evidence may be lost with cultivation, pedo-turbation or revegetation."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-1"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-s ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-S-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-S ;
   rdfs:label "Minor"@en ;
   skos:definition "indicators may include shallow soil deposits in downslope sediment traps (fencelines, farm dams). Often very difficult to assess as evidence may be lost with cultivation, pedo-turbation or revegetation."@en ;
   skos:inScheme asls:land-surface ;
@@ -2904,11 +2912,11 @@ ls:erosion-s-1
   skos:prefLabel "Minor"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-s-2
+ls:erosion-S-2
   a skos:Concept ;
   dct:description "indicators may include partial exposure of roots, moderate soil deposits in downslope sediment traps (fencelines, farm dams)."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-2"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-s ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-S-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-S ;
   rdfs:label "Moderate"@en ;
   skos:definition "indicators may include partial exposure of roots, moderate soil deposits in downslope sediment traps (fencelines, farm dams)."@en ;
   skos:inScheme asls:land-surface ;
@@ -2916,11 +2924,11 @@ ls:erosion-s-2
   skos:prefLabel "Moderate"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-s-3
+ls:erosion-S-3
   a skos:Concept ;
   dct:description "indicators may include loss of surface horizons, exposure of subsoil horizons, pedestalling, root exposure, substantial soil deposits in downslope sediment traps (fencelines, farm dams)."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-3"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-s ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-S-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-S ;
   rdfs:label "Severe"@en ;
   skos:definition "indicators may include loss of surface horizons, exposure of subsoil horizons, pedestalling, root exposure, substantial soil deposits in downslope sediment traps (fencelines, farm dams)."@en ;
   skos:inScheme asls:land-surface ;
@@ -2928,13 +2936,206 @@ ls:erosion-s-3
   skos:prefLabel "Severe"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-s-x
+ls:erosion-S-X
   a skos:Concept ;
   dct:description "not apparent."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-s-x"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-s ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-S-X"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-S ;
   rdfs:label "Not apparent"@en ;
   skos:definition "not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-T
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "This is the removal of subsoil by water while the surface soil remains relatively intact (Crouch 1976)."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-T"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Tunnel erosion"@en ;
+  owl:sameAs ls:erosion-T ;
+  skos:definition "This is the removal of subsoil by water while the surface soil remains relatively intact (Crouch 1976)."@en ;
+  skos:member ls:erosion-T-0 ;
+  skos:member ls:erosion-T-1 ;
+  skos:member ls:erosion-T-X ;
+  skos:notation "T" ;
+  skos:prefLabel "Tunnel erosion"@en ;
+.
+ls:erosion-T-0
+  a skos:Concept ;
+  dct:description "no tunnel erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-T-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  ui:isMemberOf ls:erosion-T ;
+  rdfs:label "No tunnel erosion"@en ;
+  skos:definition "no tunnel erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No tunnel erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-T-1
+  a skos:Concept ;
+  dct:description "present."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-T-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-T ;
+  rdfs:label "Present"@en ;
+  skos:definition "present."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-T-X
+  a skos:Concept ;
+  dct:description "Not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-T-X"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-T ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-V
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "Erosion of beaches, beach ridges and/or dunes. This is the removal of sand or soil from the margins of beaches, beach ridges, dunes, lakes or dams by wave action."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-V"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Wave erosion"@en ;
+  owl:sameAs ls:erosion-V ;
+  skos:definition "Erosion of beaches, beach ridges and/or dunes. This is the removal of sand or soil from the margins of beaches, beach ridges, dunes, lakes or dams by wave action."@en ;
+  skos:member ls:erosion-V-0 ;
+  skos:member ls:erosion-V-1 ;
+  skos:member ls:erosion-V-X ;
+  skos:notation "V" ;
+  skos:prefLabel "Wave erosion"@en ;
+.
+ls:erosion-V-0
+  a skos:Concept ;
+  dct:description "no wave erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-V-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-V ;
+  rdfs:label "No wave erosion"@en ;
+  skos:definition "no wave erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No wave erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-V-1
+  a skos:Concept ;
+  dct:description "present."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-V-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-V ;
+  rdfs:label "Present"@en ;
+  skos:definition "present."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-V-X
+  a skos:Concept ;
+  dct:description "Not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-V-X"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-V ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Not apparent."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "X" ;
+  skos:prefLabel "Not apparent"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "Give presence/absence or extent of accelerated erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-W"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion ;
+  rdfs:label "Wind erosion"@en ;
+  owl:sameAs ls:erosion-W ;
+  skos:definition "Give presence/absence or extent of accelerated erosion."@en ;
+  skos:member ls:erosion-W-0 ;
+  skos:member ls:erosion-W-1 ;
+  skos:member ls:erosion-W-2 ;
+  skos:member ls:erosion-W-3 ;
+  skos:member ls:erosion-W-4 ;
+  skos:member ls:erosion-W-X ;
+  skos:notation "W" ;
+  skos:prefLabel "Wind erosion"@en ;
+.
+ls:erosion-W-0
+  a skos:Concept ;
+  dct:description "no wind erosion."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-W-0"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-W ;
+  rdfs:label "No wind erosion"@en ;
+  skos:definition "no wind erosion."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "0" ;
+  skos:prefLabel "No wind erosion"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W-1
+  a skos:Concept ;
+  dct:description "some loss of surface."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-W-1"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-W ;
+  rdfs:label "Minor or present"@en ;
+  skos:definition "some loss of surface."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "1" ;
+  skos:prefLabel "Minor or present"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W-2
+  a skos:Concept ;
+  dct:description "most or all or surface removed leaving soft or loose material."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-W-2"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-W ;
+  rdfs:label "Moderate"@en ;
+  skos:definition "most or all or surface removed leaving soft or loose material."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "2" ;
+  skos:prefLabel "Moderate"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W-3
+  a skos:Concept ;
+  dct:description "most or all of surface removed, leaving hard material."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-W-3"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-W ;
+  rdfs:label "Severe"@en ;
+  skos:definition "most or all of surface removed, leaving hard material."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "3" ;
+  skos:prefLabel "Severe"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W-4
+  a skos:Concept ;
+  dct:description "deeper layers exposed, leaving hard material, for example subsoil, weathered country rock or pans."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-W-4"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-W ;
+  rdfs:label "Very severe"@en ;
+  skos:definition "deeper layers exposed, leaving hard material, for example subsoil, weathered country rock or pans."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "4" ;
+  skos:prefLabel "Very severe"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:erosion-W-X
+  a skos:Concept ;
+  dct:description "Not apparent."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-W-X"^^xsd:anyURI ;
+  ui:isMemberOf ls:erosion-W ;
+  rdfs:label "Not apparent"@en ;
+  skos:definition "Not apparent."@en ;
   skos:inScheme asls:land-surface ;
   skos:notation "X" ;
   skos:prefLabel "Not apparent"@en ;
@@ -2949,15 +3150,15 @@ ls:erosion-state
   rdfs:label "State of erosion"@en ;
   owl:sameAs ls:erosion-state ;
   skos:definition "State of erosion"@en ;
-  skos:member ls:erosion-state-a ;
-  skos:member ls:erosion-state-p ;
-  skos:member ls:erosion-state-s ;
+  skos:member ls:erosion-state-A ;
+  skos:member ls:erosion-state-P ;
+  skos:member ls:erosion-state-S ;
   skos:prefLabel "State of erosion"@en ;
 .
-ls:erosion-state-a
+ls:erosion-state-A
   a skos:Concept ;
   dct:description "one or both of the following conditions apply: evidence of sediment movement; sides and/or floors of erosion form are relatively bare of vegetation."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-state-a"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-state-A"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion-state ;
   rdfs:label "Active"@en ;
   skos:definition "one or both of the following conditions apply: evidence of sediment movement; sides and/or floors of erosion form are relatively bare of vegetation."@en ;
@@ -2966,10 +3167,10 @@ ls:erosion-state-a
   skos:prefLabel "Active"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-state-p
+ls:erosion-state-P
   a skos:Concept ;
   dct:description "evidence of some active erosion and some evidence of stabilisation."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-state-p"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-state-P"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion-state ;
   rdfs:label "Partly stabilised"@en ;
   skos:definition "evidence of some active erosion and some evidence of stabilisation."@en ;
@@ -2978,208 +3179,16 @@ ls:erosion-state-p
   skos:prefLabel "Partly stabilised"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-state-s
+ls:erosion-state-S
   a skos:Concept ;
   dct:description "one or both of the following conditions apply: no evidence of sediment movement; sides and/or floors of erosion form are revegetated."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-state-s"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-state-S"^^xsd:anyURI ;
   ui:isMemberOf ls:erosion-state ;
   rdfs:label "Stabilised"@en ;
   skos:definition "one or both of the following conditions apply: no evidence of sediment movement; sides and/or floors of erosion form are revegetated."@en ;
   skos:inScheme asls:land-surface ;
   skos:notation "S" ;
   skos:prefLabel "Stabilised"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-t
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dct:description "This is the removal of subsoil by water while the surface soil remains relatively intact (Crouch 1976)."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-t"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion ;
-  rdfs:label "Tunnel erosion"@en ;
-  owl:sameAs ls:erosion-t ;
-  skos:definition "This is the removal of subsoil by water while the surface soil remains relatively intact (Crouch 1976)."@en ;
-  skos:member ls:erosion-t-0 ;
-  skos:member ls:erosion-t-1 ;
-  skos:member ls:erosion-t-x ;
-  skos:notation "T" ;
-  skos:prefLabel "Tunnel erosion"@en ;
-.
-ls:erosion-t-0
-  a skos:Concept ;
-  dct:description "no tunnel erosion."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-t-0"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-t ;
-  rdfs:label "No tunnel erosion"@en ;
-  skos:definition "no tunnel erosion."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "0" ;
-  skos:prefLabel "No tunnel erosion"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-t-1
-  a skos:Concept ;
-  dct:description "present."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-t-1"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-t ;
-  rdfs:label "Present"@en ;
-  skos:definition "present."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "1" ;
-  skos:prefLabel "Present"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-t-x
-  a skos:Concept ;
-  dct:description "Not apparent."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-t-x"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-t ;
-  rdfs:label "Not apparent"@en ;
-  skos:definition "Not apparent."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "X" ;
-  skos:prefLabel "Not apparent"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-v
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dct:description "Erosion of beaches, beach ridges and/or dunes. This is the removal of sand or soil from the margins of beaches, beach ridges, dunes, lakes or dams by wave action."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-v"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion ;
-  rdfs:label "Wave erosion"@en ;
-  owl:sameAs ls:erosion-v ;
-  skos:definition "Erosion of beaches, beach ridges and/or dunes. This is the removal of sand or soil from the margins of beaches, beach ridges, dunes, lakes or dams by wave action."@en ;
-  skos:member ls:erosion-v-0 ;
-  skos:member ls:erosion-v-1 ;
-  skos:member ls:erosion-v-x ;
-  skos:notation "V" ;
-  skos:prefLabel "Wave erosion"@en ;
-.
-ls:erosion-v-0
-  a skos:Concept ;
-  dct:description "no wave erosion."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-v-0"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-v ;
-  rdfs:label "No wave erosion"@en ;
-  skos:definition "no wave erosion."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "0" ;
-  skos:prefLabel "No wave erosion"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-v-1
-  a skos:Concept ;
-  dct:description "present."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-v-1"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-v ;
-  rdfs:label "Present"@en ;
-  skos:definition "present."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "1" ;
-  skos:prefLabel "Present"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-v-x
-  a skos:Concept ;
-  dct:description "Not apparent."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-v-x"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-v ;
-  rdfs:label "Not apparent"@en ;
-  skos:definition "Not apparent."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "X" ;
-  skos:prefLabel "Not apparent"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-w
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dct:description "Give presence/absence or extent of accelerated erosion."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion ;
-  rdfs:label "Wind erosion"@en ;
-  owl:sameAs ls:erosion-w ;
-  skos:definition "Give presence/absence or extent of accelerated erosion."@en ;
-  skos:member ls:erosion-w-0 ;
-  skos:member ls:erosion-w-1 ;
-  skos:member ls:erosion-w-2 ;
-  skos:member ls:erosion-w-3 ;
-  skos:member ls:erosion-w-4 ;
-  skos:member ls:erosion-w-x ;
-  skos:notation "W" ;
-  skos:prefLabel "Wind erosion"@en ;
-.
-ls:erosion-w-0
-  a skos:Concept ;
-  dct:description "no wind erosion."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-0"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-w ;
-  rdfs:label "No wind erosion"@en ;
-  skos:definition "no wind erosion."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "0" ;
-  skos:prefLabel "No wind erosion"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-w-1
-  a skos:Concept ;
-  dct:description "some loss of surface."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-1"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-w ;
-  rdfs:label "Minor or present"@en ;
-  skos:definition "some loss of surface."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "1" ;
-  skos:prefLabel "Minor or present"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-w-2
-  a skos:Concept ;
-  dct:description "most or all or surface removed leaving soft or loose material."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-2"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-w ;
-  rdfs:label "Moderate"@en ;
-  skos:definition "most or all or surface removed leaving soft or loose material."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "2" ;
-  skos:prefLabel "Moderate"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-w-3
-  a skos:Concept ;
-  dct:description "most or all of surface removed, leaving hard material."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-3"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-w ;
-  rdfs:label "Severe"@en ;
-  skos:definition "most or all of surface removed, leaving hard material."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "3" ;
-  skos:prefLabel "Severe"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-w-4
-  a skos:Concept ;
-  dct:description "deeper layers exposed, leaving hard material, for example subsoil, weathered country rock or pans."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-4"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-w ;
-  rdfs:label "Very severe"@en ;
-  skos:definition "deeper layers exposed, leaving hard material, for example subsoil, weathered country rock or pans."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "4" ;
-  skos:prefLabel "Very severe"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-w-x
-  a skos:Concept ;
-  dct:description "Not apparent."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-w-x"^^xsd:anyURI ;
-  ui:isMemberOf ls:erosion-w ;
-  rdfs:label "Not apparent"@en ;
-  skos:definition "Not apparent."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "X" ;
-  skos:prefLabel "Not apparent"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:gilgai-microrelief
@@ -3191,12 +3200,12 @@ ls:gilgai-microrelief
   owl:sameAs ls:gilgai-microrelief ;
   skos:definition "Gilgai is surface microrelief associated with soils containing shrink–swell clays. It does not include microrelief that apparently results from repeated freezing and thawing, solifluxion or faunal activity. Gilgai consist of mounds and depressions showing varying degrees of order, sometimes separated by a subplanar or slightly undulating surface."@en ;
   skos:member ls:gilgai-microrelief-proportions ;
-  skos:member ls:microrelief-a ;
-  skos:member ls:microrelief-c ;
-  skos:member ls:microrelief-g ;
-  skos:member ls:microrelief-l ;
-  skos:member ls:microrelief-m ;
-  skos:member ls:microrelief-n ;
+  skos:member ls:microrelief-A ;
+  skos:member ls:microrelief-C ;
+  skos:member ls:microrelief-G ;
+  skos:member ls:microrelief-L ;
+  skos:member ls:microrelief-M ;
+  skos:member ls:microrelief-N ;
   skos:prefLabel "Gilgai microrelief"@en ;
 .
 ls:gilgai-microrelief-proportions
@@ -3208,16 +3217,16 @@ ls:gilgai-microrelief-proportions
   rdfs:label "Proportions of gilgai components "@en ;
   owl:sameAs ls:gilgai-microrelief-proportions ;
   skos:definition "Give the proportions of gilgai components within the site, thus:"@en ;
-  skos:member ls:gilgai-microrelief-proportions-a ;
-  skos:member ls:gilgai-microrelief-proportions-b ;
-  skos:member ls:gilgai-microrelief-proportions-c ;
-  skos:member ls:gilgai-microrelief-proportions-d ;
+  skos:member ls:gilgai-microrelief-proportions-A ;
+  skos:member ls:gilgai-microrelief-proportions-B ;
+  skos:member ls:gilgai-microrelief-proportions-C ;
+  skos:member ls:gilgai-microrelief-proportions-D ;
   skos:prefLabel "Proportions of gilgai components "@en ;
 .
-ls:gilgai-microrelief-proportions-a
+ls:gilgai-microrelief-proportions-A
   a skos:Concept ;
   dct:description "Equal mounds and depressions; no shelf present."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-a"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-A"^^xsd:anyURI ;
   ui:isMemberOf ls:gilgai-microrelief-proportions ;
   rdfs:label "Equal mounds and depressions; no shelf present"@en ;
   skos:definition "Equal mounds and depressions; no shelf present."@en ;
@@ -3226,10 +3235,10 @@ ls:gilgai-microrelief-proportions-a
   skos:prefLabel "Equal mounds and depressions; no shelf present"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:gilgai-microrelief-proportions-b
+ls:gilgai-microrelief-proportions-B
   a skos:Concept ;
   dct:description "More mounds than depressions; no shelf present."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-b"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-B"^^xsd:anyURI ;
   ui:isMemberOf ls:gilgai-microrelief-proportions ;
   rdfs:label "More mounds than depressions; no shelf present"@en ;
   skos:definition "More mounds than depressions; no shelf present."@en ;
@@ -3238,10 +3247,10 @@ ls:gilgai-microrelief-proportions-b
   skos:prefLabel "More mounds than depressions; no shelf present"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:gilgai-microrelief-proportions-c
+ls:gilgai-microrelief-proportions-C
   a skos:Concept ;
   dct:description "Fewer mounds than depressions; no shelf present."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-c"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-C"^^xsd:anyURI ;
   ui:isMemberOf ls:gilgai-microrelief-proportions ;
   rdfs:label "Fewer mounds than depressions; no shelf present"@en ;
   skos:definition "Fewer mounds than depressions; no shelf present."@en ;
@@ -3250,10 +3259,10 @@ ls:gilgai-microrelief-proportions-c
   skos:prefLabel "Fewer mounds than depressions; no shelf present"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:gilgai-microrelief-proportions-d
+ls:gilgai-microrelief-proportions-D
   a skos:Concept ;
   dct:description "Mound, shelf and depressions; shelf forms prominent part of gilgai."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-d"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-proportions-D"^^xsd:anyURI ;
   ui:isMemberOf ls:gilgai-microrelief-proportions ;
   rdfs:label "Mound, shelf and depressions; shelf forms prominent part of gilgai"@en ;
   skos:definition "Mound, shelf and depressions; shelf forms prominent part of gilgai."@en ;
@@ -3270,8 +3279,8 @@ ls:hummocky-microrelief
   rdfs:label "Hummocky microrelief"@en ;
   owl:sameAs ls:Hummocky-microrelief ;
   skos:definition "Hummocky microrelief is not thought to be associated with the shrink–swell process involved in gilgai microrelief."@en ;
-  skos:member ls:microrelief-d ;
-  skos:member ls:microrelief-w ;
+  skos:member ls:microrelief-D ;
+  skos:member ls:microrelief-W ;
   skos:prefLabel "Hummocky microrelief"@en ;
 .
 ls:inundation
@@ -3526,14 +3535,14 @@ ls:inundation-runon-velocity
   rdfs:label "Runon velocity of inundation"@en ;
   owl:sameAs ls:Inundation-runon-velocity ;
   skos:definition "As a guide, the surface velocity in a river is typically 1–2 m/s. "@en ;
-  skos:member ls:inundation-runon-velocity-h ;
-  skos:member ls:inundation-runon-velocity-l ;
+  skos:member ls:inundation-runon-velocity-H ;
+  skos:member ls:inundation-runon-velocity-L ;
   skos:prefLabel "Runon velocity of inundation"@en ;
 .
-ls:inundation-runon-velocity-h
+ls:inundation-runon-velocity-H
   a skos:Concept ;
   dct:description "High velocity >300 mm/s"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-runon-velocity-h"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-runon-velocity-H"^^xsd:anyURI ;
   ui:isMemberOf ls:inundation-frequency ;
   rdfs:label "High velocity >300 mm/s"@en ;
   skos:definition "High velocity >300 mm/s"@en ;
@@ -3542,10 +3551,10 @@ ls:inundation-runon-velocity-h
   skos:prefLabel "High velocity >300 mm/s"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:inundation-runon-velocity-l
+ls:inundation-runon-velocity-L
   a skos:Concept ;
   dct:description "Low velocity <300 mm/s"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-runon-velocity-l"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation-runon-velocity-L"^^xsd:anyURI ;
   ui:isMemberOf ls:inundation-frequency ;
   rdfs:label "Low velocity <300 mm/s"@en ;
   skos:definition "Low velocity <300 mm/s"@en ;
@@ -3566,35 +3575,18 @@ ls:microrelief
   skos:member ls:biotic-microrelief ;
   skos:member ls:gilgai-microrelief ;
   skos:member ls:hummocky-microrelief ;
-  skos:member ls:microrelief-a ;
-  skos:member ls:microrelief-c ;
+  skos:member ls:microrelief-Z ;
   skos:member ls:microrelief-component-sampled ;
-  skos:member ls:microrelief-d ;
-  skos:member ls:microrelief-g ;
-  skos:member ls:microrelief-h ;
   skos:member ls:microrelief-horizontal-interval ;
-  skos:member ls:microrelief-i ;
-  skos:member ls:microrelief-k ;
-  skos:member ls:microrelief-l ;
-  skos:member ls:microrelief-m ;
-  skos:member ls:microrelief-n ;
-  skos:member ls:microrelief-o ;
-  skos:member ls:microrelief-p ;
-  skos:member ls:microrelief-r ;
-  skos:member ls:microrelief-s ;
-  skos:member ls:microrelief-t ;
-  skos:member ls:microrelief-u ;
   skos:member ls:microrelief-vertical-interval ;
-  skos:member ls:microrelief-w ;
-  skos:member ls:microrelief-z ;
+  skos:member ls:other-microrelief-O ;
   skos:prefLabel "Microrelief"@en ;
 .
-ls:microrelief-a
+ls:microrelief-A
   a skos:Concept ;
   dct:description "discontinuous, elongate mounds and/or elongate depressions more or less at right angles to the contour. Usually in sloping lands, commonly between linear gilgai on lower slopes and plains."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-a"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-A"^^xsd:anyURI ;
   ui:isMemberOf ls:gilgai-microrelief ;
-  ui:isMemberOf ls:microrelief ;
   rdfs:label "Lattice gilgai"@en ;
   skos:definition "discontinuous, elongate mounds and/or elongate depressions more or less at right angles to the contour. Usually in sloping lands, commonly between linear gilgai on lower slopes and plains."@en ;
   skos:inScheme asls:land-surface ;
@@ -3602,12 +3594,11 @@ ls:microrelief-a
   skos:prefLabel "Lattice gilgai"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:microrelief-c
+ls:microrelief-C
   a skos:Concept ;
   dct:description "irregularly distributed, small depressions and mounds separated by a more or less continuous shelf. Vertical interval usually less than 0.3 m. Horizontal interval usually 3–20 m, surface almost level."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-c"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-C"^^xsd:anyURI ;
   ui:isMemberOf ls:gilgai-microrelief ;
-  ui:isMemberOf ls:microrelief ;
   rdfs:comment "Vertical interval usually < 0.3 m and horizontal interval 3 - 20m"@en ;
   rdfs:label "Crabhole gilgai"@en ;
   skos:definition "irregularly distributed, small depressions and mounds separated by a more or less continuous shelf. Vertical interval usually less than 0.3 m. Horizontal interval usually 3–20 m, surface almost level."@en ;
@@ -3616,10 +3607,192 @@ ls:microrelief-c
   skos:prefLabel "Crabhole gilgai"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:microrelief-component-d
+ls:microrelief-D
+  a skos:Concept ;
+  dct:description "small hummocks rising above a planar surface. They vary from rounded, both planar and vertically, to flat-topped, relatively steep-sided and elongate. They are usually closely and regularly spaced, ranging from 0.06 to 0.6 m in both vertical and horizontal dimensions. They are common in northern Australia on soils with impeded internal drainage and in areas of short seasonal ponding. Many observers consider them to be formed by biological activity."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-D"^^xsd:anyURI ;
+  ui:isMemberOf ls:hummocky-microrelief ;
+  rdfs:label "Debil-debil"@en ;
+  skos:definition "small hummocks rising above a planar surface. They vary from rounded, both planar and vertically, to flat-topped, relatively steep-sided and elongate. They are usually closely and regularly spaced, ranging from 0.06 to 0.6 m in both vertical and horizontal dimensions. They are common in northern Australia on soils with impeded internal drainage and in areas of short seasonal ponding. Many observers consider them to be formed by biological activity."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "D" ;
+  skos:prefLabel "Debil-debil"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-G
+  a skos:Concept ;
+  dct:description "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-G"^^xsd:anyURI ;
+  ui:isMemberOf ls:gilgai-microrelief ;
+  rdfs:label "Contour gilgai"@en ;
+  skos:definition "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "G" ;
+  skos:prefLabel "Contour gilgai"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-H
+  a skos:Concept ;
+  dct:description "Depression associated with water flowing from rock or soil without the agency of man."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-H"^^xsd:anyURI ;
+  ui:isMemberOf ls:other-microrelief-O ;
+  rdfs:label "Spring hollow"@en ;
+  skos:definition "Depression associated with water flowing from rock or soil without the agency of man."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "H" ;
+  skos:prefLabel "Spring hollow"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-I
+  a skos:Concept ;
+  dct:description "closed depression with vertical or funnel-shaped sides."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-I"^^xsd:anyURI ;
+  ui:isMemberOf ls:other-microrelief-O ;
+  rdfs:label "Sinkhole"@en ;
+  skos:definition "closed depression with vertical or funnel-shaped sides."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "I" ;
+  skos:prefLabel "Sinkhole"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-K
+  a skos:Concept ;
+  dct:description "depressions in limestone country."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-K"^^xsd:anyURI ;
+  ui:isMemberOf ls:other-microrelief-O ;
+  rdfs:label "Karst microrelief"@en ;
+  skos:definition "depressions in limestone country."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "K" ;
+  skos:prefLabel "Karst microrelief"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-L
+  a skos:Concept ;
+  dct:description "long, narrow, parallel, elongate mounds and broader elongate depressions more or less at right angles to the contour. Usually in sloping lands. Vertical interval usually less than 0.3 m, horizontal interval usually 5–8 m."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-L"^^xsd:anyURI ;
+  ui:isMemberOf ls:gilgai-microrelief ;
+  rdfs:comment "Vertical interval usually < 0.3 m and horizontal interval 5 - 8 m"@en ;
+  rdfs:label "Linear gilgai"@en ;
+  skos:definition "long, narrow, parallel, elongate mounds and broader elongate depressions more or less at right angles to the contour. Usually in sloping lands. Vertical interval usually less than 0.3 m, horizontal interval usually 5–8 m."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "L" ;
+  skos:prefLabel "Linear gilgai"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-M
+  a skos:Concept ;
+  dct:description "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-M"^^xsd:anyURI ;
+  ui:isMemberOf ls:gilgai-microrelief ;
+  rdfs:label "Melonhole gilgai"@en ;
+  skos:definition "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "M" ;
+  skos:prefLabel "Melonhole gilgai"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-N
+  a skos:Concept ;
+  dct:description "irregularly distributed, small mounds and subcircular depressions varying in size and spacing. Vertical interval usually less than 0.3 m, horizontal interval usually 3–10 m, surface almost level."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-N"^^xsd:anyURI ;
+  ui:isMemberOf ls:gilgai-microrelief ;
+  rdfs:comment "Vertical interval usually < 0.3 m and horizontal interval 3 - 10m"@en ;
+  rdfs:label "Normal gilgai"@en ;
+  skos:definition "irregularly distributed, small mounds and subcircular depressions varying in size and spacing. Vertical interval usually less than 0.3 m, horizontal interval usually 3–10 m, surface almost level."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "N" ;
+  skos:prefLabel "Normal gilgai"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-P
+  a skos:Concept ;
+  dct:description "Mound associated with water flowing from rock or soil without the agency of man."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-P"^^xsd:anyURI ;
+  ui:isMemberOf ls:other-microrelief-O ;
+  rdfs:label "Spring mound"@en ;
+  skos:definition "Mound associated with water flowing from rock or soil without the agency of man."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "P" ;
+  skos:prefLabel "Spring mound"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-R
+  a skos:Concept ;
+  dct:description "small terraces on slopes resulting either from soil creep or trampling by hoofed animals."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-R"^^xsd:anyURI ;
+  ui:isMemberOf ls:other-microrelief-O ;
+  rdfs:label "Terracettes"@en ;
+  skos:definition "small terraces on slopes resulting either from soil creep or trampling by hoofed animals."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "R" ;
+  skos:prefLabel "Terracettes"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-S
+  a skos:Concept ;
+  dct:description "hummocky microrelief on the surface of landslides, slumps, earth flows, debris avalanches."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-S"^^xsd:anyURI ;
+  ui:isMemberOf ls:other-microrelief-O ;
+  rdfs:label "Mass movement microrelief"@en ;
+  skos:definition "hummocky microrelief on the surface of landslides, slumps, earth flows, debris avalanches."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "S" ;
+  skos:prefLabel "Mass movement microrelief"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-T
+  a skos:Concept ;
+  dct:description "trenches typically 0.2 m deep and 0.6 m wide, with near vertical walls, alternating with flat-crested ridges about 1.3 m wide, which extend along the contour for several metres or tens of metres. Contour trenches are known in areas in south-eastern Australia above 350 m altitude with a high effective rainfall, where they are associated with a grassland or heathland vegetation on undulating rises (compare with McElroy 1952)."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-T"^^xsd:anyURI ;
+  ui:isMemberOf ls:other-microrelief-O ;
+  rdfs:label "Contour trench"@en ;
+  skos:definition "trenches typically 0.2 m deep and 0.6 m wide, with near vertical walls, alternating with flat-crested ridges about 1.3 m wide, which extend along the contour for several metres or tens of metres. Contour trenches are known in areas in south-eastern Australia above 350 m altitude with a high effective rainfall, where they are associated with a grassland or heathland vegetation on undulating rises (compare with McElroy 1952)."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "T" ;
+  skos:prefLabel "Contour trench"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-U
+  a skos:Concept ;
+  dct:description "undifferentiated, irregularly distributed or isolated mounds and/or depressions set in a planar surface."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-U"^^xsd:anyURI ;
+  ui:isMemberOf ls:other-microrelief-O ;
+  rdfs:label "Mound/depression microrelief"@en ;
+  skos:definition "undifferentiated, irregularly distributed or isolated mounds and/or depressions set in a planar surface."@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "U" ;
+  skos:prefLabel "Mound/depression microrelief"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-W
+  a skos:Concept ;
+  dct:description "steep-sided hummocks rising above a flat surface. Hummocks are frequently occupied by trees or shrubs while the lower surface may be vegetation free or occupied by sedges or reeds. They are subject to prolonged seasonal flooding."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-W"^^xsd:anyURI ;
+  ui:isMemberOf ls:hummocky-microrelief ;
+  rdfs:label "Swamp hummock"@en ;
+  skos:definition "steep-sided hummocks rising above a flat surface. Hummocks are frequently occupied by trees or shrubs while the lower surface may be vegetation free or occupied by sedges or reeds. They are subject to prolonged seasonal flooding. "@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "W" ;
+  skos:prefLabel "Swamp hummock"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-Z
+  a skos:Concept ;
+  dct:description "Zero or no microrelief"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-Z"^^xsd:anyURI ;
+  ui:isMemberOf ls:microrelief ;
+  rdfs:label "Zero or no microrelief"@en ;
+  skos:definition "Zero or no microrelief"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "Z" ;
+  skos:prefLabel "Zero or no microrelief"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-component-D
   a skos:Concept ;
   dct:description "concave; occurs as closed form."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-d"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-D"^^xsd:anyURI ;
   ui:isMemberOf ls:microrelief-component-sampled ;
   rdfs:label "Depression"@en ;
   skos:definition "concave; occurs as closed form."@en ;
@@ -3628,10 +3801,10 @@ ls:microrelief-component-d
   skos:prefLabel "Depression"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:microrelief-component-e
+ls:microrelief-component-E
   a skos:Concept ;
   dct:description "convex; long axis* more than 3 times the shorter axis."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-e"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-E"^^xsd:anyURI ;
   ui:isMemberOf ls:microrelief-component-sampled ;
   rdfs:label "Elongate mound"@en ;
   skos:definition "convex; long axis* more than 3 times the shorter axis."@en ;
@@ -3640,10 +3813,10 @@ ls:microrelief-component-e
   skos:prefLabel "Elongate mound"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:microrelief-component-f
+ls:microrelief-component-F
   a skos:Concept ;
   dct:description "surface in which hummocks, mounds, depressions or sinkholes are set."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-f"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-F"^^xsd:anyURI ;
   ui:isMemberOf ls:microrelief-component-sampled ;
   rdfs:label "Flat"@en ;
   skos:definition "surface in which hummocks, mounds, depressions or sinkholes are set."@en ;
@@ -3652,10 +3825,10 @@ ls:microrelief-component-f
   skos:prefLabel "Flat"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:microrelief-component-k
+ls:microrelief-component-K
   a skos:Concept ;
   dct:description "rises above a flat or planar surface. Sides vary from rounded to near vertical and tops from rounded to flat."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-k"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-K"^^xsd:anyURI ;
   ui:isMemberOf ls:microrelief-component-sampled ;
   rdfs:label "Hummock"@en ;
   skos:definition "rises above a flat or planar surface. Sides vary from rounded to near vertical and tops from rounded to flat."@en ;
@@ -3664,10 +3837,10 @@ ls:microrelief-component-k
   skos:prefLabel "Hummock"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:microrelief-component-l
+ls:microrelief-component-L
   a skos:Concept ;
   dct:description "concave; occurs as open-ended form."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-l"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-L"^^xsd:anyURI ;
   ui:isMemberOf ls:microrelief-component-sampled ;
   rdfs:label "Elongate depression"@en ;
   skos:definition "concave; occurs as open-ended form."@en ;
@@ -3676,10 +3849,10 @@ ls:microrelief-component-l
   skos:prefLabel "Elongate depression"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:microrelief-component-m
+ls:microrelief-component-M
   a skos:Concept ;
   dct:description "convex; long axis* not more than 3 times the shorter axis."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-m"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-M"^^xsd:anyURI ;
   ui:isMemberOf ls:microrelief-component-sampled ;
   rdfs:label "Mound"@en ;
   skos:definition "convex; long axis* not more than 3 times the shorter axis."@en ;
@@ -3688,10 +3861,10 @@ ls:microrelief-component-m
   skos:prefLabel "Mound"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:microrelief-component-s
+ls:microrelief-component-S
   a skos:Concept ;
   dct:description "more or less planar; occurs between mounds and depressions."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-s"^^xsd:anyURI ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-component-S"^^xsd:anyURI ;
   ui:isMemberOf ls:microrelief-component-sampled ;
   rdfs:label "Shelf"@en ;
   skos:definition "more or less planar; occurs between mounds and depressions."@en ;
@@ -3708,52 +3881,14 @@ ls:microrelief-component-sampled
   ui:isMemberOf ls:microrelief ;
   rdfs:label "Component of microrelief sampled"@en ;
   skos:definition "Give the component of the microrelief in which the described soil profile is located."@en ;
-  skos:member ls:microrelief-component-d ;
-  skos:member ls:microrelief-component-e ;
-  skos:member ls:microrelief-component-f ;
-  skos:member ls:microrelief-component-k ;
-  skos:member ls:microrelief-component-l ;
-  skos:member ls:microrelief-component-m ;
-  skos:member ls:microrelief-component-s ;
+  skos:member ls:microrelief-component-D ;
+  skos:member ls:microrelief-component-E ;
+  skos:member ls:microrelief-component-F ;
+  skos:member ls:microrelief-component-K ;
+  skos:member ls:microrelief-component-L ;
+  skos:member ls:microrelief-component-M ;
+  skos:member ls:microrelief-component-S ;
   skos:prefLabel "Component of microrelief sampled"@en ;
-.
-ls:microrelief-d
-  a skos:Concept ;
-  dct:description "small hummocks rising above a planar surface. They vary from rounded, both planar and vertically, to flat-topped, relatively steep-sided and elongate. They are usually closely and regularly spaced, ranging from 0.06 to 0.6 m in both vertical and horizontal dimensions. They are common in northern Australia on soils with impeded internal drainage and in areas of short seasonal ponding. Many observers consider them to be formed by biological activity."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-d"^^xsd:anyURI ;
-  ui:isMemberOf ls:hummocky-microrelief ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Debil-debil"@en ;
-  skos:definition "small hummocks rising above a planar surface. They vary from rounded, both planar and vertically, to flat-topped, relatively steep-sided and elongate. They are usually closely and regularly spaced, ranging from 0.06 to 0.6 m in both vertical and horizontal dimensions. They are common in northern Australia on soils with impeded internal drainage and in areas of short seasonal ponding. Many observers consider them to be formed by biological activity."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "D" ;
-  skos:prefLabel "Debil-debil"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-g
-  a skos:Concept ;
-  dct:description "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-g"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microrelief ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Contour gilgai"@en ;
-  skos:definition "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "G" ;
-  skos:prefLabel "Contour gilgai"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-h
-  a skos:Concept ;
-  dct:description "Depression associated with water flowing from rock or soil without the agency of man."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-h"^^xsd:anyURI ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Spring hollow"@en ;
-  skos:definition "Depression associated with water flowing from rock or soil without the agency of man."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "H" ;
-  skos:prefLabel "Spring hollow"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:microrelief-horizontal-interval
   a skos:Concept ;
@@ -3767,143 +3902,6 @@ ls:microrelief-horizontal-interval
   skos:prefLabel "Horizontal interval"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:microrelief-i
-  a skos:Concept ;
-  dct:description "closed depression with vertical or funnel-shaped sides."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-i"^^xsd:anyURI ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Sinkhole"@en ;
-  skos:definition "closed depression with vertical or funnel-shaped sides."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "I" ;
-  skos:prefLabel "Sinkhole"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-k
-  a skos:Concept ;
-  dct:description "depressions in limestone country."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-k"^^xsd:anyURI ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Karst microrelief"@en ;
-  skos:definition "depressions in limestone country."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "K" ;
-  skos:prefLabel "Karst microrelief"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-l
-  a skos:Concept ;
-  dct:description "long, narrow, parallel, elongate mounds and broader elongate depressions more or less at right angles to the contour. Usually in sloping lands. Vertical interval usually less than 0.3 m, horizontal interval usually 5–8 m."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-l"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microrelief ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:comment "Vertical interval usually < 0.3 m and horizontal interval 5 - 8 m"@en ;
-  rdfs:label "Linear gilgai"@en ;
-  skos:definition "long, narrow, parallel, elongate mounds and broader elongate depressions more or less at right angles to the contour. Usually in sloping lands. Vertical interval usually less than 0.3 m, horizontal interval usually 5–8 m."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "L" ;
-  skos:prefLabel "Linear gilgai"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-m
-  a skos:Concept ;
-  dct:description "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-m"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microrelief ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Melonhole gilgai"@en ;
-  skos:definition "irregularly distributed, large depressions, usually greater than 3 m in diameter or greatest dimension, subcircular or irregular and varying from closely spaced in a network of elongate mounds to isolated depressions set in an undulating shelf with occasional small mounds. Some depressions may also contain sinkholes of gilgai usually greater than 0.3 m; horizontal interval usually 5–6 m; surface almost level."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "M" ;
-  skos:prefLabel "Melonhole gilgai"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-n
-  a skos:Concept ;
-  dct:description "irregularly distributed, small mounds and subcircular depressions varying in size and spacing. Vertical interval usually less than 0.3 m, horizontal interval usually 3–10 m, surface almost level."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-n"^^xsd:anyURI ;
-  ui:isMemberOf ls:gilgai-microrelief ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:comment "Vertical interval usually < 0.3 m and horizontal interval 3 - 10m"@en ;
-  rdfs:label "Normal gilgai"@en ;
-  skos:definition "irregularly distributed, small mounds and subcircular depressions varying in size and spacing. Vertical interval usually less than 0.3 m, horizontal interval usually 3–10 m, surface almost level."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "N" ;
-  skos:prefLabel "Normal gilgai"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-o
-  a skos:Concept ;
-  dct:description "Other microrelief."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-o"^^xsd:anyURI ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Other microrelief"@en ;
-  skos:definition "Other microrelief."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "O" ;
-  skos:prefLabel "Other microrelief"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-p
-  a skos:Concept ;
-  dct:description "Mound associated with water flowing from rock or soil without the agency of man."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-p"^^xsd:anyURI ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Spring mound"@en ;
-  skos:definition "Mound associated with water flowing from rock or soil without the agency of man."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "P" ;
-  skos:prefLabel "Spring mound"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-r
-  a skos:Concept ;
-  dct:description "small terraces on slopes resulting either from soil creep or trampling by hoofed animals."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-r"^^xsd:anyURI ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Terracettes"@en ;
-  skos:definition "small terraces on slopes resulting either from soil creep or trampling by hoofed animals."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "R" ;
-  skos:prefLabel "Terracettes"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-s
-  a skos:Concept ;
-  dct:description "hummocky microrelief on the surface of landslides, slumps, earth flows, debris avalanches."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-s"^^xsd:anyURI ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Mass movement microrelief"@en ;
-  skos:definition "hummocky microrelief on the surface of landslides, slumps, earth flows, debris avalanches."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "S" ;
-  skos:prefLabel "Mass movement microrelief"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-t
-  a skos:Concept ;
-  dct:description "trenches typically 0.2 m deep and 0.6 m wide, with near vertical walls, alternating with flat-crested ridges about 1.3 m wide, which extend along the contour for several metres or tens of metres. Contour trenches are known in areas in south-eastern Australia above 350 m altitude with a high effective rainfall, where they are associated with a grassland or heathland vegetation on undulating rises (compare with McElroy 1952)."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-t"^^xsd:anyURI ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Contour trench"@en ;
-  skos:definition "trenches typically 0.2 m deep and 0.6 m wide, with near vertical walls, alternating with flat-crested ridges about 1.3 m wide, which extend along the contour for several metres or tens of metres. Contour trenches are known in areas in south-eastern Australia above 350 m altitude with a high effective rainfall, where they are associated with a grassland or heathland vegetation on undulating rises (compare with McElroy 1952)."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "T" ;
-  skos:prefLabel "Contour trench"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-u
-  a skos:Concept ;
-  dct:description "undifferentiated, irregularly distributed or isolated mounds and/or depressions set in a planar surface."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-u"^^xsd:anyURI ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Mound/depression microrelief"@en ;
-  skos:definition "undifferentiated, irregularly distributed or isolated mounds and/or depressions set in a planar surface."@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "U" ;
-  skos:prefLabel "Mound/depression microrelief"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
 ls:microrelief-vertical-interval
   a skos:Concept ;
   dct:description "Give vertical distance, in metres, between base of depression or flat and horizontal line joining crests of mounds or hummocks."@en ;
@@ -3915,29 +3913,25 @@ ls:microrelief-vertical-interval
   skos:prefLabel "Vertical interval"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:microrelief-w
-  a skos:Concept ;
-  dct:description "steep-sided hummocks rising above a flat surface. Hummocks are frequently occupied by trees or shrubs while the lower surface may be vegetation free or occupied by sedges or reeds. They are subject to prolonged seasonal flooding."@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-w"^^xsd:anyURI ;
-  ui:isMemberOf ls:hummocky-microrelief ;
+ls:other-microrelief-O
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dct:description "Other microrelief."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-O"^^xsd:anyURI ;
   ui:isMemberOf ls:microrelief ;
-  rdfs:label "Swamp hummock"@en ;
-  skos:definition "steep-sided hummocks rising above a flat surface. Hummocks are frequently occupied by trees or shrubs while the lower surface may be vegetation free or occupied by sedges or reeds. They are subject to prolonged seasonal flooding. "@en ;
+  rdfs:label "Other microrelief"@en ;
+  skos:definition "Other microrelief."@en ;
   skos:inScheme asls:land-surface ;
-  skos:notation "W" ;
-  skos:prefLabel "Swamp hummock"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:microrelief-z
-  a skos:Concept ;
-  dct:description "Zero or no microrelief"@en ;
-  dct:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-z"^^xsd:anyURI ;
-  ui:isMemberOf ls:microrelief ;
-  rdfs:label "Zero or no microrelief"@en ;
-  skos:definition "Zero or no microrelief"@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "Z" ;
-  skos:prefLabel "Zero or no microrelief"@en ;
+  skos:member ls:microrelief-H ;
+  skos:member ls:microrelief-I ;
+  skos:member ls:microrelief-K ;
+  skos:member ls:microrelief-P ;
+  skos:member ls:microrelief-R ;
+  skos:member ls:microrelief-S ;
+  skos:member ls:microrelief-T ;
+  skos:member ls:microrelief-U ;
+  skos:notation "O" ;
+  skos:prefLabel "Other microrelief"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:rock-outcrop
@@ -5490,11 +5484,11 @@ The observer wishing to record the severity of erosion may record it as minor, m
   skos:definition """Give type and presence/absence or extent of accelerated erosion.
 For sheet, rill and gully erosion there is no consensus in Australia on a quantitative or precise definition of what constitutes minor, moderate and severe erosion. This derives partly from the difficulty of measuring actual soil loss at a site. It also derives partly from the wide range of soils, climates and land uses, variations in any or all of which may alter the concept of minor, moderate or severe erosion.
 The observer wishing to record the severity of erosion may record it as minor, moderate or severe, basing the assessment on local knowledge and guided by indicators that may be present as described below (after Morse et al. 1987). Note the actual depth of soil loss where this can be reliably assessed."""@en ;
-  skos:member ls:erosion-b ;
-  skos:member ls:erosion-g ;
-  skos:member ls:erosion-r ;
-  skos:member ls:erosion-s ;
-  skos:member ls:erosion-t ;
-  skos:member ls:erosion-v ;
+  skos:member ls:erosion-B ;
+  skos:member ls:erosion-G ;
+  skos:member ls:erosion-R ;
+  skos:member ls:erosion-S ;
+  skos:member ls:erosion-T ;
+  skos:member ls:erosion-V ;
   skos:prefLabel "Water erosion"@en ;
 .
