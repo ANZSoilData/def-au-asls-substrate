@@ -1,6 +1,4 @@
 # baseURI: http://anzsoil.org/def/au/asls/soil-profile
-# imports: http://purl.org/dc/elements/1.1/
-# imports: http://purl.org/linked-data/registry
 # imports: http://purl.org/linked-data/registry-ui#
 # imports: http://www.w3.org/ns/sosa/
 
@@ -34,13 +32,10 @@ asls:soil-profile
   dct:publisher <http://www.publish.csiro.au/> ;
   dct:rights "copyright CSIRO 2009, 2016, 2018. All rights reserved."@en ;
   dct:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
-  reg:notation "soil-profile"@en ;
   ui:hierarchyChildProperty skos:member ;
   ui:hierarchyRootProperty ui:topMemberOf ;
   rdfs:label "Soil Profile classifiers"@en ;
   rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
-  owl:imports dc: ;
-  owl:imports <http://purl.org/linked-data/registry> ;
   owl:imports ui: ;
   owl:imports sosa: ;
   skos:changeNote "2020-09-16 - Added skos:inScheme and skos:topConceptOf links to asls:soil-profile; removed redundant owl:sameAs links" ;
@@ -54,6 +49,434 @@ WHERE {
 	BIND ( strdt( str(?c) , xsd:anyURI ) as ?id )
 }
 """@en ;
+  skos:hasTopConcept sp:coarse-fragments-abundance-0 ;
+  skos:hasTopConcept sp:coarse-fragments-abundance-1 ;
+  skos:hasTopConcept sp:coarse-fragments-abundance-2 ;
+  skos:hasTopConcept sp:coarse-fragments-abundance-3 ;
+  skos:hasTopConcept sp:coarse-fragments-abundance-4 ;
+  skos:hasTopConcept sp:coarse-fragments-abundance-5 ;
+  skos:hasTopConcept sp:coarse-fragments-abundance-6 ;
+  skos:hasTopConcept sp:coarse-fragments-distribution-D ;
+  skos:hasTopConcept sp:coarse-fragments-distribution-R ;
+  skos:hasTopConcept sp:coarse-fragments-distribution-S ;
+  skos:hasTopConcept sp:coarse-fragments-distribution-U ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-AC ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-AD ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-AF ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-AG ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-AH ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-AM ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-AN ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-AP ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-AR ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-AS ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-BA ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-BB ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-BR ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-C ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-CC ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-CG ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-CH ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-CO ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-CU ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-DI ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-DM ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-DR ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-FC ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-GA ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-GD ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-GE ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-GN ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-GR ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-GS ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-GV ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-GW ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-GY ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-HA ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-HO ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-IG ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-IS ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-JA ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-KA ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-KC ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-KL ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-KM ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-KR ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-KS ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-LC ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-LI ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-M ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-MB ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-MD ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-ME ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-MG ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-MI ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-ML ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-MS ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-MU ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-MY ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-OT ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-OW ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-PC ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-PE ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-PG ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-PH ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-PL ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-PO ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-PU ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-PY ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-QP ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-QS ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-QU ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-QZ ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-R ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-RB ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-RH ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-S ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-SA ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-SD ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-SH ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-SK ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-SL ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-SR ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-SS ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-ST ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-SY ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-TR ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-TU ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-UC ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-VB ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-VG ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-Z ;
+  skos:hasTopConcept sp:coarse-fragments-lithology-ZS ;
+  skos:hasTopConcept sp:coarse-fragments-shape-A ;
+  skos:hasTopConcept sp:coarse-fragments-shape-AP ;
+  skos:hasTopConcept sp:coarse-fragments-shape-AT ;
+  skos:hasTopConcept sp:coarse-fragments-shape-R ;
+  skos:hasTopConcept sp:coarse-fragments-shape-RP ;
+  skos:hasTopConcept sp:coarse-fragments-shape-RT ;
+  skos:hasTopConcept sp:coarse-fragments-shape-S ;
+  skos:hasTopConcept sp:coarse-fragments-shape-SP ;
+  skos:hasTopConcept sp:coarse-fragments-shape-ST ;
+  skos:hasTopConcept sp:coarse-fragments-shape-U ;
+  skos:hasTopConcept sp:coarse-fragments-shape-UP ;
+  skos:hasTopConcept sp:coarse-fragments-shape-UT ;
+  skos:hasTopConcept sp:coarse-fragments-size-1 ;
+  skos:hasTopConcept sp:coarse-fragments-size-2 ;
+  skos:hasTopConcept sp:coarse-fragments-size-3 ;
+  skos:hasTopConcept sp:coarse-fragments-size-4 ;
+  skos:hasTopConcept sp:coarse-fragments-size-5 ;
+  skos:hasTopConcept sp:coarse-fragments-size-6 ;
+  skos:hasTopConcept sp:coarse-fragments-size-7 ;
+  skos:hasTopConcept sp:coarse-fragments-strength-M ;
+  skos:hasTopConcept sp:coarse-fragments-strength-S ;
+  skos:hasTopConcept sp:coarse-fragments-strength-VS ;
+  skos:hasTopConcept sp:coarse-fragments-strength-VW ;
+  skos:hasTopConcept sp:coarse-fragments-strength-W ;
+  skos:hasTopConcept sp:colour-stat-D ;
+  skos:hasTopConcept sp:colour-stat-M ;
+  skos:hasTopConcept sp:consistence-plasticity-degree-0 ;
+  skos:hasTopConcept sp:consistence-plasticity-degree-1 ;
+  skos:hasTopConcept sp:consistence-plasticity-degree-2 ;
+  skos:hasTopConcept sp:consistence-plasticity-degree-3 ;
+  skos:hasTopConcept sp:consistence-plasticity-type-N ;
+  skos:hasTopConcept sp:consistence-plasticity-type-S ;
+  skos:hasTopConcept sp:consistence-plasticity-type-T ;
+  skos:hasTopConcept sp:consistence-plasticity-type-U ;
+  skos:hasTopConcept sp:consistence-stickiness-0 ;
+  skos:hasTopConcept sp:consistence-stickiness-1 ;
+  skos:hasTopConcept sp:consistence-stickiness-2 ;
+  skos:hasTopConcept sp:consistence-stickiness-3 ;
+  skos:hasTopConcept sp:consistence-strength-0 ;
+  skos:hasTopConcept sp:consistence-strength-1 ;
+  skos:hasTopConcept sp:consistence-strength-2 ;
+  skos:hasTopConcept sp:consistence-strength-3 ;
+  skos:hasTopConcept sp:consistence-strength-4 ;
+  skos:hasTopConcept sp:consistence-strength-5 ;
+  skos:hasTopConcept sp:consistence-strength-6 ;
+  skos:hasTopConcept sp:consistence-strength-7 ;
+  skos:hasTopConcept sp:cutans-abundance-0 ;
+  skos:hasTopConcept sp:cutans-abundance-1 ;
+  skos:hasTopConcept sp:cutans-abundance-2 ;
+  skos:hasTopConcept sp:cutans-abundance-3 ;
+  skos:hasTopConcept sp:cutans-distinctness-D ;
+  skos:hasTopConcept sp:cutans-distinctness-F ;
+  skos:hasTopConcept sp:cutans-distinctness-P ;
+  skos:hasTopConcept sp:cutans-type-C ;
+  skos:hasTopConcept sp:cutans-type-K ;
+  skos:hasTopConcept sp:cutans-type-M ;
+  skos:hasTopConcept sp:cutans-type-O ;
+  skos:hasTopConcept sp:cutans-type-S ;
+  skos:hasTopConcept sp:cutans-type-U ;
+  skos:hasTopConcept sp:cutans-type-Z ;
+  skos:hasTopConcept sp:depth-of-horizons ;
+  skos:hasTopConcept sp:depth-to-r-horizon ;
+  skos:hasTopConcept sp:effervescence-H ;
+  skos:hasTopConcept sp:effervescence-M ;
+  skos:hasTopConcept sp:effervescence-N ;
+  skos:hasTopConcept sp:effervescence-S ;
+  skos:hasTopConcept sp:effervescence-V ;
+  skos:hasTopConcept sp:fabric-E ;
+  skos:hasTopConcept sp:fabric-G ;
+  skos:hasTopConcept sp:fabric-R ;
+  skos:hasTopConcept sp:fabric-S ;
+  skos:hasTopConcept sp:field-ph ;
+  skos:hasTopConcept sp:field-texture-AP ;
+  skos:hasTopConcept sp:field-texture-CL ;
+  skos:hasTopConcept sp:field-texture-CLS ;
+  skos:hasTopConcept sp:field-texture-CP ;
+  skos:hasTopConcept sp:field-texture-CS ;
+  skos:hasTopConcept sp:field-texture-GP ;
+  skos:hasTopConcept sp:field-texture-HC ;
+  skos:hasTopConcept sp:field-texture-HP ;
+  skos:hasTopConcept sp:field-texture-IP ;
+  skos:hasTopConcept sp:field-texture-L ;
+  skos:hasTopConcept sp:field-texture-LC ;
+  skos:hasTopConcept sp:field-texture-LMC ;
+  skos:hasTopConcept sp:field-texture-LP ;
+  skos:hasTopConcept sp:field-texture-LS ;
+  skos:hasTopConcept sp:field-texture-MC ;
+  skos:hasTopConcept sp:field-texture-MHC ;
+  skos:hasTopConcept sp:field-texture-S ;
+  skos:hasTopConcept sp:field-texture-SCL ;
+  skos:hasTopConcept sp:field-texture-SL ;
+  skos:hasTopConcept sp:field-texture-SP ;
+  skos:hasTopConcept sp:field-texture-ZCL ;
+  skos:hasTopConcept sp:field-texture-ZL ;
+  skos:hasTopConcept sp:field-texture-qualifier-fibric ;
+  skos:hasTopConcept sp:field-texture-qualifier-heavy ;
+  skos:hasTopConcept sp:field-texture-qualifier-light ;
+  skos:hasTopConcept sp:field-texture-qualifier-sapric ;
+  skos:hasTopConcept sp:horizon-boundary-distinctness-A ;
+  skos:hasTopConcept sp:horizon-boundary-distinctness-C ;
+  skos:hasTopConcept sp:horizon-boundary-distinctness-D ;
+  skos:hasTopConcept sp:horizon-boundary-distinctness-G ;
+  skos:hasTopConcept sp:horizon-boundary-distinctness-S ;
+  skos:hasTopConcept sp:horizon-boundary-shape-B ;
+  skos:hasTopConcept sp:horizon-boundary-shape-I ;
+  skos:hasTopConcept sp:horizon-boundary-shape-S ;
+  skos:hasTopConcept sp:horizon-boundary-shape-T ;
+  skos:hasTopConcept sp:horizon-boundary-shape-W ;
+  skos:hasTopConcept sp:horizon-prefix ;
+  skos:hasTopConcept sp:horizon-suffix-b ;
+  skos:hasTopConcept sp:horizon-suffix-c ;
+  skos:hasTopConcept sp:horizon-suffix-d ;
+  skos:hasTopConcept sp:horizon-suffix-e ;
+  skos:hasTopConcept sp:horizon-suffix-f ;
+  skos:hasTopConcept sp:horizon-suffix-g ;
+  skos:hasTopConcept sp:horizon-suffix-h ;
+  skos:hasTopConcept sp:horizon-suffix-j ;
+  skos:hasTopConcept sp:horizon-suffix-k ;
+  skos:hasTopConcept sp:horizon-suffix-m ;
+  skos:hasTopConcept sp:horizon-suffix-p ;
+  skos:hasTopConcept sp:horizon-suffix-q ;
+  skos:hasTopConcept sp:horizon-suffix-r ;
+  skos:hasTopConcept sp:horizon-suffix-s ;
+  skos:hasTopConcept sp:horizon-suffix-t ;
+  skos:hasTopConcept sp:horizon-suffix-w ;
+  skos:hasTopConcept sp:horizon-suffix-x ;
+  skos:hasTopConcept sp:horizon-suffix-y ;
+  skos:hasTopConcept sp:horizon-suffix-z ;
+  skos:hasTopConcept sp:horizons-A ;
+  skos:hasTopConcept sp:horizons-B ;
+  skos:hasTopConcept sp:horizons-C ;
+  skos:hasTopConcept sp:horizons-D ;
+  skos:hasTopConcept sp:horizons-O ;
+  skos:hasTopConcept sp:horizons-P ;
+  skos:hasTopConcept sp:horizons-R ;
+  skos:hasTopConcept sp:horizons-bleached ;
+  skos:hasTopConcept sp:horizons-subdivision ;
+  skos:hasTopConcept sp:mottle-abundance-0 ;
+  skos:hasTopConcept sp:mottle-abundance-1 ;
+  skos:hasTopConcept sp:mottle-abundance-2 ;
+  skos:hasTopConcept sp:mottle-abundance-3 ;
+  skos:hasTopConcept sp:mottle-abundance-4 ;
+  skos:hasTopConcept sp:mottle-boundary-C ;
+  skos:hasTopConcept sp:mottle-boundary-D ;
+  skos:hasTopConcept sp:mottle-boundary-S ;
+  skos:hasTopConcept sp:mottle-colour-B ;
+  skos:hasTopConcept sp:mottle-colour-D ;
+  skos:hasTopConcept sp:mottle-colour-G ;
+  skos:hasTopConcept sp:mottle-colour-L ;
+  skos:hasTopConcept sp:mottle-colour-O ;
+  skos:hasTopConcept sp:mottle-colour-P ;
+  skos:hasTopConcept sp:mottle-colour-R ;
+  skos:hasTopConcept sp:mottle-colour-Y ;
+  skos:hasTopConcept sp:mottle-contrast-D ;
+  skos:hasTopConcept sp:mottle-contrast-F ;
+  skos:hasTopConcept sp:mottle-contrast-P ;
+  skos:hasTopConcept sp:mottle-size-1 ;
+  skos:hasTopConcept sp:mottle-size-2 ;
+  skos:hasTopConcept sp:mottle-size-3 ;
+  skos:hasTopConcept sp:mottle-size-4 ;
+  skos:hasTopConcept sp:mottle-type-M ;
+  skos:hasTopConcept sp:mottle-type-X ;
+  skos:hasTopConcept sp:mottle-type-Y ;
+  skos:hasTopConcept sp:mottle-type-Z ;
+  skos:hasTopConcept sp:observation-type-A ;
+  skos:hasTopConcept sp:observation-type-C ;
+  skos:hasTopConcept sp:observation-type-E ;
+  skos:hasTopConcept sp:observation-type-P ;
+  skos:hasTopConcept sp:pans-cementation-0 ;
+  skos:hasTopConcept sp:pans-cementation-1 ;
+  skos:hasTopConcept sp:pans-cementation-2 ;
+  skos:hasTopConcept sp:pans-cementation-3 ;
+  skos:hasTopConcept sp:pans-cementation-4 ;
+  skos:hasTopConcept sp:pans-continuity-B ;
+  skos:hasTopConcept sp:pans-continuity-C ;
+  skos:hasTopConcept sp:pans-continuity-D ;
+  skos:hasTopConcept sp:pans-structure-C ;
+  skos:hasTopConcept sp:pans-structure-L ;
+  skos:hasTopConcept sp:pans-structure-N ;
+  skos:hasTopConcept sp:pans-structure-R ;
+  skos:hasTopConcept sp:pans-structure-S ;
+  skos:hasTopConcept sp:pans-structure-V ;
+  skos:hasTopConcept sp:pans-type-A ;
+  skos:hasTopConcept sp:pans-type-C ;
+  skos:hasTopConcept sp:pans-type-D ;
+  skos:hasTopConcept sp:pans-type-E ;
+  skos:hasTopConcept sp:pans-type-F ;
+  skos:hasTopConcept sp:pans-type-I ;
+  skos:hasTopConcept sp:pans-type-K ;
+  skos:hasTopConcept sp:pans-type-L ;
+  skos:hasTopConcept sp:pans-type-M ;
+  skos:hasTopConcept sp:pans-type-N ;
+  skos:hasTopConcept sp:pans-type-O ;
+  skos:hasTopConcept sp:pans-type-R ;
+  skos:hasTopConcept sp:pans-type-T ;
+  skos:hasTopConcept sp:pans-type-V ;
+  skos:hasTopConcept sp:pans-type-Z ;
+  skos:hasTopConcept sp:particle-size-fraction-boulders ;
+  skos:hasTopConcept sp:particle-size-fraction-clay ;
+  skos:hasTopConcept sp:particle-size-fraction-coarse-gravel ;
+  skos:hasTopConcept sp:particle-size-fraction-cobbles ;
+  skos:hasTopConcept sp:particle-size-fraction-fine-clay ;
+  skos:hasTopConcept sp:particle-size-fraction-fine-gravel ;
+  skos:hasTopConcept sp:particle-size-fraction-medium-gravel ;
+  skos:hasTopConcept sp:particle-size-fraction-sand ;
+  skos:hasTopConcept sp:particle-size-fraction-silt ;
+  skos:hasTopConcept sp:particle-size-fraction-stones ;
+  skos:hasTopConcept sp:roots-abundance-0 ;
+  skos:hasTopConcept sp:roots-abundance-1 ;
+  skos:hasTopConcept sp:roots-abundance-2 ;
+  skos:hasTopConcept sp:roots-abundance-3 ;
+  skos:hasTopConcept sp:roots-abundance-4 ;
+  skos:hasTopConcept sp:roots-size-1 ;
+  skos:hasTopConcept sp:roots-size-2 ;
+  skos:hasTopConcept sp:roots-size-3 ;
+  skos:hasTopConcept sp:roots-size-4 ;
+  skos:hasTopConcept sp:segregations-abundance-0 ;
+  skos:hasTopConcept sp:segregations-abundance-1 ;
+  skos:hasTopConcept sp:segregations-abundance-2 ;
+  skos:hasTopConcept sp:segregations-abundance-3 ;
+  skos:hasTopConcept sp:segregations-abundance-4 ;
+  skos:hasTopConcept sp:segregations-abundance-5 ;
+  skos:hasTopConcept sp:segregations-form-C ;
+  skos:hasTopConcept sp:segregations-form-F ;
+  skos:hasTopConcept sp:segregations-form-L ;
+  skos:hasTopConcept sp:segregations-form-N ;
+  skos:hasTopConcept sp:segregations-form-R ;
+  skos:hasTopConcept sp:segregations-form-S ;
+  skos:hasTopConcept sp:segregations-form-T ;
+  skos:hasTopConcept sp:segregations-form-V ;
+  skos:hasTopConcept sp:segregations-form-X ;
+  skos:hasTopConcept sp:segregations-magnetic-M ;
+  skos:hasTopConcept sp:segregations-magnetic-N ;
+  skos:hasTopConcept sp:segregations-nature-A ;
+  skos:hasTopConcept sp:segregations-nature-E ;
+  skos:hasTopConcept sp:segregations-nature-F ;
+  skos:hasTopConcept sp:segregations-nature-G ;
+  skos:hasTopConcept sp:segregations-nature-H ;
+  skos:hasTopConcept sp:segregations-nature-K ;
+  skos:hasTopConcept sp:segregations-nature-L ;
+  skos:hasTopConcept sp:segregations-nature-M ;
+  skos:hasTopConcept sp:segregations-nature-N ;
+  skos:hasTopConcept sp:segregations-nature-O ;
+  skos:hasTopConcept sp:segregations-nature-S ;
+  skos:hasTopConcept sp:segregations-nature-U ;
+  skos:hasTopConcept sp:segregations-nature-Y ;
+  skos:hasTopConcept sp:segregations-nature-Z ;
+  skos:hasTopConcept sp:segregations-size-1 ;
+  skos:hasTopConcept sp:segregations-size-2 ;
+  skos:hasTopConcept sp:segregations-size-3 ;
+  skos:hasTopConcept sp:segregations-size-4 ;
+  skos:hasTopConcept sp:segregations-size-5 ;
+  skos:hasTopConcept sp:segregations-strength-1 ;
+  skos:hasTopConcept sp:segregations-strength-2 ;
+  skos:hasTopConcept sp:soil-water-drainage-1 ;
+  skos:hasTopConcept sp:soil-water-drainage-2 ;
+  skos:hasTopConcept sp:soil-water-drainage-3 ;
+  skos:hasTopConcept sp:soil-water-drainage-4 ;
+  skos:hasTopConcept sp:soil-water-drainage-5 ;
+  skos:hasTopConcept sp:soil-water-drainage-6 ;
+  skos:hasTopConcept sp:soil-water-permeability-1 ;
+  skos:hasTopConcept sp:soil-water-permeability-2 ;
+  skos:hasTopConcept sp:soil-water-permeability-3 ;
+  skos:hasTopConcept sp:soil-water-permeability-4 ;
+  skos:hasTopConcept sp:soil-water-status-D ;
+  skos:hasTopConcept sp:soil-water-status-M ;
+  skos:hasTopConcept sp:soil-water-status-T ;
+  skos:hasTopConcept sp:soil-water-status-W ;
+  skos:hasTopConcept sp:structure-artificial-CL ;
+  skos:hasTopConcept sp:structure-artificial-FR ;
+  skos:hasTopConcept sp:structure-pedality-grade-G ;
+  skos:hasTopConcept sp:structure-pedality-grade-M ;
+  skos:hasTopConcept sp:structure-pedality-grade-S ;
+  skos:hasTopConcept sp:structure-pedality-grade-V ;
+  skos:hasTopConcept sp:structure-pedality-grade-W ;
+  skos:hasTopConcept sp:structure-pedality-size-1 ;
+  skos:hasTopConcept sp:structure-pedality-size-2 ;
+  skos:hasTopConcept sp:structure-pedality-size-3 ;
+  skos:hasTopConcept sp:structure-pedality-size-4 ;
+  skos:hasTopConcept sp:structure-pedality-size-5 ;
+  skos:hasTopConcept sp:structure-pedality-size-6 ;
+  skos:hasTopConcept sp:structure-pedality-size-7 ;
+  skos:hasTopConcept sp:structure-pedality-size-8 ;
+  skos:hasTopConcept sp:structure-pedality-size-9 ;
+  skos:hasTopConcept sp:structure-pedality-type-AB ;
+  skos:hasTopConcept sp:structure-pedality-type-CA ;
+  skos:hasTopConcept sp:structure-pedality-type-CO ;
+  skos:hasTopConcept sp:structure-pedality-type-GR ;
+  skos:hasTopConcept sp:structure-pedality-type-LE ;
+  skos:hasTopConcept sp:structure-pedality-type-PL ;
+  skos:hasTopConcept sp:structure-pedality-type-PO ;
+  skos:hasTopConcept sp:structure-pedality-type-PR ;
+  skos:hasTopConcept sp:structure-pedality-type-SB ;
+  skos:hasTopConcept sp:surfacecondition-C ;
+  skos:hasTopConcept sp:surfacecondition-F ;
+  skos:hasTopConcept sp:surfacecondition-G ;
+  skos:hasTopConcept sp:surfacecondition-H ;
+  skos:hasTopConcept sp:surfacecondition-L ;
+  skos:hasTopConcept sp:surfacecondition-M ;
+  skos:hasTopConcept sp:surfacecondition-O ;
+  skos:hasTopConcept sp:surfacecondition-P ;
+  skos:hasTopConcept sp:surfacecondition-R ;
+  skos:hasTopConcept sp:surfacecondition-S ;
+  skos:hasTopConcept sp:surfacecondition-T ;
+  skos:hasTopConcept sp:surfacecondition-X ;
+  skos:hasTopConcept sp:surfacecondition-Y ;
+  skos:hasTopConcept sp:surfacecondition-Z ;
+  skos:hasTopConcept sp:voids-cracks-1 ;
+  skos:hasTopConcept sp:voids-cracks-2 ;
+  skos:hasTopConcept sp:voids-cracks-3 ;
+  skos:hasTopConcept sp:voids-cracks-4 ;
+  skos:hasTopConcept sp:voids-cracks-5 ;
+  skos:hasTopConcept sp:voids-macropores-abundance-0 ;
+  skos:hasTopConcept sp:voids-macropores-abundance-1 ;
+  skos:hasTopConcept sp:voids-macropores-abundance-2 ;
+  skos:hasTopConcept sp:voids-macropores-abundance-3 ;
+  skos:hasTopConcept sp:voids-macropores-abundance-4 ;
+  skos:hasTopConcept sp:voids-macropores-abundance-5 ;
+  skos:hasTopConcept sp:voids-macropores-abundance-6 ;
+  skos:hasTopConcept sp:voids-macropores-diameter-1 ;
+  skos:hasTopConcept sp:voids-macropores-diameter-2 ;
+  skos:hasTopConcept sp:voids-macropores-diameter-3 ;
+  skos:hasTopConcept sp:voids-macropores-diameter-4 ;
+  skos:hasTopConcept sp:voids-micropores ;
+  skos:hasTopConcept sp:water-repellence-N ;
+  skos:hasTopConcept sp:water-repellence-R ;
+  skos:hasTopConcept sp:water-repellence-S ;
+  skos:notation "soil-profile"@en ;
 .
 sp:boundaries-between-horizons
   a skos:Collection ;
@@ -3224,14 +3647,14 @@ sp:field-texture-FS
   dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-FS"^^xsd:anyURI ;
   rdfs:comment "Approximate clay content (%): commonly less than 5%"@en ;
-  rdfs:label "Fine sand"@en ;
+  rdfs:label "Fine sand (field texture)"@en ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Fine sand can be felt and often heard when manipulated. Sand grains are clearly evident under a ×10 hand lens."@en ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-FS-A ;
   skos:narrower sp:field-texture-FS-I ;
   skos:notation "FS" ;
-  skos:prefLabel "Fine sand"@en ;
+  skos:prefLabel "Fine sand (field texture)"@en ;
 .
 sp:field-texture-FS-A
   a skos:Concept ;
@@ -3664,14 +4087,14 @@ sp:field-texture-KS
   dct:description "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/field-texture-KS"^^xsd:anyURI ;
   rdfs:comment "Approximate clay content (%): commonly less than 5%"@en ;
-  rdfs:label "Coarse sand"@en ;
+  rdfs:label "Coarse sand (field texture)"@en ;
   skos:broader sp:field-texture-S ;
   skos:definition "Behaviour of moist bolus: coherence nil to very slight, cannot be moulded; sand grains of medium size; single sand grains adhere to fingers. Coarse sand is obviously coarse to touch. Sand grains are very readily seen with the naked eye."@en ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:field-texture-KS-A ;
   skos:narrower sp:field-texture-KS-I ;
   skos:notation "KS" ;
-  skos:prefLabel "Coarse sand"@en ;
+  skos:prefLabel "Coarse sand (field texture)"@en ;
 .
 sp:field-texture-KS-A
   a skos:Concept ;
@@ -5403,7 +5826,7 @@ sp:horizon-boundary-distinctness-C
   skos:definition "width of boundary is 20-50 mm."@en ;
   skos:inScheme asls:soil-profile ;
   skos:notation "C" ;
-  skos:prefLabel "Clear"@en ;
+  skos:prefLabel "Clear (horizon boundary distinctness)"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
 sp:horizon-boundary-distinctness-D
@@ -6730,11 +7153,11 @@ sp:pans-structure-N
   dct:description "nodules of irregular shape cemented together."@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/pans-structure-N"^^xsd:anyURI ;
   ui:isMemberOf sp:pans-structure ;
-  rdfs:label "Nodular"@en ;
+  rdfs:label "Nodular (pans)"@en ;
   skos:definition "nodules of irregular shape cemented together."@en ;
   skos:inScheme asls:soil-profile ;
   skos:notation "N" ;
-  skos:prefLabel "Nodular"@en ;
+  skos:prefLabel "Nodular (pans)"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
 sp:pans-structure-R
@@ -7019,11 +7442,11 @@ sp:particle-size-fraction-coarse-sand
   dct:description "0.2 - 2.0 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-coarse-sand"^^xsd:anyURI ;
   ui:isMemberOf sp:particle-size-fractions ;
-  rdfs:label "Coarse sand"@en ;
+  rdfs:label "Coarse sand (particle size fraction)"@en ;
   skos:broader sp:particle-size-fraction-sand ;
   skos:definition "0.2 - 2.0 mm"@en ;
   skos:inScheme asls:soil-profile ;
-  skos:prefLabel "Coarse sand"@en ;
+  skos:prefLabel "Coarse sand (particle size fraction)"@en ;
 .
 sp:particle-size-fraction-cobbles
   a skos:Concept ;
@@ -7063,11 +7486,11 @@ sp:particle-size-fraction-fine-sand
   dct:description "0.02 - 0.2 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-fine-sand"^^xsd:anyURI ;
   ui:isMemberOf sp:particle-size-fractions ;
-  rdfs:label "Fine sand"@en ;
+  rdfs:label "Fine sand (particle size fraction)"@en ;
   skos:broader sp:particle-size-fraction-sand ;
   skos:definition "0.02 - 0.2 mm"@en ;
   skos:inScheme asls:soil-profile ;
-  skos:prefLabel "Fine sand"@en ;
+  skos:prefLabel "Fine sand (particle size fraction)"@en ;
 .
 sp:particle-size-fraction-medium-gravel
   a skos:Concept ;
@@ -7085,12 +7508,12 @@ sp:particle-size-fraction-sand
   dct:description "0.2 - 2.0 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/particle-size-fraction-sand"^^xsd:anyURI ;
   ui:isMemberOf sp:particle-size-fractions ;
-  rdfs:label "Sand"@en ;
+  rdfs:label "Sand (particle size fraction)"@en ;
   skos:definition "0.02 - 2.0 mm"@en ;
   skos:inScheme asls:soil-profile ;
   skos:narrower sp:particle-size-fraction-coarse-sand ;
   skos:narrower sp:particle-size-fraction-fine-sand ;
-  skos:prefLabel "Sand"@en ;
+  skos:prefLabel "Sand (particle size fraction)"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
 sp:particle-size-fraction-silt
@@ -7469,11 +7892,11 @@ sp:segregations-form-N
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/segregations-form-N"^^xsd:anyURI ;
   ui:isMemberOf sp:segregations-form ;
   rdfs:comment "C_SEG_FORM" ;
-  rdfs:label "Nodules"@en ;
+  rdfs:label "Nodules (segregations)"@en ;
   skos:definition "irregular, rounded mineral aggregates. No concentric or symmetric internal fabric. Can have hollow interior."@en ;
   skos:inScheme asls:soil-profile ;
   skos:notation "N" ;
-  skos:prefLabel "Nodules"@en ;
+  skos:prefLabel "Nodules (segregations)"@en ;
   skos:topConceptOf asls:soil-profile ;
 .
 sp:segregations-form-R
@@ -8246,8 +8669,6 @@ Clay loams, clays: ball leaves wet outline on hand when squeezed, or is wetter. 
 .
 sp:structure
   a skos:Collection ;
-  dc:description """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
-Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature."""@en ;
   dct:description """Soil structure refers to the distinctness, size and shape of peds. A ped is an individual natural soil aggregate consisting of a cluster of primary particles. Peds are separated from adjoining peds by surfaces of weakness that are recognisable as natural voids or by the occurrence of cutans (Brewer 1960).
 Soil structure can only be described reliably in a relatively fresh vertical exposure or relatively undisturbed soil core, not from an auger boring. Vertical exposures that have been exposed for a long time (road cuttings, gullies) are unsuitable for the determination of structure that may alter due to daily or seasonal changes in moisture and temperature."""@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure"^^xsd:anyURI ;
@@ -8429,7 +8850,7 @@ sp:structure-pedality-size
 .
 sp:structure-pedality-size-1
   a skos:Concept ;
-  dc:description "< 2 mm"@en ;
+  dct:description "< 2 mm"@en ;
   dct:description "<2 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-size-1"^^xsd:anyURI ;
   ui:isMemberOf sp:structure-pedality-size ;
@@ -8442,7 +8863,6 @@ sp:structure-pedality-size-1
 .
 sp:structure-pedality-size-2
   a skos:Concept ;
-  dc:description "2-5 mm"@en ;
   dct:description "2-5 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-size-2"^^xsd:anyURI ;
   ui:isMemberOf sp:structure-pedality-size ;
@@ -8455,7 +8875,6 @@ sp:structure-pedality-size-2
 .
 sp:structure-pedality-size-3
   a skos:Concept ;
-  dc:description "5-10 mm"@en ;
   dct:description "5-10 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-size-3"^^xsd:anyURI ;
   ui:isMemberOf sp:structure-pedality-size ;
@@ -8468,7 +8887,6 @@ sp:structure-pedality-size-3
 .
 sp:structure-pedality-size-4
   a skos:Concept ;
-  dc:description "10-20 mm"@en ;
   dct:description "10-20 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-size-4"^^xsd:anyURI ;
   ui:isMemberOf sp:structure-pedality-size ;
@@ -8481,7 +8899,6 @@ sp:structure-pedality-size-4
 .
 sp:structure-pedality-size-5
   a skos:Concept ;
-  dc:description "20-50 mm"@en ;
   dct:description "20-50 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-size-5"^^xsd:anyURI ;
   ui:isMemberOf sp:structure-pedality-size ;
@@ -8494,7 +8911,6 @@ sp:structure-pedality-size-5
 .
 sp:structure-pedality-size-6
   a skos:Concept ;
-  dc:description "50-100 mm"@en ;
   dct:description "50-100 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-size-6"^^xsd:anyURI ;
   ui:isMemberOf sp:structure-pedality-size ;
@@ -8507,7 +8923,6 @@ sp:structure-pedality-size-6
 .
 sp:structure-pedality-size-7
   a skos:Concept ;
-  dc:description "100-200 mm"@en ;
   dct:description "100-200 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-size-7"^^xsd:anyURI ;
   ui:isMemberOf sp:structure-pedality-size ;
@@ -8520,7 +8935,6 @@ sp:structure-pedality-size-7
 .
 sp:structure-pedality-size-8
   a skos:Concept ;
-  dc:description "200-500 mm"@en ;
   dct:description "200-500 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-size-8"^^xsd:anyURI ;
   ui:isMemberOf sp:structure-pedality-size ;
@@ -8533,7 +8947,6 @@ sp:structure-pedality-size-8
 .
 sp:structure-pedality-size-9
   a skos:Concept ;
-  dc:description "> 500 mm"@en ;
   dct:description "> 500 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/structure-pedality-size-9"^^xsd:anyURI ;
   ui:isMemberOf sp:structure-pedality-size ;
@@ -8891,7 +9304,6 @@ sp:voids-cracks
 .
 sp:voids-cracks-1
   a skos:Concept ;
-  dc:description "<5 mm width"@en ;
   dct:description "<5 mm width"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-cracks-1"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-cracks ;
@@ -8904,7 +9316,6 @@ sp:voids-cracks-1
 .
 sp:voids-cracks-2
   a skos:Concept ;
-  dc:description "5 - 10 mm width"@en ;
   dct:description "5 - 10 mm width"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-cracks-2"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-cracks ;
@@ -8917,7 +9328,6 @@ sp:voids-cracks-2
 .
 sp:voids-cracks-3
   a skos:Concept ;
-  dc:description "10–20 mm width"@en ;
   dct:description "10–20 mm width"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-cracks-3"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-cracks ;
@@ -8930,7 +9340,6 @@ sp:voids-cracks-3
 .
 sp:voids-cracks-4
   a skos:Concept ;
-  dc:description "20–50 mm width"@en ;
   dct:description "20–50 mm width"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-cracks-4"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-cracks ;
@@ -8943,7 +9352,6 @@ sp:voids-cracks-4
 .
 sp:voids-cracks-5
   a skos:Concept ;
-  dc:description "20–50 mm width"@en ;
   dct:description "20–50 mm width"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-cracks-5"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-cracks ;
@@ -8988,7 +9396,6 @@ sp:voids-macropores-abundance
 .
 sp:voids-macropores-abundance-0
   a skos:Concept ;
-  dc:description "No fine, very fine, medium or coarse macropores"@en ;
   dct:description "No fine, very fine, medium or coarse macropores"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-abundance-0"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores-abundance ;
@@ -9001,7 +9408,6 @@ sp:voids-macropores-abundance-0
 .
 sp:voids-macropores-abundance-1
   a skos:Concept ;
-  dc:description "<1 per 100 mm2 of diameter less than 2mm"@en ;
   dct:description "<1 per 100 mm2 of diameter less than 2mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-abundance-1"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores-abundance ;
@@ -9014,7 +9420,6 @@ sp:voids-macropores-abundance-1
 .
 sp:voids-macropores-abundance-2
   a skos:Concept ;
-  dc:description "1–5 per 100 mm2 of diameter less than 2mm"@en ;
   dct:description "1–5 per 100 mm2 of diameter less than 2mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-abundance-2"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores-abundance ;
@@ -9027,7 +9432,6 @@ sp:voids-macropores-abundance-2
 .
 sp:voids-macropores-abundance-3
   a skos:Concept ;
-  dc:description ">5 per 100 mm2 of diameter less than 2mm"@en ;
   dct:description ">5 per 100 mm2 of diameter less than 2mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-abundance-3"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores-abundance ;
@@ -9040,7 +9444,6 @@ sp:voids-macropores-abundance-3
 .
 sp:voids-macropores-abundance-4
   a skos:Concept ;
-  dc:description "<1 per 0.01 m2 of diameter greater than 2mm"@en ;
   dct:description "<1 per 0.01 m2 of diameter greater than 2mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-abundance-4"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores-abundance ;
@@ -9053,7 +9456,6 @@ sp:voids-macropores-abundance-4
 .
 sp:voids-macropores-abundance-5
   a skos:Concept ;
-  dc:description "1–5 per 0.01 m2 of diameter greater than 2mm"@en ;
   dct:description "1–5 per 0.01 m2 of diameter greater than 2mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-abundance-5"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores-abundance ;
@@ -9066,7 +9468,6 @@ sp:voids-macropores-abundance-5
 .
 sp:voids-macropores-abundance-6
   a skos:Concept ;
-  dc:description ">5 per 0.01 m2 of diameter greater than 2mm"@en ;
   dct:description ">5 per 0.01 m2 of diameter greater than 2mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-abundance-6"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores-abundance ;
@@ -9095,7 +9496,6 @@ sp:voids-macropores-diameter
 .
 sp:voids-macropores-diameter-1
   a skos:Concept ;
-  dc:description "0.075–1 mm"@en ;
   dct:description "0.075–1 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-diameter-1"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores-diameter ;
@@ -9109,7 +9509,6 @@ sp:voids-macropores-diameter-1
 .
 sp:voids-macropores-diameter-2
   a skos:Concept ;
-  dc:description "1–2 mm"@en ;
   dct:description "1–2 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-diameter-2"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores-diameter ;
@@ -9123,7 +9522,6 @@ sp:voids-macropores-diameter-2
 .
 sp:voids-macropores-diameter-3
   a skos:Concept ;
-  dc:description "2–5 mm"@en ;
   dct:description "2–5 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-diameter-3"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores-diameter ;
@@ -9137,7 +9535,6 @@ sp:voids-macropores-diameter-3
 .
 sp:voids-macropores-diameter-4
   a skos:Concept ;
-  dc:description ">5 mm"@en ;
   dct:description ">5 mm"@en ;
   dct:identifier "http://anzsoil.org/def/au/asls/soil-profile/voids-macropores-diameter-4"^^xsd:anyURI ;
   ui:isMemberOf sp:voids-macropores-diameter ;
@@ -9212,4 +9609,21 @@ sp:water-repellence-S
   skos:notation "S" ;
   skos:prefLabel "Strongly water repellent"@en ;
   skos:topConceptOf asls:soil-profile ;
+.
+reg:statusAccepted
+  skos:narrower reg:statusDeprecated ;
+  skos:narrower reg:statusValid ;
+.
+reg:statusDeprecated
+  skos:narrower reg:statusRetired ;
+  skos:narrower reg:statusSuperseded ;
+.
+reg:statusNotAccepted
+  skos:narrower reg:statusInvalid ;
+  skos:narrower reg:statusReserved ;
+  skos:narrower reg:statusSubmitted ;
+.
+reg:statusValid
+  skos:narrower reg:statusExperimental ;
+  skos:narrower reg:statusStable ;
 .

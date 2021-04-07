@@ -44,6 +44,257 @@ asls:landform
   owl:imports ui: ;
   owl:imports sosa: ;
   skos:changeNote "2020-09-16 - made asls:landform a skos:ConceptScheme and added skos:inScheme link from all concepts" ;
+  skos:hasTopConcept lf:element-dimension-height ;
+  skos:hasTopConcept lf:element-dimension-length ;
+  skos:hasTopConcept lf:element-dimension-width ;
+  skos:hasTopConcept lf:geomorphological-agent-BI ;
+  skos:hasTopConcept lf:geomorphological-agent-CH ;
+  skos:hasTopConcept lf:geomorphological-agent-DI ;
+  skos:hasTopConcept lf:geomorphological-agent-EU ;
+  skos:hasTopConcept lf:geomorphological-agent-FR ;
+  skos:hasTopConcept lf:geomorphological-agent-GL ;
+  skos:hasTopConcept lf:geomorphological-agent-GR ;
+  skos:hasTopConcept lf:geomorphological-agent-HU ;
+  skos:hasTopConcept lf:geomorphological-agent-IM ;
+  skos:hasTopConcept lf:geomorphological-agent-OV ;
+  skos:hasTopConcept lf:geomorphological-agent-SH ;
+  skos:hasTopConcept lf:geomorphological-agent-SM ;
+  skos:hasTopConcept lf:geomorphological-agent-SO ;
+  skos:hasTopConcept lf:geomorphological-agent-TI ;
+  skos:hasTopConcept lf:geomorphological-agent-VO ;
+  skos:hasTopConcept lf:geomorphological-agent-WA ;
+  skos:hasTopConcept lf:geomorphological-agent-WI ;
+  skos:hasTopConcept lf:geomorphological-agent-WM ;
+  skos:hasTopConcept lf:landform-element-ALC ;
+  skos:hasTopConcept lf:landform-element-BAN ;
+  skos:hasTopConcept lf:landform-element-BAR ;
+  skos:hasTopConcept lf:landform-element-BEA ;
+  skos:hasTopConcept lf:landform-element-BEN ;
+  skos:hasTopConcept lf:landform-element-BER ;
+  skos:hasTopConcept lf:landform-element-BKP ;
+  skos:hasTopConcept lf:landform-element-BOU ;
+  skos:hasTopConcept lf:landform-element-BRI ;
+  skos:hasTopConcept lf:landform-element-BRK ;
+  skos:hasTopConcept lf:landform-element-CBE ;
+  skos:hasTopConcept lf:landform-element-CFS ;
+  skos:hasTopConcept lf:landform-element-CIR ;
+  skos:hasTopConcept lf:landform-element-CLI ;
+  skos:hasTopConcept lf:landform-element-CON ;
+  skos:hasTopConcept lf:landform-element-COS ;
+  skos:hasTopConcept lf:landform-element-CRA ;
+  skos:hasTopConcept lf:landform-element-CUT ;
+  skos:hasTopConcept lf:landform-element-DAM ;
+  skos:hasTopConcept lf:landform-element-DBA ;
+  skos:hasTopConcept lf:landform-element-DDE ;
+  skos:hasTopConcept lf:landform-element-DOC ;
+  skos:hasTopConcept lf:landform-element-DOL ;
+  skos:hasTopConcept lf:landform-element-DUB ;
+  skos:hasTopConcept lf:landform-element-DUC ;
+  skos:hasTopConcept lf:landform-element-DUF ;
+  skos:hasTopConcept lf:landform-element-DUH ;
+  skos:hasTopConcept lf:landform-element-DUN ;
+  skos:hasTopConcept lf:landform-element-DUP ;
+  skos:hasTopConcept lf:landform-element-DUS ;
+  skos:hasTopConcept lf:landform-element-EMB ;
+  skos:hasTopConcept lf:landform-element-EST ;
+  skos:hasTopConcept lf:landform-element-FAN ;
+  skos:hasTopConcept lf:landform-element-FIL ;
+  skos:hasTopConcept lf:landform-element-FLD ;
+  skos:hasTopConcept lf:landform-element-FOO ;
+  skos:hasTopConcept lf:landform-element-FOR ;
+  skos:hasTopConcept lf:landform-element-GUL ;
+  skos:hasTopConcept lf:landform-element-HCR ;
+  skos:hasTopConcept lf:landform-element-HSL ;
+  skos:hasTopConcept lf:landform-element-ITF ;
+  skos:hasTopConcept lf:landform-element-LAG ;
+  skos:hasTopConcept lf:landform-element-LAK ;
+  skos:hasTopConcept lf:landform-element-LDS ;
+  skos:hasTopConcept lf:landform-element-LEV ;
+  skos:hasTopConcept lf:landform-element-LUN ;
+  skos:hasTopConcept lf:landform-element-MAA ;
+  skos:hasTopConcept lf:landform-element-MOU ;
+  skos:hasTopConcept lf:landform-element-OXB ;
+  skos:hasTopConcept lf:landform-element-PED ;
+  skos:hasTopConcept lf:landform-element-PIT ;
+  skos:hasTopConcept lf:landform-element-PLA ;
+  skos:hasTopConcept lf:landform-element-PLY ;
+  skos:hasTopConcept lf:landform-element-PST ;
+  skos:hasTopConcept lf:landform-element-REC ;
+  skos:hasTopConcept lf:landform-element-REF ;
+  skos:hasTopConcept lf:landform-element-RER ;
+  skos:hasTopConcept lf:landform-element-RES ;
+  skos:hasTopConcept lf:landform-element-RFL ;
+  skos:hasTopConcept lf:landform-element-RPL ;
+  skos:hasTopConcept lf:landform-element-SCA ;
+  skos:hasTopConcept lf:landform-element-SCD ;
+  skos:hasTopConcept lf:landform-element-SCR ;
+  skos:hasTopConcept lf:landform-element-SFS ;
+  skos:hasTopConcept lf:landform-element-SRP ;
+  skos:hasTopConcept lf:landform-element-STB ;
+  skos:hasTopConcept lf:landform-element-STC ;
+  skos:hasTopConcept lf:landform-element-STF ;
+  skos:hasTopConcept lf:landform-element-SUS ;
+  skos:hasTopConcept lf:landform-element-SWL ;
+  skos:hasTopConcept lf:landform-element-SWP ;
+  skos:hasTopConcept lf:landform-element-TAL ;
+  skos:hasTopConcept lf:landform-element-TDC ;
+  skos:hasTopConcept lf:landform-element-TDF ;
+  skos:hasTopConcept lf:landform-element-TEF ;
+  skos:hasTopConcept lf:landform-element-TEP ;
+  skos:hasTopConcept lf:landform-element-TOR ;
+  skos:hasTopConcept lf:landform-element-TRE ;
+  skos:hasTopConcept lf:landform-element-TUM ;
+  skos:hasTopConcept lf:landform-element-VLF ;
+  skos:hasTopConcept lf:landform-pattern-ALF ;
+  skos:hasTopConcept lf:landform-pattern-ALP ;
+  skos:hasTopConcept lf:landform-pattern-ANA ;
+  skos:hasTopConcept lf:landform-pattern-BAD ;
+  skos:hasTopConcept lf:landform-pattern-BAR ;
+  skos:hasTopConcept lf:landform-pattern-BEA ;
+  skos:hasTopConcept lf:landform-pattern-CAL ;
+  skos:hasTopConcept lf:landform-pattern-CHE ;
+  skos:hasTopConcept lf:landform-pattern-COR ;
+  skos:hasTopConcept lf:landform-pattern-COV ;
+  skos:hasTopConcept lf:landform-pattern-DEL ;
+  skos:hasTopConcept lf:landform-pattern-DUN ;
+  skos:hasTopConcept lf:landform-pattern-ESC ;
+  skos:hasTopConcept lf:landform-pattern-FLO ;
+  skos:hasTopConcept lf:landform-pattern-HIL ;
+  skos:hasTopConcept lf:landform-pattern-KAR ;
+  skos:hasTopConcept lf:landform-pattern-LAC ;
+  skos:hasTopConcept lf:landform-pattern-LAV ;
+  skos:hasTopConcept lf:landform-pattern-LON ;
+  skos:hasTopConcept lf:landform-pattern-LOW ;
+  skos:hasTopConcept lf:landform-pattern-MAD ;
+  skos:hasTopConcept lf:landform-pattern-MAR ;
+  skos:hasTopConcept lf:landform-pattern-MEA ;
+  skos:hasTopConcept lf:landform-pattern-MET ;
+  skos:hasTopConcept lf:landform-pattern-MOU ;
+  skos:hasTopConcept lf:landform-pattern-PAR ;
+  skos:hasTopConcept lf:landform-pattern-PED ;
+  skos:hasTopConcept lf:landform-pattern-PEP ;
+  skos:hasTopConcept lf:landform-pattern-PLA ;
+  skos:hasTopConcept lf:landform-pattern-PLT ;
+  skos:hasTopConcept lf:landform-pattern-PLY ;
+  skos:hasTopConcept lf:landform-pattern-PNP ;
+  skos:hasTopConcept lf:landform-pattern-RIS ;
+  skos:hasTopConcept lf:landform-pattern-SAN ;
+  skos:hasTopConcept lf:landform-pattern-SHF ;
+  skos:hasTopConcept lf:landform-pattern-STA ;
+  skos:hasTopConcept lf:landform-pattern-TEL ;
+  skos:hasTopConcept lf:landform-pattern-TER ;
+  skos:hasTopConcept lf:landform-pattern-TID ;
+  skos:hasTopConcept lf:landform-pattern-VOL ;
+  skos:hasTopConcept lf:location-within-the-landform-element-B ;
+  skos:hasTopConcept lf:location-within-the-landform-element-M ;
+  skos:hasTopConcept lf:location-within-the-landform-element-T ;
+  skos:hasTopConcept lf:location-within-toposequence ;
+  skos:hasTopConcept lf:mode-of-geomorphological-activity-AG ;
+  skos:hasTopConcept lf:mode-of-geomorphological-activity-BU ;
+  skos:hasTopConcept lf:mode-of-geomorphological-activity-EA ;
+  skos:hasTopConcept lf:mode-of-geomorphological-activity-ER ;
+  skos:hasTopConcept lf:mode-of-geomorphological-activity-EX ;
+  skos:hasTopConcept lf:mode-of-geomorphological-activity-HU ;
+  skos:hasTopConcept lf:mode-of-geomorphological-activity-SU ;
+  skos:hasTopConcept lf:morphological-type-C ;
+  skos:hasTopConcept lf:morphological-type-D ;
+  skos:hasTopConcept lf:morphological-type-F ;
+  skos:hasTopConcept lf:morphological-type-H ;
+  skos:hasTopConcept lf:morphological-type-L ;
+  skos:hasTopConcept lf:morphological-type-LA ;
+  skos:hasTopConcept lf:morphological-type-LI ;
+  skos:hasTopConcept lf:morphological-type-LN ;
+  skos:hasTopConcept lf:morphological-type-LX ;
+  skos:hasTopConcept lf:morphological-type-M ;
+  skos:hasTopConcept lf:morphological-type-MA ;
+  skos:hasTopConcept lf:morphological-type-MI ;
+  skos:hasTopConcept lf:morphological-type-MN ;
+  skos:hasTopConcept lf:morphological-type-MX ;
+  skos:hasTopConcept lf:morphological-type-R ;
+  skos:hasTopConcept lf:morphological-type-S ;
+  skos:hasTopConcept lf:morphological-type-U ;
+  skos:hasTopConcept lf:morphological-type-UA ;
+  skos:hasTopConcept lf:morphological-type-UI ;
+  skos:hasTopConcept lf:morphological-type-UN ;
+  skos:hasTopConcept lf:morphological-type-UX ;
+  skos:hasTopConcept lf:morphological-type-V ;
+  skos:hasTopConcept lf:relative-inclination-of-slope-elements-A ;
+  skos:hasTopConcept lf:relative-inclination-of-slope-elements-I ;
+  skos:hasTopConcept lf:relative-inclination-of-slope-elements-N ;
+  skos:hasTopConcept lf:relative-inclination-of-slope-elements-X ;
+  skos:hasTopConcept lf:relief-class-H ;
+  skos:hasTopConcept lf:relief-class-L ;
+  skos:hasTopConcept lf:relief-class-M ;
+  skos:hasTopConcept lf:relief-class-P ;
+  skos:hasTopConcept lf:relief-class-R ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-B ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-GP ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-GR ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-LP ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-PH ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-PM ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-RH ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-RL ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-RM ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-RP ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-RR ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-SH ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-SL ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-SM ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-SR ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-UH ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-UL ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-UP ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-UR ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-VH ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-VL ;
+  skos:hasTopConcept lf:simple-erosional-landform-pattern-VM ;
+  skos:hasTopConcept lf:slope-class-CL ;
+  skos:hasTopConcept lf:slope-class-GE ;
+  skos:hasTopConcept lf:slope-class-LE ;
+  skos:hasTopConcept lf:slope-class-MO ;
+  skos:hasTopConcept lf:slope-class-PR ;
+  skos:hasTopConcept lf:slope-class-ST ;
+  skos:hasTopConcept lf:slope-class-VG ;
+  skos:hasTopConcept lf:slope-class-VS ;
+  skos:hasTopConcept lf:slope-evaluation-A ;
+  skos:hasTopConcept lf:slope-evaluation-E ;
+  skos:hasTopConcept lf:slope-evaluation-P ;
+  skos:hasTopConcept lf:slope-evaluation-T ;
+  skos:hasTopConcept lf:slope-value ;
+  skos:hasTopConcept lf:stream-channel-development-A ;
+  skos:hasTopConcept lf:stream-channel-development-E ;
+  skos:hasTopConcept lf:stream-channel-development-I ;
+  skos:hasTopConcept lf:stream-channel-development-O ;
+  skos:hasTopConcept lf:stream-channel-migration-F ;
+  skos:hasTopConcept lf:stream-channel-migration-R ;
+  skos:hasTopConcept lf:stream-channel-migration-S ;
+  skos:hasTopConcept lf:stream-channel-network-directionality-B ;
+  skos:hasTopConcept lf:stream-channel-network-directionality-C ;
+  skos:hasTopConcept lf:stream-channel-network-directionality-D ;
+  skos:hasTopConcept lf:stream-channel-network-directionality-F ;
+  skos:hasTopConcept lf:stream-channel-network-directionality-N ;
+  skos:hasTopConcept lf:stream-channel-network-directionality-P ;
+  skos:hasTopConcept lf:stream-channel-network-directionality-U ;
+  skos:hasTopConcept lf:stream-channel-network-integration-D ;
+  skos:hasTopConcept lf:stream-channel-network-integration-I ;
+  skos:hasTopConcept lf:stream-channel-network-integration-P ;
+  skos:hasTopConcept lf:stream-channel-relative-depth-width-D ;
+  skos:hasTopConcept lf:stream-channel-relative-depth-width-M ;
+  skos:hasTopConcept lf:stream-channel-relative-depth-width-S ;
+  skos:hasTopConcept lf:stream-channel-relative-depth-width-V ;
+  skos:hasTopConcept lf:stream-channel-spacing-AB ;
+  skos:hasTopConcept lf:stream-channel-spacing-CS ;
+  skos:hasTopConcept lf:stream-channel-spacing-MS ;
+  skos:hasTopConcept lf:stream-channel-spacing-NU ;
+  skos:hasTopConcept lf:stream-channel-spacing-SP ;
+  skos:hasTopConcept lf:stream-channel-spacing-VC ;
+  skos:hasTopConcept lf:stream-channel-spacing-VW ;
+  skos:hasTopConcept lf:stream-channel-spacing-WS ;
+  skos:hasTopConcept lf:streamwise-channel-pattern-D ;
+  skos:hasTopConcept lf:streamwise-channel-pattern-N ;
+  skos:hasTopConcept lf:streamwise-channel-pattern-R ;
+  skos:hasTopConcept lf:streamwise-channel-pattern-T ;
 .
 lf:compound-morphological-types
   a skos:Collection ;
@@ -66,6 +317,7 @@ lf:element-dimension-height
   skos:definition "difference in elevation between the upper and lower margins of the element, measured along any slope line. Height can mean quite different things and must be carefully defined. For crests, ridges and hillocks, define the upper margin as the point where the selected slope line coalesces with others to form the ridge line. For depressions, define the lower margin as the point where the selected slope line coalesces with others to form the course line."@en ;
   skos:inScheme asls:landform ;
   skos:prefLabel "Height of landform element"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:element-dimension-length
   a skos:Concept ;
@@ -77,6 +329,7 @@ lf:element-dimension-length
   skos:definition "horizontal distance between the upper and lower margins of the element, measured down a slope line. For crests, the slope line to be used is the ridge line; for depressions, the course line (see Figure 2a). By this definition, many crests and open depressions become very long."@en ;
   skos:inScheme asls:landform ;
   skos:prefLabel "Length of landform element"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:element-dimension-width
   a skos:Concept ;
@@ -88,6 +341,7 @@ lf:element-dimension-width
   skos:definition "horizontal distance between the lateral margins of the element, measured perpendicularly to the length."@en ;
   skos:inScheme asls:landform ;
   skos:prefLabel "Width of landform element"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:element-dimensions
   a skos:Collection ;
@@ -111,6 +365,7 @@ lf:geomorphological-agent-BI
   skos:inScheme asls:landform ;
   skos:notation "BI" ;
   skos:prefLabel "Non-human biological agents"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-CH
   a skos:Concept ;
@@ -123,6 +378,7 @@ lf:geomorphological-agent-CH
   skos:inScheme asls:landform ;
   skos:notation "CH" ;
   skos:prefLabel "Channelled stream flow"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-DI
   a skos:Concept ;
@@ -135,6 +391,7 @@ lf:geomorphological-agent-DI
   skos:inScheme asls:landform ;
   skos:notation "DI" ;
   skos:prefLabel "Diastrophism"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-EU
   a skos:Concept ;
@@ -147,6 +404,7 @@ lf:geomorphological-agent-EU
   skos:inScheme asls:landform ;
   skos:notation "EU" ;
   skos:prefLabel "Eustasy"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-FR
   a skos:Concept ;
@@ -159,6 +417,7 @@ lf:geomorphological-agent-FR
   skos:inScheme asls:landform ;
   skos:notation "FR" ;
   skos:prefLabel "Frost"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-GL
   a skos:Concept ;
@@ -171,6 +430,7 @@ lf:geomorphological-agent-GL
   skos:inScheme asls:landform ;
   skos:notation "GL" ;
   skos:prefLabel "Glacier flow"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-GR
   a skos:Concept ;
@@ -183,6 +443,7 @@ lf:geomorphological-agent-GR
   skos:inScheme asls:landform ;
   skos:notation "GR" ;
   skos:prefLabel "Gravity"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-HU
   a skos:Concept ;
@@ -195,6 +456,7 @@ lf:geomorphological-agent-HU
   skos:inScheme asls:landform ;
   skos:notation "HU" ;
   skos:prefLabel "Human agents"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-IM
   a skos:Concept ;
@@ -207,6 +469,7 @@ lf:geomorphological-agent-IM
   skos:inScheme asls:landform ;
   skos:notation "IM" ;
   skos:prefLabel "Impact by meteors"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-OV
   a skos:Concept ;
@@ -219,6 +482,7 @@ lf:geomorphological-agent-OV
   skos:inScheme asls:landform ;
   skos:notation "OV" ;
   skos:prefLabel "Overbank stream flow, unchannelled"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-SH
   a skos:Concept ;
@@ -231,6 +495,7 @@ lf:geomorphological-agent-SH
   skos:inScheme asls:landform ;
   skos:notation "SH" ;
   skos:prefLabel "Sheet flow, sheet wash, surface wash"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-SM
   a skos:Concept ;
@@ -243,6 +508,7 @@ lf:geomorphological-agent-SM
   skos:inScheme asls:landform ;
   skos:notation "SM" ;
   skos:prefLabel "Soil moisture status changes"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-SO
   a skos:Concept ;
@@ -255,6 +521,7 @@ lf:geomorphological-agent-SO
   skos:inScheme asls:landform ;
   skos:notation "SO" ;
   skos:prefLabel "Solution"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-TI
   a skos:Concept ;
@@ -267,6 +534,7 @@ lf:geomorphological-agent-TI
   skos:inScheme asls:landform ;
   skos:notation "TI" ;
   skos:prefLabel "Tides"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-VO
   a skos:Concept ;
@@ -279,6 +547,7 @@ lf:geomorphological-agent-VO
   skos:inScheme asls:landform ;
   skos:notation "VO" ;
   skos:prefLabel "Volcanism"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-WA
   a skos:Concept ;
@@ -291,6 +560,7 @@ lf:geomorphological-agent-WA
   skos:inScheme asls:landform ;
   skos:notation "WA" ;
   skos:prefLabel "Waves"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-WI
   a skos:Concept ;
@@ -303,6 +573,7 @@ lf:geomorphological-agent-WI
   skos:inScheme asls:landform ;
   skos:notation "WI" ;
   skos:prefLabel "Wind"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agent-WM
   a skos:Concept ;
@@ -315,6 +586,7 @@ lf:geomorphological-agent-WM
   skos:inScheme asls:landform ;
   skos:notation "WM" ;
   skos:prefLabel "Water-aided mass movements"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:geomorphological-agents
   a skos:Collection ;
@@ -352,6 +624,7 @@ lf:landform-element-ALC
   skos:inScheme asls:landform ;
   skos:notation "ALC" ;
   skos:prefLabel "Alcove"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-BAN
   a skos:Concept ;
@@ -363,6 +636,7 @@ lf:landform-element-BAN
   skos:inScheme asls:landform ;
   skos:notation "BAN" ;
   skos:prefLabel "Bank (stream bank)"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-BAR
   a skos:Concept ;
@@ -374,6 +648,7 @@ lf:landform-element-BAR
   skos:inScheme asls:landform ;
   skos:notation "BAR" ;
   skos:prefLabel "Bar (stream bar)"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-BEA
   a skos:Concept ;
@@ -385,6 +660,7 @@ lf:landform-element-BEA
   skos:inScheme asls:landform ;
   skos:notation "BEA" ;
   skos:prefLabel "Beach"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-BEN
   a skos:Concept ;
@@ -396,6 +672,7 @@ lf:landform-element-BEN
   skos:inScheme asls:landform ;
   skos:notation "BEN" ;
   skos:prefLabel "Bench"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-BER
   a skos:Concept ;
@@ -407,6 +684,7 @@ lf:landform-element-BER
   skos:inScheme asls:landform ;
   skos:notation "BER" ;
   skos:prefLabel "Berm"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-BKP
   a skos:Concept ;
@@ -418,6 +696,7 @@ lf:landform-element-BKP
   skos:inScheme asls:landform ;
   skos:notation "BKP" ;
   skos:prefLabel "Backplain"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-BOU
   a skos:Concept ;
@@ -429,6 +708,7 @@ lf:landform-element-BOU
   skos:inScheme asls:landform ;
   skos:notation "BOU" ;
   skos:prefLabel "Blow-out"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-BRI
   a skos:Concept ;
@@ -440,6 +720,7 @@ lf:landform-element-BRI
   skos:inScheme asls:landform ;
   skos:notation "BRI" ;
   skos:prefLabel "Beach ridge"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-BRK
   a skos:Concept ;
@@ -451,6 +732,7 @@ lf:landform-element-BRK
   skos:inScheme asls:landform ;
   skos:notation "BRK" ;
   skos:prefLabel "Breakaway"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-CBE
   a skos:Concept ;
@@ -462,6 +744,7 @@ lf:landform-element-CBE
   skos:inScheme asls:landform ;
   skos:notation "CBE" ;
   skos:prefLabel "Channel bench"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-CFS
   a skos:Concept ;
@@ -473,6 +756,7 @@ lf:landform-element-CFS
   skos:inScheme asls:landform ;
   skos:notation "CFS" ;
   skos:prefLabel "Cliff-footslope"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-CIR
   a skos:Concept ;
@@ -484,6 +768,7 @@ lf:landform-element-CIR
   skos:inScheme asls:landform ;
   skos:notation "CIR" ;
   skos:prefLabel "Cirque"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-CLI
   a skos:Concept ;
@@ -495,6 +780,7 @@ lf:landform-element-CLI
   skos:inScheme asls:landform ;
   skos:notation "CLI" ;
   skos:prefLabel "Cliff"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-CON
   a skos:Concept ;
@@ -506,6 +792,7 @@ lf:landform-element-CON
   skos:inScheme asls:landform ;
   skos:notation "CON" ;
   skos:prefLabel "Cone (volcanic)"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-COS
   a skos:Concept ;
@@ -517,6 +804,7 @@ lf:landform-element-COS
   skos:inScheme asls:landform ;
   skos:notation "COS" ;
   skos:prefLabel "Cut-over surface"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-CRA
   a skos:Concept ;
@@ -528,6 +816,7 @@ lf:landform-element-CRA
   skos:inScheme asls:landform ;
   skos:notation "CRA" ;
   skos:prefLabel "Crater"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-CUT
   a skos:Concept ;
@@ -539,6 +828,7 @@ lf:landform-element-CUT
   skos:inScheme asls:landform ;
   skos:notation "CUT" ;
   skos:prefLabel "Cut face"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DAM
   a skos:Concept ;
@@ -550,6 +840,7 @@ lf:landform-element-DAM
   skos:inScheme asls:landform ;
   skos:notation "DAM" ;
   skos:prefLabel "Dam"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DBA
   a skos:Concept ;
@@ -561,6 +852,7 @@ lf:landform-element-DBA
   skos:inScheme asls:landform ;
   skos:notation "DBA" ;
   skos:prefLabel "Deflation basin"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DDE
   a skos:Concept ;
@@ -572,6 +864,7 @@ lf:landform-element-DDE
   skos:inScheme asls:landform ;
   skos:notation "DDE" ;
   skos:prefLabel "Drainage depression"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DOC
   a skos:Concept ;
@@ -583,6 +876,7 @@ lf:landform-element-DOC
   skos:inScheme asls:landform ;
   skos:notation "DOC" ;
   skos:prefLabel "Collapse doline"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DOL
   a skos:Concept ;
@@ -594,6 +888,7 @@ lf:landform-element-DOL
   skos:inScheme asls:landform ;
   skos:notation "DOL" ;
   skos:prefLabel "Solution doline"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DUB
   a skos:Concept ;
@@ -605,6 +900,7 @@ lf:landform-element-DUB
   skos:inScheme asls:landform ;
   skos:notation "DUB" ;
   skos:prefLabel "Barchan dune"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DUC
   a skos:Concept ;
@@ -616,6 +912,7 @@ lf:landform-element-DUC
   skos:inScheme asls:landform ;
   skos:notation "DUC" ;
   skos:prefLabel "Dunecrest"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DUF
   a skos:Concept ;
@@ -627,6 +924,7 @@ lf:landform-element-DUF
   skos:inScheme asls:landform ;
   skos:notation "DUF" ;
   skos:prefLabel "Linear or longitudinal (seif) dune"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DUH
   a skos:Concept ;
@@ -638,6 +936,7 @@ lf:landform-element-DUH
   skos:inScheme asls:landform ;
   skos:notation "DUH" ;
   skos:prefLabel "Hummocky (weakly oriented) dune"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DUN
   a skos:Concept ;
@@ -649,6 +948,7 @@ lf:landform-element-DUN
   skos:inScheme asls:landform ;
   skos:notation "DUN" ;
   skos:prefLabel "Dune"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DUP
   a skos:Concept ;
@@ -660,6 +960,7 @@ lf:landform-element-DUP
   skos:inScheme asls:landform ;
   skos:notation "DUP" ;
   skos:prefLabel "Parabolic dune"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-DUS
   a skos:Concept ;
@@ -671,6 +972,7 @@ lf:landform-element-DUS
   skos:inScheme asls:landform ;
   skos:notation "DUS" ;
   skos:prefLabel "Duneslope"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-EMB
   a skos:Concept ;
@@ -682,6 +984,7 @@ lf:landform-element-EMB
   skos:inScheme asls:landform ;
   skos:notation "EMB" ;
   skos:prefLabel "Embankment"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-EST
   a skos:Concept ;
@@ -693,6 +996,7 @@ lf:landform-element-EST
   skos:inScheme asls:landform ;
   skos:notation "EST" ;
   skos:prefLabel "Estuary"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-FAN
   a skos:Concept ;
@@ -704,6 +1008,7 @@ lf:landform-element-FAN
   skos:inScheme asls:landform ;
   skos:notation "FAN" ;
   skos:prefLabel "Fan"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-FIL
   a skos:Concept ;
@@ -715,6 +1020,7 @@ lf:landform-element-FIL
   skos:inScheme asls:landform ;
   skos:notation "FIL" ;
   skos:prefLabel "Fill-top"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-FLD
   a skos:Concept ;
@@ -726,6 +1032,7 @@ lf:landform-element-FLD
   skos:inScheme asls:landform ;
   skos:notation "FLD" ;
   skos:prefLabel "Flood-out"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-FOO
   a skos:Concept ;
@@ -737,6 +1044,7 @@ lf:landform-element-FOO
   skos:inScheme asls:landform ;
   skos:notation "FOO" ;
   skos:prefLabel "Footslope"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-FOR
   a skos:Concept ;
@@ -748,6 +1056,7 @@ lf:landform-element-FOR
   skos:inScheme asls:landform ;
   skos:notation "FOR" ;
   skos:prefLabel "Foredune"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-GUL
   a skos:Concept ;
@@ -759,6 +1068,7 @@ lf:landform-element-GUL
   skos:inScheme asls:landform ;
   skos:notation "GUL" ;
   skos:prefLabel "Gully"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-HCR
   a skos:Concept ;
@@ -770,6 +1080,7 @@ lf:landform-element-HCR
   skos:inScheme asls:landform ;
   skos:notation "HCR" ;
   skos:prefLabel "Hillcrest"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-HSL
   a skos:Concept ;
@@ -781,6 +1092,7 @@ lf:landform-element-HSL
   skos:inScheme asls:landform ;
   skos:notation "HSL" ;
   skos:prefLabel "Hillslope"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-ITF
   a skos:Concept ;
@@ -793,6 +1105,7 @@ lf:landform-element-ITF
   skos:notation "ITF" ;
   skos:prefLabel "Intertidal flat"@en ;
   skos:related lf:landform-element-TDF ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-LAG
   a skos:Concept ;
@@ -804,6 +1117,7 @@ lf:landform-element-LAG
   skos:inScheme asls:landform ;
   skos:notation "LAG" ;
   skos:prefLabel "Lagoon"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-LAK
   a skos:Concept ;
@@ -815,6 +1129,7 @@ lf:landform-element-LAK
   skos:inScheme asls:landform ;
   skos:notation "LAK" ;
   skos:prefLabel "Lake"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-LDS
   a skos:Concept ;
@@ -826,6 +1141,7 @@ lf:landform-element-LDS
   skos:inScheme asls:landform ;
   skos:notation "LDS" ;
   skos:prefLabel "Landslide"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-LEV
   a skos:Concept ;
@@ -837,6 +1153,7 @@ lf:landform-element-LEV
   skos:inScheme asls:landform ;
   skos:notation "LEV" ;
   skos:prefLabel "Levee"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-LUN
   a skos:Concept ;
@@ -848,6 +1165,7 @@ lf:landform-element-LUN
   skos:inScheme asls:landform ;
   skos:notation "LUN" ;
   skos:prefLabel "Lunette"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-MAA
   a skos:Concept ;
@@ -859,6 +1177,7 @@ lf:landform-element-MAA
   skos:inScheme asls:landform ;
   skos:notation "MAA" ;
   skos:prefLabel "Maar"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-MOU
   a skos:Concept ;
@@ -870,6 +1189,7 @@ lf:landform-element-MOU
   skos:inScheme asls:landform ;
   skos:notation "MOU" ;
   skos:prefLabel "Mound"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-OXB
   a skos:Concept ;
@@ -881,6 +1201,7 @@ lf:landform-element-OXB
   skos:inScheme asls:landform ;
   skos:notation "OXB" ;
   skos:prefLabel "Ox-bow"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-PED
   a skos:Concept ;
@@ -892,6 +1213,7 @@ lf:landform-element-PED
   skos:inScheme asls:landform ;
   skos:notation "PED" ;
   skos:prefLabel "Pediment"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-PIT
   a skos:Concept ;
@@ -903,6 +1225,7 @@ lf:landform-element-PIT
   skos:inScheme asls:landform ;
   skos:notation "PIT" ;
   skos:prefLabel "Pit"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-PLA
   a skos:Concept ;
@@ -914,6 +1237,7 @@ lf:landform-element-PLA
   skos:inScheme asls:landform ;
   skos:notation "PLA" ;
   skos:prefLabel "Plain"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-PLY
   a skos:Concept ;
@@ -926,6 +1250,7 @@ lf:landform-element-PLY
   skos:inScheme asls:landform ;
   skos:notation "PLY" ;
   skos:prefLabel "Playa"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-PST
   a skos:Concept ;
@@ -937,6 +1262,7 @@ lf:landform-element-PST
   skos:inScheme asls:landform ;
   skos:notation "PST" ;
   skos:prefLabel "Prior stream"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-REC
   a skos:Concept ;
@@ -948,6 +1274,7 @@ lf:landform-element-REC
   skos:inScheme asls:landform ;
   skos:notation "REC" ;
   skos:prefLabel "Risecrest"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-REF
   a skos:Concept ;
@@ -959,6 +1286,7 @@ lf:landform-element-REF
   skos:inScheme asls:landform ;
   skos:notation "REF" ;
   skos:prefLabel "Reef flat"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-RER
   a skos:Concept ;
@@ -970,6 +1298,7 @@ lf:landform-element-RER
   skos:inScheme asls:landform ;
   skos:notation "RER" ;
   skos:prefLabel "Residual rise"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-RES
   a skos:Concept ;
@@ -981,6 +1310,7 @@ lf:landform-element-RES
   skos:inScheme asls:landform ;
   skos:notation "RES" ;
   skos:prefLabel "Riseslope"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-RFL
   a skos:Concept ;
@@ -992,6 +1322,7 @@ lf:landform-element-RFL
   skos:inScheme asls:landform ;
   skos:notation "RFL" ;
   skos:prefLabel "Rock flat"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-RPL
   a skos:Concept ;
@@ -1003,6 +1334,7 @@ lf:landform-element-RPL
   skos:inScheme asls:landform ;
   skos:notation "RPL" ;
   skos:prefLabel "Rock platform"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-SCA
   a skos:Concept ;
@@ -1014,6 +1346,7 @@ lf:landform-element-SCA
   skos:inScheme asls:landform ;
   skos:notation "SCA" ;
   skos:prefLabel "Scarp"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-SCD
   a skos:Concept ;
@@ -1025,6 +1358,7 @@ lf:landform-element-SCD
   skos:inScheme asls:landform ;
   skos:notation "SCD" ;
   skos:prefLabel "Scald"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-SCR
   a skos:Concept ;
@@ -1036,6 +1370,7 @@ lf:landform-element-SCR
   skos:inScheme asls:landform ;
   skos:notation "SCR" ;
   skos:prefLabel "Scroll"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-SFS
   a skos:Concept ;
@@ -1047,6 +1382,7 @@ lf:landform-element-SFS
   skos:inScheme asls:landform ;
   skos:notation "SFS" ;
   skos:prefLabel "Scarp-footslope"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-SRP
   a skos:Concept ;
@@ -1058,6 +1394,7 @@ lf:landform-element-SRP
   skos:inScheme asls:landform ;
   skos:notation "SRP" ;
   skos:prefLabel "Scroll plain"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-STB
   a skos:Concept ;
@@ -1069,6 +1406,7 @@ lf:landform-element-STB
   skos:inScheme asls:landform ;
   skos:notation "STB" ;
   skos:prefLabel "Stream bed"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-STC
   a skos:Concept ;
@@ -1081,6 +1419,7 @@ lf:landform-element-STC
   skos:inScheme asls:landform ;
   skos:notation "STC" ;
   skos:prefLabel "Stream channel"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-STF
   a skos:Concept ;
@@ -1093,6 +1432,7 @@ lf:landform-element-STF
   skos:notation "STF" ;
   skos:prefLabel "Supratidal flat"@en ;
   skos:related lf:landform-element-TDF ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-SUS
   a skos:Concept ;
@@ -1104,6 +1444,7 @@ lf:landform-element-SUS
   skos:inScheme asls:landform ;
   skos:notation "SUS" ;
   skos:prefLabel "Summit surface"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-SWL
   a skos:Concept ;
@@ -1115,6 +1456,7 @@ lf:landform-element-SWL
   skos:inScheme asls:landform ;
   skos:notation "SWL" ;
   skos:prefLabel "Swale"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-SWP
   a skos:Concept ;
@@ -1126,6 +1468,7 @@ lf:landform-element-SWP
   skos:inScheme asls:landform ;
   skos:notation "SWP" ;
   skos:prefLabel "Swamp"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-TAL
   a skos:Concept ;
@@ -1137,6 +1480,7 @@ lf:landform-element-TAL
   skos:inScheme asls:landform ;
   skos:notation "TAL" ;
   skos:prefLabel "Talus"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-TDC
   a skos:Concept ;
@@ -1148,6 +1492,7 @@ lf:landform-element-TDC
   skos:inScheme asls:landform ;
   skos:notation "TDC" ;
   skos:prefLabel "Tidal creek"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-TDF
   a skos:Concept ;
@@ -1161,6 +1506,7 @@ lf:landform-element-TDF
   skos:prefLabel "Tidal flat"@en ;
   skos:related lf:landform-element-ITF ;
   skos:related lf:landform-element-STF ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-TEF
   a skos:Concept ;
@@ -1172,6 +1518,7 @@ lf:landform-element-TEF
   skos:inScheme asls:landform ;
   skos:notation "TEF" ;
   skos:prefLabel "Terrace flat"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-TEP
   a skos:Concept ;
@@ -1183,6 +1530,7 @@ lf:landform-element-TEP
   skos:inScheme asls:landform ;
   skos:notation "TEP" ;
   skos:prefLabel "Terrace plain"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-TOR
   a skos:Concept ;
@@ -1194,6 +1542,7 @@ lf:landform-element-TOR
   skos:inScheme asls:landform ;
   skos:notation "TOR" ;
   skos:prefLabel "Tor"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-TRE
   a skos:Concept ;
@@ -1205,6 +1554,7 @@ lf:landform-element-TRE
   skos:inScheme asls:landform ;
   skos:notation "TRE" ;
   skos:prefLabel "Trench"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-TUM
   a skos:Concept ;
@@ -1216,6 +1566,7 @@ lf:landform-element-TUM
   skos:inScheme asls:landform ;
   skos:notation "TUM" ;
   skos:prefLabel "Tumulus"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-VLF
   a skos:Concept ;
@@ -1227,6 +1578,7 @@ lf:landform-element-VLF
   skos:inScheme asls:landform ;
   skos:notation "VLF" ;
   skos:prefLabel "Valley flat"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-element-descriptions
   a skos:Collection ;
@@ -1381,6 +1733,7 @@ lf:landform-pattern-ALF
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-ALF-common-elements
   a skos:Collection ;
@@ -1433,6 +1786,7 @@ lf:landform-pattern-ALP
   skos:prefLabel "Alluvial plain"@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-LE ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-ALP-common-elements
   a skos:Collection ;
@@ -1504,6 +1858,7 @@ lf:landform-pattern-ANA
   skos:prefLabel "Anastomotic plain"@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-LE ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-ANA-common-elements
   a skos:Collection ;
@@ -1559,6 +1914,7 @@ Compare with mountains, hills, low hills, rises and plain."""@en ;
   skos:related lf:slope-class-PR ;
   skos:related lf:slope-class-ST ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-BAD-comparewith-patterns
   a skos:Collection ;
@@ -1608,6 +1964,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:inScheme asls:landform ;
   skos:notation "BAR" ;
   skos:prefLabel "Bar plain"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-BAR-comparewith-patterns
   a skos:Collection ;
@@ -1649,6 +2006,7 @@ Compare with chenier plain."""@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-BEA-common-elements
   a skos:Collection ;
@@ -1699,6 +2057,7 @@ Occasional elements: cone, hillcrest, stream channel."""@en ;
   skos:related lf:slope-class-PR ;
   skos:related lf:slope-class-ST ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-CAL-occasional-elements
   a skos:Collection ;
@@ -1743,6 +2102,7 @@ Compare with beach ridge plain."""@en ;
   skos:related lf:slope-class-GE ;
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-CHE-common-elements
   a skos:Collection ;
@@ -1794,6 +2154,7 @@ Common elements: beach, beach ridge."""@en ;
   skos:related lf:slope-class-PR ;
   skos:related lf:slope-class-ST ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-COR-common-elements
   a skos:Collection ;
@@ -1833,6 +2194,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:inScheme asls:landform ;
   skos:notation "COV" ;
   skos:prefLabel "Covered plain"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-COV-common-elements
   a skos:Collection ;
@@ -1882,6 +2244,7 @@ Compare with other types under alluvial plain, flood plain and chenier plain."""
   skos:inScheme asls:landform ;
   skos:notation "DEL" ;
   skos:prefLabel "Delta"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-DEL-common-elements
   a skos:Collection ;
@@ -1944,6 +2307,7 @@ Included types of landform pattern are: longitudinal dunefield, parabolic dunefi
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-MO ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-DUN-common-elements
   a skos:Collection ;
@@ -2004,6 +2368,7 @@ Occasional element: stream bed."""@en ;
   skos:related lf:slope-class-PR ;
   skos:related lf:slope-class-ST ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-ESC-common-elements
   a skos:Collection ;
@@ -2061,6 +2426,7 @@ Related relict landform patterns are: stagnant alluvial plain, terrace, terraced
   skos:inScheme asls:landform ;
   skos:notation "FLO" ;
   skos:prefLabel "Food plain"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-FLO-common-elements
   a skos:Collection ;
@@ -2143,6 +2509,7 @@ Compare with mountains, low hills, rises and plain."""@en ;
   skos:related lf:slope-class-PR ;
   skos:related lf:slope-class-ST ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-HIL-common-elements
   a skos:Collection ;
@@ -2209,6 +2576,7 @@ Occasional element: talus."""@en ;
   skos:inScheme asls:landform ;
   skos:notation "KAR" ;
   skos:prefLabel "Karst"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-KAR-common-elements
   a skos:Collection ;
@@ -2268,6 +2636,7 @@ Compare with playa plain."""@en ;
   skos:prefLabel "Lacustrine plain"@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-LE ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-LAC-common-elements
   a skos:Collection ;
@@ -2325,6 +2694,7 @@ Occasional element: tumulus."""@en ;
   skos:related lf:slope-class-GE ;
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-LAV-common-elements
   a skos:Collection ;
@@ -2360,6 +2730,7 @@ Compare with parabolic dunefield."""@en ;
   skos:inScheme asls:landform ;
   skos:notation "LON" ;
   skos:prefLabel "Longitudinal dunefield"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-LON-comparewith-patterns
   a skos:Collection ;
@@ -2408,6 +2779,7 @@ Compare with mountains, hills, rises and plain."""@en ;
   skos:related lf:slope-class-MO ;
   skos:related lf:slope-class-ST ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-LOW-common-elements
   a skos:Collection ;
@@ -2472,6 +2844,7 @@ Common elements: mound, pit, dam."""@en ;
   skos:related lf:relief-class-R ;
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-MAD-common-elements
   a skos:Collection ;
@@ -2512,6 +2885,7 @@ Occasional elements: dune, stream channel."""@en ;
   skos:inScheme asls:landform ;
   skos:notation "MAR" ;
   skos:prefLabel "Marine plain"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-MAR-occasional-elements
   a skos:Collection ;
@@ -2549,6 +2923,7 @@ Compare with other types under alluvial plain and flood plain."""@en ;
   skos:inScheme asls:landform ;
   skos:notation "MEA" ;
   skos:prefLabel "Meander plain"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-MEA-common-elements
   a skos:Collection ;
@@ -2595,6 +2970,7 @@ Typical elements: crater (scarp, talus, footslope and plain), hillcrest, hillslo
   skos:prefLabel "Meteor crater"@en ;
   skos:related lf:relief-class-H ;
   skos:related lf:relief-class-L ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-MET-typical-elements
   a skos:Collection ;
@@ -2637,6 +3013,7 @@ Compare with hills, low hills, rises and plain."""@en ;
   skos:related lf:slope-class-PR ;
   skos:related lf:slope-class-ST ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-MOU-common-elements
   a skos:Collection ;
@@ -2696,6 +3073,7 @@ Compare with longitudinal dunefield."""@en ;
   skos:inScheme asls:landform ;
   skos:notation "PAR" ;
   skos:prefLabel "Parabolic dunefield"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-PAR-comparewith-patterns
   a skos:Collection ;
@@ -2737,6 +3115,7 @@ Compare with sheet-flood fan and alluvial fan."""@en ;
   skos:related lf:slope-class-GE ;
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-PED-comparewith-patterns
   a skos:Collection ;
@@ -2773,6 +3152,7 @@ Typical element: plain."""@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-PEP-typical-elements
   a skos:Collection ;
@@ -2798,6 +3178,7 @@ lf:landform-pattern-PLA
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-MO ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-PLA-comparewith-patterns
   a skos:Collection ;
@@ -2833,6 +3214,7 @@ Occasional element: stream channel."""@en ;
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-MO ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-PLT-common-elements
   a skos:Collection ;
@@ -2882,6 +3264,7 @@ Compare with lacustrine plain."""@en ;
   skos:prefLabel "Playa plain"@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-LE ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-PLY-comparewith-patterns
   a skos:Collection ;
@@ -2917,6 +3300,7 @@ Typical elements: plain (dominant), stream channel."""@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-PNP-typical-elements
   a skos:Collection ;
@@ -2954,6 +3338,7 @@ Compare with mountains, hills, low hills and plain."""@en ;
   skos:related lf:slope-class-MO ;
   skos:related lf:slope-class-ST ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-RIS-common-elements
   a skos:Collection ;
@@ -3015,6 +3400,7 @@ Occasional elements: dune, playa, lunette."""@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-SAN-occasional-elements
   a skos:Collection ;
@@ -3053,6 +3439,7 @@ Compare with alluvial fan and pediment."""@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-LE ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-SHF-comparewith-patterns
   a skos:Collection ;
@@ -3094,6 +3481,7 @@ Compare with flood plain and terrace."""@en ;
   skos:inScheme asls:landform ;
   skos:notation "STA" ;
   skos:prefLabel "Stagnant alluvial plain"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-STA-common-elements
   a skos:Collection ;
@@ -3153,6 +3541,7 @@ Occasional elements: stream channel, scroll, levee."""@en ;
   skos:inScheme asls:landform ;
   skos:notation "TEL" ;
   skos:prefLabel "Terraced land (alluvial)"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-TEL-occasional-elements
   a skos:Collection ;
@@ -3191,6 +3580,7 @@ Occasional elements: stream channel, scroll, levee."""@en ;
   skos:inScheme asls:landform ;
   skos:notation "TER" ;
   skos:prefLabel "Terrace (alluvial)"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-TER-occasional-elements
   a skos:Collection ;
@@ -3229,6 +3619,7 @@ Occasional elements: lagoon, dune, beach ridge, beach."""@en ;
   skos:notation "TID" ;
   skos:prefLabel "Tidal flat (pattern)"@en ;
   skos:related lf:relief-class-P ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-TID-occasional-elements
   a skos:Collection ;
@@ -3272,6 +3663,7 @@ Occasional element: tumulus."""@en ;
   skos:prefLabel "Volcano"@en ;
   skos:related lf:relief-class-M ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:landform-pattern-VOL-common-elements
   a skos:Collection ;
@@ -3523,6 +3915,7 @@ lf:location-within-the-landform-element-B
   skos:inScheme asls:landform ;
   skos:notation "B" ;
   skos:prefLabel "Bottom"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:location-within-the-landform-element-M
   a skos:Concept ;
@@ -3534,6 +3927,7 @@ lf:location-within-the-landform-element-M
   skos:inScheme asls:landform ;
   skos:notation "M" ;
   skos:prefLabel "Middle"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:location-within-the-landform-element-T
   a skos:Concept ;
@@ -3545,6 +3939,7 @@ lf:location-within-the-landform-element-T
   skos:inScheme asls:landform ;
   skos:notation "T" ;
   skos:prefLabel "Top"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:location-within-toposequence
   a skos:Concept ;
@@ -3559,6 +3954,7 @@ Any site can be located by its vertical and horizontal distances from the define
 The toposequence concept leads to definition of the attributes specific catchment area and specific dispersal area (Speight 1974, 1980) that predict hillslope hydrology and erosion (see, for example, Moore et al. 1988)."""@en ;
   skos:inScheme asls:landform ;
   skos:prefLabel "Location within toposequence"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:modal-slope
   a skos:Collection ;
@@ -3610,6 +4006,7 @@ lf:mode-of-geomorphological-activity-AG
   skos:inScheme asls:landform ;
   skos:notation "AG" ;
   skos:prefLabel "Aggraded"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:mode-of-geomorphological-activity-BU
   a skos:Concept ;
@@ -3621,6 +4018,7 @@ lf:mode-of-geomorphological-activity-BU
   skos:inScheme asls:landform ;
   skos:notation "BU" ;
   skos:prefLabel "Built up"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:mode-of-geomorphological-activity-EA
   a skos:Concept ;
@@ -3632,6 +4030,7 @@ lf:mode-of-geomorphological-activity-EA
   skos:inScheme asls:landform ;
   skos:notation "EA" ;
   skos:prefLabel "Eroded or aggraded"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:mode-of-geomorphological-activity-ER
   a skos:Concept ;
@@ -3643,6 +4042,7 @@ lf:mode-of-geomorphological-activity-ER
   skos:inScheme asls:landform ;
   skos:notation "ER" ;
   skos:prefLabel "Eroded"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:mode-of-geomorphological-activity-EX
   a skos:Concept ;
@@ -3654,6 +4054,7 @@ lf:mode-of-geomorphological-activity-EX
   skos:inScheme asls:landform ;
   skos:notation "EX" ;
   skos:prefLabel "Excavated or dug out"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:mode-of-geomorphological-activity-HU
   a skos:Concept ;
@@ -3665,6 +4066,7 @@ lf:mode-of-geomorphological-activity-HU
   skos:inScheme asls:landform ;
   skos:notation "HU" ;
   skos:prefLabel "Heaved up or elevated"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:mode-of-geomorphological-activity-SU
   a skos:Concept ;
@@ -3676,6 +4078,7 @@ lf:mode-of-geomorphological-activity-SU
   skos:inScheme asls:landform ;
   skos:notation "SU" ;
   skos:prefLabel "Subsided or depressed"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-C
   a skos:Concept ;
@@ -3687,6 +4090,7 @@ lf:morphological-type-C
   skos:inScheme asls:landform ;
   skos:notation "C" ;
   skos:prefLabel "Crest"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-D
   a skos:Concept ;
@@ -3699,6 +4103,7 @@ lf:morphological-type-D
   skos:inScheme asls:landform ;
   skos:notation "D" ;
   skos:prefLabel "Closed depression"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-F
   a skos:Concept ;
@@ -3710,6 +4115,7 @@ lf:morphological-type-F
   skos:inScheme asls:landform ;
   skos:notation "F" ;
   skos:prefLabel "Flat"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-H
   a skos:Concept ;
@@ -3721,6 +4127,7 @@ lf:morphological-type-H
   skos:inScheme asls:landform ;
   skos:notation "H" ;
   skos:prefLabel "Hillock"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-L
   a skos:Concept ;
@@ -3734,6 +4141,7 @@ This morphological type requires a relative inclination of slope element modifie
   skos:inScheme asls:landform ;
   skos:notation "L" ;
   skos:prefLabel "Lower slope (requires inclination modifier)"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-LA
   a skos:Concept ;
@@ -3747,6 +4155,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "LA" ;
   skos:prefLabel "Lower slope Maximal"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-LI
   a skos:Concept ;
@@ -3760,6 +4169,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "LI" ;
   skos:prefLabel "Lower slope Minimal"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-LN
   a skos:Concept ;
@@ -3773,6 +4183,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "LN" ;
   skos:prefLabel "Lower slope Waning"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-LX
   a skos:Concept ;
@@ -3786,6 +4197,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "LX" ;
   skos:prefLabel "Lower slope Waxing"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-M
   a skos:Concept ;
@@ -3799,6 +4211,7 @@ This morphological type requires a relative inclination of slope element modifie
   skos:inScheme asls:landform ;
   skos:notation "M" ;
   skos:prefLabel "Mid-slope (requires inclination modifier)"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-MA
   a skos:Concept ;
@@ -3812,6 +4225,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "MA" ;
   skos:prefLabel "Mid-slope Maximal"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-MI
   a skos:Concept ;
@@ -3825,6 +4239,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "MI" ;
   skos:prefLabel "Mid-slope Minimal"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-MN
   a skos:Concept ;
@@ -3838,6 +4253,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "MN" ;
   skos:prefLabel "Mid-slope Waning"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-MX
   a skos:Concept ;
@@ -3851,6 +4267,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "MX" ;
   skos:prefLabel "Mid-slope Waxing"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-R
   a skos:Concept ;
@@ -3862,6 +4279,7 @@ lf:morphological-type-R
   skos:inScheme asls:landform ;
   skos:notation "R" ;
   skos:prefLabel "Ridge"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-S
   a skos:Concept ;
@@ -3874,6 +4292,7 @@ lf:morphological-type-S
   skos:inScheme asls:landform ;
   skos:notation "S" ;
   skos:prefLabel "Simple slope"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-U
   a skos:Concept ;
@@ -3887,6 +4306,7 @@ This morphological type requires a relative inclination of slope element modifie
   skos:inScheme asls:landform ;
   skos:notation "U" ;
   skos:prefLabel "Upper slope (requires inclination modifier)"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-UA
   a skos:Concept ;
@@ -3900,6 +4320,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "UA" ;
   skos:prefLabel "Upper slope Maximal"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-UI
   a skos:Concept ;
@@ -3913,6 +4334,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "UI" ;
   skos:prefLabel "Upper slope Minimal"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-UN
   a skos:Concept ;
@@ -3926,6 +4348,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "UN" ;
   skos:prefLabel "Upper slope Waning"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-UX
   a skos:Concept ;
@@ -3939,6 +4362,7 @@ This morphological type has a relative inclination of slope element modifier."""
   skos:inScheme asls:landform ;
   skos:notation "UX" ;
   skos:prefLabel "Upper slope Waxing"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-type-V
   a skos:Concept ;
@@ -3951,6 +4375,7 @@ lf:morphological-type-V
   skos:inScheme asls:landform ;
   skos:notation "V" ;
   skos:prefLabel "Open depression (vale)"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:morphological-types
   a skos:Collection ;
@@ -4006,6 +4431,7 @@ lf:relative-inclination-of-slope-elements-A
   skos:inScheme asls:landform ;
   skos:notation "A" ;
   skos:prefLabel "Maximal"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:relative-inclination-of-slope-elements-I
   a skos:Concept ;
@@ -4017,6 +4443,7 @@ lf:relative-inclination-of-slope-elements-I
   skos:inScheme asls:landform ;
   skos:notation "I" ;
   skos:prefLabel "Minimal"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:relative-inclination-of-slope-elements-N
   a skos:Concept ;
@@ -4028,6 +4455,7 @@ lf:relative-inclination-of-slope-elements-N
   skos:inScheme asls:landform ;
   skos:notation "N" ;
   skos:prefLabel "Waning"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:relative-inclination-of-slope-elements-X
   a skos:Concept ;
@@ -4039,6 +4467,7 @@ lf:relative-inclination-of-slope-elements-X
   skos:inScheme asls:landform ;
   skos:notation "X" ;
   skos:prefLabel "Waxing"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:relief
   a skos:Collection ;
@@ -4068,6 +4497,7 @@ lf:relief-class-H
   skos:inScheme asls:landform ;
   skos:notation "H" ;
   skos:prefLabel "High"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:relief-class-L
   a skos:Concept ;
@@ -4079,6 +4509,7 @@ lf:relief-class-L
   skos:inScheme asls:landform ;
   skos:notation "L" ;
   skos:prefLabel "Low"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:relief-class-M
   a skos:Concept ;
@@ -4090,6 +4521,7 @@ lf:relief-class-M
   skos:inScheme asls:landform ;
   skos:notation "M" ;
   skos:prefLabel "Very high"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:relief-class-P
   a skos:Concept ;
@@ -4101,6 +4533,7 @@ lf:relief-class-P
   skos:inScheme asls:landform ;
   skos:notation "P" ;
   skos:prefLabel "Extremely low"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:relief-class-R
   a skos:Concept ;
@@ -4112,6 +4545,7 @@ lf:relief-class-R
   skos:inScheme asls:landform ;
   skos:notation "R" ;
   skos:prefLabel "Very low"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-B
   a skos:Concept ;
@@ -4124,6 +4558,7 @@ lf:simple-erosional-landform-pattern-B
   skos:notation "B" ;
   skos:prefLabel "Badlands (simple erosional pattern)"@en ;
   skos:related lf:landform-pattern-BAD ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-GP
   a skos:Concept ;
@@ -4141,6 +4576,7 @@ lf:simple-erosional-landform-pattern-GP
   skos:prefLabel "Gently undulating plain"@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-GR
   a skos:Concept ;
@@ -4158,6 +4594,7 @@ lf:simple-erosional-landform-pattern-GR
   skos:prefLabel "Gently undulating rises"@en ;
   skos:related lf:relief-class-R ;
   skos:related lf:slope-class-VG ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-LP
   a skos:Concept ;
@@ -4175,6 +4612,7 @@ lf:simple-erosional-landform-pattern-LP
   skos:prefLabel "Level plain"@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-LE ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-PH
   a skos:Concept ;
@@ -4192,6 +4630,7 @@ lf:simple-erosional-landform-pattern-PH
   skos:prefLabel "Precipitous hills"@en ;
   skos:related lf:relief-class-H ;
   skos:related lf:slope-class-PR ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-PM
   a skos:Concept ;
@@ -4209,6 +4648,7 @@ lf:simple-erosional-landform-pattern-PM
   skos:prefLabel "Precipitous mountains"@en ;
   skos:related lf:relief-class-M ;
   skos:related lf:slope-class-PR ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-RH
   a skos:Concept ;
@@ -4226,6 +4666,7 @@ lf:simple-erosional-landform-pattern-RH
   skos:prefLabel "Rolling hills"@en ;
   skos:related lf:relief-class-H ;
   skos:related lf:slope-class-MO ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-RL
   a skos:Concept ;
@@ -4243,6 +4684,7 @@ lf:simple-erosional-landform-pattern-RL
   skos:prefLabel "Rolling low hills"@en ;
   skos:related lf:relief-class-L ;
   skos:related lf:slope-class-MO ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-RM
   a skos:Concept ;
@@ -4260,6 +4702,7 @@ lf:simple-erosional-landform-pattern-RM
   skos:prefLabel "Rolling mountains"@en ;
   skos:related lf:relief-class-M ;
   skos:related lf:slope-class-MO ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-RP
   a skos:Concept ;
@@ -4277,6 +4720,7 @@ lf:simple-erosional-landform-pattern-RP
   skos:prefLabel "Rolling plain"@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-MO ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-RR
   a skos:Concept ;
@@ -4294,6 +4738,7 @@ lf:simple-erosional-landform-pattern-RR
   skos:prefLabel "Rolling rises"@en ;
   skos:related lf:relief-class-R ;
   skos:related lf:slope-class-MO ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-SH
   a skos:Concept ;
@@ -4311,6 +4756,7 @@ lf:simple-erosional-landform-pattern-SH
   skos:prefLabel "Steep hills"@en ;
   skos:related lf:relief-class-H ;
   skos:related lf:slope-class-ST ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-SL
   a skos:Concept ;
@@ -4328,6 +4774,7 @@ lf:simple-erosional-landform-pattern-SL
   skos:prefLabel "Steep low hills"@en ;
   skos:related lf:relief-class-L ;
   skos:related lf:slope-class-ST ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-SM
   a skos:Concept ;
@@ -4345,6 +4792,7 @@ lf:simple-erosional-landform-pattern-SM
   skos:prefLabel "Steep mountains"@en ;
   skos:related lf:relief-class-M ;
   skos:related lf:slope-class-ST ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-SR
   a skos:Concept ;
@@ -4362,6 +4810,7 @@ lf:simple-erosional-landform-pattern-SR
   skos:prefLabel "Steep rises"@en ;
   skos:related lf:relief-class-R ;
   skos:related lf:slope-class-ST ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-UH
   a skos:Concept ;
@@ -4379,6 +4828,7 @@ lf:simple-erosional-landform-pattern-UH
   skos:prefLabel "Undulating hills"@en ;
   skos:related lf:relief-class-H ;
   skos:related lf:slope-class-GE ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-UL
   a skos:Concept ;
@@ -4396,6 +4846,7 @@ lf:simple-erosional-landform-pattern-UL
   skos:prefLabel "Undulating low hills"@en ;
   skos:related lf:relief-class-L ;
   skos:related lf:slope-class-GE ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-UP
   a skos:Concept ;
@@ -4413,6 +4864,7 @@ lf:simple-erosional-landform-pattern-UP
   skos:prefLabel "Undulating plain"@en ;
   skos:related lf:relief-class-P ;
   skos:related lf:slope-class-GE ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-UR
   a skos:Concept ;
@@ -4430,6 +4882,7 @@ lf:simple-erosional-landform-pattern-UR
   skos:prefLabel "Undulating rises"@en ;
   skos:related lf:relief-class-R ;
   skos:related lf:slope-class-GE ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-VH
   a skos:Concept ;
@@ -4447,6 +4900,7 @@ lf:simple-erosional-landform-pattern-VH
   skos:prefLabel "Very steep hills"@en ;
   skos:related lf:relief-class-H ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-VL
   a skos:Concept ;
@@ -4464,6 +4918,7 @@ lf:simple-erosional-landform-pattern-VL
   skos:prefLabel "Very steep low hills"@en ;
   skos:related lf:relief-class-L ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-pattern-VM
   a skos:Concept ;
@@ -4481,6 +4936,7 @@ lf:simple-erosional-landform-pattern-VM
   skos:prefLabel "Very steep mountains"@en ;
   skos:related lf:relief-class-M ;
   skos:related lf:slope-class-VS ;
+  skos:topConceptOf asls:landform ;
 .
 lf:simple-erosional-landform-patterns
   a skos:Collection ;
@@ -4533,6 +4989,7 @@ lf:slope-class-CL
   skos:inScheme asls:landform ;
   skos:notation "CL" ;
   skos:prefLabel "Cliffed"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-class-GE
   a skos:Concept ;
@@ -4544,6 +5001,7 @@ lf:slope-class-GE
   skos:inScheme asls:landform ;
   skos:notation "GE" ;
   skos:prefLabel "Gently inclined"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-class-LE
   a skos:Concept ;
@@ -4555,6 +5013,7 @@ lf:slope-class-LE
   skos:inScheme asls:landform ;
   skos:notation "LE" ;
   skos:prefLabel "level"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-class-MO
   a skos:Concept ;
@@ -4566,6 +5025,7 @@ lf:slope-class-MO
   skos:inScheme asls:landform ;
   skos:notation "MO" ;
   skos:prefLabel "Moderately inclined"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-class-PR
   a skos:Concept ;
@@ -4577,6 +5037,7 @@ lf:slope-class-PR
   skos:inScheme asls:landform ;
   skos:notation "PR" ;
   skos:prefLabel "Precipitous"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-class-ST
   a skos:Concept ;
@@ -4588,6 +5049,7 @@ lf:slope-class-ST
   skos:inScheme asls:landform ;
   skos:notation "ST" ;
   skos:prefLabel "Steep"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-class-VG
   a skos:Concept ;
@@ -4599,6 +5061,7 @@ lf:slope-class-VG
   skos:inScheme asls:landform ;
   skos:notation "VG" ;
   skos:prefLabel "Very gently inclined"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-class-VS
   a skos:Concept ;
@@ -4610,6 +5073,7 @@ lf:slope-class-VS
   skos:inScheme asls:landform ;
   skos:notation "VS" ;
   skos:prefLabel "Very steep"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-classes
   a skos:Collection ;
@@ -4645,6 +5109,7 @@ lf:slope-evaluation-A
   skos:inScheme asls:landform ;
   skos:notation "A" ;
   skos:prefLabel "Abney level or clinometer and tape"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-evaluation-E
   a skos:Concept ;
@@ -4656,6 +5121,7 @@ lf:slope-evaluation-E
   skos:inScheme asls:landform ;
   skos:notation "E" ;
   skos:prefLabel "Estimate"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-evaluation-P
   a skos:Concept ;
@@ -4667,6 +5133,7 @@ lf:slope-evaluation-P
   skos:inScheme asls:landform ;
   skos:notation "P" ;
   skos:prefLabel "Contour plan at 1:10 000 or larger scale"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-evaluation-T
   a skos:Concept ;
@@ -4678,6 +5145,7 @@ lf:slope-evaluation-T
   skos:inScheme asls:landform ;
   skos:notation "T" ;
   skos:prefLabel "Tripod-mounted instrument and staff"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:slope-evaluations
   a skos:Collection ;
@@ -4702,6 +5170,7 @@ lf:slope-value
   skos:definition "Express slope tangent as a percentage using up to three significant figures (e.g. 1%, 2.45%, 9%, 12.5%, 115%). Evaluate the slope over an interval of 20 m, straddling the point of soil observation. Always observe and record the slope as precisely as the chosen survey method permits. The observation should span no less than 20 m so as not to be influenced too much by features of the microrelief that occurs within the landform element."@en ;
   skos:inScheme asls:landform ;
   skos:prefLabel "Slope %"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-development
   a skos:Collection ;
@@ -4727,6 +5196,7 @@ lf:stream-channel-development-A
   skos:inScheme asls:landform ;
   skos:notation "A" ;
   skos:prefLabel "Alluvial"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-development-E
   a skos:Concept ;
@@ -4738,6 +5208,7 @@ lf:stream-channel-development-E
   skos:inScheme asls:landform ;
   skos:notation "E" ;
   skos:prefLabel "Erosional"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-development-I
   a skos:Concept ;
@@ -4749,6 +5220,7 @@ lf:stream-channel-development-I
   skos:inScheme asls:landform ;
   skos:notation "I" ;
   skos:prefLabel "Incipient"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-development-O
   a skos:Concept ;
@@ -4760,6 +5232,7 @@ lf:stream-channel-development-O
   skos:inScheme asls:landform ;
   skos:notation "O" ;
   skos:prefLabel "Absent"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-migration
   a skos:Collection ;
@@ -4784,6 +5257,7 @@ lf:stream-channel-migration-F
   skos:inScheme asls:landform ;
   skos:notation "F" ;
   skos:prefLabel "Fixed"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-migration-R
   a skos:Concept ;
@@ -4795,6 +5269,7 @@ lf:stream-channel-migration-R
   skos:inScheme asls:landform ;
   skos:notation "R" ;
   skos:prefLabel "Rapidly migrating"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-migration-S
   a skos:Concept ;
@@ -4806,6 +5281,7 @@ lf:stream-channel-migration-S
   skos:inScheme asls:landform ;
   skos:notation "S" ;
   skos:prefLabel "Slowly migrating"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-network-directionality
   a skos:Collection ;
@@ -4835,6 +5311,7 @@ lf:stream-channel-network-directionality-B
   skos:inScheme asls:landform ;
   skos:notation "B" ;
   skos:prefLabel "Bidirectional"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-network-directionality-C
   a skos:Concept ;
@@ -4846,6 +5323,7 @@ lf:stream-channel-network-directionality-C
   skos:inScheme asls:landform ;
   skos:notation "C" ;
   skos:prefLabel "Convergent"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-network-directionality-D
   a skos:Concept ;
@@ -4857,6 +5335,7 @@ lf:stream-channel-network-directionality-D
   skos:inScheme asls:landform ;
   skos:notation "D" ;
   skos:prefLabel "Divergent"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-network-directionality-F
   a skos:Concept ;
@@ -4868,6 +5347,7 @@ lf:stream-channel-network-directionality-F
   skos:inScheme asls:landform ;
   skos:notation "F" ;
   skos:prefLabel "Centrifugal"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-network-directionality-N
   a skos:Concept ;
@@ -4879,6 +5359,7 @@ lf:stream-channel-network-directionality-N
   skos:inScheme asls:landform ;
   skos:notation "N" ;
   skos:prefLabel "Non-directional"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-network-directionality-P
   a skos:Concept ;
@@ -4890,6 +5371,7 @@ lf:stream-channel-network-directionality-P
   skos:inScheme asls:landform ;
   skos:notation "P" ;
   skos:prefLabel "Centripetal"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-network-directionality-U
   a skos:Concept ;
@@ -4901,6 +5383,7 @@ lf:stream-channel-network-directionality-U
   skos:inScheme asls:landform ;
   skos:notation "U" ;
   skos:prefLabel "Unidirectional"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-network-integration
   a skos:Collection ;
@@ -4926,6 +5409,7 @@ lf:stream-channel-network-integration-D
   skos:inScheme asls:landform ;
   skos:notation "D" ;
   skos:prefLabel "Disintegrated"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-network-integration-I
   a skos:Concept ;
@@ -4937,6 +5421,7 @@ lf:stream-channel-network-integration-I
   skos:inScheme asls:landform ;
   skos:notation "I" ;
   skos:prefLabel "Integrated"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-network-integration-P
   a skos:Concept ;
@@ -4948,6 +5433,7 @@ lf:stream-channel-network-integration-P
   skos:inScheme asls:landform ;
   skos:notation "P" ;
   skos:prefLabel "Interrupted (partial integration)"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-occurence
   a skos:Collection ;
@@ -4997,6 +5483,7 @@ lf:stream-channel-relative-depth-width-D
   skos:inScheme asls:landform ;
   skos:notation "D" ;
   skos:prefLabel "Deep"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-relative-depth-width-M
   a skos:Concept ;
@@ -5008,6 +5495,7 @@ lf:stream-channel-relative-depth-width-M
   skos:inScheme asls:landform ;
   skos:notation "M" ;
   skos:prefLabel "Moderately deep"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-relative-depth-width-S
   a skos:Concept ;
@@ -5019,6 +5507,7 @@ lf:stream-channel-relative-depth-width-S
   skos:inScheme asls:landform ;
   skos:notation "S" ;
   skos:prefLabel "Shallow"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-relative-depth-width-V
   a skos:Concept ;
@@ -5030,6 +5519,7 @@ lf:stream-channel-relative-depth-width-V
   skos:inScheme asls:landform ;
   skos:notation "V" ;
   skos:prefLabel "Very shallow"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-spacing
   a skos:Collection ;
@@ -5061,6 +5551,7 @@ lf:stream-channel-spacing-AB
   skos:inScheme asls:landform ;
   skos:notation "AB" ;
   skos:prefLabel "Absent or very rare"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-spacing-CS
   a skos:Concept ;
@@ -5072,6 +5563,7 @@ lf:stream-channel-spacing-CS
   skos:inScheme asls:landform ;
   skos:notation "CS" ;
   skos:prefLabel "Closely spaced"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-spacing-MS
   a skos:Concept ;
@@ -5083,6 +5575,7 @@ lf:stream-channel-spacing-MS
   skos:inScheme asls:landform ;
   skos:notation "MS" ;
   skos:prefLabel "Moderately spaced"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-spacing-NU
   a skos:Concept ;
@@ -5094,6 +5587,7 @@ lf:stream-channel-spacing-NU
   skos:inScheme asls:landform ;
   skos:notation "NU" ;
   skos:prefLabel "Numerous"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-spacing-SP
   a skos:Concept ;
@@ -5105,6 +5599,7 @@ lf:stream-channel-spacing-SP
   skos:inScheme asls:landform ;
   skos:notation "SP" ;
   skos:prefLabel "Sparse"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-spacing-VC
   a skos:Concept ;
@@ -5116,6 +5611,7 @@ lf:stream-channel-spacing-VC
   skos:inScheme asls:landform ;
   skos:notation "VC" ;
   skos:prefLabel "Very closely spaced"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-spacing-VW
   a skos:Concept ;
@@ -5127,6 +5623,7 @@ lf:stream-channel-spacing-VW
   skos:inScheme asls:landform ;
   skos:notation "VW" ;
   skos:prefLabel "Very widely spaced"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:stream-channel-spacing-WS
   a skos:Concept ;
@@ -5138,6 +5635,7 @@ lf:stream-channel-spacing-WS
   skos:inScheme asls:landform ;
   skos:notation "WS" ;
   skos:prefLabel "Widely spaced"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:streamwise-channel-pattern
   a skos:Collection ;
@@ -5164,6 +5662,7 @@ lf:streamwise-channel-pattern-D
   skos:inScheme asls:landform ;
   skos:notation "D" ;
   skos:prefLabel "Distributary"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:streamwise-channel-pattern-N
   a skos:Concept ;
@@ -5175,6 +5674,7 @@ lf:streamwise-channel-pattern-N
   skos:inScheme asls:landform ;
   skos:notation "N" ;
   skos:prefLabel "Non-tributary"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:streamwise-channel-pattern-R
   a skos:Concept ;
@@ -5186,6 +5686,7 @@ lf:streamwise-channel-pattern-R
   skos:inScheme asls:landform ;
   skos:notation "R" ;
   skos:prefLabel "Reticulated"@en ;
+  skos:topConceptOf asls:landform ;
 .
 lf:streamwise-channel-pattern-T
   a skos:Concept ;
@@ -5197,6 +5698,7 @@ lf:streamwise-channel-pattern-T
   skos:inScheme asls:landform ;
   skos:notation "T" ;
   skos:prefLabel "Tributary"@en ;
+  skos:topConceptOf asls:landform ;
 .
 skos-ext:isMemberOf
   a owl:ObjectProperty ;
