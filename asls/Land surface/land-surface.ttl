@@ -21,9 +21,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 asls:land-surface
+  a reg:Register ;
   a owl:Ontology ;
   a skos:ConceptScheme ;
-  a reg:Register ;
   dcterms:contributor <https://orcid.org/0000-0002-0693-1899> ;
   dcterms:contributor <https://orcid.org/0000-0002-3884-3420> ;
   dcterms:created "2020-10-13"^^xsd:date ;
@@ -74,12 +74,6 @@ asls:land-surface
   skos:hasTopConcept ls:coarse-fragments-abundance-4 ;
   skos:hasTopConcept ls:coarse-fragments-abundance-5 ;
   skos:hasTopConcept ls:coarse-fragments-abundance-6 ;
-  skos:hasTopConcept ls:lithology-CC ;
-  skos:hasTopConcept ls:lithology-IS ;
-  skos:hasTopConcept ls:lithology-OT ;
-  skos:hasTopConcept ls:lithology-OW ;
-  skos:hasTopConcept ls:lithology-PU ;
-  skos:hasTopConcept ls:lithology-SS ;
   skos:hasTopConcept ls:coarse-fragments-shape-A ;
   skos:hasTopConcept ls:coarse-fragments-shape-AP ;
   skos:hasTopConcept ls:coarse-fragments-shape-AT ;
@@ -180,6 +174,12 @@ asls:land-surface
   skos:hasTopConcept ls:inundation-frequency-5 ;
   skos:hasTopConcept ls:inundation-runon-velocity-H ;
   skos:hasTopConcept ls:inundation-runon-velocity-L ;
+  skos:hasTopConcept ls:lithology-CC ;
+  skos:hasTopConcept ls:lithology-IS ;
+  skos:hasTopConcept ls:lithology-OT ;
+  skos:hasTopConcept ls:lithology-OW ;
+  skos:hasTopConcept ls:lithology-PU ;
+  skos:hasTopConcept ls:lithology-SS ;
   skos:hasTopConcept ls:microrelief-A ;
   skos:hasTopConcept ls:microrelief-C ;
   skos:hasTopConcept ls:microrelief-D ;
@@ -225,7 +225,7 @@ ls:aggradation
   a sosa:ObservableProperty ;
   dcterms:description "This refers to the presence of material deposited on a pre-existing surface as a result of wind and/or water erosion."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/aggradation"^^xsd:anyURI ;
-  ui:topMemberOf asls:land-surface;
+  ui:topMemberOf asls:land-surface ;
   rdfs:label "Aggradation"@en ;
   skos:definition "This refers to the presence of material deposited on a pre-existing surface as a result of wind and/or water erosion."@en ;
   skos:member ls:aggradation-0 ;
@@ -274,7 +274,7 @@ ls:aspect
   a sosa:ObservableProperty ;
   dcterms:description "Give as compass bearing to nearest 10 degrees. On level lands (less than 1% slope), aspect need not be recorded."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/aspect"^^xsd:anyURI ;
-  ui:topMemberOf asls:land-surface;
+  ui:topMemberOf asls:land-surface ;
   rdfs:label "Aspect"@en ;
   skos:definition "Give as compass bearing to nearest 10 degrees. On level lands (less than 1% slope), aspect need not be recorded."@en ;
   skos:inScheme asls:land-surface ;
@@ -499,7 +499,7 @@ ls:coarse-fragments
   dcterms:description """Coarse fragments are particles coarser than 2 mm. They include unattached rock fragments and other fragments such as charcoal and shells. Coarse fragments are distinguished from segregations of pedogenic origin in that they are not, or not considered to be, of pedogenic origin.  
 Both coarse fragments and segregations of pedogenic origin can occur on the surface. Where segregations of pedogenic origin occur on the surface, they should be described as per soil-profile."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/coarse-fragments"^^xsd:anyURI ;
-  ui:topMemberOf asls:land-surface;
+  ui:topMemberOf asls:land-surface ;
   rdfs:label "Coarse fragments"@en ;
   skos:definition """Coarse fragments are particles coarser than 2 mm. They include unattached rock fragments and other fragments such as charcoal and shells. Coarse fragments are distinguished from segregations of pedogenic origin in that they are not, or not considered to be, of pedogenic origin.  
 Both coarse fragments and segregations of pedogenic origin can occur on the surface. Where segregations of pedogenic origin occur on the surface, they should be described as per soil-profile."""@en ;
@@ -507,7 +507,7 @@ Both coarse fragments and segregations of pedogenic origin can occur on the surf
   skos:member ls:coarse-fragments-lithology ;
   skos:member ls:coarse-fragments-shape ;
   skos:member ls:coarse-fragments-size ;
-  skos:member subst:material-strength ;
+  skos:member ls:coarse-fragments-strength ;
   skos:prefLabel "Coarse fragments"@en ;
 .
 ls:coarse-fragments-abundance
@@ -718,84 +718,6 @@ ls:coarse-fragments-lithology
   skos:member subst:lithology-Z ;
   skos:member subst:lithology-ZS ;
   skos:prefLabel "Lithology of coarse fragments"@en ;
-.
-ls:lithology-CC
-  a skos:Concept ;
-  dcterms:description "Charcoal"@en ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-CC"^^xsd:anyURI ;
-  ui:isMemberOf ls:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Charcoal"@en ;
-  skos:definition "Charcoal"@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "CC" ;
-  skos:prefLabel "Charcoal"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:lithology-IS
-  a skos:Concept ;
-  dcterms:description "Ironstone (where not considered of pedogenic origin)"@en ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-IS"^^xsd:anyURI ;
-  ui:isMemberOf ls:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Ironstone"@en ;
-  skos:definition "Ironstone (where not considered of pedogenic origin)"@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "IS" ;
-  skos:prefLabel "Ironstone"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:lithology-OT
-  a skos:Concept ;
-  dcterms:description "Other"@en ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-OT"^^xsd:anyURI ;
-  ui:isMemberOf ls:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Other"@en ;
-  skos:definition "Other"@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "OT" ;
-  skos:prefLabel "Other"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:lithology-OW
-  a skos:Concept ;
-  dcterms:description "Opalised wood"@en ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-OW"^^xsd:anyURI ;
-  ui:isMemberOf ls:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Opalised wood"@en ;
-  skos:definition "Opalised wood"@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "OW" ;
-  skos:prefLabel "Opalised wood"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:lithology-PU
-  a skos:Concept ;
-  dcterms:description "Pumice"@en ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-PU"^^xsd:anyURI ;
-  ui:isMemberOf ls:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Pumice"@en ;
-  skos:definition "Pumice"@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "PU" ;
-  skos:prefLabel "Pumice"@en ;
-  skos:topConceptOf asls:land-surface ;
-.
-ls:lithology-SS
-  a skos:Concept ;
-  dcterms:description "Shells"@en ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-SS"^^xsd:anyURI ;
-  ui:isMemberOf ls:coarse-fragments-lithology ;
-  rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Shells"@en ;
-  skos:definition "Shells"@en ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "SS" ;
-  skos:prefLabel "Shells"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:coarse-fragments-shape
   a skos:Collection ;
@@ -1086,12 +1008,30 @@ ls:coarse-fragments-size-7
   skos:prefLabel "Large boulders"@en ;
   skos:topConceptOf asls:land-surface ;
 .
+ls:coarse-fragments-strength
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:description "Strength of coarse fragments is the same as for 'Strength of material. The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/coarse-fragments-strength"^^xsd:anyURI ;
+  ui:isMemberOf ls:coarse-fragments ;
+  rdfs:comment "C_CF_STRENGTH"@en ;
+  rdfs:label "Strength of coarse fragments"@en ;
+  skos:altLabel "Strength of material"@en ;
+  skos:definition "Strength of coarse fragments is the same as for 'Strength of material. The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
+  skos:exactMatch subst:material-strength ;
+  skos:member subst:material-strength-M ;
+  skos:member subst:material-strength-S ;
+  skos:member subst:material-strength-VS ;
+  skos:member subst:material-strength-VW ;
+  skos:member subst:material-strength-W ;
+  skos:prefLabel "Strength of coarse fragments"@en ;
+.
 ls:depth-free-water
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dcterms:description "Give depth to free water at the site of soil observation, in metres, either above or below the soil surface, excluding litter and living vegetation. "@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/depth-free-water"^^xsd:anyURI ;
-  ui:topMemberOf asls:land-surface;
+  ui:topMemberOf asls:land-surface ;
   rdfs:label "Depth to free water"@en ;
   skos:definition "Give depth to free water at the site of soil observation, in metres, either above or below the soil surface, excluding litter and living vegetation. "@en ;
   skos:member ls:depth-free-water-0 ;
@@ -1140,7 +1080,7 @@ ls:disturbance-of-site
   a sosa:ObservableProperty ;
   dcterms:description "These are broad categories of disturbance. Users may subdivide where considered necessary."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/disturbance-of-site"^^xsd:anyURI ;
-  ui:topMemberOf asls:land-surface;
+  ui:topMemberOf asls:land-surface ;
   rdfs:label "Disturbance of site"@en ;
   skos:definition "These are broad categories of disturbance. Users may subdivide where considered necessary."@en ;
   skos:member ls:disturbance-of-site-0 ;
@@ -1342,7 +1282,7 @@ ls:elevation
   a sosa:ObservableProperty ;
   dcterms:description "Give in metres above sea-level."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation"^^xsd:anyURI ;
-  ui:topMemberOf asls:land-surface;
+  ui:topMemberOf asls:land-surface ;
   rdfs:label "Elevation in metres above sea-level"@en ;
   skos:definition "Give in metres above sea-level."@en ;
   skos:member ls:elevation-evaluation-means ;
@@ -1419,7 +1359,7 @@ ls:erosion
   dcterms:description """This section is concerned with accelerated erosion rather than natural erosion. Natural or geologic erosion is the type and rate of movement of land surface material in its undisturbed natural environment. Accelerated erosion is the more rapid erosion that follows the destruction or loss of protective cover often resulting from people’s influence on the soil, vegetation or landform. It is not always easy to distinguish between accelerated and natural erosion in some landscapes where both are closely interrelated, nor is it always clear whether wind or water is the dominant agent. This is particularly so in the case of scald formation (Warren 1965).
 The complexity of erosion forms creates difficulties in both defining and quantitatively estimating the extent of erosion within the dimensions of the site. Hence, the observer is advised to record the following simple parameters. Assess the erosion observed at the time of the description, not the likelihood of erosion."""@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion"^^xsd:anyURI ;
-  ui:topMemberOf asls:land-surface;
+  ui:topMemberOf asls:land-surface ;
   rdfs:comment "For erosion, aggradation and inundation assessment, the extent of the site is 20 m radius."@en ;
   rdfs:label "Erosion"@en ;
   skos:definition """This section is concerned with accelerated erosion rather than natural erosion. Natural or geologic erosion is the type and rate of movement of land surface material in its undisturbed natural environment. Accelerated erosion is the more rapid erosion that follows the destruction or loss of protective cover often resulting from people’s influence on the soil, vegetation or landform. It is not always easy to distinguish between accelerated and natural erosion in some landscapes where both are closely interrelated, nor is it always clear whether wind or water is the dominant agent. This is particularly so in the case of scald formation (Warren 1965).
@@ -2170,7 +2110,7 @@ ls:inundation
   a skos:Collection ;
   dcterms:description "Inundation includes flooding from over-bank flow, inundation from local runon and overland flow. Although the importance of this information is considerable, in most instances it cannot be assessed at each site. Some evidence may be available from past events, for example accumulation of debris in trees or on fences. Otherwise information is usually obtained from local enquiry."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/inundation"^^xsd:anyURI ;
-  ui:topMemberOf asls:land-surface;
+  ui:topMemberOf asls:land-surface ;
   rdfs:label "Inundation"@en ;
   skos:definition "Inundation includes flooding from over-bank flow, inundation from local runon and overland flow. Although the importance of this information is considerable, in most instances it cannot be assessed at each site. Some evidence may be available from past events, for example accumulation of debris in trees or on fences. Otherwise information is usually obtained from local enquiry."@en ;
   skos:member ls:inundation-depth ;
@@ -2440,12 +2380,90 @@ ls:inundation-runon-velocity-L
   skos:prefLabel "Low velocity <300 mm/s"@en ;
   skos:topConceptOf asls:land-surface ;
 .
+ls:lithology-CC
+  a skos:Concept ;
+  dcterms:description "Charcoal"@en ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-CC"^^xsd:anyURI ;
+  ui:isMemberOf ls:coarse-fragments-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Charcoal"@en ;
+  skos:definition "Charcoal"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "CC" ;
+  skos:prefLabel "Charcoal"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-IS
+  a skos:Concept ;
+  dcterms:description "Ironstone (where not considered of pedogenic origin)"@en ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-IS"^^xsd:anyURI ;
+  ui:isMemberOf ls:coarse-fragments-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Ironstone"@en ;
+  skos:definition "Ironstone (where not considered of pedogenic origin)"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "IS" ;
+  skos:prefLabel "Ironstone"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-OT
+  a skos:Concept ;
+  dcterms:description "Other"@en ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-OT"^^xsd:anyURI ;
+  ui:isMemberOf ls:coarse-fragments-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Other"@en ;
+  skos:definition "Other"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "OT" ;
+  skos:prefLabel "Other"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-OW
+  a skos:Concept ;
+  dcterms:description "Opalised wood"@en ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-OW"^^xsd:anyURI ;
+  ui:isMemberOf ls:coarse-fragments-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Opalised wood"@en ;
+  skos:definition "Opalised wood"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "OW" ;
+  skos:prefLabel "Opalised wood"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-PU
+  a skos:Concept ;
+  dcterms:description "Pumice"@en ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-PU"^^xsd:anyURI ;
+  ui:isMemberOf ls:coarse-fragments-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Pumice"@en ;
+  skos:definition "Pumice"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "PU" ;
+  skos:prefLabel "Pumice"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
+ls:lithology-SS
+  a skos:Concept ;
+  dcterms:description "Shells"@en ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/lithology-SS"^^xsd:anyURI ;
+  ui:isMemberOf ls:coarse-fragments-lithology ;
+  rdfs:comment "C_LITHOLOGY" ;
+  rdfs:label "Shells"@en ;
+  skos:definition "Shells"@en ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "SS" ;
+  skos:prefLabel "Shells"@en ;
+  skos:topConceptOf asls:land-surface ;
+.
 ls:microrelief
   a skos:Collection ;
   a sosa:ObservableProperty ;
   dcterms:description "Microrelief refers to relief up to a few metres about the plane of the land surface. It includes gilgai, hummocky, biotic and other microrelief."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief"^^xsd:anyURI ;
-  ui:topMemberOf asls:land-surface;
+  ui:topMemberOf asls:land-surface ;
   rdfs:label "Microrelief"@en ;
   skos:definition "Microrelief refers to relief up to a few metres about the plane of the land surface. It includes gilgai, hummocky, biotic and other microrelief."@en ;
   skos:member ls:biotic-microrelief ;
@@ -2814,7 +2832,7 @@ ls:rock-outcrop
   a skos:Collection ;
   dcterms:description "This refers to any exposed area of rock that is inferred to be continuous with underlying bedrock."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/rock-outcrop"^^xsd:anyURI ;
-  ui:topMemberOf asls:land-surface;
+  ui:topMemberOf asls:land-surface ;
   rdfs:label "Rock outcrop"@en ;
   skos:definition "This refers to any exposed area of rock that is inferred to be continuous with underlying bedrock."@en ;
   skos:member ls:rock-outcrop-abundance ;
@@ -3007,7 +3025,7 @@ ls:runoff
   a sosa:ObservableProperty ;
   dcterms:description "Runoff is the relative rate at which water runs off the soil surface. It is largely determined by slope, surface cover and soil infiltration rate. "@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/runoff"^^xsd:anyURI ;
-  ui:topMemberOf asls:land-surface;
+  ui:topMemberOf asls:land-surface ;
   rdfs:label "Runoff"@en ;
   skos:definition "Runoff is the relative rate at which water runs off the soil surface. It is largely determined by slope, surface cover and soil infiltration rate. "@en ;
   skos:member ls:runoff-0 ;
