@@ -431,13 +431,13 @@ sp:coarse-fragments-distribution
   dcterms:identifier "http://anzsoil.org/def/au/asls/soil-profile/coarse-fragments-distribution"^^xsd:anyURI ;
   ui:isMemberOf sp:coarse-fragments ;
   rdfs:comment "C_CF_DISTRIBUTION" ;
-  rdfs:label "Coarse fragments distribution"@en ;
+  rdfs:label "Distribution of coarse fragments"@en ;
   skos:definition "Coarse fragments may occur throughout the profile."@en ;
   skos:member sp:coarse-fragments-distribution-D ;
   skos:member sp:coarse-fragments-distribution-R ;
   skos:member sp:coarse-fragments-distribution-S ;
   skos:member sp:coarse-fragments-distribution-U ;
-  skos:prefLabel "Coarse fragments distribution"@en ;
+  skos:prefLabel "Distribution of coarse fragments"@en ;
 .
 sp:coarse-fragments-distribution-D
   a skos:Concept ;
