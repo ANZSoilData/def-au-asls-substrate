@@ -1,0 +1,221 @@
+# baseURI: http://anzsoil.org/def/au/asls/location
+# imports: http://purl.org/dc/elements/1.1/
+# imports: http://purl.org/linked-data/registry
+# imports: http://purl.org/linked-data/registry-ui#
+# imports: http://www.w3.org/ns/sosa/
+
+@prefix asls: <http://anzsoil.org/def/au/asls/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ls: <http://anzsoil.org/def/au/asls/location/> .
+@prefix loc: <http://anzsoil.org/def/au/asls/land-surface/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reg: <http://purl.org/linked-data/registry#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix sp: <http://anzsoil.org/def/au/asls/soil-profile/> .
+@prefix ui: <http://purl.org/linked-data/registry-ui#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+asls:location
+  a owl:Ontology ;
+  a skos:ConceptScheme ;
+  dct:contributor <https://orcid.org/0000-0002-0693-1899> ;
+  dct:contributor <https://orcid.org/0000-0002-3884-3420> ;
+  dct:created "2021-04-07"^^xsd:date ;
+  dct:creator <mailto:asris@csiro.au> ;
+  dct:description """<p>This register contains a machine-readable representation of the classifiers described in chapter 3 <i>Location</i>, by L.J. Gregory, R.C. McDonald and R.F. Isbell in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a>.</p>
+  <p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> and <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>."""^^rdf:HTML ;
+  dct:isFormatOf "<p>Chapter 3 <i>Location</i>, by L.J. Gregory, R.C. McDonald and R.F. Isbell, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a></p>"^^rdf:HTML ;
+  dct:license <http://creativecommons.org/licences/by/4.0> ;
+  dct:modified "2021-04-07"^^xsd:date ;
+  dct:publisher <http://www.publish.csiro.au/> ;
+  dct:rights "copyright CSIRO 2009, 2016, 2018. All rights reserved."@en ;
+  dct:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
+  reg:notation "location"@en ;
+  ui:hierarchyChildProperty skos:member ;
+  ui:hierarchyRootProperty ui:topMemberOf ;
+  rdfs:label "Location classifiers"@en ;
+  rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
+  owl:imports dc: ;
+  owl:imports <http://purl.org/linked-data/registry> ;
+  owl:imports ui: ;
+  owl:imports sosa: ;
+  skos:changeNote """Add explicit identifiers using 
+
+CONSTRUCT {
+	?c dct:identifier ?id.
+}
+WHERE {
+	?c a skos:Collection ;
+	BIND ( strdt( str(?c) , xsd:anyURI ) as ?id )
+}
+"""@en ;
+  skos:hasTopConcept loc:method-R ;
+.
+loc:method
+  a skos:Collection ;
+  dct:description "Record the method used to acquire the coordinates."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/method"^^xsd:anyURI ;
+  ui:topMemberOf loc: ;
+  rdfs:label "Method"@en ;
+  owl:sameAs loc:Method ;
+  skos:definition "Record the method used to acquire the coordinates."@en ;
+  skos:member loc:method-R ;
+  skos:member loc:method-G ;
+  skos:member loc:method-S ;
+  skos:prefLabel "Method"@en ;
+.
+loc:method-R
+  a skos:Concept ;
+  dct:description "Map reference"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/method-R"^^xsd:anyURI ;
+  ui:isMemberOf loc:method ;
+  rdfs:label "Map reference"@en ;
+  skos:definition "Map reference"@en ;
+  skos:inScheme asls:location ;
+  skos:notation "R" ;
+  skos:prefLabel "Map reference"@en ;
+  skos:topConceptOf asls:location ;
+.
+loc:method-G
+  a skos:Concept ;
+  dct:description "GPS"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/method-G"^^xsd:anyURI ;
+  ui:isMemberOf loc:method ;
+  rdfs:label "GPS"@en ;
+  skos:definition "GPS"@en ;
+  skos:inScheme asls:location ;
+  skos:notation "G" ;
+  skos:prefLabel "GPS"@en ;
+  skos:topConceptOf asls:location ;
+.
+loc:method-S
+  a skos:Concept ;
+  dct:description "Survey"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/method-S"^^xsd:anyURI ;
+  ui:isMemberOf loc:method ;
+  rdfs:label "Survey"@en ;
+  skos:definition "Survey"@en ;
+  skos:inScheme asls:location ;
+  skos:notation "S" ;
+  skos:prefLabel "Survey"@en ;
+  skos:topConceptOf asls:location ;
+.
+loc:state-or-territory
+  a skos:Collection ;
+  dct:description "Record the code as follows for the State or Territory in which the site is described. These codes have been changed from McDonald and Isbell (1990)."@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory"^^xsd:anyURI ;
+  ui:topMemberOf loc: ;
+  rdfs:label "State or Territory"@en ;
+  owl:sameAs loc:State-or-Territory ;
+  skos:definition "Record the code as follows for the State or Territory in which the site is described. These codes have been changed from McDonald and Isbell (1990)."@en ;
+  skos:member loc:state-or-territory-1 ;
+  skos:member loc:state-or-territory-2 ;
+  skos:member loc:state-or-territory-3 ;
+  skos:member loc:state-or-territory-4 ;
+  skos:member loc:state-or-territory-5 ;
+  skos:member loc:state-or-territory-6 ;
+  skos:member loc:state-or-territory-7 ;
+  skos:member loc:state-or-territory-8 ;
+  skos:prefLabel "State or Territory"@en ;
+.
+loc:state-or-territory-1
+  a skos:Concept ;
+  dct:description "New South Wales"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-1"^^xsd:anyURI ;
+  ui:isMemberOf loc:state-or-territory ;
+  rdfs:label "NSW"@en ;
+  skos:definition "New South Wales"@en ;
+  skos:inScheme asls:location ;
+  skos:notation "1" ;
+  skos:prefLabel "NSW"@en ;
+  skos:topConceptOf asls:location ;
+.
+loc:state-or-territory-2
+  a skos:Concept ;
+  dct:description "Victoria"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-2"^^xsd:anyURI ;
+  ui:isMemberOf loc:state-or-territory ;
+  rdfs:label "VIC"@en ;
+  skos:definition "Victoria"@en ;
+  skos:inScheme asls:location ;
+  skos:notation "2" ;
+  skos:prefLabel "VIC"@en ;
+  skos:topConceptOf asls:location ;
+.
+loc:state-or-territory-3
+  a skos:Concept ;
+  dct:description "Queensland"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-3"^^xsd:anyURI ;
+  ui:isMemberOf loc:state-or-territory ;
+  rdfs:label "QLD"@en ;
+  skos:definition "Queensland"@en ;
+  skos:inScheme asls:location ;
+  skos:notation "3" ;
+  skos:prefLabel "QLD"@en ;
+  skos:topConceptOf asls:location ;
+.
+loc:state-or-territory-4
+  a skos:Concept ;
+  dct:description "South Australia"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-4"^^xsd:anyURI ;
+  ui:isMemberOf loc:state-or-territory ;
+  rdfs:label "SA"@en ;
+  skos:definition "South Australia"@en ;
+  skos:inScheme asls:location ;
+  skos:notation "4" ;
+  skos:prefLabel "SA"@en ;
+  skos:topConceptOf asls:location ;
+.
+loc:state-or-territory-5
+  a skos:Concept ;
+  dct:description "Western Australia"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-5"^^xsd:anyURI ;
+  ui:isMemberOf loc:state-or-territory ;
+  rdfs:label "WA"@en ;
+  skos:definition "Western Australia"@en ;
+  skos:inScheme asls:location ;
+  skos:notation "5" ;
+  skos:prefLabel "WA"@en ;
+  skos:topConceptOf asls:location ;
+.
+loc:state-or-territory-6
+  a skos:Concept ;
+  dct:description "Tasmania"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-6"^^xsd:anyURI ;
+  ui:isMemberOf loc:state-or-territory ;
+  rdfs:label "TAS"@en ;
+  skos:definition "Tasmania"@en ;
+  skos:inScheme asls:location ;
+  skos:notation "6" ;
+  skos:prefLabel "TAS"@en ;
+  skos:topConceptOf asls:location ;
+.
+loc:state-or-territory-7
+  a skos:Concept ;
+  dct:description "Northern Territory"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-7"^^xsd:anyURI ;
+  ui:isMemberOf loc:state-or-territory ;
+  rdfs:label "NT"@en ;
+  skos:definition "Northern Territory"@en ;
+  skos:inScheme asls:location ;
+  skos:notation "7" ;
+  skos:prefLabel "NT"@en ;
+  skos:topConceptOf asls:location ;
+.
+loc:state-or-territory-8
+  a skos:Concept ;
+  dct:description "Australian Capital Territory"@en ;
+  dct:identifier "http://anzsoil.org/def/au/asls/location/state-or-territory-8"^^xsd:anyURI ;
+  ui:isMemberOf loc:state-or-territory ;
+  rdfs:label "ACT"@en ;
+  skos:definition "Australian Capital Territory"@en ;
+  skos:inScheme asls:location ;
+  skos:notation "8" ;
+  skos:prefLabel "ACT"@en ;
+  skos:topConceptOf asls:location ;
+.
+
