@@ -25,6 +25,7 @@ asls:substrate
 <p>Currently only the lithology and material-strength collections have been implemented.</p>
 <p>This vocabulary deals with materials and masses of earth or rock that do not show pedological development. They are not soils, but typically underlie them. </p>
 <p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>.</p>"""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate"^^xsd:anyURI ;
   dcterms:isFormatOf "<p>Chapter 9 <i>Soil Profile</i>, by R.C. McDonald and R.F. Isbell, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a></p>"^^rdf:HTML ;
   dcterms:license <http://creativecommons.org/licences/by/4.0> ;
   dcterms:modified "2021-04-08"^^xsd:date ;
@@ -1310,8 +1311,8 @@ subst:material
   ui:topMemberOf asls:substrate ;
   rdfs:label "Substrate material"@en ;
   skos:definition "The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
-  skos:member subst:material-strength ;
   skos:member subst:lithology ;
+  skos:member subst:material-strength ;
   skos:prefLabel "Substrate material"@en ;
 .
 subst:material-strength
