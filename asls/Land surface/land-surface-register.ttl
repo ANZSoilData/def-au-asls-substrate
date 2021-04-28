@@ -31,6 +31,7 @@
   dcterms:description """<p>This register contains a machine-readable representation of the classifiers described in chapter 7 <i>Land Surface</i>, by R.C. McDonald, R.F. Isbell and J.G. Speight, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a>.</p>
 <p>Land surface is concerned mainly with surface phenomena affecting land use and soil development that have traditionally been noted at the point of soil observation.</p>
 <p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> and <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>."""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface"^^xsd:anyURI ;
   dcterms:isFormatOf "<p>Chapter 7 <i>Land Surface</i>, by R.C. McDonald, R.F. Isbell and J.G. Speight, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a></p>"^^rdf:HTML ;
   dcterms:license <http://creativecommons.org/licences/by/4.0> ;
   dcterms:modified "2021-04-08"^^xsd:date ;

@@ -24,6 +24,7 @@
   dct:description """<p>This register contains a machine-readable representation of the classifiers described in chapter 5 <i>Landform</i>, by J.G. Speight, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a>.</p>
 <p>In this technique for describing landforms, the whole land surface is viewed as a mosaic of tiles of odd shapes and sizes. The scheme is intended to produce a record of observations rather than inferences.</p>
 <p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>."""^^rdf:HTML ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/landform"^^xsd:anyURI ;
   dcterms:isFormatOf "<p>Chapter 5 <i>Landform</i>, by J.G. Speight, in <a href='https://www.publish.csiro.au/book/5230'>Australian soil and land survey field handbook (3rd edn)</a></p>"^^rdf:HTML ;
   dct:license <http://creativecommons.org/licences/by/4.0> ;
   dct:modified "2019-01-16"^^xsd:date ;
