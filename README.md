@@ -5,5 +5,5 @@ Preparation and maintenance of a machine-readable representation of the classifi
 
 Contact: 
 
-Linda Gregory
+[Linda Gregory](https://orcid.org/0000-0002-0693-1899)
 linda.gregory@csiro.au 
