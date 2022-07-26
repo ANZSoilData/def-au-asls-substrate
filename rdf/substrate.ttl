@@ -41,6 +41,7 @@ This vocabulary deals with materials and masses of earth or rock that do not sho
   rdfs:seeAlso <https://www.publish.csiro.au/book/5230> ;
   owl:imports <http://purl.org/dc/elements/1.1/> ;
   owl:imports sosa: ;
+  skos:changeNote "2022-07-26 - add observable-properties collection" ;
   skos:changeNote "2022-07-26 - removed dcterms:description and rdfs:label - duplicates skos:definition and skos:prefLabel" ;
   skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>.</p>"^^rdf:HTML ;
   skos:hasTopConcept subst:lithology-AC ;
@@ -1128,4 +1129,10 @@ subst:material-strength-W
   skos:definition "25-50 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Shallow cut or scratch, Pick:indents deeply, Hammer (single blow):Shattered into many small fragments"@en ;
   skos:notation "W" ;
   skos:prefLabel "Weak rock"@en ;
+.
+subst:observable-properties
+  a skos:Collection ;
+  skos:member subst:lithology ;
+  skos:member subst:material-strength ;
+  skos:prefLabel "Observable properties of land surface" ;
 .
