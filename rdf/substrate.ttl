@@ -44,105 +44,15 @@ This vocabulary deals with materials and masses of earth or rock that do not sho
   skos:changeNote "2022-07-26 - add observable-properties collection" ;
   skos:changeNote "2022-07-26 - removed dcterms:description and rdfs:label - duplicates skos:definition and skos:prefLabel" ;
   skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>.</p>"^^rdf:HTML ;
-  skos:hasTopConcept subst:lithology-AC ;
-  skos:hasTopConcept subst:lithology-AD ;
-  skos:hasTopConcept subst:lithology-AF ;
-  skos:hasTopConcept subst:lithology-AG ;
-  skos:hasTopConcept subst:lithology-AH ;
-  skos:hasTopConcept subst:lithology-AM ;
-  skos:hasTopConcept subst:lithology-AN ;
-  skos:hasTopConcept subst:lithology-AP ;
-  skos:hasTopConcept subst:lithology-AR ;
-  skos:hasTopConcept subst:lithology-AS ;
-  skos:hasTopConcept subst:lithology-BA ;
-  skos:hasTopConcept subst:lithology-BB ;
-  skos:hasTopConcept subst:lithology-BR ;
-  skos:hasTopConcept subst:lithology-C ;
-  skos:hasTopConcept subst:lithology-CG ;
-  skos:hasTopConcept subst:lithology-CH ;
-  skos:hasTopConcept subst:lithology-CO ;
-  skos:hasTopConcept subst:lithology-CU ;
-  skos:hasTopConcept subst:lithology-DI ;
-  skos:hasTopConcept subst:lithology-DM ;
-  skos:hasTopConcept subst:lithology-DR ;
-  skos:hasTopConcept subst:lithology-FC ;
-  skos:hasTopConcept subst:lithology-GA ;
-  skos:hasTopConcept subst:lithology-GD ;
-  skos:hasTopConcept subst:lithology-GE ;
-  skos:hasTopConcept subst:lithology-GN ;
-  skos:hasTopConcept subst:lithology-GR ;
-  skos:hasTopConcept subst:lithology-GS ;
-  skos:hasTopConcept subst:lithology-GV ;
-  skos:hasTopConcept subst:lithology-GW ;
-  skos:hasTopConcept subst:lithology-GY ;
-  skos:hasTopConcept subst:lithology-HA ;
-  skos:hasTopConcept subst:lithology-HO ;
-  skos:hasTopConcept subst:lithology-IG ;
-  skos:hasTopConcept subst:lithology-JA ;
-  skos:hasTopConcept subst:lithology-KA ;
-  skos:hasTopConcept subst:lithology-KC ;
-  skos:hasTopConcept subst:lithology-KL ;
-  skos:hasTopConcept subst:lithology-KM ;
-  skos:hasTopConcept subst:lithology-KR ;
-  skos:hasTopConcept subst:lithology-KS ;
-  skos:hasTopConcept subst:lithology-LC ;
-  skos:hasTopConcept subst:lithology-LI ;
-  skos:hasTopConcept subst:lithology-M ;
-  skos:hasTopConcept subst:lithology-MB ;
-  skos:hasTopConcept subst:lithology-MD ;
-  skos:hasTopConcept subst:lithology-ME ;
-  skos:hasTopConcept subst:lithology-MG ;
-  skos:hasTopConcept subst:lithology-MI ;
-  skos:hasTopConcept subst:lithology-ML ;
-  skos:hasTopConcept subst:lithology-MS ;
-  skos:hasTopConcept subst:lithology-MU ;
-  skos:hasTopConcept subst:lithology-MY ;
-  skos:hasTopConcept subst:lithology-PC ;
-  skos:hasTopConcept subst:lithology-PE ;
-  skos:hasTopConcept subst:lithology-PG ;
-  skos:hasTopConcept subst:lithology-PH ;
-  skos:hasTopConcept subst:lithology-PL ;
-  skos:hasTopConcept subst:lithology-PO ;
-  skos:hasTopConcept subst:lithology-PY ;
-  skos:hasTopConcept subst:lithology-QP ;
-  skos:hasTopConcept subst:lithology-QS ;
-  skos:hasTopConcept subst:lithology-QU ;
-  skos:hasTopConcept subst:lithology-QZ ;
-  skos:hasTopConcept subst:lithology-R ;
-  skos:hasTopConcept subst:lithology-RB ;
-  skos:hasTopConcept subst:lithology-RH ;
-  skos:hasTopConcept subst:lithology-S ;
-  skos:hasTopConcept subst:lithology-SA ;
-  skos:hasTopConcept subst:lithology-SD ;
-  skos:hasTopConcept subst:lithology-SH ;
-  skos:hasTopConcept subst:lithology-SK ;
-  skos:hasTopConcept subst:lithology-SL ;
-  skos:hasTopConcept subst:lithology-SR ;
-  skos:hasTopConcept subst:lithology-ST ;
-  skos:hasTopConcept subst:lithology-SY ;
-  skos:hasTopConcept subst:lithology-TR ;
-  skos:hasTopConcept subst:lithology-TU ;
-  skos:hasTopConcept subst:lithology-UC ;
-  skos:hasTopConcept subst:lithology-VB ;
-  skos:hasTopConcept subst:lithology-VG ;
-  skos:hasTopConcept subst:lithology-Z ;
-  skos:hasTopConcept subst:lithology-ZS ;
-  skos:hasTopConcept subst:material-strength-M ;
-  skos:hasTopConcept subst:material-strength-S ;
-  skos:hasTopConcept subst:material-strength-VS ;
-  skos:hasTopConcept subst:material-strength-VW ;
-  skos:hasTopConcept subst:material-strength-W ;
   skos:notation "substrate"@en ;
   skos:prefLabel "Substrate classifiers" ;
 .
 subst:lithology
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dcterms:description "Lithological type of rock material and unconsolidated material"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology"^^xsd:anyURI ;
   dcterms:source "\"Table 35 Alphabetical checklist of lithological type of rock material and unconsolidated material.\"" ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Lithology"@en ;
   skos:definition "Lithological type of rock material and unconsolidated material."@en ;
   skos:member subst:lithology-AC ;
   skos:member subst:lithology-AD ;
@@ -227,14 +137,12 @@ subst:lithology
   skos:member subst:lithology-VG ;
   skos:member subst:lithology-Z ;
   skos:member subst:lithology-ZS ;
-  skos:prefLabel "Lithology"@en ;
+  skos:prefLabel "Lithology - enumeration"@en ;
 .
 subst:lithology-AC
   a skos:Concept ;
-  dcterms:description "Alcrete (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-AC"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Alcrete"@en ;
   skos:altLabel "Bauxite"@en ;
   skos:definition "Alcrete (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "AC" ;
@@ -242,830 +150,664 @@ subst:lithology-AC
 .
 subst:lithology-AD
   a skos:Concept ;
-  dcterms:description "Adamellite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-AD"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Adamellite"@en ;
   skos:definition "Adamellite (Igneous rock)"@en ;
   skos:notation "AD" ;
   skos:prefLabel "Adamellite"@en ;
 .
 subst:lithology-AF
   a skos:Concept ;
-  dcterms:description "Ash (fine)  (Unconsolidated material)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-AF"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Ash (fine)"@en ;
   skos:definition "Ash (fine)  (Unconsolidated material)"@en ;
   skos:notation "AF" ;
   skos:prefLabel "Ash (fine)"@en ;
 .
 subst:lithology-AG
   a skos:Concept ;
-  dcterms:description "Agglomerate (Sedimentary rock, pyroclastic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-AG"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Agglomerate"@en ;
   skos:definition "Agglomerate (Sedimentary rock, pyroclastic)"@en ;
   skos:notation "AG" ;
   skos:prefLabel "Agglomerate"@en ;
 .
 subst:lithology-AH
   a skos:Concept ;
-  dcterms:description "Anhydrite (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-AH"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Anhydrite"@en ;
   skos:definition "Anhydrite (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "AH" ;
   skos:prefLabel "Anhydrite"@en ;
 .
 subst:lithology-AM
   a skos:Concept ;
-  dcterms:description "Amphibolite (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-AM"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Amphibolite"@en ;
   skos:definition "Amphibolite (Metamorphic rock)"@en ;
   skos:notation "AM" ;
   skos:prefLabel "Amphibolite"@en ;
 .
 subst:lithology-AN
   a skos:Concept ;
-  dcterms:description "Andesite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-AN"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Andesite"@en ;
   skos:definition "Andesite (Igneous rock)"@en ;
   skos:notation "AN" ;
   skos:prefLabel "Andesite"@en ;
 .
 subst:lithology-AP
   a skos:Concept ;
-  dcterms:description "Aplite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-AP"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Aplite"@en ;
   skos:definition "Aplite (Igneous rock)"@en ;
   skos:notation "AP" ;
   skos:prefLabel "Aplite"@en ;
 .
 subst:lithology-AR
   a skos:Concept ;
-  dcterms:description "Arkose (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-AR"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Arkose"@en ;
   skos:definition "Arkose (Sedimentary rock, detrital)"@en ;
   skos:notation "AR" ;
   skos:prefLabel "Arkose"@en ;
 .
 subst:lithology-AS
   a skos:Concept ;
-  dcterms:description "Ash (sandy)  (Unconsolidated material)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-AS"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Ash (sandy)"@en ;
   skos:definition "Ash (sandy) (Unconsolidated material)"@en ;
   skos:notation "AS" ;
   skos:prefLabel "Ash (sandy)"@en ;
 .
 subst:lithology-BA
   a skos:Concept ;
-  dcterms:description "Basalt (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-BA"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Basalt"@en ;
   skos:definition "Basalt (Igneous rock)"@en ;
   skos:notation "BA" ;
   skos:prefLabel "Basalt"@en ;
 .
 subst:lithology-BB
   a skos:Concept ;
-  dcterms:description "Bombs (volcanic) (Unconsolidated material)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-BB"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Bombs"@en ;
   skos:definition "Bombs (volcanic) (Unconsolidated material)"@en ;
   skos:notation "BB" ;
   skos:prefLabel "Bombs"@en ;
 .
 subst:lithology-BR
   a skos:Concept ;
-  dcterms:description "Breccia (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-BR"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Breccia"@en ;
   skos:definition "Breccia (Sedimentary rock, detrital)"@en ;
   skos:notation "BR" ;
   skos:prefLabel "Breccia"@en ;
 .
 subst:lithology-C
   a skos:Concept ;
-  dcterms:description "Clay (Unconsolidated material)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-C"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Clay"@en ;
   skos:definition "Clay (Unconsolidated material)"@en ;
   skos:notation "C" ;
   skos:prefLabel "Clay"@en ;
 .
 subst:lithology-CG
   a skos:Concept ;
-  dcterms:description "Conglomerate (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-CG"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Conglomerate"@en ;
   skos:definition "Conglomerate (Sedimentary rock, detrital)"@en ;
   skos:notation "CG" ;
   skos:prefLabel "Conglomerate"@en ;
 .
 subst:lithology-CH
   a skos:Concept ;
-  dcterms:description "Chert (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-CH"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Chert"@en ;
   skos:definition "Chert (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "CH" ;
   skos:prefLabel "Chert"@en ;
 .
 subst:lithology-CO
   a skos:Concept ;
-  dcterms:description "Coal (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-CO"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Coal"@en ;
   skos:definition "Coal (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "CO" ;
   skos:prefLabel "Coal"@en ;
 .
 subst:lithology-CU
   a skos:Concept ;
-  dcterms:description "Consolidated rock (Unidentified)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-CU"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Consolidated rock"@en ;
   skos:definition "Consolidated rock (Unidentified)"@en ;
   skos:notation "CU" ;
   skos:prefLabel "Consolidated rock"@en ;
 .
 subst:lithology-DI
   a skos:Concept ;
-  dcterms:description "Diorite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-DI"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Diorite"@en ;
   skos:definition "Diorite (Igneous rock)"@en ;
   skos:notation "DI" ;
   skos:prefLabel "Diorite"@en ;
 .
 subst:lithology-DM
   a skos:Concept ;
-  dcterms:description "Dolomite (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-DM"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Dolomite"@en ;
   skos:definition "Dolomite (Sedimentary rock, detrital)"@en ;
   skos:notation "DM" ;
   skos:prefLabel "Dolomite"@en ;
 .
 subst:lithology-DR
   a skos:Concept ;
-  dcterms:description "Dolerite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-DR"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Dolerite"@en ;
   skos:definition "Dolerite (Igneous rock)"@en ;
   skos:notation "DR" ;
   skos:prefLabel "Dolerite"@en ;
 .
 subst:lithology-FC
   a skos:Concept ;
-  dcterms:description "Ferricrete (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-FC"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Ferricrete"@en ;
   skos:definition "Ferricrete (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "FC" ;
   skos:prefLabel "Ferricrete"@en ;
 .
 subst:lithology-GA
   a skos:Concept ;
-  dcterms:description "Gabbro (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-GA"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Gabbro"@en ;
   skos:definition "Gabbro (Igneous rock)"@en ;
   skos:notation "GA" ;
   skos:prefLabel "Gabbro"@en ;
 .
 subst:lithology-GD
   a skos:Concept ;
-  dcterms:description "Granodiorite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-GD"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Granodiorite"@en ;
   skos:definition "Granodiorite (Igneous rock)"@en ;
   skos:notation "GD" ;
   skos:prefLabel "Granodiorite"@en ;
 .
 subst:lithology-GE
   a skos:Concept ;
-  dcterms:description "Greenstone (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-GE"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Greenstone"@en ;
   skos:definition "Greenstone (Metamorphic rock)"@en ;
   skos:notation "GE" ;
   skos:prefLabel "Greenstone"@en ;
 .
 subst:lithology-GN
   a skos:Concept ;
-  dcterms:description "Granite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-GN"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Granite"@en ;
   skos:definition "Granite (Igneous rock)"@en ;
   skos:notation "GN" ;
   skos:prefLabel "Granite"@en ;
 .
 subst:lithology-GR
   a skos:Concept ;
-  dcterms:description "Granulite (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-GR"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Granulite"@en ;
   skos:definition "Granulite (Metamorphic rock)"@en ;
   skos:notation "GR" ;
   skos:prefLabel "Granulite"@en ;
 .
 subst:lithology-GS
   a skos:Concept ;
-  dcterms:description "Gneiss (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-GS"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Gneiss"@en ;
   skos:definition "Gneiss (Metamorphic rock)"@en ;
   skos:notation "GS" ;
   skos:prefLabel "Gneiss"@en ;
 .
 subst:lithology-GV
   a skos:Concept ;
-  dcterms:description "Gravel (Unconsolidated material)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-GV"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Gravel"@en ;
   skos:definition "Gravel (Unconsolidated material)"@en ;
   skos:notation "GV" ;
   skos:prefLabel "Gravel"@en ;
 .
 subst:lithology-GW
   a skos:Concept ;
-  dcterms:description "Graywacke (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-GW"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Graywacke"@en ;
   skos:definition "Graywacke (Sedimentary rock, detrital)"@en ;
   skos:notation "GW" ;
   skos:prefLabel "Graywacke"@en ;
 .
 subst:lithology-GY
   a skos:Concept ;
-  dcterms:description "Gypsum (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-GY"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Gypsum"@en ;
   skos:definition "Gypsum (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "GY" ;
   skos:prefLabel "Gypsum"@en ;
 .
 subst:lithology-HA
   a skos:Concept ;
-  dcterms:description "Halite (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-HA"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Halite"@en ;
   skos:definition "Halite (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "HA" ;
   skos:prefLabel "Halite"@en ;
 .
 subst:lithology-HO
   a skos:Concept ;
-  dcterms:description "Hornfels (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-HO"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Hornfels"@en ;
   skos:definition "Hornfels (Metamorphic rock)"@en ;
   skos:notation "HO" ;
   skos:prefLabel "Hornfels"@en ;
 .
 subst:lithology-IG
   a skos:Concept ;
-  dcterms:description "Igneous rock (Unidentified)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-IG"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Igneous rock"@en ;
   skos:definition "Igneous rock (Unidentified)"@en ;
   skos:notation "IG" ;
   skos:prefLabel "Igneous rock"@en ;
 .
 subst:lithology-JA
   a skos:Concept ;
-  dcterms:description "Jasper (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-JA"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Jasper"@en ;
   skos:definition "Jasper (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "JA" ;
   skos:prefLabel "Jasper"@en ;
 .
 subst:lithology-KA
   a skos:Concept ;
-  dcterms:description "Calcarenite (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-KA"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Calcarenite"@en ;
   skos:definition "Calcarenite (Sedimentary rock, detrital)"@en ;
   skos:notation "KA" ;
   skos:prefLabel "Calcarenite"@en ;
 .
 subst:lithology-KC
   a skos:Concept ;
-  dcterms:description "Calcrete (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-KC"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Calcrete"@en ;
   skos:definition "Calcrete (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "KC" ;
   skos:prefLabel "Calcrete"@en ;
 .
 subst:lithology-KL
   a skos:Concept ;
-  dcterms:description "Calcilutite (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-KL"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Calcilutite"@en ;
   skos:definition "Calcilutite (Sedimentary rock, detrital)"@en ;
   skos:notation "KL" ;
   skos:prefLabel "Calcilutite"@en ;
 .
 subst:lithology-KM
   a skos:Concept ;
-  dcterms:description "Calcareous mudstone (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-KM"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Calcareous mudstone"@en ;
   skos:definition "Calcareous mudstone (Sedimentary rock, detrital)"@en ;
   skos:notation "KM" ;
   skos:prefLabel "Calcareous mudstone"@en ;
 .
 subst:lithology-KR
   a skos:Concept ;
-  dcterms:description "Calcirudite (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-KR"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Calcirudite"@en ;
   skos:definition "Calcirudite (Sedimentary rock, detrital)"@en ;
   skos:notation "KR" ;
   skos:prefLabel "Calcirudite"@en ;
 .
 subst:lithology-KS
   a skos:Concept ;
-  dcterms:description "Calcareous sand (Unconsolidated material)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-KS"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Calcareous sand"@en ;
   skos:definition "Calcareous sand (Unconsolidated material)"@en ;
   skos:notation "KS" ;
   skos:prefLabel "Calcareous sand"@en ;
 .
 subst:lithology-LC
   a skos:Concept ;
-  dcterms:description "Silcrete (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-LC"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Silcrete"@en ;
   skos:definition "Silcrete (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "LC" ;
   skos:prefLabel "Silcrete"@en ;
 .
 subst:lithology-LI
   a skos:Concept ;
-  dcterms:description "Limestone (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-LI"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Limestone"@en ;
   skos:definition "Limestone (Sedimentary rock, detrital)"@en ;
   skos:notation "LI" ;
   skos:prefLabel "Limestone"@en ;
 .
 subst:lithology-M
   a skos:Concept ;
-  dcterms:description "Lithology is same as the substrate material"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-M"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Same as substrate material"@en ;
   skos:definition "Lithology is same as the substrate material"@en ;
   skos:notation "M" ;
   skos:prefLabel "Same as substrate material"@en ;
 .
 subst:lithology-MB
   a skos:Concept ;
-  dcterms:description "Marble (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-MB"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Marble"@en ;
   skos:definition "Marble (Metamorphic rock)"@en ;
   skos:notation "MB" ;
   skos:prefLabel "Marble"@en ;
 .
 subst:lithology-MD
   a skos:Concept ;
-  dcterms:description "Microdiorite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-MD"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Microdiorite"@en ;
   skos:definition "Microdiorite (Igneous rock)"@en ;
   skos:notation "MD" ;
   skos:prefLabel "Microdiorite"@en ;
 .
 subst:lithology-ME
   a skos:Concept ;
-  dcterms:description "Metamorphic rock (Unidentified)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-ME"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Metamorphic rock"@en ;
   skos:definition "Metamorphic rock (Unidentified)"@en ;
   skos:notation "ME" ;
   skos:prefLabel "Metamorphic rock"@en ;
 .
 subst:lithology-MG
   a skos:Concept ;
-  dcterms:description "Microgranite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-MG"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Microgranite"@en ;
   skos:definition "Microgranite (Igneous rock)"@en ;
   skos:notation "MG" ;
   skos:prefLabel "Microgranite"@en ;
 .
 subst:lithology-MI
   a skos:Concept ;
-  dcterms:description "Migmatite (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-MI"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Migmatite"@en ;
   skos:definition "Migmatite (Metamorphic rock)"@en ;
   skos:notation "MI" ;
   skos:prefLabel "Migmatite"@en ;
 .
 subst:lithology-ML
   a skos:Concept ;
-  dcterms:description "Marl (Unconsolidated material)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-ML"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Marl"@en ;
   skos:definition "Marl (Unconsolidated material)"@en ;
   skos:notation "ML" ;
   skos:prefLabel "Marl"@en ;
 .
 subst:lithology-MS
   a skos:Concept ;
-  dcterms:description "Microsyenite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-MS"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Microsyenite"@en ;
   skos:definition "Microsyenite (Igneous rock)"@en ;
   skos:notation "MS" ;
   skos:prefLabel "Microsyenite"@en ;
 .
 subst:lithology-MU
   a skos:Concept ;
-  dcterms:description "Mudstone (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-MU"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Mudstone"@en ;
   skos:definition "Mudstone (Sedimentary rock, detrital)"@en ;
   skos:notation "MU" ;
   skos:prefLabel "Mudstone"@en ;
 .
 subst:lithology-MY
   a skos:Concept ;
-  dcterms:description "Mylonite (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-MY"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Mylonite"@en ;
   skos:definition "Mylonite (Metamorphic rock)"@en ;
   skos:notation "MY" ;
   skos:prefLabel "Mylonite"@en ;
 .
 subst:lithology-PC
   a skos:Concept ;
-  dcterms:description "Porcellanite (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-PC"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Porcellanite"@en ;
   skos:definition "Porcellanite (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "PC" ;
   skos:prefLabel "Porcellanite"@en ;
 .
 subst:lithology-PE
   a skos:Concept ;
-  dcterms:description "Peridotite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-PE"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Peridotite"@en ;
   skos:definition "Peridotite (Igneous rock)"@en ;
   skos:notation "PE" ;
   skos:prefLabel "Peridotite"@en ;
 .
 subst:lithology-PG
   a skos:Concept ;
-  dcterms:description "Pegmatite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-PG"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Pegmatite"@en ;
   skos:definition "Pegmatite (Igneous rock)"@en ;
   skos:notation "PG" ;
   skos:prefLabel "Pegmatite"@en ;
 .
 subst:lithology-PH
   a skos:Concept ;
-  dcterms:description "Phyllite (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-PH"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Phyllite"@en ;
   skos:definition "Phyllite (Metamorphic rock)"@en ;
   skos:notation "PH" ;
   skos:prefLabel "Phyllite"@en ;
 .
 subst:lithology-PL
   a skos:Concept ;
-  dcterms:description "Phonolite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-PL"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Phonolite"@en ;
   skos:definition "Phonolite (Igneous rock)"@en ;
   skos:notation "PL" ;
   skos:prefLabel "Phonolite"@en ;
 .
 subst:lithology-PO
   a skos:Concept ;
-  dcterms:description "Porphyry (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-PO"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Porphyry"@en ;
   skos:definition "Porphyry (Igneous rock)"@en ;
   skos:notation "PO" ;
   skos:prefLabel "Porphyry"@en ;
 .
 subst:lithology-PY
   a skos:Concept ;
-  dcterms:description "Pyroxenite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-PY"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Pyroxenite"@en ;
   skos:definition "Pyroxenite (Igneous rock)"@en ;
   skos:notation "PY" ;
   skos:prefLabel "Pyroxenite"@en ;
 .
 subst:lithology-QP
   a skos:Concept ;
-  dcterms:description "Quartz porphyry (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-QP"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Quartz porphyry"@en ;
   skos:definition "Quartz porphyry (Igneous rock)"@en ;
   skos:notation "QP" ;
   skos:prefLabel "Quartz porphyry"@en ;
 .
 subst:lithology-QS
   a skos:Concept ;
-  dcterms:description "Quartz sandstone (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-QS"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Quartz sandstone"@en ;
   skos:definition "Quartz sandstone (Sedimentary rock, detrital)"@en ;
   skos:notation "QS" ;
   skos:prefLabel "Quartz sandstone"@en ;
 .
 subst:lithology-QU
   a skos:Concept ;
-  dcterms:description "Quartzite (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-QU"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Quartzite"@en ;
   skos:definition "Quartzite (Metamorphic rock)"@en ;
   skos:notation "QU" ;
   skos:prefLabel "Quartzite"@en ;
 .
 subst:lithology-QZ
   a skos:Concept ;
-  dcterms:description "Quartz (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-QZ"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Quartz"@en ;
   skos:definition "Quartz (Igneous rock)"@en ;
   skos:notation "QZ" ;
   skos:prefLabel "Quartz"@en ;
 .
 subst:lithology-R
   a skos:Concept ;
-  dcterms:description "Lithology is same as the rock outcrop"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-R"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Same as rock outcrop"@en ;
   skos:definition "Lithology is same as the rock outcrop"@en ;
   skos:notation "R" ;
   skos:prefLabel "Same as rock outcrop"@en ;
 .
 subst:lithology-RB
   a skos:Concept ;
-  dcterms:description "Red-brown hardpan (Sedimentary rock, chemical or organic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-RB"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Red-brown hardpan"@en ;
   skos:definition "Red-brown hardpan (Sedimentary rock, chemical or organic)"@en ;
   skos:notation "RB" ;
   skos:prefLabel "Red-brown hardpan"@en ;
 .
 subst:lithology-RH
   a skos:Concept ;
-  dcterms:description "Rhyolite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-RH"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Rhyolite"@en ;
   skos:definition "Rhyolite (Igneous rock)"@en ;
   skos:notation "RH" ;
   skos:prefLabel "Rhyolite"@en ;
 .
 subst:lithology-S
   a skos:Concept ;
-  dcterms:description "Sand (Unconsolidated material)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-S"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Sand"@en ;
   skos:definition "Sand (Unconsolidated material)"@en ;
   skos:notation "S" ;
   skos:prefLabel "Sand"@en ;
 .
 subst:lithology-SA
   a skos:Concept ;
-  dcterms:description "Sandstone (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-SA"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Sandstone"@en ;
   skos:definition "Sandstone (Sedimentary rock, detrital)"@en ;
   skos:notation "SA" ;
   skos:prefLabel "Sandstone"@en ;
 .
 subst:lithology-SD
   a skos:Concept ;
-  dcterms:description "Detrital sedimentary rock (Unidentified)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-SD"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Detrital sedimentary rock"@en ;
   skos:definition "Detrital sedimentary rock (Unidentified)"@en ;
   skos:notation "SD" ;
   skos:prefLabel "Detrital sedimentary rock"@en ;
 .
 subst:lithology-SH
   a skos:Concept ;
-  dcterms:description "Shale (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-SH"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Shale"@en ;
   skos:definition "Shale (Igneous rock)"@en ;
   skos:notation "SH" ;
   skos:prefLabel "Shale"@en ;
 .
 subst:lithology-SK
   a skos:Concept ;
-  dcterms:description "Scoria (Unconsolidated material)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-SK"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Scoria"@en ;
   skos:definition "Scoria (Unconsolidated material)"@en ;
   skos:notation "SK" ;
   skos:prefLabel "Scoria"@en ;
 .
 subst:lithology-SL
   a skos:Concept ;
-  dcterms:description "Slate (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-SL"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Slate"@en ;
   skos:definition "Slate (Sedimentary rock, detrital)"@en ;
   skos:notation "SL" ;
   skos:prefLabel "Slate"@en ;
 .
 subst:lithology-SR
   a skos:Concept ;
-  dcterms:description "Serpentinite (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-SR"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Serpentinite"@en ;
   skos:definition "Serpentinite (Igneous rock)"@en ;
   skos:notation "SR" ;
   skos:prefLabel "Serpentinite"@en ;
 .
 subst:lithology-ST
   a skos:Concept ;
-  dcterms:description "Schist (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-ST"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Schist"@en ;
   skos:definition "Schist (Metamorphic rock)"@en ;
   skos:notation "ST" ;
   skos:prefLabel "Schist"@en ;
 .
 subst:lithology-SY
   a skos:Concept ;
-  dcterms:description "Syenite (Metamorphic rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-SY"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Syenite"@en ;
   skos:definition "Syenite (Metamorphic rock)"@en ;
   skos:notation "SY" ;
   skos:prefLabel "Syenite"@en ;
 .
 subst:lithology-TR
   a skos:Concept ;
-  dcterms:description "Trachyte (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-TR"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Trachyte"@en ;
   skos:definition "Trachyte (Igneous rock)"@en ;
   skos:notation "TR" ;
   skos:prefLabel "Trachyte"@en ;
 .
 subst:lithology-TU
   a skos:Concept ;
-  dcterms:description "Tuff (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-TU"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Tuff"@en ;
   skos:definition "Tuff (Igneous rock)"@en ;
   skos:notation "TU" ;
   skos:prefLabel "Tuff"@en ;
 .
 subst:lithology-UC
   a skos:Concept ;
-  dcterms:description "Unconsolidated material (Unidentified)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-UC"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Unconsolidated material"@en ;
   skos:definition "Unconsolidated material (Unidentified)"@en ;
   skos:notation "UC" ;
   skos:prefLabel "Unconsolidated material"@en ;
 .
 subst:lithology-VB
   a skos:Concept ;
-  dcterms:description "Volcanic breccia (Sedimentary rock, pyroclastic)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-VB"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Volcanic breccia"@en ;
   skos:definition "Volcanic breccia (Sedimentary rock, pyroclastic)"@en ;
   skos:notation "VB" ;
   skos:prefLabel "Volcanic breccia"@en ;
 .
 subst:lithology-VG
   a skos:Concept ;
-  dcterms:description "Volcanic glass (Igneous rock)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-VG"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Volcanic glass"@en ;
   skos:definition "Volcanic glass (Igneous rock)"@en ;
   skos:notation "VG" ;
   skos:prefLabel "Volcanic glass"@en ;
 .
 subst:lithology-Z
   a skos:Concept ;
-  dcterms:description "Silt (Sedimentary rock, detrital)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-Z"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Silt"@en ;
   skos:definition "Silt (Sedimentary rock, detrital)"@en ;
   skos:notation "Z" ;
   skos:prefLabel "Silt"@en ;
 .
 subst:lithology-ZS
   a skos:Concept ;
-  dcterms:description "Siltstone (Unconsolidated material)"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/lithology-ZS"^^xsd:anyURI ;
   rdfs:comment "C_LITHOLOGY" ;
-  rdfs:label "Siltstone"@en ;
   skos:definition "Siltstone (Unconsolidated material)"@en ;
   skos:notation "ZS" ;
   skos:prefLabel "Siltstone"@en ;
 .
 subst:material
   a skos:Collection ;
-  dcterms:description "The properties in this section refer to intact hand-size samples or very small areas of outcrop. In many cases it will be necessary to use a x10 hand lens to determine some of them."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material"^^xsd:anyURI ;
-  rdfs:label "Substrate material"@en ;
-  skos:definition "The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
+  skos:definition "The properties in this section refer to intact hand-size samples or very small areas of outcrop. In many cases it will be necessary to use a x10 hand lens to determine some of them."@en ;
   skos:member subst:lithology ;
   skos:member subst:material-strength ;
   skos:prefLabel "Substrate material"@en ;
@@ -1073,9 +815,7 @@ subst:material
 subst:material-strength
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dcterms:description "The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength"^^xsd:anyURI ;
-  rdfs:label "Strength of material"@en ;
   skos:definition "The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
   skos:member subst:material-strength-M ;
   skos:member subst:material-strength-S ;
@@ -1083,49 +823,39 @@ subst:material-strength
   skos:member subst:material-strength-VW ;
   skos:member subst:material-strength-W ;
   skos:note "These are an exact match to coarse fragments strength in land surface chapter"@en ;
-  skos:prefLabel "Strength of material"@en ;
+  skos:prefLabel "Strength of material - enumeration"@en ;
 .
 subst:material-strength-M
   a skos:Concept ;
-  dcterms:description "50-100 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil or slight mark, Pick:indents shallowly, Hammer (single blow):Breaks readily into a few large and some small fragments"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength-M"^^xsd:anyURI ;
-  rdfs:label "Moderately strong rock"@en ;
   skos:definition "50-100 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil or slight mark, Pick:indents shallowly, Hammer (single blow):Breaks readily into a few large and some small fragments"@en ;
   skos:notation "M" ;
   skos:prefLabel "Moderately strong rock"@en ;
 .
 subst:material-strength-S
   a skos:Concept ;
-  dcterms:description "100-200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Breaks into one or two large fragments"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength-S"^^xsd:anyURI ;
-  rdfs:label "Strong rock"@en ;
   skos:definition "100-200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Breaks into one or two large fragments"@en ;
   skos:notation "S" ;
   skos:prefLabel "Strong rock"@en ;
 .
 subst:material-strength-VS
   a skos:Concept ;
-  dcterms:description ">200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Nil"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength-VS"^^xsd:anyURI ;
-  rdfs:label "Very strong rock"@en ;
   skos:definition ">200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Nil"@en ;
   skos:notation "VS" ;
   skos:prefLabel "Very strong rock"@en ;
 .
 subst:material-strength-VW
   a skos:Concept ;
-  dcterms:description "1-25 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Deep cut, Pick:crumbles, Hammer (single blow):Flattened or powdered"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength-VW"^^xsd:anyURI ;
-  rdfs:label "Very weak rock"@en ;
   skos:definition "1-25 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Deep cut, Pick:crumbles, Hammer (single blow):Flattened or powdered"@en ;
   skos:notation "VW" ;
   skos:prefLabel "Very weak rock"@en ;
 .
 subst:material-strength-W
   a skos:Concept ;
-  dcterms:description "25-50 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Shallow cut or scratch, Pick:indents deeply, Hammer (single blow):Shattered into many small fragments"@en ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength-W"^^xsd:anyURI ;
-  rdfs:label "Weak rock"@en ;
   skos:definition "25-50 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Shallow cut or scratch, Pick:indents deeply, Hammer (single blow):Shattered into many small fragments"@en ;
   skos:notation "W" ;
   skos:prefLabel "Weak rock"@en ;
@@ -1135,4 +865,50 @@ subst:observable-properties
   skos:member subst:lithology ;
   skos:member subst:material-strength ;
   skos:prefLabel "Observable properties of land surface" ;
+.
+subst:observation-type-A
+  a skos:Concept ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/observation-type-A"^^xsd:anyURI ;
+  skos:definition "Auger boring is used to describe the substrate."@en ;
+  skos:notation "A" ;
+  skos:prefLabel "Auger boring"@en ;
+.
+subst:observation-type-C
+  a skos:Concept ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/observation-type-C"^^xsd:anyURI ;
+  skos:definition "The substrate is described from a soil core that it relatively undisturbed."@en ;
+  skos:notation "C" ;
+  skos:prefLabel "Relatively undisturbed soil core"@en ;
+.
+subst:observation-type-E
+  a skos:Concept ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/observation-type-E"^^xsd:anyURI ;
+  skos:definition "An existing vertical exposure (e.g. road cutting) can be used to describe the substrate."@en ;
+  skos:notation "E" ;
+  skos:prefLabel "Existing vertical exposure"@en ;
+.
+subst:observation-type-O
+  a skos:Concept ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/observation-type-O"^^xsd:anyURI ;
+  skos:definition "Outcrop, where presumed continuous with substrate"@en ;
+  skos:notation "O" ;
+  skos:prefLabel "Outcrop"@en ;
+.
+subst:observation-type-P
+  a skos:Concept ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/observation-type-P"^^xsd:anyURI ;
+  skos:definition "The soil pit is one of several types of observation used to describe the substrate."@en ;
+  skos:notation "P" ;
+  skos:prefLabel "Soil pit"@en ;
+.
+subst:type-of-substrate-observation
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/type-of-substrate-observation"^^xsd:anyURI ;
+  skos:definition "The substrate may be described using several types of observation."@en ;
+  skos:member subst:observation-type-A ;
+  skos:member subst:observation-type-C ;
+  skos:member subst:observation-type-E ;
+  skos:member subst:observation-type-O ;
+  skos:member subst:observation-type-P ;
+  skos:prefLabel "Type of substrate observation - enumeration"@en ;
 .
