@@ -1738,7 +1738,9 @@ subst:substrate-genesis-unconsolidated
 subst:substrate-genesis-unweathered
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/substrate-genesis-unweathered"^^xsd:anyURI ;
+  skos:member subst:genesis-ET ;
   skos:member subst:genesis-IG ;
+  skos:member subst:genesis-IN ;
   skos:member subst:genesis-ME ;
   skos:member subst:genesis-PL ;
   skos:member subst:genesis-SC ;
@@ -1829,50 +1831,62 @@ subst:type-of-substrate-observation
   skos:prefLabel "Type of substrate observation - enumeration"@en ;
 .
 <https://anzsoil.org/def/au/property/alteration>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Alteration" ;
 .
 <https://anzsoil.org/def/au/property/confidence>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Confidence that substrate is parent material" ;
 .
 <https://anzsoil.org/def/au/property/discontinuity-spacing>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Spacing of discontinuities" ;
 .
 <https://anzsoil.org/def/au/property/grain-size>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Grain size" ;
 .
 <https://anzsoil.org/def/au/property/lithology>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Lithology"@en ;
 .
 <https://anzsoil.org/def/au/property/material-strength>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Strength of material"@en ;
 .
 <https://anzsoil.org/def/au/property/material-structure>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Structure" ;
 .
 <https://anzsoil.org/def/au/property/mineral-composition>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Mineral composition" ;
 .
 <https://anzsoil.org/def/au/property/observation-depth>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Observation depth" ;
 .
 <https://anzsoil.org/def/au/property/sample-distance>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Substrate-soil distance" ;
 .
 <https://anzsoil.org/def/au/property/substrate-genesis>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Genetic type of substrate masses" ;
 .
 <https://anzsoil.org/def/au/property/texture>
+  a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Texture" ;
 .
