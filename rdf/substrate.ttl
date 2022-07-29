@@ -153,38 +153,37 @@ subst:discontinuity-spacing
 subst:discontinuity-spacing-B
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/discontinuity-spacing-B"^^xsd:anyURI ;
-  skos:definition "blocky; moderately jointed." ;
+  skos:definition "300 mm – 1 m" ;
   skos:notation "B" ;
-  skos:prefLabel """300 mm – 1 m
-""" ;
+  skos:prefLabel "blocky; moderately jointed." ;
 .
 subst:discontinuity-spacing-C
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/discontinuity-spacing-C"^^xsd:anyURI ;
-  skos:definition "crushed or shattered." ;
+  skos:definition "<50 mm" ;
   skos:notation "C" ;
-  skos:prefLabel "<50 mm" ;
+  skos:prefLabel "crushed or shattered." ;
 .
 subst:discontinuity-spacing-F
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/discontinuity-spacing-F"^^xsd:anyURI ;
-  skos:definition "fractured; intensely jointed." ;
+  skos:definition "50-300 mm" ;
   skos:notation "F" ;
-  skos:prefLabel "50-300 mm" ;
+  skos:prefLabel "fractured; intensely jointed." ;
 .
 subst:discontinuity-spacing-M
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/discontinuity-spacing-M"^^xsd:anyURI ;
-  skos:definition "massive; few joints." ;
+  skos:definition "1-3 m" ;
   skos:notation "M" ;
-  skos:prefLabel "1-3 m" ;
+  skos:prefLabel "massive; few joints." ;
 .
 subst:discontinuity-spacing-S
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/discontinuity-spacing-S"^^xsd:anyURI ;
-  skos:definition "solid; virtually unjointed" ;
+  skos:definition ">3 m" ;
   skos:notation "S" ;
-  skos:prefLabel ">3 m" ;
+  skos:prefLabel "solid; virtually unjointed" ;
 .
 subst:genesis-AC
   a skos:Concept ;
@@ -1554,8 +1553,18 @@ subst:mineral-composition-Y
 .
 subst:observable-properties
   a skos:Collection ;
-  skos:member subst:lithology-rock ;
-  skos:member subst:material-strength ;
+  skos:member <https://anzsoil.org/def/au/property/alteration> ;
+  skos:member <https://anzsoil.org/def/au/property/confidence> ;
+  skos:member <https://anzsoil.org/def/au/property/discontinuity-spacing> ;
+  skos:member <https://anzsoil.org/def/au/property/grain-size> ;
+  skos:member <https://anzsoil.org/def/au/property/lithology> ;
+  skos:member <https://anzsoil.org/def/au/property/material-strength> ;
+  skos:member <https://anzsoil.org/def/au/property/material-structure> ;
+  skos:member <https://anzsoil.org/def/au/property/mineral-composition> ;
+  skos:member <https://anzsoil.org/def/au/property/observation-depth> ;
+  skos:member <https://anzsoil.org/def/au/property/sample-distance> ;
+  skos:member <https://anzsoil.org/def/au/property/substrate-genesis> ;
+  skos:member <https://anzsoil.org/def/au/property/texture> ;
   skos:prefLabel "Observable properties of land surface" ;
 .
 subst:observation-depth
@@ -1818,4 +1827,52 @@ subst:type-of-substrate-observation
   skos:member subst:observation-type-O ;
   skos:member subst:observation-type-P ;
   skos:prefLabel "Type of substrate observation - enumeration"@en ;
+.
+<https://anzsoil.org/def/au/property/alteration>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Alteration" ;
+.
+<https://anzsoil.org/def/au/property/confidence>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Confidence that substrate is parent material" ;
+.
+<https://anzsoil.org/def/au/property/discontinuity-spacing>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Spacing of discontinuities" ;
+.
+<https://anzsoil.org/def/au/property/grain-size>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Grain size" ;
+.
+<https://anzsoil.org/def/au/property/lithology>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Lithology"@en ;
+.
+<https://anzsoil.org/def/au/property/material-strength>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Strength of material"@en ;
+.
+<https://anzsoil.org/def/au/property/material-structure>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Structure" ;
+.
+<https://anzsoil.org/def/au/property/mineral-composition>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Mineral composition" ;
+.
+<https://anzsoil.org/def/au/property/observation-depth>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Observation depth" ;
+.
+<https://anzsoil.org/def/au/property/sample-distance>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Substrate-soil distance" ;
+.
+<https://anzsoil.org/def/au/property/substrate-genesis>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Genetic type of substrate masses" ;
+.
+<https://anzsoil.org/def/au/property/texture>
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Texture" ;
 .
