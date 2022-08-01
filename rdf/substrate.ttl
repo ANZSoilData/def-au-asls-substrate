@@ -185,6 +185,31 @@ subst:discontinuity-spacing-S
   skos:notation "S" ;
   skos:prefLabel "solid; virtually unjointed" ;
 .
+subst:genesis
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis"^^xsd:anyURI ;
+  skos:definition """Scheme of classification
+
+Table 37 presents a scheme of classification of soil substrate masses as they are found in soil and land surveys. The main classes represent rock masses not yet weathered, those now being weathered, those transported and deposited but not yet consolidated, and those hardened while still near the surface.
+
+Named classes in this table are defined in the following glossary. Since this is a genetic classification, diagnostic attributes may be hard to specify. Associated landforms should not be used as recognition criteria for observed substrate masses. They can be used to infer the nature of substrate masses that cannot be observed. In the same way, substrate observations should not be used as recognition criteria for landforms.""" ;
+  skos:member subst:genesis-hardened ;
+  skos:member subst:genesis-unconsolidated ;
+  skos:member subst:genesis-unweathered ;
+  skos:member subst:genesis-weathered ;
+  skos:member subst:mass-genetic-type-glossary ;
+  skos:note """Bedrock and regolith zones
+
+The mantle of earth and rock, including weathered rocks and sediments, altered or formed by land surface processes is called the regolith. The underlying zone of rocks formed or altered by deep-seated crustal processes is the bedrock. Regolith and bedrock are regarded here as zones characterised by different processes, rather than as classes of material. The original definition of regolith by Merrill (1897) stresses the latter view and includes only unconsolidated materials.
+
+The depth of the regolith zone ranges from zero, where bedrock outcrops at the surface, to over 100 m in areas of deep weathering (Ollier 1984).
+
+In areas without much sediment, the lower boundary of the regolith is the weathering front (Mabbutt 1961) where features due to weathering first appear. Where sediments are very thick, their lower layers become isolated from land surface processes by their depth and by reduced permeability due to compaction. Here the base of the regolith, which could be called a ‘lithification front’, is where most of the sediments transform to sedimentary rocks. Sedimentary rocks are often folded and faulted but, at least in Australia’s stable environment, most unconsolidated sediments remain flat-lying.
+
+Masses within the regolith zone, in contrast with those within the bedrock zone, tend to have low density, very low strength, and little cohesion between their particles or fragments. Despite Merrill’s definition, not all materials follow this tendency. Strong and cohesive masses (for example ferricrete) may be characteristic of the regolith. On the other hand, some layers of sedimentary rock never become strong. Other rocks are weakened within the bedrock zone by deep-seated processes. Table 36 assigns types of substrate mass to either the regolith zone or the bedrock zone.""" ;
+  skos:prefLabel "Genetic type of substrate masses" ;
+  skos:related <https://anzsoil.org/def/au/property/substrate-genesis> ;
+.
 subst:genesis-AC
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-AC"^^xsd:anyURI ;
@@ -477,6 +502,91 @@ subst:genesis-VO
   skos:definition "igneous rocks solidified after eruption on to the land surface." ;
   skos:notation "VO" ;
   skos:prefLabel "Volcanic rocks" ;
+.
+subst:genesis-hardened
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-hardened"^^xsd:anyURI ;
+  skos:member subst:genesis-hardened-artificially ;
+  skos:member subst:genesis-hardened-chemically ;
+  skos:member subst:genesis-hardened-evaporites ;
+  skos:notation "4" ;
+  skos:prefLabel "Masses hardened in the regolith" ;
+.
+subst:genesis-hardened-artificially
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-hardened-artificially"^^xsd:anyURI ;
+  skos:member subst:genesis-AT ;
+  skos:member subst:genesis-CN ;
+  skos:member subst:genesis-ST ;
+  skos:prefLabel "Artificially hardened materials - enumeration" ;
+.
+subst:genesis-hardened-chemically
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-hardened-chemically"^^xsd:anyURI ;
+  skos:member subst:genesis-AC ;
+  skos:member subst:genesis-FC ;
+  skos:member subst:genesis-KC ;
+  skos:member subst:genesis-LC ;
+  skos:member subst:genesis-PC ;
+  skos:member subst:genesis-RB ;
+  skos:prefLabel "Chemically hardened materials - enumeration" ;
+.
+subst:genesis-hardened-evaporites
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-hardened-evaporites"^^xsd:anyURI ;
+  skos:member subst:genesis-EV ;
+  skos:member subst:genesis-GY ;
+  skos:member subst:genesis-HA ;
+  skos:prefLabel "Evaporites - enumeration" ;
+.
+subst:genesis-unconsolidated
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-unconsolidated"^^xsd:anyURI ;
+  skos:member subst:genesis-AL ;
+  skos:member subst:genesis-BE ;
+  skos:member subst:genesis-CD ;
+  skos:member subst:genesis-CO ;
+  skos:member subst:genesis-ED ;
+  skos:member subst:genesis-ES ;
+  skos:member subst:genesis-FI ;
+  skos:member subst:genesis-GY ;
+  skos:member subst:genesis-LA ;
+  skos:member subst:genesis-LD ;
+  skos:member subst:genesis-LO ;
+  skos:member subst:genesis-MA ;
+  skos:member subst:genesis-MD ;
+  skos:member subst:genesis-PA ;
+  skos:member subst:genesis-SE ;
+  skos:member subst:genesis-SH ;
+  skos:member subst:genesis-TI ;
+  skos:member subst:genesis-VA ;
+  skos:notation "3" ;
+  skos:prefLabel "Sediments (unconsolidated) - enumeration" ;
+.
+subst:genesis-unweathered
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-unweathered"^^xsd:anyURI ;
+  skos:member subst:genesis-ET ;
+  skos:member subst:genesis-IG ;
+  skos:member subst:genesis-IN ;
+  skos:member subst:genesis-ME ;
+  skos:member subst:genesis-PL ;
+  skos:member subst:genesis-SC ;
+  skos:member subst:genesis-SD ;
+  skos:member subst:genesis-SP ;
+  skos:member subst:genesis-SR ;
+  skos:member subst:genesis-VO ;
+  skos:notation "1" ;
+  skos:prefLabel "Unweathered rocks of the bedrock zone - enumeration" ;
+.
+subst:genesis-weathered
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-weathered"^^xsd:anyURI ;
+  skos:member subst:genesis-DR ;
+  skos:member subst:genesis-PW ;
+  skos:member subst:genesis-SA ;
+  skos:notation "2" ;
+  skos:prefLabel "Weathered rocks - enumeration" ;
 .
 subst:grain-size
   a skos:Collection ;
@@ -1356,6 +1466,73 @@ subst:lithology-unconsolidated
   skos:member subst:lithology-Z ;
   skos:prefLabel "Lithological type- unconsolidated material - enumeration"@en ;
 .
+subst:mass
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mass"^^xsd:anyURI ;
+  skos:definition "These properties generally require observation of a near-vertical face 1 m2 or more in area." ;
+  skos:member subst:alteration ;
+  skos:member subst:discontinuity-spacing ;
+  skos:prefLabel "Properties of substrate masses" ;
+.
+subst:mass-genetic-type-glossary
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mass-genetic-type-glossary"^^xsd:anyURI ;
+  skos:member subst:genesis-AC ;
+  skos:member subst:genesis-AL ;
+  skos:member subst:genesis-BE ;
+  skos:member subst:genesis-CD ;
+  skos:member subst:genesis-CN ;
+  skos:member subst:genesis-CO ;
+  skos:member subst:genesis-DR ;
+  skos:member subst:genesis-ED ;
+  skos:member subst:genesis-ES ;
+  skos:member subst:genesis-ET ;
+  skos:member subst:genesis-EV ;
+  skos:member subst:genesis-FC ;
+  skos:member subst:genesis-FI ;
+  skos:member subst:genesis-GY ;
+  skos:member subst:genesis-HA ;
+  skos:member subst:genesis-IG ;
+  skos:member subst:genesis-IN ;
+  skos:member subst:genesis-KC ;
+  skos:member subst:genesis-LA ;
+  skos:member subst:genesis-LC ;
+  skos:member subst:genesis-LD ;
+  skos:member subst:genesis-LO ;
+  skos:member subst:genesis-MA ;
+  skos:member subst:genesis-MD ;
+  skos:member subst:genesis-ME ;
+  skos:member subst:genesis-PA ;
+  skos:member subst:genesis-PC ;
+  skos:member subst:genesis-PL ;
+  skos:member subst:genesis-PW ;
+  skos:member subst:genesis-RB ;
+  skos:member subst:genesis-SA ;
+  skos:member subst:genesis-SC ;
+  skos:member subst:genesis-SD ;
+  skos:member subst:genesis-SE ;
+  skos:member subst:genesis-SH ;
+  skos:member subst:genesis-SP ;
+  skos:member subst:genesis-SR ;
+  skos:member subst:genesis-ST ;
+  skos:member subst:genesis-TI ;
+  skos:member subst:genesis-VA ;
+  skos:member subst:genesis-VO ;
+  skos:prefLabel "Glossary of substrate mass genetic types" ;
+.
+subst:material
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material"^^xsd:anyURI ;
+  skos:definition "The properties in this section refer to intact hand-size samples or very small areas of outcrop. In many cases it will be necessary to use a x10 hand lens to determine some of them."@en ;
+  skos:member subst:grain-size ;
+  skos:member subst:lithology ;
+  skos:member subst:material-strength ;
+  skos:member subst:material-structure ;
+  skos:member subst:mineral-composition ;
+  skos:member subst:porosity ;
+  skos:member subst:texture ;
+  skos:prefLabel "Properties of substrate material"@en ;
+.
 subst:material-strength
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength"^^xsd:anyURI ;
@@ -1650,136 +1827,6 @@ subst:sampling
   skos:member subst:sample-distance ;
   skos:member subst:type-of-substrate-observation ;
   skos:prefLabel "Properties of substrate sampling" ;
-.
-subst:substrate-genesis
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/substrate-genesis"^^xsd:anyURI ;
-  skos:definition """Scheme of classification
-
-Table 37 presents a scheme of classification of soil substrate masses as they are found in soil and land surveys. The main classes represent rock masses not yet weathered, those now being weathered, those transported and deposited but not yet consolidated, and those hardened while still near the surface.
-
-Named classes in this table are defined in the following glossary. Since this is a genetic classification, diagnostic attributes may be hard to specify. Associated landforms should not be used as recognition criteria for observed substrate masses. They can be used to infer the nature of substrate masses that cannot be observed. In the same way, substrate observations should not be used as recognition criteria for landforms.""" ;
-  skos:member subst:substrate-genesis-hardened ;
-  skos:member subst:substrate-genesis-unconsolidated ;
-  skos:member subst:substrate-genesis-unweathered ;
-  skos:member subst:substrate-genesis-weathered ;
-  skos:note """Bedrock and regolith zones
-
-The mantle of earth and rock, including weathered rocks and sediments, altered or formed by land surface processes is called the regolith. The underlying zone of rocks formed or altered by deep-seated crustal processes is the bedrock. Regolith and bedrock are regarded here as zones characterised by different processes, rather than as classes of material. The original definition of regolith by Merrill (1897) stresses the latter view and includes only unconsolidated materials.
-
-The depth of the regolith zone ranges from zero, where bedrock outcrops at the surface, to over 100 m in areas of deep weathering (Ollier 1984).
-
-In areas without much sediment, the lower boundary of the regolith is the weathering front (Mabbutt 1961) where features due to weathering first appear. Where sediments are very thick, their lower layers become isolated from land surface processes by their depth and by reduced permeability due to compaction. Here the base of the regolith, which could be called a ‘lithification front’, is where most of the sediments transform to sedimentary rocks. Sedimentary rocks are often folded and faulted but, at least in Australia’s stable environment, most unconsolidated sediments remain flat-lying.
-
-Masses within the regolith zone, in contrast with those within the bedrock zone, tend to have low density, very low strength, and little cohesion between their particles or fragments. Despite Merrill’s definition, not all materials follow this tendency. Strong and cohesive masses (for example ferricrete) may be characteristic of the regolith. On the other hand, some layers of sedimentary rock never become strong. Other rocks are weakened within the bedrock zone by deep-seated processes. Table 36 assigns types of substrate mass to either the regolith zone or the bedrock zone.""" ;
-  skos:prefLabel "Genetic type of substrate masses" ;
-  skos:related <https://anzsoil.org/def/au/property/substrate-genesis> ;
-.
-subst:substrate-genesis-hardened
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/substrate-genesis-hardened"^^xsd:anyURI ;
-  skos:member subst:substrate-genesis-hardened-artificially ;
-  skos:member subst:substrate-genesis-hardened-chemically ;
-  skos:member subst:substrate-genesis-hardened-evaporites ;
-  skos:notation "4" ;
-  skos:prefLabel "Masses hardened in the regolith" ;
-.
-subst:substrate-genesis-hardened-artificially
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/substrate-genesis-hardened-artificially"^^xsd:anyURI ;
-  skos:member subst:genesis-AT ;
-  skos:member subst:genesis-CN ;
-  skos:member subst:genesis-ST ;
-  skos:prefLabel "Artificially hardened materials - enumeration" ;
-.
-subst:substrate-genesis-hardened-chemically
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/substrate-genesis-hardened-chemically"^^xsd:anyURI ;
-  skos:member subst:genesis-AC ;
-  skos:member subst:genesis-FC ;
-  skos:member subst:genesis-KC ;
-  skos:member subst:genesis-LC ;
-  skos:member subst:genesis-PC ;
-  skos:member subst:genesis-RB ;
-  skos:prefLabel "Chemically hardened materials - enumeration" ;
-.
-subst:substrate-genesis-hardened-evaporites
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/substrate-genesis-hardened-evaporites"^^xsd:anyURI ;
-  skos:member subst:genesis-EV ;
-  skos:member subst:genesis-GY ;
-  skos:member subst:genesis-HA ;
-  skos:prefLabel "Evaporites - enumeration" ;
-.
-subst:substrate-genesis-unconsolidated
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/substrate-genesis-unconsolidated"^^xsd:anyURI ;
-  skos:member subst:genesis-AL ;
-  skos:member subst:genesis-BE ;
-  skos:member subst:genesis-CD ;
-  skos:member subst:genesis-CO ;
-  skos:member subst:genesis-ED ;
-  skos:member subst:genesis-ES ;
-  skos:member subst:genesis-FI ;
-  skos:member subst:genesis-GY ;
-  skos:member subst:genesis-LA ;
-  skos:member subst:genesis-LD ;
-  skos:member subst:genesis-LO ;
-  skos:member subst:genesis-MA ;
-  skos:member subst:genesis-MD ;
-  skos:member subst:genesis-PA ;
-  skos:member subst:genesis-SE ;
-  skos:member subst:genesis-SH ;
-  skos:member subst:genesis-TI ;
-  skos:member subst:genesis-VA ;
-  skos:notation "3" ;
-  skos:prefLabel "Sediments (unconsolidated) - enumeration" ;
-.
-subst:substrate-genesis-unweathered
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/substrate-genesis-unweathered"^^xsd:anyURI ;
-  skos:member subst:genesis-ET ;
-  skos:member subst:genesis-IG ;
-  skos:member subst:genesis-IN ;
-  skos:member subst:genesis-ME ;
-  skos:member subst:genesis-PL ;
-  skos:member subst:genesis-SC ;
-  skos:member subst:genesis-SD ;
-  skos:member subst:genesis-SP ;
-  skos:member subst:genesis-SR ;
-  skos:member subst:genesis-VO ;
-  skos:notation "1" ;
-  skos:prefLabel "Unweathered rocks of the bedrock zone - enumeration" ;
-.
-subst:substrate-genesis-weathered
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/substrate-genesis-weathered"^^xsd:anyURI ;
-  skos:member subst:genesis-DR ;
-  skos:member subst:genesis-PW ;
-  skos:member subst:genesis-SA ;
-  skos:notation "2" ;
-  skos:prefLabel "Weathered rocks - enumeration" ;
-.
-subst:substrate-mass
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/substrate-mass"^^xsd:anyURI ;
-  skos:definition "These properties generally require observation of a near-vertical face 1 m2 or more in area." ;
-  skos:member subst:alteration ;
-  skos:member subst:discontinuity-spacing ;
-  skos:prefLabel "Properties of substrate masses" ;
-.
-subst:substrate-material
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/substrate-material"^^xsd:anyURI ;
-  skos:definition "The properties in this section refer to intact hand-size samples or very small areas of outcrop. In many cases it will be necessary to use a x10 hand lens to determine some of them."@en ;
-  skos:member subst:grain-size ;
-  skos:member subst:lithology ;
-  skos:member subst:material-strength ;
-  skos:member subst:material-structure ;
-  skos:member subst:mineral-composition ;
-  skos:member subst:porosity ;
-  skos:member subst:texture ;
-  skos:prefLabel "Properties of substrate material"@en ;
 .
 subst:texture
   a skos:Collection ;
