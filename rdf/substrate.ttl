@@ -1741,6 +1741,7 @@ subst:observable-properties
   skos:member <https://anzsoil.org/def/au/property/observation-depth> ;
   skos:member <https://anzsoil.org/def/au/property/sample-distance> ;
   skos:member <https://anzsoil.org/def/au/property/substrate-genesis> ;
+  skos:member <https://anzsoil.org/def/au/property/substrate-material-strength> ;
   skos:member <https://anzsoil.org/def/au/property/texture> ;
   skos:prefLabel "Observable properties of land surface" ;
 .
@@ -1931,6 +1932,11 @@ subst:type-of-substrate-observation
   a skos:Concept ;
   a sosa:ObservableProperty ;
   skos:prefLabel "Genetic type of substrate masses" ;
+.
+<https://anzsoil.org/def/au/property/substrate-material-strength>
+  a skos:Concept ;
+  a sosa:ObservableProperty ;
+  skos:prefLabel "Strength of material"@en ;
 .
 <https://anzsoil.org/def/au/property/texture>
   a skos:Concept ;
