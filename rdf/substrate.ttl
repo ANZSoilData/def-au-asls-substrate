@@ -39,7 +39,7 @@ The substrate should be observed at the point of the soil profile observation or
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate"^^xsd:anyURI ;
   dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
   dcterms:license <http://creativecommons.org/licences/by/4.0> ;
-  dcterms:modified "2022-07-29"^^xsd:date ;
+  dcterms:modified "2022-09-26"^^xsd:date ;
   dcterms:publisher <http://www.publish.csiro.au/> ;
   dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
   dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
@@ -111,7 +111,7 @@ subst:confidence
   skos:member subst:confidence-doubtful ;
   skos:member subst:confidence-not-parent ;
   skos:member subst:confidence-probable ;
-  skos:prefLabel "Confidence that substrate is parent material" ;
+  skos:prefLabel "Confidence that substrate is parent material - enumeration" ;
   skos:related <https://anzsoil.org/def/au/property/confidence> ;
 .
 subst:confidence-certain
@@ -1743,7 +1743,7 @@ subst:observable-properties
   skos:member <https://anzsoil.org/def/au/property/substrate-genesis> ;
   skos:member <https://anzsoil.org/def/au/property/substrate-material-strength> ;
   skos:member <https://anzsoil.org/def/au/property/texture> ;
-  skos:prefLabel "Observable properties of land surface" ;
+  skos:prefLabel "Observable properties of substrate" ;
 .
 subst:observation-depth
   a skos:Concept ;
@@ -1778,7 +1778,7 @@ subst:observation-type-O
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/observation-type-O"^^xsd:anyURI ;
   skos:definition "Outcrop, where presumed continuous with substrate"@en ;
   skos:notation "O" ;
-  skos:prefLabel "Outcrop"@en ;
+  skos:prefLabel "Substrate outcrop"@en ;
 .
 subst:observation-type-P
   a skos:Concept ;
