@@ -219,6 +219,21 @@ subst:Lithology-unconsolidated
   skos:member subst:lithology-Z ;
   skos:prefLabel "Lithological type- unconsolidated material - enumeration"@en ;
 .
+subst:Material-strength
+  a owl:Class ;
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/Substrate-strength-class"^^xsd:anyURI ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
+  skos:member subst:material-strength-M ;
+  skos:member subst:material-strength-S ;
+  skos:member subst:material-strength-VS ;
+  skos:member subst:material-strength-VW ;
+  skos:member subst:material-strength-W ;
+  skos:note "These are an exact match to coarse fragments strength in land surface chapter"@en ;
+  skos:prefLabel "Strength of substrate material - enumeration"@en ;
+  skos:related <https://anzsoil.org/def/au/property/material-strength> ;
+.
 subst:Rock-alteration
   a owl:Class ;
   a skos:Collection ;
@@ -244,10 +259,10 @@ subst:Rock-genesis-hardened-artificial
   skos:member subst:genesis-ST ;
   skos:prefLabel "Artificially hardened materials - enumeration" ;
 .
-subst:Rock-genesis-hardened-chemically
+subst:Rock-genesis-hardened-chemical
   a owl:Class ;
   a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/Rock-genesis-hardened-chemically"^^xsd:anyURI ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/Rock-genesis-hardened-chemical"^^xsd:anyURI ;
   rdfs:subClassOf skos:Concept ;
   skos:member subst:genesis-AC ;
   skos:member subst:genesis-FC ;
@@ -378,21 +393,6 @@ subst:Substrate-porosity
   skos:member subst:porosity-2 ;
   skos:prefLabel "Porosity - enumeration" ;
 .
-subst:Substrate-strength-class
-  a owl:Class ;
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/Substrate-strength-class"^^xsd:anyURI ;
-  rdfs:subClassOf skos:Concept ;
-  skos:definition "The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
-  skos:member subst:material-strength-M ;
-  skos:member subst:material-strength-S ;
-  skos:member subst:material-strength-VS ;
-  skos:member subst:material-strength-VW ;
-  skos:member subst:material-strength-W ;
-  skos:note "These are an exact match to coarse fragments strength in land surface chapter"@en ;
-  skos:prefLabel "Strength of substrate material - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/material-strength> ;
-.
 subst:Substrate-structure
   a owl:Class ;
   a skos:Collection ;
@@ -518,7 +518,7 @@ subst:discontinuity-spacing-S
   skos:prefLabel "solid; virtually unjointed" ;
 .
 subst:genesis-AC
-  a subst:Rock-genesis-hardened-chemically ;
+  a subst:Rock-genesis-hardened-chemical ;
   a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-AC"^^xsd:anyURI ;
@@ -624,7 +624,7 @@ subst:genesis-EV
   skos:prefLabel "Evaporite" ;
 .
 subst:genesis-FC
-  a subst:Rock-genesis-hardened-chemically ;
+  a subst:Rock-genesis-hardened-chemical ;
   a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-FC"^^xsd:anyURI ;
@@ -679,7 +679,7 @@ subst:genesis-IN
   skos:prefLabel "Ignimbrite" ;
 .
 subst:genesis-KC
-  a subst:Rock-genesis-hardened-chemically ;
+  a subst:Rock-genesis-hardened-chemical ;
   a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-KC"^^xsd:anyURI ;
@@ -697,7 +697,7 @@ subst:genesis-LA
   skos:prefLabel "Lacustrine sediment" ;
 .
 subst:genesis-LC
-  a subst:Rock-genesis-hardened-chemically ;
+  a subst:Rock-genesis-hardened-chemical ;
   a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-LC"^^xsd:anyURI ;
@@ -760,7 +760,7 @@ subst:genesis-PA
   skos:prefLabel "Parna" ;
 .
 subst:genesis-PC
-  a subst:Rock-genesis-hardened-chemically ;
+  a subst:Rock-genesis-hardened-chemical ;
   a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-PC"^^xsd:anyURI ;
@@ -787,7 +787,7 @@ subst:genesis-PW
   skos:prefLabel "Partially weathered rock" ;
 .
 subst:genesis-RB
-  a subst:Rock-genesis-hardened-chemically ;
+  a subst:Rock-genesis-hardened-chemical ;
   a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-RB"^^xsd:anyURI ;
@@ -898,7 +898,7 @@ subst:genesis-hardened
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-hardened"^^xsd:anyURI ;
   skos:member subst:Rock-genesis-hardened-artificial ;
-  skos:member subst:Rock-genesis-hardened-chemically ;
+  skos:member subst:Rock-genesis-hardened-chemical ;
   skos:member subst:Rock-genesis-hardened-evaporite ;
   skos:notation "4" ;
   skos:prefLabel "Masses hardened in the regolith" ;
@@ -1819,16 +1819,16 @@ subst:material
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material"^^xsd:anyURI ;
   skos:definition "The properties in this section refer to intact hand-size samples or very small areas of outcrop. In many cases it will be necessary to use a x10 hand lens to determine some of them."@en ;
   skos:member subst:Field-texture ;
+  skos:member subst:Material-strength ;
   skos:member subst:Substrate-grain-size ;
   skos:member subst:Substrate-mineral-composition ;
   skos:member subst:Substrate-porosity ;
-  skos:member subst:Substrate-strength-class ;
   skos:member subst:Substrate-structure ;
   skos:member subst:lithology ;
   skos:prefLabel "Properties of substrate material"@en ;
 .
 subst:material-strength-M
-  a subst:Substrate-strength-class ;
+  a subst:Material-strength ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength-M"^^xsd:anyURI ;
   skos:definition "50-100 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil or slight mark, Pick:indents shallowly, Hammer (single blow):Breaks readily into a few large and some small fragments"@en ;
@@ -1836,7 +1836,7 @@ subst:material-strength-M
   skos:prefLabel "Moderately strong rock"@en ;
 .
 subst:material-strength-S
-  a subst:Substrate-strength-class ;
+  a subst:Material-strength ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength-S"^^xsd:anyURI ;
   skos:definition "100-200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Breaks into one or two large fragments"@en ;
@@ -1844,7 +1844,7 @@ subst:material-strength-S
   skos:prefLabel "Strong rock"@en ;
 .
 subst:material-strength-VS
-  a subst:Substrate-strength-class ;
+  a subst:Material-strength ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength-VS"^^xsd:anyURI ;
   skos:definition ">200 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Nil, Pick:Nil, Hammer (single blow):Nil"@en ;
@@ -1852,7 +1852,7 @@ subst:material-strength-VS
   skos:prefLabel "Very strong rock"@en ;
 .
 subst:material-strength-VW
-  a subst:Substrate-strength-class ;
+  a subst:Material-strength ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength-VW"^^xsd:anyURI ;
   skos:definition "1-25 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Deep cut, Pick:crumbles, Hammer (single blow):Flattened or powdered"@en ;
@@ -1860,7 +1860,7 @@ subst:material-strength-VW
   skos:prefLabel "Very weak rock"@en ;
 .
 subst:material-strength-W
-  a subst:Substrate-strength-class ;
+  a subst:Material-strength ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material-strength-W"^^xsd:anyURI ;
   skos:definition "25-50 MPa based on field estimate of strength class after striking or cutting the rock material - Knife:Shallow cut or scratch, Pick:indents deeply, Hammer (single blow):Shattered into many small fragments"@en ;
