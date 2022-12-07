@@ -38,7 +38,7 @@ The substrate should be observed at the point of the soil profile observation or
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate"^^xsd:anyURI ;
   dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
   dcterms:license <http://creativecommons.org/licences/by/4.0> ;
-  dcterms:modified "2022-11-23"^^xsd:date ;
+  dcterms:modified "2022-12-07"^^xsd:date ;
   dcterms:publisher <http://www.publish.csiro.au/> ;
   dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
   dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
@@ -50,6 +50,7 @@ The substrate should be observed at the point of the soil profile observation or
   skos:changeNote "2022-07-28 - Completed the rest of the substrate chapter" ;
   skos:changeNote "2022-07-29 - replace `sosa:ObservableProperty` type on enumerations with `skos:related` link to the OP in the domain model" ;
   skos:changeNote "2022-11-23 - Rename collections for consistency with ANSIS" ;
+  skos:changeNote "2022-12-07 - remove observable-properties collection" ;
   skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>.</p>"^^rdf:HTML ;
   skos:notation "substrate"@en ;
   skos:prefLabel "Substrate classifiers" ;
@@ -65,7 +66,6 @@ subst:Confidence
   skos:member subst:confidence-not-parent ;
   skos:member subst:confidence-probable ;
   skos:prefLabel "Confidence that substrate is parent material - enumeration" ;
-  skos:related <https://anzsoil.org/def/au/property/confidence> ;
 .
 subst:Field-texture
   a owl:Class ;
@@ -77,7 +77,6 @@ subst:Field-texture
   skos:member subst:texture-P ;
   skos:member subst:texture-X ;
   skos:prefLabel "Texture - enumeration" ;
-  skos:related <https://anzsoil.org/def/au/property/texture> ;
 .
 subst:Genesis
   a skos:Collection ;
@@ -102,7 +101,6 @@ In areas without much sediment, the lower boundary of the regolith is the weathe
 
 Masses within the regolith zone, in contrast with those within the bedrock zone, tend to have low density, very low strength, and little cohesion between their particles or fragments. Despite Merrill’s definition, not all materials follow this tendency. Strong and cohesive masses (for example ferricrete) may be characteristic of the regolith. On the other hand, some layers of sedimentary rock never become strong. Other rocks are weakened within the bedrock zone by deep-seated processes. Table 36 assigns types of substrate mass to either the regolith zone or the bedrock zone.""" ;
   skos:prefLabel "Genetic type of substrate masses" ;
-  skos:related <https://anzsoil.org/def/au/property/substrate-genesis> ;
 .
 subst:Lithology-rock
   a owl:Class ;
@@ -232,7 +230,6 @@ subst:Material-strength
   skos:member subst:material-strength-W ;
   skos:note "These are an exact match to coarse fragments strength in land surface chapter"@en ;
   skos:prefLabel "Strength of substrate material - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/material-strength> ;
 .
 subst:Rock-alteration
   a owl:Class ;
@@ -247,7 +244,6 @@ subst:Rock-alteration
   skos:member subst:alteration-S ;
   skos:note "In some instances more than one type of alteration may be present, for example the mottled zone of a laterite profile may be both ferruginised and kaolinised. Where both types of alteration occur, record both." ;
   skos:prefLabel "Alteration - enumeration" ;
-  skos:related <https://anzsoil.org/def/au/property/alteration> ;
 .
 subst:Rock-genesis-hardened-artificial
   a owl:Class ;
@@ -349,7 +345,6 @@ subst:Substrate-discontinuity-spacing
   skos:member subst:discontinuity-spacing-M ;
   skos:member subst:discontinuity-spacing-S ;
   skos:prefLabel "Spacing of discontinuities - enumeration" ;
-  skos:related <https://anzsoil.org/def/au/property/discontinuity-spacing> ;
 .
 subst:Substrate-grain-size
   a owl:Class ;
@@ -362,7 +357,6 @@ subst:Substrate-grain-size
   skos:member subst:grain-size-3 ;
   skos:note "* As shown by Figure 15, page 116, these size grade limits agree with the scale of Wentworth (1922), adopted by the United States National Research Council (Pettijohn 1957) and the American Geophysical Union (Lane et al. 1947), and with that of the Massachusetts Institute of Technology, also adopted by the British Standards Institution (1975) and the Standards Association of Australia (1977). The 0.06 mm boundary criterion (strictly 0.063 mm) separating sand and silt differs markedly from the value 0.02 mm of the International Scheme (proposed originally by Atterberg (1905) and accepted by the International Society of Soil Science); the 0.05 mm value of the United States Department of Agriculture (Soil Survey Staff 1975); and the 0.075 mm value of the Unified Soil Classification (Anon. 1953)." ;
   skos:prefLabel "Grain size - enumeration" ;
-  skos:related <https://anzsoil.org/def/au/property/grain-size> ;
 .
 subst:Substrate-mineral-composition
   a owl:Class ;
@@ -381,7 +375,6 @@ subst:Substrate-mineral-composition
   skos:member subst:mineral-composition-S ;
   skos:member subst:mineral-composition-Y ;
   skos:prefLabel "Mineral composition - enumeration" ;
-  skos:related <https://anzsoil.org/def/au/property/mineral-composition> ;
 .
 subst:Substrate-porosity
   a owl:Class ;
@@ -407,7 +400,6 @@ subst:Substrate-structure
   skos:member subst:material-structure-S ;
   skos:member subst:material-structure-V ;
   skos:prefLabel "Structure - enumeration" ;
-  skos:related <https://anzsoil.org/def/au/property/material-structure> ;
 .
 subst:alteration-F
   a subst:Rock-alteration ;
@@ -938,7 +930,6 @@ subst:lithology
 
 Record the rock type only if it is definitely known or is confidently presumed. An alphabetic checklist for types of substrate material, both rocks and unconsolidated materials, is given in Table 35. Only the more common materials are listed. Others can be recorded in free format.""" ;
   skos:prefLabel "Lithology"@en ;
-  skos:related <https://anzsoil.org/def/au/property/lithology> ;
 .
 subst:lithology-AC
   a subst:Lithology-rock ;
@@ -2001,31 +1992,12 @@ subst:mineral-composition-Y
   skos:notation "Y" ;
   skos:prefLabel "Gypsum" ;
 .
-subst:observable-properties
-  a skos:Collection ;
-  rdfs:subClassOf skos:Concept ;
-  skos:member <https://anzsoil.org/def/au/property/alteration> ;
-  skos:member <https://anzsoil.org/def/au/property/confidence> ;
-  skos:member <https://anzsoil.org/def/au/property/discontinuity-spacing> ;
-  skos:member <https://anzsoil.org/def/au/property/grain-size> ;
-  skos:member <https://anzsoil.org/def/au/property/lithology> ;
-  skos:member <https://anzsoil.org/def/au/property/material-strength> ;
-  skos:member <https://anzsoil.org/def/au/property/material-structure> ;
-  skos:member <https://anzsoil.org/def/au/property/mineral-composition> ;
-  skos:member <https://anzsoil.org/def/au/property/observation-depth> ;
-  skos:member <https://anzsoil.org/def/au/property/sample-distance> ;
-  skos:member <https://anzsoil.org/def/au/property/substrate-genesis> ;
-  skos:member <https://anzsoil.org/def/au/property/substrate-material-strength> ;
-  skos:member <https://anzsoil.org/def/au/property/texture> ;
-  skos:prefLabel "Observable properties of substrate" ;
-.
 subst:observation-depth
   a subst:sampling ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/observation-depth"^^xsd:anyURI ;
   skos:definition "Measure or estimate, in metres, the depth of the point of observation of substrate material below the land surface." ;
   skos:prefLabel "Observation depth" ;
-  skos:related <https://anzsoil.org/def/au/property/observation-depth> ;
 .
 subst:observation-type-A
   a subst:type-of-substrate-observation ;
@@ -2093,7 +2065,6 @@ subst:sample-distance
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/sample-distance"^^xsd:anyURI ;
   skos:definition "Estimate the distance in metres of the point of observation of substrate material from the point of soil observation."@en ;
   skos:prefLabel "Substrate-soil distance" ;
-  skos:related <https://anzsoil.org/def/au/property/sample-distance> ;
 .
 subst:sampling
   a skos:Collection ;
@@ -2149,68 +2120,4 @@ subst:type-of-substrate-observation
   skos:member subst:observation-type-P ;
   skos:prefLabel "Type of substrate observation - enumeration"@en ;
 .
-<https://anzsoil.org/def/au/property/alteration>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Alteration" ;
-.
-<https://anzsoil.org/def/au/property/confidence>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Confidence that substrate is parent material" ;
-.
-<https://anzsoil.org/def/au/property/discontinuity-spacing>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Spacing of discontinuities" ;
-.
-<https://anzsoil.org/def/au/property/grain-size>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Grain size" ;
-.
-<https://anzsoil.org/def/au/property/lithology>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Lithology"@en ;
-.
-<https://anzsoil.org/def/au/property/material-strength>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Strength of material"@en ;
-.
-<https://anzsoil.org/def/au/property/material-structure>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Structure" ;
-.
-<https://anzsoil.org/def/au/property/mineral-composition>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Mineral composition" ;
-.
-<https://anzsoil.org/def/au/property/observation-depth>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Observation depth" ;
-.
-<https://anzsoil.org/def/au/property/sample-distance>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Substrate-soil distance" ;
-.
-<https://anzsoil.org/def/au/property/substrate-genesis>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Genetic type of substrate masses" ;
-.
-<https://anzsoil.org/def/au/property/substrate-material-strength>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Strength of material"@en ;
-.
-<https://anzsoil.org/def/au/property/texture>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Texture" ;
-.
+
