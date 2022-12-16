@@ -38,7 +38,7 @@ The substrate should be observed at the point of the soil profile observation or
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate"^^xsd:anyURI ;
   dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
   dcterms:license <http://creativecommons.org/licences/by/4.0> ;
-  dcterms:modified "2022-12-07"^^xsd:date ;
+  dcterms:modified "2022-12-16"^^xsd:date ;
   dcterms:publisher <http://www.publish.csiro.au/> ;
   dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
   dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
@@ -86,11 +86,11 @@ subst:Genesis
 Table 37 presents a scheme of classification of soil substrate masses as they are found in soil and land surveys. The main classes represent rock masses not yet weathered, those now being weathered, those transported and deposited but not yet consolidated, and those hardened while still near the surface.
 
 Named classes in this table are defined in the following glossary. Since this is a genetic classification, diagnostic attributes may be hard to specify. Associated landforms should not be used as recognition criteria for observed substrate masses. They can be used to infer the nature of substrate masses that cannot be observed. In the same way, substrate observations should not be used as recognition criteria for landforms.""" ;
+  skos:member subst:Mass-genetic-type ;
   skos:member subst:Rock-genesis-sediments ;
   skos:member subst:Rock-genesis-unweathered ;
   skos:member subst:Rock-genesis-weathered ;
   skos:member subst:genesis-hardened ;
-  skos:member subst:mass-genetic-type-glossary ;
   skos:note """Bedrock and regolith zones
 
 The mantle of earth and rock, including weathered rocks and sediments, altered or formed by land surface processes is called the regolith. The underlying zone of rocks formed or altered by deep-seated crustal processes is the bedrock. Regolith and bedrock are regarded here as zones characterised by different processes, rather than as classes of material. The original definition of regolith by Merrill (1897) stresses the latter view and includes only unconsolidated materials.
@@ -216,6 +216,19 @@ subst:Lithology-unconsolidated
   skos:member subst:lithology-SN ;
   skos:member subst:lithology-Z ;
   skos:prefLabel "Lithological type- unconsolidated material - enumeration"@en ;
+.
+subst:Mass-genetic-type
+  a owl:Class ;
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mass-genetic-type-glossary"^^xsd:anyURI ;
+  rdfs:subClassOf skos:Concept ;
+  skos:member subst:Rock-genesis-hardened-artificial ;
+  skos:member subst:Rock-genesis-hardened-chemical ;
+  skos:member subst:Rock-genesis-hardened-evaporite ;
+  skos:member subst:Rock-genesis-sediments ;
+  skos:member subst:Rock-genesis-unweathered ;
+  skos:member subst:Rock-genesis-weathered ;
+  skos:prefLabel "Glossary of substrate mass genetic types" ;
 .
 subst:Material-strength
   a owl:Class ;
@@ -510,8 +523,8 @@ subst:discontinuity-spacing-S
   skos:prefLabel "solid; virtually unjointed" ;
 .
 subst:genesis-AC
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-hardened-chemical ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-AC"^^xsd:anyURI ;
   skos:definition "indurated material rich in aluminium hydroxides. Commonly consists of cemented pisoliths and usually known as bauxite." ;
@@ -519,8 +532,8 @@ subst:genesis-AC
   skos:prefLabel "Alcrete (bauxite)" ;
 .
 subst:genesis-AL
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-AL"^^xsd:anyURI ;
   skos:definition "sediment mass deposited from transport by channelled stream flow or over-bank stream flow." ;
@@ -535,8 +548,8 @@ subst:genesis-AT
   skos:prefLabel "Other artificially hardened materials" ;
 .
 subst:genesis-BE
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-BE"^^xsd:anyURI ;
   skos:definition "sediment mass deposited from transport by waves or tides at the shore of a sea or lake." ;
@@ -544,8 +557,8 @@ subst:genesis-BE
   skos:prefLabel "Beach sediment" ;
 .
 subst:genesis-CD
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-CD"^^xsd:anyURI ;
   skos:definition "colluvium slowly displaced a short distance downslope as a result of small irregular movements, with the net movement increasing towards the land surface." ;
@@ -553,8 +566,8 @@ subst:genesis-CD
   skos:prefLabel "Creep deposit" ;
 .
 subst:genesis-CN
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-hardened-artificial ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-CN"^^xsd:anyURI ;
   skos:definition "artificial conglomerate rock mass of selected size grade material that has been hardened using Portland cement or other kinds of cement. Concrete is a weak rock (ca. 35 MPa unconfined compressive strength) usually reinforced with steel to increase its tensile strength." ;
@@ -562,8 +575,8 @@ subst:genesis-CN
   skos:prefLabel "Concrete" ;
 .
 subst:genesis-CO
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-CO"^^xsd:anyURI ;
   skos:definition "sediment mass deposited from transport down a slope by gravity (scree), landslide (landslide deposit), mudflow (mudflow deposit), creep (creep deposit) or sheet flow (sheet flow deposit), but not by stream flow. Compared with alluvium, colluvium lacks bedding structure; is more variable in grain size (that is, more poorly sorted); contains much local material; and is generally much more angular. Coarse particles may have particular alignments." ;
@@ -571,8 +584,8 @@ subst:genesis-CO
   skos:prefLabel "Colluvium" ;
 .
 subst:genesis-DR
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-weathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-DR"^^xsd:anyURI ;
   skos:definition "weathered material (typically soft and clay-rich) produced by thorough decomposition of rock masses due to exposure to land surface processes, but with no transport. It generally lacks any structures that may have been present in the unweathered rock (see also saprolite and partially weathered rock)." ;
@@ -580,8 +593,8 @@ subst:genesis-DR
   skos:prefLabel "Decomposed rock" ;
 .
 subst:genesis-ED
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-ED"^^xsd:anyURI ;
   skos:definition "sediment mass deposited from transport by the wind." ;
@@ -589,8 +602,8 @@ subst:genesis-ED
   skos:prefLabel "Eolian sediment" ;
 .
 subst:genesis-ES
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-ES"^^xsd:anyURI ;
   skos:definition "eolian sediment of sand size, often taking the form of dunes, with characteristic bedding structures." ;
@@ -598,8 +611,8 @@ subst:genesis-ES
   skos:prefLabel "Eolian sand" ;
 .
 subst:genesis-ET
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-unweathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-ET"^^xsd:anyURI ;
   skos:definition "consolidated sedimentary rock consisting of clastic material deposited by the wind.* Includes bioclastic calcarenites." ;
@@ -607,8 +620,8 @@ subst:genesis-ET
   skos:prefLabel "Eolianite" ;
 .
 subst:genesis-EV
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-hardened-evaporite ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-EV"^^xsd:anyURI ;
   skos:definition "weak sedimentary rock or sediment formed by the precipitation of solutes from water bodies on the land surface, typically as lacustrine sediments. Includes halite and gypsum." ;
@@ -616,8 +629,8 @@ subst:genesis-EV
   skos:prefLabel "Evaporite" ;
 .
 subst:genesis-FC
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-hardened-chemical ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-FC"^^xsd:anyURI ;
   skos:definition "indurated material rich in hydrated oxides of iron (usually goethite and hematite) occurring as cemented nodules and/or concretions, or as massive sheets. This material has been commonly referred to in local usage around Australia as laterite, duricrust or ironstone." ;
@@ -625,8 +638,8 @@ subst:genesis-FC
   skos:prefLabel "Ferricrete" ;
 .
 subst:genesis-FI
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-FI"^^xsd:anyURI ;
   skos:definition "mass of artificial sediment formed by earth-moving works. Fill is sometimes compacted to the status of a very weak rock mass (stabilised soil), but typically remains an earth mass (Table 36). Garbage forms a very low-density, low-strength fill." ;
@@ -634,9 +647,9 @@ subst:genesis-FI
   skos:prefLabel "Fill" ;
 .
 subst:genesis-GY
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-hardened-evaporite ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-GY"^^xsd:anyURI ;
   skos:definition "evaporite consisting of hydrated calcium sulphate. Non-hydrated calcium sulphate forms closely related masses called anhydrite. It may subsequently be transported by wind as fine crystals and form lunettes or more widespread sedimentary layers blanketing the landscape." ;
@@ -644,8 +657,8 @@ subst:genesis-GY
   skos:prefLabel "Gypsum" ;
 .
 subst:genesis-HA
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-hardened-evaporite ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-HA"^^xsd:anyURI ;
   skos:definition "evaporite consisting of sodium chloride." ;
@@ -653,8 +666,8 @@ subst:genesis-HA
   skos:prefLabel "Halite (rock salt)" ;
 .
 subst:genesis-IG
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-unweathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-IG"^^xsd:anyURI ;
   skos:definition "strong or very strong rock masses formed by solidification of molten rock matter (magma) derived from below the Earth’s surface. The rocks are mainly composed of interlocking crystals. Types are distinguished in Table 34. Plutonic rocks and volcanic rocks are included." ;
@@ -662,8 +675,8 @@ subst:genesis-IG
   skos:prefLabel "Igneous rocks" ;
 .
 subst:genesis-IN
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-unweathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-IN"^^xsd:anyURI ;
   skos:definition "very weak to strong volcanic rock mass deposited from a flow of ash, the stronger forms being welded together by residual heat during deposition." ;
@@ -671,8 +684,8 @@ subst:genesis-IN
   skos:prefLabel "Ignimbrite" ;
 .
 subst:genesis-KC
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-hardened-chemical ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-KC"^^xsd:anyURI ;
   skos:definition "any cemented, terrestrial carbonate accumulation that may vary significantly in morphology and degree of cementation. Also known as carbonate pan, calcareous pan, caliche, kunkar, secondary limestone, travertine. All show slight to strong effervescence with 1-molar HCl." ;
@@ -680,8 +693,8 @@ subst:genesis-KC
   skos:prefLabel "Calcrete" ;
 .
 subst:genesis-LA
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-LA"^^xsd:anyURI ;
   skos:definition "sediment mass deposited from transport by waves and from sediment solution and suspension in still water in a closed depression on land." ;
@@ -689,8 +702,8 @@ subst:genesis-LA
   skos:prefLabel "Lacustrine sediment" ;
 .
 subst:genesis-LC
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-hardened-chemical ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-LC"^^xsd:anyURI ;
   skos:definition "strongly indurated siliceous material cemented by, and largely composed of, forms of silica, including quartz, chalcedony, opal and chert." ;
@@ -698,8 +711,8 @@ subst:genesis-LC
   skos:prefLabel "Silcrete" ;
 .
 subst:genesis-LD
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-LD"^^xsd:anyURI ;
   skos:definition "colluvium rapidly displaced many metres downslope by failure of a mass of earth or rock. If the mass is not already a part of the regolith, the landslide incorporates it in the regolith. Original rock structures are fragmented and disorganised by the action of the landslide." ;
@@ -707,8 +720,8 @@ subst:genesis-LD
   skos:prefLabel "Landslide deposit" ;
 .
 subst:genesis-LO
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-LO"^^xsd:anyURI ;
   skos:definition "eolian sediment of silt size." ;
@@ -716,8 +729,8 @@ subst:genesis-LO
   skos:prefLabel "Loess" ;
 .
 subst:genesis-MA
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-MA"^^xsd:anyURI ;
   skos:definition "sediment mass deposited from transport by waves and from solution and suspension in sea water." ;
@@ -725,8 +738,8 @@ subst:genesis-MA
   skos:prefLabel "Marine sediment" ;
 .
 subst:genesis-MD
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-MD"^^xsd:anyURI ;
   skos:definition "colluvium mixed with water to form dense fluid, and rapidly displaced metres or kilometres downslope. The material is more thoroughly disaggregated than that of a landslide deposit and lacks the bedding and sorting of grain sizes seen in alluvium." ;
@@ -734,8 +747,8 @@ subst:genesis-MD
   skos:prefLabel "Mudflow deposit" ;
 .
 subst:genesis-ME
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-unweathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-ME"^^xsd:anyURI ;
   skos:definition "moderately strong to very strong rock masses formed by the chemical and physical alterations of igneous or sedimentary rocks under high temperatures and/or very high pressures within the Earth’s crust. Types are distinguished in Table 34." ;
@@ -743,8 +756,8 @@ subst:genesis-ME
   skos:prefLabel "Metamorphic rocks" ;
 .
 subst:genesis-PA
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-PA"^^xsd:anyURI ;
   skos:definition "fine-grained calcareous eolian sediment consisting of 30–70% clay." ;
@@ -752,8 +765,8 @@ subst:genesis-PA
   skos:prefLabel "Parna" ;
 .
 subst:genesis-PC
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-hardened-chemical ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-PC"^^xsd:anyURI ;
   skos:definition "dense argillaceous rock of varying degree of silicification with a conchoidal fracture and general appearance of unglazed porcelain." ;
@@ -761,8 +774,8 @@ subst:genesis-PC
   skos:prefLabel "Porcellanite" ;
 .
 subst:genesis-PL
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-unweathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-PL"^^xsd:anyURI ;
   skos:definition "igneous rocks solidified at depth within the Earth’s crust." ;
@@ -770,8 +783,8 @@ subst:genesis-PL
   skos:prefLabel "Plutonic rocks" ;
 .
 subst:genesis-PW
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-weathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-PW"^^xsd:anyURI ;
   skos:definition "weathered material produced by exposure of rock masses to land surface processes but with no transport. Partial decomposition results in changes in colour, texture, composition, strength or form of the parent rock mass (see also decomposed rock and saprolite)." ;
@@ -779,8 +792,8 @@ subst:genesis-PW
   skos:prefLabel "Partially weathered rock" ;
 .
 subst:genesis-RB
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-hardened-chemical ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-RB"^^xsd:anyURI ;
   skos:definition "an informal name used for a particular indurated earthy material (see ‘Pans’, page 143). In many instances it is not known if the red-brown hardpan is a paleosol or a cemented sediment.*" ;
@@ -788,8 +801,8 @@ subst:genesis-RB
   skos:prefLabel "Red-brown hardpan" ;
 .
 subst:genesis-SA
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-weathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-SA"^^xsd:anyURI ;
   skos:definition "a particular form of decomposed rock. It is characterised by the preservation of structures (including ‘texture’ in the petrological sense) that were present in the unweathered rock." ;
@@ -797,8 +810,8 @@ subst:genesis-SA
   skos:prefLabel "Saprolite" ;
 .
 subst:genesis-SC
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-unweathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-SC"^^xsd:anyURI ;
   skos:definition "sedimentary rocks in which mineral grains or fragments are not important constituents. The group includes coal, chert and non-fragmental limestones as well as saline rocks (evaporites) such as halite (rock salt) and gypsum. Chemical and organic sedimentary rocks are common in the regolith zone." ;
@@ -806,8 +819,8 @@ subst:genesis-SC
   skos:prefLabel "Chemical and organic sedimentary rocks" ;
 .
 subst:genesis-SD
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-unweathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-SD"^^xsd:anyURI ;
   skos:definition "sedimentary rocks composed of mineral grains or fragments derived from pre-existing rocks. Types are distinguished in Table 34." ;
@@ -815,8 +828,8 @@ subst:genesis-SD
   skos:prefLabel "Detrital sedimentary rocks" ;
 .
 subst:genesis-SE
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-SE"^^xsd:anyURI ;
   skos:definition "colluvium deposited after falling or rolling from cliffed or steep slopes, consisting of loose rock fragments of gravel size or larger and generally lacking a fine interstitial component." ;
@@ -824,8 +837,8 @@ subst:genesis-SE
   skos:prefLabel "Scree" ;
 .
 subst:genesis-SH
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-SH"^^xsd:anyURI ;
   skos:definition "colluvium deposited from transport by a very shallow flow of water as a sheet, or network of rills on the land surface. Sheet flow deposits are very thin except at the foot of a slope and beneath sheet-flood fans." ;
@@ -833,8 +846,8 @@ subst:genesis-SH
   skos:prefLabel "Sheet flow deposit" ;
 .
 subst:genesis-SP
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-unweathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-SP"^^xsd:anyURI ;
   skos:definition "sedimentary rocks resulting from the deposition of airborne materials produced by volcanic eruptions." ;
@@ -842,8 +855,8 @@ subst:genesis-SP
   skos:prefLabel "Pyroclastic rocks" ;
 .
 subst:genesis-SR
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-unweathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-SR"^^xsd:anyURI ;
   skos:definition "weak or moderately strong rock masses formed by the hardening of sediments due to compaction, recrystallisation or cementation. These processes can occur within the regolith but are promoted by burial within the Earth’s crust. Major categories of sedimentary rocks are detrital sedimentary rocks, pyroclastic rocks, and chemical and organic sedimentary rocks." ;
@@ -851,8 +864,8 @@ subst:genesis-SR
   skos:prefLabel "Sedimentary rocks" ;
 .
 subst:genesis-ST
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-hardened-artificial ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-ST"^^xsd:anyURI ;
   skos:definition "artificial mass with the strength grade of very weak rock. It results from the ‘stabilisation’ of an earth mass by a variety of processes: compaction; the admixture of lime, Portland cement, bitumen or other substances; heating; freezing; or electro-hardening. Cement stabilisation can produce a mass as strong as 10 MPa unconfined compressive strength.*" ;
@@ -860,8 +873,8 @@ subst:genesis-ST
   skos:prefLabel "Stabilised soil" ;
 .
 subst:genesis-TI
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-TI"^^xsd:anyURI ;
   skos:definition "sediment mass deposited from transport in ice, as in a glacier. Till is neither bedded nor sorted; it has a matrix of clay or silt enclosing larger particles of unweathered rock ranging up to large boulders." ;
@@ -869,8 +882,8 @@ subst:genesis-TI
   skos:prefLabel "Till" ;
 .
 subst:genesis-VA
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-sediments ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-VA"^^xsd:anyURI ;
   skos:definition "eolian sediment consisting of relatively fine (<2 mm) pyroclastic material. It often contains a proportion of highly weatherable glass." ;
@@ -878,8 +891,8 @@ subst:genesis-VA
   skos:prefLabel "Volcanic ash" ;
 .
 subst:genesis-VO
+  a subst:Mass-genetic-type ;
   a subst:Rock-genesis-unweathered ;
-  a subst:mass-genetic-type-glossary ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/genesis-VO"^^xsd:anyURI ;
   skos:definition "igneous rocks solidified after eruption on to the land surface." ;
@@ -1757,54 +1770,6 @@ subst:mass
   skos:member subst:Substrate-discontinuity-spacing ;
   skos:prefLabel "Properties of substrate masses" ;
 .
-subst:mass-genetic-type-glossary
-  a owl:Class ;
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/mass-genetic-type-glossary"^^xsd:anyURI ;
-  rdfs:subClassOf skos:Concept ;
-  skos:member subst:genesis-AC ;
-  skos:member subst:genesis-AL ;
-  skos:member subst:genesis-BE ;
-  skos:member subst:genesis-CD ;
-  skos:member subst:genesis-CN ;
-  skos:member subst:genesis-CO ;
-  skos:member subst:genesis-DR ;
-  skos:member subst:genesis-ED ;
-  skos:member subst:genesis-ES ;
-  skos:member subst:genesis-ET ;
-  skos:member subst:genesis-EV ;
-  skos:member subst:genesis-FC ;
-  skos:member subst:genesis-FI ;
-  skos:member subst:genesis-GY ;
-  skos:member subst:genesis-HA ;
-  skos:member subst:genesis-IG ;
-  skos:member subst:genesis-IN ;
-  skos:member subst:genesis-KC ;
-  skos:member subst:genesis-LA ;
-  skos:member subst:genesis-LC ;
-  skos:member subst:genesis-LD ;
-  skos:member subst:genesis-LO ;
-  skos:member subst:genesis-MA ;
-  skos:member subst:genesis-MD ;
-  skos:member subst:genesis-ME ;
-  skos:member subst:genesis-PA ;
-  skos:member subst:genesis-PC ;
-  skos:member subst:genesis-PL ;
-  skos:member subst:genesis-PW ;
-  skos:member subst:genesis-RB ;
-  skos:member subst:genesis-SA ;
-  skos:member subst:genesis-SC ;
-  skos:member subst:genesis-SD ;
-  skos:member subst:genesis-SE ;
-  skos:member subst:genesis-SH ;
-  skos:member subst:genesis-SP ;
-  skos:member subst:genesis-SR ;
-  skos:member subst:genesis-ST ;
-  skos:member subst:genesis-TI ;
-  skos:member subst:genesis-VA ;
-  skos:member subst:genesis-VO ;
-  skos:prefLabel "Glossary of substrate mass genetic types" ;
-.
 subst:material
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/substrate/material"^^xsd:anyURI ;
@@ -2120,4 +2085,3 @@ subst:type-of-substrate-observation
   skos:member subst:observation-type-P ;
   skos:prefLabel "Type of substrate observation - enumeration"@en ;
 .
-
