@@ -7,7 +7,7 @@ authors:
 title: "Machine-readable representation of a the classifiers for Substrate - from Chapter 9 of the Australian soil and land survey field handbook (3rd edn)"
 version: 1.0.0
 doi:  
-url: https://github.com/ANZSoilData/def-au-asls-veg
+url: https://github.com/ANZSoilData/def-au-asls-substrate
 date-released: 2022-12-16
 license: CC0
 license-url: https://creativecommons.org/choose/zero/
