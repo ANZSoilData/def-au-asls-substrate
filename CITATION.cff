@@ -1,15 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+title: >-
+  Machine-readable representation (Resource Description format, RDF) of the classifiers for Substrate - from Chapter 9 of the Australian Soil and Land Survey Field Handbook (3rd edn).
+message: >-
+  If you use this dataset, please cite it using the metadata from this file.
+type: dataset
 authors:
-  - family-names: Cox
-    given-names: Simon
-    orcid: https://orcid.org/0000-0002-3884-3420
-title: "Machine-readable representation of a the classifiers for Substrate - from Chapter 9 of the Australian soil and land survey field handbook (3rd edn)"
-version: 1.0.0
-doi:  
-url: https://github.com/ANZSoilData/substrate
-date-released: 2022-12-16
-license: CC0
-license-url: https://creativecommons.org/choose/zero/
-abstract: >
-  Machine-readable representation of the classifiers described in chapter 9 Substrate, by R.C. McDonald and R.F. Isbell, in Australian soil and land survey field handbook (3rd edn)
+  - given-names: Simon
+    family-names: Cox
+    orcid: 'https://orcid.org/0000-0002-3884-3420'
+repository-code: 'https://github.com/ANZSoilData/def-au-asls-substrate'
+repository: 'https://vocabs.ardc.edu.au'
+abstract: >-
+  Machine-readable representation of the classifiers described in classifiers described in Substrate - from Chapter 9 of the Australian soil and land survey field handbook (3rd edn), by L.J. Gregory, R.C. McDonald and R.F. Isbell in Australian soil and land survey field handbook (3rd edn)
+keywords:
+  - substrate
+  - linked data
+  - vocabularies
+license: CC-BY-1.0
+version: 1.0.1
+date-released: '2025-12-16'
